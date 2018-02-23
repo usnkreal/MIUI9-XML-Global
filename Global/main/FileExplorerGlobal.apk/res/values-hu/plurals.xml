@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="backup_message_wechat_video">
+        <item quantity="other">%1$d WeChat videó le fog járni. Menti az eszköze belsó tárhelyére?</item>
+        <item quantity="one">%1$d WeChat videó le fog járni. Menti az eszköze belsó tárhelyére?</item>
+    </plurals>
+    <plurals name="clockin_day_count">
+        <item quantity="other">%1$s egymás utáni napon jelentkezett be, folytassa!</item>
+        <item quantity="one">%1$s egymás utáni napon jelentkezett be, folytassa!</item>
+    </plurals>
+    <plurals name="clockin_days">
+        <item quantity="other">%1$s egymás utáni napon jelentkezett be</item>
+        <item quantity="one">%1$s egymás utáni napon jelentkezett be</item>
+    </plurals>
+    <plurals name="clockin_new_chip">
+        <item quantity="other">&amp;lt;font color=#faea47>&amp;lt;b>%d&amp;lt;/b>&amp;lt;/font> pontot kapott</item>
+        <item quantity="one">&amp;lt;font color=#faea47>&amp;lt;b>%d&amp;lt;/b>&amp;lt;/font> pontot kapott</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%1$d napja</item>
+        <item quantity="one">%1$d napja</item>
+    </plurals>
+    <plurals name="delete_files_confirm">
+        <item quantity="other">%1$d fájl törlése</item>
+        <item quantity="one">%1$d fájl törlése</item>
+    </plurals>
+    <plurals name="delete_folders_confirm">
+        <item quantity="other">és %1$d mappát?</item>
+        <item quantity="one">és %1$d mappát?</item>
+    </plurals>
+    <plurals name="directory_item_count">
+        <item quantity="other">%d elem</item>
+        <item quantity="one">%d elem</item>
+    </plurals>
+    <plurals name="file_count">
+        <item quantity="other">%1$d elem</item>
+        <item quantity="one">%1$d elem</item>
+    </plurals>
+    <plurals name="follow_count">
+        <item quantity="other">&amp;lt;font color=#fc7050>%d&amp;lt;/font> követő</item>
+        <item quantity="one">&amp;lt;font color=#fc7050>%d&amp;lt;/font> követő</item>
+    </plurals>
+    <plurals name="found_new_files">
+        <item quantity="other">%1$d új fájl található</item>
+        <item quantity="one">%1$d új fájl található</item>
+    </plurals>
+    <plurals name="gems">
+        <item quantity="other">%1$s drágakő</item>
+        <item quantity="one">%1$s drágakő</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%1$d órája</item>
+        <item quantity="one">%1$d órája</item>
+    </plurals>
+    <plurals name="items_picture">
+        <item quantity="other">%1$d elem</item>
+        <item quantity="one">%1$d elem</item>
+    </plurals>
+    <plurals name="mins_ago">
+        <item quantity="other">%1$d perce</item>
+        <item quantity="one">%1$d perce</item>
+    </plurals>
+    <plurals name="more_gems">
+        <item quantity="other">Gyűjtsön további &amp;lt;font color=#fc7050>&amp;lt;b>%d&amp;lt;/b>&amp;lt;/font> drágakövet, hogy részt vehessen a sorsolásban.</item>
+        <item quantity="one">Gyűjtsön további &amp;lt;font color=#fc7050>&amp;lt;b>%d&amp;lt;/b>&amp;lt;/font> drágakövet, hogy részt vehessen a sorsolásban.</item>
+    </plurals>
+    <plurals name="numSelectedFile">
+        <item quantity="other">%1$d elem kiválasztva</item>
+        <item quantity="one">%1$d elem kiválasztva</item>
+    </plurals>
+    <plurals name="number_of_comment_flow">
+        <item quantity="other">%1$s hozzászólás</item>
+        <item quantity="one">%1$s hozzászólás</item>
+    </plurals>
+    <plurals name="original_user_days">
+        <item quantity="other">• &amp;lt;font color=#fc7050>%1$d&amp;lt;/font> nap</item>
+        <item quantity="one">• &amp;lt;font color=#fc7050>%1$d&amp;lt;/font> nap</item>
+    </plurals>
+    <plurals name="original_user_fans">
+        <item quantity="other">• &amp;lt;font color=#fc7050>%1$s&amp;lt;/font> követője van!</item>
+        <item quantity="one">• &amp;lt;font color=#fc7050>%1$s&amp;lt;/font> követője van!</item>
+    </plurals>
+    <plurals name="original_user_play_1">
+        <item quantity="other">• You uploaded &amp;lt;font color=#fc7050>%1$s&amp;lt;/font> videó.</item>
+        <item quantity="one">• You uploaded &amp;lt;font color=#fc7050>%1$s&amp;lt;/font> videó.</item>
+    </plurals>
+    <plurals name="original_user_play_2">
+        <item quantity="other">&amp;lt;font color=#fc7050>%1$s&amp;lt;/font> személyt boldoggá tett!</item>
+        <item quantity="one">&amp;lt;font color=#fc7050>%1$s&amp;lt;/font> személyt boldoggá tett!</item>
+    </plurals>
+    <plurals name="remote_video_update">
+        <item quantity="other">%1$s új videó található</item>
+        <item quantity="one">%1$s új videó található</item>
+    </plurals>
+    <plurals name="search_head_hint_app">
+        <item quantity="other">%2$d elem innen: %1$s</item>
+        <item quantity="one">%2$d elem innen: %1$s</item>
+    </plurals>
+    <plurals name="search_head_hint_file">
+        <item quantity="other">%2$d elem ezzel a kulcsszóval: \"%1$s\"</item>
+        <item quantity="one">%2$d elem ezzel a kulcsszóval: \"%1$s\"</item>
+    </plurals>
+    <plurals name="search_head_hint_tag">
+        <item quantity="other">%2$d elem címkézve ezzel: %1$s</item>
+        <item quantity="one">%2$d elem címkézve ezzel: %1$s</item>
+    </plurals>
+    <plurals name="total_topic_num">
+        <item quantity="other">%1$s téma</item>
+        <item quantity="one">%1$s téma</item>
+    </plurals>
+    <plurals name="total_user_num">
+        <item quantity="other">%1$s személy</item>
+        <item quantity="one">%1$s személy</item>
+    </plurals>
+    <plurals name="user_sign_limt">
+        <item quantity="other">%d karaktert adhat meg</item>
+        <item quantity="one">%d karaktert adhat meg</item>
+    </plurals>
+    <plurals name="video_ad_download_tip">
+        <item quantity="other"> letöltés</item>
+        <item quantity="one"> letöltés</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">&amp;lt;font color=#fc7050>%d&amp;lt;/font> videó</item>
+        <item quantity="one">&amp;lt;font color=#fc7050>%d&amp;lt;/font> videó</item>
+    </plurals>
+    <plurals name="video_items">
+        <item quantity="other"> %1$d elem</item>
+        <item quantity="one"> %1$d elem</item>
+    </plurals>
+    <plurals name="video_play_num">
+        <item quantity="other">%1$s megtekintés</item>
+        <item quantity="one">%1$s megtekintés</item>
+    </plurals>
+    <plurals name="video_publish_watchable_hint">
+        <item quantity="other">%1$d további követő megszerzése, hogy növelje a státuszát</item>
+        <item quantity="one">%1$d további követő megszerzése, hogy növelje a státuszát</item>
+    </plurals>
+</resources>

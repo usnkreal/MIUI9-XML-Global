@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stock_color_schema">
+        <item>적색 - 상한가, 녹색 - 하한가</item>
+        <item>녹색 - 상한가, 적색 - 하한가</item>
+    </string-array>
+    <string-array name="stock_title_schema">
+        <item>하이라이트 이름</item>
+        <item>하이라이트 코드</item>
+    </string-array>
+</resources>

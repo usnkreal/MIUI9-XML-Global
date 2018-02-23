@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_settings_disabled_header_title">
+        <item quantity="other">"%d apps can't show notifications"</item>
+        <item quantity="one">"%d app can't show notifications"</item>
+    </plurals>
+    <plurals name="status_bar_settings_enabled_header_title">
+        <item quantity="other">%d apps can show notifications</item>
+        <item quantity="one">%d app can show notifications</item>
+    </plurals>
+    <plurals name="settings_toggle_position_divider_page">
+        <item quantity="other">%1$d toggles will appear in the Notification shade</item>
+        <item quantity="one">%1$d toggle will appear in the Notification shade</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Nå er du %1$d steg fra å bli utvikler.</item>
+        <item quantity="one">Nå er du %1$d steg fra å bli utvikler.</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">%1$d fingeravtrykk er registrert</item>
+        <item quantity="one">%1$d fingeravtrykk er registrert</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Passordet må inneholde minst %d bokstaver.</item>
+        <item quantity="one">Passordet må inneholde minst én bokstav.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Passordet må inneholde minst %d små bokstaver.</item>
+        <item quantity="one">Passordet må inneholde minst én liten bokstav.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Passordet må inneholde minst %d store bokstaver.</item>
+        <item quantity="one">Passordet må inneholde minst én stor bokstav.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Passordet må inneholde minst %d sifre.</item>
+        <item quantity="one">Passordet må inneholde minst ett siffer.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Passordet må inneholde minst %d spesialtegn.</item>
+        <item quantity="one">Passordet må inneholde minst ett spesialtegn.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Passordet må inneholde minst %d tegn som ikke er bokstaver.</item>
+        <item quantity="one">Passordet må inneholde minst ett tegn som ikke er en bokstav.</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Feil PIN-kode for SIM-kortet. Du har %d forsøk igjen.</item>
+        <item quantity="one">Feil PIN-kode for SIM-kortet. Du har %d forsøk igjen før du må kontakte operatøren din for å låse opp enheten.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d apper kan lese varsler</item>
+        <item quantity="one">%d app kan lese varsler</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Bytt til Bare alarmer i %1$d minutter (til %2$s)</item>
+        <item quantity="one">Bytt til Bare alarmer i ett minutt til %2$s</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Bytt til Bare alarmer i %1$d timer til %2$s</item>
+        <item quantity="one">Bytt til Bare alarmer i én time til %2$s</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d tillatelser er gitt</item>
+        <item quantity="one">%d tillatelse er gitt</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d av %2$d tillatelser er gitt</item>
+        <item quantity="one">%1$d av %2$d tillatelser er gitt</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d flere tillatelser</item>
+        <item quantity="one">%d tillatelse til</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d apper kan åpne de støttede linkene sine</item>
+        <item quantity="one">Én app kan åpne de støttede linkene sine</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">%d apper har tillatelse til å ignorere batterioptimalisering</item>
+        <item quantity="one">1 app har tillatelse til å ignorere batterioptimalisering</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d apper brukte minne i løpet av de siste %2$s</item>
+        <item quantity="one">1 app brukte minne i løpet av de siste %2$s</item>
+    </plurals>
+    <plurals name="virus_scan_app_find_risk">
+        <item quantity="other">%d risks found</item>
+        <item quantity="one">%d risk found</item>
+    </plurals>
+    <plurals name="auto_startup_count">
+        <item quantity="other">%d apps are allowed to autostart</item>
+        <item quantity="one">%d app is allowed to autostart</item>
+    </plurals>
+    <plurals name="lockpassword_pin_fixed_length">
+        <item quantity="other">PIN must be %d digits</item>
+        <item quantity="one">PIN must be %d digit</item>
+    </plurals>
+    <plurals name="wifi_share_count">
+        <item quantity="other">Shared %d networks</item>
+        <item quantity="one">Shared %d network</item>
+    </plurals>
+    <plurals name="connected_devices_number">
+        <item quantity="other">%d devices</item>
+        <item quantity="one">%d device</item>
+    </plurals>
+    <plurals name="free_wifi_connected_count">
+        <item quantity="other">%1$d people connected</item>
+        <item quantity="one">%1$d person connected</item>
+    </plurals>
+    <plurals name="show_pho_countdown">
+        <item quantity="other">"You're %1$d steps away from entering phone info."</item>
+        <item quantity="one">"You're %1$d step away from entering phone info."</item>
+    </plurals>
+    <plurals name="show_cit_countdown">
+        <item quantity="other">"You're %1$d steps away from entering CIT."</item>
+        <item quantity="one">"You're %1$d step away from entering CIT."</item>
+    </plurals>
+    <plurals name="show_rep_countdown">
+        <item quantity="other">"You're %1$d steps away from reporting bug."</item>
+        <item quantity="one">"You're %1$d step away from reporting bug."</item>
+    </plurals>
+    <plurals name="auto_disable_screenbuttons_enabled_header_title">
+        <item quantity="other">Always disable for %d apps</item>
+        <item quantity="one">Always disable for 1 app</item>
+    </plurals>
+    <plurals name="auto_disable_screenbuttons_disabled_header_title">
+        <item quantity="other">Never disable for %d apps</item>
+        <item quantity="one">Never disable for 1 app</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_short">
+        <item quantity="other">PIN must be %d digits long</item>
+        <item quantity="one">PIN must be %d digit long</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_long">
+        <item quantity="other">PIN can contain up to %d digits</item>
+        <item quantity="one">PIN can contain up to %d digit</item>
+    </plurals>
+    <plurals name="lockpattern_recording_incorrect_too_short">
+        <item quantity="other">Connect at least %d dots. Try again.</item>
+        <item quantity="one">Connect at least %d dot. Try again.</item>
+    </plurals>
+    <plurals name="lockpattern_too_many_failed_confirmation_attempts">
+        <item quantity="other">Too many incorrect attempts. Try again in %d seconds.</item>
+        <item quantity="one">Too many incorrect attempts. Try again in %d second.</item>
+    </plurals>
+    <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
+        <item quantity="other">Wait for %d seconds and try again.</item>
+        <item quantity="one">Wait for %d second and try again.</item>
+    </plurals>
+</resources>

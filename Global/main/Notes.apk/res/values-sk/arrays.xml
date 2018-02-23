@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="folder_operations">
+        <item>Premenovať</item>
+        <item>Vymazať</item>
+    </string-array>
+    <string-array name="attachment_chooser">
+        <item>Fotoaparát</item>
+        <item>Galéria</item>
+    </string-array>
+    <string-array name="note_sort_way">
+        <item>Podľa dátumu vytvorenia</item>
+        <item>Podľa dátumu úpravy</item>
+    </string-array>
+    <string-array name="contact_entries">
+        <item>Meno</item>
+        <item>Prezývka</item>
+        <item>Telefón</item>
+        <item>E-mail</item>
+        <item>Organizácia</item>
+        <item>IM</item>
+        <item>SIP Telefón</item>
+        <item>Narodeniny</item>
+        <item>Web</item>
+        <item>Adresa</item>
+        <item>Poznámka</item>
+    </string-array>
+    <string-array name="font_size_names">
+        <item>Malé</item>
+        <item>Stredné</item>
+        <item>Veľké</item>
+        <item>Obrovské</item>
+    </string-array>
+    <string-array name="welcome_notes_content">
+        <item>\"Teraz môžete ľahko zapisovať vaše poznámky, myšlienky a nápady \"</item>
+        <item>\"Pripájať obrázky alebo kontakty \"</item>
+        <item>\"Robiť nákupné zoznamy \"</item>
+        <item>"Vytváranie priečinkov
+Usporiadanie poznámok v priečinkoch.
+Existujú 2 spôsoby vytvorenia priečinka:
+1. Klepnite na ikonu priečinka v pravom hornom rohu a potom klepnite na plus.
+2. Pridržte ponuku, kým sa nezobrazí kontextová ponuka, a vyberte možnosť „Presunúť do“ – „Nový priečinok“."</item>
+        <item>"Skryť poznámky
+Chráňte svoje osobné poznámky heslom.
+Poznámku je možné skryť 2 spôsobmi:
+1. Poklepte na tlačidlo „Viac“ v pravom hornom rohu poznámky a vyberte „Skryť“.
+2. Podržte poznámku, pokiaľ sa nezobrazí miestna ponuka, a vyberte možnosť „Skryť“."</item>
+        <item>"A veľa skvelých funkcií!
+  - Obrázky, kontrolné zoznamy, pripomienky.
+
+Pridať obrázky
+Poklepte na ikonu na spodnom obrázku v poznámke pre pridanie obrázku.
+Môžete vyfotiť nový alebo vybrať niektorý z Galérie.
+Keď poznámka obsahuje obrázok, tento obrázok sa použije ako miniatúra poznámky v režimu zobrazenia mriežky.
+
+Vytvoriť kontrolné zoznamy
+Označovacie pole je nevzhnutným prvkom zoznamu úloh.
+Poklepte na ikonu označovacieho poľa dole v poznámke pre pridanie označovacieho poľa do odstavca s texom.
+Označte jedno políčko hneď, keď je úloha hotová.
+
+Nastaviť pripomienky
+Nastavte pripomienky v poznámkách.
+Poklepte na tlačítko „Viac “ v pravom hornom rohu poznámky a vyberte „Pripoienky, kde nastavíte čas.
+"</item>
+    </string-array>
+    <string-array name="welcome_notes_image">
+        <item>guide_1</item>
+        <item></item>
+        <item>guide_3_1</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+</resources>

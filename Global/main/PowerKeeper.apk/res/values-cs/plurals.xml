@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="select_items">
+        <item quantity="other">Vybráno %1$d položek</item>
+        <item quantity="one">Vybrána %1$d položka</item>
+        <item quantity="few">Vybrány %1$d položky</item>
+    </plurals>
+    <plurals name="app_list_total">
+        <item quantity="other">%d aplikací</item>
+        <item quantity="one">%d aplikace</item>
+        <item quantity="few">%d aplikace</item>
+    </plurals>
+    <plurals name="power_config_ultimate_on_count">
+        <item quantity="other">Ještě %1$d kroků od přepnutí do Agresivního režimu</item>
+        <item quantity="one">Ještě %1$d krok od přepnutí do Agresivního režimu</item>
+        <item quantity="few">Ještě %1$d kroky od přepnutí do Agresivního režimu</item>
+    </plurals>
+    <plurals name="power_config_ultimate_off_count">
+        <item quantity="other">Ješte %1$d kroků od vypnutí Agresivního režimu</item>
+        <item quantity="one">Ješte %1$d krok od vypnutí Agresivního režimu</item>
+        <item quantity="few">Ješte %1$d kroky od vypnutí Agresivního režimu</item>
+    </plurals>
+    <plurals name="power_config_ultimate_unlock_count">
+        <item quantity="other">Dokončete %1$d kroků pro odblokovaní všech položek</item>
+        <item quantity="one">Dokončete %1$d krok pro odblokovaní všech položek</item>
+        <item quantity="few">Dokončete %1$d kroky pro odblokovaní všech položek</item>
+    </plurals>
+</resources>

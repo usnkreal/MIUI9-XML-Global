@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auth_authzen_pull_number_of_google_accounts">
+        <item quantity="other">%d comptes Google</item>
+        <item quantity="one">%d compte Google</item>
+    </plurals>
+    <plurals name="nearby_notification_content">
+        <item quantity="other">Par %1$s et %2$d autres applications</item>
+        <item quantity="one">Par %1$s et %2$d autre application</item>
+    </plurals>
+    <plurals name="contacts_number_local_and_sim">
+        <item quantity="other">%1$d sur la carte SIM, %2$d dans la mémoire locale</item>
+        <item quantity="one">%1$d sur la carte SIM, %2$d dans la mémoire locale</item>
+    </plurals>
+    <plurals name="contacts_number_sim">
+        <item quantity="other">%1$d contacts sur la carte SIM</item>
+        <item quantity="one">%1$d contact sur la carte SIM</item>
+    </plurals>
+    <plurals name="contacts_number_local">
+        <item quantity="other">%1$d contacts dans la mémoire locale</item>
+        <item quantity="one">%1$d contact dans la mémoire locale</item>
+    </plurals>
+    <plurals name="ios_contacts_number">
+        <item quantity="other">%1$d contacts</item>
+        <item quantity="one">%1$d contact</item>
+    </plurals>
+    <plurals name="google_contacts_number">
+        <item quantity="other">%1$d contacts de compte Google</item>
+        <item quantity="one">%1$d contact de compte Google</item>
+    </plurals>
+    <plurals name="app_picker_description">
+        <item quantity="other">Nous avons détecté %1$d applications. Sélectionnez-en quelques-unes ou transférez-les toutes.</item>
+        <item quantity="one">Nous avons détecté %1$d application. Souhaitez-vous la transférer?</item>
+    </plurals>
+    <plurals name="app_picker_all_apps">
+        <item quantity="other">Les %1$d applications</item>
+        <item quantity="one">%1$d application</item>
+    </plurals>
+    <plurals name="app_picker_some_apps">
+        <item quantity="other">%1$d applications sélectionnées</item>
+        <item quantity="one">%1$d application sélectionnée</item>
+    </plurals>
+    <plurals name="ios_migration_calendar_attendee_warning">
+        <item quantity="other">Attention! Les participants suivants ne sont plus inclus dans cet événement :</item>
+        <item quantity="one">"Attention! Le participant suivant n'est plus inclus dans cet événement :"</item>
+    </plurals>
+    <plurals name="drive_backup_content_photos_items_left">
+        <item quantity="other">%1$d éléments restants…</item>
+        <item quantity="one">%1$d élément restant…</item>
+    </plurals>
+    <plurals name="drive_fast_scroll_time_grouper_n_days_ago">
+        <item quantity="other">Il y a %d jours</item>
+        <item quantity="one">Il y a %d jour</item>
+    </plurals>
+    <plurals name="drive_fast_scroll_time_grouper_n_weeks_ago">
+        <item quantity="other">Il y a %d semaines</item>
+        <item quantity="one">Il y a %d semaine</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="other">Nouveaux messages</item>
+        <item quantity="one">Nouveau message</item>
+    </plurals>
+    <plurals name="wallet_expanding_loyalty_selector">
+        <item quantity="other">Affichage de la liste avec %1$d une options de programmes de fidélisation</item>
+        <item quantity="one">Affichage de la liste avec %1$d une option de programme de fidélisation</item>
+    </plurals>
+    <plurals name="wallet_expanding_expander_view">
+        <item quantity="other">Affichage de la liste avec %1$d éléments.</item>
+        <item quantity="one">Affichage de la liste avec %1$d élément.</item>
+    </plurals>
+    <plurals name="wallet_expanding_instrument_selector">
+        <item quantity="other">Affichage de la liste avec %1$d options de modes de paiement</item>
+        <item quantity="one">Affichage de la liste avec %1$d option de mode de paiement</item>
+    </plurals>
+    <plurals name="wallet_expanding_address_selector">
+        <item quantity="other">"Affichage de la liste avec %1$d options d'adresses"</item>
+        <item quantity="one">"Affichage de la liste avec %1$d option d'adresse"</item>
+    </plurals>
+    <plurals name="wallet_expanding_shipping_address_selector">
+        <item quantity="other">"Affichage de la liste avec %1$d options d'adresses de livraison"</item>
+        <item quantity="one">"Affichage de la liste avec %1$d option d'adresse de livraison"</item>
+    </plurals>
+    <plurals name="wallet_expanding_customer_selector">
+        <item quantity="other">Affichage de la liste avec %1$d options de profil</item>
+        <item quantity="one">Affichage de la liste avec %1$d option de profil</item>
+    </plurals>
+    <plurals name="wallet_expanding_account_selector">
+        <item quantity="other">Affichage de la liste avec %1$d options de comptes</item>
+        <item quantity="one">Affichage de la liste avec %1$d option de compte</item>
+    </plurals>
+    <plurals name="wallet_expanding_field_selector">
+        <item quantity="other">Affichage de la liste avec %1$d options</item>
+        <item quantity="one">Affichage de la liste avec %1$d option</item>
+    </plurals>
+    <plurals name="wallet_expanding_ui_field_group_selector">
+        <item quantity="other">Affichage de la liste avec %1$d options</item>
+        <item quantity="one">Affichage de la liste avec %1$d option</item>
+    </plurals>
+    <plurals name="auth_trust_agent_inactivity_notification_hour">
+        <item quantity="other">%d heures</item>
+        <item quantity="one">%d heure</item>
+    </plurals>
+    <plurals name="auth_trust_agent_inactivity_notification_minute">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d j</item>
+        <item quantity="one">%d j</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d m</item>
+        <item quantity="one">%d m</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d jours</item>
+        <item quantity="one">%d jour</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d heures</item>
+        <item quantity="one">%d heure</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="smartdevice_d2d_setting_up_accounts_and_data_text">
+        <item quantity="other">Copie de vos comptes Google et de vos données…</item>
+        <item quantity="one">Copie de votre compte Google et de vos données…</item>
+    </plurals>
+    <plurals name="smartdevice_d2d_source_notification_text">
+        <item quantity="other">Cet appareil a été utilisé pour configurer un appareil ^1 avec vos comptes Google et les données qui y sont associées</item>
+        <item quantity="one">Cet appareil a été utilisé pour configurer un appareil ^1 avec votre compte Google et les données qui y sont associées</item>
+    </plurals>
+    <plurals name="smartdevice_d2d_source_notification_generic_text">
+        <item quantity="other">"Cet appareil a été utilisé pour en configurer un autre à l'aide de vos comptes Google et leurs données associées."</item>
+        <item quantity="one">"Cet appareil a été utilisé pour en configurer un autre à l'aide de votre compte Google et des données associées."</item>
+    </plurals>
+    <plurals name="profile_total_followers_count">
+        <item quantity="other">%1$,d abonnés</item>
+        <item quantity="one">%1$,d abonné</item>
+    </plurals>
+    <plurals name="profile_total_views_count">
+        <item quantity="other">%1$,d visionnements</item>
+        <item quantity="one">%1$,d visionnement</item>
+    </plurals>
+    <plurals name="location_sharing_duration_days">
+        <item quantity="other">%d jours</item>
+        <item quantity="one">%d jour</item>
+    </plurals>
+    <plurals name="location_sharing_duration_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+    </plurals>
+    <plurals name="location_sharing_duration_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="location_sharing_expiration_days">
+        <item quantity="other">%d jours</item>
+        <item quantity="one">%d jour</item>
+    </plurals>
+    <plurals name="location_sharing_expiration_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+    </plurals>
+    <plurals name="location_sharing_expiration_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="location_sharing_people">
+        <item quantity="other">%d personnes</item>
+        <item quantity="one">%d personne</item>
+    </plurals>
+    <plurals name="location_sharing_circles">
+        <item quantity="other">%d cercles</item>
+        <item quantity="one">%d cercle</item>
+    </plurals>
+    <plurals name="plus_num_minutes_ago">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="plus_num_hours_ago">
+        <item quantity="other">%d heures</item>
+        <item quantity="one">%d heure</item>
+    </plurals>
+    <plurals name="plus_num_days_ago">
+        <item quantity="other">%d jours</item>
+        <item quantity="one">%d jour</item>
+    </plurals>
+    <plurals name="plus_sharebox_circles_checkbox_number_of_people">
+        <item quantity="other">%1$s personnes</item>
+        <item quantity="one">%1$s personne</item>
+    </plurals>
+    <plurals name="system_update_countdown_message">
+        <item quantity="other">"Redémarrage dans %d secondes en vue de l'installation…"</item>
+        <item quantity="one">"Redémarrage dans %d seconde en vue de l'installation…"</item>
+    </plurals>
+    <plurals name="gh_chat_unread_messages_notification">
+        <item quantity="other">%1$d messages non lus</item>
+        <item quantity="one">%1$d message non lu</item>
+    </plurals>
+    <plurals name="fm_invite_button_secondary_text">
+        <item quantity="other">%d invitations restantes</item>
+        <item quantity="one">%d invitation restante</item>
+    </plurals>
+    <plurals name="fm_invitations_text_retry_error">
+        <item quantity="other">"Ces invitations n'ont pas été envoyées en raison d'une erreur"</item>
+        <item quantity="one">"Cette invitation n'a pas été envoyée en raison d'une erreur"</item>
+    </plurals>
+    <plurals name="fm_invitations_text_skip_failures">
+        <item quantity="other">Ces invitations ne peuvent pas encore être envoyées. Vous pouvez les renvoyer dans le menu Google Play > Mon compte.</item>
+        <item quantity="one">Cette invitation ne peut pas encore être envoyée. Vous pouvez la renvoyer dans le menu Google Play > Mon compte.</item>
+    </plurals>
+    <plurals name="fm_age_confirmation">
+        <item quantity="other">Vous avez %d ans. Est-ce correct?</item>
+        <item quantity="one">Vous avez %d an. Est-ce correct?</item>
+    </plurals>
+    <plurals name="auth_d2d_source_notification_text">
+        <item quantity="other">"Cet appareil a été utilisé pour configurer un appareil ^1 à l'aide de votre compte Google et des données associées."</item>
+        <item quantity="one">"Cet appareil a été utilisé pour configurer un appareil ^1 à l'aide de votre compte Google et des données associées."</item>
+    </plurals>
+    <plurals name="appinvite_message_within_limit">
+        <item quantity="other">%1$d caractères restants</item>
+        <item quantity="one">%1$d caractère restant</item>
+    </plurals>
+    <plurals name="appinvite_message_over_limit">
+        <item quantity="other">%1$d caractères au-delà de la limite autorisée</item>
+        <item quantity="one">%1$d caractère au-delà de la limite autorisée</item>
+    </plurals>
+    <plurals name="notification_autobackup_stalled_quantity_text">
+        <item quantity="other">%1$d jours depuis la dernière sauvegarde</item>
+        <item quantity="one">%1$d jour depuis la dernière sauvegarde</item>
+    </plurals>
+</resources>

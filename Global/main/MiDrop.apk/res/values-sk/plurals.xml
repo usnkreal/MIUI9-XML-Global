@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notif_receive_cancel">
+        <item quantity="other">%1$s súborov nebolo prenesených</item>
+        <item quantity="one">%1$s súbor nebol prenesený</item>
+        <item quantity="few">%1$s súbory neboli prenesené</item>
+    </plurals>
+    <plurals name="notif_receive_progress">
+        <item quantity="other">Prijíma sa %1$s súborov…</item>
+        <item quantity="one">Prijíma sa %1$s súbor…</item>
+        <item quantity="few">Prijímajú sa %1$s súbory…</item>
+    </plurals>
+    <plurals name="notif_receive_success">
+        <item quantity="other">Prijatých %1$s súborov</item>
+        <item quantity="one">Prijatý %1$s súbor</item>
+        <item quantity="few">Prijaté %1$s súbory</item>
+    </plurals>
+    <plurals name="receiver_file_num">
+        <item quantity="other">%2$d súborov z %1$s</item>
+        <item quantity="one">%2$d súbor z %1$s</item>
+        <item quantity="few">%2$d súbory z %1$s</item>
+    </plurals>
+    <plurals name="sender_file_num">
+        <item quantity="other">%1$d položiek</item>
+        <item quantity="one">%1$d položka</item>
+        <item quantity="few">%1$d položky</item>
+    </plurals>
+</resources>

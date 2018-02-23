@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auth_authzen_pull_number_of_google_accounts">
+        <item quantity="other">‏%d חשבונות Google</item>
+        <item quantity="one">‏חשבון Google ‏%d</item>
+        <item quantity="two">‏%d חשבונות Google</item>
+        <item quantity="many">‏%d חשבונות Google</item>
+    </plurals>
+    <plurals name="nearby_notification_content">
+        <item quantity="other">‏על ידי %1$s ו-%2$d אפליקציות נוספות</item>
+        <item quantity="one">‏על ידי %1$s ואפליקציה %2$d נוספת</item>
+        <item quantity="two">‏על ידי %1$s ו-%2$d אפליקציות נוספות</item>
+        <item quantity="many">‏על ידי %1$s ו-%2$d אפליקציות נוספות</item>
+    </plurals>
+    <plurals name="contacts_number_local_and_sim">
+        <item quantity="other">‏%1$d SIM, %2$d מקומיים</item>
+        <item quantity="one">‏%1$d SIM, %2$d מקומי</item>
+        <item quantity="two">‏%1$d SIM, %2$d מקומיים</item>
+        <item quantity="many">‏%1$d SIM, %2$d מקומיים</item>
+    </plurals>
+    <plurals name="contacts_number_sim">
+        <item quantity="other">‏%1$d אנשי קשר ב-SIM</item>
+        <item quantity="one">‏איש קשר אחד ב-SIM</item>
+        <item quantity="two">‏%1$d אנשי קשר ב-SIM</item>
+        <item quantity="many">‏%1$d אנשי קשר ב-SIM</item>
+    </plurals>
+    <plurals name="contacts_number_local">
+        <item quantity="other">%1$d אנשי קשר מקומיים</item>
+        <item quantity="one">איש קשר מקומי אחד</item>
+        <item quantity="two">%1$d אנשי קשר מקומיים</item>
+        <item quantity="many">%1$d אנשי קשר מקומיים</item>
+    </plurals>
+    <plurals name="ios_contacts_number">
+        <item quantity="other">%1$d אנשי קשר</item>
+        <item quantity="one">איש קשר אחד</item>
+        <item quantity="two">%1$d אנשי קשר</item>
+        <item quantity="many">%1$d אנשי קשר</item>
+    </plurals>
+    <plurals name="google_contacts_number">
+        <item quantity="other">‏%1$d אנשי קשר של חשבון Google</item>
+        <item quantity="one">‏איש קשר אחד של חשבון Google</item>
+        <item quantity="two">‏%1$d אנשי קשר של חשבון Google</item>
+        <item quantity="many">‏%1$d אנשי קשר של חשבון Google</item>
+    </plurals>
+    <plurals name="app_picker_description">
+        <item quantity="other">מצאנו %1$d אפליקציות. בחר כמה או העבר את כולן.</item>
+        <item quantity="one">מצאנו %1$d אפליקציה. האם אתה רוצה להעביר אותה?</item>
+        <item quantity="two">מצאנו %1$d אפליקציות. בחר כמה או העבר את כולן.</item>
+        <item quantity="many">מצאנו %1$d אפליקציות. בחר כמה או העבר את כולן.</item>
+    </plurals>
+    <plurals name="app_picker_all_apps">
+        <item quantity="other">כל %1$d האפליקציות</item>
+        <item quantity="one">אפליקציה אחת</item>
+        <item quantity="two">כל %1$d האפליקציות</item>
+        <item quantity="many">כל %1$d האפליקציות</item>
+    </plurals>
+    <plurals name="app_picker_some_apps">
+        <item quantity="other">%1$d אפליקציות נבחרו</item>
+        <item quantity="one">נבחרה אפליקציה אחת</item>
+        <item quantity="two">%1$d אפליקציות נבחרו</item>
+        <item quantity="many">%1$d אפליקציות נבחרו</item>
+    </plurals>
+    <plurals name="ios_migration_calendar_attendee_warning">
+        <item quantity="other">שים לב! האירוע הזה כבר לא כולל את המשתתפים הבאים:</item>
+        <item quantity="one">שים לב! האירוע הזה כבר לא כולל את המשתתף הבא:</item>
+        <item quantity="two">שים לב! האירוע הזה כבר לא כולל את המשתתפים הבאים:</item>
+        <item quantity="many">שים לב! האירוע הזה כבר לא כולל את המשתתפים הבאים:</item>
+    </plurals>
+    <plurals name="drive_backup_content_photos_items_left">
+        <item quantity="other">%1$d פריטים נשארו…</item>
+        <item quantity="one">%1$d פריט נשאר…</item>
+        <item quantity="two">%1$d פריטים נשארו…</item>
+        <item quantity="many">%1$d פריטים נשארו…</item>
+    </plurals>
+    <plurals name="drive_fast_scroll_time_grouper_n_days_ago">
+        <item quantity="other">לפני %d ימים</item>
+        <item quantity="one">לפני יום אחד (%d)</item>
+        <item quantity="two">לפני יומיים (%d)</item>
+        <item quantity="many">לפני %d ימים</item>
+    </plurals>
+    <plurals name="drive_fast_scroll_time_grouper_n_weeks_ago">
+        <item quantity="other">לפני %d שבועות</item>
+        <item quantity="one">לפני שבוע (%d)</item>
+        <item quantity="two">לפני שבועיים (%d)</item>
+        <item quantity="many">לפני %d שבועות</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="other">הודעות חדשות</item>
+        <item quantity="one">הודעה חדשה</item>
+        <item quantity="two">הודעות חדשות</item>
+        <item quantity="many">הודעות חדשות</item>
+    </plurals>
+    <plurals name="wallet_expanding_loyalty_selector">
+        <item quantity="other">מציג רשימה ובה %1$d אפשרויות לתכנית נאמנות</item>
+        <item quantity="one">מציג רשימה ובה אפשרות אחת לתכנית נאמנות</item>
+        <item quantity="two">מציג רשימה ובה %1$d אפשרויות לתכנית נאמנות</item>
+        <item quantity="many">מציג רשימה ובה %1$d אפשרויות לתכנית נאמנות</item>
+    </plurals>
+    <plurals name="wallet_expanding_expander_view">
+        <item quantity="other">מציג רשימה ובה %1$d פריטים.</item>
+        <item quantity="one">מציג רשימה ובה פריט אחד.</item>
+        <item quantity="two">מציג רשימה ובה %1$d פריטים.</item>
+        <item quantity="many">מציג רשימה ובה %1$d פריטים.</item>
+    </plurals>
+    <plurals name="wallet_expanding_instrument_selector">
+        <item quantity="other">מציג רשימה ובה %1$d אפשרויות לאמצעי תשלום</item>
+        <item quantity="one">מציג רשימה ובה אפשרות אחת לאמצעי תשלום</item>
+        <item quantity="two">מציג רשימה ובה %1$d אפשרויות לאמצעי תשלום</item>
+        <item quantity="many">מציג רשימה ובה %1$d אפשרויות לאמצעי תשלום</item>
+    </plurals>
+    <plurals name="wallet_expanding_address_selector">
+        <item quantity="other">מציג רשימה ובה %1$d אפשרויות לכתובות</item>
+        <item quantity="one">מציג רשימה ובה אפשרות לכתובת אחת</item>
+        <item quantity="two">מציג רשימה ובה %1$d אפשרויות לכתובות</item>
+        <item quantity="many">מציג רשימה ובה %1$d אפשרויות לכתובות</item>
+    </plurals>
+    <plurals name="wallet_expanding_shipping_address_selector">
+        <item quantity="other">מציג רשימה ובה %1$d אפשרויות של כתובות למשלוח</item>
+        <item quantity="one">מציג רשימה ובה אפשרות אחת של כתובת למשלוח</item>
+        <item quantity="two">מציג רשימה ובה %1$d אפשרויות של כתובות למשלוח</item>
+        <item quantity="many">מציג רשימה ובה %1$d אפשרויות של כתובות למשלוח</item>
+    </plurals>
+    <plurals name="wallet_expanding_customer_selector">
+        <item quantity="other">מציג רשימה הכוללת %1$d פרופילים לבחירה</item>
+        <item quantity="one">מציג רשימה הכוללת פרופיל אחד לבחירה</item>
+        <item quantity="two">מציג רשימה הכוללת %1$d פרופילים לבחירה</item>
+        <item quantity="many">מציג רשימה הכוללת %1$d פרופילים לבחירה</item>
+    </plurals>
+    <plurals name="wallet_expanding_account_selector">
+        <item quantity="other">מציג רשימה הכוללת %1$d חשבונות לבחירה</item>
+        <item quantity="one">מציג רשימה הכוללת חשבון אחד לבחירה</item>
+        <item quantity="two">מציג רשימה הכוללת %1$d חשבונות לבחירה</item>
+        <item quantity="many">מציג רשימה הכוללת %1$d חשבונות לבחירה</item>
+    </plurals>
+    <plurals name="wallet_expanding_field_selector">
+        <item quantity="other">מציג רשימה הכוללת %1$d אפשרויות</item>
+        <item quantity="one">מציג רשימה הכוללת אפשרות אחת</item>
+        <item quantity="two">מציג רשימה הכוללת %1$d אפשרויות</item>
+        <item quantity="many">מציג רשימה הכוללת %1$d אפשרויות</item>
+    </plurals>
+    <plurals name="wallet_expanding_ui_field_group_selector">
+        <item quantity="other">מציג רשימה הכוללת %1$d אפשרויות לבחירה</item>
+        <item quantity="one">מציג רשימה הכוללת אפשרות אחת לבחירה</item>
+        <item quantity="two">מציג רשימה הכוללת %1$d אפשרויות לבחירה</item>
+        <item quantity="many">מציג רשימה הכוללת %1$d אפשרויות לבחירה</item>
+    </plurals>
+    <plurals name="auth_trust_agent_inactivity_notification_hour">
+        <item quantity="other">‏ %d שעות</item>
+        <item quantity="one">שעה אחת</item>
+        <item quantity="two">שעתיים</item>
+        <item quantity="many">‏ %d שעות</item>
+    </plurals>
+    <plurals name="auth_trust_agent_inactivity_notification_minute">
+        <item quantity="other">‏ %d דקות</item>
+        <item quantity="one">דקה אחת</item>
+        <item quantity="two">‏ %d דקות</item>
+        <item quantity="many">‏ %d דקות</item>
+    </plurals>
+    <plurals name="smartdevice_d2d_setting_up_accounts_and_data_text">
+        <item quantity="other">‏ מעתיק את החשבונות והנתונים שלך ב-Google…</item>
+        <item quantity="one">‏ מעתיק את החשבון והנתונים שלך ב-Google…</item>
+        <item quantity="two">‏ מעתיק את החשבונות והנתונים שלך ב-Google…</item>
+        <item quantity="many">‏ מעתיק את החשבונות והנתונים שלך ב-Google…</item>
+    </plurals>
+    <plurals name="smartdevice_d2d_source_notification_text">
+        <item quantity="other">‏המכשיר הזה שימש להגדרת ^1 עם החשבונות שלך ב-Google והנתונים שלהם</item>
+        <item quantity="one">‏המכשיר הזה שימש להגדרת ^1 עם החשבון שלך ב-Google והנתונים שלו</item>
+        <item quantity="two">‏המכשיר הזה שימש להגדרת ^1 עם החשבונות שלך ב-Google והנתונים שלהם</item>
+        <item quantity="many">‏המכשיר הזה שימש להגדרת ^1 עם החשבונות שלך ב-Google והנתונים שלהם</item>
+    </plurals>
+    <plurals name="smartdevice_d2d_source_notification_generic_text">
+        <item quantity="other">‏מכשיר זה שימש להגדרת מכשיר אחר באמצעות חשבונות Google והנתונים שלך</item>
+        <item quantity="one">‏מכשיר זה שימש להגדרת מכשיר אחר באמצעות חשבון Google והנתונים שלך</item>
+        <item quantity="two">‏מכשיר זה שימש להגדרת מכשיר אחר באמצעות חשבונות Google והנתונים שלך</item>
+        <item quantity="many">‏מכשיר זה שימש להגדרת מכשיר אחר באמצעות חשבונות Google והנתונים שלך</item>
+    </plurals>
+    <plurals name="profile_total_followers_count">
+        <item quantity="other">‏%1$,d עוקבים</item>
+        <item quantity="one">עוקב אחד</item>
+        <item quantity="two">‏%1$,d עוקבים</item>
+        <item quantity="many">‏%1$,d עוקבים</item>
+    </plurals>
+    <plurals name="profile_total_views_count">
+        <item quantity="other">%1$,d צפיות</item>
+        <item quantity="one">צפייה אחת</item>
+        <item quantity="two">שתי צפיות</item>
+        <item quantity="many">%1$,d צפיות</item>
+    </plurals>
+    <plurals name="location_sharing_duration_days">
+        <item quantity="other">%d ימים</item>
+        <item quantity="one">יום אחד</item>
+        <item quantity="two">%d ימים</item>
+        <item quantity="many">%d ימים</item>
+    </plurals>
+    <plurals name="location_sharing_duration_hours">
+        <item quantity="other">%d שעות</item>
+        <item quantity="one">שעה אחת</item>
+        <item quantity="two">%d שעות</item>
+        <item quantity="many">%d שעות</item>
+    </plurals>
+    <plurals name="location_sharing_duration_minutes">
+        <item quantity="other">%d דקות</item>
+        <item quantity="one">דקה אחת</item>
+        <item quantity="two">%d דקות</item>
+        <item quantity="many">%d דקות</item>
+    </plurals>
+    <plurals name="location_sharing_expiration_days">
+        <item quantity="other">%d ימים</item>
+        <item quantity="one">יום אחד</item>
+        <item quantity="two">%d ימים</item>
+        <item quantity="many">%d ימים</item>
+    </plurals>
+    <plurals name="location_sharing_expiration_hours">
+        <item quantity="other">%d שעות</item>
+        <item quantity="one">שעה אחת</item>
+        <item quantity="two">%d שעות</item>
+        <item quantity="many">%d שעות</item>
+    </plurals>
+    <plurals name="location_sharing_expiration_minutes">
+        <item quantity="other">%d דקות</item>
+        <item quantity="one">דקה אחת</item>
+        <item quantity="two">%d דקות</item>
+        <item quantity="many">%d דקות</item>
+    </plurals>
+    <plurals name="location_sharing_people">
+        <item quantity="other">%d אנשים</item>
+        <item quantity="one">אדם אחד</item>
+        <item quantity="two">%d אנשים</item>
+        <item quantity="many">%d אנשים</item>
+    </plurals>
+    <plurals name="location_sharing_circles">
+        <item quantity="other">%d מעגלים</item>
+        <item quantity="one">מעגל אחד</item>
+        <item quantity="two">%d מעגלים</item>
+        <item quantity="many">%d מעגלים</item>
+    </plurals>
+    <plurals name="plus_num_minutes_ago">
+        <item quantity="other">%d דקות</item>
+        <item quantity="one">%d דקה</item>
+        <item quantity="two">%d דקות</item>
+        <item quantity="many">%d דקות</item>
+    </plurals>
+    <plurals name="plus_num_hours_ago">
+        <item quantity="other">%d שעות</item>
+        <item quantity="one">%d שעה</item>
+        <item quantity="two">%d שעות</item>
+        <item quantity="many">%d שעות</item>
+    </plurals>
+    <plurals name="plus_num_days_ago">
+        <item quantity="other">%d ימים</item>
+        <item quantity="one">%d יום</item>
+        <item quantity="two">%d ימים</item>
+        <item quantity="many">%d ימים</item>
+    </plurals>
+    <plurals name="plus_sharebox_circles_checkbox_number_of_people">
+        <item quantity="other">%1$s אנשים</item>
+        <item quantity="one">%1$s אדם</item>
+        <item quantity="two">%1$s אנשים</item>
+        <item quantity="many">%1$s אנשים</item>
+    </plurals>
+    <plurals name="system_update_countdown_message">
+        <item quantity="other">מאתחל כדי לבצע התקנה בעוד %d שניות…</item>
+        <item quantity="one">מאתחל כדי לבצע התקנה בעוד שנייה אחת…</item>
+        <item quantity="two">מאתחל כדי לבצע התקנה בעוד %d שניות…</item>
+        <item quantity="many">מאתחל כדי לבצע התקנה בעוד %d שניות…</item>
+    </plurals>
+    <plurals name="gh_chat_unread_messages_notification">
+        <item quantity="other">%1$d הודעות שלא נקראו</item>
+        <item quantity="one">הודעה אחת שלא נקראה</item>
+        <item quantity="two">%1$d הודעות שלא נקראו</item>
+        <item quantity="many">%1$d הודעות שלא נקראו</item>
+    </plurals>
+    <plurals name="fm_invite_button_secondary_text">
+        <item quantity="other">‏נותרו ‎%d‎‎ הזמנות</item>
+        <item quantity="one">‏נותרה הזמנה ‎%d‎‎</item>
+        <item quantity="two">‏נותרו ‎%d‎‎ הזמנות</item>
+        <item quantity="many">‏נותרו ‎%d‎‎ הזמנות</item>
+    </plurals>
+    <plurals name="fm_invitations_text_retry_error">
+        <item quantity="other">ההזמנות לא נשלחו בשל שגיאה</item>
+        <item quantity="one">ההזמנה לא נשלחה בשל שגיאה</item>
+        <item quantity="two">ההזמנות לא נשלחו בשל שגיאה</item>
+        <item quantity="many">ההזמנות לא נשלחו בשל שגיאה</item>
+    </plurals>
+    <plurals name="fm_invitations_text_skip_failures">
+        <item quantity="other">‏לא ניתן לשלוח את ההזמנות כרגע. תוכל לשלוח אותן שוב דרך ‏Google Play‏ > החשבון שלי.</item>
+        <item quantity="one">‏לא ניתן לשלוח את ההזמנה כרגע. תוכל לשלוח אותה שוב דרך ‏Google Play‏ > החשבון שלי.</item>
+        <item quantity="two">‏לא ניתן לשלוח את ההזמנות כרגע. תוכל לשלוח אותן שוב דרך ‏Google Play‏ > החשבון שלי.</item>
+        <item quantity="many">‏לא ניתן לשלוח את ההזמנות כרגע. תוכל לשלוח אותן שוב דרך ‏Google Play‏ > החשבון שלי.</item>
+    </plurals>
+    <plurals name="fm_age_confirmation">
+        <item quantity="other">‏אתה בן %d. האם זה נכון?</item>
+        <item quantity="one">‏אתה בן %d. האם זה נכון?</item>
+        <item quantity="two">‏אתה בן %d. האם זה נכון?</item>
+        <item quantity="many">‏אתה בן %d. האם זה נכון?</item>
+    </plurals>
+    <plurals name="auth_d2d_source_notification_text">
+        <item quantity="other">‏ המכשיר הזה שימש להגדרת ^1 עם חשבונות Google שלך והנתונים שהם מכילים</item>
+        <item quantity="one">‏ המכשיר הזה שימש להגדרת ^1 עם חשבון Google שלך והנתונים שהוא מכיל</item>
+        <item quantity="two">‏ המכשיר הזה שימש להגדרת ^1 עם חשבונות Google שלך והנתונים שהם מכילים</item>
+        <item quantity="many">‏ המכשיר הזה שימש להגדרת ^1 עם חשבונות Google שלך והנתונים שהם מכילים</item>
+    </plurals>
+    <plurals name="appinvite_message_within_limit">
+        <item quantity="other">נותרו %1$d תווים</item>
+        <item quantity="one">נותר תו %1$d</item>
+        <item quantity="two">נותרו %1$d תווים</item>
+        <item quantity="many">נותרו %1$d תווים</item>
+    </plurals>
+    <plurals name="appinvite_message_over_limit">
+        <item quantity="other">חרגת מהמגבלה ב-%1$d תווים</item>
+        <item quantity="one">חרגת מהמגבלה בתו %1$d</item>
+        <item quantity="two">חרגת מהמגבלה ב-%1$d תווים</item>
+        <item quantity="many">חרגת מהמגבלה ב-%1$d תווים</item>
+    </plurals>
+    <plurals name="notification_autobackup_stalled_quantity_text">
+        <item quantity="other">‏%1$d ימים מאז הגיבוי האחרון</item>
+        <item quantity="one">יום אחד מאז הגיבוי האחרון</item>
+        <item quantity="two">יומיים מאז הגיבוי האחרון</item>
+        <item quantity="many">‏%1$d ימים מאז הגיבוי האחרון</item>
+    </plurals>
+</resources>

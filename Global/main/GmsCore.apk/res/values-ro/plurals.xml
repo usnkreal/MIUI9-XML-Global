@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auth_authzen_pull_number_of_google_accounts">
+        <item quantity="other">%d de Conturi Google</item>
+        <item quantity="one">%d Cont Google</item>
+        <item quantity="few">%d Conturi Google</item>
+    </plurals>
+    <plurals name="nearby_notification_content">
+        <item quantity="other">De %1$s și de încă %2$d de aplicații</item>
+        <item quantity="one">De %1$s și de încă %2$d aplicație</item>
+        <item quantity="few">De %1$s și de încă %2$d aplicații</item>
+    </plurals>
+    <plurals name="contacts_number_local_and_sim">
+        <item quantity="other">%1$d pe SIM, %2$d local</item>
+        <item quantity="one">%1$d pe SIM, %2$d local</item>
+        <item quantity="few">%1$d pe SIM, %2$d local</item>
+    </plurals>
+    <plurals name="contacts_number_sim">
+        <item quantity="other">%1$d de persoane de contact pe SIM</item>
+        <item quantity="one">O persoană de contact pe SIM</item>
+        <item quantity="few">%1$d persoane de contact pe SIM</item>
+    </plurals>
+    <plurals name="contacts_number_local">
+        <item quantity="other">%1$d de persoane de contact local</item>
+        <item quantity="one">O persoană de contact local</item>
+        <item quantity="few">%1$d persoane de contact local</item>
+    </plurals>
+    <plurals name="ios_contacts_number">
+        <item quantity="other">%1$d de persoane de contact</item>
+        <item quantity="one">O persoană de contact</item>
+        <item quantity="few">%1$d persoane de contact</item>
+    </plurals>
+    <plurals name="google_contacts_number">
+        <item quantity="other">%1$d de persoane de contact din Contul Google</item>
+        <item quantity="one">O persoană de contact din Contul Google</item>
+        <item quantity="few">%1$d persoane de contact din Contul Google</item>
+    </plurals>
+    <plurals name="app_picker_description">
+        <item quantity="other">Am găsit %1$d de aplicații. Alegeți câteva sau transferați-le pe toate.</item>
+        <item quantity="one">Am găsit %1$d aplicație. Doriți să o transferați?</item>
+        <item quantity="few">Am găsit %1$d aplicații. Alegeți câteva sau transferați-le pe toate.</item>
+    </plurals>
+    <plurals name="app_picker_all_apps">
+        <item quantity="other">Toate cele %1$d de aplicații</item>
+        <item quantity="one">1 aplicație</item>
+        <item quantity="few">Toate cele %1$d aplicații</item>
+    </plurals>
+    <plurals name="app_picker_some_apps">
+        <item quantity="other">%1$d de aplicații selectate</item>
+        <item quantity="one">1 aplicație selectată</item>
+        <item quantity="few">%1$d aplicații selectate</item>
+    </plurals>
+    <plurals name="ios_migration_calendar_attendee_warning">
+        <item quantity="other">Atenție! Acest eveniment nu îi mai include pe următorii participanți:</item>
+        <item quantity="one">Atenție! Acest eveniment nu îl mai include pe următorul participant:</item>
+        <item quantity="few">Atenție! Acest eveniment nu îi mai include pe următorii participanți:</item>
+    </plurals>
+    <plurals name="drive_backup_content_photos_items_left">
+        <item quantity="other">%1$d de elemente rămase…</item>
+        <item quantity="one">%1$d element rămas…</item>
+        <item quantity="few">%1$d elemente rămase…</item>
+    </plurals>
+    <plurals name="drive_fast_scroll_time_grouper_n_days_ago">
+        <item quantity="other">Acum %d de zile</item>
+        <item quantity="one">Acum %d zi</item>
+        <item quantity="few">Acum %d zile</item>
+    </plurals>
+    <plurals name="drive_fast_scroll_time_grouper_n_weeks_ago">
+        <item quantity="other">Acum %d de săptămâni</item>
+        <item quantity="one">Acum %d săptămână</item>
+        <item quantity="few">Acum %d săptămâni</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="other">Mesaje noi</item>
+        <item quantity="one">Mesaj nou</item>
+        <item quantity="few">Mesaje noi</item>
+    </plurals>
+    <plurals name="wallet_expanding_loyalty_selector">
+        <item quantity="other">Se afișează lista cu %1$d de opțiuni pentru programul de fidelitate</item>
+        <item quantity="one">Se afișează lista cu o opțiune pentru programul de fidelitate</item>
+        <item quantity="few">Se afișează lista cu %1$d opțiuni pentru programul de fidelitate</item>
+    </plurals>
+    <plurals name="wallet_expanding_expander_view">
+        <item quantity="other">Se afișează lista cu %1$d de articole.</item>
+        <item quantity="one">Se afișează lista cu un articol.</item>
+        <item quantity="few">Se afișează lista cu %1$d articole.</item>
+    </plurals>
+    <plurals name="wallet_expanding_instrument_selector">
+        <item quantity="other">Se afișează lista cu %1$d de opțiuni pentru metoda de plată</item>
+        <item quantity="one">Se afișează lista cu o opțiune pentru metoda de plată</item>
+        <item quantity="few">Se afișează lista cu %1$d opțiuni pentru metoda de plată</item>
+    </plurals>
+    <plurals name="wallet_expanding_address_selector">
+        <item quantity="other">Se afișează lista cu %1$d de opțiuni pentru adresă</item>
+        <item quantity="one">Se afișează lista cu o opțiune pentru adresă</item>
+        <item quantity="few">Se afișează lista cu %1$d opțiuni pentru adresă</item>
+    </plurals>
+    <plurals name="wallet_expanding_shipping_address_selector">
+        <item quantity="other">Se afișează lista cu %1$d de adrese de expediere</item>
+        <item quantity="one">Se afișează lista cu o adresă de expediere</item>
+        <item quantity="few">Se afișează lista cu %1$d adrese de expediere</item>
+    </plurals>
+    <plurals name="wallet_expanding_customer_selector">
+        <item quantity="other">Se afișează lista cu %1$d de opțiuni de profil</item>
+        <item quantity="one">Se afișează lista cu o opțiune de profil</item>
+        <item quantity="few">Se afișează lista cu %1$d opțiuni de profil</item>
+    </plurals>
+    <plurals name="wallet_expanding_account_selector">
+        <item quantity="other">Se afișează lista cu %1$d de opțiuni de cont</item>
+        <item quantity="one">Se afișează lista cu o opțiune de cont</item>
+        <item quantity="few">Se afișează lista cu %1$d opțiuni de cont</item>
+    </plurals>
+    <plurals name="wallet_expanding_field_selector">
+        <item quantity="other">Se afișează lista cu %1$d de opțiuni</item>
+        <item quantity="one">Se afișează lista cu o opțiune</item>
+        <item quantity="few">Se afișează lista cu %1$d opțiuni</item>
+    </plurals>
+    <plurals name="wallet_expanding_ui_field_group_selector">
+        <item quantity="other">Se afișează lista cu %1$d de opțiuni</item>
+        <item quantity="one">Se afișează lista cu o opțiune</item>
+        <item quantity="few">Se afișează lista cu %1$d opțiuni</item>
+    </plurals>
+    <plurals name="auth_trust_agent_inactivity_notification_hour">
+        <item quantity="other">%d de ore</item>
+        <item quantity="one">1 oră</item>
+        <item quantity="few">%d ore</item>
+    </plurals>
+    <plurals name="auth_trust_agent_inactivity_notification_minute">
+        <item quantity="other">%d de minute</item>
+        <item quantity="one">1 minut</item>
+        <item quantity="few">%d minute</item>
+    </plurals>
+    <plurals name="smartdevice_d2d_setting_up_accounts_and_data_text">
+        <item quantity="other">Se copiază conturile tale Google și datele acestora…</item>
+        <item quantity="one">Se copiază contul tău Google și datele acestuia…</item>
+        <item quantity="few">Se copiază conturile tale Google și datele acestora…</item>
+    </plurals>
+    <plurals name="smartdevice_d2d_source_notification_text">
+        <item quantity="other">Acest dispozitiv a fost folosit pentru a configura conturile tale Google și datele acestora pe un dispozitiv ^1</item>
+        <item quantity="one">Acest dispozitiv a fost folosit pentru a configura contul tău Google și datele acestuia pe un dispozitiv ^1</item>
+        <item quantity="few">Acest dispozitiv a fost folosit pentru a configura conturile tale Google și datele acestora pe un dispozitiv ^1</item>
+    </plurals>
+    <plurals name="smartdevice_d2d_source_notification_generic_text">
+        <item quantity="other">Acest dispozitiv a fost utilizat pentru a configura un alt dispozitiv folosind Conturile dvs. Google și datele acestora</item>
+        <item quantity="one">Acest dispozitiv a fost utilizat pentru a configura un alt dispozitiv folosind Contul dvs. Google și datele acestuia</item>
+        <item quantity="few">Acest dispozitiv a fost utilizat pentru a configura un alt dispozitiv folosind Conturile dvs. Google și datele acestora</item>
+    </plurals>
+    <plurals name="profile_total_followers_count">
+        <item quantity="other">%1$,d de persoane interesate</item>
+        <item quantity="one">O persoană interesată</item>
+        <item quantity="few">%1$,d persoane interesate</item>
+    </plurals>
+    <plurals name="profile_total_views_count">
+        <item quantity="other">%1$,d de vizualizări</item>
+        <item quantity="one">O vizualizare</item>
+        <item quantity="few">%1$,d vizualizări</item>
+    </plurals>
+    <plurals name="location_sharing_duration_days">
+        <item quantity="other">%d de zile</item>
+        <item quantity="one">1 zi</item>
+        <item quantity="few">%d zile</item>
+    </plurals>
+    <plurals name="location_sharing_duration_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">1 h</item>
+        <item quantity="few">%d h</item>
+    </plurals>
+    <plurals name="location_sharing_duration_minutes">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">1 min.</item>
+        <item quantity="few">%d min.</item>
+    </plurals>
+    <plurals name="location_sharing_expiration_days">
+        <item quantity="other">%d de zile</item>
+        <item quantity="one">1 zi</item>
+        <item quantity="few">%d zile</item>
+    </plurals>
+    <plurals name="location_sharing_expiration_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">1 h</item>
+        <item quantity="few">%d h</item>
+    </plurals>
+    <plurals name="location_sharing_expiration_minutes">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">1 min.</item>
+        <item quantity="few">%d min.</item>
+    </plurals>
+    <plurals name="location_sharing_people">
+        <item quantity="other">%d de persoane</item>
+        <item quantity="one">1 persoană</item>
+        <item quantity="few">%d persoane</item>
+    </plurals>
+    <plurals name="location_sharing_circles">
+        <item quantity="other">%d de cercuri</item>
+        <item quantity="one">1 cerc</item>
+        <item quantity="few">%d cercuri</item>
+    </plurals>
+    <plurals name="plus_num_minutes_ago">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">%d min.</item>
+        <item quantity="few">%d min.</item>
+    </plurals>
+    <plurals name="plus_num_hours_ago">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+        <item quantity="few">%d h</item>
+    </plurals>
+    <plurals name="plus_num_days_ago">
+        <item quantity="other">%d de zile</item>
+        <item quantity="one">%d zi</item>
+        <item quantity="few">%d zile</item>
+    </plurals>
+    <plurals name="plus_sharebox_circles_checkbox_number_of_people">
+        <item quantity="other">%1$s de persoane</item>
+        <item quantity="one">%1$s persoană</item>
+        <item quantity="few">%1$s persoane</item>
+    </plurals>
+    <plurals name="system_update_countdown_message">
+        <item quantity="other">Repornește pentru instalare în %d de secunde…</item>
+        <item quantity="one">Repornește pentru instalare într-o secundă…</item>
+        <item quantity="few">Repornește pentru instalare în %d secunde…</item>
+    </plurals>
+    <plurals name="gh_chat_unread_messages_notification">
+        <item quantity="other">%1$d de mesaje necitite</item>
+        <item quantity="one">1 mesaj necitit</item>
+        <item quantity="few">%1$d mesaje necitite</item>
+    </plurals>
+    <plurals name="fm_invite_button_secondary_text">
+        <item quantity="other">%d de invitații rămase</item>
+        <item quantity="one">%d invitație rămasă</item>
+        <item quantity="few">%d invitații rămase</item>
+    </plurals>
+    <plurals name="fm_invitations_text_retry_error">
+        <item quantity="other">Aceste invitații nu au fost trimise din cauza unei erori</item>
+        <item quantity="one">Această invitație nu a fost trimisă din cauza unei erori</item>
+        <item quantity="few">Aceste invitații nu au fost trimise din cauza unei erori</item>
+    </plurals>
+    <plurals name="fm_invitations_text_skip_failures">
+        <item quantity="other">Aceste invitații nu pot fi trimise acum. Le puteți trimite din nou din Google Play > Contul meu.</item>
+        <item quantity="one">Această invitație nu poate fi trimisă acum. O puteți trimite din nou din Google Play > Contul meu.</item>
+        <item quantity="few">Aceste invitații nu pot fi trimise acum. Le puteți trimite din nou din Google Play > Contul meu.</item>
+    </plurals>
+    <plurals name="fm_age_confirmation">
+        <item quantity="other">Aveți %d de ani. Este corect?</item>
+        <item quantity="one">Aveți %d an. Este corect?</item>
+        <item quantity="few">Aveți %d ani. Este corect?</item>
+    </plurals>
+    <plurals name="auth_d2d_source_notification_text">
+        <item quantity="other">Acest dispozitiv a fost folosit pentru a configura un ^1 folosind Conturile dvs. Google și datele din acestea</item>
+        <item quantity="one">Acest dispozitiv a fost folosit pentru a configura un ^1 folosind Contul Google și datele din acesta</item>
+        <item quantity="few">Acest dispozitiv a fost folosit pentru a configura un ^1 folosind Conturile dvs. Google și datele din acestea</item>
+    </plurals>
+    <plurals name="appinvite_message_within_limit">
+        <item quantity="other">%1$d de caractere rămase</item>
+        <item quantity="one">%1$d caracter rămas</item>
+        <item quantity="few">%1$d caractere rămase</item>
+    </plurals>
+    <plurals name="appinvite_message_over_limit">
+        <item quantity="other">%1$d de caractere peste limită</item>
+        <item quantity="one">%1$d caracter peste limită</item>
+        <item quantity="few">%1$d caractere peste limită</item>
+    </plurals>
+    <plurals name="notification_autobackup_stalled_quantity_text">
+        <item quantity="other">%1$d de zile de la cel mai recent backup</item>
+        <item quantity="one">%1$d zi de la cel mai recent backup</item>
+        <item quantity="few">%1$d zile de la cel mai recent backup</item>
+    </plurals>
+</resources>

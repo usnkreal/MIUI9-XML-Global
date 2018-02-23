@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome">Üdvözöljük</string>
+    <string name="app_name">Felkészülés</string>
+    <string name="system_navigation_mode">Rendszerirányítási módok</string>
+    <string name="input_method_setting">Billentyűzet kiválasztása</string>
+    <string name="input_method_category">Válassza ki az alapértelmezett billentyűzetet. Később lehetséges harmadik féltől származó billentyűzetek telepítése.</string>
+    <string name="provision_inputmethod_policy_description">"
+A kiválasztott billentyűzet Adatvédelmi Nyilatkozatának megtekintése."</string>
+    <string name="provision_inputmethod_policy_description1">Adatvédelmi nyilatkozata</string>
+    <string name="multisim_settings_title">2 SIM kártya található</string>
+    <string name="multisim_settings_category">Elsődleges SIM kártya beállítása</string>
+    <string name="sim_card_detection">Nem található SIM kártya</string>
+    <string name="sim_card_detecting_title">SIM kártya ellenőrzés</string>
+    <string name="sim_card_detection_info">A SIM kártya beszereléséhez olvassa el a telefonnal érkezett utasításokat.</string>
+    <string name="sim_card_detecting">SIM kártya ellenőrzése…</string>
+    <string name="sim_card_detecting_check">Nem található SIM kártya. Győződjön meg róla, hogy a SIM megfelelően lett behelyezve és hogy van-e elég egység az egyenlegén.</string>
+    <string name="other_settings">További beállítások</string>
+    <string name="other_settings_location">Helyszolgáltatások</string>
+    <string name="other_settings_location_summary">Engedje, hogy az alkalmazások hozzáférjenek az Ön pontos helyadatához.</string>
+    <string name="other_settings_user_experience">Felhasználói visszajelzés</string>
+    <string name="other_settings_user_experience_summary">Segítse termékeink és szolgáltatásaink fejlesztését anonim használati adatok küldésével.</string>
+    <string name="other_settings_upload_debug_log_title">Diagnosztikai adatok automatikus küldése</string>
+    <string name="other_settings_upload_debug_log_summary">Az általunk gyűjtött információk a problémák felkutatására lesznek használva és személyes adatokat tartalmazhatnak. Sosem lesznek az Ön személyes azonosítására fordítva.</string>
+    <string name="other_settings_auto_update">Telepítés automatikusan</string>
+    <string name="other_settings_auto_update_summary">A MIUI kiválasztja a legmegfelelőbb pillanatot a frissítések telepítésére.</string>
+    <string name="back">Vissza</string>
+    <string name="next">Tovább</string>
+    <string name="skip_underline">Lépés kihagyása</string>
+    <string name="sim_dectection_next">Tovább</string>
+    <string name="shut_down">Kikapcsolás</string>
+    <string name="sim_redetection">Ellenőrzés újra</string>
+    <string name="navigation_picker_gesture_guide">Mozdulatok ismertetése</string>
+    <string name="congratulation_title">Beállítás kész</string>
+    <string name="congratulation_label">Készen áll a bevetésre!</string>
+    <string name="pref_title_voice_slot">Hívásra használt SIM</string>
+    <string name="pref_title_data_slot">Mobilnetre használt SIM</string>
+    <string name="summary_not_set">Nincs beállítva</string>
+    <string name="ime_privacy_policy">A kiválasztott billentyűzet adatvédelmi nyilatkozata</string>
+    <string name="ime_privacy_policy_no_network">Nincs internetkapcsolat. A kiválasztott billentyűzet adatvédelmi nyilatkozatának megtekintése %s.</string>
+    <string name="terms_of_use">Felhasználási feltételek</string>
+    <string name="terms_of_use_label">"A biztonsága nagyon fontos számunkra. Kérjük, olvassa el a Felhasználási feltételeket és az Adatvédelmi nyilatkozatot, hogy megértse, milyen információkat gyűjtünk, hogyan használjuk fel őket és Önnek milyen lehetőségei vannak.
+
+A MIUI használata előtt el kell fogadnia a Felhasználási feltételeket és az Adatvédelmi nyilatkozatot. Az aktiválás alatt a Mi szolgáltatásokhoz, a SIM aktiváláshoz, a Mi Cloudhoz, a Készülékkereséshez, a Kezdőképernyő modulokhoz, a Játékszolgáltatáshoz, a gyorskártyákhoz, a Direct Service-hez, az MAB, a MiuiDaemon és az MSA rendszerkomponensekhez, MiLinkhez és a Mi Fiók működéséhez internetkapcsolat és helymeghatározás szükséges."</string>
+    <string name="terms_of_use_label_gms">"A biztonsága nagyon fontos számunkra. Kérjük, olvassa el a Felhasználási feltételeket és az Adatvédelmi nyilatkozatot, hogy megértse, milyen információkat gyűjtünk, hogyan használjuk fel őket és Önnek milyen lehetőségei vannak.
+
+A MIUI használata előtt el kell fogadnia a Felhasználási feltételeket és az Adatvédelmi nyilatkozatot. Az aktiválás alatt a Mi szolgáltatásokhoz, a SIM aktiváláshoz, a Mi Cloudhoz, a Készülékkereséshez, a Kezdőképernyő modulokhoz, a Játékszolgáltatáshoz, a gyorskártyákhoz, a Direct Service-hez, az MAB, a MiuiDaemon és az MSA rendszerkomponensekhez, MiLinkhez, Mi Fiók és Google Play Szolgáltatások működéséhez internetkapcsolat és helymeghatározás szükséges."</string>
+    <string name="user_agreement">Felhasználási feltételek</string>
+    <string name="privacy_policy">Adatvédelmi nyilatkozat</string>
+    <string name="application_permissions">Alkalmazásengedélyek</string>
+    <string name="agree">OK</string>
+    <string name="disagree">Mégse</string>
+    <string name="setting_locale">Régió beállítása…</string>
+    <string name="agree_terms">Elolvastam és elfogadom a fentieket.</string>
+    <string name="miui_terms_no_network">Nincs internetkapcsolat. Felhasználási feltételek megtekintése %s</string>
+    <string name="miui_privacy_policy_no_network">Nincs internetkapcsolat. Adatvédelmi nyilatkozat megtekintése %s</string>
+    <string name="locale_picker_title">Válasszon régiót</string>
+    <string name="install_preinstall_app">Alkalmazások betöltése…</string>
+    <string name="title_fingerprint">Állítson be jelszót</string>
+    <string name="item_fingerprint">Ujjlenyomat</string>
+    <string name="item_lock_screen_password">Csak képernyőzár</string>
+    <string name="desc_fingerprint">Használja ujjlenyomatát a készülék feloldásához, alkalmazásokba és szolgáltatásokba való bejelentkezéshez.</string>
+    <string name="desc_extra_fingerprint" />
+    <string name="next_fingerprint">Tovább</string>
+    <string name="desc_extra_international_fingerprint" />
+    <string name="desc_international_fingerprint">Használja ujjlenyomatát a készülék feloldásához, alkalmazásokba és szolgáltatásokba való bejelentkezéshez.</string>
+    <string name="content_description_start">Kezdés</string>
+    <string name="content_description_miui_version">MIUI 9</string>
+    <string name="content_description_complete">Kész</string>
+    <string name="language_picker_other_languages_title">Egyéb nyelvek</string>
+    <string name="language_settings">Válasszon nyelvet</string>
+    <string name="navigation_picker_radio_text_full_screen">Teljes képernyős mód</string>
+    <string name="navigation_picker_radio_text_virtual_key">Virtuálisgomb-vezérlés</string>
+    <string name="congratulation_swipe">Húzza felfelé a rendszerbe való belépéshez</string>
+    <string name="enable_accessibility_dialog_message">Két ujjával hosszan nyomta a képernyőt, így Ön aktiválta a TalkBack-et, ami hangos visszajelzést nyújt gyengénlátók számára. Ha véletlenül kapcsolta be, nyomja meg a Mégse gombot, majd érintse meg a képernyőt kétszer (dupla koppintás).</string>
+    <string name="enable_accessibility_dialog_positive_btn">OK</string>
+    <string name="enable_accessibility_dialog_negative_btn">Mégse</string>
+    <string name="cm_terms_title">Mobilhálózat Üzemeltetői Megállapodás</string>
+    <string name="cm_terms_content">Az Önnek nyújtott szolgáltatása javításának érdekében a mobilhálózat üzemeltetője feltölthet szervereire személyes adatokat és információkat az Ön készülékéről Wi-Fi hálózat vagy mobiladat-kapcsolat használatával. Ezt az információt csak statisztikai célokra használhatják, annak érdekében, hogy javítsák a szolgáltatások minőségét és hogy személyre szabhatóbb tartalmat nyújthasson. Ez az információ nem használható fel azonosításra, és nem adható ki harmadik félnek.</string>
+    <string name="enable_accessibility_canceled">Kisegítő lehetőség elutasítva.</string>
+    <string name="accessibility_enabled">Kisegítő lehetőség engedélyezve.</string>
+    <string name="continue_to_enable_accessibility">Tartsa két ujját lenyomva a kisegítő lehetőség engedélyezéséhez.</string>
+    <string name="voice_assist_title">Felébresztés hanggal</string>
+    <string name="voice_assist_desp">Mondja a telefonjának azt, hogy: \"Mi AI\". A Mi AI érzékelni fogja a hangját és vezérelni tudja a készülékét.</string>
+</resources>

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auth_authzen_pull_number_of_google_accounts">
+        <item quantity="other">%d účtov Google</item>
+        <item quantity="one">%d účet Google</item>
+        <item quantity="few">%d účty Google</item>
+        <item quantity="many">%d účtu Google</item>
+    </plurals>
+    <plurals name="nearby_notification_content">
+        <item quantity="other">Z aplikácie %1$s a %2$d ďalších aplikácií</item>
+        <item quantity="one">Z aplikácie %1$s a %2$d ďalšej aplikácie</item>
+        <item quantity="few">Z aplikácie %1$s a %2$d ďalších aplikácií</item>
+        <item quantity="many">Z aplikácie %1$s a %2$d ďalšej aplikácie</item>
+    </plurals>
+    <plurals name="contacts_number_local_and_sim">
+        <item quantity="other">Na SIM karte: %1$d. Uložené miestne: %2$d</item>
+        <item quantity="one">Na SIM karte: %1$d. Uložené miestne: %2$d</item>
+        <item quantity="few">Na SIM karte: %1$d. Uložené miestne: %2$d</item>
+        <item quantity="many">Na SIM karte: %1$d. Uložené miestne: %2$d</item>
+    </plurals>
+    <plurals name="contacts_number_sim">
+        <item quantity="other">%1$d kontaktov na SIM karte</item>
+        <item quantity="one">1 kontakt na SIM karte</item>
+        <item quantity="few">%1$d kontakty na SIM karte</item>
+        <item quantity="many">%1$d kontaktu na SIM karte</item>
+    </plurals>
+    <plurals name="contacts_number_local">
+        <item quantity="other">%1$d miestnych kontaktov</item>
+        <item quantity="one">1 miestny kontakt</item>
+        <item quantity="few">%1$d miestne kontakty</item>
+        <item quantity="many">%1$d miestneho kontaktu</item>
+    </plurals>
+    <plurals name="ios_contacts_number">
+        <item quantity="other">%1$d kontaktov</item>
+        <item quantity="one">1 kontakt</item>
+        <item quantity="few">%1$d kontakty</item>
+        <item quantity="many">%1$d kontaktu</item>
+    </plurals>
+    <plurals name="google_contacts_number">
+        <item quantity="other">%1$d kontaktov z účtu Google</item>
+        <item quantity="one">1 kontakt z účtu Google</item>
+        <item quantity="few">%1$d kontakty z účtu Google</item>
+        <item quantity="many">%1$d kontaktu z účtu Google</item>
+    </plurals>
+    <plurals name="app_picker_description">
+        <item quantity="other">Našli sme %1$d aplikácií. Vyberte iba niektoré alebo preneste všetky.</item>
+        <item quantity="one">Našli sme %1$d aplikáciu. Chcete ju preniesť?</item>
+        <item quantity="few">Našli sme %1$d aplikácie. Vyberte iba niektoré alebo preneste všetky.</item>
+        <item quantity="many">Našli sme %1$d aplikácie. Vyberte iba niektoré alebo preneste všetky.</item>
+    </plurals>
+    <plurals name="app_picker_all_apps">
+        <item quantity="other">Všetky aplikácie (počet: %1$d)</item>
+        <item quantity="one">1 aplikácia</item>
+        <item quantity="few">Všetky aplikácie (počet: %1$d)</item>
+        <item quantity="many">Všetky aplikácie (počet: %1$d)</item>
+    </plurals>
+    <plurals name="app_picker_some_apps">
+        <item quantity="other">%1$d vybraných aplikácií</item>
+        <item quantity="one">1 vybraná aplikácia</item>
+        <item quantity="few">%1$d vybrané aplikácie</item>
+        <item quantity="many">%1$d vybranej aplikácie</item>
+    </plurals>
+    <plurals name="ios_migration_calendar_attendee_warning">
+        <item quantity="other">Pozor! Táto udalosť už nezahŕňa nasledujúcich účastníkov:</item>
+        <item quantity="one">Pozor! Táto udalosť už nezahŕňa nasledujúceho účastníka:</item>
+        <item quantity="few">Pozor! Táto udalosť už nezahŕňa nasledujúcich účastníkov:</item>
+        <item quantity="many">Pozor! Táto udalosť už nezahŕňa nasledujúcich účastníkov:</item>
+    </plurals>
+    <plurals name="drive_backup_content_photos_items_left">
+        <item quantity="other">Zostáva %1$d položiek…</item>
+        <item quantity="one">Zostáva %1$d položka…</item>
+        <item quantity="few">Zostávajú %1$d položky…</item>
+        <item quantity="many">Zostáva %1$d položky…</item>
+    </plurals>
+    <plurals name="drive_fast_scroll_time_grouper_n_days_ago">
+        <item quantity="other">Pred %d dňami</item>
+        <item quantity="one">Pred %d dňom</item>
+        <item quantity="few">Pred %d dňami</item>
+        <item quantity="many">Pred %d dňom</item>
+    </plurals>
+    <plurals name="drive_fast_scroll_time_grouper_n_weeks_ago">
+        <item quantity="other">Pred %d týždňami</item>
+        <item quantity="one">Pred %d týždňom</item>
+        <item quantity="few">Pred %d týždňami</item>
+        <item quantity="many">Pred %d týždňom</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="other">Nové správy</item>
+        <item quantity="one">Nová správa</item>
+        <item quantity="few">Nové správy</item>
+        <item quantity="many">Nové správy</item>
+    </plurals>
+    <plurals name="wallet_expanding_loyalty_selector">
+        <item quantity="other">Zobrazenie zoznamu s %1$d vernostnými programami</item>
+        <item quantity="one">Zobrazenie zoznamu s jedným vernostným programom</item>
+        <item quantity="few">Zobrazenie zoznamu s %1$d vernostnými programami</item>
+        <item quantity="many">Zobrazenie zoznamu s %1$d vernostného programu</item>
+    </plurals>
+    <plurals name="wallet_expanding_expander_view">
+        <item quantity="other">Zobrazenie zoznamu s %1$d položkami</item>
+        <item quantity="one">Zobrazenie zoznamu s jednou položkou</item>
+        <item quantity="few">Zobrazenie zoznamu s %1$d položkami</item>
+        <item quantity="many">Zobrazenie zoznamu s %1$d položky</item>
+    </plurals>
+    <plurals name="wallet_expanding_instrument_selector">
+        <item quantity="other">Zobrazenie zoznamu s %1$d spôsobmi platby</item>
+        <item quantity="one">Zobrazenie zoznamu s jedným spôsobom platby</item>
+        <item quantity="few">Zobrazenie zoznamu s %1$d spôsobmi platby</item>
+        <item quantity="many">Zobrazenie zoznamu s %1$d spôsobu platby</item>
+    </plurals>
+    <plurals name="wallet_expanding_address_selector">
+        <item quantity="other">Zobrazenie zoznamu s %1$d adresami</item>
+        <item quantity="one">Zobrazenie zoznamu s jednou adresou</item>
+        <item quantity="few">Zobrazenie zoznamu s %1$d adresami</item>
+        <item quantity="many">Zobrazenie zoznamu s %1$d adresy</item>
+    </plurals>
+    <plurals name="wallet_expanding_shipping_address_selector">
+        <item quantity="other">Zobrazuje sa zoznam s %1$d dodacími adresami</item>
+        <item quantity="one">Zobrazuje sa zoznam s jednou dodacou adresou</item>
+        <item quantity="few">Zobrazuje sa zoznam s %1$d dodacími adresami</item>
+        <item quantity="many">Zobrazuje sa zoznam s %1$d dodacej adresy</item>
+    </plurals>
+    <plurals name="wallet_expanding_customer_selector">
+        <item quantity="other">Zobrazuje sa zoznam s %1$d možnosťami profilu</item>
+        <item quantity="one">Zobrazuje sa zoznam s jednou možnosťou profilu</item>
+        <item quantity="few">Zobrazuje sa zoznam s %1$d možnosťami profilu</item>
+        <item quantity="many">Zobrazuje sa zoznam s %1$d možnosti profilu</item>
+    </plurals>
+    <plurals name="wallet_expanding_account_selector">
+        <item quantity="other">Zobrazenie zoznamu s %1$d možnosťami účtu</item>
+        <item quantity="one">Zobrazenie zoznamu s jednou možnosťou účtu</item>
+        <item quantity="few">Zobrazenie zoznamu s %1$d možnosťami účtu</item>
+        <item quantity="many">Zobrazenie zoznamu s %1$d možnosti účtu</item>
+    </plurals>
+    <plurals name="wallet_expanding_field_selector">
+        <item quantity="other">Zobrazenie zoznamu s %1$d možnosťami</item>
+        <item quantity="one">Zobrazenie zoznamu s jednou možnosťou</item>
+        <item quantity="few">Zobrazenie zoznamu s %1$d možnosťami</item>
+        <item quantity="many">Zobrazenie zoznamu s %1$d možnosti</item>
+    </plurals>
+    <plurals name="wallet_expanding_ui_field_group_selector">
+        <item quantity="other">Zobrazenie zoznamu s %1$d možnosťami</item>
+        <item quantity="one">Zobrazenie zoznamu s jednou možnosťou</item>
+        <item quantity="few">Zobrazenie zoznamu s %1$d možnosťami</item>
+        <item quantity="many">Zobrazenie zoznamu s %1$d možnosti</item>
+    </plurals>
+    <plurals name="auth_trust_agent_inactivity_notification_hour">
+        <item quantity="other"> %d hodinách</item>
+        <item quantity="one">1 hodine</item>
+        <item quantity="few"> %d hodinách</item>
+        <item quantity="many"> %d hodiny</item>
+    </plurals>
+    <plurals name="auth_trust_agent_inactivity_notification_minute">
+        <item quantity="other"> %d minútach</item>
+        <item quantity="one">1 minúte</item>
+        <item quantity="few"> %d minútach</item>
+        <item quantity="many"> %d minúty</item>
+    </plurals>
+    <plurals name="smartdevice_d2d_setting_up_accounts_and_data_text">
+        <item quantity="other">Kopírujú sa vaše účty Google a údaje…</item>
+        <item quantity="one">Kopíruje sa váš účet Google a údaje…</item>
+        <item quantity="few">Kopírujú sa vaše účty Google a údaje…</item>
+        <item quantity="many">Kopírujú sa vaše účty Google a údaje…</item>
+    </plurals>
+    <plurals name="smartdevice_d2d_source_notification_text">
+        <item quantity="other">Toto zariadenie bolo použité na nastavenie zariadenia ^1 s vašimi účtami Google a ich údajmi</item>
+        <item quantity="one">Toto zariadenie bolo použité na nastavenie zariadenia ^1 s vaším účtom Google a jeho údajmi</item>
+        <item quantity="few">Toto zariadenie bolo použité na nastavenie zariadenia ^1 s vašimi účtami Google a ich údajmi</item>
+        <item quantity="many">Toto zariadenie bolo použité na nastavenie zariadenia ^1 s vašimi účtami Google a ich údajmi</item>
+    </plurals>
+    <plurals name="smartdevice_d2d_source_notification_generic_text">
+        <item quantity="other">Toto zariadenie bolo použité na nastavenie iného zariadenia pomocou vašich účtov Google a údajov</item>
+        <item quantity="one">Toto zariadenie bolo použité na nastavenie iného zariadenia pomocou vášho účtu Google a údajov</item>
+        <item quantity="few">Toto zariadenie bolo použité na nastavenie iného zariadenia pomocou vašich účtov Google a údajov</item>
+        <item quantity="many">Toto zariadenie bolo použité na nastavenie iného zariadenia pomocou vašich účtov Google a údajov</item>
+    </plurals>
+    <plurals name="profile_total_followers_count">
+        <item quantity="other">%1$,d sledovateľov</item>
+        <item quantity="one">1 sledovateľ</item>
+        <item quantity="few">%1$,d sledovatelia</item>
+        <item quantity="many">%1$,d sledovateľa</item>
+    </plurals>
+    <plurals name="profile_total_views_count">
+        <item quantity="other">%1$,d zobrazení</item>
+        <item quantity="one">1 zobrazenie</item>
+        <item quantity="few">%1$,d zobrazenia</item>
+        <item quantity="many">%1$,d zobrazenia</item>
+    </plurals>
+    <plurals name="location_sharing_duration_days">
+        <item quantity="other">%d dní</item>
+        <item quantity="one">1 deň</item>
+        <item quantity="few">%d dni</item>
+        <item quantity="many">%d dňa</item>
+    </plurals>
+    <plurals name="location_sharing_duration_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">1 h</item>
+        <item quantity="few">%d h</item>
+        <item quantity="many">%d h</item>
+    </plurals>
+    <plurals name="location_sharing_duration_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">1 min</item>
+        <item quantity="few">%d min</item>
+        <item quantity="many">%d min</item>
+    </plurals>
+    <plurals name="location_sharing_expiration_days">
+        <item quantity="other">%d dní</item>
+        <item quantity="one">1 deň</item>
+        <item quantity="few">%d dni</item>
+        <item quantity="many">%d dňa</item>
+    </plurals>
+    <plurals name="location_sharing_expiration_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">1 h</item>
+        <item quantity="few">%d h</item>
+        <item quantity="many">%d h</item>
+    </plurals>
+    <plurals name="location_sharing_expiration_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">1 min</item>
+        <item quantity="few">%d min</item>
+        <item quantity="many">%d min</item>
+    </plurals>
+    <plurals name="location_sharing_people">
+        <item quantity="other">Počet ľudí: %d</item>
+        <item quantity="one">Počet ľudí: 1</item>
+        <item quantity="few">Počet ľudí: %d</item>
+        <item quantity="many">Počet ľudí: %d</item>
+    </plurals>
+    <plurals name="location_sharing_circles">
+        <item quantity="other">%d kruhov</item>
+        <item quantity="one">1 kruh</item>
+        <item quantity="few">%d kruhy</item>
+        <item quantity="many">%d kruhu</item>
+    </plurals>
+    <plurals name="plus_num_minutes_ago">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+        <item quantity="few">%d min</item>
+        <item quantity="many">%d min</item>
+    </plurals>
+    <plurals name="plus_num_hours_ago">
+        <item quantity="other">%d hodín</item>
+        <item quantity="one">%d hodina</item>
+        <item quantity="few">%d hodiny</item>
+        <item quantity="many">%d hodiny</item>
+    </plurals>
+    <plurals name="plus_num_days_ago">
+        <item quantity="other">%d dní</item>
+        <item quantity="one">%d deň</item>
+        <item quantity="few">%d dni</item>
+        <item quantity="many">%d dňa</item>
+    </plurals>
+    <plurals name="plus_sharebox_circles_checkbox_number_of_people">
+        <item quantity="other">Počet ľudí: %1$s</item>
+        <item quantity="one">Počet ľudí: %1$s</item>
+        <item quantity="few">Počet ľudí: %1$s</item>
+        <item quantity="many">Počet ľudí: %1$s</item>
+    </plurals>
+    <plurals name="system_update_countdown_message">
+        <item quantity="other">O %d sekúnd sa systém z dôvodu inštalácie reštartuje…</item>
+        <item quantity="one">O 1 sekundu sa systém z dôvodu inštalácie reštartuje...</item>
+        <item quantity="few">O %d sekundy sa systém z dôvodu inštalácie reštartuje…</item>
+        <item quantity="many">O %d sekundy sa systém z dôvodu inštalácie reštartuje…</item>
+    </plurals>
+    <plurals name="gh_chat_unread_messages_notification">
+        <item quantity="other">%1$d neprečítaných správ</item>
+        <item quantity="one">1 neprečítaná správa</item>
+        <item quantity="few">%1$d neprečítané správy</item>
+        <item quantity="many">%1$d neprečítanej správy</item>
+    </plurals>
+    <plurals name="fm_invite_button_secondary_text">
+        <item quantity="other">Zostáva %d pozvánok</item>
+        <item quantity="one">Zostáva %d pozvánka</item>
+        <item quantity="few">Zostávajú %d pozvánky</item>
+        <item quantity="many">Zostáva %d pozvánky</item>
+    </plurals>
+    <plurals name="fm_invitations_text_retry_error">
+        <item quantity="other">Tieto pozvánky neboli odoslané, pretože sa vyskytla chyba</item>
+        <item quantity="one">Táto pozvánka nebola odoslaná, pretože sa vyskytla chyba</item>
+        <item quantity="few">Tieto pozvánky neboli odoslané, pretože sa vyskytla chyba</item>
+        <item quantity="many">Tieto pozvánky neboli odoslané, pretože sa vyskytla chyba</item>
+    </plurals>
+    <plurals name="fm_invitations_text_skip_failures">
+        <item quantity="other">Tieto pozvánky nemôžu byť momentálne odoslané. Môžete ich odoslať znova v ponuke Google Play > Môj účet.</item>
+        <item quantity="one">Táto pozvánka nemôže byť momentálne odoslaná. Môžete ju odoslať znova v ponuke Google Play > Môj účet.</item>
+        <item quantity="few">Tieto pozvánky nemôžu byť momentálne odoslané. Môžete ich odoslať znova v ponuke Google Play > Môj účet.</item>
+        <item quantity="many">Tieto pozvánky nemôžu byť momentálne odoslané. Môžete ich odoslať znova v ponuke Google Play > Môj účet.</item>
+    </plurals>
+    <plurals name="fm_age_confirmation">
+        <item quantity="other">Máte %d rokov. Je to tak?</item>
+        <item quantity="one">Máte %d rok. Je to tak?</item>
+        <item quantity="few">Máte %d roky. Je to tak?</item>
+        <item quantity="many">Máte %d roka. Je to tak?</item>
+    </plurals>
+    <plurals name="auth_d2d_source_notification_text">
+        <item quantity="other">Pomocou tohto zariadenia boli na zariadení ^1 zriadené účty Google spolu s údajmi</item>
+        <item quantity="one">Pomocou tohto zariadenia bol na zariadení ^1 zriadený váš účet Google spolu s údajmi</item>
+        <item quantity="few">Pomocou tohto zariadenia boli na zariadení ^1 zriadené účty Google spolu s údajmi</item>
+        <item quantity="many">Pomocou tohto zariadenia boli na zariadení ^1 zriadené účty Google spolu s údajmi</item>
+    </plurals>
+    <plurals name="appinvite_message_within_limit">
+        <item quantity="other">Zostáva %1$d znakov</item>
+        <item quantity="one">Zostáva %1$d znak</item>
+        <item quantity="few">Zostávajú %1$d znaky</item>
+        <item quantity="many">Zostáva %1$d znaku</item>
+    </plurals>
+    <plurals name="appinvite_message_over_limit">
+        <item quantity="other">%1$d znakov prekračuje limit</item>
+        <item quantity="one">%1$d znak prekračuje limit</item>
+        <item quantity="few">%1$d znaky prekračujú limit</item>
+        <item quantity="many">%1$d znaku prekračuje limit</item>
+    </plurals>
+    <plurals name="notification_autobackup_stalled_quantity_text">
+        <item quantity="other">%1$d dní od posledného zálohovania</item>
+        <item quantity="one">%1$d deň od posledného zálohovania</item>
+        <item quantity="few">%1$d dni od posledného zálohovania</item>
+        <item quantity="many">%1$d dňa od posledného zálohovania</item>
+    </plurals>
+</resources>

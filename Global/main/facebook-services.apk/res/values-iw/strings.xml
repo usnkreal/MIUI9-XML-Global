@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="byte_size_bytes">%1$d בתים</string>
+    <string name="byte_size_kb">%1$d ק\"ב</string>
+</resources>

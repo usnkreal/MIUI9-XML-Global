@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="add_a_place_categories">
+        <item>בר</item>
+        <item>בית קפה</item>
+        <item>תחנת דלק</item>
+        <item>בית קולנוע</item>
+        <item>מקום אירוח</item>
+        <item>מועדון לילה</item>
+        <item>מוזיאון</item>
+        <item>מסעדה</item>
+        <item>מרכז קניות</item>
+        <item>חנות</item>
+        <item>חנות מכולת או סופרמרקט</item>
+        <item>אחר</item>
+    </string-array>
+    <string-array name="category_descriptions">
+        <item>שדה תעופה</item>
+        <item>כספומט</item>
+        <item>בנק</item>
+        <item>בר</item>
+        <item>תחנת אוטובוס</item>
+        <item>בית קפה</item>
+        <item>אתר מחנאות</item>
+        <item>בית קברות</item>
+        <item>כנסייה</item>
+        <item>עירייה</item>
+        <item>בית עסק</item>
+        <item>תחנת דלק</item>
+        <item>חנות מכולת או סופרמרקט</item>
+        <item>מקדש הינדו</item>
+        <item>בית חולים</item>
+        <item>ספרייה</item>
+        <item>מקום אירוח</item>
+        <item>מסגד</item>
+        <item>בית קולנוע</item>
+        <item>מוזיאון</item>
+        <item>פארק</item>
+        <item>חניה</item>
+        <item>בית תפילה</item>
+        <item>תחנת משטרה</item>
+        <item>סניף דואר</item>
+        <item>מסעדה</item>
+        <item>בית ספר</item>
+        <item>חנות</item>
+        <item>תחנת רכבת תחתית</item>
+        <item>בית כנסת</item>
+        <item>תחנת רכבת</item>
+        <item>תחנת תחבורה ציבורית</item>
+    </string-array>
+    <string-array name="drive_fast_scroll_time_grouper_in_month">
+        <item>ינואר</item>
+        <item>פברואר</item>
+        <item>מרץ</item>
+        <item>אפריל</item>
+        <item>מאי</item>
+        <item>יוני</item>
+        <item>יולי</item>
+        <item>אוגוסט</item>
+        <item>ספטמבר</item>
+        <item>אוקטובר</item>
+        <item>נובמבר</item>
+        <item>דצמבר</item>
+    </string-array>
+    <string-array name="car_app_mode_labels">
+        <item>גרסה</item>
+        <item>מפתח</item>
+        <item>קמעונאות</item>
+        <item>הדגמה</item>
+    </string-array>
+    <string-array name="car_day_night_mode_labels">
+        <item>בשליטת המכונית</item>
+        <item>בשליטת הטלפון</item>
+        <item>יום</item>
+        <item>לילה</item>
+    </string-array>
+    <string-array name="location_sharing_edit_share_duration_array">
+        <item>הפסק שיתוף</item>
+        <item>15 דקות</item>
+        <item>30 דקות</item>
+        <item>שעה אחת</item>
+        <item>ללא הגבלה</item>
+    </string-array>
+    <string-array name="location_sharing_link_edit_share_duration_array">
+        <item>הפסק שיתוף</item>
+        <item>15 דקות</item>
+        <item>30 דקות</item>
+        <item>שעה אחת</item>
+    </string-array>
+    <string-array name="location_sharing_minutes_array">
+        <item>0</item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+    </string-array>
+    <string-array name="auth_gls_passwordStrength">
+        <item>חלשה</item>
+        <item>סבירה</item>
+        <item>טובה</item>
+        <item>חזקה</item>
+    </string-array>
+</resources>

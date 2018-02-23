@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auth_authzen_pull_number_of_google_accounts">
+        <item quantity="other">%d Google-fiók</item>
+        <item quantity="one">%d Google-fiók</item>
+    </plurals>
+    <plurals name="nearby_notification_content">
+        <item quantity="other">A(z) %1$s és %2$d további alkalmazás által</item>
+        <item quantity="one">A(z) %1$s és %2$d további alkalmazás által</item>
+    </plurals>
+    <plurals name="contacts_number_local_and_sim">
+        <item quantity="other">%1$d névjegy a SIM-kártyán, %2$d a telefonon</item>
+        <item quantity="one">%1$d névjegy a SIM-kártyán, %2$d a telefonon</item>
+    </plurals>
+    <plurals name="contacts_number_sim">
+        <item quantity="other">%1$d névjegy a SIM-kártyán</item>
+        <item quantity="one">1 névjegy a SIM-kártyán</item>
+    </plurals>
+    <plurals name="contacts_number_local">
+        <item quantity="other">%1$d névjegy a telefonon</item>
+        <item quantity="one">1 névjegy a telefonon</item>
+    </plurals>
+    <plurals name="ios_contacts_number">
+        <item quantity="other">%1$d névjegy</item>
+        <item quantity="one">1 névjegy</item>
+    </plurals>
+    <plurals name="google_contacts_number">
+        <item quantity="other">%1$d névjegy a Google-fiókból</item>
+        <item quantity="one">1 névjegy a Google-fiókból</item>
+    </plurals>
+    <plurals name="app_picker_description">
+        <item quantity="other">%1$d alkalmazást találtunk. Válasszon ki néhányat, vagy hozza át mindet.</item>
+        <item quantity="one">%1$d alkalmazást találtunk. Szeretné áthozni ide?</item>
+    </plurals>
+    <plurals name="app_picker_all_apps">
+        <item quantity="other">Mind a(z) %1$d alkalmazás</item>
+        <item quantity="one">1 alkalmazás</item>
+    </plurals>
+    <plurals name="app_picker_some_apps">
+        <item quantity="other">%1$d alkalmazás kiválasztva</item>
+        <item quantity="one">1 alkalmazás kiválasztva</item>
+    </plurals>
+    <plurals name="ios_migration_calendar_attendee_warning">
+        <item quantity="other">Figyelem! A következő résztvevők már nincsenek meghívva erre az eseményre:</item>
+        <item quantity="one">Figyelem! A következő résztvevő már nincs meghívva erre az eseményre:</item>
+    </plurals>
+    <plurals name="drive_backup_content_photos_items_left">
+        <item quantity="other">%1$d elem maradt…</item>
+        <item quantity="one">%1$d elem maradt…</item>
+    </plurals>
+    <plurals name="drive_fast_scroll_time_grouper_n_days_ago">
+        <item quantity="other">%d napja</item>
+        <item quantity="one">%d napja</item>
+    </plurals>
+    <plurals name="drive_fast_scroll_time_grouper_n_weeks_ago">
+        <item quantity="other">%d hete</item>
+        <item quantity="one">%d hete</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="other">Új üzenetek</item>
+        <item quantity="one">Új üzenet</item>
+    </plurals>
+    <plurals name="wallet_expanding_loyalty_selector">
+        <item quantity="other">%1$d hűségprogramot tartalmazó lista megjelenítése</item>
+        <item quantity="one">Egy hűségprogramot tartalmazó lista megjelenítése</item>
+    </plurals>
+    <plurals name="wallet_expanding_expander_view">
+        <item quantity="other">%1$d elemet tartalmazó lista megjelenítése.</item>
+        <item quantity="one">Egy elemet tartalmazó lista megjelenítése.</item>
+    </plurals>
+    <plurals name="wallet_expanding_instrument_selector">
+        <item quantity="other">%1$d fizetési módot tartalmazó lista megjelenítése</item>
+        <item quantity="one">Egy fizetési módot tartalmazó lista megjelenítése</item>
+    </plurals>
+    <plurals name="wallet_expanding_address_selector">
+        <item quantity="other">%1$d címet tartalmazó lista megjelenítése</item>
+        <item quantity="one">Egy címet tartalmazó lista megjelenítése</item>
+    </plurals>
+    <plurals name="wallet_expanding_shipping_address_selector">
+        <item quantity="other">%1$d szállítási cím opciót tartalmazó lista megjelenítése</item>
+        <item quantity="one">Egy szállítási cím opciót tartalmazó lista megjelenítése</item>
+    </plurals>
+    <plurals name="wallet_expanding_customer_selector">
+        <item quantity="other">%1$d profilopció listájának megtekintése</item>
+        <item quantity="one">Egy profilopció listájának megtekintése</item>
+    </plurals>
+    <plurals name="wallet_expanding_account_selector">
+        <item quantity="other">%1$d fióklehetőséget tartalmazó lista megjelenítése</item>
+        <item quantity="one">Egy fióklehetőséget tartalmazó lista megjelenítése</item>
+    </plurals>
+    <plurals name="wallet_expanding_field_selector">
+        <item quantity="other">%1$d lehetőséget tartalmazó lista megjelenítése</item>
+        <item quantity="one">Egy lehetőséget tartalmazó lista megjelenítése</item>
+    </plurals>
+    <plurals name="wallet_expanding_ui_field_group_selector">
+        <item quantity="other">%1$d lehetőséget tartalmazó lista megjelenítése</item>
+        <item quantity="one">Egy lehetőséget tartalmazó lista megjelenítése</item>
+    </plurals>
+    <plurals name="auth_trust_agent_inactivity_notification_hour">
+        <item quantity="other">%d óra</item>
+        <item quantity="one">1 óra</item>
+    </plurals>
+    <plurals name="auth_trust_agent_inactivity_notification_minute">
+        <item quantity="other">%d perc</item>
+        <item quantity="one">1 perc</item>
+    </plurals>
+    <plurals name="smartdevice_d2d_setting_up_accounts_and_data_text">
+        <item quantity="other">Google-fiókok és -adatok másolása…</item>
+        <item quantity="one">Google-fiók és -adatok másolása…</item>
+    </plurals>
+    <plurals name="smartdevice_d2d_source_notification_text">
+        <item quantity="other">Ezzel az eszközzel be lett állítva egy ^1-eszköz Google-fiókjaiddal és -adataiddal</item>
+        <item quantity="one">Ezzel az eszközzel be lett állítva egy ^1-eszköz Google-fiókoddal és -adataiddal</item>
+    </plurals>
+    <plurals name="smartdevice_d2d_source_notification_generic_text">
+        <item quantity="other">Ennek az eszköznek a segítségével vitték át egy másik eszközre az Ön Google-fiókjait és adatait</item>
+        <item quantity="one">Ennek az eszköznek a segítségével vitték át egy másik eszközre az Ön Google-fiókját és adatait</item>
+    </plurals>
+    <plurals name="profile_total_followers_count">
+        <item quantity="other">%1$,d követő</item>
+        <item quantity="one">Egy követő</item>
+    </plurals>
+    <plurals name="profile_total_views_count">
+        <item quantity="other">%1$,d megtekintés</item>
+        <item quantity="one">Egy megtekintés</item>
+    </plurals>
+    <plurals name="location_sharing_duration_days">
+        <item quantity="other">%d nap</item>
+        <item quantity="one">1 nap</item>
+    </plurals>
+    <plurals name="location_sharing_duration_hours">
+        <item quantity="other">%d óra</item>
+        <item quantity="one">1 óra</item>
+    </plurals>
+    <plurals name="location_sharing_duration_minutes">
+        <item quantity="other">%d perc</item>
+        <item quantity="one">1 perc</item>
+    </plurals>
+    <plurals name="location_sharing_expiration_days">
+        <item quantity="other">%d nap</item>
+        <item quantity="one">1 nap</item>
+    </plurals>
+    <plurals name="location_sharing_expiration_hours">
+        <item quantity="other">%d óra</item>
+        <item quantity="one">1 óra</item>
+    </plurals>
+    <plurals name="location_sharing_expiration_minutes">
+        <item quantity="other">%d perc</item>
+        <item quantity="one">1 perc</item>
+    </plurals>
+    <plurals name="location_sharing_people">
+        <item quantity="other">%d személy</item>
+        <item quantity="one">1 személy</item>
+    </plurals>
+    <plurals name="location_sharing_circles">
+        <item quantity="other">%d kör</item>
+        <item quantity="one">1 kör</item>
+    </plurals>
+    <plurals name="plus_num_minutes_ago">
+        <item quantity="other">%d perce</item>
+        <item quantity="one">%d perce</item>
+    </plurals>
+    <plurals name="plus_num_hours_ago">
+        <item quantity="other">%d órája</item>
+        <item quantity="one">%d órája</item>
+    </plurals>
+    <plurals name="plus_num_days_ago">
+        <item quantity="other">%d napja</item>
+        <item quantity="one">%d napja</item>
+    </plurals>
+    <plurals name="plus_sharebox_circles_checkbox_number_of_people">
+        <item quantity="other">%1$s személy</item>
+        <item quantity="one">%1$s személy</item>
+    </plurals>
+    <plurals name="system_update_countdown_message">
+        <item quantity="other">Újraindítás a telepítéshez %d másodperc múlva…</item>
+        <item quantity="one">Újraindítás a telepítéshez 1 másodperc múlva…</item>
+    </plurals>
+    <plurals name="gh_chat_unread_messages_notification">
+        <item quantity="other">%1$d nem olvasott üzenet</item>
+        <item quantity="one">1 nem olvasott üzenet</item>
+    </plurals>
+    <plurals name="fm_invite_button_secondary_text">
+        <item quantity="other">%d meghívó maradt</item>
+        <item quantity="one">%d meghívó maradt</item>
+    </plurals>
+    <plurals name="fm_invitations_text_retry_error">
+        <item quantity="other">A rendszer egy hiba miatt nem tudta elküldeni a meghívókat</item>
+        <item quantity="one">A rendszer egy hiba miatt nem tudta elküldeni a meghívót</item>
+    </plurals>
+    <plurals name="fm_invitations_text_skip_failures">
+        <item quantity="other">A meghívókat most nem lehet elküldeni. Újra elküldheti őket a Google Play > Saját fiók menüpontból.</item>
+        <item quantity="one">A meghívót most nem lehet elküldeni. Újra elküldheti a Google Play > Saját fiók menüpontból.</item>
+    </plurals>
+    <plurals name="fm_age_confirmation">
+        <item quantity="other">Ön %d éves. Helyes ez az információ?</item>
+        <item quantity="one">Ön %d éves. Helyes ez az információ?</item>
+    </plurals>
+    <plurals name="auth_d2d_source_notification_text">
+        <item quantity="other">Ezt az eszközt használták egy ^1 beállítására az Ön Google-fiókjaival és azok adataival</item>
+        <item quantity="one">Ezt az eszközt használták egy ^1 beállítására az Ön Google-fiókjával és adataival</item>
+    </plurals>
+    <plurals name="appinvite_message_within_limit">
+        <item quantity="other">%1$d karakter maradt</item>
+        <item quantity="one">%1$d karakter maradt</item>
+    </plurals>
+    <plurals name="appinvite_message_over_limit">
+        <item quantity="other">%1$d karakterrel túllépte a korlátot</item>
+        <item quantity="one">%1$d karakterrel túllépte a korlátot</item>
+    </plurals>
+    <plurals name="notification_autobackup_stalled_quantity_text">
+        <item quantity="other">%1$d nap telt el az utolsó mentés óta</item>
+        <item quantity="one">%1$d nap telt el az utolsó mentés óta</item>
+    </plurals>
+</resources>

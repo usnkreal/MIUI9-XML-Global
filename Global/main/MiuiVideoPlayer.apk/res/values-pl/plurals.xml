@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="subtitle_offset_advance_times">
+        <item quantity="other">Napisy są przesunięte o %.1f sekund do przodu</item>
+        <item quantity="one">Napisy są przesunięte o %.1f sekundę do przodu</item>
+        <item quantity="few">Napisy są przesunięte o %.1f sekundy do przodu</item>
+    </plurals>
+    <plurals name="subtitle_offset_delay_times">
+        <item quantity="other">Napisy są opóźnione o %.1f sekund</item>
+        <item quantity="one">Napisy są opóźnione o %.1f sekundę</item>
+        <item quantity="few">Napisy są opóźnione o %.1f sekundy</item>
+    </plurals>
+    <plurals name="subtitle_onlinesub_size_float_kb">
+        <item quantity="other">Rozmiar: %.2fkB</item>
+        <item quantity="one">Rozmiar: %.2fkB</item>
+        <item quantity="few">Rozmiar: %.2fkB</item>
+    </plurals>
+    <plurals name="v_video_count">
+        <item quantity="other">%d wideo</item>
+        <item quantity="one">%d wideo</item>
+        <item quantity="few">%d wideo</item>
+    </plurals>
+</resources>

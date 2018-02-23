@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="add_a_place_categories">
+        <item>Бар</item>
+        <item>Кафене</item>
+        <item>Бензиностанция</item>
+        <item>Кино</item>
+        <item>Настаняване</item>
+        <item>Нощен клуб</item>
+        <item>Музей</item>
+        <item>Ресторант</item>
+        <item>Търговски център</item>
+        <item>Магазин</item>
+        <item>Бакалница или супермаркет</item>
+        <item>Друго</item>
+    </string-array>
+    <string-array name="category_descriptions">
+        <item>Летище</item>
+        <item>Банкомат</item>
+        <item>Банка</item>
+        <item>Бар</item>
+        <item>Автогара</item>
+        <item>Кафене</item>
+        <item>Къмпинг</item>
+        <item>Гробище</item>
+        <item>Църква</item>
+        <item>Община</item>
+        <item>Учреждение</item>
+        <item>Бензиностанция</item>
+        <item>Бакалница или супермаркет</item>
+        <item>Мандир</item>
+        <item>Болница</item>
+        <item>Библиотека</item>
+        <item>Настаняване</item>
+        <item>Джамия</item>
+        <item>Кино</item>
+        <item>Музей</item>
+        <item>Парк</item>
+        <item>Паркинг</item>
+        <item>Място за поклонение</item>
+        <item>Полицейски участък</item>
+        <item>Поща</item>
+        <item>Ресторант</item>
+        <item>Училище</item>
+        <item>Магазин</item>
+        <item>Метростанция</item>
+        <item>Синагога</item>
+        <item>Гара</item>
+        <item>Транспортен терминал</item>
+    </string-array>
+    <string-array name="drive_fast_scroll_time_grouper_in_month">
+        <item>януари</item>
+        <item>февруари</item>
+        <item>март</item>
+        <item>април</item>
+        <item>май</item>
+        <item>юни</item>
+        <item>юли</item>
+        <item>август</item>
+        <item>септември</item>
+        <item>октомври</item>
+        <item>ноември</item>
+        <item>декември</item>
+    </string-array>
+    <string-array name="car_app_mode_labels">
+        <item>Версия</item>
+        <item>За програмисти</item>
+        <item>Търговия на дребно</item>
+        <item>Демонстрационна версия</item>
+    </string-array>
+    <string-array name="car_day_night_mode_labels">
+        <item>Контролиране от автомобила</item>
+        <item>Контролиране от телефона</item>
+        <item>Ден</item>
+        <item>Нощ</item>
+    </string-array>
+    <string-array name="location_sharing_edit_share_duration_array">
+        <item>Спиране на споделянето</item>
+        <item>15 минути</item>
+        <item>30 минути</item>
+        <item>1 час</item>
+        <item>Неограничено време</item>
+    </string-array>
+    <string-array name="location_sharing_link_edit_share_duration_array">
+        <item>Спиране на споделянето</item>
+        <item>15 минути</item>
+        <item>30 минути</item>
+        <item>1 час</item>
+    </string-array>
+    <string-array name="location_sharing_minutes_array">
+        <item>0</item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+    </string-array>
+    <string-array name="auth_gls_passwordStrength">
+        <item>лоша</item>
+        <item>задоволителна</item>
+        <item>добра</item>
+        <item>надеждна</item>
+    </string-array>
+</resources>

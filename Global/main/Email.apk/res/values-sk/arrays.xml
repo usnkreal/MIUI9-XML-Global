@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="all_month_str">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>Máj</item>
+        <item>Jún</item>
+        <item>Júl</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Okt</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="calendar_remind_string_array">
+        <item>Dnes večer</item>
+        <item>Zajtra</item>
+        <item>Víkend</item>
+        <item>Ďalší týždeň</item>
+        <item>Ďalší mesiac</item>
+        <item>Vybrať dátum</item>
+    </string-array>
+    <string-array name="compose_modes">
+        <item>Odpovedať</item>
+        <item>Odp. všetkým</item>
+        <item>Poslať ďalej</item>
+    </string-array>
+    <string-array name="general_preference_text_zoom_summary_array">
+        <item>Maličký text</item>
+        <item>Malý text</item>
+        <item>Normálny text</item>
+        <item>Veľký text</item>
+        <item>Obrovský text</item>
+    </string-array>
+    <string-array name="menu_att_mgr_sort_string_array">
+        <item>Posledné</item>
+        <item>Formát</item>
+        <item>Názov</item>
+        <item>Odosielateľ</item>
+        <item>Dátum</item>
+    </string-array>
+    <string-array name="moveto_folder_sections">
+        <item>Systém</item>
+        <item>Často používané</item>
+        <item>Všetky priečinky</item>
+    </string-array>
+    <string-array name="prefEntries_autoAdvance">
+        <item>Novšia</item>
+        <item>Staršia</item>
+        <item>Doručené správy</item>
+    </string-array>
+    <string-array name="signature_normal_string_array_next">
+        <item>Adresa:</item>
+        <item>Tel:</item>
+        <item>Názov:</item>
+        <item>E-mail:</item>
+        <item>Mobil:</item>
+        <item>WeChat:</item>
+        <item>Fax:</item>
+        <item>PSČ:</item>
+    </string-array>
+    <string-array name="signature_special_string_array_next">
+        <item>Vďaka,</item>
+        <item>S pozdravom</item>
+        <item>Odoslané z môjho</item>
+        <item>Pôvodný e-mail</item>
+        <item>Odoslané z môjho</item>
+        <item>Odoslané z</item>
+        <item>Od</item>
+        <item>Tento e-mail</item>
+        <item>Upozornenie</item>
+        <item>Upozornenie e-mailom</item>
+    </string-array>
+</resources>

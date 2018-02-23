@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d alkalmazáselőzmény</item>
+        <item quantity="one">%d alkalmazáselőzmény</item>
+    </plurals>
+    <plurals name="accessibility_recent_task_enter">
+        <item quantity="other">Előzmények megnyitva, %d elérhető alkalmazás.</item>
+        <item quantity="one">Előzmények megnyitva, %d elérhető alkalmazás.</item>
+    </plurals>
+    <plurals name="accessibility_recent_task_first_enter_tips">
+        <item quantity="other">Előzmények megnyitva, elérhető alkalmazások: %d. Húzza felfelé az eltávolításhoz, húzza lefelé a rögzítéshez.</item>
+        <item quantity="one">Előzmények megnyitva, elérhető alkalmazások: %d. Húzza felfelé az eltávolításhoz, húzza lefelé a rögzítéshez.</item>
+    </plurals>
+    <plurals name="settings_toggle_position_divider_page">
+        <item quantity="other">%1$d kapcsoló fog megjelenni az értesítési felületen</item>
+        <item quantity="one">%1$d kapcsoló fog megjelenni az értesítési felületen</item>
+    </plurals>
+    <plurals name="disable_notification_confirm_title">
+        <item quantity="other">Elrejti %d alkalmazás értesítéseit?</item>
+        <item quantity="one">Elrejti az alkalmazások értesítéseit?</item>
+    </plurals>
+    <plurals name="block_record_notification_more_text">
+        <item quantity="other">%1$s és másik %2$d alkalmazás értesítéseinek elrejtése.</item>
+        <item quantity="one">%1$s és másik %2$d alkalmazás értesítéseinek elrejtése.</item>
+    </plurals>
+    <plurals name="view_realtime_clear">
+        <item quantity="other">Tiszta</item>
+        <item quantity="one">Napos</item>
+    </plurals>
+    <plurals name="accessibility_desc_weather_temperature">
+        <item quantity="other">%d hőfokú az időjárás</item>
+        <item quantity="one">%d hőfokú az időjárás</item>
+    </plurals>
+    <plurals name="fold_tips_title">
+        <item quantity="other">%d nem fontos értesítés</item>
+        <item quantity="one">%d nem fontos értesítés</item>
+    </plurals>
+    <plurals name="notification_group_child_count">
+        <item quantity="other">%1$d értesítés</item>
+        <item quantity="one">%1$d értesítés</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">Még %s értesítés.</item>
+        <item quantity="one">Még %s értesítés.</item>
+    </plurals>
+</resources>

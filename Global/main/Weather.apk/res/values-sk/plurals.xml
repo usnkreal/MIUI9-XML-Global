@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="activity_main_update_time_in_one_day">
+        <item quantity="other">Pred %d hodinami</item>
+        <item quantity="one">Pred %d hodinou</item>
+        <item quantity="few">Pred %d hodinami</item>
+    </plurals>
+    <plurals name="activity_main_update_time_in_one_hour">
+        <item quantity="other">%d minutes ago</item>
+        <item quantity="one">Pred %d min</item>
+        <item quantity="few">Pred %d min</item>
+    </plurals>
+    <plurals name="activity_main_update_time_one_day_ago">
+        <item quantity="other">Pred %d dňami</item>
+        <item quantity="one">Pred %d dňom</item>
+        <item quantity="few">Pred %d dňami</item>
+    </plurals>
+    <plurals name="daily_forcast_drawer_on_top">
+        <item quantity="other">%1$s-day forecast</item>
+        <item quantity="one">Predpoveď na %1$s deň</item>
+        <item quantity="few">Predpoveď na %1$s dní</item>
+    </plurals>
+    <plurals name="feedback_result_interval_time_too_short">
+        <item quantity="other">%1$s sekúnd po odoslaní spätnej väzby</item>
+        <item quantity="one">%1$s sekunda po odoslaní spätnej väzby</item>
+        <item quantity="few">%1$s sekundy po odoslaní spätnej väzby</item>
+    </plurals>
+    <plurals name="no_vote_num">
+        <item quantity="other">%1$s osôb | </item>
+        <item quantity="one">%1$s osoba | </item>
+        <item quantity="few">%1$s osoby | </item>
+    </plurals>
+    <plurals name="total_voted_num_text">
+        <item quantity="other">"&amp;lt;font color='#20a7ff'>%1$s&amp;lt;/font> ľudia hlasovali"</item>
+        <item quantity="one">"&amp;lt;font color='#20a7ff'>%1$s&amp;lt;/font> osoba hlasovala"</item>
+        <item quantity="few">"&amp;lt;font color='#20a7ff'>%1$s&amp;lt;/font> ľudia hlasovali"</item>
+    </plurals>
+    <plurals name="view_realtime_clear">
+        <item quantity="other">Jasno</item>
+        <item quantity="one">Jasno</item>
+        <item quantity="few">Jasno</item>
+    </plurals>
+    <plurals name="yes_vote_num">
+        <item quantity="other"> | %1$s osôb</item>
+        <item quantity="one"> | %1$s osoba</item>
+        <item quantity="few"> | %1$s osoby</item>
+    </plurals>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome">Vitajte</string>
+    <string name="app_name">Provízia</string>
+    <string name="system_navigation_mode">Režim systémovej navigácie</string>
+    <string name="input_method_setting">Zvoľte metódu zadávania</string>
+    <string name="input_method_category">Vyberte predvolenú metódu vstupu</string>
+    <string name="provision_inputmethod_policy_description">Zobraziť pre túto klávesnicu Podmienky súkromia</string>
+    <string name="provision_inputmethod_policy_description1">Podmienky súkromia</string>
+    <string name="multisim_settings_title">Našli sa 2 SIM karty</string>
+    <string name="multisim_settings_category">Nastavenie preferovanej SIM</string>
+    <string name="sim_card_detection">SIM karta sa nenašla</string>
+    <string name="sim_card_detecting_title">Skontrolovať SIM kartu</string>
+    <string name="sim_card_detection_info">Pre vytvorenie Xiaomi účtu sa vyžaduje SIM karta.</string>
+    <string name="sim_card_detecting">Vyhľadávanie SIM karty...</string>
+    <string name="sim_card_detecting_check">SIM karta sa nenašla. Uistite sa, že je SIM karta riadne nainštalovaná a máte na účte dostatok prostriedkov.</string>
+    <string name="other_settings">Ďalšie nastavenia</string>
+    <string name="other_settings_location">Prístup k polohe</string>
+    <string name="other_settings_location_summary">Povoliť aplikáciam prístup k vašej polohe</string>
+    <string name="other_settings_user_experience">Spätná väzba</string>
+    <string name="other_settings_user_experience_summary">Pomôžte nám vylepšiť naše produkty a služby odoslaním anonymných diagnostických dát.</string>
+    <string name="other_settings_upload_debug_log_title">Odoslať diagnostické dáta</string>
+    <string name="other_settings_upload_debug_log_summary">Informácie, ktoré zhromažďujeme, budú slúžiť k lokalizácii a analyzovaniu problémov v systéme a môžu obsahovať osobné údaje. Žiadne údaje nebudú použité k vašej identifikácii.</string>
+    <string name="other_settings_auto_update">Inštalovať automaticky</string>
+    <string name="other_settings_auto_update_summary">MIUI automaticky zvolí najlepší čas na inštaláciu aktualizácií.</string>
+    <string name="back">Späť</string>
+    <string name="next">Ďalej</string>
+    <string name="skip_underline">Preskočiť</string>
+    <string name="sim_dectection_next">Pokračovať</string>
+    <string name="shut_down">Vypnúť</string>
+    <string name="sim_redetection">Skontr. SIM</string>
+    <string name="navigation_picker_gesture_guide">Sprievodca gestami</string>
+    <string name="congratulation_title">Navštívte miuios.cz</string>
+    <string name="congratulation_label">Môžete sa do toho pustiť!</string>
+    <string name="pref_title_voice_slot">Preferovaná hlasová SIM karta</string>
+    <string name="pref_title_data_slot">Preferovaná dátová SIM karta</string>
+    <string name="summary_not_set">Nenastavené</string>
+    <string name="ime_privacy_policy">Podmienky súkromia vybranej klávesnice</string>
+    <string name="ime_privacy_policy_no_network">Nie je možné sa pripojiť k sieti. Prečítajte si podmienky súkromia pre túto klávesnicu na %s.</string>
+    <string name="terms_of_use">Podmienky používania</string>
+    <string name="terms_of_use_label">"Záleží nám na vašom súkromí. Prečítajte si naše Zmluvné podmienky a Pravidlá ochrany súkromia, ktoré vám umožnia pochopiť, aké informácie zhromažďujeme, ako ich používame a aké možnosti máte k dispozícii.
+
+S našimi Zmluvnými podmienkami aPravidlami ochrany súkromia musíte súhlasiť skôr, než budete môcť používať MIUI. Služby Mi, služby aktivácie karty Mi SIM, Mi Cloud, Nájdenie zariadenia, Domovská obrazovka, Centrum hier, MAB, MIUI Deamon a komponenty systému MSA, webové aplikácie, Aplikačný trezor, štatistiky, inteligentné karty, služba Mi Link a komponenty účtu Mi sa pripoja na internet a získajú vašu polohu."</string>
+    <string name="terms_of_use_label_gms">"Záleží nám na vašom súkromí. Prečítajte si naše zmluvné podmienky a pravidlá ochrany súkromia, ktoré vám umožnia pochopiť, aké informácie zhromažďujeme, ako ich používame a aké možnosti máte k dispozícii.
+
+S našimi zmluvnými podmienkami a pravidlami ochrany súkromia musíte súhlasiť skôr, než budete môcť používať MIUI. Služby Mi, služby aktivácie karty Mi SIM, Mi Cloud, Nájdenie zariadenia, Domovská obrazovka, Centrum hier, MAB, MIUI Deamon a komponenty systému MSA, webové aplikácie, Aplikačný trezor, štatistiky, inteligentné karty, služba Mi Link, Účet Xiaomi a Google Play komponenty služieb sa pripoja na internet a získajú vašu polohu."</string>
+    <string name="user_agreement">Podmienky používania</string>
+    <string name="privacy_policy">Podmienky súkromia</string>
+    <string name="application_permissions">Povolenia aplikácií</string>
+    <string name="agree">Súhlasím</string>
+    <string name="disagree">Odmietnuť</string>
+    <string name="setting_locale">Nastavovanie oblasti…</string>
+    <string name="agree_terms">Prečítal som a súhlasím s Podmienkami používania a Ochranou súkromia.</string>
+    <string name="miui_terms_no_network">Žiadne internetové pripojenie. Podmienky používania nájdete na %s</string>
+    <string name="miui_privacy_policy_no_network">Žiadne internetové pripojenie. Ochranu súkromia nájdete na %s</string>
+    <string name="locale_picker_title">Vyberte si svoju oblasť</string>
+    <string name="install_preinstall_app">Načítavanie aplikácií...</string>
+    <string name="title_fingerprint">Nastavte heslo</string>
+    <string name="item_fingerprint">Odtlačok prsta</string>
+    <string name="item_lock_screen_password">Iba zámok displeja</string>
+    <string name="desc_fingerprint">Použiť váš odtlačok prsta pre odomknutie vášho zariadenia alebo prihlásenie sa.</string>
+    <string name="desc_extra_fingerprint" />
+    <string name="next_fingerprint">Ďalej</string>
+    <string name="desc_extra_international_fingerprint" />
+    <string name="desc_international_fingerprint">Použiť váš odtlačok prsta pre odomknutie vášho zariadenia alebo prihlásenie sa do aplikácii alebo služieb.</string>
+    <string name="content_description_start">Spustiť</string>
+    <string name="content_description_miui_version">MIUI 9</string>
+    <string name="content_description_complete">Hotovo</string>
+    <string name="language_picker_other_languages_title">Viac jazykov</string>
+    <string name="language_settings">Vybrať jazyk</string>
+    <string name="navigation_picker_radio_text_full_screen">Režim celej obrazovky</string>
+    <string name="navigation_picker_radio_text_virtual_key">Režim Virtuálneho kľúča</string>
+    <string name="congratulation_swipe">Potiahnite nahor pre vstup do systému</string>
+    <string name="enable_accessibility_dialog_message">Povolili ste TalkBack podržaním dvoch prstov na displeji po dobu 10s. TalkBack pomáha nevidiacim užívateľom. Ak ste ho aktivovali omylom, stlačte tlačidlo zrušiť a 2x poklepte po displeji.</string>
+    <string name="enable_accessibility_dialog_positive_btn">OK</string>
+    <string name="enable_accessibility_dialog_negative_btn">Zrušiť</string>
+    <string name="cm_terms_title">Dohoda o operátorovi mobilnej siete</string>
+    <string name="cm_terms_content">Operátor mobilnej siete, ktorého ste vybrali, môže nahrať vaše osobné údaje a informácie o tomto zariadení na svoje siete pomocou sietí Wi-Fi alebo mobilného dátového pripojenia, aby zlepšil služby, ktoré vám poskytuje. Tieto informácie budú použité iba na štatistické účely, zlepšenie kvality služieb a poskytnutie lepšie prispôsobeného obsahu. Tieto informácie nebudú použité na vašu osobnú identifikáciu a nebudú sprístupnené tretím stranám.</string>
+    <string name="enable_accessibility_canceled">Funkcia dostupnosti bola zrušená.</string>
+    <string name="accessibility_enabled">Funkcia dostupnosti bola povolená.</string>
+    <string name="continue_to_enable_accessibility">Ak chcete povoliť funkcie dostupnosti, podržte stlačené dva prsty.</string>
+    <string name="voice_assist_title">Prebudenie hlasom</string>
+    <string name="voice_assist_desp">Povedzte \"Mi AI\" do telefónu. Mi AI rozpozná váš hlas a bude schopná ovládať vaše zariadenie.</string>
+</resources>

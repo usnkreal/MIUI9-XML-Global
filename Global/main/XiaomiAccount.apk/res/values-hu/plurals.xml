@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="updated_contacts">
+        <item quantity="other">%s névjegy frissítve</item>
+        <item quantity="one">%s névjegy frissítve</item>
+    </plurals>
+    <plurals name="view_all_devices">
+        <item quantity="other">Az összes (%d) eszköz mutatása</item>
+        <item quantity="one">%d eszköz mutatása</item>
+    </plurals>
+    <plurals name="view_all_apps">
+        <item quantity="other">Az összes (%d) alkalmazás mutatása</item>
+        <item quantity="one">%d alkalmazás mutatása</item>
+    </plurals>
+    <plurals name="view_all_browsers">
+        <item quantity="other">Az összes (%d) böngésző mutatása</item>
+        <item quantity="one">%d böngésző mutatása</item>
+    </plurals>
+</resources>

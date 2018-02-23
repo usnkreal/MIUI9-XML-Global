@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="incorrect_pukcode_remaining_attempts">
+        <item quantity="other">קוד PUK שגוי, %d נסיונות נותרו</item>
+        <item quantity="one">קוד PUK שגוי, נסיון %d נותר</item>
+        <item quantity="two">קוד PUK שגוי, %d נסיונות נותרו</item>
+        <item quantity="many">קוד PUK שגוי, %d נסיונות נותרו</item>
+    </plurals>
+    <plurals name="incorrect_pincode_remaining_attempts">
+        <item quantity="other">קוד PIN שגוי, %d נסיונות נותרו</item>
+        <item quantity="one">קוד PIN שגוי, נסיון %d נותר</item>
+        <item quantity="two">קוד PIN שגוי, %d נסיונות נותרו</item>
+        <item quantity="many">קוד PIN שגוי, %d נסיונות נותרו</item>
+    </plurals>
+    <plurals name="phone_locked_timeout_seconds_string">
+        <item quantity="other">נסה שוב בעוד %d שניות</item>
+        <item quantity="one">נסה שוב בעוד שניה %d</item>
+        <item quantity="two">נסה שוב בעוד %d שניות</item>
+        <item quantity="many">נסה שוב בעוד %d שניות</item>
+    </plurals>
+    <plurals name="phone_locked_timeout_minutes_string">
+        <item quantity="other">נסה שוב בעוד %d דקות</item>
+        <item quantity="one">נסה שוב בעוד דקה %d</item>
+        <item quantity="two">נסה שוב בעוד %d דקות</item>
+        <item quantity="many">נסה שוב בעוד %d דקות</item>
+    </plurals>
+    <plurals name="new_notifications_msg">
+        <item quantity="other">%d התראות חדשות</item>
+        <item quantity="one">התראה חדשה %d</item>
+        <item quantity="two">%d התראות חדשות</item>
+        <item quantity="many">%d התראות חדשות</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_charging_full_need_min_time__text">
+        <item quantity="other">"כ-%d  דקות לטעינה מלאה"</item>
+        <item quantity="one">"כדקה %d  לטעינה מלאה"</item>
+        <item quantity="two">"כ-%d  דקות לטעינה מלאה"</item>
+        <item quantity="many">"כ-%d  דקות לטעינה מלאה"</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_charging_full_need_hour_time__text">
+        <item quantity="other">"כ-%d  שעות לטעינה מלאה"</item>
+        <item quantity="one">"כשעה %d  לטעינה מלאה"</item>
+        <item quantity="two">"כ-%d  שעות לטעינה מלאה"</item>
+        <item quantity="many">"כ-%d  שעות לטעינה מלאה"</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_charging_full_need_time__text">
+        <item quantity="other">"כ-%1$d  שעות ו-%2$d  דקות לטעינה מלאה"</item>
+        <item quantity="one">"כשעה %1$d  ו-%2$d  דקות לטעינה מלאה"</item>
+        <item quantity="two">"כ-%1$d  שעות ו-%2$d  דקות לטעינה מלאה"</item>
+        <item quantity="many">"כ-%1$d  שעות ו-%2$d  דקות לטעינה מלאה"</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_min_time_text">
+        <item quantity="other">"כ-%d  דקות נותרו"</item>
+        <item quantity="one">"נותרה כדקה %d "</item>
+        <item quantity="two">"כ-%d  דקות נותרו"</item>
+        <item quantity="many">"כ-%d  דקות נותרו"</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_hour_time_text">
+        <item quantity="other">"כ-%d  שעות נותרו"</item>
+        <item quantity="one">"נותרה כשעה %d "</item>
+        <item quantity="two">"כ-%d  שעות נותרו"</item>
+        <item quantity="many">"כ-%d  שעות נותרו"</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_time_text">
+        <item quantity="other">"כ-%1$d  שעות ו-%2$d  דקות נותרו"</item>
+        <item quantity="one">"כשעה %1$d  ו-%2$d  דקות נותרו"</item>
+        <item quantity="two">"כ-%1$d  שעות ו-%2$d  דקות נותרו"</item>
+        <item quantity="many">"כ-%1$d  שעות ו-%2$d  דקות נותרו"</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_hour_time_format">
+        <item quantity="other">"%d  שעות"</item>
+        <item quantity="one">"שעה %d "</item>
+        <item quantity="two">"%d  שעות"</item>
+        <item quantity="many">"%d  שעות"</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_min_time_format">
+        <item quantity="other">"%d  דקות"</item>
+        <item quantity="one">"דקה %d "</item>
+        <item quantity="two">"%d  דקות"</item>
+        <item quantity="many">"%d  דקות"</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_time_format">
+        <item quantity="other">"%1$d  שעות ו-%2$d  דקות"</item>
+        <item quantity="one">"שעה %1$d  ו-%2$d  דקות"</item>
+        <item quantity="two">"%1$d  שעות ו-%2$d  דקות"</item>
+        <item quantity="many">"%1$d  שעות ו-%2$d  דקות"</item>
+    </plurals>
+</resources>

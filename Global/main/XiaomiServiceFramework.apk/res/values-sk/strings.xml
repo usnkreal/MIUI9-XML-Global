@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accept">OK</string>
+    <string name="app_name">Aktivácia Xiaomi Účtu</string>
+    <string name="error_device_id_message">\"Chybné ID zariadenia: %s ID zariadenia musí byť platný IMEI alebo MAC adresa. Bez platného ID nebudú dostupné niektoré služby a funkcie.\"</string>
+    <string name="error_device_id_title">Nie je možné získať číslo IMEI</string>
+    <string name="explain_send_sms_permission_button">Overiť</string>
+    <string name="explain_send_sms_permission_msg">Pre povolenie %s, Xiaomi Service Framework odošle SMS pre overenie vášho telefónneho čísla. Táto SMS bude spoplatnená bežnou cenou u vášho operátora.</string>
+    <string name="explain_send_sms_permission_title">Overenie vášho telefónneho čisla</string>
+    <string name="sync_notification_title_format">Synchronizácia: %1$s</string>
+    <string name="xiaomi_cloud_service">MiCloud</string>
+    <string name="xmsf_activate_info">XMSF info</string>
+</resources>

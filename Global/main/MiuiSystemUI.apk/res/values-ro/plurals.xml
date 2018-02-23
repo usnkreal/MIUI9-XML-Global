@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d aplicații recente</item>
+        <item quantity="one">%d aplicație recentă</item>
+        <item quantity="few">%d aplicații recente</item>
+    </plurals>
+    <plurals name="accessibility_recent_task_enter">
+        <item quantity="other">Deschise recent, aplicații disponibile: %d.</item>
+        <item quantity="one">Deschise recent, aplicație disponibilă: %d.</item>
+        <item quantity="few">Deschise recent, aplicații disponibile: %d.</item>
+    </plurals>
+    <plurals name="accessibility_recent_task_first_enter_tips">
+        <item quantity="other">Deschise recent, aplicații disponibile: %d. Glisați în sus pentru a elimina, glisați în jos pentru a bloca.</item>
+        <item quantity="one">Deschise recent, aplicație disponibilă: %d. Glisați în sus pentru a elimina, glisați în jos pentru a bloca.</item>
+        <item quantity="few">Deschise recent, aplicații disponibile: %d. Glisați în sus pentru a elimina, glisați în jos pentru a bloca.</item>
+    </plurals>
+    <plurals name="settings_toggle_position_divider_page">
+        <item quantity="other">%1$d comutări vor apărea în Panoul de notificări</item>
+        <item quantity="one">%1$d comutare va apărea în Panoul de notificări</item>
+        <item quantity="few">%1$d comutări vor apărea în Panoul de notificări</item>
+    </plurals>
+    <plurals name="disable_notification_confirm_title">
+        <item quantity="other">Ascunde notificările de la %d aplicații?</item>
+        <item quantity="one">Ascunde notificările acestei aplicații?</item>
+        <item quantity="few">Ascunde notificările de la %d aplicații?</item>
+    </plurals>
+    <plurals name="block_record_notification_more_text">
+        <item quantity="other">Se ascund notificări de la %1$s &amp;amp; %2$d aplicații.</item>
+        <item quantity="one">Se ascund notificări de la %1$s &amp;amp; %2$d aplicație.</item>
+        <item quantity="few">Se ascund notificări de la %1$s &amp;amp; %2$d aplicații.</item>
+    </plurals>
+    <plurals name="view_realtime_clear">
+        <item quantity="other">Senin</item>
+        <item quantity="one">Însorit</item>
+        <item quantity="few">Senin</item>
+    </plurals>
+    <plurals name="accessibility_desc_weather_temperature">
+        <item quantity="other">Meteo %d grade</item>
+        <item quantity="one">Meteo %d grad</item>
+        <item quantity="few">Meteo %d grade</item>
+    </plurals>
+    <plurals name="fold_tips_title">
+        <item quantity="other">%d notificări neimportante</item>
+        <item quantity="one">%d notificare neimportantă</item>
+        <item quantity="few">%d notificări neimportante</item>
+    </plurals>
+    <plurals name="notification_group_child_count">
+        <item quantity="other">%1$d notificări</item>
+        <item quantity="one">%1$d notificare</item>
+        <item quantity="few">%1$d notificări</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">%s notificări mai multe înăuntru.</item>
+        <item quantity="one">%s notificări mai multe înăuntru.</item>
+        <item quantity="few">%s notificări mai multe înăuntru.</item>
+    </plurals>
+</resources>

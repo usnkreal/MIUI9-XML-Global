@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="aqi_detail_title">
+        <item>Jó</item>
+        <item>Közepes</item>
+        <item>Érzékenyek számára egészségtelen csoport</item>
+        <item>Egészségtelen</item>
+        <item>Nagyon egészségtelen</item>
+        <item>Kockázatos</item>
+    </string-array>
+    <string-array name="aqi_title">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_prefix">
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+    </string-array>
+    <string-array name="aqi_value">
+        <item>Jó</item>
+        <item>Kielégítő</item>
+        <item>Mérsékelten szennyezett</item>
+        <item>Rossz</item>
+        <item>Nagyon rossz</item>
+        <item>Súlyos</item>
+        <item>Határérték-túllépési mutató</item>
+    </string-array>
+    <string-array name="breeze">
+        <item>&lt;erősség 2</item>
+        <item>&lt;6.0km/h</item>
+        <item>&lt;1.7m/s</item>
+        <item>&lt;3.7mph</item>
+        <item>&lt;3.2kn</item>
+    </string-array>
+    <string-array name="hot_city">
+        <item>Budapest</item>
+        <item>Debrecen</item>
+        <item>Szeged</item>
+        <item>Miskolc</item>
+        <item>Pécs</item>
+        <item>Győr</item>
+        <item>Nyíregyháza</item>
+        <item>Kecskemét</item>
+        <item>Székesfehérvár</item>
+        <item>Szombathely</item>
+        <item>Szolnok</item>
+        <item>Tatabánya</item>
+        <item>Kaposvár</item>
+        <item>Sopron</item>
+        <item>Veszprém</item>
+        <item>Békéscsaba</item>
+        <item>Zalaegerszeg</item>
+        <item>Eger</item>
+        <item>Nagykanizsa</item>
+        <item>Dunaújváros</item>
+        <item>London</item>
+        <item>New York</item>
+        <item>Komarno</item>
+    </string-array>
+    <string-array name="indices_car_wash">
+        <item>Alkalmas</item>
+        <item>Nem alkalmas</item>
+    </string-array>
+    <string-array name="indices_sport">
+        <item>Megfelelő</item>
+        <item>Téves</item>
+    </string-array>
+    <string-array name="indices_uv_level">
+        <item>Alacsony</item>
+        <item>Közepes</item>
+        <item>Magas</item>
+    </string-array>
+    <string-array name="minute_rain_array">
+        <item>Kiadós</item>
+        <item>Közepes</item>
+        <item>Enyhe</item>
+    </string-array>
+    <string-array name="pollution_level_desc_arr">
+        <item>Kiváló</item>
+        <item>Jó</item>
+        <item>Enyhén szennyezett</item>
+        <item>Mérsékelten szennyezett</item>
+        <item>Erősen szennyezett</item>
+        <item>Súlyosan szennyezett</item>
+        <item>Határérték-túllépési mutató</item>
+    </string-array>
+    <string-array name="weather_type">
+        <item>Tiszta</item>
+        <item>Felhős</item>
+        <item>Borult</item>
+        <item>Ködös</item>
+        <item>Felhőszakadás</item>
+        <item>Zápor</item>
+        <item>Vihar</item>
+        <item>Zivatar</item>
+        <item>Eső</item>
+        <item>Heves esőzés</item>
+        <item>Gyenge eső</item>
+        <item>Szemerkélő eső</item>
+        <item>Havas eső</item>
+        <item>Hóvihar</item>
+        <item>Havazás</item>
+        <item>Hózápor</item>
+        <item>Mérsékelt havazás</item>
+        <item>Hószállingózás</item>
+        <item>Erős homokvihar</item>
+        <item>Homokvihar</item>
+        <item>poros</item>
+        <item>Szeles</item>
+        <item>Jégeső</item>
+        <item>Poros</item>
+        <item>Pára</item>
+        <item>Ónos eső</item>
+        <item></item>
+    </string-array>
+    <string-array name="wind_direction">
+        <item>Északi</item>
+        <item>Északkeleti</item>
+        <item>Keleti</item>
+        <item>Délkeleti</item>
+        <item>Déli</item>
+        <item>Délnyugati</item>
+        <item>Nyugati</item>
+        <item>Északnyugati</item>
+    </string-array>
+    <string-array name="wind_direction_simple">
+        <item>É</item>
+        <item>ÉK</item>
+        <item>K</item>
+        <item>DK</item>
+        <item>D</item>
+        <item>DNy</item>
+        <item>Ny</item>
+        <item>ÉNy</item>
+    </string-array>
+    <string-array name="wind_power">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="wind_unit_detail">
+        <item>Beaufort-skála</item>
+        <item>Kilométer per óra (km/h)</item>
+        <item>Méter per szekundum (m/s)</item>
+        <item>Mérfőld per óra (mph)</item>
+        <item>Csomó (kn)</item>
+    </string-array>
+    <string-array name="wind_unit_replace">
+        <item>%1$s kényszerítése</item>
+        <item>%1$s km/h</item>
+        <item>%1$s m/s</item>
+        <item>%1$s mph</item>
+        <item>%1$s kn</item>
+    </string-array>
+    <string-array name="wind_unit_simple">
+        <item>Beaufort-skála</item>
+        <item>km/h</item>
+        <item>m/s</item>
+        <item>mph</item>
+        <item>kn</item>
+    </string-array>
+</resources>

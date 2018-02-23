@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="incorrect_pukcode_remaining_attempts">
+        <item quantity="other">Hibás PUK kód, %d próbálkozása maradt</item>
+        <item quantity="one">Hibás PUK kód, %d próbálkozása maradt</item>
+    </plurals>
+    <plurals name="incorrect_pincode_remaining_attempts">
+        <item quantity="other">Hibás PIN kód, %d próbálkozása maradt</item>
+        <item quantity="one">Hibás PIN kód, %d próbálkozása maradt</item>
+    </plurals>
+    <plurals name="phone_locked_timeout_seconds_string">
+        <item quantity="other">Próbálja újra %d másodpercen belül</item>
+        <item quantity="one">Próbálja újra %d másodpercen belül</item>
+    </plurals>
+    <plurals name="phone_locked_timeout_minutes_string">
+        <item quantity="other">Próbálja újra %d percen belül</item>
+        <item quantity="one">Próbálja újra %d percen belül</item>
+    </plurals>
+    <plurals name="new_notifications_msg">
+        <item quantity="other">%d új értesítés</item>
+        <item quantity="one">%d új értesítés</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_charging_full_need_min_time__text">
+        <item quantity="other">Megközelítőleg %d perc a teljes töltöttségig</item>
+        <item quantity="one">Megközelítőleg %d perc a teljes töltöttségig</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_charging_full_need_hour_time__text">
+        <item quantity="other">Megközelítőleg %d óra a teljes töltöttségig</item>
+        <item quantity="one">Megközelítőleg %d óra a teljes töltöttségig</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_charging_full_need_time__text">
+        <item quantity="other">Megközelítőleg %1$d ó %2$d p a teljes töltöttségig</item>
+        <item quantity="one">Megközelítőleg %1$d ó %2$d p a teljes töltöttségig</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_min_time_text">
+        <item quantity="other">Megközelítőleg %d perc van hátra</item>
+        <item quantity="one">Megközelítőleg %d perc van hátra</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_hour_time_text">
+        <item quantity="other">Megközelítőleg %d óra van hátra</item>
+        <item quantity="one">Megközelítőleg %d óra van hátra</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_time_text">
+        <item quantity="other">Megközelítőleg %1$d ó %2$d p van hátra</item>
+        <item quantity="one">Megközelítőleg %1$d ó %2$d p van hátra</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_hour_time_format">
+        <item quantity="other">%d óra</item>
+        <item quantity="one">%d óra</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_min_time_format">
+        <item quantity="other">%d perc</item>
+        <item quantity="one">%d perc</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_time_format">
+        <item quantity="other">%1$d óra %2$d perc</item>
+        <item quantity="one">%1$d óra %2$d perc</item>
+    </plurals>
+</resources>

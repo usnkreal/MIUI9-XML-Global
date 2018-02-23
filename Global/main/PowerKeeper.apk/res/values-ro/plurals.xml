@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="select_items">
+        <item quantity="other">%1$d selectate</item>
+        <item quantity="one">%1$d selectat</item>
+        <item quantity="few">%1$d selectate</item>
+    </plurals>
+    <plurals name="app_list_total">
+        <item quantity="other">%d aplicaţii</item>
+        <item quantity="one">%d aplicaţie</item>
+        <item quantity="few">%d aplicaţii</item>
+    </plurals>
+    <plurals name="power_config_ultimate_on_count">
+        <item quantity="other">La %1$d pași de a trece în Modul extrem</item>
+        <item quantity="one">La %1$d pas de a trece în Modul extrem</item>
+        <item quantity="few">La %1$d pași de a trece în Modul extrem</item>
+    </plurals>
+    <plurals name="power_config_ultimate_off_count">
+        <item quantity="other">La %1$d pași de a opri Modul extrem</item>
+        <item quantity="one">La %1$d pas de a opri Modul extrem</item>
+        <item quantity="few">La %1$d pași de a opri Modul extrem</item>
+    </plurals>
+    <plurals name="power_config_ultimate_unlock_count">
+        <item quantity="other">Termină %1$d pași pentru a debloca toate elementele</item>
+        <item quantity="one">Termină %1$d pas pentru a debloca toate elementele</item>
+        <item quantity="few">Termină %1$d pași pentru a debloca toate elementele</item>
+    </plurals>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="more_coupons_count">
+        <item quantity="other">%d kupónov</item>
+        <item quantity="one">1 kupón</item>
+        <item quantity="few">%d kupónov</item>
+    </plurals>
+    <plurals name="review_count">
+        <item quantity="other">Ukázať %d komentárov</item>
+        <item quantity="one">Ukázať 1 komentár</item>
+        <item quantity="few">Ukázať %d komentárov</item>
+    </plurals>
+</resources>

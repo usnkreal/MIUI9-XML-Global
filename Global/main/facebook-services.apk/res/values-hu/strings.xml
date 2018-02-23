@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="byte_size_bytes">%1$d byte</string>
+</resources>

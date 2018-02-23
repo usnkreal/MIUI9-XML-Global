@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="folder_operations">
+        <item>Átnevezés</item>
+        <item>Eltávolítás</item>
+    </string-array>
+    <string-array name="attachment_chooser">
+        <item>Kamera</item>
+        <item>Galéria</item>
+    </string-array>
+    <string-array name="note_sort_way">
+        <item>Létrehozás dátuma szerint</item>
+        <item>Módosítás dátuma szerint</item>
+    </string-array>
+    <string-array name="contact_entries">
+        <item>Név</item>
+        <item>Becenév</item>
+        <item>Telefon</item>
+        <item>E-mail</item>
+        <item>Cég</item>
+        <item>IM</item>
+        <item>SIP telefon</item>
+        <item>Születésnap</item>
+        <item>Honlap</item>
+        <item>Cím</item>
+        <item>Jegyzet</item>
+    </string-array>
+    <string-array name="font_size_names">
+        <item>Kicsi</item>
+        <item>Közepes</item>
+        <item>Nagy</item>
+        <item>Óriási</item>
+    </string-array>
+    <string-array name="welcome_notes_content">
+        <item>"Üdvözöljük a Jegyzetekben
+"</item>
+        <item>"Jegyzet létrehozása
+Érintse meg a plusz ikont jegyzet készítéséhez."</item>
+        <item>"Válasszon sablonokat
+Használjon sablonokat jegyzetei hátterének és stílusának beállításához.
+Kattintson a jobb alsó gombra egy sablon kiválasztásához."</item>
+        <item>"Készítsen mappákat
+Szervezze a jegyzeteit mappákba.
+Két mód van mappa létrehozására:
+1. Érintse meg a mappa ikont a jobb felső sarokban, majd érintse meg a pluszt.
+2. Nyomjon hosszan egy jegyzeten, majd a felugró menüben válassza az \"Áthelyezés\" - \"Új mappa\"-t."</item>
+        <item>"Rejtsen el jegyzeteket
+Védje személyes jegyzeteit jelszóval.
+Két mód van egy jegyzet elrejtésére:
+1. Kattintson a menü gombra a jegyzet jobb felső sarkában, majd válassza az \"Elrejtés\"-t.
+2. Nyomjon hosszan egy jegyzeten, majd a felugró menüben válassza az \"Elrejtés\"-t."</item>
+        <item>"És további nagyszerű lehetőségek!
+ - Képek, listák, emlékeztetők.
+
+Képek hozzáadása
+Érintse meg a kép ikont a jegyzet alján kép hozzáadásához.
+Készíthet egy fotót vagy kiválaszthat egyet a Galériából.
+Ha egy jegyzet képet tartalmaz, az a jegyzet előnézeteként lesz hasznáva rács nézetben.
+
+Listák készítése
+A jelölőnégyzet a teendő-listák fontos eleme.
+Érintse meg a jelölőnégyzet ikont a jegyzet alján jelölőnégyzet beszúrásához egy bekezdés elejére.
+Jelölje be a négyzetet, ha kész a munkával.
+
+Emlékeztetők beállítása
+Állítson be emlékeztetőket egyenesen a jegyzetekből.
+Érintse meg a menü gombot a jegyzet tetején, majd válassza az \"Emlékeztető\"-t és állítson be egy időt.
+"</item>
+    </string-array>
+    <string-array name="welcome_notes_image">
+        <item>guide_1</item>
+        <item></item>
+        <item>guide_3_1</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+</resources>

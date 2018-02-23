@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d nedávných aplikací</item>
+        <item quantity="one">%d nedávná aplikace</item>
+        <item quantity="few">%d nedávné aplikace</item>
+    </plurals>
+    <plurals name="accessibility_recent_task_enter">
+        <item quantity="other">Otevřeny Nedávné, dostupných aplikací: %d.</item>
+        <item quantity="one">Otevřeny Nedávné, dostupná aplikace: %d.</item>
+        <item quantity="few">Otevřeny Nedávné, dostupné aplikace: %d.</item>
+    </plurals>
+    <plurals name="accessibility_recent_task_first_enter_tips">
+        <item quantity="other">Otevřeny Nedávné, dostupných aplikací: %d. Potáhněte nahoru pro odstranění, dolů pro uzamčení.</item>
+        <item quantity="one">Otevřeny Nedávné, dostupná aplikace: %d. Potáhněte nahoru pro odstranění, dolů pro uzamčení.</item>
+        <item quantity="few">Otevřeny Nedávné, dostupné aplikace: %d. Potáhněte nahoru pro odstranění, dolů pro uzamčení.</item>
+    </plurals>
+    <plurals name="settings_toggle_position_divider_page">
+        <item quantity="other">%1$d přepínačů bude zobrazeno v Oznamovací roletce</item>
+        <item quantity="one">%1$d přepínač bude zobrazen v Oznamovací roletce</item>
+        <item quantity="few">%1$d přepínače budou zobrazeny v Oznamovací roletce</item>
+    </plurals>
+    <plurals name="disable_notification_confirm_title">
+        <item quantity="other">Skrýt %d oznámení této aplikace?</item>
+        <item quantity="one">Skrýt oznámení této aplikace?</item>
+        <item quantity="few">Skrýt %d oznámení této aplikace?</item>
+    </plurals>
+    <plurals name="block_record_notification_more_text">
+        <item quantity="other">Upozornění aplikace %1$s a dalších %2$d aplikací jsou skryta.</item>
+        <item quantity="one">Upozornění aplikace %1$s a další %2$d aplikace jsou skryta.</item>
+        <item quantity="few">Upozornění aplikace %1$s a dalších %2$d aplikací jsou skryta.</item>
+    </plurals>
+    <plurals name="view_realtime_clear">
+        <item quantity="other">Jasno</item>
+        <item quantity="one">Slunečno</item>
+        <item quantity="few">Jasno</item>
+    </plurals>
+    <plurals name="accessibility_desc_weather_temperature">
+        <item quantity="other">Počasí %d stupňů</item>
+        <item quantity="one">Počasí %d stupeň</item>
+        <item quantity="few">Počasí %d stupně</item>
+    </plurals>
+    <plurals name="fold_tips_title">
+        <item quantity="other">%d nedůležitých oznámení</item>
+        <item quantity="one">%d nedůležité oznámení</item>
+        <item quantity="few">%d nedůležitá oznámení</item>
+    </plurals>
+    <plurals name="notification_group_child_count">
+        <item quantity="other">%1$d upozornění</item>
+        <item quantity="one">%1$d upozornění</item>
+        <item quantity="few">%1$d upozornění</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">%s dalších upozornění uvnitř.</item>
+        <item quantity="one">%s další upozornění uvnitř.</item>
+        <item quantity="few">%s další upozornění uvnitř.</item>
+    </plurals>
+</resources>

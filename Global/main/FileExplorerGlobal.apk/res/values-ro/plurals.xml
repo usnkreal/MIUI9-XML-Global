@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="backup_message_wechat_video">
+        <item quantity="other">%1$d videouri în conversațiile WeChat sunt pe cale să expire. Salvați în stocarea internă al dispozitivului?</item>
+        <item quantity="one">%1$d video în conversațiile WeChat este pe cale să expire. Salvați în stocarea internă al dispozitivului?</item>
+        <item quantity="few">%1$d videouri în conversațiile WeChat sunt pe cale să expire. Salvați în stocareaa internă al dispozitivului?</item>
+    </plurals>
+    <plurals name="clockin_day_count">
+        <item quantity="other">Verificat %1$s zile la rând, ține-o tot așa!</item>
+        <item quantity="one">Verificat %1$s zi la rând, ține-o tot așa!</item>
+        <item quantity="few">Verificat %1$s zile la rând, ține-o tot așa!</item>
+    </plurals>
+    <plurals name="clockin_days">
+        <item quantity="other">Verificat %1$s zile la rând</item>
+        <item quantity="one">Verificat %1$s zi la rând</item>
+        <item quantity="few">Verificat %1$s zile la rând</item>
+    </plurals>
+    <plurals name="clockin_new_chip">
+        <item quantity="other">Ai obținut &amp;lt;font color=#faea47>&amp;lt;b>%d&amp;lt;/b>&amp;lt;/font> puncte</item>
+        <item quantity="one">Ai obținut &amp;lt;font color=#faea47>&amp;lt;b>%d&amp;lt;/b>&amp;lt;/font> punct</item>
+        <item quantity="few">Ai obținut &amp;lt;font color=#faea47>&amp;lt;b>%d&amp;lt;/b>&amp;lt;/font> puncte</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">Acum %1$d zile</item>
+        <item quantity="one">Acum %1$d zi</item>
+        <item quantity="few">Acum %1$d zile</item>
+    </plurals>
+    <plurals name="delete_files_confirm">
+        <item quantity="other">Şterge %1$d fișiere</item>
+        <item quantity="one">Şterge %1$d fișier</item>
+        <item quantity="few">Şterge %1$d fișiere</item>
+    </plurals>
+    <plurals name="delete_folders_confirm">
+        <item quantity="other">și %1$d dosare?</item>
+        <item quantity="one">și %1$d dosar?</item>
+        <item quantity="few">și %1$d dosare?</item>
+    </plurals>
+    <plurals name="directory_item_count">
+        <item quantity="other">%d elemente</item>
+        <item quantity="one">%d element</item>
+        <item quantity="few">%d elemente</item>
+    </plurals>
+    <plurals name="file_count">
+        <item quantity="other">%1$d elemente</item>
+        <item quantity="one">%1$d element</item>
+        <item quantity="few">%1$d elemente</item>
+    </plurals>
+    <plurals name="follow_count">
+        <item quantity="other">&amp;lt;font color=#fc7050>%d&amp;lt;/font> urmăritori</item>
+        <item quantity="one">&amp;lt;font color=#fc7050>%d&amp;lt;/font> urmăritor</item>
+        <item quantity="few">&amp;lt;font color=#fc7050>%d&amp;lt;/font> urmăritori</item>
+    </plurals>
+    <plurals name="found_new_files">
+        <item quantity="other">Am găsit %1$d fișiere noi</item>
+        <item quantity="one">Am găsit %1$d fișier nou</item>
+        <item quantity="few">Am găsit %1$d fișiere noi</item>
+    </plurals>
+    <plurals name="gems">
+        <item quantity="other">%1$s pietre prețioase</item>
+        <item quantity="one">%1$s piatră prețioasă</item>
+        <item quantity="few">%1$s pietre prețioase</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">Acum %1$d ore</item>
+        <item quantity="one">Acum %1$d oră</item>
+        <item quantity="few">Acum %1$d ore</item>
+    </plurals>
+    <plurals name="items_picture">
+        <item quantity="other"> (%1$d elemente)</item>
+        <item quantity="one"> (%1$d element)</item>
+        <item quantity="few"> (%1$d elemente)</item>
+    </plurals>
+    <plurals name="mins_ago">
+        <item quantity="other">%1$d minute în urmă</item>
+        <item quantity="one">%1$d minut în urmă</item>
+        <item quantity="few">%1$d minute în urmă</item>
+    </plurals>
+    <plurals name="more_gems">
+        <item quantity="other">Collect &amp;lt;font color=#fc7050>&amp;lt;b>%d&amp;lt;/b>&amp;lt;/font> more gems to participate in the lucky draw.</item>
+        <item quantity="one">Collect &amp;lt;font color=#fc7050>&amp;lt;b>%d&amp;lt;/b>&amp;lt;/font> more gem to participate in the lucky draw.</item>
+        <item quantity="few">Collect &amp;lt;font color=#fc7050>&amp;lt;b>%d&amp;lt;/b>&amp;lt;/font> more gems to participate in the lucky draw.</item>
+    </plurals>
+    <plurals name="numSelectedFile">
+        <item quantity="other">%1$d selectate</item>
+        <item quantity="one">%1$d selectat</item>
+        <item quantity="few">%1$d selectate</item>
+    </plurals>
+    <plurals name="number_of_comment_flow">
+        <item quantity="other">%1$s comentarii</item>
+        <item quantity="one">%1$s comentariu</item>
+        <item quantity="few">%1$s comentarii</item>
+    </plurals>
+    <plurals name="original_user_days">
+        <item quantity="other">• &amp;lt;font color=#fc7050>%1$d&amp;lt;/font> zile</item>
+        <item quantity="one">• &amp;lt;font color=#fc7050>%1$d&amp;lt;/font> zi</item>
+        <item quantity="few">• &amp;lt;font color=#fc7050>%1$d&amp;lt;/font> zile</item>
+    </plurals>
+    <plurals name="original_user_fans">
+        <item quantity="other">• Ai obținut &amp;lt;font color=#fc7050>%1$s&amp;lt;/font>urmăritori!</item>
+        <item quantity="one">• Ai obținut &amp;lt;font color=#fc7050>%1$s&amp;lt;/font>urmăritor!</item>
+        <item quantity="few">• Ai obținut &amp;lt;font color=#fc7050>%1$s&amp;lt;/font>urmăritori!</item>
+    </plurals>
+    <plurals name="original_user_play_1">
+        <item quantity="other">• Ai încărcat &amp;lt;font color=#fc7050>%1$s&amp;lt;/font> videoclipuri.</item>
+        <item quantity="one">• Ai încărcat &amp;lt;font color=#fc7050>%1$s&amp;lt;/font> videoclip.</item>
+        <item quantity="few">• Ai încărcat &amp;lt;font color=#fc7050>%1$s&amp;lt;/font> videoclipuri.</item>
+    </plurals>
+    <plurals name="original_user_play_2">
+        <item quantity="other">Ai făcut &amp;lt;font color=#fc7050>%1$s&amp;lt;/font> persoane fericite!</item>
+        <item quantity="one">Ai făcut &amp;lt;font color=#fc7050>%1$s&amp;lt;/font> persoană fericită!</item>
+        <item quantity="few">Ai făcut &amp;lt;font color=#fc7050>%1$s&amp;lt;/font> persoane fericite!</item>
+    </plurals>
+    <plurals name="remote_video_update">
+        <item quantity="other">Am găsit %1$s videoclipuri noi</item>
+        <item quantity="one">Am găsit %1$s video nou</item>
+        <item quantity="few">Am găsit %1$s videoclipuri noi</item>
+    </plurals>
+    <plurals name="search_head_hint_app">
+        <item quantity="other">\"%1$s\" fișiere legate de aplicație (%2$d elemente)</item>
+        <item quantity="one">\"%1$s\" fișier legat de aplicație (%2$d element)</item>
+        <item quantity="few">\"%1$s\" fișiere legate de aplicație (%2$d elemente)</item>
+    </plurals>
+    <plurals name="search_head_hint_file">
+        <item quantity="other">\"%1$s\" fișiere legate (%2$d elemente)</item>
+        <item quantity="one">\"%1$s\" fișier legat (%2$d element)</item>
+        <item quantity="few">\"%1$s\" fișiere legate (%2$d elemente)</item>
+    </plurals>
+    <plurals name="search_head_hint_tag">
+        <item quantity="other">Etichetează \"%1$s\" fișiere legate (%2$d elemente)</item>
+        <item quantity="one">Etichetează \"%1$s\" fișier legat (%2$d element)</item>
+        <item quantity="few">Etichetează \"%1$s\" fișiere legate (%2$d elemente)</item>
+    </plurals>
+    <plurals name="total_topic_num">
+        <item quantity="other">%1$s subiecte</item>
+        <item quantity="one">%1$s subiect</item>
+        <item quantity="few">%1$s subiecte</item>
+    </plurals>
+    <plurals name="total_user_num">
+        <item quantity="other">%1$s persoane</item>
+        <item quantity="one">%1$s persoană</item>
+        <item quantity="few">%1$s persoane</item>
+    </plurals>
+    <plurals name="user_sign_limt">
+        <item quantity="other">Puteți introduceți %d caractere</item>
+        <item quantity="one">Puteți introduceți %d caracter</item>
+        <item quantity="few">Puteți introduceți %d caractere</item>
+    </plurals>
+    <plurals name="video_ad_download_tip">
+        <item quantity="other">descărcări</item>
+        <item quantity="one">descarcă</item>
+        <item quantity="few">descărcări</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">&amp;lt;font color=#fc7050>%d&amp;lt;/font> videoclipuri</item>
+        <item quantity="one">&amp;lt;font color=#fc7050>%d&amp;lt;/font> videoclip</item>
+        <item quantity="few">&amp;lt;font color=#fc7050>%d&amp;lt;/font> videoclipuri</item>
+    </plurals>
+    <plurals name="video_items">
+        <item quantity="other">%1$d elemente</item>
+        <item quantity="one">%1$d element</item>
+        <item quantity="few">%1$d elemente</item>
+    </plurals>
+    <plurals name="video_play_num">
+        <item quantity="other">%1$s vizualizări</item>
+        <item quantity="one">%1$s vizualizare</item>
+        <item quantity="few">%1$s vizualizări</item>
+    </plurals>
+    <plurals name="video_publish_watchable_hint">
+        <item quantity="other">Obține %1$d urmăritori mai mult pentru a actualiza starea</item>
+        <item quantity="one">Obține %1$d urmăritor mai mult pentru a actualiza starea</item>
+        <item quantity="few">Obține %1$d urmăritori mai mult pentru a actualiza starea</item>
+    </plurals>
+</resources>

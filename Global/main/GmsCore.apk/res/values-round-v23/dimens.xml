@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="progress_spinner_size">64.0dip</dimen>
+    <dimen name="confirmation_overlay_image_size">72.0dip</dimen>
+    <dimen name="action_drawer_item_icon_size">36.0dip</dimen>
+    <dimen name="action_drawer_item_icon_padding">7.0dip</dimen>
+    <dimen name="action_drawer_item_text_size">14.0sp</dimen>
+    <dimen name="diag_button_size">48.0dip</dimen>
+    <item type="dimen" name="diag_preferred_padding">@dimen/screen_percentage_15</item>
+    <item type="dimen" name="diag_button_padding_horizontal">@dimen/screen_percentage_15</item>
+    <item type="dimen" name="diag_button_padding_bottom">@dimen/screen_percentage_12</item>
+</resources>

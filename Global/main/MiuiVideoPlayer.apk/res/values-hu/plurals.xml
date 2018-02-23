@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="subtitle_offset_advance_times">
+        <item quantity="other">Feliratok előre mozgatása %.1f másodperccel</item>
+        <item quantity="one">Feliratok előre mozgatása %.1f másodperccel</item>
+    </plurals>
+    <plurals name="subtitle_offset_delay_times">
+        <item quantity="other">Feliratok késleletési ideje %.1f másodperc</item>
+        <item quantity="one">Feliratok késleletési ideje %.1f másodperc</item>
+    </plurals>
+    <plurals name="subtitle_onlinesub_size_float_kb">
+        <item quantity="other">Méret: %.2f kB</item>
+        <item quantity="one">Méret: %.2f kB</item>
+    </plurals>
+    <plurals name="v_video_count">
+        <item quantity="other">%d videó</item>
+        <item quantity="one">%d videó</item>
+    </plurals>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="baby_sexy">
+        <item>Chlapec</item>
+        <item>Dívka</item>
+    </string-array>
+    <string-array name="collage_month">
+        <item>Led</item>
+        <item>Úno</item>
+        <item>Bře</item>
+        <item>Dub</item>
+        <item>Kvě</item>
+        <item>Čer</item>
+        <item>Čvc</item>
+        <item>Srp</item>
+        <item>Zář</item>
+        <item>Říj</item>
+        <item>Lis</item>
+        <item>Pro</item>
+    </string-array>
+    <string-array name="owner_relation">
+        <item>Otec</item>
+        <item>Matka</item>
+        <item>Dědeček z otcovy strany</item>
+        <item>Babička z otcovy strany</item>
+        <item>Dědeček z matčiny strany</item>
+        <item>Babička z matčiny strany</item>
+    </string-array>
+    <string-array name="relation_with_me">
+        <item>Já</item>
+        <item>Dítě</item>
+        <item>Rodina</item>
+        <item>Kolegové</item>
+        <item>Spolužáci</item>
+        <item>Přátelé</item>
+        <item>Nezařazeno</item>
+    </string-array>
+    <string-array name="sharer_relation_addressive">
+        <item>Otec</item>
+        <item>Matka</item>
+        <item>Dědeček z otcovy strany</item>
+        <item>Babička z otcovy strany</item>
+        <item>Dědeček z matčiny strany</item>
+        <item>Babička z matčiny strany</item>
+    </string-array>
+</resources>

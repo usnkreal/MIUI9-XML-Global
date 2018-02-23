@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="backup_message_wechat_video">
+        <item quantity="other">%1$d videí v konverzácii aplikácie WeChat čoskoro vyprší. Chcete ich zálohovať do interného úložiska telefónu?</item>
+        <item quantity="one">%1$d video v konverzácii aplikácie WeChat čoskoro vyprší. Chcete ho zálohovať do interného úložiska telefónu?</item>
+        <item quantity="few">%1$d videá v konverzácii aplikácie WeChat čoskoro vypršia. Chcete ich zálohovať do interného úložiska telefónu?</item>
+    </plurals>
+    <plurals name="clockin_day_count">
+        <item quantity="other">Prihlásili ste sa %1$s dní po sebe. Len tak ďalej!</item>
+        <item quantity="one">Prihlásili ste sa %1$s deň po sebe. Len tak ďalej!</item>
+        <item quantity="few">Prihlásili ste sa %1$s dni po sebe. Len tak ďalej!</item>
+    </plurals>
+    <plurals name="clockin_days">
+        <item quantity="other">Prihlásili ste sa %1$s dní v rade</item>
+        <item quantity="one">Prihlásili ste sa %1$s deň v rade</item>
+        <item quantity="few">Prihlásili ste sa %1$s dni v rade</item>
+    </plurals>
+    <plurals name="clockin_new_chip">
+        <item quantity="other">Získali ste &amp;lt;font color=#faea47>&amp;lt;b>%d&amp;lt;/b>&amp;lt;/font> bodov</item>
+        <item quantity="one">Získali ste &amp;lt;font color=#faea47>&amp;lt;b>%d&amp;lt;/b>&amp;lt;/font> bod</item>
+        <item quantity="few">Získali ste &amp;lt;font color=#faea47>&amp;lt;b>%d&amp;lt;/b>&amp;lt;/font> body</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">Pred %1$dd</item>
+        <item quantity="one">Pred %1$dd</item>
+        <item quantity="few">Pred %1$dd</item>
+    </plurals>
+    <plurals name="delete_files_confirm">
+        <item quantity="other">Vymazať %1$d súborov</item>
+        <item quantity="one">Vymazať %1$d súbor</item>
+        <item quantity="few">Vymazať %1$d súborov</item>
+    </plurals>
+    <plurals name="delete_folders_confirm">
+        <item quantity="other">a %1$d zložiek?</item>
+        <item quantity="one">a %1$d zložku?</item>
+        <item quantity="few">a %1$d zložiek?</item>
+    </plurals>
+    <plurals name="directory_item_count">
+        <item quantity="other">Položiek: %d</item>
+        <item quantity="one">Položiek: %d</item>
+        <item quantity="few">Položiek: %d</item>
+    </plurals>
+    <plurals name="file_count">
+        <item quantity="other">(%1$d)</item>
+        <item quantity="one">(%1$d)</item>
+        <item quantity="few">(%1$d)</item>
+    </plurals>
+    <plurals name="follow_count">
+        <item quantity="other">&amp;lt;font color=#fc7050>%d&amp;lt;/font> sledujúcich</item>
+        <item quantity="one">&amp;lt;font color=#fc7050>%d&amp;lt;/font> sledujúci</item>
+        <item quantity="few">&amp;lt;font color=#fc7050>%d&amp;lt;/font> sledujúci</item>
+    </plurals>
+    <plurals name="found_new_files">
+        <item quantity="other">Nájdené nové súbory: %1$d</item>
+        <item quantity="one">Nájdené nové súbory: %1$d</item>
+        <item quantity="few">Nájdené nové súbory: %1$d</item>
+    </plurals>
+    <plurals name="gems">
+        <item quantity="other">%1$s drahokamov</item>
+        <item quantity="one">%1$s drahokam</item>
+        <item quantity="few">%1$s drahokamy</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">Pred %1$dh</item>
+        <item quantity="one">Pred %1$dh</item>
+        <item quantity="few">Pred %1$dh</item>
+    </plurals>
+    <plurals name="items_picture">
+        <item quantity="other"> (%1$d)</item>
+        <item quantity="one"> (%1$d)</item>
+        <item quantity="few"> (%1$d)</item>
+    </plurals>
+    <plurals name="mins_ago">
+        <item quantity="other">Pred %1$dmin</item>
+        <item quantity="one">Pred %1$dmin</item>
+        <item quantity="few">Pred %1$dmin</item>
+    </plurals>
+    <plurals name="more_gems">
+        <item quantity="other">Nazbierajte &amp;lt;font color=#fc7050>&amp;lt;b>%d&amp;lt;/b>&amp;lt;/font> ďalších klenotov, ak sa chcete zúčastniť súťaže.;</item>
+        <item quantity="one">Nazbierajte &amp;lt;font color=#fc7050>&amp;lt;b>%d&amp;lt;/b>&amp;lt;/font> ďalší klenot, ak sa chcete zúčastniť súťaže.</item>
+        <item quantity="few">Nazbierajte &amp;lt;font color=#fc7050>&amp;lt;b>%d&amp;lt;/b>&amp;lt;/font> ďalšie klenoty, ak sa chcete zúčastniť súťaže.;</item>
+    </plurals>
+    <plurals name="numSelectedFile">
+        <item quantity="other">Vybrané: %1$d</item>
+        <item quantity="one">Vybrané: %1$d</item>
+        <item quantity="few">Vybrané: %1$d</item>
+    </plurals>
+    <plurals name="number_of_comment_flow">
+        <item quantity="other">%1$s komentárov</item>
+        <item quantity="one">%1$s komentár</item>
+        <item quantity="few">%1$s komentáre</item>
+    </plurals>
+    <plurals name="original_user_days">
+        <item quantity="other">• &amp;lt;font color=#fc7050>%1$d&amp;lt;/font> dní</item>
+        <item quantity="one">• &amp;lt;font color=#fc7050>%1$d&amp;lt;/font> deň</item>
+        <item quantity="few">• &amp;lt;font color=#fc7050>%1$d&amp;lt;/font> dni</item>
+    </plurals>
+    <plurals name="original_user_fans">
+        <item quantity="other">• Máte &amp;lt;font color=#fc7050>%1$s&amp;lt;/font> sledujúcich!</item>
+        <item quantity="one">• Máte &amp;lt;font color=#fc7050>%1$s&amp;lt;/font> sledujúceho!</item>
+        <item quantity="few">• Máte &amp;lt;font color=#fc7050>%1$s&amp;lt;/font> sledujúcich!</item>
+    </plurals>
+    <plurals name="original_user_play_1">
+        <item quantity="other">• Nahrali ste &amp;lt;font color=#fc7050>%1$s&amp;lt;/font> videí.</item>
+        <item quantity="one">• Nahrali ste &amp;lt;font color=#fc7050>%1$s&amp;lt;/font> video.</item>
+        <item quantity="few">• Nahrali ste &amp;lt;font color=#fc7050>%1$s&amp;lt;/font> videá.</item>
+    </plurals>
+    <plurals name="original_user_play_2">
+        <item quantity="other">Rozveselili ste &amp;lt;font color=#fc7050>%1$s&amp;lt;/font> osôb!</item>
+        <item quantity="one">Rozveselili ste &amp;lt;font color=#fc7050>%1$s&amp;lt;/font> osobu!</item>
+        <item quantity="few">Rozveselili ste &amp;lt;font color=#fc7050>%1$s&amp;lt;/font> osoby!</item>
+    </plurals>
+    <plurals name="remote_video_update">
+        <item quantity="other">Nájdené videá: %1$s</item>
+        <item quantity="one">Nájdené videá: %1$s</item>
+        <item quantity="few">Nájdené videá: %1$s</item>
+    </plurals>
+    <plurals name="search_head_hint_app">
+        <item quantity="other">Súbory (%2$d) apl. %1$s</item>
+        <item quantity="one">Súbory (%2$d) apl. %1$s</item>
+        <item quantity="few">Súbory (%2$d) apl. %1$s</item>
+    </plurals>
+    <plurals name="search_head_hint_file">
+        <item quantity="other">Súbory %1$s (%2$d)</item>
+        <item quantity="one">Súbory %1$s (%2$d)</item>
+        <item quantity="few">Súbory %1$s (%2$d)</item>
+    </plurals>
+    <plurals name="search_head_hint_tag">
+        <item quantity="other">Súbory %1$s (%2$d)</item>
+        <item quantity="one">Súbory %1$s (%2$d)</item>
+        <item quantity="few">Súbory %1$s (%2$d)</item>
+    </plurals>
+    <plurals name="total_topic_num">
+        <item quantity="other">%1$s tém</item>
+        <item quantity="one">%1$s téma</item>
+        <item quantity="few">%1$s témy</item>
+    </plurals>
+    <plurals name="total_user_num">
+        <item quantity="other">%1$s osôb</item>
+        <item quantity="one">%1$s osoba</item>
+        <item quantity="few">%1$s osoby</item>
+    </plurals>
+    <plurals name="user_sign_limt">
+        <item quantity="other">Môžete zadať %d znakov</item>
+        <item quantity="one">Môžete zadať %d znak</item>
+        <item quantity="few">Môžete zadať %d znaky</item>
+    </plurals>
+    <plurals name="video_ad_download_tip">
+        <item quantity="other"> Stiahnutia</item>
+        <item quantity="one"> Stiahnutia</item>
+        <item quantity="few"> Stiahnutia</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">&amp;lt;font color=#fc7050>%d&amp;lt;/font> videí</item>
+        <item quantity="one">&amp;lt;font color=#fc7050>%d&amp;lt;/font> video</item>
+        <item quantity="few">&amp;lt;font color=#fc7050>%d&amp;lt;/font> videá</item>
+    </plurals>
+    <plurals name="video_items">
+        <item quantity="other"> %1$d položiek</item>
+        <item quantity="one"> %1$d položka</item>
+        <item quantity="few"> %1$d položky</item>
+    </plurals>
+    <plurals name="video_play_num">
+        <item quantity="other">%1$s zobrazení</item>
+        <item quantity="one">%1$s zobrazené</item>
+        <item quantity="few">%1$s zobrazení</item>
+    </plurals>
+    <plurals name="video_publish_watchable_hint">
+        <item quantity="other">Získajte %1$d sledujúcich navyše a zlepšite si tak stav</item>
+        <item quantity="one">Získajte %1$d sledujúceho navyše a zlepšite si tak stav</item>
+        <item quantity="few">Získajte %1$d sledujúcich navyše a zlepšite si tak stav</item>
+    </plurals>
+</resources>

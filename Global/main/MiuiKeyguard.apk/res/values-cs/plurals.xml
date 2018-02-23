@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="incorrect_pukcode_remaining_attempts">
+        <item quantity="other">Nesprávný PUK, zbývá %d pokusů</item>
+        <item quantity="one">Nesprávný PUK, zbývá %d pokus</item>
+        <item quantity="few">Nesprávný PUK, zbývají %d pokusy</item>
+    </plurals>
+    <plurals name="incorrect_pincode_remaining_attempts">
+        <item quantity="other">Nesprávný PIN, zbývá %d pokusů</item>
+        <item quantity="one">Nesprávný PIN, zbývá %d pokus</item>
+        <item quantity="few">Nesprávný PIN, zbývají %d pokusy</item>
+    </plurals>
+    <plurals name="phone_locked_timeout_seconds_string">
+        <item quantity="other">Zluste to znovu za %d sekund</item>
+        <item quantity="one">Zluste to znovu za %d sekundu</item>
+        <item quantity="few">Zluste to znovu za %d sekundy</item>
+    </plurals>
+    <plurals name="phone_locked_timeout_minutes_string">
+        <item quantity="other">Zkuste to znovu za %d minut</item>
+        <item quantity="one">Zkuste to znovu za %d minutu</item>
+        <item quantity="few">Zkuste to znovu za %d minuty</item>
+    </plurals>
+    <plurals name="new_notifications_msg">
+        <item quantity="other">%d nových upozornění</item>
+        <item quantity="one">%d nové upozornění</item>
+        <item quantity="few">%d nová upozornění</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_charging_full_need_min_time__text">
+        <item quantity="other">Přibližně %d minut do plného nabití</item>
+        <item quantity="one">Přibližně %d minuta do plného nabití</item>
+        <item quantity="few">Přibližně %d minuty do plného nabití</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_charging_full_need_hour_time__text">
+        <item quantity="other">Přibližně %d hodin do plného nabití</item>
+        <item quantity="one">Přibližně %d hodina do plného nabití</item>
+        <item quantity="few">Přibližně %d hodiny do plného nabití</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_charging_full_need_time__text">
+        <item quantity="other">Přibližně %1$d hod. %2$d min. do plného nabití</item>
+        <item quantity="one">Přibližně %1$d hod. %2$d min. do plného nabití</item>
+        <item quantity="few">Přibližně %1$d hod. %2$d min. do plného nabití</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_min_time_text">
+        <item quantity="other">Zbývá přibližně %d minut</item>
+        <item quantity="one">Zbývá přibližně %d minuta</item>
+        <item quantity="few">Zbývají přibližně %d minuty</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_hour_time_text">
+        <item quantity="other">Zbývá přibližně %d hodin</item>
+        <item quantity="one">Zbývá přibližně %d hodina</item>
+        <item quantity="few">Zbývají přibližně %d hodiny</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_time_text">
+        <item quantity="other">Zbývá přibližně %1$d hod. %2$d min.</item>
+        <item quantity="one">Zbývá přibližně %1$d hod. %2$d min.</item>
+        <item quantity="few">Zbývá přibližně %1$d hod. %2$d min.</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_hour_time_format">
+        <item quantity="other">%d hodin</item>
+        <item quantity="one">%d hodina</item>
+        <item quantity="few">%d hodiny</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_min_time_format">
+        <item quantity="other">%d minut</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="few">%d minuty</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_time_format">
+        <item quantity="other">%1$d hod. %2$d min.</item>
+        <item quantity="one">%1$d hod. %2$d min.</item>
+        <item quantity="few">%1$d hod. %2$d min.</item>
+    </plurals>
+</resources>

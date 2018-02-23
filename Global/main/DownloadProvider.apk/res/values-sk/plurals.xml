@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_download_success_more">
+        <item quantity="other">Stiahnuté: %1$d</item>
+        <item quantity="one">Stiahnuté: %1$d</item>
+        <item quantity="few">Stiahnuté: %1$d</item>
+    </plurals>
+    <plurals name="notif_title_multiple_downloading">
+        <item quantity="other">Sťahuje sa %1$d súborov</item>
+        <item quantity="one">Sťahuje sa %1$d súbor</item>
+        <item quantity="few">Sťahujú sa %1$d súbory</item>
+    </plurals>
+    <plurals name="notification_download_failed_more">
+        <item quantity="other">Nie je možné stiahnuť %1$d položiek</item>
+        <item quantity="one">Nie je možné stiahnuť %1$d položku</item>
+        <item quantity="few">Nie je možné stiahnuť %1$d položky</item>
+    </plurals>
+    <plurals name="notif_summary_active">
+        <item quantity="other">Sťahuje sa %d súborov</item>
+        <item quantity="one">Sťahuje sa %1$d súbor</item>
+        <item quantity="few">Sťahujú sa %d súbory</item>
+    </plurals>
+    <plurals name="notif_summary_waiting">
+        <item quantity="other">Čaká %d súborov</item>
+        <item quantity="one">%1$d súbor čaká</item>
+        <item quantity="few">Čakajú %d súbory</item>
+    </plurals>
+</resources>

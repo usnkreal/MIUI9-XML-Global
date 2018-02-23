@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="folder_operations">
+        <item>Přejmenovat</item>
+        <item>Smazat</item>
+    </string-array>
+    <string-array name="attachment_chooser">
+        <item>Fotoaparát</item>
+        <item>Galerie</item>
+    </string-array>
+    <string-array name="note_sort_way">
+        <item>Podle data vytvoření</item>
+        <item>Podle data úpravy</item>
+    </string-array>
+    <string-array name="contact_entries">
+        <item>Jméno</item>
+        <item>Přezdívka</item>
+        <item>Telefon</item>
+        <item>E-mail</item>
+        <item>Společnost</item>
+        <item>IM</item>
+        <item>SIP telefon</item>
+        <item>Narozeniny</item>
+        <item>Webová stránka</item>
+        <item>Adresa</item>
+        <item>Poznámka</item>
+    </string-array>
+    <string-array name="font_size_names">
+        <item>Malé</item>
+        <item>Střední</item>
+        <item>Velké</item>
+        <item>Obrovské</item>
+    </string-array>
+    <string-array name="welcome_notes_content">
+        <item>"Vítejte v Poznámkách
+"</item>
+        <item>"Vytvořit poznámku
+Klepněte na plus pro vytvoření poznámky."</item>
+        <item>"Vybrat šablony
+Použijte šablony pro změnu pozadí a stylů vašich poznámek.
+Klepněte na pravé tlačítko dole v poznámce a vyberte šablonu."</item>
+        <item>"Vytvořit složky
+Uspořádejte si poznámky do složek.
+Složku lze vytvořit 2 způsoby:
+1. Klepněte na ikonu složky v pravém horním rohu a potom klepněte na plus.
+2. Podržte poznámku, dokud se nezobrazí místní nabídka, a vyberte \"Přesunout do\" - \"Nová složka\"."</item>
+        <item>"Skrýt poznámky
+Chraňte své osobní poznámky heslem.
+Poznámku lze skrýt 2 způsoby:
+1. Klepněte na tlačítko \"Více\" v pravém horním rohu poznámky a vyberte \"Skrýt\".
+2. Podržte poznámku, dokud se nezobrazí místní nabídka, a vyberte \"Skrýt\"."</item>
+        <item>"A mnoho dalších skvělých funkcí!
+  - Obrázky, kontrolní seznamy, připomínky.
+
+Přidat obrázky
+Klepněte na ikonu obrázku dole v poznámce pro přidání obrázku.
+Můžete také vyfotit nový nebo vybrat některý z Galerie.
+Když poznámka obsahuje obrázek, tento obrázek bude použit jako miniatura poznámky v režimu zobrazení mřížky.
+
+Vytvořit kontrolní seznamy
+Zaškrtávací políčko je nezbytným prvkem seznamu úkolů.
+Klepněte na ikonu zaškrtávacího políčka dole v poznámce pro přidání zaškrtávacího políčka do odstavce s textem.
+Zaškrtněte políčko, jakmile je úkol hotov.
+
+Nastavit připomínky
+Nastavte připomínky přímo v poznámkách.
+Klepněte na tlačítko \"Více\" v pravém horním rohu poznámky a vyberte \"Připomínky\", kde nastavíte čas.
+"</item>
+    </string-array>
+    <string-array name="welcome_notes_image">
+        <item>guide_1</item>
+        <item></item>
+        <item>guide_3_1</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+</resources>

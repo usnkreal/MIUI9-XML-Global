@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hmode_app_groups">
+        <item>Użytkownika</item>
+        <item>Oszczędzanie baterii</item>
+    </string-array>
+    <string-array name="thermal_entries">
+        <item>Domyślny tryb kontroli temperatury</item>
+        <item>Tryb wydajności</item>
+    </string-array>
+    <string-array name="thermal_summaries">
+        <item>Aktualny tryb kontroli temperatury</item>
+        <item>Aktualnie tryb wydajności</item>
+    </string-array>
+    <string-array name="power_mode_entries">
+        <item>Wydajny</item>
+        <item>Zrównoważony</item>
+    </string-array>
+    <string-array name="group_name_translate">
+        <item>Domyślny</item>
+        <item>Tryb ukryty</item>
+        <item>Czytanie</item>
+        <item>Media</item>
+    </string-array>
+    <string-array name="event_name_translate">
+        <item>Aplikacja uruchomiona</item>
+        <item>Ekran włączony</item>
+        <item>Ekran wyłączony</item>
+        <item>Ekran wyłączony przez 10 minut</item>
+        <item>Pełny ekran</item>
+        <item>Opuść tryb pełnoekranowy</item>
+        <item>Aplikacja uruchomiona w tle</item>
+        <item>Podłączony do ładowania</item>
+        <item>Niepodłączony</item>
+        <item>W trybie bezczynności</item>
+    </string-array>
+    <string-array name="action_name_translate">
+        <item>Maksymalna jasność</item>
+        <item>Maksymalna częstotliwość CPU</item>
+        <item>Tryb ekranu</item>
+        <item>Użycie CPU</item>
+        <item>Transmisja danych</item>
+        <item>Lokalizacja</item>
+        <item>Powiadomienia</item>
+        <item>Ekran blokady</item>
+        <item>Ogranicz dane w tle</item>
+    </string-array>
+    <string-array name="action_param_translate">
+        <item>Brak akcji</item>
+        <item>Domyślny</item>
+        <item>Obrazy</item>
+        <item>Filmy</item>
+        <item>Oszczędzanie baterii</item>
+        <item>Zrównoważony</item>
+        <item>Wydajny</item>
+        <item>Włącz</item>
+        <item>Wyłącz</item>
+        <item>Natychmiast</item>
+        <item>Po 10 min</item>
+        <item>Po 30 min</item>
+        <item>Gdy wyłączony ekran</item>
+    </string-array>
+    <string-array name="app_groups">
+        <item>W tym trybie</item>
+        <item>Nie wybrano</item>
+        <item>Wybrano w innych trybach</item>
+    </string-array>
+    <string-array name="power_checker_group_prefix">
+        <item>Teraz</item>
+        <item>Tło</item>
+        <item>Ostatnio</item>
+    </string-array>
+    <string-array name="power_checker_running_group_titles">
+        <item>Blokowanie trybu głębokiego snu</item>
+        <item>Blokowanie trybu uśpienia</item>
+        <item>Wyszukiwanie sieć Wi-Fi</item>
+        <item>Wykorzystanie GPS</item>
+        <item>Użycie CPU</item>
+        <item>Częste wybudzanie urządzenia</item>
+    </string-array>
+    <string-array name="power_checker_recent_group_titles">
+        <item>Blokowanie trybu głębokiego snu</item>
+        <item>Blokowanie trybu uśpienia</item>
+        <item>Wyszukiwanie sieć Wi-Fi</item>
+        <item>Wykorzystanie GPS</item>
+        <item>Użycie CPU</item>
+        <item>Częste wybudzanie urządzenia</item>
+    </string-array>
+    <string-array name="power_checker_group_suffix">
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+</resources>

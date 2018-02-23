@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_in_furture">
+        <item>Budík za méně než minutu</item>
+        <item>Budík za %1$s</item>
+        <item>Budík za %2$s</item>
+        <item>Budík za %1$s %2$s</item>
+        <item>Budík za %3$s</item>
+        <item>Budík za %1$s %3$s</item>
+        <item>Budík za %2$s %3$s</item>
+        <item>Budík za %1$s %2$s %3$s</item>
+    </string-array>
+    <string-array name="days">
+        <item>Včera</item>
+        <item>Dnes</item>
+        <item>Zítra</item>
+    </string-array>
+    <string-array name="alarm_repeat_type">
+        <item>Jednou</item>
+        <item>Denně</item>
+        <item>Pracovní dny</item>
+        <item>Svátky</item>
+        <item>Pondělí až pátek</item>
+        <item>Vlastní</item>
+    </string-array>
+    <string-array name="alarm_repeat_type_no_workdays">
+        <item>Jednou</item>
+        <item>Denně</item>
+        <item>Pondělí až pátek</item>
+        <item>Vlastní</item>
+    </string-array>
+    <string-array name="aqi_value">
+        <item>Dobré</item>
+        <item>Uspokojivé</item>
+        <item>Mírně znečištěné</item>
+        <item>Špatné</item>
+        <item>Velmi špatné</item>
+        <item>Závažné</item>
+    </string-array>
+    <string-array name="weather_tips_value">
+        <item>Omezte venkovní aktivity</item>
+        <item>Na silnicích to klouže</item>
+        <item>Vypadá to na bouřku, buďte opatrní!</item>
+        <item>Ovzduší je znečištěno, raději si nasaďte masku!</item>
+        <item>Nezapomeňte si deštník</item>
+        <item>Buďte na cestě opatrní</item>
+        <item>Blíží se písečná bouře, raději si nasaďte masku!</item>
+        <item>Mějte hezký den!</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>Budík bude zvonit za méně než 1 minutu.</item>
+        <item>Budík bude zvonit za %1$s.</item>
+        <item>Budík bude zvonit za %2$s.</item>
+        <item>Budík bude zvonit za %1$s a %2$s.</item>
+        <item>Budík bude zvonit za %3$s.</item>
+        <item>Budík bude zvonit za %1$s a %3$s.</item>
+        <item>Budík bude zvonit za %2$s a %3$s.</item>
+        <item>Budík bude zvonit za %1$s, %2$s a %3$s.</item>
+    </string-array>
+    <string-array name="snooze_duration_entries">
+        <item>1 minuta</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>15 minut</item>
+        <item>20 minut</item>
+        <item>25 minut</item>
+        <item>30 minut</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>Nikdy</item>
+        <item>1 minuta</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>15 minut</item>
+        <item>20 minut</item>
+        <item>25 minut</item>
+        <item>30 minut</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Nedělat nic</item>
+        <item>Odložení budíku</item>
+        <item>Zrušit</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

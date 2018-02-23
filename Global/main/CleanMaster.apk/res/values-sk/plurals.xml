@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="mins_ago">
+        <item quantity="other">pred %1$d min.</item>
+        <item quantity="one">pred %1$d min.</item>
+        <item quantity="few">pred %1$d min.</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">pred %1$d hod.</item>
+        <item quantity="one">pred %1$d hod.</item>
+        <item quantity="few">pred %1$d hod.</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">pred %1$d dňami</item>
+        <item quantity="one">pred %1$d dňom</item>
+        <item quantity="few">pred %1$d dňami</item>
+    </plurals>
+    <plurals name="people">
+        <item quantity="other">Stiahnuté %1$d ľuďmi</item>
+        <item quantity="one">Stiahnuté %1$d ľuďmi</item>
+        <item quantity="few">Stiahnuté %1$d ľuďmi</item>
+    </plurals>
+    <plurals name="people_million">
+        <item quantity="other">Stiahnuté %1$d ľuďmi</item>
+        <item quantity="one">Stiahnuté %1$d ľuďmi</item>
+        <item quantity="few">Stiahnuté %1$d ľuďmi</item>
+    </plurals>
+    <plurals name="million">
+        <item quantity="other">Stiahnuté %1$d ľuďmi</item>
+        <item quantity="one">Stiahnuté %1$d ľuďmi</item>
+        <item quantity="few">Stiahnuté %1$d ľuďmi</item>
+    </plurals>
+    <plurals name="view_num">
+        <item quantity="other">%1$s zobrazení</item>
+        <item quantity="one">%1$s zobrazenie</item>
+        <item quantity="few">%1$s zobrazenia</item>
+    </plurals>
+    <plurals name="hint_similar_image_header_left">
+        <item quantity="other">Skupiny: %d</item>
+        <item quantity="one">Skupiny: %d</item>
+        <item quantity="few">Skupiny: %d</item>
+    </plurals>
+    <plurals name="dialog_content_delete_image_confirm">
+        <item quantity="other">Vymazať %d fotiek?</item>
+        <item quantity="one">Vymazať %d fotku?</item>
+        <item quantity="few">Vymazať %d fotky?</item>
+    </plurals>
+    <plurals name="dialog_content_delete_image_from_all_devices_confirm">
+        <item quantity="other">Odstrániť %1$s fotiek zo všetkých zariadení?</item>
+        <item quantity="one">Odstrániť %1$s fotku zo všetkých zariadení?</item>
+        <item quantity="few">Odstrániť %1$s fotky zo všetkých zariadení?</item>
+    </plurals>
+    <plurals name="deepclean_cache_summary">
+        <item quantity="other">Môžete vyčistiť zbytočné súbory pre %d aplikácií</item>
+        <item quantity="one">Môžete vyčistiť zbytočné súbory pre %d apl.</item>
+        <item quantity="few">Môžete vyčistiť zbytočné súbory pre %d apl.</item>
+    </plurals>
+    <plurals name="deepclean_app_summary">
+        <item quantity="other">%d apl. nainštalovaných, môžete vymazať nepoužívané apl.</item>
+        <item quantity="one">%d apl. nainštalovaná, môžete ju vymazať</item>
+        <item quantity="few">%d apl. nainštalovaných, môžete vymazať nepoužívané apl.</item>
+    </plurals>
+    <plurals name="deepclean_large_summary">
+        <item quantity="other">Nájdených %d veľkých súborov, môžete vymazať zbytočné súbory</item>
+        <item quantity="one">Nájdený %d veľký súborov, môžete ho vymazať</item>
+        <item quantity="few">Nájdených %d veľkých súborov, môžete vymazať zbytočné súbory</item>
+    </plurals>
+    <plurals name="deepclean_similar_summary">
+        <item quantity="other">Nájdených %d fotiek, môžete vymazať duplikáty</item>
+        <item quantity="one">Nájdená %d fotografia, môžete vymazať duplikáty</item>
+        <item quantity="few">Nájdených %d fotografií, môžete vymazať duplikáty</item>
+    </plurals>
+    <plurals name="deepclean_apk_summary">
+        <item quantity="other">Nájdených %d APK, môžete vymazať zbytočné súbory.</item>
+        <item quantity="one">Nájdená %d APK, môžete ju vymazať.</item>
+        <item quantity="few">Nájdených %d APK, môžete vymazať zbytočné súbory.</item>
+    </plurals>
+    <plurals name="deepclean_video_summary">
+        <item quantity="other">Nájdených %d videí, môžete vymazať zbytočné súbory.​</item>
+        <item quantity="one">Nájdené %d video, môžete ho vymazať.</item>
+        <item quantity="few">Nájdených %d videí, môžete vymazať zbytočné súbory.​</item>
+    </plurals>
+    <plurals name="deepclean_install_info_desc1">
+        <item quantity="other">Nainštalovaných %d apl,</item>
+        <item quantity="one">Nainštalovaná %d apl.</item>
+        <item quantity="few">Nainštalované %d apl,</item>
+    </plurals>
+    <plurals name="wechat_copy_video_failed_dialog_msg">
+        <item quantity="other">Nedalo sa exportovať %d videí. Uvoľnite miesto a skúste to znova</item>
+        <item quantity="one">Nedalo sa exportovať %d video. Uvoľnite miesto a skúste to znova.</item>
+        <item quantity="few">Nedalo sa exportovať %d videá. Uvoľnite miesto a skúste to znova</item>
+    </plurals>
+    <plurals name="wechat_empty_files">
+        <item quantity="other">(%1$d prázdnych súborov)</item>
+        <item quantity="one">(%1$d prázdny súbor)</item>
+        <item quantity="few">(%1$d prázdne súbory)</item>
+    </plurals>
+    <plurals name="app_usage_day">
+        <item quantity="other">Nepoužité %d dní</item>
+        <item quantity="one">Nepoužité %d deň</item>
+        <item quantity="few">Nepoužité %d dni</item>
+    </plurals>
+    <plurals name="app_usage_month">
+        <item quantity="other">Nepoužité %d mesiacov</item>
+        <item quantity="one">Nepoužité %d mesiac</item>
+        <item quantity="few">Nepoužité %d mesiace</item>
+    </plurals>
+    <plurals name="app_usage_year">
+        <item quantity="other">Nepoužité %d rokov</item>
+        <item quantity="one">Nepoužité %d rok</item>
+        <item quantity="few">Nepoužité %d roky</item>
+    </plurals>
+    <plurals name="resutl_function_install_app_summary">
+        <item quantity="other">&lt;Data>&amp;lt;font color=#ff0000 >%d&amp;lt;/font> aplikácií nebolo dlho použitých. Pozrite sa.;&lt;/Data></item>
+        <item quantity="one">&lt;Data>&amp;lt;font color=#ff0000 >%d&amp;lt;/font> aplikácia nebola dlho použitá. Pozrite sa.;&lt;/Data></item>
+        <item quantity="few">&lt;Data>&amp;lt;font color=#ff0000 >%d&amp;lt;/font> aplikácie neboli dlho použité. Pozrite sa.;&lt;/Data></item>
+    </plurals>
+</resources>

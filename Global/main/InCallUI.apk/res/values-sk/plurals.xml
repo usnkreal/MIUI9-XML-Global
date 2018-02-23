@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="call_recording_notification_complete">
+        <item quantity="other">%d hovorov bolo nahraných.</item>
+        <item quantity="one">%d hovor bol nahraný.</item>
+        <item quantity="few">%d hovory boli nahrané.</item>
+    </plurals>
+    <plurals name="livetalk_left_minute">
+        <item quantity="other">Zostáva %d minút</item>
+        <item quantity="one">Zostáva %d minúta</item>
+        <item quantity="few">Zostávajú %d minúty</item>
+    </plurals>
+</resources>

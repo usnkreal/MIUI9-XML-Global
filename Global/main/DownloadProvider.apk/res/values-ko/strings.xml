@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_insufficient_space_on_external">외부 저장소에 공간이 충분하지 않습니다.</string>
+    <string name="dialog_insufficient_space_on_cache">내부 저장소의 여유 공간이 충분하지 않습니다.</string>
+    <string name="auto_restart_under_wifi">파일이 Wi-Fi가 연결되었을 떼 자동으로 다운로드될 것입니다.</string>
+    <string name="task_already_exist">이미 존재하는 작업입니다.</string>
+    <string name="privacy_tip_title">Xunlei 가속기를 사용하시겠습니까?</string>
+    <string name="privacy_tip_content">Xunlei 가속기를 사용하여 다운로드를 가속하시겠습니까? 다운로드 호스트의 URL은 Xunlei 서버에 업로드됩니다. 이 서비스에 실제로 가입하면 Mi 계정의 세부 정보 또한 업로드됩니다.</string>
+    <string name="privacy_tip_cancel">취소</string>
+    <string name="privacy_tip_ok">확인</string>
+    <string name="privacy_notif_title">Xunlei 다운로드 가속기 켜짐</string>
+    <string name="privacy_notif_content">탭하여 세부사항 보기</string>
+    <string name="notif_text_engine_on">가속 중…</string>
+    <string name="notif_text_engine_off">Xunlei 가속기 꺼짐</string>
+    <string name="notif_title_single_downloading">%1$s 다운로드 중</string>
+    <string name="notif_title_file_size">총 %1$d개</string>
+    <string name="paused_waiting_for_network">네트워크를 기다리는 중</string>
+    <string name="warning_tip_title">데이터 사용량 경고</string>
+    <string name="warning_tip_content">더 이상 Wi-Fi에 연결되지 않습니다. 모바일 데이터 연결을 사용하여 이 다운로드를 완료하면 데이터 사용량이 증가합니다. 데이터 한도가 초과되면 추가 요금이 부과될 수 있습니다.</string>
+    <string name="warning_tip_cancel">다운로드</string>
+    <string name="warning_tip_ok">일시정지</string>
+    <string name="dialog_not_show_again">다시 표시하지 않기</string>
+    <string name="notification_download_complete">다운로드 성공</string>
+    <string name="notification_download_failed">항목 다운로드 실패</string>
+    <string name="mobile_recommended_title">모바일 데이터 사용량</string>
+    <string name="recommended_file_size_download_in_mobile">%s의 모바일 데이터를 사용하여 해당파일을 다운 받으시겠습니까?</string>
+    <string name="recommended_no_file_size_download_in_mobile">모바일 데이터를 사용해서 해당 파일을 다운 받으시겠습니까?</string>
+    <string name="button_wait_for_wifi">대기</string>
+    <string name="button_download_now">지금 다운로드</string>
+    <string name="insufficient_space">기기 내부 저장소에 공간이 충분하지 않습니다.</string>
+    <string name="enter_garbage_clean">내부 저장소 정리</string>
+    <string name="download_apk_desktop_pending">보류 중</string>
+    <string name="download_apk_desktop_pause">일시정지됨</string>
+    <string name="download_apk_desktop_running">다운로드 중</string>
+    <string name="download_apk_desktop_installing">설치 중</string>
+    <string name="xl_speedup_experience_notify_title">Xunlei 멤버쉽</string>
+    <string name="xl_speedup_experience_notify_context">Xunlei 멤버가 되시면 다운로드 속도가 가속됩니다.</string>
+    <string name="xl_speedup_notify_button_experience">무료 체험</string>
+    <string name="xl_speedup_notify_button_member">멤버 되기</string>
+    <string name="notify_disabled_net_by_app">인터넷 연결이 보안 앱에 의해 제한됨</string>
+    <string name="notify_only_wifi_download">Wi-Fi를 기다리는 중</string>
+    <string name="notify_install_guide_title">%s 설치 성공</string>
+    <string name="notify_install_guide_msg">설치 성공</string>
+    <string name="notify_install_guide_forward_text">열기</string>
+    <string name="dialog_data_limit_title">데이터 사용량 경고</string>
+    <string name="dialog_data_limit_msg1">이 파일 다운로드에 %s의 모바일 데이터가 소모될 것입니다. 지금 다운로드 하시겠습니까?</string>
+    <string name="dialog_data_limit_msg2">@string/dialog_tip_limit</string>
+    <string name="dialog_data_limit_msg3">제한 변경</string>
+    <string name="dialog_data_limit_button1">Wi-Fi 대기</string>
+    <string name="dialog_data_limit_button2">지금 다운로드</string>
+    <string name="dialog_data_limit_sel_title">@string/dialog_tip_limit</string>
+    <string name="dialog_button_ok">확인</string>
+    <string name="dialog_button_cancel">취소</string>
+    <string name="dialog_tip_limit">파일의 크기가 %s 보다 클 때 경고</string>
+    <string name="dialog_tip_no_limit">경고 안함</string>
+    <string name="dialog_tip_limit0">매번 경고</string>
+    <string name="dialog_content_limit_max">무제한</string>
+    <string name="dialog_content_limit0">다운로드 제한</string>
+    <string name="app_label">다운로드</string>
+    <string name="permlab_downloadManager">다운로드 접근</string>
+    <string name="permdesc_downloadManager">파일 다운로드 사용을 위해 앱에 다운로드 접근을 허용하십시오. 악성 앱은 이를 사용하여 다운로드를 방해하고 개인 정보에 접근할 수 있습니다.</string>
+    <string name="permlab_downloadManagerAdvanced">향상된 다운로드 기능</string>
+    <string name="permdesc_downloadManagerAdvanced">향상된 다운로드 기능 사용을 위해 앱에 다운로드 접근을 허용하십시오. 악성 앱은 이를 사용하여 다운로드를 방해하고 개인 정보에 접근할 수 있습니다.</string>
+    <string name="permlab_downloadCompletedIntent">다운로드 알림을 전송하십시오.</string>
+    <string name="permdesc_downloadCompletedIntent">다운로드 완료 알림을 전송하기 위해 앱을 허용해 주십시오. 악성 앱은 이를 사용하여 다운로드를 방해하고 개인 정보에 접근할 수 있습니다.</string>
+    <string name="permlab_seeAllExternal">모든 USB 저장소로의 다운로드 보기</string>
+    <string name="permdesc_seeAllExternal">앱이 SD 카드로의 모든 다운로드를 확인하도록 허용, 어느 앱에서 다운로드된 항목인지 상관 없이 확인</string>
+    <string name="permlab_downloadCacheNonPurgeable">다운로드 캐시에 저장 공간 유지</string>
+    <string name="permdesc_downloadCacheNonPurgeable">다운로드 파일이 다운로드 캐시에 저장되도록 앱을 허용하십시오. 다운로드 매니저의 공간이 부족해도 이는 자동으로 삭제되지 않을 것입니다.</string>
+    <string name="permlab_downloadWithoutNotification">알림 없이 파일 다운로드</string>
+    <string name="permdesc_downloadWithoutNotification">앱의 파일 다운로드 진행 시 알림을 사용자에게 보이지 않게 허용</string>
+    <string name="permlab_accessAllDownloads">모든 시스템 다운로드 접근</string>
+    <string name="permdesc_accessAllDownloads">시스템의 어떠한 앱이라도 정보 확인 또는 수정을 가할 수 있도록 앱 허용</string>
+    <string name="download_unknown_title">&lt;제목 없음></string>
+    <string name="notification_need_wifi_for_size">파일이 너무 큽니다. Wi-Fi 연결이 요구됩니다.</string>
+    <string name="notification_paused_in_background">백그라운드에서 일시정지됨</string>
+    <string name="wifi_required_title">Wi-Fi에 연결하여 이 파일을 다운로드</string>
+    <string name="wifi_required_body" formatted="false">"Wi-Fi에 연결하여 이 %s 다운로드를 완료하십시오.
+
+%s을(를) 탭하여 나중에 Wi-Fi가 연결되었을 때 이 다운로드를 다시 시작할 수 있습니다."</string>
+    <string name="wifi_recommended_title">나중에 다운로드하도록 목록에 추가하시겠습니까?</string>
+    <string name="wifi_recommended_body" formatted="false">"%s의 다운로드를 지금 시작하시면 배터리가 많이 소모되고 또한 모바일 데이터를 사용하게 되어 데이터 플랜을 초과하여 추가요금을 지불하게 될 수도 있습니다.
+
+%s을(를) 탭하셔서 나중에 Wi-Fi가 연결되어있을 때 다운로드를 시작하십시오."</string>
+    <string name="button_queue_for_wifi">목록</string>
+    <string name="button_cancel_download">취소</string>
+    <string name="button_start_now">지금 시작</string>
+    <string name="download_percent">%d%%</string>
+    <string name="download_remaining">%s 남음</string>
+    <string name="download_no_application_title">파일 열기 실패</string>
+    <string name="root_downloads">다운로드</string>
+    <string name="download_queued">목록에 추가됨</string>
+    <string name="download_running">다운로드 중</string>
+    <string name="download_error">다운로드 실패</string>
+    <string name="download_running_percent">다운로드 중, %d%%</string>
+    <string name="common_google_play_services_unknown_issue">%1$s에서 Google Play 서비스를 사용하는 데 문제가 있습니다. 다시 시도하세요.</string>
+</resources>

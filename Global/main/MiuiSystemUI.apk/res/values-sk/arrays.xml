@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Vyhľadávanie...</item>
+        <item>Pripájanie...</item>
+        <item>Overovanie...</item>
+        <item>Načítavanie adresy IP…</item>
+        <item>Pripojené</item>
+        <item>Pozastavené</item>
+        <item>Odpájanie...</item>
+        <item>Odpojené</item>
+        <item>Neúspešné</item>
+        <item>Blokované</item>
+        <item>Dočasne nedostupná kvôli slabému signálu</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Vyhľadávanie...</item>
+        <item>Pripojovanie k sieti %1$s…</item>
+        <item>Overovanie v sieti %1$s…</item>
+        <item>Získavanie adresy IP zo siete %1$s…</item>
+        <item>Pripojené k sieti %1$s</item>
+        <item>Pozastavené</item>
+        <item>Odpájanie od siete %1$s…</item>
+        <item>Odpojené</item>
+        <item>Neúspešné</item>
+        <item>Blokované</item>
+        <item>Dočasne nedostupná kvôli slabému signálu</item>
+    </string-array>
+    <string-array name="aqi_title_prefix">
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+    </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="weather_type">
+        <item>Jasno</item>
+        <item>Oblačno</item>
+        <item>Zamračené</item>
+        <item>Hmlisto</item>
+        <item>Búrka</item>
+        <item>Lejak</item>
+        <item>Búrka</item>
+        <item>Búrka</item>
+        <item>Dážď</item>
+        <item>Lejak</item>
+        <item>Dážď</item>
+        <item>Jemný Dážď</item>
+        <item>Dážď so snehom</item>
+        <item>Snehová búrka</item>
+        <item>Sneženie</item>
+        <item>Sneženie</item>
+        <item>Sneženie</item>
+        <item>Sneženie</item>
+        <item>Piesková búrka</item>
+        <item>Piesková búrka</item>
+        <item>Piesková búrka</item>
+        <item>Veterno</item>
+        <item>Krupobitie</item>
+        <item>Prach</item>
+        <item>Hmla</item>
+        <item>Mrznúci dážď</item>
+        <item></item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Nikdy nekontrolovať</item>
+        <item>Kontrolovať len obsah DRM</item>
+        <item>Vždy kontrolovať</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Nikdy nepoužívať kontrolu HDCP</item>
+        <item>Použiť kontrolu HDCP len pre obsah DRM</item>
+        <item>Vždy používať kontrolu HDCP</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Vypnuté</item>
+        <item>64KB</item>
+        <item>256KB</item>
+        <item>1MB</item>
+        <item>4MB</item>
+        <item>16MB</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Vypnuté</item>
+        <item>64KB</item>
+        <item>256KB</item>
+        <item>1MB</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Vypnuté</item>
+        <item>64 KB/záznam vyrovnávacej pamäte</item>
+        <item>256 KB/záznam vyrovnávacej pamäte</item>
+        <item>1 MB/záznam vyrovnávacej pamäte</item>
+        <item>4 MB/záznam vyrovnávacej pamäte</item>
+        <item>16 MB/záznam vyrovnávacej pamäte</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animácia je vypnutá</item>
+        <item>Mierka animácie 0,5x</item>
+        <item>Mierka animácie 1x</item>
+        <item>Mierka animácie 1,5x</item>
+        <item>Mierka animácie 2x</item>
+        <item>Mierka animácie 5x</item>
+        <item>Mierka animácie 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animácia je vypnutá</item>
+        <item>Mierka animácie 0,5x</item>
+        <item>Mierka animácie 1x</item>
+        <item>Mierka animácie 1,5x</item>
+        <item>Mierka animácie 2x</item>
+        <item>Mierka animácie 5x</item>
+        <item>Mierka animácie 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animácia je vypnutá</item>
+        <item>Mierka animácie 0,5x</item>
+        <item>Mierka animácie 1x</item>
+        <item>Mierka animácie 1,5x</item>
+        <item>Mierka animácie 2x</item>
+        <item>Mierka animácie 5x</item>
+        <item>Mierka animácie 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Žiadne</item>
+        <item>480p</item>
+        <item>480p (bezpečné)</item>
+        <item>720p</item>
+        <item>720p (bezpečné)</item>
+        <item>1080p</item>
+        <item>1080p (bezpečné)</item>
+        <item>4K</item>
+        <item>4K (bezpečné)</item>
+        <item>4K (presahujúce)</item>
+        <item>4K (presahujúce, bezpečné)</item>
+        <item>720p, 1080p (duálna obrazovka)</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Žiadne</item>
+        <item>Logcat</item>
+        <item>Systrace (grafika)</item>
+        <item>Volať zásobník pri chybe glGetError</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Vypnuté</item>
+        <item>Neobdĺžniková oblasť klipu modrou</item>
+        <item>Test. príkazy vykresľovania zelenou</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Vypnuté</item>
+        <item>Na obrazovke v podobe stĺpcov</item>
+        <item>V adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Vypnuté</item>
+        <item>Zobraziť oblasti prekreslení</item>
+        <item>Zobraziť oblasti deuteranomálie</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Štandardný limit</item>
+        <item>Žiadne procesy na pozadí</item>
+        <item>Maximálne 1 proces</item>
+        <item>Maximálne 2 procesy</item>
+        <item>Maximálne 3 procesy</item>
+        <item>Maximálne 4 procesy</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Nabíjanie</item>
+        <item>MTP (Protokol prenosu médií)</item>
+        <item>PTP (Protokol prenosu obrázkov)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Zdroj zvuku</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Veľmi pomalá</item>
+        <item>Pomalá</item>
+        <item>Normálna</item>
+        <item>Rýchla</item>
+        <item>Rýchlejšia</item>
+        <item>Veľmi rýchla</item>
+        <item>Vysoko rýchla</item>
+        <item>Super rýchla</item>
+        <item>Najrýchlejšia</item>
+    </string-array>
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Žiarivé (predvolené)</item>
+        <item>Prirodzené</item>
+        <item>Štandardné</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Vylepšené farby</item>
+        <item>Prirodzené farby tak, ako ich vidí naše oko</item>
+        <item>Farby optimalizované pre digitálny obsah</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0 %</item>
+        <item>50 %</item>
+        <item>100 %</item>
+    </string-array>
+</resources>

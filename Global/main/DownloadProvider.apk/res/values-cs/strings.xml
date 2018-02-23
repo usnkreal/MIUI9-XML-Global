@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_insufficient_space_on_external">Nedostatek místa na externím úložišti</string>
+    <string name="dialog_insufficient_space_on_cache">Nedostatek místa na vnitřním úložišti</string>
+    <string name="auto_restart_under_wifi">Soubor bude stažen automaticky pomocí sítě Wi-Fi</string>
+    <string name="task_already_exist">Úloha již existuje</string>
+    <string name="privacy_tip_title">Použít urychlovač Xunlei?</string>
+    <string name="privacy_tip_content">Použít urychlovač Xunlei ke zvýšení rychlosti stahování? Adresa URL stahované položky bude nahrána na servery Xunlei. Podrobnosti o vašem Xiaomi účtu budou také nahrány pro zjištění, zda máte aktivní předplatné pro tuto službu.</string>
+    <string name="privacy_tip_cancel">Zrušit</string>
+    <string name="privacy_tip_ok">OK</string>
+    <string name="privacy_notif_title">Urychlovač stahování Xunlei je zapnutý</string>
+    <string name="privacy_notif_content">Zobrazit podrobnosti.</string>
+    <string name="notif_text_engine_on">Urychlování…</string>
+    <string name="notif_text_engine_off">Urychlovač Xunlei je vypnutý.</string>
+    <string name="notif_title_single_downloading">Stahování %1$s</string>
+    <string name="notif_title_file_size">Celkem: %1$d</string>
+    <string name="paused_waiting_for_network">Čekání na síť</string>
+    <string name="warning_tip_title">Upozornění na využití dat</string>
+    <string name="warning_tip_content">Již nejste připojeni k síti Wi-Fi. Použití mobilního datového připojení pro dokončení tohoto stahování zvýší objem přenesených dat. Pokud překročíte svůj datový limit, mohou vám být operátorem účtovány dodatečné poplatky.</string>
+    <string name="warning_tip_cancel">Stáhnout</string>
+    <string name="warning_tip_ok">Pozastavit</string>
+    <string name="dialog_not_show_again">Znovu nezobrazovat</string>
+    <string name="notification_download_complete">Úspěšně staženo.</string>
+    <string name="notification_download_failed">Stahování se nezdařilo.</string>
+    <string name="mobile_recommended_title">Využití mobilních dat</string>
+    <string name="recommended_file_size_download_in_mobile">Použít %s mobilních dat ke stažení tohoto souboru?</string>
+    <string name="recommended_no_file_size_download_in_mobile">Použít mobilní datové připojení ke stažení tohoto souboru?</string>
+    <string name="button_wait_for_wifi">Počkat</string>
+    <string name="button_download_now">Stáhnout nyní</string>
+    <string name="insufficient_space">Nedostatek místa na vnitřním úložišti zařízení</string>
+    <string name="enter_garbage_clean">Vyčistěte vnitřní úložiště.</string>
+    <string name="download_apk_desktop_pending">Ve frontě</string>
+    <string name="download_apk_desktop_pause">Pozastaveno</string>
+    <string name="download_apk_desktop_running">Stahování</string>
+    <string name="download_apk_desktop_installing">Instalování</string>
+    <string name="xl_speedup_experience_notify_title">Členství Xunlei</string>
+    <string name="xl_speedup_experience_notify_context">Pokud jste členem Xunlei, rychlost je zvýšena pro každé stahování</string>
+    <string name="xl_speedup_notify_button_experience">Vyzkoušet zdarma</string>
+    <string name="xl_speedup_notify_button_member">Stát se členem</string>
+    <string name="notify_disabled_net_by_app">Připojení k internetu omezeno aplikací Optimalizace</string>
+    <string name="notify_only_wifi_download">Čekání na síť Wi-Fi</string>
+    <string name="notify_install_guide_title">%s úspěšně nainstalováno</string>
+    <string name="notify_install_guide_msg">Úspěšně nainstalováno</string>
+    <string name="notify_install_guide_forward_text">Otevřít</string>
+    <string name="dialog_data_limit_title">Upozornění na využítí dat</string>
+    <string name="dialog_data_limit_msg1">Ke stažení tohoto souboru bude využito %s mobilních dat. Stáhnout nyní?</string>
+    <string name="dialog_data_limit_msg2">@string/dialog_tip_limit</string>
+    <string name="dialog_data_limit_msg3">Změnit limit</string>
+    <string name="dialog_data_limit_button1">Počkat na Wi-Fi</string>
+    <string name="dialog_data_limit_button2">Stáhnout nyní</string>
+    <string name="dialog_data_limit_sel_title">@string/dialog_tip_limit</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_cancel">Zrušit</string>
+    <string name="dialog_tip_limit">Upozornit, pokud je stahovaný soubor větší než %s</string>
+    <string name="dialog_tip_no_limit">Neupozorňovat</string>
+    <string name="dialog_tip_limit0">Vždy upozornit</string>
+    <string name="dialog_content_limit_max">Neomezeno</string>
+    <string name="dialog_content_limit0">Omezit stahování</string>
+    <string name="app_label">Stažené</string>
+    <string name="permlab_downloadManager">Přístup k aplikaci Stažené.</string>
+    <string name="permdesc_downloadManager">Povolit aplikaci přístup k aplikaci Stažené a použít ji ke stahování souborů. Škodlivé aplikace mohou tohoto využít k přerušení stahování a přístupu k osobním informacím.</string>
+    <string name="permlab_downloadManagerAdvanced">Pokročilé funkce Stažených.</string>
+    <string name="permdesc_downloadManagerAdvanced">Povolit aplikaci přístup k pokročilým funkcím Stažených. Škodlivé aplikace mohou tohoto využít k přerušení stahování a přístupu k osobním informacím.</string>
+    <string name="permlab_downloadCompletedIntent">Odesílat oznámení o stažení.</string>
+    <string name="permdesc_downloadCompletedIntent">Povolit aplikaci zasílat oznámení o dokončených stahováních. Škodlivé aplikace mohou tohoto využít ke zmatení jiných aplikací, které stahují soubory.</string>
+    <string name="permlab_seeAllExternal">Zobrazit všechna stahování na USB úložišti</string>
+    <string name="permdesc_seeAllExternal">Povolit aplikaci zobrazit všechna stahování na SD kartě, bez ohledu na to, jaká aplikace byla pro stahování použita.</string>
+    <string name="permlab_downloadCacheNonPurgeable">Rezervovat místo pro stahování ve vyrovnávací paměti</string>
+    <string name="permdesc_downloadCacheNonPurgeable">Povolit aplikaci stahovat soubory do mezipaměti, která nebude automaticky vymazána, pokud aplikace Stažené potřebuje více místa.</string>
+    <string name="permlab_downloadWithoutNotification">Stáhnout soubory bez oznámení</string>
+    <string name="permdesc_downloadWithoutNotification">Povolit aplikaci stahování souborů bez zobrazení jakéhokoli upozornění.</string>
+    <string name="permlab_accessAllDownloads">Povolit přístup ke všem systémovým stahováním</string>
+    <string name="permdesc_accessAllDownloads">Povolit aplikaci zobrazit a upravit všechna stahování vyvolaná jakoukoli aplikací.</string>
+    <string name="download_unknown_title">&lt;Bez názvu></string>
+    <string name="notification_need_wifi_for_size">Velikost stahování vyžaduje síť Wi-Fi.</string>
+    <string name="notification_paused_in_background">Pozastaveno na pozadí.</string>
+    <string name="wifi_required_title">Pro stažení tohoto souboru se připojte k Wi-Fi</string>
+    <string name="wifi_required_body" formatted="false">"Pro dokončení tohoto stahování o velikosti %s se připojte k síti Wi-Fi. 
+
+Klepněte na %s pro zahájení tohoto stahování, jakmile se příště připojíte k síti Wi-Fi."</string>
+    <string name="wifi_recommended_title">Přidat do fronty pro pozdější stažení?</string>
+    <string name="wifi_recommended_body" formatted="false">"Spuštení tohoto stahování o velikosti %s může zkrátit výdrž vaší baterie a/nebo způsobit zvýšení spotřeby mobilních dat, která mohou navýšit vaše poplatky za mobilní datové připojení.
+
+Klepněte na %s pro zahájení tohoto stahování, jakmile se příště připojíte k síti Wi-Fi."</string>
+    <string name="button_queue_for_wifi">Do fronty</string>
+    <string name="button_cancel_download">Zrušit</string>
+    <string name="button_start_now">Spustit nyní</string>
+    <string name="download_percent">%d%%</string>
+    <string name="download_remaining">Zbývá %s</string>
+    <string name="download_no_application_title">Soubor nelze otevřít</string>
+    <string name="root_downloads">Stažené</string>
+    <string name="download_queued">Ve frontě</string>
+    <string name="download_running">Stahování</string>
+    <string name="download_error">Stahování se nezdařilo</string>
+    <string name="download_running_percent">Stahování %d%%</string>
+    <string name="common_google_play_services_unknown_issue">Aplikace %1$s má potíže se službami Google Play. Zkuste to prosím znovu.</string>
+</resources>

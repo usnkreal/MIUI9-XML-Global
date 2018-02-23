@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="timer_message_hour">
+        <item quantity="other">"%1$d ore "</item>
+        <item quantity="one">"%1$d oră "</item>
+        <item quantity="few">"%1$d ore "</item>
+    </plurals>
+    <plurals name="timer_message_minute">
+        <item quantity="other">"%1$d minute "</item>
+        <item quantity="one">"%1$d minut "</item>
+        <item quantity="few">"%1$d minute "</item>
+    </plurals>
+    <plurals name="timer_message_second">
+        <item quantity="other">%1$d secunde</item>
+        <item quantity="one">%1$d secundă</item>
+        <item quantity="few">%1$d secunde</item>
+    </plurals>
+    <plurals name="timer_item_duration_display_seconds">
+        <item quantity="other">%1$d secunde</item>
+        <item quantity="one">1 secundă</item>
+        <item quantity="few">%1$d secunde</item>
+    </plurals>
+    <plurals name="timer_item_duration_display_minutes">
+        <item quantity="other">%1$d minute</item>
+        <item quantity="one">1 minut</item>
+        <item quantity="few">%1$d minute</item>
+    </plurals>
+    <plurals name="snooze_message">
+        <item quantity="other">Amânare pentru %d minute</item>
+        <item quantity="one">Amânare pentru %d minut</item>
+        <item quantity="few">Amânare pentru %d minute</item>
+    </plurals>
+    <plurals name="alarm_alert_snooze_set">
+        <item quantity="other">Amânare pentru %d minute.</item>
+        <item quantity="one">Amânare pentru %d minut.</item>
+        <item quantity="few">Amânare pentru %d minute.</item>
+    </plurals>
+    <plurals name="auto_silence_summary">
+        <item quantity="other">Alarmele se vor opri după %d minute</item>
+        <item quantity="one">Alarmele se vor opri după %d minut</item>
+        <item quantity="few">Alarmele se vor opri după %d minute</item>
+    </plurals>
+    <plurals name="delete_alarm_confirm">
+        <item quantity="other">Ștergeți alarmele selectate?</item>
+        <item quantity="one">Ștergeți această alarmă?</item>
+        <item quantity="few">Ștergeți alarmele selectate?</item>
+    </plurals>
+    <plurals name="delete_timezone_confirm">
+        <item quantity="other">Ștergeți fusurile orare selectate?</item>
+        <item quantity="one">”Ștergeți acest fus orar?</item>
+        <item quantity="few">Ștergeți fusurile orare selectate?</item>
+    </plurals>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="folder_operations">
+        <item>이름 변경</item>
+        <item>삭제</item>
+    </string-array>
+    <string-array name="attachment_chooser">
+        <item>카메라</item>
+        <item>갤러리</item>
+    </string-array>
+    <string-array name="note_sort_way">
+        <item>생성 날짜순</item>
+        <item>수정 날짜순</item>
+    </string-array>
+    <string-array name="contact_entries">
+        <item>이름</item>
+        <item>별명</item>
+        <item>스마트폰</item>
+        <item>이메일</item>
+        <item>회사</item>
+        <item>IM</item>
+        <item>SIP 폰</item>
+        <item>생일</item>
+        <item>웹사이트</item>
+        <item>주소</item>
+        <item>메모</item>
+    </string-array>
+    <string-array name="font_size_names">
+        <item>소</item>
+        <item>중</item>
+        <item>대</item>
+        <item>특대</item>
+    </string-array>
+    <string-array name="welcome_notes_content">
+        <item>"메모장에 오신 것을 환영합니다!
+"</item>
+        <item>"메모 생성
+플러스를 탭하여 메모 생성"</item>
+        <item>"템플릿 선택
+템플릿으로 메모의 백그라운드의 스타일을 바꿔보세요.
+메모 하단의 오른쪽의 버튼을 탭하여 템플릿을 선택하세요."</item>
+        <item>"폴더 생성
+폴더에서 메모를 정리하세요.
+폴더 생성에는 2개의 방법이 있습니다:
+1. 오른쪽 상단 구석의 폴더 아이콘을 탭하시고 플러스를 탭하세요.
+2. 팝업 메뉴가 나타날때까지 메모를 길게 누르시고 \"다음으로 이동\" - \"새 폴더\"를 선택하세요."</item>
+        <item>"메모 숨기기
+개인적인 메모를 비밀번호로 보호하세요.
+메모 숨기는 방법은 2개가 있습니다:
+1. 메모의 상단 오른쪽 \"더 보기\" 버튼을 탭하여 \"숨기기\"를 선택하세요.
+2. 팝업 메뉴가 나타날 때까지 메모를 누르시고 \"숨기기\"를 선택하세요."</item>
+        <item>"더 많은 훌륭한 기능!
+  - 이미지, 체크리스트, 미리 알림
+
+이미지 추가
+메모 하단의 이미지 아이콘을 탭하여 이미지 추가하기
+사진을 찍으시거나 갤러리에서 하나를 가져오실 수 있습니다.
+메모에 이미지를 첨부하시면 이 이미지는 그리드뷰에서 메모의 축소 버전에 사용될 것입니다.
+
+체크리스트 생성
+체크리스트는 일정 목록 입니다.
+메모 하단의 체크박스 아이콘을 탭하여 체크박스에 문장을 추가하십시오.
+일정을 완료하시면 박스를 체크하십시오.
+
+미리 알림 설정
+메모에서 바로 미리 알림 설정하기
+메모의 상단 오른쪽 구석의 \"더 보기\" 버튼을 탭하여 \"미리 알림\"을 선택하신 후 시간을 설정하십시오.
+"</item>
+    </string-array>
+    <string-array name="welcome_notes_image">
+        <item>guide_1</item>
+        <item></item>
+        <item>guide_3_1</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+</resources>

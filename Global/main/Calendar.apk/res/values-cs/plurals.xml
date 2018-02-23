@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Ndays">
+        <item quantity="other">Před %d dny</item>
+        <item quantity="one">Před %d dnem</item>
+        <item quantity="few">Před %d dny</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="other">Před %d hodinami</item>
+        <item quantity="one">Před %d hodinou</item>
+        <item quantity="few">Před %d hodinami</item>
+    </plurals>
+    <plurals name="Nminutes">
+        <item quantity="other">Před %d minutami</item>
+        <item quantity="one">Před %d minutou</item>
+        <item quantity="few">Před %d minutami</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
+        <item quantity="few">+%d</item>
+    </plurals>
+    <plurals name="weekN">
+        <item quantity="other">%d. TÝDEN</item>
+        <item quantity="one">%d. TÝDEN</item>
+        <item quantity="few">%d. TÝDEN</item>
+    </plurals>
+    <plurals name="Ndays_after_at">
+        <item quantity="other">Za %1$d dny v %2$s</item>
+        <item quantity="one">Za %1$d den v %2$s</item>
+        <item quantity="few">Za %1$d dny v %2$s</item>
+    </plurals>
+    <plurals name="Ndays_ago_at">
+        <item quantity="other">Před %1$d dny v %2$s</item>
+        <item quantity="one">Před %1$d dnem v %2$s</item>
+        <item quantity="few">Před %1$d dny v %2$s</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="other">Před %d týdny</item>
+        <item quantity="one">Před %d týdnem</item>
+        <item quantity="few">Před %d týdny</item>
+    </plurals>
+    <plurals name="anniversary_day">
+        <item quantity="other">%1$s dní</item>
+        <item quantity="one">%1$s den</item>
+        <item quantity="few">%1$s dny</item>
+    </plurals>
+    <plurals name="anniversary_notify_before_3_day_title">
+        <item quantity="other">Výročí: za 3 dny to bude %2$d let od %1$s</item>
+        <item quantity="one">Výročí: za 3 dny to bude %2$d rok od %1$s</item>
+        <item quantity="few">Výročí: za 3 dny to budou %2$d roky od %1$s</item>
+    </plurals>
+    <plurals name="anniversary_notify_title">
+        <item quantity="other">Výročí: %2$d let od %1$s</item>
+        <item quantity="one">Výročí: %2$d rok od %1$s</item>
+        <item quantity="few">Výročí: %2$d roky od %1$s</item>
+    </plurals>
+    <plurals name="anniversary_year">
+        <item quantity="other">%1$s let</item>
+        <item quantity="one">%1$s rok</item>
+        <item quantity="few">%1$s roky</item>
+    </plurals>
+    <plurals name="birthday_event_description_days_ago">
+        <item quantity="other">%1$d dní od</item>
+        <item quantity="one">%1$d den od</item>
+        <item quantity="few">%1$d dny od</item>
+    </plurals>
+    <plurals name="birthday_event_description_days_later">
+        <item quantity="other">%1$d dní do</item>
+        <item quantity="one">%1$d den do</item>
+        <item quantity="few">%1$d dny do</item>
+    </plurals>
+    <plurals name="birthday_notification_age_term">
+        <item quantity="other">%1$s let</item>
+        <item quantity="one">%1$s rok</item>
+        <item quantity="few">%1$s roky</item>
+    </plurals>
+    <plurals name="countdown_day">
+        <item quantity="other">Zbývá %1$s dní</item>
+        <item quantity="one">Zbývá %1$s den</item>
+        <item quantity="few">Zbývají %1$s dny</item>
+    </plurals>
+    <plurals name="date_calculate_days_after">
+        <item quantity="other">%1$d dní</item>
+        <item quantity="one">%1$d den</item>
+        <item quantity="few">%1$d dny</item>
+    </plurals>
+    <plurals name="date_calculate_days_ago">
+        <item quantity="other">Před %1$d dny</item>
+        <item quantity="one">Před %1$d dnem</item>
+        <item quantity="few">Před %1$d dny</item>
+    </plurals>
+    <plurals name="date_calculate_direction_backward">
+        <item quantity="other">%1$d dní</item>
+        <item quantity="one">%1$d den</item>
+        <item quantity="few">%1$d dny</item>
+    </plurals>
+    <plurals name="date_calculate_direction_forward">
+        <item quantity="other">%1$d dní</item>
+        <item quantity="one">%1$d den</item>
+        <item quantity="few">%1$d dny</item>
+    </plurals>
+    <plurals name="edit_date_calculate_days_error_hint">
+        <item quantity="other">Můžete zadat maximálně %1$d dní</item>
+        <item quantity="one">Můžete zadat maximálně %1$d den</item>
+        <item quantity="few">Můžete zadat maximálně %1$d dny</item>
+    </plurals>
+    <plurals name="repeat_interval_frequency_day_multiple">
+        <item quantity="other">%1$d dní</item>
+        <item quantity="one">%1$d den</item>
+        <item quantity="few">%1$d dny</item>
+    </plurals>
+    <plurals name="repeat_interval_frequency_month_multiple">
+        <item quantity="other">%1$d měsíců</item>
+        <item quantity="one">%1$d měsíc</item>
+        <item quantity="few">%1$d měsíce</item>
+    </plurals>
+    <plurals name="repeat_interval_frequency_week_multiple">
+        <item quantity="other">%1$d týdnů</item>
+        <item quantity="one">%1$d týden</item>
+        <item quantity="few">%1$d týdny</item>
+    </plurals>
+    <plurals name="repeat_interval_frequency_year_multiple">
+        <item quantity="other">%1$d let</item>
+        <item quantity="one">%1$d rok</item>
+        <item quantity="few">%1$d roky</item>
+    </plurals>
+    <plurals name="work_days">
+        <item quantity="other">%d pracovních dní</item>
+        <item quantity="one">%d pracovní den</item>
+        <item quantity="few">%d pracovní dny</item>
+    </plurals>
+</resources>

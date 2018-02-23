@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">Žiadne pripojenie počas %s min.</item>
+        <item quantity="one">Žiadne pripojenie počas %s min.</item>
+        <item quantity="few">Žiadne pripojenie počas %s min.</item>
+        <item quantity="many">Žiadne dátové pripojenie – %s min</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">Telefón bude v režime spätného núdzového (SOS) volania po dobu %s minúty. Zrušiť?</item>
+        <item quantity="one">Telefón bude v režime spätného núdzového (SOS) volania po dobu %s minúty. Zrušiť?</item>
+        <item quantity="few">Telefón bude v režime spätného núdzového (SOS) volania po dobu %s minúty. Zrušiť?</item>
+        <item quantity="many">Telefón bude %s minúty v režime spätného tiesňového volania. Keď bude v tomto režime, nesmiete používať žiadne aplikácie využívajúce dátové pripojenie. Chcete ho ukončiť?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">Táto voľba nie je dostupná v režime núdzového (SOS) volania. Telefón bude v tomto režime %s minút. Zrušiť?</item>
+        <item quantity="one">Táto voľba nie je dostupná v režime núdzového (SOS) volania. Telefón bude v tomto režime %s minútu. Zrušiť?</item>
+        <item quantity="few">Táto voľba nie je dostupná v režime núdzového (SOS) volania. Telefón bude v tomto režime %s minút. Zrušiť?</item>
+        <item quantity="many">Pri spustenom režime spätného tiesňového volania nie je vybraná akcia k dispozícii. Telefón bude v tomto režime %s minúty. Chcete ho ukončiť?</item>
+    </plurals>
+    <plurals name="call_record_auto_whitelist_summary">
+        <item quantity="other">%d čísel</item>
+        <item quantity="one">%d číslo</item>
+        <item quantity="few">%d čísla</item>
+    </plurals>
+    <plurals name="call_remove_exception_numbers_confirm">
+        <item quantity="other">%d čísel bude odstránených.</item>
+        <item quantity="one">%d číslo bude odstránené.</item>
+        <item quantity="few">%d čísla budú odstránené.</item>
+    </plurals>
+    <plurals name="call_record_add_white_list_over_reminder">
+        <item quantity="other">Môžete pridať najviac %s osôb. Vyberte si znova.</item>
+        <item quantity="one">Môžete pridať najviac %s osobu. Vyberte si znova.</item>
+        <item quantity="few">Môžete pridať najviac %s osoby. Vyberte si znova.</item>
+    </plurals>
+    <plurals name="auto_answer_summary_delay">
+        <item quantity="other">oneskorenie: %s sekúnd</item>
+        <item quantity="one">oneskorenie: %s sekunda</item>
+        <item quantity="few">oneskorenie: %s sekundy</item>
+    </plurals>
+    <plurals name="pin_attempts">
+        <item quantity="other">"
+Zostáva %d pokusov."</item>
+        <item quantity="one">"
+Zostáva %d pokus."</item>
+        <item quantity="few">"
+Zostávajú %d pokusy."</item>
+    </plurals>
+</resources>

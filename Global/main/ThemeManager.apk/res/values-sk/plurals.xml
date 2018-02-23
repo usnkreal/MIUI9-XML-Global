@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="theme_batch_has_update_text">
+        <item quantity="other">Dostupná aktualizácia pre %1$d tém.</item>
+        <item quantity="one">Dostupná aktualizácia pre %1$d tému.</item>
+        <item quantity="few">Dostupná aktualizácia pre %1$d témy.</item>
+    </plurals>
+    <plurals name="theme_update_local_resource_notifaction">
+        <item quantity="other">Dostupná aktualizácia pre %1$d tém</item>
+        <item quantity="one">Dostupná aktualizácia pre %1$d tému.</item>
+        <item quantity="few">Dostupná aktualizácia pre %1$d témy.</item>
+    </plurals>
+</resources>

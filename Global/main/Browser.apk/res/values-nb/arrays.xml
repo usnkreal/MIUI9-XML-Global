@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="aqi_title">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_prefix">
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+    </string-array>
+    <string-array name="menu_theme_setting">
+        <item>Hvit</item>
+        <item>Gul</item>
+        <item>Grey</item>
+        <item>Brun</item>
+        <item>Grønn</item>
+        <item>Blå</item>
+    </string-array>
+    <string-array name="pref_fling_on_border_gesture_entries">
+        <item>Page back forward</item>
+        <item>Switch tabs</item>
+        <item>Ingen</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Default start page</item>
+        <item>Tilpasset</item>
+    </string-array>
+    <string-array name="pref_nav_mode_summary">
+        <item>Telefon</item>
+        <item>Nettbrett</item>
+    </string-array>
+    <string-array name="pref_text_zoom_choices">
+        <item>Tiny</item>
+        <item>Small</item>
+        <item>Vibrer</item>
+        <item>Large</item>
+        <item>Huge</item>
+    </string-array>
+    <string-array name="pref_ua_choices">
+        <item>Android</item>
+        <item>Desktop</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+    </string-array>
+    <string-array name="shortcut_dialog_delete">
+        <item>Slett</item>
+        <item>No thanks</item>
+    </string-array>
+    <string-array name="shortcut_dialog_keep">
+        <item>OK</item>
+        <item>Follow</item>
+    </string-array>
+    <string-array name="shortcut_dialog_title">
+        <item>Message from Browser</item>
+        <item>Follow the Olympics with Mi</item>
+    </string-array>
+    <string-array name="weather_type">
+        <item>Sunny</item>
+        <item>Cloudy</item>
+        <item>Overcast</item>
+        <item>Foggy</item>
+        <item>Heavy rainstorm</item>
+        <item>Downpour</item>
+        <item>Rainstorm</item>
+        <item>Thunderstorm</item>
+        <item>Shower</item>
+        <item>Heavy rainfall</item>
+        <item>Moderate rain</item>
+        <item>Light rain</item>
+        <item>Rain and snow mixed</item>
+        <item>Blizzard</item>
+        <item>Snow</item>
+        <item>Heavy snow</item>
+        <item>Moderate snow</item>
+        <item>Light snow</item>
+        <item>Strong sandstorm</item>
+        <item>Sand storm</item>
+        <item>Sand</item>
+        <item>Windy</item>
+        <item>Hail</item>
+        <item>Dust</item>
+        <item>Haze</item>
+        <item>Freezing rain</item>
+        <item></item>
+    </string-array>
+</resources>

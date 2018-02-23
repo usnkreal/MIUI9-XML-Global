@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permission_description">스마트 카드 서비스 사용</string>
+</resources>

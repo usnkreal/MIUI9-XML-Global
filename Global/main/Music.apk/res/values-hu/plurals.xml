@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nalbum_total_songs">
+        <item quantity="other">Összesen %d zeneszám</item>
+        <item quantity="one">Összesen %d zeneszám</item>
+    </plurals>
+    <plurals name="Nartists_count">
+        <item quantity="other">%d előadó</item>
+        <item quantity="one">%d előadó</item>
+    </plurals>
+    <plurals name="Nassociate_songs">
+        <item quantity="other">Albumborítók és dalszövegek keresése (%1$d/%2$d)</item>
+        <item quantity="one">Albumborítók és dalszövegek keresése (%1$d/%2$d)</item>
+    </plurals>
+    <plurals name="Nbackup_songs">
+        <item quantity="other">Dalok mentése, %1$d dal van hátra (%2$.1fMB)</item>
+        <item quantity="one">Dalok mentése, %1$d dal van hátra (%2$.1fMB)</item>
+    </plurals>
+    <plurals name="Nexpired_remind">
+        <item quantity="other">%d nap van hátra</item>
+        <item quantity="one">%d nap van hátra</item>
+    </plurals>
+    <plurals name="Ngroups_count">
+        <item quantity="other">%d bandák</item>
+        <item quantity="one">%d banda</item>
+    </plurals>
+    <plurals name="Nnew_tracks_count">
+        <item quantity="other">%d új dal</item>
+        <item quantity="one">%d új dal</item>
+    </plurals>
+    <plurals name="Nquit_warning">
+        <item quantity="other">A lejátszó %d perc múlva leáll</item>
+        <item quantity="one">A lejátszó %d perc múlva leáll</item>
+    </plurals>
+    <plurals name="Nrecognize_switch_off_alert_message">
+        <item quantity="other">Úgy döntött, hogy nem kívánja automatikusan kikeresni a helyi zeneszámok albumborítóit és dalszövegét. Törli %d szám esetén a vonatkozó információt?</item>
+        <item quantity="one">Úgy döntött, hogy nem kívánja automatikusan kikeresni a helyi zeneszámok albumborítóit és dalszövegét. Törli %d szám esetén a vonatkozó információt?</item>
+    </plurals>
+    <plurals name="Nsong_group_detail_subtitle">
+        <item quantity="other">%1$s elkészült | összesen %2$d zeneszám</item>
+        <item quantity="one">%1$s elkészült | összesen %2$d zeneszám</item>
+    </plurals>
+    <plurals name="Nstop_backup_songs_message">
+        <item quantity="other">%d dal még nem lett elmentve a Mi Cloudba. Leállítja most?</item>
+        <item quantity="one">%d dal még nem lett elmentve a Mi Cloudba. Leállítja most?</item>
+    </plurals>
+    <plurals name="Ntracks_add_to_playlist">
+        <item quantity="other">%d dal hozzáadva a lejátszólistához</item>
+        <item quantity="one">%d dal hozzáadva a lejátszólistához</item>
+    </plurals>
+    <plurals name="Ntracks_count">
+        <item quantity="other">%d dal</item>
+        <item quantity="one">%d dal</item>
+    </plurals>
+    <plurals name="Ntracks_remove_from_playlist">
+        <item quantity="other">%d dal eltávolítva a lejátszási listáról</item>
+        <item quantity="one">%d dal eltávolítva a lejátszási listáról</item>
+    </plurals>
+    <plurals name="Ntracks_search_result">
+        <item quantity="other">%d dal találat</item>
+        <item quantity="one">%d dal találat</item>
+    </plurals>
+    <plurals name="Ntracks_similar_count">
+        <item quantity="other">%d hasonló dal</item>
+        <item quantity="one">%d hasonló dal</item>
+    </plurals>
+    <plurals name="Nunbackup_audios">
+        <item quantity="other">%1$d zeneszám még nem lett elmentve (%2$.1fMB)</item>
+        <item quantity="one">%1$d zeneszám még nem lett elmentve (%2$.1fMB)</item>
+    </plurals>
+    <plurals name="Nupload_song_button">
+        <item quantity="other">Mentsen %1$d zeneszámot (%2$.1fMB)</item>
+        <item quantity="one">Mentsen %1$d zeneszámot (%2$.1fMB)</item>
+    </plurals>
+    <plurals name="comment_count">
+        <item quantity="other">%d hozzászólás</item>
+        <item quantity="one">%d hozzászólás</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_downloads_message">
+        <item quantity="other">Töröl %d elemet?</item>
+        <item quantity="one">Töröl %d elemet?</item>
+    </plurals>
+    <plurals name="dialog_delete_descript">
+        <item quantity="other">Töröl %d dalt?</item>
+        <item quantity="one">Töröl %d dalt?</item>
+    </plurals>
+    <plurals name="dialog_remove_descript">
+        <item quantity="other">%d dal eltávolítása?</item>
+        <item quantity="one">%d dal eltávolítása?</item>
+    </plurals>
+    <plurals name="dialog_remove_from_cloud_descript">
+        <item quantity="other">Töröl %d zenét a Mi Cloudból? A helyi lejátszási listákról is törlődnek.</item>
+        <item quantity="one">Töröl %d zenét a Mi Cloudból? A helyi lejátszási listáról is törlődik.</item>
+    </plurals>
+    <plurals name="download_finished">
+        <item quantity="other">&amp;lt;font color==\"red\">%d dal&amp;lt;/font> letöltve</item>
+        <item quantity="one">&amp;lt;font color==\"red\">%d dal&amp;lt;/font> letöltve</item>
+    </plurals>
+    <plurals name="download_info_count_deleted_tasks">
+        <item quantity="other">%d letöltés törölve</item>
+        <item quantity="one">%d letöltés törölve</item>
+    </plurals>
+    <plurals name="download_running">
+        <item quantity="other">&amp;lt;font color==\"red\">%d dal&amp;lt;/font> letöltése</item>
+        <item quantity="one">&amp;lt;font color==\"red\">%d dal&amp;lt;/font> letöltése</item>
+    </plurals>
+    <plurals name="folder_songs_count">
+        <item quantity="other">%d dal</item>
+        <item quantity="one">%d dal</item>
+    </plurals>
+    <plurals name="multichoice_title">
+        <item quantity="other">%d elem kiválasztva</item>
+        <item quantity="one">%d elem kiválasztva</item>
+    </plurals>
+    <plurals name="reader_count">
+        <item quantity="other">%d követő</item>
+        <item quantity="one">%d követő</item>
+    </plurals>
+    <plurals name="send_songs_toast">
+        <item quantity="other">%d dal lesz elküldve</item>
+        <item quantity="one">%d dal lesz elküldve</item>
+    </plurals>
+    <plurals name="skipped_online_songs_tips">
+        <item quantity="other">%d számot átugrott. Meghallgatásukhoz kapcsolja be az online szolgáltatásokat a beállításokban.</item>
+        <item quantity="one">%d számot átugrott. Meghallgatásukhoz kapcsolja be az online szolgáltatásokat a beállításokban.</item>
+    </plurals>
+    <plurals name="song_already_favorite">
+        <item quantity="other">Dalok hozzáadva a kedvencek listájához.</item>
+        <item quantity="one">Dal hozzáadva a kedvencek listájához.</item>
+    </plurals>
+    <plurals name="songs_count">
+        <item quantity="other">%d dal</item>
+        <item quantity="one">%d dal</item>
+    </plurals>
+</resources>

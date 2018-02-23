@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="folder_operations">
+        <item>Redenumiți</item>
+        <item>Șterge</item>
+    </string-array>
+    <string-array name="attachment_chooser">
+        <item>Aparat foto</item>
+        <item>Galerie</item>
+    </string-array>
+    <string-array name="note_sort_way">
+        <item>După data creării</item>
+        <item>După data modificării</item>
+    </string-array>
+    <string-array name="contact_entries">
+        <item>Nume</item>
+        <item>Poreclă</item>
+        <item>Telefon</item>
+        <item>E-mail</item>
+        <item>Companie</item>
+        <item>IM</item>
+        <item>Telefon SIP</item>
+        <item>Ziua de naștere</item>
+        <item>Adresa web</item>
+        <item>Adresa</item>
+        <item>Notă</item>
+    </string-array>
+    <string-array name="font_size_names">
+        <item>Mic</item>
+        <item>Mediu</item>
+        <item>Mare</item>
+        <item>Imens</item>
+    </string-array>
+    <string-array name="welcome_notes_content">
+        <item>"Bine ați venit la Note
+"</item>
+        <item>"Creați o notă
+Atingeţi pe plus pentru a crea o notă."</item>
+        <item>"Alege șabloane
+Utilizați șabloanele pentru a schimba fundalurile și stiluri de la notele dvs.
+Atingeți butonul din dreapta din partea de jos a notei pentru a alege un șablon."</item>
+        <item>"Creează dosare
+Organizați-vă notele în dosare.
+Există 2 moduri de a crea un dosar:
+1. Atingeți pictograma dosarului din colțul din dreapta sus, și apoi atingeți pe plus.
+2. Mențineți apăsat pe o notă până când apare un meniu pop-up și selectați \"Mută la\" - \"Dosar nou\".  ."</item>
+        <item>"Ascundeți note
+Protejează notele private cu o parolă.
+Există 2 moduri de a ascunde o notă:
+1. Atingeţi pe butonul \"Mai mult\" în colțul din dreapta sus al unei note și selectați \"Ascunde\".
+2. Mențineți apăsat pe notă până când apare un meniu pop-up și selectați \"Ascunde\"."</item>
+        <item>"Si mai multe caracteristici excelente!
+ - Imagini, liste de verificare, memento-uri 
+
+ Adaugă imagini
+Atinge pictograma de imagine din partea de jos a unei note pentru a adăuga o imagine.
+Puteți face o fotografie sau alege una din Galerie
+Atunci când o notă conține o imagine, această imagine va fi utilizată ca o miniatură a notei în vizualizarea grilă
+
+Creează liste de verificare
+Caseta de selectare este un element esențial al unei liste de rezolvat
+Atingeți pictograma casetei de selectare din partea de jos a unei note pentru a adăuga o casetă de selectare la un paragraf de text.
+Verifică cutia când lucrurile sunt gata.
+
+Setează memento-uri. 
+Setează memento-uri direct din note.
+Atingeți butonul \"Mai mult\", în colțul din dreapta de sus al unei note, selectați \"Memento-uri\", setați ora.
+"</item>
+    </string-array>
+    <string-array name="welcome_notes_image">
+        <item>guide_1</item>
+        <item></item>
+        <item>guide_3_1</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+</resources>
