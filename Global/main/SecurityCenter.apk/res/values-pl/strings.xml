@@ -80,7 +80,7 @@ Zostanie dodany do wyjątków, ale poprzednio blokowane elementy nie pojawią si
     <string name="menu_add">Dodaj</string>
     <string name="menu_edit">Edytuj</string>
     <string name="menu_remove">Usuń</string>
-    <string name="menu_white">Za wyjątkiem</string>
+    <string name="menu_white">Dodaj do wyjątków</string>
     <string name="st_settings_name">Ustawienia listy blokowanych</string>
     <string name="st_filter_keywords_setting_summary1">Wiadomości od nieznanych numerów, które zawierają słowa z tej listy zostaną zablokowane.</string>
     <string name="st_filter_keywords_setting_summary3">Wiadomości od nieznanych numerów, które zawierają słowa z tej listy będą dozwolone.</string>
@@ -616,7 +616,7 @@ Pozostałe dane zawierają dane, które zostały doładowane z poprzedniego mies
     <string name="tc_sms_report_type">Typ zgłoszenia</string>
     <string name="privacy_declare_dialog_title">Warunki Użytkowania</string>
     <string name="sc_allow_network_dialog_tiltle">Nie można użyć oszczędzania transferu</string>
-    <string name="sc_allow_network_dialog_message">Aplikacja do poprawnego działania wymaga połączenia z internetem.</string>
+    <string name="sc_allow_network_dialog_message">Ograniczyłeś połączenie sieciowe i dostęp do swojej lokalizacji dla Panelu Sterowania. Nadaj Panelowi Sterowania wymagane uprawnienia, aby korzystać z tej funkcji.</string>
     <string name="privacy_prompt_upload">Powiadomienia o prywatności</string>
     <string name="privacy_prompt_traffic_adjust_message">"Po rozpoczęciu kalibracji, MIUI połączy się z siecią, zakoduje informacje o operatorze, numerze telefonu, IMEI, koncie Xiaomi, i wyśle te informacje na serwery Xiaomi. Zostanie to wykonane w celu pobrania szablonu kalibracji operatora oraz określenie możliwości zakupu pakietów danych w Twojej lokalizacji.
 
@@ -768,8 +768,8 @@ Spróbuj wykorzystać inny kabel internetowy do podłączenia routera. Jeśli po
     <string name="networkchanged_exception_title">Połączenie zmienione</string>
     <string name="networkchanged_exception_summary">Połączenie sieciowe zostało zmienione. Przeprowadź test ponownie.</string>
     <string name="network_test_speed">Testuj prędkość Wi-Fi</string>
-    <string name="network_changed_noti_title">Disconnected from Wi-Fi</string>
-    <string name="network_changed_noti_summary">Using mobile data</string>
+    <string name="network_changed_noti_title">Rozłączono z Wi-Fi</string>
+    <string name="network_changed_noti_summary">Korzystanie z danych mobilnych</string>
     <string name="network_speed_for_apps_title">Połączenie</string>
     <string name="network_speed_for_apps_total">Prędkość połączenia</string>
     <string name="network_speed_for_apps_close_app_dlg_msg">Wymusić zatrzymanie tej aplikacji?</string>
@@ -1478,7 +1478,7 @@ Dodanie aplikacji do Autostartu pomaga w sytuacjach gdy widżet się nie aktuali
     <string name="manual_item_white_list_title">Wyjątki</string>
     <string name="manual_item_white_list_summary">Aplikacje z wyjątków nie będą sprawdzane</string>
     <string name="pm_auto_start_by_system">Systemowe</string>
-    <string name="pm_auto_start_by_system_event">Zezwól aplikacjo na automatyczne uruchomienie</string>
+    <string name="pm_auto_start_by_system_event">Zezwól aplikacji na automatyczne uruchomienie</string>
     <string name="pm_auto_start_by_other">Przełączone uruchamianie</string>
     <string name="pm_auto_start_by_other_app">Zezwól aplikacji na uruchamianie przez inną aplikację</string>
     <string name="pm_auto_start_proc_is_running">Uruchomione</string>
@@ -1677,7 +1677,7 @@ Dodanie aplikacji do Autostartu pomaga w sytuacjach gdy widżet się nie aktuali
     <string name="preferred_app_entries_music">Muzyka</string>
     <string name="preferred_app_entries_email">Poczta</string>
     <string name="card_main_applock_title">Blokowanie aplikacji</string>
-    <string name="card_main_applock_summary">Chroń wiadomości, zdjecia i inne elementy za pomocą hasła.</string>
+    <string name="card_main_applock_summary">Chroń wybrane aplikacje za pomocą hasła.</string>
     <string name="card_main_applock_action">Włącz</string>
     <string name="card_main_deepclean_title">Dokładne czyszczenie</string>
     <string name="card_main_deepclean_summary">Usuń niepotrzebne pliki</string>
@@ -1716,14 +1716,18 @@ Dodanie aplikacji do Autostartu pomaga w sytuacjach gdy widżet się nie aktuali
     <string name="more_lock">Więcej</string>
     <string name="app_name">Blokada dostępu</string>
     <string name="back_app_name">Przejdź do Blokowania aplikacji</string>
-    <string name="notification_item">Zabezpiecz aplikacje, za pomocą Blokowania aplikacji</string>
+    <string name="ac_notification_contentTitle">Chroń aplikacje, za pomocą Blokowania aplikacji</string>
+    <string name="ac_pre_notification_contentTitle">Wypróbuj Blokowanie aplikacji</string>
+    <string name="ac_post_notification_contentTitle">Włącz Blokowanie aplikacji</string>
     <string name="notification_masked_item">Ukryj powiadomienia</string>
     <string name="lock_mode_title">Ustawienia ograniczenia</string>
     <string name="after_the_lock_screen">Blokuj aplikacje razem z ekranem</string>
     <string name="set_applock_password">Ustaw hasło</string>
     <string name="ac_firstUseApplock_title">Ustaw hasło, aby chronić swoje aplikacje</string>
     <string name="ac_firstUseApplock_subTitle">Najlepiej korzystaj z systemowych narzędzi bezpieczeństwa</string>
-    <string name="notification_subtitle">Dotknij, aby włączyć</string>
+    <string name="ac_notification_contentText">Dotknij, aby włączyć</string>
+    <string name="ac_pre_notification_contentText">Chroń swoje informacje osobiste</string>
+    <string name="ac_post_notification_contentText">Uzyskaj ochronę na poziomie systemu</string>
     <string name="notification_masked_subtitle">Ukryj powiadomienia od aplikacji chronionych za pomocą Blokowania aplikacji</string>
     <string name="ac_enter_applock">Otwórz Blokowanie aplikacji</string>
     <string name="ac_mask_all_apps">Ukryj dla wszystkich aplikacji</string>
@@ -2050,7 +2054,7 @@ Dodanie aplikacji do Autostartu pomaga w sytuacjach gdy widżet się nie aktuali
     <string name="gs_game_net_priority">Kolejność połączenia</string>
     <string name="gs_game_net_priority_detail">Ogranicz prędkość pobierania, aby zapewnić odpowiednią przepustowość</string>
     <string name="gs_performance_mode">Tryb wydajności</string>
-    <string name="gs_performance_mode_detail">Zwiększ użycie CPU, aby zapewnić pełną wydajność</string>
+    <string name="gs_performance_mode_detail">Zwiększ wykorzystanie CPU, aby zapewnić pełną wydajność</string>
     <string name="gs_open_game_booster">Przyspiesz prędkość</string>
     <string name="gs_dialog_confirm_close_title">Wyłącz</string>
     <string name="gs_dialog_confirm_close_msg">Skrót zostanie usunięty z ekranu głównego. Przejdź do Bezpieczeństwa > Ustawienia, aby go przywrócić.</string>
@@ -2066,7 +2070,7 @@ Dodanie aplikacji do Autostartu pomaga w sytuacjach gdy widżet się nie aktuali
     <string name="top_no_network_detial">Nie udało się załadować, sprawdź połączenie z siecią i spróbuj ponownie</string>
     <string name="boosting">Przyspieszenie prędkości…</string>
     <string name="get_sys_info">Uzyskiwanie danych…</string>
-    <string name="function_close">Wyłączone</string>
+    <string name="function_close">Wyłączony</string>
     <string name="add_done">Pomyślnie dodano</string>
     <string name="boost_done">Pomyślnie przyspieszono</string>
     <string name="boost_stop">Wyłącz przyspieszenie prędkość</string>
@@ -2122,7 +2126,7 @@ Dodanie aplikacji do Autostartu pomaga w sytuacjach gdy widżet się nie aktuali
     <string name="game_more_improve">Ogranicz aktywności w tle, aby oszczędzić baterię i przepustowość dla grania</string>
     <string name="dont_bore">Nie pozwól przyciskom i powiadomieniom rozpraszać cię</string>
     <string name="release_memory">Wyczyść pamięć podręczną</string>
-    <string name="start">Rozpocznij</string>
+    <string name="start">Aktywny</string>
     <string name="net_boosting">Przyspieszenie prędkości…</string>
     <string name="net_overdue">Sesja zakończona</string>
     <string name="renew_now">Odnów</string>
@@ -2151,7 +2155,7 @@ Dodanie aplikacji do Autostartu pomaga w sytuacjach gdy widżet się nie aktuali
     <string name="net_booster_expire_notification">Sesja przyspieszonej prędkości sieciowej wkrótce wygaśnie</string>
     <string name="xunyou_pay_webview">Usługi Xunyou</string>
     <string name="xunyou_server_expired">Sesja wygasła.</string>
-    <string name="game_anti_disturb_msg">Nie przeszkadzać w grze</string>
+    <string name="game_anti_disturb_msg">Tryb Nie przeszkadzać podczas grania</string>
     <string name="gamebooster_main_activity_back">Wstecz</string>
     <string name="data_booster_title">Stabilizacja połączenia danych</string>
     <string name="data_booster_desc">Wyłącz pozostałe sloty SIM, aby utrzymać stałe połączenie</string>

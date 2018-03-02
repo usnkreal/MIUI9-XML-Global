@@ -134,7 +134,7 @@
     <string name="browserFrameNetworkErrorLabel">연결 오류</string>
     <string name="cancel">취소</string>
     <string name="cannot_download">\"http\" 또는 \"https\" URL만 다운로드할 수 있습니다.</string>
-    <string name="card_setting_close_recommend">당신을 위한 추천</string>
+    <string name="card_setting_close_recommend">추천 항목 수신</string>
     <string name="choosertitle_sharevia">공유 경로</string>
     <string name="clear_history">기록 지우기</string>
     <string name="clear_most_visited">최근 기록</string>
@@ -336,7 +336,7 @@
     <string name="hint">힌트</string>
     <string name="history">기록</string>
     <string name="home_description">홈</string>
-    <string name="home_page_news_feed">뉴스 피드</string>
+    <string name="home_page_news_feed">뉴스피드</string>
     <string name="home_page_top_sites">인기 사이트</string>
     <string name="homepage_delete_card_menu">삭제</string>
     <string name="homepage_get_location">위치 가져오기</string>
@@ -516,6 +516,10 @@
     <string name="nav_bottom_bar_new_tab">새 탭</string>
     <string name="nav_screen_container_tab_incognito">익명 탭</string>
     <string name="nav_screen_container_tab_normal">보통 탭</string>
+    <string name="nav_screen_incognito_message">"Your browsing and search history won't be saved in Incognito mode.
+Remember that the files you download and the bookmarks you add will still be saved."</string>
+    <string name="nav_screen_incognito_title">Incongnito mode</string>
+    <string name="navigation_delete_all">swipe left and right to close all tabs</string>
     <string name="navigationbar_rightbutton_actiontext_cancle">취소</string>
     <string name="navigationbar_rightbutton_actiontext_go">이동</string>
     <string name="navigationbar_rightbutton_actiontext_search">검색</string>
@@ -565,7 +569,7 @@
     <string name="pref_adblock_title">광고 차단기</string>
     <string name="pref_auto_update_under_wifi">Wi-Fi를 이용해서 업데이트</string>
     <string name="pref_automatic_matching_searchengines_title">자주 사용하는 검색 엔진으로 전환</string>
-    <string name="pref_card_setting">카드 설정</string>
+    <string name="pref_card_setting">인기 사이트 순서</string>
     <string name="pref_category_hint">카테고리</string>
     <string name="pref_check_security_url_summary">웹사이트 URL을 안전을 확인하기 위해 Mi 서버로 전송</string>
     <string name="pref_check_security_url_summary_international">더 많은 관련 추천을 수신하기 위해 브라우저의 이전 방문 웹사이트 URL 접근 허용</string>
@@ -592,7 +596,7 @@
     <string name="pref_enable_videos">동영상</string>
     <string name="pref_extras_reset_default">기본값 복원</string>
     <string name="pref_extras_reset_default_dlg">기본 설정으로 복원하시겠습니까?</string>
-    <string name="pref_extras_reset_default_summary">기본 설정 복원</string>
+    <string name="pref_extras_reset_default_summary">기본 순서 복원</string>
     <string name="pref_extras_reset_default_title">기타</string>
     <string name="pref_extras_send_feedback">피드벡 전송</string>
     <string name="pref_extras_title">고급</string>
@@ -778,7 +782,7 @@
     <string name="show_security_tip_dialog_title">이용 약관</string>
     <string name="show_weather_location_getter_tip_dialog_description">브라우저의 정상 작동을 위해 인터넷 연결이 요구됩니다. 보안 강화와 더 많은 연관 추천, 날씨 정보를 수신하기 위해서 브라우저의 방문한 웹사이트 URL 접근과 위치 정보 접근을 허용해야 합니다.</string>
     <string name="sign_in_to" formatted="false">%s1%s2\"으로 로그인</string>
-    <string name="site_sort_des">항목을 드래그하여 순서 재배치</string>
+    <string name="site_sort_des">항목 재배치</string>
     <string name="skip_button_label">건너뛰기</string>
     <string name="skip_current_version">이 버전 건너 뛰기</string>
     <string name="snapshot">로컬</string>

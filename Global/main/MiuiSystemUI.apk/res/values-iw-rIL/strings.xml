@@ -270,7 +270,7 @@ d MMMM"</string>
     <string name="ext_media_nomedia_notification_title">אחסון USB הוסר</string>
     <string name="ext_media_nomedia_notification_message">אחסון USB הוסר. הכנס מדיה חדשה.</string>
     <string name="ext_media_mountable_notification_title">התקן אחסון USB מחובר</string>
-    <string name="ext_media_mountable_notification_message">"לחץ על מנת לפתוח ב'סייר'."</string>
+    <string name="ext_media_mountable_notification_message">"לחץ לפתיחה ב'מנהל הקבצים'."</string>
     <string name="ext_media_safe_remove">הסר בבטחה</string>
     <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">K/s</string>
@@ -730,7 +730,7 @@ d MMMM"</string>
     <string name="keyboard_shortcut_group_applications_youtube">YouTube</string>
     <string name="keyboard_shortcut_group_applications_calendar">לוח שנה</string>
     <string name="legacy_vpn_name">VPN</string>
-    <string name="monitoring_button_view_policies">הצג מדיניות</string>
+    <string name="monitoring_button_view_policies">הצג מדיניויות</string>
     <string name="monitoring_description_ca_certificate">תעודת הסמכה מותקנת על גבי מכשיר זה. תעבורת הרשת המאובטחת שלך עשויה להיות מנוטרת או לעבור עריכה על ידי גורמים אחרים.</string>
     <string name="monitoring_description_named_management">"מכשירך מנוהל על ידי %1$s.
 
@@ -750,7 +750,7 @@ d MMMM"</string>
     <string name="monitoring_description_personal_profile_named_vpn">הפרופיל האישי שלך מחובר אל %1$s, אשר יכול לנטר את פעילות הרשת שלך, כולל דוא\"ל, יישומים ואתרי אינטרנט.</string>
     <string name="monitoring_description_two_named_vpns">הינך מחובר אל %1$s ואל %2$s אשר יכולים לנטר את פעילות הרשת שלך, כולל דוא\"ל, יישומים ואתרי אינטרנט.</string>
     <string name="monitoring_description_vpn_settings_separator">" "</string>
-    <string name="monitoring_description_vpn_settings">"פתח את 'הגדרות VPN'"</string>
+    <string name="monitoring_description_vpn_settings">פתיחת הגדרות VPN</string>
     <string name="monitoring_title">ניטור רשת</string>
     <string name="monitoring_subtitle_ca_certificate">תעודות CA</string>
     <string name="monitoring_subtitle_network_logging">רישום רשת</string>
@@ -780,7 +780,7 @@ d MMMM"</string>
     <string name="recent_dock_tip">לחץ לבחירת יישומים</string>
     <string name="dock_keyguard_locked_failed_to_dock_text">"'מסך מפוצל' אינו נתמך ב'מסך הנעילה'."</string>
     <string name="click_expand">לחץ להרחבה</string>
-    <string name="please_slide_agian">אנא החלק שוב</string>
+    <string name="please_slide_agian">החלק שוב</string>
     <string name="how_to_use_fsg">באפשרותך לבצע פעולות אלה באמצעות מחוות:</string>
     <string name="how_to_back_home">"מעבר ל'מסך הבית'"</string>
     <string name="how_to_switch_recents">"פתיחת 'לאחרונה'"</string>
@@ -788,6 +788,8 @@ d MMMM"</string>
     <string name="fsg_demo_go_on">למד</string>
     <string name="fs_gesture_back_home_summary">החלקה מהתחתית במהירות</string>
     <string name="fs_gesture_switch_recents_summary">החלקה מהתחתית ועצירה</string>
+    <string name="how_to_use_drawer">כיצד להשתמש בפונקצית החלקת היישומים</string>
+    <string name="how_to_use_drawer_summary">החלקה מהחלק השמאלי העליון</string>
     <string name="fs_gesture_back_ready_title">חזרה</string>
     <string name="fs_gesture_left_back_ready_summary">החלקה ימינה מהקצה</string>
     <string name="fs_gesture_right_back_ready_summary">החלקה שמאלה מהקצה</string>

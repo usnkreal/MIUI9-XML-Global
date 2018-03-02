@@ -380,9 +380,9 @@
     <string name="hints_video_camera">Rögzített videók</string>
     <string name="summary_delete_video">Végleg törli a kiválasztott videókat?</string>
     <string name="empty_title_video">Nincs videófájl​</string>
-    <string name="information_setting">Ajánlások</string>
+    <string name="information_setting">Hirdetések</string>
     <string name="load_only_under_wlan">Betöltés csak Wi-Fi használatával</string>
-    <string name="recommend_news">Ajánlások fogadása</string>
+    <string name="recommend_news">Hirdetések fogadása</string>
     <string name="dialog_title_stop_scan">Keresés leállítása</string>
     <string name="dialog_msg_stop_scan">Leállítja a keresést most?</string>
     <string name="dialog_title_esc_cleanmaster">Kilépés a Tisztítóból</string>

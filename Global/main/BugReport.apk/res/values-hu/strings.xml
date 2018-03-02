@@ -163,6 +163,7 @@
     <string name="cta_confirm">OK</string>
     <string name="submit_dialog_title">Jelentés küldése</string>
     <string name="submit_dialog_content">A visszajelzését a csatolmányokkal és a naplófájlokkal el fogjuk küldeni a MIUI-nak. Ez személyes és helyinformációkat is tartalmazhat.</string>
+    <string name="submit_dialog_content_global">Az Ön visszajelzése, valamint mellékletei (ha vannak) és naplói elküldésre kerülnek a MIUI szervereire és a MIUI Fórum belső fejlesztői csoportjának elemzésre és további kommunikációra. Beállíthatja a megfelelő mezőket, hogy mely elemeket kívánja feltölteni. A naplók tartalmazhatják az Ön személyes és helyadatait.</string>
     <string name="submit_dialog_cancel">Mégse</string>
     <string name="submit_dialog_confirm">Küldés</string>
     <string name="mobile_data_note_dialog_title">Adatforgalmi figyelmeztetés</string>
@@ -177,7 +178,7 @@
     <string name="modem_tool_log_finish_title">Modemnapló rögzítve</string>
     <string name="modem_tool_log_finish_desc">Napló mentve mint %s</string>
     <string name="bugreport_dialog_not_show_again">Ne mutassa újra</string>
-    <string name="bugreport_dialog_submit_content">A visszajelzése személyes információkat és helyadatokat is tartalmazhat.</string>
+    <string name="bugreport_dialog_submit_content">Ön most szoftvernaplókat ment erre a készülékre. A naplók tartalmazhatják az Ön személyes és helyadatait. Ne ossza meg naplókat senkivel, ha nem akarja kiadni ezeket az információkat.</string>
     <string name="bugreport_dump_start_notification_title">Hibanapló készítése</string>
     <string name="bugreport_dump_start_notification_summary">Ez néhány percet igénybe vehet.</string>
     <string name="bugreport_dump_complete_notification_title">A hibanapló elkészült</string>
@@ -219,6 +220,14 @@
     <string name="feedback_choose_module_hint">Szükséges</string>
     <string name="feedback_choose_reproductivity">Megismételhetőség</string>
     <string name="feedback_title_reproductivity">Megismételhetőség kiválasztása</string>
+    <string name="feedback_select_problem_select_desc">Kijelölt \"Problémák\"</string>
+    <string name="feedback_select_problem_not_select_desc">Nincsenek kijelölt \"Problémák\"</string>
+    <string name="feedback_select_suggestion_select_desc">Kijelölt \"Javaslatok\"</string>
+    <string name="feedback_select_suggestion_not_select_desc">Nincsenek kijelölt \"Javaslatok\"</string>
+    <string name="feedback_select_upload_log_select_desc">Kijelölt \"Naplók hozzáadása\"</string>
+    <string name="feedback_select_upload_log_not_select_desc">Nincs kijelölve \"Naplók hozzáadása\"</string>
+    <string name="feedback_select_modem_log_select_desc">Kijelölt \"Modemnaplók hozzáadása\"</string>
+    <string name="feedback_select_modem_log_not_select_desc">Nincs kijelölve \"Modemnaplók hozzáadása\"</string>
     <string name="feedback_report_remind_login_desc">Jelentkezzen be a saját Mi Fiókjába, hogy a fejlesztőink felvehessék önnel a kapcsolatot.</string>
     <string name="feedback_report_remind_login_desc2">Megtekintheti a jelentéseinek állapotát az \"Saját jelentések\" menüpontban is.</string>
     <string name="feedback_history_remind_login_desc">Jelentkezzen be a Mi Fiókjával a részletek és a jelentés állapotának megtekintéséhez</string>

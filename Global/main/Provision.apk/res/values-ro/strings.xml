@@ -24,6 +24,8 @@ Vezi Politica de confidențialitate a tastaturii selectate."</string>
     <string name="other_settings_upload_debug_log_summary">Informațiile pe care le colectăm vor fi folosite pentru a localiza și de a analiza problemele din sistem și poate conține informații cu caracter personal. Nu există date care vor fi folosite pentru a vă identifica personal.</string>
     <string name="other_settings_auto_update">Instalați automat</string>
     <string name="other_settings_auto_update_summary">MIUI va selecta cel mai bun moment pentru a instala actualizări.</string>
+    <string name="other_settings_ad_enable">Personalized Ad Recommendation</string>
+    <string name="other_settings_ad_enable_summary">Recommend personalized ads based on your behavior data</string>
     <string name="back">Înapoi</string>
     <string name="next">Următorul</string>
     <string name="skip_underline">Treci peste</string>
@@ -69,8 +71,8 @@ Trebuie să fiți de acord cu Termenii serviciului și Politica de confidențial
     <string name="content_description_complete">Complet</string>
     <string name="language_picker_other_languages_title">Mai multe limbi</string>
     <string name="language_settings">Alege limbă</string>
-    <string name="navigation_picker_radio_text_full_screen">Mod ecran complet</string>
-    <string name="navigation_picker_radio_text_virtual_key">Mod cheie virtuală</string>
+    <string name="navigation_picker_radio_text_full_screen">Gesturi pe ecran complet</string>
+    <string name="navigation_picker_radio_text_virtual_key">Butoane</string>
     <string name="congratulation_swipe">Glisează sus pentru a intra în sistem</string>
     <string name="enable_accessibility_dialog_message">Ați activat TalkBack prin apăsarea ecranului cu 2 degete pentru mai mult de 10 secunde. TalkBack oferă răspuns vocal pentru persoanele cu deficiențe de vedere. Dacă ați pornit din greșeală, apăsați butonul Anulare, apoi apăsați dublu pe ecran.</string>
     <string name="enable_accessibility_dialog_positive_btn">OK</string>

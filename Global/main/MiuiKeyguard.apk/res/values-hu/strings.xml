@@ -5,6 +5,12 @@
     <string name="unlockscreen_recharge_completed">Feltöltve</string>
     <string name="unlockscreen_low_battery">Csatlakoztassa a töltőt</string>
     <string name="lockscreen_charging_msg">Töltés</string>
+    <string name="reset_device_tip">Lassú töltés, mozdítsa új pozícióba a telefont</string>
+    <string name="reset_device_detail_tip">Vezeték nélküli töltés. A megfelelő töltési sebesség érdekében kérjük, igazítsa meg a telefont.</string>
+    <string name="wireless_charge_stop">A vezeték nélküli töltés leállt</string>
+    <string name="change_to_ac_charging">Vezeték nélküli töltésre váltott</string>
+    <string name="wireless_charge_dialog_title">Nincs megfelelő pozícióban, kérjük, helyezze át</string>
+    <string name="wireless_charge_dialog_cancel">Mégse</string>
     <string name="emergency_call_string">Segélyhívás</string>
     <string name="forget_password_string">Elfelejtett jelszó</string>
     <string name="input_puk_code">Írja be a PUK kódot</string>
@@ -65,13 +71,10 @@
     <string name="lock_wallpaper_enter">Belépés</string>
     <string name="custom_lock_wallpaper_enter">Belépés</string>
     <string name="fingerprint_enter_second_psw_title">Adja meg a Második asztal jelszavát</string>
-    <string name="fingerprint_enter_second_psw_msg">Adja meg a Második asztal jelszavát újraindítás után az ujjlenyomat-olvasó használatához</string>
+    <string name="fingerprint_enter_second_psw_msg">Adja meg a Második asztal jelszavát, hogy az ujjlenyomat-olvasót használni tudja</string>
     <string name="fingerprint_enter_second_psw_msg_oldman">Egyszerű módban nem tud belépni a Második asztalra</string>
     <string name="keyguard_charging_info_click_to_detail">Részletek megjelenítése</string>
     <string name="keyguard_quick_charging_info_click_to_detail">Gyorstöltés. Részletek megtekintéséhez érintse meg.</string>
-    <string name="keyguard_quickly_charging_info_charging_text">Gyorstöltés…</string>
-    <string name="keyguard_charging_info_finished_charging_text">Teljesen feltöltve</string>
-    <string name="keyguard_charging_info_charging_text">Töltés</string>
     <string name="keyguard_charging_info_last_charge_today_time">Ma %s</string>
     <string name="keyguard_charging_info_last_charge_yesterday_time">Tegnap %s</string>
     <string name="keyguard_charging_info_last_charge_time">M.d. H:mm</string>

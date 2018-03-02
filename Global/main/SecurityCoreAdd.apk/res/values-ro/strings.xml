@@ -255,7 +255,7 @@ pentru a intra în Al doilea spațiu din Ecranul blocat"</string>
     <string name="scanner_fingerprint">Se scanează amprenta…</string>
     <string name="scanner_fingerprint_enter_second">"Scanați amprenta la Al doilea spațiu
 pentru a intra în Al doilea spațiu din Ecranul blocat"</string>
-    <string name="xspace_guide_title">Create a dual app</string>
+    <string name="xspace_guide_title">Creează o aplicație duală</string>
     <string name="xspace_guide_des">Utilizați 2 conturi fără a comuta</string>
     <string name="xpsace_guide_button">Creează</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
@@ -266,7 +266,7 @@ pentru a intra în Al doilea spațiu din Ecranul blocat"</string>
     <string name="xspace_weibo_title">Weibo</string>
     <string name="weibo_send">Trimite la Weibo</string>
     <string name="xspace_qq_title">QQ</string>
-    <string name="qq_send">Trimite la prieteni/dispozitive QQ</string>
+    <string name="qq_send">Trimite la prieteni QQ/computer</string>
     <string name="xspace_default_setting_label">Aplicaţie implicită</string>
     <string name="xspace_default_app_title">Aplicaţie implicită</string>
     <string name="xspace_default_app_summary">Setează ca aplicație implicită pentru plăți, partajări, favorite, și mai multe.</string>

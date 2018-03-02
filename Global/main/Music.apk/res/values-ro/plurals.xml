@@ -5,11 +5,6 @@
         <item quantity="one">Total %d melodie</item>
         <item quantity="few">Total %d melodii</item>
     </plurals>
-    <plurals name="Nartists_count">
-        <item quantity="other">%d artiști</item>
-        <item quantity="one">%d artist</item>
-        <item quantity="few">%d artiști</item>
-    </plurals>
     <plurals name="Nassociate_songs">
         <item quantity="other">Se caută coperte pentru albume și versuri (%1$d/%2$d)</item>
         <item quantity="one">Se caută coperte pentru albume și versuri (%1$d/%2$d)</item>
@@ -19,22 +14,6 @@
         <item quantity="other">Se salvează melodii, %1$d melodii rămase (%2$.1fMB)</item>
         <item quantity="one">Se salvează melodii, %1$d melodie rămasă (%2$.1fMB)</item>
         <item quantity="few">Se salvează melodii, %1$d melodii rămase (%2$.1fMB)</item>
-    </plurals>
-    <plurals name="Nexpired_remind">
-        <item quantity="other">%d zile au rămas</item>
-        <item quantity="one">%d zile au rămas</item>
-        <item quantity="few">"\"%d zile au rămas
- zile au rămas\""</item>
-    </plurals>
-    <plurals name="Ngroups_count">
-        <item quantity="other">%d formații</item>
-        <item quantity="one">%d formație</item>
-        <item quantity="few">%d formații</item>
-    </plurals>
-    <plurals name="Nnew_tracks_count">
-        <item quantity="other">%d melodii noi</item>
-        <item quantity="one">%d melodie nouă</item>
-        <item quantity="few">%d melodii noi</item>
     </plurals>
     <plurals name="Nquit_warning">
         <item quantity="other">Playerul se va opri în %d minute</item>
@@ -73,13 +52,6 @@ melodii\""</item>
         <item quantity="other">%d melodii eliminate din lista de redare</item>
         <item quantity="one">%d melodie eliminată din lista de redare</item>
         <item quantity="few">%d melodii eliminate din lista de redare</item>
-    </plurals>
-    <plurals name="Ntracks_search_result">
-        <item quantity="other">"\"%d melodie găsită
-melodii găsite\""</item>
-        <item quantity="one">%d melodie găsită</item>
-        <item quantity="few">"\"%d melodie găsită
-melodii găsite\""</item>
     </plurals>
     <plurals name="Ntracks_similar_count">
         <item quantity="other">"\"%d melodie similară
@@ -138,11 +110,6 @@ melodii similare\""</item>
         <item quantity="other">&amp;lt;culoarea fontului==\"roșu\">%d melodii&amp;lt;/font> se descarcă</item>
         <item quantity="one">&amp;lt;culoarea fontului==\"roșu\">%d melodie&amp;lt;/font> se descarcă</item>
         <item quantity="few">&amp;lt;culoarea fontului==\"roșu\">%d melodii&amp;lt;/font> se descarcă</item>
-    </plurals>
-    <plurals name="folder_songs_count">
-        <item quantity="other">%d melodii</item>
-        <item quantity="one">%d melodie</item>
-        <item quantity="few">%d melodii</item>
     </plurals>
     <plurals name="multichoice_title">
         <item quantity="other">%d elemente selectate</item>

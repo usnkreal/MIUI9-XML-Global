@@ -338,6 +338,7 @@ Timp trecut: %s"</string>
     <string name="trans_device_wait_for_reconnecting">Conexiunea a fost întreruptă. Conectați-vă din nou pentru a continua.</string>
     <string name="trans_device_auto_reconnecting">Dispozitiv deconectat. Se reconectează automat…</string>
     <string name="trans_connecting_toast">Se conectează…</string>
+    <string name="trans_switching_5g">Switching to 5GHz Wi-Fi…</string>
     <string name="trans_connect_failed_toast">Nu se poate conecta</string>
     <string name="trans_generate_qr_code_failed">Nu se poate crea codul QR</string>
     <string name="trans_scan_invalid_qrcode">Cod QR nevalid</string>
@@ -515,6 +516,7 @@ Datele care nu au fost importate trebuie să fie importate din nou."</string>
     <string name="error_permissions">Această aplicație nu are permisiunile necesare pentru a accesa Calendarul. Accesați Setări și verificați permisiunile pentru a continua.</string>
     <string name="succ_description">Cu succes</string>
     <string name="failed_description">A eșuat</string>
+    <string name="notif_miasist_try_to_connect">Mi PC Suite încearcă să se conecteze la dispozitivul dvs.</string>
     <string name="notif_connect_miasist">Conectat la Mi PC Suite</string>
     <string name="notif_disconnect_miasist">Nu este conectat la Mi PC Suite</string>
     <string name="notif_sending_transingsd">Trimitere la %1$s (%2$s)…</string>

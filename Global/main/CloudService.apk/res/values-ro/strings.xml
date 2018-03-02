@@ -63,7 +63,7 @@
     <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">". Puteți activa această caracteristică oricând în Setări.
 "</string>
-    <string name="sync_dspt_entrance_provision">"Sync your photos, contacts, call history, and messages across all your devices. Access the things you sync from any browser at %s. "</string>
+    <string name="sync_dspt_entrance_provision">"Sincronizați fotografiile, contactele, istoricul de apeluri și mesajele între toate dispozitivele. Accesați lucrurile sincronizate din orice browser la %s. "</string>
     <string name="sync_dspt_entrance_provision_2">Aflați mai multe</string>
     <string name="sync_dspt_entrance_provision_confirm_close">Nu utiliza</string>
     <string name="sync_dspt_entrance_provision_confirm_open">Utilizați Mi Cloud</string>
@@ -302,6 +302,15 @@ Utilizați un alt cont."</string>
     <string name="micloud_detail_pause">Sincronizare întreruptă</string>
     <string name="micloud_detail_need_charge_or_sleep">Conectaţi încărcătorul și opriți ecranul pentru a relua sincronizarea</string>
     <string name="micloud_detail_battery_low">Bateria este aproape descărcată</string>
+    <string name="micloud_privacy_cloud_off">Sync Off</string>
+    <string name="micloud_privacy_licence_agreed">Agree with Mi Cloud privacy policy.</string>
+    <string name="micloud_privacy_licence_privacy_policy">privacy policy</string>
+    <string name="micloud_privacy_explanation">Active Mi Cloud after enabling the authorization</string>
+    <string name="micloud_privacy_cloud_sync">Active Mi Cloud</string>
+    <string name="micloud_privacy_warning_title">Hint</string>
+    <string name="micloud_privacy_warning_content">"Can't active Mi Cloud. Try it later."</string>
+    <string name="micloud_privacy_warning_button">Back</string>
+    <string name="micloud_privacy_more">more</string>
     <string name="micloud_check_sim_title">"Se pare că ți-ai schimbat cartele SIM.
 Conectați-vă la contul dvs. Mi pentru a reactiva Mi Cloud."</string>
     <string name="micloud_check_sim_notify_title">Reactivarea Mi Cloud</string>
@@ -322,7 +331,7 @@ Conectați-vă la contul dvs. Mi pentru a reactiva Mi Cloud."</string>
     <string name="get_first_month_gb">Ia %s din spațiu liber</string>
     <string name="more_activity_in_upgrade_space">Aflați mai multe la <a href="http://i.mi.com"> http://i.mi.com</a></string>
     <string name="success_upgraded_space">%s adăugat</string>
-    <string name="total_space_upgraded_to">Spațiu total:%s</string>
+    <string name="total_space_upgraded_to">Total space: %s</string>
     <string name="apple_cloud">iCloud</string>
     <string name="google_cloud">Google Drive</string>
     <string name="microsoft_cloud">Serviciul Microsoft Cloud</string>
@@ -462,6 +471,8 @@ Ultima salvare pe %2$s"</string>
     <string name="micloud_notif_content_multi_user_error">V-ați conectat cu același cont ca și în Primul spațiu.</string>
     <string name="micloud_notif_title_dirty_data">Ai elementele nesincronizate</string>
     <string name="micloud_notif_content_dirty_data">Detalii</string>
+    <string name="micloud_notif_title_privacy_reopen_failed">"Couldn't start cloud service"</string>
+    <string name="micloud_notif_content_privacy_reopen_failed">View details</string>
     <string name="micloud_find_device_guide_title">Conectați-vă la &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font> pentru a localiza, a bloca sau a șterge dispozitivul. Acest lucru vă poate ajuta să găsiți dispozitivul în cazul în care acesta este pierdut.&lt;br />Dacă vă pierdeți dispozitivul, puteți contacta serviciul de securitate al aplicațiilor pe care le utilizați frecvent (de exemplu, Alipay, WeChat, QQ) pentru a vă proteja conturile pe &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font>.</string>
     <string name="micloud_find_device_guide_content">Un mesaj SMS poate fi necesar pentru a activa acest serviciu. Operatorul dumneavoastră vă va factura pentru acest mesaj. Când comutaţi cartela SIM, un mesaj va fi trimis automat pentru a reactiva această caracteristică.</string>
     <string name="micloud_find_device_guide_button">Porniți Găsește dispozitiv</string>
@@ -500,6 +511,8 @@ Ultima salvare pe %2$s"</string>
     <string name="micloud_find_device_close_alert_content">Dacă dezactivați această funcție, nu veți putea localiza dispozitivul în cazul în care acesta este pierdut.</string>
     <string name="micloud_find_device_close_alert_positive">Continuă</string>
     <string name="micloud_find_device_close_alert_negtive">Opreşte oricum</string>
+    <string name="find_device_gdpr_prompt">By turning on Find device, you agree to \"Privacy Policy\". If you need to revoke your privacy authorization, please turn off this feature.</string>
+    <string name="find_device_gdpr_prompt_policy_doc_name">\"Privacy Policy\"</string>
     <string name="activate_finddevice">Conectați-vă la rețea pentru a activa dispozitivul</string>
     <string name="account_related">Dispozitivul este asociat cu un cont Mi existent (%s). Conectați-vă la rețea pentru a verifica dispozitivul.</string>
     <string name="connect_network">Conectați-vă la Wi-Fi sau introduceți un card SIM</string>
@@ -512,7 +525,7 @@ Ultima salvare pe %2$s"</string>
     <string name="micloud_wipe_data_confirm_label">Eliminați date din Mi Cloud</string>
     <string name="micloud_wipe_data_retain">Păstrează</string>
     <string name="micloud_wipe_data_remove">Elimină</string>
-    <string name="wipe_data_dialog_title">"Items aren't synced"</string>
+    <string name="wipe_data_dialog_title">Elementele nu sunt sincronizate</string>
     <string name="wipe_data_dialog_button_check_sync">Verifică dacă este sincronizat</string>
     <string name="wipe_data_dialog_msg_and_on">, și adaugă alte elemente</string>
     <string name="wipe_secret_photo_dialog_title">Fotografiile ascunse nu sunt sincronizate</string>
@@ -551,6 +564,7 @@ Ultima salvare pe %2$s"</string>
     <string name="micloud_main_head_menu_state_open">Pornit</string>
     <string name="micloud_main_head_menu_state_close">Oprit</string>
     <string name="micloud_main_head_menu_state_unavailable">Indisponibil</string>
+    <string name="micloud_main_head_menu_finddevice_unavailable">Găsește dispozitiv nu este disponibil în Al doilea spațiu, este disponibil doar în Primul spațiu.</string>
     <string name="micloud_footer_normal_url">i.mi.com</string>
     <string name="micloud_footer_international_url">mi.com/micloud</string>
     <string name="ks_fingerprint_payment">Plata cu amprentă digitală</string>
@@ -574,12 +588,14 @@ Ultima salvare pe %2$s"</string>
     <string name="title_back">Înapoi</string>
     <string name="reading_status">Se încarcă starea…</string>
     <string name="reading_status_failure">Nu se poate încărca starea.</string>
-    <string name="micloud_title_dspt" formatted="false">Used %s/Total space %s,</string>
-    <string name="micloud_main_memory_low_title">"Phone's internal storage is almost full"</string>
-    <string name="micloud_notif_title_memory_low">"Can't sync with Mi Cloud"</string>
-    <string name="find_device_service_title">Find device</string>
-    <string name="find_device_service_summary">Visit i.mi.com to locate your device and lock it remotely</string>
-    <string name="find_device_service_summary_international">Visit i.mi.com to locate your device and lock it remotely</string>
-    <string name="micloud_wipe_data_confirm_title">Remove items synced with Mi Cloud from the phone after you sign out?</string>
-    <string name="wipe_data_dialog_msg">"Some items %s aren't synced. They will be saved on your device and won't be deleted."</string>
+    <string name="micloud_alert_dialog_negative">Anulează</string>
+    <string name="micloud_alert_dialog_positive">OK</string>
+    <string name="micloud_title_dspt" formatted="false">Folosit %s/Spațiu total %s,</string>
+    <string name="micloud_main_memory_low_title">Stocarea internă a telefonului este aproape plină</string>
+    <string name="micloud_notif_title_memory_low">Nu se poate sincroniza cu Mi Cloud</string>
+    <string name="find_device_service_title">Găsește dispozitiv</string>
+    <string name="find_device_service_summary">Vizitează i.mi.com pentru a localiza dispozitivul dvs. și pentru a-l bloca de la distanță</string>
+    <string name="find_device_service_summary_international">Vizitează i.mi.com pentru a localiza dispozitivul dvs. și pentru a-l bloca de la distanță</string>
+    <string name="micloud_wipe_data_confirm_title">Eliminați elemente sincronizate cu Mi Cloud din telefon după ce vă deconectați?</string>
+    <string name="wipe_data_dialog_msg">Unele elemente %s nu sunt sincronizate. Acestea vor fi salvate pe dispozitivul dvs. și nu vor fi șterse.</string>
 </resources>

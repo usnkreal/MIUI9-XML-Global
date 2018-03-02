@@ -82,7 +82,7 @@ A számok a kivételek közé kerülnek, de a korábban letiltott számok nem l�
     <string name="menu_add">Hozzáadás</string>
     <string name="menu_edit">Szerkesztés</string>
     <string name="menu_remove">Törlés</string>
-    <string name="menu_white">Kivétel</string>
+    <string name="menu_white">Hozzáadás a kivételekhez</string>
     <string name="st_settings_name">Tiltólista beállítások</string>
     <string name="st_filter_keywords_setting_summary1">A magántelefonszámokról érkező, az alábbi kulcsszavakat tartalmazó üzenetek a tiltólistára kerülnek.</string>
     <string name="st_filter_keywords_setting_summary3">Az alábbi kulcsszavakat tartalmazó, ismeretlen telefonszámról érkező üzenetek engedélyezettek lesznek.</string>
@@ -618,7 +618,7 @@ A hátralévő adat tartalmazza az előző hónapból áthozott adat mennyisége
     <string name="tc_sms_report_type">Jelentés típusa</string>
     <string name="privacy_declare_dialog_title">Felhasználási feltételek</string>
     <string name="sc_allow_network_dialog_tiltle">Nem használható az adattömörítés</string>
-    <string name="sc_allow_network_dialog_message">Az alkalmazás normális működéséhez internetkapcsolat engedélyezése szükséges.</string>
+    <string name="sc_allow_network_dialog_message">Ön korlátozta a Biztonság alkalmazás hálózati kapcsolatát és a helymeghatározás hozzáférését. A szolgáltatás használatához adja meg ezeket a jogokat a Biztonság alkalmazásnak.</string>
     <string name="privacy_prompt_upload">Feltöltés</string>
     <string name="privacy_prompt_traffic_adjust_message">"Miután elindította a hitelesítést, a MIUI rendszer csatlakozik a hálózathoz, kódolja a szolgáltatóinformációt, telefonszámot, IMEI számot és Mi Fiókot, és feltölti ezeket a MIUI szerverére. Mindez annak érdekében történik, hogy megszerezze a szolgáltatói sablont és megtudja, ha lehetséges, a vásárlás adatait.
 
@@ -770,8 +770,8 @@ Próbálja ki másik Ethernet kábellel csatlakoztatni a routert. Ha úgy gondol
     <string name="networkchanged_exception_title">Kapcsolat megváltozott</string>
     <string name="networkchanged_exception_summary">A hálózati kapcsolat megváltozott. Tesztelje újra.</string>
     <string name="network_test_speed">Wi-Fi sebességteszt</string>
-    <string name="network_changed_noti_title">Disconnected from Wi-Fi</string>
-    <string name="network_changed_noti_summary">Using mobile data</string>
+    <string name="network_changed_noti_title">Lecsatlakoztatva a Wi-Fi-ről</string>
+    <string name="network_changed_noti_summary">Mobiladat-kapcsolat használata</string>
     <string name="network_speed_for_apps_title">Kapcsolat</string>
     <string name="network_speed_for_apps_total">Hálózati sebesség</string>
     <string name="network_speed_for_apps_close_app_dlg_msg">Leállítja ezt az alkalmazást?</string>
@@ -1677,7 +1677,7 @@ a készülékét"</string>
     <string name="preferred_app_entries_music">Zene</string>
     <string name="preferred_app_entries_email">E-mail</string>
     <string name="card_main_applock_title">Alkalmazások zárolása</string>
-    <string name="card_main_applock_summary">Védje jelszóval üzeneteit, fényképeit és egyéb fontos dolgait.</string>
+    <string name="card_main_applock_summary">Védje meg kiválasztott alkalmazásait egy jelszóval.</string>
     <string name="card_main_applock_action">Engedélyezés</string>
     <string name="card_main_deepclean_title">Mély tisztítás</string>
     <string name="card_main_deepclean_summary">Szükségtelen fájlok törlése</string>
@@ -1716,14 +1716,18 @@ a készülékét"</string>
     <string name="more_lock">Továbbiak</string>
     <string name="app_name">Alkalmazások zárolása</string>
     <string name="back_app_name">Vissza az Alkalmazások zárolásához</string>
-    <string name="notification_item">Alkalmazások jelszavas védelme</string>
+    <string name="ac_notification_contentTitle">Védje zárolással az alkalmazásait</string>
+    <string name="ac_pre_notification_contentTitle">Próbálja ki az Alkalmazások zárolását</string>
+    <string name="ac_post_notification_contentTitle">Kapcsolja be az Alkalmazások zárolását</string>
     <string name="notification_masked_item">Értesítések elrejtése</string>
     <string name="lock_mode_title">Zárolási beállítások</string>
     <string name="after_the_lock_screen">Alkalmazások lezárása a képernyővel együtt</string>
     <string name="set_applock_password">Jelszó beállítása</string>
     <string name="ac_firstUseApplock_title">Állítson be jelszót az alkalmazásai védelmére</string>
     <string name="ac_firstUseApplock_subTitle">Jobb rendszerszintű biztonsági eszközök használata</string>
-    <string name="notification_subtitle">Érintse meg bekapcsoláshoz</string>
+    <string name="ac_notification_contentText">Érintse meg a bekapcsoláshoz</string>
+    <string name="ac_pre_notification_contentText">Védje meg személyes adatait</string>
+    <string name="ac_post_notification_contentText">Szerezzen rendszerszintű védelmet</string>
     <string name="notification_masked_subtitle">Alkalmazászárolással védett alkalmazások értesítéseinek elrejtése</string>
     <string name="ac_enter_applock">Belépés az Alkalmazások zárolásába</string>
     <string name="ac_mask_all_apps">Elrejtés az összes alkalmazás számára</string>
@@ -1882,9 +1886,9 @@ a készülékét"</string>
     <string name="optimize_result_title_sucurity_risk">Biztonsági kockázatot találtam</string>
     <string name="optimize_result_summary_sucurity_risk">Néhány biztonsági funkció ki van kapcsolva. Engedélyezze ezeket a készülék biztonsága érdekében:</string>
     <string name="optimize_result_ads_close_text">Reklám</string>
-    <string name="information_setting">Ajánlások</string>
+    <string name="information_setting">Hirdetések</string>
     <string name="load_only_under_wlan">Betöltés csak Wi-Fi használatával</string>
-    <string name="recommend_news">Ajánlások fogadása</string>
+    <string name="recommend_news">Hirdetések fogadása</string>
     <string name="setting_privacy_password">Feloldóminta hozzáadása</string>
     <string name="bind_xiaomi_account_title">Mi Fiók hozzáadása</string>
     <string name="bind_xiaomi_account_summary">Használjon Mi Fiókot a jelszó visszaállításához</string>
@@ -1965,7 +1969,7 @@ a készülékét"</string>
     <string name="app_manager_factory_reset_dlg_msg">Az Android rendszeralkalmazás összes frissítése törölve lesz.</string>
     <string name="app_manager_system_mobile_disable">Adatforgalom kikapcsolása</string>
     <string name="app_managere_not_have_app">Üres</string>
-    <string name="app_manager_pref_ads">Ajánlások</string>
+    <string name="app_manager_pref_ads">Hirdetések</string>
     <string name="install">Telepítés</string>
     <string name="app_manager_app_info_label">Alkalmazásadatok</string>
     <string name="app_manager_app_info_name">Alkalmazás neve</string>

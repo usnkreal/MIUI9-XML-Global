@@ -24,6 +24,10 @@
         <item quantity="other">%1$d/%2$d</item>
         <item quantity="one">1 találat</item>
     </plurals>
+    <plurals name="nav_screen_incognito_time">
+        <item quantity="other">%d másodperc múlva automatikusan új oldal jön létre</item>
+        <item quantity="one">%d másodperc múlva automatikusan új oldal jön létre</item>
+    </plurals>
     <plurals name="pref_adblock_counts">
         <item quantity="other">%d blokkolva</item>
         <item quantity="one">%d blokkolva</item>

@@ -135,7 +135,7 @@ Ak znovu odošlete údaje, každá akcia, ktorú formulár na stránke prináša
     <string name="browserFrameNetworkErrorLabel">Problém spojenia</string>
     <string name="cancel">Zrušiť</string>
     <string name="cannot_download">Sťahovať možno iba \"http\" alebo \"https\" URL.</string>
-    <string name="card_setting_close_recommend">Odporúčané pre vás</string>
+    <string name="card_setting_close_recommend">Dostávať upozornenia</string>
     <string name="choosertitle_sharevia">Zdieľať cez</string>
     <string name="clear_history">Vymazať históriu</string>
     <string name="clear_most_visited">História</string>
@@ -337,7 +337,7 @@ Stránky, ktoré prezeráte sa nezobrazia v histórii."</string>
     <string name="hint">Poznámka</string>
     <string name="history">História</string>
     <string name="home_description">Domov</string>
-    <string name="home_page_news_feed">Trendy</string>
+    <string name="home_page_news_feed">Informačný kanál</string>
     <string name="home_page_top_sites">Top stránky</string>
     <string name="homepage_delete_card_menu">Vymazať</string>
     <string name="homepage_get_location">Získať polohu</string>
@@ -517,6 +517,10 @@ Chcete opustiť túto web stránku?"</string>
     <string name="nav_bottom_bar_new_tab">Nová karta</string>
     <string name="nav_screen_container_tab_incognito">Inkognito karta</string>
     <string name="nav_screen_container_tab_normal">Bežná karta</string>
+    <string name="nav_screen_incognito_message">"História prehliadania stránok a vyhľadávania sa nebude ukladať v režime Inkognito.
+Pamätajte nato, že súbory, ktoré stiahnete a záložky, ktoré pridáte ostanú uložené."</string>
+    <string name="nav_screen_incognito_title">Režim Inkognito</string>
+    <string name="navigation_delete_all">pre zatvorenie všetkých kariet potiahnite doľava a doprava</string>
     <string name="navigationbar_rightbutton_actiontext_cancle">Zrušiť</string>
     <string name="navigationbar_rightbutton_actiontext_go">Povoliť</string>
     <string name="navigationbar_rightbutton_actiontext_search">Hľadať</string>
@@ -566,7 +570,7 @@ Chcete opustiť túto web stránku?"</string>
     <string name="pref_adblock_title">Blokovanie reklám</string>
     <string name="pref_auto_update_under_wifi">Auto. aktualizovať cez Wi-Fi</string>
     <string name="pref_automatic_matching_searchengines_title">Automatické priraďovanie vyhľadávačov</string>
-    <string name="pref_card_setting">Nastavenia Karty</string>
+    <string name="pref_card_setting">Poradie TOP stránok</string>
     <string name="pref_category_hint">Kategória</string>
     <string name="pref_check_security_url_summary">Odoslať URL web stránky na Xiaomi server pre overenie bezpečnosti</string>
     <string name="pref_check_security_url_summary_international">For providing a better referral service, allow the browser to get your access URL</string>
@@ -593,7 +597,7 @@ Chcete opustiť túto web stránku?"</string>
     <string name="pref_enable_videos">Videos Alerts</string>
     <string name="pref_extras_reset_default">Resetovať na predvolené</string>
     <string name="pref_extras_reset_default_dlg">Vrátiť nastavenia na predvolené hodnoty?</string>
-    <string name="pref_extras_reset_default_summary">Obnoviť predvolené nastavenia</string>
+    <string name="pref_extras_reset_default_summary">Obnoviť predvolené poradie</string>
     <string name="pref_extras_reset_default_title">Resetovať predvolené</string>
     <string name="pref_extras_send_feedback">Poslať spätnú väzbu</string>
     <string name="pref_extras_title">Viac</string>
@@ -779,7 +783,7 @@ Chcete opustiť túto web stránku?"</string>
     <string name="show_security_tip_dialog_title">Podmienky používania</string>
     <string name="show_weather_location_getter_tip_dialog_description">Prehliadač potrebuje na správne fungovanie pripojenie na internet. Ak chcete zvýšiť bezpečnosť, získavať viac relevantných odporúčaní a informácie o počasí, povoľte prehliadaču získavať webové adresy stránok, ktoré navštevujete, a pristupovať k informáciám o polohe.</string>
     <string name="sign_in_to" formatted="false">Prihlásenie do %s1 %s2\"</string>
-    <string name="site_sort_des">Potiahnutím zmeníte poradie</string>
+    <string name="site_sort_des">Zmeniť poradie položiek</string>
     <string name="skip_button_label">Přeskočiť</string>
     <string name="skip_current_version">Preskočiť túto verziu</string>
     <string name="snapshot">Lokálne</string>

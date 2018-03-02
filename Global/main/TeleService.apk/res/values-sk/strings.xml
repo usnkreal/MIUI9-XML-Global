@@ -1120,6 +1120,7 @@ Počet zostávajúcich pokusov: %d."</string>
     <string name="cmcc_ut_data_enable_prompt">Nedá sa uskutočniť spojenie s VoLTE sieťou. Povoľte mobilné dátové spojenie teraz.</string>
     <string name="volte_switch_title">Povoliť VoLTE</string>
     <string name="volte_switch_summary">Použiť VoLTE pre zlepšenie kvality hlasu</string>
+    <string name="volte_switch_summary2">Confirm that your carrier supports this feature before turning on. Otherwise, regular calls might be affected.</string>
     <string name="volte_switch_not_support_summary">Hovory VoLTE nie sú podporované pre SIM kartu s mobilnými dátami.</string>
     <string name="volte_switch_not_support_summary2">Volania VoLTE nie sú podporované operátorom.</string>
     <string name="enable_dual_4g_prompt_when_turn_on_volte">VoLTE vyžaduje 4G pripojenie pre obidva SIM sloty. Prepnúť na Dual 4G teraz?</string>
@@ -1127,6 +1128,9 @@ Počet zostávajúcich pokusov: %d."</string>
     <string name="dual_4g_switch_summary">Povoliť 4G pripojenie pre obidva SIM sloty.</string>
     <string name="turn_on_dual_4g_failed">Nepodarilo sa zapnúť Dual 4G.</string>
     <string name="turn_off_dual_4g_failed">Nepodarilo sa vypnúť Dual 4G.</string>
+    <string name="vice_slot_volte_data_switch_title">Používať mobilné dáta počas VoLTE volaní na druhej SIM karte</string>
+    <string name="vice_slot_volte_data_switch_summary">Počas VoLTE volaní sa zariadení pripojí k mobilnej dátovej sieti pomocou druhej SIM karty</string>
+    <string name="vice_slot_volte_data_switch_prompt">Vaše zariadenie sa počas prebiehajúcich VoLTe hovorov pripojí k mobilnej dátovej sieti pomocou druhej SIM karty. Môže to znamenať dodatočné poplatky za vyššiu spotrebu dát. Kontaktujte svojho operátora pre informácie o vašom dátovom balíčku.</string>
     <string name="roaming_notification_title">Roaming je aktívny</string>
     <string name="roaming_notification_content">Môžete pridať automaticky kód krajiny.</string>
     <string name="cdma_alert_title">Karta UIM musí byť ako predvolená</string>
@@ -1181,6 +1185,18 @@ Počet zostávajúcich pokusov: %d."</string>
     <string name="miui_notification_network_selection_title_by_sim">SIM %s: žiadna služba</string>
     <string name="miui_network_selection_reset_text">Reset</string>
     <string name="quick_dial_setting_title">Rýchla voľba</string>
+    <string name="cfnry_time_five_sec">5 sec</string>
+    <string name="cfnry_time_ten_sec">10 sec</string>
+    <string name="cfnry_time_fifteen_sec">15 sec</string>
+    <string name="cfnry_time_twenty_sec">20 sec</string>
+    <string name="cfnry_time_twenty_five_sec">25 sec</string>
+    <string name="cfnry_time_thirty_sec">30 sec</string>
+    <string name="cfnry_time_setting_title">Set wait time</string>
+    <string name="prompt_when_turnon_volte_without_lte">"LTE networks aren't available now. Turning on VoLTE may prevent you from making regular calls."</string>
+    <string name="prompt_to_turnoff_volte_when_failed">"VoLTE services aren't available. Turn off VoLTE to make a call."</string>
+    <string name="volte_tips_when_turn_on">China Telecom VoLTE services are only provided in the areas with LTE network coverage.</string>
+    <string name="close">Zatvoriť</string>
+    <string name="prompt_to_turnoff_volte_when_supp_service">"Service isn't available. Turn off VoLTE in the Settings."</string>
     <string name="network_forbidden">%s (zakázaná)</string>
     <string name="voice_number_setting_primary_user_only">Hlasovú schránku môže zmeniť iba primárny používateľ.</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_ENTRY">PIN odomknutia siete SIM</string>
@@ -1323,7 +1339,6 @@ Máte ešte %d pokusov."</string>
     <string name="china_mobile">China Mobile</string>
     <string name="china_telecom">China Telecom</string>
     <string name="china_unicom">China Unicom</string>
-    <string name="close">Zatvoriť</string>
     <string name="default_sim_setting">Predvolená SIM ako:</string>
     <string name="disconnect_data_confirm">Mobilné dáta budú dočasne odpojené. Pokračovať?</string>
     <string name="fdn_service_unavailable">FDN služba nie je dostupná.</string>

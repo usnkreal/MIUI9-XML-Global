@@ -61,7 +61,7 @@
         <item>Frekvence používání</item>
         <item>Využití úložiště</item>
         <item>Čas instalace</item>
-        <item>Apps that can be uninstalled</item>
+        <item>Aplikace, které mohou být odinstalovány</item>
     </string-array>
     <string-array name="sort_title">
         <item>Řadit podle stavu</item>

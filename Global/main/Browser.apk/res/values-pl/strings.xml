@@ -134,7 +134,7 @@
     <string name="browserFrameNetworkErrorLabel">Błąd połączenia</string>
     <string name="cancel">Anuluj</string>
     <string name="cannot_download">Pobieranie jest możliwe tylko z adresów \"http\" lub \"https\"</string>
-    <string name="card_setting_close_recommend">Polecane dla Ciebie</string>
+    <string name="card_setting_close_recommend">Odbieraj propozycje</string>
     <string name="choosertitle_sharevia">Udostępnij przez</string>
     <string name="clear_history">Wyczyść historię</string>
     <string name="clear_most_visited">Historia</string>
@@ -336,7 +336,7 @@ Strony, które przeglądasz, nie pojawią się w historii."</string>
     <string name="hint">Wskazówka</string>
     <string name="history">Historia</string>
     <string name="home_description">Strona startowa</string>
-    <string name="home_page_news_feed">News Feed</string>
+    <string name="home_page_news_feed">News feed</string>
     <string name="home_page_top_sites">Najpopularniejsze strony</string>
     <string name="homepage_delete_card_menu">Usuń</string>
     <string name="homepage_get_location">Pokaż lokalizację</string>
@@ -516,6 +516,10 @@ Opuścić stronę?"</string>
     <string name="nav_bottom_bar_new_tab">Nowa karta</string>
     <string name="nav_screen_container_tab_incognito">Karta w trybie incognito</string>
     <string name="nav_screen_container_tab_normal">Nowa karta</string>
+    <string name="nav_screen_incognito_message">"Twoja historia przeglądania i wyszukiwania nie zostanie zapisana w trybie incognito.
+Pamiętaj, że pobrane pliki i dodane zakładki będą zapisane."</string>
+    <string name="nav_screen_incognito_title">Tryb incognito</string>
+    <string name="navigation_delete_all">Przesuń w lewo i prawo, aby zamknąć wszystkie karty</string>
     <string name="navigationbar_rightbutton_actiontext_cancle">Anuluj</string>
     <string name="navigationbar_rightbutton_actiontext_go">Dalej</string>
     <string name="navigationbar_rightbutton_actiontext_search">Szukaj</string>
@@ -565,7 +569,7 @@ Opuścić stronę?"</string>
     <string name="pref_adblock_title">Blokowanie reklam</string>
     <string name="pref_auto_update_under_wifi">Aktualizuj za pomocą Wi-Fi</string>
     <string name="pref_automatic_matching_searchengines_title">Przełącz na popularną wyszukiwarkę</string>
-    <string name="pref_card_setting">Ustawienia kart</string>
+    <string name="pref_card_setting">Kolejność popularnych strony</string>
     <string name="pref_category_hint">Kategoria</string>
     <string name="pref_check_security_url_summary">Wyślij adres do serwerów Mi, aby sprawdzić jego bezpieczeństwo</string>
     <string name="pref_check_security_url_summary_international">Zezwól przeglądarce na dostęp do URLi serwisów, które odwiedzasz, aby otrzymywać bardziej istotne propozycje.</string>
@@ -592,7 +596,7 @@ Opuścić stronę?"</string>
     <string name="pref_enable_videos">Wideo</string>
     <string name="pref_extras_reset_default">Przywróć domyślne</string>
     <string name="pref_extras_reset_default_dlg">Przywrócić ustawienia domyślne?</string>
-    <string name="pref_extras_reset_default_summary">Przywróć ustawienia domyślne</string>
+    <string name="pref_extras_reset_default_summary">Przywróć domyślną kolejność</string>
     <string name="pref_extras_reset_default_title">Inne</string>
     <string name="pref_extras_send_feedback">Wyślij opinię</string>
     <string name="pref_extras_title">Zaawansowane</string>
@@ -778,7 +782,7 @@ Opuścić stronę?"</string>
     <string name="show_security_tip_dialog_title">Warunki użytkowania</string>
     <string name="show_weather_location_getter_tip_dialog_description">Przeglądarka musi połączyć się z internetem, aby pracować poprawnie. Aby poprawić bezpieczeństwo, otrzymywać bardziej istotne propozycje oraz dane pogodowe, zezwól Przeglądarce na dostęp do URL serwisów, które odwiedzasz, a także na dostęp do lokalizacji.</string>
     <string name="sign_in_to" formatted="false">Zaloguj do %s1 %s2\"</string>
-    <string name="site_sort_des">Przeciągnij elementy, aby ustalić kolejność</string>
+    <string name="site_sort_des">Zmień kolejność elementów</string>
     <string name="skip_button_label">Pomiń</string>
     <string name="skip_current_version">Pomiń wersję</string>
     <string name="snapshot">Lokalne</string>

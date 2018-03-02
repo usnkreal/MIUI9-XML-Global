@@ -39,6 +39,7 @@
     <string name="unlock_error_rpc">RPC 오류</string>
     <string name="unlock_error_abort">사용자에 의해 취소됨</string>
     <string name="unlock_error_passport_sdk_timeout">Mi 계정 SDK가 응답하지 않습니다.</string>
+    <string name="open_wifi_settings">Wi-Fi 설정 열기</string>
     <string name="activate_xiaomi_account">이 기기 활성화</string>
     <string name="login_extra_steps">로그인 인증</string>
     <string name="phone_locked">이 기기에 기존 Mi 계정 Id (%s) 이 존재 합니다. 로그인하여 기기를 활성화 하십시오.</string>

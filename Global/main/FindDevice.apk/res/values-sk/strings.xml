@@ -38,6 +38,7 @@
     <string name="unlock_error_rpc">Chyba RPC</string>
     <string name="unlock_error_abort">Zastavené uživateľom</string>
     <string name="unlock_error_passport_sdk_timeout">Mi účet SDK neodpovedá</string>
+    <string name="open_wifi_settings">Open Wi-Fi settings</string>
     <string name="activate_xiaomi_account">Aktivovať toto zariadenia</string>
     <string name="login_extra_steps">Prihláste sa na overenie</string>
     <string name="phone_locked">Toto zariadenie je zrejme prepojené s iným Xiaomi účtom (%s). Prihláste sa pre aktivovanie tohto zariadenia.</string>

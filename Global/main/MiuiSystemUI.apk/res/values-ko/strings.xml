@@ -272,7 +272,7 @@ EEEE"</string>
     <string name="ext_media_nomedia_notification_title">USB 저장소 제거됨</string>
     <string name="ext_media_nomedia_notification_message">USB 저장소 제거됨. 새 미디어를 삽입하십시오.</string>
     <string name="ext_media_mountable_notification_title">USB 저장 장치 연결됨</string>
-    <string name="ext_media_mountable_notification_message">터치하여 탐색기 열기</string>
+    <string name="ext_media_mountable_notification_message">탭하여 Mi 파일탐색기 열기</string>
     <string name="ext_media_safe_remove">안전하게 제거</string>
     <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">K/s</string>
@@ -782,7 +782,7 @@ EEEE"</string>
     <string name="recent_dock_tip">탭하여 앱 선택</string>
     <string name="dock_keyguard_locked_failed_to_dock_text">잠금 화면에서는 화면 분할이 지원되지 않습니다.</string>
     <string name="click_expand">탭하여 확장</string>
-    <string name="please_slide_agian">다시 슬라이드하십시오</string>
+    <string name="please_slide_agian">다시 슬라이드</string>
     <string name="how_to_use_fsg">제스쳐를 사용하여 수행 가능 작업:</string>
     <string name="how_to_back_home">홈 화면으로 이동</string>
     <string name="how_to_switch_recents">최근 항목 전환</string>
@@ -790,6 +790,8 @@ EEEE"</string>
     <string name="fsg_demo_go_on">계속</string>
     <string name="fs_gesture_back_home_summary">하단에서 위로 빠르게 스와이프</string>
     <string name="fs_gesture_switch_recents_summary">하단에서 위로 스와이프하고 일시정지</string>
+    <string name="how_to_use_drawer">앱 슬라이드 기능 사용 방법</string>
+    <string name="how_to_use_drawer_summary">상단 왼쪽에서 스와이프</string>
     <string name="fs_gesture_back_ready_title">돌아가기</string>
     <string name="fs_gesture_left_back_ready_summary">가장자리에서 오른쪽으로 스와이프</string>
     <string name="fs_gesture_right_back_ready_summary">가장자리에서 왼쪽으로 스와이프</string>

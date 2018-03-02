@@ -4,10 +4,12 @@
         <item quantity="other">%d hovorov bolo nahraných.</item>
         <item quantity="one">%d hovor bol nahraný.</item>
         <item quantity="few">%d hovory boli nahrané.</item>
+        <item quantity="many">%d calls recorded.</item>
     </plurals>
     <plurals name="livetalk_left_minute">
         <item quantity="other">Zostáva %d minút</item>
         <item quantity="one">Zostáva %d minúta</item>
         <item quantity="few">Zostávajú %d minúty</item>
+        <item quantity="many">%d minutes left</item>
     </plurals>
 </resources>

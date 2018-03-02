@@ -115,4 +115,6 @@ Zadejte telefonní číslo nové SIM karty pro opětovnou aktivaci %s"</string>
     <string name="phone_get_text">Povolit %1$s získání vašeho telefonního čísla (%2$s) pro kontrolu shody?</string>
     <string name="phone_get_processing">Získávání…</string>
     <string name="agree">Povolit</string>
+    <string name="privacy_revoke_tips">If you revoke, the sms sync will not be able to use</string>
+    <string name="privacy_revoke_failed_msg">privacy revoke，can not get phone number，activate failed</string>
 </resources>

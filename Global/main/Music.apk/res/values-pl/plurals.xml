@@ -5,11 +5,6 @@
         <item quantity="one">W sumie: %d utwór</item>
         <item quantity="few">W sumie: %d utwory</item>
     </plurals>
-    <plurals name="Nartists_count">
-        <item quantity="other">%d wykonawców</item>
-        <item quantity="one">%d wykonawca</item>
-        <item quantity="few">%d wykonawców</item>
-    </plurals>
     <plurals name="Nassociate_songs">
         <item quantity="other">Wyszukiwanie okładek albumów i tekstów utworów (%1$d/%2$d)</item>
         <item quantity="one">Wyszukiwanie okładki albumu i tekstu utworu (%1$d/%2$d)</item>
@@ -19,21 +14,6 @@
         <item quantity="other">Kopiowanie utworów, %1$d utworów pozostało (%2$.1fMB)</item>
         <item quantity="one">Kopiowanie utworów, %1$d utwór pozostał (%2$.1fMB)</item>
         <item quantity="few">Kopiowanie utworów, %1$d utwory pozostały (%2$.1fMB)</item>
-    </plurals>
-    <plurals name="Nexpired_remind">
-        <item quantity="other">Pozostało %d dni</item>
-        <item quantity="one">Pozostał %d dzień</item>
-        <item quantity="few">Pozostały %d dni</item>
-    </plurals>
-    <plurals name="Ngroups_count">
-        <item quantity="other">%d zespołów</item>
-        <item quantity="one">%d zespół</item>
-        <item quantity="few">%d zespoły</item>
-    </plurals>
-    <plurals name="Nnew_tracks_count">
-        <item quantity="other">%d nowych utworów</item>
-        <item quantity="one">%d nowy utwór</item>
-        <item quantity="few">%d nowe utwory</item>
     </plurals>
     <plurals name="Nquit_warning">
         <item quantity="other">Odtwarzanie zatrzyma się za %d minut</item>
@@ -69,11 +49,6 @@
         <item quantity="other">%d utworów usunięto z listy odtwarzania</item>
         <item quantity="one">%d utwór usunięty z listy odtwarzania</item>
         <item quantity="few">%d utwory usunięte z listy odtwarzania</item>
-    </plurals>
-    <plurals name="Ntracks_search_result">
-        <item quantity="other">Znaleziono %d utworów</item>
-        <item quantity="one">Znaleziono %d utwór</item>
-        <item quantity="few">Znaleziono %d utwory</item>
     </plurals>
     <plurals name="Ntracks_similar_count">
         <item quantity="other">%d podobnych utworów</item>
@@ -129,11 +104,6 @@
         <item quantity="other">&amp;lt;font color==\"red\">%d utworów&amp;lt;/font> pobieranych</item>
         <item quantity="one">&amp;lt;font color==\"red\">%d utwór&amp;lt;/font> pobierany</item>
         <item quantity="few">&amp;lt;font color==\"red\">%d utwory&amp;lt;/font> pobierane</item>
-    </plurals>
-    <plurals name="folder_songs_count">
-        <item quantity="other">%d utworów</item>
-        <item quantity="one">%d utwór</item>
-        <item quantity="few">%d utwory</item>
     </plurals>
     <plurals name="multichoice_title">
         <item quantity="other">Wybrano %d elementów</item>

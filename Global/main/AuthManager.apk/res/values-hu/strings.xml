@@ -13,10 +13,6 @@
     <string name="HIPS_Perm_Location_Desc">Telefon helyzetének meghatározása hálózat vagy GPS által</string>
     <string name="HIPS_Perm_PhoneID">Készülékazonosító lekérése</string>
     <string name="HIPS_Perm_PhoneID_Desc">Telefonszám elérése pl. IMEI, IMSI</string>
-    <string name="HIPS_Perm_SMS">SMS</string>
-    <string name="HIPS_Perm_SMS_Desc">Hozzáférés a bejövő SMS-ekhez</string>
-    <string name="HIPS_Perm_MMS">MMS üzenetek</string>
-    <string name="HIPS_Perm_MMS_Desc">Hozzáférés a bejövő MMS-ekhez</string>
     <string name="HIPS_Perm_Contact">Telefonkönyv</string>
     <string name="HIPS_Perm_Contact_Desc">Hozzáférés a telefonkönyvhöz</string>
     <string name="HIPS_Perm_CallLog">Hívásnapló</string>

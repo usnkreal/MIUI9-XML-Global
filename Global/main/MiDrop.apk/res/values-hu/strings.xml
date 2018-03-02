@@ -33,6 +33,7 @@
     <string name="cancel_lang">Mégse</string>
     <string name="cancel_message">Ha megszakítja az átvitelt a másik személy nem kapja meg a fájlokat. Megszakítja az átvitelt?</string>
     <string name="cancel_stop">Küldés folytatása</string>
+    <string name="cannot_transfer_dir_to_low_version">Kérje meg a másik személyt, hogy frissítse a Mi Drop alkalmazást</string>
     <string name="category_files">Fájlok</string>
     <string name="category_installed_app">Alkalmazások</string>
     <string name="category_music">Zene</string>
@@ -96,7 +97,7 @@
     <string name="info_product">Eszköz:</string>
     <string name="info_system">Rendszer:</string>
     <string name="info_system_version">Rendszer verziója:</string>
-    <string name="instruction">Írja be ezt a címet a számítógép böngészőjébe vagy fájlkezelőjébe.</string>
+    <string name="instruction">Írja be ezt a címet a számítógép fájlkezelőjébe.</string>
     <string name="instruction_pre_pad">Az FTP futtatásával kezelheti a fájlokat a számítógép használatával</string>
     <string name="instruction_pre_phone">Az FTP futtatásával kezelheti a fájlokat a számítógép használatával</string>
     <string name="internal_storage">Belső tároló</string>
@@ -114,6 +115,7 @@
 Az Android 6.0 vagy újabb verzióban be kell kapcsolnia a helymeghatározási szolgáltatásokat a fájlok küldéséhez és fogadásához."</string>
     <string name="location_skip">Kihagyás</string>
     <string name="max_send_file">99+</string>
+    <string name="more">Továbbiak</string>
     <string name="never_remind">Ne mutassa újra</string>
     <string name="no_file">Üres</string>
     <string name="no_network">"Nem sikerült csatlakozni a hálózathoz.
@@ -134,6 +136,7 @@ Ellenőrizze a hálózati beállításokat, majd próbálja újra."</string>
     <string name="popup_window_header_clear_all">Törlés</string>
     <string name="port_range">Port számának 1024 – 65535 közé kell esnie</string>
     <string name="prompt_grant_write_settings_permission">Engedélyezze a Mi Drop számára a rendszerbeállítások módosítását.</string>
+    <string name="qr_code">QR-kód</string>
     <string name="receive">Fogadás</string>
     <string name="receive_exit_dialog_message">A fájlok nem kerülnek átküldésre, ha megszakítja az átvitelt. Mégis megszakítja?</string>
     <string name="receive_exit_dialog_negative_btn">Fogadás folytatása</string>
@@ -142,6 +145,7 @@ Ellenőrizze a hálózati beállításokat, majd próbálja újra."</string>
     <string name="received_files">Fogadott fájlok</string>
     <string name="receiver_accept">Elfogadás</string>
     <string name="receiver_clean">Szabadítson fel lemezterületet</string>
+    <string name="receiver_file_title">Erről: %s</string>
     <string name="receiver_in_progress_summary">Várjon, amíg a folyamatban lévő átvitel befejeződött, mielőtt elküldené a fájlokat.</string>
     <string name="receiver_in_progress_title">Fájlok átvitele</string>
     <string name="receiver_insufficient_storage">Nincs elég szabad tárhely.</string>
@@ -162,7 +166,7 @@ Ellenőrizze a hálózati beállításokat, majd próbálja újra."</string>
     <string name="runtime_permission_ungranted">A Mi Drop-nak néhány további engedélyre van szüksége, hogy megfelelően működjön.</string>
     <string name="scan_code_download_from_play">Olvassa be ezt a QR-kódot a Mi Drop letöltéséhez a Google Play Áruházból</string>
     <string name="select_lang">Válasszon nyelvet</string>
-    <string name="select_volume">Válassza ki a hangerőt</string>
+    <string name="select_volume">Tárhely kiválasztása</string>
     <string name="send_aty_clear_dialog_message">Törli ezeket a fájlokat?</string>
     <string name="send_aty_clear_dialog_negative_btn">Mégse</string>
     <string name="send_aty_clear_dialog_positive_btn">Törlés</string>
@@ -191,16 +195,21 @@ Ellenőrizze a hálózati beállításokat, majd próbálja újra."</string>
     <string name="settings_feedback">Észrevételek</string>
     <string name="settings_score">Mi Drop értékelése</string>
     <string name="settings_set_name">Becenév</string>
-    <string name="share_desc">Mi Drop megosztása mobilnet használata nélkül</string>
+    <string name="share_ap_step_two">Tekintse meg a 2. lépést, miután barátja csatlakozott</string>
+    <string name="share_desc">Ossza meg az internethez való csatlakozás nélkül</string>
+    <string name="share_first_head_title">Ossza meg a közelben lévő barátokkal</string>
     <string name="share_mi_drop">Ossza meg a Mi Dropot a barátaival</string>
+    <string name="share_second_head_title">Más megosztási módok</string>
+    <string name="share_via_ap">Megosztás hordozható hotspoton keresztül</string>
+    <string name="share_via_qr_code">Megosztás QR-kód használatával</string>
     <string name="start_server">Indítás</string>
     <string name="stay_awake_summary">FTP használatakor nem kapcsol ki a kijelző</string>
     <string name="stay_awake_title">Tartsa ébren a kijelzőt</string>
-    <string name="step_1">"1. lépés:
-Kérje meg a másik személyt, hogy csatlakozzon a Wi-Fi hálózathoz."</string>
-    <string name="step_2">"2. lépés:
-Kérje meg a másik személyt, hogy adja meg a következő címet a böngészőben:"</string>
-    <string name="step_2_scan_code">Vagy olvassa be a következő QR-kódot</string>
+    <string name="step_1">1. lépés:</string>
+    <string name="step_1_title">Kérje meg barátját, hogy csatlakozzon ehhez a hálózathoz</string>
+    <string name="step_2">2. lépés:</string>
+    <string name="step_2_input_ip_address">Vagy írja be ezt a böngésző címsorába:</string>
+    <string name="step_2_scan_code">Kérje meg barátját, hogy olvassa be ezt a QR-kódot</string>
     <string name="stop_server">Megállít</string>
     <string name="stop_transfer">Leállítás</string>
     <string name="storage_internal">Belső tároló</string>
@@ -230,6 +239,7 @@ Kérje meg a másik személyt, hogy adja meg a következő címet a böngészőb
     <string name="version">Verzió</string>
     <string name="want_receive">Fájlok fogadása</string>
     <string name="want_send">Fájlok küldése</string>
+    <string name="wifi_ap">Hordozható Wi-Fi hotspot</string>
     <string name="wifi_name">Wi-Fi neve:</string>
     <string name="wifi_psw">Jelszó:</string>
     <string name="wifi_state">Wi-Fi állapota</string>

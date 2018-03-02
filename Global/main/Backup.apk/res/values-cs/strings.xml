@@ -338,6 +338,7 @@ Uplynulý čas: %s"</string>
     <string name="trans_device_wait_for_reconnecting">Spojení bylo přerušeno. Pro pokračování se připojte znovu.</string>
     <string name="trans_device_auto_reconnecting">Zařízení je odpojeno. Automatické znovu připojování…</string>
     <string name="trans_connecting_toast">Připojování…</string>
+    <string name="trans_switching_5g">Přepínání na 5 GHz Wi-Fi…</string>
     <string name="trans_connect_failed_toast">Připojení se nezdařilo</string>
     <string name="trans_generate_qr_code_failed">Nelze vytvořit QR kód</string>
     <string name="trans_scan_invalid_qrcode">QR kód je neplatný</string>
@@ -432,8 +433,8 @@ Uvolněte alespoň %s."</string>
     <string name="close_twice_auth_note">"Poznámka:
 Po vytvoření nových bezpečnostních otázek a ověření vašeho data narození se dvoufaktorové ověření vypne. Pokud na stránce svého účtu Apple ID možnost vypnutí dvoufaktorového ověření nevidíte, znamená to, že ho vypnout nemůžete."</string>
     <string name="close_twice_auth_btn">Vypnout dvoufaktorové ověření</string>
-    <string name="close_twice_auth_operation">"URL:
-https://appleid.apple.com/#!&amp;page=signin to close"</string>
+    <string name="close_twice_auth_operation">"URL adresa:
+https://appleid.apple.com/#!&amp;page=signin zavřít"</string>
     <string name="platform_chooser_title">Vyberte staré zařízení</string>
     <string name="platform_chooser_item_ios">Importovat z iOS zařízení</string>
     <string name="platform_chooser_item_android">Importovat z Android zařízení</string>
@@ -514,6 +515,7 @@ Nepřenesená data musí být importována znovu."</string>
     <string name="error_permissions">Tato aplikace nemá oprávnění potřebná pro přístup ke Kalendáři. Přejděte do Nastavení a ověřte přiřazená oprávnění.</string>
     <string name="succ_description">Dokončeno</string>
     <string name="failed_description">Neúspěšné</string>
+    <string name="notif_miasist_try_to_connect">Mi PC Suite se pokouší připojit k vašemu zařízení</string>
     <string name="notif_connect_miasist">Připojeno k Mi PC Suite</string>
     <string name="notif_disconnect_miasist">Nepřipojeno k Mi PC Suite</string>
     <string name="notif_sending_transingsd">Odesílání %1$s (%2$s)…</string>

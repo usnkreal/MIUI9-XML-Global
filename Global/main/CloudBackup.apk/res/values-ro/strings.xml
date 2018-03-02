@@ -142,10 +142,10 @@
     <string name="download_meta_again">Nu s-a putut încărca copia de rezervă, încercați din nou.</string>
     <string name="cancel_restore_home">Se anulează…</string>
     <string name="cancel_backup">Se anulează copia de rezervă…</string>
-    <string name="dialog_title_require_wlan">Connect to Wi-Fi</string>
-    <string name="dialog_msg_restore_require_wlan">Restoring backups requires connecting to Wi-Fi.</string>
-    <string name="dialog_btn_next">Next</string>
-    <string name="dialog_btn_restore_skip">Restore later</string>
+    <string name="dialog_title_require_wlan">Conectează-te la Wi-Fi</string>
+    <string name="dialog_msg_restore_require_wlan">Restabilirea copiilor de rezervă necesită conexiune la Wi-Fi.</string>
+    <string name="dialog_btn_next">Următorul</string>
+    <string name="dialog_btn_restore_skip">Restabileşte mai târziu</string>
     <string name="cloud_backup">Copii de rezervă Mi Cloud</string>
     <string name="open_backup_switch">Comutați întrerupătorul de la copiile de rezervă</string>
     <string name="restore_cloud_backup_to_phone">Restaurați elemente de la Mi Cloud</string>

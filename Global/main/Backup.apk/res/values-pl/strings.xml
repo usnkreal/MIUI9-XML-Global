@@ -338,6 +338,7 @@ Całkowity czas: %s"</string>
     <string name="trans_device_wait_for_reconnecting">Połączenie zostało przerwane. Połącz ponownie, aby kontynuować.</string>
     <string name="trans_device_auto_reconnecting">Urządzenie rozłączone. Automatyczne łączenie…</string>
     <string name="trans_connecting_toast">Łączenie…</string>
+    <string name="trans_switching_5g">Przełączanie na Wi-Fi 5GHz…</string>
     <string name="trans_connect_failed_toast">Nie można połączyć się z hostem</string>
     <string name="trans_generate_qr_code_failed">Nie udało się utworzyć kodu QR</string>
     <string name="trans_scan_invalid_qrcode">Kod QR jest nieprawidłowy</string>
@@ -514,6 +515,7 @@ Dane, które nie zostały zaimportowane muszą zostać przesłane jeszcze raz."<
     <string name="error_permissions">Aplikacja nie ma uprawnień wymaganych do uzyskania dostępu do Kalendarza. Przejdź do Ustawień i sprawdź uprawnienia, aby kontynuować.</string>
     <string name="succ_description">Pomyślnie</string>
     <string name="failed_description">Niepowodzenie</string>
+    <string name="notif_miasist_try_to_connect">Mi PC Suite próbuje połączyć się z twoim urządzeniem</string>
     <string name="notif_connect_miasist">Połączono z Mi PC Suite</string>
     <string name="notif_disconnect_miasist">Nie połączono z Mi PC Suite</string>
     <string name="notif_sending_transingsd">Wysyłanie %1$s (%2$s)…</string>

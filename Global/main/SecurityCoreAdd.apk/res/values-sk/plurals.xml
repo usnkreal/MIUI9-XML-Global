@@ -4,20 +4,24 @@
         <item quantity="other">%d položiek</item>
         <item quantity="one">%d položka</item>
         <item quantity="few">%d položka</item>
+        <item quantity="many">%d items</item>
     </plurals>
     <plurals name="first_space_notification_format">
         <item quantity="other">%d upozornení v Prvom profile</item>
         <item quantity="one">%d upozornenie v Prvom profile</item>
         <item quantity="few">%d upozornenie v Prvom profile</item>
+        <item quantity="many">%d notifications in First space</item>
     </plurals>
     <plurals name="second_space_notification_format">
         <item quantity="other">%d upozornení v Druhom profile</item>
         <item quantity="one">%d upozornenie v Druhom profile</item>
         <item quantity="few">%d upozornenie v Druhom profile</item>
+        <item quantity="many">%d notifications in Second space</item>
     </plurals>
     <plurals name="search_app_count_txt_na">
         <item quantity="other">Hľadať %d aplikácie</item>
         <item quantity="one">Hľadať %d aplikáciu</item>
         <item quantity="few">Hľadať %d aplikácie</item>
+        <item quantity="many">Search %d apps</item>
     </plurals>
 </resources>

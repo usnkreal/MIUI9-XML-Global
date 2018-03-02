@@ -4,5 +4,6 @@
         <item quantity="other">Nieodebranych połączeń</item>
         <item quantity="one">Nieodebrane połączenie</item>
         <item quantity="few">Nieodebrane połączenia</item>
+        <item quantity="many">Nieodebranych połączeń</item>
     </plurals>
 </resources>

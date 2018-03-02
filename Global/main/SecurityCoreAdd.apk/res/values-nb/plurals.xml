@@ -5,15 +5,15 @@
         <item quantity="one">%d element</item>
     </plurals>
     <plurals name="first_space_notification_format">
-        <item quantity="other">%d notifications in First space</item>
-        <item quantity="one">%d notification in First space</item>
+        <item quantity="other">%d varsler i Første område</item>
+        <item quantity="one">%d varsling i Første område</item>
     </plurals>
     <plurals name="second_space_notification_format">
-        <item quantity="other">%d notifications in Second space</item>
-        <item quantity="one">%d notification in Second space</item>
+        <item quantity="other">%d varsler i Andre område</item>
+        <item quantity="one">%d varsler i Andre område</item>
     </plurals>
     <plurals name="search_app_count_txt_na">
-        <item quantity="other">Search %d apps</item>
-        <item quantity="one">Search %d app</item>
+        <item quantity="other">Søk %d apper</item>
+        <item quantity="one">Søk %d app</item>
     </plurals>
 </resources>

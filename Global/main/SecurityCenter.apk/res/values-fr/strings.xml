@@ -80,7 +80,7 @@ Il sera ajouté aux exceptions, mais les éléments bloqués précédemment n'ap
     <string name="menu_add">Ajouter</string>
     <string name="menu_edit">Modifier</string>
     <string name="menu_remove">Supprimer</string>
-    <string name="menu_white">Exceptions</string>
+    <string name="menu_white">Ajouter aux exceptions</string>
     <string name="st_settings_name">Paramètres de la Liste Noire</string>
     <string name="st_filter_keywords_setting_summary1">Les SMS provenant de numéros inconnus contenant les mots dans cette liste seront bloqués.</string>
     <string name="st_filter_keywords_setting_summary3">Les Sms provenant de numéros inconnus contenant les mots dans cette liste seront autorisés.</string>
@@ -446,7 +446,7 @@ de l'opérateur"</string>
     <string name="pref_special_package_setting">Personnaliser le forfait de données</string>
     <string name="pref_data_usage_not_set">Forfait de données inconnu</string>
     <string name="pref_operator_not_set">Opérateur non défini</string>
-    <string name="pref_special_package_setting_summary">Gérez les données des heures creuses, les packages de recharges, les forfaits de données quotidiens ainsi que les données désignées</string>
+    <string name="pref_special_package_setting_summary">Gérez les données des heures creuses, les forfaits de recharges, les forfaits de données quotidiens ainsi que les données désignées</string>
     <string name="pref_warning_values">"Avertissement de l'utilisation de données"</string>
     <string name="pref_pkg_begin_date">"Date de réinitialisation d'utilisation"</string>
     <string name="pref_more_settings">Paramètres additionnels</string>
@@ -475,10 +475,10 @@ de l'opérateur"</string>
     <string name="per_month_pkg_traffic_settings">Définir la limite des données</string>
     <string name="free_time_traffic_settings">"Limite d'utilisation de données en heures creuses"</string>
     <string name="pref_category_extra_package_tile">Recharge de forfait</string>
-    <string name="pref_key_extra_package_value">Taille du package</string>
+    <string name="pref_key_extra_package_value">Taille du forfait</string>
     <string name="pref_category_half_year_package_tile">Package de données par semestre</string>
     <string name="pref_key_half_year_package_switch">Package de données par semestre</string>
-    <string name="pref_key_half_year_package_value">Taille du package</string>
+    <string name="pref_key_half_year_package_value">Taille du forfait</string>
     <string name="pref_key_half_year_package_start">Date du début</string>
     <string name="pref_category_daily_package_tile">Forfait de données quotidien</string>
     <string name="pref_key_daily_package_switch">Forfait de données quotidien</string>
@@ -616,7 +616,7 @@ Le volume de données restant inclut l'excédent du mois précédent."</string>
     <string name="tc_sms_report_type">Type de rapport</string>
     <string name="privacy_declare_dialog_title">"Conditions générales d'utilisation"</string>
     <string name="sc_allow_network_dialog_tiltle">"Impossible d'utiliser cette fonctionnalité"</string>
-    <string name="sc_allow_network_dialog_message">Cette application doit se connecter à Internet pour fonctionner normalement.</string>
+    <string name="sc_allow_network_dialog_message">"Vous avez limité la connexion réseau et l'accès à votre localisation pour l'application Sécurité. Donnez à l'application Sécurité les autorisations requises pour utiliser cette fonctionnalité."</string>
     <string name="privacy_prompt_upload">Envoyer</string>
     <string name="privacy_prompt_traffic_adjust_message">"Après que vous ayez lancé l'étalonnage, MIUI se connectera au réseau, cryptera les infos de votre opérateur, votre numéro de téléphone, votre IMEI et votre compte Mi, puis enverra ces éléments vers les serveurs Mi. Ceci se fera dans le but d'acquérir le modèle d'étalonnage et apprenez si possible à acheter des données dans votre localité.
 
@@ -768,8 +768,8 @@ Essayez d'utiliser un autre câble Ethernet pour connecter votre routeur. Si vou
     <string name="networkchanged_exception_title">Connexion changée</string>
     <string name="networkchanged_exception_summary">La connexion réseau a changé. Tester à nouveau.</string>
     <string name="network_test_speed">Tester le débit du Wi-Fi</string>
-    <string name="network_changed_noti_title">Disconnected from Wi-Fi</string>
-    <string name="network_changed_noti_summary">Using mobile data</string>
+    <string name="network_changed_noti_title">Déconnecté du Wi-Fi</string>
+    <string name="network_changed_noti_summary">Avec les données mobiles</string>
     <string name="network_speed_for_apps_title">Connexion</string>
     <string name="network_speed_for_apps_total">Vitesse de connexion</string>
     <string name="network_speed_for_apps_close_app_dlg_msg">Forcer la fermeture de cette application ?</string>
@@ -1465,7 +1465,7 @@ votre appareil"</string>
     <string name="toast_root_apply_reject">"L'accès ROOT de %s a été refusé"</string>
     <string name="menu_item_app_permissions_control">"Gestionnaire d'autorisations"</string>
     <string name="menu_item_control_app_permissions">"Demander votre autorisation avant de permettre aux applications de lire vos contacts, de voir votre historique d'appels, de changer les paramètres systèmes, ou d'accéder à la caméra et aux autres services de l'appareil"</string>
-    <string name="menu_item_install_debug_package">Installer le package de débogage</string>
+    <string name="menu_item_install_debug_package">Installer le forfait de débogage</string>
     <string name="permission_close_permission_control_dialog_title">Désactiver ?</string>
     <string name="permission_close_permission_control_dialog_msg">"Lorsque le gestionnaire d'autorisations est désactivé, les applications ne demanderont plus l'autorisation avant de lire vos contacts, de voir votre historique d'appels, ou d'accéder à la caméra et aux autres services de l'appareil."</string>
     <string name="permission_permission_control_closed_desc_dialog_title">"Gestionnaire d'autorisations"</string>
@@ -1675,7 +1675,7 @@ votre appareil"</string>
     <string name="preferred_app_entries_music">Musique</string>
     <string name="preferred_app_entries_email">E-mail</string>
     <string name="card_main_applock_title">"Verrouillage d'application"</string>
-    <string name="card_main_applock_summary">"Protégez vos messages, photos et d'autres éléments avec un mot de passe."</string>
+    <string name="card_main_applock_summary">Protégez les applications sélectionnées avec un mot de passe.</string>
     <string name="card_main_applock_action">Activer</string>
     <string name="card_main_deepclean_title">Nettoyage en profondeur</string>
     <string name="card_main_deepclean_summary">Supprimer les fichiers inutiles</string>
@@ -1714,14 +1714,18 @@ votre appareil"</string>
     <string name="more_lock">Plus</string>
     <string name="app_name">"Verrouillage d'application"</string>
     <string name="back_app_name">Retourner à Verr. App</string>
-    <string name="notification_item">Protéger les applications avec Verr. App</string>
+    <string name="ac_notification_contentTitle">"Protéger les applications sélectionnées avec Verrouillage d'application"</string>
+    <string name="ac_pre_notification_contentTitle">"Essayer Verrouillage d'application"</string>
+    <string name="ac_post_notification_contentTitle">"Activer le Verrouillage d'application"</string>
     <string name="notification_masked_item">Masquer les notifications</string>
     <string name="lock_mode_title">Paramètres de verrouillage</string>
     <string name="after_the_lock_screen">"Verrouillez les applications en même temps que l'écran"</string>
     <string name="set_applock_password">Définir un mot de passe</string>
     <string name="ac_firstUseApplock_title">Définir un mot de passe pour protéger votre application</string>
     <string name="ac_firstUseApplock_subTitle">Utilisez de meilleurs outils de sécurité au niveau du système</string>
-    <string name="notification_subtitle">Appuyez pour activer</string>
+    <string name="ac_notification_contentText">Appuyez pour activer</string>
+    <string name="ac_pre_notification_contentText">Protégez vos infos personnelles</string>
+    <string name="ac_post_notification_contentText">Obtenir une protection de niveau système</string>
     <string name="notification_masked_subtitle">"Masquer les notifications des applis protégées avec le Verrouillage d'application"</string>
     <string name="ac_enter_applock">Ouvrir Verr. App</string>
     <string name="ac_mask_all_apps">Masquer pour toutes les applications</string>

@@ -29,4 +29,6 @@
     <string name="third_party_delete_contact_info">\"%s\" próbuje usunąć Twoje kontakty. Ta czynność nie może być wykonana przez zewnętrzne aplikacje. Aby usunąć kontakty, użyj aplikacji Kontakty wbudowanej w MIUI.</string>
     <string name="low_memory_toast">Nie można kontynuować z powodu małej ilości pamięci.</string>
     <string name="update_accounts_changed">Zmieniono konta</string>
+    <string name="sim_state_changed">Karta SIM została zmieniona</string>
+    <string name="voicemail_cleanup">Oczyść pocztę głosową</string>
 </resources>

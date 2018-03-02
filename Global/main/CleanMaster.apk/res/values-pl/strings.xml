@@ -492,7 +492,7 @@
     <string name="wq_deep_clean_filter_week_ago">1 tydzień temu</string>
     <string name="wq_deep_clean_filter_month_ago">Miesiąc temu</string>
     <string name="wq_deep_clean_filter_three_month_ago">3 miesiące temu</string>
-    <string name="wq_deep_clean_filter_years_ago">6 miesiący temu</string>
+    <string name="wq_deep_clean_filter_years_ago">6 miesięcy temu</string>
     <string name="auto_clean_time_every_day">Codziennie</string>
     <string name="auto_clean_time_three_day">Co 3 dni</string>
     <string name="auto_clean_time_seven_day">Co 7 dni</string>

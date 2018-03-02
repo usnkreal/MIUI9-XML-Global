@@ -4,25 +4,30 @@
         <item quantity="other">Stiahnuté: %1$d</item>
         <item quantity="one">Stiahnuté: %1$d</item>
         <item quantity="few">Stiahnuté: %1$d</item>
+        <item quantity="many">%1$d downloaded</item>
     </plurals>
     <plurals name="notif_title_multiple_downloading">
         <item quantity="other">Sťahuje sa %1$d súborov</item>
         <item quantity="one">Sťahuje sa %1$d súbor</item>
         <item quantity="few">Sťahujú sa %1$d súbory</item>
+        <item quantity="many">Downloading %1$d files</item>
     </plurals>
     <plurals name="notification_download_failed_more">
         <item quantity="other">Nie je možné stiahnuť %1$d položiek</item>
         <item quantity="one">Nie je možné stiahnuť %1$d položku</item>
         <item quantity="few">Nie je možné stiahnuť %1$d položky</item>
+        <item quantity="many">"Couldn't download %1$d items"</item>
     </plurals>
     <plurals name="notif_summary_active">
-        <item quantity="other">Sťahuje sa %d súborov</item>
-        <item quantity="one">Sťahuje sa %1$d súbor</item>
-        <item quantity="few">Sťahujú sa %d súbory</item>
+        <item quantity="other">Sťahuje sa%d súborov</item>
+        <item quantity="one">Sťahuje sa %d súbor</item>
+        <item quantity="few">Sťahujú sa%d súbory</item>
+        <item quantity="many">%d files downloading</item>
     </plurals>
     <plurals name="notif_summary_waiting">
-        <item quantity="other">Čaká %d súborov</item>
-        <item quantity="one">%1$d súbor čaká</item>
-        <item quantity="few">Čakajú %d súbory</item>
+        <item quantity="other">%d súborov čaká</item>
+        <item quantity="one">Čaká sa na %d súbor</item>
+        <item quantity="few">%d súbory čakajú</item>
+        <item quantity="many">%d files waiting</item>
     </plurals>
 </resources>

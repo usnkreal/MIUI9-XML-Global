@@ -4,39 +4,43 @@
         <item quantity="other">Žádné datové připojení během%s minut</item>
         <item quantity="one">Žádné datové připojení během %s minuty</item>
         <item quantity="few">Žádné datové připojení během %s minut</item>
-        <item quantity="many">%s minuty nebude k dispozici datové připojení</item>
+        <item quantity="many">No data connection for %s minutes</item>
     </plurals>
     <plurals name="alert_dialog_exit_ecm">
         <item quantity="other">Telefon bude v režimu zpětného nouzového volání po dobu %s minut. V tomto režimu nemohou jiné aplikace využívat datového připojení. Ukončit nyní?</item>
         <item quantity="one">Telefon bude v režimu zpětného nouzového volání po dobu %s minuty. V tomto režimu nemohou jiné aplikace využívat datového připojení. Ukončit nyní?</item>
         <item quantity="few">Telefon bude v režimu zpětného nouzového volání po dobu %s minut. V tomto režimu nemohou jiné aplikace využívat datového připojení. Ukončit nyní?</item>
-        <item quantity="many">]Telefon bude %s minuty v režimu zpětného tísňového volání. V tomto režimu nelze používat aplikace, které používají datové připojení. Chcete akci nyní ukončit?</item>
+        <item quantity="many">The phone will be in Emergency Callback mode for %s minutes. While in this mode no applications using a data connection can be used. Do you want to exit now?</item>
     </plurals>
     <plurals name="alert_dialog_not_avaialble_in_ecm">
         <item quantity="other">Tato volba není dostupná v režimu nouzového volání. Telefon bude v tomto režimu po dobu %s minut. Ukončit nyní?</item>
         <item quantity="one">Tato volba není dostupná v režimu nouzového volání. Telefon bude v tomto režimu po dobu %s minuty. Ukončit nyní?</item>
         <item quantity="few">Tato volba není dostupná v režimu nouzového volání. Telefon bude v tomto režimu po dobu %s minut. Ukončit nyní?</item>
-        <item quantity="many">V režimu zpětného tísňového volání vybraná akce není k dispozici. Telefon v tomto režimu bude %s minuty. Chcete akci nyní ukončit?</item>
+        <item quantity="many">"The selected action isn't available while in the Emergency Callback mode. The phone will be in this mode for %s minutes. Do you want to exit now?"</item>
     </plurals>
     <plurals name="call_record_auto_whitelist_summary">
         <item quantity="other">%d čísel</item>
         <item quantity="one">%d číslo</item>
         <item quantity="few">%d čísla</item>
+        <item quantity="many">%d numbers</item>
     </plurals>
     <plurals name="call_remove_exception_numbers_confirm">
         <item quantity="other">%d čísel bude smazáno.</item>
         <item quantity="one">%d číslo bude smazáno.</item>
         <item quantity="few">%d čísla budou smazána.</item>
+        <item quantity="many">%d numbers will be deleted.</item>
     </plurals>
     <plurals name="call_record_add_white_list_over_reminder">
         <item quantity="other">Můžete přidat až %s osob, vyberte prosím znovu.</item>
         <item quantity="one">Můžete přidat %s osobu, vyberte prosím znovu.</item>
         <item quantity="few">Můžete přidat až %s osoby, vyberte prosím znovu.</item>
+        <item quantity="many">You can add up to %s people, select again.</item>
     </plurals>
     <plurals name="auto_answer_summary_delay">
         <item quantity="other">Zpoždění: %s sekund</item>
         <item quantity="one">Zpoždění: %s sekunda</item>
         <item quantity="few">Zpoždění: %s sekundy</item>
+        <item quantity="many">delay: %s seconds</item>
     </plurals>
     <plurals name="pin_attempts">
         <item quantity="other">"
@@ -45,5 +49,7 @@ Zbývá %d pokusů."</item>
 Zbývá %d pokus."</item>
         <item quantity="few">"
 Zbývají %d pokusy."</item>
+        <item quantity="many">"
+%d attempts remaining."</item>
     </plurals>
 </resources>

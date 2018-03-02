@@ -129,8 +129,8 @@
         <item quantity="one">Egy alkalmazásnál soha ne tiltsa le</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short">
-        <item quantity="other">A PIN kód legalább %d karakter hosszú kell legyen</item>
-        <item quantity="one">A PIN kód legalább %d karakter hosszú kell legyen</item>
+        <item quantity="other">A PIN kód legalább %d számjegy kell legyen</item>
+        <item quantity="one">A PIN kód legalább %d számjegy kell legyen</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long">
         <item quantity="other">A PIN kód legfeljebb %d számjegyet tartalmazhat</item>
@@ -145,7 +145,7 @@
         <item quantity="one">Túl sok helytelen próbálkozás. Próbálja újra %d másodperc múlva.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
-        <item quantity="other">Várjon %d másodpercet és próbálja újra.</item>
-        <item quantity="one">Várjon %d másodpercet és próbálja újra.</item>
+        <item quantity="other">Várjon %d másodpercet, majd próbálja újra.</item>
+        <item quantity="one">Várjon %d másodpercet, majd próbálja újra.</item>
     </plurals>
 </resources>

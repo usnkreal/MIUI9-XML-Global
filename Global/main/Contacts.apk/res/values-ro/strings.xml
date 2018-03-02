@@ -340,7 +340,7 @@ Cardurile de contact sunt dezactivate"</string>
     <string name="description_minus_button">Minus</string>
     <string name="description_plus_button">Plus</string>
     <string name="description_quick_contact_for">Contact rapid pentru %1$s</string>
-    <string name="description_quick_dial_button">Quick dial</string>
+    <string name="description_quick_dial_button">Apelare rapidă</string>
     <string name="description_search_button">Caută</string>
     <string name="description_send_message">Trimite mesaj către %1$s</string>
     <string name="description_send_text_message">Trimite mesaj text către %1$s</string>
@@ -392,7 +392,7 @@ Cardurile de contact sunt dezactivate"</string>
     <string name="dialer_empty_text_loading">Doar o secundă…</string>
     <string name="dialer_empty_text_no_call_log">Niciun contact recent</string>
     <string name="dialer_empty_text_no_search_result">Niciun contact găsit</string>
-    <string name="dialer_firewall_entry_name">Blocked call logs</string>
+    <string name="dialer_firewall_entry_name">Jurnalul de apeluri blocat</string>
     <string name="dialer_menu_description">Afișați meniurile</string>
     <string name="dialer_menu_title">Opțiuni meniu</string>
     <string name="dialer_returnToInCallScreen">Înapoi la apelul în curs</string>
@@ -812,7 +812,7 @@ u2022 Accesează de pe orice browser web.
     <string name="path_key_rebuild_t9_index_title">Aplicaţii sistem/Contacte/Organizare contacte/Reconstruiește date index</string>
     <string name="path_key_sim_manage">Aplicaţii sistem/Contacte/Organizare contacte/Cartele SIM</string>
     <string name="path_preference_contacts_filter">Aplicaţii sistem/Contacte/Preferințe afișaj/Configurează listele de contacte</string>
-    <string name="path_quick_dial_setting">System apps/Contacts/Quick dial</string>
+    <string name="path_quick_dial_setting">Aplicaţii sistem/Telefon/Setări avansate/Apelare automată</string>
     <string name="path_remove_duplicate">Aplicaţii sistem/Contacte/Organizare contacte/Îmbinare contacte duplicate</string>
     <string name="path_share_visible_contacts">Aplicaţii sistem/Contacte/Import/Export contacte/Partajează contacte</string>
     <string name="path_sim_capacity">Aplicaţii sistem/Contacte/Memorie cartelă SIM</string>
@@ -873,6 +873,7 @@ u2022 Accesează de pe orice browser web.
     <string name="preference_contacts_display">Preferințele de afișare</string>
     <string name="preference_contacts_filter">Configurare listelor de contacte</string>
     <string name="preference_contacts_more">Organizare contacte</string>
+    <string name="preference_contacts_moresetting">More</string>
     <string name="preference_dial_pad_touch_tone_default">Implicit</string>
     <string name="preference_dial_pad_touch_tone_human">Voce</string>
     <string name="preference_dial_pad_touch_tone_piano">Clape de pian</string>
@@ -880,6 +881,7 @@ u2022 Accesează de pe orice browser web.
     <string name="preference_dial_pad_touch_tone_title">Tonuri atingere apel</string>
     <string name="preference_display">Afișajul</string>
     <string name="preference_displayOptions">Opțiuni de afișare</string>
+    <string name="preference_display_contact">Display options</string>
     <string name="preference_export">Exportă</string>
     <string name="preference_import">Import</string>
     <string name="preference_import_export">Import / Export</string>
@@ -924,12 +926,12 @@ u2022 Accesează de pe orice browser web.
     <string name="pull_to_refresh_release_label">Eliberați pentru a reîmprostăta</string>
     <string name="qr_card_card">Cod QR</string>
     <string name="qrcode_card_title">Cod QR</string>
-    <string name="quick_dial_setting_delete_dialog_message">Delete assigned quick dial number?</string>
-    <string name="quick_dial_setting_delete_dialog_option_delete">Delete</string>
-    <string name="quick_dial_setting_hint">Tap a button to assign or remove a quick dial number. Press and hold the button with an assigned number to dial.</string>
-    <string name="quick_dial_setting_set_dialog_message">Assign a quick dial number to this button?</string>
-    <string name="quick_dial_setting_set_dialog_option_set">Yes</string>
-    <string name="quick_dial_setting_title">Quick dial</string>
+    <string name="quick_dial_setting_delete_dialog_message">Ștergeți numărul pentru apelare rapidă atribuit?</string>
+    <string name="quick_dial_setting_delete_dialog_option_delete">Șterge</string>
+    <string name="quick_dial_setting_hint">Atingeți un button pentru a atribui sau a elimina un număr pentru apelare rapidă. Țineți apăsat butonul care are un număr atribuit pentru a apela.</string>
+    <string name="quick_dial_setting_set_dialog_message">Atribuiți un număr de apelare rapidă pentru acest buton?</string>
+    <string name="quick_dial_setting_set_dialog_option_set">Da</string>
+    <string name="quick_dial_setting_title">Apelare rapidă</string>
     <string name="quickcontact_missing_app">Nici o aplicație nu a fost găsită să efectueze această acțiune</string>
     <string name="quit_dialog_confirm_message">Nu ați fuzionat vreun contact</string>
     <string name="quit_dialog_confirm_title">Anulează fuzionarea contactelor</string>
@@ -978,7 +980,7 @@ u2022 Accesează de pe orice browser web.
     <string name="scan_qrcode_card_hint1">Scanați codul QR de mai sus</string>
     <string name="scan_qrcode_card_hint2" />
     <string name="scanning_sdcard_failed_message">Motiv: %s.</string>
-    <string name="scanning_sdcard_failed_title">Memoria nu a putut fi scanată</string>
+    <string name="scanning_sdcard_failed_title">Stocarea nu a putut fi scanată</string>
     <string name="searchHint">Căutare contacte</string>
     <string name="search_batch_delete">Organizează;Contacte</string>
     <string name="search_contacts_display">Contacte;Afișaj</string>
@@ -998,7 +1000,7 @@ u2022 Accesează de pe orice browser web.
     <string name="search_key_rebuild_t9_index_title">Organizează;Contacte;t9</string>
     <string name="search_key_sim_manage">Organizează;Contacte</string>
     <string name="search_preference_contacts_filter">Contacte;Afișaj</string>
-    <string name="search_quick_dial_setting">Contacts</string>
+    <string name="search_quick_dial_setting">Telefon</string>
     <string name="search_remove_duplicate">Organizează;Contacte</string>
     <string name="search_results_searching">Căutare…</string>
     <string name="search_settings_description">Numele contactelor dvs.</string>
@@ -1201,7 +1203,7 @@ Alege una dintre următoarele opțiuni:"</string>
     <string name="yellowPageNavigationLabel">Pagini aurii</string>
     <string name="yellowpage_fc_toast">Paginile aurii s-au prăbușit, nu se poate utiliza această caracteristică.</string>
     <string name="yellowpage_navigation_ad_hint">Anunț</string>
-    <string name="yellowpage_navigation_balance_refresh_failed">Soldul și datele dvs. nu au putut fi verificate, încercați din nou mai târziu.</string>
+    <string name="yellowpage_navigation_balance_refresh_failed">Soldul și datele mobile nu au putut fi verificate, încercați din nou mai târziu.</string>
     <string name="yellowpage_navigation_balance_refresh_succeed">Soldul și datele dvs. au fost verificate</string>
     <string name="yellowpage_navigation_clear_search_history">Şterge istoric</string>
     <string name="yellowpage_navigation_more_items">Mai multe</string>

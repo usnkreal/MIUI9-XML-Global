@@ -89,7 +89,7 @@
     <string name="enable">Activer</string>
     <string name="disable">Ne pas activer</string>
     <string name="mobile_download_title">Mettre à jour avec les données mobiles ?</string>
-    <string name="mobile_download_msg">Si vous avez un forfait de données illimitées, vous pouvez activer les téléchargements des mises à jour avec les données mobiles. Une fois que vous activez cette fonctionnalité, les mises à jour seront téléchargées durant la période définie.</string>
+    <string name="mobile_download_msg">Si vous avez un forfait de données illimitées, vous pouvez télécharger des mises à jour avec les données mobiles. Une fois que vous activez cette fonctionnalité, les mises à jour seront téléchargées durant la période définie.</string>
     <string name="recovery_failed_title">Utilisez Mi PC Suite pour mettre à jour votre système</string>
     <string name="recovery_power_not_enough_title">Batterie faible</string>
     <string name="recovery_power_not_enough_msg">"Chargez votre appareil jusqu'à 15% au moins pour le mettre à jour."</string>
@@ -320,4 +320,5 @@ Impossible d'envoyer le retour"</string>
     <string name="security_space_msg">MIUI 9 a un nouveau système de fichiers. Si vous redémarrez votre appareil maintenant, vous ne pourrez peut-être plus utiliser Second espace. Déplacez tous les éléments du second espace vers le premier espace avant de redémarrer.</string>
     <string name="security_space_button_pos">Ne pas redémarrer</string>
     <string name="security_space_button_neg">Redémarrer maintenant</string>
+    <string name="privacy_revoke_msg">"Mise à jour vous permet de garder MIUI et ses fonctionnalités à jour. Après avoir révoqué l'autorisation, l'application arrêtera de collecter les données et toutes les données associées (y compris les données sur les appareils nécessitant des mises à jour) seront supprimées de cet appareil et des serveurs. Refuser de mettre à jour votre appareil peut entraîner des risques de sécurité. Révoquer l'autorisation quand même ?"</string>
 </resources>

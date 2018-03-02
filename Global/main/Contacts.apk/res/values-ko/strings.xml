@@ -341,7 +341,7 @@
     <string name="description_minus_button">마이너스</string>
     <string name="description_plus_button">플러스</string>
     <string name="description_quick_contact_for">%1$s를 위한 빠른 연락처</string>
-    <string name="description_quick_dial_button">Quick dial</string>
+    <string name="description_quick_dial_button">퀵 다이얼</string>
     <string name="description_search_button">검색</string>
     <string name="description_send_message">%1$s에게 메시지 전송</string>
     <string name="description_send_text_message">%1$s에게 문자 메시지 전송</string>
@@ -393,7 +393,7 @@
     <string name="dialer_empty_text_loading">잠시 기다려 주십시오…</string>
     <string name="dialer_empty_text_no_call_log">최근 연락처 없음</string>
     <string name="dialer_empty_text_no_search_result">발견된 연락처 없음</string>
-    <string name="dialer_firewall_entry_name">Blocked call logs</string>
+    <string name="dialer_firewall_entry_name">차단된 통화 기록</string>
     <string name="dialer_menu_description">메뉴 표시</string>
     <string name="dialer_menu_title">메뉴 옵션</string>
     <string name="dialer_returnToInCallScreen">진행 중인 통화로 돌아가기</string>
@@ -813,7 +813,7 @@
     <string name="path_key_rebuild_t9_index_title">시스템 앱/연락처/연락처 조직/인덱스 데이터 재작성</string>
     <string name="path_key_sim_manage">시스템 앱/연락처/연락처 조직/SIM 카드</string>
     <string name="path_preference_contacts_filter">시스템 앱/연락처/디스플레이 선호설정/연락처 목록 구성</string>
-    <string name="path_quick_dial_setting">System apps/Contacts/Quick dial</string>
+    <string name="path_quick_dial_setting">시스템 앱/휴대전화/고급 설정/퀵 다이얼</string>
     <string name="path_remove_duplicate">시스템 앱/연락처/연락처 조직/중복된 연락처 합치기</string>
     <string name="path_share_visible_contacts">시스템 앱/연락처/가져오기/연락처 내보내기/연락처 공유</string>
     <string name="path_sim_capacity">시스템 앱/연락처/SIM 카드 저장소</string>
@@ -874,6 +874,7 @@
     <string name="preference_contacts_display">화면 기본 설정</string>
     <string name="preference_contacts_filter">연락처 목록 구성</string>
     <string name="preference_contacts_more">연락처 정리</string>
+    <string name="preference_contacts_moresetting">More</string>
     <string name="preference_dial_pad_touch_tone_default">기본값</string>
     <string name="preference_dial_pad_touch_tone_human">음성</string>
     <string name="preference_dial_pad_touch_tone_piano">피아노 키</string>
@@ -881,6 +882,7 @@
     <string name="preference_dial_pad_touch_tone_title">다이얼패드 신호음</string>
     <string name="preference_display">표시</string>
     <string name="preference_displayOptions">옵션 표시</string>
+    <string name="preference_display_contact">Display options</string>
     <string name="preference_export">내보내기</string>
     <string name="preference_import">가져오기</string>
     <string name="preference_import_export">가져오기/내보내기</string>
@@ -925,12 +927,12 @@
     <string name="pull_to_refresh_release_label">놓아서 새로고침</string>
     <string name="qr_card_card">QR 코드</string>
     <string name="qrcode_card_title">QR 코드</string>
-    <string name="quick_dial_setting_delete_dialog_message">Delete assigned quick dial number?</string>
-    <string name="quick_dial_setting_delete_dialog_option_delete">Delete</string>
-    <string name="quick_dial_setting_hint">Tap a button to assign or remove a quick dial number. Press and hold the button with an assigned number to dial.</string>
-    <string name="quick_dial_setting_set_dialog_message">Assign a quick dial number to this button?</string>
-    <string name="quick_dial_setting_set_dialog_option_set">Yes</string>
-    <string name="quick_dial_setting_title">Quick dial</string>
+    <string name="quick_dial_setting_delete_dialog_message">지정된 퀵 다이얼을 삭제하시겠습니까?</string>
+    <string name="quick_dial_setting_delete_dialog_option_delete">삭제</string>
+    <string name="quick_dial_setting_hint">버튼을 탭하여 퀵 다이얼을 지정하거나 제거하십시오. 퀵 다이얼으로 지정된 번호를 길게 누르면 다이얼됩니다.</string>
+    <string name="quick_dial_setting_set_dialog_message">이 번호의 퀵 다이얼을 지정하시겠습니까?</string>
+    <string name="quick_dial_setting_set_dialog_option_set">네</string>
+    <string name="quick_dial_setting_title">퀵 다이얼</string>
     <string name="quickcontact_missing_app">이 동작을 처리할 앱을 발견하지 못했습니다.</string>
     <string name="quit_dialog_confirm_message">합친 연락처가 없습니다.</string>
     <string name="quit_dialog_confirm_title">연락처 합치기 취소</string>
@@ -999,7 +1001,7 @@
     <string name="search_key_rebuild_t9_index_title">조직;연락처;t9</string>
     <string name="search_key_sim_manage">조직;연락처</string>
     <string name="search_preference_contacts_filter">연락처;디스플레이</string>
-    <string name="search_quick_dial_setting">Contacts</string>
+    <string name="search_quick_dial_setting">휴대전화</string>
     <string name="search_remove_duplicate">조직;연락처</string>
     <string name="search_results_searching">검색 중…</string>
     <string name="search_settings_description">연락처의 이름</string>

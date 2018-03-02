@@ -142,8 +142,8 @@ Poznámka: Data doinstalovaných aplikací nebudou zálohována na Mi Cloud"</st
     <string name="download_meta_again">Načtení zálohy se nezdařilo, zkuste to znovu.</string>
     <string name="cancel_restore_home">Rušení…</string>
     <string name="cancel_backup">Rušení zálohování…</string>
-    <string name="dialog_title_require_wlan">Connect to Wi-Fi</string>
-    <string name="dialog_msg_restore_require_wlan">Restoring backups requires connecting to Wi-Fi.</string>
+    <string name="dialog_title_require_wlan">Připojte se k Wi-Fi</string>
+    <string name="dialog_msg_restore_require_wlan">Obnovení záloh vyžaduje připojení k síti Wi-Fi.</string>
     <string name="dialog_btn_next">Další</string>
     <string name="dialog_btn_restore_skip">Obnovit později</string>
     <string name="cloud_backup">Mi Cloud zálohy</string>

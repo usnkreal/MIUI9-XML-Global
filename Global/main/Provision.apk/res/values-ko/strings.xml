@@ -25,6 +25,8 @@
     <string name="other_settings_upload_debug_log_summary">수집된 정보는 시스템의 문제를 분석하고 특정하는데 사용되고 개인 정보를 포함하고 있을 수 있습니다. 개인을 특정하는데에 사용되지 않습니다.</string>
     <string name="other_settings_auto_update">자동으로 설치</string>
     <string name="other_settings_auto_update_summary">MIUI가 가장 적합한 시간을 판단하여 업데이트 실행</string>
+    <string name="other_settings_ad_enable">개인 맞춤 광고 추천</string>
+    <string name="other_settings_ad_enable_summary">행동 데이터를 바탕으로 개인 맞춤 광고 추천</string>
     <string name="back">뒤로</string>
     <string name="next">다음</string>
     <string name="skip_underline">이 단계 건너뛰기</string>
@@ -70,8 +72,8 @@ MIUI를 사용하시려면 이용 약관과 개인정보 보호 정책에 반드
     <string name="content_description_complete">완료</string>
     <string name="language_picker_other_languages_title">더 많은 언어</string>
     <string name="language_settings">언어 선택</string>
-    <string name="navigation_picker_radio_text_full_screen">전체화면 모드</string>
-    <string name="navigation_picker_radio_text_virtual_key">가상 키 모드</string>
+    <string name="navigation_picker_radio_text_full_screen">전체화면 제스쳐</string>
+    <string name="navigation_picker_radio_text_virtual_key">버튼</string>
     <string name="congratulation_swipe">위로 스와이프하여 시스템 진입</string>
     <string name="enable_accessibility_dialog_message">10초이상 두 손가락으로 화면을 눌러 TalkBack를 켰습니다. TalkBack은 시각 장애인을 위해 음성 피드백을 제공합니다. 실수로 TalkBack을 켰다면 취소 버튼을 누르고 화면을 더블 탭하세요.</string>
     <string name="enable_accessibility_dialog_positive_btn">확인</string>

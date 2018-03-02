@@ -338,6 +338,7 @@ Wi-Fi 핫스팟을 끄지 마십시오.
     <string name="trans_device_wait_for_reconnecting">연결 중단됨, 다시 연결하시고 계속 진행하십시오.</string>
     <string name="trans_device_auto_reconnecting">기기 연결 해제됨, 자동으로 재연결 중…</string>
     <string name="trans_connecting_toast">연결 중…</string>
+    <string name="trans_switching_5g">5GHz Wi-Fi로 전환 중…</string>
     <string name="trans_connect_failed_toast">연결할 수 없음</string>
     <string name="trans_generate_qr_code_failed">QR 코드를 생성할 수 없습니다.</string>
     <string name="trans_scan_invalid_qrcode">잘못된 QR 코드</string>
@@ -515,6 +516,7 @@ Wi-Fi를 끄지마십시오."</string>
     <string name="error_permissions">이 앱은 캘린더 접근에 필요한 권한을 가지고 있지 않습니다. 설정으로 이동하셔서 권한을 확인하신 후 계속하십시오.</string>
     <string name="succ_description">성공</string>
     <string name="failed_description">실패</string>
+    <string name="notif_miasist_try_to_connect">Mi PC Suite가 기기에 연결하려고 시도 중입니다</string>
     <string name="notif_connect_miasist">Mi PC Suite에 연결됨</string>
     <string name="notif_disconnect_miasist">Mi PC Suite에 연결되지 않음</string>
     <string name="notif_sending_transingsd">%1$s (%2$s) 전송 중…</string>

@@ -66,7 +66,7 @@
     <string name="t_check_delete_file">בחר פריטים למחיקה</string>
     <string name="t_check_delete_history">בחר רשומות לניקוי</string>
     <string name="t_check_hide_file">בחר סרטונים להסתרה</string>
-    <string name="t_check_send_file">בחר פריט לשליחה</string>
+    <string name="t_check_send_file">בחר פריט אחד לשליחה</string>
     <string name="t_deleting">מוחק…</string>
     <string name="t_downloading_new_version">מוריד עדכונים…</string>
     <string name="t_exit_app">לחץ שוב ליציאה</string>
@@ -129,7 +129,7 @@
     <string name="v_video_null">אין סרטונים</string>
     <string name="vp_app_name">נגן הוידאו</string>
     <string name="vp_device_list">התקנים</string>
-    <string name="vp_device_list_seaching">&lt;אין התקנים לביצוע הקרנה></string>
+    <string name="vp_device_list_seaching">אין התקנים לביצוע הקרנה</string>
     <string name="screenrecord_cancel">בעיות התאמה</string>
     <string name="screenrecord_nosupport_record">"'מקליט המסך' אינו נתמך במכשיר זה."</string>
 </resources>

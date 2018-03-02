@@ -163,6 +163,7 @@
     <string name="cta_confirm">확인</string>
     <string name="submit_dialog_title">보고서 전송</string>
     <string name="submit_dialog_content">피드백에 포함된 첨부파일과 로그는 MIUI의 서버에 전송됩니다. 로그에 개인 정보와 위치 데이터가 포함될 수 있습니다.</string>
+    <string name="submit_dialog_content_global">첨부파일 (존재하는 경우) 및 로그 (업로드를 원하지 않는 항목은 체크를 해제할 수 있음) 를 포함하는 피드백이 MIUI 서버와 개발자의 분석 및 소통을 위해 마련된 MIUI 포럼 제한 섹션에 업로드될 것입니다. 로그에 개인 정보와 위치 데이터가 포함될 수 있습니다.</string>
     <string name="submit_dialog_cancel">취소</string>
     <string name="submit_dialog_confirm">전송</string>
     <string name="mobile_data_note_dialog_title">데이터 사용량 경고</string>
@@ -177,7 +178,7 @@
     <string name="modem_tool_log_finish_title">모뎀 로그 캡쳐됨</string>
     <string name="modem_tool_log_finish_desc">로그 %s로 저장됨</string>
     <string name="bugreport_dialog_not_show_again">다시 표시하지 않기</string>
-    <string name="bugreport_dialog_submit_content">피드백에 개인 정보와 위치 데이터가 포함될 수 있습니다.</string>
+    <string name="bugreport_dialog_submit_content">이 기기에 소프트웨어 로그를 저장합니다. 로그에는 개인 정보와 위치 데이터가 포함될 수 있습니다. 이 정보의 노출을 원하지 않으신다면 로그를 다른 사람과 공유하지 마십시오.</string>
     <string name="bugreport_dump_start_notification_title">버그 보고서 작성 중…</string>
     <string name="bugreport_dump_start_notification_summary">이 작업은 몇 분 정도 소요됩니다.</string>
     <string name="bugreport_dump_complete_notification_title">버그 보고서 작성됨</string>
@@ -219,6 +220,14 @@
     <string name="feedback_choose_module_hint">요구 사항</string>
     <string name="feedback_choose_reproductivity">재현율</string>
     <string name="feedback_title_reproductivity">재현율 선택</string>
+    <string name="feedback_select_problem_select_desc">\"문제\" 선택됨</string>
+    <string name="feedback_select_problem_not_select_desc">\"문제\" 선택되지 않음</string>
+    <string name="feedback_select_suggestion_select_desc">\"제안\" 선택됨</string>
+    <string name="feedback_select_suggestion_not_select_desc">\"제안\" 선택되지 않음</string>
+    <string name="feedback_select_upload_log_select_desc">\"로그 추가\" 선택됨</string>
+    <string name="feedback_select_upload_log_not_select_desc">\"로그 추가\" 선택되지 않음</string>
+    <string name="feedback_select_modem_log_select_desc">\"모뎀 로그 추가\" 선택됨</string>
+    <string name="feedback_select_modem_log_not_select_desc">\"모뎀 로그 추가\" 선택되지 않음</string>
     <string name="feedback_report_remind_login_desc">귀하의 Mi 계정으로 로그인 하셔야 저희의 기술자가 연락을 드릴 수 있습니다.</string>
     <string name="feedback_report_remind_login_desc2">\"내 보고서\"에서 보고서의 진행 상황을 볼 수 있습니다.</string>
     <string name="feedback_history_remind_login_desc">Mi 계정으로 로그인하시면 \"내 보고서\"에서 보고서의 진행 과정과 자세한 정보를 확인하실 수 있습니다.</string>
@@ -278,7 +287,7 @@
     <string name="close_feedback_main">숨김</string>
     <string name="title_frequent_question_feedback_main">FAQ</string>
     <string name="title_answer_feedback_main">해결 방법을 찾았습니다!</string>
-    <string name="title_same_question_feedback_main">MIUI 포럼에 비슷한 문제가 제기됐습니다</string>
+    <string name="title_same_question_feedback_main">MIUI 포럼에 비슷한 문제가 있습니다.</string>
     <string name="related_question_answer_details">관련 문제</string>
     <string name="issue_search">검색</string>
     <string name="module_item_more">더 보기</string>

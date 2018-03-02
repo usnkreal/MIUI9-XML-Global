@@ -109,7 +109,7 @@
     <string name="yearly">Ročne (%s)</string>
     <string name="yearly_plain">Ročne</string>
     <string name="account_and_calendar">Účty</string>
-    <string name="action_bar_date_button_title">Calculate date</string>
+    <string name="action_bar_date_button_title">Vypočítať dátum</string>
     <string name="action_bar_more_menu_view_description">Viac</string>
     <string name="action_bar_return">Naspäť</string>
     <string name="action_text_card_manager">Kanál</string>
@@ -165,7 +165,7 @@
     <string name="date_calculate_description">Vypočítať dátum</string>
     <string name="date_calculate_direction">Smer výpočtu</string>
     <string name="date_calculate_direction_content_description">Aktuálne umiestnenie: %1s.</string>
-    <string name="date_calculate_hint">Learn what date it is after a number days</string>
+    <string name="date_calculate_hint">Zistite, aký bude dátum po určitom počte dní</string>
     <string name="date_calculate_result">Výsledok</string>
     <string name="date_calculate_tab">Výpočet dátumu</string>
     <string name="date_calculate_today">0 dní</string>

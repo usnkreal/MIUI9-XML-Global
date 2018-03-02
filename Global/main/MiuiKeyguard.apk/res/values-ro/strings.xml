@@ -5,6 +5,12 @@
     <string name="unlockscreen_recharge_completed">Baterie încărcată</string>
     <string name="unlockscreen_low_battery">Conectează încărcătorul acum</string>
     <string name="lockscreen_charging_msg">Se încarcă</string>
+    <string name="reset_device_tip">Charge slowly, please reposition the phone</string>
+    <string name="reset_device_detail_tip">Wireless charging, please align the phone base, to ensure the charging speed.</string>
+    <string name="wireless_charge_stop">Wireless charging has stopped</string>
+    <string name="change_to_ac_charging">Switched to wireless charging</string>
+    <string name="wireless_charge_dialog_title">Position offset, please reposition</string>
+    <string name="wireless_charge_dialog_cancel">Cancel</string>
     <string name="emergency_call_string">Urgență</string>
     <string name="forget_password_string">Parola uitată</string>
     <string name="input_puk_code">Inserează PUK</string>
@@ -65,13 +71,10 @@
     <string name="lock_wallpaper_enter">Introduceţi</string>
     <string name="custom_lock_wallpaper_enter">Introduceţi</string>
     <string name="fingerprint_enter_second_psw_title">Introduceți parola la Al doilea spațiu</string>
-    <string name="fingerprint_enter_second_psw_msg">Introduceți parola la Al doilea spațiu după ce ați repornit dispozitivul pentru a putea utiliza recunoașterea amprentei</string>
+    <string name="fingerprint_enter_second_psw_msg">Enter Second space password to be able to use fingerprint recognition</string>
     <string name="fingerprint_enter_second_psw_msg_oldman">Nu se poate intra în al doilea spațiu în timp ce este în modul Lite</string>
     <string name="keyguard_charging_info_click_to_detail">Vezi detalii</string>
     <string name="keyguard_quick_charging_info_click_to_detail">Încărcare rapidă. Atingeţi pentru a vizualiza detaliile.</string>
-    <string name="keyguard_quickly_charging_info_charging_text">Încărcare rapidă</string>
-    <string name="keyguard_charging_info_finished_charging_text">Încărcat complet</string>
-    <string name="keyguard_charging_info_charging_text">Se încarcă</string>
     <string name="keyguard_charging_info_last_charge_today_time">Astăzi %s</string>
     <string name="keyguard_charging_info_last_charge_yesterday_time">Ieri %s</string>
     <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
@@ -149,5 +152,5 @@
     <string name="face_unlock_reenter_title">Înregistrați datele feței dvs. din nou.</string>
     <string name="face_unlock_reenter_content">Algoritmul de deblocare a feței este actualizat. Atingeți pentru a înregistra datele feței din nou.</string>
     <string name="digital_clock_dot">:</string>
-    <string name="keyguard_left_view_lock_wallpaper">Wallpaper Carousel</string>
+    <string name="keyguard_left_view_lock_wallpaper">Imagini de fundal Carusel</string>
 </resources>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="sina_share_pendding">Odosielanie …</string>
+    <string name="sina_share_pendding">Odosielanie…</string>
     <string name="sina_share_success">Odoslané</string>
-    <string name="sina_share_fail">Nebolo možné odoslať</string>
-    <string name="sina_token_expired_warning">Účet Weibo vypršal. Pridajte účet znova.</string>
-    <string name="sina_token_invalid_warning">Váš účet Weibo je neplatný. Pridajte účet znova.</string>
+    <string name="sina_share_fail">Nepodarilo sa odoslať</string>
+    <string name="sina_token_expired_warning">Platnosť účtu Weibo vypršala, pridajte účet znova.</string>
+    <string name="sina_token_invalid_warning">Váš účet Weibo je neplatný, pridajte účet znova.</string>
     <string name="sina_share_fail_content_repeat">Toto ste už zdieľali.</string>
     <string name="app_name">Aktualizácia</string>
     <string name="get_current">Prevziať najnovšiu</string>
@@ -89,7 +89,7 @@
     <string name="enable">Povoliť</string>
     <string name="disable">Nevypínajte</string>
     <string name="mobile_download_title">Aktualizovať pomocou mobilných dát?</string>
-    <string name="mobile_download_msg">Ak máte program s neobmedzenými dátami, môžete zvoliť automatickú aktualizáciu pomocou mobilných dát. Po tom ako zapnete túto funkciu, aktualizácie sa budú priebežne sťahovať.</string>
+    <string name="mobile_download_msg">Ak máte program s neobmedzenými dátami, môžete sťahovať aktualizácie automaticky pomocou mobilných dát. Po tom ako zapnete túto funkciu, aktualizácie sa budú priebežne sťahovať.</string>
     <string name="recovery_failed_title">Aktualizácia zlyhala</string>
     <string name="recovery_power_not_enough_title">Slabá batéria</string>
     <string name="recovery_power_not_enough_msg">Ak chcete aktualizovať zariadenie, musíte ho nabiť aspoň na 15%.</string>
@@ -316,4 +316,5 @@ BETA Feedback Programu\""</string>
     <string name="security_space_msg">MIUI 9 má nový systém súborov. Pokiaľ teraz reštartujete zariadenie, nebudete už môcť ďalej používať Druhý priestor. Pred reštartovaním preto presuňte všetky položky z Druhého priestoru do Prvého.</string>
     <string name="security_space_button_pos">Nereštartovať</string>
     <string name="security_space_button_neg">Reštartovať</string>
+    <string name="privacy_revoke_msg">Updater allows you to keep MIUI and its features up to date. After you revoke authorization, the app will stop collecting data, and all the related data (including the data about devices which require updates) will be deleted from this device and the servers. Refusing to update your device might bring security risks. Revoke authorization anyway?</string>
 </resources>

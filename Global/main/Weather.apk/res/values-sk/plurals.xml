@@ -6,9 +6,9 @@
         <item quantity="few">Pred %d hodinami</item>
     </plurals>
     <plurals name="activity_main_update_time_in_one_hour">
-        <item quantity="other">%d minutes ago</item>
-        <item quantity="one">Pred %d min</item>
-        <item quantity="few">Pred %d min</item>
+        <item quantity="other">Pred %d minútami</item>
+        <item quantity="one">Pred %d minútou</item>
+        <item quantity="few">Pred %d minútami</item>
     </plurals>
     <plurals name="activity_main_update_time_one_day_ago">
         <item quantity="other">Pred %d dňami</item>
@@ -16,9 +16,9 @@
         <item quantity="few">Pred %d dňami</item>
     </plurals>
     <plurals name="daily_forcast_drawer_on_top">
-        <item quantity="other">%1$s-day forecast</item>
+        <item quantity="other">Predpoveď na %1$s dní</item>
         <item quantity="one">Predpoveď na %1$s deň</item>
-        <item quantity="few">Predpoveď na %1$s dní</item>
+        <item quantity="few">Predpoveď na %1$s dni</item>
     </plurals>
     <plurals name="feedback_result_interval_time_too_short">
         <item quantity="other">%1$s sekúnd po odoslaní spätnej väzby</item>

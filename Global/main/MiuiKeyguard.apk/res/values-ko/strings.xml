@@ -5,6 +5,12 @@
     <string name="unlockscreen_recharge_completed">배터리 충전됨</string>
     <string name="unlockscreen_low_battery">충전기를 지금 연결하십시오.</string>
     <string name="lockscreen_charging_msg">충전 중</string>
+    <string name="reset_device_tip">천천히 충전, 휴대전화를 재배치하십시오.</string>
+    <string name="reset_device_detail_tip">무선 충전, 휴대전화 베이스를 정렬하여 충전 속도를 보장해 주십시오.</string>
+    <string name="wireless_charge_stop">무선 충전 중지됨</string>
+    <string name="change_to_ac_charging">무선 충전으로 전환됨</string>
+    <string name="wireless_charge_dialog_title">위치 엇갈림, 재배치해 주십시오.</string>
+    <string name="wireless_charge_dialog_cancel">취소</string>
     <string name="emergency_call_string">긴급 통화</string>
     <string name="forget_password_string">비밀번호 분실</string>
     <string name="input_puk_code">PUK 입력</string>
@@ -65,13 +71,10 @@
     <string name="lock_wallpaper_enter">입력</string>
     <string name="custom_lock_wallpaper_enter">입력</string>
     <string name="fingerprint_enter_second_psw_title">보조 공간 비밀번호 입력</string>
-    <string name="fingerprint_enter_second_psw_msg">기기 재시작 후 지문 인식을 사용하시려면 보조 공간 비밀번호를 입력하십시오.</string>
+    <string name="fingerprint_enter_second_psw_msg">지문 인식을 사용하시려면 보조 공간 비밀번호를 입력하십시오.</string>
     <string name="fingerprint_enter_second_psw_msg_oldman">라이트 모드 상태에서는 보조 공간에 진입할 수 없습니다.</string>
     <string name="keyguard_charging_info_click_to_detail">세부사항 보기</string>
     <string name="keyguard_quick_charging_info_click_to_detail">빠른 충전 중, 탭하여 세부사항 확인</string>
-    <string name="keyguard_quickly_charging_info_charging_text">빠른 충전 중…</string>
-    <string name="keyguard_charging_info_finished_charging_text">완전히 충전됨</string>
-    <string name="keyguard_charging_info_charging_text">충전</string>
     <string name="keyguard_charging_info_last_charge_today_time">오늘 %s</string>
     <string name="keyguard_charging_info_last_charge_yesterday_time">어제 %s</string>
     <string name="keyguard_charging_info_last_charge_time">M/d H:mm</string>

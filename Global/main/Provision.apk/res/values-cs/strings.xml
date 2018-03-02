@@ -24,6 +24,8 @@ Zobrazit Zásady ochrany osobních údajů pro tuto klávesnici."</string>
     <string name="other_settings_upload_debug_log_summary">Informace, které shromažďujeme, budou sloužit k nalezení a analyzování problémů v systému a mohou obsahovat osobní údaje. Žádné údaje nebudou použity k vaší identifikaci.</string>
     <string name="other_settings_auto_update">Instalovat automaticky</string>
     <string name="other_settings_auto_update_summary">MIUI vybere nejvhodnější čas pro instalaci aktualizací.</string>
+    <string name="other_settings_ad_enable">Přizpůsobená reklamní doporučení</string>
+    <string name="other_settings_ad_enable_summary">Reklamy přizpůsobené podle vašich údajů a návyků</string>
     <string name="back">Zpět</string>
     <string name="next">Další</string>
     <string name="skip_underline">Přeskočit tento krok</string>
@@ -69,8 +71,8 @@ Abyste mohli využívat služby MIUI, musíte nejprve souhlasit s našimi Smluvn
     <string name="content_description_complete">Dokončeno</string>
     <string name="language_picker_other_languages_title">Ostatní jazyky</string>
     <string name="language_settings">Vyberte jazyk</string>
-    <string name="navigation_picker_radio_text_full_screen">Režim celé obrazovky</string>
-    <string name="navigation_picker_radio_text_virtual_key">Režim virtuálním tlačítek</string>
+    <string name="navigation_picker_radio_text_full_screen">Gesta pro celou obrazovku</string>
+    <string name="navigation_picker_radio_text_virtual_key">Tlačítka</string>
     <string name="congratulation_swipe">Přejeďte nahoru pro vstup do systému</string>
     <string name="enable_accessibility_dialog_message">Zapli jste funkci TalkBack pomocí stisknutí a podržení dvou prstů na obrazovce více než 10 sekund. TalkBack poskytuje hlasovou odezvu pro osoby se zrakovým postižením. Pokud jste tuto funkci zapli omylem, klepněte na tlačítko Zrušit a poté klepněte dvakrát na obrazovku.</string>
     <string name="enable_accessibility_dialog_positive_btn">OK</string>

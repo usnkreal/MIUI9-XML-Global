@@ -1,5 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="alarm_set">
+        <item>"L'alarme sonnera dans moins d'une minute."</item>
+        <item>"L'alarme sonnera dans %1$s."</item>
+        <item>"L'alarme sonnera dans %2$s."</item>
+        <item>"L'alarme sonnera dans %1$s et %2$s."</item>
+        <item>"L'alarme sonnera dans %3$s."</item>
+        <item>"L'alarme sonnera dans %1$s et %3$s."</item>
+        <item>"L'alarme sonnera dans %2$s et %3$s."</item>
+        <item>"L'alarme sonnera dans %1$s, %2$s et %3$s."</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>Jamais</item>
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>25 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+    <string-array name="snooze_duration_entries">
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>25 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Ne rien faire</item>
+        <item>Répéter</item>
+        <item>Rejeter</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="alarm_in_furture">
+        <item>"Alarme dans moins d'une minute"</item>
+        <item>Alarme dans %1$s</item>
+        <item>Alarme dans %2$s</item>
+        <item>Alarme dans %1$s %2$s</item>
+        <item>Alarme dans %3$s</item>
+        <item>Alarme dans %1$s %3$s</item>
+        <item>Alarme dans %2$s %3$s</item>
+        <item>Alarme dans %1$s %2$s %3$s</item>
+    </string-array>
+    <string-array name="alarm_repeat_type">
+        <item>Une fois</item>
+        <item>Quotidiennement</item>
+        <item>Jours ouvrés</item>
+        <item>Jours fériés</item>
+        <item>Du lundi au vendredi</item>
+        <item>Personnalisé</item>
+    </string-array>
+    <string-array name="alarm_repeat_type_no_workdays">
+        <item>Une fois</item>
+        <item>Quotidiennement</item>
+        <item>Du lundi au vendredi</item>
+        <item>Personnalisé</item>
+    </string-array>
+    <string-array name="aqi_value">
+        <item>Bon</item>
+        <item>Satisfaisant</item>
+        <item>Modérément pollué</item>
+        <item>Faible</item>
+        <item>Très faible</item>
+        <item>Sévère</item>
+    </string-array>
+    <string-array name="days">
+        <item>Hier</item>
+        <item>"Aujourd'hui"</item>
+        <item>Demain</item>
+    </string-array>
+    <string-array name="weather_tips_value">
+        <item>"Réduisez les activités à l'extérieur"</item>
+        <item>Les chaussées sont glissantes</item>
+        <item>Le temps est orageux, soyez prudent !</item>
+        <item>"L'air est pollué, veuillez porter un masque !"</item>
+        <item>Prenez un parapluie si vous sortez</item>
+        <item>Faites attention sur la route</item>
+        <item>"Une tempête de sable s'annonce, veuillez porter un masque !"</item>
+        <item>Bonne journée !</item>
+    </string-array>
     <string-array name="cities_names_miui">
         <item>Abidjan</item>
         <item>Accra</item>
@@ -296,100 +391,5 @@
         <item>Tegucigalpa</item>
         <item>Paramaribo</item>
         <item>Quito</item>
-    </string-array>
-    <string-array name="alarm_in_furture">
-        <item>"Alarme dans moins d'une minute"</item>
-        <item>Alarme dans %1$s</item>
-        <item>Alarme dans %2$s</item>
-        <item>Alarme dans %1$s %2$s</item>
-        <item>Alarme dans %3$s</item>
-        <item>Alarme dans %1$s %3$s</item>
-        <item>Alarme dans %2$s %3$s</item>
-        <item>Alarme dans %1$s %2$s %3$s</item>
-    </string-array>
-    <string-array name="days">
-        <item>Hier</item>
-        <item>"Aujourd'hui"</item>
-        <item>Demain</item>
-    </string-array>
-    <string-array name="alarm_repeat_type">
-        <item>Une fois</item>
-        <item>Quotidiennement</item>
-        <item>Jours ouvrés</item>
-        <item>Jours fériés</item>
-        <item>Du lundi au vendredi</item>
-        <item>Personnalisé</item>
-    </string-array>
-    <string-array name="alarm_repeat_type_no_workdays">
-        <item>Une fois</item>
-        <item>Quotidiennement</item>
-        <item>Du lundi au vendredi</item>
-        <item>Personnalisé</item>
-    </string-array>
-    <string-array name="aqi_value">
-        <item>Bon</item>
-        <item>Satisfaisant</item>
-        <item>Modérément pollué</item>
-        <item>Faible</item>
-        <item>Très faible</item>
-        <item>Sévère</item>
-    </string-array>
-    <string-array name="weather_tips_value">
-        <item>"Réduisez les activités à l'extérieur"</item>
-        <item>Les chaussées sont glissantes</item>
-        <item>Le temps est orageux, soyez prudent !</item>
-        <item>"L'air est pollué, veuillez porter un masque !"</item>
-        <item>Prenez un parapluie si vous sortez</item>
-        <item>Faites attention sur la route</item>
-        <item>"Une tempête de sable s'annonce, veuillez porter un masque !"</item>
-        <item>Bonne journée !</item>
-    </string-array>
-    <string-array name="alarm_set">
-        <item>"L'alarme sonnera dans moins d'une minute."</item>
-        <item>"L'alarme sonnera dans %1$s."</item>
-        <item>"L'alarme sonnera dans %2$s."</item>
-        <item>"L'alarme sonnera dans %1$s et %2$s."</item>
-        <item>"L'alarme sonnera dans %3$s."</item>
-        <item>"L'alarme sonnera dans %1$s et %3$s."</item>
-        <item>"L'alarme sonnera dans %2$s et %3$s."</item>
-        <item>"L'alarme sonnera dans %1$s, %2$s et %3$s."</item>
-    </string-array>
-    <string-array name="snooze_duration_entries">
-        <item>1 minute</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>15 minutes</item>
-        <item>20 minutes</item>
-        <item>25 minutes</item>
-        <item>30 minutes</item>
-    </string-array>
-    <string-array name="snooze_duration_values">
-        <item>1</item>
-        <item>5</item>
-        <item>10</item>
-        <item>15</item>
-        <item>20</item>
-        <item>25</item>
-        <item>30</item>
-    </string-array>
-    <string-array name="auto_silence_entries">
-        <item>Jamais</item>
-        <item>1 minute</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>15 minutes</item>
-        <item>20 minutes</item>
-        <item>25 minutes</item>
-        <item>30 minutes</item>
-    </string-array>
-    <string-array name="volume_button_setting_entries">
-        <item>Ne rien faire</item>
-        <item>Répéter</item>
-        <item>Rejeter</item>
-    </string-array>
-    <string-array name="volume_button_setting_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
 </resources>

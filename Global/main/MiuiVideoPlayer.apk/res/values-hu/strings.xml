@@ -25,9 +25,9 @@
     <string name="airkan_playing">Kijátszás ezzel %s</string>
     <string name="airkan_tips">Kattintson a kivetítéshez</string>
     <string name="app_name">Mi Videó</string>
-    <string name="audio_changed">Új zeneszám</string>
-    <string name="audio_title">Zeneszám</string>
-    <string name="audio_track">Zeneszám</string>
+    <string name="audio_changed">Új hangsáv</string>
+    <string name="audio_title">Hangsáv</string>
+    <string name="audio_track">Hangsáv</string>
     <string name="com_permission_desc">A Mi Videó nem fér hozzá a videókhoz. Engedélyezze a hozzáférést a Beállításokban.</string>
     <string name="com_permission_title">Engedélyek szükségesek</string>
     <string name="do_not_show_this_again">Ne emlékeztessen újra</string>
@@ -46,7 +46,7 @@
     <string name="screenrecord_share_gif">GIF megosztása</string>
     <string name="screenrecord_share_video">Videó megosztása</string>
     <string name="screenrecord_slience">A felvett videó néma, mert a MIUI rendszer jelenlegi verziója nem támogatja a hangfelvételt.</string>
-    <string name="screenrecord_success">Felvétel kész. Mostmár megoszthatja a videót.</string>
+    <string name="screenrecord_success">Felvétel kész. Most már megoszthatja a videót.</string>
     <string name="share_tips">Képernyőkép elkészítve. Koppintson a megosztáshoz.</string>
     <string name="storage_external_sdcard">Külső tárhely</string>
     <string name="storage_internal_sdcard">Belső tárhely</string>
@@ -92,7 +92,7 @@
     <string name="t_exit_app">Érintse meg újra a kilépéshez</string>
     <string name="t_no_new_version">A Mi Videó naprakész.</string>
     <string name="t_password_limit">A jelszónak legalább 4 karakternek kell lennie</string>
-    <string name="t_password_null">A Jelszó mező nem lehet üres</string>
+    <string name="t_password_null">A jelszómező nem lehet üres</string>
     <string name="t_password_wrong">A jelszó hibás, próbálja újra.</string>
     <string name="t_search_null">Adjon meg kulcsszavakat a kereséshez</string>
     <string name="v_agree">Elfogadás</string>
@@ -149,7 +149,7 @@
     <string name="v_video_null">Nincsenek videók</string>
     <string name="vp_app_name">Videólejátszó</string>
     <string name="vp_device_list">Készülékek</string>
-    <string name="vp_device_list_seaching">&lt;Nincs készülék a kivetítéshez></string>
+    <string name="vp_device_list_seaching">Nincs készülék a kivetítéshez</string>
     <string name="screenrecord_cancel">Kompatibilitási problémák</string>
     <string name="screenrecord_nosupport_record">A Képernyővideó-felvevő ezen a készüléken nem támogatott.</string>
 </resources>

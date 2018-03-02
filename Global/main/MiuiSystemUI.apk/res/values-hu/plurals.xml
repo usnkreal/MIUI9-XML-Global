@@ -9,8 +9,8 @@
         <item quantity="one">Előzmények megnyitva, %d elérhető alkalmazás.</item>
     </plurals>
     <plurals name="accessibility_recent_task_first_enter_tips">
-        <item quantity="other">Előzmények megnyitva, elérhető alkalmazások: %d. Húzza felfelé az eltávolításhoz, húzza lefelé a rögzítéshez.</item>
-        <item quantity="one">Előzmények megnyitva, elérhető alkalmazások: %d. Húzza felfelé az eltávolításhoz, húzza lefelé a rögzítéshez.</item>
+        <item quantity="other">Előzmények megnyitva, %d elérhető alkalmazás. Húzza felfelé az eltávolításhoz, húzza lefelé a rögzítéshez.</item>
+        <item quantity="one">Előzmények megnyitva, %d elérhető alkalmazás. Húzza felfelé az eltávolításhoz, húzza lefelé a rögzítéshez.</item>
     </plurals>
     <plurals name="settings_toggle_position_divider_page">
         <item quantity="other">%1$d kapcsoló fog megjelenni az értesítési felületen</item>

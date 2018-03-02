@@ -1128,6 +1128,7 @@ PIN2 funkciói a következő helytelen próbálkozás után le lesznek tiltva."<
     <string name="cmcc_ut_data_enable_prompt">Nem sikerült csatlakozni a VoLTE hálózathoz. Kapcsolja be a mobilnetet most.</string>
     <string name="volte_switch_title">VoLTE bekapcsolva</string>
     <string name="volte_switch_summary">VoLTE használata a hang és videóhívás minőségének feljavításához</string>
+    <string name="volte_switch_summary2">Confirm that your carrier supports this feature before turning on. Otherwise, regular calls might be affected.</string>
     <string name="volte_switch_not_support_summary">A mobiladat SIM-kártya nem támogatja a VoLTE hívásokat.</string>
     <string name="volte_switch_not_support_summary2">A VoLTE hívásokat szolgáltatója még nem támogatja.</string>
     <string name="enable_dual_4g_prompt_when_turn_on_volte">A VoLTE mindkét SIM kártyán 4G kapcsolatot igényel. Átkapcsol most kettős 4G módra?</string>
@@ -1135,6 +1136,9 @@ PIN2 funkciói a következő helytelen próbálkozás után le lesznek tiltva."<
     <string name="dual_4g_switch_summary">Mindkét SIM kártyán engedélyezi a 4G kapcsolatot.</string>
     <string name="turn_on_dual_4g_failed">Kettős 4G mód bekapcsolása sikertelen.</string>
     <string name="turn_off_dual_4g_failed">Kettős 4G mód kikapcsolása sikertelen.</string>
+    <string name="vice_slot_volte_data_switch_title">A másodlagos SIM kártyán mobiladat-forgalom használata VoLTE hívásokkor</string>
+    <string name="vice_slot_volte_data_switch_summary">Készüléke mobiladat-hálózatra fog csatlakozni a másodlagos SIM kártyán zajló VoLTE hívások folyamán</string>
+    <string name="vice_slot_volte_data_switch_prompt">Készüléke mobiladat-hálózatra fog csatlakozni a másodlagos SIM kártyán zajló VoLTE hívások folyamán. Ez további költségekkel járhat. Forduljon szolgáltatójához a részletekért.</string>
     <string name="roaming_notification_title">Úgy tűnik, a barangolás aktiválva van</string>
     <string name="roaming_notification_content">Hozzáadhatja automatikusan az országkódokat a kényelmesebb tárcsázásért.</string>
     <string name="cdma_alert_title">UIM kártyának alapértelmezettnek kell lennie</string>
@@ -1189,6 +1193,18 @@ PIN2 funkciói a következő helytelen próbálkozás után le lesznek tiltva."<
     <string name="miui_notification_network_selection_title_by_sim">SIM %s: Nincs szolgáltatás</string>
     <string name="miui_network_selection_reset_text">Visszaállítás</string>
     <string name="quick_dial_setting_title">Gyorstárcsázás</string>
+    <string name="cfnry_time_five_sec">5 mp</string>
+    <string name="cfnry_time_ten_sec">10 mp</string>
+    <string name="cfnry_time_fifteen_sec">15 mp</string>
+    <string name="cfnry_time_twenty_sec">20 mp</string>
+    <string name="cfnry_time_twenty_five_sec">25 mp</string>
+    <string name="cfnry_time_thirty_sec">30 mp</string>
+    <string name="cfnry_time_setting_title">Várakozási idő beállítása</string>
+    <string name="prompt_when_turnon_volte_without_lte">"LTE networks aren't available now. Turning on VoLTE may prevent you from making regular calls."</string>
+    <string name="prompt_to_turnoff_volte_when_failed">"VoLTE services aren't available. Turn off VoLTE to make a call."</string>
+    <string name="volte_tips_when_turn_on">China Telecom VoLTE services are only provided in the areas with LTE network coverage.</string>
+    <string name="close">Bezárás</string>
+    <string name="prompt_to_turnoff_volte_when_supp_service">"Service isn't available. Turn off VoLTE in the Settings."</string>
     <string name="network_forbidden">%s (tiltott)</string>
     <string name="voice_number_setting_primary_user_only">Hangpostát csak az elsődleges felhasználó változtathatja meg.</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_ENTRY">SIM hálózatfüggetlenítő PIN kódja</string>
@@ -1331,7 +1347,6 @@ Még %d próbálkozás maradt."</string>
     <string name="china_mobile">China Mobile</string>
     <string name="china_telecom">China Telecom</string>
     <string name="china_unicom">China Unicom</string>
-    <string name="close">Bezárás</string>
     <string name="default_sim_setting">Alapértelmezett SIM kártya:</string>
     <string name="disconnect_data_confirm">Ideiglenesen lecsatlakozik a hálózatról. Folytatja?</string>
     <string name="fdn_service_unavailable">Az FDN szolgáltatás nem elérhető.</string>

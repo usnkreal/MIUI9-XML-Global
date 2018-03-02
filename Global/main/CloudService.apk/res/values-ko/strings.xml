@@ -302,6 +302,15 @@
     <string name="micloud_detail_pause">동기화 일시정지됨</string>
     <string name="micloud_detail_need_charge_or_sleep">충전기를 연결하시면 화면을 끄시면 동기화가 시작됩니다.</string>
     <string name="micloud_detail_battery_low">배터리 적음</string>
+    <string name="micloud_privacy_cloud_off">동기화 꺼짐</string>
+    <string name="micloud_privacy_licence_agreed">Mi 클라우드 개인 정보 보호 정책에 동의합니다.</string>
+    <string name="micloud_privacy_licence_privacy_policy">개인 정보 보호 정책</string>
+    <string name="micloud_privacy_explanation">권한 부여 후 Mi 클라우드 활성화</string>
+    <string name="micloud_privacy_cloud_sync">Mi 클라우드 활성화</string>
+    <string name="micloud_privacy_warning_title">팁</string>
+    <string name="micloud_privacy_warning_content">Mi 클라우드 활성화 실패, 나중에 시도하십시오.</string>
+    <string name="micloud_privacy_warning_button">뒤로</string>
+    <string name="micloud_privacy_more">더 보기</string>
     <string name="micloud_check_sim_title">"SIM 카드가 교체된 것 같습니다. Mi 계정으로 로그인하여
 Mi 클라우드를 다시 활성화하십시오."</string>
     <string name="micloud_check_sim_notify_title">Mi 클라우드 재활성화</string>
@@ -322,7 +331,7 @@ Mi 클라우드를 다시 활성화하십시오."</string>
     <string name="get_first_month_gb">무료 공간 %s 얻기</string>
     <string name="more_activity_in_upgrade_space"><a href="http://i.mi.com">http://i.mi.com</a>에서 더 알아보기</string>
     <string name="success_upgraded_space">%s 추가됨</string>
-    <string name="total_space_upgraded_to">총 공간:%s</string>
+    <string name="total_space_upgraded_to">총 공간: %s</string>
     <string name="apple_cloud">iCloud</string>
     <string name="google_cloud">구글 드라이브</string>
     <string name="microsoft_cloud">MS 클라우드 서비스</string>
@@ -462,6 +471,8 @@ Mi 클라우드를 다시 활성화하십시오."</string>
     <string name="micloud_notif_content_multi_user_error">같은 계정으로 기본 공간에 로그인 하셨습니다.</string>
     <string name="micloud_notif_title_dirty_data">항목을 동기화하지 않으셨습니다.</string>
     <string name="micloud_notif_content_dirty_data">자세히</string>
+    <string name="micloud_notif_title_privacy_reopen_failed">클라우드 서비스를 시작할 수 없습니다.</string>
+    <string name="micloud_notif_content_privacy_reopen_failed">세부사항 보기</string>
     <string name="micloud_find_device_guide_title">&lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font>에 로그인하여 기기의 위치 확인, 잠금 또는 제거를 하실 수 있습니다. 이는 기기 분실시 큰 도움이 될 것입니다. &lt;br />기기 분실를 분실하신 후 &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font>.에서 Alipay, WeChat, QQ 등 주요 앱의 보안 센터에 정보를 전송하여 계정을 보호하실 수 있습니다.</string>
     <string name="micloud_find_device_guide_content">이 서비스 활성화를 위해 SMS 메시지 발신이 요구됩니다. 이 메시지에 대한 요금이 추가될 것이며 SIM 카드를 바꾸실 시에 자동으로 기능 재활성화를 위해 메시지가 전송될 것입니다.</string>
     <string name="micloud_find_device_guide_button">기기 찾기 켜기</string>
@@ -500,6 +511,8 @@ Mi 클라우드를 다시 활성화하십시오."</string>
     <string name="micloud_find_device_close_alert_content">이 기능을 종료하시면 기기 분실 시 위치 정보를 얻지못하게 됩니다.</string>
     <string name="micloud_find_device_close_alert_positive">끄지않기</string>
     <string name="micloud_find_device_close_alert_negtive">그래도 끄기</string>
+    <string name="find_device_gdpr_prompt">기기 찾기 기능을 켜시면 \"개인 정보 보호 정책\"에 동의하는 것입니다. 권한의 철회를 원하신다면 이 기능을 꺼주십시오.</string>
+    <string name="find_device_gdpr_prompt_policy_doc_name">\"개인 정보 보호 정책\"</string>
     <string name="activate_finddevice">기기를 활성화 하시려면 네트워크에 연결하십시오.</string>
     <string name="account_related">귀하의 기기는 Mi 계정(%s) 와 연결되어 있습니다. 네트워크를 이용한 인증 후에 정상적으로 사용하실 수 있습니다.</string>
     <string name="connect_network">Wi-Fi에 연결하시거나 SIM 카드를 삽입해 주십시오.</string>
@@ -551,6 +564,7 @@ Mi 클라우드를 다시 활성화하십시오."</string>
     <string name="micloud_main_head_menu_state_open">켜짐</string>
     <string name="micloud_main_head_menu_state_close">꺼짐</string>
     <string name="micloud_main_head_menu_state_unavailable">사용할 수 없음</string>
+    <string name="micloud_main_head_menu_finddevice_unavailable">기기 찾기 기능은 보조 공간에서는 사용할 수 없습니다. 기본 공간에서 시도하십시오.</string>
     <string name="micloud_footer_normal_url">i.mi.com</string>
     <string name="micloud_footer_international_url">mi.com/micloud</string>
     <string name="ks_fingerprint_payment">지문 결제</string>
@@ -574,6 +588,8 @@ Mi 클라우드를 다시 활성화하십시오."</string>
     <string name="title_back">뒤로</string>
     <string name="reading_status">상태 로드 중…</string>
     <string name="reading_status_failure">상태 로드 실패</string>
+    <string name="micloud_alert_dialog_negative">취소</string>
+    <string name="micloud_alert_dialog_positive">확인</string>
     <string name="micloud_title_dspt" formatted="false">사용된 공간 %s/전체 공간 %s</string>
     <string name="micloud_main_memory_low_title">휴대전화의 내부 저장소가 가득 찼습니다.</string>
     <string name="micloud_notif_title_memory_low">Mi 클라우드와 동기화할 수 없습니다.</string>

@@ -4,65 +4,78 @@
         <item quantity="other">%d souborů se systémovými daty</item>
         <item quantity="one">%d soubor se systémovými daty</item>
         <item quantity="few">%d soubory se systémovými daty</item>
+        <item quantity="many">%d system data files</item>
     </plurals>
     <plurals name="backup_items_app_tailer">
         <item quantity="other">%d souborů s daty aplikace</item>
         <item quantity="one">%d soubor s daty aplikace</item>
         <item quantity="few">%d soubory s daty aplikace</item>
+        <item quantity="many">%d app data files</item>
     </plurals>
     <plurals name="data_item_count">
         <item quantity="other">%d položek</item>
         <item quantity="one">%d položka</item>
         <item quantity="few">%d položky</item>
+        <item quantity="many">%d items</item>
     </plurals>
     <plurals name="total_num">
         <item quantity="other">%d položek,</item>
         <item quantity="one">%d položka,</item>
         <item quantity="few">%d položky,</item>
+        <item quantity="many">%d items,</item>
     </plurals>
     <plurals name="custom_progress">
         <item quantity="other">%d položek</item>
         <item quantity="one">%d položka</item>
         <item quantity="few">%d položky</item>
+        <item quantity="many">%d items</item>
     </plurals>
     <plurals name="trans_time_format_minute">
         <item quantity="other">%d minut</item>
         <item quantity="one">%d minuta</item>
         <item quantity="few">%d minuty</item>
+        <item quantity="many">%d minutes</item>
     </plurals>
     <plurals name="trans_time_format_hours">
         <item quantity="other">%d hodin</item>
         <item quantity="one">%d hodina</item>
         <item quantity="few">%d hodiny</item>
+        <item quantity="many">%d hours</item>
     </plurals>
     <plurals name="select_item_summary">
         <item quantity="other">%1$s | %2$d položek</item>
         <item quantity="one">%1$s | %2$d položka</item>
         <item quantity="few">%1$s | %2$d položky</item>
+        <item quantity="many">%1$s | %2$d items</item>
     </plurals>
     <plurals name="select_item_count_unit">
         <item quantity="other">položek</item>
         <item quantity="one">položka</item>
         <item quantity="few">položky</item>
+        <item quantity="many">items</item>
     </plurals>
     <plurals name="save_item_saving_summary">
         <item quantity="other">Obnoveno %d položek</item>
         <item quantity="one">Obnovena %d položka</item>
         <item quantity="few">Obnoveny %d položky</item>
+        <item quantity="many">Restored %d items</item>
     </plurals>
     <plurals name="save_item_saved_summary">
         <item quantity="other">Importováno a obnoveno %d položek</item>
         <item quantity="one">Importována a obnovena %d položka</item>
         <item quantity="few">Importovány a obnoveny %d položky</item>
+        <item quantity="many">Imported and restored %d items</item>
     </plurals>
     <plurals name="save_item_failed_summary_seg1">
         <item quantity="other">"Importováno %d položek. "</item>
         <item quantity="one">"Importována %d položka. "</item>
         <item quantity="few">"Importovány %d položky. "</item>
+        <item quantity="many">"Imported %d items. "</item>
     </plurals>
     <plurals name="save_item_failed_summary_seg2">
         <item quantity="other">Importovat %d položek znovu.</item>
         <item quantity="one">Importovat %d položku znovu.</item>
         <item quantity="few">Importovat %d položky znovu.</item>
+        <item quantity="many">Import %d items again.</item>
     </plurals>
 </resources>

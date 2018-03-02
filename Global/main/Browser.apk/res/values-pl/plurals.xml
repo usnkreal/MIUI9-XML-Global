@@ -30,6 +30,11 @@
         <item quantity="one">1 dopasowanie</item>
         <item quantity="few">%1$d z %2$d</item>
     </plurals>
+    <plurals name="nav_screen_incognito_time">
+        <item quantity="other">Po %d sekundach zostanie utworzona automatycznie nowa strona</item>
+        <item quantity="one">Po %d sekundzie zostanie utworzona automatycznie nowa strona</item>
+        <item quantity="few">Po %d sekundach zostanie utworzona automatycznie nowa strona</item>
+    </plurals>
     <plurals name="pref_adblock_counts">
         <item quantity="other">%d zablokowanych</item>
         <item quantity="one">%d zablokowana</item>

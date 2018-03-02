@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="privacy_authorize_revoke_title">Engedélyezés és visszavonás</string>
+    <string name="enabled_authorised_apps_title">Engedélyezettek</string>
+    <string name="enabled_authorised_apps_summary">Az egyes alkalmazáskapcsolók átkapcsolása után a megadott engedélyek visszavonásra kerülnek.</string>
+    <string name="disabled_authorised_apps_title">Nem engedélyezettek</string>
+    <string name="privacy_authorize_revoke_dialog_title">Engedély visszavonása</string>
+    <string name="privacy_authorize_revoke_dialog_msg">Amint visszavonta az engedélyt, az alkalmazás nem fog többé adatokat gyűjteni és a korábbi adatok is törlődnek a szerverről. Ez használhatatlanná teheti az alkalmazást. Mégis visszavonja?</string>
+    <string name="privacy_authorize_revoke">Visszavonás</string>
+    <string name="privacy_authorize_revoke_time">Visszavonás (%1$dmp)</string>
+    <string name="privacy_authorize_title">Engedély megadása</string>
+    <string name="privacy_authorize_privacy_policy">Adatvédelmi Irányelvek</string>
+    <string name="privacy_authorize_dialog_message">%1$s használatához el kell olvasnia és fogadnia az %2$s-et. A normális működéshez az alkalmazásnak internetkapcsolatra van szüksége. Elfogadja?</string>
+    <string name="privacy_authorize_dialog_exit">Kilépés</string>
+    <string name="privacy_authorize_dialog_agree">Elfogadás</string>
+    <string name="privacy_authorize_network_error">Csatlakozzon a hálózatra, majd próbálja újra.</string>
+    <string name="privacy_authorize_revoke_success">Az engedély sikeresen visszavonva</string>
+    <string name="privacy_authorize_revoke_failed">Nem sikerült az engedélyt visszavonni</string>
+    <string name="privacy_authorize_success">Az engedély sikeresen megadva</string>
+    <string name="privacy_authorize_revoking">Engedély visszavonása…</string>
     <string name="launcher_title">Kezdőképernyő és előzmények</string>
     <string name="defalut_launcher_title">Alapértelmezett kezdőképernyő</string>
     <string name="miui_screen_config_title">Kezdőképernyő beállítások</string>
@@ -2978,7 +2996,8 @@ Ez segít az elvesztett vagy ellopott eszközökön lévő adatok védelmében."
     <string name="write_settings_on">Igen</string>
     <string name="write_settings_off">Nem</string>
     <string name="ad_service">Hirdetési szolgáltatások</string>
-    <string name="use_personalized_ad_service">Hirdetési azonosító használata</string>
+    <string name="use_personalized_ad_service">Személyre szabott reklámajánlat</string>
+    <string name="use_personalized_ad_service_summary">Ha az ajánlási funkció kikapcsolásra kerül, ugyanannyi reklámot fog kapni, mint előtte, csak nem a felhasználói szokásaihoz és személyes adataihoz illeszkedő ajánlatokat.</string>
     <string name="reset_aaid">Hirdetési azonosító alaphelyzetbe állítása</string>
     <string name="confirm_reset_aaid">OK</string>
     <string name="about_ad_service_instructions">A hirdetési szolgáltatásokról és az adatvédelemről</string>
@@ -3247,7 +3266,7 @@ hogy Ön az ütemezett bekapcsolási idő előtt egy órával már alszik"</stri
     <string name="recommend_item_3">Power bank</string>
     <string name="recommend_item_4">Fülhallgatók</string>
     <string name="other_device_info">Egyebek</string>
-    <string name="recommend_item_title">Ajánlások</string>
+    <string name="recommend_item_title">Hirdetések</string>
     <string name="cmcc_hardware_version">Hardver verzió</string>
     <string name="device_cpu">CPU</string>
     <string name="device_battery">Akkumulátor</string>
@@ -3300,6 +3319,7 @@ hogy Ön az ütemezett bekapcsolási idő előtt egy órával már alszik"</stri
     <string name="sure_sync_now">Szinkronizálja az elemeket most?</string>
     <string name="sync_now">Szinkronizálás</string>
     <string name="suggestion_for_phone_recycled">Másik telefonszám hozzáadása</string>
+    <string name="mi_upi_settings">Mi Pay Fiók</string>
     <string name="sms_received_sound_title">Fogadott SMS hangja</string>
     <string name="sms_delivered_sound_title">Kézbesített SMS hangja</string>
     <string name="sms_received_sound_dialog_title">Fogadott SMS hangjának kiválasztása</string>
@@ -3925,6 +3945,8 @@ USB háttértárként fog megjelenni a számítógépén."</string>
     <string name="tether_settings_disabled">Hordozható Wi-Fi hotspot kikapcsolva</string>
     <string name="tether_data_usage_limit">Egyszeri adatkorlát</string>
     <string name="tether_data_usage_limit_summary">Az adatkorlát a Hotspot legközelebbi bekapcsolásakor kerül alkalmazásra</string>
+    <string name="tether_auto_disable_title">Hotspot automatikus bezárása</string>
+    <string name="tether_auto_disable_summary">Hotspot automatikus zárása, ha nincs csatlakoztatott készülék</string>
     <string name="hdmi_3dplay_settings_title">HDMI</string>
     <string name="hdmi_3dplay_control_text">3D kimenet</string>
     <string name="hdmi_3dplay_control_enable_subtext">3D sztereoszkópikus kimenet engedélyezve külső 3D kijelzőre</string>
@@ -4538,7 +4560,7 @@ USB háttértárként fog megjelenni a számítógépén."</string>
     <string name="music_dirac_mode_in_ear_pro">Mi In-Ear Pro</string>
     <string name="music_dirac_mode_capsule">Mi Kapszula</string>
     <string name="music_dirac_mode_headset_comfort">Mi Comfort</string>
-    <string name="music_dirac_mode_reduction_noise">Mi Zajcsökkentés (TypeC)</string>
+    <string name="music_dirac_mode_reduction_noise">Mi Zajcsökkentés (Type-C)</string>
     <string name="music_dirac_mode_cancelling">Mi Zajcsökkentés (3.5mm)</string>
     <string name="music_audio_effect_settings">Effekt beállítások</string>
     <string name="music_equalizer_summary">Módosítja a zeneszinteket különböző típusok szerint</string>
@@ -4547,7 +4569,7 @@ USB háttértárként fog megjelenni a számítógépén."</string>
     <string name="music_dolby_mode_off">Kikapcsolva</string>
     <string name="music_dolby_mode_music">Zene</string>
     <string name="music_dolby_mode_movie">Videó</string>
-    <string name="music_app_unavailable">A zenealkalmazástól függően győződjön meg róla, hogy elérhető</string>
+    <string name="music_app_unavailable">Ellenőrizze, hogy a Zene alkalmazás telepítve van-e.</string>
     <string name="lockpassword_confirm_workspace_password">Munkatér jelszóellenőrzés</string>
     <string name="turn_on_keyguard_password_alert_forget_title">Jegyezze meg jelszavát</string>
     <string name="turn_on_keyguard_password_alert_forget_content">Vésse jól az eszébe a Képernyőzár jelszavát. Ha elfelejtené, csak úgy juthat újra a telefonjához, ha előtte mindent törölt a készülékről, beleértve a fényképeket és a névjegyeket is.</string>
@@ -4783,8 +4805,10 @@ USB háttértárként fog megjelenni a számítógépén."</string>
     <string name="navigation_guide_dialog_ok">Útmutató</string>
     <string name="navigation_guide_dialog_skip">Most nem</string>
     <string name="navigation_guide_dialog_dont_show_again">Ne emlékeztessen újra</string>
-    <string name="navigation_guide_back_anim_title">A \"Vissza\" kézmozdulat bemutatása</string>
-    <string name="navigation_guide_back_anim_summary">Képernyő valamelyik széléről végzett csúsztató mozdulatok megjelenítése</string>
+    <string name="navigation_guide_back_anim_title">A \"Vissza\" kézmozdulat animálása</string>
+    <string name="navigation_guide_back_anim_summary">Képernyő valamelyik széléről végzett csúsztató mozdulatok animálása</string>
+    <string name="fsg_mistake_touch_title">Duplán elvégzendő kézmozdulatok</string>
+    <string name="fsg_mistake_touch_summary">Bizonyos esetekben, például teljes képernyős játékokban és videókban a mozdulatokat kétszer kell megismételni ahhoz, hogy működjenek</string>
     <string name="navigation_guide_settings">Kézmozdulatok bemutatója</string>
     <string name="navigation_guide_home_title">Vissza a Kezdőképernyőre</string>
     <string name="navigation_guide_home_summary">Gyorsan csúsztassa az ujját a képernyő aljáról</string>

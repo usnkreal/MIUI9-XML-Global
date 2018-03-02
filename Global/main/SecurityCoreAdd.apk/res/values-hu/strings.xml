@@ -266,7 +266,7 @@ a Második asztalra lépéshez képernyőzárról"</string>
     <string name="xspace_weibo_title">Weibo</string>
     <string name="weibo_send">Küldés Weibora</string>
     <string name="xspace_qq_title">QQ</string>
-    <string name="qq_send">Küldés a QQ barátoknak/készülékekre</string>
+    <string name="qq_send">Küldés a QQ barátoknak/számítógépre</string>
     <string name="xspace_default_setting_label">Alapértelmezett alkalmazás</string>
     <string name="xspace_default_app_title">Alapértelmezett alkalmazás</string>
     <string name="xspace_default_app_summary">Állítsa be a fizetésekhez, megosztáshoz, kedvencekhez, stb. használt alapértelmezett alkalmazást.</string>

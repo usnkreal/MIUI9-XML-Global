@@ -17,13 +17,13 @@
     <string name="tencent_dialog_policy">view Privacy Policy</string>
     <string name="tencent_dialog_cloudscan">Upload and scan app names and details using online virus definitions.</string>
     <string name="tencent_dialog_dbupdate">Update virus definitions automatically</string>
-    <string name="tencent_dialog_url">Tencent licenčná zmluva používania</string>
+    <string name="tencent_dialog_url">http://api.sec.miui.com/policy/proxy?p=tencent&amp;l=en_US</string>
     <string name="avl_dialog_title">AVL Podmienky používania</string>
     <string name="avl_dialog_header">Táto funkcia zašifruje a odošle ID vášho zariadenia na AVL server (%s).</string>
     <string name="avl_dialog_policy">zobraziť Podmienky používania</string>
     <string name="avl_dialog_cloudscan" />
     <string name="avl_dialog_dbupdate" />
-    <string name="avl_dialog_url">Antiy licenčná zmluva používania</string>
+    <string name="avl_dialog_url">http://api.sec.miui.com/policy/proxy?p=antiy&amp;l=en_US</string>
     <string name="avast_dialog_title">Avast - ochrana súkromia</string>
     <string name="avast_dialog_header">Táto funkcia zašifruje a odošle identifikačné číslo vášho zariadenia na servery Avastu (%s).</string>
     <string name="avast_dialog_policy">Zobraziť podmienky ochrany súkromia</string>

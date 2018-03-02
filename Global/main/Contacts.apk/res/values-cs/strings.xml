@@ -15,7 +15,7 @@
     <string name="activity_title_contacts_filter">Kontakty k zobrazení</string>
     <string name="activity_title_settings">Nastavení</string>
     <string name="addPeopleToGroup">Pro přidání kontaktů, upravte skupinu.</string>
-    <string name="add_2sec_pause">Přidat 2 sek. pauzu</string>
+    <string name="add_2sec_pause">Přidat 2 s pauzu</string>
     <string name="add_account">Přidat účet</string>
     <string name="add_blacklist">Blokovat</string>
     <string name="add_blacklist_dialog_message">Blokovat hovory a zprávy z tohoto čísla?</string>
@@ -109,10 +109,10 @@
     <string name="calllog_menu_edit_before_call">Upravit</string>
     <string name="calllog_menu_send_sms">Poslat zprávu</string>
     <string name="callrecordview_item_newcontact">Nový kontakt</string>
-    <string name="callrecordview_item_op_time_minutes_seconds">%1$d min. %2$d sek.</string>
+    <string name="callrecordview_item_op_time_minutes_seconds">%1$d min. %2$d s</string>
     <string name="callrecordview_item_op_time_missed">Nespojeno</string>
     <string name="callrecordview_item_op_time_only_minutes">%d min.</string>
-    <string name="callrecordview_item_op_time_only_seconds">%d sek.</string>
+    <string name="callrecordview_item_op_time_only_seconds">%d s</string>
     <string name="callrecordview_item_op_time_rejected">Odmítnuto</string>
     <string name="callrecordview_item_op_time_short_incoming">"Příchozí: "</string>
     <string name="callrecordview_item_op_time_short_outgoing">"Odchozí: "</string>
@@ -340,7 +340,7 @@ Vizitky jsou vypnuty"</string>
     <string name="description_minus_button">mínus</string>
     <string name="description_plus_button">plus</string>
     <string name="description_quick_contact_for">Rychlý kontakt pro %1$s</string>
-    <string name="description_quick_dial_button">Quick dial</string>
+    <string name="description_quick_dial_button">Rychlé vytáčení</string>
     <string name="description_search_button">Hledat</string>
     <string name="description_send_message">Poslat SMS %1$s</string>
     <string name="description_send_text_message">Poslat SMS %1$s</string>
@@ -392,7 +392,7 @@ Vizitky jsou vypnuty"</string>
     <string name="dialer_empty_text_loading">Chvilku strpení…</string>
     <string name="dialer_empty_text_no_call_log">Seznam volání je prázdný</string>
     <string name="dialer_empty_text_no_search_result">Nenalezen žádný kontakt</string>
-    <string name="dialer_firewall_entry_name">Blocked call logs</string>
+    <string name="dialer_firewall_entry_name">Záznamy blokovaných hovorů</string>
     <string name="dialer_menu_description">Zobrazit menu</string>
     <string name="dialer_menu_title">Možnosti menu</string>
     <string name="dialer_returnToInCallScreen">Návrat k hovoru</string>
@@ -813,7 +813,7 @@ Chyba: \"%s\""</string>
     <string name="path_key_rebuild_t9_index_title">Systémové aplikace / Kontakty / Uspořádat kontakty / Obnovit data indexu</string>
     <string name="path_key_sim_manage">Systémové aplikace / Kontakty / Uspořádat kontakty / SIM karty</string>
     <string name="path_preference_contacts_filter">Systémové aplikace / Kontakty / Předvolby zobrazení / Konfigurovat seznamy kontaktů</string>
-    <string name="path_quick_dial_setting">System apps/Contacts/Quick dial</string>
+    <string name="path_quick_dial_setting">Systémové aplikace / Telefon / Rozšířená nastavení / Rychlé vytáčení</string>
     <string name="path_remove_duplicate">Systémové aplikace / Kontakty / Uspořádat kontakty / Sloučit duplicitní kontakty</string>
     <string name="path_share_visible_contacts">Systémové aplikace / Kontakty / Importovat/exportovat kontakty / Sdílet kontakty</string>
     <string name="path_sim_capacity">Systémové aplikace / Kontakty / Úložiště SIM karty</string>
@@ -874,6 +874,7 @@ Chyba: \"%s\""</string>
     <string name="preference_contacts_display">Zobrazení kontaktů</string>
     <string name="preference_contacts_filter">Upravit seznam kontaktů</string>
     <string name="preference_contacts_more">Uspořádat kontakty</string>
+    <string name="preference_contacts_moresetting">More</string>
     <string name="preference_dial_pad_touch_tone_default">Výchozí</string>
     <string name="preference_dial_pad_touch_tone_human">Hlas</string>
     <string name="preference_dial_pad_touch_tone_piano">Klavír</string>
@@ -881,6 +882,7 @@ Chyba: \"%s\""</string>
     <string name="preference_dial_pad_touch_tone_title">Tón tlačítek číselníku</string>
     <string name="preference_display">Zobrazit</string>
     <string name="preference_displayOptions">Možnosti zobrazení</string>
+    <string name="preference_display_contact">Display options</string>
     <string name="preference_export">Exportovat</string>
     <string name="preference_import">Importovat</string>
     <string name="preference_import_export">Importovat/exportovat</string>
@@ -925,12 +927,12 @@ Chyba: \"%s\""</string>
     <string name="pull_to_refresh_release_label">Uvolněte pro obnovení</string>
     <string name="qr_card_card">QR kód</string>
     <string name="qrcode_card_title">QR kód</string>
-    <string name="quick_dial_setting_delete_dialog_message">Delete assigned quick dial number?</string>
-    <string name="quick_dial_setting_delete_dialog_option_delete">Delete</string>
-    <string name="quick_dial_setting_hint">Tap a button to assign or remove a quick dial number. Press and hold the button with an assigned number to dial.</string>
-    <string name="quick_dial_setting_set_dialog_message">Assign a quick dial number to this button?</string>
-    <string name="quick_dial_setting_set_dialog_option_set">Yes</string>
-    <string name="quick_dial_setting_title">Quick dial</string>
+    <string name="quick_dial_setting_delete_dialog_message">Smazat přiřazené číslo rychlého vytáčení?</string>
+    <string name="quick_dial_setting_delete_dialog_option_delete">Smazat</string>
+    <string name="quick_dial_setting_hint">Klepněte na tlačítko pro přiřazení nebo odstranění čísla rychlého vytáčení. Pro vytočení čísla stiskněte a přidržte přiřazené tlačítko.</string>
+    <string name="quick_dial_setting_set_dialog_message">Přiřadit číslo rychlého vytáčení k tomuto tlačítku?</string>
+    <string name="quick_dial_setting_set_dialog_option_set">Ano</string>
+    <string name="quick_dial_setting_title">Rychlé vytáčení</string>
     <string name="quickcontact_missing_app">Aplikace potřebná prot tuto akci nebyla nalezena</string>
     <string name="quit_dialog_confirm_message">Nesloučili jste žádné kontakty</string>
     <string name="quit_dialog_confirm_title">Zrušit slučování kontaktů</string>
@@ -999,7 +1001,7 @@ Chyba: \"%s\""</string>
     <string name="search_key_rebuild_t9_index_title">Uspořádat;Kontakty;t9</string>
     <string name="search_key_sim_manage">Uspořádat;Kontakty</string>
     <string name="search_preference_contacts_filter">Kontakty;Zobrazení</string>
-    <string name="search_quick_dial_setting">Contacts</string>
+    <string name="search_quick_dial_setting">Telefon</string>
     <string name="search_remove_duplicate">Uspořádat;Kontakty</string>
     <string name="search_results_searching">Vyhledávání…</string>
     <string name="search_settings_description">Jména vašich kontaktů</string>
@@ -1202,7 +1204,7 @@ Vyberte jednu z následujících možností:"</string>
     <string name="yellowPageNavigationLabel">Zlaté stránky</string>
     <string name="yellowpage_fc_toast">Tuto funkci nelze použít z důvodu chyby Zlatých stránek.</string>
     <string name="yellowpage_navigation_ad_hint">Reklama</string>
-    <string name="yellowpage_navigation_balance_refresh_failed">Zůstatek a mobilní data nelze ověřit, zkuste to prosím později.</string>
+    <string name="yellowpage_navigation_balance_refresh_failed">Zůstatek a data nelze ověřit, zkuste to prosím později.</string>
     <string name="yellowpage_navigation_balance_refresh_succeed">Zůstatek a mobilní data byly ověřeny</string>
     <string name="yellowpage_navigation_clear_search_history">Vymazat historii</string>
     <string name="yellowpage_navigation_more_items">Více</string>

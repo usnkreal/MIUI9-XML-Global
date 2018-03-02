@@ -77,8 +77,8 @@ Ha újra bekapcsolja a mobiladat-kapcsolatot, a szolgáltatója további díjaka
         <item quantity="one">"A hálózat elérése &amp;lt;font color='#ff0000'>%d&amp;lt;/font> alkalmazás részére korlátozva van"</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
-        <item quantity="other">%d alkalmazás nem működik megfelelően és fogyasztja az akkumulátort</item>
-        <item quantity="one">%d alkalmazás nem működik megfelelően és fogyasztja az akkumulátort</item>
+        <item quantity="other">%d alkalmazás nem működik rendesen és fogyasztja az akkumulátort</item>
+        <item quantity="one">%d alkalmazás nem működik rendesen és fogyasztja az akkumulátort</item>
     </plurals>
     <plurals name="power_center_battery_day">
         <item quantity="other">"%d nap "</item>
@@ -101,12 +101,12 @@ Ha újra bekapcsolja a mobiladat-kapcsolatot, a szolgáltatója további díjaka
         <item quantity="one">%d akkumulátor probléma javítva</item>
     </plurals>
     <plurals name="quick_optimize_issue_found">
-        <item quantity="other">%d akkumulátor probléma</item>
-        <item quantity="one">%d akkumulátor probléma</item>
+        <item quantity="other">%d akkumulátorprobléma</item>
+        <item quantity="one">%d akkumulátorprobléma</item>
     </plurals>
     <plurals name="quick_optimize_issue_count">
-        <item quantity="other">%d akkumulátor probléma</item>
-        <item quantity="one">%d akkumulátor probléma</item>
+        <item quantity="other">%d akkumulátorprobléma</item>
+        <item quantity="one">%d akkumulátorprobléma</item>
     </plurals>
     <plurals name="quick_optimize_suggest_issue_found">
         <item quantity="other">%d akkumulátor probléma, javítsa</item>
@@ -133,8 +133,8 @@ Ha újra bekapcsolja a mobiladat-kapcsolatot, a szolgáltatója további díjaka
         <item quantity="one">%1$d megtekintés</item>
     </plurals>
     <plurals name="result_virus_header">
-        <item quantity="other">%d vírusos vagy nem biztonságos alkalmazás</item>
-        <item quantity="one">%d vírusos vagy nem biztonságos alkalmazás</item>
+        <item quantity="other">%d vírus található</item>
+        <item quantity="one">%d vírus található</item>
     </plurals>
     <plurals name="result_sign_header">
         <item quantity="other">%d nem hivatalos alkalmazás található</item>

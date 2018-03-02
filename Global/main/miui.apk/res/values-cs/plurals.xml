@@ -4,85 +4,102 @@
         <item quantity="other">Vybráno %d položek</item>
         <item quantity="one">Vybrána %d položka</item>
         <item quantity="few">Vybrány %d položky</item>
+        <item quantity="many">%d items selected</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Nyní</item>
         <item quantity="one">Nyní</item>
         <item quantity="few">Nyní</item>
+        <item quantity="many">Just now</item>
     </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Nyní</item>
         <item quantity="one">Nyní</item>
         <item quantity="few">Nyní</item>
+        <item quantity="many">Just now</item>
     </plurals>
     <plurals name="abbrev_in_less_than_one_minute">
         <item quantity="other">Okamžitě</item>
         <item quantity="one">Okamžitě</item>
         <item quantity="few">Okamžitě</item>
+        <item quantity="many">Immediately</item>
     </plurals>
     <plurals name="in_less_than_one_minute">
         <item quantity="other">Okamžitě</item>
         <item quantity="one">Okamžitě</item>
         <item quantity="few">Okamžitě</item>
+        <item quantity="many">Immediately</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
         <item quantity="other">Před hodinou</item>
         <item quantity="one">Před hodinou</item>
         <item quantity="few">Před hodinou</item>
+        <item quantity="many">1 hour ago</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">Před půl hodinou</item>
         <item quantity="one">Před půl hodinou</item>
         <item quantity="few">Před půl hodinou</item>
+        <item quantity="many">Half an hour ago</item>
     </plurals>
     <plurals name="a_hour_ago">
         <item quantity="other">Před hodinou</item>
         <item quantity="one">Před hodinou</item>
         <item quantity="few">Před hodinou</item>
+        <item quantity="many">1 hour ago</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Před půl hodinou</item>
         <item quantity="one">Před půl hodinou</item>
         <item quantity="few">Před půl hodinou</item>
+        <item quantity="many">Half an hour ago</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
         <item quantity="other">Do hodiny</item>
         <item quantity="one">Do hodiny</item>
         <item quantity="few">Do hodiny</item>
+        <item quantity="many">In 1 hour</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Do půl hodiny</item>
         <item quantity="one">Do půl hodiny</item>
         <item quantity="few">Do půl hodiny</item>
+        <item quantity="many">In half an hour</item>
     </plurals>
     <plurals name="in_a_hour">
         <item quantity="other">Do hodiny</item>
         <item quantity="one">Do hodiny</item>
         <item quantity="few">Do hodiny</item>
+        <item quantity="many">In 1 hour</item>
     </plurals>
     <plurals name="in_half_hour">
         <item quantity="other">Do půl hodiny</item>
         <item quantity="one">Do půl hodiny</item>
         <item quantity="few">Do půl hodiny</item>
+        <item quantity="many">In half an hour</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">Před %d minutami</item>
         <item quantity="one">Před minutou</item>
         <item quantity="few">Před %d minutami</item>
+        <item quantity="many">%d mins ago</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">Před %d minutami</item>
         <item quantity="one">Před minutou</item>
         <item quantity="few">Před %d minutami</item>
+        <item quantity="many">%d minutes ago</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
         <item quantity="other">za %d minut</item>
         <item quantity="one">za 1 minutu</item>
         <item quantity="few">za %d minuty</item>
+        <item quantity="many">in %d mins</item>
     </plurals>
     <plurals name="in_num_minutes">
         <item quantity="other">za %d minut</item>
         <item quantity="one">za 1 minutu</item>
         <item quantity="few">za %d minuty</item>
+        <item quantity="many">in %d minutes</item>
     </plurals>
 </resources>

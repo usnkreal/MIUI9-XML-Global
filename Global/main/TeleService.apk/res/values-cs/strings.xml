@@ -1136,6 +1136,7 @@ Upozorňujeme, že funkce spojené s PIN 2 budou po dalším chybném zadání z
     <string name="cmcc_ut_data_enable_prompt">Nelze se připojit pomocí sítě VoLTE. Povolte mobilní datové spojení.</string>
     <string name="volte_switch_title">Síť VoLTE povolena</string>
     <string name="volte_switch_summary">Použít síť VoLTE pro zlepšení kvality hlasového hovoru a videohovoru</string>
+    <string name="volte_switch_summary2">Před zapnutím se ujistěte, že váš operátor tuto službu podporuje. V opačném případě může zapnutí ovlivnit běžná volání.</string>
     <string name="volte_switch_not_support_summary">VoLTE hovory nejsou podporovány pro mobilní datové SIM karty.</string>
     <string name="volte_switch_not_support_summary2">Operátor nepodporuje VoLTE volání.</string>
     <string name="enable_dual_4g_prompt_when_turn_on_volte">VoLTE vyžaduje připojení 4G pro obě SIM karty. Přepnout na duální 4G?</string>
@@ -1143,6 +1144,9 @@ Upozorňujeme, že funkce spojené s PIN 2 budou po dalším chybném zadání z
     <string name="dual_4g_switch_summary">Povolte 4G připojení pro obě SIM karty.</string>
     <string name="turn_on_dual_4g_failed">Duální 4G připojení se nepodařilo zapnout.</string>
     <string name="turn_off_dual_4g_failed">Duální 4G připojení se nepodařilo vypnout.</string>
+    <string name="vice_slot_volte_data_switch_title">Použít mobilní data během VoLTE hovorů na druhé SIM kartě</string>
+    <string name="vice_slot_volte_data_switch_summary">Zařízení se během VoLTE hovorů připojí k mobilní datové síti pomocí sekundární SIM karty</string>
+    <string name="vice_slot_volte_data_switch_prompt">Vaše zařízení se během odchozích VoLTE hovorů připojí k mobilní datové síti pomocí sekundární SIM karty. To může způsobit navýšení poplatků za datové připojení. Kontaktujte svého operátora pro více informací o vašem datovém plánu.</string>
     <string name="roaming_notification_title">Vypadá to, že roaming je aktivní</string>
     <string name="roaming_notification_content">Pro pohodlnější vytáčení můžete zvolit automatické přidávání kódů zemí.</string>
     <string name="cdma_alert_title">Karta UIM musí být výchozí</string>
@@ -1197,6 +1201,18 @@ Upozorňujeme, že funkce spojené s PIN 2 budou po dalším chybném zadání z
     <string name="miui_notification_network_selection_title_by_sim">SIM %s: žádná služba</string>
     <string name="miui_network_selection_reset_text">Resetovat</string>
     <string name="quick_dial_setting_title">Rychlé vytáčení</string>
+    <string name="cfnry_time_five_sec">5 s</string>
+    <string name="cfnry_time_ten_sec">10 s</string>
+    <string name="cfnry_time_fifteen_sec">15 s</string>
+    <string name="cfnry_time_twenty_sec">20 s</string>
+    <string name="cfnry_time_twenty_five_sec">25 s</string>
+    <string name="cfnry_time_thirty_sec">30 s</string>
+    <string name="cfnry_time_setting_title">Nastavte čekací dobu</string>
+    <string name="prompt_when_turnon_volte_without_lte">"LTE networks aren't available now. Turning on VoLTE may prevent you from making regular calls."</string>
+    <string name="prompt_to_turnoff_volte_when_failed">"VoLTE services aren't available. Turn off VoLTE to make a call."</string>
+    <string name="volte_tips_when_turn_on">China Telecom VoLTE services are only provided in the areas with LTE network coverage.</string>
+    <string name="close">Zavřít</string>
+    <string name="prompt_to_turnoff_volte_when_supp_service">"Service isn't available. Turn off VoLTE in the Settings."</string>
     <string name="network_forbidden">%s (zakázaná)</string>
     <string name="voice_number_setting_primary_user_only">Hlasovou schránku může změnit pouze hlavní uživatel.</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_ENTRY">PIN pro odblokování sítě SIM</string>
@@ -1339,7 +1355,6 @@ Zbývá ještě %d pokusů."</string>
     <string name="china_mobile">China Mobile</string>
     <string name="china_telecom">China Telecom</string>
     <string name="china_unicom">China Unicom</string>
-    <string name="close">Zavřít</string>
     <string name="default_sim_setting">Výchozí SIM karta:</string>
     <string name="disconnect_data_confirm">Datová služba bude dočasně odpojena. Pokračovat?</string>
     <string name="fdn_service_unavailable">Služba FDN není k dispozici.</string>

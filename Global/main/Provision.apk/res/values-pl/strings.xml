@@ -24,6 +24,8 @@ Zobacz politykę prywatności dla wybranej klawiatury."</string>
     <string name="other_settings_upload_debug_log_summary">Zebrane informacje będą użyte do lokalizowania i analizy błędów w systemie i mogą zawierać dane osobiste. Żadne dane nie będą użyte do identyfikacji personalnej.</string>
     <string name="other_settings_auto_update">Instaluj automatycznie</string>
     <string name="other_settings_auto_update_summary">MIUI wybierze najlepszy czas do instalacji aktualizacji.</string>
+    <string name="other_settings_ad_enable">Spersonalizowane propozycje reklam</string>
+    <string name="other_settings_ad_enable_summary">Spersonalizowane propozycje reklam bazują na twoich danych</string>
     <string name="back">Wstecz</string>
     <string name="next">Dalej</string>
     <string name="skip_underline">Pomiń ten krok</string>
@@ -69,8 +71,8 @@ Musisz się zgodzić na nasze Warunki użytkowania i Politykę prywatności, nim
     <string name="content_description_complete">Zakończono</string>
     <string name="language_picker_other_languages_title">Więcej języków</string>
     <string name="language_settings">Wybierz język</string>
-    <string name="navigation_picker_radio_text_full_screen">Tryb pełnoekranowy</string>
-    <string name="navigation_picker_radio_text_virtual_key">Tryb klawiszy wirtualnych</string>
+    <string name="navigation_picker_radio_text_full_screen">Gesty pełnoekranowe</string>
+    <string name="navigation_picker_radio_text_virtual_key">Przyciski</string>
     <string name="congratulation_swipe">Przesuń w górę, aby wejść do systemu</string>
     <string name="enable_accessibility_dialog_message">Włączyłeś TalkBack dotykając ekran dwoma palcami przez więcej niż 10 sekund. TalkBack zapewnia obsługę głosową dla osób z wadami wzroku. Jeśli włączyłeś go przez przypadek, dotknij przycisk Anuluj, a następnie dotknij ekran dwa razy.</string>
     <string name="enable_accessibility_dialog_positive_btn">OK</string>

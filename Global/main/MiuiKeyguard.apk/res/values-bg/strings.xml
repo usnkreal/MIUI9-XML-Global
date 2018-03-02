@@ -5,6 +5,12 @@
     <string name="unlockscreen_recharge_completed">Батерията е заредена</string>
     <string name="unlockscreen_low_battery">Свържете зарядното устройство</string>
     <string name="lockscreen_charging_msg">Зарежда се</string>
+    <string name="reset_device_tip">Зареждането е бавно, моля променете позицията на телефона</string>
+    <string name="reset_device_detail_tip">Безжично зареждане, моля подравнете телефона към базата, за да сте сигурни, че се зарежда бързо.</string>
+    <string name="wireless_charge_stop">Безжичното зареждане прекъсна</string>
+    <string name="change_to_ac_charging">Превключено на безжично зареждане</string>
+    <string name="wireless_charge_dialog_title">Положението на телефона е променено, моля, оправете го</string>
+    <string name="wireless_charge_dialog_cancel">Отказ</string>
     <string name="emergency_call_string">SOS</string>
     <string name="forget_password_string">Забравена парола</string>
     <string name="input_puk_code">Въведете PUK код</string>
@@ -65,13 +71,10 @@
     <string name="lock_wallpaper_enter">Въвеждане</string>
     <string name="custom_lock_wallpaper_enter">Въведи</string>
     <string name="fingerprint_enter_second_psw_title">Въведете парола за Второ пространство</string>
-    <string name="fingerprint_enter_second_psw_msg">Въведете паролата за Второ пространство след рестартиране на устройството, за да използвате разпознаване по пръстов отпечатък</string>
+    <string name="fingerprint_enter_second_psw_msg">Въведете паролата за Второ работно място, за да можете да използвате разпознаване с Пръстов отпечатък</string>
     <string name="fingerprint_enter_second_psw_msg_oldman">Не може да се използва Второ работно място, докато телефонът е в Лесен режим</string>
     <string name="keyguard_charging_info_click_to_detail">Покажи подробности</string>
     <string name="keyguard_quick_charging_info_click_to_detail">Бързо зареждане. Чукнете за подробности.</string>
-    <string name="keyguard_quickly_charging_info_charging_text">Бързо зареждане…</string>
-    <string name="keyguard_charging_info_finished_charging_text">Напълно заредена</string>
-    <string name="keyguard_charging_info_charging_text">Зареждане</string>
     <string name="keyguard_charging_info_last_charge_today_time">Днес%s</string>
     <string name="keyguard_charging_info_last_charge_yesterday_time">Вчера %s</string>
     <string name="keyguard_charging_info_last_charge_time">M/d H:mm</string>

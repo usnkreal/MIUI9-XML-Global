@@ -30,7 +30,7 @@
     <string name="audio_track">Zvuková stopa</string>
     <string name="com_permission_desc">Mi Video nemá přístup k videím na vašem zařízení. Povolte přístup v Nastavení.</string>
     <string name="com_permission_title">Vyžadována povolení</string>
-    <string name="do_not_show_this_again">Víckrát nezobrazovat</string>
+    <string name="do_not_show_this_again">Znovu nezobrazovat</string>
     <string name="lp_advance_sound">Vylepšení zvuku</string>
     <string name="lp_brightness">Jas</string>
     <string name="lp_fullscreen">Na celou obrazovku</string>
@@ -86,7 +86,7 @@
     <string name="t_check_delete_file">Vyberte položky ke smazání</string>
     <string name="t_check_delete_history">Zvolte záznamy pro smazání</string>
     <string name="t_check_hide_file">Vyberte videa ke skrytí</string>
-    <string name="t_check_send_file">Vyberte položku k odeslání</string>
+    <string name="t_check_send_file">Vyberte 1 položku k odeslání</string>
     <string name="t_deleting">Mazání…</string>
     <string name="t_downloading_new_version">Stahování aktualizací…</string>
     <string name="t_exit_app">Ukončete opakovaným klepnutím</string>
@@ -149,7 +149,7 @@
     <string name="v_video_null">Žádná videa</string>
     <string name="vp_app_name">Video přehrávač</string>
     <string name="vp_device_list">Zařízení</string>
-    <string name="vp_device_list_seaching">&lt;Žádné zařízení pro přenos></string>
+    <string name="vp_device_list_seaching">Žádné zařízení pro přenos</string>
     <string name="screenrecord_cancel">Problémy s kompatibilitou</string>
     <string name="screenrecord_nosupport_record">Nahrávání obrazovky není na tomto zařízení momentálně podporováno.</string>
 </resources>

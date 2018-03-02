@@ -30,18 +30,18 @@
     <string-array name="menu_theme_setting">
         <item>Hvit</item>
         <item>Gul</item>
-        <item>Grey</item>
+        <item>Grå</item>
         <item>Brun</item>
         <item>Grønn</item>
         <item>Blå</item>
     </string-array>
     <string-array name="pref_fling_on_border_gesture_entries">
-        <item>Page back forward</item>
-        <item>Switch tabs</item>
+        <item>Side bak foran</item>
+        <item>Bytt faner</item>
         <item>Ingen</item>
     </string-array>
     <string-array name="pref_homepage_choices">
-        <item>Default start page</item>
+        <item>Standard startside</item>
         <item>Tilpasset</item>
     </string-array>
     <string-array name="pref_nav_mode_summary">
@@ -49,57 +49,57 @@
         <item>Nettbrett</item>
     </string-array>
     <string-array name="pref_text_zoom_choices">
-        <item>Tiny</item>
-        <item>Small</item>
-        <item>Vibrer</item>
-        <item>Large</item>
-        <item>Huge</item>
+        <item>Veldig liten</item>
+        <item>Liten</item>
+        <item>Normal</item>
+        <item>Stor</item>
+        <item>Diger</item>
     </string-array>
     <string-array name="pref_ua_choices">
         <item>Android</item>
-        <item>Desktop</item>
+        <item>Skrivebord</item>
         <item>iPhone</item>
         <item>iPad</item>
     </string-array>
     <string-array name="shortcut_dialog_delete">
         <item>Slett</item>
-        <item>No thanks</item>
+        <item>Nei takk</item>
     </string-array>
     <string-array name="shortcut_dialog_keep">
         <item>OK</item>
-        <item>Follow</item>
+        <item>Følg</item>
     </string-array>
     <string-array name="shortcut_dialog_title">
-        <item>Message from Browser</item>
-        <item>Follow the Olympics with Mi</item>
+        <item>Melding fra nettleser</item>
+        <item>Følg OL med Mi</item>
     </string-array>
     <string-array name="weather_type">
-        <item>Sunny</item>
-        <item>Cloudy</item>
-        <item>Overcast</item>
-        <item>Foggy</item>
-        <item>Heavy rainstorm</item>
-        <item>Downpour</item>
-        <item>Rainstorm</item>
-        <item>Thunderstorm</item>
-        <item>Shower</item>
-        <item>Heavy rainfall</item>
-        <item>Moderate rain</item>
-        <item>Light rain</item>
-        <item>Rain and snow mixed</item>
-        <item>Blizzard</item>
-        <item>Snow</item>
-        <item>Heavy snow</item>
-        <item>Moderate snow</item>
-        <item>Light snow</item>
-        <item>Strong sandstorm</item>
-        <item>Sand storm</item>
+        <item>Sol</item>
+        <item>Skyet</item>
+        <item>Overskyet</item>
+        <item>Tåke</item>
+        <item>Kraftig regnvær</item>
+        <item>Nedbør</item>
+        <item>Regnvær</item>
+        <item>Torden</item>
+        <item>Regn</item>
+        <item>Kraftig nedbør</item>
+        <item>Moderat regn</item>
+        <item>Litt regn</item>
+        <item>Både regn og snø</item>
+        <item>Lyn</item>
+        <item>Snø</item>
+        <item>Kraftig snøfall</item>
+        <item>Moderat snøfall</item>
+        <item>Litt snøfall</item>
+        <item>Kraftig sandstorm</item>
+        <item>Sandstorm</item>
         <item>Sand</item>
-        <item>Windy</item>
-        <item>Hail</item>
-        <item>Dust</item>
-        <item>Haze</item>
-        <item>Freezing rain</item>
+        <item>Vind</item>
+        <item>Hagl</item>
+        <item>Støv</item>
+        <item>Dis</item>
+        <item>Underkjølt regn</item>
         <item></item>
     </string-array>
 </resources>

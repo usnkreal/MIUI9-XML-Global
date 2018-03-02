@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="privacy_authorize_revoke_title">Autorisation &amp; révocation</string>
+    <string name="enabled_authorised_apps_title">Autorisation accordée</string>
+    <string name="enabled_authorised_apps_summary">Votre autorisation sera révoquée après avoir basculé les boutons des applications individuelles.</string>
+    <string name="disabled_authorised_apps_title">Autorisation révoquée</string>
+    <string name="privacy_authorize_revoke_dialog_title">"Révocation d'autorisation"</string>
+    <string name="privacy_authorize_revoke_dialog_msg">"Après avoir révoqué l'autorisation, l'application arrêtera de collecter les données et toutes les données associées seront supprimées des serveurs. Cela pourrait rendre l'application pratiquement inutilisable. Révoquer quand même ?"</string>
+    <string name="privacy_authorize_revoke">Révoquer</string>
+    <string name="privacy_authorize_revoke_time">Révoquer (%1$d s)</string>
+    <string name="privacy_authorize_title">"Accord d'autorisation"</string>
+    <string name="privacy_authorize_privacy_policy">Politique de Confidentialité</string>
+    <string name="privacy_authorize_dialog_message">"%1$s exige que vous lisiez et soyez d'accord avec la %2$s. L'application doit se connecter au réseau pour fonctionner normalement. Accepter ?"</string>
+    <string name="privacy_authorize_dialog_exit">Quitter</string>
+    <string name="privacy_authorize_dialog_agree">Accepter</string>
+    <string name="privacy_authorize_network_error">Connectez-vous au réseau et réessayez.</string>
+    <string name="privacy_authorize_revoke_success">Autorisation révoquée avec succès</string>
+    <string name="privacy_authorize_revoke_failed">"Impossible de révoquer l'autorisation"</string>
+    <string name="privacy_authorize_success">Autorisation accordée avec succès</string>
+    <string name="privacy_authorize_revoking">"Lorsque la fonction de recommandation est désactivée, la quantité d'annonces affichée reste la même que lorsqu'elle est activée, mais pas en fonction de vos données de comportement ou de vos informations personnelles."</string>
     <string name="launcher_title">"Écran d'accueil &amp; récents"</string>
     <string name="defalut_launcher_title">"Lanceur d'application par défaut"</string>
     <string name="miui_screen_config_title">"Paramètres de l'écran d'accueil"</string>
@@ -2978,7 +2996,8 @@ Cela permet de protéger les données de vos appareils en cas de perte ou de vol
     <string name="write_settings_on">Oui</string>
     <string name="write_settings_off">Non</string>
     <string name="ad_service">Services publicitaires</string>
-    <string name="use_personalized_ad_service">"Réinitialiser l'identificateur de publicité"</string>
+    <string name="use_personalized_ad_service">Recommandation de publicités personnalisées</string>
+    <string name="use_personalized_ad_service_summary">"Lorsque la fonction de recommandation est désactivée, la quantité de publicités affichée reste la même que lorsqu'elle est activée, mais pas en fonction des données de vos habitudes ou de vos informations personnelles."</string>
     <string name="reset_aaid">"Réinitialiser l'identificateur de publicité"</string>
     <string name="confirm_reset_aaid">OK </string>
     <string name="about_ad_service_instructions">À propos des services publicitaires et de la confidentialité</string>
@@ -3299,6 +3318,7 @@ Cela permet de protéger les données de vos appareils en cas de perte ou de vol
     <string name="sure_sync_now">Synchroniser les éléments maintenant ?</string>
     <string name="sync_now">Synchroniser</string>
     <string name="suggestion_for_phone_recycled">Ajouter un autre numéro de téléphone</string>
+    <string name="mi_upi_settings">Compte Mi Pay</string>
     <string name="sms_received_sound_title">Message reçu</string>
     <string name="sms_delivered_sound_title">Message délivré</string>
     <string name="sms_received_sound_dialog_title">Choisir un son pour les SMS reçus</string>
@@ -3922,6 +3942,8 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="tether_settings_disabled">"Le point d'accès mobile est désactivé"</string>
     <string name="tether_data_usage_limit">Limite de données unique</string>
     <string name="tether_data_usage_limit_summary">"La limite de données sera appliquée la prochaine fois que votre point d'accès sera activé"</string>
+    <string name="tether_auto_disable_title">"Fermer automatiquement le point d'accès"</string>
+    <string name="tether_auto_disable_summary">"Fermer automatiquement le point d'accès lorsqu'aucun appareil n'est connecté"</string>
     <string name="hdmi_3dplay_settings_title">HDMI</string>
     <string name="hdmi_3dplay_control_text">Sortie 3D</string>
     <string name="hdmi_3dplay_control_enable_subtext">"Sortie 3D stéréoscopique vers l'affichage 3D externe est activé"</string>
@@ -4535,7 +4557,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="music_dirac_mode_in_ear_pro">Intra Mi Pro</string>
     <string name="music_dirac_mode_capsule">Mi Capsule</string>
     <string name="music_dirac_mode_headset_comfort">Mi Comfort</string>
-    <string name="music_dirac_mode_reduction_noise">Mi Élimination de bruit (Type C)</string>
+    <string name="music_dirac_mode_reduction_noise">Annulation de bruit Mi (Type-C)</string>
     <string name="music_dirac_mode_cancelling">Mi Élimination de bruit (3,5 mm)</string>
     <string name="music_audio_effect_settings">Paramètres des effets</string>
     <string name="music_equalizer_summary">Ajuster les niveaux individuels pour différents types de musique</string>
@@ -4544,7 +4566,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="music_dolby_mode_off">Désactivé</string>
     <string name="music_dolby_mode_music">Musique</string>
     <string name="music_dolby_mode_movie">Vidéo</string>
-    <string name="music_app_unavailable">"L'application Mi musique est nécessaire, assurez-vous qu'elle est disponible"</string>
+    <string name="music_app_unavailable">"Assurez-vous que l'application Musique Mi est disponible."</string>
     <string name="lockpassword_confirm_workspace_password">Vérifier le mot de passe de votre espace de travail</string>
     <string name="turn_on_keyguard_password_alert_forget_title">Se souvenir de votre mot de passe</string>
     <string name="turn_on_keyguard_password_alert_forget_content">"N'oubliez pas le mot de passe de votre écran de verrouillage. Si vous l'oubliez, vous devrez effacer toutes les données sur votre appareil, incluant les photos et les contacts et puis en définir un nouveau."</string>
@@ -4782,6 +4804,8 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="navigation_guide_dialog_dont_show_again">Ne plus afficher</string>
     <string name="navigation_guide_back_anim_title">Animer le geste \"Retour\"</string>
     <string name="navigation_guide_back_anim_summary">"Afficher l'animation pendant que vous balayez depuis le bord de l'écran"</string>
+    <string name="fsg_mistake_touch_title">Revérification pour les mouvements</string>
+    <string name="fsg_mistake_touch_summary">Dans certaines scènes, telles que les jeux en plein écran et les vidéos, les mouvements doivent être balayés deux fois afin de prendre effet</string>
     <string name="navigation_guide_settings">Démos de gestes</string>
     <string name="navigation_guide_home_title">"Aller à l'Écran d'accueil"</string>
     <string name="navigation_guide_home_summary">"Balayer du bas vers le haut de l'écran"</string>

@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="privacy_authorize_revoke_title">Autorizácia &amp; zrušenie</string>
+    <string name="enabled_authorised_apps_title">Udelená autorizácia</string>
+    <string name="enabled_authorised_apps_summary">Vaša autorizácia bude po prepnutí prepínačov jednotlivých aplikácií zrušená.</string>
+    <string name="disabled_authorised_apps_title">Zrušená autorizácia</string>
+    <string name="privacy_authorize_revoke_dialog_title">Rušenie autorizácie</string>
+    <string name="privacy_authorize_revoke_dialog_msg">Po zrušení autorizácie aplikácia zastaví zber dát a všetky súvisiace dáta budú vymazané zo serverov. Môže to spôsobiť, že aplikácia bude prakticky nepoužiteľná. Zrušiť autorizáciu aj tak?</string>
+    <string name="privacy_authorize_revoke">Zrušiť</string>
+    <string name="privacy_authorize_revoke_time">Zrušiť (%1$ds)</string>
+    <string name="privacy_authorize_title">Udelenie autorizácie</string>
+    <string name="privacy_authorize_privacy_policy">Zásady ochrany osobných údajov</string>
+    <string name="privacy_authorize_dialog_message">%1$s si vyžaduje prečítať a súhlasiť s %2$s. Aplikácia pre správne fungovanie potrebuje pripojenie na internet. Súhlasíte?</string>
+    <string name="privacy_authorize_dialog_exit">Ukončiť</string>
+    <string name="privacy_authorize_dialog_agree">Súhlasím</string>
+    <string name="privacy_authorize_network_error">Pripojte sa k sieti a skúste to znova.</string>
+    <string name="privacy_authorize_revoke_success">Autorizácia úspešne zrušená</string>
+    <string name="privacy_authorize_revoke_failed">Nepodarilo sa zrušiť autorizáciu</string>
+    <string name="privacy_authorize_success">Autorizácia úspešne udelená</string>
+    <string name="privacy_authorize_revoking">Rušenie autorizácie…</string>
     <string name="launcher_title">Launcher</string>
     <string name="defalut_launcher_title">Predvolený launcher</string>
     <string name="miui_screen_config_title">Nastavenia domovskej obrazovky</string>
@@ -2973,7 +2991,8 @@ Umožňuje to ochrániť údaje v stratených alebo ukradnutých zariadeniach."<
     <string name="write_settings_on">Áno</string>
     <string name="write_settings_off">Nie</string>
     <string name="ad_service">Reklamné služby</string>
-    <string name="use_personalized_ad_service">Použiť identifikátor propagácie</string>
+    <string name="use_personalized_ad_service">Odporúčané reklamy pre vás</string>
+    <string name="use_personalized_ad_service_summary">Keď je funkcia odporúčaní vypnutá, budete dostávať rovnaké množstvo reklám ako keď je zapnutá, no nie základe dát z vašej činnosti alebo osobných údajov.</string>
     <string name="reset_aaid">Obnoviť reklamný identifikátor</string>
     <string name="confirm_reset_aaid">OK</string>
     <string name="about_ad_service_instructions">O reklamných službách a ochrane súkromia</string>
@@ -3294,6 +3313,7 @@ Umožňuje to ochrániť údaje v stratených alebo ukradnutých zariadeniach."<
     <string name="sure_sync_now">Synchronizovať teraz položky?</string>
     <string name="sync_now">Synchronizovať</string>
     <string name="suggestion_for_phone_recycled">Pridať iné telefónne číslo</string>
+    <string name="mi_upi_settings">Mi Pay Account</string>
     <string name="sms_received_sound_title">Zvuk prijatej správy</string>
     <string name="sms_delivered_sound_title">Zvuk doručenky</string>
     <string name="sms_received_sound_dialog_title">Vybrať zvuk prijatej správy</string>
@@ -3911,6 +3931,8 @@ Umožňuje to ochrániť údaje v stratených alebo ukradnutých zariadeniach."<
     <string name="tether_settings_disabled">Prenosný hotspot je vypnutý</string>
     <string name="tether_data_usage_limit">Jednorazový dátový limit</string>
     <string name="tether_data_usage_limit_summary">Dátový limit sa započíta po ďalšom zapnutí hotspotu</string>
+    <string name="tether_auto_disable_title">Automatically close hotspot</string>
+    <string name="tether_auto_disable_summary">Automatically close hotspot when no connected devices</string>
     <string name="hdmi_3dplay_settings_title">HDMI</string>
     <string name="hdmi_3dplay_control_text">Povoliť 3D</string>
     <string name="hdmi_3dplay_control_enable_subtext">Stereoskopické 3D zobrazenie v externom 3D zariadení je povolené</string>
@@ -4532,7 +4554,7 @@ Umožňuje to ochrániť údaje v stratených alebo ukradnutých zariadeniach."<
     <string name="music_dolby_mode_off">Vyp.</string>
     <string name="music_dolby_mode_music">Hudba</string>
     <string name="music_dolby_mode_movie">Film</string>
-    <string name="music_app_unavailable">Spoľahnite sa na hudobnú aplikáciu. Uistite sa, že je k dispozícii</string>
+    <string name="music_app_unavailable">Uistite sa, že aplikácia Mi Hudba je dostupná.</string>
     <string name="lockpassword_confirm_workspace_password">Overenie hesla Pracovného priestoru</string>
     <string name="turn_on_keyguard_password_alert_forget_title">Zapamätajte si svoje heslo</string>
     <string name="turn_on_keyguard_password_alert_forget_content">Zapamätajte si svoje heslo Zamykacej obrazovky. Ak ho zabudnete, budete musieť vymazať všetky údaje z vášho zariadenia vrátane fotografií a kontaktov a potom nastaviť nové heslo.</string>
@@ -4770,6 +4792,8 @@ Umožňuje to ochrániť údaje v stratených alebo ukradnutých zariadeniach."<
     <string name="navigation_guide_dialog_dont_show_again">Znovu nezobrazovať</string>
     <string name="navigation_guide_back_anim_title">Naznačiť gesto \"Naspäť\"</string>
     <string name="navigation_guide_back_anim_summary">Ukazovať animáciu počas potiahnutia z kraju obrazovky</string>
+    <string name="fsg_mistake_touch_title">Dvojitá kontrola gest</string>
+    <string name="fsg_mistake_touch_summary">V niektorých prípadoch, ako sú hry alebo videá na zobrazené na celú obrazovku, je potrebné na vykonanie gest zdvojené potiahnutie</string>
     <string name="navigation_guide_settings">Demá s gestami</string>
     <string name="navigation_guide_home_title">Prejsť na Domovskú obrazovku</string>
     <string name="navigation_guide_home_summary">Potiahnuť nahor zo spodného okraju obrazovky</string>

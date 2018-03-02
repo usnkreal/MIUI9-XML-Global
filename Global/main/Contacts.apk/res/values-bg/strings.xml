@@ -807,7 +807,7 @@
     <string name="path_key_rebuild_t9_index_title">Системни приложения/Контакти/Подреждане на контакти/Възстанови индексираните данни</string>
     <string name="path_key_sim_manage">Системни приложения/Контакти/Подреждане на контакти/SIM карти</string>
     <string name="path_preference_contacts_filter">Системни приложения/Контакти/Настройки за показване/Подреди контактите</string>
-    <string name="path_quick_dial_setting">Системни приложения/Контакти/Бързо набиране</string>
+    <string name="path_quick_dial_setting">Системни приложения/Телефон/Разширени настройки/Бързо набиране</string>
     <string name="path_remove_duplicate">Системни приложения/Контакти/Подреждане на контакти/Изтрий повтарящи се контакти</string>
     <string name="path_share_visible_contacts">Системни приложения/Контакти/Внеси/Запиши контакти/Сподели контакти</string>
     <string name="path_sim_capacity">Системни приложения/Контакти/съхранение на SIM</string>
@@ -868,6 +868,7 @@
     <string name="preference_contacts_display">Преглед на контакти</string>
     <string name="preference_contacts_filter">Контакти за показване</string>
     <string name="preference_contacts_more">Други настройки</string>
+    <string name="preference_contacts_moresetting">Още</string>
     <string name="preference_dial_pad_touch_tone_default">По подразбиране</string>
     <string name="preference_dial_pad_touch_tone_human">Човешки глас</string>
     <string name="preference_dial_pad_touch_tone_piano">Пиано</string>
@@ -875,6 +876,7 @@
     <string name="preference_dial_pad_touch_tone_title">Тон при докосване</string>
     <string name="preference_display">Показване</string>
     <string name="preference_displayOptions">Опции за показване</string>
+    <string name="preference_display_contact">Опции за показване</string>
     <string name="preference_export">Експорт</string>
     <string name="preference_import">Импорт</string>
     <string name="preference_import_export">Импорт/Експорт</string>
@@ -991,7 +993,7 @@
     <string name="search_key_rebuild_t9_index_title">Подреждане;Контакти;Т9</string>
     <string name="search_key_sim_manage">Подреждане;Контакти</string>
     <string name="search_preference_contacts_filter">Контакти;Показване</string>
-    <string name="search_quick_dial_setting">Контакти</string>
+    <string name="search_quick_dial_setting">Телефон</string>
     <string name="search_remove_duplicate">Подреждане;Контакти</string>
     <string name="search_results_searching">Търсене…</string>
     <string name="search_settings_description">Имена от ваши контакти</string>
@@ -1194,7 +1196,7 @@
     <string name="yellowPageNavigationLabel">Директория</string>
     <string name="yellowpage_fc_toast">Не може да се използва услугата, защото Жълти страници не работи правилно.</string>
     <string name="yellowpage_navigation_ad_hint">Реклама</string>
-    <string name="yellowpage_navigation_balance_refresh_failed">Балансът и данните не бяха потвърдени, опитайте отново по-късно.</string>
+    <string name="yellowpage_navigation_balance_refresh_failed">Кредитът и данните не бяха потвърдени, опитайте отново по-късно.</string>
     <string name="yellowpage_navigation_balance_refresh_succeed">Кредитът и данните са потвърдени</string>
     <string name="yellowpage_navigation_clear_search_history">Изчисти историята</string>
     <string name="yellowpage_navigation_more_items">Още</string>

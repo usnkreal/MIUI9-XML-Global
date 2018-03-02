@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="privacy_authorize_revoke_title">Оторизация &amp; отменяне</string>
+    <string name="enabled_authorised_apps_title">Предоставено разрешение</string>
+    <string name="enabled_authorised_apps_summary">Вашето разрешение ще бъде отменено, след като натиснете превключвателите на отделни приложения.</string>
+    <string name="disabled_authorised_apps_title">Отменено разрешение</string>
+    <string name="privacy_authorize_revoke_dialog_title">Отмяна на разрешението</string>
+    <string name="privacy_authorize_revoke_dialog_msg">След като анулирате разрешението, приложението ще спре събирането на данни и всички свързани с него данни ще бъдат изтрити от сървърите. Това може да направи приложението практически неизползваемо. Да се отмени разрешението?</string>
+    <string name="privacy_authorize_revoke">Отмяна</string>
+    <string name="privacy_authorize_revoke_time">Отмяна (%1$dсек)</string>
+    <string name="privacy_authorize_title">Предоставяне на разрешение</string>
+    <string name="privacy_authorize_privacy_policy">Правила за поверителност</string>
+    <string name="privacy_authorize_dialog_message">%1$s изисква да прочетете и се съгласите с %2$s. Приложението трябва да се свърже с мрежата, за да работи нормално. Приемане?</string>
+    <string name="privacy_authorize_dialog_exit">Изход</string>
+    <string name="privacy_authorize_dialog_agree">Приемам</string>
+    <string name="privacy_authorize_network_error">Свържете се с интернет и опитайте отново.</string>
+    <string name="privacy_authorize_revoke_success">Разрешението е успешно отменено</string>
+    <string name="privacy_authorize_revoke_failed">Не може да се отмени разрешението</string>
+    <string name="privacy_authorize_success">Успешно придобито разрешение</string>
+    <string name="privacy_authorize_revoking">Отмяна на разрешение…</string>
     <string name="launcher_title">Начален екран и Последни</string>
     <string name="defalut_launcher_title">Стартер по подразбиране</string>
     <string name="miui_screen_config_title">Настройки на Начален екран</string>
@@ -2978,7 +2996,8 @@
     <string name="write_settings_on">Да</string>
     <string name="write_settings_off">Не</string>
     <string name="ad_service">Услуга за реклами</string>
-    <string name="use_personalized_ad_service">Използвай идентификатора на реклами</string>
+    <string name="use_personalized_ad_service">Персонализирана рекламна препоръка</string>
+    <string name="use_personalized_ad_service_summary">Когато функцията за препоръки е изключена, пак ще видите същото количество реклами, както когато е включено, но не въз основа на данните за поведението ви или личната ви информация.</string>
     <string name="reset_aaid">Нулирай идентификатора на реклами</string>
     <string name="confirm_reset_aaid">OК</string>
     <string name="about_ad_service_instructions">Относно рекламите и сигурността</string>
@@ -3299,6 +3318,7 @@
     <string name="sure_sync_now">Синхр на елементите сега?</string>
     <string name="sync_now">Синхронизиране</string>
     <string name="suggestion_for_phone_recycled">Добавете друг телефонен номер</string>
+    <string name="mi_upi_settings">Mi Pay Профил</string>
     <string name="sms_received_sound_title">Получено съобщение</string>
     <string name="sms_delivered_sound_title">Съобщението е доставено</string>
     <string name="sms_received_sound_dialog_title">Избери звук за получени съобщения</string>
@@ -3923,6 +3943,8 @@
     <string name="tether_settings_disabled">Точката за достъп е изкл</string>
     <string name="tether_data_usage_limit">Еднократен лимит за данни</string>
     <string name="tether_data_usage_limit_summary">Лимитът за данни ще бъде приложен следващия път, когато вашата точка за достъп е активна</string>
+    <string name="tether_auto_disable_title">Автоматично затваряне на гореща точка</string>
+    <string name="tether_auto_disable_summary">Спирайте автоматично горещата точка, когато няма свързани устройства</string>
     <string name="hdmi_3dplay_settings_title">HDMI</string>
     <string name="hdmi_3dplay_control_text">3D Изход</string>
     <string name="hdmi_3dplay_control_enable_subtext">Стереоскопичният 3D изход за външен 3D дисплей е активиран</string>
@@ -4536,7 +4558,7 @@
     <string name="music_dirac_mode_in_ear_pro">Mi In-Ear Pro</string>
     <string name="music_dirac_mode_capsule">Mi капсула</string>
     <string name="music_dirac_mode_headset_comfort">Mi Комфорт</string>
-    <string name="music_dirac_mode_reduction_noise">Mi шумопотискане (Тип C)</string>
+    <string name="music_dirac_mode_reduction_noise">Mi шумопотискане (Тип-C)</string>
     <string name="music_dirac_mode_cancelling">Mi шумопотискане (3.5mm)</string>
     <string name="music_audio_effect_settings">Настройка на ефектите</string>
     <string name="music_equalizer_summary">Настройване на индивидуални нива за различните видове музика</string>
@@ -4545,7 +4567,7 @@
     <string name="music_dolby_mode_off">Изкл.</string>
     <string name="music_dolby_mode_music">Музика</string>
     <string name="music_dolby_mode_movie">Филм</string>
-    <string name="music_app_unavailable">Зависи от приложението Музика, уверете се, че е налично</string>
+    <string name="music_app_unavailable">Уверете се, че приложението Mi Музика е достъпно.</string>
     <string name="lockpassword_confirm_workspace_password">Потвърдете паролата за работно място</string>
     <string name="turn_on_keyguard_password_alert_forget_title">Запомнете вашата парола</string>
     <string name="turn_on_keyguard_password_alert_forget_content">Запомнете вашата парола за Заключен екран. Ако я забравите, ще трябва да изтриете всички данни от устройството си, включително снимки и контакти, и след това да зададете нова парола.</string>
@@ -4783,6 +4805,8 @@
     <string name="navigation_guide_dialog_dont_show_again">Не показвай отново</string>
     <string name="navigation_guide_back_anim_title">Анимиран жест \"Върни се обратно\"</string>
     <string name="navigation_guide_back_anim_summary">Показване на анимация, докато плъзгате от ръба на екрана</string>
+    <string name="fsg_mistake_touch_title">Двойна проверка за жестовете</string>
+    <string name="fsg_mistake_touch_summary">В някои случаи, като например игрите на цял екран и видео, жестовете трябва да се извършват по два пъти преди да имат ефект</string>
     <string name="navigation_guide_settings">Демонстрация на жестове</string>
     <string name="navigation_guide_home_title">Отиди на Начален екран</string>
     <string name="navigation_guide_home_summary">Плъзнете нагоре от долната част на екрана</string>

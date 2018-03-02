@@ -75,7 +75,7 @@
     <string name="db_downgrade_clear_date_reminder">Změna verze systému MIUI vyžaduje vymazání dat aplikace Poznámky. Před pokračováním se ujistěte, že jste zálohovali všechny důležité poznámky na Mi Cloud.</string>
     <string name="db_downgrade_clear_button">Vymazat data</string>
     <string name="cloud_service_state_open_reminder">Pro synchronizaci poznámek zapnětě synchr. s Mi Cloudem.</string>
-    <string name="toast_cancel_to_insert_image">"Couldn't add image."</string>
+    <string name="toast_cancel_to_insert_image">Obrázek nelze přidat.</string>
     <string name="app_name">Poznámky</string>
     <string name="app_widget">Poznámky</string>
     <string name="widget_havenot_content">Klepněte pro vytvoření poznámky. Pro změnu velikosti přidržte prst na widgetu.</string>

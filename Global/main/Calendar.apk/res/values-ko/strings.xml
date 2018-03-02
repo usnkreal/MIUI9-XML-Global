@@ -110,7 +110,7 @@
     <string name="yearly">매년(%s마다)</string>
     <string name="yearly_plain">매년</string>
     <string name="account_and_calendar">계정</string>
-    <string name="action_bar_date_button_title">Calculate date</string>
+    <string name="action_bar_date_button_title">날짜 계산</string>
     <string name="action_bar_more_menu_view_description">더 보기</string>
     <string name="action_bar_return">뒤로</string>
     <string name="action_text_card_manager">채널</string>
@@ -166,7 +166,7 @@
     <string name="date_calculate_description">특정 날짜의 이전 또는 이후의 날짜 계산</string>
     <string name="date_calculate_direction">방향</string>
     <string name="date_calculate_direction_content_description">현재 방향: %1s.</string>
-    <string name="date_calculate_hint">Learn what date it is after a number days</string>
+    <string name="date_calculate_hint">며칠 후가 무슨 날인지 알아보십시오</string>
     <string name="date_calculate_result">결과</string>
     <string name="date_calculate_tab">날짜 계산</string>
     <string name="date_calculate_today">0 일</string>

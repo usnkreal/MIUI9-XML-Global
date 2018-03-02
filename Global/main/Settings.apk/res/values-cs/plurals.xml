@@ -4,16 +4,19 @@
         <item quantity="other">%d aplikací nemůže zobrazovat upozornění</item>
         <item quantity="one">%d aplikace nemůže zobrazovat upozornění</item>
         <item quantity="few">%d aplikace nemohou zobrazovat upozornění</item>
+        <item quantity="many">"%d apps can't show notifications"</item>
     </plurals>
     <plurals name="status_bar_settings_enabled_header_title">
         <item quantity="other">%d aplikací může zobrazovat upozornění</item>
         <item quantity="one">%d aplikace může zobrazovat upozornění</item>
         <item quantity="few">%d aplikace mohou zobrazovat upozornění</item>
+        <item quantity="many">%d apps can show notifications</item>
     </plurals>
     <plurals name="settings_toggle_position_divider_page">
         <item quantity="other">%1$d přepínačů bude zobrazeno v Oznamovací roletce</item>
         <item quantity="one">%1$d přepínač bude zobrazen v Oznamovací roletce</item>
         <item quantity="few">%1$d přepínače budou zobrazeny v Oznamovací roletce</item>
+        <item quantity="many">%1$d toggles will appear in the Notification shade</item>
     </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">Ještě %1$d kroků a bude z vás vývojář.</item>
@@ -127,80 +130,96 @@
         <item quantity="other">Nalezeno %d hrozeb</item>
         <item quantity="one">Nalezena %d hrozba</item>
         <item quantity="few">Nalezeny %d hrozby</item>
+        <item quantity="many">%d risks found</item>
     </plurals>
     <plurals name="auto_startup_count">
         <item quantity="other">%d aplikací se bude spouštět při startu</item>
         <item quantity="one">%d aplikace se bude spouštět při startu</item>
         <item quantity="few">%d aplikace se budou spouštět při startu</item>
+        <item quantity="many">%d apps are allowed to autostart</item>
     </plurals>
     <plurals name="lockpassword_pin_fixed_length">
         <item quantity="other">PIN musí mít %d čísel</item>
         <item quantity="one">PIN musí mít %d číslo</item>
         <item quantity="few">PIN musí mít %d čísla</item>
+        <item quantity="many">PIN must be %d digits</item>
     </plurals>
     <plurals name="wifi_share_count">
         <item quantity="other">%d sdílených sítí</item>
         <item quantity="one">%d sdílená síť</item>
         <item quantity="few">%d sdílené sítě</item>
+        <item quantity="many">Shared %d networks</item>
     </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d zařízení</item>
         <item quantity="one">%d zařízení</item>
         <item quantity="few">%d zařízení</item>
+        <item quantity="many">%d devices</item>
     </plurals>
     <plurals name="free_wifi_connected_count">
         <item quantity="other">Připojeno %1$d lidí</item>
         <item quantity="one">Připojen %1$d člověk</item>
         <item quantity="few">Připojeni %1$d lidé</item>
+        <item quantity="many">%1$d people connected</item>
     </plurals>
     <plurals name="show_pho_countdown">
         <item quantity="other">Jste %1$d kroků od vstupu do informací o telefonu.</item>
         <item quantity="one">Jste %1$d krok od vstupu do informací o telefonu.</item>
         <item quantity="few">Jste %1$d kroky od vstupu do informací o telefonu.</item>
+        <item quantity="many">"You're %1$d steps away from entering phone info."</item>
     </plurals>
     <plurals name="show_cit_countdown">
         <item quantity="other">Jste %1$d kroků od vstupu do CIT.</item>
         <item quantity="one">Jste %1$d krok od vstupu do CIT.</item>
         <item quantity="few">Jste %1$d kroky od vstupu do CIT.</item>
+        <item quantity="many">"You're %1$d steps away from entering CIT."</item>
     </plurals>
     <plurals name="show_rep_countdown">
         <item quantity="other">Jste %1$d kroků od nahlášení chyby.</item>
         <item quantity="one">Jste %1$d krok od nahlášení chyby.</item>
         <item quantity="few">Jste %1$d kroky od nahlášení chyby.</item>
+        <item quantity="many">"You're %1$d steps away from reporting bug."</item>
     </plurals>
     <plurals name="auto_disable_screenbuttons_enabled_header_title">
         <item quantity="other">Vždy vypnuto pro %d aplikací</item>
         <item quantity="one">Vždy vypnuto pro 1 aplikaci</item>
         <item quantity="few">Vždy vypnuto pro %d aplikace</item>
+        <item quantity="many">Always disable for %d apps</item>
     </plurals>
     <plurals name="auto_disable_screenbuttons_disabled_header_title">
         <item quantity="other">Nikdy nevypínat pro %d aplikací</item>
         <item quantity="one">Nikdy nevypínat pro 1 aplikaci</item>
         <item quantity="few">Nikdy nevypínat pro %d aplikace</item>
+        <item quantity="many">Never disable for %d apps</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short">
         <item quantity="other">PIN kód musí mít %d čísel</item>
         <item quantity="one">PIN kód musí mít %d číslo</item>
         <item quantity="few">PIN kód musí mít %d čísla</item>
+        <item quantity="many">PIN must be %d digits long</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long">
         <item quantity="other">PIN může mít až %d čísel</item>
         <item quantity="one">PIN může mít až %d číslo</item>
         <item quantity="few">PIN může mít až %d čísla</item>
+        <item quantity="many">PIN can contain up to %d digits</item>
     </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
         <item quantity="other">Spojte alespoň %d bodů. Zkuste to znovu.</item>
         <item quantity="one">Spojte alespoň %d bod. Zkuste to znovu.</item>
         <item quantity="few">Spojte alespoň %d body. Zkuste to znovu.</item>
+        <item quantity="many">Connect at least %d dots. Try again.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts">
         <item quantity="other">Příliš mnoho nesprávných pokusů. Zkuste to znovu za %d sekund.</item>
         <item quantity="one">Příliš mnoho nesprávných pokusů. Zkuste to znovu za %d sekundu.</item>
         <item quantity="few">Příliš mnoho nesprávných pokusů. Zkuste to znovu za %d sekundy.</item>
+        <item quantity="many">Too many incorrect attempts. Try again in %d seconds.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
         <item quantity="other">Zkuste to znovu za %d sekund.</item>
         <item quantity="one">Zkuste to znovu za %d sekundu.</item>
         <item quantity="few">Zkuste to znovu za %d sekundy.</item>
+        <item quantity="many">Wait for %d seconds and try again.</item>
     </plurals>
 </resources>

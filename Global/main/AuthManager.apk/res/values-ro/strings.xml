@@ -13,10 +13,6 @@
     <string name="HIPS_Perm_Location_Desc">obține locația exactă (GPS și bazată pe rețea)</string>
     <string name="HIPS_Perm_PhoneID">Obţineți informaţii dispozitiv</string>
     <string name="HIPS_Perm_PhoneID_Desc">Accesează număr de telefon, IMEI şi IMSI</string>
-    <string name="HIPS_Perm_SMS">Scrie şi şterge mesaje SMS</string>
-    <string name="HIPS_Perm_SMS_Desc">scrie şi şterge mesaje SMS</string>
-    <string name="HIPS_Perm_MMS">Scrie şi şterge mesaje MMS</string>
-    <string name="HIPS_Perm_MMS_Desc">scrie şi şterge mesaje multimedia</string>
     <string name="HIPS_Perm_Contact">Modifică şi şterge contacte</string>
     <string name="HIPS_Perm_Contact_Desc">modifică şi şterge contactele dvs.</string>
     <string name="HIPS_Perm_CallLog">Scrie şi şterge istoric apel</string>

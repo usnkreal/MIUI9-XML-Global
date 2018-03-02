@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="account_user_gender_name">
-        <item>Male</item>
-        <item>Female</item>
+        <item>Mann</item>
+        <item>Kvinne</item>
     </string-array>
     <string-array name="education">
-        <item>Middle school</item>
-        <item>Prep school</item>
-        <item>High school</item>
-        <item>Vocational school</item>
-        <item>"Bachelor's degree"</item>
-        <item>"Master's degree"</item>
-        <item>"Doctor's degree"</item>
+        <item>Ungdomsskole</item>
+        <item>Forberedende privatskole</item>
+        <item>Videregående skole</item>
+        <item>Yrkesskole</item>
+        <item>Bachelorgrad</item>
+        <item>Mastergrad</item>
+        <item>Doktorgrad</item>
     </string-array>
     <string-array name="income">
         <item>&lt; USD 300</item>

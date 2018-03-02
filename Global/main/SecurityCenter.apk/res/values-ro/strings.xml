@@ -80,7 +80,7 @@ Va fi adăugat la excepții, dar elementele blocate anterior nu vor apărea în 
     <string name="menu_add">Adăugați</string>
     <string name="menu_edit">Editează</string>
     <string name="menu_remove">Șterge</string>
-    <string name="menu_white">Except</string>
+    <string name="menu_white">Adaugă la excepţii</string>
     <string name="st_settings_name">Setări listă numere blocate</string>
     <string name="st_filter_keywords_setting_summary1">Mesajele de la numere necunoscute care conțin cuvintele din această listă vor fi blocate.</string>
     <string name="st_filter_keywords_setting_summary3">Mesajele de la numere necunoscute care conțin cuvintele din această listă nu vor fi blocate.</string>
@@ -614,7 +614,7 @@ Datele rămase includ datele care au fost raportate din luna precedentă."</stri
     <string name="tc_sms_report_type">Tip de raport</string>
     <string name="privacy_declare_dialog_title">Condiţii de utilizare</string>
     <string name="sc_allow_network_dialog_tiltle">Nu pot folosi această funcție</string>
-    <string name="sc_allow_network_dialog_message">Această aplicație trebuie să fie conectată la internet pentru a lucra în mod normal.</string>
+    <string name="sc_allow_network_dialog_message">You restricted network connection and access to your location for Security. Give Security the required permissions to use this feature.</string>
     <string name="privacy_prompt_upload">Încărcaţi</string>
     <string name="privacy_prompt_traffic_adjust_message">"După ce începe calibrarea, MIUI se va conecta la rețea, va codifica informațiile operatorului dvs., numărul de telefon, IMEI, și Contul Mi, și încarcă aceste elemente la serverele Mi. Acest lucru se face în scopul de a dobândi operatorului un șablon de calibrare și să învețe, dacă este posibil pentru a achiziționa date în locația dvs. 
 
@@ -766,8 +766,8 @@ Citiți intrucțiunile care însoțesc routerul și restaurați routerul la set�
     <string name="networkchanged_exception_title">Conexiune schimbată</string>
     <string name="networkchanged_exception_summary">Conexiunea de rețea s-a schimbat. Vă rugăm să testați din nou.</string>
     <string name="network_test_speed">Testează viteza la Wi-Fi</string>
-    <string name="network_changed_noti_title">Disconnected from Wi-Fi</string>
-    <string name="network_changed_noti_summary">Using mobile data</string>
+    <string name="network_changed_noti_title">Deconectat de la Wi-Fi</string>
+    <string name="network_changed_noti_summary">Folosind date mobile</string>
     <string name="network_speed_for_apps_title">Conexiune</string>
     <string name="network_speed_for_apps_total">Viteză conexiune</string>
     <string name="network_speed_for_apps_close_app_dlg_msg">Opriți forțat această aplicație?</string>
@@ -933,8 +933,8 @@ dispozitivul"</string>
     <string name="om_ill_proc_type_radio_title">Aplicația se conectează frecvent la rețea și utilizează bateria</string>
     <string name="om_ill_proc_type_radio_detail">Remediați problemele de conectare la rețea</string>
     <string name="om_ill_proc_activity_title">Probleme</string>
-    <string name="power_center_title">Battery usage</string>
-    <string name="power_center_back">Back to Battery usage</string>
+    <string name="power_center_title">Utilizarea bateriei</string>
+    <string name="power_center_back">Înapoi la Utilizarea bateriei</string>
     <string name="power_center_auto_shutdown">Programare alimentare oprit/pornit</string>
     <string name="power_center_ontime_boot">Porniți după program</string>
     <string name="power_center_time_to_boot">Porniți după program</string>
@@ -1673,7 +1673,7 @@ dispozitivul"</string>
     <string name="preferred_app_entries_music">Muzică</string>
     <string name="preferred_app_entries_email">Email</string>
     <string name="card_main_applock_title">Blocare aplicație</string>
-    <string name="card_main_applock_summary">Protect messages, photos, and other items with a password.</string>
+    <string name="card_main_applock_summary">Protejați aplicațiile selectate cu parolă.</string>
     <string name="card_main_applock_action">Pornește</string>
     <string name="card_main_deepclean_title">Curăţare intensă</string>
     <string name="card_main_deepclean_summary">Ștergeți fișierele care nu sunt necesare</string>
@@ -1712,14 +1712,18 @@ dispozitivul"</string>
     <string name="more_lock">Mai mult</string>
     <string name="app_name">Blocare aplicație</string>
     <string name="back_app_name">Reveniți la blocarea aplicațiilor</string>
-    <string name="notification_item">Protejați aplicațiile cu Blocarea aplicației</string>
+    <string name="ac_notification_contentTitle">Protect apps with App lock</string>
+    <string name="ac_pre_notification_contentTitle">Try App Lock</string>
+    <string name="ac_post_notification_contentTitle">Turn on App Lock</string>
     <string name="notification_masked_item">Ascunde notificări</string>
     <string name="lock_mode_title">Blochează setări</string>
     <string name="after_the_lock_screen">Blocați aplicațiile împreună cu ecranul</string>
     <string name="set_applock_password">Setează parolă</string>
     <string name="ac_firstUseApplock_title">Setați o parolă pentru a proteja aplicațiile</string>
     <string name="ac_firstUseApplock_subTitle">Folosește instrumente mai bune de securitate la nivel de sistem</string>
-    <string name="notification_subtitle">Atingeți pentru a activa</string>
+    <string name="ac_notification_contentText">Tap to turn on</string>
+    <string name="ac_pre_notification_contentText">Protect your personal info</string>
+    <string name="ac_post_notification_contentText">Get system-level protection</string>
     <string name="notification_masked_subtitle">Ascundeți notificările din aplicațiile protejate prin blocarea aplicațiilor</string>
     <string name="ac_enter_applock">Introdu blocare aplicație</string>
     <string name="ac_mask_all_apps">Ascundeți pentru toate aplicațiile</string>
@@ -1728,8 +1732,8 @@ dispozitivul"</string>
     <string name="ac_summaryOff">Dezactivat, nu este necesară parola pentru a deschide aplicații</string>
     <string name="lockpattern_tutorial_cancel_label">Anulează</string>
     <string name="lockpattern_tutorial_continue_label">Următorul</string>
-    <string name="lockpattern_tutorial_continue_label_next">Tap \"Next\"</string>
-    <string name="lockpattern_tutorial_continue_label_confirm">Tap \"OK\"</string>
+    <string name="lockpattern_tutorial_continue_label_next">Atingeţi \"Următorul\"</string>
+    <string name="lockpattern_tutorial_continue_label_confirm">Atingeţi \"OK\"</string>
     <string name="lockpattern_retry_button_text">Desenează din nou</string>
     <string name="numeric_retry_button_text">Anulează</string>
     <string name="mixed_retry_button_text">Anulează</string>

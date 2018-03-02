@@ -3,7 +3,7 @@
     <string name="passport_account_label">Xiaomi účet</string>
     <string name="passport_notification_title">Chyba přihlášení %1$s</string>
     <string name="passport_login_prompt">Jeden Xiaomi účet. Všechny Xiaomi služby.</string>
-    <string name="passport_login_using_other_ways"><u>Jiné možnosti přihlášení</u></string>
+    <string name="passport_login_using_other_ways">Jiné způsoby přihlášení</string>
     <string name="passport_login_title">Přihlásit se ke Xiaomi účtu</string>
     <string name="passport_login">Přihlásit se</string>
     <string name="passport_relogin">Přihlaste se znovu</string>
@@ -48,7 +48,7 @@
     <string name="passport_reset_password_title">Obnovit heslo</string>
     <string name="passport_auto_generate_pwd">Generovat bezpečnostní heslo</string>
     <string name="passport_pwd_generate_failure">Bezpečnostní heslo se nepodařilo vygenerovat</string>
-    <string name="passport_use_generated_pwd_title">Pamatovat si heslo</string>
+    <string name="passport_use_generated_pwd_title">Zapamatujte si své heslo!</string>
     <string name="passport_use_generated_pwd_message">Ujistěte se, že si pamatujete vaše heslo. Pomocí tohoto hesla se můžete přihlásit do ostatních Mi služeb.</string>
     <string name="passport_register_restricted_title">Toto tel. číslo nelze použít</string>
     <string name="passport_register_restricted">S tímto číslem je spárováno příliš mnoho účtů, zkuste jiné telefonní číslo</string>
@@ -94,6 +94,7 @@ Pro aktivaci vašeho účtu, klikněte na
     <string name="passport_email">E-mailová adresa</string>
     <string name="passport_vcode_prompt_long">Zadejte váš ověřovací kód</string>
     <string name="passport_input_phone_hint">Zadejte telefonní číslo</string>
+    <string name="passport_input_voice_captcha_hint">Zadejte ověřovací hlasový kód</string>
     <string name="passport_error_empty_username">Zadejte ID vašeho účtu</string>
     <string name="passport_error_invalid_phone_num">Neplatné telefonní číslo</string>
     <string name="passport_error_empty_phone_num">Zadejte telefonní číslo</string>
@@ -218,11 +219,12 @@ Pro aktivaci vašeho účtu, klikněte na
     <string name="app_name">Xiaomi účet</string>
     <string name="account">Účet</string>
     <string name="logout_failed">Odhlášení se nezdařilo</string>
+    <string name="turning_off_find_device">Vypínání funkce Najít zařízení…</string>
     <string name="turn_off_find_device_failed_title">Nelze deaktivovat vyhledávání zařízení</string>
     <string name="no_response_retry">Žádná odpověď, zkuste to znovu.</string>
     <string name="removing_account">Odhlašování…</string>
-    <string name="delete_bank_card_title">Smazání vaší bankovní karty</string>
-    <string name="delete_bank_card_message">Vaše bankovní karta bude z bezpečnostních důvodů smazána poté, co se odhlásíte</string>
+    <string name="delete_bank_card_title">Upozornění</string>
+    <string name="delete_bank_card_message">Po odhlášení budou bankovní karty Mi Plateb a NFC karty smazány.</string>
     <string name="bind_settings">Účty</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="bind_sina_weibo">Přihlásit se k účtu Sina Weibo</string>
@@ -230,7 +232,7 @@ Pro aktivaci vašeho účtu, klikněte na
     <string name="bind_sns_description">Přihlásit se pomocí %s</string>
     <string name="add_account">Přidat účet</string>
     <string name="qq">QQ</string>
-    <string name="bind_qq">Přidat QQ účet</string>
+    <string name="bind_qq">QQ</string>
     <string name="facebook">Facebook</string>
     <string name="bind_facebook">Přidat Facebook účet</string>
     <string name="binded">Účet přidán</string>
@@ -360,13 +362,16 @@ Pro aktivaci vašeho účtu, klikněte na
     <string name="device_delete_success_title">Odhlášeno</string>
     <string name="device_delete_success_message">Pokud jste se na tomto zařízení nepřihlásili, doporučujeme vám si co nejdříve změnit heslo.</string>
     <string name="change_password">Změnit heslo</string>
-    <string name="completed">Dokončit</string>
+    <string name="completed">Vše nastaveno!</string>
     <string name="no_network_title">Nelze se připojit k síti.</string>
     <string name="no_network_btn">Obnovit</string>
     <string name="get_device_list_failed">Zařízení nelze načíst</string>
     <string name="delete_device_failed">Zařízení nelze odebrat</string>
     <string name="empty_device_list_notice">Žádné zařízení</string>
     <string name="device_name">Název zařízení</string>
+    <string name="multi_user_not_show_sync_activity_title">Nezapínat synchronizaci s Mi Cloudem</string>
+    <string name="multi_user_not_show_sync_activity_message_1">Zdá se, že používáte Xiaomi účet Prvního prostoru.</string>
+    <string name="multi_user_not_show_sync_activity_message_2">V takovém případě budou všechna data synchronizována s Druhým prostorem. Aby k tomu nedošlo, nezapínejte synchronizaci s Mi Cloudem.</string>
     <string name="find_device_access_denied">Nelze zjistit stav, přístup zamítnut</string>
     <string name="find_device_account_error">Nelze zjistit stav kvůli chybě účtu</string>
     <string name="find_device_null_credential_error">Nelze získat informace o zařízení, kontaktujte zákaznickou podporu Xiaomi</string>
@@ -382,10 +387,7 @@ Pro aktivaci vašeho účtu, klikněte na
     <string name="find_device_operation_failed_error_unknown">Došlo k chybě, zkuste to znovu později</string>
     <string name="find_device_remote_exception">Chyba RPC</string>
     <string name="io_error_title">Potvrďte vaši síť</string>
-    <string name="login_check_find_device_failed_title">Nelze zkontrolovat stav Hledat zařízení</string>
-    <string name="multi_user_not_show_sync_activity_title">Nezapínat synchronizaci s Mi Cloudem</string>
-    <string name="multi_user_not_show_sync_activity_message_1">Zdá se, že používáte Xiaomi účet Prvního prostoru.</string>
-    <string name="multi_user_not_show_sync_activity_message_2">V takovém případě budou všechna data synchronizována s Druhým prostorem. Aby k tomu nedošlo, nezapínejte synchronizaci s Mi Cloudem.</string>
+    <string name="login_check_find_device_failed_title">Nelze ověřit bezpečnostní informace zařízení</string>
     <string name="notify_network_restricted_title">Xiaomi účet se nemohl připojit k síti</string>
     <string name="notify_network_restricted_content_hidden_state">Činnost Xiaomi účtu na pozadí je zakázána. Klepnutím ji povolíte.</string>
     <string name="notify_network_restricted_content_bg_network">Přístup Xiaomi účtu k internetu je zakázán. Klepnutím jej povolíte.</string>
@@ -414,11 +416,10 @@ Pro aktivaci vašeho účtu, klikněte na
     <string name="find_device_activate_account">Aktivovat účet</string>
     <string name="login_check_find_device">Získávám informace o zabezpečení zařízení…</string>
     <string name="unlock_help_notice">"Nápověda:
- · Pokud jste zapomněli své heslo, na stránce id.mi.com jej můžete resetovat.
- · Pokud nejde zařízení odemknout, na stránce i.mi.com, vypněte funkci Najít zařízení
- · Toto číslo pro odemknutí sdělte zákaznickému servisu: %s"</string>
-    <string name="find_device_display_id">Číslo pro odemknutí: %s</string>
-    <string name="login_find_device_bind">Toto zařízení je propojeno s existujícím Xiaomi účtem (%s). Zadáním hesla toto zařízení ověříte.</string>
+· Pokud jste zapomněli své heslo, na stránce id.mi.com jej můžete resetovat.
+· Pokud nejde zařízení odemknout, na stránce i.mi.com vypněte funkci Najít zařízení.
+·Číslo pro odemknutí: %s"</string>
+    <string name="login_find_device_bind">Toto zařízení je spojeno s existujícím ID Xiaomi účtu (%s).</string>
     <string name="find_device_locked_account_phone" formatted="false">%s, spojené s číslem: %s</string>
     <string name="find_device_locked_account_email" formatted="false">%s, spojené s e-mailovou adresou: %s</string>
     <string name="oauth_title">Přihlásit se pomocí Xiaomi účtu</string>

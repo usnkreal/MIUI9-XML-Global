@@ -149,7 +149,7 @@
     <string name="v_video_null">Няма видеоклипове</string>
     <string name="vp_app_name">Видео плеър</string>
     <string name="vp_device_list">Устройства</string>
-    <string name="vp_device_list_seaching">&lt;Няма излъчващи устройства></string>
+    <string name="vp_device_list_seaching">Няма излъчващи устройства</string>
     <string name="screenrecord_cancel">Грешка при съвместимостта</string>
     <string name="screenrecord_nosupport_record">Записване на деействията на екрана не се поддържа на това устройство.</string>
 </resources>

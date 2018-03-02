@@ -63,7 +63,7 @@
     <string name="add_stock">Hozzáadás</string>
     <string name="address_name_spell">Adja meg a címet</string>
     <string name="agenda_assistant">Naptáresemények</string>
-    <string name="agenda_assistant_add">Esemény hozzáadása</string>
+    <string name="agenda_assistant_add">Új esemény</string>
     <string name="agenda_assistant_allday">Egész nap</string>
     <string name="agenda_assistant_empty">Nincs esemény mára.</string>
     <string name="agenda_assistant_finish">Mára minden esemény befejeződött.</string>
@@ -73,7 +73,7 @@
     <string name="agenda_setting_brief_detail">Tekintse meg a tervezett eseményeket és születésnap-emlékeztetőket.</string>
     <string name="agenda_settings_account">Naptárfiókok kezelése</string>
     <string name="agenda_settings_birthday">Születésnap-emlékeztetők megjelenítése</string>
-    <string name="app_label">Gyorselérési kártyák</string>
+    <string name="app_label">Gyorskártyák</string>
     <string name="apps_label">Alkalmazások</string>
     <string name="assistant_place">Gyakori helyek felismerése</string>
     <string name="ball_CricketMatch_title">Krikett</string>
@@ -89,7 +89,7 @@
     <string name="calc_currency">Valuta</string>
     <string name="calc_name">Tudományos</string>
     <string name="calc_parent">Számológép</string>
-    <string name="calendar_name">Esemény hozzáadása</string>
+    <string name="calendar_name">Új esemény</string>
     <string name="calendar_parent">Naptár</string>
     <string name="card_hint_noteboard">Érintse meg jegyzet készítéséhez.</string>
     <string name="card_menu_edit">Szerkesztés</string>
@@ -118,7 +118,7 @@
     <string name="cta_dialog_title">Felhasználási feltételek</string>
     <string name="cta_negative">Bezárás</string>
     <string name="cta_positive">Részletek</string>
-    <string name="cta_title">Engedje, hogy a Gyorselérési kártyák segítsenek önnek</string>
+    <string name="cta_title">A Gyorskártyák segítenek Önnek</string>
     <string name="data_error">Hiba történt. Várjon egy-két percet, majd próbálja újra.</string>
     <string name="data_error_show">A rendelés befejeződött, de nem tudja megnézni a részleteket.</string>
     <string name="drive">Vezetés</string>
@@ -132,7 +132,7 @@
     <string name="gmail_compose">Levélírás</string>
     <string name="gmail_parent">Gmail</string>
     <string name="help_quick_start_wechat_video">Hozzáférést kap bizonyos alkalmazások funkcióihoz a parancsikonok használatával</string>
-    <string name="hold_down_adjustment_order">Az elemek áthelyezéséhez érintse meg a jobb oldali ikont</string>
+    <string name="hold_down_adjustment_order">Egy elem hozzáadásához érintse meg a jobb oldali ikont</string>
     <string name="home">Otthon</string>
     <string name="home_and_company">Otthon és munkahely</string>
     <string name="hour12_format_en">hh:mm</string>

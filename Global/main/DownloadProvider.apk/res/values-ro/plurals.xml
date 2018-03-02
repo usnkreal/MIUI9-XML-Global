@@ -17,12 +17,12 @@
     </plurals>
     <plurals name="notif_summary_active">
         <item quantity="other">%d fișiere se descarcă</item>
-        <item quantity="one">%1$d fișier se descarcă</item>
+        <item quantity="one">%d fișier se descarcă</item>
         <item quantity="few">%d fișiere se descarcă</item>
     </plurals>
     <plurals name="notif_summary_waiting">
         <item quantity="other">%d fișiere în așteptare</item>
-        <item quantity="one">%1$d fișier în așteptare</item>
+        <item quantity="one">%d fișier în așteptare</item>
         <item quantity="few">%d fișiere în așteptare</item>
     </plurals>
 </resources>

@@ -3,7 +3,7 @@
     <string name="passport_account_label">Contul Mi</string>
     <string name="passport_notification_title">Eroare de conectare pentru %1$s</string>
     <string name="passport_login_prompt">Un cont Mi. Toate serviciile Mi.</string>
-    <string name="passport_login_using_other_ways"><u>Alte modalități de a vă conecta</u></string>
+    <string name="passport_login_using_other_ways">Other ways to sign in</string>
     <string name="passport_login_title">Conectează-te în contul MI</string>
     <string name="passport_login">Conectați-vă</string>
     <string name="passport_relogin">Conectează-te din nou</string>
@@ -48,7 +48,7 @@
     <string name="passport_reset_password_title">Resetați parola</string>
     <string name="passport_auto_generate_pwd">Generează parolă securizată</string>
     <string name="passport_pwd_generate_failure">Nu s-a putut genera parola</string>
-    <string name="passport_use_generated_pwd_title">Memorează parola</string>
+    <string name="passport_use_generated_pwd_title">Remember your password!</string>
     <string name="passport_use_generated_pwd_message">Asigurați-vă că vă amintiți parola. Puteți să utilizați parola pentru a vă conecta la alte servicii Mi.</string>
     <string name="passport_register_restricted_title">Nu se poate folosi acest număr de telefon</string>
     <string name="passport_register_restricted">Prea multe conturi au fost asociate cu acest număr, încercați unul diferit</string>
@@ -94,6 +94,7 @@ Pentru a activa contul, urmati link-ul
     <string name="passport_email">Adresa de email</string>
     <string name="passport_vcode_prompt_long">Introduceţi codul de verificare</string>
     <string name="passport_input_phone_hint">Introduceți numărul de telefon</string>
+    <string name="passport_input_voice_captcha_hint">Enter voice verification code</string>
     <string name="passport_error_empty_username">Introduceți ID-ul contului dvs.</string>
     <string name="passport_error_invalid_phone_num">Numărul de telefon nu este valid</string>
     <string name="passport_error_empty_phone_num">Introduceți numărul de telefon</string>
@@ -218,11 +219,12 @@ Pentru a activa contul, urmati link-ul
     <string name="app_name">Contul MI</string>
     <string name="account">Cont</string>
     <string name="logout_failed">Nu se poate deconecta</string>
+    <string name="turning_off_find_device">Se oprește Găsește dispozitiv…</string>
     <string name="turn_off_find_device_failed_title">Nu se poate opri Găseste dispozitiv</string>
     <string name="no_response_retry">Nu există rezultate, încercați din nou.</string>
     <string name="removing_account">Deconectarea…</string>
-    <string name="delete_bank_card_title">Se șterge cardul bancar</string>
-    <string name="delete_bank_card_message">Cardul bancar va fi șters din motive de securitate, după ce vă deconectați</string>
+    <string name="delete_bank_card_title">Atenţie</string>
+    <string name="delete_bank_card_message">Mi Pay bank cards and NFC cards will be deleted after you sign out.</string>
     <string name="bind_settings">Conturi</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="bind_sina_weibo">Conectează cont Sina Weibo</string>
@@ -360,13 +362,16 @@ Pentru a activa contul, urmati link-ul
     <string name="device_delete_success_title">Deconectat</string>
     <string name="device_delete_success_message">Dacă nu v-ați conectat pe acest dispozitiv, modificați imediat parola.</string>
     <string name="change_password">Schimbă parola</string>
-    <string name="completed">Toate setate</string>
+    <string name="completed">All set!</string>
     <string name="no_network_title">Nu se poate conecta la reţea.</string>
     <string name="no_network_btn">Reîncarcă</string>
     <string name="get_device_list_failed">Nu se pot obține dispozitivele</string>
     <string name="delete_device_failed">Nu se poate elimina dispozitivul</string>
     <string name="empty_device_list_notice">Nu sunt dispozitive</string>
     <string name="device_name">Nume dispozitiv</string>
+    <string name="multi_user_not_show_sync_activity_title">Nu porniți sincronizarea cu Mi Cloud</string>
+    <string name="multi_user_not_show_sync_activity_message_1">Se pare că utilizați Primul spațiu de la contul Mi.</string>
+    <string name="multi_user_not_show_sync_activity_message_2">în acest caz, toate datele vor fi sincronizate în Al doilea spațiu. Pentru a evita acest lucru, nu porniți sincronizarea cu Mi Cloud.</string>
     <string name="find_device_access_denied">Nu se poate obține statut, acces interzis</string>
     <string name="find_device_account_error">Nu se poate obține starea din cauza unei posibile erori</string>
     <string name="find_device_null_credential_error">Nu se pot obține informații despre dispozitiv, contactați serviciul pentru clienți Xiaomi</string>
@@ -382,10 +387,7 @@ Pentru a activa contul, urmati link-ul
     <string name="find_device_operation_failed_error_unknown">A apărut o eroare, încercați din nou mai târziu</string>
     <string name="find_device_remote_exception">Eroare RPC</string>
     <string name="io_error_title">Confirmă rețeaua</string>
-    <string name="login_check_find_device_failed_title">Nu s-a putut verifica starea Găsește dispozitiv</string>
-    <string name="multi_user_not_show_sync_activity_title">Nu porniți sincronizarea cu Mi Cloud</string>
-    <string name="multi_user_not_show_sync_activity_message_1">Se pare că utilizați Primul spațiu de la contul Mi.</string>
-    <string name="multi_user_not_show_sync_activity_message_2">în acest caz, toate datele vor fi sincronizate în Al doilea spațiu. Pentru a evita acest lucru, nu porniți sincronizarea cu Mi Cloud.</string>
+    <string name="login_check_find_device_failed_title">Nu s-a putut verifica informațiile privind securitatea dispozitivului</string>
     <string name="notify_network_restricted_title">Contul Mi nu s-a putut conecta la rețea</string>
     <string name="notify_network_restricted_content_hidden_state">Activitatea de fond a Contului Mi este restricționată. Atingeţi pentru a permite.</string>
     <string name="notify_network_restricted_content_bg_network">Accesul la internet a Contului Mi este restricționată. Atingeţi pentru a permite.</string>
@@ -413,12 +415,11 @@ Pentru a activa contul, urmati link-ul
     <string name="find_device_prompt_message">Dispozitivul este blocat. Mesaj %1$s.</string>
     <string name="find_device_activate_account">Activează contul</string>
     <string name="login_check_find_device">Obținerea de informații de securitate al dispozitivului…</string>
-    <string name="unlock_help_notice">"Ajutor:
-· Dacă ați uitat parola, du-te la id.mi.com pentru a reseta.
-· Dacă nu se poate debloca dispozitivul, du-te la i.mi.com pentru a opri Găsește dispozitivul.
-· Spune acest număr de deblocare la serviciul pentru clienți: %s"</string>
-    <string name="find_device_display_id">Număr deblocat: %s</string>
-    <string name="login_find_device_bind">Acest dispozitiv este asociat cu un ID Cont Mi (%s), introduceți parola pentru a verifica dispozitivul.</string>
+    <string name="unlock_help_notice">"Help:
+· If you forgot your password, go to id.mi.com to reset it.
+· If you can't unlock the device, go to i.mi.com to turn off Find device.
+· Your unlock number: %s"</string>
+    <string name="login_find_device_bind">Acest dispozitiv este asociat cu un cont Mi ID existent (%s).</string>
     <string name="find_device_locked_account_phone" formatted="false">%s, numărul de telefon asociat: %s</string>
     <string name="find_device_locked_account_email" formatted="false">%s adresă de e-mail asociată: %s</string>
     <string name="oauth_title">Conectați-vă cu Contul Mi</string>

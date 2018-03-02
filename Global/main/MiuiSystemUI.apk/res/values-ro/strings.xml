@@ -270,7 +270,7 @@ MMMM d"</string>
     <string name="ext_media_nomedia_notification_title">Stocare USB scos</string>
     <string name="ext_media_nomedia_notification_message">Stocare USB scos. Introduceți alt purtător de informaţie.</string>
     <string name="ext_media_mountable_notification_title">Stocare USB conectat</string>
-    <string name="ext_media_mountable_notification_message">Atinge pentru a deschide în Explorer</string>
+    <string name="ext_media_mountable_notification_message">Atingeţi pentru a deschide Gestionare Fișiere Mi.</string>
     <string name="ext_media_safe_remove">Scoate în siguranță</string>
     <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">K/s</string>
@@ -717,7 +717,7 @@ MMMM d"</string>
     <string name="keyboard_shortcut_group_system_recents">Recente</string>
     <string name="keyboard_shortcut_group_system_back">Înapoi</string>
     <string name="keyboard_shortcut_group_system_notifications">Notificări</string>
-    <string name="keyboard_shortcut_group_system_shortcuts_helper">Comenzi rapide de la tastatură</string>
+    <string name="keyboard_shortcut_group_system_shortcuts_helper">Comenzi rapide tastatură</string>
     <string name="keyboard_shortcut_group_system_switch_input">Schimbă metoda de introducere</string>
     <string name="keyboard_shortcut_group_applications">Aplicaţii</string>
     <string name="keyboard_shortcut_group_applications_assist">Asistă</string>
@@ -771,16 +771,16 @@ Pentru mai multe informații, contactați administratorul dvs."</string>
     <string name="quick_settings_disclosure_managed_profile_named_vpn">Profilul de lucru este conectat la %1$s</string>
     <string name="quick_settings_disclosure_personal_profile_named_vpn">Profilul personal este conectat la %1$s</string>
     <string name="quick_settings_disclosure_named_vpn">Dispozitivul este conectat la %1$s</string>
-    <string name="accessibility_recent_task_locked_state">Locked</string>
-    <string name="accessibility_recent_task_unlocked_state">Unlocked</string>
-    <string name="accessibility_drag_hint_message">Drag items to top of the screen</string>
+    <string name="accessibility_recent_task_locked_state">Blocat</string>
+    <string name="accessibility_recent_task_unlocked_state">Deblocat</string>
+    <string name="accessibility_drag_hint_message">Trage elementele în partea de sus a ecranului</string>
     <string name="notification_group_title_text">%1$s (%2$s)</string>
     <string name="notification_group_overflow_indicator">+%s</string>
     <string name="click_to_return_multi_window">Atingeți pentru a reveni la Ecranul împărțit</string>
     <string name="recent_dock_tip">Atinge pentru a selecta aplicații</string>
     <string name="dock_keyguard_locked_failed_to_dock_text">Ecranul separat nu este acceptat pe Ecranul de blocare.</string>
     <string name="click_expand">Atinge pentru a extinde</string>
-    <string name="please_slide_agian">Please slide again</string>
+    <string name="please_slide_agian">Glisează din nou</string>
     <string name="how_to_use_fsg">Poţi efectua aceste acţiuni folosind gesturile:</string>
     <string name="how_to_back_home">Du-te la Ecranul de start</string>
     <string name="how_to_switch_recents">Deschide Recente</string>
@@ -788,6 +788,8 @@ Pentru mai multe informații, contactați administratorul dvs."</string>
     <string name="fsg_demo_go_on">Învață</string>
     <string name="fs_gesture_back_home_summary">Glisați de jos foarte repede</string>
     <string name="fs_gesture_switch_recents_summary">Glisați de jos și întrerupeți</string>
+    <string name="how_to_use_drawer">How to use the app sliding function</string>
+    <string name="how_to_use_drawer_summary">Swipe from the top-left</string>
     <string name="fs_gesture_back_ready_title">Du-te înapoi</string>
     <string name="fs_gesture_left_back_ready_summary">Glisați dreapta de la margine</string>
     <string name="fs_gesture_right_back_ready_summary">Glisați stânga de la margine</string>

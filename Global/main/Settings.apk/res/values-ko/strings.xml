@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="privacy_authorize_revoke_title">허가 &amp; 철회</string>
+    <string name="enabled_authorised_apps_title">허가 승인됨</string>
+    <string name="enabled_authorised_apps_summary">개별 앱의 스위치를 토글한 후 허가가 철회될 것입니다.</string>
+    <string name="disabled_authorised_apps_title">허가 철회됨</string>
+    <string name="privacy_authorize_revoke_dialog_title">허가 철회 중</string>
+    <string name="privacy_authorize_revoke_dialog_msg">허가를 철회하신 후에는 앱의 데이터 수집이 중지될 것이며 관련 데이터가 서버에서 삭제될 것이며 사실상 앱을 사용할 수 없게 될 것입니다. 그래도 허가를 철회하시겠습니까?</string>
+    <string name="privacy_authorize_revoke">철회</string>
+    <string name="privacy_authorize_revoke_time">철회 (%1$d초)</string>
+    <string name="privacy_authorize_title">허가 승인 중</string>
+    <string name="privacy_authorize_privacy_policy">개인 정보 보호 정책</string>
+    <string name="privacy_authorize_dialog_message">%1$s을(를) 사용하시려면 %2$s을 읽고 동의하셔야 합니다. 또한 앱의 정상 작동을 위해 네트워크 연결이 요구됩니다. 동의하시겠습니까?</string>
+    <string name="privacy_authorize_dialog_exit">나가기</string>
+    <string name="privacy_authorize_dialog_agree">동의</string>
+    <string name="privacy_authorize_network_error">네트워크에 연결한 뒤에 다시 시도하십시오.</string>
+    <string name="privacy_authorize_revoke_success">허가 철회 성공</string>
+    <string name="privacy_authorize_revoke_failed">허가 철회 실패</string>
+    <string name="privacy_authorize_success">허가 승인 성공</string>
+    <string name="privacy_authorize_revoking">허가 철회 중…</string>
     <string name="launcher_title">홈 화면 &amp; 최근</string>
     <string name="defalut_launcher_title">기본 런처</string>
     <string name="miui_screen_config_title">홈 화면 설정</string>
@@ -2978,7 +2996,8 @@ Google 동기화는 사용자가 어디에서든지 연락처, 일정 등에 액
     <string name="write_settings_on">예</string>
     <string name="write_settings_off">아니요</string>
     <string name="ad_service">광고 서비스</string>
-    <string name="use_personalized_ad_service">광고 식별기 사용</string>
+    <string name="use_personalized_ad_service">개인 맞춤 광고 추천</string>
+    <string name="use_personalized_ad_service_summary">추천 기능이 꺼져있으면 켜져있을 때와 같은 양의 광고를 확인하실 수 있지만, 행동 데이터 또는 개인 정보를 바탕으로한 광고는 아닙니다.</string>
     <string name="reset_aaid">광고 식별기 초기화</string>
     <string name="confirm_reset_aaid">확인</string>
     <string name="about_ad_service_instructions">광고 및 개인 정보 설명</string>
@@ -3299,6 +3318,7 @@ Google 동기화는 사용자가 어디에서든지 연락처, 일정 등에 액
     <string name="sure_sync_now">지금 항목을 동기화 하시겠습니까?</string>
     <string name="sync_now">동기화</string>
     <string name="suggestion_for_phone_recycled">다른 전화번호 추가</string>
+    <string name="mi_upi_settings">Mi Pay 계정</string>
     <string name="sms_received_sound_title">메시지 수신 알림음</string>
     <string name="sms_delivered_sound_title">메시지 발신 알림음</string>
     <string name="sms_received_sound_dialog_title">문자 메시지 수신음 선택</string>
@@ -3923,6 +3943,8 @@ PIN 설정"</string>
     <string name="tether_settings_disabled">휴대용 핫스팟 꺼짐</string>
     <string name="tether_data_usage_limit">일회 데이터 제한</string>
     <string name="tether_data_usage_limit_summary">데이터 제한은 다음번에 핫스팟이 켜졌을 때 적용될 것입니다.</string>
+    <string name="tether_auto_disable_title">자동 핫스팟 종료</string>
+    <string name="tether_auto_disable_summary">연결된 기기가 없을 시 자동으로 핫스팟 종료</string>
     <string name="hdmi_3dplay_settings_title">HDMI</string>
     <string name="hdmi_3dplay_control_text">3D 출력</string>
     <string name="hdmi_3dplay_control_enable_subtext">외부 3D 화면에 대한 3D 양안식 출력이 켜져 있습니다.</string>
@@ -4536,7 +4558,7 @@ PIN 설정"</string>
     <string name="music_dirac_mode_in_ear_pro">Mi 인이어 프로</string>
     <string name="music_dirac_mode_capsule">Mi 캡슐</string>
     <string name="music_dirac_mode_headset_comfort">Mi Comfort</string>
-    <string name="music_dirac_mode_reduction_noise">Mi 노이즈 캔슬링 (TypeC)</string>
+    <string name="music_dirac_mode_reduction_noise">Mi 노이즈 캔슬링 (Type-C)</string>
     <string name="music_dirac_mode_cancelling">Mi 노이즈 캔슬링 (3.5mm)</string>
     <string name="music_audio_effect_settings">효과 설정</string>
     <string name="music_equalizer_summary">음악의 종류에 따라 독립적인 레벨로 조정</string>
@@ -4545,7 +4567,7 @@ PIN 설정"</string>
     <string name="music_dolby_mode_off">꺼짐</string>
     <string name="music_dolby_mode_music">음악</string>
     <string name="music_dolby_mode_movie">동영상</string>
-    <string name="music_app_unavailable">뮤직 앱을 기반으로 합니다. 사용이 가능한지 확인하십시오.</string>
+    <string name="music_app_unavailable">Mi 뮤직 앱을 사용 가능한지 확인해 주십시오.</string>
     <string name="lockpassword_confirm_workspace_password">워크 스페이스 비밀번호 인증</string>
     <string name="turn_on_keyguard_password_alert_forget_title">비밀번호를 기억해 주십시오!</string>
     <string name="turn_on_keyguard_password_alert_forget_content">잠금 화면 비밀번호를 기억하세요. 만약 잊어버리면, 기기의 사진과 연락처를 포함한 모든 데이터를 삭제하고 새 기기로 설정해야 합니다.</string>
@@ -4783,6 +4805,8 @@ PIN 설정"</string>
     <string name="navigation_guide_dialog_dont_show_again">다시 표시하지 않음</string>
     <string name="navigation_guide_back_anim_title">\"돌아가기\" 제스쳐 애니메이션 효과</string>
     <string name="navigation_guide_back_anim_summary">화면 가장자리에서 스와이프하면 에니메이션 표시</string>
+    <string name="fsg_mistake_touch_title">제스쳐의 더블 체크</string>
+    <string name="fsg_mistake_touch_summary">전체화면을 사용하는 게임 또는 동영상과 같은 일부 자동화 기능의 제스쳐는 효과 적용을 위해 더블 스와이프가 요구됩니다.</string>
     <string name="navigation_guide_settings">제스쳐 학습</string>
     <string name="navigation_guide_home_title">홈 화면으로 이동</string>
     <string name="navigation_guide_home_summary">화면 하단에서 위로 스와이프</string>

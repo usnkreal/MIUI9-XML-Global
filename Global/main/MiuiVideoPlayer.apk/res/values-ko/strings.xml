@@ -86,7 +86,7 @@
     <string name="t_check_delete_file">삭제할 항목 선택</string>
     <string name="t_check_delete_history">지우실 기록을 선택하십시오.</string>
     <string name="t_check_hide_file">숨길 동영상 선택</string>
-    <string name="t_check_send_file">전송할 항목 선택</string>
+    <string name="t_check_send_file">전송할 항목을 하나 선택</string>
     <string name="t_deleting">삭제 중…</string>
     <string name="t_downloading_new_version">업데이트 다운로드 중…</string>
     <string name="t_exit_app">다시 탭하여 나가기</string>
@@ -130,7 +130,7 @@
     <string name="v_menu_hide">숨기기</string>
     <string name="v_menu_send">전송</string>
     <string name="v_more">더 보기</string>
-    <string name="v_need_update_app">모든 기능 사용을 위해 Mi 비디오 업데이트</string>
+    <string name="v_need_update_app">모든 기능 사용을 위해 Mi 동영상 업데이트</string>
     <string name="v_network_failed">네트워크에 연결할 수 없음</string>
     <string name="v_next">다음</string>
     <string name="v_not_show">다시 표시하지 않기</string>
@@ -149,7 +149,7 @@
     <string name="v_video_null">동영상 없음</string>
     <string name="vp_app_name">동영상 플레이어</string>
     <string name="vp_device_list">기기</string>
-    <string name="vp_device_list_seaching">&lt;캐스트할 기기 없음></string>
+    <string name="vp_device_list_seaching">캐스트할 기기 없음</string>
     <string name="screenrecord_cancel">호환성 문제</string>
     <string name="screenrecord_nosupport_record">이 기기에서는 현재 화면 녹화기가 지원되지 않습니다.</string>
 </resources>

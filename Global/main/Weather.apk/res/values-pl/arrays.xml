@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="aqi_detail_title">
-        <item>Dobre</item>
-        <item>Umiarkowane</item>
-        <item>Niezdrowe dla grup szczególnego ryzyka</item>
-        <item>Niezdrowe</item>
+        <item>Dobry</item>
+        <item>Umiarkowany</item>
+        <item>Niezdrowy dla grup szczególnego ryzyka</item>
+        <item>Groźne dla zdrowia</item>
         <item>Bardzo niezdrowe</item>
-        <item>Szkodliwe</item>
+        <item>Szkodliwy</item>
     </string-array>
     <string-array name="aqi_title">
         <item>%1$s</item>
@@ -25,21 +25,21 @@
         <item>%1$s</item>
     </string-array>
     <string-array name="aqi_title_prefix">
-        <item>AQI %1$s</item>
-        <item>AQI %1$s</item>
-        <item>AQI %1$s</item>
-        <item>AQI %1$s</item>
-        <item>AQI %1$s</item>
-        <item>AQI %1$s</item>
+        <item>IJP %1$s</item>
+        <item>IJP %1$s</item>
+        <item>IJP %1$s</item>
+        <item>IJP %1$s</item>
+        <item>IJP %1$s</item>
+        <item>IJP %1$s</item>
     </string-array>
     <string-array name="aqi_value">
-        <item>Dobre</item>
-        <item>Satysfakcjonujące</item>
-        <item>Średnio zanieczyszczone</item>
-        <item>Kiepskie</item>
-        <item>Bardzo kiepskie</item>
-        <item>Bardzo złe</item>
-        <item>Poza indeksem</item>
+        <item>Bardzo dobry</item>
+        <item>Dobry</item>
+        <item>Umiarkowany</item>
+        <item>Dostateczny</item>
+        <item>Zły</item>
+        <item>Bardzo zły</item>
+        <item>Poza skalą</item>
     </string-array>
     <string-array name="breeze">
         <item>&lt;Wymuś 2</item>

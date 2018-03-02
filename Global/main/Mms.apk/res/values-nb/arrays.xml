@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="contact_entries">
-        <item>Name</item>
-        <item>Nickname</item>
+        <item>Navn</item>
+        <item>Kallenavn</item>
         <item>Telefon</item>
-        <item>Email</item>
-        <item>Organization</item>
+        <item>E-post</item>
+        <item>Organisasjon</item>
         <item>IM</item>
-        <item>SIP Phone</item>
-        <item>Birthday</item>
-        <item>Website</item>
-        <item>Address</item>
-        <item>Note</item>
-        <item>Relation</item>
+        <item>SIP-telefon</item>
+        <item>Fødselsdag</item>
+        <item>Nettsted</item>
+        <item>Adresse</item>
+        <item>Notat</item>
+        <item>Relasjon</item>
     </string-array>
     <string-array name="entries_mms_validity_period">
-        <item>Maximum</item>
-        <item>2 days</item>
+        <item>Maksimum</item>
+        <item>2 dager</item>
     </string-array>
     <string-array name="entries_sms_validity_period">
-        <item>Ikke satt</item>
-        <item>1 hour</item>
-        <item>6 hours</item>
-        <item>12 hours</item>
-        <item>1 day</item>
-        <item>Maximum</item>
+        <item>Ikke angitt</item>
+        <item>1 time</item>
+        <item>6 timer</item>
+        <item>12 timer</item>
+        <item>1 dag</item>
+        <item>Maksimum</item>
     </string-array>
     <string-array name="prefEntries_vibrateWhen">
         <item>Alltid</item>
-        <item>Only when silent</item>
+        <item>Kun når stille</item>
         <item>Aldri</item>
     </string-array>
     <string-array name="resent_via_entries_mms">
@@ -40,7 +40,7 @@
         <item>Mi Message</item>
     </string-array>
     <string-array name="select_dialog_items">
-        <item>1 second</item>
+        <item>1 sekund</item>
         <item>2 sekunder</item>
         <item>3 sekunder</item>
         <item>4 sekunder</item>

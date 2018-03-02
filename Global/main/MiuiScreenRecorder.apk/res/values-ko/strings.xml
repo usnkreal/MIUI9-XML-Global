@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">화면 녹화기</string>
-    <string name="app_notification_info">Screen Recorder is working in the background</string>
+    <string name="app_notification_info">화면 녹화기가 백그라운드에서 작업 중입니다.</string>
     <string name="app_notification_title">화면 녹화기</string>
     <string name="auto_stop_title">동영상 저장 성공</string>
     <string name="battery_not_allowed" formatted="false">배터리가 3% 보다 낮을시 녹화할 수 없습니다. 최소 20% 이상 충전해 주십시오.</string>
@@ -18,7 +18,7 @@
     <string name="date_day" />
     <string name="date_month">/</string>
     <string name="date_year">/</string>
-    <string name="description_content">화면 녹화는 시스템 레벨의 녹화 기능을 제공합니다. 이 작업을 수행하면 화면 녹화 기능을 사용할 수 없게 될 것입니다. 확인하여 계속하십시오.</string>
+    <string name="description_content">화면 녹화기는 시스템급의 녹화 기능을 제공합니다. 계속하시면 화면 녹화기를 사용할 수 없게 됩니다. 계속하시려면 승인하십시오.</string>
     <string name="description_title">화면 녹화기 정보</string>
     <string name="deselect_all">전체선택 해제</string>
     <string name="error_open_file_failed_no_app_found">이 파일을 열 수 있는 앱을 찾을 수 없습니다.</string>
@@ -37,7 +37,7 @@
     <string name="low_battery">녹화 전 휴대전화를 충전하십시오.</string>
     <string name="low_battery_title">배터리 부족</string>
     <string name="low_battery_warning">배터리가 너무 적습니다. 녹화를 중지하시고 동영상을 저장하십시오.</string>
-    <string name="low_memory">You have less than 1GB of available storage. You can record up to 20 minutes now.</string>
+    <string name="low_memory">사용 가능한 저장공간이 1GB 보다 작습니다. 최대 20분 정도 녹화할 수 있습니다.</string>
     <string name="low_memory_title">저장 공간 부족</string>
     <string name="low_momery_warning">저장 공간이 부족합니다. 녹화를 중지하시고 동영상을 저장하십시오.</string>
     <string name="memory_not_allowed">사용 가능한 저장공간이 없습니다. 녹화를 위해 저장공간을 확보하십시오.</string>
@@ -50,7 +50,7 @@
     <string name="quit_recording">화면 녹화 나가기</string>
     <string name="recording_failure">녹화 실패, 다시 시작하십시오.</string>
     <string name="recording_max_size">동영상 파일이 크기 제한에 도달하여 녹화가 중단되었습니다. 계속 녹화하시려면 새로 시작하십시오.</string>
-    <string name="recording_without_mic">Microphone is occupied and microphone sound cannot be recorded</string>
+    <string name="recording_without_mic">마이크 과부하로 소리를 녹음할 수 없습니다.</string>
     <string name="resolution">해상도</string>
     <string name="resolution_summary">고해상도의 동영상은 더욱 선명합니다.</string>
     <string name="screen_orientation">화면 방향</string>

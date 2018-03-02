@@ -254,7 +254,7 @@ pro vstup do Druhého prostoru ze Zamykací obrazovky"</string>
     <string name="scanner_fingerprint">Snímání otisku prstu…</string>
     <string name="scanner_fingerprint_enter_second">"Naskenujte otisk prstu Druhého prostoru
 pro vstup do Druhého prostoru ze Zamykací obrazovky"</string>
-    <string name="xspace_guide_title">Create a dual app</string>
+    <string name="xspace_guide_title">Vytvoření duální aplikace</string>
     <string name="xspace_guide_des">Využívejte 2 účty bez přepínání</string>
     <string name="xpsace_guide_button">Vytvořit</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
@@ -265,7 +265,7 @@ pro vstup do Druhého prostoru ze Zamykací obrazovky"</string>
     <string name="xspace_weibo_title">Weibo</string>
     <string name="weibo_send">Odeslat na Weibo</string>
     <string name="xspace_qq_title">QQ</string>
-    <string name="qq_send">Odeslat QQ přátelům/zařízením</string>
+    <string name="qq_send">Odeslat QQ přátelům/počítačům</string>
     <string name="xspace_default_setting_label">Výchozí aplikace</string>
     <string name="xspace_default_app_title">Výchozí aplikace</string>
     <string name="xspace_default_app_summary">Nastavte výchozí aplikaci pro platby, sdílení, oblíbené atd.</string>

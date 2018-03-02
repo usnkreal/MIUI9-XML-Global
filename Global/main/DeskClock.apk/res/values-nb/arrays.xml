@@ -1,70 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="alarm_in_furture">
-        <item>Alarm in less than 1 minute</item>
-        <item>Alarm in %1$s</item>
-        <item>Alarm in %2$s</item>
-        <item>Alarm in %1$s %2$s</item>
-        <item>Alarm in %3$s</item>
-        <item>Alarm in %1$s %3$s</item>
-        <item>Alarm in %2$s %3$s</item>
-        <item>Alarm in %1$s %2$s %3$s</item>
-    </string-array>
-    <string-array name="days">
-        <item>I går</item>
-        <item>I dag</item>
-        <item>I morgen</item>
-    </string-array>
-    <string-array name="alarm_repeat_type">
-        <item>En gang</item>
-        <item>Daily</item>
-        <item>Work days</item>
-        <item>Off days</item>
-        <item>Mon to Fri</item>
-        <item>Tilpasset</item>
-    </string-array>
-    <string-array name="alarm_repeat_type_no_workdays">
-        <item>En gang</item>
-        <item>Daily</item>
-        <item>Mon to Fri</item>
-        <item>Tilpasset</item>
-    </string-array>
-    <string-array name="aqi_value">
-        <item>Bra</item>
-        <item>Satisfactory</item>
-        <item>Moderately polluted</item>
-        <item>Poor</item>
-        <item>Very poor</item>
-        <item>Severe</item>
-    </string-array>
-    <string-array name="weather_tips_value">
-        <item>Reduce outdoor activities</item>
-        <item>The roads are slippery</item>
-        <item>The weather is stormy, be careful!</item>
-        <item>The air is polluted, wear a mask!</item>
-        <item>Take an umbrella when you go out</item>
-        <item>Be careful on the road</item>
-        <item>Sandstorm is coming, wear a mask!</item>
-        <item>Have a nice day!</item>
-    </string-array>
     <string-array name="alarm_set">
-        <item>Alarm will go off in less than 1 minute.</item>
-        <item>Alarm will go off in %1$s.</item>
-        <item>Alarm will go off in %2$s.</item>
-        <item>Alarm will go off in %1$s and %2$s.</item>
-        <item>Alarm will go off in %3$s.</item>
-        <item>Alarm will go off in %1$s and %3$s.</item>
-        <item>Alarm will go off in %2$s and %3$s.</item>
-        <item>Alarm will go off in %1$s %2$s and %3$s.</item>
+        <item>Alarmen vil gå av om under 1 minutt.</item>
+        <item>Alarmen vil gå av om %1$s.</item>
+        <item>Alarmen vil gå av om %2$s.</item>
+        <item>Alarmen vil gå av om %1$s og %2$s.</item>
+        <item>Alarmen vil gå av om %3$s.</item>
+        <item>Alarmen vil gå av om %1$s og %3$s.</item>
+        <item>Alarmen vil gå av om %2$s og %3$s.</item>
+        <item>Alarmen vil gå av om %1$s %2$s og %3$s.</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>Aldri</item>
+        <item>1 minutt</item>
+        <item>5 minutter</item>
+        <item>10 minutter</item>
+        <item>15 minutter</item>
+        <item>20 minutter</item>
+        <item>25 minutter</item>
+        <item>30 minutter</item>
     </string-array>
     <string-array name="snooze_duration_entries">
-        <item>1 minute</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>15 minutes</item>
-        <item>20 minutes</item>
-        <item>25 minutes</item>
-        <item>30 minutes</item>
+        <item>1 minutt</item>
+        <item>5 minutter</item>
+        <item>10 minutter</item>
+        <item>15 minutter</item>
+        <item>20 minutter</item>
+        <item>25 minutter</item>
+        <item>30 minutter</item>
     </string-array>
     <string-array name="snooze_duration_values">
         <item>1</item>
@@ -75,24 +38,61 @@
         <item>25</item>
         <item>30</item>
     </string-array>
-    <string-array name="auto_silence_entries">
-        <item>Aldri</item>
-        <item>1 minute</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>15 minutes</item>
-        <item>20 minutes</item>
-        <item>25 minutes</item>
-        <item>30 minutes</item>
-    </string-array>
     <string-array name="volume_button_setting_entries">
-        <item>Do nothing</item>
-        <item>Snooze</item>
-        <item>Skjul</item>
+        <item>Gjør ingenting</item>
+        <item>Utsett</item>
+        <item>Avvis</item>
     </string-array>
     <string-array name="volume_button_setting_values">
         <item>0</item>
         <item>1</item>
         <item>2</item>
+    </string-array>
+    <string-array name="alarm_in_furture">
+        <item>Aktiver alarm om mindre enn 1 minutt</item>
+        <item>Aktiver alarm om %1$s</item>
+        <item>Aktiver alarm om %2$s</item>
+        <item>Aktiver alarm om %1$s %2$s</item>
+        <item>Aktiver alarm om %3$s</item>
+        <item>Aktiver alarm om %1$s %3$s</item>
+        <item>Aktiver alarm om %2$s %3$s</item>
+        <item>Aktiver alarm om %1$s %2$s %3$s</item>
+    </string-array>
+    <string-array name="alarm_repeat_type">
+        <item>Én gang</item>
+        <item>Daglig</item>
+        <item>Arbeidsdager</item>
+        <item>Fridager</item>
+        <item>Man til fre</item>
+        <item>Tilpasset</item>
+    </string-array>
+    <string-array name="alarm_repeat_type_no_workdays">
+        <item>Én gang</item>
+        <item>Daglig</item>
+        <item>Man til fre</item>
+        <item>Tilpasset</item>
+    </string-array>
+    <string-array name="aqi_value">
+        <item>God</item>
+        <item>Tilfredsstillende</item>
+        <item>Moderat forurenset</item>
+        <item>Dårlig</item>
+        <item>Veldig dårlig</item>
+        <item>Alvorlig</item>
+    </string-array>
+    <string-array name="days">
+        <item>I går</item>
+        <item>I dag</item>
+        <item>I morgen</item>
+    </string-array>
+    <string-array name="weather_tips_value">
+        <item>Reduser utendørsaktiviteter</item>
+        <item>Veiene er glatte</item>
+        <item>Det er stormaktig ute, så vær forsiktig!</item>
+        <item>Luften er forurenset, så ta på en maske!</item>
+        <item>Ta med deg en paraply når du går ut</item>
+        <item>Vær forsiktig på veien</item>
+        <item>En sandstorm er i vente, så ta på en maske!</item>
+        <item>Ha en fin dag!</item>
     </string-array>
 </resources>

@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="privacy_authorize_revoke_title">Autoryzacja i unieważnianie</string>
+    <string name="enabled_authorised_apps_title">Udzielono autoryzacji</string>
+    <string name="enabled_authorised_apps_summary">Twoja autoryzacja zostanie unieważniona po zmianie przełączników dla indywidualnych aplikacji.</string>
+    <string name="disabled_authorised_apps_title">Unieważniono autoryzację</string>
+    <string name="privacy_authorize_revoke_dialog_title">Unieważnianie autoryzacji</string>
+    <string name="privacy_authorize_revoke_dialog_msg">Po unieważnieniu autoryzacji, aplikacja przestanie zbierać dane, a wszystkie zgromadzone dane zostaną usunięte z serwerów. Może to spowodować, że aplikacja stanie się wirtualnie nieprzydatna. Unieważnić autoryzację mimo to?</string>
+    <string name="privacy_authorize_revoke">Unieważnij</string>
+    <string name="privacy_authorize_revoke_time">Unieważnij (%1$ds)</string>
+    <string name="privacy_authorize_title">Udzielanie autoryzacji</string>
+    <string name="privacy_authorize_privacy_policy">Polityką prywatności</string>
+    <string name="privacy_authorize_dialog_message">%1$s wymaga abyś przeczytał i zgodził się z naszą %2$s. Aplikacja wymaga połączenia z internetem do poprawnej pracy. Zgadzasz się?</string>
+    <string name="privacy_authorize_dialog_exit">Wyjdź</string>
+    <string name="privacy_authorize_dialog_agree">Zgadzam się</string>
+    <string name="privacy_authorize_network_error">Połącz z siecią i spróbuj ponownie.</string>
+    <string name="privacy_authorize_revoke_success">Pomyślnie unieważniono autoryzację</string>
+    <string name="privacy_authorize_revoke_failed">Nie udało się unieważnić autoryzacji</string>
+    <string name="privacy_authorize_success">Pomyślnie udzielono autoryzacji</string>
+    <string name="privacy_authorize_revoking">Unieważnianie autoryzacji…</string>
     <string name="launcher_title">Ekran główny i Ostatnio otwierane</string>
     <string name="defalut_launcher_title">Domyślny menedżer pulpitu</string>
     <string name="miui_screen_config_title">Ustawienia ekranu głównego</string>
@@ -2979,7 +2997,8 @@ Pomaga to chronić dane na zgubionych lub skradzionych urządzeniach."</string>
     <string name="write_settings_on">Tak</string>
     <string name="write_settings_off">Nie</string>
     <string name="ad_service">Usługi reklam</string>
-    <string name="use_personalized_ad_service">Użyj identyfikatora reklam</string>
+    <string name="use_personalized_ad_service">Spersonalizowane propozycje reklam</string>
+    <string name="use_personalized_ad_service_summary">Gdy funkcja propozycji jest wyłączona, ilość wyświetlanych reklam jest taka sama, jak w przypadku, gdy jest włączona, ale nie są one oparte na twoich danych lub informacjach osobistych.</string>
     <string name="reset_aaid">Zresetuj identyfikator reklam</string>
     <string name="confirm_reset_aaid">OK</string>
     <string name="about_ad_service_instructions">O usługach reklamowych i prywatności</string>
@@ -3300,6 +3319,7 @@ Pomaga to chronić dane na zgubionych lub skradzionych urządzeniach."</string>
     <string name="sure_sync_now">Synchronizować elementy teraz?</string>
     <string name="sync_now">Synchronizuj</string>
     <string name="suggestion_for_phone_recycled">Dodaj inny numer telefonu</string>
+    <string name="mi_upi_settings">Konto Mi Pay</string>
     <string name="sms_received_sound_title">Otrzymano SMS</string>
     <string name="sms_delivered_sound_title">Dostarczono SMS</string>
     <string name="sms_received_sound_dialog_title">Wybierz dźwięk otrzymania SMS</string>
@@ -3924,6 +3944,8 @@ Wybierz swój system operacyjny:"</string>
     <string name="tether_settings_disabled">Przenośny hotspot jest wyłączony</string>
     <string name="tether_data_usage_limit">Jednorazowy limit danych</string>
     <string name="tether_data_usage_limit_summary">Limit danych zostanie zastosowany przy następnym uruchomieniu hotspotu</string>
+    <string name="tether_auto_disable_title">Automatycznie wyłącz hotspot</string>
+    <string name="tether_auto_disable_summary">Automatycznie wyłącz hotspot, gdy żadne urządzenie nie jest podłączone</string>
     <string name="hdmi_3dplay_settings_title">HDMI</string>
     <string name="hdmi_3dplay_control_text">Wyjście 3D</string>
     <string name="hdmi_3dplay_control_enable_subtext">Stereoskopowe wyjście 3D włączone</string>
@@ -4537,7 +4559,7 @@ Wybierz swój system operacyjny:"</string>
     <string name="music_dirac_mode_in_ear_pro">Mi Dokanałowe Pro</string>
     <string name="music_dirac_mode_capsule">Mi Capsule</string>
     <string name="music_dirac_mode_headset_comfort">Mi Comfort</string>
-    <string name="music_dirac_mode_reduction_noise">Redukcja szumów Mi (TypeC)</string>
+    <string name="music_dirac_mode_reduction_noise">Redukcja szumów Mi (Typ-C)</string>
     <string name="music_dirac_mode_cancelling">Redukcja szumów Mi (3.5mm)</string>
     <string name="music_audio_effect_settings">Efekty dźwiękowe</string>
     <string name="music_equalizer_summary">Dostosuj korekty dźwięku dla różnych typów muzyki</string>
@@ -4546,7 +4568,7 @@ Wybierz swój system operacyjny:"</string>
     <string name="music_dolby_mode_off">Wył</string>
     <string name="music_dolby_mode_music">Muzyka</string>
     <string name="music_dolby_mode_movie">Wideo</string>
-    <string name="music_app_unavailable">Zależy od aplikacji odtwarzacza, upewnij się, że jest dostępny</string>
+    <string name="music_app_unavailable">Upewnij się, że aplikacja Muzyka jest dostępna.</string>
     <string name="lockpassword_confirm_workspace_password">Zweryfikuj hasło przestrzeni roboczej</string>
     <string name="turn_on_keyguard_password_alert_forget_title">Zapamiętaj swoje hasło</string>
     <string name="turn_on_keyguard_password_alert_forget_content">Zapamiętaj swoje hasło blokady ekranu. Jeśli zapomnisz, będziesz musiał wymazać wszystkie dane na swoim urządzeniu, w tym zdjęcia i kontakty, aby ustanowić nowe.</string>
@@ -4784,6 +4806,8 @@ Wybierz swój system operacyjny:"</string>
     <string name="navigation_guide_dialog_dont_show_again">Nie pokazuj ponownie</string>
     <string name="navigation_guide_back_anim_title">Odtwórz gest \"Wstecz\"</string>
     <string name="navigation_guide_back_anim_summary">Wyświetl animację przesuwania od krawędzi ekranu</string>
+    <string name="fsg_mistake_touch_title">Sprawdź dwa razy gest</string>
+    <string name="fsg_mistake_touch_summary">W niektórych przypadkach, na przykład przy grach lub wideo pełnoekranowych, gesty przesunięcia muszą być wykonane podwójnie, aby przynieść efekt</string>
     <string name="navigation_guide_settings">Dema gestów</string>
     <string name="navigation_guide_home_title">Przejdź do ekranu głównego</string>
     <string name="navigation_guide_home_summary">Przesuń w górę od dołu ekranu</string>

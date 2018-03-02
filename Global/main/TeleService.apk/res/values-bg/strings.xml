@@ -1122,6 +1122,7 @@
     <string name="cmcc_ut_data_enable_prompt">Не можете да се свържете, използвайки VoLTE мрежа. Включете използването на мобилни данни.</string>
     <string name="volte_switch_title">VoLTE активирано</string>
     <string name="volte_switch_summary">Използвайте VoLTE за подобряване на качеството на гласа и видеото.</string>
+    <string name="volte_switch_summary2">Потвърдете, че вашият оператор поддържа тази услуга, преди да я включите. В противен случай обикновените обаждания могат да бъдат засегнати.</string>
     <string name="volte_switch_not_support_summary">VoLTE обажданията не се поддържат за SIM карти, които са само за мобилни данни.</string>
     <string name="volte_switch_not_support_summary2">VoLTE обажданията не се поддържат от оператора.</string>
     <string name="enable_dual_4g_prompt_when_turn_on_volte">VoLTE изисква 4G връзка и за двете SIM карти. Да превключа ли на Двоен 4G режим?</string>
@@ -1129,6 +1130,9 @@
     <string name="dual_4g_switch_summary">Разреши 4G връзка и на двете SIM карти.</string>
     <string name="turn_on_dual_4g_failed">Не може да се включи Двоен 4G режим.</string>
     <string name="turn_off_dual_4g_failed">Не може да се изключи Двоен 4G режим.</string>
+    <string name="vice_slot_volte_data_switch_title">Използване на мобилни данни по време на VoLTE обаждания на втората SIM карта</string>
+    <string name="vice_slot_volte_data_switch_summary">По време на VoLTE повиквания устройството ще се свърже с мрежата за мобилни данни чрез използване на втората SIM карта</string>
+    <string name="vice_slot_volte_data_switch_prompt">Вашето устройство ще се свърже с мрежата за мобилни данни чрез използване на втората SIM карта за изходящи VoLTE повиквания. Това може да генерира допълнително разход на данни. Свържете се с вашия оператор за подробности относно абонамента ви за мобилни данни.</string>
     <string name="roaming_notification_title">Изглежда, че сте активирали роуминг.</string>
     <string name="roaming_notification_content">Може да добавите кода на страната автоматично, за ваше удобство.</string>
     <string name="cdma_alert_title">UIM картата трябва да бъде по подр.</string>
@@ -1183,6 +1187,18 @@
     <string name="miui_notification_network_selection_title_by_sim">SIM %s: Няма услуга</string>
     <string name="miui_network_selection_reset_text">Нулирай</string>
     <string name="quick_dial_setting_title">Бързо набиране</string>
+    <string name="cfnry_time_five_sec">5 сек</string>
+    <string name="cfnry_time_ten_sec">10 сек</string>
+    <string name="cfnry_time_fifteen_sec">15 сек</string>
+    <string name="cfnry_time_twenty_sec">20 сек</string>
+    <string name="cfnry_time_twenty_five_sec">25 сек</string>
+    <string name="cfnry_time_thirty_sec">30 сек</string>
+    <string name="cfnry_time_setting_title">Задайте време за изчакване</string>
+    <string name="prompt_when_turnon_volte_without_lte">Няма налични LTE мрежи. Включването на VoLTE може да попречи да извършите обикновени обаждания.</string>
+    <string name="prompt_to_turnoff_volte_when_failed">VoLTE услугите не са налични. Изключете VoLTE, за да извършите обаждане.</string>
+    <string name="volte_tips_when_turn_on">VoLTE услугите на China Telecom се предоставят само в зони с LTE покритие на мрежата.</string>
+    <string name="close">Затваряне</string>
+    <string name="prompt_to_turnoff_volte_when_supp_service">Услугата не е налична. Изключете VoLTE от Настройки.</string>
     <string name="network_forbidden">%s (забранена)</string>
     <string name="voice_number_setting_primary_user_only">Само основният потребител може да променя настройките за Гласова поща.</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_ENTRY">PIN за отключване на SIM мрежа</string>
@@ -1325,7 +1341,6 @@
     <string name="china_mobile">Мтел</string>
     <string name="china_telecom">Виваком</string>
     <string name="china_unicom">Теленор</string>
-    <string name="close">Затваряне</string>
     <string name="default_sim_setting">SIM карта по подразбиране:</string>
     <string name="disconnect_data_confirm">Мобилните данни временно ще бъдат ограничени. Сигурни ли сте?</string>
     <string name="fdn_service_unavailable">Фиксираните номера за набиране са деактивирани.</string>

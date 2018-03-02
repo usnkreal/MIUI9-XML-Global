@@ -69,9 +69,9 @@
     <string name="back_sound_data">Zapněte mobilní data a zkuste to znovu.</string>
     <string name="dlg_move_to_white">Přidat do výjimek</string>
     <string name="dlg_add_white">Nové hovory a zprávy z čísel přidaných do výjimek budou zobrazeny v historii volání a přijatých zprávách. Avšak dříve zablokované položky nebudou zobrazeny. Přidat vybraná čísla do výjimek?</string>
-    <string name="dlg_not_block_sms">"Odblokovat vybraná telefonní číslo?
+    <string name="dlg_not_block_sms">"Odblokovat vybraná telefonní čísla?
 Čísla budou přidána do výjimek, ale dříve zablokované položky nebudou v přijatých zprávách zobrazeny."</string>
-    <string name="dlg_not_block_call">"Odblokovat vybraná telefonní číslo?
+    <string name="dlg_not_block_call">"Odblokovat vybraná telefonní čísla?
 Čísla budou přidána do výjimek, ale dříve zablokované položky nebudou v historii volání zobrazeny."</string>
     <string name="menu_call">Vytočit</string>
     <string name="menu_sms">Odeslat zprávu</string>
@@ -82,7 +82,7 @@
     <string name="menu_add">Přidat</string>
     <string name="menu_edit">Upravit</string>
     <string name="menu_remove">Vymazat</string>
-    <string name="menu_white">Kromě</string>
+    <string name="menu_white">Přidat do výjimek</string>
     <string name="st_settings_name">Nastavení Černé listiny</string>
     <string name="st_filter_keywords_setting_summary1">SMS zprávy z neznámých čísel obsahující některé z těchto klíčových slov budou blokovány.</string>
     <string name="st_filter_keywords_setting_summary3">Zprávy z neznámých čísel obsahující některé z těchto klíčových slov budou povoleny.</string>
@@ -618,7 +618,7 @@ Zbývající data včetně dat, která byla přenesena z minulého měsíce."</s
     <string name="tc_sms_report_type">Typ hlášení</string>
     <string name="privacy_declare_dialog_title">Smluvní podmínky</string>
     <string name="sc_allow_network_dialog_tiltle">Tuto funkci nelze využít</string>
-    <string name="sc_allow_network_dialog_message">Tato aplikace vyžaduje pro správné fungování připojení k internetu.</string>
+    <string name="sc_allow_network_dialog_message">Zakázali jste aplikaci Optimalizace přístup k internetovému připojení i informacím o vaší poloze. Pro využití této funkce udělte aplikaci Optimalizace požadovaná oprávnění.</string>
     <string name="privacy_prompt_upload">Bezpečnostní upozornění</string>
     <string name="privacy_prompt_traffic_adjust_message">"Po zahájení kalibrace se MIUI připojí k síti a zašifruje informace o vašem operátorovi, telefonním čísle, IMEI a Xiaomi účtu a nahraje tyto informace na Xiaomi server. Tato akce je potřebná pro získání kalibrační šablony operátora a informací, zda je možné zakoupit data v místě, kde se právě nacházíte.
 
@@ -770,8 +770,8 @@ Zkuste použít jiný ethernetový kabel pro připojení routeru. Pokud se domn�
     <string name="networkchanged_exception_title">Připojení změněno</string>
     <string name="networkchanged_exception_summary">Připojení k síti bylo změněno. Zkontrolujte jej znovu.</string>
     <string name="network_test_speed">Test rychlosti Wi-Fi sítě</string>
-    <string name="network_changed_noti_title">Disconnected from Wi-Fi</string>
-    <string name="network_changed_noti_summary">Using mobile data</string>
+    <string name="network_changed_noti_title">Odpojeno od sítě Wi-Fi</string>
+    <string name="network_changed_noti_summary">Používání mobilních dat</string>
     <string name="network_speed_for_apps_title">Připojení</string>
     <string name="network_speed_for_apps_total">Rychlost připojení</string>
     <string name="network_speed_for_apps_close_app_dlg_msg">Vynutit ukončení této aplikace?</string>
@@ -937,8 +937,8 @@ vaše zařízení"</string>
     <string name="om_ill_proc_type_radio_title">Tato aplikace se často připojuje k síti a vybíjí tak baterii</string>
     <string name="om_ill_proc_type_radio_detail">Opravte problémy s připojením k síti</string>
     <string name="om_ill_proc_activity_title">Problémy</string>
-    <string name="power_center_title">Battery usage</string>
-    <string name="power_center_back">Back to Battery usage</string>
+    <string name="power_center_title">Využití baterie</string>
+    <string name="power_center_back">Zpět na Využití baterie</string>
     <string name="power_center_auto_shutdown">Automaticky zap./vyp. napájení</string>
     <string name="power_center_ontime_boot">Čas zapnutí</string>
     <string name="power_center_time_to_boot">Čas zapnutí</string>
@@ -1677,7 +1677,7 @@ vaše zařízení"</string>
     <string name="preferred_app_entries_music">Hudba</string>
     <string name="preferred_app_entries_email">Pošta</string>
     <string name="card_main_applock_title">Zámek aplikace</string>
-    <string name="card_main_applock_summary">Protect messages, photos, and other items with a password.</string>
+    <string name="card_main_applock_summary">Chraňte vybrané aplikace pomocí hesla.</string>
     <string name="card_main_applock_action">Zapnout</string>
     <string name="card_main_deepclean_title">Hloubkové čištění</string>
     <string name="card_main_deepclean_summary">Odstranit nepotřebné soubory</string>
@@ -1716,14 +1716,18 @@ vaše zařízení"</string>
     <string name="more_lock">Více</string>
     <string name="app_name">Zámek aplikace</string>
     <string name="back_app_name">Vrátit se k Zámku aplikace</string>
-    <string name="notification_item">Chraňte aplikace pomocí Zámku aplikace</string>
+    <string name="ac_notification_contentTitle">Chraňte aplikace pomocí Zámku aplikací</string>
+    <string name="ac_pre_notification_contentTitle">Vyzkoušet Zámek aplikací</string>
+    <string name="ac_post_notification_contentTitle">Zapnout Zámek aplikací</string>
     <string name="notification_masked_item">Skrýt oznámení</string>
     <string name="lock_mode_title">Nastavení zámku</string>
     <string name="after_the_lock_screen">Uzamknout aplikace společně s obrazovkou</string>
     <string name="set_applock_password">Nastavit heslo</string>
     <string name="ac_firstUseApplock_title">Nastavte heslo pro ochranu vašich aplikací</string>
     <string name="ac_firstUseApplock_subTitle">Použijte lepší systémové nástroje zabezpečení</string>
-    <string name="notification_subtitle">Klepnutím zapnout</string>
+    <string name="ac_notification_contentText">Klepněte pro zapnutí</string>
+    <string name="ac_pre_notification_contentText">Chraňte své osobní údaje</string>
+    <string name="ac_post_notification_contentText">Získejte ochranu na úrovni systému</string>
     <string name="notification_masked_subtitle">Skrýt oznámení od aplikací chráněných Zámkem aplikací</string>
     <string name="ac_enter_applock">Otevřít Zámek aplikací</string>
     <string name="ac_mask_all_apps">Skrýt pro všechny aplikace</string>
@@ -1732,8 +1736,8 @@ vaše zařízení"</string>
     <string name="ac_summaryOff">Vypnuto. Při otevření aplikací nebude vyžadováno heslo.</string>
     <string name="lockpattern_tutorial_cancel_label">Zrušit</string>
     <string name="lockpattern_tutorial_continue_label">Další</string>
-    <string name="lockpattern_tutorial_continue_label_next">Tap \"Next\"</string>
-    <string name="lockpattern_tutorial_continue_label_confirm">Tap \"OK\"</string>
+    <string name="lockpattern_tutorial_continue_label_next">Klepněte na \"Další\"</string>
+    <string name="lockpattern_tutorial_continue_label_confirm">Klepněte na \"OK\"</string>
     <string name="lockpattern_retry_button_text">Nakreslit znovu</string>
     <string name="numeric_retry_button_text">Zrušit</string>
     <string name="mixed_retry_button_text">Zrušit</string>
@@ -2034,7 +2038,7 @@ vaše zařízení"</string>
     <string name="game_booster">Posílení herní rychlosti</string>
     <string name="game_booster_title">Posílit</string>
     <string name="top_game">Top hry</string>
-    <string name="game_booster_tab_top">Top</string>
+    <string name="game_booster_tab_top">Horní</string>
     <string name="game_bootser_tab_settings">Nastavení zvýšení rychlosti</string>
     <string name="game_booster_jump_webview">Ještě chvilku…</string>
     <string name="game_setting">Herní nastavení</string>

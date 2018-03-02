@@ -1,35 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="timer_message_hour">
-        <item quantity="other">"%1$d hodin "</item>
-        <item quantity="one">"%1$d hodina "</item>
-        <item quantity="few">"%1$d hodiny "</item>
-    </plurals>
-    <plurals name="timer_message_minute">
-        <item quantity="other">"%1$d minut "</item>
-        <item quantity="one">"%1$d minuta "</item>
-        <item quantity="few">"%1$d minuty "</item>
-    </plurals>
-    <plurals name="timer_message_second">
-        <item quantity="other">%1$d sekund</item>
-        <item quantity="one">%1$d sekunda</item>
-        <item quantity="few">%1$d sekundy</item>
-    </plurals>
-    <plurals name="timer_item_duration_display_seconds">
-        <item quantity="other">%1$d sekund</item>
-        <item quantity="one">1 sekunda</item>
-        <item quantity="few">%1$d sekundy</item>
-    </plurals>
-    <plurals name="timer_item_duration_display_minutes">
-        <item quantity="other">%1$d minut</item>
-        <item quantity="one">1 minuta</item>
-        <item quantity="few">%1$d minuty</item>
-    </plurals>
-    <plurals name="snooze_message">
-        <item quantity="other">Odložit o %d minut</item>
-        <item quantity="one">Odložit o %d minutu</item>
-        <item quantity="few">Odložit o %d minuty</item>
-    </plurals>
     <plurals name="alarm_alert_snooze_set">
         <item quantity="other">Odloženo o %d minut</item>
         <item quantity="one">Odloženo o %d minutu</item>
@@ -49,5 +19,35 @@
         <item quantity="other">Smazat tato časová pásma?</item>
         <item quantity="one">Smazat toto časové pásmo?</item>
         <item quantity="few">Smazat tato časová pásma?</item>
+    </plurals>
+    <plurals name="snooze_message">
+        <item quantity="other">Odložit o %d minut</item>
+        <item quantity="one">Odložit o %d minutu</item>
+        <item quantity="few">Odložit o %d minuty</item>
+    </plurals>
+    <plurals name="timer_item_duration_display_minutes">
+        <item quantity="other">%1$d minut</item>
+        <item quantity="one">1 minuta</item>
+        <item quantity="few">%1$d minuty</item>
+    </plurals>
+    <plurals name="timer_item_duration_display_seconds">
+        <item quantity="other">%1$d sekund</item>
+        <item quantity="one">1 sekunda</item>
+        <item quantity="few">%1$d sekundy</item>
+    </plurals>
+    <plurals name="timer_message_hour">
+        <item quantity="other">"%1$d hodin "</item>
+        <item quantity="one">"%1$d hodina "</item>
+        <item quantity="few">"%1$d hodiny "</item>
+    </plurals>
+    <plurals name="timer_message_minute">
+        <item quantity="other">"%1$d minut "</item>
+        <item quantity="one">"%1$d minuta "</item>
+        <item quantity="few">"%1$d minuty "</item>
+    </plurals>
+    <plurals name="timer_message_second">
+        <item quantity="other">%1$d sekund</item>
+        <item quantity="one">%1$d sekunda</item>
+        <item quantity="few">%1$d sekundy</item>
     </plurals>
 </resources>

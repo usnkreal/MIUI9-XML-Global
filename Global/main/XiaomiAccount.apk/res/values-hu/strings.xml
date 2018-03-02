@@ -3,7 +3,7 @@
     <string name="passport_account_label">Mi Fiók</string>
     <string name="passport_notification_title">%1$s bejelentkezési hiba</string>
     <string name="passport_login_prompt">Egy Mi Fiók. Minden Mi szolgáltatás.</string>
-    <string name="passport_login_using_other_ways"><u>Más bejelentkezési módok</u></string>
+    <string name="passport_login_using_other_ways">Más bejelentkezési módok</string>
     <string name="passport_login_title">Jelentkezzen be a Mi Fiókba</string>
     <string name="passport_login">Bejelentkezés</string>
     <string name="passport_relogin">Bejelentkezés újra</string>
@@ -48,7 +48,7 @@
     <string name="passport_reset_password_title">Jelszó helyreállítása</string>
     <string name="passport_auto_generate_pwd">Biztonságos jelszó generálása</string>
     <string name="passport_pwd_generate_failure">Jelszógenerálás sikertelen</string>
-    <string name="passport_use_generated_pwd_title">Jegyezze meg jelszavát</string>
+    <string name="passport_use_generated_pwd_title">Jegyezze meg jelszavát!</string>
     <string name="passport_use_generated_pwd_message">Jegyezze meg jelszavát. Ezzel jelentkezhet be más Mi-szolgáltatásokba.</string>
     <string name="passport_register_restricted_title">Nem használható ez a telefonszám</string>
     <string name="passport_register_restricted">Túl sok fiók van hozzárendelve ehhez a számhoz, próbáljon egy másikat</string>
@@ -94,6 +94,7 @@ a megadott e-mail címre küldött üzenetben leírtakat."</string>
     <string name="passport_email">E-mail cím</string>
     <string name="passport_vcode_prompt_long">Írja be az ellenőrző kódot</string>
     <string name="passport_input_phone_hint">Írja be a telefonszámot</string>
+    <string name="passport_input_voice_captcha_hint">Adja meg az ellenőrző hangkódot</string>
     <string name="passport_error_empty_username">Írja be a fiók azonosítóját</string>
     <string name="passport_error_invalid_phone_num">A telefonszám hibás</string>
     <string name="passport_error_empty_phone_num">Írja be a telefonszámot</string>
@@ -218,11 +219,12 @@ a megadott e-mail címre küldött üzenetben leírtakat."</string>
     <string name="app_name">Mi Fiók</string>
     <string name="account">Fiók</string>
     <string name="logout_failed">Sikertelen kijelentkezés</string>
+    <string name="turning_off_find_device">Készülékkeresés kikapcsolása…</string>
     <string name="turn_off_find_device_failed_title">Nem sikerült kikapcsolni a Készülékkeresést</string>
     <string name="no_response_retry">Nincs válasz, próbálja újra.</string>
     <string name="removing_account">Kijelentkezés…</string>
-    <string name="delete_bank_card_title">Bankkártya törlése</string>
-    <string name="delete_bank_card_message">A bankkártyája biztonsági okokból törölve lesz a kijelentkezés után</string>
+    <string name="delete_bank_card_title">Figyelem</string>
+    <string name="delete_bank_card_message">Ha kijelentkezik Mi Pay bankkártyái és NFC kártyái törlésre kerülnek.</string>
     <string name="bind_settings">Összekapcsolás</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="bind_sina_weibo">Sina WeiBo összekapcsolása</string>
@@ -230,7 +232,7 @@ a megadott e-mail címre küldött üzenetben leírtakat."</string>
     <string name="bind_sns_description">Bejelentkezés %s használatával.</string>
     <string name="add_account">Fiók hozzáadása</string>
     <string name="qq">QQ</string>
-    <string name="bind_qq">QQ fiók</string>
+    <string name="bind_qq">QQ</string>
     <string name="facebook">Facebook</string>
     <string name="bind_facebook">Facebook fiók hozzáadása</string>
     <string name="binded">Hozzáadva</string>
@@ -360,13 +362,16 @@ a megadott e-mail címre küldött üzenetben leírtakat."</string>
     <string name="device_delete_success_title">Kijelentkezve</string>
     <string name="device_delete_success_message">Ha nem jelentkezett be erről a készülékről, azonnal változtassa meg a jelszavát.</string>
     <string name="change_password">Jelszó módosítása</string>
-    <string name="completed">Kész</string>
+    <string name="completed">Minden kész!</string>
     <string name="no_network_title">Nincs internetkapcsolat.</string>
     <string name="no_network_btn">Frissítés</string>
     <string name="get_device_list_failed">Nem kérhető le a készüléklista</string>
     <string name="delete_device_failed">Nem távolítható el a készülék</string>
     <string name="empty_device_list_notice">Nincsenek készülékek</string>
     <string name="device_name">Készülék neve</string>
+    <string name="multi_user_not_show_sync_activity_title">Ne kapcsolja be a szinkronizálást Mi Clouddal</string>
+    <string name="multi_user_not_show_sync_activity_message_1">Úgy tűnik, az Első asztalhoz kötött Mi Fiókját használja.</string>
+    <string name="multi_user_not_show_sync_activity_message_2">Ebben az esetben az összes adat szinkronizálva lesz a Második asztalra. Ennek elkerülése érdekében ne kapcsolja be a Mi Fiók szinkronizálást.</string>
     <string name="find_device_access_denied">Állapot nem elérhető, hozzáférés megtagadva</string>
     <string name="find_device_account_error">Állapot nem elérhető fiókhiba miatt</string>
     <string name="find_device_null_credential_error">Készülékinformáció nem található, lépjen kapcsolatba a Xiaomi ügyfélszolgálattal</string>
@@ -382,10 +387,7 @@ a megadott e-mail címre küldött üzenetben leírtakat."</string>
     <string name="find_device_operation_failed_error_unknown">Egy hiba történt, próbálja újra később</string>
     <string name="find_device_remote_exception">RPC hiba</string>
     <string name="io_error_title">Hálózat megerősítése</string>
-    <string name="login_check_find_device_failed_title">Eszközkeresés állapotának ellenőrzése sikertelen</string>
-    <string name="multi_user_not_show_sync_activity_title">Ne kapcsolja be a szinkronizálást Mi Clouddal</string>
-    <string name="multi_user_not_show_sync_activity_message_1">Úgy tűnik, az Első asztalhoz kötött Mi Fiókját használja.</string>
-    <string name="multi_user_not_show_sync_activity_message_2">Ebben az esetben az összes adat szinkronizálva lesz a Második asztalra. Ennek elkerülése érdekében ne kapcsolja be a Mi Fiók szinkronizálást.</string>
+    <string name="login_check_find_device_failed_title">A készülék biztonsági adatainak lekérése sikertelen</string>
     <string name="notify_network_restricted_title">A Mi Fiók nem tudott csatlakozni a hálózatra</string>
     <string name="notify_network_restricted_content_hidden_state">A Mi Fiók háttértevékenysége korlátozva van. Érintse meg az engedélyezéshez.</string>
     <string name="notify_network_restricted_content_bg_network">A Mi Fiók adatforgalma korlátozva van. Érintse meg az engedélyezéshez.</string>
@@ -415,10 +417,9 @@ a megadott e-mail címre küldött üzenetben leírtakat."</string>
     <string name="login_check_find_device">Készülék biztonsági adatainak ellenőrzése…</string>
     <string name="unlock_help_notice">"Segítség:
 · Ha elfelejtette a jelszavát, keresse fel az id.mi.com-ot a visszaállításához.
-· Ha nem tudja feloldani a készüléket, keresse fel az i.mi.com-ot a Készülékkeresés kikapcsolásához
-· Adja meg ezt a számot az ügyfélszolgálatnak: %s"</string>
-    <string name="find_device_display_id">Feloldó szám: %s</string>
-    <string name="login_find_device_bind">A készülék hozzá van rendelve egy másik Mi Fiókhoz (%s), írja be a jelszót az eszköz hitelesítéséhez.</string>
+· Ha nem tudja feloldani a készüléket, nyissa meg az i.mi.com-ot a Készülékkeresés kikapcsolásához
+· Az Ön feloldókódja: %s"</string>
+    <string name="login_find_device_bind">Ez a készülék már társítva van egy másik Mi Fiókhoz (%s).</string>
     <string name="find_device_locked_account_phone" formatted="false">%s fiókhoz tartozó telefonszám:%s</string>
     <string name="find_device_locked_account_email" formatted="false">%s fiókhoz tartozó e-mail-cím:%s</string>
     <string name="oauth_title">Bejelentkezés Mi Fiókkal</string>

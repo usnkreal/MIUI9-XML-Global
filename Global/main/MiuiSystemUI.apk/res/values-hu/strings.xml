@@ -272,7 +272,7 @@ EEEE"</string>
     <string name="ext_media_nomedia_notification_title">Eltávolított USB háttértár</string>
     <string name="ext_media_nomedia_notification_message">USB tárhely leválasztva. Helyezzen be új külső eszközt.</string>
     <string name="ext_media_mountable_notification_title">USB tároló csatlakoztatva</string>
-    <string name="ext_media_mountable_notification_message">Fájlkezelő megnyitása</string>
+    <string name="ext_media_mountable_notification_message">Érintse meg a Fájlkezelőben való megnyitáshoz.</string>
     <string name="ext_media_safe_remove">Eltávolítás</string>
     <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">KB/s</string>
@@ -782,7 +782,7 @@ További információkért keresse fel rendszergazdáját."</string>
     <string name="recent_dock_tip">Érintse meg a választott alkalmazást</string>
     <string name="dock_keyguard_locked_failed_to_dock_text">Az osztott képernyő nem támogatott a képernyőzáron.</string>
     <string name="click_expand">Érintse meg a kibontáshoz</string>
-    <string name="please_slide_agian">Kérjük, csúsztasson újra</string>
+    <string name="please_slide_agian">Csúsztassa újra</string>
     <string name="how_to_use_fsg">Ezeket a lépéseket végezheti el gesztusokkal:</string>
     <string name="how_to_back_home">Vissza a Kezdőképernyőre</string>
     <string name="how_to_switch_recents">Előzmények megnyitása</string>
@@ -790,6 +790,8 @@ További információkért keresse fel rendszergazdáját."</string>
     <string name="fsg_demo_go_on">Útmutató</string>
     <string name="fs_gesture_back_home_summary">Gyorsan húzza alulról fölfelé</string>
     <string name="fs_gesture_switch_recents_summary">Gyorsan húzza alulról fölfelé, majd állítsa meg a mozdulatot</string>
+    <string name="how_to_use_drawer">Hogyan használja az alkalmazáscsúsztatási funkciót</string>
+    <string name="how_to_use_drawer_summary">Csúsztatás a bal felső sarokból</string>
     <string name="fs_gesture_back_ready_title">Visszalépés</string>
     <string name="fs_gesture_left_back_ready_summary">Húzás a képernyő jobb széléről</string>
     <string name="fs_gesture_right_back_ready_summary">Húzás a képernyő bal széléről</string>

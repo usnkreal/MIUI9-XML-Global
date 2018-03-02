@@ -270,7 +270,7 @@ d MMMM"</string>
     <string name="ext_media_nomedia_notification_title">Odłączono nośnik USB</string>
     <string name="ext_media_nomedia_notification_message">Nośnik USB odłączony. Podłącz nowy nośnik danych.</string>
     <string name="ext_media_mountable_notification_title">Nośnik USB podłączony</string>
-    <string name="ext_media_mountable_notification_message">Dotknij, aby otworzyć Eksplorera.</string>
+    <string name="ext_media_mountable_notification_message">Dotknij aby otworzyć Menadżera plików Mi.</string>
     <string name="ext_media_safe_remove">Wysuń</string>
     <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">" kB/s"</string>
@@ -730,7 +730,7 @@ d MMMM"</string>
     <string name="keyboard_shortcut_group_applications_youtube">YouTube</string>
     <string name="keyboard_shortcut_group_applications_calendar">Kalendarz</string>
     <string name="legacy_vpn_name">VPN</string>
-    <string name="monitoring_button_view_policies">Wyświetl Zasady</string>
+    <string name="monitoring_button_view_policies">Wyświetl zasady</string>
     <string name="monitoring_description_ca_certificate">Autoryzacja certyfikatów jest zainstalowana na tym urządzeniu. Twój bezpieczny ruch sieciowy może być monitorowany lub modyfikowany.</string>
     <string name="monitoring_description_named_management">"Twoje urządzenie jest zarządzane przez %1$s.
 
@@ -788,6 +788,8 @@ W celu uzyskania informacji, skontaktuj się z administratorem."</string>
     <string name="fsg_demo_go_on">Naucz</string>
     <string name="fs_gesture_back_home_summary">Przesuń od dołu szybko</string>
     <string name="fs_gesture_switch_recents_summary">Przesuń od dołu i wstrzymaj</string>
+    <string name="how_to_use_drawer">Jak korzystać z funkcji przesuwania aplikacji</string>
+    <string name="how_to_use_drawer_summary">Przesuń z górnego lewego rogu</string>
     <string name="fs_gesture_back_ready_title">Wstecz</string>
     <string name="fs_gesture_left_back_ready_summary">Przesuń w prawo od krawędzi</string>
     <string name="fs_gesture_right_back_ready_summary">Przesuń w lewo od krawędzi</string>

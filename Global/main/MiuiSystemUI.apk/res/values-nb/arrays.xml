@@ -2,31 +2,31 @@
 <resources>
     <string-array name="wifi_status">
         <item></item>
-        <item>Scanning…</item>
+        <item>Skanner…</item>
         <item>Kobler til…</item>
-        <item>Authenticating…</item>
-        <item>Obtaining IP address…</item>
-        <item>Connected</item>
-        <item>Suspended</item>
-        <item>Disconnecting…</item>
-        <item>Disconnected</item>
-        <item>Unsuccessful</item>
-        <item>Blocked</item>
-        <item>Temporarily avoiding poor connection</item>
+        <item>Autentiserer…</item>
+        <item>Henter IP-adresse…</item>
+        <item>Tilkoblet</item>
+        <item>Suspendert</item>
+        <item>Kobler fra…</item>
+        <item>Frakoblet</item>
+        <item>Mislykket</item>
+        <item>Blokkert</item>
+        <item>Unngår dårlig forbindelse midlertidig</item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
         <item></item>
-        <item>Scanning…</item>
-        <item>Connecting to %1$s…</item>
-        <item>Authenticating with %1$s…</item>
-        <item>Obtaining IP address from %1$s…</item>
-        <item>Connected to %1$s</item>
-        <item>Suspended</item>
-        <item>Disconnecting from %1$s…</item>
-        <item>Disconnected</item>
-        <item>Unsuccessful</item>
-        <item>Blocked</item>
-        <item>Temporarily avoiding poor connection</item>
+        <item>Skanner…</item>
+        <item>Kobler til %1$s…</item>
+        <item>Autentiserer med %1$s…</item>
+        <item>Henter IP-adresse fra %1$s…</item>
+        <item>Tilkoblet til %1$s</item>
+        <item>Suspendert</item>
+        <item>Kobler fra %1$s…</item>
+        <item>Frakoblet</item>
+        <item>Mislykket</item>
+        <item>Blokkert</item>
+        <item>Unngår dårlig forbindelse midlertidig</item>
     </string-array>
     <string-array name="aqi_title_prefix">
         <item>AQI %1$s</item>
@@ -56,154 +56,154 @@
         <item>%1$s</item>
     </string-array>
     <string-array name="weather_type">
-        <item>Sunny</item>
-        <item>Cloudy</item>
-        <item>Overcast</item>
-        <item>Foggy</item>
-        <item>Heavy rainstorm</item>
-        <item>Downpour</item>
-        <item>Rainstorm</item>
-        <item>Thunderstorm</item>
-        <item>Shower</item>
-        <item>Heavy rainfall</item>
-        <item>Moderate rain</item>
-        <item>Light rain</item>
-        <item>Rain and snow mixed</item>
-        <item>Blizzard</item>
-        <item>Snow</item>
-        <item>Heavy snow</item>
-        <item>Moderate snow</item>
-        <item>Light snow</item>
-        <item>Strong sandstorm</item>
-        <item>Sand storm</item>
+        <item>Sol</item>
+        <item>Skyet</item>
+        <item>Overskyet</item>
+        <item>Tåke</item>
+        <item>Kraftig regnvær</item>
+        <item>Nedbør</item>
+        <item>Regnvær</item>
+        <item>Torden</item>
+        <item>Regn</item>
+        <item>Kraftig nedbør</item>
+        <item>Moderat regn</item>
+        <item>Litt regn</item>
+        <item>Både regn og snø</item>
+        <item>Lyn</item>
+        <item>Snø</item>
+        <item>Kraftig snøfall</item>
+        <item>Moderat snøfall</item>
+        <item>Litt snøfall</item>
+        <item>Kraftig sandstorm</item>
+        <item>Sandstorm</item>
         <item>Sand</item>
-        <item>Windy</item>
-        <item>Hail</item>
-        <item>Dust</item>
-        <item>Haze</item>
-        <item>Freezing rain</item>
+        <item>Vind</item>
+        <item>Hagl</item>
+        <item>Støv</item>
+        <item>Dis</item>
+        <item>Underkjølt regn</item>
         <item></item>
     </string-array>
     <string-array name="hdcp_checking_titles">
-        <item>Never check</item>
-        <item>Check for DRM content only</item>
-        <item>Always check</item>
+        <item>Aldri sjekk</item>
+        <item>Se kun etter DRM-innhold</item>
+        <item>Sjekk alltid</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
-        <item>Never use HDCP checking</item>
-        <item>Use HDCP checking for DRM content only</item>
-        <item>Always use HDCP checking</item>
+        <item>Alri bruk HDCP-sjekk</item>
+        <item>Bruk kun HDCP-sjekk etter DRM-innhold</item>
+        <item>Bruk alltid HDCP-sjekk</item>
     </string-array>
     <string-array name="select_logd_size_titles">
-        <item>Auto-opptak er av</item>
-        <item>64KB</item>
-        <item>256KB</item>
-        <item>1MB</item>
-        <item>4MB</item>
-        <item>16MB</item>
+        <item>Av</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>16 MB</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
-        <item>Auto-opptak er av</item>
-        <item>64KB</item>
-        <item>256KB</item>
-        <item>1MB</item>
+        <item>Av</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
-        <item>Auto-opptak er av</item>
-        <item>64KB per log buffer</item>
-        <item>256KB per log buffer</item>
-        <item>1MB per log buffer</item>
-        <item>4MB per log buffer</item>
-        <item>16MB per log buffer</item>
+        <item>Av</item>
+        <item>64 KB per loggbuffer</item>
+        <item>256 KB per loggbuffer</item>
+        <item>1 MB per loggbuffer</item>
+        <item>4 MB per loggbuffer</item>
+        <item>16 MB per loggbuffer</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
-        <item>Animation off</item>
-        <item>Animation scale 0.5x</item>
-        <item>Animation scale 1x</item>
-        <item>Animation scale 1.5x</item>
-        <item>Animation scale 2x</item>
-        <item>Animation scale 5x</item>
-        <item>Animation scale 10x</item>
+        <item>Animasjon av</item>
+        <item>Animasjonsskala 0,5x</item>
+        <item>Animasjonsskala 1x</item>
+        <item>Animasjonsskala 1,5x</item>
+        <item>Animasjonsskala 2x</item>
+        <item>Animasjonsskala 5x</item>
+        <item>Animasjonsskala 10x</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
-        <item>Animation off</item>
-        <item>Animation scale 0.5x</item>
-        <item>Animation scale 1x</item>
-        <item>Animation scale 1.5x</item>
-        <item>Animation scale 2x</item>
-        <item>Animation scale 5x</item>
-        <item>Animation scale 10x</item>
+        <item>Animasjon av</item>
+        <item>Animasjonsskala 0,5x</item>
+        <item>Animasjonsskala 1x</item>
+        <item>Animasjonsskala 1,5x</item>
+        <item>Animasjonsskala 2x</item>
+        <item>Animasjonsskala 5x</item>
+        <item>Animasjonsskala 10x</item>
     </string-array>
     <string-array name="animator_duration_scale_entries">
-        <item>Animation off</item>
-        <item>Animation scale 0.5x</item>
-        <item>Animation scale 1x</item>
-        <item>Animation scale 1.5x</item>
-        <item>Animation scale 2x</item>
-        <item>Animation scale 5x</item>
-        <item>Animation scale 10x</item>
+        <item>Animasjon av</item>
+        <item>Animasjonsskala 0,5x</item>
+        <item>Animasjonsskala 1x</item>
+        <item>Animasjonsskala 1,5x</item>
+        <item>Animasjonsskala 2x</item>
+        <item>Animasjonsskala 5x</item>
+        <item>Animasjonsskala 10x</item>
     </string-array>
     <string-array name="overlay_display_devices_entries">
         <item>Ingen</item>
         <item>480p</item>
-        <item>480p (secure)</item>
+        <item>480p (sikker)</item>
         <item>720p</item>
-        <item>720p (secure)</item>
+        <item>720p (sikker)</item>
         <item>1080p</item>
-        <item>1080p (secure)</item>
+        <item>1080p (sikker)</item>
         <item>4K</item>
-        <item>4K (secure)</item>
-        <item>4K (upscaled)</item>
-        <item>4K (upscaled, secure)</item>
-        <item>720p, 1080p (dual screen)</item>
+        <item>4K (sikker)</item>
+        <item>4K (oppskalert)</item>
+        <item>4K (oppskalert, sikker)</item>
+        <item>720p, 1080p (dobbel skjerm)</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>Ingen</item>
         <item>Logcat</item>
-        <item>Systrace (Graphics)</item>
-        <item>Call stack on glGetError</item>
+        <item>Systrace (grafikk)</item>
+        <item>Kallstakk på glGetError</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
-        <item>Auto-opptak er av</item>
-        <item>Draw non-rectangular clip region in blue</item>
-        <item>Highlight tested drawing commands in green</item>
+        <item>Av</item>
+        <item>Tegn ikke-rektangulært klippeområde i blått</item>
+        <item>Fremhev testede tegningskommandoer i grønt</item>
     </string-array>
     <string-array name="track_frame_time_entries">
-        <item>Auto-opptak er av</item>
-        <item>On screen as bars</item>
+        <item>Av</item>
+        <item>På skjermen som linjer</item>
         <item>In adb shell dumpsys gfxinfo</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
-        <item>Auto-opptak er av</item>
-        <item>Show overdraw areas</item>
-        <item>Show areas for deuteranomaly</item>
+        <item>Av</item>
+        <item>Vis overtrekksområder</item>
+        <item>Vis områder for grønnblindhet</item>
     </string-array>
     <string-array name="app_process_limit_entries">
-        <item>Standard limit</item>
-        <item>No background processes</item>
-        <item>At most 1 process</item>
-        <item>At most 2 processes</item>
-        <item>At most 3 processes</item>
-        <item>At most 4 processes</item>
+        <item>Standardgrense</item>
+        <item>Ingen bakgrunnsprosesser</item>
+        <item>Én prosess på det meste</item>
+        <item>To prosesser på det meste</item>
+        <item>Tre prosesser på det meste</item>
+        <item>Fire prosesser på det meste</item>
     </string-array>
     <string-array name="usb_configuration_titles">
         <item>Lader</item>
-        <item>MTP (Media Transfer Protocol)</item>
-        <item>PTP (Picture Transfer Protocol)</item>
-        <item>RNDIS (USB Ethernet)</item>
-        <item>Audio source</item>
+        <item>MTP (Medieoverføringsprotokoll)</item>
+        <item>PTP (Bildeoverføringsprotokoll)</item>
+        <item>RNDIS (USB-Ethernet)</item>
+        <item>Lydkilde</item>
         <item>MIDI</item>
     </string-array>
     <string-array name="tts_rate_entries">
-        <item>Very slow</item>
-        <item>Slow</item>
-        <item>Vibrer</item>
-        <item>Fast</item>
-        <item>Faster</item>
-        <item>Very fast</item>
-        <item>Rapid</item>
-        <item>Very rapid</item>
-        <item>Fastest</item>
+        <item>Veldig sakte</item>
+        <item>Sakte</item>
+        <item>Normal</item>
+        <item>Rask</item>
+        <item>Raskere</item>
+        <item>Veldig rask</item>
+        <item>Rask</item>
+        <item>Veldig rask</item>
+        <item>Raskest</item>
     </string-array>
     <string-array name="tts_rate_values">
         <item>60</item>
@@ -217,18 +217,18 @@
         <item>400</item>
     </string-array>
     <string-array name="color_mode_names">
-        <item>Vibrant (default)</item>
-        <item>Natural</item>
+        <item>Levende (standard)</item>
+        <item>Naturlig</item>
         <item>Standard</item>
     </string-array>
     <string-array name="color_mode_descriptions">
-        <item>Enhanced colors</item>
-        <item>Natural colors as seen by the eye</item>
-        <item>Colors optimized for digital content</item>
+        <item>Forbedrede farger</item>
+        <item>Naturlige farger som øyet ser dem</item>
+        <item>Farger optimalisert for digitalt innhold</item>
     </string-array>
     <string-array name="battery_labels">
-        <item>0%</item>
-        <item>50%</item>
-        <item>100%</item>
+        <item>0 %</item>
+        <item>50 %</item>
+        <item>100 %</item>
     </string-array>
 </resources>

@@ -115,4 +115,6 @@ Wpisz numer powiązany z nową kartą SIM aby aktywować ponownie %s"</string>
     <string name="phone_get_text">Zezwolić na uzyskanie numeru telefonu (%2$s) przez %1$s?</string>
     <string name="phone_get_processing">Uzyskiwanie…</string>
     <string name="agree">Zezwól</string>
+    <string name="privacy_revoke_tips">Jeśli odwołasz, nie będzie można korzystać z synchronizacji SMS</string>
+    <string name="privacy_revoke_failed_msg">Unieważniono prywatność, nie można uzyskać numeru telefonu, aktywacja nieudana</string>
 </resources>

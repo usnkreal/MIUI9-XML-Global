@@ -257,7 +257,7 @@ Niektoré dual apps si vyžadujú podporu Google Services Framework. V takomto p
     <string name="xspace_weibo_title">Weibo</string>
     <string name="weibo_send">Odoslať na Weibo</string>
     <string name="xspace_qq_title">QQ</string>
-    <string name="qq_send">Odoslať QQ priateľom/zariadeniam</string>
+    <string name="qq_send">Odoslať QQ priateľom/počítačom</string>
     <string name="xspace_default_setting_label">Predvolená aplikácia</string>
     <string name="xspace_default_app_title">Predvolená aplikácia</string>
     <string name="xspace_default_app_summary">Nastavte predvolenú aplikáciu pre platby, zdieľanie, obľúbené a iné.</string>

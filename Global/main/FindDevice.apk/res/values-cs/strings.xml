@@ -39,6 +39,7 @@ Pokud změníte SIM kartu, SMS pro znovu aktivování této funkce se odešle au
     <string name="unlock_error_rpc">Chyba RPC</string>
     <string name="unlock_error_abort">Zrušeno uživatelem</string>
     <string name="unlock_error_passport_sdk_timeout">SDK Xiaomi účtu nereaguje</string>
+    <string name="open_wifi_settings">Otevřít nastavení Wi-Fi</string>
     <string name="activate_xiaomi_account">Aktivovat toto zařízení</string>
     <string name="login_extra_steps">Přihlásit se k ověření</string>
     <string name="phone_locked">Toto zařízení je zřejmě propojeno s jiným Xiaomi účtem (%s). Přihlaste se pro aktivaci tohoto zařízení.</string>

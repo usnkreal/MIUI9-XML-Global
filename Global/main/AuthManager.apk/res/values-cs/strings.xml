@@ -13,10 +13,6 @@
     <string name="HIPS_Perm_Location_Desc">zjistit přesnou polohu (pomocí GPS a mobilní sítě)</string>
     <string name="HIPS_Perm_PhoneID">Získat údaje o zařízení</string>
     <string name="HIPS_Perm_PhoneID_Desc">Přístup k telefonnímu číslu, IMEI a IMSI</string>
-    <string name="HIPS_Perm_SMS">Napsat a odstranit zprávy SMS</string>
-    <string name="HIPS_Perm_SMS_Desc">psát a odstraňovat zprávy SMS</string>
-    <string name="HIPS_Perm_MMS">Psát a odstraňovat zprávy MMS</string>
-    <string name="HIPS_Perm_MMS_Desc">psát a odstraňovat zprávy MMS</string>
     <string name="HIPS_Perm_Contact">Upravovat a odstraňovat kontakty</string>
     <string name="HIPS_Perm_Contact_Desc">upravovat a odstraňovat vaše kontakty</string>
     <string name="HIPS_Perm_CallLog">Měnit a odstraňovat historii hovorů</string>

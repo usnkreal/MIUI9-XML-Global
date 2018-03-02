@@ -265,7 +265,7 @@ aby wejść do Drugiej przestrzeni z ekranu blokady"</string>
     <string name="xspace_weibo_title">Weibo</string>
     <string name="weibo_send">Wyślij do Weibo</string>
     <string name="xspace_qq_title">QQ</string>
-    <string name="qq_send">Wyślij do znajomych QQ/urządzeń</string>
+    <string name="qq_send">Wyślij do znajomych z QQ/na komputer</string>
     <string name="xspace_default_setting_label">Domyślna aplikacja</string>
     <string name="xspace_default_app_title">Domyślna aplikacja</string>
     <string name="xspace_default_app_summary">Ustaw domyślną aplikację dla płatności, udostępniania, ulubionych i więcej.</string>

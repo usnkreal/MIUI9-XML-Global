@@ -33,6 +33,7 @@
     <string name="attach_sound">Hanganyag</string>
     <string name="attach_subject">Tárgy</string>
     <string name="attach_take_photo">Kép rögzítése</string>
+    <string name="attach_transaction">Pénz küldése</string>
     <string name="attach_video">Videók</string>
     <string name="audio_download_failed">hang letöltése sikertelen</string>
     <string name="audio_message_expired">A hangüzenet lejárt.</string>
@@ -512,6 +513,7 @@
     <string name="select_local_audio">Hanganyagot kiválasztása...</string>
     <string name="select_local_video">Videó kiválasztása...</string>
     <string name="select_message_send_sim">Válasszon SIM kártyát</string>
+    <string name="select_phone_number">Telefonszám kiválasztása</string>
     <string name="select_recipient">Válasszon címzetteket</string>
     <string name="select_sim">SIM kártya kiválasztása</string>
     <string name="select_top_text">A szöveg felül</string>
@@ -656,7 +658,4 @@ Utolsó kísérlet: %s."</string>
     <string name="wild_msg_title">A szinkronizáláshoz telefonszám kiválasztása</string>
     <string name="yes">OK</string>
     <string name="yesterday">Tegnap</string>
-    <string name="about_smart_sms_title">Okos üzenetkezelés partnerek</string>
-    <string name="partner_companies">Teddy Mobile, Yulore Tech.</string>
-    <string name="pref_title_about_smart_sms">Az Okos üzenetkezelés partnerekről</string>
 </resources>

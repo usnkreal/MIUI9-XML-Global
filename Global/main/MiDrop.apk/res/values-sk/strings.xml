@@ -33,6 +33,7 @@
     <string name="cancel_lang">Zrušiť</string>
     <string name="cancel_message">Ak zrušíte prenos, druhá osoba súbory nezíska. Chcete ho teraz zrušiť?</string>
     <string name="cancel_stop">Pokračovať v odosielaní</string>
+    <string name="cannot_transfer_dir_to_low_version">Požiadajte inú osobu, aby aktualizovala Mi Drop</string>
     <string name="category_files">Súbory</string>
     <string name="category_installed_app">Aplikácie</string>
     <string name="category_music">Hudba</string>
@@ -96,7 +97,7 @@
     <string name="info_product">Zariadenie:</string>
     <string name="info_system">Systém:</string>
     <string name="info_system_version">Verzia systému:</string>
-    <string name="instruction">Zadajte túto adresu do prehliadača alebo správca súborov v počítači.</string>
+    <string name="instruction">Zadajte túto adresu do správca súborov vo vašom počítači</string>
     <string name="instruction_pre_pad">Spustite pre spravovanie používaných súborov</string>
     <string name="instruction_pre_phone">Spustite pre spravovanie používaných súborov</string>
     <string name="internal_storage">Interné úložisko</string>
@@ -114,6 +115,7 @@
 V Androide 6.0 a novších verziách by ste na odosielanie a prijímanie súborov mali zapnúť služby určovania polohy."</string>
     <string name="location_skip">Preskočiť</string>
     <string name="max_send_file">99+</string>
+    <string name="more">More</string>
     <string name="never_remind">Znova nezobrazovať</string>
     <string name="no_file">Prázdne</string>
     <string name="no_network">"Nepodarilo sa pripojiť k sieti.
@@ -134,6 +136,7 @@ Skontrolujte nastavenia siete a skúste to znova."</string>
     <string name="popup_window_header_clear_all">Vyčistiť</string>
     <string name="port_range">Číslo portu musí byť medzi 1024-65535</string>
     <string name="prompt_grant_write_settings_permission">Povoliť Mi Drop pozmeniť systémové nastavenia.</string>
+    <string name="qr_code">QR kód</string>
     <string name="receive">Prijať</string>
     <string name="receive_exit_dialog_message">Ak prenos zrušíte, súbory sa neodošlú. Zrušiť napriek tomu?</string>
     <string name="receive_exit_dialog_negative_btn">Pokračovať v prijímaní</string>
@@ -142,6 +145,7 @@ Skontrolujte nastavenia siete a skúste to znova."</string>
     <string name="received_files">Prijaté súbory</string>
     <string name="receiver_accept">Prijať</string>
     <string name="receiver_clean">Uvoľniť miesto</string>
+    <string name="receiver_file_title">Od %s</string>
     <string name="receiver_in_progress_summary">Pred odosielaním ďalších súborov počkajte na dokončenie prebiehajúceho prenosu.</string>
     <string name="receiver_in_progress_title">Prenášanie súborov</string>
     <string name="receiver_insufficient_storage">Nie je dostatok voľného miesta na úložisku.</string>
@@ -191,16 +195,21 @@ Skontrolujte nastavenia siete a skúste to znova."</string>
     <string name="settings_feedback">Spätná väzba</string>
     <string name="settings_score">Ohodnoťte Mi Drop</string>
     <string name="settings_set_name">Prezývka</string>
-    <string name="share_desc">Zdieľajte Mi Drop bez nutnosti používania mobilných dát</string>
+    <string name="share_ap_step_two">Po pripojení priateľa zobraziť krok č.2</string>
+    <string name="share_desc">Zdieľať bez pripojenia na Internet</string>
+    <string name="share_first_head_title">Zdieľať s priateľmi v okolí</string>
     <string name="share_mi_drop">Zdieľajte Mi Drop s priateľmi</string>
+    <string name="share_second_head_title">Iné spôsoby zdieľania</string>
+    <string name="share_via_ap">Zdieľať cez Prenosný hotspot</string>
+    <string name="share_via_qr_code">Zdieľať pomocou kódu QR</string>
     <string name="start_server">Spustiť</string>
     <string name="stay_awake_summary">Zabráni displeju k prechodu do režimu spánku počas FTP prenosu</string>
     <string name="stay_awake_title">Ponechať displej aktívny</string>
-    <string name="step_1">"Prvý krok: 
-Požiadajte druhú osobu, aby sa pripojila k Wi-Fi."</string>
-    <string name="step_2">"Druhý krok: 
-Požiadajte druhú osobu, aby do prehliadača zadala túto adresu:"</string>
-    <string name="step_2_scan_code">Alebo nasnímajte nasledujúci QR kód</string>
+    <string name="step_1">Krok 1:</string>
+    <string name="step_1_title">Opýtajte sa svojho priateľa sa pripojiť k tejto sieti</string>
+    <string name="step_2">Krok 2:</string>
+    <string name="step_2_input_ip_address">Alebo požiadajte priateľa, aby zadal túto adresu do prehliadača:</string>
+    <string name="step_2_scan_code">Požiadajte svojho priateľa o naskenovanie tohto QR kódu</string>
     <string name="stop_server">Zastaviť</string>
     <string name="stop_transfer">Zastaviť</string>
     <string name="storage_internal">Interné úložisko</string>
@@ -230,6 +239,7 @@ Požiadajte druhú osobu, aby do prehliadača zadala túto adresu:"</string>
     <string name="version">Verzia</string>
     <string name="want_receive">Prijať súbory</string>
     <string name="want_send">Odoslať súbory</string>
+    <string name="wifi_ap">Prenosný hotspot</string>
     <string name="wifi_name">Názov Wi-Fi:</string>
     <string name="wifi_psw">Heslo:</string>
     <string name="wifi_state">Stav Wi-Fi</string>

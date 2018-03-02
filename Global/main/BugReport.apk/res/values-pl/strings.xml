@@ -163,6 +163,7 @@
     <string name="cta_confirm">OK</string>
     <string name="submit_dialog_title">Wyślij raport</string>
     <string name="submit_dialog_content">Twoje zgłoszenie, wraz z załącznikami oraz logami, zostanie wysłane na serwery Xiaomi. Może zawierać informacje osobiste oraz dane o lokalizacji.</string>
+    <string name="submit_dialog_content_global">Twoje zgłoszenie, wraz z załącznikami (jeśli dołączono) oraz logami (jeśli zaznaczono odpowiednie pola wyboru elementów, których nie należy wysyłać), zostanie wysłane na serwery Xiaomi oraz do sekcji na MIUI Forum o ograniczonym dostępie, dla programistów, do dalszej analizy i dyskusji. Logi mogą zawierać informacje osobiste oraz dane o lokalizacji.</string>
     <string name="submit_dialog_cancel">Anuluj</string>
     <string name="submit_dialog_confirm">Wyślij</string>
     <string name="mobile_data_note_dialog_title">Ostrzeżenie o limicie danych</string>
@@ -177,7 +178,7 @@
     <string name="modem_tool_log_finish_title">Przechwycono log modemu</string>
     <string name="modem_tool_log_finish_desc">Log został zapisany jako %s</string>
     <string name="bugreport_dialog_not_show_again">Nie pokazuj ponownie</string>
-    <string name="bugreport_dialog_submit_content">Twoja opinia może zawierać informacje osobiste oraz dane o lokalizacji.</string>
+    <string name="bugreport_dialog_submit_content">Zapisujesz teraz logi oprogramowania na tym urządzeniu. Logi mogą zawierać informacje osobiste oraz dane o lokalizacji. Nie udostępniaj tych danych nikomu innemu, jeśli nie chcesz zostać narażony na wyciek danych.</string>
     <string name="bugreport_dump_start_notification_title">Tworzenie pełnego raportu</string>
     <string name="bugreport_dump_start_notification_summary">Może to potrwać kilka minut.</string>
     <string name="bugreport_dump_complete_notification_title">Utworzono raport (plik .log w archiwum .zip)</string>
@@ -219,6 +220,14 @@
     <string name="feedback_choose_module_hint">Wymagane</string>
     <string name="feedback_choose_reproductivity">Powtarzalność</string>
     <string name="feedback_title_reproductivity">Wybierz powtarzalność</string>
+    <string name="feedback_select_problem_select_desc">Wybrano \"Problemy\"</string>
+    <string name="feedback_select_problem_not_select_desc">Nie wybrano \"Problemy\"</string>
+    <string name="feedback_select_suggestion_select_desc">Wybrano \"Sugestie\"</string>
+    <string name="feedback_select_suggestion_not_select_desc">Nie wybrano \"Sugestie\"</string>
+    <string name="feedback_select_upload_log_select_desc">Wybrano \"Dodaj logi\"</string>
+    <string name="feedback_select_upload_log_not_select_desc">Nie wybrano \"Dodaj logi\"</string>
+    <string name="feedback_select_modem_log_select_desc">Wybrano \"Dodaj logi modemu\"</string>
+    <string name="feedback_select_modem_log_not_select_desc">Nie wybrano \"Dodaj logi modemu\"</string>
     <string name="feedback_report_remind_login_desc">Zaloguj się za pomocą konta Xiaomi, aby nasi programiści mogli się z tobą skontaktować.</string>
     <string name="feedback_report_remind_login_desc2">Możesz także zobaczyć postęp swoich zgłoszeń w \"Moich raportach\".</string>
     <string name="feedback_history_remind_login_desc">Zaloguj się za pomocą konta Xiaomi, aby zobaczyć szczegóły i postęp zgłoszenia</string>

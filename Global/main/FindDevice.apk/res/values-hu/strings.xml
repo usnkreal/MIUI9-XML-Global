@@ -39,6 +39,7 @@
     <string name="unlock_error_rpc">RPC hiba</string>
     <string name="unlock_error_abort">Felhasználó által megszakítva</string>
     <string name="unlock_error_passport_sdk_timeout">Mi Fiók SDK nem válaszol</string>
+    <string name="open_wifi_settings">Wi-Fi beállítások megnyitása</string>
     <string name="activate_xiaomi_account">Készülék aktiválása</string>
     <string name="login_extra_steps">Bejelentkezés ellenőrzés</string>
     <string name="phone_locked">A készülék már hozzá van rendelve egy másik Mi Fiókhoz (%s). Jelentkezzen be és aktiválja a készüléket.</string>

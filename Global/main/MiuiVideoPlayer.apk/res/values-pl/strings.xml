@@ -86,7 +86,7 @@
     <string name="t_check_delete_file">Wybierz elementy do usunięcia</string>
     <string name="t_check_delete_history">Wybierz nagrania do usunięcia</string>
     <string name="t_check_hide_file">Wybierz wideo do ukrycia</string>
-    <string name="t_check_send_file">Wybierz elementy do wysłania</string>
+    <string name="t_check_send_file">Wybierz jeden element do wysłania</string>
     <string name="t_deleting">Usuwanie…</string>
     <string name="t_downloading_new_version">Pobieranie aktualizacji…</string>
     <string name="t_exit_app">Dotknij ponownie, aby wyjść</string>
@@ -149,7 +149,7 @@
     <string name="v_video_null">Brak wideo</string>
     <string name="vp_app_name">Odtwarzacz wideo</string>
     <string name="vp_device_list">Urządzenia</string>
-    <string name="vp_device_list_seaching">&lt;Brak urządzeń do wyświetlenia></string>
+    <string name="vp_device_list_seaching">Brak urządzeń do projekcji</string>
     <string name="screenrecord_cancel">Problemy z kompatybilnością</string>
     <string name="screenrecord_nosupport_record">Nagrywanie ekranu nie jest aktualnie obsługiwane na tym urządzeniu.</string>
 </resources>

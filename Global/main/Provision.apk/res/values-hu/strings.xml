@@ -24,6 +24,8 @@ A kiválasztott billentyűzet Adatvédelmi Nyilatkozatának megtekintése."</str
     <string name="other_settings_upload_debug_log_summary">Az általunk gyűjtött információk a problémák felkutatására lesznek használva és személyes adatokat tartalmazhatnak. Sosem lesznek az Ön személyes azonosítására fordítva.</string>
     <string name="other_settings_auto_update">Telepítés automatikusan</string>
     <string name="other_settings_auto_update_summary">A MIUI kiválasztja a legmegfelelőbb pillanatot a frissítések telepítésére.</string>
+    <string name="other_settings_ad_enable">Személyre szabott reklámajánlat</string>
+    <string name="other_settings_ad_enable_summary">A személyre szabott reklámajánlatok az Ön használati szokásain alapulnak</string>
     <string name="back">Vissza</string>
     <string name="next">Tovább</string>
     <string name="skip_underline">Lépés kihagyása</string>
@@ -69,8 +71,8 @@ A MIUI használata előtt el kell fogadnia a Felhasználási feltételeket és a
     <string name="content_description_complete">Kész</string>
     <string name="language_picker_other_languages_title">Egyéb nyelvek</string>
     <string name="language_settings">Válasszon nyelvet</string>
-    <string name="navigation_picker_radio_text_full_screen">Teljes képernyős mód</string>
-    <string name="navigation_picker_radio_text_virtual_key">Virtuálisgomb-vezérlés</string>
+    <string name="navigation_picker_radio_text_full_screen">Teljes képernyős kézmozdulatok</string>
+    <string name="navigation_picker_radio_text_virtual_key">Virtuális gombok</string>
     <string name="congratulation_swipe">Húzza felfelé a rendszerbe való belépéshez</string>
     <string name="enable_accessibility_dialog_message">Két ujjával hosszan nyomta a képernyőt, így Ön aktiválta a TalkBack-et, ami hangos visszajelzést nyújt gyengénlátók számára. Ha véletlenül kapcsolta be, nyomja meg a Mégse gombot, majd érintse meg a képernyőt kétszer (dupla koppintás).</string>
     <string name="enable_accessibility_dialog_positive_btn">OK</string>

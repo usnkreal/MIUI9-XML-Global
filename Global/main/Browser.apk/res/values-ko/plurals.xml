@@ -18,6 +18,9 @@
     <plurals name="matches_found">
         <item quantity="other">%1$d개 중 %2$d개</item>
     </plurals>
+    <plurals name="nav_screen_incognito_time">
+        <item quantity="other">After %d seconds will automatically create a new page</item>
+    </plurals>
     <plurals name="pref_adblock_counts">
         <item quantity="other">%d개 차단됨</item>
     </plurals>

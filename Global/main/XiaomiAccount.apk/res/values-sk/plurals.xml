@@ -4,20 +4,24 @@
         <item quantity="other">Aktualizované %s kontakty</item>
         <item quantity="one">Aktualizované kontakty: %s</item>
         <item quantity="few">Aktualizované kontakty: %s</item>
+        <item quantity="many">Updated %s contacts</item>
     </plurals>
     <plurals name="view_all_devices">
         <item quantity="other">Zobraziť všetky %d zariadenia</item>
         <item quantity="one">Zobraziť %d zariadenie</item>
         <item quantity="few">Zobraziť %d zariadenie</item>
+        <item quantity="many">View all %d devices</item>
     </plurals>
     <plurals name="view_all_apps">
         <item quantity="other">Zobraziť všetky %d aplikácie</item>
         <item quantity="one">Zobraziť %d aplikáciu</item>
         <item quantity="few">Zobraziť %d aplikáciu</item>
+        <item quantity="many">View all %d apps</item>
     </plurals>
     <plurals name="view_all_browsers">
         <item quantity="other">Zobraziť všetky %d prehliadače</item>
         <item quantity="one">Zobraziť %d prehliadač</item>
         <item quantity="few">Zobraziť %d prehliadač</item>
+        <item quantity="many">View all %d browsers</item>
     </plurals>
 </resources>

@@ -23,6 +23,8 @@
     <string name="other_settings_upload_debug_log_summary">Informácie, ktoré zhromažďujeme, budú slúžiť k lokalizácii a analyzovaniu problémov v systéme a môžu obsahovať osobné údaje. Žiadne údaje nebudú použité k vašej identifikácii.</string>
     <string name="other_settings_auto_update">Inštalovať automaticky</string>
     <string name="other_settings_auto_update_summary">MIUI automaticky zvolí najlepší čas na inštaláciu aktualizácií.</string>
+    <string name="other_settings_ad_enable">Odporúčané reklamy pre vás</string>
+    <string name="other_settings_ad_enable_summary">Odporúčané reklamy pre vás na základe dát z vašej činnosti</string>
     <string name="back">Späť</string>
     <string name="next">Ďalej</string>
     <string name="skip_underline">Preskočiť</string>
@@ -68,8 +70,8 @@ S našimi zmluvnými podmienkami a pravidlami ochrany súkromia musíte súhlasi
     <string name="content_description_complete">Hotovo</string>
     <string name="language_picker_other_languages_title">Viac jazykov</string>
     <string name="language_settings">Vybrať jazyk</string>
-    <string name="navigation_picker_radio_text_full_screen">Režim celej obrazovky</string>
-    <string name="navigation_picker_radio_text_virtual_key">Režim Virtuálneho kľúča</string>
+    <string name="navigation_picker_radio_text_full_screen">Gestá celej obrazovky</string>
+    <string name="navigation_picker_radio_text_virtual_key">Tlačidlá</string>
     <string name="congratulation_swipe">Potiahnite nahor pre vstup do systému</string>
     <string name="enable_accessibility_dialog_message">Povolili ste TalkBack podržaním dvoch prstov na displeji po dobu 10s. TalkBack pomáha nevidiacim užívateľom. Ak ste ho aktivovali omylom, stlačte tlačidlo zrušiť a 2x poklepte po displeji.</string>
     <string name="enable_accessibility_dialog_positive_btn">OK</string>

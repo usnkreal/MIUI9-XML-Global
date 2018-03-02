@@ -109,7 +109,7 @@
     <string name="yearly">Ročně (každý %s)</string>
     <string name="yearly_plain">Ročně</string>
     <string name="account_and_calendar">Účty</string>
-    <string name="action_bar_date_button_title">Calculate date</string>
+    <string name="action_bar_date_button_title">Vypočítat datum</string>
     <string name="action_bar_more_menu_view_description">Více</string>
     <string name="action_bar_return">Zpět</string>
     <string name="action_text_card_manager">Kanál</string>
@@ -165,7 +165,7 @@
     <string name="date_calculate_description">Zjistěte, jaké datum je před nebo po určitém počtu dní</string>
     <string name="date_calculate_direction">Směr</string>
     <string name="date_calculate_direction_content_description">Aktuální umístění: %1s.</string>
-    <string name="date_calculate_hint">Learn what date it is after a number days</string>
+    <string name="date_calculate_hint">Zjistěte, jaké bude datum po určitém počtu dní</string>
     <string name="date_calculate_result">Výsledek</string>
     <string name="date_calculate_tab">Vypočítat datum</string>
     <string name="date_calculate_today">0 dní</string>

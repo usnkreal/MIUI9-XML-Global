@@ -268,7 +268,7 @@ d. MMMM"</string>
     <string name="ext_media_nomedia_notification_title">Odobraté USB úložisko</string>
     <string name="ext_media_nomedia_notification_message">USB úložisko odobrané. Pripojte nové médium.</string>
     <string name="ext_media_mountable_notification_title">USB úložisko pripojené</string>
-    <string name="ext_media_mountable_notification_message">Súbory zobrazíte v Správcovi súborov.</string>
+    <string name="ext_media_mountable_notification_message">Ťuknite pre otvorenie v Mi Správcovi súborov.</string>
     <string name="ext_media_safe_remove">Odpojiť</string>
     <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">KB/s</string>
@@ -778,7 +778,7 @@ Pre viac informácií, kontaktujte administrátora."</string>
     <string name="recent_dock_tip">Dotykom vyberte aplikáciu</string>
     <string name="dock_keyguard_locked_failed_to_dock_text">KeyGuard nepodporuje multi-window režim.</string>
     <string name="click_expand">Dotykom rozbalíte</string>
-    <string name="please_slide_agian">Prosím potiahnite znova</string>
+    <string name="please_slide_agian">Potiahnite znova</string>
     <string name="how_to_use_fsg">Tieto akcie môžete vykonať pomoc gest:</string>
     <string name="how_to_back_home">Prejsť na Domovskú obrazovku</string>
     <string name="how_to_switch_recents">Otvoriť nedávne</string>
@@ -786,6 +786,8 @@ Pre viac informácií, kontaktujte administrátora."</string>
     <string name="fsg_demo_go_on">Naučiť sa</string>
     <string name="fs_gesture_back_home_summary">Rýchlo potiahnuť zo spodu</string>
     <string name="fs_gesture_switch_recents_summary">Potiahnite zospodu a pozastavte</string>
+    <string name="how_to_use_drawer">Ako použiť funkciu potiahnutia prstom</string>
+    <string name="how_to_use_drawer_summary">Potiahnuť prstom zvrchu doľava dole</string>
     <string name="fs_gesture_back_ready_title">Naspäť</string>
     <string name="fs_gesture_left_back_ready_summary">Potiahnuť od okraja doprava</string>
     <string name="fs_gesture_right_back_ready_summary">Potiahnuť od okraja doľava</string>

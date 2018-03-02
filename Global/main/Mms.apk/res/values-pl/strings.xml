@@ -33,6 +33,7 @@
     <string name="attach_sound">Dźwięki</string>
     <string name="attach_subject">Temat</string>
     <string name="attach_take_photo">Zrób zdjęcie</string>
+    <string name="attach_transaction">Wyślij pieniądze</string>
     <string name="attach_video">Wideo</string>
     <string name="audio_download_failed">Pobieranie dźwięku nie powiodło się</string>
     <string name="audio_message_expired">Wiadomość głosowa wygasła.</string>
@@ -512,6 +513,7 @@
     <string name="select_local_audio">Wybierz plik audio</string>
     <string name="select_local_video">Wybierz plik wideo</string>
     <string name="select_message_send_sim">Wybierz kartę SIM</string>
+    <string name="select_phone_number">Wybierz numer telefonu</string>
     <string name="select_recipient">Wybierz odbiorców</string>
     <string name="select_sim">Wybierz kartę SIM</string>
     <string name="select_top_text">Tekst na górze</string>
@@ -656,7 +658,4 @@ Ostatnia próba: %s."</string>
     <string name="wild_msg_title">Wybierz nr do synchronizacji</string>
     <string name="yes">OK</string>
     <string name="yesterday">Wczoraj</string>
-    <string name="about_smart_sms_title">Partner wiadomości Smart</string>
-    <string name="partner_companies">Teddy Mobile, Yulore Tech.</string>
-    <string name="pref_title_about_smart_sms">O partnerze wiadomości Smart</string>
 </resources>

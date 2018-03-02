@@ -6,17 +6,17 @@
     </string-array>
     <string-array name="record_scenes_entries">
         <item>Musikk</item>
-        <item>Voice</item>
+        <item>Stemme</item>
     </string-array>
     <string-array name="interview_record_scenes_entries">
         <item>Musikk</item>
-        <item>Voice</item>
-        <item>Interview</item>
+        <item>Stemme</item>
+        <item>Intervju</item>
     </string-array>
     <string-array name="hd_record_scenes_entries">
         <item>Musikk</item>
-        <item>Voice</item>
-        <item>Interview</item>
+        <item>Stemme</item>
+        <item>Intervju</item>
         <item>HD</item>
     </string-array>
     <string-array name="record_scenes_values">
@@ -26,21 +26,21 @@
         <item>4</item>
     </string-array>
     <string-array name="record_scenes_summaries">
-        <item>Record music with better quality</item>
-        <item>Move the mic closer to the source of the sound for better quality</item>
-        <item>Place the phone between 2 people to record their conversation clearly</item>
-        <item>High dynamic range technology allows the microphone to capture more detailed sound</item>
+        <item>Spill inn musikk med bedre kvalitet</item>
+        <item>Flytt mikrofonen tettere på lydkilden for bedre kvalitet</item>
+        <item>Plasser telefonen mellom 2 personer for å ta opp samtalen deres tydelig</item>
+        <item>Høydynamisk rekkeviddeteknologi lar mikrofonen fange mer detaljert lyd</item>
     </string-array>
     <string-array name="record_scenes_summaries_stereo">
-        <item>Record through 2 channels, listen to stereo sound in the earphones</item>
-        <item>Move the mic closer to the source of the sound for better quality</item>
-        <item>Place the phone between 2 people to record their conversation clearly</item>
-        <item>High dynamic range technology allows the microphone to capture more detailed sound</item>
+        <item>Ta opp gjennom 2 kanaler, lytt til stereolyd i høretelefonene</item>
+        <item>Flytt mikrofonen tettere på lydkilden for bedre kvalitet</item>
+        <item>Plasser telefonen mellom 2 personer for å ta opp samtalen deres tydelig</item>
+        <item>Høydynamisk rekkeviddeteknologi lar mikrofonen fange mer detaljert lyd</item>
     </string-array>
     <string-array name="record_quality_entries">
-        <item>High</item>
+        <item>Høy</item>
         <item>Standard</item>
-        <item>Low</item>
+        <item>Lav</item>
     </string-array>
     <string-array name="record_quality_values">
         <item>1</item>
@@ -48,9 +48,9 @@
         <item>3</item>
     </string-array>
     <string-array name="record_quality_summaries">
-        <item>MP3, ~192kbit/s, ~90MB/h</item>
-        <item>MP3, ~100kbit/s, ~45MB/h</item>
-        <item>MP3, ~75kbit/s, ~32MB/h</item>
+        <item>MP3, ~192kbit/s, ~90MB/t</item>
+        <item>MP3, ~100kbit/s, ~45MB/t</item>
+        <item>MP3, ~75kbit/s, ~32MB/t</item>
     </string-array>
     <string-array name="record_locale_language">
         <item>fa</item>

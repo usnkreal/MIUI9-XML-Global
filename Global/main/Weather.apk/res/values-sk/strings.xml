@@ -77,6 +77,9 @@
     <string name="content_desc_activity_main_add_city">Pridať mesto</string>
     <string name="content_desc_activity_main_add_city_manage">Správa miest</string>
     <string name="content_desc_activity_main_more_settings">Viac nastavení</string>
+    <string name="content_desc_back_button">Naspäť</string>
+    <string name="content_desc_close_button">Zatvoriť</string>
+    <string name="content_desc_edit_city_manage">Spravovať mestá</string>
     <string name="daily_forcast_drawer_on_bottom">Skryť</string>
     <string name="daily_forcast_no_stable_direction">Vánok</string>
     <string name="daily_forcast_no_wind">0</string>
@@ -146,7 +149,9 @@
     <string name="lunar_calendar" />
     <string name="menu_add_city">Pridať alebo vymazať mesto</string>
     <string name="menu_location">Mestá</string>
+    <string name="menu_speaker">Hlasové vysielanie</string>
     <string name="mi_pad2">latte</string>
+    <string name="minute_rain">Minútová predpoveď</string>
     <string name="minute_rain_after_an_hour">O hodinu neskôr</string>
     <string name="minute_rain_after_two_hour">O dve hodiny neskôr</string>
     <string name="minute_rain_feedback_subtitle">Aké je počasie</string>
@@ -158,6 +163,7 @@
     <string name="minute_rain_progress_indicator_original_time">- -</string>
     <string name="minute_rain_pull_down_refresh">Potiahnite pre obnovenie</string>
     <string name="minute_rain_refreshing_now">Obnovenie...</string>
+    <string name="missing_required_permission">Zrušili ste požadované oprávnenia.</string>
     <string name="more_details">Podrobnosti</string>
     <string name="network_not_available">Nebolo možné sa pripojiť k sieti</string>
     <string name="network_unavailable">Žiadna sieť</string>
@@ -173,15 +179,15 @@
     <string name="particulate_matter_exceeded">Vysoké</string>
     <string name="particulate_matter_not_exceeded">Normálna</string>
     <string name="particulate_matter_serious_exceeded">Príliš vysoké</string>
-    <string name="precipitation_degree_five">暴</string>
-    <string name="precipitation_degree_four">大</string>
-    <string name="precipitation_degree_one">无</string>
-    <string name="precipitation_degree_three">中</string>
-    <string name="precipitation_degree_two">小</string>
+    <string name="precipitation_degree_five">Veľmi silné</string>
+    <string name="precipitation_degree_four">Silné</string>
+    <string name="precipitation_degree_one">Žiadne</string>
+    <string name="precipitation_degree_three">Stredné</string>
+    <string name="precipitation_degree_two">Mierne</string>
     <string name="pressure_connect">%1$s hPa</string>
     <string name="pull_fresh_updated">Aktualizované</string>
     <string name="pull_fresh_updating">Aktualizácia</string>
-    <string name="radar_cloud_image_title">雷达降水图</string>
+    <string name="radar_cloud_image_title">Radarová mapa</string>
     <string name="rainfall_settings_summary">Upozornenie na dážď</string>
     <string name="rainfall_settings_title">Upozornenie na dážď</string>
     <string name="real_time_sunrise">Východ slnka %1$s</string>
@@ -193,6 +199,8 @@
     <string name="refresh_fail">Nebolo možné pripojiť sa k sieti</string>
     <string name="reminder_from_xiaomi_weather_app">Upozornenie z aplikácie Počasie</string>
     <string name="retry">Znova</string>
+    <string name="search_weather">Počasie</string>
+    <string name="search_weather_keywords">Teplota;Predpoveď počasia;Počasie;Kvalita ovzdušia;Stupeň znečistenia;Vlhkosť</string>
     <string name="set">Nastavenia</string>
     <string name="set_degree_centigrade">°C</string>
     <string name="set_fahrenheit">°F</string>
@@ -258,11 +266,4 @@
     <string name="xiaomi_weather_description_title">O Počasí</string>
     <string name="yes_vote_ratio">Za: %1$s%%</string>
     <string name="your_location">Vaša poloha</string>
-    <string name="information_manager_default_weather_bg">Predvolené pozadie počasia</string>
-    <string name="information_manager_information">Informácie o počasí</string>
-    <string name="information_manager_wlan">Načítať len na Wi-Fi</string>
-    <string name="information_menu_title" />
-    <string name="information_set">Ostatné nastavenia</string>
-    <string name="menu_minute_rain">Predpoveď na nasledujúce 2 hodiny</string>
-    <string name="menu_speeker">Hlasový prenos</string>
 </resources>

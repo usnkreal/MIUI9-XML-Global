@@ -339,7 +339,7 @@
     <string name="description_minus_button">Mínusz</string>
     <string name="description_plus_button">Plusz</string>
     <string name="description_quick_contact_for">Üzenet küldése a következőnek: %1$s</string>
-    <string name="description_quick_dial_button">Quick dial</string>
+    <string name="description_quick_dial_button">Gyorstárcsázás</string>
     <string name="description_search_button">Keresés</string>
     <string name="description_send_message">Üzenet küldése a következőnek: %1$s</string>
     <string name="description_send_text_message">SMS küldése neki: %1$s</string>
@@ -378,7 +378,7 @@
 3. Érintse meg a \"Következő\" gombot és adja meg a szükséges engedélyeket a Névjegyeknek."</string>
     <string name="device_transfer_by_sim_message">"\"1. A másik készülék névjegyeit mentse el a SIM kártyára; 
 
-2. Nyissa meg a Kapcsolatok alkalmazás beállításait, ott pedig a \"Névjegyek Importálása/Exportálása\" -- \"Importálás SIM kártyáról\" menüt, válassza ki a névjegyeket, amiket mozgatni akar, majd nyomja meg \"Import\" parancsot.\""</string>
+2. Nyissa meg a Névjegyek alkalmazás beállításait, ott pedig a \"Névjegyek Importálása/Exportálása\" -- \"Importálás SIM kártyáról\" menüt, válassza ki a névjegyeket, amiket mozgatni akar, majd nyomja meg \"Importálás\" parancsot.\""</string>
     <string name="device_version_header_bluetooth">Importálás Bluetooth-on keresztül</string>
     <string name="device_version_header_no_bluetooth">Importálás a SIM-kártyáról</string>
     <string name="dial">Tárcsázás</string>
@@ -391,7 +391,7 @@
     <string name="dialer_empty_text_loading">Egy pillanat…</string>
     <string name="dialer_empty_text_no_call_log">A hívásnapló üres</string>
     <string name="dialer_empty_text_no_search_result">Nincs egyező névjegy</string>
-    <string name="dialer_firewall_entry_name">Blocked call logs</string>
+    <string name="dialer_firewall_entry_name">Hívásblokkolási napló</string>
     <string name="dialer_menu_description">Menü megjelenítése</string>
     <string name="dialer_menu_title">További opciók</string>
     <string name="dialer_returnToInCallScreen">Vissza a híváshoz</string>
@@ -743,7 +743,7 @@ Oka: \"%s\""</string>
     <string name="nickname_picker_nickname_column">Cím</string>
     <string name="noAccounts">Csoportok létrehozásához szükség van egy fiókra</string>
     <string name="noContactHelpTextAccountsInfo" />
-    <string name="noContactHelpTextImportXiaomiAccountInfo">Kapcsolatok visszaállítása a Mi Fiókból</string>
+    <string name="noContactHelpTextImportXiaomiAccountInfo">Névjegyek visszaállítása a Mi Fiókból</string>
     <string name="noContacts">Nincsenek névjegyek</string>
     <string name="noContactsWithPhoneNumbers">Nincsenek telefonszámot is tartalmazó névjegyek.</string>
     <string name="noFavoritesHelpText">"\"Nincsenek kedvencei.
@@ -795,12 +795,12 @@ Oka: \"%s\""</string>
     <string name="path_contacts_display">Rendszeralkalmazások/Névjegyek/Beállítások megjelenítése</string>
     <string name="path_contacts_more">Rendszeralkalmazások/Névjegyek/Névjegyek rendezése</string>
     <string name="path_contacts_recovery">Rendszeralkalmazások/Névjegyek/Névjegyek visszaállítása</string>
-    <string name="path_contacts_setting">Rendszeralkalmazások/Kapcsolatok</string>
+    <string name="path_contacts_setting">Rendszeralkalmazások/Névjegyek</string>
     <string name="path_display_only_phones">Rendszeralkalmazások/Névjegyek/Beállítások megjelenítése/Befejezetlen számok elrejtése</string>
     <string name="path_display_sim_contacts">Rendszeralkalmazások/Névjegyek/Beállítások megjelenítése/SIM névjegyek megjelenítése</string>
     <string name="path_export_to_sdcard">Rendszeralkalmazások/Névjegyek/Importálás/Névjegyek exportálása/Exportálás háttértárról</string>
     <string name="path_export_to_sim">Rendszeralkalmazások/Névjegyek/Importálás/Névjegyek exportálása/Exportálás SIM kártyáról</string>
-    <string name="path_import_export">Rendszeralkalmazások/Kapcsolatok/Importálás/Kapcsolatok exportálása</string>
+    <string name="path_import_export">Rendszeralkalmazások/Névjegyek/Importálás/Névjegyek exportálása</string>
     <string name="path_import_from_other_phone">Rendszeralkalmazások/Névjegyek/Importálás/Névjegyek exportálása/Importálás másik telefonról</string>
     <string name="path_import_from_sdcard">Rendszeralkalmazások/Névjegyek/Importálás/Exportálás/Importálás háttértárról</string>
     <string name="path_import_from_sim">Rendszeralkalmazások/Névjegyek/Importálás/Névjegyek exportálása/Importálás SIM kártyáról</string>
@@ -808,15 +808,15 @@ Oka: \"%s\""</string>
     <string name="path_key_rebuild_t9_index_title">Rendszeralkalmazások/Névjegyek/Névjegyek rendezése/Index állomány újraépítése</string>
     <string name="path_key_sim_manage">Rendszeralkalmazások/Névjegyek/Névjegyek rendezése/SIM kártya</string>
     <string name="path_preference_contacts_filter">Rendszeralkalmazások/Névjegyek/Beállítások megjelenítése/Névjegy listák konfigurálása</string>
-    <string name="path_quick_dial_setting">System apps/Contacts/Quick dial</string>
+    <string name="path_quick_dial_setting">Rendszeralkalmazások/Telefon/További beállítások/Gyorstárcsázás</string>
     <string name="path_remove_duplicate">Rendszeralkalmazások/Névjegyek/Névjegyek rendezése/Dupla névjegyek összekapcsolása</string>
     <string name="path_share_visible_contacts">Rendszeralkalmazások/Névjegyek/Importálás/Névjegyek exportálása/Névjegyek megosztása</string>
     <string name="path_sim_capacity">Rendszeralkalmazások/Névjegyek/SIM kártya tárhely</string>
-    <string name="path_simple_mode">Rendszeralkalmazások/Kapcsolatok/Fotók és információk kijelzése</string>
+    <string name="path_simple_mode">Rendszeralkalmazások/Névjegyek/Fényképek és adatok megjelenítése</string>
     <string name="path_smart_group_title">Rendszeralkalmazások/Névjegyek/Beállítások megjelenítése/Okos csoportok</string>
     <string name="path_wipe_data">Rendszeralkalmazások/Névjegyek/Névjegyek rendezése/Adatok törlése</string>
     <string name="payphone">Nyilvános telefon</string>
-    <string name="people">Kapcsolatok</string>
+    <string name="people">Névjegyek</string>
     <string name="percent_sign">%</string>
     <string name="percentage">%s%%</string>
     <string name="phoneLabelsGroup">Telefon</string>
@@ -869,6 +869,7 @@ Oka: \"%s\""</string>
     <string name="preference_contacts_display">Megjelenítési beállítások</string>
     <string name="preference_contacts_filter">Névjegyek megjelenítése</string>
     <string name="preference_contacts_more">Névjegyek rendszerezése</string>
+    <string name="preference_contacts_moresetting">Továbbiak</string>
     <string name="preference_dial_pad_touch_tone_default">Alapértelmezett</string>
     <string name="preference_dial_pad_touch_tone_human">Emberi hang</string>
     <string name="preference_dial_pad_touch_tone_piano">Zongora</string>
@@ -876,6 +877,7 @@ Oka: \"%s\""</string>
     <string name="preference_dial_pad_touch_tone_title">Tárcsázó hangok</string>
     <string name="preference_display">Megjelenítés</string>
     <string name="preference_displayOptions">Megjelenítési beállítások</string>
+    <string name="preference_display_contact">Display options</string>
     <string name="preference_export">Exportálás</string>
     <string name="preference_import">Importálás</string>
     <string name="preference_import_export">Importálás/Exportálás</string>
@@ -920,12 +922,12 @@ Oka: \"%s\""</string>
     <string name="pull_to_refresh_release_label">Engedje el a frissítéshez</string>
     <string name="qr_card_card">QR kód</string>
     <string name="qrcode_card_title">QR kód</string>
-    <string name="quick_dial_setting_delete_dialog_message">Delete assigned quick dial number?</string>
-    <string name="quick_dial_setting_delete_dialog_option_delete">Delete</string>
-    <string name="quick_dial_setting_hint">Tap a button to assign or remove a quick dial number. Press and hold the button with an assigned number to dial.</string>
-    <string name="quick_dial_setting_set_dialog_message">Assign a quick dial number to this button?</string>
-    <string name="quick_dial_setting_set_dialog_option_set">Yes</string>
-    <string name="quick_dial_setting_title">Quick dial</string>
+    <string name="quick_dial_setting_delete_dialog_message">Törli a hozzárendelt gyorstárcsázási telefonszámot?</string>
+    <string name="quick_dial_setting_delete_dialog_option_delete">Törlés</string>
+    <string name="quick_dial_setting_hint">Érintse meg a gombot gyorstárcsázási telefonszám hozzáadásához vagy törléséhez. Híváshoz tartson nyomva egy olyan gombot, amihez gyorstárcsázási telefonszámot rendelt hozzá.</string>
+    <string name="quick_dial_setting_set_dialog_message">Hozzárendeli a gyorstárcsázási telefonszámot ehhez a gombhoz?</string>
+    <string name="quick_dial_setting_set_dialog_option_set">Igen</string>
+    <string name="quick_dial_setting_title">Gyorstárcsázás</string>
     <string name="quickcontact_missing_app">Nincs megfelelő alkalmazás a művelet elvégzésére</string>
     <string name="quit_dialog_confirm_message">Nem kapcsolt össze még névjegyeket</string>
     <string name="quit_dialog_confirm_title">Még nem kapcsolta össze a névjegyeket, biztos kilép?</string>
@@ -983,18 +985,18 @@ Oka: \"%s\""</string>
     <string name="search_contacts_setting">Névjegybeállítások;Fotók és információk megjelenítése;Névjegy fotóhoz rendelése;Importálás és Exportálás;Megosztás;Importálás SD kártyáról;Importálás SIM kártyáról;Importálás másik telefonról;Exportálás SD kártyáról;Exportálás SIM kártyáról;Névjegy megosztása;Beállítások megjelenítése;Befejezetlen szám elrejtése;SIM névjegyek mutatása;névjegy listák beállítása;Okos csoportok;Névjegyek rendezése;Dupla névjegy összekapcsolása;Köteg törlése;Adatok törlése;Index adatok újraépítése;t9;SIM kártya tárhelye;Névjegy visszanyerés bemutatása;Névjegy profilképek</string>
     <string name="search_display_only_phones">Kapcsolatok;Kijelző</string>
     <string name="search_display_sim_contacts">Kapcsolatok;Kijelző</string>
-    <string name="search_export_to_sdcard">Kapcsolatok;Exportálás;Tároló</string>
+    <string name="search_export_to_sdcard">Névjegyek,Kapcsolatok;Exportálás;Tárhely</string>
     <string name="search_export_to_sim">Kapcsolatok;Exportálás;SIM kártya</string>
     <string name="search_import_export">Importálás;Exportálás;Megosztás</string>
     <string name="search_import_from_other_phone">Névjegyek;Importálás;másik telefon</string>
     <string name="search_import_from_sdcard">Névjegyek;Importálás;háttértár</string>
-    <string name="search_import_from_sim">Kapcsolatok;Importálás;SIM kártya</string>
+    <string name="search_import_from_sim">Névjegyek,Kapcsolatok;Importálás;SIM kártya</string>
     <string name="search_input_hint">Kereshet telefonszámokat vagy szolgáltatásokat</string>
     <string name="search_key_photo_word">Hozzárendelés;névjegy;fotó;Névjegy</string>
     <string name="search_key_rebuild_t9_index_title">Rendezés;Névjegyek;t9</string>
     <string name="search_key_sim_manage">Szervezet;Névjegyek</string>
     <string name="search_preference_contacts_filter">Kapcsolatok;Kijelző</string>
-    <string name="search_quick_dial_setting">Contacts</string>
+    <string name="search_quick_dial_setting">Telefon</string>
     <string name="search_remove_duplicate">Szervezet;Névjegyek</string>
     <string name="search_results_searching">Keresés...</string>
     <string name="search_settings_description">Ismerősök nevei</string>

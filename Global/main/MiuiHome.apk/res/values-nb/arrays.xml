@@ -9,55 +9,55 @@
         <item>4x5</item>
     </string-array>
     <string-array name="editing_mode_entries">
-        <item>Skift bakgrunnsbilde</item>
-        <item>Widgets</item>
-        <item>Generelle innstillinger</item>
+        <item>Bakgrunn</item>
+        <item>Widget</item>
+        <item>Innstillinger</item>
     </string-array>
     <string-array name="gadget_weather_image">
-        <item>Fjern</item>
-        <item>Cloudy</item>
-        <item>Hazy</item>
-        <item>Foggy</item>
-        <item>Severe rainstorm</item>
-        <item>Rainstorm</item>
-        <item>Very heavy rainfall</item>
-        <item>Thunderstorm</item>
-        <item>Shower</item>
-        <item>Heavy rainfall</item>
-        <item>Rain</item>
-        <item>Drizzle</item>
-        <item>Sleet</item>
-        <item>Snowstorm</item>
-        <item>Patches of snowfall</item>
-        <item>Heavy snowfall</item>
-        <item>Snowfall</item>
-        <item>Light snowfall</item>
-        <item>Strong sandstorm</item>
+        <item>Klart</item>
+        <item>Skyet</item>
+        <item>Disig</item>
+        <item>Tåke</item>
+        <item>Regnstorm</item>
+        <item>Regnvær</item>
+        <item>Tungt regnvær</item>
+        <item>Torden</item>
+        <item>Regn</item>
+        <item>Kraftig nedbør</item>
+        <item>Regn</item>
+        <item>Yr</item>
+        <item>Slaps</item>
+        <item>Snøstorm</item>
+        <item>Noe snøfall</item>
+        <item>Tungt snøfall</item>
+        <item>Snøfall</item>
+        <item>Lett snøfall</item>
+        <item>Kraftig sandstorm</item>
         <item>Sandstorm</item>
-        <item>Light sandstorm</item>
+        <item>Lett sandstorm</item>
         <item>Sandstorm</item>
-        <item>Hail</item>
-        <item>Floating Dust</item>
-        <item>Haze</item>
+        <item>Hagl</item>
+        <item>Flytende støv</item>
+        <item>Dis</item>
     </string-array>
     <string-array name="gadget_weather_theme_type_entries">
         <item>Standard</item>
-        <item>Classic</item>
+        <item>Klassisk</item>
     </string-array>
     <array name="region_prefix" />
     <string-array name="transformation_entries">
-        <item>Slide</item>
+        <item>Skyv</item>
         <item>Crossfade</item>
         <item>Tumble</item>
-        <item>Page</item>
-        <item>Cascade</item>
-        <item>Rotèr</item>
+        <item>Side</item>
+        <item>Kaskade</item>
+        <item>Roter</item>
         <item>Cube</item>
     </string-array>
     <string-array name="wallpaper_scroll_entries">
-        <item>Theme default</item>
-        <item>Center</item>
-        <item>Left</item>
-        <item>Right</item>
+        <item>Standard tema</item>
+        <item>Midt</item>
+        <item>Venstre</item>
+        <item>Høyre</item>
     </string-array>
 </resources>

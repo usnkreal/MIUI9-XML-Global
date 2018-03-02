@@ -45,7 +45,7 @@
     <string name="advanced_settings">Ustawienia opcjonalne</string>
     <string name="auth_username_title">Nazwa do uwierzytelniania</string>
     <string name="auth_username_summary">Nazwa użytkownika używana do uwierzytelniania</string>
-    <string name="default_preference_summary">Nie ustawione</string>
+    <string name="default_preference_summary">&lt;Nie ustawiono></string>
     <string name="display_name_summary">Takie jak nazwa użytk.</string>
     <string name="optional_summary">Opcjonalny</string>
     <string name="advanced_settings_show">▷ Stuknij, by pokazać wszystko</string>
@@ -1136,6 +1136,7 @@ Funkcje związane z kodem PIN2 zostaną zablokowane po ponownej nieudanej próbi
     <string name="cmcc_ut_data_enable_prompt">Nie można połączyć się z siecią z wykorzystaniem VoLTE. Włącz dane mobilne.</string>
     <string name="volte_switch_title">VoLTE</string>
     <string name="volte_switch_summary">Użyj VoLTE (Voice over LTE) do polepszenia jakości głosu i wideo podczas rozmowy</string>
+    <string name="volte_switch_summary2">Confirm that your carrier supports this feature before turning on. Otherwise, regular calls might be affected.</string>
     <string name="volte_switch_not_support_summary">Połączenia VoLTE nie są obsługiwane przez dane mobilne karty SIM.</string>
     <string name="volte_switch_not_support_summary2">Połączenia VoLTE nie są obsługiwane przez operatora.</string>
     <string name="enable_dual_4g_prompt_when_turn_on_volte">VoLTE wymaga połączenia 4G dla obu slotów SIM. Przełączyć na Dual 4G teraz?</string>
@@ -1143,6 +1144,9 @@ Funkcje związane z kodem PIN2 zostaną zablokowane po ponownej nieudanej próbi
     <string name="dual_4g_switch_summary">Zezwól na połączenie 4G dla obu slotów SIM.</string>
     <string name="turn_on_dual_4g_failed">Nie udało się włączyć Dual 4G.</string>
     <string name="turn_off_dual_4g_failed">Nie udało się wyłączyć Dual 4G.</string>
+    <string name="vice_slot_volte_data_switch_title">Używanie danych mobilnych podczas połączeń VoLTE dla drugiej karty SIM</string>
+    <string name="vice_slot_volte_data_switch_summary">Podczas połączeń VoLTE, urządzenie wykorzysta dane mobilne korzystając z drugiej karty SIM</string>
+    <string name="vice_slot_volte_data_switch_prompt">Twoje urządzenie wykorzysta dane mobilne z drugiej karty SIM podczas połączeń VoLTE. Może to wygenerować dodatkowe koszty. Skontaktuj się z lokalnym operatorem, aby poznać szczegóły.</string>
     <string name="roaming_notification_title">Wygląda na to, że roaming jest włączony</string>
     <string name="roaming_notification_content">Możesz dodać kod kraju automatycznie, aby dzwonienie było wygodniejsze.</string>
     <string name="cdma_alert_title">Karta UIM musi być domyślna</string>
@@ -1197,6 +1201,18 @@ Funkcje związane z kodem PIN2 zostaną zablokowane po ponownej nieudanej próbi
     <string name="miui_notification_network_selection_title_by_sim">SIM %s: Brak usługi</string>
     <string name="miui_network_selection_reset_text">Resetuj</string>
     <string name="quick_dial_setting_title">Szybkie wybieranie</string>
+    <string name="cfnry_time_five_sec">5 sek</string>
+    <string name="cfnry_time_ten_sec">10 sek</string>
+    <string name="cfnry_time_fifteen_sec">15 sek</string>
+    <string name="cfnry_time_twenty_sec">20 sek</string>
+    <string name="cfnry_time_twenty_five_sec">25 sek</string>
+    <string name="cfnry_time_thirty_sec">30 sek</string>
+    <string name="cfnry_time_setting_title">Ustaw czas oczekiwania</string>
+    <string name="prompt_when_turnon_volte_without_lte">"LTE networks aren't available now. Turning on VoLTE may prevent you from making regular calls."</string>
+    <string name="prompt_to_turnoff_volte_when_failed">"VoLTE services aren't available. Turn off VoLTE to make a call."</string>
+    <string name="volte_tips_when_turn_on">China Telecom VoLTE services are only provided in the areas with LTE network coverage.</string>
+    <string name="close">Zamknij</string>
+    <string name="prompt_to_turnoff_volte_when_supp_service">"Service isn't available. Turn off VoLTE in the Settings."</string>
     <string name="network_forbidden">%s (zakazane)</string>
     <string name="voice_number_setting_primary_user_only">Poczta głosowa może być zmieniana tylko przez podstawowego użytkownika.</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_ENTRY">Kod PIN do karty SIM odblokowujący sieć</string>
@@ -1339,7 +1355,6 @@ Pozostało prób: %d."</string>
     <string name="china_mobile">China Mobile</string>
     <string name="china_telecom">China Telecom</string>
     <string name="china_unicom">China Unicom</string>
-    <string name="close">Zamknij</string>
     <string name="default_sim_setting">Domyślna karta SIM:</string>
     <string name="disconnect_data_confirm">Usługa danych zostanie tymczasowo rozłączona. Czy jesteś pewny?</string>
     <string name="fdn_service_unavailable">Usługa ustalonych numerów nie jest dostępna.</string>

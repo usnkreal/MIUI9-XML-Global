@@ -302,6 +302,15 @@ Použijte jiný účet."</string>
     <string name="micloud_detail_pause">Synchr. pozastavena</string>
     <string name="micloud_detail_need_charge_or_sleep">Pro synchronizaci připojte nabíječku a vypněte displej</string>
     <string name="micloud_detail_battery_low">Baterie je slabá</string>
+    <string name="micloud_privacy_cloud_off">Synchr. vypnuta</string>
+    <string name="micloud_privacy_licence_agreed">Agree with Mi Cloud privacy policy.</string>
+    <string name="micloud_privacy_licence_privacy_policy">privacy policy</string>
+    <string name="micloud_privacy_explanation">Active Mi Cloud after enabling the authorization</string>
+    <string name="micloud_privacy_cloud_sync">Active Mi Cloud</string>
+    <string name="micloud_privacy_warning_title">Nápověda</string>
+    <string name="micloud_privacy_warning_content">"Can't active Mi Cloud. Try it later."</string>
+    <string name="micloud_privacy_warning_button">Zpět</string>
+    <string name="micloud_privacy_more">more</string>
     <string name="micloud_check_sim_title">"Zdá se, že jste změnili SIM kartu. Přihlaste se
 do vašeho Xiaomi účtu pro opětovnou aktivaci Mi Cloudu."</string>
     <string name="micloud_check_sim_notify_title">Znovu aktivovat Mi Cloud</string>
@@ -322,7 +331,7 @@ do vašeho Xiaomi účtu pro opětovnou aktivaci Mi Cloudu."</string>
     <string name="get_first_month_gb">Získejte %s prostoru</string>
     <string name="more_activity_in_upgrade_space">Více na <a href="http://i.mi.com">http://i.mi.com</a></string>
     <string name="success_upgraded_space">%s přidáno</string>
-    <string name="total_space_upgraded_to">Celkem: %s</string>
+    <string name="total_space_upgraded_to">Místo celkem: %s</string>
     <string name="apple_cloud">iCloud</string>
     <string name="google_cloud">Google Drive</string>
     <string name="microsoft_cloud">Microsoft Cloud</string>
@@ -462,6 +471,8 @@ Pro získání více místa v úložišti navštivte mi.com/micloud."</string>
     <string name="micloud_notif_content_multi_user_error">Přihlásili jste se pomocí stejného účtu jako do Prvního prostoru.</string>
     <string name="micloud_notif_title_dirty_data">Některé položky nebyly synchronizovány</string>
     <string name="micloud_notif_content_dirty_data">Podrobnosti</string>
+    <string name="micloud_notif_title_privacy_reopen_failed">"Couldn't start cloud service"</string>
+    <string name="micloud_notif_content_privacy_reopen_failed">Zobrazit podrobnosti</string>
     <string name="micloud_find_device_guide_title">Přihlaste se na &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font> pro určení polohy, vymazání nebo uzamčení vašeho zařízení. Tato funkce vám pomůže např. při ztrátě telefonu.&lt;br />Pokud vaše zařízení ztratíte, můžete jednoduše kontaktovat bezpečnostní službu aplikací, které často využíváte (např., Alipay, WeChat, QQ) a ochránit tak své účty na &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font>.</string>
     <string name="micloud_find_device_guide_content">Pro aktivování této služby je vyžadováno odeslání SMS zprávy. Tato zpráva bude zpoplatněna dle tarifu vašeho operátora. Při změně SIM karty bude tato zpráva automaticky odeslána znovu pro opětovnou aktivaci služby.</string>
     <string name="micloud_find_device_guide_button">Povolit vyhledávání zařízení</string>
@@ -500,6 +511,8 @@ Pro získání více místa v úložišti navštivte mi.com/micloud."</string>
     <string name="micloud_find_device_close_alert_content">Pokud tuto funkci vypnete, nebudete moci vaše zařízení lokalizovat v případě, že jej ztratíte.</string>
     <string name="micloud_find_device_close_alert_positive">Ponechat</string>
     <string name="micloud_find_device_close_alert_negtive">Přesto vypnout</string>
+    <string name="find_device_gdpr_prompt">Zapnutím funkce Najít zařízení souhlasíte s našimi \"Zásadami ochrany osobních údajů\". Pro zrušení vašeho souhlasu, vypněte tuto funkci.</string>
+    <string name="find_device_gdpr_prompt_policy_doc_name">\"Ochrana osobních údajů\"</string>
     <string name="activate_finddevice">Pro aktivaci zařízení se připojte k síti</string>
     <string name="account_related">Toto zařízení je propojeno s již existujícím Xiaomi účtem (%s). Připojte se k síti pro ověření zařízení.</string>
     <string name="connect_network">Připojte se k síti Wi-Fi nebo vložte SIM kartu</string>
@@ -551,6 +564,7 @@ Pro získání více místa v úložišti navštivte mi.com/micloud."</string>
     <string name="micloud_main_head_menu_state_open">Zapnuto</string>
     <string name="micloud_main_head_menu_state_close">Vypnuto</string>
     <string name="micloud_main_head_menu_state_unavailable">Nedostupné</string>
+    <string name="micloud_main_head_menu_finddevice_unavailable">Funkce Najít zařízení je v Druhém prostoru nedostupná. Pro její využití přejděte do Prvního prostoru.</string>
     <string name="micloud_footer_normal_url">i.mi.com</string>
     <string name="micloud_footer_international_url">mi.com/micloud</string>
     <string name="ks_fingerprint_payment">Platby pomocí otisku prstu</string>
@@ -574,6 +588,8 @@ Pro získání více místa v úložišti navštivte mi.com/micloud."</string>
     <string name="title_back">Zpět</string>
     <string name="reading_status">Načítání stavu…</string>
     <string name="reading_status_failure">Stav nelze načíst.</string>
+    <string name="micloud_alert_dialog_negative">Zrušit</string>
+    <string name="micloud_alert_dialog_positive">OK</string>
     <string name="micloud_title_dspt" formatted="false">Využito %s / Celkem %s,</string>
     <string name="micloud_main_memory_low_title">Vnitřní úložiště telefonu je téměř plné</string>
     <string name="micloud_notif_title_memory_low">Nelze synchronizovat s Mi Cloudem</string>

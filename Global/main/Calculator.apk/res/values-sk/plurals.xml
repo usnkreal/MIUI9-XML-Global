@@ -2,7 +2,8 @@
 <resources>
     <plurals name="mortgage_summary_years">
         <item quantity="other">%1$d rokov (%2$d mesiacov)</item>
-        <item quantity="one">%1$d rok (%2$d mesiacov)</item>
-        <item quantity="few">%1$d rokov (%2$d mesiacov)</item>
+        <item quantity="one">%1$d rok (%2$d mesiac)</item>
+        <item quantity="few">%1$d rokov (%2$d mesiace)</item>
+        <item quantity="many">%1$d years (%2$d months)</item>
     </plurals>
 </resources>

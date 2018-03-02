@@ -77,6 +77,9 @@
     <string name="content_desc_activity_main_add_city">Város hozzáadása</string>
     <string name="content_desc_activity_main_add_city_manage">Városok kezelése</string>
     <string name="content_desc_activity_main_more_settings">További beállítások</string>
+    <string name="content_desc_back_button">Vissza</string>
+    <string name="content_desc_close_button">Bezárás</string>
+    <string name="content_desc_edit_city_manage">Városok kezelése</string>
     <string name="daily_forcast_drawer_on_bottom">Elrejtés</string>
     <string name="daily_forcast_no_stable_direction">Szellő</string>
     <string name="daily_forcast_no_wind">0</string>
@@ -148,7 +151,9 @@ Húzza lefelé a frissítéshez, vagy ellenőrize a hálózati beállításokat"
     <string name="lunar_calendar" />
     <string name="menu_add_city">Hely szerkesztése</string>
     <string name="menu_location">Helyszínek</string>
+    <string name="menu_speaker">Hangsugárzás</string>
     <string name="mi_pad2">latte</string>
+    <string name="minute_rain">Percenkénti előrejelzés</string>
     <string name="minute_rain_after_an_hour">Egy óra múlva</string>
     <string name="minute_rain_after_two_hour">Két óra múlva</string>
     <string name="minute_rain_feedback_subtitle">Közölje velünk, milyen az idő.</string>
@@ -160,6 +165,7 @@ Húzza lefelé a frissítéshez, vagy ellenőrize a hálózati beállításokat"
     <string name="minute_rain_progress_indicator_original_time">- -</string>
     <string name="minute_rain_pull_down_refresh">Húzza le a frissítéshez</string>
     <string name="minute_rain_refreshing_now">Frissítés…</string>
+    <string name="missing_required_permission">Ön letiltott egy szükséges engedélyt.</string>
     <string name="more_details">További részletek</string>
     <string name="network_not_available">Nem sikerült kapcsolódni a hálózathoz</string>
     <string name="network_unavailable">Nincs hálózat</string>
@@ -175,15 +181,15 @@ Húzza lefelé a frissítéshez, vagy ellenőrize a hálózati beállításokat"
     <string name="particulate_matter_exceeded">Magas</string>
     <string name="particulate_matter_not_exceeded">Normális</string>
     <string name="particulate_matter_serious_exceeded">Túl magas</string>
-    <string name="precipitation_degree_five">暴</string>
-    <string name="precipitation_degree_four">大</string>
-    <string name="precipitation_degree_one">无</string>
-    <string name="precipitation_degree_three">中</string>
-    <string name="precipitation_degree_two">小</string>
+    <string name="precipitation_degree_five">Kiadós</string>
+    <string name="precipitation_degree_four">Erős</string>
+    <string name="precipitation_degree_one">Nincs</string>
+    <string name="precipitation_degree_three">Közepes</string>
+    <string name="precipitation_degree_two">Enyhe</string>
     <string name="pressure_connect">%1$s hPa</string>
     <string name="pull_fresh_updated">Sikeresen frissítve</string>
     <string name="pull_fresh_updating">Frissítés…</string>
-    <string name="radar_cloud_image_title">雷达降水图</string>
+    <string name="radar_cloud_image_title">Radartérkép</string>
     <string name="rainfall_settings_summary">Csapadék riasztások</string>
     <string name="rainfall_settings_title">Csapadék</string>
     <string name="real_time_sunrise">Napkelte %1$s</string>
@@ -195,6 +201,8 @@ Húzza lefelé a frissítéshez, vagy ellenőrize a hálózati beállításokat"
     <string name="refresh_fail">Nem sikerült csatlakozni a hálózathoz</string>
     <string name="reminder_from_xiaomi_weather_app">Mi Időjárás riasztások</string>
     <string name="retry">Újrapróbálkozás</string>
+    <string name="search_weather">Időjárás</string>
+    <string name="search_weather_keywords">Hőmérséklet;Időjárás-előrejelzés;Időjárás;Levegőminőség;Szennyezettség;Páratartalom</string>
     <string name="set">Beállítások</string>
     <string name="set_degree_centigrade">°C</string>
     <string name="set_fahrenheit">°F</string>
@@ -260,11 +268,4 @@ Húzza lefelé a frissítéshez, vagy ellenőrize a hálózati beállításokat"
     <string name="xiaomi_weather_description_title">Az Időjárásról</string>
     <string name="yes_vote_ratio">Vele: %1$s%%</string>
     <string name="your_location">Saját hely</string>
-    <string name="information_manager_default_weather_bg">Időjárás alapértelmezett háttere</string>
-    <string name="information_manager_information">Időjárás-információ</string>
-    <string name="information_manager_wlan">Wi-Fi csatlakozás esetén mutassa</string>
-    <string name="information_menu_title" />
-    <string name="information_set">Egyéb beállítások</string>
-    <string name="menu_minute_rain">Két órás csapadék-előrejelzés</string>
-    <string name="menu_speeker">Hangműsor</string>
 </resources>

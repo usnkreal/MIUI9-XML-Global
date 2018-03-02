@@ -42,6 +42,9 @@
     <plurals name="dirty_blocklist_count">
         <item quantity="other">%d개 차단 목록</item>
     </plurals>
+    <plurals name="dirty_personalAssistant_count">
+        <item quantity="other">%d개 앱 금고에 보관</item>
+    </plurals>
     <plurals name="dirty_secretphoto_count">
         <item quantity="other">%d개 숨겨진 사진이 동기화되지 않았습니다. 모든 항목이 동기화된 후 로그아웃하십시오; 그렇지 않을 경우 항목이 삭제될 것입니다.</item>
     </plurals>

@@ -86,7 +86,7 @@
     <string name="t_check_delete_file">Vyberte položky, ktoré chcete odstrániť</string>
     <string name="t_check_delete_history">Vyberte záznamy, ktoré chcete vymazať</string>
     <string name="t_check_hide_file">Vyberte videá, ktoré chcete skryť</string>
-    <string name="t_check_send_file">Vyberte položku, ktorú chcete odoslať</string>
+    <string name="t_check_send_file">Vyberte jednu položku na odoslanie</string>
     <string name="t_deleting">Prebieha odstraňovanie…</string>
     <string name="t_downloading_new_version">Prebieha aktualizácia…</string>
     <string name="t_exit_app">Ukončíte opätovným klepnutím</string>
@@ -149,7 +149,7 @@
     <string name="v_video_null">Žiadne videá</string>
     <string name="vp_app_name">Video prehrávač</string>
     <string name="vp_device_list">Zariadenia</string>
-    <string name="vp_device_list_seaching">&lt;Žiadne zariadenie na prehrávanie></string>
+    <string name="vp_device_list_seaching">Žiadne zariadenie na prehrávanie</string>
     <string name="screenrecord_cancel">Problémy s kompatibilitou</string>
     <string name="screenrecord_nosupport_record">Nahrávanie obrazovky nie je momentálne na tomto zariadení podporované.</string>
 </resources>

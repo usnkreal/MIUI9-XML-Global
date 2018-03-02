@@ -5,6 +5,12 @@
     <string name="unlockscreen_recharge_completed">Batéria nabitá</string>
     <string name="unlockscreen_low_battery">Pripojte nabíjačku</string>
     <string name="lockscreen_charging_msg">Nabíjanie</string>
+    <string name="reset_device_tip">Pomalé nabíjanie, prosím zmeňte polohu telefónu</string>
+    <string name="reset_device_detail_tip">Bezdrôtové nabíjanie. Pre rýchle nabíjanie sa uistite, že základňa telefónu je zarovnaná.</string>
+    <string name="wireless_charge_stop">Bezdrôtové nabíjanie bolo zastavené</string>
+    <string name="change_to_ac_charging">Prepnuté na bezdrôtové nabíjanie</string>
+    <string name="wireless_charge_dialog_title">Pozícia mimo správny priestor, zmeňte pozíciu</string>
+    <string name="wireless_charge_dialog_cancel">Zrušiť</string>
     <string name="emergency_call_string">SOS</string>
     <string name="forget_password_string">Zabudol som heslo</string>
     <string name="input_puk_code">Zadajte PUK</string>
@@ -39,7 +45,7 @@
     <string name="invalid_confirm_pin_hint">PIN kód nesúhlasí</string>
     <string name="unlock_string">OK</string>
     <string name="open_camera_hint_text">Potiahnite doľava pre Fotoaparát</string>
-    <string name="open_remote_center_hint_text">Potiahnite vpravo pre otvorenie Mi diaľkového ovládania</string>
+    <string name="open_remote_center_hint_text">Potiahnite doprava pre otvorenie Mi Ovládača</string>
     <string name="click_to_enter_text">Dotykom otvoríte</string>
     <string name="fingerprint_try_again_text">Znova</string>
     <string name="fingerprint_try_again_msg">Nebolo možné rozpoznať odtlačok, skúste to znova.</string>
@@ -63,13 +69,10 @@
     <string name="lock_wallpaper_enter">Otvoriť</string>
     <string name="custom_lock_wallpaper_enter">Otvoriť</string>
     <string name="fingerprint_enter_second_psw_title">Zadajte heslo Druhého profilu</string>
-    <string name="fingerprint_enter_second_psw_msg">Zadajte heslo Druhého profilu po reštarte aby ste mohli použiť váš odtlačok prsta</string>
+    <string name="fingerprint_enter_second_psw_msg">Pre používanie odtlačkov prstov zadajte v Druhom priestore heslo</string>
     <string name="fingerprint_enter_second_psw_msg_oldman">V zjednodušenom režime nemôžete zadať druhý priestor</string>
     <string name="keyguard_charging_info_click_to_detail">Podrobnosti</string>
     <string name="keyguard_quick_charging_info_click_to_detail">Zobraziť podrobnosti</string>
-    <string name="keyguard_quickly_charging_info_charging_text">Rýchlonabíjanie</string>
-    <string name="keyguard_charging_info_finished_charging_text">Nabité</string>
-    <string name="keyguard_charging_info_charging_text">Nabíjanie</string>
     <string name="keyguard_charging_info_last_charge_today_time">Dnes %s</string>
     <string name="keyguard_charging_info_last_charge_yesterday_time">Včera %s</string>
     <string name="keyguard_charging_info_last_charge_time">d.M. H:mm</string>
@@ -87,7 +90,7 @@
     <string name="keyguard_charging_info_data_c">%s℃</string>
     <string name="keyguard_charging_info_data_percent">%s%%</string>
     <string name="keyguard_left_smarthome">Mi Home</string>
-    <string name="keyguard_left_remotecentral">Mi Remote</string>
+    <string name="keyguard_left_remotecentral">Mi Ovládač</string>
     <string name="keyguard_left_bankcard">Mi Pay</string>
     <string name="keyguard_left_buscard">Prepravná karta</string>
     <string name="face_data_input_title">Pridať tvár</string>

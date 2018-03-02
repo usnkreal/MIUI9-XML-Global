@@ -89,7 +89,7 @@
     <string name="enable">Zapnout</string>
     <string name="disable">Nezapínat</string>
     <string name="mobile_download_title">Aktualizovat pomocí mobilních dat?</string>
-    <string name="mobile_download_msg">Pokud máte nastaven datový plán s neomezeným množstvím dat, můžete zapnout automatické stahování aktualizací pomocí mobilních dat. Po zapnutí této funkce, budou aktualizace staženy v nastaveném čase.</string>
+    <string name="mobile_download_msg">Pokud máte nastaven datový plán s neomezeným množstvím dat, můžete aktualizace stahovat automaticky pomocí mobilních dat. Po zapnutí této funkce, budou aktualizace staženy v nastaveném čase.</string>
     <string name="recovery_failed_title">Použijte Mi PC Suite pro aktualizaci vašeho systému</string>
     <string name="recovery_power_not_enough_title">Slabá baterie</string>
     <string name="recovery_power_not_enough_msg">Pro aktualizaci nabijte vaše zařízení alespoň na 15 %.</string>
@@ -320,4 +320,5 @@ Váš názor se nepodařilo odeslat"</string>
     <string name="security_space_msg">MIUI 9 má nový systémový soubor. Pokud restartujete zařízení nyní, nebudete již moci využít Druhý prostor. Před restartováním proto přesuňte všechny položky z Druhého prostoru do Prvního.</string>
     <string name="security_space_button_pos">Nerestartovat</string>
     <string name="security_space_button_neg">Restartovat nyní</string>
+    <string name="privacy_revoke_msg">Díky aplikaci Aktualizace je váš MIUI systém a jeho aplikace vždy aktuální. Po odebrání oprávnění aplikace přestane shromažďovat údaje a všechna s ní spojená data (včetně informací o zařízeních, která vyžadují aktualizace) budou z tohoto zařízení a MIUI serverů smazána. Odmítnutím aktualizovat vaše zařízení jej můžete vystavit bezpečnostnímu riziku. Chcete oprávnění přesto odebrat?</string>
 </resources>

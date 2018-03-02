@@ -77,6 +77,9 @@
     <string name="content_desc_activity_main_add_city">도시 추가</string>
     <string name="content_desc_activity_main_add_city_manage">도시 관리</string>
     <string name="content_desc_activity_main_more_settings">기타 설정</string>
+    <string name="content_desc_back_button">Back</string>
+    <string name="content_desc_close_button">Close</string>
+    <string name="content_desc_edit_city_manage">Manage cities</string>
     <string name="daily_forcast_drawer_on_bottom">숨기기</string>
     <string name="daily_forcast_no_stable_direction">미풍</string>
     <string name="daily_forcast_no_wind">0</string>
@@ -148,7 +151,9 @@
     <string name="lunar_calendar" />
     <string name="menu_add_city">위치 편집</string>
     <string name="menu_location">위치</string>
+    <string name="menu_speaker">Voice broadcast</string>
     <string name="mi_pad2">latte</string>
+    <string name="minute_rain">Minutely forecast</string>
     <string name="minute_rain_after_an_hour">1시간 후</string>
     <string name="minute_rain_after_two_hour">2시간 후</string>
     <string name="minute_rain_feedback_subtitle">날씨가 어떤지 알려주십시오</string>
@@ -160,6 +165,7 @@
     <string name="minute_rain_progress_indicator_original_time">- -</string>
     <string name="minute_rain_pull_down_refresh">아래로 당겨 새로고침</string>
     <string name="minute_rain_refreshing_now">새로고침 중…</string>
+    <string name="missing_required_permission">You have disabled a required permission.</string>
     <string name="more_details">더 자세한 정보</string>
     <string name="network_not_available">네크워크에 연결할 수 없습니다.</string>
     <string name="network_unavailable">네트워크에 연결할 수 없습니다.</string>
@@ -175,15 +181,15 @@
     <string name="particulate_matter_exceeded">높음</string>
     <string name="particulate_matter_not_exceeded">보통</string>
     <string name="particulate_matter_serious_exceeded">아주 높음</string>
-    <string name="precipitation_degree_five">暴</string>
-    <string name="precipitation_degree_four">大</string>
-    <string name="precipitation_degree_one">无</string>
-    <string name="precipitation_degree_three">中</string>
-    <string name="precipitation_degree_two">小</string>
+    <string name="precipitation_degree_five">태풍</string>
+    <string name="precipitation_degree_four">강한 비</string>
+    <string name="precipitation_degree_one">없음</string>
+    <string name="precipitation_degree_three">보통</string>
+    <string name="precipitation_degree_two">약한 비</string>
     <string name="pressure_connect">%1$s mb</string>
     <string name="pull_fresh_updated">업데이트 성공</string>
     <string name="pull_fresh_updating">업데이트 중…</string>
-    <string name="radar_cloud_image_title">雷达降水图</string>
+    <string name="radar_cloud_image_title">레이더 지도</string>
     <string name="rainfall_settings_summary">강우 경고</string>
     <string name="rainfall_settings_title">강우</string>
     <string name="real_time_sunrise">일출 %1$s</string>
@@ -195,6 +201,8 @@
     <string name="refresh_fail">네트워크에 연결할 수 없음</string>
     <string name="reminder_from_xiaomi_weather_app">Mi 일기예보</string>
     <string name="retry">다시 시도</string>
+    <string name="search_weather">날씨</string>
+    <string name="search_weather_keywords">온도;일기예보;날씨;대기 질;오염 정도;습도</string>
     <string name="set">설정</string>
     <string name="set_degree_centigrade">°C</string>
     <string name="set_fahrenheit">°F</string>
@@ -260,11 +268,4 @@
     <string name="xiaomi_weather_description_title">날씨 정보</string>
     <string name="yes_vote_ratio">%1$s%%</string>
     <string name="your_location">당신의 위치</string>
-    <string name="information_manager_default_weather_bg">기본 백그라운드 날씨</string>
-    <string name="information_manager_information">날씨 정보</string>
-    <string name="information_manager_wlan">Wi-Fi에 연결되었을 때 표시</string>
-    <string name="information_menu_title" />
-    <string name="information_set">기타 설정</string>
-    <string name="menu_minute_rain">2시간 일기예보</string>
-    <string name="menu_speeker">음성 방송</string>
 </resources>

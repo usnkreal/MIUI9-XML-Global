@@ -4,16 +4,19 @@
         <item quantity="other">%d aplikacji nie może pokazywać powiadomień</item>
         <item quantity="one">%d aplikacja nie może pokazywać powiadomień</item>
         <item quantity="few">%d aplikacje nie mogą pokazywać powiadomień</item>
+        <item quantity="many">%d aplikacji nie może pokazywać powiadomień</item>
     </plurals>
     <plurals name="status_bar_settings_enabled_header_title">
         <item quantity="other">%d aplikacji może pokazywać powiadomienia</item>
         <item quantity="one">%d aplikacja może pokazywać powiadomienia</item>
         <item quantity="few">%d aplikacje mogą pokazywać powiadomienia</item>
+        <item quantity="many">%d aplikacji może pokazywać powiadomienia</item>
     </plurals>
     <plurals name="settings_toggle_position_divider_page">
         <item quantity="other">%1$d przełączników pojawi się w obszarze powiadomień</item>
         <item quantity="one">%1$d przełącznik pojawi się w obszarze powiadomień</item>
         <item quantity="few">%1$d przełączniki pojawią się w obszarze powiadomień</item>
+        <item quantity="many">%1$d przełączników pojawi się w obszarze powiadomień</item>
     </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">Od zostania programistą dzieli Cię już tylko %1$d kroku.</item>
@@ -127,80 +130,96 @@
         <item quantity="other">Znaleziono %d zagrożeń</item>
         <item quantity="one">Znaleziono %d zagrożenie</item>
         <item quantity="few">Znaleziono %d zagrożenia</item>
+        <item quantity="many">Znaleziono %d zagrożeń</item>
     </plurals>
     <plurals name="auto_startup_count">
         <item quantity="other">%d aplikacji ma zezwolenie na autostart</item>
         <item quantity="one">%d aplikacja ma zezwolenie na autostart</item>
         <item quantity="few">%d aplikacje mają zezwolenie na autostart</item>
+        <item quantity="many">%d aplikacje mają zezwolenie na autostart</item>
     </plurals>
     <plurals name="lockpassword_pin_fixed_length">
         <item quantity="other">PIN musi składać się z %d cyfr</item>
         <item quantity="one">PIN musi składać się z %d cyfry</item>
         <item quantity="few">PIN musi składać się z %d cyfr</item>
+        <item quantity="many">PIN musi składać się z %d cyfr</item>
     </plurals>
     <plurals name="wifi_share_count">
         <item quantity="other">Masz %d udostępnionych sieci</item>
         <item quantity="one">Masz %d udostępnioną sieć</item>
         <item quantity="few">Masz %d udostępnione sieci</item>
+        <item quantity="many">Masz %d udostępnionych sieci</item>
     </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d urządzeń</item>
         <item quantity="one">%d urządzenie</item>
         <item quantity="few">%d urządzenia</item>
+        <item quantity="many">%d urządzeń</item>
     </plurals>
     <plurals name="free_wifi_connected_count">
         <item quantity="other">%1$d osób podłączonych</item>
         <item quantity="one">%1$d osoba podłączona</item>
         <item quantity="few">%1$d osoby podłączone</item>
+        <item quantity="many">%1$d osób podłączonych</item>
     </plurals>
     <plurals name="show_pho_countdown">
         <item quantity="other">Jesteś %1$d kroków od wprowadzenia informacji o telefonie.</item>
         <item quantity="one">Jesteś %1$d krok od wprowadzenia informacji o telefonie.</item>
         <item quantity="few">Jesteś %1$d kroki od wprowadzenia informacji o telefonie.</item>
+        <item quantity="many">Jesteś %1$d kroków od wprowadzenia informacji o telefonie.</item>
     </plurals>
     <plurals name="show_cit_countdown">
         <item quantity="other">Przejdź do Diagnostyki po %1$d naciśnięciach.</item>
         <item quantity="one">Przejdź do Diagnostyki po %1$d naciśnięciu.</item>
         <item quantity="few">Przejdź do Diagnostyki po %1$d naciśnięciach.</item>
+        <item quantity="many">Przejdź do Diagnostyki po %1$d naciśnięciach.</item>
     </plurals>
     <plurals name="show_rep_countdown">
         <item quantity="other">Rozpocznij generowanie raportu po %1$d naciśnięciach</item>
         <item quantity="one">Rozpocznij generowanie raportu po %1$d naciśnięciu</item>
         <item quantity="few">Rozpocznij generowanie raportu po %1$d naciśnięciach</item>
+        <item quantity="many">Rozpocznij generowanie raportu po %1$d naciśnięciach.</item>
     </plurals>
     <plurals name="auto_disable_screenbuttons_enabled_header_title">
         <item quantity="other">Wyłącz dla %d aplikacji</item>
         <item quantity="one">Wyłącz dla 1 aplikacji</item>
         <item quantity="few">Wyłącz dla %d aplikacji</item>
+        <item quantity="many">Wyłącz dla %d aplikacji</item>
     </plurals>
     <plurals name="auto_disable_screenbuttons_disabled_header_title">
         <item quantity="other">Nie wyłączaj dla %d aplikacji</item>
         <item quantity="one">Nie wyłączaj dla 1 aplikacji</item>
         <item quantity="few">Nie wyłączaj dla %d aplikacji</item>
+        <item quantity="many">Nie wyłączaj dla %d aplikacji</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short">
         <item quantity="other">PIN musi składać się z %d cyfr</item>
         <item quantity="one">PIN musi składać się z %d cyfry</item>
         <item quantity="few">PIN musi składać się z %d cyfr</item>
+        <item quantity="many">PIN musi składać się z %d cyfr</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long">
         <item quantity="other">PIN musi mieć mniej niż %d cyfr</item>
         <item quantity="one">PIN musi mieć mniej niż %d cyfrę</item>
         <item quantity="few">PIN musi mieć mniej niż %d cyfry</item>
+        <item quantity="many">PIN musi mieć mniej niż %d cyfr</item>
     </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
         <item quantity="other">Połącz co najmniej %d kropek. Spróbuj ponownie.</item>
         <item quantity="one">Połącz co najmniej %d kropkę. Spróbuj ponownie.</item>
         <item quantity="few">Połącz co najmniej %d kropki. Spróbuj ponownie.</item>
+        <item quantity="many">Połącz co najmniej %d kropek. Spróbuj ponownie.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts">
         <item quantity="other">Zbyt wiele nieudanych prób. Spróbuj ponownie za %d sekund.</item>
         <item quantity="one">Zbyt wiele nieudanych prób. Spróbuj ponownie za %d sekundę.</item>
         <item quantity="few">Zbyt wiele nieudanych prób. Spróbuj ponownie za %d sekundy.</item>
+        <item quantity="many">Zbyt wiele nieudanych prób. Spróbuj ponownie za %d sekund.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
         <item quantity="other">Odczekaj %d sekund i spróbuj ponownie.</item>
         <item quantity="one">Odczekaj %d sekundę i spróbuj ponownie.</item>
         <item quantity="few">Odczekaj %d sekundy i spróbuj ponownie.</item>
+        <item quantity="many">Odczekaj %d sekund i spróbuj ponownie.</item>
     </plurals>
 </resources>

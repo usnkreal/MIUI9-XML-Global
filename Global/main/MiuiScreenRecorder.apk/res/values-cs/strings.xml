@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Nahrávání obrazovky</string>
-    <string name="app_notification_info">Screen Recorder is working in the background</string>
+    <string name="app_notification_info">Nahrávání obrazovky běží na pozadí</string>
     <string name="app_notification_title">Nahrávání obrazovky</string>
     <string name="auto_stop_title">Video úspěšně uloženo</string>
     <string name="battery_not_allowed" formatted="false">Nelze nahrávat, pokud má baterie méně než 3%. Ujistěte se, že je baterie nabita alespoň na 20%.</string>
@@ -18,7 +18,7 @@
     <string name="date_day" />
     <string name="date_month">/</string>
     <string name="date_year">/</string>
-    <string name="description_content">Nahrávání obrazovky umožňuje zaznamenávání obrazu na úrovni systému. Touto akcí odstraníte funkci nahrávání obrazovky. Potvrďte klepnutím na Pokračovat.</string>
+    <string name="description_content">Nahrávání obrazovky vám umožňuje nahrávat obraz na úrovni systému. Po pokračování již nebudete schopni zobrazit Nahrávání obrazovky. Potvrďte, že chcete pokračovat.</string>
     <string name="description_title">O Nahrávání obrazovky</string>
     <string name="deselect_all">Zrušit výběr</string>
     <string name="error_open_file_failed_no_app_found">Nebyla nalezena žádná aplikace k otevření tohoto souboru</string>
@@ -37,7 +37,7 @@
     <string name="low_battery">Před zahájením nahrávání nabijte váš telefon</string>
     <string name="low_battery_title">Slabá baterie</string>
     <string name="low_battery_warning">Baterie je příliš slabá. Nahrávání bylo zastaveno a video uloženo.</string>
-    <string name="low_memory">You have less than 1GB of available storage. You can record up to 20 minutes now.</string>
+    <string name="low_memory">Na úložišti je k dispozici méně než 1 GB. Můžete nahrát až 20 minut.</string>
     <string name="low_memory_title">Nedostatek místa na úložišti</string>
     <string name="low_momery_warning">Na úložišti není dostatek místa. Nahrávání bylo zastaveno a video uloženo.</string>
     <string name="memory_not_allowed">Na úložišti není dostatek místa. Pro nahrávání je nutno nějaké místo uvolnit.</string>
@@ -50,7 +50,7 @@
     <string name="quit_recording">Ukončit nahrávání obrazovky</string>
     <string name="recording_failure">Nahrávání se nezdařilo, zkuste to znovu</string>
     <string name="recording_max_size">Nahrávání bylo zastaveno a uloženo, protože velikost souboru dosáhla stanoveného limitu. Pokud jste nahrávání ještě nedokončili, začněte tam, kde jste skončili.</string>
-    <string name="recording_without_mic">Microphone is occupied and microphone sound cannot be recorded</string>
+    <string name="recording_without_mic">Mikrofon je zaneprázdněn, a proto nyní nelze nahrávat zvuk.</string>
     <string name="resolution">Rozlišení</string>
     <string name="resolution_summary">Videa s vyšším rozlišením vypadají ostřeji</string>
     <string name="screen_orientation">Orientace</string>

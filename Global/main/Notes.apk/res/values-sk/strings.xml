@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="sina_share_pendding">Odosielanie …</string>
+    <string name="sina_share_pendding">Odosielanie…</string>
     <string name="sina_share_success">Odoslané</string>
-    <string name="sina_share_fail">Nebolo možné odoslať</string>
-    <string name="sina_token_expired_warning">Účet Weibo vypršal. Pridajte účet znova.</string>
-    <string name="sina_token_invalid_warning">Váš účet Weibo je neplatný. Pridajte účet znova.</string>
+    <string name="sina_share_fail">Nepodarilo sa odoslať</string>
+    <string name="sina_token_expired_warning">Platnosť účtu Weibo vypršala, pridajte účet znova.</string>
+    <string name="sina_token_invalid_warning">Váš účet Weibo je neplatný, pridajte účet znova.</string>
     <string name="sina_share_fail_content_repeat">Toto ste už zdieľali.</string>
     <string name="search_title_notes">@string/app_name</string>
     <string name="search_keyword_notes">Poznámky;Odkaz</string>

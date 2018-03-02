@@ -5,6 +5,12 @@
     <string name="unlockscreen_recharge_completed">Baterie nabita</string>
     <string name="unlockscreen_low_battery">Připojte nabíječku</string>
     <string name="lockscreen_charging_msg">Nabíjení</string>
+    <string name="reset_device_tip">Pomalé nabíjení, změňte polohu telefonu</string>
+    <string name="reset_device_detail_tip">Bezdrátové nabíjení. Pro rychlé nabíjení se ujistěte, že je základna telefonu v rovné poloze.</string>
+    <string name="wireless_charge_stop">Bezdrátové nabíjení bylo zastaveno</string>
+    <string name="change_to_ac_charging">Přepnuto na bezdrátové nabíjení</string>
+    <string name="wireless_charge_dialog_title">Zařízení není správně umístěno. Upravte umístění.</string>
+    <string name="wireless_charge_dialog_cancel">Zrušit</string>
     <string name="emergency_call_string">Nouzové volání</string>
     <string name="forget_password_string">Zapomenuté heslo</string>
     <string name="input_puk_code">Zadejte PUK</string>
@@ -65,13 +71,10 @@
     <string name="lock_wallpaper_enter">Zadat</string>
     <string name="custom_lock_wallpaper_enter">Zadat</string>
     <string name="fingerprint_enter_second_psw_title">Zadat heslo Druhého prostoru</string>
-    <string name="fingerprint_enter_second_psw_msg">Po restartu zařízení zadejte heslo Druhého prostoru, aby bylo možné využívat rozpoznání otisku prstu</string>
+    <string name="fingerprint_enter_second_psw_msg">Zadejte heslo Druhého prostoru, aby bylo možné využívat rozpoznání otisku prstu</string>
     <string name="fingerprint_enter_second_psw_msg_oldman">Ve Zjednodušeném režimu nelze přepnout do Druhého prostoru</string>
     <string name="keyguard_charging_info_click_to_detail">Zobrazit podrobnosti</string>
     <string name="keyguard_quick_charging_info_click_to_detail">Rychlé nabíjení. Klepnutím zobrazíte podrobnosti.</string>
-    <string name="keyguard_quickly_charging_info_charging_text">Rychlé nabíjení…</string>
-    <string name="keyguard_charging_info_finished_charging_text">Plně nabito</string>
-    <string name="keyguard_charging_info_charging_text">Nabíjí se</string>
     <string name="keyguard_charging_info_last_charge_today_time">Dnes %s</string>
     <string name="keyguard_charging_info_last_charge_yesterday_time">Včera %s</string>
     <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>

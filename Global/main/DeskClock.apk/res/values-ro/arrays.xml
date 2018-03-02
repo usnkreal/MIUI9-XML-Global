@@ -1,5 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="alarm_set">
+        <item>Alarma se va opri în mai puțin de 1 minut.</item>
+        <item>Alarma se va opri în %1$s.</item>
+        <item>Alarma se va opri în%2$s.</item>
+        <item>Alarma se va opri în %1$s and %2$s.</item>
+        <item>Alarma se va opri în %3$s.</item>
+        <item>Alarma se va opri în %1$s and %3$s.</item>
+        <item>Alarma se va opri în %2$s and %3$s.</item>
+        <item>Alarma se va opri în %1$s %2$s și %3$s.</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>Niciodată</item>
+        <item>1 minut</item>
+        <item>5 minute</item>
+        <item>10 minute</item>
+        <item>15 minute</item>
+        <item>20 minute</item>
+        <item>25 minute</item>
+        <item>30 minute</item>
+    </string-array>
+    <string-array name="snooze_duration_entries">
+        <item>1 minut</item>
+        <item>5 minute</item>
+        <item>10 minute</item>
+        <item>15 minute</item>
+        <item>20 minute</item>
+        <item>25 minute</item>
+        <item>30 minute</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Nu fă nimic</item>
+        <item>Amânare</item>
+        <item>Renunță</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="alarm_in_furture">
+        <item>Alarmă în mai puțin de 1 minut</item>
+        <item>Alarmă în %1$s</item>
+        <item>Alarmă în %2$s</item>
+        <item>Alarmă în %1$s %2$s</item>
+        <item>Alarmă în %3$s</item>
+        <item>Alarmă în %1$s %3$s</item>
+        <item>Alarmă în %2$s %3$s</item>
+        <item>Alarma în %1$s %2$s %3$s</item>
+    </string-array>
+    <string-array name="alarm_repeat_type">
+        <item>O dată</item>
+        <item>Zilnic</item>
+        <item>Zile de lucru</item>
+        <item>Zile libere</item>
+        <item>Luni până Vineri</item>
+        <item>Personalizat</item>
+    </string-array>
+    <string-array name="alarm_repeat_type_no_workdays">
+        <item>Odată</item>
+        <item>Zilnic</item>
+        <item>Luni până Vineri</item>
+        <item>Personalizat</item>
+    </string-array>
+    <string-array name="aqi_value">
+        <item>Bun</item>
+        <item>Satisfăcător</item>
+        <item>Moderat poluat</item>
+        <item>Slab</item>
+        <item>Foarte slab</item>
+        <item>Sever</item>
+    </string-array>
+    <string-array name="days">
+        <item>Ieri</item>
+        <item>Astăzi</item>
+        <item>Mâine</item>
+    </string-array>
+    <string-array name="weather_tips_value">
+        <item>Reduceți activitățiile din aer liber</item>
+        <item>Drumurile sunt alunecoase</item>
+        <item>Vremea este furtunoasă, aveți grijă!</item>
+        <item>Aerul este poluat, purtați o mască!</item>
+        <item>Luați cu dvs. o umbrelă când ieșiți afară</item>
+        <item>Aveți grijă pe drum</item>
+        <item>Furtuna de nisip vine, purtați o mască!</item>
+        <item>O zi plăcută!</item>
+    </string-array>
     <string-array name="cities_names_miui">
         <item>Abidjan</item>
         <item>Accra</item>
@@ -296,100 +391,5 @@
         <item>Tegucigalpa</item>
         <item>Paramaribo</item>
         <item>Quito</item>
-    </string-array>
-    <string-array name="alarm_in_furture">
-        <item>Alarmă în mai puțin de 1 minut</item>
-        <item>Alarmă în %1$s</item>
-        <item>Alarmă în %2$s</item>
-        <item>Alarmă în %1$s %2$s</item>
-        <item>Alarmă în %3$s</item>
-        <item>Alarmă în %1$s %3$s</item>
-        <item>Alarmă în %2$s %3$s</item>
-        <item>Alarma în %1$s %2$s %3$s</item>
-    </string-array>
-    <string-array name="days">
-        <item>Ieri</item>
-        <item>Astăzi</item>
-        <item>Mâine</item>
-    </string-array>
-    <string-array name="alarm_repeat_type">
-        <item>O dată</item>
-        <item>Zilnic</item>
-        <item>Zile de lucru</item>
-        <item>Zile libere</item>
-        <item>Luni până Vineri</item>
-        <item>Personalizat</item>
-    </string-array>
-    <string-array name="alarm_repeat_type_no_workdays">
-        <item>Odată</item>
-        <item>Zilnic</item>
-        <item>Luni până Vineri</item>
-        <item>Personalizat</item>
-    </string-array>
-    <string-array name="aqi_value">
-        <item>Bun</item>
-        <item>Satisfăcător</item>
-        <item>Moderat poluat</item>
-        <item>Slab</item>
-        <item>Foarte slab</item>
-        <item>Sever</item>
-    </string-array>
-    <string-array name="weather_tips_value">
-        <item>Reduceți activitățiile din aer liber</item>
-        <item>Drumurile sunt alunecoase</item>
-        <item>Vremea este furtunoasă, aveți grijă!</item>
-        <item>Aerul este poluat, purtați o mască!</item>
-        <item>Luați cu dvs. o umbrelă când ieșiți afară</item>
-        <item>Aveți grijă pe drum</item>
-        <item>Furtuna de nisip vine, purtați o mască!</item>
-        <item>O zi plăcută!</item>
-    </string-array>
-    <string-array name="alarm_set">
-        <item>Alarma se va opri în mai puțin de 1 minut.</item>
-        <item>Alarma se va opri în %1$s.</item>
-        <item>Alarma se va opri în%2$s.</item>
-        <item>Alarma se va opri în %1$s and %2$s.</item>
-        <item>Alarma se va opri în %3$s.</item>
-        <item>Alarma se va opri în %1$s and %3$s.</item>
-        <item>Alarma se va opri în %2$s and %3$s.</item>
-        <item>Alarma se va opri în %1$s %2$s și %3$s.</item>
-    </string-array>
-    <string-array name="snooze_duration_entries">
-        <item>1 minut</item>
-        <item>5 minute</item>
-        <item>10 minute</item>
-        <item>15 minute</item>
-        <item>20 minute</item>
-        <item>25 minute</item>
-        <item>30 minute</item>
-    </string-array>
-    <string-array name="snooze_duration_values">
-        <item>1</item>
-        <item>5</item>
-        <item>10</item>
-        <item>15</item>
-        <item>20</item>
-        <item>25</item>
-        <item>30</item>
-    </string-array>
-    <string-array name="auto_silence_entries">
-        <item>Niciodată</item>
-        <item>1 minut</item>
-        <item>5 minute</item>
-        <item>10 minute</item>
-        <item>15 minute</item>
-        <item>20 minute</item>
-        <item>25 minute</item>
-        <item>30 minute</item>
-    </string-array>
-    <string-array name="volume_button_setting_entries">
-        <item>Nu fă nimic</item>
-        <item>Amânare</item>
-        <item>Renunță</item>
-    </string-array>
-    <string-array name="volume_button_setting_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
 </resources>

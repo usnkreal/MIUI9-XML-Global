@@ -338,6 +338,7 @@
     <string name="trans_device_wait_for_reconnecting">החיבור נקטע. התחבר שוב על מנת להמשיך.</string>
     <string name="trans_device_auto_reconnecting">המכשיר התנתק. מתחבר מחדש באופן אוטומטי…</string>
     <string name="trans_connecting_toast">מתחבר…</string>
+    <string name="trans_switching_5g">מחליף לרשת אלחוטית 5GHz…</string>
     <string name="trans_connect_failed_toast">לא ניתן היה להתחבר</string>
     <string name="trans_generate_qr_code_failed">לא ניתן היה ליצור קוד QR</string>
     <string name="trans_scan_invalid_qrcode">קוד ה-QR אינו חוקי</string>
@@ -515,6 +516,7 @@ https://appleid.apple.com/#!&amp;page=signin לסגירה"</string>
     <string name="error_permissions">"אין ליישום זה את ההרשאה הנדרשת על מנת לגשת ל'לוח שנה'. עבור אל 'הגדרות' ובדוק הרשאות על מנת להמשיך."</string>
     <string name="succ_description">הצלחה</string>
     <string name="failed_description">כשלון</string>
+    <string name="notif_miasist_try_to_connect">Mi PC Suite מנסה להתחבר למכשירך</string>
     <string name="notif_connect_miasist">מחובר ל-Mi PC Suite</string>
     <string name="notif_disconnect_miasist">לא מחובר ל-Mi PC Suite</string>
     <string name="notif_sending_transingsd">שולח %1$s (%2$s)…</string>

@@ -338,6 +338,7 @@ Eltöltött idő: %s"</string>
     <string name="trans_device_wait_for_reconnecting">A csatlakozás megszakadt. Folytatáshoz csatlakoztassa újra.</string>
     <string name="trans_device_auto_reconnecting">A készülék nincs csatlakoztatva. Automatikus újracsatlakozás…</string>
     <string name="trans_connecting_toast">Csatlakozás…</string>
+    <string name="trans_switching_5g">Váltás 5GHz Wi-Fi kapcsolatra/u2026</string>
     <string name="trans_connect_failed_toast">Nem sikerült a kapcsolódás</string>
     <string name="trans_generate_qr_code_failed">A QR kód generálása sikertelen</string>
     <string name="trans_scan_invalid_qrcode">Hibás QR kód</string>
@@ -435,8 +436,8 @@ Csak a fontos elemeket jelölje ki, hogy felgyorsuljon a fájlátvitel."</string
     <string name="close_twice_auth_note">"Megjegyzés:
 Miután létrehozott egy új biztonsági kérdést és megerősítette a születési dátumát, a kétlépcsős ellenőrzés automatikusan kikapcsolódik. Ha az Apple fiókjának weboldalán nem lát lehetőséget a kétlépcsős ellenőrzés kikapcsolására, akkor nem kapcsolhatja ki."</string>
     <string name="close_twice_auth_btn">Kétlépcsős ellenőrzés kikapcsolása</string>
-    <string name="close_twice_auth_operation">"Webcím:
-https://appleid.apple.com/#!&amp;page=signin to close"</string>
+    <string name="close_twice_auth_operation">"A bezáráshoz látogasson el a 
+https://appleid.apple.com/#!&amp;page=signin weboldalra"</string>
     <string name="platform_chooser_title">Válassza ki a régi készüléket</string>
     <string name="platform_chooser_item_ios">Importálás egy iOS rendszerű készülékről</string>
     <string name="platform_chooser_item_android">Importálás egy Android rendszerű készülékről</string>
@@ -517,6 +518,7 @@ A nem importált adatokat újra importálni kell."</string>
     <string name="error_permissions">Ez az alkalmazás nem kapta meg a szükséges Naptár elérési engedélyeket. Menjen a Beállításokba és ellenőrizze az engedélyeket a folytatáshoz.</string>
     <string name="succ_description">Sikeresen</string>
     <string name="failed_description">Meghiúsult</string>
+    <string name="notif_miasist_try_to_connect">A Mi PC Suite megkísérel az Ön készülékéhez csatlakozni</string>
     <string name="notif_connect_miasist">Csatlakozva a Mi PC Suite alkalmazáshoz</string>
     <string name="notif_disconnect_miasist">Nincs csatlakozva a Mi PC Suite alkalmazáshoz</string>
     <string name="notif_sending_transingsd">%1$s küldése (%2$s)…</string>

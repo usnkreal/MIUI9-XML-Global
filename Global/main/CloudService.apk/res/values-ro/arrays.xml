@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="micloud_entrance_titleArray">
-        <item>Sync app data</item>
-        <item>Back up Home screen layout</item>
-        <item>Back up system settings</item>
-        <item>Find device</item>
+        <item>Sincronizează datele aplicației</item>
+        <item>Crează o copie de rezervă a aspectului Ecranului de start</item>
+        <item>Crează copie de rezervă la setările de sistem</item>
+        <item>Găsește dispozitiv</item>
     </string-array>
     <string-array name="micloud_entrance_subtitleArray">
-        <item>Sync your contacts, messages, notes, calendar, and more</item>
-        <item>Back up apps, Home screen layout, and wallpaper</item>
-        <item>Back up important settings, including Wi-Fi and display</item>
-        <item>"Lock your device remotely if it's lost"</item>
+        <item>Sincronizați contactele, mesajele, notele, calendarul, și mai multe</item>
+        <item>Crează o copie de rezervă la aplicați, Aspectul Ecranului de Start, și imaginea de fundal</item>
+        <item>Crează copie de rezervă la setările importante, inclusiv Wi-Fi și afișaj</item>
+        <item>Blocați dispozitivul dvs. de la distanță dacă este pierdut</item>
     </string-array>
 </resources>

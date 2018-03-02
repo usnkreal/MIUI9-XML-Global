@@ -339,7 +339,7 @@
     <string name="description_minus_button">mínus</string>
     <string name="description_plus_button">plus</string>
     <string name="description_quick_contact_for">Rýchly kontakt pre %1$s</string>
-    <string name="description_quick_dial_button">Quick dial</string>
+    <string name="description_quick_dial_button">Rýchla voľba</string>
     <string name="description_search_button">Hľadať</string>
     <string name="description_send_message">Poslať správu %1$s</string>
     <string name="description_send_text_message">Poslať SMS %1$s</string>
@@ -381,7 +381,7 @@
     <string name="dialer_empty_text_loading">Načítavanie...</string>
     <string name="dialer_empty_text_no_call_log">Zoznam volaní je prázdny</string>
     <string name="dialer_empty_text_no_search_result">Nebol nájdený žiadny kontakt</string>
-    <string name="dialer_firewall_entry_name">Blocked call logs</string>
+    <string name="dialer_firewall_entry_name">Výpisy blokovaných hovorov</string>
     <string name="dialer_menu_description">Zobraziť menu</string>
     <string name="dialer_menu_title">Nastavenie menu</string>
     <string name="dialer_returnToInCallScreen">Návrat k hovoru</string>
@@ -795,7 +795,7 @@ Pre pridanie kontaktu do obľúbených:
     <string name="path_key_rebuild_t9_index_title">Systémové aplikácie/Kontakty/Prebudovať indexové dáta</string>
     <string name="path_key_sim_manage">Systémové aplikácie/Kontakty/SIM karty</string>
     <string name="path_preference_contacts_filter">Systémové aplikácie/Kontakty/Zobraziť predvoľby/Konfigurovať zoznamy kontaktov</string>
-    <string name="path_quick_dial_setting">System apps/Contacts/Quick dial</string>
+    <string name="path_quick_dial_setting">Systémové aplikácie/Telefón/Pokročilé nastavenia/Rýchla voľba</string>
     <string name="path_remove_duplicate">Systémové aplikácie/Kontakty/Usporiadať kontakty/Zlúčiť duplicitné kontakty</string>
     <string name="path_share_visible_contacts">Systémové aplikácie/Kontakty/Importovať/Exportovať kontakty/Zdieľať kontakty</string>
     <string name="path_sim_capacity">Systémové aplikácie/Kontakty/Úložisko SIM karty</string>
@@ -856,6 +856,7 @@ Pre pridanie kontaktu do obľúbených:
     <string name="preference_contacts_display">Zobrazenie kontaktov</string>
     <string name="preference_contacts_filter">Kontakty na zobrazenie</string>
     <string name="preference_contacts_more">Viac nastavení kontakov</string>
+    <string name="preference_contacts_moresetting">Viac</string>
     <string name="preference_dial_pad_touch_tone_default">Predvolené</string>
     <string name="preference_dial_pad_touch_tone_human">Ľudský hlas</string>
     <string name="preference_dial_pad_touch_tone_piano">Klavír</string>
@@ -863,6 +864,7 @@ Pre pridanie kontaktu do obľúbených:
     <string name="preference_dial_pad_touch_tone_title">Tóny číselníka</string>
     <string name="preference_display">Zobraziť</string>
     <string name="preference_displayOptions">Možnosti zobrazenia</string>
+    <string name="preference_display_contact">Display options</string>
     <string name="preference_export">Export</string>
     <string name="preference_import">Import</string>
     <string name="preference_import_export">Import/Export</string>
@@ -907,12 +909,12 @@ Pre pridanie kontaktu do obľúbených:
     <string name="pull_to_refresh_release_label">Pustite pre obnovenie...</string>
     <string name="qr_card_card">QR kód kontaktu</string>
     <string name="qrcode_card_title">QR kód kontaktu</string>
-    <string name="quick_dial_setting_delete_dialog_message">Delete assigned quick dial number?</string>
-    <string name="quick_dial_setting_delete_dialog_option_delete">Delete</string>
-    <string name="quick_dial_setting_hint">Tap a button to assign or remove a quick dial number. Press and hold the button with an assigned number to dial.</string>
-    <string name="quick_dial_setting_set_dialog_message">Assign a quick dial number to this button?</string>
-    <string name="quick_dial_setting_set_dialog_option_set">Yes</string>
-    <string name="quick_dial_setting_title">Quick dial</string>
+    <string name="quick_dial_setting_delete_dialog_message">Odstrániť pridelené číslo rýchlej voľby?</string>
+    <string name="quick_dial_setting_delete_dialog_option_delete">Odstrániť</string>
+    <string name="quick_dial_setting_hint">Pre pridelenie alebo odstránenie rýchlej voľby ťuknite na tlačidlo. Pre vytočenie čísla stlačte a podržte tlačidlo.</string>
+    <string name="quick_dial_setting_set_dialog_message">Prideliť číslo rýchlej voľby ku tomto tlačidlu?</string>
+    <string name="quick_dial_setting_set_dialog_option_set">Áno</string>
+    <string name="quick_dial_setting_title">Rýchla voľba</string>
     <string name="quickcontact_missing_app">Aplikácia potrebná na túto akciu nebola nájdená</string>
     <string name="quit_dialog_confirm_message">Nemáte spojené žiadne kontakty</string>
     <string name="quit_dialog_confirm_title">Ukončiť zlučovanie kontaktov</string>
@@ -979,7 +981,7 @@ Pre pridanie kontaktu do obľúbených:
     <string name="search_key_rebuild_t9_index_title">Usporiadať;Kontakty;t9</string>
     <string name="search_key_sim_manage">Usporiadať;Kontakty</string>
     <string name="search_preference_contacts_filter">Kontakty;Zobraziť</string>
-    <string name="search_quick_dial_setting">Contacts</string>
+    <string name="search_quick_dial_setting">Telefón</string>
     <string name="search_remove_duplicate">Usporiadať;Kontakty</string>
     <string name="search_results_searching">Vyhľadávanie...</string>
     <string name="search_settings_description">Mená vašich kontaktov</string>
@@ -1178,7 +1180,7 @@ Pre pridanie kontaktu do obľúbených:
     <string name="yellowPageNavigationLabel">Zlaté stránky</string>
     <string name="yellowpage_fc_toast">Túto funkciu nie je možné použiť, pretože žlté stránky zlyhali.</string>
     <string name="yellowpage_navigation_ad_hint">Reklama</string>
-    <string name="yellowpage_navigation_balance_refresh_failed">Zostatok a mobilné dáta nebolo možné overiť, skúste to znova neskôr.</string>
+    <string name="yellowpage_navigation_balance_refresh_failed">Zostatok a mobilné dáta nebolo možné overiť. Skúste to znova neskôr.</string>
     <string name="yellowpage_navigation_balance_refresh_succeed">Zostatok a mobilné dáta boli overené</string>
     <string name="yellowpage_navigation_clear_search_history">Vyčistiť históriu</string>
     <string name="yellowpage_navigation_more_items">Viac</string>

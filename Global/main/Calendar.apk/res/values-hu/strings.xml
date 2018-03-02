@@ -110,7 +110,7 @@ u2022 Biztonsági másolatot készíthet eseményeiről."</string>
     <string name="yearly">Évente (nap: %s)</string>
     <string name="yearly_plain">Évente</string>
     <string name="account_and_calendar">Fiókok és naptárak</string>
-    <string name="action_bar_date_button_title">Calculate date</string>
+    <string name="action_bar_date_button_title">Dátum kiszámolása</string>
     <string name="action_bar_more_menu_view_description">Továbbiak</string>
     <string name="action_bar_return">Vissza</string>
     <string name="action_text_card_manager">Csatorna</string>
@@ -166,7 +166,7 @@ u2022 Biztonsági másolatot készíthet eseményeiről."</string>
     <string name="date_calculate_description">Tudja meg, melyik dátum van egy bizonyos nap előtt/után</string>
     <string name="date_calculate_direction">Irány</string>
     <string name="date_calculate_direction_content_description">Jelenlegi irány: %1s.</string>
-    <string name="date_calculate_hint">Learn what date it is after a number days</string>
+    <string name="date_calculate_hint">Számolja ki, milyen dátum lesz egy, az Ön által megadott nap múlva</string>
     <string name="date_calculate_result">Eredmény</string>
     <string name="date_calculate_tab">Dátum számolása</string>
     <string name="date_calculate_today">0 nap</string>
@@ -313,7 +313,7 @@ Ellenőrizze a beállításokat és próbálja újra."</string>
     <string name="preferences_default_allday_reminder_title">Egész napos emlékeztető alapértelmezett ideje</string>
     <string name="preferences_notification_ringtone_title">Hang</string>
     <string name="preferences_week_start_day_default">-1</string>
-    <string name="pull_to_refresh_hint">%1$d eseményeinek betöltéséhez húzza felfelé</string>
+    <string name="pull_to_refresh_hint">%1$d eseményeinek betöltéséhez húzza lefelé</string>
     <string name="refresh">Frissítés</string>
     <string name="refreshing_hint">Egy pillanat…</string>
     <string name="repeat_activity_label">Ismétlődés</string>

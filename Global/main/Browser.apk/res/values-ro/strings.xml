@@ -50,7 +50,7 @@
     <string name="actionbar_share">Împărtăşeşte</string>
     <string name="actionbar_textselection_title">Selecție text</string>
     <string name="actionbar_web_search">Căutare Web</string>
-    <string name="ad_btn_default_text">Install</string>
+    <string name="ad_btn_default_text">Instalează</string>
     <string name="adblock_force_updating_rules_toast">Actualizarea Ad blocker</string>
     <string name="adblock_rules_not_updated_toast">Nu poate fi actualizat</string>
     <string name="adblock_rules_restore">Deblochează</string>
@@ -134,7 +134,7 @@
     <string name="browserFrameNetworkErrorLabel">Eroare de conexiune</string>
     <string name="cancel">Anulează</string>
     <string name="cannot_download">Se pot descărca doar URL-uri \"http\" sau \"https\"</string>
-    <string name="card_setting_close_recommend">Recommend for you</string>
+    <string name="card_setting_close_recommend">Receive recommendations</string>
     <string name="choosertitle_sharevia">Partajează prin</string>
     <string name="clear_history">Şterge istoric</string>
     <string name="clear_most_visited">Istoric recent</string>
@@ -336,8 +336,8 @@ Paginile pe care le-ai vizualizat nu vor apărea in istoric."</string>
     <string name="hint">Atenţie</string>
     <string name="history">Istoric</string>
     <string name="home_description">Acasă</string>
-    <string name="home_page_news_feed">Noutăți</string>
-    <string name="home_page_top_sites">Top Site-uri</string>
+    <string name="home_page_news_feed">News feed</string>
+    <string name="home_page_top_sites">Top sites</string>
     <string name="homepage_delete_card_menu">Ștergeți</string>
     <string name="homepage_get_location">Cere locaţie</string>
     <string name="homepage_get_location_failed">Nu a putut obține informații, alege un oraş</string>
@@ -516,6 +516,10 @@ Părăsiţi această pagină?"</string>
     <string name="nav_bottom_bar_new_tab">Filă nouă</string>
     <string name="nav_screen_container_tab_incognito">Filă incognito</string>
     <string name="nav_screen_container_tab_normal">Filă normală</string>
+    <string name="nav_screen_incognito_message">"Your browsing and search history won't be saved in Incognito mode.
+Remember that the files you download and the bookmarks you add will still be saved."</string>
+    <string name="nav_screen_incognito_title">Incongnito mode</string>
+    <string name="navigation_delete_all">swipe left and right to close all tabs</string>
     <string name="navigationbar_rightbutton_actiontext_cancle">Anulează</string>
     <string name="navigationbar_rightbutton_actiontext_go">Înainte</string>
     <string name="navigationbar_rightbutton_actiontext_search">Caută</string>
@@ -565,7 +569,7 @@ Părăsiţi această pagină?"</string>
     <string name="pref_adblock_title">Ad blocker</string>
     <string name="pref_auto_update_under_wifi">Actualizare folosind Wi-Fi</string>
     <string name="pref_automatic_matching_searchengines_title">Comutat la motorul de căutare frecvent</string>
-    <string name="pref_card_setting">Card Setting</string>
+    <string name="pref_card_setting">Top sites order</string>
     <string name="pref_category_hint">Categorie</string>
     <string name="pref_check_security_url_summary">Trimite URL-ul la serverele Mi pentru a verifica dacă este securizat</string>
     <string name="pref_check_security_url_summary_international">Permite browser-ului pentru a accesa URL-urile de la site-uri web pe care le vizitaţi pentru a primi mai multe recomandări relevante.</string>
@@ -592,7 +596,7 @@ Părăsiţi această pagină?"</string>
     <string name="pref_enable_videos">Videoclipuri</string>
     <string name="pref_extras_reset_default">Restabiliți implicit</string>
     <string name="pref_extras_reset_default_dlg">Restabiliți setările implicite?</string>
-    <string name="pref_extras_reset_default_summary">Restabilește setările implicite</string>
+    <string name="pref_extras_reset_default_summary">Restore default order</string>
     <string name="pref_extras_reset_default_title">Alte</string>
     <string name="pref_extras_send_feedback">Trimite părere</string>
     <string name="pref_extras_title">Avansat</string>
@@ -778,7 +782,7 @@ Părăsiţi această pagină?"</string>
     <string name="show_security_tip_dialog_title">Condții de utilizare</string>
     <string name="show_weather_location_getter_tip_dialog_description">Browser-ul trebuie să se conecteze la internet pentru a lucra în mod normal. Pentru a îmbunătăţi securitatea, primi recomandări mai relevante și informații despre vreme, permite Browser-ului să obţină URL-urile site-urilor pe care le vizitaţi şi să acceseze locația dvs.</string>
     <string name="sign_in_to" formatted="false">Conectați-vă la %s1%s2\"</string>
-    <string name="site_sort_des">Trage elementele pentru a le aranja</string>
+    <string name="site_sort_des">Rearrange items</string>
     <string name="skip_button_label">Treci peste</string>
     <string name="skip_current_version">Treci peste această versiune</string>
     <string name="snapshot">Locale</string>

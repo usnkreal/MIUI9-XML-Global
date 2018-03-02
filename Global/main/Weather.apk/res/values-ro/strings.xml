@@ -77,6 +77,9 @@
     <string name="content_desc_activity_main_add_city">Adaugă oraș</string>
     <string name="content_desc_activity_main_add_city_manage">Administrează oraşe</string>
     <string name="content_desc_activity_main_more_settings">Mai multe setări</string>
+    <string name="content_desc_back_button">Back</string>
+    <string name="content_desc_close_button">Close</string>
+    <string name="content_desc_edit_city_manage">Manage cities</string>
     <string name="daily_forcast_drawer_on_bottom">Ascunde</string>
     <string name="daily_forcast_no_stable_direction">Briză</string>
     <string name="daily_forcast_no_wind">0</string>
@@ -148,7 +151,9 @@ Atingeți ecranul pentru a adăuga manual sau repoziționa un oraș"</string>
     <string name="lunar_calendar" />
     <string name="menu_add_city">Editează locațiile</string>
     <string name="menu_location">Locații</string>
+    <string name="menu_speaker">Voice broadcast</string>
     <string name="mi_pad2">latte</string>
+    <string name="minute_rain">Minutely forecast</string>
     <string name="minute_rain_after_an_hour">În 1 oră</string>
     <string name="minute_rain_after_two_hour">În 2 ore</string>
     <string name="minute_rain_feedback_subtitle">Spune-ne cum este vremea.</string>
@@ -160,6 +165,7 @@ Atingeți ecranul pentru a adăuga manual sau repoziționa un oraș"</string>
     <string name="minute_rain_progress_indicator_original_time">- -</string>
     <string name="minute_rain_pull_down_refresh">Trage în jos pentru a reîmprospăta</string>
     <string name="minute_rain_refreshing_now">Se reîmprospătează…</string>
+    <string name="missing_required_permission">You have disabled a required permission.</string>
     <string name="more_details">Mai multe detalii</string>
     <string name="network_not_available">Nu se poate conecta la reţea</string>
     <string name="network_unavailable">Nu se poate conecta la reţea.</string>
@@ -175,15 +181,15 @@ Atingeți ecranul pentru a adăuga manual sau repoziționa un oraș"</string>
     <string name="particulate_matter_exceeded">Mare</string>
     <string name="particulate_matter_not_exceeded">Normal</string>
     <string name="particulate_matter_serious_exceeded">Foarte mare</string>
-    <string name="precipitation_degree_five">暴</string>
-    <string name="precipitation_degree_four">大</string>
-    <string name="precipitation_degree_one">无</string>
-    <string name="precipitation_degree_three">中</string>
-    <string name="precipitation_degree_two">小</string>
+    <string name="precipitation_degree_five">Abundent</string>
+    <string name="precipitation_degree_four">Puternic</string>
+    <string name="precipitation_degree_one">Niciunul</string>
+    <string name="precipitation_degree_three">Moderat</string>
+    <string name="precipitation_degree_two">Lejer</string>
     <string name="pressure_connect">%1$s mb</string>
     <string name="pull_fresh_updated">Actualizat cu succes</string>
     <string name="pull_fresh_updating">Se actualizează…</string>
-    <string name="radar_cloud_image_title">雷达降水图</string>
+    <string name="radar_cloud_image_title">Hartă radar</string>
     <string name="rainfall_settings_summary">Alertă precipitaţii</string>
     <string name="rainfall_settings_title">Precipitaţii</string>
     <string name="real_time_sunrise">Răsărit %1$s</string>
@@ -195,6 +201,8 @@ Atingeți ecranul pentru a adăuga manual sau repoziționa un oraș"</string>
     <string name="refresh_fail">Nu se poate conecta la rețea</string>
     <string name="reminder_from_xiaomi_weather_app">Mi alertă meteo</string>
     <string name="retry">Încercați din nou</string>
+    <string name="search_weather">Meteo</string>
+    <string name="search_weather_keywords">Temperatură;Prognoza meteo;Meteo;Calitatea aerului;Gradul de poluare:Umiditate</string>
     <string name="set">Setări</string>
     <string name="set_degree_centigrade">°C</string>
     <string name="set_fahrenheit">°F</string>
@@ -260,11 +268,4 @@ Atingeți ecranul pentru a adăuga manual sau repoziționa un oraș"</string>
     <string name="xiaomi_weather_description_title">Despre Meteo</string>
     <string name="yes_vote_ratio">Pentru %1$s%%</string>
     <string name="your_location">Locația ta</string>
-    <string name="information_manager_default_weather_bg">Fundal implicit meteo</string>
-    <string name="information_manager_information">Info meteo</string>
-    <string name="information_manager_wlan">Arată atunci când esti conectat la Wi-Fi</string>
-    <string name="information_menu_title" />
-    <string name="information_set">Alte setări</string>
-    <string name="menu_minute_rain">Prognoză precipitații pentru 2 ore</string>
-    <string name="menu_speeker">Difuzare voce</string>
 </resources>

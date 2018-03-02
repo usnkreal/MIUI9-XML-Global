@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="miui_transfer_history_title">Bluetooth transfers</string>
-    <string name="miui_transfer_inbound_title">Inbound</string>
-    <string name="miui_transfer_outbound_title">Outbound</string>
+    <string name="miui_transfer_history_title">Bluetooth-overføringer</string>
+    <string name="miui_transfer_inbound_title">Innkommende</string>
+    <string name="miui_transfer_outbound_title">Utgående</string>
     <string name="permlab_bluetoothShareManager">Åpne nedlastingsbehandling.</string>
     <string name="permdesc_bluetoothShareManager">Gir appen tilgang til BluetoothShare-administratoren, og tillatelse til å bruke det til filoverføring.</string>
     <string name="permlab_bluetoothWhitelist">Godkjenne tilgang for Bluetooth-enheter.</string>

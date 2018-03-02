@@ -30,6 +30,11 @@
         <item quantity="one">1 zápas</item>
         <item quantity="few">%1$d nebo %2$d</item>
     </plurals>
+    <plurals name="nav_screen_incognito_time">
+        <item quantity="other">Po %d sekundách sa automaticky vytvorí stránka</item>
+        <item quantity="one">Po %d sekunde sa automaticky vytvorí stránka</item>
+        <item quantity="few">Po %d sekundách sa automaticky vytvorí stránka</item>
+    </plurals>
     <plurals name="pref_adblock_counts">
         <item quantity="other">%d zablokovaných</item>
         <item quantity="one">%d zablokovaná</item>

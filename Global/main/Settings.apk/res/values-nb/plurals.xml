@@ -2,15 +2,15 @@
 <resources>
     <plurals name="status_bar_settings_disabled_header_title">
         <item quantity="other">"%d apps can't show notifications"</item>
-        <item quantity="one">"%d app can't show notifications"</item>
+        <item quantity="one">%d apper kan ikke vise varsler</item>
     </plurals>
     <plurals name="status_bar_settings_enabled_header_title">
         <item quantity="other">%d apps can show notifications</item>
-        <item quantity="one">%d app can show notifications</item>
+        <item quantity="one">%d apper kan vise varsler</item>
     </plurals>
     <plurals name="settings_toggle_position_divider_page">
         <item quantity="other">%1$d toggles will appear in the Notification shade</item>
-        <item quantity="one">%1$d toggle will appear in the Notification shade</item>
+        <item quantity="one">%1$d vekslinger vises i meldingsskyggen</item>
     </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">Nå er du %1$d steg fra å bli utvikler.</item>
@@ -85,67 +85,67 @@
         <item quantity="one">1 app brukte minne i løpet av de siste %2$s</item>
     </plurals>
     <plurals name="virus_scan_app_find_risk">
-        <item quantity="other">%d risks found</item>
-        <item quantity="one">%d risk found</item>
+        <item quantity="other">%d risikoer funnet</item>
+        <item quantity="one">%d risiko funnet</item>
     </plurals>
     <plurals name="auto_startup_count">
         <item quantity="other">%d apps are allowed to autostart</item>
-        <item quantity="one">%d app is allowed to autostart</item>
+        <item quantity="one">%d apper har tillatelse til å starte automatisk</item>
     </plurals>
     <plurals name="lockpassword_pin_fixed_length">
         <item quantity="other">PIN must be %d digits</item>
-        <item quantity="one">PIN must be %d digit</item>
+        <item quantity="one">PIN-koden må være på %d siffer</item>
     </plurals>
     <plurals name="wifi_share_count">
         <item quantity="other">Shared %d networks</item>
-        <item quantity="one">Shared %d network</item>
+        <item quantity="one">Delte %d nettverk</item>
     </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d devices</item>
-        <item quantity="one">%d device</item>
+        <item quantity="one">%d enheter</item>
     </plurals>
     <plurals name="free_wifi_connected_count">
-        <item quantity="other">%1$d people connected</item>
-        <item quantity="one">%1$d person connected</item>
+        <item quantity="other">%1$d personer tilkoblet</item>
+        <item quantity="one">%1$d person tilkoblet</item>
     </plurals>
     <plurals name="show_pho_countdown">
         <item quantity="other">"You're %1$d steps away from entering phone info."</item>
-        <item quantity="one">"You're %1$d step away from entering phone info."</item>
+        <item quantity="one">Du er %1$d steg unna fra å gå inn i telefoninfo.</item>
     </plurals>
     <plurals name="show_cit_countdown">
         <item quantity="other">"You're %1$d steps away from entering CIT."</item>
-        <item quantity="one">"You're %1$d step away from entering CIT."</item>
+        <item quantity="one">Du er %1$d steg unna fra å gå inn i CIT.</item>
     </plurals>
     <plurals name="show_rep_countdown">
         <item quantity="other">"You're %1$d steps away from reporting bug."</item>
-        <item quantity="one">"You're %1$d step away from reporting bug."</item>
+        <item quantity="one">Du er %1$d steg unna fra å rapportere feil.</item>
     </plurals>
     <plurals name="auto_disable_screenbuttons_enabled_header_title">
-        <item quantity="other">Always disable for %d apps</item>
-        <item quantity="one">Always disable for 1 app</item>
+        <item quantity="other">Alltid deaktiver for %d apper</item>
+        <item quantity="one">Alltid deaktiver for 1 app</item>
     </plurals>
     <plurals name="auto_disable_screenbuttons_disabled_header_title">
-        <item quantity="other">Never disable for %d apps</item>
-        <item quantity="one">Never disable for 1 app</item>
+        <item quantity="other">Aldri deaktiver for %d apper</item>
+        <item quantity="one">Aldri deaktiver for 1 app</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short">
         <item quantity="other">PIN must be %d digits long</item>
-        <item quantity="one">PIN must be %d digit long</item>
+        <item quantity="one">PIN-kode må være på %d siffer</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long">
         <item quantity="other">PIN can contain up to %d digits</item>
-        <item quantity="one">PIN can contain up to %d digit</item>
+        <item quantity="one">PIN-koden kan inneholde opptil %d sifre</item>
     </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
         <item quantity="other">Connect at least %d dots. Try again.</item>
-        <item quantity="one">Connect at least %d dot. Try again.</item>
+        <item quantity="one">Koble minst %d prikker. Prøv igjen.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts">
         <item quantity="other">Too many incorrect attempts. Try again in %d seconds.</item>
-        <item quantity="one">Too many incorrect attempts. Try again in %d second.</item>
+        <item quantity="one">For mange feilaktige forsøk. Prøv igjen om %d sekunder.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
         <item quantity="other">Wait for %d seconds and try again.</item>
-        <item quantity="one">Wait for %d second and try again.</item>
+        <item quantity="one">Vent i %d sekunder og prøv igjen.</item>
     </plurals>
 </resources>

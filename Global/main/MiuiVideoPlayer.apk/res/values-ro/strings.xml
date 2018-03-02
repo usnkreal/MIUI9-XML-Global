@@ -149,7 +149,7 @@
     <string name="v_video_null">Nu sunt videoclipuri</string>
     <string name="vp_app_name">Redare video</string>
     <string name="vp_device_list">Dispozitive</string>
-    <string name="vp_device_list_seaching">&lt; Nici un dispozitiv pentru a transminte></string>
+    <string name="vp_device_list_seaching">Nici un dispozitiv pentru a transminte</string>
     <string name="screenrecord_cancel">Probleme de compatibilitate</string>
     <string name="screenrecord_nosupport_record">Înregistratorul ecranului nu este suportat pe acest dispozitiv.</string>
 </resources>

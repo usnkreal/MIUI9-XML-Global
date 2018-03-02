@@ -5,6 +5,12 @@
     <string name="unlockscreen_recharge_completed">Bateria naładowana</string>
     <string name="unlockscreen_low_battery">Podłącz ładowarkę</string>
     <string name="lockscreen_charging_msg">Ładowanie</string>
+    <string name="reset_device_tip">Wolne ładowanie. Zmień pozycję telefonu</string>
+    <string name="reset_device_detail_tip">Ładowanie bezprzewodowe. Dostosuj pozycję telefonu na podstawce ładującej, aby przyspieszyć ładowanie.</string>
+    <string name="wireless_charge_stop">Ładowanie bezprzewodowe zostało zatrzymane</string>
+    <string name="change_to_ac_charging">Przełączono na ładowanie bezprzewodowe</string>
+    <string name="wireless_charge_dialog_title">Telefon poza podstawką. Zmień pozycję telefonu</string>
+    <string name="wireless_charge_dialog_cancel">Anuluj</string>
     <string name="emergency_call_string">Alarmowe</string>
     <string name="forget_password_string">Nie pamiętam hasła</string>
     <string name="input_puk_code">Wpisz PUK</string>
@@ -65,13 +71,10 @@
     <string name="lock_wallpaper_enter">Potwierdź</string>
     <string name="custom_lock_wallpaper_enter">Potwierdź</string>
     <string name="fingerprint_enter_second_psw_title">Wpisz hasło do Drugiej przestrzeni</string>
-    <string name="fingerprint_enter_second_psw_msg">Wpisz hasło do Drugiej przestrzeni po ponownym uruchomieniu urządzenia, aby móc korzystać z rozpoznawania odcisku palca</string>
+    <string name="fingerprint_enter_second_psw_msg">Wpisz hasło do Drugiej przestrzeni, aby móc korzystać z rozpoznawania odcisku palca</string>
     <string name="fingerprint_enter_second_psw_msg_oldman">Nie można wejść w Drugą przestrzeń w trybie Lite</string>
     <string name="keyguard_charging_info_click_to_detail">Zobacz szczegóły</string>
     <string name="keyguard_quick_charging_info_click_to_detail">Szybkie ładowanie. Dotknij, aby zobaczyć szczegóły.</string>
-    <string name="keyguard_quickly_charging_info_charging_text">Szybkie ładowanie…</string>
-    <string name="keyguard_charging_info_finished_charging_text">W pełni naładowana</string>
-    <string name="keyguard_charging_info_charging_text">Ładowanie</string>
     <string name="keyguard_charging_info_last_charge_today_time">Dziś %s</string>
     <string name="keyguard_charging_info_last_charge_yesterday_time">Wczoraj %s</string>
     <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>

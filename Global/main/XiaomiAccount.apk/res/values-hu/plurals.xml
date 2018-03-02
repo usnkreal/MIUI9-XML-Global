@@ -9,11 +9,11 @@
         <item quantity="one">%d eszköz mutatása</item>
     </plurals>
     <plurals name="view_all_apps">
-        <item quantity="other">Az összes (%d) alkalmazás mutatása</item>
-        <item quantity="one">%d alkalmazás mutatása</item>
+        <item quantity="other">Mind a(z) %d alkalmazás megjelenítése</item>
+        <item quantity="one">%d alkalmazás megjelenítése</item>
     </plurals>
     <plurals name="view_all_browsers">
-        <item quantity="other">Az összes (%d) böngésző mutatása</item>
-        <item quantity="one">%d böngésző mutatása</item>
+        <item quantity="other">Mind a(z) %d böngésző megjelenítése</item>
+        <item quantity="one">%d böngésző megjelenítése</item>
     </plurals>
 </resources>

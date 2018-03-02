@@ -1,28 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="select_items">
-        <item quantity="other">%1$d wybranych</item>
-        <item quantity="one">%1$d wybrany</item>
-        <item quantity="few">%1$d wybrane</item>
-    </plurals>
-    <plurals name="app_list_total">
-        <item quantity="other">%d aplikacji</item>
-        <item quantity="one">%d aplikacja</item>
-        <item quantity="few">%d aplikacje</item>
-    </plurals>
-    <plurals name="power_config_ultimate_on_count">
-        <item quantity="other">Przełączanie na tryb Zaawansowany po %1$d dotknięciach</item>
-        <item quantity="one">Przełączanie na tryb Zaawansowany po %1$d dotknięciu</item>
-        <item quantity="few">Przełączanie na tryb Zaawansowany po %1$d dotknięciach</item>
-    </plurals>
-    <plurals name="power_config_ultimate_off_count">
-        <item quantity="other">Wyłączanie trybu Zaawansowanego po %1$d dotknięciach</item>
-        <item quantity="one">Wyłączanie trybu Zaawansowanego po %1$d dotknięciu</item>
-        <item quantity="few">Wyłączanie trybu Zaawansowanego po %1$d dotknięciach</item>
-    </plurals>
-    <plurals name="power_config_ultimate_unlock_count">
-        <item quantity="other">Dokończ %1$d kroków aby odblokować</item>
-        <item quantity="one">Dokończ %1$d krok aby odblokować</item>
-        <item quantity="few">Dokończ %1$d kroki aby odblokować</item>
+    <plurals name="search_app_count_txt_na">
+        <item quantity="other">Znaleziono %d aplikacji</item>
+        <item quantity="one">Znaleziono %d aplikację</item>
+        <item quantity="few">Znaleziono %d aplikacje</item>
+        <item quantity="many">Znaleziono %d aplikacji</item>
     </plurals>
 </resources>

@@ -270,7 +270,7 @@ d MMMM"</string>
     <string name="ext_media_nomedia_notification_title">Stockage USB retiré</string>
     <string name="ext_media_nomedia_notification_message">Stockage USB retiré. Insérez un nouveau média.</string>
     <string name="ext_media_mountable_notification_title">Périphérique de stockage USB connecté</string>
-    <string name="ext_media_mountable_notification_message">"Appuyez pour ouvrir dans l'Explorateur."</string>
+    <string name="ext_media_mountable_notification_message">Appuyer pour ouvrir Gestionnaire de fichiers Mi.</string>
     <string name="ext_media_safe_remove">Retirer en toute sécurité</string>
     <string name="network_speed_suffix">%1$s %2$s</string>
     <string name="kilobyte_per_second">ko/s</string>
@@ -780,7 +780,7 @@ Pour plus d'informations, contactez votre administrateur."</string>
     <string name="recent_dock_tip">Appuyez pour sélectionner les applications</string>
     <string name="dock_keyguard_locked_failed_to_dock_text">"Écran divisé n'est pas pris en charge à l'écran de verrouillage."</string>
     <string name="click_expand">Appuyer pour étendre</string>
-    <string name="please_slide_agian">Veuillez faire glisser à nouveau</string>
+    <string name="please_slide_agian">Faire glisser encore</string>
     <string name="how_to_use_fsg">Vous pouvez effectuer ces actions en utilisant des gestes :</string>
     <string name="how_to_back_home">"Aller à l'Écran d'accueil"</string>
     <string name="how_to_switch_recents">Ouvrir Récents</string>
@@ -788,6 +788,8 @@ Pour plus d'informations, contactez votre administrateur."</string>
     <string name="fsg_demo_go_on">Découvrir</string>
     <string name="fs_gesture_back_home_summary">Balayer rapidement depuis le bas</string>
     <string name="fs_gesture_switch_recents_summary">Balayer rapidement depuis le bas et mettre pause</string>
+    <string name="how_to_use_drawer">"Comment utiliser la fonctionnalité de glissement de l'application"</string>
+    <string name="how_to_use_drawer_summary">Balayez vers la partie supérieure gauche</string>
     <string name="fs_gesture_back_ready_title">Retour</string>
     <string name="fs_gesture_left_back_ready_summary">Balayer vers la droite depuis le bord</string>
     <string name="fs_gesture_right_back_ready_summary">Balayer vers la gauche depuis le bord</string>

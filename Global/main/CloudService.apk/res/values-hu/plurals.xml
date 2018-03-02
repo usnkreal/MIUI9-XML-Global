@@ -5,12 +5,12 @@
         <item quantity="one">%d kikapcsolva</item>
     </plurals>
     <plurals name="items_unsynced">
-        <item quantity="other">%d elem várakozik a szinkronizálásra</item>
-        <item quantity="one">%d elem várakozik a szinkronizálásra</item>
+        <item quantity="other">%d elem vár szinkronizálásra</item>
+        <item quantity="one">%d elem vár szinkronizálásra</item>
     </plurals>
     <plurals name="items_waiting_to_sync">
-        <item quantity="other">%d elem várakozik szinkronizálásra</item>
-        <item quantity="one">%d elem várakozik szinkronizálásra</item>
+        <item quantity="other">%d elem vár szinkronizálásra</item>
+        <item quantity="one">%d elem vár szinkronizálásra</item>
     </plurals>
     <plurals name="dirty_contacts_count">
         <item quantity="other">%d kapcsolat</item>
@@ -29,12 +29,12 @@
         <item quantity="one">%d fénykép</item>
     </plurals>
     <plurals name="dirty_callog_count">
-        <item quantity="other">%d hívásnapló feljegyzés</item>
-        <item quantity="one">%d hívásnapló feljegyzés</item>
+        <item quantity="other">%d híváslista bejegyzés</item>
+        <item quantity="one">%d híváslista bejegyzés</item>
     </plurals>
     <plurals name="dirty_wlan_count">
-        <item quantity="other">%d Wi-Fi Hálózat</item>
-        <item quantity="one">%d Wi-Fi Hálózat</item>
+        <item quantity="other">%d Wi-Fi hálózat</item>
+        <item quantity="one">%d Wi-Fi hálózat</item>
     </plurals>
     <plurals name="dirty_recorder_count">
         <item quantity="other">%d felvétel</item>
@@ -56,16 +56,20 @@
         <item quantity="other">%d tiltólista bejegyzés</item>
         <item quantity="one">%d tiltólista bejegyzés</item>
     </plurals>
+    <plurals name="dirty_personalAssistant_count">
+        <item quantity="other">%d beállított Gyorselérési kártya</item>
+        <item quantity="one">%d beállított Gyorselérési kártya</item>
+    </plurals>
     <plurals name="dirty_secretphoto_count">
         <item quantity="other">%d rejtett fénykép nincs szinkronizálva. Megőrzésük érdekében, szinkronizálásuk után jelentkezzen ki, ellenkező esetben az elemek törlésre kerülnek.</item>
         <item quantity="one">%d rejtett fénykép nincs szinkronizálva. Megőrzésük érdekében, szinkronizálásuk után jelentkezzen ki, ellenkező esetben az elemek törlésre kerülnek.</item>
     </plurals>
     <plurals name="micloud_main_resume_sync_hour">
-        <item quantity="other">Folytassa a szinkronizálást %d óra múlva</item>
-        <item quantity="one">Folytassa a szinkronizálást %d óra múlva</item>
+        <item quantity="other">Folytatódjon a szinkronizálás %d óra múlva</item>
+        <item quantity="one">Folytatódjon a szinkronizálás %d óra múlva</item>
     </plurals>
     <plurals name="micloud_main_resume_sync_min">
-        <item quantity="other">Folytassa a szinkronizálást %d perc múlva</item>
-        <item quantity="one">Folytassa a szinkronizálást %d perc múlva</item>
+        <item quantity="other">Folytatódjon a szinkronizálás %d perc múlva</item>
+        <item quantity="one">Folytatódjon a szinkronizálás %d perc múlva</item>
     </plurals>
 </resources>

@@ -302,6 +302,15 @@ Użyj innego konta."</string>
     <string name="micloud_detail_pause">Synch. wstrzymana</string>
     <string name="micloud_detail_need_charge_or_sleep">Podłącz ładowarkę i wyłącz ekran, aby synchronizować</string>
     <string name="micloud_detail_battery_low">Niski poziom baterii</string>
+    <string name="micloud_privacy_cloud_off">Synchronizacja wył.</string>
+    <string name="micloud_privacy_licence_agreed">Wyraź zgodę na politykę prywatności Chmury Xiaomi.</string>
+    <string name="micloud_privacy_licence_privacy_policy">polityka prywatności</string>
+    <string name="micloud_privacy_explanation">Włącz Chmurę Xiaomi po przyznaniu autoryzacji</string>
+    <string name="micloud_privacy_cloud_sync">Włącz Chmurę Xiaomi</string>
+    <string name="micloud_privacy_warning_title">Wskazówka</string>
+    <string name="micloud_privacy_warning_content">Nie można włączyć Chmury Xiaomi. Spróbuj później.</string>
+    <string name="micloud_privacy_warning_button">Wstecz</string>
+    <string name="micloud_privacy_more">więcej</string>
     <string name="micloud_check_sim_title">"Wygląda na to, że zmieniono kartę SIM. Zaloguj się ponownie na konto Xiaomi,
 aby aktywować usługę Chmura Xiaomi."</string>
     <string name="micloud_check_sim_notify_title">Aktywuj ponownie Chmurę Xiaomi</string>
@@ -322,7 +331,7 @@ aby aktywować usługę Chmura Xiaomi."</string>
     <string name="get_first_month_gb">Pobierz %s darmowej przestrzeni</string>
     <string name="more_activity_in_upgrade_space">Dowiedz się więcej na <a href="http://i.mi.com">http://i.mi.com</a></string>
     <string name="success_upgraded_space">Dodano: %s</string>
-    <string name="total_space_upgraded_to">Łączna pojemność: %s</string>
+    <string name="total_space_upgraded_to">Razem: %s</string>
     <string name="apple_cloud">iCloud</string>
     <string name="google_cloud">Dysk Google</string>
     <string name="microsoft_cloud">Usługa Microsoft Cloud</string>
@@ -462,6 +471,8 @@ podczas połączenia z Wi-Fi Ostatnia kopia: %2$s"</string>
     <string name="micloud_notif_content_multi_user_error">Zalogowano za pomocą tego samego konta, co w Pierwszej przestrzeni.</string>
     <string name="micloud_notif_title_dirty_data">Masz niezsynchronizowane elementy</string>
     <string name="micloud_notif_content_dirty_data">Szczegóły</string>
+    <string name="micloud_notif_title_privacy_reopen_failed">Nie udało się uruchomić usługi chmury</string>
+    <string name="micloud_notif_content_privacy_reopen_failed">Zobacz szczegóły</string>
     <string name="micloud_find_device_guide_title">Zaloguj się na &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font>, aby zlokalizować, zablokować lub wyczyścić urządzenie. Może to pomóc w znalezieniu urządzenia w przypadku jego utraty.&lt;br />Jeśli zgubisz urządzenie, możesz skontaktować się z serwisem zabezpieczeń najczęściej używanych aplikacji (np. Alipay, WeChat, QQ) w celu ochrony twoich kont na &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font>.</string>
     <string name="micloud_find_device_guide_content">Aby aktywować tę usługę, może być wymagana wychodząca wiadomość SMS. Twój operator pobierze opłatę za tę wiadomość. Po przełączeniu karty SIM zostanie automatycznie wysłana wiadomość, aby ponownie włączyć tę funkcję.</string>
     <string name="micloud_find_device_guide_button">Włącz funkcję Znajdź urządzenie</string>
@@ -500,6 +511,8 @@ podczas połączenia z Wi-Fi Ostatnia kopia: %2$s"</string>
     <string name="micloud_find_device_close_alert_content">Jeśli wyłączysz tą funkcję, nie będziesz w stanie zlokalizować swoje go urządzenia, gdy je zgubisz.</string>
     <string name="micloud_find_device_close_alert_positive">Utrzymuj</string>
     <string name="micloud_find_device_close_alert_negtive">Wyłącz</string>
+    <string name="find_device_gdpr_prompt">Włączając funkcję Znajdź urządzenie, wyrażasz zgodę na \"Politykę prywatności\". Jeśli chcesz odwołać autoryzację dla swojej prywatności, wyłącz tą funkcję.</string>
+    <string name="find_device_gdpr_prompt_policy_doc_name">\"Polityka prywatności\"</string>
     <string name="activate_finddevice">Połącz z siecią w celu aktywacji urządzenia</string>
     <string name="account_related">To urządzenie jest już powiązane z istniejącym kontem Xiaomi (%s). Połącz z siecią, aby zweryfikować urządzenie.</string>
     <string name="connect_network">Połącz z Wi-Fi lub włóż kartę SIM</string>
@@ -551,6 +564,7 @@ podczas połączenia z Wi-Fi Ostatnia kopia: %2$s"</string>
     <string name="micloud_main_head_menu_state_open">Włączona</string>
     <string name="micloud_main_head_menu_state_close">Wyłączona</string>
     <string name="micloud_main_head_menu_state_unavailable">Niedostępna</string>
+    <string name="micloud_main_head_menu_finddevice_unavailable">Funkcja Znajdź urządzenie nie jest dostępna w Drugiej przestrzeni, możesz z niej korzystać w Pierwszej przestrzeni.</string>
     <string name="micloud_footer_normal_url">i.mi.com</string>
     <string name="micloud_footer_international_url">mi.com/micloud</string>
     <string name="ks_fingerprint_payment">Płatności odciskiem palca</string>
@@ -574,6 +588,8 @@ podczas połączenia z Wi-Fi Ostatnia kopia: %2$s"</string>
     <string name="title_back">Wstecz</string>
     <string name="reading_status">Ładowanie statusu…</string>
     <string name="reading_status_failure">Nie udało się załadować statusu.</string>
+    <string name="micloud_alert_dialog_negative">Anuluj</string>
+    <string name="micloud_alert_dialog_positive">OK</string>
     <string name="micloud_title_dspt" formatted="false">Użyte: %s/ Razem: %s</string>
     <string name="micloud_main_memory_low_title">Pamięć wewnętrzna telefonu jest prawie pełna</string>
     <string name="micloud_notif_title_memory_low">Nie można zsynchronizować z Chmurą</string>

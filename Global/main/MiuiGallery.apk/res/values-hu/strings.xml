@@ -269,8 +269,8 @@
     <string name="confirm_download_video_title">Videó letöltése</string>
     <string name="confirm_face">Egyezés</string>
     <string name="confirm_hidden_recommend_group">Rendben</string>
-    <string name="confirm_hidden_recommend_group_message">Ha az ajánlások ki van kapcsolva, csak az \"Egyformának tűnő személyek\" opciót használhatja</string>
-    <string name="confirm_hidden_recommend_group_title">Ne mutassa az ajánlásokat</string>
+    <string name="confirm_hidden_recommend_group_message">Ha az ajánlottak ki van kapcsolva, csak az \"Egyformának tűnő személyek\" opciót használhatja</string>
+    <string name="confirm_hidden_recommend_group_title">Ne mutassa az ajánlottakat</string>
     <string name="confirm_merge_face_albums">" "<Data> Egyesíti az albumot vele: %s? </Data>" "</string>
     <string name="confirm_merge_many_face_albums">" "<Data> Egyesíti ezeket az albumokat vele: %s? </Data>" "</string>
     <string name="confirm_not_face">Nincs egyezés</string>
@@ -347,7 +347,7 @@
     <string name="email_picker_title">Megosztott e-mail hozzáadása</string>
     <string name="empty_query_text_msg">Nem tudom, hogy mit kell keresni…</string>
     <string name="empty_recommend_back">Vissza</string>
-    <string name="empty_recommend_face_page_view">Nincs több ajánlás</string>
+    <string name="empty_recommend_face_page_view">Nincs több ajánlott</string>
     <string name="empty_relation">A csoport neve nem lehet üres</string>
     <string name="empty_title_no_photos">Nincsenek fényképek vagy videók</string>
     <string name="enable_auto_upload_tip">Bekapcsolja az album automatikus mentését Mi Cloudba?</string>
@@ -443,7 +443,7 @@ Készítsen több fotót a barátairól!"</string>
     <string name="face_move_dialog_title">Válasszon egy albumot</string>
     <string name="face_name_edit">Szerkesztés</string>
     <string name="face_name_input">Írja be a nevet</string>
-    <string name="face_recommend">Ajánlások</string>
+    <string name="face_recommend">Ajánlottak</string>
     <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Nem sikerült befejezni a működést</string>
     <string name="fail_to_pick_email">Nem érvényes e-mail cím</string>

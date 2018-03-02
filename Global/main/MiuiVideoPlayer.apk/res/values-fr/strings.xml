@@ -90,7 +90,7 @@
     <string name="t_deleting">Suppression en cours…</string>
     <string name="t_downloading_new_version">Téléchargement des mises à jour…</string>
     <string name="t_exit_app">Appuyer encore pour quitter</string>
-    <string name="t_no_new_version">Mi Vidéo pour mettre à jour.</string>
+    <string name="t_no_new_version">Mi Vidéo est à jour.</string>
     <string name="t_password_limit">Le mot de passe doit contenir au moins 4 caractères</string>
     <string name="t_password_null">Le mot de passe ne peut pas être vide</string>
     <string name="t_password_wrong">Le mot de passe est incorrect. Réessayez.</string>
@@ -149,7 +149,7 @@
     <string name="v_video_null">Aucune vidéo</string>
     <string name="vp_app_name">Lecteur vidéo</string>
     <string name="vp_device_list">Appareils</string>
-    <string name="vp_device_list_seaching">&lt;Aucun appareil à caster></string>
-    <string name="screenrecord_cancel">Compatibility issues</string>
-    <string name="screenrecord_nosupport_record">"Screen recorder isn't currently supported on this device."</string>
+    <string name="vp_device_list_seaching">Aucun appareil à caster</string>
+    <string name="screenrecord_cancel">Problèmes de compatibilité</string>
+    <string name="screenrecord_nosupport_record">"L'enregistreur d'écran n'est pas actuellement pris en charge sur cet appareil."</string>
 </resources>

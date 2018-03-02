@@ -340,7 +340,7 @@
     <string name="description_minus_button">Minus</string>
     <string name="description_plus_button">Plus</string>
     <string name="description_quick_contact_for">Szybki kontakt: %1$s</string>
-    <string name="description_quick_dial_button">Quick dial</string>
+    <string name="description_quick_dial_button">Szybkie wybieranie</string>
     <string name="description_search_button">Szukaj</string>
     <string name="description_send_message">Wyślij SMS do %1$s</string>
     <string name="description_send_text_message">Wyślij SMS do: %1$s</string>
@@ -392,7 +392,7 @@
     <string name="dialer_empty_text_loading">Chwileczkę…</string>
     <string name="dialer_empty_text_no_call_log">Brak połączeń</string>
     <string name="dialer_empty_text_no_search_result">Brak kontaktów</string>
-    <string name="dialer_firewall_entry_name">Blocked call logs</string>
+    <string name="dialer_firewall_entry_name">Rejestr blokowanych połączeń</string>
     <string name="dialer_menu_description">Pokaż menu</string>
     <string name="dialer_menu_title">Opcje menu</string>
     <string name="dialer_returnToInCallScreen">Wróć do trwającej rozmowy</string>
@@ -810,7 +810,7 @@ Aby dodać kontakty do ulubionych:
     <string name="path_key_rebuild_t9_index_title">Aplikacje systemowe/Kontakty/Organizuj kontakty/Przebuduj Indeks T9</string>
     <string name="path_key_sim_manage">Aplikacje systemowe/Kontakty/Organizuj kontakty/Karty SIM</string>
     <string name="path_preference_contacts_filter">Aplikacje systemowe/Kontakty/Ustawienia wyświetlania/Skonfiguruj listę kontaktów</string>
-    <string name="path_quick_dial_setting">System apps/Contacts/Quick dial</string>
+    <string name="path_quick_dial_setting">Aplikacje systemowe/Telefon/Zaawansowane ustawienia/Szybkie wybieranie</string>
     <string name="path_remove_duplicate">Aplikacje systemowe/Kontakty/Organizuj kontakty/Scal zduplikowane kontakty</string>
     <string name="path_share_visible_contacts">Aplikacje systemowe/Kontakty/Wczytywanie/Kopiowanie kontaktów/Udostępnij kontakty</string>
     <string name="path_sim_capacity">Aplikacje systemowe/Kontakty/Pamięć karty SIM</string>
@@ -871,6 +871,7 @@ Aby dodać kontakty do ulubionych:
     <string name="preference_contacts_display">Ustawienia wyświetlania</string>
     <string name="preference_contacts_filter">Skonfiguruj listę kontaktów</string>
     <string name="preference_contacts_more">Organizuj kontakty</string>
+    <string name="preference_contacts_moresetting">Więcej</string>
     <string name="preference_dial_pad_touch_tone_default">Standardowy</string>
     <string name="preference_dial_pad_touch_tone_human">Ludzki głos</string>
     <string name="preference_dial_pad_touch_tone_piano">Pianino</string>
@@ -878,6 +879,7 @@ Aby dodać kontakty do ulubionych:
     <string name="preference_dial_pad_touch_tone_title">Dźwięki wybierania numeru</string>
     <string name="preference_display">Wyświetlanie</string>
     <string name="preference_displayOptions">Kolejność wyświetlania</string>
+    <string name="preference_display_contact">Display options</string>
     <string name="preference_export">Kopiowanie kontaktów</string>
     <string name="preference_import">Wczytaj</string>
     <string name="preference_import_export">Wczytaj/Kopiuj kontakty</string>
@@ -922,12 +924,12 @@ Aby dodać kontakty do ulubionych:
     <string name="pull_to_refresh_release_label">Puść, aby odświeżyć</string>
     <string name="qr_card_card">Kod QR</string>
     <string name="qrcode_card_title">Kod QR</string>
-    <string name="quick_dial_setting_delete_dialog_message">Delete assigned quick dial number?</string>
-    <string name="quick_dial_setting_delete_dialog_option_delete">Delete</string>
-    <string name="quick_dial_setting_hint">Tap a button to assign or remove a quick dial number. Press and hold the button with an assigned number to dial.</string>
-    <string name="quick_dial_setting_set_dialog_message">Assign a quick dial number to this button?</string>
-    <string name="quick_dial_setting_set_dialog_option_set">Yes</string>
-    <string name="quick_dial_setting_title">Quick dial</string>
+    <string name="quick_dial_setting_delete_dialog_message">Usunąć przypisany numer szybkiego wybierania?</string>
+    <string name="quick_dial_setting_delete_dialog_option_delete">Usuń</string>
+    <string name="quick_dial_setting_hint">Naciśnij przycisk, aby przypisać lub usunąć numer szybkiego wybierania. Przyciśnij i przytrzymaj przycisk z przypisanym numerem, aby nawiązać połączenia.</string>
+    <string name="quick_dial_setting_set_dialog_message">Przypisać numer szybkiego wybierania do tego przycisku?</string>
+    <string name="quick_dial_setting_set_dialog_option_set">Tak</string>
+    <string name="quick_dial_setting_title">Szybkie wybieranie</string>
     <string name="quickcontact_missing_app">Nie znaleziono aplikacji do obsługi tego działania.</string>
     <string name="quit_dialog_confirm_message">Nie scalono żadnych kontaktów</string>
     <string name="quit_dialog_confirm_title">Anuluj scalanie kontaktów</string>
@@ -996,7 +998,7 @@ Aby rozpocząć, dotknij ikony Scalania na dole swojego ekranu."</string>
     <string name="search_key_rebuild_t9_index_title">Organizuj;Kontakty;t9</string>
     <string name="search_key_sim_manage">Organizuj;Kontakty</string>
     <string name="search_preference_contacts_filter">Kontakty;Wyświetlanie</string>
-    <string name="search_quick_dial_setting">Contacts</string>
+    <string name="search_quick_dial_setting">Telefon</string>
     <string name="search_remove_duplicate">Organizuj;Kontakty</string>
     <string name="search_results_searching">Wyszukiwanie…</string>
     <string name="search_settings_description">Nazwy Twoich kontaktów</string>

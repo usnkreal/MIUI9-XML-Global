@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="privacy_authorize_revoke_title">Authorization &amp; revocation</string>
+    <string name="enabled_authorised_apps_title">Granted authorization</string>
+    <string name="enabled_authorised_apps_summary">Your authorization will be revoked after you toggle switches of individual apps.</string>
+    <string name="disabled_authorised_apps_title">Revoked authorization</string>
+    <string name="privacy_authorize_revoke_dialog_title">Revoking authorization</string>
+    <string name="privacy_authorize_revoke_dialog_msg">After you revoke authorization, the app will stop collecting data, and all the related data will be deleted from the servers. This might make the app virtually unusable. Revoke authorization anyway?</string>
+    <string name="privacy_authorize_revoke">Revoke</string>
+    <string name="privacy_authorize_revoke_time">Revoke (%1$ds)</string>
+    <string name="privacy_authorize_title">Granting authorization</string>
+    <string name="privacy_authorize_privacy_policy">Privacy Policy</string>
+    <string name="privacy_authorize_dialog_message">%1$s requires that you read and agree with %2$s. The app needs to connect to the network to work normally. Agree?</string>
+    <string name="privacy_authorize_dialog_exit">Exit</string>
+    <string name="privacy_authorize_dialog_agree">Agree</string>
+    <string name="privacy_authorize_network_error">Connect to the network and try again.</string>
+    <string name="privacy_authorize_revoke_success">Revoked authorization successfully</string>
+    <string name="privacy_authorize_revoke_failed">"Couldn't revoke authorization"</string>
+    <string name="privacy_authorize_success">Granted authorization successfully</string>
+    <string name="privacy_authorize_revoking">Revoking authorization…</string>
     <string name="launcher_title">Ecranul de start &amp; Recente</string>
     <string name="defalut_launcher_title">Lansator implicit</string>
     <string name="miui_screen_config_title">Setări Ecranul de start</string>
@@ -2975,7 +2993,8 @@ Astfel, datele sunt protejate pe dispozitivele pierdute sau furate."</string>
     <string name="write_settings_on">Da</string>
     <string name="write_settings_off">Nu</string>
     <string name="ad_service">Servicii de publicitate</string>
-    <string name="use_personalized_ad_service">Utilizați identificator publicitar</string>
+    <string name="use_personalized_ad_service">Personalized Ad Recommendation</string>
+    <string name="use_personalized_ad_service_summary">When the recommendation feature is switched off, you will still see the same quantity of ads as when it’s on, but not based on your behavior data or your personal information.</string>
     <string name="reset_aaid">Resetează identificator publicitar</string>
     <string name="confirm_reset_aaid">OK</string>
     <string name="about_ad_service_instructions">Despre serviciile publicitare și confidențialitate</string>
@@ -3296,6 +3315,7 @@ Astfel, datele sunt protejate pe dispozitivele pierdute sau furate."</string>
     <string name="sure_sync_now">Sincronizați acum elementele?</string>
     <string name="sync_now">Sincronizare</string>
     <string name="suggestion_for_phone_recycled">Adaugă un alt număr de telefon</string>
+    <string name="mi_upi_settings">Mi Pay Account</string>
     <string name="sms_received_sound_title">Mesaj primit</string>
     <string name="sms_delivered_sound_title">Mesaj livrat</string>
     <string name="sms_received_sound_dialog_title">Alege sunet de notificare atunci când primesc un mesaj</string>
@@ -3920,6 +3940,8 @@ Selectați sistemul de operare:"</string>
     <string name="tether_settings_disabled">Hotspot portabil este oprit</string>
     <string name="tether_data_usage_limit">Limită de date pentru o singură utilizare</string>
     <string name="tether_data_usage_limit_summary">Limita de date va fi aplicată data viitoare când hotspot-ul dvs. este activat</string>
+    <string name="tether_auto_disable_title">Automatically close hotspot</string>
+    <string name="tether_auto_disable_summary">Automatically close hotspot when no connected devices</string>
     <string name="hdmi_3dplay_settings_title">HDMI</string>
     <string name="hdmi_3dplay_control_text">3D la ieşire</string>
     <string name="hdmi_3dplay_control_enable_subtext">Ieșire Stereoscopică 3D la un monitor 3D extern este activat</string>
@@ -4051,7 +4073,7 @@ Selectați sistemul de operare:"</string>
     <string name="local_backup_section_summary">Setările sistemului copiilor de rezervă,informaţii cont şi aplicaţii</string>
     <string name="cloud_backup_section_title">Copie de rezervă Mi Cloud</string>
     <string name="cloud_restore_section_title">Restabilire de la Mi Cloud</string>
-    <string name="cloud_restore_section_summary">Restore system settings, Home screen layout, and apps</string>
+    <string name="cloud_restore_section_summary">Restabileşte setările de sistem, aspectul Ecranului principal și aplicații</string>
     <string name="cloud_backup_settings_section_title">Copie de rezervă setări</string>
     <string name="other_personal_settings">Setări adiționale</string>
     <string name="local_auto_backup_section_title">Copii de siguranță automate</string>
@@ -4533,8 +4555,8 @@ Selectați sistemul de operare:"</string>
     <string name="music_dirac_mode_in_ear_pro">Mi In-Ear Pro</string>
     <string name="music_dirac_mode_capsule">Mi Capsule</string>
     <string name="music_dirac_mode_headset_comfort">Mi Comfort</string>
-    <string name="music_dirac_mode_reduction_noise">Mi Noise Cancelling (TypeC)</string>
-    <string name="music_dirac_mode_cancelling">Mi Noise Cancelling (3.5mm)</string>
+    <string name="music_dirac_mode_reduction_noise">Se anulează Zgomotul Mi (Type C)</string>
+    <string name="music_dirac_mode_cancelling">Se anulează Zgomotul Mi (3.5mm)</string>
     <string name="music_audio_effect_settings">Setări efecte</string>
     <string name="music_equalizer_summary">Ajustați nivelurile individuale pentru diferite tipuri de muzică</string>
     <string name="music_unsupport_effect_summary">Căștile USB nu sunt suportate</string>
@@ -4542,7 +4564,7 @@ Selectați sistemul de operare:"</string>
     <string name="music_dolby_mode_off">Oprit</string>
     <string name="music_dolby_mode_music">Muzică</string>
     <string name="music_dolby_mode_movie">Video</string>
-    <string name="music_app_unavailable">Depinde de aplicația muzicală, asigurați-vă că este disponibilă</string>
+    <string name="music_app_unavailable">Asigurați-vă că aplicația Mi Muzică este disponibilă.</string>
     <string name="lockpassword_confirm_workspace_password">Verificaţi parola de la Spaţiul de lucru</string>
     <string name="turn_on_keyguard_password_alert_forget_title">Memorează parola</string>
     <string name="turn_on_keyguard_password_alert_forget_content">Amintiți-vă parola ecranului de blocare. Dacă îl uitați, va trebui să ștergeți toate datele de pe dispozitiv, inclusiv fotografiile și persoanele de contact, apoi setați unul nou.</string>
@@ -4780,6 +4802,8 @@ Selectați sistemul de operare:"</string>
     <string name="navigation_guide_dialog_dont_show_again">Nu mai afișa din nou</string>
     <string name="navigation_guide_back_anim_title">Animează gestul \"Du-te înapoi\"</string>
     <string name="navigation_guide_back_anim_summary">Afișați animația în timp ce treceți de la marginea ecranului</string>
+    <string name="fsg_mistake_touch_title">Double check for the gestures</string>
+    <string name="fsg_mistake_touch_summary">In some scenes, such as full-screen games and videos, gestures need to be double swipe to take effect</string>
     <string name="navigation_guide_settings">Gesturi demo</string>
     <string name="navigation_guide_home_title">Du-te la Ecranul de start</string>
     <string name="navigation_guide_home_summary">Glisați în sus din partea inferioară a ecranului</string>
@@ -4787,8 +4811,8 @@ Selectați sistemul de operare:"</string>
     <string name="navigation_guide_recent_summary">Glisați în sus din partea de jos a ecranului și întrerupeți</string>
     <string name="navigation_guide_back_title">Du-te înapoi</string>
     <string name="navigation_guide_back_summary">Glisează de la stânga sau dreapta de la marginea ecranului</string>
-    <string name="navigation_guide_app_title">"Trigger app's action"</string>
-    <string name="navigation_guide_app_summary">Swipe left or right from the edge of the screen in top area</string>
+    <string name="navigation_guide_app_title">Activează acțiunea aplicației</string>
+    <string name="navigation_guide_app_summary">Glisează stânga sau dreapta de la marginea ecranului în partea de sus</string>
     <string name="tts_reset_speech_pitch_title">Resetați tonul vorbirii</string>
     <string name="tts_reset_speech_pitch_summary">Resetați tonul la care se vorbește textul în mod implicit.</string>
     <string name="development_settings_enable">Activați opțiunile pentru dezvoltatori</string>

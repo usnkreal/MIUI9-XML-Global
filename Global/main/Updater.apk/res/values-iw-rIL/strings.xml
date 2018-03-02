@@ -89,7 +89,7 @@
     <string name="enable">הפעלה</string>
     <string name="disable">אל תפעיל</string>
     <string name="mobile_download_title">לעדכן באמצעות שימוש בנתונים סלולריים?</string>
-    <string name="mobile_download_msg">במידה ויש ברשותך תכנית נתונים ללא הגבלה, באפשרותך להפעיל את הורדת העדכונים האוטומטית באמצעות נתונים סלולריים. לאחר הפעלת תכונה זו, העדכונים ירדו בזמן המוגדר לכך.</string>
+    <string name="mobile_download_msg">במידה ויש ברשותך תכנית נתונים ללא הגבלה, באפשרותך להוריד עדכונים באופן אוטומטי באמצעות נתונים סלולריים. לאחר הפעלת תכונה זו, העדכונים ירדו בזמן המוגדר לכך.</string>
     <string name="recovery_failed_title">השתמש בMi PC Suite לעדכון המערכת</string>
     <string name="recovery_power_not_enough_title">סוללה חלשה</string>
     <string name="recovery_power_not_enough_msg">טען את מכשירך ב-15% לפחות על מנת לעדכן.</string>
@@ -320,4 +320,5 @@ http://zhushou.xiaomi.com"</string>
     <string name="security_space_msg">"למערכת MIUI 9 יש קובץ מערכת חדש. במידה ותאתחל את מכשירך כעת, יתכן ולא תוכל להשתמש ב'שטח שני'. העבר את כל הפריטים מ'שטח שני' אל 'שטח ראשון' לפני ביצוע האתחול."</string>
     <string name="security_space_button_pos">אל תאתחל</string>
     <string name="security_space_button_neg">אתחל כעת</string>
+    <string name="privacy_revoke_msg">"יישום 'עדכונים' מסייע לך לשמור על מערכת MIUI והתכונות שלה מעודכנות. לאחר שלילת ההרשאה, היישום יפסיק לאסוף נתונים, וכל הנתונים הקשורים (כולל הנתונים אודות המכשירים אשר זקוקים לעדכון) ימחקו ממכשיר זה ומהשרתים. במידה ותסרב לבצע עדכון, הינך עשוי להיחשף לסיכוני אבטחה. לשלול הרשאה כעת?"</string>
 </resources>

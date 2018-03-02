@@ -10,6 +10,15 @@
         <item>ההתראה הוגדרה לעוד %2$s ו-%3$s מעכשיו.</item>
         <item>ההתראה הוגדרה לעוד %1$s, %2$s ו-%3$s מעכשיו.</item>
     </string-array>
+    <string-array name="auto_silence_entries">
+        <item>כבוי</item>
+        <item>5 דקות</item>
+        <item>10 דקות</item>
+        <item>15 דקות</item>
+        <item>20 דקות</item>
+        <item>25 דקות</item>
+        <item>30 דקות</item>
+    </string-array>
     <string-array name="snooze_duration_entries">
         <item>5 דקות</item>
         <item>10 דקות</item>
@@ -25,15 +34,6 @@
         <item>20</item>
         <item>25</item>
         <item>30</item>
-    </string-array>
-    <string-array name="auto_silence_entries">
-        <item>כבוי</item>
-        <item>5 דקות</item>
-        <item>10 דקות</item>
-        <item>15 דקות</item>
-        <item>20 דקות</item>
-        <item>25 דקות</item>
-        <item>30 דקות</item>
     </string-array>
     <string-array name="volume_button_setting_entries">
         <item>ללא</item>

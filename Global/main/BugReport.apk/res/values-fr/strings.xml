@@ -163,6 +163,7 @@
     <string name="cta_confirm">OK</string>
     <string name="submit_dialog_title">Envoyer le rapport</string>
     <string name="submit_dialog_content">Votre commentaire avec vos pièces jointes et journaux seront envoyés aux serveurs MIUI. Cela pourrait contenir des informations personnelles et vos données de localisation.</string>
+    <string name="submit_dialog_content_global">Vos commentaires, ainsi que les pièces jointes (le cas échéant) et les journaux (vous pouvez décocher les cases correspondantes pour les articles que vous ne voulez pas télécharger) seront envoyés aux serveurs MIUI et une section restreinte de MIUI Forum pour les développeurs pour analyse et communication ultérieure . Les journaux peuvent contenir des informations personnelles et vos données de localisation.</string>
     <string name="submit_dialog_cancel">Annuler</string>
     <string name="submit_dialog_confirm">Envoyer</string>
     <string name="mobile_data_note_dialog_title">"Alerte d'utilisation des données"</string>
@@ -177,7 +178,7 @@
     <string name="modem_tool_log_finish_title">Journal de modem capturé</string>
     <string name="modem_tool_log_finish_desc">Journal enregistré sous %s</string>
     <string name="bugreport_dialog_not_show_again">Ne plus afficher</string>
-    <string name="bugreport_dialog_submit_content">Votre commentaire pourrait contenir des informations personnelles et vos données de localisation.</string>
+    <string name="bugreport_dialog_submit_content">"Vous enregistrez les journaux de logiciels sur cet appareil maintenant. Les journaux peuvent contenir des informations personnelles et vos données de géolocalisation. Ne partagez pas les journaux avec quelqu'un d'autre si vous ne souhaitez pas que cette information soit exposée."</string>
     <string name="bugreport_dump_start_notification_title">"Création du journal d'erreurs…"</string>
     <string name="bugreport_dump_start_notification_summary">Cela peut prendre plusieurs minutes.</string>
     <string name="bugreport_dump_complete_notification_title">"Rapport d'erreur créé"</string>
@@ -219,6 +220,14 @@
     <string name="feedback_choose_module_hint">Requis</string>
     <string name="feedback_choose_reproductivity">Reproductivité</string>
     <string name="feedback_title_reproductivity">Sélectionner la reproductivité</string>
+    <string name="feedback_select_problem_select_desc">\"Problèmes\" sélectionnés</string>
+    <string name="feedback_select_problem_not_select_desc">"Vous n'avez pas sélectionné \"Problèmes\""</string>
+    <string name="feedback_select_suggestion_select_desc">\"Suggestions\" sélectionné</string>
+    <string name="feedback_select_suggestion_not_select_desc">"Vous n'avez pas sélectionné \"Suggestions\""</string>
+    <string name="feedback_select_upload_log_select_desc">\"Ajouter des journaux\" sélectionné</string>
+    <string name="feedback_select_upload_log_not_select_desc">"Vous n'avez pas sélectionné \"Ajouter des journaux\""</string>
+    <string name="feedback_select_modem_log_select_desc">Vous avez ajouté \"Ajouter des journaux de modem\"</string>
+    <string name="feedback_select_modem_log_not_select_desc">"Vous n'avez pas sélectionné \"Ajouter des journaux de modem\""</string>
     <string name="feedback_report_remind_login_desc">Connectez-vous avec votre Compte Mi pour afin que nos ingénieurs puissent vous contacter.</string>
     <string name="feedback_report_remind_login_desc2">Vous pouvez aussi afficher la progression de vos commentaires dans \"Mes commentaires\".</string>
     <string name="feedback_history_remind_login_desc">Connectez-vous avec votre Compte Mi pour voir les détails et la progression de vos commentaires</string>

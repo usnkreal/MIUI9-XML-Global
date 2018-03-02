@@ -94,10 +94,10 @@
     <string name="request_empty_data">Žiadne údaje</string>
     <string name="app_label">Hlásenie chýb</string>
     <string name="app_name">Hlásenie chýb</string>
-    <string name="logo_title">Centrum hlásenia Chýb</string>
+    <string name="logo_title">Centrum Hlásenia chýb</string>
     <string name="report_miui">Nahlásiť chybu</string>
     <string name="menu_copy">Kopírovať</string>
-    <string name="description">Našli ste novú chybu? Napíšte jej popis (v angličtine)</string>
+    <string name="description">Popíšte chybu</string>
     <string name="suggestion_description">Napíšte svoj návrh na novú funkciu (v angličtine)...</string>
     <string name="btn_send">Odoslať</string>
     <string name="err_type">Typ chyby</string>
@@ -163,6 +163,7 @@
     <string name="cta_confirm">OK</string>
     <string name="submit_dialog_title">Odoslať hlásenie</string>
     <string name="submit_dialog_content">Vaša spätná väzba, prílohy a záznamy budú odoslané na servery MIUI. Môžu obsahovať osobné údaje a údaje o vašej polohe.</string>
+    <string name="submit_dialog_content_global">"Your feedback, along with attachments (if any) and logs (you can uncheck the corresponding boxes for the items you don't want to upload) will be sent to MIUI's servers and a restricted section of MIUI Forum for developers for analysis and further communication. Logs may contain personal info and your location data."</string>
     <string name="submit_dialog_cancel">Zrušiť</string>
     <string name="submit_dialog_confirm">Odoslať</string>
     <string name="mobile_data_note_dialog_title">Upozornenie o využívaní dát</string>
@@ -177,7 +178,7 @@
     <string name="modem_tool_log_finish_title">Záznam modemu bol vytvorený</string>
     <string name="modem_tool_log_finish_desc">Záznam bol uložený ako %s</string>
     <string name="bugreport_dialog_not_show_again">Viac nezobrazovať</string>
-    <string name="bugreport_dialog_submit_content">Vaša spätná väzba môže obsahovať osobné údaje a informácie o vašej polohe.</string>
+    <string name="bugreport_dialog_submit_content">"You're saving software logs on this device now. Logs may contain personal info and your location data. Don't share logs with anyone else if you don't want this info to be exposed."</string>
     <string name="bugreport_dump_start_notification_title">Vytváranie hlásenia o chybe...</string>
     <string name="bugreport_dump_start_notification_summary">Môže to trvať niekoľko minút.</string>
     <string name="bugreport_dump_complete_notification_title">Vytvorené hlásenie o chybe</string>
@@ -219,6 +220,14 @@
     <string name="feedback_choose_module_hint">Povinné</string>
     <string name="feedback_choose_reproductivity">Reprodukcia</string>
     <string name="feedback_title_reproductivity">Vybrať reprodukciu</string>
+    <string name="feedback_select_problem_select_desc">Vyznačené \"Problémy\"</string>
+    <string name="feedback_select_problem_not_select_desc">\"Problémy\" nie sú označené</string>
+    <string name="feedback_select_suggestion_select_desc">Označené \"Návrhy\"</string>
+    <string name="feedback_select_suggestion_not_select_desc">\"Návrhy\" nie sú označené</string>
+    <string name="feedback_select_upload_log_select_desc">Označené \"Pridať logy\"</string>
+    <string name="feedback_select_upload_log_not_select_desc">\"Pridať logy\" nie je označené</string>
+    <string name="feedback_select_modem_log_select_desc">Označené \"Pridať logy modemu\"</string>
+    <string name="feedback_select_modem_log_not_select_desc">\"Pridať logy modemu\" nie je označené</string>
     <string name="feedback_report_remind_login_desc">Prihláste sa svojim Xiaomi účtom aby sme vás mohli kontaktovať.</string>
     <string name="feedback_report_remind_login_desc2">Múžete zobraziť stav vašich nahlásených chýb v \"Moje hlásenia\".\"</string>
     <string name="feedback_history_remind_login_desc">Prihláste sa svojim Xiaomi účtom pre zobrazenie podrobností a stav vašich nahlásených chýb.</string>

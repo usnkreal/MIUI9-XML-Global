@@ -77,6 +77,9 @@
     <string name="content_desc_activity_main_add_city">Přidat město</string>
     <string name="content_desc_activity_main_add_city_manage">Spravovat města</string>
     <string name="content_desc_activity_main_more_settings">Další nastavení</string>
+    <string name="content_desc_back_button">Back</string>
+    <string name="content_desc_close_button">Close</string>
+    <string name="content_desc_edit_city_manage">Manage cities</string>
     <string name="daily_forcast_drawer_on_bottom">Skrýt</string>
     <string name="daily_forcast_no_stable_direction">Vánek</string>
     <string name="daily_forcast_no_wind">0</string>
@@ -148,7 +151,9 @@ Klepněte na obrazovku a ručně přidejte město nebo změňte jeho polohu"</st
     <string name="lunar_calendar" />
     <string name="menu_add_city">Upravit místa</string>
     <string name="menu_location">Místa</string>
+    <string name="menu_speaker">Voice broadcast</string>
     <string name="mi_pad2">latte</string>
+    <string name="minute_rain">Minutely forecast</string>
     <string name="minute_rain_after_an_hour">Do 1 hodiny</string>
     <string name="minute_rain_after_two_hour">Do 2 hodin</string>
     <string name="minute_rain_feedback_subtitle">Řekněte nám, jaké je venku počasí.</string>
@@ -160,6 +165,7 @@ Klepněte na obrazovku a ručně přidejte město nebo změňte jeho polohu"</st
     <string name="minute_rain_progress_indicator_original_time">- -</string>
     <string name="minute_rain_pull_down_refresh">Potáhnutím dolů obnovíte</string>
     <string name="minute_rain_refreshing_now">Obnovování…</string>
+    <string name="missing_required_permission">You have disabled a required permission.</string>
     <string name="more_details">Bližší podrobnosti</string>
     <string name="network_not_available">Nelze se připojit k síti</string>
     <string name="network_unavailable">Nelze se připojit k síti.</string>
@@ -175,15 +181,15 @@ Klepněte na obrazovku a ručně přidejte město nebo změňte jeho polohu"</st
     <string name="particulate_matter_exceeded">Vysoká</string>
     <string name="particulate_matter_not_exceeded">Normální</string>
     <string name="particulate_matter_serious_exceeded">Velmi vysoká</string>
-    <string name="precipitation_degree_five">暴</string>
-    <string name="precipitation_degree_four">大</string>
-    <string name="precipitation_degree_one">无</string>
-    <string name="precipitation_degree_three">中</string>
-    <string name="precipitation_degree_two">小</string>
+    <string name="precipitation_degree_five">Velmi silné</string>
+    <string name="precipitation_degree_four">Silné</string>
+    <string name="precipitation_degree_one">Žádné</string>
+    <string name="precipitation_degree_three">Střední</string>
+    <string name="precipitation_degree_two">Slabé</string>
     <string name="pressure_connect">%1$s mb</string>
     <string name="pull_fresh_updated">Úspěšně aktualizováno</string>
     <string name="pull_fresh_updating">Aktualizuji…</string>
-    <string name="radar_cloud_image_title">雷达降水图</string>
+    <string name="radar_cloud_image_title">Radarová mapa</string>
     <string name="rainfall_settings_summary">Srážkové výstrahy</string>
     <string name="rainfall_settings_title">Srážky</string>
     <string name="real_time_sunrise">Východ slunce %1$s</string>
@@ -195,6 +201,8 @@ Klepněte na obrazovku a ručně přidejte město nebo změňte jeho polohu"</st
     <string name="refresh_fail">Nepodařilo se připojit k síti</string>
     <string name="reminder_from_xiaomi_weather_app">Mi Výstrahy počasí</string>
     <string name="retry">Opakovat</string>
+    <string name="search_weather">Počasí</string>
+    <string name="search_weather_keywords">Teplota;Předpověď počasí;Počasí;Kvalita vzduchu;Stupeň znečištění;Vlhkost</string>
     <string name="set">Nastavení</string>
     <string name="set_degree_centigrade">°C</string>
     <string name="set_fahrenheit">°F</string>
@@ -260,11 +268,4 @@ Klepněte na obrazovku a ručně přidejte město nebo změňte jeho polohu"</st
     <string name="xiaomi_weather_description_title">O Počasí</string>
     <string name="yes_vote_ratio">Pro %1$s%%</string>
     <string name="your_location">Vaše poloha</string>
-    <string name="information_manager_default_weather_bg">Výchozí pozadí počasí</string>
-    <string name="information_manager_information">Informace o počasí</string>
-    <string name="information_manager_wlan">Zobrazit při připojení k Wi-Fi</string>
-    <string name="information_menu_title" />
-    <string name="information_set">Další nastavení</string>
-    <string name="menu_minute_rain">Dvouhodinová předpověď srážek</string>
-    <string name="menu_speeker">Hlasové vysílání</string>
 </resources>

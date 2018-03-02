@@ -80,7 +80,7 @@
     <string name="menu_add">추가</string>
     <string name="menu_edit">편집</string>
     <string name="menu_remove">삭제</string>
-    <string name="menu_white">예외</string>
+    <string name="menu_white">예외 목록에 추가</string>
     <string name="st_settings_name">차단 목록 설정</string>
     <string name="st_filter_keywords_setting_summary1">이 목록에 있는 단어를 포함한 알 수 없는 번호에서 온 메시지는 차단됩니다.</string>
     <string name="st_filter_keywords_setting_summary3">이 목록에 있는 단어를 포함한 알 수 없는 번호에서 온 메시지가 허용됩니다.</string>
@@ -616,7 +616,7 @@ Rolled over extra data"</string>
     <string name="tc_sms_report_type">보고서 유형</string>
     <string name="privacy_declare_dialog_title">서비스 약관</string>
     <string name="sc_allow_network_dialog_tiltle">이 기능을 사용할 수 없습니다.</string>
-    <string name="sc_allow_network_dialog_message">이 앱이 정상적으로 작동하려면 인터넷 연결이 필요합니다.</string>
+    <string name="sc_allow_network_dialog_message">보안 네트워크 연결 및 위치 접근을 제한하셨습니다. 이 기능 사용을 위해 보안에 필요한 권한을 부여하십시오.</string>
     <string name="privacy_prompt_upload">업로드</string>
     <string name="privacy_prompt_traffic_adjust_message">"보정을 클릭하신 후, MIUI 시스템은 네트워크에 연결되며 귀하가 제출하신 통신사 정보, 전화번호, IMEI, Mi 계정 등을 암호화하여 Mi 서버로 업로드하여 데이터 구매에 적합한 지역인지 확인합니다. 
 
@@ -768,8 +768,8 @@ Rolled over extra data"</string>
     <string name="networkchanged_exception_title">연결 변경됨</string>
     <string name="networkchanged_exception_summary">네트워크 연결이 변경되었습니다. 다시 테스트하십시오.</string>
     <string name="network_test_speed">Wi-Fi 속도 검사</string>
-    <string name="network_changed_noti_title">Disconnected from Wi-Fi</string>
-    <string name="network_changed_noti_summary">Using mobile data</string>
+    <string name="network_changed_noti_title">Wi-Fi와 연결해제됨</string>
+    <string name="network_changed_noti_summary">모바일 데이터 사용</string>
     <string name="network_speed_for_apps_title">연결</string>
     <string name="network_speed_for_apps_total">연결 속도</string>
     <string name="network_speed_for_apps_close_app_dlg_msg">이 앱을 강제 종료하시겠습니까?</string>
@@ -1675,7 +1675,7 @@ Rolled over extra data"</string>
     <string name="preferred_app_entries_music">음악</string>
     <string name="preferred_app_entries_email">이메일</string>
     <string name="card_main_applock_title">앱 잠금</string>
-    <string name="card_main_applock_summary">메시지, 사진, 중요 항목을 비밀번호로 보호하십시오.</string>
+    <string name="card_main_applock_summary">비밀번호로 선택된 앱 보호</string>
     <string name="card_main_applock_action">켜기</string>
     <string name="card_main_deepclean_title">정밀 청소</string>
     <string name="card_main_deepclean_summary">불필요한 파일들을 삭제하기</string>
@@ -1714,14 +1714,18 @@ Rolled over extra data"</string>
     <string name="more_lock">더 보기</string>
     <string name="app_name">앱 잠금</string>
     <string name="back_app_name">뒤로가서 앱 잠금</string>
-    <string name="notification_item">앱 잠금으로 앱 보호</string>
+    <string name="ac_notification_contentTitle">앱 잠금으로 앱 보호</string>
+    <string name="ac_pre_notification_contentTitle">앱 잠금 시도</string>
+    <string name="ac_post_notification_contentTitle">앱 잠금 켜기</string>
     <string name="notification_masked_item">알림 숨기기</string>
     <string name="lock_mode_title">잠금 설정</string>
     <string name="after_the_lock_screen">화면 잠금과 함께 앱 잠금</string>
     <string name="set_applock_password">비밀번호 설정</string>
     <string name="ac_firstUseApplock_title">비밀번호를 설정하여 앱을 보호하십시오.</string>
     <string name="ac_firstUseApplock_subTitle">시스템 보안 레벨을 강화하십시오.</string>
-    <string name="notification_subtitle">탭하여 켜기</string>
+    <string name="ac_notification_contentText">탭하여 켜기</string>
+    <string name="ac_pre_notification_contentText">개인 정보 보호</string>
+    <string name="ac_post_notification_contentText">시스템 수준 보호 선택</string>
     <string name="notification_masked_subtitle">앱 잠금으로 보호되고 있는 앱에서의 알림 숨기기</string>
     <string name="ac_enter_applock">앱 잠금 진입</string>
     <string name="ac_mask_all_apps">모든 앱 숨기기</string>

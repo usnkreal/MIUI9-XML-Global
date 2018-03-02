@@ -163,6 +163,7 @@
     <string name="cta_confirm">OK</string>
     <string name="submit_dialog_title">Odeslat hlášení</string>
     <string name="submit_dialog_content">Vaše připomínky spolu s přílohami a protokoly budou odeslány na servery MIUI. Mohou obsahovat osobní údaje a informace o vaší poloze.</string>
+    <string name="submit_dialog_content_global">Vaše zpětná vazba společně s přílohami (pokud nějaké jsou) a protokoly (pro položky, které nechcete odeslat zrušte zaškrtnutí políčka) bude odeslána na servery MIUI a do MIUI Fóra pro vývojáře pro přezkoumání. Protokoly mohou obsahovat osobní údaje a informace o vaší poloze.</string>
     <string name="submit_dialog_cancel">Zrušit</string>
     <string name="submit_dialog_confirm">Odeslat</string>
     <string name="mobile_data_note_dialog_title">Upozornění na využítí dat</string>
@@ -177,7 +178,7 @@
     <string name="modem_tool_log_finish_title">Záznam modemu vytvořen</string>
     <string name="modem_tool_log_finish_desc">Záznam je uložen jako %s</string>
     <string name="bugreport_dialog_not_show_again">Znovu nezobrazovat</string>
-    <string name="bugreport_dialog_submit_content">Vaše připomínky mohou obsahovat osobní údaje a informace o vaší poloze.</string>
+    <string name="bugreport_dialog_submit_content">Na tomto zařízení jsou ukládány softwarové protokoly, které mohou obsahovat osobní údaje a informace o vaší poloze. Pokud nechcete, aby byly tyto informace veřejně dostupné, nesdílejte tyto protkoly s nikým jiným.</string>
     <string name="bugreport_dump_start_notification_title">Vytváření záznamu o chybě…</string>
     <string name="bugreport_dump_start_notification_summary">Tato akce může pár minut trvat.</string>
     <string name="bugreport_dump_complete_notification_title">Vytvořit hlášení o chybě</string>
@@ -219,6 +220,14 @@
     <string name="feedback_choose_module_hint">Vyžadováno</string>
     <string name="feedback_choose_reproductivity">Četnost výskytu</string>
     <string name="feedback_title_reproductivity">Zvolte četnost výskytu</string>
+    <string name="feedback_select_problem_select_desc">Vybrány \"Problémy\"</string>
+    <string name="feedback_select_problem_not_select_desc">\"Problémy\" nejsou vybrány</string>
+    <string name="feedback_select_suggestion_select_desc">Vybrána \"Doporučení\"</string>
+    <string name="feedback_select_suggestion_not_select_desc">\"Doporučení\" nejsou vybrána</string>
+    <string name="feedback_select_upload_log_select_desc">Vybráno \"Přidání protokolů\"</string>
+    <string name="feedback_select_upload_log_not_select_desc">\"Přidání protokolů\" není vybráno</string>
+    <string name="feedback_select_modem_log_select_desc">Vybráno \"Přidání protokolů modemu\"</string>
+    <string name="feedback_select_modem_log_not_select_desc">\"Přidání protokolů modemu\" není vybráno</string>
     <string name="feedback_report_remind_login_desc">Přihlaste se pomocí svého Xiaomi účtu, aby vás naši technici mohli kontaktovat.</string>
     <string name="feedback_report_remind_login_desc2">Průběh zpracování hlášení si můžete prohlédnout také v části \"Moje hlášení\".</string>
     <string name="feedback_history_remind_login_desc">Přihlaste se pomocí svého Xiaomi účtu, abyste mohli zobrazit podrobnosti a průběh zpracování vašeho hlášení</string>

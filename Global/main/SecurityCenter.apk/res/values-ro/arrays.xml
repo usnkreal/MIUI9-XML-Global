@@ -61,7 +61,7 @@
         <item>Frecvența utilizării</item>
         <item>Spațiu de stocare utilizat</item>
         <item>Timp de instalare</item>
-        <item>Apps that can be uninstalled</item>
+        <item>Aplicații ce nu pot fi dezinstalate</item>
     </string-array>
     <string-array name="sort_title">
         <item>Sortați după stare</item>

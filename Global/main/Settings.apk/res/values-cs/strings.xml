@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="privacy_authorize_revoke_title">Oprávnění a zrušení</string>
+    <string name="enabled_authorised_apps_title">Udělená oprávnění</string>
+    <string name="enabled_authorised_apps_summary">Klepnutím na přepínač u jednotlivých aplikací zrušíte oprávnění aplikace.</string>
+    <string name="disabled_authorised_apps_title">Zrušená oprávnění</string>
+    <string name="privacy_authorize_revoke_dialog_title">Rušení oprávnění</string>
+    <string name="privacy_authorize_revoke_dialog_msg">Po zrušení oprávnění, aplikace přestane shromažďovat data a všechny údaje ze serverů budou odstraněny. Aplikace poté nemusí být nadále použitelná. Chcete oprávnění přesto odebrat?</string>
+    <string name="privacy_authorize_revoke">Odebrat</string>
+    <string name="privacy_authorize_revoke_time">Odebrat (%1$d s)</string>
+    <string name="privacy_authorize_title">Udělení oprávnění</string>
+    <string name="privacy_authorize_privacy_policy">Ochranou osobních údajů</string>
+    <string name="privacy_authorize_dialog_message">%1$s vyžaduje váš souhlas s %2$s. Aplikace potřebuje pro správné fungování připojení k síti. Souhlasíte?</string>
+    <string name="privacy_authorize_dialog_exit">Ukončit</string>
+    <string name="privacy_authorize_dialog_agree">Souhlasím</string>
+    <string name="privacy_authorize_network_error">Připojte se k síti a zkuste to znovu.</string>
+    <string name="privacy_authorize_revoke_success">Oprávnění bylo odebráno</string>
+    <string name="privacy_authorize_revoke_failed">Odebrání oprávnění se nezdařilo</string>
+    <string name="privacy_authorize_success">Oprávnění bylo uděleno</string>
+    <string name="privacy_authorize_revoking">Odebírání oprávnění…</string>
     <string name="launcher_title">Domovská obrazovka a Nedávné</string>
     <string name="defalut_launcher_title">Výchozí launcher</string>
     <string name="miui_screen_config_title">Nastavení Domovské obrazovky</string>
@@ -2978,7 +2996,8 @@ Tato funkce pomáhá chránit data ve ztracených nebo ukradených zařízeních
     <string name="write_settings_on">Ano</string>
     <string name="write_settings_off">Ne</string>
     <string name="ad_service">Reklamní služby</string>
-    <string name="use_personalized_ad_service">Použít reklamní identifikátor</string>
+    <string name="use_personalized_ad_service">Přizpůsobená reklamní doporučení</string>
+    <string name="use_personalized_ad_service_summary">Při zapnutí i vypnutí této funkce bude zobrazováno stejné množství reklam. Při vypnutí však reklamy nebudou přizpůsobeny dle vašich návyků a osobních informací.</string>
     <string name="reset_aaid">Resetovat reklamní identifikátor</string>
     <string name="confirm_reset_aaid">OK</string>
     <string name="about_ad_service_instructions">O Reklamních službách a soukromí</string>
@@ -3299,6 +3318,7 @@ Tato funkce pomáhá chránit data ve ztracených nebo ukradených zařízeních
     <string name="sure_sync_now">Synchronizovat položky nyní?</string>
     <string name="sync_now">Synchronizovat</string>
     <string name="suggestion_for_phone_recycled">Přidejte jiné telefonní číslo</string>
+    <string name="mi_upi_settings">Účet Mi Plateb</string>
     <string name="sms_received_sound_title">Zvuk přijaté zprávy</string>
     <string name="sms_delivered_sound_title">Zvuk doručenky</string>
     <string name="sms_received_sound_dialog_title">Vybrat zvuk přijaté zprávy</string>
@@ -3923,6 +3943,8 @@ Zvolte váš operační systém:"</string>
     <string name="tether_settings_disabled">Přenosný hotspot je vypnutý</string>
     <string name="tether_data_usage_limit">Jednorázový datový limit</string>
     <string name="tether_data_usage_limit_summary">Datový limit bude použit při příštím zapnutí hotspotu</string>
+    <string name="tether_auto_disable_title">Automaticky ukončit hotspot</string>
+    <string name="tether_auto_disable_summary">Automaticky ukončit hotspot, pokud nejsou připojena žádná zařízení</string>
     <string name="hdmi_3dplay_settings_title">HDMI</string>
     <string name="hdmi_3dplay_control_text">3D výstup</string>
     <string name="hdmi_3dplay_control_enable_subtext">Stereoskopické 3D zobrazení na externím 3D displeji je zapnuto</string>
@@ -4536,7 +4558,7 @@ Zvolte váš operační systém:"</string>
     <string name="music_dirac_mode_in_ear_pro">Mi špunty Pro</string>
     <string name="music_dirac_mode_capsule">Mi kapsle</string>
     <string name="music_dirac_mode_headset_comfort">Mi Komfort</string>
-    <string name="music_dirac_mode_reduction_noise">Mi Rušení hluku (Typ C)</string>
+    <string name="music_dirac_mode_reduction_noise">Mi Rušení hluku (Typ-C)</string>
     <string name="music_dirac_mode_cancelling">Mi Rušení hluku (3,5 mm)</string>
     <string name="music_audio_effect_settings">Nastavení efektů</string>
     <string name="music_equalizer_summary">Nastavit úroveň pro různé styly hudby</string>
@@ -4545,7 +4567,7 @@ Zvolte váš operační systém:"</string>
     <string name="music_dolby_mode_off">Vyp.</string>
     <string name="music_dolby_mode_music">Hudba</string>
     <string name="music_dolby_mode_movie">Video</string>
-    <string name="music_app_unavailable">Závisí na hudební aplikaci. Zkontrolujte, zda je k dispozici.</string>
+    <string name="music_app_unavailable">Ujistěte se, že je aplikace Mi Hudba dostupná.</string>
     <string name="lockpassword_confirm_workspace_password">Ověřte heslo vašeho Pracovního prostoru</string>
     <string name="turn_on_keyguard_password_alert_forget_title">Zapamatujte si vaše heslo</string>
     <string name="turn_on_keyguard_password_alert_forget_content">Zapamatujte si své heslo Zamykací obrazovky. Pokud jej zapomenete, budete muset vymazat veškerá data z vašeho zařízení, včetně fotografií a kontaktů a poté nastavit nové heslo.</string>
@@ -4783,6 +4805,8 @@ Zvolte váš operační systém:"</string>
     <string name="navigation_guide_dialog_dont_show_again">Znovu nezobrazovat</string>
     <string name="navigation_guide_back_anim_title">Animovat gesto \"Zpět\"</string>
     <string name="navigation_guide_back_anim_summary">Zobrazit animaci při přejetí z okraje obrazovky</string>
+    <string name="fsg_mistake_touch_title">Kontrola gesta</string>
+    <string name="fsg_mistake_touch_summary">V některých případech, jako jsou hry nebo videa na celou obrazovku, bude vyžadováno dvojité provedení gesta</string>
     <string name="navigation_guide_settings">Ukázky gest</string>
     <string name="navigation_guide_home_title">Přejít na Domovskou obrazovku</string>
     <string name="navigation_guide_home_summary">Potáhněte nahoru z dolního okraje obrazovky</string>

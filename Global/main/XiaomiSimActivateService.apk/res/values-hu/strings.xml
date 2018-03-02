@@ -115,4 +115,6 @@
     <string name="phone_get_text">Beleegyezik, hogy %1$s hozzáférjen az Ön telefonszámához：%2$s?</string>
     <string name="phone_get_processing">Hozzáférés…</string>
     <string name="agree">Engedélyezés</string>
+    <string name="privacy_revoke_tips">Ha visszavonja, az SMS-ek nem kerülnek szinkronizálásra</string>
+    <string name="privacy_revoke_failed_msg">adatvédelmi visszavonás, telefonszám nem olvasható be, aktiválás meghiúsult</string>
 </resources>

@@ -13,10 +13,6 @@
     <string name="HIPS_Perm_Location_Desc">정확한 위치 찾기(GPS와 네트워크 기반)</string>
     <string name="HIPS_Perm_PhoneID">기기 정보 가져오기</string>
     <string name="HIPS_Perm_PhoneID_Desc">전화번호, IMEI와 IMSI에 접근</string>
-    <string name="HIPS_Perm_SMS">SMS 메시지 작성 및 삭제</string>
-    <string name="HIPS_Perm_SMS_Desc">SMS 메시지 작성 및 삭제</string>
-    <string name="HIPS_Perm_MMS">MMS 메시지 작성 및 삭제</string>
-    <string name="HIPS_Perm_MMS_Desc">MMS 메시지 작성 및 삭제</string>
     <string name="HIPS_Perm_Contact">연락처 수정 및 삭제</string>
     <string name="HIPS_Perm_Contact_Desc">연락처 수정 및 삭제</string>
     <string name="HIPS_Perm_CallLog">통화 기록 작성 및 삭제</string>

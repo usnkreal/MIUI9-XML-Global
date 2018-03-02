@@ -166,7 +166,7 @@
     <string name="date_calculate_description">Află ce dată este înainte sau după o zi exactă</string>
     <string name="date_calculate_direction">Direcție</string>
     <string name="date_calculate_direction_content_description">Direcția curentă: %1s.</string>
-    <string name="date_calculate_hint">Learn what date it is after a number days</string>
+    <string name="date_calculate_hint">Aflați ce dată este după câteva zile</string>
     <string name="date_calculate_result">Rezultat</string>
     <string name="date_calculate_tab">Calculează data</string>
     <string name="date_calculate_today">0 zile</string>

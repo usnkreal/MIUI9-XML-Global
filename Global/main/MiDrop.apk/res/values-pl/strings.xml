@@ -33,6 +33,7 @@
     <string name="cancel_lang">Anuluj</string>
     <string name="cancel_message">Jeśli anulujesz transfer, druga osoba nie otrzyma plików. Anulować teraz transfer?</string>
     <string name="cancel_stop">Kontynuuj wysyłanie</string>
+    <string name="cannot_transfer_dir_to_low_version">Poproś tę osobę o zaktualizowanie Mi Drop</string>
     <string name="category_files">Pliki</string>
     <string name="category_installed_app">Aplikacje</string>
     <string name="category_music">Muzyka</string>
@@ -96,7 +97,7 @@
     <string name="info_product">Urządzenie:</string>
     <string name="info_system">System:</string>
     <string name="info_system_version">Wersja systemu operacyjnego:</string>
-    <string name="instruction">Wpisz ten adres w przeglądarce lub menadżerze plików na komputerze.</string>
+    <string name="instruction">Wpisz ten adres w menadżerze plików na komputerze.</string>
     <string name="instruction_pre_pad">Uruchom, aby mieć możliwość zarządzania plikami z komputera</string>
     <string name="instruction_pre_phone">Uruchom, aby mieć możliwość zarządzania plikami z komputera</string>
     <string name="internal_storage">Pamięć wewnętrzna</string>
@@ -114,6 +115,7 @@
 W wersji 6.0 Androida i nowszych należy włączyć usługi lokalizacji, aby wysyłać i odbierać pliki."</string>
     <string name="location_skip">Pomiń</string>
     <string name="max_send_file">99+</string>
+    <string name="more">Więcej</string>
     <string name="never_remind">Nie pokazuj ponownie</string>
     <string name="no_file">Pusty</string>
     <string name="no_network">"Nie udało się połączyć z siecią,
@@ -134,6 +136,7 @@ W wersji 6.0 Androida i nowszych należy włączyć usługi lokalizacji, aby wys
     <string name="popup_window_header_clear_all">Wyczyść</string>
     <string name="port_range">Numer portu musi zawierać się pomiędzy 1024–65535</string>
     <string name="prompt_grant_write_settings_permission">Pozwól Mi Drop na modyfikację ustawień systemowych.</string>
+    <string name="qr_code">Kod QR</string>
     <string name="receive">Odbierz</string>
     <string name="receive_exit_dialog_message">Pliki nie zostaną wysłane, jeśli anulujesz transfer. Anulować mimo to?</string>
     <string name="receive_exit_dialog_negative_btn">Kontynuuj otrzymywanie</string>
@@ -142,6 +145,7 @@ W wersji 6.0 Androida i nowszych należy włączyć usługi lokalizacji, aby wys
     <string name="received_files">Odebrane pliki</string>
     <string name="receiver_accept">Akceptuj</string>
     <string name="receiver_clean">Zwolnij miejsce</string>
+    <string name="receiver_file_title">Od %s</string>
     <string name="receiver_in_progress_summary">Poczekaj aż zakończy się bieżące przesyłanie plików, zanim wyślesz pliki.</string>
     <string name="receiver_in_progress_title">Przesyłanie plików</string>
     <string name="receiver_insufficient_storage">Za mało miejsca.</string>
@@ -191,16 +195,21 @@ W wersji 6.0 Androida i nowszych należy włączyć usługi lokalizacji, aby wys
     <string name="settings_feedback">Opinia</string>
     <string name="settings_score">Oceń Mi Drop</string>
     <string name="settings_set_name">Pseudonim</string>
-    <string name="share_desc">Udostępnij Mi Drop bez korzystania z danych mobilnych</string>
+    <string name="share_ap_step_two">Wyświetl krok 2 po podłączeniu się znajomego</string>
+    <string name="share_desc">Udostępnij bez łączenia się z internetem</string>
+    <string name="share_first_head_title">Udostępnij znajomym w pobliżu</string>
     <string name="share_mi_drop">Udostępnij Mi Drop znajomym</string>
+    <string name="share_second_head_title">Inne sposoby udostępniania</string>
+    <string name="share_via_ap">Udostępnij za pomocą przenośnego hotspotu</string>
+    <string name="share_via_qr_code">Udostępnij za pomocą kodu QR</string>
     <string name="start_server">Uruchom</string>
     <string name="stay_awake_summary">Nie wygasza ekranu podczas połączenia FTP</string>
     <string name="stay_awake_title">Zostaw ekran włączony</string>
-    <string name="step_1">"Krok 1: 
-Poproś znajomego o połączenie się z siecią Wi-Fi."</string>
-    <string name="step_2">"Krok 2: 
-Poproś znajomego o wprowadzenie otworzenie poniższego adresu w przeglądarce:"</string>
-    <string name="step_2_scan_code">lub zeskanowanie poniższego kodu QR</string>
+    <string name="step_1">Krok 1:</string>
+    <string name="step_1_title">Poproś znajomego o podłączenie się do tej sieci</string>
+    <string name="step_2">Krok 2:</string>
+    <string name="step_2_input_ip_address">Lub poproś znajomego o wpisanie tego adresu w pasku adresu przeglądarki:</string>
+    <string name="step_2_scan_code">Poproś znajomego o zeskanowanie tego kodu QR</string>
     <string name="stop_server">Zatrzymaj</string>
     <string name="stop_transfer">Zatrzymaj</string>
     <string name="storage_internal">Pamięć wewnętrzna</string>
@@ -230,6 +239,7 @@ Poproś znajomego o wprowadzenie otworzenie poniższego adresu w przeglądarce:"
     <string name="version">Wersja</string>
     <string name="want_receive">Odbierz pliki</string>
     <string name="want_send">Wyślij pliki</string>
+    <string name="wifi_ap">Przenośny hotspot</string>
     <string name="wifi_name">Nazwa Wi-Fi:</string>
     <string name="wifi_psw">Hasło:</string>
     <string name="wifi_state">Status Wi-Fi</string>

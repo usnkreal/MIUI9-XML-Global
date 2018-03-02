@@ -1,5 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="alarm_set">
+        <item>알람이 1분 안에 종료될 것입니다.</item>
+        <item>알람이 %1$s 후 종료될 것입니다.</item>
+        <item>알람이 %2$s 후 종료될 것입니다.</item>
+        <item>알람이 %1$s %2$s 후 종료될 것입니다.</item>
+        <item>알람이 %3$s 후 종료될 것입니다.</item>
+        <item>알람 %1$s %3$s 후 종료</item>
+        <item>알람 %2$s %3$s 후 종료</item>
+        <item>알람 %1$s %2$s %3$s 후 종료</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>아니오</item>
+        <item>1분</item>
+        <item>5분</item>
+        <item>10분</item>
+        <item>15분</item>
+        <item>20분</item>
+        <item>25분</item>
+        <item>30분</item>
+    </string-array>
+    <string-array name="snooze_duration_entries">
+        <item>1분</item>
+        <item>5분</item>
+        <item>10분</item>
+        <item>15분</item>
+        <item>20 분</item>
+        <item>25 분</item>
+        <item>30분</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>아무것도 하지 않음</item>
+        <item>다시 알림</item>
+        <item>무시</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
     <string-array name="alarm_in_furture">
         <item>1분 내에 알람</item>
         <item>%1$s 후 알람</item>
@@ -9,11 +57,6 @@
         <item>%1$s %3$s 후에 알람</item>
         <item>%2$s %3$s 후 알람</item>
         <item>%1$s %2$s %3$s 후 알람</item>
-    </string-array>
-    <string-array name="days">
-        <item>어제</item>
-        <item>오늘</item>
-        <item>내일</item>
     </string-array>
     <string-array name="alarm_repeat_type">
         <item>한 번</item>
@@ -37,6 +80,11 @@
         <item>매우 나쁨</item>
         <item>심각함</item>
     </string-array>
+    <string-array name="days">
+        <item>어제</item>
+        <item>오늘</item>
+        <item>내일</item>
+    </string-array>
     <string-array name="weather_tips_value">
         <item>야외 활동을 삼가하십시오</item>
         <item>도로가 미끄럽습니다.</item>
@@ -46,53 +94,5 @@
         <item>도로에서 조심하십시오.</item>
         <item>모래 폭풍이 오고 있습니다. 마스크를 착용하십시오!</item>
         <item>좋은 하루되세요!</item>
-    </string-array>
-    <string-array name="alarm_set">
-        <item>알람이 1분 안에 종료될 것입니다.</item>
-        <item>알람이 %1$s 후 종료될 것입니다.</item>
-        <item>알람이 %2$s 후 종료될 것입니다.</item>
-        <item>알람이 %1$s %2$s 후 종료될 것입니다.</item>
-        <item>알람이 %3$s 후 종료될 것입니다.</item>
-        <item>알람 %1$s %3$s 후 종료</item>
-        <item>알람 %2$s %3$s 후 종료</item>
-        <item>알람 %1$s %2$s %3$s 후 종료</item>
-    </string-array>
-    <string-array name="snooze_duration_entries">
-        <item>1분</item>
-        <item>5분</item>
-        <item>10분</item>
-        <item>15분</item>
-        <item>20 분</item>
-        <item>25 분</item>
-        <item>30분</item>
-    </string-array>
-    <string-array name="snooze_duration_values">
-        <item>1</item>
-        <item>5</item>
-        <item>10</item>
-        <item>15</item>
-        <item>20</item>
-        <item>25</item>
-        <item>30</item>
-    </string-array>
-    <string-array name="auto_silence_entries">
-        <item>아니오</item>
-        <item>1분</item>
-        <item>5분</item>
-        <item>10분</item>
-        <item>15분</item>
-        <item>20분</item>
-        <item>25분</item>
-        <item>30분</item>
-    </string-array>
-    <string-array name="volume_button_setting_entries">
-        <item>아무것도 하지 않음</item>
-        <item>다시 알림</item>
-        <item>무시</item>
-    </string-array>
-    <string-array name="volume_button_setting_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
 </resources>

@@ -115,4 +115,6 @@ Introduceți numărul de telefon asociat cu noua cartelă SIM pentru a reactiva 
     <string name="phone_get_text">Permiteți ca %1$s să obțină numărul dvs. de telefon ( %2$s)?</string>
     <string name="phone_get_processing">Se obține…</string>
     <string name="agree">Permite</string>
+    <string name="privacy_revoke_tips">If you revoke, the sms sync will not be able to use</string>
+    <string name="privacy_revoke_failed_msg">privacy revoke，can not get phone number，activate failed</string>
 </resources>

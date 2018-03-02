@@ -1,5 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="alarm_set">
+        <item>Alarm wyłączy się w ciągu minuty.</item>
+        <item>Alarm wyłączy się w ciągu %1$s.</item>
+        <item>Alarm wyłączy się w ciągu %2$s.</item>
+        <item>Alarm wyłączy się w ciągu %1$s i %2$s.</item>
+        <item>Alarm wyłączy się w ciągu %3$s.</item>
+        <item>Alarm wyłączy się w ciągu %1$s i %3$s.</item>
+        <item>Alarm wyłączy się w ciągu %2$s i %3$s.</item>
+        <item>Alarm wyłączy się w ciągu %1$s %2$s i %3$s.</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>Nigdy</item>
+        <item>1 minuta</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>15 minut</item>
+        <item>20 minut</item>
+        <item>25 minut</item>
+        <item>30 minut</item>
+    </string-array>
+    <string-array name="snooze_duration_entries">
+        <item>1 minuta</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>15 minut</item>
+        <item>20 minut</item>
+        <item>25 minut</item>
+        <item>30 minut</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Nic nie rób</item>
+        <item>Drzemka</item>
+        <item>Odrzuć</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
     <string-array name="alarm_in_furture">
         <item>Alarm za mniej niż minutę</item>
         <item>Alarm za %1$s</item>
@@ -9,11 +57,6 @@
         <item>Alarm za %1$s %3$s</item>
         <item>Alarm za %2$s %3$s</item>
         <item>Alarm za %1$s %2$s %3$s</item>
-    </string-array>
-    <string-array name="days">
-        <item>Wczoraj</item>
-        <item>Dziś</item>
-        <item>Jutro</item>
     </string-array>
     <string-array name="alarm_repeat_type">
         <item>Tylko raz</item>
@@ -37,6 +80,11 @@
         <item>Złe</item>
         <item>Bardzo złe</item>
     </string-array>
+    <string-array name="days">
+        <item>Wczoraj</item>
+        <item>Dziś</item>
+        <item>Jutro</item>
+    </string-array>
     <string-array name="weather_tips_value">
         <item>Ogranicz aktywność na powietrzu</item>
         <item>Drogi są śliskie</item>
@@ -46,53 +94,5 @@
         <item>Bądź ostrożny na drodze</item>
         <item>Zbliża się burza piaskowa, nałóż maskę!</item>
         <item>Miłego dnia!</item>
-    </string-array>
-    <string-array name="alarm_set">
-        <item>Alarm wyłączy się w ciągu minuty.</item>
-        <item>Alarm wyłączy się w ciągu %1$s.</item>
-        <item>Alarm wyłączy się w ciągu %2$s.</item>
-        <item>Alarm wyłączy się w ciągu %1$s i %2$s.</item>
-        <item>Alarm wyłączy się w ciągu %3$s.</item>
-        <item>Alarm wyłączy się w ciągu %1$s i %3$s.</item>
-        <item>Alarm wyłączy się w ciągu %2$s i %3$s.</item>
-        <item>Alarm wyłączy się w ciągu %1$s %2$s i %3$s.</item>
-    </string-array>
-    <string-array name="snooze_duration_entries">
-        <item>1 minuta</item>
-        <item>5 minut</item>
-        <item>10 minut</item>
-        <item>15 minut</item>
-        <item>20 minut</item>
-        <item>25 minut</item>
-        <item>30 minut</item>
-    </string-array>
-    <string-array name="snooze_duration_values">
-        <item>1</item>
-        <item>5</item>
-        <item>10</item>
-        <item>15</item>
-        <item>20</item>
-        <item>25</item>
-        <item>30</item>
-    </string-array>
-    <string-array name="auto_silence_entries">
-        <item>Nigdy</item>
-        <item>1 minuta</item>
-        <item>5 minut</item>
-        <item>10 minut</item>
-        <item>15 minut</item>
-        <item>20 minut</item>
-        <item>25 minut</item>
-        <item>30 minut</item>
-    </string-array>
-    <string-array name="volume_button_setting_entries">
-        <item>Nic nie rób</item>
-        <item>Drzemka</item>
-        <item>Odrzuć</item>
-    </string-array>
-    <string-array name="volume_button_setting_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
 </resources>

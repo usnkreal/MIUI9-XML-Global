@@ -33,6 +33,7 @@
     <string name="cancel_lang">Anulează</string>
     <string name="cancel_message">Destinatarul nu va primi fişiere dacă anulați transferul. Anulați transferul acum?</string>
     <string name="cancel_stop">Păstrează să trimiți</string>
+    <string name="cannot_transfer_dir_to_low_version">Întreabă altă persoană să actualizeze Mi Drop</string>
     <string name="category_files">Fişiere</string>
     <string name="category_installed_app">Aplicaţii</string>
     <string name="category_music">Muzică</string>
@@ -96,7 +97,7 @@
     <string name="info_product">Dispozitiv:</string>
     <string name="info_system">Sistem:</string>
     <string name="info_system_version">Versiune sistem:</string>
-    <string name="instruction">Introduceți această adresă în browser-ul computerului sau în managerul de fișiere</string>
+    <string name="instruction">Introduceți această adresă în managerul de fișiere al computerului</string>
     <string name="instruction_pre_pad">Începeți să gestionați fișiere utilizând un computer</string>
     <string name="instruction_pre_phone">Începeți să gestionați fișiere utilizând un computer</string>
     <string name="internal_storage">Stocare internă</string>
@@ -114,6 +115,7 @@
 În Android 6.0 şi în versiunile mai noi ar trebui să porniţi serviciile de localizare pentru a trimite şi a primi fișiere."</string>
     <string name="location_skip">Sari peste</string>
     <string name="max_send_file">99+</string>
+    <string name="more">Mai mult</string>
     <string name="never_remind">Nu mai afișa</string>
     <string name="no_file">Gol</string>
     <string name="no_network">"Nu se poate conecta la rețea. 
@@ -134,6 +136,7 @@ Verificați setările de rețea și încercați din nou."</string>
     <string name="popup_window_header_clear_all">Șterge</string>
     <string name="port_range">Numărul portului trebuie să fie între 1024-65535</string>
     <string name="prompt_grant_write_settings_permission">Permite ca Mi Drop să modifice setările de sistem.</string>
+    <string name="qr_code">Cod QR</string>
     <string name="receive">Primește</string>
     <string name="receive_exit_dialog_message">Fişierele nu vor fi trimise dacă anulați transferul. Anulați oricum?</string>
     <string name="receive_exit_dialog_negative_btn">Păstrați primirea</string>
@@ -142,6 +145,7 @@ Verificați setările de rețea și încercați din nou."</string>
     <string name="received_files">Fișiere primite</string>
     <string name="receiver_accept">Acceptă</string>
     <string name="receiver_clean">Eliberați spațiu</string>
+    <string name="receiver_file_title">De la %s</string>
     <string name="receiver_in_progress_summary">Aşteptaţi până când transferul în curs de desfăşurare este complet înainte de a trimite fişiere.</string>
     <string name="receiver_in_progress_title">Se transferă fișiere</string>
     <string name="receiver_insufficient_storage">Spațiu de stocare insuficient.</string>
@@ -191,16 +195,21 @@ Verificați setările de rețea și încercați din nou."</string>
     <string name="settings_feedback">Părere</string>
     <string name="settings_score">Evaluează Mi Drop</string>
     <string name="settings_set_name">Poreclă</string>
-    <string name="share_desc">Partajați Mi Drop fără a utiliza date mobile</string>
+    <string name="share_ap_step_two">Vezi pasul 2 după ce prietenul tău s-a conectat</string>
+    <string name="share_desc">Partajează fără a te conecta la internet</string>
+    <string name="share_first_head_title">Partajează cu prietenii din apropiere</string>
     <string name="share_mi_drop">Partajați Mi Drop prietenilor dumnevoastră</string>
+    <string name="share_second_head_title">Alte modalități de a partaja</string>
+    <string name="share_via_ap">Partajează prin hotspotul portabil</string>
+    <string name="share_via_qr_code">Partajează utilizând codul QR</string>
     <string name="start_server">Start</string>
     <string name="stay_awake_summary">Nu lăsa ecranul să se stingă cât timp folosești FTP</string>
     <string name="stay_awake_title">Ține ecranul pornit</string>
-    <string name="step_1">"Pasul 1: 
-Întreabă o altă persoană să se conecteze la Wi-Fi."</string>
-    <string name="step_2">"Pasul 2: 
-Întreabă o altă persoană să introducă următoarea adresă în browser:"</string>
-    <string name="step_2_scan_code">Sau să scaneze codul QR</string>
+    <string name="step_1">Pasul 1:</string>
+    <string name="step_1_title">Întreabă prietenul tău să se conecteze la această rețea</string>
+    <string name="step_2">Pasul 2:</string>
+    <string name="step_2_input_ip_address">Sau întreabă prietenul tău să introducă aceasta în bara de adresă a browser-ului:</string>
+    <string name="step_2_scan_code">Întreabă prietenul tău să scaneze acest cod QR</string>
     <string name="stop_server">Stop</string>
     <string name="stop_transfer">Stop</string>
     <string name="storage_internal">Stocare internă</string>
@@ -230,6 +239,7 @@ Verificați setările de rețea și încercați din nou."</string>
     <string name="version">Versiune</string>
     <string name="want_receive">Primiţi fişiere</string>
     <string name="want_send">Trimite fişiere</string>
+    <string name="wifi_ap">Hotspot portabil</string>
     <string name="wifi_name">Nume Wi-Fi:</string>
     <string name="wifi_psw">Parolă:</string>
     <string name="wifi_state">Starea Wi-Fi</string>

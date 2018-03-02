@@ -4,70 +4,84 @@
         <item quantity="other">Nesprávny PUK, ostáva %d pokusov</item>
         <item quantity="one">Nesprávny PUK, ostáva %d pokus</item>
         <item quantity="few">Nesprávny PUK, ostávajú %d pokusy</item>
+        <item quantity="many">Incorrect PUK code, %d attempts remaining</item>
     </plurals>
     <plurals name="incorrect_pincode_remaining_attempts">
         <item quantity="other">Nesprávny PIN, ostáva %d pokusov</item>
         <item quantity="one">Nesprávny PIN, ostáva %d pokus</item>
         <item quantity="few">Nesprávny PIN, ostávajú %d pokusy</item>
+        <item quantity="many">Incorrect PIN code, %d attempts remaining</item>
     </plurals>
     <plurals name="phone_locked_timeout_seconds_string">
         <item quantity="other">Skúste to znovu za %d sekúnd</item>
         <item quantity="one">Skúste to znovu za %d sekundu</item>
         <item quantity="few">Skúste to znovu za %d sekundy</item>
+        <item quantity="many">Try again in %d seconds</item>
     </plurals>
     <plurals name="phone_locked_timeout_minutes_string">
         <item quantity="other">Skúste to znovu za %d minút</item>
         <item quantity="one">Skúste to znovu za %d minútu</item>
         <item quantity="few">Skúste to znovu za %d minúty</item>
+        <item quantity="many">Try again in %d minutes</item>
     </plurals>
     <plurals name="new_notifications_msg">
         <item quantity="other">Nové upozornenia: %d</item>
         <item quantity="one">Nové upozornenia: %d</item>
         <item quantity="few">Nové upozornenia: %d</item>
+        <item quantity="many">%d new notifications</item>
     </plurals>
     <plurals name="keyguard_charging_info_charging_full_need_min_time__text">
         <item quantity="other">Približne %d minút do plného nabitia</item>
         <item quantity="one">Približne %d minúta do plného nabitia</item>
         <item quantity="few">Približne %d minúty do plného nabitia</item>
+        <item quantity="many">About %d minutes until full​</item>
     </plurals>
     <plurals name="keyguard_charging_info_charging_full_need_hour_time__text">
         <item quantity="other">Približne %d hodín do plného nabitia</item>
         <item quantity="one">Približne %d hodina do plného nabitia</item>
         <item quantity="few">Približne %d hodiny do plného nabitia</item>
+        <item quantity="many">About %d hours until full</item>
     </plurals>
     <plurals name="keyguard_charging_info_charging_full_need_time__text">
         <item quantity="other">Približne %1$d hod. %2$d min. do plného nabitia</item>
         <item quantity="one">Približne %1$d hod. %2$d min. do plného nabitia</item>
         <item quantity="few">Približne %1$d hod. %2$d min. do plného nabitia</item>
+        <item quantity="many">About %1$d h %2$d m until full</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_min_time_text">
         <item quantity="other">Ostáva približne %d minúty</item>
         <item quantity="one">Ostáva približne %d minúta</item>
         <item quantity="few">Ostávajú približne %d minúty</item>
+        <item quantity="many">About %d minutes left</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_hour_time_text">
         <item quantity="other">Ostáva približne %d hodín</item>
         <item quantity="one">Ostáva približne %d hodina</item>
         <item quantity="few">Ostávajú približne %d hodiny</item>
+        <item quantity="many">About %d hours left</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_time_text">
         <item quantity="other">Ostáva približne %1$d hod. %2$d min</item>
         <item quantity="one">Ostáva približne %1$d hod. %2$d min</item>
         <item quantity="few">Ostáva približne %1$d hod. %2$d min</item>
+        <item quantity="many">About %1$d h %2$d m left</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_hour_time_format">
         <item quantity="other">%d hodín</item>
         <item quantity="one">%d hodina</item>
         <item quantity="few">%d hodiny</item>
+        <item quantity="many">%d hours</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_min_time_format">
         <item quantity="other">%d minút</item>
         <item quantity="one">%d minúta</item>
         <item quantity="few">%d minúty</item>
+        <item quantity="many">%d minutes</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_time_format">
         <item quantity="other">%1$d hod. %2$d min</item>
         <item quantity="one">%1$d hod. %2$d min</item>
         <item quantity="few">%1$d hod. %2$d min</item>
+        <item quantity="many">%1$d h %2$d m</item>
     </plurals>
 </resources>

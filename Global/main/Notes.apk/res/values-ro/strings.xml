@@ -75,7 +75,7 @@
     <string name="db_downgrade_clear_date_reminder">Trecerea la o altă versiune a MIUI necesită ștergerea datelor aplicației pentru Note. Înainte de a face asta, asigurați-vă că ați făcut copie de rezervă pentru notele de la Mi Cloud.</string>
     <string name="db_downgrade_clear_button">Ștergeți datele aplicației</string>
     <string name="cloud_service_state_open_reminder">Activați sincronizarea cu Mi Cloud pentru a sincroniza note.</string>
-    <string name="toast_cancel_to_insert_image">"Couldn't add image."</string>
+    <string name="toast_cancel_to_insert_image">Nu s-a putut adăuga o imagine.</string>
     <string name="app_name">Note</string>
     <string name="app_widget">Note</string>
     <string name="widget_havenot_content">Atingeți pentru a crea o notă. Ține apăsat pe widget pentru a redimensiona.</string>
@@ -198,6 +198,6 @@
     <string name="cancel_alarm_description">Anulează alarma</string>
     <string name="edit_header_done_description">Efectuat</string>
     <string name="refuse_to_share_as_pic_because_of_content">Această notă este prea mare pentru a le distribui.</string>
-    <string name="refuse_to_open_as_pic_because_of_loading">Wait until the note is loaded and try again.</string>
+    <string name="refuse_to_open_as_pic_because_of_loading">Așteptați până când nota este încărcată și încercați din nou.</string>
     <string name="toast_reach_text_limit_checkbox">Nu se poate adăuga caseta de selectare, deoarece nota este prea lungă</string>
 </resources>

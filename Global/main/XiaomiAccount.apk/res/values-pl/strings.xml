@@ -3,7 +3,7 @@
     <string name="passport_account_label">Konto Xiaomi</string>
     <string name="passport_notification_title">Błąd logowania dla %1$s</string>
     <string name="passport_login_prompt">Jedno konto Xiaomi, Wszystkie usługi.</string>
-    <string name="passport_login_using_other_ways"><u>Inne sposoby logowania</u></string>
+    <string name="passport_login_using_other_ways">Inne sposoby logowania</string>
     <string name="passport_login_title">Zaloguj się na konto Xiaomi</string>
     <string name="passport_login">Zaloguj</string>
     <string name="passport_relogin">Zaloguj się ponownie</string>
@@ -48,7 +48,7 @@
     <string name="passport_reset_password_title">Zresetuj hasło</string>
     <string name="passport_auto_generate_pwd">Generuj bezpieczne hasło</string>
     <string name="passport_pwd_generate_failure">Nie udało się wygenerować hasła</string>
-    <string name="passport_use_generated_pwd_title">Zapamiętaj swoje hasło</string>
+    <string name="passport_use_generated_pwd_title">Zapamiętaj swoje hasło!</string>
     <string name="passport_use_generated_pwd_message">Upewnij się, że pamiętasz swoje hasło. Możesz je wykorzystać do zalogowania do innych usług Xiaomi.</string>
     <string name="passport_register_restricted_title">Nie można użyć tego numeru</string>
     <string name="passport_register_restricted">Zbyt wiele kont zostało powiązanych z tym numerem, spróbuj innego</string>
@@ -94,6 +94,7 @@ podany w wiadomości e-mail wysłanej na podany adres."</string>
     <string name="passport_email">Adres E-mail</string>
     <string name="passport_vcode_prompt_long">Wpisz kod weryfikacyjny</string>
     <string name="passport_input_phone_hint">Wpisz numer telefonu</string>
+    <string name="passport_input_voice_captcha_hint">Wpisz głosowy kod weryfikacyjny</string>
     <string name="passport_error_empty_username">Wpisz swoje ID konta Xiaomi</string>
     <string name="passport_error_invalid_phone_num">Numer telefonu jest nieprawidłowy</string>
     <string name="passport_error_empty_phone_num">Wpisz numer telefonu</string>
@@ -218,11 +219,12 @@ podany w wiadomości e-mail wysłanej na podany adres."</string>
     <string name="app_name">Konto Xiaomi</string>
     <string name="account">Konto</string>
     <string name="logout_failed">Nie można wylogować</string>
+    <string name="turning_off_find_device">Wyłączanie funkcji Znajdź urządzenie…</string>
     <string name="turn_off_find_device_failed_title">Nie można wyłączyć funkcji Znajdź urządzenie</string>
     <string name="no_response_retry">Brak odpowiedzi, spróbuj ponownie.</string>
     <string name="removing_account">Wylogowywanie…</string>
-    <string name="delete_bank_card_title">Usuwanie Twojej karty bankowej</string>
-    <string name="delete_bank_card_message">Twoja karta bankowa zostanie usunięta po Twoim wylogowaniu w celach bezpieczeństwa</string>
+    <string name="delete_bank_card_title">Powiadomienie</string>
+    <string name="delete_bank_card_message">Kart bankowe Mi Pay oraz karty NFC zostaną skasowane po wylogowaniu.</string>
     <string name="bind_settings">Konta</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="bind_sina_weibo">Połącz z kontem Sino Weibo</string>
@@ -230,7 +232,7 @@ podany w wiadomości e-mail wysłanej na podany adres."</string>
     <string name="bind_sns_description">Zaloguj za pomocą %s</string>
     <string name="add_account">Połącz konto</string>
     <string name="qq">QQ</string>
-    <string name="bind_qq">Dodaj konto QQ</string>
+    <string name="bind_qq">QQ</string>
     <string name="facebook">Facebook</string>
     <string name="bind_facebook">Dodaj konto Facebook</string>
     <string name="binded">Połączono</string>
@@ -360,13 +362,16 @@ podany w wiadomości e-mail wysłanej na podany adres."</string>
     <string name="device_delete_success_title">Wylogowano</string>
     <string name="device_delete_success_message">Jeśli nie logowałeś się na tym urządzeniu, natychmiast zmień hasło.</string>
     <string name="change_password">Zmień hasło</string>
-    <string name="completed">Zakończ</string>
+    <string name="completed">Wszystko gotowe!</string>
     <string name="no_network_title">Nie można połączyć z siecią.</string>
     <string name="no_network_btn">Odśwież</string>
     <string name="get_device_list_failed">Nie można pobrać listy urządzeń</string>
     <string name="delete_device_failed">Nie można usunąć urządzenia</string>
     <string name="empty_device_list_notice">Brak urządzeń</string>
     <string name="device_name">Nazwa urządzenia</string>
+    <string name="multi_user_not_show_sync_activity_title">Nie włączaj synchronizacji z Chmurą Xiaomi</string>
+    <string name="multi_user_not_show_sync_activity_message_1">Wygląda na to, że korzystasz z Pierwszej przestrzeni konta Xiaomi.</string>
+    <string name="multi_user_not_show_sync_activity_message_2">W takim wypadku, wszystkie dane zostaną zsynchronizowane w Drugiej przestrzeni. Aby tego uniknąć, nie włączaj synchronizacji z Chmurą Xiaomi.</string>
     <string name="find_device_access_denied">Nie można pobrać statusu, brak dostępu</string>
     <string name="find_device_account_error">Nie można pobrać statusu ze względu na błąd konta</string>
     <string name="find_device_null_credential_error">Nie można pobrać statusu, skontaktuj się z obsługą klienta Xiaomi</string>
@@ -382,10 +387,7 @@ podany w wiadomości e-mail wysłanej na podany adres."</string>
     <string name="find_device_operation_failed_error_unknown">Wystąpił błąd, spróbuj ponownie później</string>
     <string name="find_device_remote_exception">Błąd RPC</string>
     <string name="io_error_title">Potwierdź swoją sieć</string>
-    <string name="login_check_find_device_failed_title">Nie udało się sprawdzić statusu funkcji Znajdź urządzenie</string>
-    <string name="multi_user_not_show_sync_activity_title">Nie włączaj synchronizacji z Chmurą Xiaomi</string>
-    <string name="multi_user_not_show_sync_activity_message_1">Wygląda na to, że korzystasz z Pierwszej przestrzeni konta Xiaomi.</string>
-    <string name="multi_user_not_show_sync_activity_message_2">W takim wypadku, wszystkie dane zostaną zsynchronizowane w Drugiej przestrzeni. Aby tego uniknąć, nie włączaj synchronizacji z Chmurą Xiaomi.</string>
+    <string name="login_check_find_device_failed_title">Nie można sprawdzić informacji o bezpieczeństwie urządzenia</string>
     <string name="notify_network_restricted_title">Nie udało się połączyć konta Xiaomi z siecią</string>
     <string name="notify_network_restricted_content_hidden_state">Aktywność konta Xiaomi w tle jest ograniczona. Dotknij, aby zezwolić.</string>
     <string name="notify_network_restricted_content_bg_network">Dostęp do internetu jest ograniczony dla konta Xiaomi. Dotknij, aby zezwolić.</string>
@@ -414,11 +416,10 @@ podany w wiadomości e-mail wysłanej na podany adres."</string>
     <string name="find_device_activate_account">Aktywuj konto</string>
     <string name="login_check_find_device">Pobieranie danych bezpieczeństwa urządzenia…</string>
     <string name="unlock_help_notice">"Pomoc:
- Jeśli zapomniałeś swojego hasła, przejdź na id.mi.com, aby zresetować.
+Jeśli zapomniałeś swojego hasła, przejdź na id.mi.com, aby zresetować.
 Jeśli nie możesz odblokować urządzenia przejdź na i.mi.com, aby wyłączyć Znajdź urządzenie.
- Przekaż ten numer odblokowujący obsłudze klienta: %s"</string>
-    <string name="find_device_display_id">Odblokuj numer: %s</string>
-    <string name="login_find_device_bind">To urządzenie jest już powiązane z ID konta Xiaomi (%s). Wpisz hasło, aby potwierdzić urządzenie.</string>
+Twój numer odblokowujący: %s"</string>
+    <string name="login_find_device_bind">Urządzenie jest powiązane z istniejącym kontem Xiaomi (%s).</string>
     <string name="find_device_locked_account_phone" formatted="false">%s, powiązany numer telefonu: %s</string>
     <string name="find_device_locked_account_email" formatted="false">%s, powiązany adres e-mail: %s</string>
     <string name="oauth_title">Zaloguj się na konto Xiaomi</string>

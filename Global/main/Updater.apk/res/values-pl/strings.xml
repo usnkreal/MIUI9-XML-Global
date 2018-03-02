@@ -89,7 +89,7 @@
     <string name="enable">Włącz</string>
     <string name="disable">Nie włączaj</string>
     <string name="mobile_download_title">Zaktualizować korzystając z danych mobilnych?</string>
-    <string name="mobile_download_msg">Jeśli posiadasz plan z danymi bez ograniczeń, możesz włączyć automatyczne pobieranie aktualizacji za pomocą danych mobilnych. Po włączeniu tej opcji aktualizacje będą pobierane przez określony okres.</string>
+    <string name="mobile_download_msg">Jeśli posiadasz plan z danymi bez ograniczeń, możesz automatycznie pobierać aktualizacje za pomocą danych mobilnych. Po włączeniu tej opcji aktualizacje będą pobierane przez określony okres.</string>
     <string name="recovery_failed_title">Użyj Mi PC Suite do zaktualizowania systemu</string>
     <string name="recovery_power_not_enough_title">Niski stan baterii</string>
     <string name="recovery_power_not_enough_msg">Doładuj baterię urządzenia do co najmniej 15%, aby aktualizować.</string>
@@ -320,4 +320,5 @@ Nie udało się wysłać opinii"</string>
     <string name="security_space_msg">MIUI 9 posiada nowy system plików. Jeśli uruchomisz ponownie urządzenie teraz, możesz nie być w stanie korzystać z Drugiej przestrzeni. Przenieś wszystkie elementy z Drugiej przestrzeni do Pierwszej przed ponownym uruchomieniem.</string>
     <string name="security_space_button_pos">Nie uruchamiaj ponownie</string>
     <string name="security_space_button_neg">Uruchom ponownie teraz</string>
+    <string name="privacy_revoke_msg">Aktualizacje systemowe pozwalają na bieżąco aktualizować MIUI i jego funkcje. Przy odmowie autoryzacji, aplikacje przestanie zbierać dane, a wszystkie dane powiązane (w tym dane urządzenia, które wymagają aktualizacji) zostaną usunięte z urządzenia oraz serwerów. Pomijanie aktualizacji urządzenia może narazić na potencjalne zagrożenia bezpieczeństwa. Odmówić autoryzacji mimo to?</string>
 </resources>

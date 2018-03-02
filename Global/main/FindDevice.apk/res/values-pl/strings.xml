@@ -39,6 +39,7 @@ W przypadku zmiany kart SIM zostanie wysłany SMS w celu reaktywacji usługi."</
     <string name="unlock_error_rpc">Błąd RPC</string>
     <string name="unlock_error_abort">Anulowane przez użytkownika</string>
     <string name="unlock_error_passport_sdk_timeout">SDK konta Xiaomi nie odpowiada</string>
+    <string name="open_wifi_settings">Otwórz ustawienia Wi-Fi</string>
     <string name="activate_xiaomi_account">Aktywuj to urządzenie</string>
     <string name="login_extra_steps">Weryfikacja logowania</string>
     <string name="phone_locked">To urządzenie może być powiązane z istniejącym kontem Xiaomi (%s). Zaloguj się na konto, aby aktywować to urządzenie.</string>

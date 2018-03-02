@@ -13,10 +13,6 @@
     <string name="HIPS_Perm_Location_Desc">pobrać dokładne dane o lokalizacji (bazując na GPS oraz sieci)</string>
     <string name="HIPS_Perm_PhoneID">Pobierz ID Telefonu</string>
     <string name="HIPS_Perm_PhoneID_Desc">Dostęp do ID telefonu, włączając IMEI, IMSI</string>
-    <string name="HIPS_Perm_SMS">Tworzenie i usuwanie wiadomości SMS</string>
-    <string name="HIPS_Perm_SMS_Desc">Dostęp do skrzynki SMS</string>
-    <string name="HIPS_Perm_MMS">Pisanie i usuwanie wiadomości MMS</string>
-    <string name="HIPS_Perm_MMS_Desc">Dostęp do skrzynki MMS</string>
     <string name="HIPS_Perm_Contact">Kontakty</string>
     <string name="HIPS_Perm_Contact_Desc">Dostęp do listy kontaktów</string>
     <string name="HIPS_Perm_CallLog">Zapisywanie i usuwanie historii połączeń</string>

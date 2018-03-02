@@ -1136,6 +1136,7 @@ Funcțiile Pin2 vor fi blocate după o altă încercare eșuată."</string>
     <string name="cmcc_ut_data_enable_prompt">Nu se poate conecta folosind rețeaua VoLTE. Porniți conexiunea de date mobile acum.</string>
     <string name="volte_switch_title">VoLTE activat</string>
     <string name="volte_switch_summary">Folosiți VoLTE pentru a îmbunătăți calitatea apelului audio și video</string>
+    <string name="volte_switch_summary2">Confirm that your carrier supports this feature before turning on. Otherwise, regular calls might be affected.</string>
     <string name="volte_switch_not_support_summary">Apelurile VoLTE nu sunt acceptate pentru cartela SIM de date mobile.</string>
     <string name="volte_switch_not_support_summary2">Apelurile VoLTE nu sunt suportate de operator.</string>
     <string name="enable_dual_4g_prompt_when_turn_on_volte">VoLTE necesită conectivitate 4G pentru ambele sloturi SIM. Treceți la Dual 4G acum?</string>
@@ -1143,6 +1144,9 @@ Funcțiile Pin2 vor fi blocate după o altă încercare eșuată."</string>
     <string name="dual_4g_switch_summary">Permiteți conectivitatea 4G pentru ambele sloturi SIM.</string>
     <string name="turn_on_dual_4g_failed">Nu s-a putut activa Dual 4G.</string>
     <string name="turn_off_dual_4g_failed">Nu s-a putut opri Dual 4G.</string>
+    <string name="vice_slot_volte_data_switch_title">Use mobile data during VoLTE calls on the secondary SIM</string>
+    <string name="vice_slot_volte_data_switch_summary">During VoLTE calls, device will connect to a mobile data network using the secondary SIM</string>
+    <string name="vice_slot_volte_data_switch_prompt">Your device will connect to a mobile data network using the secondary SIM during ongoing VoLTE calls. This may generate additional data fees. Contact your local carrier for details about your data plan.</string>
     <string name="roaming_notification_title">Se pare că roamingul este activat</string>
     <string name="roaming_notification_content">Aveți posibilitatea să adăugați coduri de țară în mod automat pentru a face apelarea mai convenabil.</string>
     <string name="cdma_alert_title">Cardul UIM trebuie să fie setat implicit</string>
@@ -1197,6 +1201,18 @@ Funcțiile Pin2 vor fi blocate după o altă încercare eșuată."</string>
     <string name="miui_notification_network_selection_title_by_sim">SIM %s: Fără servicii</string>
     <string name="miui_network_selection_reset_text">Resetează</string>
     <string name="quick_dial_setting_title">Apelare rapidă</string>
+    <string name="cfnry_time_five_sec">5 sec</string>
+    <string name="cfnry_time_ten_sec">10 sec</string>
+    <string name="cfnry_time_fifteen_sec">15 sec</string>
+    <string name="cfnry_time_twenty_sec">20 sec</string>
+    <string name="cfnry_time_twenty_five_sec">25 sec</string>
+    <string name="cfnry_time_thirty_sec">30 sec</string>
+    <string name="cfnry_time_setting_title">Set wait time</string>
+    <string name="prompt_when_turnon_volte_without_lte">"LTE networks aren't available now. Turning on VoLTE may prevent you from making regular calls."</string>
+    <string name="prompt_to_turnoff_volte_when_failed">"VoLTE services aren't available. Turn off VoLTE to make a call."</string>
+    <string name="volte_tips_when_turn_on">China Telecom VoLTE services are only provided in the areas with LTE network coverage.</string>
+    <string name="close">Închide</string>
+    <string name="prompt_to_turnoff_volte_when_supp_service">"Service isn't available. Turn off VoLTE in the Settings."</string>
     <string name="network_forbidden">%s (Interzis)</string>
     <string name="voice_number_setting_primary_user_only">Mesajele vovale pot fi schimbate doar de utilizatorul primar.</string>
     <string name="PERSOSUBSTATE_SIM_NETWORK_ENTRY">Rețea SIM deblochează PIN</string>
@@ -1339,7 +1355,6 @@ Funcțiile Pin2 vor fi blocate după o altă încercare eșuată."</string>
     <string name="china_mobile">China Mobile</string>
     <string name="china_telecom">China Telecom</string>
     <string name="china_unicom">China Unicom</string>
-    <string name="close">Închide</string>
     <string name="default_sim_setting">Cartelă SIM implicit:</string>
     <string name="disconnect_data_confirm">Serviciul de date va fi deconectat temporar. Esti sigur?</string>
     <string name="fdn_service_unavailable">Serviciul FDN nu este disponibil.</string>

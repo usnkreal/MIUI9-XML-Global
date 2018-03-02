@@ -49,7 +49,7 @@
         <item quantity="one">"%d elem importálva. "</item>
     </plurals>
     <plurals name="save_item_failed_summary_seg2">
-        <item quantity="other">%d elemet kell újraimportálni.</item>
-        <item quantity="one">%d elemet kell újraimportálni.</item>
+        <item quantity="other">%d elem újraimportálása.</item>
+        <item quantity="one">%d elem újraimportálása.</item>
     </plurals>
 </resources>

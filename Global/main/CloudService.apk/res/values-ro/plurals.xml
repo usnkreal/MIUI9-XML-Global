@@ -70,6 +70,11 @@
         <item quantity="one">%d intrare listă blocată</item>
         <item quantity="few">%d intrare liste blocate</item>
     </plurals>
+    <plurals name="dirty_personalAssistant_count">
+        <item quantity="other">%d App vault entries</item>
+        <item quantity="one">%d App vault entry</item>
+        <item quantity="few">%d App vault entries</item>
+    </plurals>
     <plurals name="dirty_secretphoto_count">
         <item quantity="other">%d fotografii ascunse nu sunt sincronizate. Deconectați-vă după ce toate elementele sunt sincronizate pentru a le păstra; în caz contrar, elementele vor fi șterse.</item>
         <item quantity="one">%d fotografie ascunsă nu este sincronizată. Deconectați-vă după ce toate elementele sunt sincronizate pentru a le păstra; în caz contrar, elementele vor fi șterse.</item>

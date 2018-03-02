@@ -33,6 +33,7 @@
     <string name="attach_sound">Zvuk</string>
     <string name="attach_subject">Předmět</string>
     <string name="attach_take_photo">Vyfotit</string>
+    <string name="attach_transaction">Odeslat peníze</string>
     <string name="attach_video">Video</string>
     <string name="audio_download_failed">Stahování audia se nezdařilo</string>
     <string name="audio_message_expired">Platnost hlasové zprávy vypršela.</string>
@@ -512,6 +513,7 @@
     <string name="select_local_audio">Vybrat zvuk</string>
     <string name="select_local_video">Vybrat video</string>
     <string name="select_message_send_sim">Vybrat SIM kartu</string>
+    <string name="select_phone_number">Vyberte telefonní číslo</string>
     <string name="select_recipient">Vybrat příjemce</string>
     <string name="select_sim">Vyberte SIM kartu</string>
     <string name="select_top_text">Text nahoře</string>
@@ -656,7 +658,4 @@ Pokus: %s."</string>
     <string name="wild_msg_title">Vyberte tel. číslo pro synchronizaci</string>
     <string name="yes">OK</string>
     <string name="yesterday">Včera</string>
-    <string name="about_smart_sms_title">Partner inteligentních zpráv</string>
-    <string name="partner_companies">Teddy Mobile, Yulore Tech.</string>
-    <string name="pref_title_about_smart_sms">O Partneru inteligentních zpráv</string>
 </resources>

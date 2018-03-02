@@ -3,24 +3,12 @@
     <plurals name="Nalbum_total_songs">
         <item quantity="other">총 %d개 노래</item>
     </plurals>
-    <plurals name="Nartists_count">
-        <item quantity="other">%d 명의 아티스트</item>
-    </plurals>
     <plurals name="Nassociate_songs">
         <item quantity="other">앨범 커버 및 가사 검색 중 (%1$d/%2$d)</item>
     </plurals>
     <plurals name="Nbackup_songs">
         <item quantity="other">"노래 백업중, %1$d곡
 남음 (%2$.1fMB)"</item>
-    </plurals>
-    <plurals name="Nexpired_remind">
-        <item quantity="other">%d일 남음</item>
-    </plurals>
-    <plurals name="Ngroups_count">
-        <item quantity="other">%d 개의 밴드</item>
-    </plurals>
-    <plurals name="Nnew_tracks_count">
-        <item quantity="other">%d곡의 새 노래</item>
     </plurals>
     <plurals name="Nquit_warning">
         <item quantity="other">%d분 뒤 재생이 멈춥니다</item>
@@ -42,9 +30,6 @@
     </plurals>
     <plurals name="Ntracks_remove_from_playlist">
         <item quantity="other">재생 목록에서 제거된 %d개의 노래</item>
-    </plurals>
-    <plurals name="Ntracks_search_result">
-        <item quantity="other">%d곡 발견됨</item>
     </plurals>
     <plurals name="Ntracks_similar_count">
         <item quantity="other">%d곡의 비슷한 노래</item>
@@ -78,9 +63,6 @@
     </plurals>
     <plurals name="download_running">
         <item quantity="other">&amp;lt;font color=\"red\">%d개 노래&amp;lt;/font> 다운로드 중</item>
-    </plurals>
-    <plurals name="folder_songs_count">
-        <item quantity="other">%d개 노래</item>
     </plurals>
     <plurals name="multichoice_title">
         <item quantity="other">%d 개 선택됨</item>

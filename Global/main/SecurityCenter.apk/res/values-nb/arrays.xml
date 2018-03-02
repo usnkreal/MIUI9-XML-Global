@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="date_of_traffic_cmcc">
-        <item>"This week "</item>
-        <item>"I dag "</item>
-        <item>"This month "</item>
+        <item>Denne uken</item>
+        <item>I dag</item>
+        <item>Denne måneden</item>
     </string-array>
     <string-array name="date_of_traffic">
-        <item>"I går "</item>
-        <item>"I dag "</item>
-        <item>"This month "</item>
+        <item>I går</item>
+        <item>Today</item>
+        <item>Denne måneden</item>
     </string-array>
     <string-array name="date_of_traffic_prefix_cmcc">
-        <item>"This week: "</item>
+        <item>"Denne uken: "</item>
         <item>"I dag: "</item>
-        <item>"This month: "</item>
+        <item>"Denne måneden: "</item>
     </string-array>
     <string-array name="date_of_traffic_prefix">
         <item>"I går: "</item>
         <item>"I dag: "</item>
-        <item>"This month: "</item>
+        <item>"Denne måneden: "</item>
     </string-array>
     <string-array name="date_of_app_all">
-        <item>Yesterday (data)</item>
-        <item>Today (data)</item>
-        <item>This month (data)</item>
-        <item>Yesterday Wi-Fi</item>
-        <item>Today Wi-Fi</item>
-        <item>This month Wi-Fi</item>
+        <item>I går (data)</item>
+        <item>I dag (data)</item>
+        <item>Denne måneden (data)</item>
+        <item>I går Wi-Fi</item>
+        <item>I dag Wi-Fi</item>
+        <item>Denne måneden Wi-Fi</item>
     </string-array>
     <string-array name="traffic_type">
-        <item>"Mobile usage "</item>
-        <item>"Wi-Fi usage "</item>
+        <item>Mobilbruk</item>
+        <item>Wi-Fi-bruk</item>
     </string-array>
     <string-array name="mi_service_traffic_type">
-        <item>"Mobile usage "</item>
-        <item>"Wi-Fi usage "</item>
+        <item>Mobilbruk</item>
+        <item>"Wi-Fi-bruk "</item>
     </string-array>
     <string-array name="over_limit_traffic_waring_style">
-        <item>Show warning</item>
-        <item>Warn and turn off mobile data</item>
+        <item>Vis advarsel</item>
+        <item>Advar og slå av mobildata</item>
     </string-array>
     <string-array name="roaming_network_type">
         <item>Alltid</item>
-        <item>For exceptions only</item>
+        <item>Kun for unntak</item>
         <item>Aldri</item>
     </string-array>
     <string-array name="lock_mode">
-        <item>When device is locked</item>
-        <item>When device is locked or after exiting app</item>
-        <item>When device is locked​ or in 1 minute after exiting app</item>
+        <item>Når enheten låses</item>
+        <item>Når enheten låses etter at en app er avsluttet</item>
+        <item>Når enheten låses​ eller 1 minutt etter at en app er avsluttet</item>
     </string-array>
     <string-array name="lock_mode_value">
         <item>1</item>
@@ -57,19 +57,19 @@
     </string-array>
     <string-array name="sort_type">
         <item>Status</item>
-        <item>App name</item>
-        <item>Usage frequency</item>
-        <item>Used storage</item>
-        <item>Installation time</item>
-        <item>You can uninstall these apps</item>
+        <item>App-navn</item>
+        <item>Bruksfrekvens</item>
+        <item>Lagringsplass brukt</item>
+        <item>Installasjonstid</item>
+        <item>Apps that can be uninstalled</item>
     </string-array>
     <string-array name="sort_title">
-        <item>Sort by status</item>
-        <item>Sort by app name</item>
-        <item>Sort by usage frequency</item>
-        <item>Sort by used storage</item>
-        <item>Sort by installation time</item>
-        <item>Show apps that can be uninstalled first</item>
+        <item>Sorter etter status</item>
+        <item>Sorter etter app-navn</item>
+        <item>Sorter etter brukshyppighet</item>
+        <item>Sorter etter lagringsplass brukt</item>
+        <item>Sorter etter installasjonstid</item>
+        <item>Vis apper som kan avinstalleres først</item>
     </string-array>
     <string-array name="key_app_info">
         <item>install_source</item>
@@ -78,30 +78,30 @@
         <item>update_time</item>
     </string-array>
     <string-array name="title_app_info">
-        <item>Installation source</item>
-        <item>Installation time</item>
-        <item>Last update source</item>
-        <item>Last update time</item>
+        <item>Installasjonskilde</item>
+        <item>Installasjonstid</item>
+        <item>Siste oppdateringskilde</item>
+        <item>Siste oppdateringstidspunkt</item>
     </string-array>
     <string-array name="sms_report_type">
-        <item>Data Usage</item>
-        <item>Phone balance</item>
+        <item>Dataforbruk</item>
+        <item>Telefonsaldo</item>
     </string-array>
     <string-array name="tether_limit_warn_type">
-        <item>Turn off and notify</item>
-        <item>Only notify</item>
+        <item>Slå av og varsle</item>
+        <item>Bare varsle</item>
     </string-array>
     <string-array name="alarm_repeat_type">
         <item>En gang</item>
         <item>Hver dag</item>
-        <item>Legal workdays</item>
-        <item>Weekdays</item>
+        <item>Virkedager</item>
+        <item>Ukedager</item>
         <item>Tilpasset</item>
     </string-array>
     <string-array name="alarm_repeat_type_no_workdays">
         <item>En gang</item>
         <item>Hver dag</item>
-        <item>Weekdays</item>
+        <item>Ukedager</item>
         <item>Tilpasset</item>
     </string-array>
 </resources>

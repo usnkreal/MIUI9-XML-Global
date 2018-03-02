@@ -270,7 +270,7 @@ d. MMMM"</string>
     <string name="ext_media_nomedia_notification_title">USB úložiště odebráno</string>
     <string name="ext_media_nomedia_notification_message">USB úložiště odebráno. Vložte nové médium.</string>
     <string name="ext_media_mountable_notification_title">USB úložiště připojeno</string>
-    <string name="ext_media_mountable_notification_message">Klepnutím soubory zobrazíte ve Správci souborů.</string>
+    <string name="ext_media_mountable_notification_message">Klepněte pro otevření v Mi Správci souborů.</string>
     <string name="ext_media_safe_remove">Bezpečně odebrat</string>
     <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">KB/s</string>
@@ -780,7 +780,7 @@ Pro více informací kontaktujte svého administrátora."</string>
     <string name="recent_dock_tip">Klepnutím vyberte aplikace</string>
     <string name="dock_keyguard_locked_failed_to_dock_text">Rozdělení obrazovky není podporováno na Zamykací obrazovce.</string>
     <string name="click_expand">Klepněte pro rozbalení</string>
-    <string name="please_slide_agian">Potáhněte ještě jednou</string>
+    <string name="please_slide_agian">Potáhněte znovu</string>
     <string name="how_to_use_fsg">Tyto akce můžete provést pomocí gest:</string>
     <string name="how_to_back_home">Přejít na Domovskou obrazovku</string>
     <string name="how_to_switch_recents">Otevřít Nedávné</string>
@@ -788,6 +788,8 @@ Pro více informací kontaktujte svého administrátora."</string>
     <string name="fsg_demo_go_on">Naučit se</string>
     <string name="fs_gesture_back_home_summary">Potáhněte rychle ze spodního okraje</string>
     <string name="fs_gesture_switch_recents_summary">Potáhněte ze spodního okraje a zastavte</string>
+    <string name="how_to_use_drawer">Jak funguje funkce potažení aplikace</string>
+    <string name="how_to_use_drawer_summary">Potáhněte prstem z levého horního rohu</string>
     <string name="fs_gesture_back_ready_title">Zpět</string>
     <string name="fs_gesture_left_back_ready_summary">Přejeďte z okraje prstem doprava</string>
     <string name="fs_gesture_right_back_ready_summary">Přejeďte z okraje prstem doleva</string>

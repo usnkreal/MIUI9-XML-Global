@@ -1,5 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="alarm_set">
+        <item>Budík sa vypne za menej ako 1 minútu.</item>
+        <item>Budík sa spustí o %1$s.</item>
+        <item>Budík sa spustí o %2$s.</item>
+        <item>Budík sa spustí o %1$s a %2$s.</item>
+        <item>Budík sa spustí o %3$s.</item>
+        <item>Budík sa spustí o %1$s and %3$s.</item>
+        <item>Budík sa spustí o %2$s a %3$s.</item>
+        <item>Budík sa spustí o %1$s, %2$s a %3$s.</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>Neupozorňuj ma</item>
+        <item>1 minúta</item>
+        <item>5 minút</item>
+        <item>10 minút</item>
+        <item>15 minút</item>
+        <item>20 minút</item>
+        <item>25 minút</item>
+        <item>30 minút</item>
+    </string-array>
+    <string-array name="snooze_duration_entries">
+        <item>1 minúta</item>
+        <item>5 minút</item>
+        <item>10 minút</item>
+        <item>15 minút</item>
+        <item>20 minút</item>
+        <item>25 minút</item>
+        <item>30 minút</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Nerobiť nič</item>
+        <item>Odložiť</item>
+        <item>Zrušiť</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
     <string-array name="alarm_in_furture">
         <item>Budík za menej než minútu</item>
         <item>Budík za %1$s</item>
@@ -9,11 +57,6 @@
         <item>Budík za %1$s %3$s</item>
         <item>Budík za %2$s %3$s</item>
         <item>Budík za %1$s %2$s %3$s</item>
-    </string-array>
-    <string-array name="days">
-        <item>Včera</item>
-        <item>Dnes</item>
-        <item>Zajtra</item>
     </string-array>
     <string-array name="alarm_repeat_type">
         <item>Raz</item>
@@ -37,6 +80,11 @@
         <item>Veľmi zlá</item>
         <item>Vážne znečistený</item>
     </string-array>
+    <string-array name="days">
+        <item>Včera</item>
+        <item>Dnes</item>
+        <item>Zajtra</item>
+    </string-array>
     <string-array name="weather_tips_value">
         <item>Obmedzte vonkajšie aktivity</item>
         <item>Cesty sú klzké</item>
@@ -46,53 +94,5 @@
         <item>Na cestách buďte opatrní</item>
         <item>Blíži sa piesočná búrka. Nasaďte si masku!</item>
         <item>Prajeme vám pekný deň!</item>
-    </string-array>
-    <string-array name="alarm_set">
-        <item>Budík sa vypne za menej ako 1 minútu.</item>
-        <item>Budík sa spustí o %1$s.</item>
-        <item>Budík sa spustí o %2$s.</item>
-        <item>Budík sa spustí o %1$s a %2$s.</item>
-        <item>Budík sa spustí o %3$s.</item>
-        <item>Budík sa spustí o %1$s and %3$s.</item>
-        <item>Budík sa spustí o %2$s a %3$s.</item>
-        <item>Budík sa spustí o %1$s, %2$s a %3$s.</item>
-    </string-array>
-    <string-array name="snooze_duration_entries">
-        <item>1 minúta</item>
-        <item>5 minút</item>
-        <item>10 minút</item>
-        <item>15 minút</item>
-        <item>20 minút</item>
-        <item>25 minút</item>
-        <item>30 minút</item>
-    </string-array>
-    <string-array name="snooze_duration_values">
-        <item>1</item>
-        <item>5</item>
-        <item>10</item>
-        <item>15</item>
-        <item>20</item>
-        <item>25</item>
-        <item>30</item>
-    </string-array>
-    <string-array name="auto_silence_entries">
-        <item>Neupozorňuj ma</item>
-        <item>1 minúta</item>
-        <item>5 minút</item>
-        <item>10 minút</item>
-        <item>15 minút</item>
-        <item>20 minút</item>
-        <item>25 minút</item>
-        <item>30 minút</item>
-    </string-array>
-    <string-array name="volume_button_setting_entries">
-        <item>Nerobiť nič</item>
-        <item>Odložiť</item>
-        <item>Zrušiť</item>
-    </string-array>
-    <string-array name="volume_button_setting_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
 </resources>
