@@ -318,5 +318,5 @@ Nem sikerült elküldeni a visszajelzését"</string>
     <string name="security_space_msg">A MIUI 9 új fájlrendszerrel rendelkezik. Ha most újraindítja a készüléket, előfordulhat, hogy nem tudja használni a Második asztalt. Újraindítás előtt vigye át az összes fontosnak tartott elemet az Első asztalra.</string>
     <string name="security_space_button_pos">Ne indítsa újra</string>
     <string name="security_space_button_neg">Újraindítás most</string>
-    <string name="privacy_revoke_msg">A Frissítés alkalmazás lehetővé teszi, hogy a MIUI és szolgáltatásai naprakészek legyenek. Az engedély visszavonása után az alkalmazás leállítja az adatok gyűjtését, és az összes kapcsolódó adat (beleértve a frissítéseket igénylő eszközökről szólók is) törli az eszközről és a kiszolgálókról. A frissítés elutasítása biztonsági kockázatot jelenthet a készülékére. Mégis visszavonja az engedélyt?</string>
+    <string name="privacy_revoke_msg">A Frissítés alkalmazás lehetővé teszi, hogy a MIUI és szolgáltatásai naprakészek legyenek. Az engedély visszavonása után az alkalmazás leállítja az adatok gyűjtését, és az összes kapcsolódó adatot (beleértve a frissítéseket igénylő eszközökről szólók is) törli az eszközről és a kiszolgálókról. A frissítés elutasítása biztonsági kockázatot jelenthet a készülékére. Mégis visszavonja az engedélyt?</string>
 </resources>

@@ -1420,16 +1420,6 @@
         <item>16GB</item>
         <item>쿼드 코어 최대 2.5GHz</item>
     </string-array>
-    <string-array name="miracast_policies">
-        <item>짧은 지연</item>
-        <item>보통</item>
-        <item>더 나은 품질</item>
-    </string-array>
-    <string-array name="standard_configuration_version_mi3">
-        <item>3.00GB</item>
-        <item>16GB</item>
-        <item>쿼드 코어 최대 2.5GHz</item>
-    </string-array>
     <string-array name="install_non_market_app_entries">
         <item>켜기(권장됨)</item>
         <item>사용하지 마십시오(위험)</item>
@@ -1462,28 +1452,12 @@
         <item>Android 버전</item>
     </string-array>
     <string-array name="standard_configuration_version_description_secondary">
-        <item>Snapdragon 801</item>
-        <item>3080mAh(typ)</item>
+        <item>Snapdragon 430</item>
+        <item>4000mAh(typ)</item>
         <item>13MP</item>
         <item>5 인치</item>
-        <item>1920 × 1080</item>
-        <item>6.0.1</item>
-    </string-array>
-    <string-array name="standard_configuration_version_description_primary_mi3">
-        <item>CPU</item>
-        <item>배터리 용량</item>
-        <item>후면 카메라</item>
-        <item>화면 크기</item>
-        <item>해상도</item>
-        <item>Android 버전</item>
-    </string-array>
-    <string-array name="standard_configuration_version_description_secondary_mi3">
-        <item>Snapdragon 800</item>
-        <item>3050mAh(typ)</item>
-        <item>13MP</item>
-        <item>5 인치</item>
-        <item>1920 × 1080</item>
-        <item>6.0.1</item>
+        <item>1280 x 720</item>
+        <item>6.0</item>
     </string-array>
     <string-array name="pink_panel_led_color_entries">
         <item>연보라색</item>

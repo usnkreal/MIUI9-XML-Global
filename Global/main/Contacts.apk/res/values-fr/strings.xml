@@ -211,6 +211,8 @@
     <string name="contact_detail_calllog_call_note_tips">Notes</string>
     <string name="contact_detail_calllog_call_record_tips">Appel enregistré</string>
     <string name="contact_detail_calllog_empty">Aucun historique</string>
+    <string name="contact_detail_entry_pay">Payer</string>
+    <string name="contact_detail_entry_pay_dialog_title">Sélectionner un numéro de téléphone</string>
     <string name="contact_detail_menu_delete_miprofile">Supprimer la carte</string>
     <string name="contact_detail_miprofile_accept">Échanger les cartes de contact</string>
     <string name="contact_detail_miprofile_accept_fail_toast">"Impossible d'échanger les cartes de contact"</string>
@@ -865,7 +867,7 @@ Raison: \"%s\""</string>
     <string name="preference_contacts_display">"Préférences d'affichage"</string>
     <string name="preference_contacts_filter">Configurer la liste des contacts</string>
     <string name="preference_contacts_more">Organiser vos contacts</string>
-    <string name="preference_contacts_moresetting">More</string>
+    <string name="preference_contacts_moresetting">Plus</string>
     <string name="preference_dial_pad_touch_tone_default">Par défaut</string>
     <string name="preference_dial_pad_touch_tone_human">Voix</string>
     <string name="preference_dial_pad_touch_tone_piano">Touches de piano</string>
@@ -873,7 +875,7 @@ Raison: \"%s\""</string>
     <string name="preference_dial_pad_touch_tone_title">Sonneries du clavier</string>
     <string name="preference_display">Afficher</string>
     <string name="preference_displayOptions">"Options d'affichage"</string>
-    <string name="preference_display_contact">Display options</string>
+    <string name="preference_display_contact">"Options d'affichage"</string>
     <string name="preference_export">Exporter</string>
     <string name="preference_import">Importer</string>
     <string name="preference_import_export">Import/Export</string>

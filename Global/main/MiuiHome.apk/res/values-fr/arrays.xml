@@ -44,7 +44,6 @@
         <item>Par défaut</item>
         <item>Elégant</item>
     </string-array>
-    <array name="region_prefix" />
     <string-array name="transformation_entries">
         <item>Diapositive</item>
         <item>Fondu</item>

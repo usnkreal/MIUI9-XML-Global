@@ -211,6 +211,8 @@
     <string name="contact_detail_calllog_call_note_tips">Poznámky</string>
     <string name="contact_detail_calllog_call_record_tips">Nahrávka hovoru</string>
     <string name="contact_detail_calllog_empty">Historie je prázdná</string>
+    <string name="contact_detail_entry_pay">Zaplatit</string>
+    <string name="contact_detail_entry_pay_dialog_title">Vyberte telefonní číslo</string>
     <string name="contact_detail_menu_delete_miprofile">Odstranit viztiku</string>
     <string name="contact_detail_miprofile_accept">Vyměnit si vizitky</string>
     <string name="contact_detail_miprofile_accept_fail_toast">Vizitky se nepodařilo vyměnit</string>
@@ -874,7 +876,7 @@ Chyba: \"%s\""</string>
     <string name="preference_contacts_display">Zobrazení kontaktů</string>
     <string name="preference_contacts_filter">Upravit seznam kontaktů</string>
     <string name="preference_contacts_more">Uspořádat kontakty</string>
-    <string name="preference_contacts_moresetting">More</string>
+    <string name="preference_contacts_moresetting">Více</string>
     <string name="preference_dial_pad_touch_tone_default">Výchozí</string>
     <string name="preference_dial_pad_touch_tone_human">Hlas</string>
     <string name="preference_dial_pad_touch_tone_piano">Klavír</string>
@@ -882,7 +884,7 @@ Chyba: \"%s\""</string>
     <string name="preference_dial_pad_touch_tone_title">Tón tlačítek číselníku</string>
     <string name="preference_display">Zobrazit</string>
     <string name="preference_displayOptions">Možnosti zobrazení</string>
-    <string name="preference_display_contact">Display options</string>
+    <string name="preference_display_contact">Možnosti zobrazení</string>
     <string name="preference_export">Exportovat</string>
     <string name="preference_import">Importovat</string>
     <string name="preference_import_export">Importovat/exportovat</string>

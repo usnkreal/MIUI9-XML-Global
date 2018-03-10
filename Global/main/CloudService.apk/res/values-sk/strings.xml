@@ -300,15 +300,16 @@ Odoslané ID vášho zariadenia na server Mi bude šifrované.\""</string>
     <string name="micloud_detail_pause">Synchr. zastavená</string>
     <string name="micloud_detail_need_charge_or_sleep">Pripojte k nabíjačke a vypnite displej pre pokračovanie v synchr.</string>
     <string name="micloud_detail_battery_low">Slabá batéria</string>
-    <string name="micloud_privacy_cloud_off">Synchr. vypnutá</string>
-    <string name="micloud_privacy_licence_agreed">Súhlasím so Zásadami ochrany osobných údajov služby Mi Clooud.</string>
-    <string name="micloud_privacy_licence_privacy_policy">zásady ochrany osobných údajov</string>
-    <string name="micloud_privacy_explanation">Po povolení autorizácie aktivovať Mi Cloud</string>
-    <string name="micloud_privacy_cloud_sync">Aktivovať Mi Cloud</string>
-    <string name="micloud_privacy_warning_title">Nápoveda</string>
-    <string name="micloud_privacy_warning_content">Mi Cloud sa nedá aktivovať. Skúste to neskôr.</string>
+    <string name="micloud_privacy_cloud_off">Sync is off</string>
+    <string name="micloud_privacy_licence_agreed">Agree to Mi Cloud Privacy Policy.</string>
+    <string name="micloud_privacy_licence_privacy_policy">Privacy Policy</string>
+    <string name="micloud_privacy_explanation">Grant authorization to turn on Mi Cloud services</string>
+    <string name="micloud_privacy_cloud_sync">Turn on Mi Cloud services</string>
+    <string name="micloud_privacy_warning_title">Attention</string>
+    <string name="micloud_privacy_warning_content">"Can't turn on Mi Cloud services. Wait a minute or two and try again."</string>
     <string name="micloud_privacy_warning_button">Späť</string>
-    <string name="micloud_privacy_more">viac</string>
+    <string name="micloud_privacy_progress_content">Granting authorization…</string>
+    <string name="micloud_privacy_more">More</string>
     <string name="micloud_check_sim_title">"\"Zrejme bola zmenená SIM karta. Prihláste sa
 do vášho Xiaomi účtu pre znovu aktivovanie MiCloud.\""</string>
     <string name="micloud_check_sim_notify_title">Znova aktivovať MiCloud</string>
@@ -466,7 +467,7 @@ do vášho Xiaomi účtu pre znovu aktivovanie MiCloud.\""</string>
     <string name="micloud_notif_content_multi_user_error">Prihlásili ste sa rovnakým účtom ako na primárnom profile.</string>
     <string name="micloud_notif_title_dirty_data">Máte nesynchr. dáta</string>
     <string name="micloud_notif_content_dirty_data">Podrobnosti</string>
-    <string name="micloud_notif_title_privacy_reopen_failed">Nepodarila sa spustiť cloudová služba</string>
+    <string name="micloud_notif_title_privacy_reopen_failed">"Couldn't turn on Mi Cloud services"</string>
     <string name="micloud_notif_content_privacy_reopen_failed">Zobraziť podrobnosti</string>
     <string name="micloud_find_device_guide_title">Prihláste sa do &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font> pre určenie polohy, vymazanie alebo uzamknutie vášho zariadenia. Táto funkcia vám pomôže napr. pri strate telefónu.&lt;br />Ak vaše zariadenie stratíte, môžete jednoducho kontaktovať bezpečnostnú službu tých aplikácií, ktoré často využívate (napr. Alipay, WeChat, QQ) a ochrániť tak svoje účty na &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font>.</string>
     <string name="micloud_find_device_guide_content">Ak zmeníte vašu SIM kartu, automaticky sa odošle SMS pre aktiváciu tejto funkcie.</string>
@@ -506,8 +507,8 @@ do vášho Xiaomi účtu pre znovu aktivovanie MiCloud.\""</string>
     <string name="micloud_find_device_close_alert_content">Ak túto funkciu deaktivujete, nebudete môcť vyhľadať vaše zariadenie ak ho stratíte.</string>
     <string name="micloud_find_device_close_alert_positive">Zrušiť</string>
     <string name="micloud_find_device_close_alert_negtive">Deaktivovať</string>
-    <string name="find_device_gdpr_prompt">Zapnutím funkcie Vyhľadať zariadenie vyjadrujete súhlas so \"Zásadami ochrany osobných údajov\". Ak chcete zrušiť vašu osobnú autorizáciu, prosím vypnite túto funkciu.</string>
-    <string name="find_device_gdpr_prompt_policy_doc_name">\"Zásady ochrany osobných údajov\"</string>
+    <string name="find_device_gdpr_prompt">By turning on Find device, you agree to our Privacy Policy. If you need to revoke authorization, turn this feature off.</string>
+    <string name="find_device_gdpr_prompt_policy_doc_name">Privacy Policy</string>
     <string name="activate_finddevice">Pripojte telefón k sieti na aktiváciu zariadenia</string>
     <string name="account_related">Zariadenie je prepojené s Xiaomi účtom (%s). Pripojte sa k sieti pre overenie zariadenia.</string>
     <string name="connect_network">Pripojte sa k Wi-Fi alebo vložte SIM kartu</string>

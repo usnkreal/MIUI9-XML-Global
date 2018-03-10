@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AAP_SUGGEST_LABEL">
+        <item quantity="other">Možné shody v okolí</item>
+        <item quantity="one">Možná shoda v okolí</item>
+        <item quantity="few">Možné shody v okolí</item>
+        <item quantity="many">Možné shody v okolí</item>
+    </plurals>
+    <plurals name="ACCESSIBILITY_DECIMAL_STARS">
+        <item quantity="other">%.1f hvězdiček</item>
+        <item quantity="one">%.1f hvězdička</item>
+        <item quantity="few">%.1f hvězdičky</item>
+        <item quantity="many">%.1f hvězdičky</item>
+    </plurals>
+    <plurals name="ACCESSIBILITY_STARS">
+        <item quantity="other">%d hvězdiček</item>
+        <item quantity="one">%d hvězdička</item>
+        <item quantity="few">%d hvězdičky</item>
+        <item quantity="many">%d hvězdičky</item>
+    </plurals>
+    <plurals name="ADD_PHOTOS_MORE_PHOTOS_COUNT">
+        <item quantity="other">a %d dalších fotek</item>
+        <item quantity="one">a %d další fotka</item>
+        <item quantity="few">a %d další fotky</item>
+        <item quantity="many">a %d další fotky</item>
+    </plurals>
+    <plurals name="CAR_BUSINESS_ATTRIBUTION">
+        <item quantity="other">Zdroje: %s</item>
+        <item quantity="one">Zdroj: %s</item>
+        <item quantity="few">Zdroje: %s</item>
+        <item quantity="many">Zdroje: %s</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="other">%d dnů</item>
+        <item quantity="one">%d den</item>
+        <item quantity="few">%d dny</item>
+        <item quantity="many">%d dne</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="other">%s d</item>
+        <item quantity="one">%s d</item>
+        <item quantity="few">%s d</item>
+        <item quantity="many">%s d</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="other">%d dnů</item>
+        <item quantity="one">%d den</item>
+        <item quantity="few">%d dny</item>
+        <item quantity="many">%d dne</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="other">%d hodin</item>
+        <item quantity="one">%d hodina</item>
+        <item quantity="few">%d hodiny</item>
+        <item quantity="many">%d hodiny</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="other">%s h</item>
+        <item quantity="one">%s h</item>
+        <item quantity="few">%s h</item>
+        <item quantity="many">%s h</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="other">%d minut</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="few">%d minuty</item>
+        <item quantity="many">%d minuty</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="other">%s min</item>
+        <item quantity="one">%s min</item>
+        <item quantity="few">%s min</item>
+        <item quantity="many">%s min</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="other">%s</item>
+        <item quantity="one">%s</item>
+        <item quantity="few">%s</item>
+        <item quantity="many">%s</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="other">Pokračujte %1$s stop</item>
+        <item quantity="one">Pokračujte %1$s stopu</item>
+        <item quantity="few">Pokračujte %1$s stopy</item>
+        <item quantity="many">Pokračujte %1$s stopy</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="other">Pokračujte %1$s kilometrů</item>
+        <item quantity="one">Pokračujte %1$s kilometr</item>
+        <item quantity="few">Pokračujte %1$s kilometry</item>
+        <item quantity="many">Pokračujte %1$s kilometru</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="other">Pokračujte %1$s metrů</item>
+        <item quantity="one">Pokračujte %1$s metr</item>
+        <item quantity="few">Pokračujte %1$s metry</item>
+        <item quantity="many">Pokračujte %1$s metru</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="other">Pokračujte %1$s mil</item>
+        <item quantity="one">Pokračujte %1$s míli</item>
+        <item quantity="few">Pokračujte %1$s míle</item>
+        <item quantity="many">Pokračujte %1$s míle</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="other">Pokračujte %1$s yardů</item>
+        <item quantity="one">Pokračujte %1$s yard</item>
+        <item quantity="few">Pokračujte %1$s yardy</item>
+        <item quantity="many">Pokračujte %1$s yardu</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="other">Pokračujte %1$s stop po silnici %2$s</item>
+        <item quantity="one">Pokračujte %1$s stopu po silnici %2$s</item>
+        <item quantity="few">Pokračujte %1$s stopy po silnici %2$s</item>
+        <item quantity="many">Pokračujte %1$s stopy po silnici %2$s</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="other">Pokračujte %1$s kilometrů po silnici %2$s</item>
+        <item quantity="one">Pokračujte %1$s kilometr po silnici %2$s</item>
+        <item quantity="few">Pokračujte %1$s kilometry po silnici %2$s</item>
+        <item quantity="many">Pokračujte %1$s kilometru po silnici %2$s</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="other">Pokračujte %1$s metrů po silnici %2$s</item>
+        <item quantity="one">Pokračujte %1$s metr po silnici %2$s</item>
+        <item quantity="few">Pokračujte %1$s metry po silnici %2$s</item>
+        <item quantity="many">Pokračujte %1$s metru po silnici %2$s</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="other">Pokračujte %1$s mil po silnici %2$s</item>
+        <item quantity="one">Pokračujte %1$s míli po silnici %2$s</item>
+        <item quantity="few">Pokračujte %1$s míle po silnici %2$s</item>
+        <item quantity="many">Pokračujte %1$s míle po silnici %2$s</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="other">Pokračujte %1$s yardů po silnici %2$s</item>
+        <item quantity="one">Pokračujte %1$s yard po silnici %2$s</item>
+        <item quantity="few">Pokračujte %1$s yardy po silnici %2$s</item>
+        <item quantity="many">Pokračujte %1$s yardu po silnici %2$s</item>
+    </plurals>
+    <plurals name="DA_SPEECH_DAYS" />
+    <plurals name="DA_SPEECH_HOURS" />
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="other">Po %1$s stopách</item>
+        <item quantity="one">Po %1$s stopě</item>
+        <item quantity="few">Po %1$s stopách</item>
+        <item quantity="many">Po %1$s stopy</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="other">Po %1$s kilometrech</item>
+        <item quantity="one">Po %1$s kilometru</item>
+        <item quantity="few">Po %1$s kilometrech</item>
+        <item quantity="many">Po %1$s kilometru</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="other">Po %1$s metrech</item>
+        <item quantity="one">Po %1$s metru</item>
+        <item quantity="few">Po %1$s metrech</item>
+        <item quantity="many">Po %1$s metru</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="other">Po %1$s mílích</item>
+        <item quantity="one">Po %1$s míli</item>
+        <item quantity="few">Po %1$s mílích</item>
+        <item quantity="many">Po %1$s míle</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="other">Po %1$s yardech</item>
+        <item quantity="one">Po %1$s yardu</item>
+        <item quantity="few">Po %1$s yardech</item>
+        <item quantity="many">Po %1$s yardu</item>
+    </plurals>
+    <plurals name="DA_SPEECH_MINUTES" />
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="other">%s kilometrů za hodinu</item>
+        <item quantity="one">%s kilometr za hodinu</item>
+        <item quantity="few">%s kilometry za hodinu</item>
+        <item quantity="many">%s kilometru za hodinu</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="other">%s mil za hodinu</item>
+        <item quantity="one">%s míle za hodinu</item>
+        <item quantity="few">%s míle za hodinu</item>
+        <item quantity="many">%s míle za hodinu</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="other">Cíl je vzdálen %1$s stop</item>
+        <item quantity="one">Cíl je vzdálen %1$s stopu</item>
+        <item quantity="few">Cíl je vzdálen %1$s stopy</item>
+        <item quantity="many">Cíl je vzdálen %1$s stopy</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="other">Cíl je vzdálen %1$s kilometrů</item>
+        <item quantity="one">Cíl je vzdálen %1$s kilometr</item>
+        <item quantity="few">Cíl je vzdálen %1$s kilometry</item>
+        <item quantity="many">Cíl je vzdálen %1$s kilometru</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="other">Cíl je vzdálen %1$s metrů</item>
+        <item quantity="one">Cíl je vzdálen %1$s metr</item>
+        <item quantity="few">Cíl je vzdálen %1$s metry</item>
+        <item quantity="many">Cíl je vzdálen %1$s metru</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="other">Cíl je vzdálen %1$s mil</item>
+        <item quantity="one">Cíl je vzdálen %1$s míli</item>
+        <item quantity="few">Cíl je vzdálen %1$s míle</item>
+        <item quantity="many">Cíl je vzdálen %1$s míle</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="other">Cíl je vzdálen %1$s yardů</item>
+        <item quantity="one">Cíl je vzdálen %1$s yard</item>
+        <item quantity="few">Cíl je vzdálen %1$s yardy</item>
+        <item quantity="many">Cíl je vzdálen %1$s yardu</item>
+    </plurals>
+    <plurals name="DIRECTIONS_COUNT_STOPS">
+        <item quantity="other">%d zastávek</item>
+        <item quantity="one">%d zastávka</item>
+        <item quantity="few">%d zastávky</item>
+        <item quantity="many">%d zastávky</item>
+    </plurals>
+    <plurals name="DIRECTIONS_MORE_TRAFFIC_DISRUPTIONS">
+        <item quantity="other">a %1$s dalších omezení provozu</item>
+        <item quantity="one">a %1$s další omezení provozu</item>
+        <item quantity="few">a %1$s další omezení provozu</item>
+        <item quantity="many">a %1$s dalšího omezení provozu</item>
+    </plurals>
+    <plurals name="EDIT_PUBLISHED_NOTIFICATION_TITLE">
+        <item quantity="other">%d vašich úprav se již zobrazuje!</item>
+        <item quantity="one">Úprava se již zobrazuje!</item>
+        <item quantity="few">%d vaše úpravy se již zobrazují!</item>
+        <item quantity="many">%d vaší úpravy se již zobrazuje!</item>
+    </plurals>
+    <plurals name="FIVESTAR_HISTOGRAM_BAR_LABEL" />
+    <plurals name="HOTEL_RESERVATION_NUMBER_OF_NIGHTS_TEXT">
+        <item quantity="other">%d nocí</item>
+        <item quantity="one">%d noc</item>
+        <item quantity="few">%d noci</item>
+        <item quantity="many">%d noci</item>
+    </plurals>
+    <plurals name="HOTEL_STAR_CLASS">
+        <item quantity="other">%dhvězdičkový hotel</item>
+        <item quantity="one">%dhvězdičkový hotel</item>
+        <item quantity="few">%dhvězdičkový hotel</item>
+        <item quantity="many">%dhvězdičkový hotel</item>
+    </plurals>
+    <plurals name="IAMHERE_YOUVE_TAKEN_PHOTO_HERE" />
+    <plurals name="LAST_HERE_DAYS_AGO">
+        <item quantity="other">Místo jste navštívili před %d dny.</item>
+        <item quantity="one">Místo jste navštívili před %d dnem.</item>
+        <item quantity="few">Místo jste navštívili před %d dny.</item>
+        <item quantity="many">Místo jste navštívili před %d dne.</item>
+    </plurals>
+    <plurals name="LAST_HERE_MONTHS_AGO">
+        <item quantity="other">Navštíveno před %d měsíci</item>
+        <item quantity="one">Navštíveno před %d měsícem</item>
+        <item quantity="few">Navštíveno před %d měsíci</item>
+        <item quantity="many">Navštíveno před %d měsíce</item>
+    </plurals>
+    <plurals name="LAST_HERE_WEEKS_AGO">
+        <item quantity="other">Navštíveno před %d týdny</item>
+        <item quantity="one">Navštíveno před %d týdnem</item>
+        <item quantity="few">Navštíveno před %d týdny</item>
+        <item quantity="many">Navštíveno před %d týdne</item>
+    </plurals>
+    <plurals name="LAST_HERE_YEARS_AGO">
+        <item quantity="other">Navštíveno před %d roky</item>
+        <item quantity="one">Navštíveno před %d rokem</item>
+        <item quantity="few">Navštíveno před %d roky</item>
+        <item quantity="many">Navštíveno před %d roku</item>
+    </plurals>
+    <plurals name="LIST_COUNT_PLACES">
+        <item quantity="other">%d míst</item>
+        <item quantity="one">%d místo</item>
+        <item quantity="few">%d místa</item>
+        <item quantity="many">%d místa</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_CURRENT_LEVEL">
+        <item quantity="other">Úroveň %d</item>
+        <item quantity="one">Úroveň %d</item>
+        <item quantity="few">Úroveň %d</item>
+        <item quantity="many">Úroveň %d</item>
+    </plurals>
+    <plurals name="MAPS_ACTIVITY_PHOTOS_REMOVED">
+        <item quantity="other">Fotky byly odstraněny</item>
+        <item quantity="one">Fotka byla odstraněna</item>
+        <item quantity="few">Fotky byly odstraněny</item>
+        <item quantity="many">Fotky byly odstraněny</item>
+    </plurals>
+    <plurals name="MENU_REMOVE_STOPS" />
+    <plurals name="MONTHS_AGO">
+        <item quantity="other">Před %d měsíci</item>
+        <item quantity="one">Před %d měsícem</item>
+        <item quantity="few">Před %d měsíci</item>
+        <item quantity="many">Před %d měsíce</item>
+    </plurals>
+    <plurals name="MY_MAPS_PHOTO_VIDEO_COUNT">
+        <item quantity="other">%d fotek/videí</item>
+        <item quantity="one">%d fotka/video</item>
+        <item quantity="few">%d fotky/videa</item>
+        <item quantity="many">%d fotky/videa</item>
+    </plurals>
+    <plurals name="MY_MAPS_VIDEO_COUNT">
+        <item quantity="other">%d videí</item>
+        <item quantity="one">%d video</item>
+        <item quantity="few">%d videa</item>
+        <item quantity="many">%d videa</item>
+    </plurals>
+    <plurals name="NUMBER_OF_AFFECTED_LINES">
+        <item quantity="other">Narušení provozu ovlivnilo %1$s linek</item>
+        <item quantity="one">Narušení provozu ovlivnilo %1$s linku</item>
+        <item quantity="few">Narušení provozu ovlivnilo %1$s linky</item>
+        <item quantity="many">Narušení provozu ovlivnilo %1$s linky</item>
+    </plurals>
+    <plurals name="NUMBER_OF_CONTRIBUTIONS">
+        <item quantity="other">%d příspěvků</item>
+        <item quantity="one">%d příspěvek</item>
+        <item quantity="few">%d příspěvky</item>
+        <item quantity="many">%d příspěvku</item>
+    </plurals>
+    <plurals name="NUMBER_OF_LOCAL_GUIDE_POINTS">
+        <item quantity="other">%d bodů</item>
+        <item quantity="one">%d bod</item>
+        <item quantity="few">%d body</item>
+        <item quantity="many">%d bodu</item>
+    </plurals>
+    <plurals name="NUMBER_OF_PLACES">
+        <item quantity="other">%d míst</item>
+        <item quantity="one">%d místo</item>
+        <item quantity="few">%d místa</item>
+        <item quantity="many">%d místa</item>
+    </plurals>
+    <plurals name="OFFLINE_MAPS_CARD_TITLE">
+        <item quantity="other">%d offline oblastí</item>
+        <item quantity="one">%d offline oblast</item>
+        <item quantity="few">%d offline oblasti</item>
+        <item quantity="many">%d offline oblasti</item>
+    </plurals>
+    <plurals name="OFFLINE_RESULTS_FOUND" />
+    <plurals name="OFFLINE_RESULTS_FOUND_TITLE" />
+    <plurals name="PERSONAL_CALENDAR_EVENTS_TITLE">
+        <item quantity="other">Nadcházející události z Kalendáře Google</item>
+        <item quantity="one">Nadcházející událost z Kalendáře Google</item>
+        <item quantity="few">Nadcházející události z Kalendáře Google</item>
+        <item quantity="many">Nadcházející události z Kalendáře Google</item>
+    </plurals>
+    <plurals name="PERSONAL_CALENDAR_OTHER_PARTICIPANTS_COUNT">
+        <item quantity="other">%d dalších</item>
+        <item quantity="one">%d další</item>
+        <item quantity="few">%d další</item>
+        <item quantity="many">%d dalšího</item>
+    </plurals>
+    <plurals name="PERSONAL_GMAIL_RESERVATIONS_AND_CALENDAR_EVENTS_TITLE">
+        <item quantity="other">Nadcházející události z Gmailu a Kalendáře</item>
+        <item quantity="one">Nadcházející událost z Gmailu a Kalendáře</item>
+        <item quantity="few">Nadcházející události z Gmailu a Kalendáře</item>
+        <item quantity="many">Nadcházející události z Gmailu a Kalendáře</item>
+    </plurals>
+    <plurals name="PERSONAL_GMAIL_RESERVATIONS_TITLE">
+        <item quantity="other">Nadcházející rezervace z Gmailu</item>
+        <item quantity="one">Nadcházející rezervace z Gmailu</item>
+        <item quantity="few">Nadcházející rezervace z Gmailu</item>
+        <item quantity="many">Nadcházející rezervace z Gmailu</item>
+    </plurals>
+    <plurals name="PERSONAL_RESERVATIONS_SUBTITLE">
+        <item quantity="other">Tyto položky můžete zobrazit pouze vy</item>
+        <item quantity="one">Tuto položku můžete zobrazit pouze vy</item>
+        <item quantity="few">Tyto položky můžete zobrazit pouze vy</item>
+        <item quantity="many">Tyto položky můžete zobrazit pouze vy</item>
+    </plurals>
+    <plurals name="PHOTOS">
+        <item quantity="other">%d fotek</item>
+        <item quantity="one">%d fotka</item>
+        <item quantity="few">%d fotky</item>
+        <item quantity="many">%d fotky</item>
+    </plurals>
+    <plurals name="PHOTOS_UPLOADING_PHOTOS">
+        <item quantity="other">Nahrává se %d fotek</item>
+        <item quantity="one">Nahrává se %d fotka</item>
+        <item quantity="few">Nahrávají se %d fotky</item>
+        <item quantity="many">Nahrává se %d fotky</item>
+    </plurals>
+    <plurals name="PHOTO_TAKEN_NOTIFICATION_TAP_TO_ADD_PHOTO_MULTIPLE">
+        <item quantity="other">Přidání %1$d fotek místa %2$s</item>
+        <item quantity="one">Přidání %1$d fotky místa %2$s</item>
+        <item quantity="few">Přidání %1$d fotek místa %2$s</item>
+        <item quantity="many">Přidání %1$d fotky místa %2$s</item>
+    </plurals>
+    <plurals name="PHOTO_UPLOADED_MSG" />
+    <plurals name="PLACE_PAGE_EXPANDED_NUMBER_OF_REVIEWS">
+        <item quantity="other">%d recenzí</item>
+        <item quantity="one">%d recenze</item>
+        <item quantity="few">%d recenze</item>
+        <item quantity="many">%d recenze</item>
+    </plurals>
+    <plurals name="PLACE_PENDING_EDIT_MORE_EDITS">
+        <item quantity="other">a %d dalších úprav</item>
+        <item quantity="one">a %d další úprava</item>
+        <item quantity="few">a %d další úpravy</item>
+        <item quantity="many">a %d další úpravy</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP">
+        <item quantity="other">Nahradit zastávky</item>
+        <item quantity="one">Nahradit zastávku</item>
+        <item quantity="few">Nahradit zastávky</item>
+        <item quantity="many">Nahradit zastávky</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTOS" />
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="other">%,d zobrazení</item>
+        <item quantity="one">%,d zobrazení</item>
+        <item quantity="few">%,d zobrazení</item>
+        <item quantity="many">%,d zobrazení</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_RATINGS">
+        <item quantity="other">%d hodnocení</item>
+        <item quantity="one">%d hodnocení</item>
+        <item quantity="few">%d hodnocení</item>
+        <item quantity="many">%d hodnocení</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_REVIEWS">
+        <item quantity="other">%d recenzí</item>
+        <item quantity="one">%d recenze</item>
+        <item quantity="few">%d recenze</item>
+        <item quantity="many">%d recenze</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_PHOTOS">
+        <item quantity="other">fotky</item>
+        <item quantity="one">fotka</item>
+        <item quantity="few">fotky</item>
+        <item quantity="many">fotky</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_REVIEWS">
+        <item quantity="other">recenze</item>
+        <item quantity="one">recenze</item>
+        <item quantity="few">recenze</item>
+        <item quantity="many">recenze</item>
+    </plurals>
+    <plurals name="QUESTIONS_REMAINING">
+        <item quantity="other">a %d dalších otázek.</item>
+        <item quantity="one">a %d další otázka.</item>
+        <item quantity="few">a %d další otázky.</item>
+        <item quantity="many">a %d další otázky.</item>
+    </plurals>
+    <plurals name="RELATED_PLACES_MORE">
+        <item quantity="other">a %d dalších míst</item>
+        <item quantity="one">a %d další místo</item>
+        <item quantity="few">a %d další místa</item>
+        <item quantity="many">a %d dalšího místa</item>
+    </plurals>
+    <plurals name="RESERVATION_PARTY_SIZE">
+        <item quantity="other">%d osob</item>
+        <item quantity="one">%d osoba</item>
+        <item quantity="few">%d osoby</item>
+        <item quantity="many">%d osoby</item>
+    </plurals>
+    <plurals name="REVIEW_SNIPPET_AUTHOR_WITH_SIMILAR_STATEMENTS">
+        <item quantity="other">%1$s a %2$d recenzentů</item>
+        <item quantity="one">%1$s a %2$d recenzent</item>
+        <item quantity="few">%1$s a %2$d recenzenti</item>
+        <item quantity="many">%1$s a %2$d recenzenta</item>
+    </plurals>
+    <plurals name="REVIEW_SNIPPET_TOTAL_STATEMENTS">
+        <item quantity="other">%d recenzentů</item>
+        <item quantity="one">%d recenzent</item>
+        <item quantity="few">%d recenzenti</item>
+        <item quantity="many">%d recenzenta</item>
+    </plurals>
+    <plurals name="REVIEW_THUMBS_UP_PEOPLE_COUNT">
+        <item quantity="other">%d uživatelů</item>
+        <item quantity="one">%d uživatel</item>
+        <item quantity="few">%d uživatelé</item>
+        <item quantity="many">%d uživatele</item>
+    </plurals>
+    <plurals name="SAVE_VISIT_N_DAYS_AGO">
+        <item quantity="other">Uložit návštěvu z doby před %d dny?</item>
+        <item quantity="one">Uložit návštěvu z doby před %d dnem?</item>
+        <item quantity="few">Uložit návštěvu z doby před %d dny?</item>
+        <item quantity="many">Uložit návštěvu z doby před %d dne?</item>
+    </plurals>
+    <plurals name="SEARCH_OFFLINE_RESULTS" />
+    <plurals name="STATION_NEARBY_STATIONS" />
+    <plurals name="SWIPE_MILESTONE_MESSAGE">
+        <item quantity="other">S Google Street View jsem nacestoval(a) %,d kilometrů!</item>
+        <item quantity="one">S Google Street View jsem nacestoval(a) %,d kilometr!</item>
+        <item quantity="few">S Google Street View jsem nacestoval(a) %,d kilometry!</item>
+        <item quantity="many">S Google Street View jsem nacestoval(a) %,d kilometru!</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_MORE_PHOTOS">
+        <item quantity="other">a %d dalších fotek</item>
+        <item quantity="one">a %d další fotka</item>
+        <item quantity="few">a %d další fotky</item>
+        <item quantity="many">a %d další fotky</item>
+    </plurals>
+    <plurals name="TRANSIT_DETAILS_FREQUENT_DEPARTURE">
+        <item quantity="other">Odjezd za %1$s min</item>
+        <item quantity="one">Odjezd za %1$s min</item>
+        <item quantity="few">Odjezd za %1$s min</item>
+        <item quantity="many">Odjezd za %1$s min</item>
+    </plurals>
+    <plurals name="TRANSIT_DETAILS_FREQUENT_TWO_DEPARTURES">
+        <item quantity="other">Odjezd za %1$s a %2$s min</item>
+        <item quantity="one">Odjezd za %1$s a %2$s min</item>
+        <item quantity="few">Odjezd za %1$s a %2$s min</item>
+        <item quantity="many">Odjezd za %1$s a %2$s min</item>
+    </plurals>
+    <plurals name="TRANSIT_MORE_DEPARTURES_WITH_NUMBER" />
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="other">%d zastávek</item>
+        <item quantity="one">%d zastávka</item>
+        <item quantity="few">%d zastávky</item>
+        <item quantity="many">%d zastávky</item>
+    </plurals>
+    <plurals name="TRANSIT_RADAR_MORE_ALERTS_HIDDEN">
+        <item quantity="other">A %d dalších upozornění</item>
+        <item quantity="one">A %d další upozornění</item>
+        <item quantity="few">A %d další upozornění</item>
+        <item quantity="many">A %d dalšího upozornění</item>
+    </plurals>
+    <plurals name="TRANSIT_SCHEMATIC_MAP_DEFAULT_BUTTON_TITLE" />
+    <plurals name="TRIP_LEVEL_NOTICES_MORE_BUTTON">
+        <item quantity="other">a %1$s dalších upozornění</item>
+        <item quantity="one">a %1$s další upozornění</item>
+        <item quantity="few">a %1$s další upozornění</item>
+        <item quantity="many">a %1$s dalšího upozornění</item>
+    </plurals>
+    <plurals name="UGC_TASKS_POST_SUBMIT_DIALOG_TITLE">
+        <item quantity="other">Učinili jste %d objevů!</item>
+        <item quantity="one">Učinili jste %d objev!</item>
+        <item quantity="few">Učinili jste %d objevy!</item>
+        <item quantity="many">Učinili jste %d objevu!</item>
+    </plurals>
+    <plurals name="UGC_TASK_N_CONTRIBUTIONS_TEXT" />
+    <plurals name="UGC_TASK_N_ITEMS_TEXT" />
+    <plurals name="UPDATE_ALL_SUCCESS_TITLE" />
+    <plurals name="UPDATE_FAILED_TITLE" />
+    <plurals name="UPLOAD_ALL_SUCCESS_TITLE">
+        <item quantity="other">Do Map bylo přidáno %d fotek</item>
+        <item quantity="one">Do Map byla přidána %d fotka</item>
+        <item quantity="few">Do Map byly přidány %d fotky</item>
+        <item quantity="many">Do Map bylo přidáno %d fotky</item>
+    </plurals>
+    <plurals name="UPLOAD_IN_PROGRESS_TEXT">
+        <item quantity="other">%1$d z %2$d</item>
+        <item quantity="one">%1$d z %2$d</item>
+        <item quantity="few">%1$d z %2$d</item>
+        <item quantity="many">%1$d z %2$d</item>
+    </plurals>
+    <plurals name="UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="other">Přidávání %d fotek do Map</item>
+        <item quantity="one">Přidávání %d fotky do Map</item>
+        <item quantity="few">Přidávání %d fotek do Map</item>
+        <item quantity="many">Přidávání %d fotky do Map</item>
+    </plurals>
+    <plurals name="UPLOAD_PHOTO_DISCLAIMER_TITLEBAR">
+        <item quantity="other">Přidávání (%d) veřejných fotek</item>
+        <item quantity="one">Přidávání veřejné fotky</item>
+        <item quantity="few">Přidávání (%d) veřejných fotek</item>
+        <item quantity="many">Přidávání (%d) veřejné fotky</item>
+    </plurals>
+    <plurals name="UPLOAD_PHOTO_DISCLAIMER_TITLEBAR_NO_COUNT">
+        <item quantity="other">Přidávání veřejných fotek</item>
+        <item quantity="one">Přidávání veřejné fotky</item>
+        <item quantity="few">Přidávání veřejných fotek</item>
+        <item quantity="many">Přidávání veřejných fotek</item>
+    </plurals>
+    <plurals name="UPLOAD_PHOTO_PHOTOS_SELECTED" />
+    <plurals name="WEEKS_AGO">
+        <item quantity="other">Před %d týdny</item>
+        <item quantity="one">Před %d týdnem</item>
+        <item quantity="few">Před %d týdny</item>
+        <item quantity="many">Před %d týdne</item>
+    </plurals>
+    <plurals name="YEARS_AGO">
+        <item quantity="other">Před %d roky</item>
+        <item quantity="one">Před %d rokem</item>
+        <item quantity="few">Před %d roky</item>
+        <item quantity="many">Před %d roku</item>
+    </plurals>
+</resources>

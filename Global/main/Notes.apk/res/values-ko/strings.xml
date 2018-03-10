@@ -200,4 +200,5 @@
     <string name="refuse_to_share_as_pic_because_of_content">이 메모는 공유하기에 너무 큽니다.</string>
     <string name="refuse_to_open_as_pic_because_of_loading">불러오는 중에는 공유를 할 수 없습니다.</string>
     <string name="toast_reach_text_limit_checkbox">메모가 너무 길어 확인란을 추가할 수 없습니다.</string>
+    <string name="dialog_privacy_revoke_tips">권한 철회 후, 앱이 데이터 수집을 중단할 것이고 모든 관련 데이터가 서버에서 삭제될 것입니다. 앱을 사용할 수 없게 됩니다. 그래도 권한을 철회하시겠습니까? 계정 보안을 위해 Mi 클라우드 서비스의 권한 철회 전 i.mi.com에 로그인해 주십시오.</string>
 </resources>

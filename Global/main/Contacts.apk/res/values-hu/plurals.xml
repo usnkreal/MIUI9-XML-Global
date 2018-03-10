@@ -57,8 +57,8 @@
         <item quantity="one">%1$d névjegy</item>
     </plurals>
     <plurals name="device_import_done_toast">
-        <item quantity="other">%1$d névjegy áthelyezve</item>
-        <item quantity="one">%1$d névjegy áthelyezve</item>
+        <item quantity="other">%1$d névjegy importálva</item>
+        <item quantity="one">%1$d névjegy importálva</item>
     </plurals>
     <plurals name="dlg_add_blacklist">
         <item quantity="other">Letilt %1$d telefonszámot?</item>
@@ -85,8 +85,8 @@
         <item quantity="one">%1$d szám</item>
     </plurals>
     <plurals name="hint_account_contacts">
-        <item quantity="other">%1$d elem</item>
-        <item quantity="one">%1$d elem</item>
+        <item quantity="other">%1$d elem található</item>
+        <item quantity="one">%1$d elem található</item>
     </plurals>
     <plurals name="hint_search_contacts">
         <item quantity="other">%1$d névjegy</item>

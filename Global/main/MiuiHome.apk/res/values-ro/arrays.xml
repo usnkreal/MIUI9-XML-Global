@@ -44,7 +44,6 @@
         <item>Implicit</item>
         <item>Clasic</item>
     </string-array>
-    <array name="region_prefix" />
     <string-array name="transformation_entries">
         <item>Diapozitiv</item>
         <item>Trecere</item>

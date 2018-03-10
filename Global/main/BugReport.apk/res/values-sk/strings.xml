@@ -163,9 +163,9 @@
     <string name="cta_confirm">OK</string>
     <string name="submit_dialog_title">Odoslať hlásenie</string>
     <string name="submit_dialog_content">Vaša spätná väzba, prílohy a záznamy budú odoslané na servery MIUI. Môžu obsahovať osobné údaje a údaje o vašej polohe.</string>
-    <string name="submit_dialog_content_global">"Your feedback, along with attachments (if any) and logs (you can uncheck the corresponding boxes for the items you don't want to upload) will be sent to MIUI's servers and a restricted section of MIUI Forum for developers for analysis and further communication. Logs may contain personal info and your location data."</string>
-    <string name="submit_dialog_cancel">Zrušiť</string>
-    <string name="submit_dialog_confirm">Odoslať</string>
+    <string name="submit_dialog_content_global">Vaša spätná väzba spolu s prílohami (ak nejaké existujú) a záznamami (môžete zrušiť označenie jednotlivých súborov, ktoré nechcete nahrať) budú odoslané na MIUI servery a do časti MIUI Fóra určenej pre vývojárov. Informácie o vašich vláknach a aktivite na fóre budú tiež zozbierané pre analýzu a ďalšiu komunikáciu. Záznamy môžu obsahovať osobné informácie a informácie o vašej polohe.</string>
+    <string name="submit_dialog_cancel">Nesúhlasím</string>
+    <string name="submit_dialog_confirm">Súhlasím</string>
     <string name="mobile_data_note_dialog_title">Upozornenie o využívaní dát</string>
     <string name="mobile_data_note_dialog_content">Ak nahrávate záznamy prostredníctvom mobilných dát, môžu vám vzniknúť ďalšie poplatky.</string>
     <string name="mobile_data_note_dialog_content_with_file_size">Nahratie záznamov prostredníctvom mobilného pripojenia spotrebuje %sMB dát.</string>
@@ -178,7 +178,7 @@
     <string name="modem_tool_log_finish_title">Záznam modemu bol vytvorený</string>
     <string name="modem_tool_log_finish_desc">Záznam bol uložený ako %s</string>
     <string name="bugreport_dialog_not_show_again">Viac nezobrazovať</string>
-    <string name="bugreport_dialog_submit_content">"You're saving software logs on this device now. Logs may contain personal info and your location data. Don't share logs with anyone else if you don't want this info to be exposed."</string>
+    <string name="bugreport_dialog_submit_content">Na toto zariadenie práve ukladáte systémové záznamy. Záznamy môžu obsahovať osobné informácie a informácie o vašej polohe. Nezdieľajte s nikým tieto záznamy, aby ste predišli ich zneužitiu.</string>
     <string name="bugreport_dump_start_notification_title">Vytváranie hlásenia o chybe...</string>
     <string name="bugreport_dump_start_notification_summary">Môže to trvať niekoľko minút.</string>
     <string name="bugreport_dump_complete_notification_title">Vytvorené hlásenie o chybe</string>

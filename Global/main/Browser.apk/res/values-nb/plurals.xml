@@ -33,16 +33,16 @@
         <item quantity="one">%d blokkert</item>
     </plurals>
     <plurals name="suggest_access_item_album_songs">
-        <item quantity="other">%d songs</item>
-        <item quantity="one">%d sanger</item>
+        <item quantity="other">%d sanger</item>
+        <item quantity="one">%d sang</item>
     </plurals>
     <plurals name="suggest_access_item_singer_albums">
         <item quantity="other">%d albums</item>
         <item quantity="one">%d albums</item>
     </plurals>
     <plurals name="suggest_access_item_singer_pop">
-        <item quantity="other">%d popular songs</item>
-        <item quantity="one">%d populære sanger</item>
+        <item quantity="other">%d populære sanger</item>
+        <item quantity="one">%d populære sang</item>
     </plurals>
     <plurals name="v5_edit_mode_title">
         <item quantity="other">%1$d selected</item>
@@ -69,8 +69,8 @@
         <item quantity="one">%1$d oppdateringer er tilgjengelige.</item>
     </plurals>
     <plurals name="video_subtitle_last_message">
-        <item quantity="other">%d minutes remaining</item>
-        <item quantity="one">%d minutter gjenstår</item>
+        <item quantity="other">%d minutter gjenstår</item>
+        <item quantity="one">%d minutt gjenstår</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Clear</item>

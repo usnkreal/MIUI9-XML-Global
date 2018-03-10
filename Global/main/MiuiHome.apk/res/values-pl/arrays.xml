@@ -44,7 +44,6 @@
         <item>Domyślnie</item>
         <item>Klasyczny</item>
     </string-array>
-    <array name="region_prefix" />
     <string-array name="transformation_entries">
         <item>Przesuń</item>
         <item>Przenikanie</item>

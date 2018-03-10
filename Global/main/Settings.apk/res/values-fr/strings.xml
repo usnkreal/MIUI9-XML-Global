@@ -10,7 +10,7 @@
     <string name="privacy_authorize_revoke_time">Révoquer (%1$d s)</string>
     <string name="privacy_authorize_title">"Accord d'autorisation"</string>
     <string name="privacy_authorize_privacy_policy">Politique de Confidentialité</string>
-    <string name="privacy_authorize_dialog_message">"%1$s exige que vous lisiez et soyez d'accord avec la %2$s. L'application doit se connecter au réseau pour fonctionner normalement. Accepter ?"</string>
+    <string name="privacy_authorize_dialog_message"><Data>"Afin d'utiliser les fonctionnalités de base des services Mi Cloud, vous devez accepter que Xiaomi collectera, traitera,          et utilisera vos données personnelles. Veuillez vous référer à notre &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Politique de confidentialité&lt;/a> et à notre &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\"> Contrat de l'utilisateur&lt;/a>"</Data> pour savoir comment nous collectons et traitons les données personnelles.</string>
     <string name="privacy_authorize_dialog_exit">Quitter</string>
     <string name="privacy_authorize_dialog_agree">Accepter</string>
     <string name="privacy_authorize_network_error">Connectez-vous au réseau et réessayez.</string>
@@ -18,6 +18,7 @@
     <string name="privacy_authorize_revoke_failed">"Impossible de révoquer l'autorisation"</string>
     <string name="privacy_authorize_success">Autorisation accordée avec succès</string>
     <string name="privacy_authorize_revoking">"Lorsque la fonction de recommandation est désactivée, la quantité d'annonces affichée reste la même que lorsqu'elle est activée, mais pas en fonction de vos données de comportement ou de vos informations personnelles."</string>
+    <string name="privacy_authorize_cloud_msg">"To ensure your account's security, sign in to i.mi.com if you want to revoke authorization for Mi Cloud services (including sync and backups)."</string>
     <string name="launcher_title">"Écran d'accueil &amp; récents"</string>
     <string name="defalut_launcher_title">"Lanceur d'application par défaut"</string>
     <string name="miui_screen_config_title">"Paramètres de l'écran d'accueil"</string>
@@ -235,13 +236,13 @@
     <string name="radioInfo_display_asu">asu</string>
     <string name="radioInfo_lac">LAC</string>
     <string name="radioInfo_cid">CID ou IDC</string>
-    <string name="sdcard_unmount">Désinstaller mémoire USB</string>
-    <string name="sdcard_format">Effacer la mémoire de stockage USB</string>
+    <string name="sdcard_unmount">Désinstaller la carte SD</string>
+    <string name="sdcard_format">Formater la carte SD</string>
     <string name="small_font">Petite</string>
     <string name="medium_font">Moyenne</string>
     <string name="large_font">Grande</string>
     <string name="font_size_save">OK</string>
-    <string name="sdcard_setting">Mémoire de stockage USB</string>
+    <string name="sdcard_setting">Carte SD</string>
     <string name="battery_info_status_unknown">Inconnu</string>
     <string name="battery_info_status_charging">En charge</string>
     <string name="battery_info_status_charging_ac">Chargement depuis AC</string>
@@ -376,14 +377,14 @@ Des signaux Bluetooth basse consommation sont utilisés à cet effet."</string>
     <string name="sdcard_changes_instructions">Les modifications prendront effet lors de la prochaine connexion du câble USB.</string>
     <string name="sdcard_settings_screen_mass_storage_text">Activer la mémoire de stockage de masse USB</string>
     <string name="sdcard_settings_total_bytes_label">Octets au total :</string>
-    <string name="sdcard_settings_not_present_status">Mémoire USB non installée</string>
+    <string name="sdcard_settings_not_present_status">Aucune carte SD</string>
     <string name="sdcard_settings_available_bytes_label">Octets disponibles :</string>
-    <string name="sdcard_settings_mass_storage_status">Mémoire USB utilisée comme stockage de masse</string>
-    <string name="sdcard_settings_unmounted_status">Retirez mémoire USB en toute sécurité.</string>
-    <string name="sdcard_settings_bad_removal_status">Mémoire USB retirée pendant son utilisation</string>
+    <string name="sdcard_settings_mass_storage_status">La carte SD est utilisée comme périphérique de stockage de masse.</string>
+    <string name="sdcard_settings_unmounted_status">Vous pouvez maintenant retirer la carte SD en toute sécurité.</string>
+    <string name="sdcard_settings_bad_removal_status">La carte SD a été retirée pendant son utilisation !</string>
     <string name="sdcard_settings_used_bytes_label">Octets utilisés :</string>
-    <string name="sdcard_settings_scanning_status">Recherche fichiers multimédias sur USB</string>
-    <string name="sdcard_settings_read_only_status">Mémoire USB en lecture seule</string>
+    <string name="sdcard_settings_scanning_status">Recherche de fichiers multimédias sur la carte SD…</string>
+    <string name="sdcard_settings_read_only_status">Carte SD installée en lecture seule</string>
     <string name="skip_label">Ignorer</string>
     <string name="next_label">Suivant</string>
     <string name="language_picker_title">Langue</string>
@@ -391,7 +392,7 @@ Des signaux Bluetooth basse consommation sont utilisés à cet effet."</string>
     <string name="device_info_label">"Informations sur l'appareil"</string>
     <string name="display_label">Écran</string>
     <string name="phone_info_label">Informations sur le téléphone</string>
-    <string name="sd_card_settings_label">Mémoire USB</string>
+    <string name="sd_card_settings_label">Carte SD</string>
     <string name="proxy_settings_label">Paramètres proxy</string>
     <string name="cancel">Annuler</string>
     <string name="okay">OK</string>
@@ -806,7 +807,7 @@ Donner cette autorisation à toutes les applications souhaitant activer la reche
 "<li>Vous ne pourrez pas obtenir les mises à jour des logiciels tant que vous ne vous connecterez pas à Internet.</li>"
 
 "<li>"Vous ne pourrez pas activer les fonctionnalités de protection de l'appareil dans l'immédiat."</li></string>
-    <string name="wifi_connect_failed_message">Connexion impossible du téléphone à ce réseau Wi-Fi.</string>
+    <string name="wifi_connect_failed_message">Impossible de se connecter au réseau Wi-Fi</string>
     <string name="wifi_saved_access_points_titlebar">Réseaux enregistrés</string>
     <string name="wifi_advanced_titlebar">Paramètres Wi-Fi avancés</string>
     <string name="wifi_setting_frequency_band_title">Bande de fréquence Wi-Fi</string>
@@ -994,7 +995,7 @@ Le code PIN est peut-être incorrect."</string>
     <string name="storage_settings">Stockage</string>
     <string name="storage_usb_settings">Stockage et USB</string>
     <string name="storage_settings_title">Paramètres de stockage</string>
-    <string name="storage_settings_summary">"Désinstaller la mémoire de stockage USB, afficher l'espace disponible"</string>
+    <string name="storage_settings_summary">Désinstaller la carte SD, afficher la mémoire disponible</string>
     <string name="status_number">Mon numéro de téléphone</string>
     <string name="status_min_number">MIN</string>
     <string name="status_msid_number">MSID</string>
@@ -1015,7 +1016,7 @@ Le code PIN est peut-être incorrect."</string>
     <string name="status_up_time">"Durée d'activité"</string>
     <string name="status_awake_time">Temps en activité</string>
     <string name="internal_memory">Mémoire de stockage interne</string>
-    <string name="sd_memory">Mémoire de stockage USB</string>
+    <string name="sd_memory">Carte SD</string>
     <string name="memory_available">Disponible</string>
     <string name="memory_available_read_only">Disponible (en lecture seule)</string>
     <string name="memory_size">Espace total</string>
@@ -1027,21 +1028,21 @@ Le code PIN est peut-être incorrect."</string>
     <string name="memory_music_usage">Audio (musique, sonneries, podcasts, etc.)</string>
     <string name="memory_media_misc_usage">Autres fichiers</string>
     <string name="memory_media_cache_usage">Données mises en cache</string>
-    <string name="sd_eject">Désinstal. mémoire partagée</string>
-    <string name="sd_eject_summary">Désinstaller mémoire USB interne</string>
-    <string name="sd_insert_summary">Insérer mémoire USB à installer</string>
-    <string name="sd_mount">Installer une mémoire de stockage USB</string>
+    <string name="sd_eject">Désinstaller la carte SD</string>
+    <string name="sd_eject_summary">Désinstaller la carte SD pour la retirer en toute sécurité</string>
+    <string name="sd_insert_summary">Insérer la carte SD à installer</string>
+    <string name="sd_mount">Installer la carte SD</string>
     <string name="sd_mount_summary" />
-    <string name="sd_format">Effacer la mémoire USB</string>
-    <string name="sd_format_summary">Effacer les données de la mémoire de stockage USB interne (ex. : musique, photos)</string>
+    <string name="sd_format">Formater la carte SD</string>
+    <string name="sd_format_summary">Effacer toutes les données de la carte SD, telles que la musique et les photos</string>
     <string name="memory_clear_cache_title">Effacer les données mises en cache ?</string>
     <string name="memory_clear_cache_message">Les données en cache des applications seront effacées.</string>
     <string name="mtp_ptp_mode_summary">La fonctionnalité MTP ou PTP est active.</string>
-    <string name="dlg_confirm_unmount_title">Désinstaller mémoire USB ?</string>
-    <string name="dlg_confirm_unmount_text">"Si vous désinstallez la mémoire de stockage USB, certaines applications en cours d'utilisation seront fermées. Elles risquent de rester indisponibles jusqu'à ce que la mémoire de stockage USB soit réinstallée."</string>
+    <string name="dlg_confirm_unmount_title">Désinstaller la carte SD ?</string>
+    <string name="dlg_confirm_unmount_text">"Si vous désinstallez la carte SD, certaines applications en cours d'utilisation s'arrêteront et risquent de ne plus être disponibles tant que vous n'aurez pas réinstallé la carte SD."</string>
     <string name="dlg_error_unmount_title" />
-    <string name="dlg_error_unmount_text">Impossible de désinstaller la mémoire de stockage USB. Réessayez ultérieurement.</string>
-    <string name="unmount_inform_text">La mémoire de stockage USB va être désinstallée.</string>
+    <string name="dlg_error_unmount_text">Impossible de désinstaller la carte SD. Réessayez ultérieurement.</string>
+    <string name="unmount_inform_text">La carte SD va être désinstallée.</string>
     <string name="sd_ejecting_title">Désinstallation en cours</string>
     <string name="sd_ejecting_summary">Désinstallation en cours</string>
     <string name="storage_low_title">Espace de stockage bientôt saturé</string>
@@ -1246,9 +1247,9 @@ D'autres personnes utilisent cet appareil.
 "<li>Autres données utilisateur</li></string>
     <string name="master_clear_desc_erase_external_storage">"
 
-Pour supprimer la musique, les photos et les autres données utilisateur, vous devez effacer la "<b>mémoire de stockage USB</b>.</string>
-    <string name="erase_external_storage">Effacer la mémoire USB</string>
-    <string name="erase_external_storage_description">Effacer toutes les données de la mémoire de stockage USB interne, telles que la musique ou les photos</string>
+Pour supprimer la musique, les photos et les autres données utilisateur, vous devez formater la "<b>carte SD</b>.</string>
+    <string name="erase_external_storage">Formater la carte SD</string>
+    <string name="erase_external_storage_description">Effacer toutes les données de la carte SD, telles que la musique ou les photos</string>
     <string name="master_clear_button_text">Réinitialiser le téléphone</string>
     <string name="master_clear_final_desc">Effacer toutes vos informations personnelles et les applications téléchargées ? Cette action est irréversible.</string>
     <string name="master_clear_final_button_text">Tout effacer</string>
@@ -1422,7 +1423,7 @@ Pour supprimer la musique, les photos et les autres données utilisateur, vous d
     <string name="application_size_label">Application</string>
     <string name="external_code_size_label">Application sur USB</string>
     <string name="data_size_label">Données</string>
-    <string name="external_data_size_label">Données sur USB</string>
+    <string name="external_data_size_label">Carte SD</string>
     <string name="uninstall_text">Désinstaller</string>
     <string name="uninstall_all_users_text">Désinstaller pour tous les utilisateurs</string>
     <string name="install_text">Installer</string>
@@ -1462,13 +1463,13 @@ Pour supprimer la musique, les photos et les autres données utilisateur, vous d
     <string name="filter_apps_disabled">Désactivées</string>
     <string name="filter_apps_third_party">Téléchargées</string>
     <string name="filter_apps_running">En cours</string>
-    <string name="filter_apps_onsdcard">Stockage USB</string>
+    <string name="filter_apps_onsdcard">Sur la carte SD</string>
     <string name="disabled">Désactivée</string>
     <string name="not_installed">Non installé pour cet utilisateur</string>
     <string name="no_applications">Aucune application</string>
     <string name="internal_storage">Stockage interne</string>
     <string name="internal_storage_sentence">mémoire de stockage interne</string>
-    <string name="sd_card_storage">Mémoire USB</string>
+    <string name="sd_card_storage">Carte SD</string>
     <string name="recompute_size">Calcul de la taille...</string>
     <string name="clear_data_dlg_title">"Supprimer les données de l'application ?"</string>
     <string name="clear_data_dlg_text">Les données de cette application (fichiers, paramètres, comptes, bases de données, etc.) vont être définitivement supprimées.</string>
@@ -1495,7 +1496,7 @@ Pour supprimer la musique, les photos et les autres données utilisateur, vous d
     <string name="version_text">version %1$s</string>
     <string name="move_app">Déplacer</string>
     <string name="move_app_to_internal">Déplacer vers le téléphone</string>
-    <string name="move_app_to_sdcard">Déplacer vers USB</string>
+    <string name="move_app_to_sdcard">Déplacer vers la carte SD</string>
     <string name="moving">Déplacement en cours</string>
     <string name="insufficient_storage">Espace de stockage insuffisant.</string>
     <string name="does_not_exist">"L'application n'existe pas."</string>
@@ -1676,10 +1677,10 @@ Appuyez sur le plus (+) pour ajouter des mots."</string>
     <string name="dev_settings_warning_message">"Ces paramètres sont destinés uniquement aux développeurs. L'activation de ces fonctionnalités peut faire en sorte que votre appareil et les applications se comportent mal ou provoquent des erreurs."</string>
     <string name="verify_apps_over_usb_title">Vérifier les applications via USB</string>
     <string name="verify_apps_over_usb_summary">Vérifier les applications installées via ADB/ADT pour un comportement dangereux.</string>
-    <string name="enforce_read_external_title">Protéger mémoire de stockage USB</string>
-    <string name="enforce_read_external_summary">"Les applis doivent demander l'autorisation pour lire la mémoire."</string>
-    <string name="enforce_read_external_confirm_title">Protéger mémoire stockage USB ?</string>
-    <string name="enforce_read_external_confirm_message">"Lorsque la mémoire de stockage USB est protégée, les applications doivent demander l'autorisation de lire les données de la mémoire de stockage externe.
+    <string name="enforce_read_external_title">Protéger la carte SD</string>
+    <string name="enforce_read_external_summary">Les applications doivent demander autorisation de lire carte SD.</string>
+    <string name="enforce_read_external_confirm_title">Protéger la carte SD ?</string>
+    <string name="enforce_read_external_confirm_message">"Lorsque la carte SD est protégée, les applications doivent demander l'autorisation de lire les données de la mémoire de stockage externe.
 
 Certaines applications peuvent ne pas fonctionner jusqu'à ce que leurs développeurs les mettent à jour."</string>
     <string name="enable_terminal_title">Terminal local</string>
@@ -2044,8 +2045,8 @@ Si l'appareil est utilisé par plusieurs personnes, l’utilisation de ce raccou
     <string name="gadget_brightness_state_off">désactivée</string>
     <string name="vpn_settings_title">VPN</string>
     <string name="credentials_title">Stockage des identifiants</string>
-    <string name="credentials_install">Installer depuis la mémoire</string>
-    <string name="credentials_install_summary">Installer les certificats depuis la mémoire de stockage</string>
+    <string name="credentials_install">Installer depuis la carte SD</string>
+    <string name="credentials_install_summary">Installer les certificats depuis la carte SD</string>
     <string name="credentials_reset">Effacer les identifiants</string>
     <string name="credentials_reset_summary">Supprimer tous les certificats</string>
     <string name="trusted_credentials">Certificats de confiance</string>
@@ -2341,9 +2342,7 @@ Pour certains comptes, les modifications effectuées sur le téléphone peuvent 
 La consommation des données mesurée par le téléphone peut différer de celle mesurée par votre opérateur. Nous vous recommandons donc de définir un seuil plus bas."</string>
     <string name="data_usage_restrict_background_title">Limiter les données en arrière-plan ?</string>
     <string name="data_usage_restrict_background">"Si vous limitez les données d'arrière-plan, certaines applications et services ne fonctionneront pas sauf si vous êtes connecté à un réseau Wi-Fi."</string>
-    <string name="data_usage_restrict_background_multiuser">"Si vous limitez les données mobiles en arrière-plan, certains services et applications ne fonctionneront que si vous êtes connecté au réseau Wi‑Fi.
-
-Ce paramètre affecte tous les utilisateurs de ce téléphone."</string>
+    <string name="data_usage_restrict_background_multiuser">Si vous limitez les données mobiles en arrière-plan, certaines applications et services ne fonctionneront pas correctement, sauf si vous êtes connecté à un réseau Wi-Fi.</string>
     <string name="data_usage_sweep_warning"><font size="21">^1</font><font size="9">^2</font>"
 "<font size="12">alerte</font></string>
     <string name="data_usage_sweep_limit"><font size="21">^1</font><font size="9">^2</font>"
@@ -3584,9 +3583,9 @@ Cela permet de protéger les données de vos appareils en cas de perte ou de vol
     <string name="shut_down_find_device_network_failure_content">"Impossible de désactiver Localiser l'appareil. Assurez-vous que votre appareil est connecté à Internet."</string>
     <string name="check_find_device_status_failure_confirm">OK </string>
     <string name="shut_down_find_device_failure_confirm">OK </string>
-    <string name="factory_reset_summary">"Effacez vos données personnelles de la carte SD pour remettre l'appareil en configuration usine."</string>
+    <string name="factory_reset_summary">"Détruire vos données personnelles de la carte SD pour remettre l'appareil en configuration usine."</string>
     <string name="erase_sure">Obligatoire</string>
-    <string name="erase_personal_data">Données personnelles</string>
+    <string name="erase_personal_data">Tous les fichiers sur le téléphone</string>
     <string name="erase_personal_data_description">Tous les fichiers et données, y compris les comptes, contacts, photos, et applications</string>
     <string name="erase_sd_data">Formater la carte SD</string>
     <string name="erase_sd_data_description">"Formater la carte SD effacera tous les fichiers et données qu'elle contient"</string>
@@ -3689,6 +3688,9 @@ Cela permet de protéger les données de vos appareils en cas de perte ou de vol
     <string name="wfd_disconnect_multiple_diag_message">Déconnecter de %1$setCompter%2$sautres appareils ?</string>
     <string name="wfd_wps_keypad">Utiliser le clavier</string>
     <string name="wfd_wps_pbc">Code PIN</string>
+    <string name="wfd_status_dialog_title">Affichage sans fil</string>
+    <string name="wfd_status_dialog_message">"Le contenu de l'écran est affiché sur un autre périphérique d'affichage via une connexion sans fil"</string>
+    <string name="wfd_status_dialog_disconnect">Déconnecter</string>
     <string name="virtual_sim_global_category_title">SIM Mi</string>
     <string name="virtual_sim_global_title">Service de données mobiles</string>
     <string name="virtual_sim_global_description">Se connecter au réseau de données sans carte SIM</string>
@@ -4128,6 +4130,8 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="permission_mgr">Autorisations</string>
     <string name="cleaner">Nettoyeur</string>
     <string name="power_mgr">Puissance</string>
+    <string name="secondspace_category">Second espace</string>
+    <string name="secondspace_delete_space_title">Supprimer le second espace</string>
     <string name="symbols_not_allowed_for_password">Le mot de passe ne peut contenir de symbole</string>
     <string name="reset_legacy_password_settings_preface_text">"Vous devez réinitialiser votre mot de passe d'écran de verrouillage."</string>
     <string name="priority_storage_title">Paramètres de stockage</string>
@@ -4308,7 +4312,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="crypt_keeper_content_title">"Chiffrer l'appareil"</string>
     <string name="crypt_keeper_content">"Vous pouvez chiffrer vos comptes, les paramètres, les applications téléchargées et leurs données, les médias, et d'autres fichiers."</string>
     <string name="crypt_keeper_decrypt_methods_title">Déchiffrer votre appareil</string>
-    <string name="crypt_keeper_decrypt_methods">"Après chiffrement de l'appareil, en supposant que vous avez mis en place un verrouillage de l'écran (qui est, un motif ou un PIN numérique ou un mot de passe), vous aurez besoin pour déverrouiller l'écran pour déchiffrer l'appareil chaque fois que vous l'allumez. La seule autre façon de déchiffrer consiste à effectuer une réinitialisation des données d'usine pour supprimer toutes vos données."</string>
+    <string name="crypt_keeper_decrypt_methods">"Après chiffrement de l'appareil, en supposant que vous ’ avez mis en place un verrouillage de l'écran (qui est, un motif ou un PIN numérique ou un mot de passe), vous ’ aurez besoin pour déverrouiller l'écran pour déchiffrer l'appareil chaque fois que vous l'allumez. La seule autre façon de déchiffrer consiste à effectuer une réinitialisation des données d'usine pour supprimer toutes vos données."</string>
     <string name="crypt_keeper_decrypt_methods_cannot_decrypt">"Si vous avez chiffré votre téléphone, vous devez entrer votre mot de passe, PIN, ou schéma à chaque fois que vous redémarrez l'appareil afin de le déchiffrer."</string>
     <string name="crypt_keeper_conditions_title">À propos de chiffrer votre appareil</string>
     <string name="crypt_keeper_conditions">"Le chiffrement prend une heure ou plus. Vous devez commencer avec une batterie chargée et de garder votre appareil branché tout au long du processus. Si vous l'interrompez, vous ’ll peut perdre une partie ou la totalité de vos données."</string>
@@ -4731,42 +4735,9 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="lock_screen_unlock_show_summary">"Ouvrez l'écran d'accueil ou saisissez directement le mot de passe"</string>
     <string name="security_keyguard_category_name">Écran de verrouillage</string>
     <string name="security_password_category_name">"Verrouillage de l'écran"</string>
-    <string name="lock_screen_secure_after_timeout_title">Exiger un mot de passe</string>
-    <string name="lock_screen_secure_after_timeout_summary">Exiger un mot de passe : %1$s</string>
-    <string name="lock_screen_secure_after_timeout_immediately_summary">Mot de passe immédiatement requis.</string>
-    <string name="lock_screen_secure_after_timeout_immediately_never">Ne jamais exiger un mot de passe</string>
     <string name="fingerprint_payment">Paiements avec empreintes digitales</string>
     <string name="unlock_disable_frp_warning_title_profile">Supprimer la protection du profil ?</string>
     <string name="unlock_disable_frp_warning_content_profile">Les fonctionnalités de protection du profil ne fonctionneront plus sans votre mot de passe.</string>
-    <string name="miracast_settings_category">"Paramètres d'affichage sans fil"</string>
-    <string name="miracast_display_category">Affichages</string>
-    <string name="miracast_menu_search">Rechercher</string>
-    <string name="miracast_menu_searching">Recherche</string>
-    <string name="miracast_menu_teardown">Déconnecter</string>
-    <string name="miracast_menu_connect">Démarrer la transmission</string>
-    <string name="miracast_menu_disconnect">Arrêter</string>
-    <string name="miracast_menu_forget">"Oublier l'affichage"</string>
-    <string name="miracast_menu_rename">"Renommer l'affichage"</string>
-    <string name="miracast_setup_save">Enregistrer</string>
-    <string name="miracast_setup_cancel">Annuler</string>
-    <string name="miracast_wifi_off">Pour utiliser Miracast, activez le Wi-Fi</string>
-    <string name="miracast_no_sinks_found">Pas de réseau sans fil détecté</string>
-    <string name="miracast_nickname">Définir un nom:</string>
-    <string name="miracast_connection_failed_generic">Échec de connexion</string>
-    <string name="miracast_sink_connected">Connecté</string>
-    <string name="miracast_sink_not_available">Non disponible</string>
-    <string name="miracast_sink_connecting">Connexion…</string>
-    <string name="miracast_sink_ready_to_connect">Prêt à se connecter</string>
-    <string name="miracast_sink_busy">Occupé</string>
-    <string name="miracast_error_already_streaming">Déjà en cours de transmission</string>
-    <string name="miracast_error_connection_in_progress">Connexion en cours…</string>
-    <string name="miracast_cancelconnect_dialog">Annuler la connexion</string>
-    <string name="miracast_dialog_title">%1$s</string>
-    <string name="miracast_error_cancelconnect">Connexion occupée</string>
-    <string name="miracast_search_for_displays">"Recherche d'affichage sans fil..."</string>
-    <string name="miracast_PC2THOR_streaming_on">"Miracast indisponible car l'appareil reçoit une transmission depuis un PC"</string>
-    <string name="miracast_disable_dhcp">Désactiver le DHCP</string>
-    <string name="miracast_enable_dhcp">Activer le DHCP</string>
     <string name="dirac_control">Optimiser la qualité audio</string>
     <string name="dirac_mode_off">Dirac désactivé</string>
     <string name="dirac_mode_in_ear">Ecouteurs intra Mi</string>
@@ -4914,12 +4885,12 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="advanced_text_layout">Activer la disposition avancée du texte</string>
     <string name="print_enable">"Activer l'impression"</string>
     <string name="print_remind">"Activer d'abord l'impression"</string>
-    <string name="usb_media_format_title">Formater le stockage USB</string>
-    <string name="use_media_format_desc">Effacer le stockage USB ? <b>Tous</b> les fichiers seront définitivement supprimés.</string>
+    <string name="usb_media_format_title">Effacer le stockage USB</string>
+    <string name="use_media_format_desc">Format USB storage? <b>All</b> files will be deleted permanently.</string>
     <string name="usb_media_format_final_desc">Tous les fichiers sur le stockage USB seront définitivement supprimés.</string>
     <string name="usb_dlg_confirm_unmount_title">Démonter le stockage USB ?</string>
     <string name="usb_dlg_confirm_unmount_text">"Si vous démontez le stockage USB, certaines applications que vous utilisez s'arrêteront ou pourront être indisponible jusqu'à ce que vous le remontez."</string>
-    <string name="usb_unmount_inform_text">Le stockage USB sera démonté.</string>
+    <string name="usb_unmount_inform_text">Le stockage USB sera éjecté.</string>
     <string name="quiet_mode">Mettre en silence les dérangements</string>
     <string name="dndm_summary_for_pad">Les notifications qui arrivent pendant que le mode \"Ne pas déranger\" est activé seront réduites au silence.</string>
     <string name="miui_silent_title">Mode silencieux</string>
@@ -4950,6 +4921,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="uicc_media_format_final_desc">Tous les fichiers sur le stockage UICC seront définitivement supprimés.</string>
     <string name="usb_media_format_gesture_explanation">Dessinez votre schéma de déverrouillage pour confirmer que vous voulez effacer le Stockage UICC.</string>
     <string name="uicc_media_format_gesture_explanation">Dessinez votre schéma de déverrouillage pour confirmer que vous voulez effacer le Stockage UICC.</string>
+    <string name="lock_screen_secure_after_timeout_immediately_summary">Mot de passe immédiatement requis.</string>
     <string name="close_install_and_connect">Non merci</string>
     <string name="confirm_install_and_connect">Installer &amp; connecter</string>
     <string name="disable_wifi_master_key_service_first">Désactiver</string>

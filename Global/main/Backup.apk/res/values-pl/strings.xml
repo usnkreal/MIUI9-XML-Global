@@ -250,6 +250,7 @@ Rozmiar aktualizacji różnicowej: %2$s"</string>
     <string name="err_filesystem_mount">Brak dostępu do magazynu danych routera</string>
     <string name="err_router_disconnected">Sprawdź połączenie z routerem i spróbuj ponownie</string>
     <string name="err_router_files_delete">Nie można usunąć danych kopii z routera</string>
+    <string name="err_not_allow">Nieobsługiwany</string>
     <string name="backup_is_running">Kopia w toku</string>
     <string name="restore_is_running">Przywracanie urządzenia</string>
     <string name="notif_backup_title">Trwa wykonywanie kopii...</string>

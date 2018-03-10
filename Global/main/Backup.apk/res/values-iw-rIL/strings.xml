@@ -250,6 +250,7 @@
     <string name="err_filesystem_mount">לא ניתן לגשת לאחסון הנתב</string>
     <string name="err_router_disconnected">בדוק את חיבור הנתב שלך ונסה שוב.</string>
     <string name="err_router_files_delete">לא ניתן היה למחוק קבצי גיבוי מהשרת</string>
+    <string name="err_not_allow">לא נתמך</string>
     <string name="backup_is_running">מבצע גיבוי של המכשיר</string>
     <string name="restore_is_running">מבצע שחזור של המכשיר</string>
     <string name="notif_backup_title">נתוני הגיבוי</string>

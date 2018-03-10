@@ -78,7 +78,7 @@ zabezpečenia."</string>
     <string name="account_setup_basics_password_label">Zadajte heslo</string>
     <string name="account_setup_basics_title">Nastavenie účtu</string>
     <string name="account_setup_check_settings_check_incoming_msg">Kontrola nastavenia servera…</string>
-    <string name="account_setup_check_settings_check_outgoing_msg">Validating SMTP settings…</string>
+    <string name="account_setup_check_settings_check_outgoing_msg">Overovanie nastavení SMTP…</string>
     <string name="account_setup_check_settings_retr_info_msg">Načítavajú sa informácie o účte…</string>
     <string name="account_setup_correct_address_tips">Zadajte e-mailovú adresu</string>
     <string name="account_setup_creating_account_msg">Prebieha vytváranie účtu...</string>
@@ -212,8 +212,8 @@ zabezpečenia."</string>
 (po odstránení atď.)\""</string>
     <string name="auto_advance_label">Automaticky pokračovať</string>
     <string name="auto_advance_summary">Zvoľte obrazovku, ktorá sa zobrazí po odstránení správy</string>
-    <string name="auto_login_fail">"Couldn't sign in automatically"</string>
-    <string name="auto_login_fail_to_retry">"Couldn't sign in automatically, try again."</string>
+    <string name="auto_login_fail">Automatické prihlásenie sa nepodarilo</string>
+    <string name="auto_login_fail_to_retry">Automatické prihlásenie sa nepodarilo, skúste znova.</string>
     <string name="auto_remind_bind">Pridať</string>
     <string name="auto_remind_discribe_text">Zapnite, ak chcete dostávať automatické pripomenutia</string>
     <string name="auto_remind_text">Automatické pripomenutia</string>
@@ -769,9 +769,9 @@ a dostávajte pripomenutia týkajúce sa platieb a ciest"</string>
     <string name="push_wps_confirm_message">Žiadna nainštalovaná aplikácia nepodporuje tento typ súboru v prílohe, odporúčame vám nainštalovať WPS Office</string>
     <string name="push_wps_confirm_title">WPS Office</string>
     <string name="push_wps_no_response_app">Žiadna aplikácia</string>
-    <string name="qq_auto_login_failed_cpy_pass_success">Copied successfully. Go back to the sign-in page and paste the code into the password form.</string>
-    <string name="qq_auto_login_failed_dialog_message">Copy verification code, tap \"Enter username and password to sign in\" on the sign-in page, and paste the code into the password form.</string>
-    <string name="qq_auto_login_failed_dialog_positive_label">Copy code</string>
+    <string name="qq_auto_login_failed_cpy_pass_success">Úspešne skopírované. Choďte späť na prihlasovaciu stránku a vložte kód do priestoru pre heslo.</string>
+    <string name="qq_auto_login_failed_dialog_message">Skopírujte prihlasovací kód, ťuknite na \"Pre prihlásenie zadajte užívateľské meno a heslo\" na prihlasovacej stránke a vložte kód do priestoru pre heslo.</string>
+    <string name="qq_auto_login_failed_dialog_positive_label">Kopírovať kód</string>
     <string name="qq_bar_open_imap">Pomoc</string>
     <string name="qq_bar_send_message">Odoslať SMS</string>
     <string name="qq_login_basecode">Prihlasuje sa do webovej pošty QQ Mail. Zadajte nezávislé heslo.</string>
@@ -852,7 +852,7 @@ a dostávajte pripomenutia týkajúce sa platieb a ciest"</string>
     <string name="report_spam">Nahlásiť spam</string>
     <string name="request_entity_large">Požadovaný súbor je príliš veľký!</string>
     <string name="respond_inline">Vložená odpoveď</string>
-    <string name="retry_login">Sign in again</string>
+    <string name="retry_login">Znova prihlásiť</string>
     <string name="save_action">Uložiť</string>
     <string name="save_attachment">Uložiť</string>
     <string name="save_draft_failed">Ukladanie konceptu zlyhalo</string>
@@ -878,7 +878,7 @@ a dostávajte pripomenutia týkajúce sa platieb a ciest"</string>
     <string name="security_unsupported_ticker_fmt">Účet „%s“ sa nedá synchronizovať z dôvodu požiadaviek zabezpečenia.</string>
     <string name="select_attachment_type">Vyberte prílohu</string>
     <string name="select_no_file">Nie je vybraná príloha pre zdieľanie</string>
-    <string name="select_path">Select path</string>
+    <string name="select_path">Zvoľte cestu</string>
     <string name="send">Poslať</string>
     <string name="send_failed">Správa nebola odoslaná.</string>
     <string name="send_feed_back">Odoslať spätnú väzbu</string>

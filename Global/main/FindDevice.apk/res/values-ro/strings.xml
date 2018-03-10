@@ -39,7 +39,7 @@ Dacă schimbați cartela SIM, un alt SMS va fi trimis automat pentru a reactiva 
     <string name="unlock_error_rpc">Eroare RPC</string>
     <string name="unlock_error_abort">Anulat de utilizator</string>
     <string name="unlock_error_passport_sdk_timeout">SDK cont Mi nu răspunde</string>
-    <string name="open_wifi_settings">Open Wi-Fi settings</string>
+    <string name="open_wifi_settings">Deschide setările Wi-Fi</string>
     <string name="activate_xiaomi_account">Activează dispozitivul</string>
     <string name="login_extra_steps">Verificare conectare</string>
     <string name="phone_locked">Acest dispozitiv poate fi asociat cu un const existent Mi (%s). Conectați-vă pentru a activa acest dispozitiv.</string>

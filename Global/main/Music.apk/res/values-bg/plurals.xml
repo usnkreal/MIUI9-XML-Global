@@ -73,16 +73,16 @@
         <item quantity="one">Изтриване на %d песен от Mi Облак? Ще се изтрие и от запазените списъци с изпълнители също.</item>
     </plurals>
     <plurals name="download_finished">
-        <item quantity="other">Изтеглени &amp;lt;font color==\"red\">%d песни&amp;lt;/font></item>
-        <item quantity="one">Изтеглена &amp;lt;font color==\"red\">%d песен&amp;lt;/font></item>
+        <item quantity="other">Изтеглени &lt;font color==\"red\">%d песни&lt;/font></item>
+        <item quantity="one">Изтеглена &lt;font color==\"red\">%d песен&lt;/font></item>
     </plurals>
     <plurals name="download_info_count_deleted_tasks">
         <item quantity="other">%d изтегляния са премахнати</item>
         <item quantity="one">%d изтегляне е премахнато</item>
     </plurals>
     <plurals name="download_running">
-        <item quantity="other">Изтеглят се &amp;lt;font color==\"red\">%d песни&amp;lt;/font></item>
-        <item quantity="one">Изтегля се &amp;lt;font color==\"red\">%d песен&amp;lt;/font></item>
+        <item quantity="other">Изтеглят се &lt;font color==\"red\">%d песни&lt;/font></item>
+        <item quantity="one">Изтегля се &lt;font color==\"red\">%d песен&lt;/font></item>
     </plurals>
     <plurals name="multichoice_title">
         <item quantity="other">Избрани: %d елементи</item>

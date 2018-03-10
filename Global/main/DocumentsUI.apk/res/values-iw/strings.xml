@@ -15,8 +15,8 @@
     <string name="menu_delete">מחק</string>
     <string name="menu_select_all">בחר הכל</string>
     <string name="menu_copy">העתק אל…</string>
-    <string name="menu_advanced_show">הצג אחסון פנימי</string>
-    <string name="menu_advanced_hide">הסתר אחסון פנימי</string>
+    <string name="menu_advanced_show">‏הצג כרטיס SD</string>
+    <string name="menu_advanced_hide">‏הסתר כרטיס SD</string>
     <string name="menu_file_size_show">הצג גודל קובץ</string>
     <string name="menu_file_size_hide">הסתר גודל קובץ</string>
     <string name="button_select">בחר</string>

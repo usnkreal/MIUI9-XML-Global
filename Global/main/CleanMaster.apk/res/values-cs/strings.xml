@@ -7,9 +7,9 @@
     <string name="text_optimizer">Nahrát názvy složek</string>
     <string name="summary_optimizer">Tato funkce nahrává názvy složek pro aktualizaci online databáze Cheetah Mobile. K tomu je vyžadováno identifikační číslo vašeho zařízení.</string>
     <string name="button_optimizer">OK</string>
-    <string name="name_optimizer">Ochrana osobních údajů</string>
+    <string name="name_optimizer">Zásadami ochrany osobních údajů</string>
     <string name="title_optimizer">Pravidla a podmínky</string>
-    <string name="header_optimizer">Používáním této funkce souhlasíte s %s.</string>
+    <string name="header_optimizer">Používáním této funkce souhlasíte se %s.</string>
     <string name="byteShort">B</string>
     <string name="kilobyteShort">KB</string>
     <string name="megabyteShort">MB</string>

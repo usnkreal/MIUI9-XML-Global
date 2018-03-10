@@ -5,8 +5,8 @@
         <item quantity="one">%d órája</item>
     </plurals>
     <plurals name="activity_main_update_time_in_one_hour">
-        <item quantity="other">%d perccel ezelőtt</item>
-        <item quantity="one">%d perccel ezelőtt</item>
+        <item quantity="other">%d perce</item>
+        <item quantity="one">%d perce</item>
     </plurals>
     <plurals name="activity_main_update_time_one_day_ago">
         <item quantity="other">%d napja</item>
@@ -25,8 +25,8 @@
         <item quantity="one">%1$s személy | </item>
     </plurals>
     <plurals name="total_voted_num_text">
-        <item quantity="other">"&amp;lt;font color='#20a7ff'>%1$s&amp;lt;/font> ember szavazott"</item>
-        <item quantity="one">"&amp;lt;font color='#20a7ff'>%1$s&amp;lt;/font> ember szavazott"</item>
+        <item quantity="other">"&lt;font color='#20a7ff'>%1$s&lt;/font> ember szavazott"</item>
+        <item quantity="one">"&lt;font color='#20a7ff'>%1$s&lt;/font> ember szavazott"</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Tiszta</item>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>А</item>
+        <item>Б</item>
+        <item>В</item>
+        <item>Г</item>
+        <item>Д</item>
+        <item>Е</item>
+        <item>Ж</item>
+        <item>З</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>Всички</item>
+        <item>$</item>
+        <item>$$</item>
+        <item>$$$</item>
+        <item>$$$$</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>Което и да е ценово ниво</item>
+        <item>Евтино</item>
+        <item>Умерено скъпо</item>
+        <item>Скъпо</item>
+        <item>Много скъпо</item>
+    </string-array>
+    <array name="RESTRICTION_ALLOWED_PRICE_LEVEL_SHORT" />
+    <string-array name="RESTRICTION_ALLOWED_STARS">
+        <item>Всички</item>
+        <item>2,0</item>
+        <item>3,0</item>
+        <item>4,0</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_STARS_DESCRIPTIONS">
+        <item>Броят на звездите в оценката няма значение</item>
+        <item>Поне две звезди</item>
+        <item>Поне три звезди</item>
+        <item>Поне четири звезди</item>
+    </string-array>
+    <array name="RESTRICTION_ALLOWED_STARS_SHORT" />
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>Всички</item>
+        <item>3 звезди</item>
+        <item>4 звезди</item>
+        <item>5 звезди</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES_DESCRIPTIONS">
+        <item>Всички</item>
+        <item>Три звезди</item>
+        <item>Четири звезди</item>
+        <item>Пет звезди</item>
+    </string-array>
+    <string-array name="REVIEW_RATING_STAR_TEXT_DESCRIPTIONS">
+        <item>Никак не ми хареса</item>
+        <item>Не ми хареса</item>
+        <item>Добре е</item>
+        <item>Хареса ми</item>
+        <item>Много ми хареса</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>При увеличаване и намаляване на мащаба</item>
+        <item>Винаги</item>
+    </string-array>
+    <string-array name="WRITE_REVIEW_HINTS_FOR_RATING_STARS">
+        <item>Разкажете на другите защо изобщо не харесахте това място.</item>
+        <item>Разкажете на другите защо не харесахте това място.</item>
+        <item>Разкажете на другите защо това място беше приемливо.</item>
+        <item>Разкажете на другите защо харесахте това място.</item>
+        <item>Разкажете на другите защо изключително много харесахте това място.</item>
+    </string-array>
+</resources>

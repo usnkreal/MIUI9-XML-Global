@@ -39,7 +39,7 @@
     <string name="unlock_error_rpc">שגיאת RPC</string>
     <string name="unlock_error_abort">בוטל על ידי המשתמש</string>
     <string name="unlock_error_passport_sdk_timeout">SDK של חשבון Mi אינו מגיב</string>
-    <string name="open_wifi_settings">Open Wi-Fi settings</string>
+    <string name="open_wifi_settings">פתיחת הגדרות הרשת האלחוטית</string>
     <string name="activate_xiaomi_account">הפעל מכשיר זה</string>
     <string name="login_extra_steps">אימות כניסה</string>
     <string name="phone_locked">מכשיר זה עשוי להיות מקושר לחשבון Mi קיים (%s). היכנס על מנת להפעיל מכשיר זה.</string>

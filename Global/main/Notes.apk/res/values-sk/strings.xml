@@ -198,4 +198,5 @@
     <string name="refuse_to_share_as_pic_because_of_content">Táto poznámka je na zdieľanie príliš veľká.</string>
     <string name="refuse_to_open_as_pic_because_of_loading">Počkajte, až bude poznámka načítaná a skúste to znovu.</string>
     <string name="toast_reach_text_limit_checkbox">Obsah poznámky je príliš dlhý pre pridanie nového zaškrtávacieho políčka</string>
+    <string name="dialog_privacy_revoke_tips">Po zrušení autorizácie, aplikácia viac nebude zbierať dáta a všetky súvisiace dáta budú zmazané zo serverov. Aplikácia môže byť prakticky nepoužiteľná. Zrušiť autorizáciu napriek tomu? Pre zaručenie bezpečnosti účtu sa pred zrušením autorizácie pre Mi Cloud služby prihláste na i.mi.com.</string>
 </resources>

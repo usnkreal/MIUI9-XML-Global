@@ -10,7 +10,7 @@
     <string name="privacy_authorize_revoke_time">Unieważnij (%1$ds)</string>
     <string name="privacy_authorize_title">Udzielanie autoryzacji</string>
     <string name="privacy_authorize_privacy_policy">Polityką prywatności</string>
-    <string name="privacy_authorize_dialog_message">%1$s wymaga abyś przeczytał i zgodził się z naszą %2$s. Aplikacja wymaga połączenia z internetem do poprawnej pracy. Zgadzasz się?</string>
+    <string name="privacy_authorize_dialog_message"><Data>W celu dostępu do podstawowych usług Chmury Xiaomi, musisz wyrazić zgodę na to, by Xiaomi mogło zbierać, przetwarzać i wykorzystywać Twoje dane osobiste. Zapoznaj się z naszą Polityką Prywatności, aby dowiedzieć się, jak zbieramy i przetwarzamy dane osobiste. Wybranie \"Wyrażam zgodę\" oznacza, że zaznajomiłeś i zgadasz się na naszą &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Politykę Prywatności&lt;/a> i &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\"> Umowę Użytkownika&lt;/a>.</Data></string>
     <string name="privacy_authorize_dialog_exit">Wyjdź</string>
     <string name="privacy_authorize_dialog_agree">Zgadzam się</string>
     <string name="privacy_authorize_network_error">Połącz z siecią i spróbuj ponownie.</string>
@@ -18,6 +18,7 @@
     <string name="privacy_authorize_revoke_failed">Nie udało się unieważnić autoryzacji</string>
     <string name="privacy_authorize_success">Pomyślnie udzielono autoryzacji</string>
     <string name="privacy_authorize_revoking">Unieważnianie autoryzacji…</string>
+    <string name="privacy_authorize_cloud_msg">Aby zapewnić bezpieczeństwo twojemu kontu, zaloguj się na i.mi.com jeśli chcesz odwołać autoryzację dla usług Chmury Xiaomi (w tym synchronizacji i kopii zapasowej).</string>
     <string name="launcher_title">Ekran główny i Ostatnio otwierane</string>
     <string name="defalut_launcher_title">Domyślny menedżer pulpitu</string>
     <string name="miui_screen_config_title">Ustawienia ekranu głównego</string>
@@ -235,13 +236,13 @@
     <string name="radioInfo_display_asu">asu</string>
     <string name="radioInfo_lac">LAC</string>
     <string name="radioInfo_cid">CID</string>
-    <string name="sdcard_unmount">Odłącz nośnik USB</string>
-    <string name="sdcard_format">Wyczyść nośnik USB</string>
+    <string name="sdcard_unmount">Odłącz kartę SD</string>
+    <string name="sdcard_format">Wymaż kartę SD</string>
     <string name="small_font">Mały</string>
     <string name="medium_font">Średni</string>
     <string name="large_font">Duży</string>
     <string name="font_size_save">OK</string>
-    <string name="sdcard_setting">Nośnik USB</string>
+    <string name="sdcard_setting">Karta SD</string>
     <string name="battery_info_status_unknown">Nieznany</string>
     <string name="battery_info_status_charging">Ładowanie</string>
     <string name="battery_info_status_charging_ac">Ładowanie zasilaczem</string>
@@ -376,14 +377,14 @@ Funkcja wykorzystuje sygnały Bluetooth małej mocy."</string>
     <string name="sdcard_changes_instructions">Zmiany zostaną wprowadzone po ponownym podłączeniu kabla USB.</string>
     <string name="sdcard_settings_screen_mass_storage_text">Włącz pamięć masową USB</string>
     <string name="sdcard_settings_total_bytes_label">Łącznie bajtów:</string>
-    <string name="sdcard_settings_not_present_status">Nośnik USB niepodłączony</string>
+    <string name="sdcard_settings_not_present_status">Brak karty SD</string>
     <string name="sdcard_settings_available_bytes_label">Dostępnych bajtów:</string>
-    <string name="sdcard_settings_mass_storage_status">Nośnik USB jako pamięć masowa</string>
-    <string name="sdcard_settings_unmounted_status">Możesz teraz wyjąć nośnik USB.</string>
-    <string name="sdcard_settings_bad_removal_status">Wyjęto USB podczas używania.</string>
+    <string name="sdcard_settings_mass_storage_status">Karta SD jest używana jako pamięć masowa.</string>
+    <string name="sdcard_settings_unmounted_status">Możesz teraz wyjąć kartę SD.</string>
+    <string name="sdcard_settings_bad_removal_status">Karta SD została usunięta, gdy była używana!</string>
     <string name="sdcard_settings_used_bytes_label">Wykorzystanych bajtów:</string>
-    <string name="sdcard_settings_scanning_status">Trwa skanowanie nośnika USB…</string>
-    <string name="sdcard_settings_read_only_status">Nośnik USB tylko do odczytu</string>
+    <string name="sdcard_settings_scanning_status">Przeszukiwanie karty SD w poszukiwaniu multimediów...</string>
+    <string name="sdcard_settings_read_only_status">Karta SD jest podłączona tylko do odczytu.</string>
     <string name="skip_label">Pomiń</string>
     <string name="next_label">Dalej</string>
     <string name="language_picker_title">Język</string>
@@ -391,7 +392,7 @@ Funkcja wykorzystuje sygnały Bluetooth małej mocy."</string>
     <string name="device_info_label">Informacje o urządzeniu</string>
     <string name="display_label">Ekran</string>
     <string name="phone_info_label">Informacje o telefonie</string>
-    <string name="sd_card_settings_label">Nośnik USB</string>
+    <string name="sd_card_settings_label">Karta SD</string>
     <string name="proxy_settings_label">Ustawienia proxy</string>
     <string name="cancel">Anuluj</string>
     <string name="okay">OK</string>
@@ -678,7 +679,7 @@ Aby móc korzystać z telefonu, musisz zresetować go do ustawień fabrycznych. 
     <string name="link_speed">%1$d Mb/s</string>
     <string name="wifi_alert_lockdown_by_device_owner">Twoim urządzeniem zarządza aplikacja %1$s, która wyłączyła modyfikowanie i usuwanie tej sieci Wi-Fi. Aby uzyskać więcej informacji, skontaktuj się z administratorem.</string>
     <string name="nfc_quick_toggle_title">Komunikacja NFC</string>
-    <string name="nfc_quick_toggle_summary">Zezwalaj na wymianę danych, gdy telefon dotyka innego urządzenia</string>
+    <string name="nfc_quick_toggle_summary">Zezwalaj na wymianę danych, gdy telefon dotyka innego urządzenia.</string>
     <string name="android_beam_settings_title">Android Beam</string>
     <string name="android_beam_on_summary">Udostępnianie danych przez NFC włączone</string>
     <string name="android_beam_off_summary">Udostępnianie danych przez NFC wyłączone</string>
@@ -806,7 +807,7 @@ Zezwolić na to wszystkim aplikacjom, które chcą wykonywać skanowanie?"</stri
 "<li>Nie będzie można pobrać aktualizacji oprogramowania, dopóki nie połączysz się z internetem.</li>"
 
 "<li>Nie możesz włączyć funkcji ochrony urządzenia.</li></string>
-    <string name="wifi_connect_failed_message">Telefon nie może nawiązać połączenia z tą siecią Wi-Fi.</string>
+    <string name="wifi_connect_failed_message">Nie udało się połączyć z tą siecią Wi-Fi</string>
     <string name="wifi_saved_access_points_titlebar">Zapisane sieci</string>
     <string name="wifi_advanced_titlebar">Zaawansowane</string>
     <string name="wifi_setting_frequency_band_title">Pasmo częstotliwości sieci Wi-Fi</string>
@@ -995,7 +996,7 @@ Wpisany kod PIN może być błędny."</string>
     <string name="storage_settings">Pamięć</string>
     <string name="storage_usb_settings">Pamięć i USB</string>
     <string name="storage_settings_title">Ustawienia pamięci</string>
-    <string name="storage_settings_summary">Odłącz nośnik USB i wyświetl ilość dostępnej pamięci</string>
+    <string name="storage_settings_summary">Odłącz kartę SD, pokaż ilość dostępnej pamięci w telefonie</string>
     <string name="status_number">Mój numer telefonu</string>
     <string name="status_min_number">Numer MIN</string>
     <string name="status_msid_number">MSID</string>
@@ -1016,7 +1017,7 @@ Wpisany kod PIN może być błędny."</string>
     <string name="status_up_time">Czas działania</string>
     <string name="status_awake_time">Czas działania (włączony)</string>
     <string name="internal_memory">Pamięć wewnętrzna</string>
-    <string name="sd_memory">Nośnik USB</string>
+    <string name="sd_memory">Karta SD</string>
     <string name="memory_available">Wolne</string>
     <string name="memory_available_read_only">Dostępne (tylko do odczytu)</string>
     <string name="memory_size">Całkowita pojemność</string>
@@ -1028,21 +1029,21 @@ Wpisany kod PIN może być błędny."</string>
     <string name="memory_music_usage">Dźwięk (muzyka, dzwonki, podcasty itp.)</string>
     <string name="memory_media_misc_usage">Inne pliki</string>
     <string name="memory_media_cache_usage">Dane w pamięci podręcznej</string>
-    <string name="sd_eject">Odłącz pamięć współdzieloną</string>
-    <string name="sd_eject_summary">Odłącz wewnętrzny nośnik USB</string>
-    <string name="sd_insert_summary">Włóż USB do podłączenia</string>
-    <string name="sd_mount">Podłącz nośnik USB</string>
+    <string name="sd_eject">Odłącz kartę SD</string>
+    <string name="sd_eject_summary">Odłącz kartę SD, aby bezpiecznie ją wyjąć</string>
+    <string name="sd_insert_summary">Włóż kartę SD w celu zainstalowania</string>
+    <string name="sd_mount">Zainstaluj kartę SD</string>
     <string name="sd_mount_summary" />
-    <string name="sd_format">Wyczyść nośnik USB</string>
-    <string name="sd_format_summary">Wymazuje wszystkie dane z wewnętrznego nośnika USB, np. pliki muzyczne i zdjęcia</string>
+    <string name="sd_format">Wymaż kartę SD</string>
+    <string name="sd_format_summary">Wymazuje z karty SD telefonu wszystkie dane, takie jak muzyka czy zdjęcia</string>
     <string name="memory_clear_cache_title">Wyczyścić dane z pamięci podręcznej?</string>
     <string name="memory_clear_cache_message">Spowoduje to wyczyszczenie danych z pamięci podręcznej wszystkich aplikacji.</string>
     <string name="mtp_ptp_mode_summary">Funkcja MTP lub PTP jest aktywna</string>
-    <string name="dlg_confirm_unmount_title">Odłączyć nośnik USB?</string>
-    <string name="dlg_confirm_unmount_text">Jeśli odłączysz nośnik USB, niektóre używane aplikacje zostaną zatrzymane i mogą być niedostępne do chwili jego ponownego podłączenia.</string>
+    <string name="dlg_confirm_unmount_title">Odłączyć kartę SD?</string>
+    <string name="dlg_confirm_unmount_text">Jeśli odłączysz kartę SD, niektóre używane aplikacje zostaną zatrzymane i mogą być niedostępne do chwili jej ponownego podłączenia.</string>
     <string name="dlg_error_unmount_title" />
-    <string name="dlg_error_unmount_text">Nie można odłączyć nośnika USB. Spróbuj ponownie później.</string>
-    <string name="unmount_inform_text">Nośnik USB zostanie odłączony.</string>
+    <string name="dlg_error_unmount_text">Nie można odłączyć karty SD. Spróbuj ponownie później.</string>
+    <string name="unmount_inform_text">Karta SD zostanie odłączona.</string>
     <string name="sd_ejecting_title">Odinstalowywanie</string>
     <string name="sd_ejecting_summary">Odinstalowywanie w toku</string>
     <string name="storage_low_title">Kończy się miejsce</string>
@@ -1247,9 +1248,9 @@ Z tego urządzenia korzystają inni użytkownicy.
 "<li>Inne dane użytkownika</li></string>
     <string name="master_clear_desc_erase_external_storage">"
 
-Aby usunąć muzykę, zdjęcia i inne dane użytkownika, należy wymazać "<b>nośnik USB</b>.</string>
-    <string name="erase_external_storage">Wyczyść nośnik USB</string>
-    <string name="erase_external_storage_description">Usuń z wewnętrznego nośnika USB wszystkie dane, takie jak pliki muzyczne i zdjęcia</string>
+Aby usunąć muzykę, zdjęcia i inne dane użytkownika, należy wymazać "<b>kartę SD</b>.</string>
+    <string name="erase_external_storage">Wymaż kartę SD</string>
+    <string name="erase_external_storage_description">Usuń z karty SD wszystkie dane, takie jak pliki muzyczne i zdjęcia</string>
     <string name="master_clear_button_text">Resetuj telefon</string>
     <string name="master_clear_final_desc">Wymazać wszystkie Twoje informacje osobiste i pobrane aplikacje? Tego działania nie można cofnąć.</string>
     <string name="master_clear_final_button_text">Wymaż wszystko</string>
@@ -1423,7 +1424,7 @@ Aby usunąć muzykę, zdjęcia i inne dane użytkownika, należy wymazać "<b>no
     <string name="application_size_label">Aplikacja</string>
     <string name="external_code_size_label">Aplikacja w pamięci USB</string>
     <string name="data_size_label">Dane</string>
-    <string name="external_data_size_label">Dane w pamięci USB</string>
+    <string name="external_data_size_label">Karta SD</string>
     <string name="uninstall_text">Odinstaluj</string>
     <string name="uninstall_all_users_text">Odinstaluj dla wszystkich użytkowników</string>
     <string name="install_text">Zainstaluj</string>
@@ -1463,13 +1464,13 @@ Nie utracisz żadnych danych aplikacji."</string>
     <string name="filter_apps_disabled">Wyłączone</string>
     <string name="filter_apps_third_party">Pobrane</string>
     <string name="filter_apps_running">Pracują</string>
-    <string name="filter_apps_onsdcard">Nośnik USB</string>
+    <string name="filter_apps_onsdcard">Na karcie SD</string>
     <string name="disabled">Wyłączone</string>
     <string name="not_installed">Dla tego użytk. niezainstalowana</string>
     <string name="no_applications">Brak aplikacji</string>
     <string name="internal_storage">Pamięć wewnętrzna</string>
     <string name="internal_storage_sentence">pamięć wewnętrzna</string>
-    <string name="sd_card_storage">Nośnik USB</string>
+    <string name="sd_card_storage">Pamięć karty SD</string>
     <string name="recompute_size">Przeliczanie rozmiaru...</string>
     <string name="clear_data_dlg_title">Usunąć dane aplikacji?</string>
     <string name="clear_data_dlg_text">Wszystkie dane tej aplikacji zostaną trwale usunięte. Dotyczy to wszystkich plików, ustawień, kont, baz danych itd.</string>
@@ -1496,7 +1497,7 @@ Nie utracisz żadnych danych aplikacji."</string>
     <string name="version_text">wersja %1$s</string>
     <string name="move_app">Przenieś</string>
     <string name="move_app_to_internal">Przenieś do telefonu</string>
-    <string name="move_app_to_sdcard">Przenieś na nośnik USB</string>
+    <string name="move_app_to_sdcard">Przenieś na kartę SD</string>
     <string name="moving">Przenoszenie</string>
     <string name="insufficient_storage">Za mało miejsca w pamięci.</string>
     <string name="does_not_exist">Aplikacja nie istnieje.</string>
@@ -1677,10 +1678,10 @@ Aby dodać słowo, dotknij przycisku Dodaj (+)"</string>
     <string name="dev_settings_warning_message">To są ustawienia tylko dla programistów. Włączanie tych funkcji może spowodować, że urządzenie lub aplikacje będą pracować nieprawidłowo lub powodować błędy.</string>
     <string name="verify_apps_over_usb_title">Weryfikuj aplikacje przez USB</string>
     <string name="verify_apps_over_usb_summary">Sprawdź aplikacje zainstalowane za pośrednictwem ADB/ADT w poszukiwaniu szkodliwego zachowania.</string>
-    <string name="enforce_read_external_title">Chroń nośnik USB</string>
-    <string name="enforce_read_external_summary">Aplikacje muszą prosić o pozwolenie na odczyt nośnika USB</string>
-    <string name="enforce_read_external_confirm_title">Włączyć ochronę nośnika USB?</string>
-    <string name="enforce_read_external_confirm_message">"Gdy nośnik USB jest chroniony, aplikacje muszą prosić o pozwolenie na odczyt danych z tego nośnika zewnętrznego.
+    <string name="enforce_read_external_title">Chroń kartę SD</string>
+    <string name="enforce_read_external_summary">Aplikacje muszą prosić o pozwolenie na odczyt karty SD</string>
+    <string name="enforce_read_external_confirm_title">Włączyć ochronę karty SD?</string>
+    <string name="enforce_read_external_confirm_message">"Gdy karta SD jest chroniona, aplikacje muszą prosić o pozwolenie na odczyt danych z tego nośnika zewnętrznego.
 
 Niektóre aplikacje mogą przestać działać i wymagać aktualizacji przez programistę."</string>
     <string name="enable_terminal_title">Lokalny terminal</string>
@@ -2045,8 +2046,8 @@ Jeśli z tego urządzenia korzysta kilka osób, użycie tego skrótu na zablokow
     <string name="gadget_brightness_state_off">wyłączona</string>
     <string name="vpn_settings_title">VPN</string>
     <string name="credentials_title">Magazyn danych logowania</string>
-    <string name="credentials_install">Zainstaluj z nośnika</string>
-    <string name="credentials_install_summary">Zainstaluj certyfikaty z nośnika</string>
+    <string name="credentials_install">Zainstaluj z karty SD</string>
+    <string name="credentials_install_summary">Zainstaluj certyfikaty z karty SD</string>
     <string name="credentials_reset">Wyczyść dane o certyfikatach</string>
     <string name="credentials_reset_summary">Usuń wszystkie certyfikaty</string>
     <string name="trusted_credentials">Zaufane dane uwierzytelniające</string>
@@ -2342,9 +2343,7 @@ Niektóre konta mogą też automatycznie kopiować do wersji internetowej wszyst
 Urządzenie może obliczać ilość przesłanych danych inaczej niż operator sieci komórkowej, więc najlepiej ustaw zaniżony limit."</string>
     <string name="data_usage_restrict_background_title">Ograniczyć dane w tle?</string>
     <string name="data_usage_restrict_background">Jeśli ograniczysz komórkową transmisję danych w tle, niektóre aplikacje i usługi będą działały tylko po połączeniu z siecią Wi-Fi.</string>
-    <string name="data_usage_restrict_background_multiuser">"Jeśli ograniczysz komórkową transmisję danych w tle, niektóre aplikacje i usługi będą działać tylko przy połączeniu z Wi‑Fi.
-
-Ustawienie dotyczy wszystkich użytkowników tego telefonu."</string>
+    <string name="data_usage_restrict_background_multiuser">Jeśli ograniczysz komórkową transmisję danych w tle, niektóre aplikacje i usługi będą działały tylko po połączeniu z siecią Wi-Fi.</string>
     <string name="data_usage_sweep_warning"><font size="21">^1</font><font size="9">^2</font>"
 "<font size="12">ostrzeżenie</font></string>
     <string name="data_usage_sweep_limit"><font size="21">^1</font> <font size="9">^2</font>"
@@ -3587,7 +3586,7 @@ Pomaga to chronić dane na zgubionych lub skradzionych urządzeniach."</string>
     <string name="shut_down_find_device_failure_confirm">OK</string>
     <string name="factory_reset_summary">Wymaż wszystkie dane z pamięci wewnętrznej urządzenia</string>
     <string name="erase_sure">Obowiązkowe</string>
-    <string name="erase_personal_data">Dane osobiste</string>
+    <string name="erase_personal_data">Wszystkie pliki w telefonie</string>
     <string name="erase_personal_data_description">Wszystkie pliki i dane, w tym konta Xiaomi i Google, kontakty, zdjęcia i aplikacje</string>
     <string name="erase_sd_data">Formatuj kartę SD</string>
     <string name="erase_sd_data_description">Formatowanie karty SD usunie z niej wszystkie pliki i dane</string>
@@ -3690,6 +3689,9 @@ Pomaga to chronić dane na zgubionych lub skradzionych urządzeniach."</string>
     <string name="wfd_disconnect_multiple_diag_message">Rozłączyć sesję z %1$s i %2$s innymi urządzeniami?</string>
     <string name="wfd_wps_keypad">Przycisk</string>
     <string name="wfd_wps_pbc">Wprowadź PIN</string>
+    <string name="wfd_status_dialog_title">Wyświetlacz bezprzewodowy</string>
+    <string name="wfd_status_dialog_message">Zawartość ekranu jest wyświetlana na ekranie innego urządzenia za pomocą połączenia bezprzewodowego</string>
+    <string name="wfd_status_dialog_disconnect">Rozłącz</string>
     <string name="virtual_sim_global_category_title">SIM Xiaomi</string>
     <string name="virtual_sim_global_title">Usługa danych mobilnych</string>
     <string name="virtual_sim_global_description">Połącz z siecią danych bez karty SIM</string>
@@ -4130,6 +4132,8 @@ Wybierz swój system operacyjny:"</string>
     <string name="permission_mgr">Uprawnienia</string>
     <string name="cleaner">Sprzątacz</string>
     <string name="power_mgr">Opcje zasilania</string>
+    <string name="secondspace_category">Druga przestrzeń</string>
+    <string name="secondspace_delete_space_title">Usuń Drugą przestrzeń</string>
     <string name="symbols_not_allowed_for_password">Hasło nie może zawierać symboli</string>
     <string name="reset_legacy_password_settings_preface_text">Musisz zresetować hasło blokady</string>
     <string name="priority_storage_title">Ustawienia nośnika danych</string>
@@ -4310,7 +4314,7 @@ Wybierz swój system operacyjny:"</string>
     <string name="crypt_keeper_content_title">Zaszyfruj urządzenie</string>
     <string name="crypt_keeper_content">Możesz zaszyfrować swoje konta, ustawienia, pobrane aplikacje i ich dane, multimedia oraz inne pliki.</string>
     <string name="crypt_keeper_decrypt_methods_title">Odszyfrowywanie Twojego urządzenia</string>
-    <string name="crypt_keeper_decrypt_methods">Po zaszyfrowaniu telefonu, w przypadku posiadania blokady ekranu (za pomocą wzoru, PINu lub hasła) będziesz musiał odblokować tablet przy każdym włączeniu. Jedyna możliwość odszyfrowania tabletu to przywrócenie ustawień fabrycznych.</string>
+    <string name="crypt_keeper_decrypt_methods">Po zaszyfrowaniu tabletu, w przypadku posiadania blokady ekranu (za pomocą wzoru, PINu lub hasła) będziesz musiał odblokować tablet przy każdym włączeniu. Jedyna możliwość odszyfrowania tabletu to przywrócenie ustawień fabrycznych.</string>
     <string name="crypt_keeper_decrypt_methods_cannot_decrypt">Jeśli zaszyfrowałeś swoje urządzenie, musisz wpisać swoje hasło, PIN lub wzór za każdym razem, gdy uruchamiasz ponownie urządzenie, aby uzyskać do niego dostęp.</string>
     <string name="crypt_keeper_conditions_title">O szyfrowaniu Twojego urządzenia</string>
     <string name="crypt_keeper_conditions">Szyfrowanie może potrwać godzinę lub dłużej. Rozpocznij, gdy bateria jest w pełni naładowana i nie odłączaj urządzenia od zasilania do chwili ukończenia szyfrowania. Jeśli proces zostanie przerwany, utracisz część lub nawet wszystkie swoje dane.</string>
@@ -4733,42 +4737,9 @@ Wybierz swój system operacyjny:"</string>
     <string name="lock_screen_unlock_show_summary">Otwórz ekran główny lub wpisz hasło bezpośrednio</string>
     <string name="security_keyguard_category_name">Ekran blokady</string>
     <string name="security_password_category_name">Blokada ekranu</string>
-    <string name="lock_screen_secure_after_timeout_title">Wymagaj hasła</string>
-    <string name="lock_screen_secure_after_timeout_summary">Wymagaj hasła: %1$s</string>
-    <string name="lock_screen_secure_after_timeout_immediately_summary">Wymagaj hasła natychmiast.</string>
-    <string name="lock_screen_secure_after_timeout_immediately_never">Nigdy nie wymagaj hasła</string>
     <string name="fingerprint_payment">Płatności odciskiem palca</string>
     <string name="unlock_disable_frp_warning_title_profile">Usunąć ochronę profilu?</string>
     <string name="unlock_disable_frp_warning_content_profile">Funkcje zabezpieczeń profilu nie będą działać bez podania hasła.</string>
-    <string name="miracast_settings_category">Ustawienia ekranu Wi-Fi</string>
-    <string name="miracast_display_category">Wyświetlacze</string>
-    <string name="miracast_menu_search">Wyszukaj</string>
-    <string name="miracast_menu_searching">Wyszukiwanie</string>
-    <string name="miracast_menu_teardown">Rozłącz</string>
-    <string name="miracast_menu_connect">Rozpocznij przesyłanie</string>
-    <string name="miracast_menu_disconnect">Zatrzymaj przesyłanie</string>
-    <string name="miracast_menu_forget">Zapomnij ekran</string>
-    <string name="miracast_menu_rename">Zmień nazwę ekranu</string>
-    <string name="miracast_setup_save">Zapisz</string>
-    <string name="miracast_setup_cancel">Anuluj</string>
-    <string name="miracast_wifi_off">Włącz Wi-Fi, by użyć Miracast</string>
-    <string name="miracast_no_sinks_found">Brak dostępnych wyświetlaczy</string>
-    <string name="miracast_nickname">Wpisz nową nazwę:</string>
-    <string name="miracast_connection_failed_generic">Nie można połączyć z wyświetlaczem</string>
-    <string name="miracast_sink_connected">Połączono</string>
-    <string name="miracast_sink_not_available">Niedostępny</string>
-    <string name="miracast_sink_connecting">Łączenie…</string>
-    <string name="miracast_sink_ready_to_connect">Gotowy do połączenia</string>
-    <string name="miracast_sink_busy">Zajęty</string>
-    <string name="miracast_error_already_streaming">Trwa streaming do innego ekranu</string>
-    <string name="miracast_error_connection_in_progress">Łączenie…</string>
-    <string name="miracast_cancelconnect_dialog">Anuluj połączenie</string>
-    <string name="miracast_dialog_title">%1$s</string>
-    <string name="miracast_error_cancelconnect">Połączenie jest zajęte</string>
-    <string name="miracast_search_for_displays">Wyszukiwanie ekranów bezprzewodowych…</string>
-    <string name="miracast_PC2THOR_streaming_on">Miracast jest niedostępny ponieważ komputer PC przesyła na to urządzenie</string>
-    <string name="miracast_disable_dhcp">Wyłącz HDCP</string>
-    <string name="miracast_enable_dhcp">Włącz HDCP</string>
     <string name="dirac_control">Dekodowanie Dirac</string>
     <string name="dirac_mode_off">Dirac Wył</string>
     <string name="dirac_mode_in_ear">Dokanałowe</string>
@@ -4916,12 +4887,12 @@ Wybierz swój system operacyjny:"</string>
     <string name="advanced_text_layout">Włącz dodatkowe rozmiary okien</string>
     <string name="print_enable">Włącz Drukowanie</string>
     <string name="print_remind">Włącz Usługi Drukowania</string>
-    <string name="usb_media_format_title">Formatuj nośnik USB</string>
-    <string name="use_media_format_desc">Sformatować nośnik USB? <b>Wszystkie</b> pliki zostaną nieodwracalnie usunięte.</string>
+    <string name="usb_media_format_title">Sformatuj nośnik USB</string>
+    <string name="use_media_format_desc">Format USB storage? <b>All</b> files will be deleted permanently.</string>
     <string name="usb_media_format_final_desc">Wszystkie pliki zapisane na nośniku USB zostaną trwale usunięte.</string>
     <string name="usb_dlg_confirm_unmount_title">Odłączyć nośnik USB?</string>
     <string name="usb_dlg_confirm_unmount_text">Jeśli odłączysz nośnik USB niektóre aplikacje mogą zostać zatrzymane lub być niedostępne do momentu ponownego podłączenia nośnika USB.</string>
-    <string name="usb_unmount_inform_text">Nośnik USB zostanie odłączony.</string>
+    <string name="usb_unmount_inform_text">Nośnik USB zostanie wysunięty</string>
     <string name="quiet_mode">Wycisz wszystkie zakłócenia</string>
     <string name="dndm_summary_for_pad">W trybie Nie przeszkadzać powiadomienia są wyciszone.</string>
     <string name="miui_silent_title">Tryb cichy</string>
@@ -4952,6 +4923,7 @@ Wybierz swój system operacyjny:"</string>
     <string name="uicc_media_format_final_desc">Wszystkie pliki zapisane na nośniku UICC zostaną trwale usunięte.</string>
     <string name="usb_media_format_gesture_explanation">Narysuj swój wzór odblokowujący, aby potwierdzić wyczyszczenie nośnika USB.</string>
     <string name="uicc_media_format_gesture_explanation">Narysuj swój wzór odblokowujący, aby potwierdzić wyczyszczenie nośnika UICC.</string>
+    <string name="lock_screen_secure_after_timeout_immediately_summary">Wymagaj hasła natychmiast.</string>
     <string name="close_install_and_connect">Nie, dziękuję</string>
     <string name="confirm_install_and_connect">Zainstaluj i połącz</string>
     <string name="disable_wifi_master_key_service_first">Wyłącz</string>

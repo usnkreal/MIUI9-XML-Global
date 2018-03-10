@@ -200,4 +200,5 @@
     <string name="refuse_to_share_as_pic_because_of_content">Această notă este prea mare pentru a le distribui.</string>
     <string name="refuse_to_open_as_pic_because_of_loading">Așteptați până când nota este încărcată și încercați din nou.</string>
     <string name="toast_reach_text_limit_checkbox">Nu se poate adăuga caseta de selectare, deoarece nota este prea lungă</string>
+    <string name="dialog_privacy_revoke_tips">"After you revoke authorization, the app will stop collecting data, and all the related data will be deleted from the servers. This might make the app virtually unusable. Revoke authorization anyway?To ensure your account's security, sign in to i.mi.com before revoking authorization for Mi Cloud services."</string>
 </resources>

@@ -15,8 +15,8 @@
     <string name="menu_delete">Supprimer</string>
     <string name="menu_select_all">Tout sélectionner</string>
     <string name="menu_copy">Copier vers…</string>
-    <string name="menu_advanced_show">Aff. mém. stock. interne</string>
-    <string name="menu_advanced_hide">Masquer mém. stock. int.</string>
+    <string name="menu_advanced_show">Afficher la carte SD</string>
+    <string name="menu_advanced_hide">Masquer la carte SD</string>
     <string name="menu_file_size_show">Afficher taille fichier</string>
     <string name="menu_file_size_hide">Masquer taille fichier</string>
     <string name="button_select">Sélectionner</string>

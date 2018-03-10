@@ -64,12 +64,13 @@
     <string name="button_abandon">Renunțați la modificări</string>
     <string name="button_add_city">Adaugă locaţie</string>
     <string name="button_allow">OK</string>
-    <string name="button_confirm">Permite</string>
-    <string name="button_exit">Ieşire</string>
+    <string name="button_confirm">De acord</string>
+    <string name="button_exit">Nu sunt de acord</string>
     <string name="button_not_allow">Anulează</string>
     <string name="button_sure_abandon">Renunțați la modificări?</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Verificați conexiunea la rețea și încercați din nou</string>
+    <string name="china_version_first_start_network_msg">Prin utilizarea acestui produs, sunteți de acord cu %1$s și %2$sXiaomi. Această aplicație trebuie să se conecteze la internet și să acceseze locația dvs. pentru a funcționa normal.</string>
     <string name="city_exceeded_warning">Puteţi adăuga până la 10 oraşe</string>
     <string name="commercial">Reclamă</string>
     <string name="common_loading_text">Doar o secundă…</string>
@@ -77,9 +78,9 @@
     <string name="content_desc_activity_main_add_city">Adaugă oraș</string>
     <string name="content_desc_activity_main_add_city_manage">Administrează oraşe</string>
     <string name="content_desc_activity_main_more_settings">Mai multe setări</string>
-    <string name="content_desc_back_button">Back</string>
-    <string name="content_desc_close_button">Close</string>
-    <string name="content_desc_edit_city_manage">Manage cities</string>
+    <string name="content_desc_back_button">Înapoi</string>
+    <string name="content_desc_close_button">Închide</string>
+    <string name="content_desc_edit_city_manage">Administrează oraşe</string>
     <string name="daily_forcast_drawer_on_bottom">Ascunde</string>
     <string name="daily_forcast_no_stable_direction">Briză</string>
     <string name="daily_forcast_no_wind">0</string>
@@ -151,9 +152,9 @@ Atingeți ecranul pentru a adăuga manual sau repoziționa un oraș"</string>
     <string name="lunar_calendar" />
     <string name="menu_add_city">Editează locațiile</string>
     <string name="menu_location">Locații</string>
-    <string name="menu_speaker">Voice broadcast</string>
+    <string name="menu_speaker">Difuzare voce</string>
     <string name="mi_pad2">latte</string>
-    <string name="minute_rain">Minutely forecast</string>
+    <string name="minute_rain">Prognoza de precipitații</string>
     <string name="minute_rain_after_an_hour">În 1 oră</string>
     <string name="minute_rain_after_two_hour">În 2 ore</string>
     <string name="minute_rain_feedback_subtitle">Spune-ne cum este vremea.</string>
@@ -165,7 +166,7 @@ Atingeți ecranul pentru a adăuga manual sau repoziționa un oraș"</string>
     <string name="minute_rain_progress_indicator_original_time">- -</string>
     <string name="minute_rain_pull_down_refresh">Trage în jos pentru a reîmprospăta</string>
     <string name="minute_rain_refreshing_now">Se reîmprospătează…</string>
-    <string name="missing_required_permission">You have disabled a required permission.</string>
+    <string name="missing_required_permission">Ați dezactivat o permisiune necesară.</string>
     <string name="more_details">Mai multe detalii</string>
     <string name="network_not_available">Nu se poate conecta la reţea</string>
     <string name="network_unavailable">Nu se poate conecta la reţea.</string>
@@ -268,4 +269,16 @@ Atingeți ecranul pentru a adăuga manual sau repoziționa un oraș"</string>
     <string name="xiaomi_weather_description_title">Despre Meteo</string>
     <string name="yes_vote_ratio">Pentru %1$s%%</string>
     <string name="your_location">Locația ta</string>
+    <string name="button_settings_cancel">Anulează</string>
+    <string name="button_settings_confirm">Revocă</string>
+    <string name="button_settings_confirm_to_revoke_msg">Nu veți mai putea folosi Meteo după revocarea autorizației.</string>
+    <string name="button_settings_confirm_to_revoke_title">Revocați autorizația?</string>
+    <string name="eu_region_version_first_start_network_msg">Folosind acest produs, sunteți de acord că Xiaomi va colecta, procesa și va folosi informațiile dvs. personale, inclusiv coordonatele orașelor pe care le căutați și alte tipuri de date specificate în Politica de confidențialitate. Consultați Politica de confidențialitate pentu a afla cum colectăm și procesăm informațiile. Prin atingerea \"De acord\", sunteți de acord cu %1$s și %2$s a Xiaomi.</string>
+    <string name="policy_settings">Termeni și condiții</string>
+    <string name="privacy_grant_failed">Nu s-a putut acorda autorizație. Așteptați un minut sau două și încercați din nou.</string>
+    <string name="privacy_grant_or_revoke_settings">Acordare &amp; revocare autorizație</string>
+    <string name="privacy_grant_success">A fost acordată autorizația cu succes</string>
+    <string name="privacy_revoke_failed">Nu s-a putut revoca autorizația. Așteptați un minut sau două și încercați din nou.</string>
+    <string name="privacy_revoke_success">Autorizația a fost revocată cu succes</string>
+    <string name="privacy_settings">Politica de confidențialitate</string>
 </resources>

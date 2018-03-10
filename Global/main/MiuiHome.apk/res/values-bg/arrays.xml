@@ -44,7 +44,6 @@
         <item>По подразбиране</item>
         <item>Класическа</item>
     </string-array>
-    <array name="region_prefix" />
     <string-array name="transformation_entries">
         <item>Плъзване</item>
         <item>Избледняване</item>

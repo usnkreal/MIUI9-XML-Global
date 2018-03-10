@@ -250,6 +250,7 @@ Velikost aktualizace delta: %2$s"</string>
     <string name="err_filesystem_mount">Nelze získat přístup k úložišti routeru</string>
     <string name="err_router_disconnected">Zkontrolujte připojení routeru a zkuste to znovu.</string>
     <string name="err_router_files_delete">Nelze odstranit soubory zálohy na routeru</string>
+    <string name="err_not_allow">Nepodporováno</string>
     <string name="backup_is_running">Zařízení pro zálohování</string>
     <string name="restore_is_running">Obnovení zařízení</string>
     <string name="notif_backup_title">Zálohovat data</string>

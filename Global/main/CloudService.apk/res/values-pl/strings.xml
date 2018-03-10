@@ -302,15 +302,16 @@ Użyj innego konta."</string>
     <string name="micloud_detail_pause">Synch. wstrzymana</string>
     <string name="micloud_detail_need_charge_or_sleep">Podłącz ładowarkę i wyłącz ekran, aby synchronizować</string>
     <string name="micloud_detail_battery_low">Niski poziom baterii</string>
-    <string name="micloud_privacy_cloud_off">Synchronizacja wył.</string>
-    <string name="micloud_privacy_licence_agreed">Wyraź zgodę na politykę prywatności Chmury Xiaomi.</string>
-    <string name="micloud_privacy_licence_privacy_policy">polityka prywatności</string>
-    <string name="micloud_privacy_explanation">Włącz Chmurę Xiaomi po przyznaniu autoryzacji</string>
-    <string name="micloud_privacy_cloud_sync">Włącz Chmurę Xiaomi</string>
-    <string name="micloud_privacy_warning_title">Wskazówka</string>
-    <string name="micloud_privacy_warning_content">Nie można włączyć Chmury Xiaomi. Spróbuj później.</string>
+    <string name="micloud_privacy_cloud_off">Synchronizacja jest wyłączona</string>
+    <string name="micloud_privacy_licence_agreed">Zgadzam się z Polityką prywatności Chmury Xiaomi.</string>
+    <string name="micloud_privacy_licence_privacy_policy">Polityka prywatności</string>
+    <string name="micloud_privacy_explanation">Udziel autoryzacji na włączenie usług Chmury Xiaomi</string>
+    <string name="micloud_privacy_cloud_sync">Włącz usługi Chmury Xiaomi</string>
+    <string name="micloud_privacy_warning_title">Powiadomienie</string>
+    <string name="micloud_privacy_warning_content">Nie można włączyć usług Chmury Xiaomi. Poczekaj minutę lub dwie i spróbuj ponownie.</string>
     <string name="micloud_privacy_warning_button">Wstecz</string>
-    <string name="micloud_privacy_more">więcej</string>
+    <string name="micloud_privacy_progress_content">Udzielanie autoryzacji…</string>
+    <string name="micloud_privacy_more">Więcej</string>
     <string name="micloud_check_sim_title">"Wygląda na to, że zmieniono kartę SIM. Zaloguj się ponownie na konto Xiaomi,
 aby aktywować usługę Chmura Xiaomi."</string>
     <string name="micloud_check_sim_notify_title">Aktywuj ponownie Chmurę Xiaomi</string>
@@ -471,7 +472,7 @@ podczas połączenia z Wi-Fi Ostatnia kopia: %2$s"</string>
     <string name="micloud_notif_content_multi_user_error">Zalogowano za pomocą tego samego konta, co w Pierwszej przestrzeni.</string>
     <string name="micloud_notif_title_dirty_data">Masz niezsynchronizowane elementy</string>
     <string name="micloud_notif_content_dirty_data">Szczegóły</string>
-    <string name="micloud_notif_title_privacy_reopen_failed">Nie udało się uruchomić usługi chmury</string>
+    <string name="micloud_notif_title_privacy_reopen_failed">Nie udało się włączyć usług Chmury Xiaomi</string>
     <string name="micloud_notif_content_privacy_reopen_failed">Zobacz szczegóły</string>
     <string name="micloud_find_device_guide_title">Zaloguj się na &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font>, aby zlokalizować, zablokować lub wyczyścić urządzenie. Może to pomóc w znalezieniu urządzenia w przypadku jego utraty.&lt;br />Jeśli zgubisz urządzenie, możesz skontaktować się z serwisem zabezpieczeń najczęściej używanych aplikacji (np. Alipay, WeChat, QQ) w celu ochrony twoich kont na &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font>.</string>
     <string name="micloud_find_device_guide_content">Aby aktywować tę usługę, może być wymagana wychodząca wiadomość SMS. Twój operator pobierze opłatę za tę wiadomość. Po przełączeniu karty SIM zostanie automatycznie wysłana wiadomość, aby ponownie włączyć tę funkcję.</string>
@@ -511,8 +512,8 @@ podczas połączenia z Wi-Fi Ostatnia kopia: %2$s"</string>
     <string name="micloud_find_device_close_alert_content">Jeśli wyłączysz tą funkcję, nie będziesz w stanie zlokalizować swoje go urządzenia, gdy je zgubisz.</string>
     <string name="micloud_find_device_close_alert_positive">Utrzymuj</string>
     <string name="micloud_find_device_close_alert_negtive">Wyłącz</string>
-    <string name="find_device_gdpr_prompt">Włączając funkcję Znajdź urządzenie, wyrażasz zgodę na \"Politykę prywatności\". Jeśli chcesz odwołać autoryzację dla swojej prywatności, wyłącz tą funkcję.</string>
-    <string name="find_device_gdpr_prompt_policy_doc_name">\"Polityka prywatności\"</string>
+    <string name="find_device_gdpr_prompt">Włączając funkcję Znajdź urządzenie, zgadzasz się z naszą Polityką prywatności. Jeśli chcesz unieważnić autoryzację, wyłącz tą funkcję.</string>
+    <string name="find_device_gdpr_prompt_policy_doc_name">Privacy Policy</string>
     <string name="activate_finddevice">Połącz z siecią w celu aktywacji urządzenia</string>
     <string name="account_related">To urządzenie jest już powiązane z istniejącym kontem Xiaomi (%s). Połącz z siecią, aby zweryfikować urządzenie.</string>
     <string name="connect_network">Połącz z Wi-Fi lub włóż kartę SIM</string>

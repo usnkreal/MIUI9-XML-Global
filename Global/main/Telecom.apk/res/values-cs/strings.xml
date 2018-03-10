@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="telecommAppLabel">Správa telefonních hovorů</string>
+    <string name="telecommAppLabel">Správce hovorů</string>
     <string name="userCallActivityLabel">Telefon</string>
     <string name="unknown">Neznámý</string>
     <string name="notification_missedCallTitle">Zmeškaný hovor</string>

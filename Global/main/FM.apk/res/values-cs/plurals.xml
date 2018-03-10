@@ -10,6 +10,6 @@
         <item quantity="other">%d FM nahrávek</item>
         <item quantity="one">%d FM nahrávka</item>
         <item quantity="few">%d FM nahrávky</item>
-        <item quantity="many">%d FM recordings</item>
+        <item quantity="many">%d FM nahrávky</item>
     </plurals>
 </resources>

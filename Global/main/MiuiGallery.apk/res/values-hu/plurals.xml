@@ -177,8 +177,8 @@
         <item quantity="one">A kiválasztott fénykép nincs a készüléken. Letölti mobiladat-kapcsolattal?</item>
     </plurals>
     <plurals name="picker_all_image_will_download">
-        <item quantity="other">A kiválasztott fényképek nincsenek a készüléken. Ezek letöltésre kerülnek.</item>
-        <item quantity="one">A kiválasztott fénykép nincs a készüléken. Ez letöltésre kerül.</item>
+        <item quantity="other">A kiválasztott fényképek nincsenek a készüléken. Letöltésre fognak kerülni.</item>
+        <item quantity="one">A kiválasztott fénykép nincs a készüléken. Letöltésre fog kerülni.</item>
     </plurals>
     <plurals name="picker_all_origin_need_download">
         <item quantity="other">A kiválasztott fénykép (%dMB) nincs a készüléken. Letölti mobiladat-kapcsolattal?</item>

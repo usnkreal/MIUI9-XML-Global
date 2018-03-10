@@ -63,7 +63,7 @@
     <string name="permdesc_downloadManagerAdvanced">Pozwala aplikacji na dostęp do zaawansowanych funkcji Pobrań. Podejrzane aplikacje mogą wykorzystać to do zakłócenia pobierania i dostępu do prywatnych informacji.</string>
     <string name="permlab_downloadCompletedIntent">Wysyłaj powiadomienia pobierania.</string>
     <string name="permdesc_downloadCompletedIntent">Pozwala aplikacji na wysyłanie powiadomień o zakończonych pobraniach. Podejrzane aplikacje mogą wykorzystać to do zmylenia innych aplikacji, które odpowiadają za pobrania.</string>
-    <string name="permlab_seeAllExternal">Wyświetl wszystkie pobrania na nośnik USB</string>
+    <string name="permlab_seeAllExternal">Wyświetl wszystkie pobrania na kartę SD</string>
     <string name="permdesc_seeAllExternal">Pozwala aplikacji na wyświetlenie info o wszystkich pobraniach na kartę SD, niezależnie od aplikacji wykorzystanej do pobierania plików.</string>
     <string name="permlab_downloadCacheNonPurgeable">Zarezerwuj miejsce w pamięci pobierania</string>
     <string name="permdesc_downloadCacheNonPurgeable">Pozwala aplikacji na pobieranie plików do pamięci podręcznej, która nie może być automatycznie wyczyszczona, gdy pobierane pliki wymagają więcej miejsca.</string>

@@ -200,4 +200,5 @@
     <string name="refuse_to_share_as_pic_because_of_content">Notatka jest zbyt duża do udostępnienia.</string>
     <string name="refuse_to_open_as_pic_because_of_loading">Poczekaj aż notatka się załaduje i spróbuj ponownie.</string>
     <string name="toast_reach_text_limit_checkbox">Nie można dodać pola wyboru, ponieważ notatka jest za długa</string>
+    <string name="dialog_privacy_revoke_tips">Po unieważnieniu autoryzacji, aplikacja przestanie zbierać dane, a wszystkie zgromadzone dane zostaną usunięte z serwerów. Może to spowodować, że aplikacja stanie się wirtualnie nieprzydatna. Unieważnić autoryzację mimo to? Aby zachować bezpieczeństwo konta, zaloguj się na i.mi.com przed unieważnieniem autoryzacji dla usług Chmury Xiaomi.</string>
 </resources>

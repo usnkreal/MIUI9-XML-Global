@@ -302,15 +302,16 @@
     <string name="micloud_detail_pause">הסנכרון הופסק</string>
     <string name="micloud_detail_need_charge_or_sleep">חבר את המטען וכבה את המסך על מנת לסנכרן</string>
     <string name="micloud_detail_battery_low">הסוללה חלשה</string>
-    <string name="micloud_privacy_cloud_off">הסנכרון כבוי</string>
-    <string name="micloud_privacy_licence_agreed">מסכים למדיניות הפרטיות של Mi Cloud.</string>
-    <string name="micloud_privacy_licence_privacy_policy">מדיניות הפרטיות</string>
-    <string name="micloud_privacy_explanation">Active Mi Cloud after enabling the authorization</string>
-    <string name="micloud_privacy_cloud_sync">تفعيل Mi Cloud</string>
-    <string name="micloud_privacy_warning_title">הערה</string>
-    <string name="micloud_privacy_warning_content">تعذر تفعيل Mi Cloud. حاول مرة أخرى لاحقا.</string>
+    <string name="micloud_privacy_cloud_off">Sync is off</string>
+    <string name="micloud_privacy_licence_agreed">Agree to Mi Cloud Privacy Policy.</string>
+    <string name="micloud_privacy_licence_privacy_policy">Privacy Policy</string>
+    <string name="micloud_privacy_explanation">Grant authorization to turn on Mi Cloud services</string>
+    <string name="micloud_privacy_cloud_sync">Turn on Mi Cloud services</string>
+    <string name="micloud_privacy_warning_title">Attention</string>
+    <string name="micloud_privacy_warning_content">"Can't turn on Mi Cloud services. Wait a minute or two and try again."</string>
     <string name="micloud_privacy_warning_button">חזרה</string>
-    <string name="micloud_privacy_more">עוד</string>
+    <string name="micloud_privacy_progress_content">Granting authorization…</string>
+    <string name="micloud_privacy_more">More</string>
     <string name="micloud_check_sim_title">"נראה כי החלפת כרטיס SIM. היכנס
 לחשבון Mi שלך להפעלה מחודשת של Mi Cloud."</string>
     <string name="micloud_check_sim_notify_title">הפעל מחדש את Mi Cloud</string>
@@ -471,7 +472,7 @@
     <string name="micloud_notif_content_multi_user_error">"השתמשת בחשבון זהה לזה שהשתמשת בו על מנת להתחבר ל'שטח ראשון'."</string>
     <string name="micloud_notif_title_dirty_data">קיימים פריטים אשר טרם סונכרנו</string>
     <string name="micloud_notif_content_dirty_data">פרטים</string>
-    <string name="micloud_notif_title_privacy_reopen_failed">לא ניתן היה להפעיל את שירות הענן</string>
+    <string name="micloud_notif_title_privacy_reopen_failed">"Couldn't turn on Mi Cloud services"</string>
     <string name="micloud_notif_content_privacy_reopen_failed">הצג פרטים</string>
     <string name="micloud_find_device_guide_title">היכנס אל &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font> על מנת לאתר, לנעול או למחוק את מכשירך. זה עשוי לסייע לך לאתר את מכשירך במקרה של אובדן.&lt;br />במידה ותאבד את מכשירך, תוכל ליצור קשר עם שירותי האבטחה של היישומים בהם אתה עושה שימוש תדיר (לדוגמה: Alipay, WeChat QQ) על מנת שיגנו על החשבונות שלך ב: &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font>.</string>
     <string name="micloud_find_device_guide_content">יתכן שידרש מסרון SMS יוצא על מנת להפעיל מכשיר זה. ספק הרשת שלך יחייב אותך בגין מסרון זה. כשתחליף את כרטיס ה-SIM שלך, ישלח מסרון באופן אוטומטי על מנת להפעיל מחדש תכונה זו.</string>
@@ -511,8 +512,8 @@
     <string name="micloud_find_device_close_alert_content">במידה ותכבה תכונה זו, לא תוכל לאתר את מכשירך במקרה של אובדן.</string>
     <string name="micloud_find_device_close_alert_positive">השאר מופעל</string>
     <string name="micloud_find_device_close_alert_negtive">כבה בכל זאת</string>
-    <string name="find_device_gdpr_prompt">"על ידי הפעלת 'איתור המכשיר', הינך מסכים ל'מדיניות הפרטיות'. במידה וברצונך לשלול את הרשאת הפרטיות שלך, אנא כבה תכונה זו."</string>
-    <string name="find_device_gdpr_prompt_policy_doc_name">\"מדיניות הפרטיות\"</string>
+    <string name="find_device_gdpr_prompt">By turning on Find device, you agree to our Privacy Policy. If you need to revoke authorization, turn this feature off.</string>
+    <string name="find_device_gdpr_prompt_policy_doc_name">Privacy Policy</string>
     <string name="activate_finddevice">התחבר לרשת על מנת להפעיל את ההתקן</string>
     <string name="account_related">מכשירך מקושר לחשבון Mi אחר(%s). התחבר לרשת על מנת לאמת את ההתקן.</string>
     <string name="connect_network">התחבר לרשת אלחטית או הכנס כרטיס SIM</string>

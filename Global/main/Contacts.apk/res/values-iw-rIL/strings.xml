@@ -210,6 +210,8 @@
     <string name="contact_detail_calllog_call_note_tips">הערות</string>
     <string name="contact_detail_calllog_call_record_tips">שיחה מוקלטת</string>
     <string name="contact_detail_calllog_empty">אין היסטוריה</string>
+    <string name="contact_detail_entry_pay">תשלום</string>
+    <string name="contact_detail_entry_pay_dialog_title">בחירת מספר טלפון</string>
     <string name="contact_detail_menu_delete_miprofile">מחק כרטיס</string>
     <string name="contact_detail_miprofile_accept">החלף כרטיסי איש קשר</string>
     <string name="contact_detail_miprofile_accept_fail_toast">לא ניתן היה להחליף כרטיסי איש קשר</string>
@@ -872,7 +874,7 @@
     <string name="preference_contacts_display">העדפות תצוגה</string>
     <string name="preference_contacts_filter">קבע תצורת רשימות אנשי קשר</string>
     <string name="preference_contacts_more">סדר אנשי קשר</string>
-    <string name="preference_contacts_moresetting">More</string>
+    <string name="preference_contacts_moresetting">עוד</string>
     <string name="preference_dial_pad_touch_tone_default">ברירת מחדל</string>
     <string name="preference_dial_pad_touch_tone_human">קול אנושי</string>
     <string name="preference_dial_pad_touch_tone_piano">קלידי פסנתר</string>
@@ -880,7 +882,7 @@
     <string name="preference_dial_pad_touch_tone_title">צלילי לוח המקשים</string>
     <string name="preference_display">תצוגה</string>
     <string name="preference_displayOptions">אפשרויות תצוגה</string>
-    <string name="preference_display_contact">Display options</string>
+    <string name="preference_display_contact">אפשרויות תצוגה</string>
     <string name="preference_export">ייצוא</string>
     <string name="preference_import">ייבוא</string>
     <string name="preference_import_export">ייבוא/ייצוא</string>

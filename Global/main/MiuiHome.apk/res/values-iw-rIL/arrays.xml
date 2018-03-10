@@ -44,7 +44,6 @@
         <item>ברירת מחדל</item>
         <item>קלאסי</item>
     </string-array>
-    <array name="region_prefix" />
     <string-array name="transformation_entries">
         <item>קלאסי</item>
         <item>עמעום</item>

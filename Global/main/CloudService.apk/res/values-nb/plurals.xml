@@ -42,7 +42,7 @@
     </plurals>
     <plurals name="dirty_music_count">
         <item quantity="other">%d sanger</item>
-        <item quantity="one">%d sanger</item>
+        <item quantity="one">%d sang</item>
     </plurals>
     <plurals name="dirty_browser_count">
         <item quantity="other">%d nettleserelementer</item>

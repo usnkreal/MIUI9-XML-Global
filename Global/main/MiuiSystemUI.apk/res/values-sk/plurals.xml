@@ -34,7 +34,7 @@
         <item quantity="other">Skryté upozornenia od %1$s a %2$d apl.</item>
         <item quantity="one">Skryté upozornenia od %1$s a %2$d apl.</item>
         <item quantity="few">Skryté upozornenia od %1$s a %2$d apl.</item>
-        <item quantity="many">Hiding notifications from %1$s &amp;amp; %2$d apps.</item>
+        <item quantity="many">Hiding notifications from %1$s &amp; %2$d apps.</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Jasno</item>

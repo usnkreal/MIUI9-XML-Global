@@ -5,12 +5,13 @@
     <string name="unlockscreen_recharge_completed">Feltöltve</string>
     <string name="unlockscreen_low_battery">Csatlakoztassa a töltőt</string>
     <string name="lockscreen_charging_msg">Töltés</string>
-    <string name="reset_device_tip">Lassú töltés, mozdítsa új pozícióba a telefont</string>
-    <string name="reset_device_detail_tip">Vezeték nélküli töltés. A megfelelő töltési sebesség érdekében kérjük, igazítsa meg a telefont.</string>
+    <string name="reset_device_tip">Lassú töltés. Igazítsa meg a készülékét.</string>
+    <string name="reset_device_detail_tip">A gyorstöltés érdekében tegye a megfelelő helyre a telefont a vezeték nélküli töltőn.</string>
     <string name="wireless_charge_stop">A vezeték nélküli töltés leállt</string>
     <string name="change_to_ac_charging">Vezeték nélküli töltésre váltott</string>
-    <string name="wireless_charge_dialog_title">Nincs megfelelő pozícióban, kérjük, helyezze át</string>
+    <string name="wireless_charge_dialog_title">Igazítsa meg a készülékét a vezeték nélküli töltőn</string>
     <string name="wireless_charge_dialog_cancel">Mégse</string>
+    <string name="wireless_current_charge">Jelenlegi töltés</string>
     <string name="emergency_call_string">Segélyhívás</string>
     <string name="forget_password_string">Elfelejtett jelszó</string>
     <string name="input_puk_code">Írja be a PUK kódot</string>

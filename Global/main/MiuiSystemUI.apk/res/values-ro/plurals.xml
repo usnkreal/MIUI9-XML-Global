@@ -26,9 +26,9 @@
         <item quantity="few">Ascunde notificările de la %d aplicații?</item>
     </plurals>
     <plurals name="block_record_notification_more_text">
-        <item quantity="other">Se ascund notificări de la %1$s &amp;amp; %2$d aplicații.</item>
-        <item quantity="one">Se ascund notificări de la %1$s &amp;amp; %2$d aplicație.</item>
-        <item quantity="few">Se ascund notificări de la %1$s &amp;amp; %2$d aplicații.</item>
+        <item quantity="other">Se ascund notificări de la %1$s &amp; %2$d aplicații.</item>
+        <item quantity="one">Se ascund notificări de la %1$s &amp; %2$d aplicație.</item>
+        <item quantity="few">Se ascund notificări de la %1$s &amp; %2$d aplicații.</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Senin</item>

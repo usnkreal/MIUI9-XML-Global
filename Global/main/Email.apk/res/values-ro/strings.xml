@@ -35,7 +35,7 @@
     <string name="account_settings_login_dialog_reason_fmt" formatted="false">Nu se poate conecta la %s. Serverul spune: %s</string>
     <string name="account_settings_login_dialog_title">Nu se poate conecta</string>
     <string name="account_settings_mail_check_frequency_dialog_title">Trebuie să reîmprospătaţi Mail manual pentru a sincroniza e-mailurile</string>
-    <string name="account_settings_mail_check_frequency_dialog_title_eas">"You'll have to sync Mail manually to be able to sync messages and calendar events."</string>
+    <string name="account_settings_mail_check_frequency_dialog_title_eas">Va trebui să sincronizați manual Mailpentru a putea sincroniza mesajele și evenimentele din calendar.</string>
     <string name="account_settings_mail_check_frequency_label">Frecvenţă sincronizare</string>
     <string name="account_settings_mibill_resolve_label">Gestionați în mod automat facturile</string>
     <string name="account_settings_name_label">Poreclă</string>
@@ -75,8 +75,8 @@
     <string name="account_setup_basics_mi_mail_login_help">Vă recomandăm să verificaţi contul dumneavoastră prin SMS pentru a primi e-mailuri</string>
     <string name="account_setup_basics_password_label">Introduceți parola</string>
     <string name="account_setup_basics_title">Adăugați un cont</string>
-    <string name="account_setup_check_settings_check_incoming_msg">Validating server settings…</string>
-    <string name="account_setup_check_settings_check_outgoing_msg">Validating SMTP settings…</string>
+    <string name="account_setup_check_settings_check_incoming_msg">Validatrea setărilor serverului…</string>
+    <string name="account_setup_check_settings_check_outgoing_msg">Validarea setărilor SMTP…</string>
     <string name="account_setup_check_settings_retr_info_msg">"    Obținerea informațiilor contului…"</string>
     <string name="account_setup_correct_address_tips">Introduceţi adresa de e-mail</string>
     <string name="account_setup_creating_account_msg">"    Crearea contului…"</string>
@@ -185,7 +185,7 @@ emailul nu o acceptă."</string>
     <string name="att_mgr_title_order_rev_date">Data</string>
     <string name="att_mgr_title_order_sender">Expeditor</string>
     <string name="att_mgr_title_order_size">Dimensiunea fișierului</string>
-    <string name="attached_message">Attached message</string>
+    <string name="attached_message">Mesaj ataşat</string>
     <string name="attachment_application_msword">Document</string>
     <string name="attachment_application_pdf">PDF</string>
     <string name="attachment_application_vnd_ms_excel">Foaie de calcul</string>
@@ -210,15 +210,15 @@ emailul nu o acceptă."</string>
     <string name="auto_advance_help_title">După ştergerea unui mesaj, vezi …</string>
     <string name="auto_advance_label">Ștergeți fluxul de mesaje</string>
     <string name="auto_advance_summary">Alegeți la ce mesaj va sări după ștergerea unui mesaj</string>
-    <string name="auto_login_fail">"Couldn't sign in automatically"</string>
-    <string name="auto_login_fail_to_retry">"Couldn't sign in automatically, try again."</string>
+    <string name="auto_login_fail">Nu s-a putut conecta automat</string>
+    <string name="auto_login_fail_to_retry">Nu s-a putut conecta automat, încercați din nou.</string>
     <string name="auto_remind_bind">Adaugă</string>
     <string name="auto_remind_discribe_text">Porniţi pentru a primi memento-uri automate</string>
     <string name="auto_remind_text">Memento-uri automate</string>
     <string name="auto_remind_unbind">Stop</string>
     <string name="auto_sync_off">Sincronizarea automată este oprită.</string>
     <string name="automatic_remind_text">Reamintiți automat</string>
-    <string name="back">Back</string>
+    <string name="back">Înapoi</string>
     <string name="bank_card_detail">Detalii card de credit</string>
     <string name="battery_saver">Economizor de baterie</string>
     <string name="battery_saver_keywords">economizor baterie;mail baterie</string>
@@ -399,7 +399,7 @@ emailul nu o acceptă."</string>
     <string name="email_setting">Mail</string>
     <string name="email_setting_keywords">Conturi;Adaugă cont;conturi de mail;adaugă cont de mail;confirmă înainte de a șterge;ștergere confirmată;confirmă înainte de trimitere;confirmare trimitere;șterge fluxul mesajului;șterge redirecționarea;arată conversația;mail conversație;economizor baterie;mail baterie;trimite feedback;încarcă jurnale</string>
     <string name="email_sina">Sina Mail</string>
-    <string name="eml_parse_message">Opening EML file…</string>
+    <string name="eml_parse_message">Se dechide fișierul EML…</string>
     <string name="empty_account_tip">Nu s-a putut găsi contul</string>
     <string name="empty_email_tip">Nu se poate trimite mesaj gol</string>
     <string name="empty_spam">Golește spam</string>
@@ -415,7 +415,7 @@ emailul nu o acceptă."</string>
     <string name="expand_recipient_details">Arată detaliile destinatarului</string>
     <string name="fail_get_email_message">Descărcarea mesajului nu a reușit.</string>
     <string name="failed">Nu se poate încărca imaginea</string>
-    <string name="failed_parse_eml_file">"Couldn't open EML file, try again."</string>
+    <string name="failed_parse_eml_file">Nu s-a putut deschide fișierul EML, încercați din nou.</string>
     <string name="failed_read_phone_state_permission">Permite accesul la starea dispozitivului</string>
     <string name="failed_read_write_calendar_permission">Permite accesul la calendar</string>
     <string name="failed_read_write_contacts_permission">Permite accesul la contacte</string>
@@ -475,7 +475,7 @@ emailul nu o acceptă."</string>
     <string name="header_label_general_preferences">Generale</string>
     <string name="help_and_info">Ajutor</string>
     <string name="hide_elided">▼ Ascunde text citat</string>
-    <string name="hide_password">Hide password</string>
+    <string name="hide_password">Ascunde parola</string>
     <string name="hint_quick_reply_all">Răspunde la toți</string>
     <string name="imap_name">IMAP</string>
     <string name="imap_or_pop3_name">IMAP/POP3</string>
@@ -595,7 +595,7 @@ emailul nu o acceptă."</string>
     <string name="move_to_selection_dialog_title">Mută în alt director</string>
     <string name="multiple_new_message_notification_item"><b>%1$s</b>"   %2$s"</string>
     <string name="mute">Fără sunet</string>
-    <string name="navigation_menu">Navigation menu</string>
+    <string name="navigation_menu">Meniul de navigare</string>
     <string name="network_error">Nu există conexiune</string>
     <string name="network_invaild">Nu se poate conecta la reţea</string>
     <string name="network_not_available">Nu se poate conecta la rețea</string>
@@ -751,9 +751,9 @@ pentru a primi înştiinţări despre plăţi şi excursii"</string>
     <string name="push_wps_confirm_message">Încercaţi să utilizaţi WPS Office pentru a deschide acest atașament.</string>
     <string name="push_wps_confirm_title">Încercaţi WPS Office</string>
     <string name="push_wps_no_response_app">Nicio aplicație găsită pentru a efectua această acțiune</string>
-    <string name="qq_auto_login_failed_cpy_pass_success">Copied successfully. Go back to the sign-in page and paste the code into the password form.</string>
-    <string name="qq_auto_login_failed_dialog_message">Copy verification code, tap \"Enter username and password to sign in\" on the sign-in page, and paste the code into the password form.</string>
-    <string name="qq_auto_login_failed_dialog_positive_label">Copy code</string>
+    <string name="qq_auto_login_failed_cpy_pass_success">Copiat cu succes. Du-te înapoi la pagina de autentificare și inserați codul în formularul de parolă.</string>
+    <string name="qq_auto_login_failed_dialog_message">Copiaţi codul de verificare, atingeți \"Introduceți numele de utilizator şi parola pentru a vă conecta\" pe pagina de autentificare şi inseraţi codul în formularul de parolă.</string>
+    <string name="qq_auto_login_failed_dialog_positive_label">Copiați codul</string>
     <string name="qq_bar_open_imap">Ajutor</string>
     <string name="qq_bar_send_message">Trimite SMS</string>
     <string name="qq_login_basecode">Conectarea la web QQ Mail. Introduceţi parola independentă.</string>
@@ -834,7 +834,7 @@ pentru a primi înştiinţări despre plăţi şi excursii"</string>
     <string name="report_spam">Raportează spam</string>
     <string name="request_entity_large">Fişierul este prea mare</string>
     <string name="respond_inline">Răspundeţi în text</string>
-    <string name="retry_login">Sign in again</string>
+    <string name="retry_login">Conectați-vă din nou</string>
     <string name="save_action">Salvează</string>
     <string name="save_attachment">Salvează</string>
     <string name="save_draft_failed">Eroare la salvarea schiţei</string>
@@ -861,7 +861,7 @@ pentru a primi înştiinţări despre plăţi şi excursii"</string>
     <string name="security_unsupported_ticker_fmt">Contul \"%s\" nu poate fi sincronizat din cauza cerinţelor de securitate.</string>
     <string name="select_attachment_type">Alegeți ataşament din</string>
     <string name="select_no_file">Nu sunt ataşamente selectate</string>
-    <string name="select_path">Select path</string>
+    <string name="select_path">Selectați calea</string>
     <string name="send">Trimite</string>
     <string name="send_failed">Mesajul nu a fost trimis.</string>
     <string name="send_feed_back">Trimite feedback</string>
@@ -894,7 +894,7 @@ pentru a primi înştiinţări despre plăţi şi excursii"</string>
     <string name="shortcut_name_title">Numele directorului de comenzi rapide</string>
     <string name="show_elided">▶ Arată text citat</string>
     <string name="show_images">Descarcă si arată imagini</string>
-    <string name="show_password">Show password</string>
+    <string name="show_password">Arată parola</string>
     <string name="signature">"
 
 
@@ -1007,7 +1007,7 @@ Atinge "<b>Sincronizează acum </b> pentru a sincroniza mail odată, sau <b>Schi
     <string name="wipe_account_fail_title">Nu s-au putut şterge informaţiile personale</string>
     <string name="wrong_password">Parola introdusă este incorectă</string>
     <string name="yes">Da</string>
-    <string name="you_are_in_mobile_network">Use mobile data to upload logs?</string>
+    <string name="you_are_in_mobile_network">Utilizați date mobile pentru a încărca jurnale?</string>
     <string name="youfuli">Promoție</string>
     <string name="zip_viewer_no_file">Nu sunt fişiere.</string>
 </resources>

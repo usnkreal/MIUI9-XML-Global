@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>Alle</item>
+        <item>$</item>
+        <item>$$</item>
+        <item>$$$</item>
+        <item>$$$$</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>Alle prisnivåer</item>
+        <item>Rimelig</item>
+        <item>Litt dyrt</item>
+        <item>Dyrt</item>
+        <item>Veldig dyrt</item>
+    </string-array>
+    <array name="RESTRICTION_ALLOWED_PRICE_LEVEL_SHORT" />
+    <string-array name="RESTRICTION_ALLOWED_STARS">
+        <item>Alle</item>
+        <item>2,0</item>
+        <item>3,0</item>
+        <item>4,0</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_STARS_DESCRIPTIONS">
+        <item>Alle stjernerangeringer</item>
+        <item>To eller flere stjerner</item>
+        <item>Tre eller flere stjerner</item>
+        <item>Fire eller flere stjerner</item>
+    </string-array>
+    <array name="RESTRICTION_ALLOWED_STARS_SHORT" />
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>Alle</item>
+        <item>3 stjerner</item>
+        <item>4 stjerner</item>
+        <item>5 stjerner</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES_DESCRIPTIONS">
+        <item>Alle</item>
+        <item>Tre stjerner</item>
+        <item>Fire stjerner</item>
+        <item>Fem stjerner</item>
+    </string-array>
+    <string-array name="REVIEW_RATING_STAR_TEXT_DESCRIPTIONS">
+        <item>Likte det overhodet ikke</item>
+        <item>Likte det ikke</item>
+        <item>Det er helt greit</item>
+        <item>Likte det</item>
+        <item>Likte det svært godt</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Når du zoomer inn og ut</item>
+        <item>Alltid</item>
+    </string-array>
+    <string-array name="WRITE_REVIEW_HINTS_FOR_RATING_STARS">
+        <item>Fortell andre hvorfor du mislikte dette stedet så sterkt.</item>
+        <item>Fortell andre hvorfor du ikke likte dette stedet.</item>
+        <item>Fortell andre hvorfor du syntes dette stedet var helt greit.</item>
+        <item>Fortell andre hvorfor du likte dette stedet.</item>
+        <item>Fortell andre hvorfor du elsket dette stedet.</item>
+    </string-array>
+</resources>

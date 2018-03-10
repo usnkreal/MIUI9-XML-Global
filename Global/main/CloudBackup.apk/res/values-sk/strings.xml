@@ -5,7 +5,7 @@
     <string name="deskclock_backup">Budík</string>
     <string name="button_cancel">Zrušiť</string>
     <string name="button_next">Ďalšie</string>
-    <string name="date_format">HH:mm:ss MM-dd-yyyy</string>
+    <string name="date_format">HH:mm:ss dd. MM. yyyy</string>
     <string name="dir_date_format">HHmmss_MMddyyyy</string>
     <string name="retry">Znova</string>
     <string name="cloud_app_current_device">Súčasné zariadenie</string>
@@ -72,7 +72,7 @@
     <string name="open_wifi_setting">Nastavenie Wi-Fi</string>
     <string name="name_model">"%1$s's %2$s"</string>
     <string name="download_settings">Sťahovanie nastavení plochy: %s%%</string>
-    <string name="cloud_back_up_date_format">HH:mm dd.MM.yyyy</string>
+    <string name="cloud_back_up_date_format">HH:mm dd. MM. yyyy</string>
     <string name="recover_home_settings">Obnoviť nastavenie plochy</string>
     <string name="cancel_recover_settings"><u>Zrušiť</u></string>
     <string name="recover_settings_description">Nevypínajte vaše zariadenie</string>

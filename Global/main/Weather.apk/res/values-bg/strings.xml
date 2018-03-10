@@ -64,12 +64,13 @@
     <string name="button_abandon">Отмяна на промените</string>
     <string name="button_add_city">Добавяне на място</string>
     <string name="button_allow">Позволи</string>
-    <string name="button_confirm">ОК</string>
-    <string name="button_exit">Изход</string>
+    <string name="button_confirm">Приемам</string>
+    <string name="button_exit">Не приемам</string>
     <string name="button_not_allow">Забрани</string>
     <string name="button_sure_abandon">Отмени промените?</string>
     <string name="card_vote_item_vs">За/Пр</string>
     <string name="change_alert">Проверете мрежовата връзка и опитайте отново</string>
+    <string name="china_version_first_start_network_msg">Използвайки този продукт, вие се съгласявате с%1$s и %2$s. Това приложение трябва да се свърже с интернет и да получи достъп до вашето местоположение, за да работи нормално.</string>
     <string name="city_exceeded_warning">Можете да добавите до 10 града</string>
     <string name="commercial">Търговски</string>
     <string name="common_loading_text">Един момент…</string>
@@ -112,7 +113,7 @@
     <string name="hourly_forcast_now">Сега</string>
     <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
     <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
-    <string name="hourly_forecast_date">М/д</string>
+    <string name="hourly_forecast_date">d/M</string>
     <string name="hourly_forecast_title">Почасова прогноза</string>
     <string name="index_item_experience_now">Инсталирай сега</string>
     <string name="index_item_install_dialog" />
@@ -153,7 +154,7 @@
     <string name="menu_location">Места</string>
     <string name="menu_speaker">Предаване на глас</string>
     <string name="mi_pad2">мляко</string>
-    <string name="minute_rain">Прогноза по минути</string>
+    <string name="minute_rain">Прогноза за валежите</string>
     <string name="minute_rain_after_an_hour">В рамките на 1 час</string>
     <string name="minute_rain_after_two_hour">В рамките на 2 часа</string>
     <string name="minute_rain_feedback_subtitle">Кажете ни какво е времето сега.</string>
@@ -268,4 +269,16 @@
     <string name="xiaomi_weather_description_title">За Прогноза за Времето</string>
     <string name="yes_vote_ratio">За %1$s%%</string>
     <string name="your_location">Вашето местоположение</string>
+    <string name="button_settings_cancel">Отказ</string>
+    <string name="button_settings_confirm">Отмяна</string>
+    <string name="button_settings_confirm_to_revoke_msg">Вие няма да можете да използвате приложението Време след като отмените разрешението си.</string>
+    <string name="button_settings_confirm_to_revoke_title">Отмяна на разрешението?</string>
+    <string name="eu_region_version_first_start_network_msg">С използването на този продукт, вие се съгласявате с това, че Xiaomi ще събира, обработва и използва вашите лични данни, включително и вашето местоположение или координатите на търсеното от вас, както е според нашата Политика на поверителност. Запознайте се с нашата Политика на поверителност, за да разберете как използваме вашите лични данни и информация за местоположението. С натискане на \"Съгласен\" вие приемате Xiaomi %1$s и %2$s.</string>
+    <string name="policy_settings">Условия за ползване</string>
+    <string name="privacy_grant_failed">Не може да се предостави разрешението. Изчакайте минута-две и опитайте отново.</string>
+    <string name="privacy_grant_or_revoke_settings">Предоставя се &amp; отмяна на разрешението</string>
+    <string name="privacy_grant_success">Успешно придобито разрешение</string>
+    <string name="privacy_revoke_failed">Не може да се отмени разрешението. Изчакайте минута-две и опитайте отново.</string>
+    <string name="privacy_revoke_success">Разрешението е успешно отменено</string>
+    <string name="privacy_settings">Политика на поверителност</string>
 </resources>

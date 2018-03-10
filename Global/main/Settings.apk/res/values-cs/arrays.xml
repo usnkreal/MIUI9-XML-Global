@@ -1420,16 +1420,6 @@ Note: Pouze pro Ubuntu 8.04!"</item>
         <item>16 GB</item>
         <item>Quad-core Max 2,5 GHz</item>
     </string-array>
-    <string-array name="miracast_policies">
-        <item>Krátké zpoždění</item>
-        <item>Standardní</item>
-        <item>Lepší kvalita</item>
-    </string-array>
-    <string-array name="standard_configuration_version_mi3">
-        <item>3 GB</item>
-        <item>16 GB</item>
-        <item>Quad-core Max 2,5 GHz</item>
-    </string-array>
     <string-array name="install_non_market_app_entries">
         <item>Zapnout (doporučeno)</item>
         <item>Nepoužívat (nebezpečné)</item>
@@ -1462,28 +1452,12 @@ Note: Pouze pro Ubuntu 8.04!"</item>
         <item>Verze systému Android</item>
     </string-array>
     <string-array name="standard_configuration_version_description_secondary">
-        <item>Snapdragon 801</item>
-        <item>3080 mAh (typ)</item>
+        <item>Snapdragon 430</item>
+        <item>4000 mAh (typ)</item>
         <item>13MP</item>
         <item>5 palců</item>
-        <item>1920 × 1080</item>
-        <item>6.0.1</item>
-    </string-array>
-    <string-array name="standard_configuration_version_description_primary_mi3">
-        <item>Procesor</item>
-        <item>Kapacita baterie</item>
-        <item>Zadní fotoaparát</item>
-        <item>Velikost obrazovky</item>
-        <item>Rozlišení</item>
-        <item>Verze systému Android</item>
-    </string-array>
-    <string-array name="standard_configuration_version_description_secondary_mi3">
-        <item>Snapdragon 800</item>
-        <item>3050 mAh (typ)</item>
-        <item>13MP</item>
-        <item>5 palců</item>
-        <item>1920 × 1080</item>
-        <item>6.0.1</item>
+        <item>1280 x 720</item>
+        <item>6.0</item>
     </string-array>
     <string-array name="pink_panel_led_color_entries">
         <item>Šeřík</item>

@@ -202,6 +202,7 @@ Pro aktivaci vašeho účtu, klikněte na
     <string name="passport_get_innetdate_msg">&lt;font color=Red>Zdá se,&lt;/font> že vaše číslo %s bylo zrecyklováno vaším operátorem. Zkontrolovat, kdy bylo číslo online?</string>
     <string name="passport_get_innetdate_agree">Kontrola</string>
     <string name="passport_get_innetdate_disagree">Ne</string>
+    <string name="passport_extra_gdpr_license">Creating your Mi Account means that you agree that Xiaomi will collect, process, and use your personal data, including verification data (e.g., verification codes), Second space data (e.g., information about the ways you use Second space, IDs used in First and Second spaces), and other data specified in our Privacy Policy. Refer to our Privacy Policy to learn how we process and use personal data.</string>
     <string name="search_app_name">Xiaomi účet</string>
     <string name="search_mi_account">Xiaomi účet</string>
     <string name="search_mi_account_key_words">Mi Cloud,Nastavení účtu,Informace o Mi Platbách,Odhlásit se</string>
@@ -416,9 +417,9 @@ Pro aktivaci vašeho účtu, klikněte na
     <string name="find_device_activate_account">Aktivovat účet</string>
     <string name="login_check_find_device">Získávám informace o zabezpečení zařízení…</string>
     <string name="unlock_help_notice">"Nápověda:
-· Pokud jste zapomněli své heslo, na stránce id.mi.com jej můžete resetovat.
-· Pokud nejde zařízení odemknout, na stránce i.mi.com vypněte funkci Najít zařízení.
-·Číslo pro odemknutí: %s"</string>
+1. Pokud jste zapomněli své heslo, na stránce id.mi.com jej můžete resetovat.
+2. Pokud nejde zařízení odemknout, na stránce i.mi.com vypněte funkci Najít zařízení.
+3. Číslo pro odemknutí: %s"</string>
     <string name="login_find_device_bind">Toto zařízení je spojeno s existujícím ID Xiaomi účtu (%s).</string>
     <string name="find_device_locked_account_phone" formatted="false">%s, spojené s číslem: %s</string>
     <string name="find_device_locked_account_email" formatted="false">%s, spojené s e-mailovou adresou: %s</string>

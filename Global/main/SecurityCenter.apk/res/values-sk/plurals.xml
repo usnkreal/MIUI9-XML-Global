@@ -4,73 +4,73 @@
         <item quantity="other">%1$d hovory od %2$s a dalších</item>
         <item quantity="one">%1$d hovor od %2$s</item>
         <item quantity="few">%1$d hovory od %2$s a dalších</item>
-        <item quantity="many">%1$d calls from %2$s and others</item>
+        <item quantity="many">%1$d hovoru od %2$s a dalších</item>
     </plurals>
     <plurals name="fw_blocked_count_call_one">
         <item quantity="other">%1$d hovorov od %2$s</item>
         <item quantity="one">%1$d hovor od %2$s</item>
         <item quantity="few">%1$d hovory od %2$s</item>
-        <item quantity="many">%1$d calls from %2$s and others</item>
+        <item quantity="many">%1$d hovoru od %2$s</item>
     </plurals>
     <plurals name="fw_blocked_count_sms">
         <item quantity="other">%d správ</item>
         <item quantity="one">%d správa</item>
         <item quantity="few">%d správy</item>
-        <item quantity="many">%d messages</item>
+        <item quantity="many">%d správy</item>
     </plurals>
     <plurals name="marked_by_others">
         <item quantity="other">%d iných používateľov označilo položku ako</item>
         <item quantity="one">%d iný používateľ označil položku ako</item>
         <item quantity="few">%d iní používatelia označili položku ako</item>
-        <item quantity="many">%d other users marked it as</item>
+        <item quantity="many">%d iného používateľa označilo položku ako</item>
     </plurals>
     <plurals name="st_show_num_keyword">
         <item quantity="other">%d kľúčových slov</item>
         <item quantity="one">%d kľúčové slovo</item>
         <item quantity="few">%d kľúčové slová</item>
-        <item quantity="many">%d keywords</item>
+        <item quantity="many">%d kľúčového slova</item>
     </plurals>
     <plurals name="st_show_num_number">
         <item quantity="other">%d čísel</item>
         <item quantity="one">%d číslo</item>
         <item quantity="few">%d čísla</item>
-        <item quantity="many">%d numbers</item>
+        <item quantity="many">%d čísla</item>
     </plurals>
     <plurals name="hints_traffic_enable_title">
         <item quantity="other">Spotreba dát sa nesleduje pre %d aplikácií</item>
         <item quantity="one">Spotreba dát sa nesleduje pre %d aplikáciu</item>
         <item quantity="few">Spotreba dát sa nesleduje pre %d aplikácií</item>
-        <item quantity="many">Not tracking data usage for %d apps</item>
+        <item quantity="many">Spotreba dát sa nesleduje pre %d aplikácie</item>
     </plurals>
     <plurals name="hints_traffic_disable_title">
         <item quantity="other">Spotreba dát sa sleduje pre %d aplikácií</item>
         <item quantity="one">Spotreba dát sa sleduje pre %d aplikáciu</item>
-        <item quantity="few">Spotreba dát sa sleduje pre %d apl.</item>
-        <item quantity="many">Tracking data usage for %d apps</item>
+        <item quantity="few">Spotreba dát sa sleduje pre %d aplikácie</item>
+        <item quantity="many">Spotreba dát sa sleduje pre %d aplikácie</item>
     </plurals>
     <plurals name="traffic_setting_app_count">
         <item quantity="other">%d aplikácií</item>
         <item quantity="one">%d aplikácia</item>
         <item quantity="few">%d aplikácie</item>
-        <item quantity="many">%d apps</item>
+        <item quantity="many">%d aplikácie</item>
     </plurals>
     <plurals name="bg_network_allow_count">
         <item quantity="other">%d aplikácií sa môže pripojiť na sieť na pozadí</item>
         <item quantity="one">%d aplikácia sa môže pripojiť na sieť na pozadí</item>
         <item quantity="few">%d aplikácie sa môžu pripojiť na sieť na pozadí</item>
-        <item quantity="many">%d apps can connect to the network in the background</item>
+        <item quantity="many">%d aplikácie sa môže pripojiť na sieť na pozadí</item>
     </plurals>
     <plurals name="bg_network_restrict_count">
         <item quantity="other">%d aplikácií sa nemôže pripojiť na sieť na pozadí</item>
         <item quantity="one">%d aplikácia sa nemôže pripojiť na sieť na pozadí</item>
         <item quantity="few">%d aplikácie sa nemôžu pripojiť na sieť na pozadí</item>
-        <item quantity="many">"%d apps can't connect to the network in the background"</item>
+        <item quantity="many">%d aplikácie sa nemôže pripojiť na sieť na pozadí</item>
     </plurals>
     <plurals name="daily_sim_over_limit_notify_title">
         <item quantity="other">Už ste použili %s denných dátových limitov.</item>
         <item quantity="one">Už ste použili %s denný dátový limit.</item>
         <item quantity="few">Už ste použili %s denné dátové limity.</item>
-        <item quantity="many">"You've already used %s daily data limits."</item>
+        <item quantity="many">Už ste použili %s denných dátových limitov.</item>
     </plurals>
     <plurals name="daily_sim_over_limit_dialog_message">
         <item quantity="other">"Už ste použili %s denných dátových limitov.
@@ -82,39 +82,39 @@ Ak znova zapnete mobilné dáta, váš operátor vám môže účtovať ďalšie
         <item quantity="few">"Už ste použili %s denné dátové limity.
 
 Ak znova zapnete mobilné dáta, váš operátor vám môže účtovať ďalšie dáta."</item>
-        <item quantity="many">"You've already used %s daily data limits.
+        <item quantity="many">"Už ste použili %s denných dátových limitov.
 
-If you turn on mobile data again, your carrier may charge you for additional data."</item>
+Ak znova zapnete mobilné dáta, váš operátor vám môže účtovať ďalšie dáta."</item>
     </plurals>
     <plurals name="search_app_count_txt_na">
-        <item quantity="other">Hľadať %d aplikácií</item>
-        <item quantity="one">Hľadať %d aplikáciu</item>
-        <item quantity="few">Hľadať %d aplikácií</item>
-        <item quantity="many">Search %d apps</item>
+        <item quantity="other">Vyhľadať %d aplikácií</item>
+        <item quantity="one">Vyhľadať %d aplikáciu</item>
+        <item quantity="few">Vyhľadať %d aplikácie</item>
+        <item quantity="many">Vyhľadať %d aplikácie</item>
     </plurals>
     <plurals name="hints_roaming_enable_title">
-        <item quantity="other">%d aplikácií môže použiť roamingové dáta</item>
-        <item quantity="one">%d aplikácia môže použiť roamingové dáta</item>
-        <item quantity="few">Aplikácie (%d) môžu použiť mobilné dáta</item>
-        <item quantity="many">%d apps can use data roaming</item>
+        <item quantity="other">%d aplikácií môže používať roamingové dáta</item>
+        <item quantity="one">%d aplikácia môže používať roamingové dáta</item>
+        <item quantity="few">%d aplikácie môžu používať roamingové dáta</item>
+        <item quantity="many">%d aplikácie môže používať roamingové dáta</item>
     </plurals>
     <plurals name="hints_roaming_disable_title">
-        <item quantity="other">%d aplikácií môže použiť roamingové dáta</item>
+        <item quantity="other">%d aplikácií nemôže používať roamingové dáta</item>
         <item quantity="one">%d aplikácia môže použiť roamingové dáta</item>
-        <item quantity="few">%d aplikácií môže použiť roamingové dáta</item>
-        <item quantity="many">"%d apps can't use data roaming"</item>
+        <item quantity="few">%d aplikácie nemôžu používať roamingové dáta</item>
+        <item quantity="many">%d aplikácie nemôže používať roamingové dáta</item>
     </plurals>
     <plurals name="hints_roaming_found_app_count_title">
-        <item quantity="other">Nájdených %d aplikácií</item>
-        <item quantity="one">Nájdená %d aplikácia</item>
-        <item quantity="few">Nájdených %d aplikácií</item>
-        <item quantity="many">%d apps found</item>
+        <item quantity="other">Našlo sa %d aplikácií</item>
+        <item quantity="one">Našla sa %d aplikácia</item>
+        <item quantity="few">Našli sa %d aplikácie</item>
+        <item quantity="many">Našlo sa %d aplikácie</item>
     </plurals>
     <plurals name="network_restrict_count">
-        <item quantity="other">"Sieťový prístup je obmedzený na &amp;lt;font color='#ff0000'>%d&amp;lt;/font> aplikácií"</item>
-        <item quantity="one">"Sieťový prístup je obmedzený na &amp;lt;font color='#ff0000'>%d&amp;lt;/font> aplikáciu"</item>
-        <item quantity="few">"Sieťový prístup je obmedzený na &amp;lt;font color='#ff0000'>%d&amp;lt;/font> aplikácie"</item>
-        <item quantity="many">"Network access is restricted for &amp;lt;font color='#ff0000'>%d&amp;lt;/font> apps"</item>
+        <item quantity="other">"Sieťový prístup je obmedzený pre &lt;font color='#ff0000'>%d&lt;/font> aplikácií"</item>
+        <item quantity="one">"Sieťový prístup je obmedzený pre &lt;font color='#ff0000'>%d&lt;/font> aplikáciu"</item>
+        <item quantity="few">"Sieťový prístup je obmedzený pre &lt;font color='#ff0000'>%d&lt;/font> aplikácie"</item>
+        <item quantity="many">"Sieťový prístup je obmedzený pre &lt;font color='#ff0000'>%d&lt;/font> aplikácie"</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
         <item quantity="other">%d aplikácie nefungujú správne a znižujú výdrž batérie</item>

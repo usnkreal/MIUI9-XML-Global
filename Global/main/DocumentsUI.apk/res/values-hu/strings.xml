@@ -15,8 +15,8 @@
     <string name="menu_delete">Törlés</string>
     <string name="menu_select_all">Összes kijelölése</string>
     <string name="menu_copy">Másolás ide…</string>
-    <string name="menu_advanced_show">Belső tárhely</string>
-    <string name="menu_advanced_hide">Belső tárhely elrejtése</string>
+    <string name="menu_advanced_show">SD-kártya megjelenítése</string>
+    <string name="menu_advanced_hide">SD-kártya elrejtése</string>
     <string name="menu_file_size_show">Fájlméret megjelenítése</string>
     <string name="menu_file_size_hide">Fájlméret elrejtése</string>
     <string name="button_select">Kiválasztás</string>

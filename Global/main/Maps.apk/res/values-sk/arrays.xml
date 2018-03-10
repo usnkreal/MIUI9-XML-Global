@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>Všetky</item>
+        <item>$</item>
+        <item>$$</item>
+        <item>$$$</item>
+        <item>$$$$</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>Akákoľvek cenová úroveň</item>
+        <item>Lacné</item>
+        <item>Stredne drahé</item>
+        <item>Drahé</item>
+        <item>Veľmi drahé</item>
+    </string-array>
+    <array name="RESTRICTION_ALLOWED_PRICE_LEVEL_SHORT" />
+    <string-array name="RESTRICTION_ALLOWED_STARS">
+        <item>Všetky</item>
+        <item>2,0</item>
+        <item>3,0</item>
+        <item>4,0</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_STARS_DESCRIPTIONS">
+        <item>Akékoľvek hodnotenie hviezdičkami</item>
+        <item>Dve a viac hviezdičiek</item>
+        <item>Tri a viac hviezdičiek</item>
+        <item>Štyri a viac hviezdičiek</item>
+    </string-array>
+    <array name="RESTRICTION_ALLOWED_STARS_SHORT" />
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>Všetky</item>
+        <item>3 hviezdičky</item>
+        <item>4 hviezdičky</item>
+        <item>5 hviezdičiek</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES_DESCRIPTIONS">
+        <item>Všetky</item>
+        <item>Tri hviezdičky</item>
+        <item>Štyri hviezdičky</item>
+        <item>Päť hviezdičiek</item>
+    </string-array>
+    <string-array name="REVIEW_RATING_STAR_TEXT_DESCRIPTIONS">
+        <item>Veľmi zlé</item>
+        <item>Zlé</item>
+        <item>Dobré</item>
+        <item>Veľmi dobré</item>
+        <item>Vynikajúce</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Pri približovaní a odďaľovaní</item>
+        <item>Vždy</item>
+    </string-array>
+    <string-array name="WRITE_REVIEW_HINTS_FOR_RATING_STARS">
+        <item>Povedzte ostatným, prečo je toto miesto veľmi zlé.</item>
+        <item>Povedzte ostatným, prečo je toto miesto zlé.</item>
+        <item>Povedzte ostatným, prečo je toto miesto dobré.</item>
+        <item>Povedzte ostatným, prečo je toto miesto veľmi dobré.</item>
+        <item>Povedzte ostatným, prečo je toto miesto vynikajúce.</item>
+    </string-array>
+</resources>

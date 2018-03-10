@@ -250,6 +250,7 @@ Delta Dimensiune actualizare: %2$s"</string>
     <string name="err_filesystem_mount">Nu se poate accesa stocarea routerului</string>
     <string name="err_router_disconnected">Verificați conexiunea routerului și încercați din nou.</string>
     <string name="err_router_files_delete">Nu se pot şterge fişierele de rezervă de pe router</string>
+    <string name="err_not_allow">Not support</string>
     <string name="backup_is_running">Se realizează copie de rezervă a dispozitivului</string>
     <string name="restore_is_running">Restabilre dispozitiv</string>
     <string name="notif_backup_title">Crează copie de rezervă a datelor</string>
@@ -338,7 +339,7 @@ Timp trecut: %s"</string>
     <string name="trans_device_wait_for_reconnecting">Conexiunea a fost întreruptă. Conectați-vă din nou pentru a continua.</string>
     <string name="trans_device_auto_reconnecting">Dispozitiv deconectat. Se reconectează automat…</string>
     <string name="trans_connecting_toast">Se conectează…</string>
-    <string name="trans_switching_5g">Switching to 5GHz Wi-Fi…</string>
+    <string name="trans_switching_5g">Se comutează la 5GHz Wi-Fi…</string>
     <string name="trans_connect_failed_toast">Nu se poate conecta</string>
     <string name="trans_generate_qr_code_failed">Nu se poate crea codul QR</string>
     <string name="trans_scan_invalid_qrcode">Cod QR nevalid</string>
@@ -435,7 +436,7 @@ Selectați doar elementele importante pentru a face transferul cât mai repede."
 După crearea unei noi întrebări de securitate și confirmați data de naștere, ID-ul dvs. Apple autentificarea doi factori va fi oprită. Dacă nu vedeți opțiunea pentru a opri autentificare doi factori pe pagina contului ID Apple, nu puteți să opriți."</string>
     <string name="close_twice_auth_btn">Opriți autentificarea doi factori</string>
     <string name="close_twice_auth_operation">"URL:
-https://appleid.apple.com/#!&amp;page=signin to close"</string>
+https://appleid.apple.com/#!&amp;page=signin pentru a închide"</string>
     <string name="platform_chooser_title">Alege un dispozitiv vechi</string>
     <string name="platform_chooser_item_ios">Importați din dispozitivul iOS</string>
     <string name="platform_chooser_item_android">Importați de la un dispozitiv Android</string>

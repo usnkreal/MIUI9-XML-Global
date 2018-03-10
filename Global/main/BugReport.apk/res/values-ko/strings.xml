@@ -163,9 +163,9 @@
     <string name="cta_confirm">확인</string>
     <string name="submit_dialog_title">보고서 전송</string>
     <string name="submit_dialog_content">피드백에 포함된 첨부파일과 로그는 MIUI의 서버에 전송됩니다. 로그에 개인 정보와 위치 데이터가 포함될 수 있습니다.</string>
-    <string name="submit_dialog_content_global">첨부파일 (존재하는 경우) 및 로그 (업로드를 원하지 않는 항목은 체크를 해제할 수 있음) 를 포함하는 피드백이 MIUI 서버와 개발자의 분석 및 소통을 위해 마련된 MIUI 포럼 제한 섹션에 업로드될 것입니다. 로그에 개인 정보와 위치 데이터가 포함될 수 있습니다.</string>
-    <string name="submit_dialog_cancel">취소</string>
-    <string name="submit_dialog_confirm">전송</string>
+    <string name="submit_dialog_content_global">첨부파일 (존재하는 경우) 및 로그 (업로드를 원하지 않는 항목은 체크를 해제할 수 있음) 를 포함하는 피드백이 MIUI 서버와 개발자의 MIUI 포럼 제한 섹션에 업로드될 것입니다. 분석과 소통을 위해 게시글 및 포럼 활동 정보 또한 수집될 수 있습니다. 로그에 개인 정보와 위치 데이터가 포함될 수 있습니다.</string>
+    <string name="submit_dialog_cancel">동의하지 않음</string>
+    <string name="submit_dialog_confirm">동의</string>
     <string name="mobile_data_note_dialog_title">데이터 사용량 경고</string>
     <string name="mobile_data_note_dialog_content">모바일 데이터를 사용하여 로그를 업로드하시면 추가 요금이 부과될 것입니다.</string>
     <string name="mobile_data_note_dialog_content_with_file_size">로그 업로드에 모바일 데이터 연결을 사용하시면 %sMB의 데이터가 사용될 것입니다.</string>

@@ -53,12 +53,12 @@
         <item quantity="one">%1$d bilder av %2$s vil legges til</item>
     </plurals>
     <plurals name="backup_after_hours">
-        <item quantity="other">Resume backup in %d hours</item>
-        <item quantity="one">Fortsett sikkerhetkopiering om %d timer</item>
+        <item quantity="other">Fortsett sikkerhetkopiering om %d timer</item>
+        <item quantity="one">Fortsett sikkerhetkopiering om %d time</item>
     </plurals>
     <plurals name="backup_pause_desc">
-        <item quantity="other">%d photos and videos | Paused</item>
-        <item quantity="one">%d bilder og videoer | Satt på pause</item>
+        <item quantity="other">%d bilder og videoer | Satt på pause</item>
+        <item quantity="one">%d bilde og video | Satt på pause</item>
     </plurals>
     <plurals name="backuping_desc_gprs">
         <item quantity="other">%1$d photos and videos | %2$s</item>

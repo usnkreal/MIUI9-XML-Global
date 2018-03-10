@@ -161,16 +161,32 @@ Wiadomości będą pojawiać się tylko w Drugiej przestrzeni."</string>
 funkcja ta zostanie automatycznie dodana do Drugiej przestrzeni."</string>
     <string name="openSuccess">Włączono</string>
     <string name="closeSuccess">Wyłączono</string>
-    <string name="settings_notification_and_switch">Przełączanie i powiadomienia</string>
+    <string name="settings_set_password_for_owner_space">Ustaw ekran blokady dla Pierwszej przestrzeni</string>
+    <string name="settings_set_password_for_owner_space_desc">Ustaw ekran blokady dla Pierwszej przestrzeni, aby usunąć skrót z Ustawień.</string>
+    <string name="settings_set_password_for_sec_space">Ustaw ekran blokady dla Drugiej przestrzeni</string>
+    <string name="settings_set_password_for_sec_space_desc">Ustaw ekran blokady dla Drugiej przestrzeni, aby usunąć skrót z Ustawień.</string>
+    <string name="settings_notification_and_switch_owner_space">Ustawienia Pierwszej przestrzeni</string>
+    <string name="settings_second_space_entrance_title">Skrót w Ustawieniach</string>
+    <string name="settings_second_space_entrance_summary">Pokaż skrót do Drugiej przestrzeni w Ustawieniach</string>
+    <string name="settings_switch_shortcut_title">Skrót ekranu głównego</string>
+    <string name="settings_switch_space">Przełączanie między przestrzeniami</string>
+    <string name="settings_notification_from_second_space_title">Wyświetl powiadomienia z Drugiej przestrzeni</string>
+    <string name="settings_notification_and_switch_second_space">Ustawienia Drugiej przestrzeni</string>
+    <string name="settings_notification_from_owner_space_title">Wyświetl powiadomienia z Pierwszej przestrzeni</string>
+    <string name="notification_from_owner_user">Wyświetl powiadomienia z Pierwszej przestrzeni</string>
+    <string name="notification_from_second_user">Wyświetl powiadomienia z Drugiej przestrzeni</string>
+    <string name="radio_button_icon_switch_title">Korzystanie ze skrótu</string>
+    <string name="radio_button_password_switch_title">Korzystanie z hasła</string>
     <string name="settings_cross_notification_title">Powiadomienia</string>
     <string name="settings_cross_notification_summary">Otrzymuj powiadomienia z innych przestrzeni</string>
-    <string name="settings_switch_shortcut_title">Dotknij skrótu, aby przełączyć</string>
     <string name="settings_switch_shortcut_summary">Pokaż skrót do ekranu głównego w Pierwszej przestrzeni</string>
     <string name="settings_space_data">Dane</string>
     <string name="settings_status_icon_title">Ikona Drugiej przestrzeni</string>
     <string name="settings_status_icon_summary">Pokaż ikonę Drugiej przestrzeni na pasku statusu</string>
-    <string name="settings_msg_add_shortcut">Dodano skrót do Pierwszej przestrzeni</string>
-    <string name="settings_msg_remove_shortcut">Usunięto skrót z Pierwszej przestrzeni</string>
+    <string name="settings_msg_add_shortcut_to_owner_space">Dodano skrót do Pierwszej przestrzeni</string>
+    <string name="settings_msg_add_shortcut_to_second_space">Skrót został utworzony w Drugiej przestrzeni</string>
+    <string name="settings_msg_remove_shortcut_from_owner_space">Usunięto skrót z Pierwszej przestrzeni</string>
+    <string name="settings_msg_remove_shortcut_from_second_space">Skrót został usunięty z Drugiej przestrzeni</string>
     <string name="start_setting_guide_desc_title">Należy skonfigurować kilka elementów</string>
     <string name="setting_is_show_text_contacts">Skonfiguruj prywatne kontakty i wiadomości</string>
     <string name="switch_data_app">Przenieś elementy do Drugiej przestrzeni</string>
@@ -341,4 +357,14 @@ Jeśli nie wykonasz aktualizacji, sklonowane aplikacje mogą nie działać prawi
     <string name="sdcradfs_dialog_in_sec_message">"Aby zaktualizować, należy usunąć Drugą przestrzeń, i utworzyć ją ponownie. Przenieś dane z Drugiej przestrzeni do Pierwsze i ponownie uruchom urządzenia, aby dokończyć aktualizację.
 Jeśli nie wykonasz aktualizacji, sklonowane aplikacje mogą nie działać prawidłowo."</string>
     <string name="space_created_success">Pomyślnie utworzono Drugą przestrzeń</string>
+    <string name="space_create_guide_title_1">Chroń swoją prywatność</string>
+    <string name="space_create_guide_desc_1">Przechowuj aplikacje i zdjęcia bezpieczenie</string>
+    <string name="space_create_guide_title_2">Utwórz w każdej chwili</string>
+    <string name="space_create_guide_desc_2">Gotowa w każdej chwili osobna przestrzeń</string>
+    <string name="space_create_guide_title_3">Bez zagrożeń</string>
+    <string name="space_create_guide_desc_3">Druga przestrzeń nie wpływa na inne elementy w twoim urządzeniu</string>
+    <string name="space_create_guide_switchmode_title">Przełącz między przestrzeniami</string>
+    <string name="second_space_desktop_tips_dialog_title">Ważna aktualizacja</string>
+    <string name="second_space_desktop_tips_dialog_positive_text">Rozumiem</string>
+    <string name="second_space_desktop_tips_dialog_message">Po tej aktualizacji, ikony przenoszenia danych i zarządzania Drugą przestrzenią nie będą wyświetlane na Ekranie głównym. Dostęp do ich funkcji będzie możliwy z poziomu Ustawień.</string>
 </resources>

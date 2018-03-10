@@ -10,7 +10,7 @@
     <string name="privacy_authorize_revoke_time">Zrušiť (%1$ds)</string>
     <string name="privacy_authorize_title">Udelenie autorizácie</string>
     <string name="privacy_authorize_privacy_policy">Zásady ochrany osobných údajov</string>
-    <string name="privacy_authorize_dialog_message">%1$s si vyžaduje prečítať a súhlasiť s %2$s. Aplikácia pre správne fungovanie potrebuje pripojenie na internet. Súhlasíte?</string>
+    <string name="privacy_authorize_dialog_message"><Data>Pred začatím používania základných funkcií služieb Mi Cloud, musíte súhlasiť, že Xiaomi bude zbierať, spracovávať, a používať vaše osobné dáta. O tom, akým spôsobom zbierame a spracovávame osobné dáta sa dozviete viac našich Zásadách ochrany osobných údajov. Zvolením \"Súhlasím\" vyjadrujete súhlas s našimi &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Zásadami ochrany osobných údajov&lt;/a> a &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Podmienkami používania&lt;/a>.​</Data></string>
     <string name="privacy_authorize_dialog_exit">Ukončiť</string>
     <string name="privacy_authorize_dialog_agree">Súhlasím</string>
     <string name="privacy_authorize_network_error">Pripojte sa k sieti a skúste to znova.</string>
@@ -18,6 +18,7 @@
     <string name="privacy_authorize_revoke_failed">Nepodarilo sa zrušiť autorizáciu</string>
     <string name="privacy_authorize_success">Autorizácia úspešne udelená</string>
     <string name="privacy_authorize_revoking">Rušenie autorizácie…</string>
+    <string name="privacy_authorize_cloud_msg">"To ensure your account's security, sign in to i.mi.com if you want to revoke authorization for Mi Cloud services (including sync and backups)."</string>
     <string name="launcher_title">Launcher</string>
     <string name="defalut_launcher_title">Predvolený launcher</string>
     <string name="miui_screen_config_title">Nastavenia domovskej obrazovky</string>
@@ -235,13 +236,13 @@
     <string name="radioInfo_display_asu">asu</string>
     <string name="radioInfo_lac">LAC</string>
     <string name="radioInfo_cid">CID</string>
-    <string name="sdcard_unmount">Odpoj. uklad. priestor USB</string>
-    <string name="sdcard_format">Vymazať ukladací priestor USB</string>
+    <string name="sdcard_unmount">Odpojiť SD kartu</string>
+    <string name="sdcard_format">Vymazať SD kartu</string>
     <string name="small_font">Malé</string>
     <string name="medium_font">Stredné</string>
     <string name="large_font">Veľké</string>
     <string name="font_size_save">OK</string>
-    <string name="sdcard_setting">Ukladací priestor USB</string>
+    <string name="sdcard_setting">SD karta</string>
     <string name="battery_info_status_unknown">Neznáme</string>
     <string name="battery_info_status_charging">Nabíjanie</string>
     <string name="battery_info_status_charging_ac">(AC)</string>
@@ -376,14 +377,14 @@ Vysielanie používa signály Bluetooth s nízkou spotrebou energie."</string>
     <string name="sdcard_changes_instructions">Zmena sa prejaví pri ďalšom pripojení kábla USB.</string>
     <string name="sdcard_settings_screen_mass_storage_text">Povoliť veľkokapacitné pamäťové zariadenie USB</string>
     <string name="sdcard_settings_total_bytes_label">Celková kapacita (bajty):</string>
-    <string name="sdcard_settings_not_present_status">Úložisko USB nie je pripojené.</string>
+    <string name="sdcard_settings_not_present_status">Žiadna SD karta.</string>
     <string name="sdcard_settings_available_bytes_label">Pamäť k dispozícii (bajty):</string>
-    <string name="sdcard_settings_mass_storage_status">Úložisko USB sa používa ako veľkokapacitné pamäťové zariadenie.</string>
-    <string name="sdcard_settings_unmounted_status">Úložisko USB môžete odobrať.</string>
-    <string name="sdcard_settings_bad_removal_status">Ukl. priestor USB odstr. počas prevádzky.</string>
+    <string name="sdcard_settings_mass_storage_status">SD karta sa používa ako veľkokapacitné pamäťové zariadenie.</string>
+    <string name="sdcard_settings_unmounted_status">Teraz môžete SD kartu bezpečne odobrať.</string>
+    <string name="sdcard_settings_bad_removal_status">SD karta bola odstránená počas prevádzky.</string>
     <string name="sdcard_settings_used_bytes_label">Obsadená pamäť (bajty):</string>
-    <string name="sdcard_settings_scanning_status">Hľad. médií v ukl. priestore USB...</string>
-    <string name="sdcard_settings_read_only_status">Úložisko USB je pripojené len na čítanie.</string>
+    <string name="sdcard_settings_scanning_status">Vyhľadávanie mediálnych súborov na SD karte...</string>
+    <string name="sdcard_settings_read_only_status">SD karta bola pripojená iba na čítanie.</string>
     <string name="skip_label">Preskočiť</string>
     <string name="next_label">Ďalej</string>
     <string name="language_picker_title">Jazyk</string>
@@ -391,7 +392,7 @@ Vysielanie používa signály Bluetooth s nízkou spotrebou energie."</string>
     <string name="device_info_label">Informácie o zariadení</string>
     <string name="display_label">Obrazovka</string>
     <string name="phone_info_label">Informácie o telefóne</string>
-    <string name="sd_card_settings_label">Ukladací priestor USB</string>
+    <string name="sd_card_settings_label">SD karta</string>
     <string name="proxy_settings_label">Nastavenia servera proxy</string>
     <string name="cancel">Zrušiť</string>
     <string name="okay">OK</string>
@@ -678,7 +679,7 @@ Ak chcete ďalej používať svoj telefón, musíte obnoviť jeho výrobné nast
     <string name="link_speed">%1$d Mbps</string>
     <string name="wifi_alert_lockdown_by_device_owner">Aplikácia %1$s spravuje vaše zariadenie a nepovoľuje upravovanie alebo odstránenie tejto siete Wi-Fi. Ďalšie informácie získate od svojho správcu.</string>
     <string name="nfc_quick_toggle_title">NFC</string>
-    <string name="nfc_quick_toggle_summary">Povoliť výmenu údajov, ak sa telefón dotýka iného zariadenia</string>
+    <string name="nfc_quick_toggle_summary">Povoliť výmenu dát, pokiaľ sa telefón dotkne iného zariadenia</string>
     <string name="android_beam_settings_title">Android Beam</string>
     <string name="android_beam_on_summary">Prenos obsahu pomocou NFC je zapnuté</string>
     <string name="android_beam_off_summary">Prenos obsahu pomocou NFC je vypnuté</string>
@@ -994,7 +995,7 @@ Zrejme ste zadali nesprávny kód PIN."</string>
     <string name="storage_settings">Úložisko</string>
     <string name="storage_usb_settings">Úložisko a USB</string>
     <string name="storage_settings_title">Nastavenia úložiska</string>
-    <string name="storage_settings_summary">Odpojiť ukladací priestor USB a zobraziť dostupný ukladací priestor</string>
+    <string name="storage_settings_summary">Umožňuje odpojiť SD kartu a zobraziť dostupný ukladací priestor</string>
     <string name="status_number">Moje telefónne číslo</string>
     <string name="status_min_number">Min.</string>
     <string name="status_msid_number">MSID</string>
@@ -1015,7 +1016,7 @@ Zrejme ste zadali nesprávny kód PIN."</string>
     <string name="status_up_time">Doba prevádzky</string>
     <string name="status_awake_time">Doba prevádzky</string>
     <string name="internal_memory">Interný ukl. priestor</string>
-    <string name="sd_memory">Ukladací priestor USB</string>
+    <string name="sd_memory">SD karta</string>
     <string name="memory_available">K dispozícii</string>
     <string name="memory_available_read_only">K dispozícii (len na čítanie)</string>
     <string name="memory_size">Celková pamäť</string>
@@ -1027,21 +1028,21 @@ Zrejme ste zadali nesprávny kód PIN."</string>
     <string name="memory_music_usage">Zvuk (hudba, podcasty atď.)</string>
     <string name="memory_media_misc_usage">Ostatné súbory</string>
     <string name="memory_media_cache_usage">Dáta vo vyrovnávacej pamäti</string>
-    <string name="sd_eject">Odpojte zdieľaný ukl. priestor</string>
-    <string name="sd_eject_summary">Odp. interný ukl. priestor USB</string>
-    <string name="sd_insert_summary">Vložte ukl. priestor USB na pripoj.</string>
-    <string name="sd_mount">Pripoj. ukl. priestor USB</string>
+    <string name="sd_eject">Odpojiť SD kartu</string>
+    <string name="sd_eject_summary">Kvôli bezpečnému odstráneniu SD karty musíte kartu najprv odpojiť</string>
+    <string name="sd_insert_summary">Vložte SD kartu, ktorú chcete pripojiť</string>
+    <string name="sd_mount">Pripojiť SD kartu</string>
     <string name="sd_mount_summary" />
-    <string name="sd_format">Vymazať ukladací priestor USB</string>
-    <string name="sd_format_summary">Vymaže vš. údaje v internom uklad. priestore USB, napr. hudbu alebo fotografie.</string>
+    <string name="sd_format">Vymazať SD kartu</string>
+    <string name="sd_format_summary">Vymaže všetky údaje na SD karte, ako je hudba alebo fotografie</string>
     <string name="memory_clear_cache_title">Vymazať dáta z vyrovnávacej pamäte?</string>
     <string name="memory_clear_cache_message">Týmto vymažete z pamäte dáta všetkých aplikácií.</string>
     <string name="mtp_ptp_mode_summary">Funkcia MTP alebo PTP je aktívna</string>
-    <string name="dlg_confirm_unmount_title">Odpojiť úložisko USB?</string>
-    <string name="dlg_confirm_unmount_text">Ak odpojíte úložisko USB, niektoré používané aplikácie môžu byť zastavené a nebudú k dispozícii, kým úložisko USB znova nepripojíte.</string>
+    <string name="dlg_confirm_unmount_title">Odpojiť SD kartu?</string>
+    <string name="dlg_confirm_unmount_text">Ak odpojíte SD kartu, niektoré používané aplikácie môžu byť zastavené a nebudú k dispozícii, kým SD kartu znova nepripojíte.</string>
     <string name="dlg_error_unmount_title" />
-    <string name="dlg_error_unmount_text">Úložisko USB sa nepodarilo odpojiť. Skúste to znova neskôr.</string>
-    <string name="unmount_inform_text">Ukladací priestor USB bude odpojený.</string>
+    <string name="dlg_error_unmount_text">SD kartu sa nepodarilo odpojiť. Skúste to znova neskôr.</string>
+    <string name="unmount_inform_text">SD karta bude odpojená.</string>
     <string name="sd_ejecting_title">Odpájanie</string>
     <string name="sd_ejecting_summary">Prebieha odpájanie</string>
     <string name="storage_low_title">Nedostatok ukladacieho priestoru</string>
@@ -1245,9 +1246,9 @@ Na tomto zariadení sú prítomní ďalší používatelia.
 "<li>Iné používateľské údaje</li></string>
     <string name="master_clear_desc_erase_external_storage">"
 
-Ak chcete vymazať hudbu, obrázky a ďalšie používateľské dáta, je treba vymazať "<b>úložisko USB</b>.</string>
-    <string name="erase_external_storage">Vymazať ukladací priestor USB</string>
-    <string name="erase_external_storage_description">Vymazať všetky dáta v internom úložisku USB, napríklad hudbu a fotky</string>
+Ak chcete vymazať hudbu, obrázky a ďalšie používateľské dáta, je treba vymazať "<b>SD kartu</b>.</string>
+    <string name="erase_external_storage">Vymazať SD kartu</string>
+    <string name="erase_external_storage_description">Vymazať všetky dáta na SD karte, napríklad hudbu a fotky</string>
     <string name="master_clear_button_text">Resetovať telefón</string>
     <string name="master_clear_final_desc">Chcete vymazať všetky osobné údaje a stiahnuté aplikácie? Túto akciu nebude možné vrátiť späť.</string>
     <string name="master_clear_final_button_text">Vymazať všetko</string>
@@ -1421,7 +1422,7 @@ Ak chcete vymazať hudbu, obrázky a ďalšie používateľské dáta, je treba
     <string name="application_size_label">Aplikácia</string>
     <string name="external_code_size_label">Aplikácia, úložisko USB</string>
     <string name="data_size_label">Dáta</string>
-    <string name="external_data_size_label">Údaje ukladacieho priestoru USB</string>
+    <string name="external_data_size_label">SD karta</string>
     <string name="uninstall_text">Odinštalovať</string>
     <string name="uninstall_all_users_text">Odinštalovať pre všetkých používateľov</string>
     <string name="install_text">Inštalovať</string>
@@ -1461,13 +1462,13 @@ Ak chcete vymazať hudbu, obrázky a ďalšie používateľské dáta, je treba
     <string name="filter_apps_disabled">Zakázané</string>
     <string name="filter_apps_third_party">Stiahnuté</string>
     <string name="filter_apps_running">Spustené</string>
-    <string name="filter_apps_onsdcard">Ukladací priestor USB</string>
+    <string name="filter_apps_onsdcard">Na SD karte</string>
     <string name="disabled">Zakázané</string>
     <string name="not_installed">Pre tohto používateľa nenainš.</string>
     <string name="no_applications">Žiadne aplikácie.</string>
     <string name="internal_storage">Interný ukl. priestor</string>
     <string name="internal_storage_sentence">interné úložisko</string>
-    <string name="sd_card_storage">Ukladací priestor USB</string>
+    <string name="sd_card_storage">Ukl. priestor SD karty</string>
     <string name="recompute_size">Prebieha prepočítanie veľkosti...</string>
     <string name="clear_data_dlg_title">Odstrániť dáta aplikácie?</string>
     <string name="clear_data_dlg_text">Všetky dáta tejto aplikácie vrátane súborov, nastavení, účtov, databáz atď. budú navždy odstránené.</string>
@@ -1494,7 +1495,7 @@ Ak chcete vymazať hudbu, obrázky a ďalšie používateľské dáta, je treba
     <string name="version_text">verzia %1$s</string>
     <string name="move_app">Presunúť</string>
     <string name="move_app_to_internal">Presunúť do telefónu</string>
-    <string name="move_app_to_sdcard">Presun. do ukl. priestoru USB</string>
+    <string name="move_app_to_sdcard">Presunúť na SD kartu</string>
     <string name="moving">Presúvanie</string>
     <string name="insufficient_storage">V úložisku nie je dostatok miesta.</string>
     <string name="does_not_exist">Aplikácia neexistuje.</string>
@@ -1675,10 +1676,10 @@ Kliknutím na plus pridáte slová."</string>
     <string name="dev_settings_warning_message">Tieto nastavenia sú iba pre vývojárov. Aktivácia týchto funkcií môže spôsobiť neštandardné alebo chybové chovanie vášho zariadenia a aplikácií.</string>
     <string name="verify_apps_over_usb_title">Overiť apl. inštalované cez USB</string>
     <string name="verify_apps_over_usb_summary">Kontrolovať škodlivosť aplikácií nainštalovaných pomocou nástroja ADB/ADT.</string>
-    <string name="enforce_read_external_title">Chrániť úložisko USB</string>
-    <string name="enforce_read_external_summary">Aplikácie musia pred čítaním z úložiska USB žiadať povolenie</string>
-    <string name="enforce_read_external_confirm_title">Chrániť úložisko USB?</string>
-    <string name="enforce_read_external_confirm_message">"Keď je úložisko USB chránené, aplikácie musia pred čítaním údajov z externého úložiska požiadať o povolenie.
+    <string name="enforce_read_external_title">Chrániť SD kartu</string>
+    <string name="enforce_read_external_summary">Aplikácie musia pred čítaním z SD karty vyžiadať povolenie</string>
+    <string name="enforce_read_external_confirm_title">Chrániť SD kartu?</string>
+    <string name="enforce_read_external_confirm_message">"Keď je SD karta chránená, aplikácie musia pred čítaním údajov z externého úložiska požiadať o povolenie.
 
 Pri niektorých aplikáciách platí, že budú fungovať až vtedy, keď ich vývojári aktualizujú."</string>
     <string name="enable_terminal_title">Miestny terminál</string>
@@ -2043,8 +2044,8 @@ Ak má zariadenie viacero používateľov, pomocou tejto skratky je možné na u
     <string name="gadget_brightness_state_off">vypnuté</string>
     <string name="vpn_settings_title">VPN</string>
     <string name="credentials_title">Úložisko poverení</string>
-    <string name="credentials_install">Inštalovať z úložiska</string>
-    <string name="credentials_install_summary">Inštalovať certifikáty z úložiska</string>
+    <string name="credentials_install">Inštalovať z SD karty</string>
+    <string name="credentials_install_summary">Inštalovať certifikáty z SD karty</string>
     <string name="credentials_reset">Vymazať poverenia</string>
     <string name="credentials_reset_summary">Odstrániť všetky certifikáty</string>
     <string name="trusted_credentials">Dôveryhodné poverenia</string>
@@ -2340,9 +2341,7 @@ Niektoré účty tiež automaticky skopírujú na web akékoľvek zmeny vykonan�
 Pretože sa prenesené dáta merajú pomocou telefónu a operátor ich môže účtovať odlišne, je vhodné nastaviť nízky limit."</string>
     <string name="data_usage_restrict_background_title">Obmedziť prenosy na pozadí?</string>
     <string name="data_usage_restrict_background">Ak obmedzíte využitie mobilných dát na pozadí, niektoré aplikácie a služby nebudú fungovať, pokiaľ sa nepripojíte k sieti Wi-Fi.</string>
-    <string name="data_usage_restrict_background_multiuser">"Ak obmedzíte dátové prenosy na pozadí, niektoré aplikácie a služby nebudú fungovať, dokým sa nepripojíte k sieti Wi-Fi.
-
-Toto nastavenie ovplyvní používateľov tohto telefónu."</string>
+    <string name="data_usage_restrict_background_multiuser">\"Ak obmedzíte mobilné údaje na pozadí, niektoré aplikácie a služby nebudú fungovať, pokiaľ nebudete mať pripojenie k sieti Wi-Fi. Toto nastavenie ovplyvní všetkých používateľov tohto telefónu.\"</string>
     <string name="data_usage_sweep_warning"><font size="21">^1</font> <font size="9">^2</font>"
 "<font size="12">upozornenie</font></string>
     <string name="data_usage_sweep_limit"><font size="21">^1</font> <font size="9">^2</font>"
@@ -3313,7 +3312,7 @@ Umožňuje to ochrániť údaje v stratených alebo ukradnutých zariadeniach."<
     <string name="sure_sync_now">Synchronizovať teraz položky?</string>
     <string name="sync_now">Synchronizovať</string>
     <string name="suggestion_for_phone_recycled">Pridať iné telefónne číslo</string>
-    <string name="mi_upi_settings">Mi Pay Account</string>
+    <string name="mi_upi_settings">Účet Mi Pay</string>
     <string name="sms_received_sound_title">Zvuk prijatej správy</string>
     <string name="sms_delivered_sound_title">Zvuk doručenky</string>
     <string name="sms_received_sound_dialog_title">Vybrať zvuk prijatej správy</string>
@@ -3581,7 +3580,7 @@ Umožňuje to ochrániť údaje v stratených alebo ukradnutých zariadeniach."<
     <string name="shut_down_find_device_failure_confirm">OK</string>
     <string name="factory_reset_summary">Môžete vymazať osobné údaje telefónu, alebo vymažte nainštalované aplikácie a naformátujte SD kartu pre obnovenie predvolených nastavení.</string>
     <string name="erase_sure">Dôležité</string>
-    <string name="erase_personal_data">Osobné údaje</string>
+    <string name="erase_personal_data">Všetky súbory v telefóne</string>
     <string name="erase_personal_data_description">Všetky súbory a dáta vrátane účtov, kontakov, fotiek a aplikacíí</string>
     <string name="erase_sd_data">Formát SD karty</string>
     <string name="erase_sd_data_description">Formátovanieí vymaže všetky súbory a dáta na SD karte</string>
@@ -3682,6 +3681,9 @@ Umožňuje to ochrániť údaje v stratených alebo ukradnutých zariadeniach."<
     <string name="wfd_disconnect_multiple_diag_message">Ak prerušíte Wi-Fi Displej, Vaše spojenie s %1$s a %2$s ostatnými zariadeniami sa ukončí?</string>
     <string name="wfd_wps_keypad">Stlačenie tlačidlá</string>
     <string name="wfd_wps_pbc">Vložiť PIN</string>
+    <string name="wfd_status_dialog_title">Bezdrôtový displej</string>
+    <string name="wfd_status_dialog_message">Obsah obrazovky sa zobrazuje na druhom displeji cez bezdrôtové pripojenie</string>
+    <string name="wfd_status_dialog_disconnect">Odpojiť</string>
     <string name="virtual_sim_global_category_title">Xiaomi SIM</string>
     <string name="virtual_sim_global_title">Mobilná dátová služba</string>
     <string name="virtual_sim_global_description">Pripojte sa k dátovej sieti bez SIM karty</string>
@@ -3931,8 +3933,8 @@ Umožňuje to ochrániť údaje v stratených alebo ukradnutých zariadeniach."<
     <string name="tether_settings_disabled">Prenosný hotspot je vypnutý</string>
     <string name="tether_data_usage_limit">Jednorazový dátový limit</string>
     <string name="tether_data_usage_limit_summary">Dátový limit sa započíta po ďalšom zapnutí hotspotu</string>
-    <string name="tether_auto_disable_title">Automatically close hotspot</string>
-    <string name="tether_auto_disable_summary">Automatically close hotspot when no connected devices</string>
+    <string name="tether_auto_disable_title">Automaticky zatvoriť hotspot</string>
+    <string name="tether_auto_disable_summary">Automaticky vypnúť hotspot keď nie sú pripojené žiadne zariadenia</string>
     <string name="hdmi_3dplay_settings_title">HDMI</string>
     <string name="hdmi_3dplay_control_text">Povoliť 3D</string>
     <string name="hdmi_3dplay_control_enable_subtext">Stereoskopické 3D zobrazenie v externom 3D zariadení je povolené</string>
@@ -4022,7 +4024,7 @@ Umožňuje to ochrániť údaje v stratených alebo ukradnutých zariadeniach."<
     <string name="found_new_version">Dostupná aktualizácia</string>
     <string name="no_update_found">Najnovšia verzia</string>
     <string name="no_updates_found">Už máte nainštalovanú najnovšiu verziu MIUI.</string>
-    <string name="no_updates_warning">Žiadne nové aktualizácie pre Vaše zariadenie neboli nájdené.</string>
+    <string name="no_updates_warning">Your system is up to date</string>
     <string name="no_updates_warning2">Keď bude k dispozícii aktualizácia, budeme vás informovať.</string>
     <string name="network_error">Nastala chyba siete</string>
     <string name="checking_for_updates">Kontrola aktualizácií...</string>
@@ -4117,6 +4119,8 @@ Umožňuje to ochrániť údaje v stratených alebo ukradnutých zariadeniach."<
     <string name="permission_mgr">Povolenia</string>
     <string name="cleaner">Čistič</string>
     <string name="power_mgr">Batéria</string>
+    <string name="secondspace_category">Druhý priestor</string>
+    <string name="secondspace_delete_space_title">Vymazať Druhý profil</string>
     <string name="symbols_not_allowed_for_password">Heslo nesmie obsahovať symboly</string>
     <string name="reset_legacy_password_settings_preface_text">Musíte resetovať vaše heslo.</string>
     <string name="priority_storage_title">Nastavenie úložiska</string>
@@ -4719,42 +4723,9 @@ Umožňuje to ochrániť údaje v stratených alebo ukradnutých zariadeniach."<
     <string name="lock_screen_unlock_show_summary">Otvoriť Domovskú obrazovku alebo rovno zadať heslo</string>
     <string name="security_keyguard_category_name">Zamknutá obrazovka</string>
     <string name="security_password_category_name">Zámok displeja</string>
-    <string name="lock_screen_secure_after_timeout_title">Vyžaduje sa heslo</string>
-    <string name="lock_screen_secure_after_timeout_summary">Vyžaduje sa heslo: %1$s</string>
-    <string name="lock_screen_secure_after_timeout_immediately_summary">Okamžite sa vyžaduje heslo.</string>
-    <string name="lock_screen_secure_after_timeout_immediately_never">Nikdy nevyžadovať heslo</string>
     <string name="fingerprint_payment">Platby pomocou odtlačku prsta</string>
     <string name="unlock_disable_frp_warning_title_profile">Odstrániť ochranu profilu?</string>
     <string name="unlock_disable_frp_warning_content_profile">Funkcia zabezpečenia profilu nebude fungovať bez hesla.</string>
-    <string name="miracast_settings_category">Nastavenia Wi-Fi displeja</string>
-    <string name="miracast_display_category">Displeje</string>
-    <string name="miracast_menu_search">Hľadať</string>
-    <string name="miracast_menu_searching">Prebieha vyhľadávanie</string>
-    <string name="miracast_menu_teardown">Strhnúť</string>
-    <string name="miracast_menu_connect">Spustiť stream</string>
-    <string name="miracast_menu_disconnect">Zastaviť stream</string>
-    <string name="miracast_menu_forget">Odobrať displej</string>
-    <string name="miracast_menu_rename">Premenovať displej</string>
-    <string name="miracast_setup_save">Uložiť</string>
-    <string name="miracast_setup_cancel">Zrušiť</string>
-    <string name="miracast_wifi_off">Ak chcete použiť Miracast, zapnite Wi-Fi</string>
-    <string name="miracast_no_sinks_found">Neboli nájdené žiadne Wi-Fi displeje</string>
-    <string name="miracast_nickname">Zadajte nový názov:</string>
-    <string name="miracast_connection_failed_generic">Nepodarilo sa pripojiť k displeju</string>
-    <string name="miracast_sink_connected">Pripojené</string>
-    <string name="miracast_sink_not_available">Nedostupné</string>
-    <string name="miracast_sink_connecting">Pripája sa…</string>
-    <string name="miracast_sink_ready_to_connect">Pripravené na pripojenie</string>
-    <string name="miracast_sink_busy">Zaneprázdnené</string>
-    <string name="miracast_error_already_streaming">Už sa vysiela na jeden displej</string>
-    <string name="miracast_error_connection_in_progress">Pripája sa…</string>
-    <string name="miracast_cancelconnect_dialog">Zrušiť pripojenie</string>
-    <string name="miracast_dialog_title">%1$s</string>
-    <string name="miracast_error_cancelconnect">Pripojenie je zaneprázdnené</string>
-    <string name="miracast_search_for_displays">Vyhľadávanie Wi-Fi displejov…</string>
-    <string name="miracast_PC2THOR_streaming_on">Miracast je nedostupný, pretože sa už vysiela z PC</string>
-    <string name="miracast_disable_dhcp">Deaktivovať HDCP</string>
-    <string name="miracast_enable_dhcp">Aktivovať HDCP</string>
     <string name="dirac_control">Dirac Ovládanie</string>
     <string name="dirac_mode_off">Dirac Vypnutý</string>
     <string name="dirac_mode_in_ear">Slúchadlá</string>
@@ -4874,8 +4845,8 @@ Umožňuje to ochrániť údaje v stratených alebo ukradnutých zariadeniach."<
     <string name="dolby_eq_enter_alert_msg">Chcete otvoriť nastavenia Dolby EQ?</string>
     <string name="equalizer">Ekvalizér</string>
     <string name="virtual_sim_search_title">Virtuálna SIM</string>
-    <string name="internal_media_format_final_desc">Vymazanie interného úložiska vymaže všetky uložené dáta! Táto akcia sa nedá vrátiť späť! Telefón sa po dokončení reštartuje.</string>
-    <string name="internal_media_format_desc">Vymazať interné úložisko? Stratíte <b>všetky</b> svoje údaje, ako sú napr. fotky a hudba.</string>
+    <string name="internal_media_format_final_desc">"Erase internal storage? You can't reverse this action! Phone will restart after internal storage is erased."</string>
+    <string name="internal_media_format_desc">Erase internal storage? <b>All</b> of your data will be deleted. Phone will restart after internal storage is erased.</string>
     <string name="internal_media_format_button_text">Erase internal storage</string>
     <string name="internal_media_format_title">Erase internal storage</string>
     <string name="internal_format">Erase internal storage</string>
@@ -4902,9 +4873,9 @@ Umožňuje to ochrániť údaje v stratených alebo ukradnutých zariadeniach."<
     <string name="advanced_text_layout">Povoliť rozšírené nastavenie rozloženia textu</string>
     <string name="print_enable">Povoliť tlač</string>
     <string name="print_remind">Najskôr povoľte tlač</string>
-    <string name="usb_media_format_title">Formátovať úložisko USB</string>
-    <string name="use_media_format_desc">Formátovať USB úložisko? <b>Všetky</b> Súbory budú natrvalo odstránené.</string>
-    <string name="usb_media_format_final_desc">Vymazanie USB úložiska vymaže všetky vaše údaje a tento krok sa nedá vrátiť.</string>
+    <string name="usb_media_format_title">Vymazať USB úložisko</string>
+    <string name="use_media_format_desc">Format USB storage? <b>All</b> files will be deleted permanently.</string>
+    <string name="usb_media_format_final_desc">Vymazanie USB úložiska vymaže všetky vaše dáta a nie je možné to vrátiť späť!</string>
     <string name="usb_dlg_confirm_unmount_title">Odpojiť USB úložisko?</string>
     <string name="usb_dlg_confirm_unmount_text">Ak odpojíte USB úložisko, niektoré aplikácie, ktoré používate, sa zastavia a môžu byť neprístupné, až kým USB úložisko znova nepripojíte.</string>
     <string name="usb_unmount_inform_text">USB úložisko bude odpojené.</string>
@@ -4931,13 +4902,14 @@ Umožňuje to ochrániť údaje v stratených alebo ukradnutých zariadeniach."<
     <string name="uicc_media_format_title">Vymazať UICC úložisko</string>
     <string name="usb_media_format_summary">Vymazať všetky dáta na USB úložisku</string>
     <string name="uicc_media_format_summary">Vymazať všetky dáta na UICC úložisku</string>
-    <string name="usb_media_format_desc">Vymazať USB úložisko? Prídete tak o <b>všetky</b> dáta na úložisku.</string>
-    <string name="uicc_media_format_desc">Vymazať UICC úložisko? Prídete tak o <b>všetky</b> dáta na úložisku.</string>
+    <string name="usb_media_format_desc">Vymazať USB úložisko? Stratíte <b>všetky</b> dáta na úložisku.</string>
+    <string name="uicc_media_format_desc">Vymazať UICC úložisko? Stratíte <b>všetky</b> dáta na úložisku.</string>
     <string name="usb_media_format_button_text">Vymazať USB úložisko</string>
     <string name="uicc_media_format_button_text">Vymazať UICC úložisko</string>
     <string name="uicc_media_format_final_desc">Vymazanie UICC úložiska vymaže všetky vaše dáta a nie je možné to vrátiť späť!</string>
     <string name="usb_media_format_gesture_explanation">Musíte zadať váš odomykací vzor pre potvrdenie vymazania USB úložiska.</string>
     <string name="uicc_media_format_gesture_explanation">Musíte zadať váš odomykací vzor pre potvrdenie vymazania UICC úložiska.</string>
+    <string name="lock_screen_secure_after_timeout_immediately_summary">Okamžite sa vyžaduje heslo.</string>
     <string name="close_install_and_connect">No thanks</string>
     <string name="confirm_install_and_connect">Install &amp; connect</string>
     <string name="disable_wifi_master_key_service_first">Turn off</string>

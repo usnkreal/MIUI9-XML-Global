@@ -112,13 +112,13 @@
     <string name="radioInfo_display_asu">asu</string>
     <string name="radioInfo_lac">LAC</string>
     <string name="radioInfo_cid">CID</string>
-    <string name="sdcard_unmount">‏בטל טעינה של אחסון USB</string>
-    <string name="sdcard_format">‏מחק אחסון USB</string>
+    <string name="sdcard_unmount">‏בטל טעינה של כרטיס SD</string>
+    <string name="sdcard_format">‏מחק כרטיס SD</string>
     <string name="small_font">קטן</string>
     <string name="medium_font">בינוני</string>
     <string name="large_font">גדול</string>
     <string name="font_size_save">אישור</string>
-    <string name="sdcard_setting">‏אחסון USB</string>
+    <string name="sdcard_setting">‏כרטיס SD</string>
     <string name="battery_info_status_unknown">לא ידוע</string>
     <string name="battery_info_status_charging">טוען</string>
     <string name="battery_info_status_charging_ac">טוען בזרם חילופין</string>
@@ -253,14 +253,14 @@
     <string name="sdcard_changes_instructions">‏השינויים ייכנסו לתוקף לאחר שכבל ה-USB יחובר מחדש.</string>
     <string name="sdcard_settings_screen_mass_storage_text">‏הפעל אחסון USB בנפח גדול</string>
     <string name="sdcard_settings_total_bytes_label">נפח כולל (בייטים):</string>
-    <string name="sdcard_settings_not_present_status">‏לא נמצא אחסון USB טעון.</string>
+    <string name="sdcard_settings_not_present_status">‏אין כרטיס SD.</string>
     <string name="sdcard_settings_available_bytes_label">נפח זמין (בייטים):</string>
-    <string name="sdcard_settings_mass_storage_status">‏אחסון ה-USB משמש כמכשיר אחסון בנפח גדול.</string>
-    <string name="sdcard_settings_unmounted_status">‏כעת ניתן להסיר את אחסון ה-USB באופן בטוח.</string>
-    <string name="sdcard_settings_bad_removal_status">‏אחסון USB הוסר תוך כדי שימוש!</string>
+    <string name="sdcard_settings_mass_storage_status">‏כרטיס ה-SD משמש כהתקן אחסון בנפח גדול.</string>
+    <string name="sdcard_settings_unmounted_status">‏כעת ניתן להסיר את כרטיס ה-SD באופן בטוח.</string>
+    <string name="sdcard_settings_bad_removal_status">‏כרטיס SD הוסר תוך כדי שימוש!</string>
     <string name="sdcard_settings_used_bytes_label">ניצול נפח (בייטים):</string>
-    <string name="sdcard_settings_scanning_status">‏סורק אחסון USB עבור מדיה...</string>
-    <string name="sdcard_settings_read_only_status">‏אחסון ה-USB טעון לקריאה בלבד.</string>
+    <string name="sdcard_settings_scanning_status">‏סורק כרטיס SD למציאת מדיה...</string>
+    <string name="sdcard_settings_read_only_status">‏כרטיס ה-SD טעון לקריאה בלבד.</string>
     <string name="skip_label">דלג</string>
     <string name="next_label">הבא</string>
     <string name="language_picker_title">שפה</string>
@@ -268,7 +268,7 @@
     <string name="device_info_label">מידע על המכשיר</string>
     <string name="display_label">מסך</string>
     <string name="phone_info_label">פרטי טלפון</string>
-    <string name="sd_card_settings_label">‏אחסון USB</string>
+    <string name="sd_card_settings_label">‏כרטיס SD</string>
     <string name="proxy_settings_label">‏הגדרות שרת Proxy</string>
     <string name="cancel">ביטול</string>
     <string name="okay">אישור</string>
@@ -873,7 +873,7 @@
     <string name="storage_settings">אחסון</string>
     <string name="storage_usb_settings">‏אחסון ו-USB</string>
     <string name="storage_settings_title">הגדרות אחסון</string>
-    <string name="storage_settings_summary">‏בטל טעינת אחסון USB, הצג אחסון זמין</string>
+    <string name="storage_settings_summary">‏בטל טעינת כרטיס SD, הצג את שטח האחסון הזמין</string>
     <string name="status_number">מספר הטלפון שלי</string>
     <string name="status_min_number">MIN</string>
     <string name="status_msid_number">MSID</string>
@@ -894,7 +894,7 @@
     <string name="status_up_time">זמן פעולה</string>
     <string name="status_awake_time">משך פעילות</string>
     <string name="internal_memory">אחסון פנימי</string>
-    <string name="sd_memory">‏אחסון USB</string>
+    <string name="sd_memory">‏כרטיס SD</string>
     <string name="memory_available">זמין</string>
     <string name="memory_available_read_only">זמין (לקריאה בלבד)</string>
     <string name="memory_size">שטח כולל</string>
@@ -906,21 +906,21 @@
     <string name="memory_music_usage">אודיו (מוזיקה, רינגטונים, פודקאסטים ועוד)</string>
     <string name="memory_media_misc_usage">קבצים אחרים</string>
     <string name="memory_media_cache_usage">נתונים בקובץ שמור</string>
-    <string name="sd_eject">בטל טעינה של אחסון משותף</string>
-    <string name="sd_eject_summary">‏בטל טעינה של אמצעי אחסון פנימי מסוג USB</string>
-    <string name="sd_insert_summary">‏הכנס אחסון USB לצורך טעינה</string>
-    <string name="sd_mount">‏טען אחסון USB</string>
+    <string name="sd_eject">‏בטל טעינה של כרטיס SD</string>
+    <string name="sd_eject_summary">‏בטל את טעינת כרטיס SD כדי שתוכל להסיר אותו בבטחה</string>
+    <string name="sd_insert_summary">‏הכנס כרטיס SD לצורך טעינה</string>
+    <string name="sd_mount">‏טען כרטיס SD</string>
     <string name="sd_mount_summary" />
-    <string name="sd_format">‏מחק אחסון USB</string>
-    <string name="sd_format_summary">‏מוחק את כל הנתונים שבאמצעי האחסון הפנימי מסוג USB, כגון מוזיקה ותמונות.</string>
+    <string name="sd_format">‏מחק כרטיס SD</string>
+    <string name="sd_format_summary">‏מוחק את כל הנתונים שבכרטיס SD, כגון מוזיקה ותמונות.</string>
     <string name="memory_clear_cache_title">האם לנקות נתונים בקובץ שמור?</string>
     <string name="memory_clear_cache_message">פעולה זו תנקה נתונים בקובץ שמור, לכל האפליקציות.</string>
     <string name="mtp_ptp_mode_summary">‏פונקציית MTP או PTP פעילה</string>
-    <string name="dlg_confirm_unmount_title">‏לבטל את טעינת אחסון ה-USB?</string>
-    <string name="dlg_confirm_unmount_text">‏אם תבטל את טעינת אחסון ה-USB, אפליקציות מסוימות שבהן אתה משתמש יופסקו וייתכן שלא יהיו זמינות עד שתטען מחדש את אחסון ה-USB.</string>
+    <string name="dlg_confirm_unmount_title">‏לבטל את הטעינה של כרטיס ה-SD?</string>
+    <string name="dlg_confirm_unmount_text">‏אם תבטל את טעינת כרטיס ה-SD, הפעולה של אפליקציות מסוימות שאתה משתמש בהן תופסק וייתכן שהן לא יהיו זמינות עד שתטען מחדש את כרטיס ה-SD.</string>
     <string name="dlg_error_unmount_title" />
-    <string name="dlg_error_unmount_text">‏לא ניתן לבטל את הטעינה של אחסון ה-USB. נסה שוב מאוחר יותר.</string>
-    <string name="unmount_inform_text">‏הטעינה של אחסון USB תבוטל.</string>
+    <string name="dlg_error_unmount_text">‏לא ניתן לבטל את טעינת כרטיס ה-SD. נסה שוב מאוחר יותר.</string>
+    <string name="unmount_inform_text">‏הטעינה של כרטיס SD תבוטל.</string>
     <string name="sd_ejecting_title">מבטל טעינה</string>
     <string name="sd_ejecting_summary">ביטול טעינה מתבצע</string>
     <string name="storage_low_title">שטח האחסון הולך ואוזל</string>
@@ -1126,9 +1126,9 @@
 "<li>נתוני משתמש אחרים</li></string>
     <string name="master_clear_desc_erase_external_storage">"‏
 
-כדי למחוק פריטי מוזיקה, תמונות ונתוני משתמש אחרים, יש למחוק את "<b>אחסון ה-USB</b>.</string>
-    <string name="erase_external_storage">‏מחק אחסון USB</string>
-    <string name="erase_external_storage_description">‏מחק את כל הנתונים באחסון ה-USB הפנימי, כגון פריטי מוזיקה או תמונות</string>
+כדי למחוק פריטי מוזיקה, תמונות ונתוני משתמש אחרים, יש למחוק את "<b>כרטיס ה-SD</b>.</string>
+    <string name="erase_external_storage">‏מחק כרטיס SD</string>
+    <string name="erase_external_storage_description">‏מחק את כל הנתונים שבכרטיס ה-SD, כגון מוזיקה או תמונות</string>
     <string name="master_clear_button_text">איפוס טלפון</string>
     <string name="master_clear_final_desc">האם למחוק את כל המידע האישי שלך והאפליקציות שהורדת? לא ניתן לבטל את הפעולה!</string>
     <string name="master_clear_final_button_text">מחק הכל</string>
@@ -1302,7 +1302,7 @@
     <string name="application_size_label">אפליקציה</string>
     <string name="external_code_size_label">‏אפליקציה של אחסון USB</string>
     <string name="data_size_label">נתונים</string>
-    <string name="external_data_size_label">‏נתוני אחסון USB</string>
+    <string name="external_data_size_label">‏כרטיס SD</string>
     <string name="uninstall_text">הסר התקנה</string>
     <string name="uninstall_all_users_text">הסר התקנה עבור כל המשתמשים</string>
     <string name="install_text">התקן</string>
@@ -1342,13 +1342,13 @@
     <string name="filter_apps_disabled">מנוטרל</string>
     <string name="filter_apps_third_party">הורדו</string>
     <string name="filter_apps_running">פועלות</string>
-    <string name="filter_apps_onsdcard">‏אחסון USB</string>
+    <string name="filter_apps_onsdcard">‏בכרטיס SD</string>
     <string name="disabled">מושבת</string>
     <string name="not_installed">לא מותקן עבור משתמש זה</string>
     <string name="no_applications">אין אפליקציות.</string>
     <string name="internal_storage">אחסון פנימי</string>
     <string name="internal_storage_sentence">אחסון פנימי</string>
-    <string name="sd_card_storage">‏אחסון USB</string>
+    <string name="sd_card_storage">‏אחסון בכרטיס SD</string>
     <string name="recompute_size">מחשב גודל מחדש...</string>
     <string name="clear_data_dlg_title">למחוק את נתוני האפליקציות?</string>
     <string name="clear_data_dlg_text">כל נתוני האפליקציה יימחקו לצמיתות. נתונים אלה כוללים את כל הקבצים, ההגדרות, החשבונות, מסדי הנתונים וכדומה.</string>
@@ -1375,7 +1375,7 @@
     <string name="version_text">גרסה %1$s</string>
     <string name="move_app">העבר</string>
     <string name="move_app_to_internal">העבר לטלפון</string>
-    <string name="move_app_to_sdcard">‏העבר לאמצעי אחסון מסוג USB</string>
+    <string name="move_app_to_sdcard">‏העבר לכרטיס SD</string>
     <string name="moving">מעביר</string>
     <string name="insufficient_storage">אין מספיק שטח אחסון.</string>
     <string name="does_not_exist">האפליקציה לא קיימת.</string>
@@ -1555,12 +1555,12 @@
     <string name="dev_settings_warning_message">הגדרות אלה מיועדות לשימוש בפיתוח בלבד. הן עלולות לגרום למכשיר או לאפליקציות המותקנות בו לקרוס או לפעול באופן לא תקין.</string>
     <string name="verify_apps_over_usb_title">‏אמת אפליקציות באמצעות USB</string>
     <string name="verify_apps_over_usb_summary">‏בדוק אפליקציות שהותקנו באמצעות ADB/ADT לאיתור התנהגות מזיקה.</string>
-    <string name="enforce_read_external_title">‏הגנה על אחסון USB</string>
-    <string name="enforce_read_external_summary">‏על אפליקציות לבקש רשות כדי לקרוא אחסון USB</string>
-    <string name="enforce_read_external_confirm_title">‏האם להגן על אחסון USB?</string>
-    <string name="enforce_read_external_confirm_message">"‏כאשר אחסון USB מוגן, על אפליקציות לבקש רשות כדי לקרוא נתונים מאחסון חיצוני.
+    <string name="enforce_read_external_title">‏הגנה על כרטיס SD</string>
+    <string name="enforce_read_external_summary">‏על אפליקציות לבקש רשות כדי לקרוא כרטיס SD</string>
+    <string name="enforce_read_external_confirm_title">‏האם להגן על כרטיס ה-SD?</string>
+    <string name="enforce_read_external_confirm_message">"‏כאשר כרטיס ה-SD מוגן, על אפליקציות לבקש רשות כדי לקרוא נתונים מאחסון חיצוני.
 
-ייתכן שאפליקציות מסוימות לא יפעלו עד שיעודכנו על ידי המפתחים שלהם."</string>
+ייתכן שאפליקציות מסוימים לא יפעלו עד שיעודכנו על ידי המפתחים שלהם."</string>
     <string name="enable_terminal_title">מסוף מקומי</string>
     <string name="enable_terminal_summary">הפעל אפליקציית מסוף המציעה גישה מקומית למעטפת</string>
     <string name="gadget_picker_title">"בחר גאדג'ט"</string>
@@ -1923,8 +1923,8 @@
     <string name="gadget_brightness_state_off">כבוי</string>
     <string name="vpn_settings_title">VPN</string>
     <string name="credentials_title">אחסון אישורים</string>
-    <string name="credentials_install">התקן מאמצעי אחסון</string>
-    <string name="credentials_install_summary">התקן אישורים מאמצעי אחסון</string>
+    <string name="credentials_install">‏התקן מכרטיס SD</string>
+    <string name="credentials_install_summary">‏התקן אישורים מכרטיס SD</string>
     <string name="credentials_reset">נקה אישורים</string>
     <string name="credentials_reset_summary">הסר את כל האישורים</string>
     <string name="trusted_credentials">אישורים מהימנים</string>

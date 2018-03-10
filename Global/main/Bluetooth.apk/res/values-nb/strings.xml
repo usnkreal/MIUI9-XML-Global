@@ -74,7 +74,7 @@
     <string name="bt_toast_4">Sender fil til «%1$s»</string>
     <string name="bt_toast_5">Sender %1$s filer til «%2$s»</string>
     <string name="bt_toast_6">Stoppet sendingen av fil til «%1$s»</string>
-    <string name="bt_sm_2_1">Det er ikke nok plass på USB-lagringen til å lagre filen fra «%1$s»</string>
+    <string name="bt_sm_2_1">Det er ikke nok plass på SD-kortet til å lagre filen fra «%1$s»</string>
     <string name="bt_sm_2_2">Nødvendig plass: %1$s</string>
     <string name="ErrorTooManyRequests">For mange forespørsler behandles for øyeblikket. Prøv på nytt senere.</string>
     <string name="status_pending">Filoverføringen har ikke startet ennå.</string>
@@ -84,7 +84,7 @@
     <string name="status_forbidden">Overføring forbudt av målenheten.</string>
     <string name="status_canceled">Overføringen avbrutt av bruker.</string>
     <string name="status_file_error">Problem med lagring.</string>
-    <string name="status_no_sd_card">Ingen USB-lagring.</string>
+    <string name="status_no_sd_card">Mangler minnekort. Sett inn et minnekort for å lagre overførte filer.</string>
     <string name="status_connection_error">Tilkobling mislyktes.</string>
     <string name="status_protocol_error">Forespørselen kan ikke behandles på riktig måte.</string>
     <string name="status_unknown_error">Ukjent feil.</string>

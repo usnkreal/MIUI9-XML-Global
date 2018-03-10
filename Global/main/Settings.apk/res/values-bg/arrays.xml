@@ -1420,16 +1420,6 @@
         <item>16ГБ</item>
         <item>Четириядрен Max 2.5GHz</item>
     </string-array>
-    <string-array name="miracast_policies">
-        <item>Кратко забавяне</item>
-        <item>Стандартно</item>
-        <item>По-добро качество</item>
-    </string-array>
-    <string-array name="standard_configuration_version_mi3">
-        <item>3.00ГБ</item>
-        <item>16ГБ</item>
-        <item>Четириядрен Max 2.5GHz</item>
-    </string-array>
     <string-array name="install_non_market_app_entries">
         <item>Включи (препоръчително)</item>
         <item>Не използвайте(опасно за системата)</item>
@@ -1462,28 +1452,12 @@
         <item>Версия на Android</item>
     </string-array>
     <string-array name="standard_configuration_version_description_secondary">
-        <item>Snapdragon 801</item>
-        <item>3080mAh(typ)</item>
+        <item>Snapdragon 430</item>
+        <item>4000mAh(typ)</item>
         <item>13MP</item>
         <item>5 инча</item>
-        <item>1920 × 1080</item>
-        <item>6.0.1</item>
-    </string-array>
-    <string-array name="standard_configuration_version_description_primary_mi3">
-        <item>Процесор</item>
-        <item>Капацитет на батерия</item>
-        <item>Задна камера</item>
-        <item>Размер на екрана</item>
-        <item>Резолюция</item>
-        <item>Версия на Android</item>
-    </string-array>
-    <string-array name="standard_configuration_version_description_secondary_mi3">
-        <item>Snapdragon 820</item>
-        <item>3050mAh(typ)</item>
-        <item>13MP</item>
-        <item>5 инча</item>
-        <item>1920 × 1080</item>
-        <item>6.0.1</item>
+        <item>1280 x 720</item>
+        <item>6.0</item>
     </string-array>
     <string-array name="pink_panel_led_color_entries">
         <item>Светловиолетово</item>

@@ -8,6 +8,7 @@
     <string-array name="date_of_traffic">
         <item>"Hier "</item>
         <item>"Aujourd'hui "</item>
+        <item>"Le mois dernier "</item>
         <item>"Ce mois "</item>
     </string-array>
     <string-array name="date_of_traffic_prefix_cmcc">
@@ -18,15 +19,18 @@
     <string-array name="date_of_traffic_prefix">
         <item>"Hier : "</item>
         <item>"Aujourd'hui : "</item>
+        <item>"Le mois dernier : "</item>
         <item>"Ce mois : "</item>
     </string-array>
     <string-array name="date_of_app_all">
         <item>Hier (Données)</item>
         <item>"Aujourd'hui (Données)"</item>
-        <item>Ce mois (Données)</item>
-        <item>Hier (Wi-Fi)</item>
-        <item>"Aujourd'hui Wi-Fi"</item>
-        <item>Ce mois (Wi-Fi)</item>
+        <item>Le mois dernier (données)</item>
+        <item>Ce mois (données)</item>
+        <item>Hier via Wi-Fi</item>
+        <item>"Aujourd'hui via Wi-Fi"</item>
+        <item>Le mois dernier via Wi-Fi</item>
+        <item>Ce mois via Wi-Fi</item>
     </string-array>
     <string-array name="traffic_type">
         <item>"Utilisation des données mobile "</item>

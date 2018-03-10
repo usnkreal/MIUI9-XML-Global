@@ -305,15 +305,16 @@
     <string name="micloud_detail_pause">Синхр на пауза</string>
     <string name="micloud_detail_need_charge_or_sleep">Свържете зарядното устр. и изключете екрана за да синхронизирате</string>
     <string name="micloud_detail_battery_low">Слаба батерия</string>
-    <string name="micloud_privacy_cloud_off">Синхр. изкл</string>
-    <string name="micloud_privacy_licence_agreed">Съгласен съм с политиката за поверителност на Mi Облак.</string>
-    <string name="micloud_privacy_licence_privacy_policy">политика за поверителност</string>
-    <string name="micloud_privacy_explanation">Активиране на Mi Облак след включване на авторизацията</string>
-    <string name="micloud_privacy_cloud_sync">Активиран Mi Облак</string>
-    <string name="micloud_privacy_warning_title">Съвет</string>
-    <string name="micloud_privacy_warning_content">Не може да се активира Mi Облак. Опитайте по-късно.</string>
+    <string name="micloud_privacy_cloud_off">Синхр. е изключена</string>
+    <string name="micloud_privacy_licence_agreed">Съгласен съм с Политиката за поверителност на Mi Облак.</string>
+    <string name="micloud_privacy_licence_privacy_policy">Политика на поверителност</string>
+    <string name="micloud_privacy_explanation">Дайте разрешението си, за да включите услугите на Mi Облак</string>
+    <string name="micloud_privacy_cloud_sync">Включете услугите на Mi Облак</string>
+    <string name="micloud_privacy_warning_title">Внимание</string>
+    <string name="micloud_privacy_warning_content">Не може да се включат услугите на Mi Облак. Изчакайте малко и опитайте отново.</string>
     <string name="micloud_privacy_warning_button">Назад</string>
-    <string name="micloud_privacy_more">още</string>
+    <string name="micloud_privacy_progress_content">Получава се разрешение…</string>
+    <string name="micloud_privacy_more">Още</string>
     <string name="micloud_check_sim_title">"\"Изглежда сте сменили SIM картите. Влезте с
 вашия Mi профил за повторно активиране на Mi Cloud.\""</string>
     <string name="micloud_check_sim_notify_title">Повт. активиране на Mi Cloud</string>
@@ -472,7 +473,7 @@
     <string name="micloud_notif_content_multi_user_error">You login the same account with original space.</string>
     <string name="micloud_notif_title_dirty_data">Имате несинхронизирани елементи</string>
     <string name="micloud_notif_content_dirty_data">Детайли</string>
-    <string name="micloud_notif_title_privacy_reopen_failed">Не може да се стартира облачна услуга</string>
+    <string name="micloud_notif_title_privacy_reopen_failed">Не мога да включа услугите на Mi Облак</string>
     <string name="micloud_notif_content_privacy_reopen_failed">Покажи подробности</string>
     <string name="micloud_find_device_guide_title">Впишете се в &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font> за намиране, заключване или изтриване на всичко във вашето устройство. Това може да помогне в случай, че го загубите.&lt;br />Ако загубите устройството си, вашата връзка с Mi Облак ще използва услугите за сигурност на приложенията, които употребявате най-често (напр., Alipay, WeChat, QQ) за да защити вашия профил в &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font>.</string>
     <string name="micloud_find_device_guide_content">Изходящ SMS може да бъде изпратен за активация на тази услуга. Вашият оператор ще ви таксува за това съобщение. Когато смените вашата SIM карта, съобщението ще бъде изпратено автоматично отново за активация.</string>
@@ -512,8 +513,8 @@
     <string name="micloud_find_device_close_alert_content">Ако изключите тази услуга, няма да можете да откриете вашето устройство, в случай, че го загубите.</string>
     <string name="micloud_find_device_close_alert_positive">Остави вкл</string>
     <string name="micloud_find_device_close_alert_negtive">Изключи въпреки това</string>
-    <string name="find_device_gdpr_prompt">С включването на услугата Открий устройството, Вие се съгласявате с \"Политиката за поверителност\". Ако искате да отмените вашата оторизация, моля изключете тази услуга.</string>
-    <string name="find_device_gdpr_prompt_policy_doc_name">\"Правила за поверителност\"</string>
+    <string name="find_device_gdpr_prompt">С включването на услугата Открий устройството, Вие се съгласявате с \"Политиката за поверителност\". Ако искате да отмените вашето разрешение, моля изключете тази услуга.</string>
+    <string name="find_device_gdpr_prompt_policy_doc_name">Политика на поверителност</string>
     <string name="activate_finddevice">Свържете се с мрежата, за да активирате устройството</string>
     <string name="account_related">Устройството е свързано към съществуващ Mi профил(%s). Свържете се с мрежата, за да потвърдите устройството.</string>
     <string name="connect_network">Connect to WLAN or insert a SIM card</string>

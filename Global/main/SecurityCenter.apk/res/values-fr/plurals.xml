@@ -73,8 +73,8 @@ Si vous activez les données mobiles, votre opérateur pourrait vous facturer de
         <item quantity="one">%d application trouvée</item>
     </plurals>
     <plurals name="network_restrict_count">
-        <item quantity="other">"L'accès réseau est restreint pour &amp;lt;font color='#ff0000'>%d&amp;lt;/font> applications"</item>
-        <item quantity="one">"L'accès réseau est restreint pour &amp;lt;font color='#ff0000'>%d&amp;lt;/font> application"</item>
+        <item quantity="other">"L'accès réseau est restreint pour &lt;font color='#ff0000'>%d&lt;/font> applications"</item>
+        <item quantity="one">"L'accès réseau est restreint pour &lt;font color='#ff0000'>%d&lt;/font> application"</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
         <item quantity="other">%d applications ne fonctionnent pas normalement et déchargent la batterie</item>

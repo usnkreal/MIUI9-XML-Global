@@ -211,8 +211,8 @@ Sok szerver nem támogatja a szóközöket tartalmazó  jelszavakat."</string>
     <string name="auto_advance_help_title">Üzenet törlése után mutassa…</string>
     <string name="auto_advance_label">Üzenetváltás törlése</string>
     <string name="auto_advance_summary">Válassza ki, melyik üzenethez lépjen egy üzenet törlése után</string>
-    <string name="auto_login_fail">"Couldn't sign in automatically"</string>
-    <string name="auto_login_fail_to_retry">"Couldn't sign in automatically, try again."</string>
+    <string name="auto_login_fail">Automatikus bejelentkezés sikertelen</string>
+    <string name="auto_login_fail_to_retry">Automatikus bejelentkezés sikertelen, próbálja újra.</string>
     <string name="auto_remind_bind">Hozzáadás</string>
     <string name="auto_remind_discribe_text">Kapcsolja be az automatikus emlékeztetőket</string>
     <string name="auto_remind_text">Automatikus emlékeztetők</string>
@@ -777,9 +777,9 @@ hogy kaphasson értesítéseket a kifizetésekről és utazásokról"</string>
     <string name="push_wps_confirm_message">Használjon WPS Office-t a melléklet letöltéséhez.</string>
     <string name="push_wps_confirm_title">Próbálja ki a WPS Office-t</string>
     <string name="push_wps_no_response_app">Nem található alkalmazás a művelet kezeléséhez</string>
-    <string name="qq_auto_login_failed_cpy_pass_success">Copied successfully. Go back to the sign-in page and paste the code into the password form.</string>
-    <string name="qq_auto_login_failed_dialog_message">Copy verification code, tap \"Enter username and password to sign in\" on the sign-in page, and paste the code into the password form.</string>
-    <string name="qq_auto_login_failed_dialog_positive_label">Copy code</string>
+    <string name="qq_auto_login_failed_cpy_pass_success">A másolás sikeres. Menjen vissza a bejelentkezési oldalra, és illessze be a kódot a jelszó mezőbe.</string>
+    <string name="qq_auto_login_failed_dialog_message">Másolja ki az ellenőrző kódot, érintse meg a bejelentkezési oldal \"Belépés a felhasználónévhez és a jelszóhoz\" lehetőséget, majd illessze be a kódot a jelszó mezőbe.</string>
+    <string name="qq_auto_login_failed_dialog_positive_label">Kód másolása</string>
     <string name="qq_bar_open_imap">Segítség</string>
     <string name="qq_bar_send_message">SMS küldése</string>
     <string name="qq_login_basecode">Webes QQ Mail bejelentkezés. Írjon be önálló jelszót.</string>
@@ -860,7 +860,7 @@ hogy kaphasson értesítéseket a kifizetésekről és utazásokról"</string>
     <string name="report_spam">Spam jelentés</string>
     <string name="request_entity_large">Fájl túl nagy</string>
     <string name="respond_inline">"   Beágyazott válasz"</string>
-    <string name="retry_login">Sign in again</string>
+    <string name="retry_login">Jelentkezzen be újra</string>
     <string name="save_action">Mentés</string>
     <string name="save_attachment">Mentés</string>
     <string name="save_draft_failed">Mentés piszkozatként sikertelen</string>

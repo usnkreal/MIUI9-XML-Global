@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL">
+        <item>Bármely</item>
+        <item>$</item>
+        <item>$$</item>
+        <item>$$$</item>
+        <item>$$$$</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_DESCRIPTIONS">
+        <item>Bármelyik árszint</item>
+        <item>Olcsó</item>
+        <item>Mérsékelten drága</item>
+        <item>Drága</item>
+        <item>Nagyon drága</item>
+    </string-array>
+    <array name="RESTRICTION_ALLOWED_PRICE_LEVEL_SHORT" />
+    <string-array name="RESTRICTION_ALLOWED_STARS">
+        <item>Bármelyik</item>
+        <item>2.0</item>
+        <item>3.0</item>
+        <item>4.0</item>
+    </string-array>
+    <string-array name="RESTRICTION_ALLOWED_STARS_DESCRIPTIONS">
+        <item>Bármennyi csillag</item>
+        <item>Két vagy több csillag</item>
+        <item>Három vagy több csillag</item>
+        <item>Négy vagy több csillag</item>
+    </string-array>
+    <array name="RESTRICTION_ALLOWED_STARS_SHORT" />
+    <string-array name="RESTRICTION_HOTEL_CLASSES">
+        <item>Bármely</item>
+        <item>3 csillag</item>
+        <item>4 csillag</item>
+        <item>5 csillag</item>
+    </string-array>
+    <string-array name="RESTRICTION_HOTEL_CLASSES_DESCRIPTIONS">
+        <item>Bármely</item>
+        <item>Három csillag</item>
+        <item>Négy csillag</item>
+        <item>Öt csillag</item>
+    </string-array>
+    <string-array name="REVIEW_RATING_STAR_TEXT_DESCRIPTIONS">
+        <item>Nagyon nem tetszett</item>
+        <item>Nem tetszett</item>
+        <item>Rendben volt</item>
+        <item>Tetszett</item>
+        <item>Nagyon tetszett</item>
+    </string-array>
+    <string-array name="SHOW_SCALEBAR_ENTRIES">
+        <item>Közelítéskor és távolításkor</item>
+        <item>Mindig</item>
+    </string-array>
+    <string-array name="WRITE_REVIEW_HINTS_FOR_RATING_STARS">
+        <item>Mondja el másoknak, miért adott a helynek „Nagyon nem tetszett” minősítést.</item>
+        <item>Mondja el másoknak, miért adott a helynek „Nem tetszett” minősítést.</item>
+        <item>Mondja el másoknak, miért adott a helynek „Megfelel” minősítést.</item>
+        <item>Mondja el másoknak, miért adott a helynek „Tetszett” minősítést.</item>
+        <item>Mondja el másoknak, miért adott a helynek „Nagyon tetszett” minősítést.</item>
+    </string-array>
+</resources>

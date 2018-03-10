@@ -250,6 +250,7 @@ Delta frissítés mérete: %2$s"</string>
     <string name="err_filesystem_mount">Nem lehet elérni a router tárhelyét</string>
     <string name="err_router_disconnected">Ellenőrizze a router csatlakozást és próbálja újra.</string>
     <string name="err_router_files_delete">Nem lehet törölni a routeren lévő mentési fájlokat</string>
+    <string name="err_not_allow">Nem támogatott</string>
     <string name="backup_is_running">Készülék biztonsági mentése</string>
     <string name="restore_is_running">Visszaállítás biztonsági mentésből</string>
     <string name="notif_backup_title">Adatok mentése</string>

@@ -211,6 +211,8 @@
     <string name="contact_detail_calllog_call_note_tips">Note</string>
     <string name="contact_detail_calllog_call_record_tips">Apel înregistrat</string>
     <string name="contact_detail_calllog_empty">Nu există istoric</string>
+    <string name="contact_detail_entry_pay">Pay</string>
+    <string name="contact_detail_entry_pay_dialog_title">Select phone number</string>
     <string name="contact_detail_menu_delete_miprofile">Șterge card</string>
     <string name="contact_detail_miprofile_accept">Schimbă carduri de contact</string>
     <string name="contact_detail_miprofile_accept_fail_toast">Nu s-a putut schimba carduri de contact</string>

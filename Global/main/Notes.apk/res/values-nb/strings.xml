@@ -75,7 +75,7 @@
     <string name="db_downgrade_clear_date_reminder">Det å skifte til en annen versjon av MIUI krever fjerning av appdataene for Notater. Før du gjør det, må du sørge for at du har sikkerhetskopiert notatene dine til Mi Cloud.</string>
     <string name="db_downgrade_clear_button">Fjern appdata</string>
     <string name="cloud_service_state_open_reminder">Slå på synkronisering med Mi Cloud for å synkronisere notater.</string>
-    <string name="toast_cancel_to_insert_image">"Couldn't add image."</string>
+    <string name="toast_cancel_to_insert_image">Kunne ikke legge til bilde.</string>
     <string name="app_name">Notater</string>
     <string name="app_widget">Notater</string>
     <string name="widget_havenot_content">Trykk for å opprette et notat. Hold widget for å endre størrelse.</string>
@@ -137,8 +137,8 @@
     <string name="toast_message_add_image_fail">Kunne ikke legge til bilde</string>
     <string name="toast_reach_text_limit_truncate">Dette notatet er for lang. Noe tekst er kuttet bakfra.</string>
     <string name="toast_reach_text_limit_attachment">Kan ikke legge til nye vedlegg fordi notatet er for langt</string>
-    <string name="snippet_image_stub">[Image]</string>
-    <string name="snippet_image_template">[Image %1$s]</string>
+    <string name="snippet_image_stub">[Bilde]</string>
+    <string name="snippet_image_template">[Bilde %1$s]</string>
     <string name="select_account_prompt">Synkroniser notater</string>
     <string name="enable_sync_desc">Synkroniser notatene dine med Mi-kontoen din (%1$s)?</string>
     <string name="add_account_desc">Synkronisere notatene med Mi-kontoen din?</string>
@@ -200,4 +200,5 @@
     <string name="refuse_to_share_as_pic_because_of_content">Dette notatet er for stort til å dele.</string>
     <string name="refuse_to_open_as_pic_because_of_loading">Vent til notatet er lastet og prøv igjen.</string>
     <string name="toast_reach_text_limit_checkbox">Kan ikke legge til avkryssingsboks siden notatet er for langt</string>
+    <string name="dialog_privacy_revoke_tips">"After you revoke authorization, the app will stop collecting data, and all the related data will be deleted from the servers. This might make the app virtually unusable. Revoke authorization anyway?To ensure your account's security, sign in to i.mi.com before revoking authorization for Mi Cloud services."</string>
 </resources>

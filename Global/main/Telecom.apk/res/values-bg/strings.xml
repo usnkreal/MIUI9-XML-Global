@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="telecommAppLabel">Управление на телефонните обаждания</string>
-    <string name="userCallActivityLabel">Телефон</string>
+    <string name="telecommAppLabel">Управление на обажданията</string>
+    <string name="userCallActivityLabel">Настройки на обаждане</string>
     <string name="unknown">Непознат</string>
     <string name="notification_missedCallTitle">Пропуснато обаждане</string>
     <string name="notification_missedCallsTitle">Пропуснати обаждания</string>

@@ -4,10 +4,12 @@
         <item quantity="other">%d kuponów</item>
         <item quantity="one">1 kupon</item>
         <item quantity="few">%d kupony</item>
+        <item quantity="many">%d kuponów</item>
     </plurals>
     <plurals name="review_count">
         <item quantity="other">Zobacz %d komentarzy</item>
         <item quantity="one">Zobacz 1 komentarz</item>
         <item quantity="few">Zobacz %d komentarze</item>
+        <item quantity="many">Zobacz %d komentarzy</item>
     </plurals>
 </resources>

@@ -560,4 +560,18 @@
     <string name="emergency_action_launch_hint">גע שוב כדי לפתוח</string>
     <string name="message_decode_error">אירעה שגיאה בעת פענוח ההודעה.</string>
     <string name="callFailed_cdma_activation">‏כרטיס SIM הפעיל את השירות שלך ועדכן את יכולות הנדידה של הטלפון.</string>
+    <string name="preferred_network_mode_td_scdma_only_choice">TD-SCDMA בלבד</string>
+    <string name="preferred_network_mode_lte_wcdma_choice">LTE / WCDMA</string>
+    <string name="preferred_network_mode_lte_choice">LTE</string>
+    <string name="preferred_network_mode_global_choice">גלובלי</string>
+    <string name="preferred_network_mode_gsm_wcdma_lte_choice">GSM/WCDMA/LTE</string>
+    <string name="preferred_network_mode_cdma_lte_evdo_choice">CDMA + LTE/EvDo</string>
+    <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_choice">CDMA/EvDo/GSM/WCDMA</string>
+    <string name="preferred_network_mode_evdo_only_choice">EvDo בלבד</string>
+    <string name="preferred_network_mode_cdma_wo_evdo_choice">CDMA ללא EvDo</string>
+    <string name="preferred_network_mode_cdma_evdo_auto_choice">‏CDMA/EvDo אוטומטי</string>
+    <string name="preferred_network_mode_gsm_wcdma_auto_choice">‏GSM/‏WCDMA אוטומטי</string>
+    <string name="preferred_network_mode_wcdma_only_choice">WCDMA בלבד</string>
+    <string name="preferred_network_mode_gsm_only_choice">GSM בלבד</string>
+    <string name="preferred_network_mode_gsm_wcdma_preferred_choice">‏GSM/WCDMA מועדף</string>
 </resources>

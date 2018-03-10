@@ -200,4 +200,5 @@
     <string name="refuse_to_share_as_pic_because_of_content">Ez a jegyzet túl nagy a megosztáshoz.</string>
     <string name="refuse_to_open_as_pic_because_of_loading">Várjon, míg a megjegyzés betöltődik, majd próbálja újra.</string>
     <string name="toast_reach_text_limit_checkbox">A jegyzet túl nagy jelölőnégyzet hozzáadásához</string>
+    <string name="dialog_privacy_revoke_tips">Miután visszavonja az engedélyt, az alkalmazás nem gyűjt többé adatokat, és az összes kapcsolódó adatot törli a kiszolgálókról. Ez gyakorlatilag használhatatlanná teheti az alkalmazást. Mégis visszavonja az engedélyt? A fiókbiztonság érdekében jelentkezzen be az i.mi.com weboldalra, mielőtt visszavonja a Mi Cloud szolgáltatás engedélyét.</string>
 </resources>

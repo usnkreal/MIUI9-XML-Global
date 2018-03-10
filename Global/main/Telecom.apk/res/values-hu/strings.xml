@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="telecommAppLabel">Híváskezelés</string>
+    <string name="telecommAppLabel">Hívások kezelése</string>
     <string name="userCallActivityLabel">Telefon</string>
     <string name="unknown">Ismeretlen</string>
     <string name="notification_missedCallTitle">Nem fogadott hívás</string>

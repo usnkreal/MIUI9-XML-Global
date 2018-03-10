@@ -31,9 +31,9 @@
         <item quantity="few">%1$s persoane |</item>
     </plurals>
     <plurals name="total_voted_num_text">
-        <item quantity="other">"&amp;lt;font color='#20a7ff'>%1$s&amp;lt;/font> persoane au votat"</item>
-        <item quantity="one">"&amp;lt;font color='#20a7ff'>%1$s&amp;lt;/font> persoană a votat"</item>
-        <item quantity="few">"&amp;lt;font color='#20a7ff'>%1$s&amp;lt;/font> persoane au votat"</item>
+        <item quantity="other">"&lt;font color='#20a7ff'>%1$s&lt;/font> persoane au votat"</item>
+        <item quantity="one">"&lt;font color='#20a7ff'>%1$s&lt;/font> persoană a votat"</item>
+        <item quantity="few">"&lt;font color='#20a7ff'>%1$s&lt;/font> persoane au votat"</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Senin</item>

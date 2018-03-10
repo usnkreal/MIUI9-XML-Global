@@ -163,9 +163,9 @@
     <string name="cta_confirm">אישור</string>
     <string name="submit_dialog_title">שלח דו\"ח</string>
     <string name="submit_dialog_content">המשוב שלך, יחד עם קבצים מצורפים ויומנים, ישלח לשרתי MIUI. המשוב עשוי להכיל מידע אישי ואת נתוני המיקום שלך.</string>
-    <string name="submit_dialog_content_global">המשוב שלך, יחד עם הקבצים המצורפים (במידה ויש) והיומנים (באפשרותך לבטל את סימון התיבות עבור הפריטים אשר אינך מעוניין להעלות) ישלחו אל שרתי MIUI ואל חלקה מוגבלת עבור מפתחים של פורום MIUI לצורך ניתוח והתקשרות נוספת. היומנים עשויים להכיל פרטים אישיים ואת נתוני המיקום שלך.</string>
-    <string name="submit_dialog_cancel">ביטול</string>
-    <string name="submit_dialog_confirm">שליחה</string>
+    <string name="submit_dialog_content_global">המשוב שלך, יחד עם הקבצים המצורפים (במידה ויש) והיומנים (באפשרותך לבטל את סימון התיבות עבור הפריטים אשר אינך מעוניין להעלות) ישלחו אל שרתי MIUI ואל חלקה מוגבלת עבור מפתחים של פורום MIUI. גם המידע אודות השרשורים והפעילות שלך בפורום יאסף לצורך ניתוח והתקשרות נוספת. היומנים עשויים להכיל פרטים אישיים ואת נתוני המיקום שלך.</string>
+    <string name="submit_dialog_cancel">לא מסכים</string>
+    <string name="submit_dialog_confirm">מסכים</string>
     <string name="mobile_data_note_dialog_title">אזהרת שימוש בנתונים</string>
     <string name="mobile_data_note_dialog_content">שימוש בנתונים סלולריים להעלאת יומנים עשוי לגרום לחיובים נוספים.</string>
     <string name="mobile_data_note_dialog_content_with_file_size">העלאת יומנים באמצעות חיבור הנתונים הסלולרי תזדקק ל-%sMB של נתונים.</string>

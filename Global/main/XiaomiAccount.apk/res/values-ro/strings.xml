@@ -3,7 +3,7 @@
     <string name="passport_account_label">Contul Mi</string>
     <string name="passport_notification_title">Eroare de conectare pentru %1$s</string>
     <string name="passport_login_prompt">Un cont Mi. Toate serviciile Mi.</string>
-    <string name="passport_login_using_other_ways">Other ways to sign in</string>
+    <string name="passport_login_using_other_ways">Alte modalități de a vă conecta</string>
     <string name="passport_login_title">Conectează-te în contul MI</string>
     <string name="passport_login">Conectați-vă</string>
     <string name="passport_relogin">Conectează-te din nou</string>
@@ -48,7 +48,7 @@
     <string name="passport_reset_password_title">Resetați parola</string>
     <string name="passport_auto_generate_pwd">Generează parolă securizată</string>
     <string name="passport_pwd_generate_failure">Nu s-a putut genera parola</string>
-    <string name="passport_use_generated_pwd_title">Remember your password!</string>
+    <string name="passport_use_generated_pwd_title">Memorează parola!</string>
     <string name="passport_use_generated_pwd_message">Asigurați-vă că vă amintiți parola. Puteți să utilizați parola pentru a vă conecta la alte servicii Mi.</string>
     <string name="passport_register_restricted_title">Nu se poate folosi acest număr de telefon</string>
     <string name="passport_register_restricted">Prea multe conturi au fost asociate cu acest număr, încercați unul diferit</string>
@@ -94,7 +94,7 @@ Pentru a activa contul, urmati link-ul
     <string name="passport_email">Adresa de email</string>
     <string name="passport_vcode_prompt_long">Introduceţi codul de verificare</string>
     <string name="passport_input_phone_hint">Introduceți numărul de telefon</string>
-    <string name="passport_input_voice_captcha_hint">Enter voice verification code</string>
+    <string name="passport_input_voice_captcha_hint">Introduceți codul de verificare vocală</string>
     <string name="passport_error_empty_username">Introduceți ID-ul contului dvs.</string>
     <string name="passport_error_invalid_phone_num">Numărul de telefon nu este valid</string>
     <string name="passport_error_empty_phone_num">Introduceți numărul de telefon</string>
@@ -202,6 +202,7 @@ Pentru a activa contul, urmati link-ul
     <string name="passport_get_innetdate_msg">&lt;font color=Red> Arată că&lt;/font> numărul %s a fost reciclat de operatorul dvs. Verificați când numărul a fost online?</string>
     <string name="passport_get_innetdate_agree">Verifică</string>
     <string name="passport_get_innetdate_disagree">Nu</string>
+    <string name="passport_extra_gdpr_license">Creating your Mi Account means that you agree that Xiaomi will collect, process, and use your personal data, including verification data (e.g., verification codes), Second space data (e.g., information about the ways you use Second space, IDs used in First and Second spaces), and other data specified in our Privacy Policy. Refer to our Privacy Policy to learn how we process and use personal data.</string>
     <string name="search_app_name">Contul Mi</string>
     <string name="search_mi_account">Contul Mi</string>
     <string name="search_mi_account_key_words">Mi Cloud,Setări Cont,Informații Mi Plată,Deconectare</string>
@@ -224,7 +225,7 @@ Pentru a activa contul, urmati link-ul
     <string name="no_response_retry">Nu există rezultate, încercați din nou.</string>
     <string name="removing_account">Deconectarea…</string>
     <string name="delete_bank_card_title">Atenţie</string>
-    <string name="delete_bank_card_message">Mi Pay bank cards and NFC cards will be deleted after you sign out.</string>
+    <string name="delete_bank_card_message">Cardurile bancare Mi Pay și cardurile NFC vor fi șterse după ce vă deconectați.</string>
     <string name="bind_settings">Conturi</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="bind_sina_weibo">Conectează cont Sina Weibo</string>
@@ -362,7 +363,7 @@ Pentru a activa contul, urmati link-ul
     <string name="device_delete_success_title">Deconectat</string>
     <string name="device_delete_success_message">Dacă nu v-ați conectat pe acest dispozitiv, modificați imediat parola.</string>
     <string name="change_password">Schimbă parola</string>
-    <string name="completed">All set!</string>
+    <string name="completed">Toate setate!</string>
     <string name="no_network_title">Nu se poate conecta la reţea.</string>
     <string name="no_network_btn">Reîncarcă</string>
     <string name="get_device_list_failed">Nu se pot obține dispozitivele</string>
@@ -416,9 +417,9 @@ Pentru a activa contul, urmati link-ul
     <string name="find_device_activate_account">Activează contul</string>
     <string name="login_check_find_device">Obținerea de informații de securitate al dispozitivului…</string>
     <string name="unlock_help_notice">"Help:
-· If you forgot your password, go to id.mi.com to reset it.
-· If you can't unlock the device, go to i.mi.com to turn off Find device.
-· Your unlock number: %s"</string>
+1. If you forgot your password, go to id.mi.com to reset it.
+2. If you can't unlock the device, go to i.mi.com to turn off Find device.
+3. Your unlock number: %s"</string>
     <string name="login_find_device_bind">Acest dispozitiv este asociat cu un cont Mi ID existent (%s).</string>
     <string name="find_device_locked_account_phone" formatted="false">%s, numărul de telefon asociat: %s</string>
     <string name="find_device_locked_account_email" formatted="false">%s adresă de e-mail asociată: %s</string>

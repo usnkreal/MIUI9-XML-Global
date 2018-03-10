@@ -4,95 +4,114 @@
         <item quantity="other">%d reklám blokovaných</item>
         <item quantity="one">%d reklama blokovaná</item>
         <item quantity="few">%d reklamy blokované</item>
+        <item quantity="many">%d ads blocked</item>
     </plurals>
     <plurals name="adblock_rules_number_text">
         <item quantity="other">Blokovaných: %d</item>
         <item quantity="one">Blokovaných: %d</item>
         <item quantity="few">Blokovaných: %d</item>
+        <item quantity="many">%d items blocked</item>
     </plurals>
     <plurals name="dialog_confirm_delete_downloads_message">
         <item quantity="other">Odstrániť %d úloh?</item>
         <item quantity="one">Odstrániť %d úlohu?</item>
         <item quantity="few">Odstrániť %d úlohy?</item>
+        <item quantity="many">Delete %d tasks?</item>
     </plurals>
     <plurals name="find_on_page_matches">
         <item quantity="other">Zhody: %d</item>
         <item quantity="one">Zhody: %d</item>
         <item quantity="few">Zhody: %d</item>
+        <item quantity="many">%d matches</item>
     </plurals>
     <plurals name="last_num_days">
         <item quantity="other">Posledných %d dní</item>
         <item quantity="one">Posledný %d deň</item>
         <item quantity="few">Posledné %d dni</item>
+        <item quantity="many">Last %d days</item>
     </plurals>
     <plurals name="matches_found">
         <item quantity="other">%1$d nebo %2$d</item>
         <item quantity="one">1 zápas</item>
         <item quantity="few">%1$d nebo %2$d</item>
+        <item quantity="many">%1$d of %2$d</item>
     </plurals>
     <plurals name="nav_screen_incognito_time">
         <item quantity="other">Po %d sekundách sa automaticky vytvorí stránka</item>
         <item quantity="one">Po %d sekunde sa automaticky vytvorí stránka</item>
         <item quantity="few">Po %d sekundách sa automaticky vytvorí stránka</item>
+        <item quantity="many">After %d seconds will automatically create a new page</item>
     </plurals>
     <plurals name="pref_adblock_counts">
         <item quantity="other">%d zablokovaných</item>
         <item quantity="one">%d zablokovaná</item>
         <item quantity="few">%d zablokované</item>
+        <item quantity="many">%d blocked</item>
     </plurals>
     <plurals name="suggest_access_item_album_songs">
         <item quantity="other">%d piesní</item>
         <item quantity="one">%d pieseň</item>
         <item quantity="few">%d piesne</item>
+        <item quantity="many">%d songs</item>
     </plurals>
     <plurals name="suggest_access_item_singer_albums">
         <item quantity="other">%d albumov</item>
         <item quantity="one">%d album</item>
         <item quantity="few">%d albumy</item>
+        <item quantity="many">%d albums</item>
     </plurals>
     <plurals name="suggest_access_item_singer_pop">
         <item quantity="other">%d populárnych piesní</item>
         <item quantity="one">%d populárna pieseň</item>
         <item quantity="few">%d populárne piesne</item>
+        <item quantity="many">%d popular songs</item>
     </plurals>
     <plurals name="v5_edit_mode_title">
         <item quantity="other">Zhody: %1$d</item>
         <item quantity="one">Vybrané: %1$d</item>
         <item quantity="few">Vybrané: %1$d</item>
+        <item quantity="many">%1$d selected</item>
     </plurals>
     <plurals name="video_download_clear_info">
         <item quantity="other">%1$d videí bolo úspešne odstránených.</item>
         <item quantity="one">%1$d video bolo úspešne odstránené.</item>
         <item quantity="few">%1$d videá boli úspešne odstránené.</item>
+        <item quantity="many">Removed %1$d videos successfully.</item>
     </plurals>
     <plurals name="video_download_clear_prompt">
         <item quantity="other">Vymazať %1$d videí?</item>
         <item quantity="one">Vymazať %1$d video?</item>
         <item quantity="few">Vymazať %1$d videá?</item>
+        <item quantity="many">Clear %1$d videos?</item>
     </plurals>
     <plurals name="video_history_clear_info">
         <item quantity="other">%1$d položiek bolo odstránených z histórie.</item>
         <item quantity="one">%1$d položka bola odstránená z histórie.</item>
         <item quantity="few">%1$d položky boli odstránené z histórie.</item>
+        <item quantity="many">%1$d items deleted from history.</item>
     </plurals>
     <plurals name="video_history_clear_prompt">
         <item quantity="other">Vymazať %1$d položiek z histórie?</item>
         <item quantity="one">Vymazať %1$d položku z histórie?</item>
         <item quantity="few">Vymazať %1$d položky z histórie?</item>
+        <item quantity="many">Delete %1$d items from history?</item>
     </plurals>
     <plurals name="video_push_multi_message">
         <item quantity="other">Je k dispozícii %1$d aktualizáií.</item>
         <item quantity="one">Je k dispozícii %1$d aktualizácia.</item>
         <item quantity="few">Sú k dispozícii %1$d aktualizácie.</item>
+        <item quantity="many">%1$d updates are available.</item>
     </plurals>
     <plurals name="video_subtitle_last_message">
         <item quantity="other">Zostáva %d minút</item>
         <item quantity="one">Zostáva %d minúta</item>
         <item quantity="few">Zostávajú %d minúty</item>
+        <item quantity="many">%d minutes remaining</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Jasno</item>
         <item quantity="one">Slnečno</item>
         <item quantity="few">Jasno</item>
+        <item quantity="many">Clear</item>
     </plurals>
 </resources>

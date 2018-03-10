@@ -250,6 +250,7 @@
     <string name="err_filesystem_mount">러우터 저장소에 접근할 수 없습니다</string>
     <string name="err_router_disconnected">공유기의 연결상태를 확인하고 다시 시도해 주십시오.</string>
     <string name="err_router_files_delete">공유기의 백업 파일들을 삭제하지 못했습니다</string>
+    <string name="err_not_allow">지원되지 않음</string>
     <string name="backup_is_running">기기 백업하기</string>
     <string name="restore_is_running">기기 복원하기</string>
     <string name="notif_backup_title">데이터 백업</string>

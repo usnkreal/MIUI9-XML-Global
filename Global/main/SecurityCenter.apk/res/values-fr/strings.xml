@@ -71,6 +71,16 @@ Il sera ajouté aux exceptions, mais les éléments bloqués précédemment n'ap
     <string name="dlg_add_white">"Les nouveaux appels et messages provenant des numéros ajoutés aux exceptions seront affichés dans l'historique des appels et la boîte de réception des messages. Cependant, les éléments précédemment bloqués n'apparaîtront pas ici. Ajouter les numéros sélectionnés aux exceptions ?"</string>
     <string name="dlg_not_block_sms">"Débloquer les numéros sélectionnés ? Ils seront ajoutés aux exceptions, mais les éléments précédemment bloqués n'apparaîtront pas dans la boîte de réception des messages."</string>
     <string name="dlg_not_block_call">"Débloquer les numéros sélectionnés ? Ils seront ajoutés aux exceptions, mais les éléments précédemment bloqués n'apparaîtront pas dans l'historique des appels."</string>
+    <string name="dlg_update_date_title">Avertissement</string>
+    <string name="dlg_update_data_content">"Vous n'êtes pas connecté au Wi-Fi. Utilser les données mobiles peut générer des frais supplémentaires. Continuer quand même ?"</string>
+    <string name="dlg_sec_network_unavailable">"L'application Sécurité ne peut pas effectuer de mise à jour parce que vous avez restreint la connexion Internet. Autoriser Sécurité à se connecter à Internet ?"</string>
+    <string name="dlg_update_btn_contiue">Continuer</string>
+    <string name="dlg_update_btn_open">Autoriser</string>
+    <string name="dlg_update_updating">Mise à jour…</string>
+    <string name="toast_update_nonetwork">Impossible de se connecter au réseau</string>
+    <string name="toast_update_fail">Impossible de mettre à jour</string>
+    <string name="toast_update_success">Mis à jour avec succès</string>
+    <string name="toast_update_notneed">À jour</string>
     <string name="menu_call">Composer</string>
     <string name="menu_sms">Envoyer un message</string>
     <string name="menu_bl_call_log">Voir les appels bloqués</string>
@@ -251,6 +261,7 @@ Il sera ajouté aux exceptions, mais les éléments bloqués précédemment n'ap
     <string name="mark_time_text">%d</string>
     <string name="mark_time_setting_dialog_title">Signaler un numéro</string>
     <string name="sms_smart_engine_update">Mettre à jour automatiquement le filtre des SMS</string>
+    <string name="sms_smart_engine_update_now">Mettre à jour</string>
     <string name="mark_number_setting_guide_title">Bloquer les numéros signalés</string>
     <string name="mark_number_setting_guide_content1">Bloquer les appels des numéros signalés ?</string>
     <string name="mark_number_setting_guide_content2">Bloquer automatiquement les appels des numéros signalés par les autres utilisateurs</string>
@@ -304,6 +315,7 @@ Il sera ajouté aux exceptions, mais les éléments bloqués précédemment n'ap
     <string name="cta_dialog_title">Connexion Internet</string>
     <string name="cta_dialog_msg">"L'application Sécurité nécessite une connexion Internet pour obtenir les mises à jour, aussi bien que l'accès à la localisation pour fonctionner normalement."</string>
     <string name="cta_settings">Autoriser la connexion à Internet</string>
+    <string name="gdpr_msg"><Data>"Afin d'utiliser les fonctionnalités de base de la sécurité. Vous devez accepter que Xiaomi collecte, traite et utilise vos données personnelles, y compris les informations sur la façon dont vous utilisez les fonctionnalités de Sécurité (ex : les statistiques de l'utilisation des données mobiles, ) ainsi que des informations de base sur votre appareil et d'autres types d'informations spécifiées dans notre&lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Politique de confidentialité&lt;/a>."</Data></string>
     <string name="app_name_na">Utilisation des données</string>
     <string name="list_empty_text">Vide</string>
     <string name="dialog_title_attention">Attention</string>
@@ -383,6 +395,12 @@ de l'opérateur"</string>
     <string name="firewall_wifi_dialog_message">"L'application installée ne sera plus en mesure de se connecter à Internet via Wi-Fi lorsque cet interrupteur est désactivé."</string>
     <string name="firewall_system_title">Utilisation des données pour les applications système</string>
     <string name="firewall_temp_rule_reason">%2$s ont restreint la connexion Internet pour %1$s</string>
+    <string name="dialog_restrict_all_wlan_title">Restreindre la connexion Wi-Fi</string>
+    <string name="dialog_restrict_all_wlan_summary">Wi-Fi connection will be restricted for all apps after this.</string>
+    <string name="dialog_restrict_all_mobile_title">Restreindre la connexion aux données mobiles de %s</string>
+    <string name="dialog_restrict_all_mobile_summary">%s Mobile data connection will be restricted for all apps after this.</string>
+    <string name="dialog_restrict_positive">Annuler</string>
+    <string name="dialog_restrict_negative">Restreindre</string>
     <string name="usage_sorted_activity_lable">Utilisation de données</string>
     <string name="usage_sorted_loading_text">Un instant…</string>
     <string name="usage_sorted_empty_text">Vide</string>
@@ -518,6 +536,12 @@ de l'opérateur"</string>
     <string name="leisure_usage_dialog_message">"Vous avez atteint votre limite de données en heures creuses.
 
 Votre opérateur peut vous facturer des frais supplémentaires si vous utilisez à nouveau la connexion de données mobiles."</string>
+    <string name="data_usage_protected_notify_title">Vous avez déjà utilisé 5 Go de données mobiles</string>
+    <string name="data_usage_protected_notify_message">"MUI a désactivé les données mobiles afin de vous empêcher de générer des frais supplémentaires de l'opérateur."</string>
+    <string name="data_usage_mobile_dialog_title">Vous avez déjà utilisé 5 Go de données mobiles. MIUI a désactivé les données mobiles.</string>
+    <string name="data_usage_protected_dialog_message">"MIUI a désactivé les données mobiles pour vous empêcher de générer des frais supplémentaires de l'opérateur.
+
+Votre opérateur peut vous facturer des frais supplémentaires si vous activer les données mobiles à nouveau."</string>
     <string name="lock_screen_traffic_warn_title">"Notifications à l'écran de verrouillage"</string>
     <string name="lock_screen_traffic_notify_body">Verrouillé pour %2$s à %1$s, données utilisées %3$s</string>
     <string name="timeshow_s">%d s</string>

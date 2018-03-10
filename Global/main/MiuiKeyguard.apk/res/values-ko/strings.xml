@@ -5,12 +5,13 @@
     <string name="unlockscreen_recharge_completed">배터리 충전됨</string>
     <string name="unlockscreen_low_battery">충전기를 지금 연결하십시오.</string>
     <string name="lockscreen_charging_msg">충전 중</string>
-    <string name="reset_device_tip">천천히 충전, 휴대전화를 재배치하십시오.</string>
-    <string name="reset_device_detail_tip">무선 충전, 휴대전화 베이스를 정렬하여 충전 속도를 보장해 주십시오.</string>
-    <string name="wireless_charge_stop">무선 충전 중지됨</string>
+    <string name="reset_device_tip">Charging is slow. Readjust your device.</string>
+    <string name="reset_device_detail_tip">Place your device on the wireless charger correctly to ensure high charging speed.</string>
+    <string name="wireless_charge_stop">Stopped wireless charging</string>
     <string name="change_to_ac_charging">무선 충전으로 전환됨</string>
-    <string name="wireless_charge_dialog_title">위치 엇갈림, 재배치해 주십시오.</string>
+    <string name="wireless_charge_dialog_title">Readjust your device on the wireless charger</string>
     <string name="wireless_charge_dialog_cancel">취소</string>
+    <string name="wireless_current_charge">Current Charge</string>
     <string name="emergency_call_string">긴급 통화</string>
     <string name="forget_password_string">비밀번호 분실</string>
     <string name="input_puk_code">PUK 입력</string>

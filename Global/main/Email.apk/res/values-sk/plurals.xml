@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="actionbar_large_unread_count">
-        <item quantity="other">%1$d+ unread</item>
-        <item quantity="one">%1$d+ unread</item>
-        <item quantity="few">%1$d+ unread</item>
+        <item quantity="other">%1$d+ neprečítaných</item>
+        <item quantity="one">%1$d+ neprečítané</item>
+        <item quantity="few">%1$d+ neprečítané</item>
     </plurals>
     <plurals name="actionbar_unread_messages">
         <item quantity="other">(%1$d)</item>
@@ -26,9 +26,9 @@
         <item quantity="few">Tieto konverzácie majú zlúčené položky, chcete ich všetky vymazať?</item>
     </plurals>
     <plurals name="confirm_delete_draft">
-        <item quantity="other">Delete %1$d drafts?</item>
-        <item quantity="one">Delete %1$d draft?</item>
-        <item quantity="few">Delete %1$d drafts?</item>
+        <item quantity="other">Vymazať %1$d konceptov?</item>
+        <item quantity="one">Vymazať %1$d koncept?</item>
+        <item quantity="few">Vymazať %1$d koncepty?</item>
     </plurals>
     <plurals name="contact_num_selected">
         <item quantity="other">Vybraných: %d</item>
@@ -51,9 +51,9 @@
         <item quantity="few">Zmenené priečinky.</item>
     </plurals>
     <plurals name="conversation_msg_header_count">
-        <item quantity="other">+%1$d other people</item>
-        <item quantity="one">+%1$d other person</item>
-        <item quantity="few">+%1$d other people</item>
+        <item quantity="other">+%1$d ďalších osôb</item>
+        <item quantity="one">+%1$d ďalšia osoba</item>
+        <item quantity="few">+%1$d ďalšie osoby</item>
     </plurals>
     <plurals name="conversation_muted">
         <item quantity="other">Konverzácie boli ignorované (&lt;b>%1$d&lt;/b>).</item>
@@ -81,19 +81,19 @@
         <item quantity="few">Konverzácie boli nahlásené ako spam (&lt;b>%1$d&lt;/b>).</item>
     </plurals>
     <plurals name="day">
-        <item quantity="other">%d days</item>
-        <item quantity="one">%d day</item>
-        <item quantity="few">%d days</item>
+        <item quantity="other">%d dní</item>
+        <item quantity="one">%d deň</item>
+        <item quantity="few">%d dni</item>
     </plurals>
     <plurals name="day_after">
-        <item quantity="other">In %d days</item>
-        <item quantity="one">In %d day</item>
-        <item quantity="few">In %d days</item>
+        <item quantity="other">Za %d dní</item>
+        <item quantity="one">Za %d deň</item>
+        <item quantity="few">Za %d dni</item>
     </plurals>
     <plurals name="day_before">
-        <item quantity="other">%d days ago</item>
-        <item quantity="one">%d day ago</item>
-        <item quantity="few">%d days ago</item>
+        <item quantity="other">pred %d dňami</item>
+        <item quantity="one">pred %d dňom</item>
+        <item quantity="few">pred %d dňami</item>
     </plurals>
     <plurals name="draft">
         <item quantity="other">Koncepty</item>
@@ -106,24 +106,24 @@
         <item quantity="few">Správy (%1$d) sa natrvalo odstránia.</item>
     </plurals>
     <plurals name="hide_atts_remaining">
-        <item quantity="other">Hide %1$d attachments</item>
-        <item quantity="one">Hide %1$d attachment</item>
-        <item quantity="few">Hide %1$d attachments</item>
+        <item quantity="other">Skryť %1$d príloh</item>
+        <item quantity="one">Skryť %1$d prílohu</item>
+        <item quantity="few">Skryť %1$d prílohy</item>
     </plurals>
     <plurals name="local_search_result">
-        <item quantity="other">%s results in synced messages</item>
-        <item quantity="one">%s result in synced messages</item>
-        <item quantity="few">%s results in synced messages</item>
+        <item quantity="other">%s výsledkov v synchronizovaných správach</item>
+        <item quantity="one">%s výsledok v synchronizovaných správach</item>
+        <item quantity="few">%s výsledky v synchronizovaných správach</item>
     </plurals>
     <plurals name="month">
-        <item quantity="other">%d months</item>
-        <item quantity="one">%d month</item>
-        <item quantity="few">%d months</item>
+        <item quantity="other">%d mesiacov</item>
+        <item quantity="one">%d mesiac</item>
+        <item quantity="few">%d mesiace</item>
     </plurals>
     <plurals name="more_atts_remaining">
-        <item quantity="other">%1$d attachments remaining</item>
-        <item quantity="one">%1$d attachment remaining</item>
-        <item quantity="few">%1$d attachments remaining</item>
+        <item quantity="other">Ostáva %1$d príloh</item>
+        <item quantity="one">Ostáva %1$d príloha</item>
+        <item quantity="few">Ostávajú %1$d prílohy</item>
     </plurals>
     <plurals name="move_conversation">
         <item quantity="other">Presunúť konverzácie (%1$d)</item>
@@ -136,9 +136,9 @@
         <item quantity="few">Nové správy: %1$d.</item>
     </plurals>
     <plurals name="new_messages">
-        <item quantity="other">%1$d new messages</item>
-        <item quantity="one">%1$d new message</item>
-        <item quantity="few">%1$d new messages</item>
+        <item quantity="other">%1$d nových správ</item>
+        <item quantity="one">%1$d nová správa</item>
+        <item quantity="few">%1$d nové správy</item>
     </plurals>
     <plurals name="num_selected">
         <item quantity="other">"Vybraných: %d "</item>
@@ -146,14 +146,14 @@
         <item quantity="few">"Vybraných: %d "</item>
     </plurals>
     <plurals name="quick_reply_hint">
-        <item quantity="other">Reply to %1$d people</item>
-        <item quantity="one">Reply to %1$d person</item>
-        <item quantity="few">Reply to %1$d people</item>
+        <item quantity="other">Odpovedať %1$d osobám</item>
+        <item quantity="one">Odpovedať %1$d osobe</item>
+        <item quantity="few">Odpovedať %1$d osobám</item>
     </plurals>
     <plurals name="remote_search_result">
-        <item quantity="other">%s results in all accounts</item>
-        <item quantity="one">%s result in all accounts</item>
-        <item quantity="few">%s results in all accounts</item>
+        <item quantity="other">%s výsledkov vo všetkých účtoch</item>
+        <item quantity="one">%s výsledok vo všetkých účtoch</item>
+        <item quantity="few">%s výsledky vo všetkých účtoch</item>
     </plurals>
     <plurals name="show_messages_read">
         <item quantity="other">Staršie správy: %1$d</item>
@@ -161,8 +161,8 @@
         <item quantity="few">Staršie správy: %1$d</item>
     </plurals>
     <plurals name="unsent_messages_in_outbox">
-        <item quantity="other">%1$s unsent messages in %2$s</item>
-        <item quantity="one">%1$s unsent message in %2$s</item>
-        <item quantity="few">%1$s unsent messages in %2$s</item>
+        <item quantity="other">%1$s neodoslaných správ v %2$s</item>
+        <item quantity="one">%1$s neodoslaná správa v %2$s</item>
+        <item quantity="few">%1$s neodoslané správy v %2$s</item>
     </plurals>
 </resources>

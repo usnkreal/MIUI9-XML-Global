@@ -70,6 +70,7 @@
     <string name="button_sure_abandon">לבטל שינויים?</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">בדוק את חיבור הרשת שלך ונסה שוב</string>
+    <string name="china_version_first_start_network_msg">"By using this product, you agree to Xiaomi's%1$s and %2$s.This app needs to connect to the internet and access your location to work normally."</string>
     <string name="city_exceeded_warning">באפשרותך להוסיף עד 10 ערים</string>
     <string name="commercial">מסחרי</string>
     <string name="common_loading_text">רק רגע…</string>
@@ -153,7 +154,7 @@
     <string name="menu_location">מיקומים</string>
     <string name="menu_speaker">שידור קולי</string>
     <string name="mi_pad2">latte</string>
-    <string name="minute_rain">תחזית מפורטת</string>
+    <string name="minute_rain">תחזית משקעים</string>
     <string name="minute_rain_after_an_hour">בעוד שעה</string>
     <string name="minute_rain_after_two_hour">בעוד שעתיים</string>
     <string name="minute_rain_feedback_subtitle">ספר לנו מה מצב מזג האויר.</string>
@@ -268,4 +269,5 @@
     <string name="xiaomi_weather_description_title">"אודות 'מזג אויר'"</string>
     <string name="yes_vote_ratio">בעד %1$s%%</string>
     <string name="your_location">המיקום שלך</string>
+    <string name="international_version_first_start_network_msg">"By using this product, you agree to Xiaomi's%1$s.This app needs to connect the network, upload the city information you entered in order to obtain the corresponding city weather data. Click agree to continue."</string>
 </resources>

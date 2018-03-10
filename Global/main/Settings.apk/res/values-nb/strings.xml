@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="privacy_authorize_revoke_title">Authorization &amp; revocation</string>
-    <string name="enabled_authorised_apps_title">Granted authorization</string>
-    <string name="enabled_authorised_apps_summary">Your authorization will be revoked after you toggle switches of individual apps.</string>
-    <string name="disabled_authorised_apps_title">Revoked authorization</string>
-    <string name="privacy_authorize_revoke_dialog_title">Revoking authorization</string>
-    <string name="privacy_authorize_revoke_dialog_msg">After you revoke authorization, the app will stop collecting data, and all the related data will be deleted from the servers. This might make the app virtually unusable. Revoke authorization anyway?</string>
-    <string name="privacy_authorize_revoke">Revoke</string>
-    <string name="privacy_authorize_revoke_time">Revoke (%1$ds)</string>
-    <string name="privacy_authorize_title">Granting authorization</string>
-    <string name="privacy_authorize_privacy_policy">Privacy Policy</string>
-    <string name="privacy_authorize_dialog_message">%1$s requires that you read and agree with %2$s. The app needs to connect to the network to work normally. Agree?</string>
-    <string name="privacy_authorize_dialog_exit">Exit</string>
-    <string name="privacy_authorize_dialog_agree">Agree</string>
-    <string name="privacy_authorize_network_error">Connect to the network and try again.</string>
-    <string name="privacy_authorize_revoke_success">Revoked authorization successfully</string>
-    <string name="privacy_authorize_revoke_failed">"Couldn't revoke authorization"</string>
-    <string name="privacy_authorize_success">Granted authorization successfully</string>
-    <string name="privacy_authorize_revoking">Revoking authorization…</string>
+    <string name="privacy_authorize_revoke_title">Autorisasjon og tilbakekalling</string>
+    <string name="enabled_authorised_apps_title">Tildelte autorisasjon</string>
+    <string name="enabled_authorised_apps_summary">Autorisasjonen vil bli tilbakekalt etter at du skrur av/på svitsjer til individuelle apper.</string>
+    <string name="disabled_authorised_apps_title">Tilbakekalt autorisasjon</string>
+    <string name="privacy_authorize_revoke_dialog_title">Tilbakekaller autorisasjon</string>
+    <string name="privacy_authorize_revoke_dialog_msg">Etter at du har tilbakekalt autorisasjonen, vil appen slutte å samle inn data, og alle relaterte data vil bli slettet fra serverne. Dette kan gjøre appen ubrukelig i praksis. Tilbakekalle autorisasjonen likevel?</string>
+    <string name="privacy_authorize_revoke">Tilbakekall</string>
+    <string name="privacy_authorize_revoke_time">Tilbakekall (%1$ds)</string>
+    <string name="privacy_authorize_title">Gir autorisasjon</string>
+    <string name="privacy_authorize_privacy_policy">Personvernerklæring</string>
+    <string name="privacy_authorize_dialog_message"><Data>For å bruke de grunnleggende funksjonene til Mi Cloud-tjenester, må du godta at Xiaomi vil samle inn, behandle, og bruke dine personlige data. Les personvernerklæringen for å lære mer om hvordan vi samler inn og behandler personlige data. Å velge \"Godta\" betyr at du har lest og godtatt vår &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">personvernerklæring&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brukeravtale&lt;/a>.​</Data></string>
+    <string name="privacy_authorize_dialog_exit">Avslutt</string>
+    <string name="privacy_authorize_dialog_agree">Godta</string>
+    <string name="privacy_authorize_network_error">Koble til nettverket og prøv igjen.</string>
+    <string name="privacy_authorize_revoke_success">Autorisasjon tilbakekalt</string>
+    <string name="privacy_authorize_revoke_failed">Kunne ikke tilbakekalle autorisasjon</string>
+    <string name="privacy_authorize_success">Autorisasjon tildelt</string>
+    <string name="privacy_authorize_revoking">Tilbakekaller autorisasjon…</string>
+    <string name="privacy_authorize_cloud_msg">For å sikre kontoens sikkerhet, logg inn på i.mi.com hvis du ønsker å tilbakekalle autorisasjon for Mi Cloud-tjenester (inkludert synkronisering og sikkerhetskopier).</string>
     <string name="launcher_title">Startskjerm &amp; Nylige</string>
     <string name="defalut_launcher_title">Standard startprogram</string>
     <string name="miui_screen_config_title">Innstillinger for startskjerm</string>
@@ -235,13 +236,13 @@
     <string name="radioInfo_display_asu">asu</string>
     <string name="radioInfo_lac">LAC</string>
     <string name="radioInfo_cid">CID</string>
-    <string name="sdcard_unmount">Koble fra USB-lagring</string>
-    <string name="sdcard_format">Slett USB-lagring</string>
+    <string name="sdcard_unmount">Avmonter minnekort</string>
+    <string name="sdcard_format">Tøm SD-kort</string>
     <string name="small_font">Liten</string>
     <string name="medium_font">Middels</string>
     <string name="large_font">Stor</string>
     <string name="font_size_save">OK</string>
-    <string name="sdcard_setting">USB-lagring</string>
+    <string name="sdcard_setting">Minnekort</string>
     <string name="battery_info_status_unknown">Ukjent</string>
     <string name="battery_info_status_charging">Lader</string>
     <string name="battery_info_status_charging_ac">Lader på AC</string>
@@ -376,14 +377,14 @@ Kringkasting bruker Bluetooth-signaler med lavt strømforbruk."</string>
     <string name="sdcard_changes_instructions">Endringene trer i kraft når USB-kabelen kobles til på nytt.</string>
     <string name="sdcard_settings_screen_mass_storage_text">Aktiver USB-masselagring</string>
     <string name="sdcard_settings_total_bytes_label">Totalt antall byte:</string>
-    <string name="sdcard_settings_not_present_status">USB-lagring er ikke tilkoblet.</string>
+    <string name="sdcard_settings_not_present_status">SD-kort mangler.</string>
     <string name="sdcard_settings_available_bytes_label">Tilgjengelig antall byte:</string>
-    <string name="sdcard_settings_mass_storage_status">USB brukes som masselagring.</string>
-    <string name="sdcard_settings_unmounted_status">Du kan nå fjerne USB-lagringen.</string>
-    <string name="sdcard_settings_bad_removal_status">USB-enh. fjernet under bruk!</string>
+    <string name="sdcard_settings_mass_storage_status">SD-kortet brukes som masselagringsenhet.</string>
+    <string name="sdcard_settings_unmounted_status">Du kan nå fjerne SD-kortet.</string>
+    <string name="sdcard_settings_bad_removal_status">Minnekortet ble fjernet mens det fortsatt var i bruk!</string>
     <string name="sdcard_settings_used_bytes_label">Brukt antall byte:</string>
-    <string name="sdcard_settings_scanning_status">Skanner USB-enh. for medieinnh.</string>
-    <string name="sdcard_settings_read_only_status">USB har bare lesetilgang.</string>
+    <string name="sdcard_settings_scanning_status">Leter etter media på minnekortet…</string>
+    <string name="sdcard_settings_read_only_status">SD-kortet har bare lesetilgang.</string>
     <string name="skip_label">Hopp over</string>
     <string name="next_label">Neste</string>
     <string name="language_picker_title">Språk</string>
@@ -391,7 +392,7 @@ Kringkasting bruker Bluetooth-signaler med lavt strømforbruk."</string>
     <string name="device_info_label">Enhetsinformasjon</string>
     <string name="display_label">Skjerm</string>
     <string name="phone_info_label">Telefoninformasjon</string>
-    <string name="sd_card_settings_label">USB-lagring</string>
+    <string name="sd_card_settings_label">Minnekort</string>
     <string name="proxy_settings_label">Innstillinger for proxy-tjener</string>
     <string name="cancel">Avbryt</string>
     <string name="okay">OK</string>
@@ -678,7 +679,7 @@ Hvis du vil bruke telefonen din, må du tilbakestille den til fabrikkstandard. N
     <string name="link_speed">%1$d Mbps</string>
     <string name="wifi_alert_lockdown_by_device_owner">%1$s administrerer enheten din og tillater ikke endring eller sletting av dette Wi-Fi-nettverket. Hvis du vil ha mer informasjon, kan du ta kontakt med administratoren din.</string>
     <string name="nfc_quick_toggle_title">NFC</string>
-    <string name="nfc_quick_toggle_summary">Tillat utveksling av data når telefonen berører en annen enhet</string>
+    <string name="nfc_quick_toggle_summary">Tillat datautveksling når telefonen berører en annen enhet</string>
     <string name="android_beam_settings_title">Android Beam</string>
     <string name="android_beam_on_summary">NFC-innholdsdeling er på</string>
     <string name="android_beam_off_summary">NFC-innholdsdeling er av</string>
@@ -806,7 +807,7 @@ Vil du tillate dette for alle apper som prøver å skanne?"</string>
 "<li>Du får ikke oppdateringer før du kobler til Internett.</li>"
 
 "<li>Du kan ikke aktivere funksjoner for enhetsbeskyttelse nå.</li></string>
-    <string name="wifi_connect_failed_message">Telefonen kunne ikke koble til Wi-Fi-nettverket.</string>
+    <string name="wifi_connect_failed_message">Kunne ikke koble til Wi-Fi-nettverk</string>
     <string name="wifi_saved_access_points_titlebar">Lagrede nettverk</string>
     <string name="wifi_advanced_titlebar">Avansert Wi-Fi</string>
     <string name="wifi_setting_frequency_band_title">Wi-Fi-frekvensbånd</string>
@@ -994,7 +995,7 @@ Muligens feil personlig kode."</string>
     <string name="storage_settings">Lagring</string>
     <string name="storage_usb_settings">Lagring og USB</string>
     <string name="storage_settings_title">Innstillinger for lagring</string>
-    <string name="storage_settings_summary">Koble fra USB-lagring og vis tilgjengelig lagringsplass</string>
+    <string name="storage_settings_summary">Avmonter minnekort, vis ledig plass</string>
     <string name="status_number">Telefonnummer</string>
     <string name="status_min_number">MIN</string>
     <string name="status_msid_number">MSID</string>
@@ -1015,7 +1016,7 @@ Muligens feil personlig kode."</string>
     <string name="status_up_time">Oppetid</string>
     <string name="status_awake_time">Våken tid</string>
     <string name="internal_memory">Intern lagring</string>
-    <string name="sd_memory">USB-lagring</string>
+    <string name="sd_memory">Minnekort</string>
     <string name="memory_available">Tilgjengelig</string>
     <string name="memory_available_read_only">Tilgjengelig (skrivebeskyttet)</string>
     <string name="memory_size">Total plass</string>
@@ -1027,21 +1028,21 @@ Muligens feil personlig kode."</string>
     <string name="memory_music_usage">Lyd (musikk, ringetoner, podcaster osv.)</string>
     <string name="memory_media_misc_usage">Andre filer</string>
     <string name="memory_media_cache_usage">Bufrede data</string>
-    <string name="sd_eject">Koble fra delt lagring</string>
-    <string name="sd_eject_summary">Koble fra intern USB-lagring</string>
-    <string name="sd_insert_summary">Sett inn USB-lagring</string>
-    <string name="sd_mount">Koble til USB-lagring</string>
+    <string name="sd_eject">Avmonter/løs ut minnekort</string>
+    <string name="sd_eject_summary">Koble fra SD-kortet for trygg fjerning</string>
+    <string name="sd_insert_summary">Sett inn et minnekort for å koble til</string>
+    <string name="sd_mount">Koble til minnekort</string>
     <string name="sd_mount_summary" />
-    <string name="sd_format">Slett USB-lagring</string>
-    <string name="sd_format_summary">Sletter intern USB-lagring, som musikk og bilder</string>
+    <string name="sd_format">Tøm SD-kort</string>
+    <string name="sd_format_summary">Sletter alle data på SD-kortet, for eksempel musikk og bilder</string>
     <string name="memory_clear_cache_title">Vil du slette bufrede data?</string>
     <string name="memory_clear_cache_message">Dette sletter bufrede data for alle apper.</string>
     <string name="mtp_ptp_mode_summary">MTP- eller PTP-funksjonen er aktiv</string>
-    <string name="dlg_confirm_unmount_title">Vil du koble fra USB-lagring?</string>
-    <string name="dlg_confirm_unmount_text">Hvis du kobler fra USB-lagring, virker ikke lenger alle appene slik de skal, og de kan være utilgjengelige inntil du kobler til USB-lagring på nytt.</string>
+    <string name="dlg_confirm_unmount_title">Vil du koble fra SD-kortet?</string>
+    <string name="dlg_confirm_unmount_text">Hvis du kobler fra SD-kortet, virker ikke lenger alle appene som de skal, og de kan være utilgjengelige inntil du kobler til SD-kortet på nytt.</string>
     <string name="dlg_error_unmount_title" />
-    <string name="dlg_error_unmount_text">Kan ikke koble fra USB-lagring. Prøv på nytt senere.</string>
-    <string name="unmount_inform_text">USB-lagring kobles fra.</string>
+    <string name="dlg_error_unmount_text">Kan ikke koble fra SD-kort. Prøv på nytt senere.</string>
+    <string name="unmount_inform_text">SD-kort kobles fra.</string>
     <string name="sd_ejecting_title">Kobler fra minnekort</string>
     <string name="sd_ejecting_summary">Frakobling pågår</string>
     <string name="storage_low_title">Lite ledig lagringsplass</string>
@@ -1246,9 +1247,9 @@ Det er andre brukere tilstede på denne enheten.
 "<li>Andre brukerdata</li></string>
     <string name="master_clear_desc_erase_external_storage">"
 
-For å slette musikk, bilder og andre brukerdata må "<b>USB-lageret</b> tømmes.</string>
-    <string name="erase_external_storage">Slett USB-lagring</string>
-    <string name="erase_external_storage_description">Slett alle data på intern USB-lagring, som for eksempel musikk eller bilder</string>
+For å slette musikk, bilder og andre brukerdata, må "<b>SD-kortet</b> tømmes.</string>
+    <string name="erase_external_storage">Tøm SD-kort</string>
+    <string name="erase_external_storage_description">Slett alle data fra SD-kortet, som musikk og bilder</string>
     <string name="master_clear_button_text">Tilbakestill telefonen</string>
     <string name="master_clear_final_desc">Vil du slette den personlige informasjonen din og nedlastede apper? Du kan ikke angre denne handlingen.</string>
     <string name="master_clear_final_button_text">Slett alt</string>
@@ -1422,7 +1423,7 @@ For å slette musikk, bilder og andre brukerdata må "<b>USB-lageret</b> tømmes
     <string name="application_size_label">App</string>
     <string name="external_code_size_label">USB-lagring for app</string>
     <string name="data_size_label">Data</string>
-    <string name="external_data_size_label">USB-lagringsvolum for data</string>
+    <string name="external_data_size_label">SD-kort</string>
     <string name="uninstall_text">Avinstaller</string>
     <string name="uninstall_all_users_text">Avinstaller for alle brukere</string>
     <string name="install_text">Installer</string>
@@ -1462,13 +1463,13 @@ For å slette musikk, bilder og andre brukerdata må "<b>USB-lageret</b> tømmes
     <string name="filter_apps_disabled">Slått av</string>
     <string name="filter_apps_third_party">Tredjeparts</string>
     <string name="filter_apps_running">Kjører</string>
-    <string name="filter_apps_onsdcard">USB-lagring</string>
+    <string name="filter_apps_onsdcard">På minnekort</string>
     <string name="disabled">Slått av</string>
     <string name="not_installed">Ikke installert for brukeren</string>
     <string name="no_applications">Ingen apper.</string>
     <string name="internal_storage">Intern lagring</string>
     <string name="internal_storage_sentence">Intern lagring</string>
-    <string name="sd_card_storage">USB-lagring</string>
+    <string name="sd_card_storage">SD-kortlagring</string>
     <string name="recompute_size">Beregner størrelse på nytt…</string>
     <string name="clear_data_dlg_title">Vil du slette appdataene?</string>
     <string name="clear_data_dlg_text">Alle data i appen slettes permanent. Dette omfatter alle filer, innstillinger, kontoer, databaser osv.</string>
@@ -1495,7 +1496,7 @@ For å slette musikk, bilder og andre brukerdata må "<b>USB-lageret</b> tømmes
     <string name="version_text">versjon %1$s</string>
     <string name="move_app">Flytt</string>
     <string name="move_app_to_internal">Flytt til telefonen</string>
-    <string name="move_app_to_sdcard">Flytt til USB-lagring</string>
+    <string name="move_app_to_sdcard">Flytt til minnekort</string>
     <string name="moving">Flytter</string>
     <string name="insufficient_storage">Ikke nok lagringsplass.</string>
     <string name="does_not_exist">Appen eksisterer ikke.</string>
@@ -1676,10 +1677,10 @@ Trykk på pluss for å legge til ord."</string>
     <string name="dev_settings_warning_message">Disse innstillingene er kun ment for utviklere. Aktivering av disse funksjonene kan føre til at enheten din og applikasjonene på den mislykkes eller forårsaker feil.</string>
     <string name="verify_apps_over_usb_title">Verifiser apper over USB</string>
     <string name="verify_apps_over_usb_summary">Kontroller applikasjoner som er installert via ADB/ADT for skadelig atferd.</string>
-    <string name="enforce_read_external_title">Beskytt USB-lagring</string>
-    <string name="enforce_read_external_summary">Apper må be om tillatelse til å lese USB-lagring</string>
-    <string name="enforce_read_external_confirm_title">Vil du beskytte USB-lagringen?</string>
-    <string name="enforce_read_external_confirm_message">"Når USB-lagring er beskyttet, må apper be om tillatelse til å lese data fra ekstern lagring.
+    <string name="enforce_read_external_title">Beskytt SD-kort</string>
+    <string name="enforce_read_external_summary">Apper må be om tillatelse til å lese SD-kort</string>
+    <string name="enforce_read_external_confirm_title">Vil du beskytte SD-kortet?</string>
+    <string name="enforce_read_external_confirm_message">"Når SD-kortet er beskyttet, må apper be om tillatelse til å lese data fra ekstern lagring.
 
 Enkelte apper fungerer ikke før utviklerne har oppdatert dem."</string>
     <string name="enable_terminal_title">Lokal terminal</string>
@@ -2044,8 +2045,8 @@ Hvis enheten har flere brukere, kan du bruke denne snarveien på låseskjermen t
     <string name="gadget_brightness_state_off">av</string>
     <string name="vpn_settings_title">VPN</string>
     <string name="credentials_title">Legitimasjonslager</string>
-    <string name="credentials_install">Installer fra lagringsenhet</string>
-    <string name="credentials_install_summary">Installer sertifikater fra lagringsenhet</string>
+    <string name="credentials_install">Installer fra SD-kort</string>
+    <string name="credentials_install_summary">Installer sertifikater fra SD-kort</string>
     <string name="credentials_reset">Tøm legitimasjonslageret</string>
     <string name="credentials_reset_summary">Fjern alle sertifikater</string>
     <string name="trusted_credentials">Pålitelig legitimasjon</string>
@@ -2341,9 +2342,7 @@ Noen kontoer kan også auto­matisk kopiere endringer du gjør på telefonen, ti
 Siden databruken måles av telefonen, og operatøren din kan beregne bruken annerledes, kan det være lurt å angi en konservativ grense."</string>
     <string name="data_usage_restrict_background_title">Vil du begrense bruken av bakgrunnsdata?</string>
     <string name="data_usage_restrict_background">Hvis du begrenser bakgrunnsmobildata, vil noen apper og tjenester ikke fungere hvis du ikke er koblet til et Wi-Fi-nettverk.</string>
-    <string name="data_usage_restrict_background_multiuser">"Hvis du begrenser mobildatabruk i bakgrunnen, er det enkelte apper og tjenester som ikke fungerer med mindre du er tilkoblet Wi-Fi.
-
-Denne innstillingen påvirker alle brukerne på denne telefonen."</string>
+    <string name="data_usage_restrict_background_multiuser">Hvis du begrenser bakgrunnsmobildata, vil noen apper og tjenester ikke fungere som normalt hvis du ikke er koblet til et Wi-Fi-nettverk.</string>
     <string name="data_usage_sweep_warning"><font size="21">^1</font> <font size="9">^2</font>"
 "<font size="12">advarsel</font></string>
     <string name="data_usage_sweep_limit"><font size="21">^1</font> <font size="9">^2</font>"
@@ -3131,7 +3130,7 @@ Dette bidrar til å beskytte data på mistede eller stjålne enheter."</string>
     <string name="search_music_audio_effect_optimize">Lydinnstilinger;Lydinnstillinger</string>
     <string name="search_music_headset_mode_settings">Hodetelefonknapper;fjernkontroller</string>
     <string name="search_music_headset_calibrate">Tilegne knapper;knapper</string>
-    <string name="search_music_equalizer">Equalizer</string>
+    <string name="search_music_equalizer">Utligner</string>
     <string name="search_music_mi_effect_title">Mi Sound Enhancer;forbedre lyd</string>
     <string name="search_silent_mode_title">Lydløs modus;lydløs;stille;stille</string>
     <string name="search_vibrate_when_ringing_title">Vibrer også ved samtaler;vibrer;vibrering</string>
@@ -3586,7 +3585,7 @@ Dette bidrar til å beskytte data på mistede eller stjålne enheter."</string>
     <string name="shut_down_find_device_failure_confirm">OK</string>
     <string name="factory_reset_summary">Slett alle data fra telefonens interne lagring</string>
     <string name="erase_sure">Obligatorisk</string>
-    <string name="erase_personal_data">Personlig informasjon</string>
+    <string name="erase_personal_data">Alle filer på telefonen</string>
     <string name="erase_personal_data_description">Alle filer og data, inkludert kontoer, kontakter, bilder og apper</string>
     <string name="erase_sd_data">Formater SD-kort</string>
     <string name="erase_sd_data_description">Formatering vil slette alle filer og data på SD-kortet</string>
@@ -3598,12 +3597,12 @@ Dette bidrar til å beskytte data på mistede eller stjålne enheter."</string>
     <string name="master_clear_personal_data">Slette all din personlige informasjon? Du kan ikke angre denne handlingen!</string>
     <string name="master_clear_personal_data_application">Slette din personlige informasjon og nedlastede apper? Du kan ikke angre denne handlingen!</string>
     <string name="master_clear_personal_data_sdcard">Slette din personlige informasjon og innhold? Du kan ikke angre denne handlingen!</string>
-    <string name="master_clear_all">Slette alle data fra telefonens interne lagring? Du kan ikke reversere denne handlingen!</string>
+    <string name="master_clear_all">Slette alle data fra telefonens interne lagring? Du kan ikke angre denne handlingen!</string>
     <string name="button_text_ok">OK</string>
     <string name="button_text_ok_timer">OK (%d)</string>
     <string name="button_text_cancel">Avbryt</string>
     <string name="master_clear_apply_title">Vær oppmerksom</string>
-    <string name="master_clear_apply_step_1"><b>“Tilbakestilling til fabrikkinnstillinger” vil slette alle data på telefonen din</b>, inkludert bilder, sanger, notater og andre personlige data. Husk på å sikkerhetskopiere alle viktige elementer til datamaskinen din.</string>
+    <string name="master_clear_apply_step_1"><b>«Tilbakestilling til fabrikkinnstillinger» vil slette alle data på telefonen din</b>, inkludert bilder, sanger, notater og andre personlige data. Husk på å sikkerhetskopiere alle viktige elementer til datamaskinen din.</string>
     <string name="master_clear_apply_step_2">Forsikre deg om at alle de viktige elementene er sikkerhetskopiert til datamaskinen din. Alle data på denne enheten vil bli slettet i løpet av tilbakestillingen. <b>Du får ikke mulighet til å gjenopprette elementer du ikke har sikkerhetskopiert.</b></string>
     <string name="master_clear_erase_application_progress">Sletter apper…</string>
     <string name="erase_internal_storage">Slette lagret innhold</string>
@@ -3689,6 +3688,9 @@ Dette bidrar til å beskytte data på mistede eller stjålne enheter."</string>
     <string name="wfd_disconnect_multiple_diag_message">Koble fra %1$s og %2$s andre enheter?</string>
     <string name="wfd_wps_keypad">Bruk tastatur</string>
     <string name="wfd_wps_pbc">Skriv inn PIN-kode</string>
+    <string name="wfd_status_dialog_title">Wireless display</string>
+    <string name="wfd_status_dialog_message">Screen contents are being displayed on another display device through wireless connection</string>
+    <string name="wfd_status_dialog_disconnect">Disconnect</string>
     <string name="virtual_sim_global_category_title">Mi SIM</string>
     <string name="virtual_sim_global_title">Mobildatatjeneste</string>
     <string name="virtual_sim_global_description">Koble til datanettverk uten SIM-kort</string>
@@ -4129,6 +4131,8 @@ Velg ditt operativsystem:"</string>
     <string name="permission_mgr">Tillatelser</string>
     <string name="cleaner">Renser</string>
     <string name="power_mgr">Batteri</string>
+    <string name="secondspace_category">Second space</string>
+    <string name="secondspace_delete_space_title">Delete Second space</string>
     <string name="symbols_not_allowed_for_password">Passordet kan ikke inneholde symboler</string>
     <string name="reset_legacy_password_settings_preface_text">Du må tilbakestille ditt låseskjermpassord.</string>
     <string name="priority_storage_title">Lagringsinnstillinger</string>
@@ -4732,42 +4736,9 @@ Velg ditt operativsystem:"</string>
     <string name="lock_screen_unlock_show_summary">Åpne startskjermen eller skriv inn passord direkte</string>
     <string name="security_keyguard_category_name">Låseskjerm</string>
     <string name="security_password_category_name">Skjermlås</string>
-    <string name="lock_screen_secure_after_timeout_title">Krev passord</string>
-    <string name="lock_screen_secure_after_timeout_summary">Krev passord: %1$s</string>
-    <string name="lock_screen_secure_after_timeout_immediately_summary">Krev passord umiddelbart</string>
-    <string name="lock_screen_secure_after_timeout_immediately_never">Krev aldri passord</string>
     <string name="fingerprint_payment">Betaling med fingeravtrykk</string>
     <string name="unlock_disable_frp_warning_title_profile">Fjerne profilbeskyttelse?</string>
     <string name="unlock_disable_frp_warning_content_profile">"Profile protection features won't work without your password."</string>
-    <string name="miracast_settings_category">Wi-Fi skjerminnstillinger</string>
-    <string name="miracast_display_category">Skjermer</string>
-    <string name="miracast_menu_search">Søk</string>
-    <string name="miracast_menu_searching">Søker</string>
-    <string name="miracast_menu_teardown">Teardown</string>
-    <string name="miracast_menu_connect">Start streaming</string>
-    <string name="miracast_menu_disconnect">Stopp streaming</string>
-    <string name="miracast_menu_forget">Glem skjerm</string>
-    <string name="miracast_menu_rename">Gi skjermen nytt navn</string>
-    <string name="miracast_setup_save">Lagre</string>
-    <string name="miracast_setup_cancel">Avbryt</string>
-    <string name="miracast_wifi_off">Aktiver Wi-Fi for å bruke Miracast</string>
-    <string name="miracast_no_sinks_found">Ingen tilgjengelige skjermer</string>
-    <string name="miracast_nickname">Angi et nytt navn:</string>
-    <string name="miracast_connection_failed_generic">Kan ikke koble til skjerm</string>
-    <string name="miracast_sink_connected">Tilkoblet</string>
-    <string name="miracast_sink_not_available">Utilgjengelig</string>
-    <string name="miracast_sink_connecting">Kobler til…</string>
-    <string name="miracast_sink_ready_to_connect">Klar til å koble til</string>
-    <string name="miracast_sink_busy">Opptatt</string>
-    <string name="miracast_error_already_streaming">Streamer allerede til en annen skjerm</string>
-    <string name="miracast_error_connection_in_progress">Kobler til…</string>
-    <string name="miracast_cancelconnect_dialog">Avbryt tilkobling</string>
-    <string name="miracast_dialog_title">%1$s</string>
-    <string name="miracast_error_cancelconnect">Tilkoblingen er opptatt</string>
-    <string name="miracast_search_for_displays">Søker etter trådløse skjermer…</string>
-    <string name="miracast_PC2THOR_streaming_on">Miracast er utilgjengelig fordi en PC streamer til denne enheten</string>
-    <string name="miracast_disable_dhcp">Deaktiver HDCP</string>
-    <string name="miracast_enable_dhcp">Aktiver HDCP</string>
     <string name="dirac_control">Optimaliser lydkvaliteten</string>
     <string name="dirac_mode_off">Dirac av</string>
     <string name="dirac_mode_in_ear">Mi in-ear headphones lite</string>
@@ -4915,12 +4886,12 @@ Velg ditt operativsystem:"</string>
     <string name="advanced_text_layout">Aktivere avanserte tekst-layouts</string>
     <string name="print_enable">Aktiver utskrift</string>
     <string name="print_remind">Aktiver utskrift først</string>
-    <string name="usb_media_format_title">Formater USB-lagring</string>
+    <string name="usb_media_format_title">Tøm USB-lagring</string>
     <string name="use_media_format_desc">Formater USB-lagring? <b>Alle</b> filer vil slettes permanent.</string>
     <string name="usb_media_format_final_desc">Alle filer som lagres på USB-lagringen vil slettes permanent.</string>
     <string name="usb_dlg_confirm_unmount_title">Utløse USB-lagring?</string>
     <string name="usb_dlg_confirm_unmount_text">Om du løser ut USB-lagringen, noen apper du bruker vil stoppe og kan forbli utilgjengelige til du kobler til USB-lagringsenheten igjen.</string>
-    <string name="usb_unmount_inform_text">USB-lagring vil utløses.</string>
+    <string name="usb_unmount_inform_text">USB-lagringsplass utløses.</string>
     <string name="quiet_mode">Sett alle forstyrrelser på lydløst</string>
     <string name="dndm_summary_for_pad">"Varsler som kommer inn når 'Ikke forstyrr' er på, vil bli satt til lydløs."</string>
     <string name="miui_silent_title">Stillemodus</string>

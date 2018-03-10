@@ -8,7 +8,8 @@
     <string-array name="date_of_traffic">
         <item>"Tegnapi forgalom "</item>
         <item>"Mai forgalom "</item>
-        <item>"Havi forgalom "</item>
+        <item>"Múlt hónap "</item>
+        <item>"Jelenlegi hónap "</item>
     </string-array>
     <string-array name="date_of_traffic_prefix_cmcc">
         <item>"Ezen a héten "</item>
@@ -18,15 +19,18 @@
     <string-array name="date_of_traffic_prefix">
         <item>"Tegnap: "</item>
         <item>"Ma: "</item>
-        <item>"Ebben a hónapban: "</item>
+        <item>"Múlt hónap: "</item>
+        <item>"Jelenlegi hónap: "</item>
     </string-array>
     <string-array name="date_of_app_all">
         <item>Tegnap (adatok)</item>
         <item>Ma (adatok)</item>
-        <item>Ebben a hónapban (adatok)</item>
-        <item>Tegnap Wi-Fi</item>
-        <item>Ma Wi-Fi</item>
-        <item>Ebben a hónapban Wi-Fi</item>
+        <item>Múlt hónap (adat)</item>
+        <item>Jelenlegi hónap (adat)</item>
+        <item>Tegnapi Wi-Fi</item>
+        <item>Mai Wi-Fi</item>
+        <item>Múlt havi Wi-Fi</item>
+        <item>Jelenlegi havi Wi-Fi</item>
     </string-array>
     <string-array name="traffic_type">
         <item>"Mobiladat-használat "</item>

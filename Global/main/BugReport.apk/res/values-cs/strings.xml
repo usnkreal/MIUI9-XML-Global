@@ -163,9 +163,9 @@
     <string name="cta_confirm">OK</string>
     <string name="submit_dialog_title">Odeslat hlášení</string>
     <string name="submit_dialog_content">Vaše připomínky spolu s přílohami a protokoly budou odeslány na servery MIUI. Mohou obsahovat osobní údaje a informace o vaší poloze.</string>
-    <string name="submit_dialog_content_global">Vaše zpětná vazba společně s přílohami (pokud nějaké jsou) a protokoly (pro položky, které nechcete odeslat zrušte zaškrtnutí políčka) bude odeslána na servery MIUI a do MIUI Fóra pro vývojáře pro přezkoumání. Protokoly mohou obsahovat osobní údaje a informace o vaší poloze.</string>
-    <string name="submit_dialog_cancel">Zrušit</string>
-    <string name="submit_dialog_confirm">Odeslat</string>
+    <string name="submit_dialog_content_global">Vaše zpětná vazba společně s přílohami (pokud nějaké jsou) a protokoly (pro položky, které nechcete odeslat zrušte zaškrtnutí políčka) bude odeslána na servery MIUI a do MIUI Fóra pro vývojáře pro přezkoumání. Informace o vašich příspěvcích a aktivitě ve fóru budou také odeslány pro možnou analýzu a komunikaci. Protokoly mohou obsahovat osobní údaje a informace o vaší poloze.</string>
+    <string name="submit_dialog_cancel">Nesouhlasím</string>
+    <string name="submit_dialog_confirm">Souhlasím</string>
     <string name="mobile_data_note_dialog_title">Upozornění na využítí dat</string>
     <string name="mobile_data_note_dialog_content">Při použítí mobilního datového připojení k nahrání protokolů vám mohou být účtovány dodatečné poplatky.</string>
     <string name="mobile_data_note_dialog_content_with_file_size">Nahrání protokolů pomocí mobilních dat spotřebuje %s MB dat.</string>

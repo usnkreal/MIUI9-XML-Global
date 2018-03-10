@@ -44,7 +44,6 @@
         <item>Alapértelmezett</item>
         <item>Klasszikus</item>
     </string-array>
-    <array name="region_prefix" />
     <string-array name="transformation_entries">
         <item>Csúsztatás</item>
         <item>Átfedés</item>

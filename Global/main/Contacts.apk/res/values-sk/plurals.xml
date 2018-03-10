@@ -4,205 +4,246 @@
         <item quantity="other">Pred 1 hodinou</item>
         <item quantity="one">Pred 1 hodinou</item>
         <item quantity="few">Pred 1 hodinou</item>
+        <item quantity="many">1 hour ago</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">Pred polhodinou</item>
         <item quantity="one">Pred polhodinou</item>
         <item quantity="few">Pred polhodinou</item>
+        <item quantity="many">Half an hour ago</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
         <item quantity="other">Za 1 hodinu</item>
         <item quantity="one">Za 1 hodinu</item>
         <item quantity="few">Za 1 hodinu</item>
+        <item quantity="many">In 1 hour</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Za polhodinu</item>
         <item quantity="one">Za polhodinu</item>
         <item quantity="few">Za polhodinu</item>
+        <item quantity="many">In half an hour</item>
     </plurals>
     <plurals name="abbrev_in_less_than_one_minute">
         <item quantity="other">Okamžite</item>
         <item quantity="one">Okamžite</item>
         <item quantity="few">Okamžite</item>
+        <item quantity="many">Immediately</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
         <item quantity="other">za %1$d min</item>
         <item quantity="one">za %1$d min</item>
         <item quantity="few">za %1$d min</item>
+        <item quantity="many">in %1$d mins</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Práve teraz</item>
         <item quantity="one">Práve teraz</item>
         <item quantity="few">Práve teraz</item>
+        <item quantity="many">Just now</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">Pred %1$d min</item>
         <item quantity="one">Pred %1$d min</item>
         <item quantity="few">Pred %1$d min</item>
+        <item quantity="many">%1$d mins ago</item>
     </plurals>
     <plurals name="batch_delete_msg">
         <item quantity="other">Odstrániť %1$d kontaktov?</item>
         <item quantity="one">Odstrániť %1$d kontakt?</item>
         <item quantity="few">Odstrániť %1$d kontakty?</item>
+        <item quantity="many">Delete %1$d contacts?</item>
     </plurals>
     <plurals name="btn_delete_multi_contacts">
         <item quantity="other">Odstrániť %1$d kontaktov</item>
         <item quantity="one">Odstrániť %1$d kontakt</item>
         <item quantity="few">Odstrániť %1$d kontakty</item>
+        <item quantity="many">Delete %1$d contacts</item>
     </plurals>
     <plurals name="callNoAnswerTimeFormat">
         <item quantity="other">Zazvonilo %1$d-krát</item>
         <item quantity="one">Zazvonilo %1$d-krát</item>
         <item quantity="few">Zazvonilo %1$d-krát</item>
+        <item quantity="many">Rang %1$d times</item>
     </plurals>
     <plurals name="cloud_state_unsynced_count">
         <item quantity="other">%1$d kontaktov alebo fotiek nebolo zosynchronizovaných</item>
         <item quantity="one">%1$d kontakt alebo fotka neboli zosynchronizované</item>
         <item quantity="few">%1$d kontakty alebo fotky neboli zosynchronizované</item>
+        <item quantity="many">"%1$d contacts or photos haven't been synced"</item>
     </plurals>
     <plurals name="confirm_delete_sim_entry_miui">
         <item quantity="other">Odstrániť %1$d kontaktov zo SIM karty?</item>
         <item quantity="one">Odstrániť %1$d kontakt zo SIM karty?</item>
         <item quantity="few">Odstrániť %1$d kontakty zo SIM karty?</item>
+        <item quantity="many">Delete %1$d contacts from SIM card?</item>
     </plurals>
     <plurals name="contacts_count">
         <item quantity="other">%1$d kontaktov</item>
         <item quantity="one">%1$d kontakt</item>
         <item quantity="few">%1$d kontakty</item>
+        <item quantity="many">%1$d contacts</item>
     </plurals>
     <plurals name="device_import_done_toast">
         <item quantity="other">Bolo importovaných %1$d kontaktov</item>
         <item quantity="one">Bol importovaný %1$d kontakt</item>
         <item quantity="few">Boli importované %1$d kontakty</item>
+        <item quantity="many">%1$d contacts imported</item>
     </plurals>
     <plurals name="dlg_add_blacklist">
         <item quantity="other">Blokovať %1$d telefónnych čísel?</item>
         <item quantity="one">Blokovať %1$d telefónne číslo?</item>
         <item quantity="few">Blokovať %1$d telefónne čísla?</item>
+        <item quantity="many">Block %1$d phone numbers?</item>
     </plurals>
     <plurals name="dlg_remove_blacklist">
         <item quantity="other">Odblokovať %1$d telefónnych čísel?</item>
         <item quantity="one">Odblokovať %1$d telefónne číslo?</item>
         <item quantity="few">Odblokovať %1$d telefónne čísla?</item>
+        <item quantity="many">Unblock %1$d phone numbers?</item>
     </plurals>
     <plurals name="export_sim_contacts_dialog_message">
         <item quantity="other">SIM karta dokáže uložiť %1$d kontaktov.</item>
         <item quantity="one">SIM karta dokáže uložiť %1$d kontakt.</item>
         <item quantity="few">SIM karta dokáže uložiť %1$d kontakty.</item>
+        <item quantity="many">SIM card can store %1$d contacts.</item>
     </plurals>
     <plurals name="group_add_success_toast">
         <item quantity="other">Bolo pridaných %1$d kontaktov</item>
         <item quantity="one">Bol pridaný %1$d kontakt</item>
         <item quantity="few">Boli pridané %1$d kontakty</item>
+        <item quantity="many">%1$d contacts added</item>
     </plurals>
     <plurals name="group_list_num_contacts_in_group">
         <item quantity="other">%1$d ľudí</item>
         <item quantity="one">%1$d človek</item>
         <item quantity="few">%1$d ľudí</item>
+        <item quantity="many">%1$d people</item>
     </plurals>
     <plurals name="group_list_num_numbers_in_group">
         <item quantity="other">%1$d čísel</item>
         <item quantity="one">%1$d číslo</item>
         <item quantity="few">%1$d čísel</item>
+        <item quantity="many">%1$d numbers</item>
     </plurals>
     <plurals name="hint_account_contacts">
         <item quantity="other">Bolo nájdených %1$d položiek</item>
         <item quantity="one">Bola nájdená %1$d položka</item>
         <item quantity="few">Boli nájdené %1$d položky</item>
+        <item quantity="many">Found %1$d items</item>
     </plurals>
     <plurals name="hint_search_contacts">
         <item quantity="other">%1$d kontaktov</item>
         <item quantity="one">%1$d kontakt</item>
         <item quantity="few">%1$d kontakty</item>
+        <item quantity="many">%1$d contacts</item>
     </plurals>
     <plurals name="hint_search_emails">
         <item quantity="other">%1$d e-mailov</item>
         <item quantity="one">%1$d e-mail</item>
         <item quantity="few">%1$d e-maily</item>
+        <item quantity="many">%1$d emails</item>
     </plurals>
     <plurals name="hint_search_phone_numbers">
         <item quantity="other">%1$d čísel</item>
         <item quantity="one">%1$d číslo</item>
         <item quantity="few">%1$d čísla</item>
+        <item quantity="many">%1$d numbers</item>
     </plurals>
     <plurals name="listFoundAllContacts">
         <item quantity="other">%d nájdených</item>
         <item quantity="one">Nájdený 1 kontakt</item>
         <item quantity="few">Nájdené %d kontaktov</item>
+        <item quantity="many">%d found</item>
     </plurals>
     <plurals name="listTotalAllContacts">
         <item quantity="other">%d kontaktov</item>
         <item quantity="one">1 kontakt</item>
         <item quantity="few">%d kontakty</item>
+        <item quantity="many">%d contacts</item>
     </plurals>
     <plurals name="listTotalPhoneContacts">
         <item quantity="other">%d kontaktov s telefónnym číslom</item>
         <item quantity="one">1 kontakt s telefónnym číslom</item>
         <item quantity="few">%d kontakty s telefónnym číslom</item>
+        <item quantity="many">%d contacts with phone numbers</item>
     </plurals>
     <plurals name="merge_info">
         <item quantity="other">zlúčené z %0$d zdrojov</item>
         <item quantity="one">Nezlúčené</item>
         <item quantity="few">zlúčených %0$d položiek</item>
+        <item quantity="many">merged from %0$d sources</item>
     </plurals>
     <plurals name="notification_voicemail_title">
         <item quantity="other">%1$d hlasových správ</item>
         <item quantity="one">Hlasová správa</item>
         <item quantity="few">%1$d hlasových správ</item>
+        <item quantity="many">%1$d voicemails</item>
     </plurals>
     <plurals name="numSelectedSimContacts">
         <item quantity="other">%1$d vybratých</item>
         <item quantity="one">%1$d vybraté</item>
         <item quantity="few">%1$d vybraté</item>
+        <item quantity="many">%1$d selected</item>
     </plurals>
     <plurals name="num_contacts_in_group">
         <item quantity="other">%1$d ľudí z %2$s</item>
         <item quantity="one">%1$d človek z %2$s</item>
         <item quantity="few">%1$d ľudí z %2$s</item>
+        <item quantity="many">%1$d people from %2$s</item>
     </plurals>
     <plurals name="num_groups_in_account">
         <item quantity="other">%0$d skupín</item>
         <item quantity="one">1 skupina</item>
         <item quantity="few">%0$d skupín</item>
+        <item quantity="many">%0$d groups</item>
     </plurals>
     <plurals name="number_of_items_available">
         <item quantity="other">Zostáva %1$d položiek</item>
         <item quantity="one">Zostáva %1$d položka</item>
         <item quantity="few">Zostávajú %1$d položky</item>
+        <item quantity="many">%1$d items remaining</item>
     </plurals>
     <plurals name="number_of_items_selected">
         <item quantity="other">%1$d vybratých</item>
         <item quantity="one">%1$d vybraté</item>
         <item quantity="few">%1$d vybraté</item>
+        <item quantity="many">%1$d selected</item>
     </plurals>
     <plurals name="pick_favorites_contacts_list_title">
         <item quantity="other">%1$d obľúbených</item>
         <item quantity="one">%1$d obľúbené</item>
         <item quantity="few">%1$d obľúbené</item>
+        <item quantity="many">%1$d favorites</item>
     </plurals>
     <plurals name="pick_favorites_list_title">
         <item quantity="other">%1$d obľúbených</item>
         <item quantity="one">%1$d obľúbený</item>
         <item quantity="few">%1$d obľúbené</item>
+        <item quantity="many">%1$d favorites</item>
     </plurals>
     <plurals name="pick_recent_contacts_list_title">
         <item quantity="other">%1$d nedávnych kontaktov</item>
         <item quantity="one">%1$d nedávny kontakt</item>
         <item quantity="few">%1$d nedávne kontakty</item>
+        <item quantity="many">%1$d recent contacts</item>
     </plurals>
     <plurals name="pick_recent_list_title">
         <item quantity="other">%1$d nedávnych kontaktov</item>
         <item quantity="one">%1$d nedávny kontakt</item>
         <item quantity="few">%1$d nedávne kontakty</item>
+        <item quantity="many">%1$d recent contacts</item>
     </plurals>
     <plurals name="searchFoundContacts">
         <item quantity="other">%d nájdených</item>
         <item quantity="one">1 kontakt</item>
         <item quantity="few">%d kontaktov</item>
+        <item quantity="many">%d found</item>
     </plurals>
     <plurals name="smart_group_member_count">
         <item quantity="other">%1$d osôb</item>
         <item quantity="one">%1$d osoba</item>
         <item quantity="few">%1$d osoby</item>
+        <item quantity="many">%1$d people</item>
     </plurals>
 </resources>

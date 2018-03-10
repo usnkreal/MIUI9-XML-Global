@@ -161,16 +161,32 @@ Az üzenetek csak a második asztalon jelennek meg."</string>
 azok automatikusan engedélyezve lesznek a Második asztalon is."</string>
     <string name="openSuccess">Bekapcsolva</string>
     <string name="closeSuccess">Kikapcsolva</string>
-    <string name="settings_notification_and_switch">Kapcsolás; értesítések</string>
+    <string name="settings_set_password_for_owner_space">Képernyőzár beállítása az Első asztalhoz</string>
+    <string name="settings_set_password_for_owner_space_desc">A parancsikon Beállításokból való eltávolításához állítson be képernyőzárat az Első asztalhoz.</string>
+    <string name="settings_set_password_for_sec_space">Képernyőzár beállítása a Második asztalhoz</string>
+    <string name="settings_set_password_for_sec_space_desc">A parancsikon Beállításokból való eltávolításához állítson be képernyőzárat a Második asztalhoz.</string>
+    <string name="settings_notification_and_switch_owner_space">Az Első asztal beállításai</string>
+    <string name="settings_second_space_entrance_title">Parancsikon a Beállításokban</string>
+    <string name="settings_second_space_entrance_summary">A Második asztal parancsikonjának megjelenítése a Beállításokban</string>
+    <string name="settings_switch_shortcut_title">Kezdőképernyő parancsikon</string>
+    <string name="settings_switch_space">Asztalok közötti váltás</string>
+    <string name="settings_notification_from_second_space_title">A Második asztal értesítéseinek megjelenítése</string>
+    <string name="settings_notification_and_switch_second_space">A Második asztal beállításai</string>
+    <string name="settings_notification_from_owner_space_title">Az Első asztal értesítéseinek megjelenítése</string>
+    <string name="notification_from_owner_user">Az Első asztal értesítéseinek megjelenítése</string>
+    <string name="notification_from_second_user">A Második asztal értesítéseinek megjelenítése</string>
+    <string name="radio_button_icon_switch_title">Parancsikon használatával</string>
+    <string name="radio_button_password_switch_title">Jelszó használatával</string>
     <string name="settings_cross_notification_title">Értesítések</string>
     <string name="settings_cross_notification_summary">Értesítések fogadása a másik asztalról</string>
-    <string name="settings_switch_shortcut_title">Érintse meg a parancsikont a váltáshoz</string>
     <string name="settings_switch_shortcut_summary">Mutassa a Kezdőképernyő parancsikont az Első asztalon</string>
     <string name="settings_space_data">Adatok</string>
     <string name="settings_status_icon_title">Második asztal ikon</string>
     <string name="settings_status_icon_summary">Második asztal ikon mutatása az állapotsoron</string>
-    <string name="settings_msg_add_shortcut">Parancsikon hozzáadva az Első asztalhoz</string>
-    <string name="settings_msg_remove_shortcut">Parancsikon eltávolítva az Első asztalról</string>
+    <string name="settings_msg_add_shortcut_to_owner_space">Parancsikon hozzáadva az Első asztalhoz</string>
+    <string name="settings_msg_add_shortcut_to_second_space">Parancsikon létrehozva a Második asztalon</string>
+    <string name="settings_msg_remove_shortcut_from_owner_space">Parancsikon eltávolítva az Első asztalról</string>
+    <string name="settings_msg_remove_shortcut_from_second_space">Parancsikon eltávolítva a Második asztalról</string>
     <string name="start_setting_guide_desc_title">Pár dolgot be kell állítani</string>
     <string name="setting_is_show_text_contacts">Személyes névjegyek és üzenetek beállítása</string>
     <string name="switch_data_app">Elemek mozgatása a Második asztalra</string>
@@ -342,4 +358,14 @@ Ha nem végzi el a frissítést, néhány alkalmazás nem fog rendeltetésszerű
     <string name="sdcradfs_dialog_in_sec_message">"A frissítés során törölnie kell a Második asztalt, majd újra létrehozni azt. Első lépésként minden fontosat helyezzen át a Második asztalról az Első asztalra, majd indítsa újra készülékét a frissítés befejezéséhez.
 Ha nem végzi el a frissítést, néhány alkalmazás nem fog rendeltetésszerűen működni."</string>
     <string name="space_created_success">Második asztal sikeresen létrehozva</string>
+    <string name="space_create_guide_title_1">Védje meg a magánéletét</string>
+    <string name="space_create_guide_desc_1">Tárolja alkalmazásait és fényképeit biztonságosan</string>
+    <string name="space_create_guide_title_2">Bármikor létrehozható</string>
+    <string name="space_create_guide_desc_2">Teljes egészében használatra kész, elkülönített asztal</string>
+    <string name="space_create_guide_title_3">Teljesen kockázatmentes</string>
+    <string name="space_create_guide_desc_3">A Második asztal más elemeket nem befolyásol a készülékén</string>
+    <string name="space_create_guide_switchmode_title">Asztalok közötti váltás</string>
+    <string name="second_space_desktop_tips_dialog_title">Fontos frissítés</string>
+    <string name="second_space_desktop_tips_dialog_positive_text">Rendben</string>
+    <string name="second_space_desktop_tips_dialog_message">Ezután a frissítés után a Második asztal kezeléséhez és adatmozgatáshoz használt ikonok többé nem jelennek meg a Kezdőképernyőn. A Beállítások menüben férhet hozzá a megfelelő szolgáltatásokhoz.</string>
 </resources>

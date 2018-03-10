@@ -27,8 +27,8 @@
     <string name="cert_too_large_error">Nu se poate instala, deoarece dimensiunea certificatului este prea mare.</string>
     <string name="cert_missing_error">Nu se poate instala, deoarece fişierul certificat nu a putut fi găsit.</string>
     <string name="cert_read_error">Nu se poate instala, deoarece fişierul certificat nu a putut fi citit.</string>
-    <string name="no_cert_file_found">Nu a fost găsit niciun fişier certificat în stocarea USB.</string>
-    <string name="sdcard_not_present">Stocarea USB nedisponibilă.</string>
+    <string name="no_cert_file_found">Nu s-a găsit niciun fişier certificat pe cardul SD.</string>
+    <string name="sdcard_not_present">Nu există card SD.</string>
     <string name="only_primary_user_allowed">Numai proprietarul acestui dispozitiv poate instala certificate.</string>
     <string name="credential_usage_label">Utilizarea datelor de conectare:</string>
     <string name="wifi_title">Profil Wi-Fi</string>

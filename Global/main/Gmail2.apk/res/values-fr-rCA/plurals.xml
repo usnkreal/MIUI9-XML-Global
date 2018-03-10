@@ -93,28 +93,28 @@
         <item quantity="one">"%1$d a été signalé comme pourriel, et l'abonnement a été annulé"</item>
     </plurals>
     <plurals name="conversation_muted">
-        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b>  conversations ignorées</item>
-        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> conversation ignorée</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b>  conversations ignorées</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> conversation ignorée</item>
     </plurals>
     <plurals name="conversation_spammed">
-        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> conversations signalées comme pourriel</item>
-        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> conversation signalée comme pourriel</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b> conversations signalées comme pourriel</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> conversation signalée comme pourriel</item>
     </plurals>
     <plurals name="conversation_not_spam">
-        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> conversations signalées comme non pourriel</item>
-        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> conversation signalée comme non pourriel</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b> conversations signalées comme non pourriel</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> conversation signalée comme non pourriel</item>
     </plurals>
     <plurals name="conversation_not_important">
-        <item quantity="other">"&amp;lt;b>%1$d&amp;lt;/b> conversations marquées comme n'étant pas importantes"</item>
-        <item quantity="one">"&amp;lt;b>%1$d&amp;lt;/b> conversation marquée comme n'étant pas importante"</item>
+        <item quantity="other">"&lt;b>%1$d&lt;/b> conversations marquées comme n'étant pas importantes"</item>
+        <item quantity="one">"&lt;b>%1$d&lt;/b> conversation marquée comme n'étant pas importante"</item>
     </plurals>
     <plurals name="conversation_archived">
-        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> conversations archivées</item>
-        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> conversation archivée</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b> conversations archivées</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> conversation archivée</item>
     </plurals>
     <plurals name="conversation_deleted">
-        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> conversations supprimées</item>
-        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> conversation supprimée</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b> conversations supprimées</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> conversation supprimée</item>
     </plurals>
     <plurals name="conversation_folder_changed">
         <item quantity="other">Étiquettes modifiées.</item>
@@ -149,8 +149,8 @@
         <item quantity="one">%1$d pièce jointe</item>
     </plurals>
     <plurals name="dialog_report_spam_unsubscribe_text">
-        <item quantity="other">Ces messages seront marqués comme pourriel. Voulez-vous également cesser de recevoir des messages semblables de ces &amp;lt;b>%2$d expéditeurs&amp;lt;/b>?%1$s</item>
-        <item quantity="one">Ce message sera marqué comme pourriel. Voulez-vous également cesser de recevoir des messages semblables de cet &amp;lt;b>expéditeur (%2$d)&amp;lt;/b>?%1$s</item>
+        <item quantity="other">Ces messages seront marqués comme pourriel. Voulez-vous également cesser de recevoir des messages semblables de ces &lt;b>%2$d expéditeurs&lt;/b>?%1$s</item>
+        <item quantity="one">Ce message sera marqué comme pourriel. Voulez-vous également cesser de recevoir des messages semblables de cet &lt;b>expéditeur (%2$d)&lt;/b>?%1$s</item>
     </plurals>
     <plurals name="sync_recent">
         <item quantity="other">Synchroniser : %1$d derniers jours</item>
@@ -173,10 +173,10 @@
         <item quantity="one">"Remarque : Certains destinataires n'ont peut-être toujours pas accès à ce fichier. Vous devez partager ce fichier depuis Google Disque."</item>
     </plurals>
     <plurals name="fix_permissions_outside_domain_warning">
-        <item quantity="other">"Ces adresses :&amp;lt;br>&amp;lt;b>%1$s
-&amp;lt;/b>&amp;lt;br>sont extérieures à l'organisation Google Apps à laquelle appartiennent les fichiers partagés."</item>
-        <item quantity="one">"Ces adresses :&amp;lt;br>&amp;lt;b>%1$s
-&amp;lt;/b>&amp;lt;br>sont extérieures à l'organisation Google Apps à laquelle appartient le fichier partagé."</item>
+        <item quantity="other">"Ces adresses :&lt;br>&lt;b>%1$s
+&lt;/b>&lt;br>sont extérieures à l'organisation Google Apps à laquelle appartiennent les fichiers partagés."</item>
+        <item quantity="one">"Ces adresses :&lt;br>&lt;b>%1$s
+&lt;/b>&lt;br>sont extérieures à l'organisation Google Apps à laquelle appartient le fichier partagé."</item>
     </plurals>
     <plurals name="files_not_shared_dialog_body">
         <item quantity="other">"Vos destinataires n'ont peut-être pas accès aux fichiers ajoutés depuis Google Disque. Vous devez partager les fichiers depuis Google Disque."</item>

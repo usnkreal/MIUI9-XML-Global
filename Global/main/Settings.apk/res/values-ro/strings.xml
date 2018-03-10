@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="privacy_authorize_revoke_title">Authorization &amp; revocation</string>
-    <string name="enabled_authorised_apps_title">Granted authorization</string>
-    <string name="enabled_authorised_apps_summary">Your authorization will be revoked after you toggle switches of individual apps.</string>
-    <string name="disabled_authorised_apps_title">Revoked authorization</string>
-    <string name="privacy_authorize_revoke_dialog_title">Revoking authorization</string>
-    <string name="privacy_authorize_revoke_dialog_msg">After you revoke authorization, the app will stop collecting data, and all the related data will be deleted from the servers. This might make the app virtually unusable. Revoke authorization anyway?</string>
-    <string name="privacy_authorize_revoke">Revoke</string>
-    <string name="privacy_authorize_revoke_time">Revoke (%1$ds)</string>
-    <string name="privacy_authorize_title">Granting authorization</string>
-    <string name="privacy_authorize_privacy_policy">Privacy Policy</string>
-    <string name="privacy_authorize_dialog_message">%1$s requires that you read and agree with %2$s. The app needs to connect to the network to work normally. Agree?</string>
-    <string name="privacy_authorize_dialog_exit">Exit</string>
-    <string name="privacy_authorize_dialog_agree">Agree</string>
-    <string name="privacy_authorize_network_error">Connect to the network and try again.</string>
-    <string name="privacy_authorize_revoke_success">Revoked authorization successfully</string>
-    <string name="privacy_authorize_revoke_failed">"Couldn't revoke authorization"</string>
-    <string name="privacy_authorize_success">Granted authorization successfully</string>
-    <string name="privacy_authorize_revoking">Revoking authorization…</string>
+    <string name="privacy_authorize_revoke_title">Autorizație &amp; anulare</string>
+    <string name="enabled_authorised_apps_title">Autorizație acordată</string>
+    <string name="enabled_authorised_apps_summary">Autorizația dvs. va fi revocată după ce comutați comutatoarele de la aplicațiile individuale.</string>
+    <string name="disabled_authorised_apps_title">Autorizație revocată</string>
+    <string name="privacy_authorize_revoke_dialog_title">Revocarea autorizației</string>
+    <string name="privacy_authorize_revoke_dialog_msg">După ce revocați autorizația, aplicația va opri colectarea datelor și toate datele asociate vor fi șterse de pe servere. Acest lucru poate face aplicația practic inutilizabilă. Anulați oricum autorizația?</string>
+    <string name="privacy_authorize_revoke">Revocă</string>
+    <string name="privacy_authorize_revoke_time">Revocă (%1$d)</string>
+    <string name="privacy_authorize_title">Autorizație acordată</string>
+    <string name="privacy_authorize_privacy_policy">Politica de confidențialitate</string>
+    <string name="privacy_authorize_dialog_message"><Data>Pentru a utiliza caracteristicile de bază ale serviciilor Mi Cloud, trebuie să fiți de acord că Xiaomi va colecta, procesa, și va utiliza datele dvs. personale. Consultați politica noastră de confidențialitate pentru a afla cum colectăm și procesăm datele personale. Selectând \"De acord\" înseamnă că ați citit și ați fost de acord cu &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Politica de confidențialitate&lt;/a> și &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\"> Acordul Utilizatorului&lt;/a>.</Data></string>
+    <string name="privacy_authorize_dialog_exit">Ieşire</string>
+    <string name="privacy_authorize_dialog_agree">De acord</string>
+    <string name="privacy_authorize_network_error">Conectați-vă la rețea și încercați din nou.</string>
+    <string name="privacy_authorize_revoke_success">Autorizația a fost revocată cu succes</string>
+    <string name="privacy_authorize_revoke_failed">Nu s-a putut revoca autorizația</string>
+    <string name="privacy_authorize_success">A fost acordată autorizația cu succes</string>
+    <string name="privacy_authorize_revoking">Se revocă autorizația…</string>
+    <string name="privacy_authorize_cloud_msg">"To ensure your account's security, sign in to i.mi.com if you want to revoke authorization for Mi Cloud services (including sync and backups)."</string>
     <string name="launcher_title">Ecranul de start &amp; Recente</string>
     <string name="defalut_launcher_title">Lansator implicit</string>
     <string name="miui_screen_config_title">Setări Ecranul de start</string>
@@ -235,13 +236,13 @@
     <string name="radioInfo_display_asu">asu</string>
     <string name="radioInfo_lac">LAC</string>
     <string name="radioInfo_cid">CID</string>
-    <string name="sdcard_unmount">Demontați stocarea USB</string>
-    <string name="sdcard_format">Ștergeți stocarea USB</string>
+    <string name="sdcard_unmount">Demontați cardul SD</string>
+    <string name="sdcard_format">Ștergeți cardul SD</string>
     <string name="small_font">Mică</string>
     <string name="medium_font">Medie</string>
     <string name="large_font">Mare</string>
     <string name="font_size_save">OK</string>
-    <string name="sdcard_setting">Stocare USB</string>
+    <string name="sdcard_setting">Card SD</string>
     <string name="battery_info_status_unknown">Necunoscut</string>
     <string name="battery_info_status_charging">Se încarcă</string>
     <string name="battery_info_status_charging_ac">Încărcare prin AC</string>
@@ -376,14 +377,14 @@ Transmiterea utilizează semnale Bluetooth cu consum scăzut de energie."</strin
     <string name="sdcard_changes_instructions">Modificările intră în vigoare când se reconectează cablul USB.</string>
     <string name="sdcard_settings_screen_mass_storage_text">Activați stocarea în masă prin USB</string>
     <string name="sdcard_settings_total_bytes_label">Număr total de octeţi:</string>
-    <string name="sdcard_settings_not_present_status">Stocarea USB nu este montată.</string>
+    <string name="sdcard_settings_not_present_status">Niciun card SD.</string>
     <string name="sdcard_settings_available_bytes_label">Octeţi disponibili:</string>
-    <string name="sdcard_settings_mass_storage_status">Stocare USB utilizată ca dispoz. de stocare masivă.</string>
-    <string name="sdcard_settings_unmounted_status">Puteţi elimina stoc. USB în siguranţă</string>
-    <string name="sdcard_settings_bad_removal_status">Stoc. USB eliminată în timpul funcţionării!</string>
+    <string name="sdcard_settings_mass_storage_status">Cardul SD este utilizat ca dispozitiv de stocare în masă.</string>
+    <string name="sdcard_settings_unmounted_status">Acum puteţi elimina cardul SD în siguranţă.</string>
+    <string name="sdcard_settings_bad_removal_status">Cardul SD a fost scos în timp ce era încă utilizat!</string>
     <string name="sdcard_settings_used_bytes_label">Octeţi utilizaţi:</string>
-    <string name="sdcard_settings_scanning_status">Se scanează stocare USB pt. media...</string>
-    <string name="sdcard_settings_read_only_status">Stoc.USB mont. numai în citire</string>
+    <string name="sdcard_settings_scanning_status">Se scanează cardul SD pentru a se identifica fişiere media...</string>
+    <string name="sdcard_settings_read_only_status">Cardul SD montat este numai în citire.</string>
     <string name="skip_label">Omiteți</string>
     <string name="next_label">Înainte</string>
     <string name="language_picker_title">Limba</string>
@@ -391,7 +392,7 @@ Transmiterea utilizează semnale Bluetooth cu consum scăzut de energie."</strin
     <string name="device_info_label">Informații despre dispozitiv</string>
     <string name="display_label">Ecran</string>
     <string name="phone_info_label">Informații telefon</string>
-    <string name="sd_card_settings_label">Stocare USB</string>
+    <string name="sd_card_settings_label">Card SD</string>
     <string name="proxy_settings_label">Setări proxy</string>
     <string name="cancel">Anulați</string>
     <string name="okay">OK</string>
@@ -678,7 +679,7 @@ Pentru a relua utilizarea telefonului, trebuie să reveniți la setările din fa
     <string name="link_speed">%1$d Mbps</string>
     <string name="wifi_alert_lockdown_by_device_owner">%1$s vă gestionează dispozitivul și nu permite modificarea sau ștergerea acestei rețele Wi-Fi. Pentru mai multe informații, contactați-vă administratorul.</string>
     <string name="nfc_quick_toggle_title">NFC</string>
-    <string name="nfc_quick_toggle_summary">Permiteţi schimbul de date atunci când telefonul atinge alt dispozitiv</string>
+    <string name="nfc_quick_toggle_summary">Permiteți schimbul de date în cazul în care telefonul atinge un alt dispozitiv</string>
     <string name="android_beam_settings_title">Android Beam</string>
     <string name="android_beam_on_summary">Partajarea conţinutului NFC este conectată</string>
     <string name="android_beam_off_summary">Partajarea conţinutului NFC este deconectată</string>
@@ -806,7 +807,7 @@ Permiteți acest lucru pentru toate aplicațiile care solicită scanarea?"</stri
 "<li>nu veți primi actualizările de software decât după ce vă conectați la internet;</li>"
 
 "<li>nu puteți activa acum funcțiile de protecție a dispozitivului.</li></string>
-    <string name="wifi_connect_failed_message">Telefonul nu s-a putut conecta la această rețea Wi-Fi.</string>
+    <string name="wifi_connect_failed_message">Nu se poate conecta la reţeaua WI-FI</string>
     <string name="wifi_saved_access_points_titlebar">Rețele salvate</string>
     <string name="wifi_advanced_titlebar">WI-FI avansat</string>
     <string name="wifi_setting_frequency_band_title">Banda de frecvenţă WI-FI</string>
@@ -994,7 +995,7 @@ Codul PIN poate fi incorect."</string>
     <string name="storage_settings">Stocare</string>
     <string name="storage_usb_settings">Stocare și USB</string>
     <string name="storage_settings_title">Setări de stocare</string>
-    <string name="storage_settings_summary">Demontați stocarea USB, afișați stocarea disponibilă</string>
+    <string name="storage_settings_summary">Demontați cardul SD, afișați spaţiul de stocare disponibil</string>
     <string name="status_number">Numărul meu de telefon</string>
     <string name="status_min_number">MIN</string>
     <string name="status_msid_number">MSID</string>
@@ -1015,7 +1016,7 @@ Codul PIN poate fi incorect."</string>
     <string name="status_up_time">Durată de funcţionare</string>
     <string name="status_awake_time">Durată de activitate</string>
     <string name="internal_memory">Stocare internă</string>
-    <string name="sd_memory">Stocare USB</string>
+    <string name="sd_memory">Card SD</string>
     <string name="memory_available">Disponibil</string>
     <string name="memory_available_read_only">Disponibil (numai în citire)</string>
     <string name="memory_size">Spațiu total</string>
@@ -1027,21 +1028,21 @@ Codul PIN poate fi incorect."</string>
     <string name="memory_music_usage">Audio (muzică, tonuri de sonerie, podcasturi etc.)</string>
     <string name="memory_media_misc_usage">Alte fișiere</string>
     <string name="memory_media_cache_usage">Datele memorate în cache</string>
-    <string name="sd_eject">Demontați stocare distribuită</string>
-    <string name="sd_eject_summary">Demontați stocarea USB internă</string>
-    <string name="sd_insert_summary">Inserați stocare USB pt. montare</string>
-    <string name="sd_mount">Montați stocarea USB</string>
+    <string name="sd_eject">Demontați cardul SD</string>
+    <string name="sd_eject_summary">Demontați cardul SD, pentru a-l putea elimina în siguranţă</string>
+    <string name="sd_insert_summary">Introduceţi un card SD pentru montare</string>
+    <string name="sd_mount">Montați cardul SD</string>
     <string name="sd_mount_summary" />
-    <string name="sd_format">Ștergeți stocarea USB</string>
-    <string name="sd_format_summary">Șterge toate datele din stocarea USB internă, cum ar fi muzica și fotografiile</string>
+    <string name="sd_format">Ștergeți cardul SD</string>
+    <string name="sd_format_summary">Șterge toate datele de pe cardul SD, cum ar fi muzica și fotografiile</string>
     <string name="memory_clear_cache_title">Ștergeți datele memorate în cache?</string>
     <string name="memory_clear_cache_message">Datele din cache ale aplicațiilor vor fi şterse.</string>
     <string name="mtp_ptp_mode_summary">Funcția MTP sau PTP este activă</string>
-    <string name="dlg_confirm_unmount_title">Demontați stocarea USB?</string>
-    <string name="dlg_confirm_unmount_text">Dacă demontați stocarea USB, unele aplicații pe care le utilizaţi se vor opri și ar putea fi nedisponibile până la remontarea stocării USB.</string>
+    <string name="dlg_confirm_unmount_title">Demontați cardul SD?</string>
+    <string name="dlg_confirm_unmount_text">Dacă demontați cardul SD, unele aplicații utilizate în acel moment se vor opri și pot fi indisponibile până la remontarea cardului SD.</string>
     <string name="dlg_error_unmount_title" />
-    <string name="dlg_error_unmount_text">Stocarea USB nu a putut fi demontată. Încercați din nou mai târziu.</string>
-    <string name="unmount_inform_text">Dispozitivul de stocare USB va fi demontat.</string>
+    <string name="dlg_error_unmount_text">Nu se poate demonta cardul SD. Încercați din nou mai târziu.</string>
+    <string name="unmount_inform_text">Cardul SD va fi demontat.</string>
     <string name="sd_ejecting_title">În curs de demontare</string>
     <string name="sd_ejecting_summary">Demontare în curs</string>
     <string name="storage_low_title">Spațiu de stocare aproape ocupat</string>
@@ -1246,9 +1247,9 @@ Pe acest dispozitiv sunt prezenți și alți utilizatori.
 "<li>Alte date ale utilizatorului</li></string>
     <string name="master_clear_desc_erase_external_storage">"
 
-Pentru a șterge muzică, imagini și alte date ale utilizatorului, "<b>stocarea USB</b> trebuie să fie ştearsă.</string>
-    <string name="erase_external_storage">Ștergeți stocarea USB</string>
-    <string name="erase_external_storage_description">Ștergeți toate datele din stocarea USB internă, cum ar fi muzica sau fotografiile</string>
+Pentru a șterge muzică, imagini și alte date ale utilizatorului, "<b>cardul SD</b> trebuie să fie șters.</string>
+    <string name="erase_external_storage">Ștergeți cardul SD</string>
+    <string name="erase_external_storage_description">Ștergeți toate datele de pe cardul SD, cum ar fi muzica sau fotografiile</string>
     <string name="master_clear_button_text">Resetaţi telefonul</string>
     <string name="master_clear_final_desc">Ștergeți toate datele personale și aplicațiile descărcate? Nu puteți anula această acțiune!</string>
     <string name="master_clear_final_button_text">Ștergeți tot</string>
@@ -1422,7 +1423,7 @@ Pentru a șterge muzică, imagini și alte date ale utilizatorului, "<b>stocarea
     <string name="application_size_label">Aplicaţie</string>
     <string name="external_code_size_label">Stocare aplicație pe USB</string>
     <string name="data_size_label">Date</string>
-    <string name="external_data_size_label">Stocare date pe USB</string>
+    <string name="external_data_size_label">Card SD</string>
     <string name="uninstall_text">Dezinstalaţi</string>
     <string name="uninstall_all_users_text">Dezinstalaţi pentru toţi utilizatorii</string>
     <string name="install_text">Instalați</string>
@@ -1462,13 +1463,13 @@ Pentru a șterge muzică, imagini și alte date ale utilizatorului, "<b>stocarea
     <string name="filter_apps_disabled">Dezactivate</string>
     <string name="filter_apps_third_party">Descărcate</string>
     <string name="filter_apps_running">Rulează</string>
-    <string name="filter_apps_onsdcard">Stocare USB</string>
+    <string name="filter_apps_onsdcard">Pe cardul SD</string>
     <string name="disabled">Dezactivată</string>
     <string name="not_installed">Nu este instal. pt. utilizator</string>
     <string name="no_applications">Nu există aplicații.</string>
     <string name="internal_storage">Stocare internă</string>
     <string name="internal_storage_sentence">memorie internă</string>
-    <string name="sd_card_storage">Stocare USB</string>
+    <string name="sd_card_storage">Stocare card SD</string>
     <string name="recompute_size">Se recalculează dimensiunea...</string>
     <string name="clear_data_dlg_title">Ștergeți datele aplicației?</string>
     <string name="clear_data_dlg_text">Toate datele acestei aplicații vor fi şterse definitiv. Aici sunt incluse toate fişierele, setările, conturile, bazele de date etc.</string>
@@ -1495,7 +1496,7 @@ Pentru a șterge muzică, imagini și alte date ale utilizatorului, "<b>stocarea
     <string name="version_text">versiunea %1$s</string>
     <string name="move_app">Mutaţi</string>
     <string name="move_app_to_internal">Mutaţi în telefon</string>
-    <string name="move_app_to_sdcard">Mutaţi în stocarea USB</string>
+    <string name="move_app_to_sdcard">Mutaţi pe cardul SD</string>
     <string name="moving">Se deplasează</string>
     <string name="insufficient_storage">Nu există suficient spațiu de stocare.</string>
     <string name="does_not_exist">Aplicaţia nu există.</string>
@@ -1675,10 +1676,10 @@ Atingeţi pe plus pentru a adăuga cuvinte."</string>
     <string name="dev_settings_warning_message">Aceste setări sunt destinate numai dezvoltatorilor. Activarea acestor funcții poate face ca dispozitivul și aplicațiile să nu funcționeze corect sau să provoace erori.</string>
     <string name="verify_apps_over_usb_title">Verificați aplicațiile prin USB</string>
     <string name="verify_apps_over_usb_summary">Verificați aplicațiile instalate prin ADB/ADT pentru comportamente dăunătoare.</string>
-    <string name="enforce_read_external_title">Protejaţi stocarea USB</string>
-    <string name="enforce_read_external_summary">Aplicaţiile trebuie să ceară permisiunea de a citi stocarea USB</string>
-    <string name="enforce_read_external_confirm_title">Protejaţi stocarea USB?</string>
-    <string name="enforce_read_external_confirm_message">"Când stocarea USB este protejată, aplicațiile trebuie să solicite permisiunea de a citi datele de pe stocarea externă.
+    <string name="enforce_read_external_title">Protejaţi cardul SD</string>
+    <string name="enforce_read_external_summary">Aplicaţiile trebuie să ceară permisiunea de a citi cardul SD</string>
+    <string name="enforce_read_external_confirm_title">Protejaţi cardul SD?</string>
+    <string name="enforce_read_external_confirm_message">"Când cardul SD este protejat, aplicațiile trebuie să solicite permisiunea de a citi datele de pe stocarea externă.
 
 Este posibil ca unele aplicații să nu funcţioneze înainte de a fi actualizate de către dezvoltatorii lor."</string>
     <string name="enable_terminal_title">Terminal local</string>
@@ -2043,8 +2044,8 @@ Dacă gadgetul are mai mulţi utilizatori, folosirea acestei comenzi rapide pe e
     <string name="gadget_brightness_state_off">dezactivată</string>
     <string name="vpn_settings_title">VPN</string>
     <string name="credentials_title">Stocarea acreditărilor</string>
-    <string name="credentials_install">Instalaţi de pe stocare</string>
-    <string name="credentials_install_summary">Instalaţi certificate de pe stocare</string>
+    <string name="credentials_install">Instalaţi de pe cardul SD</string>
+    <string name="credentials_install_summary">Instalaţi certificate de pe cardul SD</string>
     <string name="credentials_reset">Ștergeți acreditările</string>
     <string name="credentials_reset_summary">Eliminaţi toate certificatele</string>
     <string name="trusted_credentials">Acreditări de încredere</string>
@@ -2340,9 +2341,7 @@ Unele conturi pot să copieze automat pe web toate modificările de pe telefon. 
 Deoarece utilizarea datelor este măsurată de telefon, iar operatorul poate contoriza diferit utilizarea, vă recomandăm să folosiți o limită prudentă."</string>
     <string name="data_usage_restrict_background_title">Restricţionaţi datele de fundal?</string>
     <string name="data_usage_restrict_background">Dacă limitaţi traficul de internet mobil, unele aplicații și servicii nu vor funcționa decât dacă sunteți conectat la o rețea Wi-Fi.</string>
-    <string name="data_usage_restrict_background_multiuser">"Dacă limitați transferul de date mobile în fundal, unele aplicații și servicii nu vor funcționa decât dacă sunteți conectat(ă) la o rețea Wi-Fi.
-
-Această setare afectează toți utilizatorii acestui telefon."</string>
+    <string name="data_usage_restrict_background_multiuser">Dacă limitaţi traficul de internet mobil, unele aplicații și servicii nu vor funcționa decât dacă sunteți conectat la o rețea Wi-Fi.</string>
     <string name="data_usage_sweep_warning"><font size="21">^1</font> <font size="9">^2</font>"
 "<font size="12">avertisment</font></string>
     <string name="data_usage_sweep_limit"><font size="21">^1</font> <font size="9">^2</font>"
@@ -3583,7 +3582,7 @@ Astfel, datele sunt protejate pe dispozitivele pierdute sau furate."</string>
     <string name="shut_down_find_device_failure_confirm">OK</string>
     <string name="factory_reset_summary">Ștergeți toate datele din memoria internă a telefonului</string>
     <string name="erase_sure">Obligatoriu</string>
-    <string name="erase_personal_data">Date personale</string>
+    <string name="erase_personal_data">Toate fișierele de pe telefon</string>
     <string name="erase_personal_data_description">Toate fișierele și datele, inclusiv conturi, contacte, fotografii și aplicații</string>
     <string name="erase_sd_data">Formatați cardul SD</string>
     <string name="erase_sd_data_description">Formatarea va șterge toate fișierele și datele de pe cardul SD</string>
@@ -3686,6 +3685,9 @@ Astfel, datele sunt protejate pe dispozitivele pierdute sau furate."</string>
     <string name="wfd_disconnect_multiple_diag_message">Deconectează de la %1$s și %2$s alte dispozitive?</string>
     <string name="wfd_wps_keypad">Folosește tastatura</string>
     <string name="wfd_wps_pbc">Introduceţi PIN</string>
+    <string name="wfd_status_dialog_title">Wireless display</string>
+    <string name="wfd_status_dialog_message">Screen contents are being displayed on another display device through wireless connection</string>
+    <string name="wfd_status_dialog_disconnect">Disconnect</string>
     <string name="virtual_sim_global_category_title">Mi SIM</string>
     <string name="virtual_sim_global_title">Serviciul de date mobile</string>
     <string name="virtual_sim_global_description">Conectați-vă la rețeaua de date fără o cartelă SIM</string>
@@ -4126,6 +4128,8 @@ Selectați sistemul de operare:"</string>
     <string name="permission_mgr">Permisiuni</string>
     <string name="cleaner">Curăţă</string>
     <string name="power_mgr">Baterie</string>
+    <string name="secondspace_category">Second space</string>
+    <string name="secondspace_delete_space_title">Delete Second space</string>
     <string name="symbols_not_allowed_for_password">Parola nu poate conține simboluri</string>
     <string name="reset_legacy_password_settings_preface_text">Trebuie să resetezi parola de blocare a ecranului.</string>
     <string name="priority_storage_title">Setări memorie internă</string>
@@ -4349,7 +4353,7 @@ Selectați sistemul de operare:"</string>
     <string name="onekey_migrate">Mi Mover</string>
     <string name="forget_password_button_text"><u>Am uitat parola</u></string>
     <string name="storage_usb">Depozitare USB</string>
-    <string name="usb_eject">Scoate stocarea USB</string>
+    <string name="usb_eject">Scoate stocare USB</string>
     <string name="usb_eject_summary">Scoate stocare USB pentru a o îndepărta în siguranță</string>
     <string name="usb_format">Șterge stocare USB</string>
     <string name="usb_format_summary">Șterge toate datele de pe stocare USB (de ex. muzică și fotografii)</string>
@@ -4729,42 +4733,9 @@ Selectați sistemul de operare:"</string>
     <string name="lock_screen_unlock_show_summary">Deschide Ecranul principal sau introduceți parola direct</string>
     <string name="security_keyguard_category_name">Ecran blocat</string>
     <string name="security_password_category_name">Ecran blocat</string>
-    <string name="lock_screen_secure_after_timeout_title">Solicită parolă</string>
-    <string name="lock_screen_secure_after_timeout_summary">Solicită parolă: %1$s</string>
-    <string name="lock_screen_secure_after_timeout_immediately_summary">Parola este necesară imediat.</string>
-    <string name="lock_screen_secure_after_timeout_immediately_never">Nu solicita parolă niciodată</string>
     <string name="fingerprint_payment">Plăți cu amprentă digitală</string>
     <string name="unlock_disable_frp_warning_title_profile">Eliminați protecția de profil?</string>
     <string name="unlock_disable_frp_warning_content_profile">Funcțiile de protecție a profilului nu vor funcționa fără parola dvs.</string>
-    <string name="miracast_settings_category">Setări afişare Wi-Fi</string>
-    <string name="miracast_display_category">Afişaje</string>
-    <string name="miracast_menu_search">Caută</string>
-    <string name="miracast_menu_searching">Se caută</string>
-    <string name="miracast_menu_teardown">Dărâmă</string>
-    <string name="miracast_menu_connect">Începeți transmisia</string>
-    <string name="miracast_menu_disconnect">Opriţi transmisia</string>
-    <string name="miracast_menu_forget">Uită afișajul</string>
-    <string name="miracast_menu_rename">Redenumeşte afișajul</string>
-    <string name="miracast_setup_save">Salvează</string>
-    <string name="miracast_setup_cancel">Anulează</string>
-    <string name="miracast_wifi_off">Pentru a utiliza Miracast, conectează-te la Wi-Fi</string>
-    <string name="miracast_no_sinks_found">Nu sunt afișaje disponibile</string>
-    <string name="miracast_nickname">Introduceţi un nume nou:</string>
-    <string name="miracast_connection_failed_generic">Nu se poate conecta la afișaj</string>
-    <string name="miracast_sink_connected">Conectat</string>
-    <string name="miracast_sink_not_available">Nu este disponibil</string>
-    <string name="miracast_sink_connecting">Se conectează…</string>
-    <string name="miracast_sink_ready_to_connect">Gata pentru conectare</string>
-    <string name="miracast_sink_busy">Ocupat</string>
-    <string name="miracast_error_already_streaming">Deja a fost redat la un alt afișaj</string>
-    <string name="miracast_error_connection_in_progress">Se conectează…</string>
-    <string name="miracast_cancelconnect_dialog">Anulare conexiune</string>
-    <string name="miracast_dialog_title">%1$s</string>
-    <string name="miracast_error_cancelconnect">Conexiunea este ocupată</string>
-    <string name="miracast_search_for_displays">Căutarea afişajelor wireless…</string>
-    <string name="miracast_PC2THOR_streaming_on">Miracast nu este disponibil deoarece un PC este redat de acest dispozitiv</string>
-    <string name="miracast_disable_dhcp">Dezactivați HDCP</string>
-    <string name="miracast_enable_dhcp">Activați HDCP</string>
     <string name="dirac_control">Optimizare calitate audio</string>
     <string name="dirac_mode_off">Dirac oprit</string>
     <string name="dirac_mode_in_ear">Căşti Mi în ureche lite</string>
@@ -4802,8 +4773,8 @@ Selectați sistemul de operare:"</string>
     <string name="navigation_guide_dialog_dont_show_again">Nu mai afișa din nou</string>
     <string name="navigation_guide_back_anim_title">Animează gestul \"Du-te înapoi\"</string>
     <string name="navigation_guide_back_anim_summary">Afișați animația în timp ce treceți de la marginea ecranului</string>
-    <string name="fsg_mistake_touch_title">Double check for the gestures</string>
-    <string name="fsg_mistake_touch_summary">In some scenes, such as full-screen games and videos, gestures need to be double swipe to take effect</string>
+    <string name="fsg_mistake_touch_title">Verificați încă o dată gesturile</string>
+    <string name="fsg_mistake_touch_summary">În anumite scene, cum ar fi jocurile pe ecran complet și videoclipurile, gesturile trebuie să fie duble pentru a intra în vigoare</string>
     <string name="navigation_guide_settings">Gesturi demo</string>
     <string name="navigation_guide_home_title">Du-te la Ecranul de start</string>
     <string name="navigation_guide_home_summary">Glisați în sus din partea inferioară a ecranului</string>
@@ -4912,12 +4883,12 @@ Selectați sistemul de operare:"</string>
     <string name="advanced_text_layout">Activați formate avansate de text</string>
     <string name="print_enable">Activează printarea</string>
     <string name="print_remind">Activează mai întâi printarea</string>
-    <string name="usb_media_format_title">Formatați spațiul de stocare USB</string>
-    <string name="use_media_format_desc">Formatați spațiul de stocare USB? <b>Toate</b> fișierele vor fi șterse definitiv.</string>
+    <string name="usb_media_format_title">Șterge stocare USB</string>
+    <string name="use_media_format_desc">Format USB storage? <b>All</b> files will be deleted permanently.</string>
     <string name="usb_media_format_final_desc">Toate fișierele stocate pe stocarea USB vor fi șterse permanent.</string>
     <string name="usb_dlg_confirm_unmount_title">Demontați stocarea USB?</string>
     <string name="usb_dlg_confirm_unmount_text">Dacă vă demontații stocarea USB, unele aplicații pe care le utilizaţi se vor opri şi pot fi indisponibile până când veți remonta stocarea USB.</string>
-    <string name="usb_unmount_inform_text">Stocarea USB va fi demontată.</string>
+    <string name="usb_unmount_inform_text">Stocarea USB va fi scoasă.</string>
     <string name="quiet_mode">Silențios toate deranjările</string>
     <string name="dndm_summary_for_pad">Apelurile și notificările care sosesc în timp ce Nu deranja este pornit, vor fi reduse la tăcere.</string>
     <string name="miui_silent_title">Mod Silenţios</string>
@@ -4948,6 +4919,7 @@ Selectați sistemul de operare:"</string>
     <string name="uicc_media_format_final_desc">Toate fișierele stocate pe stocarea UICC vor fi șterse permanent.</string>
     <string name="usb_media_format_gesture_explanation">Desenați modelul de deblocare pentru a confirma că doriți să ștergeți stocarea USB.</string>
     <string name="uicc_media_format_gesture_explanation">Desenați modelul de deblocare pentru a confirma că doriți să ștergeți stocarea UICC.</string>
+    <string name="lock_screen_secure_after_timeout_immediately_summary">Parola este necesară imediat.</string>
     <string name="close_install_and_connect">Nu, mulțumesc</string>
     <string name="confirm_install_and_connect">Instalaţi &amp; conectaţi-vă</string>
     <string name="disable_wifi_master_key_service_first">Opriţi</string>

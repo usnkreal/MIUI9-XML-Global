@@ -93,28 +93,28 @@
         <item quantity="one">Leiratkozott %1$d spamként bejelentett üzenet feladójáról</item>
     </plurals>
     <plurals name="conversation_muted">
-        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> lezárva</item>
-        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> lezárva</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b> lezárva</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> lezárva</item>
     </plurals>
     <plurals name="conversation_spammed">
-        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> bejelentve spamként</item>
-        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> bejelentve spamként</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b> bejelentve spamként</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> bejelentve spamként</item>
     </plurals>
     <plurals name="conversation_not_spam">
-        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> bejelentve nem spamként</item>
-        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> bejelentve nem spamként</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b> bejelentve nem spamként</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> bejelentve nem spamként</item>
     </plurals>
     <plurals name="conversation_not_important">
-        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> megjelölve nem fontosként</item>
-        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> megjelölve nem fontosként</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b> megjelölve nem fontosként</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> megjelölve nem fontosként</item>
     </plurals>
     <plurals name="conversation_archived">
-        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> archiválva</item>
-        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> archiválva</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b> archiválva</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> archiválva</item>
     </plurals>
     <plurals name="conversation_deleted">
-        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> törölve</item>
-        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> törölve</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b> törölve</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> törölve</item>
     </plurals>
     <plurals name="conversation_folder_changed">
         <item quantity="other">Címkék módosítva.</item>
@@ -149,7 +149,7 @@
         <item quantity="one">%1$d melléklet</item>
     </plurals>
     <plurals name="dialog_report_spam_unsubscribe_text">
-        <item quantity="other">Ezeket az üzeneteket spamként jelöli meg. Nem szeretné megkapni ennek a(z) &amp;lt;b>%2$d feladónak&amp;lt;/b> a hasonló üzeneteit sem?%1$s</item>
+        <item quantity="other">Ezeket az üzeneteket spamként jelöli meg. Nem szeretné megkapni ennek a(z) &lt;b>%2$d feladónak&lt;/b> a hasonló üzeneteit sem?%1$s</item>
         <item quantity="one">Ezt az üzenetet spamként jelöli meg. A feladó (%1$s) által küldött hasonló üzeneteket sem szeretné megkapni?</item>
     </plurals>
     <plurals name="sync_recent">
@@ -173,9 +173,9 @@
         <item quantity="one">Megjegyzés: előfordulhat, hogy egyes címzettek továbbra sem érik el a fájlt. Lehetséges, hogy a fájlt a Google Drive-on belülről kell megosztania.</item>
     </plurals>
     <plurals name="fix_permissions_outside_domain_warning">
-        <item quantity="other">"A következő személyekkel oszt meg tartalmat:&amp;lt;br>&amp;lt;b>%1$s
-&amp;lt;/b>&amp;lt;br>. Ők nem tagjai annak a Google Apps-szervezetnek, amelyhez a fájlok tartoznak."</item>
-        <item quantity="one">A következő személyekkel oszt meg tartalmat:&amp;lt;br>&amp;lt;b>%1$s&amp;lt;/b>&amp;lt;br>. Ők nem tagjai annak a Google Apps-szervezetnek, amelyhez a fájl tartozik.</item>
+        <item quantity="other">"A következő személyekkel oszt meg tartalmat:&lt;br>&lt;b>%1$s
+&lt;/b>&lt;br>. Ők nem tagjai annak a Google Apps-szervezetnek, amelyhez a fájlok tartoznak."</item>
+        <item quantity="one">A következő személyekkel oszt meg tartalmat:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>. Ők nem tagjai annak a Google Apps-szervezetnek, amelyhez a fájl tartozik.</item>
     </plurals>
     <plurals name="files_not_shared_dialog_body">
         <item quantity="other">Előfordulhat, hogy a címzettek nem férnek hozzá a Drive-ból beszúrt fájlokhoz. Lehetséges, hogy a fájlokat a Google Drive-on belülről kell megosztania.</item>

@@ -15,8 +15,8 @@
     <string name="menu_delete">Usuń</string>
     <string name="menu_select_all">Zaznacz wszystko</string>
     <string name="menu_copy">Kopiuj do…</string>
-    <string name="menu_advanced_show">Pokaż pamięć wewnętrzną</string>
-    <string name="menu_advanced_hide">Ukryj pamięć wewnętrzną</string>
+    <string name="menu_advanced_show">Pokaż kartę SD</string>
+    <string name="menu_advanced_hide">Ukryj kartę SD</string>
     <string name="menu_file_size_show">Pokaż rozmiar pliku</string>
     <string name="menu_file_size_hide">Ukryj rozmiar pliku</string>
     <string name="button_select">Wybierz</string>

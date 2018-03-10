@@ -304,13 +304,14 @@ Használjon másik fiókot."</string>
     <string name="micloud_detail_battery_low">Akkumulátor lemerül</string>
     <string name="micloud_privacy_cloud_off">Szinkronizálás kikapcsolva</string>
     <string name="micloud_privacy_licence_agreed">Egyetért a Mi Cloud adatvédelmi irányelveivel.</string>
-    <string name="micloud_privacy_licence_privacy_policy">adatvédelmi irányelvek</string>
-    <string name="micloud_privacy_explanation">Mi Cloud aktiválása az engedély megadása után</string>
-    <string name="micloud_privacy_cloud_sync">Mi Cloud aktiválása</string>
-    <string name="micloud_privacy_warning_title">Tanács</string>
-    <string name="micloud_privacy_warning_content">A Mi Cloud aktiválása nem sikerült. Próbálja újra később.</string>
+    <string name="micloud_privacy_licence_privacy_policy">Adatvédelmi Irányelvek</string>
+    <string name="micloud_privacy_explanation">Engedély megadása a Mi Cloud szolgáltatások bekapcsolásához</string>
+    <string name="micloud_privacy_cloud_sync">Mi Cloud szolgáltatások bekapcsolása</string>
+    <string name="micloud_privacy_warning_title">Figyelmeztetés</string>
+    <string name="micloud_privacy_warning_content">Nem sikerült bekapcsolni a Mi Cloud szolgáltatásait. Várjon egy percet és próbálja újra.</string>
     <string name="micloud_privacy_warning_button">Vissza</string>
-    <string name="micloud_privacy_more">továbbiak</string>
+    <string name="micloud_privacy_progress_content">Engedély megadása…</string>
+    <string name="micloud_privacy_more">Továbbiak</string>
     <string name="micloud_check_sim_title">"SIM kártya csere történt. Jelentkezzen be
 a Mi Fiókba a Mi Cloud újraaktiválásához."</string>
     <string name="micloud_check_sim_notify_title">Mi Cloud újraaktiválása</string>
@@ -469,7 +470,7 @@ Utolsó mentés: %2$s"</string>
     <string name="micloud_notif_content_multi_user_error">Ugyanazzal a fiókkal lépett be, mint az Első asztalra.</string>
     <string name="micloud_notif_title_dirty_data">Vannak nem szinkronizált elemek</string>
     <string name="micloud_notif_content_dirty_data">Részletek</string>
-    <string name="micloud_notif_title_privacy_reopen_failed">Nem sikerült elindítani a felhőszolgáltatást</string>
+    <string name="micloud_notif_title_privacy_reopen_failed">Nem sikerült bekapcsolni a Mi Cloud szolgáltatásait</string>
     <string name="micloud_notif_content_privacy_reopen_failed">Részletek megjelenítése</string>
     <string name="micloud_find_device_guide_title">Készülékének helymeghatározásához, lezárásához, vagy törléséhez jelentkezzen be a &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font> weboldalra. Ez segíthet Önnek megtalálni készülékét, ha az elveszett.&lt;br />Ha készüléke elveszett, be kell jelentenie az összes fontosabb alkalmazásának biztonsági szolgálatánál (Alipay, WeChat, QQ, Google), hogy megvédhesse fiókját az &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font>-on.</string>
     <string name="micloud_find_device_guide_content">A szolgáltatás aktiválásához egy kimenő SMS-re szükség lehet. Ezt az SMS-t szolgáltatója ki fogja Önnek számlázni. Ha Ön SIM kártyát cserél, az üzenet automatikusan lesz elküldve a szolgáltatás újraaktiválására.</string>
@@ -509,8 +510,8 @@ Utolsó mentés: %2$s"</string>
     <string name="micloud_find_device_close_alert_content">Ha kikapcsolja ezt a szolgáltatást, nem fogja tudni behatárolni a készülék helyzetét, ha az elveszne.</string>
     <string name="micloud_find_device_close_alert_positive">Tartsa bekapcsolva</string>
     <string name="micloud_find_device_close_alert_negtive">Mindenképp kapcsolja ki</string>
-    <string name="find_device_gdpr_prompt">A Készülékkeresés bekapcsolásával Ön elfogadja az \"Adatvédelmi irányelveket\". Ha vissza kívánja vonni az adatvédelmi engedélyét, kérjük kapcsolja ki ezt a funkciót.</string>
-    <string name="find_device_gdpr_prompt_policy_doc_name">\"Adatvédelmi Irányelvek\"</string>
+    <string name="find_device_gdpr_prompt">A Készülékkeresés bekapcsolásával Ön elfogadja a Xiaomi Adatvédelmi irányelveit. Ha vissza kívánja vonni az adatvédelmi engedélyt, kapcsolja ki ezt a funkciót.</string>
+    <string name="find_device_gdpr_prompt_policy_doc_name">Adatvédelmi Irányelvek</string>
     <string name="activate_finddevice">Csatlakozzon a hálózathoz és aktiválja a készüléket.</string>
     <string name="account_related">A készülék hozzá van rendelve egy másik fiókhoz (%s). Csatlakozzon a hálózathoz és ellenőrizze a készüléket.</string>
     <string name="connect_network">Csatlakozzon Wi-Fi hálózatra vagy helyezzen be egy SIM kártyát</string>

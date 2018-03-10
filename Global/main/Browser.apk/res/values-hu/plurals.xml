@@ -57,8 +57,8 @@
         <item quantity="one">Töröl %1$d videót?</item>
     </plurals>
     <plurals name="video_history_clear_info">
-        <item quantity="other">%1$d elem törölve az előzményekből.</item>
-        <item quantity="one">%1$d elem törölve az előzményekből.</item>
+        <item quantity="other">%1$d tétel törölve az előzményekből.</item>
+        <item quantity="one">%1$d tétel törölve az előzményekből.</item>
     </plurals>
     <plurals name="video_history_clear_prompt">
         <item quantity="other">Töröl %1$d tételt az előzményekből?</item>

@@ -44,7 +44,6 @@
         <item>기본값</item>
         <item>클래식</item>
     </string-array>
-    <array name="region_prefix" />
     <string-array name="transformation_entries">
         <item>슬라이드</item>
         <item>크로스페이드</item>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="telecommAppLabel">Gestion des appels téléphoniques</string>
+    <string name="telecommAppLabel">Gérer les appels</string>
     <string name="userCallActivityLabel">Téléphone</string>
     <string name="unknown">Inconnu</string>
     <string name="notification_missedCallTitle">Appel manqué</string>

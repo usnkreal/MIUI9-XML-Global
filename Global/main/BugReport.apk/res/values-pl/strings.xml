@@ -163,9 +163,9 @@
     <string name="cta_confirm">OK</string>
     <string name="submit_dialog_title">Wyślij raport</string>
     <string name="submit_dialog_content">Twoje zgłoszenie, wraz z załącznikami oraz logami, zostanie wysłane na serwery Xiaomi. Może zawierać informacje osobiste oraz dane o lokalizacji.</string>
-    <string name="submit_dialog_content_global">Twoje zgłoszenie, wraz z załącznikami (jeśli dołączono) oraz logami (jeśli zaznaczono odpowiednie pola wyboru elementów, których nie należy wysyłać), zostanie wysłane na serwery Xiaomi oraz do sekcji na MIUI Forum o ograniczonym dostępie, dla programistów, do dalszej analizy i dyskusji. Logi mogą zawierać informacje osobiste oraz dane o lokalizacji.</string>
-    <string name="submit_dialog_cancel">Anuluj</string>
-    <string name="submit_dialog_confirm">Wyślij</string>
+    <string name="submit_dialog_content_global">Twoje zgłoszenie, wraz z załącznikami (jeśli dołączono) oraz logami (jeśli zaznaczono odpowiednie pola wyboru elementów, których nie należy wysyłać), zostanie wysłane na serwery Xiaomi oraz do sekcji na MIUI Forum o ograniczonym dostępie, dla programistów. Informacje o twoich wątkach i aktywności na forum będą zbierane do dalszej analizy i dyskusji. Logi mogą zawierać informacje osobiste oraz dane o lokalizacji.</string>
+    <string name="submit_dialog_cancel">Nie zgadzam się</string>
+    <string name="submit_dialog_confirm">Zgadzam się</string>
     <string name="mobile_data_note_dialog_title">Ostrzeżenie o limicie danych</string>
     <string name="mobile_data_note_dialog_content">Używanie danych mobilnych do wysyłania logów może generować dodatkowe koszty.</string>
     <string name="mobile_data_note_dialog_content_with_file_size">Wysłanie logów za pomocą danych mobilnych będzie wymagać %sMB danych.</string>

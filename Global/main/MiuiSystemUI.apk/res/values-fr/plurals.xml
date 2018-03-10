@@ -21,8 +21,8 @@
         <item quantity="one">Masquer les notifications de cette application ?</item>
     </plurals>
     <plurals name="block_record_notification_more_text">
-        <item quantity="other">Masquer les notifications de %1$s &amp;amp; %2$d applications.</item>
-        <item quantity="one">Masquer les notifications de %1$s &amp;amp; %2$d application.</item>
+        <item quantity="other">Masquer les notifications de %1$s &amp; %2$d applications.</item>
+        <item quantity="one">Masquer les notifications de %1$s &amp; %2$d application.</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Dégagé</item>

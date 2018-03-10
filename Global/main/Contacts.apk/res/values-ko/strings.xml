@@ -212,6 +212,8 @@
     <string name="contact_detail_calllog_call_note_tips">메모</string>
     <string name="contact_detail_calllog_call_record_tips">녹음된 통화</string>
     <string name="contact_detail_calllog_empty">기록 없음</string>
+    <string name="contact_detail_entry_pay">결제</string>
+    <string name="contact_detail_entry_pay_dialog_title">전화번호 선택</string>
     <string name="contact_detail_menu_delete_miprofile">카드 삭제</string>
     <string name="contact_detail_miprofile_accept">연럭처 카드 교환</string>
     <string name="contact_detail_miprofile_accept_fail_toast">연락처 카드를 교환하지 못했습니다.</string>
@@ -874,7 +876,7 @@
     <string name="preference_contacts_display">화면 기본 설정</string>
     <string name="preference_contacts_filter">연락처 목록 구성</string>
     <string name="preference_contacts_more">연락처 정리</string>
-    <string name="preference_contacts_moresetting">More</string>
+    <string name="preference_contacts_moresetting">더 보기</string>
     <string name="preference_dial_pad_touch_tone_default">기본값</string>
     <string name="preference_dial_pad_touch_tone_human">음성</string>
     <string name="preference_dial_pad_touch_tone_piano">피아노 키</string>
@@ -882,7 +884,7 @@
     <string name="preference_dial_pad_touch_tone_title">다이얼패드 신호음</string>
     <string name="preference_display">표시</string>
     <string name="preference_displayOptions">옵션 표시</string>
-    <string name="preference_display_contact">Display options</string>
+    <string name="preference_display_contact">화면 옵션</string>
     <string name="preference_export">내보내기</string>
     <string name="preference_import">가져오기</string>
     <string name="preference_import_export">가져오기/내보내기</string>

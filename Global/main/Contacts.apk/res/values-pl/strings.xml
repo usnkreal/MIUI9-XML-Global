@@ -211,6 +211,8 @@
     <string name="contact_detail_calllog_call_note_tips">Notatki</string>
     <string name="contact_detail_calllog_call_record_tips">Nagrana rozmowa</string>
     <string name="contact_detail_calllog_empty">Brak historii</string>
+    <string name="contact_detail_entry_pay">Zapłać</string>
+    <string name="contact_detail_entry_pay_dialog_title">Wybierz numer telefonu</string>
     <string name="contact_detail_menu_delete_miprofile">Usuń kontakt</string>
     <string name="contact_detail_miprofile_accept">Wymień się wizytówkami</string>
     <string name="contact_detail_miprofile_accept_fail_toast">Nie udało się wymienić wizytówek</string>
@@ -879,7 +881,7 @@ Aby dodać kontakty do ulubionych:
     <string name="preference_dial_pad_touch_tone_title">Dźwięki wybierania numeru</string>
     <string name="preference_display">Wyświetlanie</string>
     <string name="preference_displayOptions">Kolejność wyświetlania</string>
-    <string name="preference_display_contact">Display options</string>
+    <string name="preference_display_contact">Opcje wyświetlania</string>
     <string name="preference_export">Kopiowanie kontaktów</string>
     <string name="preference_import">Wczytaj</string>
     <string name="preference_import_export">Wczytaj/Kopiuj kontakty</string>

@@ -235,7 +235,7 @@ Delta-oppdateringsstørrelse: %2$s"</string>
     <string name="abort_restore_confirm">Gjenopprettingen er ikke ferdig. Stoppe allikevel?</string>
     <string name="feature_title_call_log">Anropshistorikk</string>
     <string name="feature_title_mms">MMS</string>
-    <string name="feature_title_account">Mi Account</string>
+    <string name="feature_title_account">Mi-konto</string>
     <string name="feature_title_antispam">Blokkeringsliste</string>
     <string name="summary_err_backup_encrypting">Logg inn til din Mi Account.</string>
     <string name="summary_err_restore_encrypting">Kunne ikke gjenopprette. Se til at denne sikkerhetskopien ble gjort med din Mi Account.</string>
@@ -250,6 +250,7 @@ Delta-oppdateringsstørrelse: %2$s"</string>
     <string name="err_filesystem_mount">Får ikke tilgang til ruterlagring</string>
     <string name="err_router_disconnected">Sjekk rutertilkoblingen din og prøv igjen.</string>
     <string name="err_router_files_delete">Kunne ikke slette sikkerhetskopieringsfiler på ruteren</string>
+    <string name="err_not_allow">Not support</string>
     <string name="backup_is_running">Sikkerhetskopierer enhet</string>
     <string name="restore_is_running">Gjenoppretter enhet</string>
     <string name="notif_backup_title">Sikkerhetskopier data</string>

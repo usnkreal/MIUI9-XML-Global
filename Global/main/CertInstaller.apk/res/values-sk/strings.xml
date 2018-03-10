@@ -27,8 +27,8 @@
     <string name="cert_too_large_error">Inštalácia zlyhala, pretože súbor certifikátu je príliš veľký.</string>
     <string name="cert_missing_error">Inštalácia zlyhala, pretože sa nepodarilo nájsť súbor s certifikátom.</string>
     <string name="cert_read_error">Inštalácia zlyhala, pretože sa nepodarilo prečítať súbor s certifikátom.</string>
-    <string name="no_cert_file_found">V ukladacom priestore USB nebol nájdený žiadny súbor certifikátu.</string>
-    <string name="sdcard_not_present">Ukl. priestor USB je nedostup.</string>
+    <string name="no_cert_file_found">Na SD karte nebol nájdený žiadny certifikát.</string>
+    <string name="sdcard_not_present">SD karta nie je k dispozícii.</string>
     <string name="only_primary_user_allowed">Certifikáty môže inštalovať iba vlastník tohto zariadenia.</string>
     <string name="credential_usage_label">Použitie poverení:</string>
     <string name="wifi_title">Profil Wi-Fi</string>

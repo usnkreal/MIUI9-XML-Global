@@ -202,6 +202,7 @@ For å aktivere kontoen må du følge
     <string name="passport_get_innetdate_msg">&lt;font color=Red>De ser ut til at&lt;/font> nummeret %s har blitt resirkulert av operatøren. Sjekke når nummere kom på nett?</string>
     <string name="passport_get_innetdate_agree">Kontroller</string>
     <string name="passport_get_innetdate_disagree">Nei</string>
+    <string name="passport_extra_gdpr_license">Creating your Mi Account means that you agree that Xiaomi will collect, process, and use your personal data, including verification data (e.g., verification codes), Second space data (e.g., information about the ways you use Second space, IDs used in First and Second spaces), and other data specified in our Privacy Policy. Refer to our Privacy Policy to learn how we process and use personal data.</string>
     <string name="search_app_name">Mi-konto</string>
     <string name="search_mi_account">Mi-konto</string>
     <string name="search_mi_account_key_words">Mi Cloud,Kontoinnstilling,Mi Pay Info,Logg av</string>
@@ -415,10 +416,10 @@ For å aktivere kontoen må du følge
     <string name="find_device_prompt_message">Enheten er sperret. Melding: %1$s.</string>
     <string name="find_device_activate_account">Aktiver konto</string>
     <string name="login_check_find_device">Henter enhetens sikkerhetsinformasjon…</string>
-    <string name="unlock_help_notice">"Hjelp:
-· Hvis du har glemt passordet ditt, gå til id.mi.com for å tilbakestille det.
-· Hvis du ikke kan låse opp enheten, gå til i.mi.com for å slå av Finn enhet.
-· Oppgi dette opplåsningsnummeret til kundeservice: %s"</string>
+    <string name="unlock_help_notice">"Help:
+1. If you forgot your password, go to id.mi.com to reset it.
+2. If you can't unlock the device, go to i.mi.com to turn off Find device.
+3. Your unlock number: %s"</string>
     <string name="login_find_device_bind">Denne enheten er knyttet til eksisterende Mi-konto-ID (%s).</string>
     <string name="find_device_locked_account_phone" formatted="false">%s, tilknyttet telefonnummer: %s</string>
     <string name="find_device_locked_account_email" formatted="false">%s, tilknyttet e-postadresse: %s</string>

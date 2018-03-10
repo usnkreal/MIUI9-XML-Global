@@ -211,6 +211,8 @@
     <string name="contact_detail_calllog_call_note_tips">Megjegyzés</string>
     <string name="contact_detail_calllog_call_record_tips">Rögzített hívás</string>
     <string name="contact_detail_calllog_empty">Nincs előzmény</string>
+    <string name="contact_detail_entry_pay">Fizetés</string>
+    <string name="contact_detail_entry_pay_dialog_title">Telefonszám kiválasztása</string>
     <string name="contact_detail_menu_delete_miprofile">Kártya törlése</string>
     <string name="contact_detail_miprofile_accept">Névjegykártya csere</string>
     <string name="contact_detail_miprofile_accept_fail_toast">Nem sikerült a névjegykártya csere</string>
@@ -526,7 +528,7 @@ Oka: \"%s\""</string>
     <string name="imLabelsGroup">Azonnali üzenetküldés</string>
     <string name="imei">IMEI</string>
     <string name="imei_invalid">Érvénytelen IMEI</string>
-    <string name="import_all_sim_entries_miui">Az összes névjegy importálva</string>
+    <string name="import_all_sim_entries_miui">Az összes névjegy importálása</string>
     <string name="import_all_vcard_string">Az összes vCard fájl importálása</string>
     <string name="import_contact_card_aggregate_suggestion_button">Kártyák összekapcsolása</string>
     <string name="import_contact_card_button">Importálás</string>
@@ -877,7 +879,7 @@ Oka: \"%s\""</string>
     <string name="preference_dial_pad_touch_tone_title">Tárcsázó hangok</string>
     <string name="preference_display">Megjelenítés</string>
     <string name="preference_displayOptions">Megjelenítési beállítások</string>
-    <string name="preference_display_contact">Display options</string>
+    <string name="preference_display_contact">Megjelenítési beállítások</string>
     <string name="preference_export">Exportálás</string>
     <string name="preference_import">Importálás</string>
     <string name="preference_import_export">Importálás/Exportálás</string>

@@ -15,8 +15,8 @@
     <string name="menu_delete">Ștergeți</string>
     <string name="menu_select_all">Selectați tot</string>
     <string name="menu_copy">Copiați în…</string>
-    <string name="menu_advanced_show">Afișați stocarea internă</string>
-    <string name="menu_advanced_hide">Ascundeți stocarea internă</string>
+    <string name="menu_advanced_show">Afișați cardul SD</string>
+    <string name="menu_advanced_hide">Ascundeți cardul SD</string>
     <string name="menu_file_size_show">Afișați mărime fișiere</string>
     <string name="menu_file_size_hide">Ascundeți mărime fișiere</string>
     <string name="button_select">Selectați</string>

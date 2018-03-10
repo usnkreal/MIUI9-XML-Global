@@ -163,9 +163,9 @@
     <string name="cta_confirm">OK</string>
     <string name="submit_dialog_title">Jelentés küldése</string>
     <string name="submit_dialog_content">A visszajelzését a csatolmányokkal és a naplófájlokkal el fogjuk küldeni a MIUI-nak. Ez személyes és helyinformációkat is tartalmazhat.</string>
-    <string name="submit_dialog_content_global">Az Ön visszajelzése, valamint mellékletei (ha vannak) és naplói elküldésre kerülnek a MIUI szervereire és a MIUI Fórum belső fejlesztői csoportjának elemzésre és további kommunikációra. Beállíthatja a megfelelő mezőket, hogy mely elemeket kívánja feltölteni. A naplók tartalmazhatják az Ön személyes és helyadatait.</string>
-    <string name="submit_dialog_cancel">Mégse</string>
-    <string name="submit_dialog_confirm">Küldés</string>
+    <string name="submit_dialog_content_global">Az Ön visszajelzése, valamint mellékletei (ha vannak) és naplói elküldésre kerülnek a MIUI szervereire és a MIUI Fórum belső fejlesztői csoportjának. Az Ön hozzászólásainak és fórumaktivitásának információi is összegyűjtésre kerülnek elemzésre és további kommunikáció céljából. Beállíthatja a megfelelő mezőket, hogy mely elemeket kívánja feltölteni. A naplók tartalmazhatják az Ön személyes és helyadatait.</string>
+    <string name="submit_dialog_cancel">Elutasítás</string>
+    <string name="submit_dialog_confirm">Elfogadás</string>
     <string name="mobile_data_note_dialog_title">Adatforgalmi figyelmeztetés</string>
     <string name="mobile_data_note_dialog_content">Mobilhálózati adatok használata a naplófájlok feltöltésére további költségeket vonhat maga után.</string>
     <string name="mobile_data_note_dialog_content_with_file_size">A naplófájlok feltöltése mobiladat-forgalmon %sMB adatot fog felhasználni.</string>

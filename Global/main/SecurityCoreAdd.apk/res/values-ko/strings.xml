@@ -161,16 +161,32 @@
 자동으로 보조 공간에 추가될 것입니다."</string>
     <string name="openSuccess">켜짐</string>
     <string name="closeSuccess">꺼짐</string>
-    <string name="settings_notification_and_switch">전환 &amp; 알림</string>
+    <string name="settings_set_password_for_owner_space">기본 공간의 화면 잠금 설정</string>
+    <string name="settings_set_password_for_owner_space_desc">설정에서 바로가기 제거를 위해 기본 공간의 화면 잠금 설정</string>
+    <string name="settings_set_password_for_sec_space">보조 공간의 화면 잠금 설정</string>
+    <string name="settings_set_password_for_sec_space_desc">설정에서 바로가기 제거를 위해 보조 공간의 화면 잠금 설정</string>
+    <string name="settings_notification_and_switch_owner_space">기본 공간 설정</string>
+    <string name="settings_second_space_entrance_title">설정에서 바로가기</string>
+    <string name="settings_second_space_entrance_summary">설정에 보조 공간 바로가기 표시</string>
+    <string name="settings_switch_shortcut_title">홈 화면 바로가기</string>
+    <string name="settings_switch_space">공간 전환</string>
+    <string name="settings_notification_from_second_space_title">보조 공간의 알림 표시</string>
+    <string name="settings_notification_and_switch_second_space">보조 공간 설정</string>
+    <string name="settings_notification_from_owner_space_title">기본 공간의 알림 표시</string>
+    <string name="notification_from_owner_user">기본 공간의 알림 표시</string>
+    <string name="notification_from_second_user">보조 공간의 알림 표시</string>
+    <string name="radio_button_icon_switch_title">바로가기 사용</string>
+    <string name="radio_button_password_switch_title">비밀번호 사용</string>
     <string name="settings_cross_notification_title">알림</string>
     <string name="settings_cross_notification_summary">다른 공간에서 알림 수신</string>
-    <string name="settings_switch_shortcut_title">바로가기를 탭하여 전환</string>
     <string name="settings_switch_shortcut_summary">기본 공간에서 홈 화면 바로가기 표시</string>
     <string name="settings_space_data">데이터</string>
     <string name="settings_status_icon_title">보조 공간 아이콘</string>
     <string name="settings_status_icon_summary">상태표시줄에 보조 공간 아이콘 표시</string>
-    <string name="settings_msg_add_shortcut">기본 공간에 바로가기 추가됨</string>
-    <string name="settings_msg_remove_shortcut">기본 공간의 바로가기 제거됨</string>
+    <string name="settings_msg_add_shortcut_to_owner_space">기본 공간에 바로가기 추가됨</string>
+    <string name="settings_msg_add_shortcut_to_second_space">바로가기가 보조 공간에 생성됨</string>
+    <string name="settings_msg_remove_shortcut_from_owner_space">기본 공간의 바로가기 제거됨</string>
+    <string name="settings_msg_remove_shortcut_from_second_space">바로가기가 보조 공간에서 제거됨</string>
     <string name="start_setting_guide_desc_title">간단한 설정 방법으로 완료하십시오.</string>
     <string name="setting_is_show_text_contacts">비공개 연락처 및 메시지 설정</string>
     <string name="switch_data_app">보조 공간으로 항목 이동</string>
@@ -342,4 +358,14 @@
     <string name="sdcradfs_dialog_in_sec_message">"업데이트를 하시려면 먼저 기존의 보조 공간을 삭제하시고 다시 생성하셔야 합니다. 보조 공간에서 기본 공간으로의 데이터 이동은 재부팅 후 적용됩니다.
 업데이트를 하지 않으시는 경우, 듀얼 앱이 정상적으로 작동하지 않을 수 있습니다."</string>
     <string name="space_created_success">보조 공간 생성 성공</string>
+    <string name="space_create_guide_title_1">개인 정보를 보호하십시오</string>
+    <string name="space_create_guide_desc_1">앱과 사진을 안전하게 저장합니다.</string>
+    <string name="space_create_guide_title_2">아무때나 생성할 수 있습니다.</string>
+    <string name="space_create_guide_desc_2">분리 공간 사용을 위해 완벽하게 준비되어있습니다.</string>
+    <string name="space_create_guide_title_3">안전 위협이 없습니다.</string>
+    <string name="space_create_guide_desc_3">보조 공간은 기기 안의 다른 항목에 영향을 주지않습니다.</string>
+    <string name="space_create_guide_switchmode_title">공간 전환</string>
+    <string name="second_space_desktop_tips_dialog_title">중요한 업데이트</string>
+    <string name="second_space_desktop_tips_dialog_positive_text">알겠습니다</string>
+    <string name="second_space_desktop_tips_dialog_message">이 업데이트 후 데이터 이동 및 보조 공간 관리 아이콘이 홈 화면에 표시되지 않을 것입니다. 설정에서 해당 기능에 접근하실 수 있습니다.</string>
 </resources>

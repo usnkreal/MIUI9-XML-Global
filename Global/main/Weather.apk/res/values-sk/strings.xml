@@ -64,12 +64,13 @@
     <string name="button_abandon">Zrušiť zmeny</string>
     <string name="button_add_city">Pridať mesto</string>
     <string name="button_allow">Potvrdiť</string>
-    <string name="button_confirm">Povoliť</string>
-    <string name="button_exit">Ukončiť</string>
+    <string name="button_confirm">Súhlasím</string>
+    <string name="button_exit">Nesúhlasím</string>
     <string name="button_not_allow">Zrušiť</string>
     <string name="button_sure_abandon">Zrušiť zmeny?</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Skontrolujte nastavenie siete a skúste to znova</string>
+    <string name="china_version_first_start_network_msg">Používaním tohto produktu vyjadrujete súhlas s %1$s a %2$s Xiaomi. Pre správne fungovanie vyžaduje táto aplikácia pripojenie k internetu a informácie o vašej polohe.</string>
     <string name="city_exceeded_warning">Môžete pridať max. 10 miest</string>
     <string name="commercial">Komerčný</string>
     <string name="common_loading_text">Chvíľku strpenia…</string>
@@ -151,7 +152,7 @@
     <string name="menu_location">Mestá</string>
     <string name="menu_speaker">Hlasové vysielanie</string>
     <string name="mi_pad2">latte</string>
-    <string name="minute_rain">Minútová predpoveď</string>
+    <string name="minute_rain">Predpoveď zrážok</string>
     <string name="minute_rain_after_an_hour">O hodinu neskôr</string>
     <string name="minute_rain_after_two_hour">O dve hodiny neskôr</string>
     <string name="minute_rain_feedback_subtitle">Aké je počasie</string>
@@ -266,4 +267,16 @@
     <string name="xiaomi_weather_description_title">O Počasí</string>
     <string name="yes_vote_ratio">Za: %1$s%%</string>
     <string name="your_location">Vaša poloha</string>
+    <string name="button_settings_cancel">Zrušiť</string>
+    <string name="button_settings_confirm">Zrušiť</string>
+    <string name="button_settings_confirm_to_revoke_msg">Po zrušení autorizácie nebudete viac môcť používať Počasie.</string>
+    <string name="button_settings_confirm_to_revoke_title">Zrušiť autorizáciu?</string>
+    <string name="eu_region_version_first_start_network_msg">Používaním tohto produktu súhlasíte s tým, že Xiaomi môže zbierať, spracovávať a používať vaše osobné údaje, vrátane miest, ktoré ste vyhľadávali a ostatných typov dát špecifikovaných v Zásadách ochrany osobných údajov. Pre viac informácií o tom, akým spôsobom zbierame a používame informácie sa dozviete v našich Zásadách ochrany osobných údajov. Dotykom na \"Súhlasím\" súhlasíte so %1$s a %2$s Xiaomi.</string>
+    <string name="policy_settings">Zmluvné podmienky</string>
+    <string name="privacy_grant_failed">Pridelenie autorizácie sa nepodarilo. Chvíľu počkajte a skúste to znova.</string>
+    <string name="privacy_grant_or_revoke_settings">Pridelenie &amp; zrušenie autorizácie</string>
+    <string name="privacy_grant_success">Autorizácia úspešne udelená</string>
+    <string name="privacy_revoke_failed">Zrušenie autorizácie sa nepodarilo. Chvíľu počkajte a skúste to znova.</string>
+    <string name="privacy_revoke_success">Autorizácia úspešne zrušená</string>
+    <string name="privacy_settings">Zásady ochrany osobných údajov</string>
 </resources>

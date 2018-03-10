@@ -516,10 +516,10 @@
     <string name="nav_bottom_bar_new_tab">새 탭</string>
     <string name="nav_screen_container_tab_incognito">익명 탭</string>
     <string name="nav_screen_container_tab_normal">보통 탭</string>
-    <string name="nav_screen_incognito_message">"Your browsing and search history won't be saved in Incognito mode.
-Remember that the files you download and the bookmarks you add will still be saved."</string>
-    <string name="nav_screen_incognito_title">Incongnito mode</string>
-    <string name="navigation_delete_all">swipe left and right to close all tabs</string>
+    <string name="nav_screen_incognito_message">"익명 모드에서는 서핑 및 검색 기록이 저장되지 않을 것입니다.
+하지만 북마크 추가와 다운로드된 파일은 저장될 것입니다."</string>
+    <string name="nav_screen_incognito_title">익명 모드</string>
+    <string name="navigation_delete_all">왼쪽과 오른쪽으로 스와이프하여 모든 탭 닫기</string>
     <string name="navigationbar_rightbutton_actiontext_cancle">취소</string>
     <string name="navigationbar_rightbutton_actiontext_go">이동</string>
     <string name="navigationbar_rightbutton_actiontext_search">검색</string>

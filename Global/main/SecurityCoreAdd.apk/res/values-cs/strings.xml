@@ -161,16 +161,32 @@ Zprávy budou zobrazeny pouze ve Druhém prostoru."</string>
 tato funkce bude automaticky přidána do Druhého prostoru."</string>
     <string name="openSuccess">Zapnuto</string>
     <string name="closeSuccess">Vypnuto</string>
-    <string name="settings_notification_and_switch">Přepínání a oznámení</string>
+    <string name="settings_set_password_for_owner_space">Nastavte zámek obrazovky v Prvním prostoru</string>
+    <string name="settings_set_password_for_owner_space_desc">Nastavte zámek obrazovky v Prvním prostoru pro odebrání zástupce z Nastavení.</string>
+    <string name="settings_set_password_for_sec_space">Nastavte zámek obrazovky v Druhém prostoru</string>
+    <string name="settings_set_password_for_sec_space_desc">Nastavte zámek obrazovky v Druhém prostoru pro odebrání zástupce z Nastavení.</string>
+    <string name="settings_notification_and_switch_owner_space">Nastavení Prvního prostoru</string>
+    <string name="settings_second_space_entrance_title">Zástupce v Nastavení</string>
+    <string name="settings_second_space_entrance_summary">Zobrazit zástupce Druhého prostoru v Nastavení</string>
+    <string name="settings_switch_shortcut_title">Zástupce na Domovské obrazovce</string>
+    <string name="settings_switch_space">Přepnutí mezi prostory</string>
+    <string name="settings_notification_from_second_space_title">Zobrazit oznámení z Druhého prostoru</string>
+    <string name="settings_notification_and_switch_second_space">Nastavení Druhého prostoru</string>
+    <string name="settings_notification_from_owner_space_title">Zobrazit oznámení z Prvního prostoru</string>
+    <string name="notification_from_owner_user">Zobrazit oznámení z Prvního prostoru</string>
+    <string name="notification_from_second_user">Zobrazit oznámení z Druhého prostoru</string>
+    <string name="radio_button_icon_switch_title">Použití zástupce</string>
+    <string name="radio_button_password_switch_title">Použití hesla</string>
     <string name="settings_cross_notification_title">Oznámení</string>
     <string name="settings_cross_notification_summary">Dostávat oznámení z jiného prostoru</string>
-    <string name="settings_switch_shortcut_title">Klepněte na zástupce pro přepnutí</string>
     <string name="settings_switch_shortcut_summary">Zobrazit zástupce Domovské obrazovky v Prvním prostoru</string>
     <string name="settings_space_data">Data</string>
     <string name="settings_status_icon_title">Ikona Druhého prostoru</string>
     <string name="settings_status_icon_summary">Zobrazit ikonu Druhého prostoru ve stavovém řádku</string>
-    <string name="settings_msg_add_shortcut">Přidán zástupce do Prvního prostoru</string>
-    <string name="settings_msg_remove_shortcut">Odstraněn zástupce z Prvního prostoru</string>
+    <string name="settings_msg_add_shortcut_to_owner_space">Zástupce byl přidán do Prvního prostoru</string>
+    <string name="settings_msg_add_shortcut_to_second_space">Byl vytvořen zástupce v Druhém prostoru</string>
+    <string name="settings_msg_remove_shortcut_from_owner_space">Zástupce z Prvního prostoru byl odstraněn</string>
+    <string name="settings_msg_remove_shortcut_from_second_space">Zástupce ve Druhém prostoru byl odstraněn</string>
     <string name="start_setting_guide_desc_title">Je potřeba nastavit několik věcí</string>
     <string name="setting_is_show_text_contacts">Nastavit osobní kontakty a zprávy</string>
     <string name="switch_data_app">Přesunout položky do Druhého prostoru</string>
@@ -341,4 +357,14 @@ Pokud zařízení neaktualizujete, duální aplikace nemusejí fungovat správn�
     <string name="sdcradfs_dialog_in_sec_message">"Pro aktualizaci nejprve odstraňte Druhý prostor a poté jej znovu vytvořte. Přesuňte data z Druhého prostoru do Prvního a restartujte vaše zařízení pro dokončení aktualizace.
 Pokud zařízení neaktualizujete, duální aplikace nemusejí fungovat správně."</string>
     <string name="space_created_success">Druhý prostor vytvořen</string>
+    <string name="space_create_guide_title_1">Chraňte své soukromí</string>
+    <string name="space_create_guide_desc_1">Ukládejte aplikace a fotky bezpečně</string>
+    <string name="space_create_guide_title_2">Vytvořte jej kdykoli</string>
+    <string name="space_create_guide_desc_2">Kompletně připravený oddělený prostor</string>
+    <string name="space_create_guide_title_3">Naprosto bezpečný</string>
+    <string name="space_create_guide_desc_3">Druhý prostor neovlivní jiné položky na vašem zařízení</string>
+    <string name="space_create_guide_switchmode_title">Přepnutí mezi prostory</string>
+    <string name="second_space_desktop_tips_dialog_title">Důležitá aktualizace</string>
+    <string name="second_space_desktop_tips_dialog_positive_text">Rozumím</string>
+    <string name="second_space_desktop_tips_dialog_message">Po této aktualizaci již ikony pro přesun dat a správu Druhého prostoru nebudou zobrazeny na Domovské obrazovce. Tyto funkce budete moci najít v Nastavení.</string>
 </resources>

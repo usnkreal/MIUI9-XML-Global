@@ -64,12 +64,13 @@
     <string name="button_abandon">Odrzuć zmiany</string>
     <string name="button_add_city">Dodaj lokalizację</string>
     <string name="button_allow">OK</string>
-    <string name="button_confirm">Zezwól</string>
-    <string name="button_exit">Zakończ</string>
+    <string name="button_confirm">Zgadzam się</string>
+    <string name="button_exit">Nie zgadzam się</string>
     <string name="button_not_allow">Anuluj</string>
     <string name="button_sure_abandon">Odrzucić zmiany?</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Sprawdź połączenie z internetem i spróbuj ponownie</string>
+    <string name="china_version_first_start_network_msg">Korzystając z tego produktu, wyrażasz zgodę na %1$s oraz %2$s Xiaomi. Aplikacja wymaga połączenia z internetem i dostępu do twojej lokalizacji, aby pracować poprawnie.</string>
     <string name="city_exceeded_warning">Możesz dodać do 10 miast</string>
     <string name="commercial">Komercyjny</string>
     <string name="common_loading_text">Chwileczkę…</string>
@@ -153,7 +154,7 @@ Dotknij ekranu, aby ręcznie dodać lub zmienić miasto"</string>
     <string name="menu_location">Lokalizacje</string>
     <string name="menu_speaker">Wypowiadanie na głos</string>
     <string name="mi_pad2">latte</string>
-    <string name="minute_rain">Prognoza minutowa</string>
+    <string name="minute_rain">Prognoza dla opadów</string>
     <string name="minute_rain_after_an_hour">W ciągu godziny</string>
     <string name="minute_rain_after_two_hour">W ciągu 2 godzin</string>
     <string name="minute_rain_feedback_subtitle">Powiedz nam jak wygląda pogoda.</string>
@@ -268,4 +269,16 @@ Dotknij ekranu, aby ręcznie dodać lub zmienić miasto"</string>
     <string name="xiaomi_weather_description_title">O Pogodzie</string>
     <string name="yes_vote_ratio">Za %1$s%%</string>
     <string name="your_location">Twoja lokalizacja</string>
+    <string name="button_settings_cancel">Anuluj</string>
+    <string name="button_settings_confirm">Unieważnij</string>
+    <string name="button_settings_confirm_to_revoke_msg">Nie będziesz mógł korzystać z Pogody po unieważnieniu autoryzacji.</string>
+    <string name="button_settings_confirm_to_revoke_title">Unieważnić autoryzację?</string>
+    <string name="eu_region_version_first_start_network_msg">Poprzez korzystanie z tego produktu zgadzasz się na to, aby Xiaomi zbierało, przetwarzało i wykorzystywało Twoje dane personalne, włącznie z współrzędnymi miast, których szukasz i dane innego typu, wyróżnione w naszej Polityce Prywatności. Zapoznaj się z naszą Polityką Prywatności, aby dowiedzieć się, jak zbieramy i przetwarzamy informacje. Dotykając \"Zgadzam się\" wyrażasz zgodę na %1$s i %2$s Xiaomi.</string>
+    <string name="policy_settings">Warunki Użytkowania</string>
+    <string name="privacy_grant_failed">Nie udało się udzielić autoryzacji. Poczekaj minutę lub dwie i spróbuj ponownie.</string>
+    <string name="privacy_grant_or_revoke_settings">Udzielanie i unieważnianie autoryzacji</string>
+    <string name="privacy_grant_success">Pomyślnie udzielono autoryzacji</string>
+    <string name="privacy_revoke_failed">Nie udało się unieważnić autoryzacji. Poczekaj minutę lub dwie i spróbuj ponownie.</string>
+    <string name="privacy_revoke_success">Pomyślnie unieważniono autoryzację</string>
+    <string name="privacy_settings">Polityka Prywatności</string>
 </resources>

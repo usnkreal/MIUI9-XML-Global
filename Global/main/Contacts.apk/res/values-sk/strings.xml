@@ -211,6 +211,8 @@
     <string name="contact_detail_calllog_call_note_tips">Poznámka o hovore</string>
     <string name="contact_detail_calllog_call_record_tips">Nahrávka hovoru</string>
     <string name="contact_detail_calllog_empty">Žiadna história hovorov</string>
+    <string name="contact_detail_entry_pay">Zaplatiť</string>
+    <string name="contact_detail_entry_pay_dialog_title">Zvoľte telefónne číslo</string>
     <string name="contact_detail_menu_delete_miprofile">Vymazať kartu</string>
     <string name="contact_detail_miprofile_accept">Vymeniť si karty kontaktu</string>
     <string name="contact_detail_miprofile_accept_fail_toast">Nebolo možné vymeniť si karty kontaktu</string>
@@ -864,7 +866,7 @@ Pre pridanie kontaktu do obľúbených:
     <string name="preference_dial_pad_touch_tone_title">Tóny číselníka</string>
     <string name="preference_display">Zobraziť</string>
     <string name="preference_displayOptions">Možnosti zobrazenia</string>
-    <string name="preference_display_contact">Display options</string>
+    <string name="preference_display_contact">Možnosti zobrazenia</string>
     <string name="preference_export">Export</string>
     <string name="preference_import">Import</string>
     <string name="preference_import_export">Import/Export</string>

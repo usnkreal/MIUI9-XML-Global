@@ -15,8 +15,8 @@
     <string name="menu_delete">Slett</string>
     <string name="menu_select_all">Markér alt</string>
     <string name="menu_copy">Kopiér til …</string>
-    <string name="menu_advanced_show">Vis den interne lagringen</string>
-    <string name="menu_advanced_hide">Skjul den interne lagringen</string>
+    <string name="menu_advanced_show">Vis SD-kortet</string>
+    <string name="menu_advanced_hide">Skjul SD-kortet</string>
     <string name="menu_file_size_show">Vis filstørrelsen</string>
     <string name="menu_file_size_hide">Skjul filstørrelsen</string>
     <string name="button_select">Velg</string>

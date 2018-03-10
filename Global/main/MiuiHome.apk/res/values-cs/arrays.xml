@@ -44,7 +44,6 @@
         <item>Výchozí</item>
         <item>Klasický</item>
     </string-array>
-    <array name="region_prefix" />
     <string-array name="transformation_entries">
         <item>Bez odrazu</item>
         <item>Prolnutí</item>

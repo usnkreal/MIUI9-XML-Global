@@ -303,15 +303,16 @@ Veuillez utiliser un autre compte."</string>
     <string name="micloud_detail_pause">Synchronisation en pause</string>
     <string name="micloud_detail_need_charge_or_sleep">"Connectez le chargeur et éteignez l'écran pour synchroniser"</string>
     <string name="micloud_detail_battery_low">Batterie faible</string>
-    <string name="micloud_privacy_cloud_off">Synchronisation désactivée</string>
+    <string name="micloud_privacy_cloud_off">La synchronisation est désactivée</string>
     <string name="micloud_privacy_licence_agreed">Accepter la Politique de confidentialité de Mi Cloud.</string>
-    <string name="micloud_privacy_licence_privacy_policy">politique de confidentialité</string>
-    <string name="micloud_privacy_explanation">"Activer Mi Cloud après avoir activé l'autorisation"</string>
-    <string name="micloud_privacy_cloud_sync">Activer Mi Cloud</string>
-    <string name="micloud_privacy_warning_title">Astuce</string>
-    <string name="micloud_privacy_warning_content">"Impossible d'activer Mi Cloud. Réessayez plus tard."</string>
+    <string name="micloud_privacy_licence_privacy_policy">Politique de Confidentialité</string>
+    <string name="micloud_privacy_explanation">"Accorder l'autorisation pour activer les services de Mi Cloud"</string>
+    <string name="micloud_privacy_cloud_sync">Activer les services de Mi Cloud</string>
+    <string name="micloud_privacy_warning_title">Attention</string>
+    <string name="micloud_privacy_warning_content">Impossible de désactiver les services de Mi Cloud. Patientez une minute ou deux et réessayez.</string>
     <string name="micloud_privacy_warning_button">Retour</string>
-    <string name="micloud_privacy_more">plus</string>
+    <string name="micloud_privacy_progress_content">"Accord d'autorisation en cours…"</string>
+    <string name="micloud_privacy_more">Plus</string>
     <string name="micloud_check_sim_title">"Vous avez changé de carte SIM. Connectez-vous
 
 a votre compte Mi pour réactiver Mi Cloud."</string>
@@ -474,7 +475,7 @@ Dernière sauvegarde à %2$s"</string>
     <string name="micloud_notif_content_multi_user_error">Vous vous êtes connecté avec le même compte dans le Premier Espace.</string>
     <string name="micloud_notif_title_dirty_data">Vous avez des éléments non synchronisés</string>
     <string name="micloud_notif_content_dirty_data">Détails</string>
-    <string name="micloud_notif_title_privacy_reopen_failed">Impossible de démarrer le service Cloud</string>
+    <string name="micloud_notif_title_privacy_reopen_failed">"Impossible d'activer les services de Mi Cloud"</string>
     <string name="micloud_notif_content_privacy_reopen_failed">Afficher les détails</string>
     <string name="micloud_find_device_guide_title">Connectez-vous à &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font> pour localiser, verrouiller ou effacer votre appareil. Cela pourrait vous aider à trouver votre appareil en cas de perte.&lt;br />Si vous perdez votre appareil, vous pouvez contacter le service de sécurité des applications fréquemment utilisées (ex. Alipay, WeChat, QQ) afin de protéger vos comptes sur &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font>.</string>
     <string name="micloud_find_device_guide_content">Un message SMS sortant peut être nécessaire pour activer ce service. Votre opérateur vous facturera ce message. Lorsque vous changez votre carte SIM, un message sera envoyé automatiquement pour réactiver cette fonctionnalité.</string>
@@ -514,8 +515,8 @@ Dernière sauvegarde à %2$s"</string>
     <string name="micloud_find_device_close_alert_content">Si vous désactivez cette fonctionnalité, vous ne serez plus en mesure de localiser votre appareil en cas de perte.</string>
     <string name="micloud_find_device_close_alert_positive">Continuer</string>
     <string name="micloud_find_device_close_alert_negtive">Désactiver quand même</string>
-    <string name="find_device_gdpr_prompt">"En activant Localiser l'appareil, vous acceptez la \"Politique de confidentialité\". Si vous devez révoquer votre autorisation de confidentialité veuillez désactiver cette fonctionnalité."</string>
-    <string name="find_device_gdpr_prompt_policy_doc_name">\"Politique de Confidentialité\"</string>
+    <string name="find_device_gdpr_prompt">"En activant Localiser l'appareil, vous acceptez notre \"Politique de confidentialité\". Si vous devez révoquer votre autorisation de confidentialité veuillez désactiver cette fonctionnalité."</string>
+    <string name="find_device_gdpr_prompt_policy_doc_name">Politique de Confidentialité</string>
     <string name="activate_finddevice">"Connectez-vous à Internet pour activer votre l'appareil"</string>
     <string name="account_related">"Votre appareil est associé avec un Compte Mi existant(%s). Connectez-vous à Internet pour vérifier l'appareil."</string>
     <string name="connect_network">Se connecter au Wi-Fi ou insérer une carte SIM</string>

@@ -15,8 +15,8 @@
     <string name="menu_delete">Изтриване</string>
     <string name="menu_select_all">Избиране на всичко</string>
     <string name="menu_copy">Копиране във…</string>
-    <string name="menu_advanced_show">Вътр. хранилище: Показв.</string>
-    <string name="menu_advanced_hide">Вътр. хранилище: Скрив.</string>
+    <string name="menu_advanced_show">SD карта: Показване</string>
+    <string name="menu_advanced_hide">SD карта: Скриване</string>
     <string name="menu_file_size_show">Размер на файла: Показв.</string>
     <string name="menu_file_size_hide">Размер на файла: Скрив.</string>
     <string name="button_select">Избиране</string>

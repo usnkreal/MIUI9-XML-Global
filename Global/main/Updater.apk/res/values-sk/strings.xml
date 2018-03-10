@@ -316,5 +316,5 @@ BETA Feedback Programu\""</string>
     <string name="security_space_msg">MIUI 9 má nový systém súborov. Pokiaľ teraz reštartujete zariadenie, nebudete už môcť ďalej používať Druhý priestor. Pred reštartovaním preto presuňte všetky položky z Druhého priestoru do Prvého.</string>
     <string name="security_space_button_pos">Nereštartovať</string>
     <string name="security_space_button_neg">Reštartovať</string>
-    <string name="privacy_revoke_msg">Updater allows you to keep MIUI and its features up to date. After you revoke authorization, the app will stop collecting data, and all the related data (including the data about devices which require updates) will be deleted from this device and the servers. Refusing to update your device might bring security risks. Revoke authorization anyway?</string>
+    <string name="privacy_revoke_msg">Aplikácia Aktualizácie udržiava MIUI a jej funkcie aktuálne. Po zrušení autorizácie aplikácia prestane zbierať dáta a všetky súvisiace dáta (vrátane dát o zariadení, ktoré sú potrebné pre aktualizácie) budú zmazané zo zariadenia a serverov. Odmietnutím aktualizácie vášho zariadenia sa vystavujete bezpečnostnému riziku. Zrušiť autorizáciu napriek tomu?</string>
 </resources>

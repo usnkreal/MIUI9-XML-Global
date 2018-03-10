@@ -4,6 +4,6 @@
         <item quantity="other">Zmeškané hovory</item>
         <item quantity="one">Zmeškaný hovor</item>
         <item quantity="few">Zmeškané hovory</item>
-        <item quantity="many">Missed calls</item>
+        <item quantity="many">Zmeškaného hovoru</item>
     </plurals>
 </resources>

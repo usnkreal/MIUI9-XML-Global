@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="telecommAppLabel">Administrering av telefonsamtaler</string>
+    <string name="telecommAppLabel">Administrer anrop</string>
     <string name="userCallActivityLabel">Telefon</string>
     <string name="unknown">Ukjent</string>
     <string name="notification_missedCallTitle">Tapt anrop</string>

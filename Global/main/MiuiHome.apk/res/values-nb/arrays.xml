@@ -44,7 +44,6 @@
         <item>Standard</item>
         <item>Klassisk</item>
     </string-array>
-    <array name="region_prefix" />
     <string-array name="transformation_entries">
         <item>Skyv</item>
         <item>Crossfade</item>

@@ -115,6 +115,6 @@
     <string name="phone_get_text">귀하의 전화번호%2$s를 가져오도록 %1$s을(를) 허용하시겠습니까?</string>
     <string name="phone_get_processing">가져오는 중…</string>
     <string name="agree">허용</string>
-    <string name="privacy_revoke_tips">철회하시면 SMS 동기화 기능을 사용하실 수 없게 됩니다.</string>
-    <string name="privacy_revoke_failed_msg">개인 정보 보호 정책을 철회로 전화번호를 얻을 수 없어서 활성화에 실패했습니다.</string>
+    <string name="privacy_revoke_tips">After you revoke authorization, Messaging will stop collecting your data and delete all your data from its servers. Sync with Mi Cloud, Mi Message, and other Messaging features will no longer be available. Revoke authorization anyway?</string>
+    <string name="privacy_revoke_failed_msg">Activation requires granting authorization so that Messaging could get your phone number.</string>
 </resources>

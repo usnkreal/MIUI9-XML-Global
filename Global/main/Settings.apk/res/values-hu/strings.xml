@@ -10,7 +10,7 @@
     <string name="privacy_authorize_revoke_time">Visszavonás (%1$dmp)</string>
     <string name="privacy_authorize_title">Engedély megadása</string>
     <string name="privacy_authorize_privacy_policy">Adatvédelmi Irányelvek</string>
-    <string name="privacy_authorize_dialog_message">%1$s használatához el kell olvasnia és fogadnia az %2$s-et. A normális működéshez az alkalmazásnak internetkapcsolatra van szüksége. Elfogadja?</string>
+    <string name="privacy_authorize_dialog_message"><Data>A Mi Cloud alapvető szolgáltatásainak használatához Önnek el kell fogadnia, hogy a Xiaomi összegyűjti, feldolgozza és felhasznája az Ön személyes adatait. Az Adatvédelmi irányelveinkben megtalálja, hogyan gyűjtjük és hogyan dolgozzuk fel ezeket. AZ Elfogadás bejelölése azt jelenti, Ön elolvasta és egyetért a Xiaomi &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Adatvédelmi irányelveivel&lt;/a> és &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Felhasználói szerződésével&lt;/a>.​</Data></string>
     <string name="privacy_authorize_dialog_exit">Kilépés</string>
     <string name="privacy_authorize_dialog_agree">Elfogadás</string>
     <string name="privacy_authorize_network_error">Csatlakozzon a hálózatra, majd próbálja újra.</string>
@@ -18,6 +18,7 @@
     <string name="privacy_authorize_revoke_failed">Nem sikerült az engedélyt visszavonni</string>
     <string name="privacy_authorize_success">Az engedély sikeresen megadva</string>
     <string name="privacy_authorize_revoking">Engedély visszavonása…</string>
+    <string name="privacy_authorize_cloud_msg">Mi Fiókja biztonságáért, ha valóban vissza szeretné vonni a Mi Cloud engedélyeit (beleértve a szinkronizálást és a mentéseket is) jelentkezzen be az i.mi.com weboldalon.</string>
     <string name="launcher_title">Kezdőképernyő és előzmények</string>
     <string name="defalut_launcher_title">Alapértelmezett kezdőképernyő</string>
     <string name="miui_screen_config_title">Kezdőképernyő beállítások</string>
@@ -235,13 +236,13 @@
     <string name="radioInfo_display_asu">asu</string>
     <string name="radioInfo_lac">LAC</string>
     <string name="radioInfo_cid">CID</string>
-    <string name="sdcard_unmount">USB-tár leválasztása</string>
-    <string name="sdcard_format">USB-tár törlése</string>
+    <string name="sdcard_unmount">SD-kártya leválasztása</string>
+    <string name="sdcard_format">SD-kártya törlése</string>
     <string name="small_font">Kicsi</string>
     <string name="medium_font">Közepes</string>
     <string name="large_font">Nagy</string>
     <string name="font_size_save">OK</string>
-    <string name="sdcard_setting">USB-tár</string>
+    <string name="sdcard_setting">SD-kártya</string>
     <string name="battery_info_status_unknown">Ismeretlen</string>
     <string name="battery_info_status_charging">Töltés</string>
     <string name="battery_info_status_charging_ac">Töltés hálózatról</string>
@@ -376,14 +377,14 @@ A sugárzás kis energiájú Bluetooth-jeleket használ."</string>
     <string name="sdcard_changes_instructions">A módosítások az USB-kábel újracsatlakoztatásakor lépnek életbe.</string>
     <string name="sdcard_settings_screen_mass_storage_text">USB-háttértár engedélyezése</string>
     <string name="sdcard_settings_total_bytes_label">Összes bájt:</string>
-    <string name="sdcard_settings_not_present_status">Az USB-tár nincs csatolva.</string>
+    <string name="sdcard_settings_not_present_status">Nincs SD-kártya.</string>
     <string name="sdcard_settings_available_bytes_label">Rendelkezésre álló bájtok:</string>
-    <string name="sdcard_settings_mass_storage_status">Az USB-tár háttértárként van használatban.</string>
-    <string name="sdcard_settings_unmounted_status">Az USB-tár eltávolítható.</string>
-    <string name="sdcard_settings_bad_removal_status">USB-tárat használat közben távolították el</string>
+    <string name="sdcard_settings_mass_storage_status">Az SD-kártya használata háttértárként</string>
+    <string name="sdcard_settings_unmounted_status">Most már biztonságosan eltávolíthatja az SD-kártyát.</string>
+    <string name="sdcard_settings_bad_removal_status">Az SD-kártyát használat közben távolították el!</string>
     <string name="sdcard_settings_used_bytes_label">Felhasznált bájtok:</string>
-    <string name="sdcard_settings_scanning_status">Média keresése az USB-táron</string>
-    <string name="sdcard_settings_read_only_status">Írásvédettként csatolt USB-tár.</string>
+    <string name="sdcard_settings_scanning_status">Médiafájlok keresése az SD-kártyán...</string>
+    <string name="sdcard_settings_read_only_status">Az SD-kártya írásvédett módban van csatlakoztatva.</string>
     <string name="skip_label">Kihagyás</string>
     <string name="next_label">Tovább</string>
     <string name="language_picker_title">Nyelv</string>
@@ -391,7 +392,7 @@ A sugárzás kis energiájú Bluetooth-jeleket használ."</string>
     <string name="device_info_label">Eszközadatok</string>
     <string name="display_label">Képernyő</string>
     <string name="phone_info_label">Telefon adatai</string>
-    <string name="sd_card_settings_label">USB-tár</string>
+    <string name="sd_card_settings_label">SD-kártya</string>
     <string name="proxy_settings_label">Proxybeállítások</string>
     <string name="cancel">Mégse</string>
     <string name="okay">OK</string>
@@ -806,7 +807,7 @@ Engedélyezi ezt az összes olyan alkalmazásnál, amely keresést akar végezni
 "<li>Nem kap szoftverfrissítéseket, amíg nem csatlakozik az internethez.</li>"
 
 "<li>Most nem aktiválhatja az eszköz védelmi funkcióit.</li></string>
-    <string name="wifi_connect_failed_message">A telefon nem tudott csatlakozni ehhez a Wi-Fi hálózathoz.</string>
+    <string name="wifi_connect_failed_message">Nem sikerült csatlakozni Wi-Fi hálózathoz</string>
     <string name="wifi_saved_access_points_titlebar">Mentett hálózatok</string>
     <string name="wifi_advanced_titlebar">Wi-Fi Haladó</string>
     <string name="wifi_setting_frequency_band_title">Wi-Fi frekvenciasáv</string>
@@ -994,7 +995,7 @@ Lehet, hogy hibás a PIN kód."</string>
     <string name="storage_settings">Tárhely</string>
     <string name="storage_usb_settings">Tárhely és USB</string>
     <string name="storage_settings_title">Tárolóhely beállításai</string>
-    <string name="storage_settings_summary">USB-tár leválasztása, és az elérhető tárhely megtekintése</string>
+    <string name="storage_settings_summary">SD-kártya leválasztása, a rendelkezésre álló tárhely megtekintése</string>
     <string name="status_number">Saját telefonszámom</string>
     <string name="status_min_number">MIN</string>
     <string name="status_msid_number">MSID</string>
@@ -1015,7 +1016,7 @@ Lehet, hogy hibás a PIN kód."</string>
     <string name="status_up_time">Futásidő</string>
     <string name="status_awake_time">Készenléti idő</string>
     <string name="internal_memory">Belső tárhely</string>
-    <string name="sd_memory">USB-tár</string>
+    <string name="sd_memory">SD-kártya</string>
     <string name="memory_available">Rendelkezésre áll</string>
     <string name="memory_available_read_only">Elérhető (csak olvasható)</string>
     <string name="memory_size">Összes hely</string>
@@ -1027,21 +1028,21 @@ Lehet, hogy hibás a PIN kód."</string>
     <string name="memory_music_usage">Hang (zene, csengőhangok, podcastok stb.)</string>
     <string name="memory_media_misc_usage">Egyéb fájlok</string>
     <string name="memory_media_cache_usage">Gyorsítótárazott adatok</string>
-    <string name="sd_eject">Megosztott tárh. levál.</string>
-    <string name="sd_eject_summary">A belső USB-tár leválasztása</string>
-    <string name="sd_insert_summary">Helyezze be az USB-tárat</string>
-    <string name="sd_mount">Az USB-tár csatolása</string>
+    <string name="sd_eject">SD-kártya leválasztása</string>
+    <string name="sd_eject_summary">SD-kártya leválasztása, hogy biztonságosan el lehessen távolítani</string>
+    <string name="sd_insert_summary">Helyezzen be egy SD-kártyát a csatlakoztatáshoz</string>
+    <string name="sd_mount">SD-kártya csatolása</string>
     <string name="sd_mount_summary" />
-    <string name="sd_format">USB-tár törlése</string>
-    <string name="sd_format_summary">Minden adat, például zenék és képek törlése a belső USB-tárról</string>
+    <string name="sd_format">SD-kártya törlése</string>
+    <string name="sd_format_summary">Törli az összes adatot (például a zenéket és fotókat) az SD-kártyáról</string>
     <string name="memory_clear_cache_title">Törli a gyorsítótárban tárolt adatokat?</string>
     <string name="memory_clear_cache_message">Ez törli az alkalmazások gyorsítótárbeli adatait.</string>
     <string name="mtp_ptp_mode_summary">aktív MTP vagy PTP funkcióval</string>
-    <string name="dlg_confirm_unmount_title">Leválasztja az USB-tárat?</string>
-    <string name="dlg_confirm_unmount_text">Ha leválasztja az USB-tárat, akkor néhány használt alkalmazás leáll, és lehet, hogy addig nem lesz elérhető, amíg újra nem csatlakoztatja az USB-tárat.</string>
+    <string name="dlg_confirm_unmount_title">SD-kártya leválasztása?</string>
+    <string name="dlg_confirm_unmount_text">Ha leválasztja az SD-kártyát, egyes használatban lévő alkalmazások leállnak, és lehet, hogy addig nem lesznek elérhetők, amíg nem csatlakoztatja újra a kártyát.</string>
     <string name="dlg_error_unmount_title" />
-    <string name="dlg_error_unmount_text">Nem lehet leválasztani az USB-tárat. Próbálkozzon újra később.</string>
-    <string name="unmount_inform_text">Az USB-tár leválasztásra kerül.</string>
+    <string name="dlg_error_unmount_text">Nem lehetett leválasztani az SD-kártyát. Próbálkozzon újra később.</string>
+    <string name="unmount_inform_text">Az SD-kártya leválasztásra kerül.</string>
     <string name="sd_ejecting_title">Leválasztás</string>
     <string name="sd_ejecting_summary">Leválasztás folyamatban</string>
     <string name="storage_low_title">Kevés a szabad terület</string>
@@ -1246,9 +1247,9 @@ Más felhasználók is vannak ezen az eszközön.
 "<li>Más felhasználói adatok</li></string>
     <string name="master_clear_desc_erase_external_storage">"
 
-A zenék, képek és más felhasználói adatok törléséhez az "<b>USB-tárat</b> is törölnie kell.</string>
-    <string name="erase_external_storage">USB-tár törlése</string>
-    <string name="erase_external_storage_description">Minden adat, például zenék és képek törlése a belső USB-tárról</string>
+A zenék, képek és más felhasználói adatok törléséhez az "<b>SD-kártyát</b> is törölnie kell.</string>
+    <string name="erase_external_storage">SD-kártya törlése</string>
+    <string name="erase_external_storage_description">Minden adat, például zenék és képek törlése az SD-kártyáról</string>
     <string name="master_clear_button_text">Telefon visszaállítása</string>
     <string name="master_clear_final_desc">Törli az összes személyes információt és letöltött alkalmazást? A műveletet nem lehet visszavonni.</string>
     <string name="master_clear_final_button_text">Minden törlése</string>
@@ -1422,7 +1423,7 @@ A zenék, képek és más felhasználói adatok törléséhez az "<b>USB-tárat<
     <string name="application_size_label">Alkalmazás</string>
     <string name="external_code_size_label">USB-alkalmazás</string>
     <string name="data_size_label">Adatok</string>
-    <string name="external_data_size_label">USB-adatok</string>
+    <string name="external_data_size_label">SD-kártya</string>
     <string name="uninstall_text">Eltávolítás</string>
     <string name="uninstall_all_users_text">Eltávolítás minden felhasználónál</string>
     <string name="install_text">Telepítés</string>
@@ -1462,13 +1463,13 @@ A zenék, képek és más felhasználói adatok törléséhez az "<b>USB-tárat<
     <string name="filter_apps_disabled">Nincs engedélyezve</string>
     <string name="filter_apps_third_party">Letöltött</string>
     <string name="filter_apps_running">Futó</string>
-    <string name="filter_apps_onsdcard">USB-tár</string>
+    <string name="filter_apps_onsdcard">Az SD-kártyán</string>
     <string name="disabled">Letiltva</string>
     <string name="not_installed">Nincs telepítve e felh.-hoz</string>
     <string name="no_applications">Nincsenek alkalmazások.</string>
     <string name="internal_storage">Belső tárhely</string>
     <string name="internal_storage_sentence">belső tárhely</string>
-    <string name="sd_card_storage">USB-tár</string>
+    <string name="sd_card_storage">SD-kártya</string>
     <string name="recompute_size">Méret újraszámítása...</string>
     <string name="clear_data_dlg_title">Törli az alkalmazás adatait?</string>
     <string name="clear_data_dlg_text">Az alkalmazás minden adatát véglegesen törölni fogja. Ez magában foglalja az összes fájlt, beállítást, fiókot, adatbázist stb.</string>
@@ -1495,7 +1496,7 @@ A zenék, képek és más felhasználói adatok törléséhez az "<b>USB-tárat<
     <string name="version_text">Verzió: %1$s</string>
     <string name="move_app">Áthelyezés</string>
     <string name="move_app_to_internal">Áthelyezés a telefonra</string>
-    <string name="move_app_to_sdcard">Áthelyezés USB-tárra</string>
+    <string name="move_app_to_sdcard">Áthelyezés az SD-kártyára</string>
     <string name="moving">Áthelyezés</string>
     <string name="insufficient_storage">Nincs elég tárhely.</string>
     <string name="does_not_exist">Az alkalmazás nem létezik.</string>
@@ -1676,10 +1677,10 @@ Hozzáadáshoz érintse meg a + gombot."</string>
     <string name="dev_settings_warning_message">Ezeket a beállításokat csak fejlesztőknek szánták. Amennyiben engedélyezi ezeket a funkciókat, készüléke vagy alkalmazásai a normálistól eltérően működhetnek vagy hibákat okozhatnak.</string>
     <string name="verify_apps_over_usb_title">USB-n keresztül telepített alkalmazások hitelesítése</string>
     <string name="verify_apps_over_usb_summary">USB/ADB/ADT-n keresztül telepített alkalmazások káros viselkedésének ellenőrzése.</string>
-    <string name="enforce_read_external_title">USB-tár védetté tétele</string>
-    <string name="enforce_read_external_summary">Alkalmazások kérjenek engedélyt az USB-n lévő adatok olvasására</string>
-    <string name="enforce_read_external_confirm_title">Védetté teszi az USB-tárat?</string>
-    <string name="enforce_read_external_confirm_message">"Ha az USB-háttértár védett, az alkalmazásoknak engedélyt kell kérniük a külső tárhelyen tárolt adatok olvasására.
+    <string name="enforce_read_external_title">SD-kártya védetté tétele</string>
+    <string name="enforce_read_external_summary">Az alkalmazások kérjenek engedélyt az SD-kártya olvasására</string>
+    <string name="enforce_read_external_confirm_title">Védetté teszi az SD-kártyát?</string>
+    <string name="enforce_read_external_confirm_message">"Ha az SD-kártya védett, az alkalmazásoknak engedélyt kell kérniük a külső tárhelyen tárolt adatok olvasására.
 
 Előfordulhat, hogy egyes alkalmazások nem működnek addig, amíg a fejlesztők nem frissítik azokat."</string>
     <string name="enable_terminal_title">Terminál helyi engedélyezése</string>
@@ -2044,8 +2045,8 @@ Ha az eszközt több felhasználó is használja, akkor e kombináció zárolás
     <string name="gadget_brightness_state_off">ki</string>
     <string name="vpn_settings_title">VPN</string>
     <string name="credentials_title">Hitelesítési adatok tárolója</string>
-    <string name="credentials_install">Telepítés tárhelyről</string>
-    <string name="credentials_install_summary">Tanúsítványok telepítése tárhelyről</string>
+    <string name="credentials_install">Telepítés az SD-kártyáról</string>
+    <string name="credentials_install_summary">Tanúsítványok telepítése az SD-kártyáról</string>
     <string name="credentials_reset">Hitelesítési adatok törlése</string>
     <string name="credentials_reset_summary">Összes tanúsítvány eltávolítása</string>
     <string name="trusted_credentials">Megbízható hitelesítők</string>
@@ -2341,9 +2342,7 @@ Egyes fiókok a telefonon végrehajtott módosításokat is automatikusan átmá
 Mivel az adathasználatot a telefon méri, és szolgáltatójának mérései ettől eltérhetnek, érdemes lehet szigorúbb korlátot megadnia."</string>
     <string name="data_usage_restrict_background_title">Korlátozza a háttéradatokat?</string>
     <string name="data_usage_restrict_background">Ha korlátozza a háttérben történő mobiladat-forgalmat, egyes alkalmazások és szolgáltatások nem fognak működni, hacsak nem csatlakozik Wi-Fi hálózathoz.</string>
-    <string name="data_usage_restrict_background_multiuser">"Ha korlátozza a háttérben zajló mobiladat-forgalmat, néhány alkalmazás és szolgáltatás nem fog működni, ha nem csatlakozik Wi-Fi-hálózathoz.
-
-Ez a beállítás a telefon valamennyi felhasználóját érinti."</string>
+    <string name="data_usage_restrict_background_multiuser">Ha korlátozza a háttérben történő mobiladat-forgalmat, egyes alkalmazások és szolgáltatások nem fognak jól működni, hacsak nem csatlakozik Wi-Fi hálózathoz.</string>
     <string name="data_usage_sweep_warning"><font size="21">^1</font> <font size="9">^2</font>"
 "<font size="12">figyelmeztetés</font></string>
     <string name="data_usage_sweep_limit"><font size="21">^1</font> <font size="9">^2</font>"
@@ -3587,7 +3586,7 @@ hogy Ön az ütemezett bekapcsolási idő előtt egy órával már alszik"</stri
     <string name="shut_down_find_device_failure_confirm">OK</string>
     <string name="factory_reset_summary">Az összes adat törlése a telefon belső memóriájából</string>
     <string name="erase_sure">Kötelező</string>
-    <string name="erase_personal_data">Személyes adatok</string>
+    <string name="erase_personal_data">Minden fájl a telefonon</string>
     <string name="erase_personal_data_description">Minden fájl és adat, beleértve fiókok, névjegyek, fotók és alkalmazások</string>
     <string name="erase_sd_data">SD kártya formázása</string>
     <string name="erase_sd_data_description">Formázás töröl minden fájlt és adatot az SD kártyán</string>
@@ -3690,6 +3689,9 @@ hogy Ön az ütemezett bekapcsolási idő előtt egy órával már alszik"</stri
     <string name="wfd_disconnect_multiple_diag_message">Leválasztja innen: %1$s és %2$s másik készüléket?</string>
     <string name="wfd_wps_keypad">Billentyűzet használata</string>
     <string name="wfd_wps_pbc">Írja be a PIN kódot</string>
+    <string name="wfd_status_dialog_title">Vezeték nélküli megjelenítő</string>
+    <string name="wfd_status_dialog_message">A képernyő tartalma éppen egy másik vezeték nélküli eszközön kerül megjelenítésre</string>
+    <string name="wfd_status_dialog_disconnect">Leválasztás</string>
     <string name="virtual_sim_global_category_title">Mi SIM</string>
     <string name="virtual_sim_global_title">Mobiladat-szolgáltatás</string>
     <string name="virtual_sim_global_description">Kapcsolódás a mobilhálózatra SIM kártya nélkül</string>
@@ -4131,6 +4133,8 @@ USB háttértárként fog megjelenni a számítógépén."</string>
     <string name="permission_mgr">Engedélyek</string>
     <string name="cleaner">Tisztító</string>
     <string name="power_mgr">Akkumulátor</string>
+    <string name="secondspace_category">Második asztal</string>
+    <string name="secondspace_delete_space_title">Második asztal törlése</string>
     <string name="symbols_not_allowed_for_password">A jelszó nem tartalmazhat szimbólumokat</string>
     <string name="reset_legacy_password_settings_preface_text">A képernyőzár jelszavának helyreállítása szükséges.</string>
     <string name="priority_storage_title">Tárhelybeállítások</string>
@@ -4734,42 +4738,9 @@ USB háttértárként fog megjelenni a számítógépén."</string>
     <string name="lock_screen_unlock_show_summary">Képernyőzár helyett egyből a kezdőképernyő vagy a jelszóbeviteli mező nyílik meg</string>
     <string name="security_keyguard_category_name">Képernyőzár</string>
     <string name="security_password_category_name">Képernyőzár</string>
-    <string name="lock_screen_secure_after_timeout_title">Jelszó szükséges</string>
-    <string name="lock_screen_secure_after_timeout_summary">%1$s igényel jelszót</string>
-    <string name="lock_screen_secure_after_timeout_immediately_summary">Azonnali jelszó szükséges.</string>
-    <string name="lock_screen_secure_after_timeout_immediately_never">Soha sem kell jelszó</string>
     <string name="fingerprint_payment">Fizetés ujjlenyomattal</string>
     <string name="unlock_disable_frp_warning_title_profile">Eltávolítja a profilvédelmet?</string>
     <string name="unlock_disable_frp_warning_content_profile">A jelszava nélkül a biztonsági funkciók nem fognak működni.</string>
-    <string name="miracast_settings_category">Wi-Fi kijelző beállítások</string>
-    <string name="miracast_display_category">Kijelzők</string>
-    <string name="miracast_menu_search">Keresés</string>
-    <string name="miracast_menu_searching">Keresés</string>
-    <string name="miracast_menu_teardown">Bontás</string>
-    <string name="miracast_menu_connect">Streaming indítása</string>
-    <string name="miracast_menu_disconnect">Streaming leállítása</string>
-    <string name="miracast_menu_forget">Kijelző leválasztása</string>
-    <string name="miracast_menu_rename">Kijelző átnevezése</string>
-    <string name="miracast_setup_save">Mentés</string>
-    <string name="miracast_setup_cancel">Mégse</string>
-    <string name="miracast_wifi_off">A Miracast használatához Wi-Fi szükséges</string>
-    <string name="miracast_no_sinks_found">Nincs elérhető kijelző</string>
-    <string name="miracast_nickname">Írjon be új nevet:</string>
-    <string name="miracast_connection_failed_generic">Nem sikerült a kijelzőhöz csatlakozni</string>
-    <string name="miracast_sink_connected">Csatlakozva</string>
-    <string name="miracast_sink_not_available">Nem elérhető</string>
-    <string name="miracast_sink_connecting">Csatlakozás…</string>
-    <string name="miracast_sink_ready_to_connect">Csatlakozásra kész</string>
-    <string name="miracast_sink_busy">Foglalt</string>
-    <string name="miracast_error_already_streaming">Már kivetítődik egy másik kijelzőre</string>
-    <string name="miracast_error_connection_in_progress">Csatlakozás…</string>
-    <string name="miracast_cancelconnect_dialog">Kapcsolat megszakítása</string>
-    <string name="miracast_dialog_title">%1$s</string>
-    <string name="miracast_error_cancelconnect">A kapcsolat foglalt</string>
-    <string name="miracast_search_for_displays">Vezeték nélküli kijelzők keresése…</string>
-    <string name="miracast_PC2THOR_streaming_on">A Miracast nem elérhető, mert a PC épp közvetít erre a készülékre</string>
-    <string name="miracast_disable_dhcp">HDCP kikapcsolása</string>
-    <string name="miracast_enable_dhcp">HDCP engedélyezése</string>
     <string name="dirac_control">Hangminőség optimalizálása</string>
     <string name="dirac_mode_off">Dirac kikapcsolva</string>
     <string name="dirac_mode_in_ear">Mi In-Ear fülhallgató</string>
@@ -4917,42 +4888,43 @@ USB háttértárként fog megjelenni a számítógépén."</string>
     <string name="advanced_text_layout">Speciális szöveg elrendezések engedélyezése</string>
     <string name="print_enable">Nyomtatás engedélyezése</string>
     <string name="print_remind">Első nyomtatás engedélyezése</string>
-    <string name="usb_media_format_title">USB tároló formázása</string>
-    <string name="use_media_format_desc">Formázza az USB tárolót? Az <b>összes</b> fájl véglegesen törlődik.</string>
-    <string name="usb_media_format_final_desc">Az összes fájl ami az USB tárhelyen található végérvényesen törölve lesz.</string>
+    <string name="usb_media_format_title">USB tároló törlése</string>
+    <string name="use_media_format_desc">Format USB storage? <b>All</b> files will be deleted permanently.</string>
+    <string name="usb_media_format_final_desc">Törli az USB tárolót, a rajta tárolt összes fájlt? A művelet nem visszavonható!</string>
     <string name="usb_dlg_confirm_unmount_title">Leválasztja az USB tárolót?</string>
     <string name="usb_dlg_confirm_unmount_text">Ha leválasztja az USB tárolót, néhány használatban lévő alkalmazás leáll és nem lesz elérhető, amíg vissza nem illeszti az USB eszközt.</string>
-    <string name="usb_unmount_inform_text">Az USB tároló le lesz választva.</string>
+    <string name="usb_unmount_inform_text">Az USB tároló le lett választva.</string>
     <string name="quiet_mode">Minden értesítés némítása</string>
     <string name="dndm_summary_for_pad">Ha a Ne zavarjanak engedélyezve van, az értesítések némítva lesznek.</string>
     <string name="miui_silent_title">Néma üzemmód</string>
     <string name="zen_mode_miui_disturb_category">Mód</string>
     <string name="miui_disturb_title">Ne zavarjanak</string>
     <string name="storage_uicc">UICC tárhely</string>
-    <string name="uicc_eject">UICC tárhely kiadása</string>
-    <string name="uicc_eject_summary">UICC tárhely leválasztása a biztonságos eltávolítás érdekében</string>
-    <string name="uicc_format">UICC tárhely törlése</string>
-    <string name="uicc_format_summary">Minden adat törlése az UICC tárhelyról, beleértve a zenéket és a fényképeket</string>
+    <string name="uicc_eject">UICC tároló kiadása</string>
+    <string name="uicc_eject_summary">UICC tároló leválasztása a biztonságos eltávolítás érdekében</string>
+    <string name="uicc_format">UICC tároló törlése</string>
+    <string name="uicc_format_summary">Minden adat törlése az UICC tárolóról, beleértve a zenéket és a fényképeket</string>
     <string name="uicc_mount">UICC tárhely csatolása</string>
     <string name="uicc_mount_summary" />
     <string name="uicc_insert_summary">UICC tárhely csatlakoztatása</string>
     <string name="dlg_confirm_usb_unmount_title">Leválasztja az USB tárolót?</string>
-    <string name="dlg_confirm_uicc_unmount_title">UICC tárhely kiadása?</string>
+    <string name="dlg_confirm_uicc_unmount_title">UICC tároló kiadása?</string>
     <string name="dlg_confirm_usb_unmount_text">Ha lecsatolja az USB tárhelyet, néhány alkalmazás nem lesz elérhető, amíg újra nem csatolja a tárolót.</string>
     <string name="dlg_confirm_uicc_unmount_text">Ha lecsatolja az UICC tárhelyet, néhány alkalmazás nem lesz elérhető, amíg újra nem csatolja a tárolót.</string>
-    <string name="dlg_error_usb_unmount_text">Nem sikerült leválasztani az USB háttértárat. Próbálja újra később.</string>
-    <string name="dlg_error_uicc_unmount_text">Nem sikerült leválasztani az UICC tárhelyet. Próbálja újra később.</string>
-    <string name="uicc_unmount_inform_text">Az UICC tárhely le lesz választva.</string>
-    <string name="uicc_media_format_title">UICC tárhely törlése</string>
+    <string name="dlg_error_usb_unmount_text">Nem sikerült leválasztani az USB tárolót. Próbálja újra később.</string>
+    <string name="dlg_error_uicc_unmount_text">Nem sikerült leválasztani az UICC tárolót. Próbálja újra később.</string>
+    <string name="uicc_unmount_inform_text">Az UICC tároló le lesz választva.</string>
+    <string name="uicc_media_format_title">UICC tároló törlése</string>
     <string name="usb_media_format_summary">Minden adat törlése az USB tárolóról</string>
-    <string name="uicc_media_format_summary">Minden adat törlése az UICC tárhelyről</string>
+    <string name="uicc_media_format_summary">Minden adat törlése az UICC tárolóról</string>
     <string name="usb_media_format_desc">Törli az USB tárolót? <b>Minden</b> adat el fog veszni a tárolón.</string>
-    <string name="uicc_media_format_desc">Törli az UICC tárhelyet? <b>Minden</b> adat el fog veszni a tárhelyen!</string>
+    <string name="uicc_media_format_desc">Törli az UICC tárolót? <b>Minden</b> adat el fog veszni a tárolón!</string>
     <string name="usb_media_format_button_text">USB tároló törlése</string>
-    <string name="uicc_media_format_button_text">UICC tárhely törlése</string>
-    <string name="uicc_media_format_final_desc">Az összes UICC tárhelyen lévő fájl törlődik.</string>
+    <string name="uicc_media_format_button_text">UICC tároló törlése</string>
+    <string name="uicc_media_format_final_desc">Az összes UICC tárolón lévő fájl törlődik.</string>
     <string name="usb_media_format_gesture_explanation">Az USB tároló törlésének megerősítéséhez a feloldóminta megadása szükséges.</string>
-    <string name="uicc_media_format_gesture_explanation">Az UICC tárhely törlésének megerősítéséhez a feloldóminta megadása szükséges.</string>
+    <string name="uicc_media_format_gesture_explanation">Az UICC tároló törlésének megerősítéséhez a feloldóminta megadása szükséges.</string>
+    <string name="lock_screen_secure_after_timeout_immediately_summary">Azonnali jelszó szükséges.</string>
     <string name="close_install_and_connect">Nem, köszönöm</string>
     <string name="confirm_install_and_connect">Telepítés és csatlakozás</string>
     <string name="disable_wifi_master_key_service_first">Kikapcsolás</string>

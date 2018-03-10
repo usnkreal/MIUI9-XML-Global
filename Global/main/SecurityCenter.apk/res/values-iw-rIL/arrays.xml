@@ -8,7 +8,8 @@
     <string-array name="date_of_traffic">
         <item>"אתמול "</item>
         <item>"היום "</item>
-        <item>"החודש "</item>
+        <item>"החודש שעבר "</item>
+        <item>"החודש הנוכחי "</item>
     </string-array>
     <string-array name="date_of_traffic_prefix_cmcc">
         <item>"השבוע: "</item>
@@ -18,15 +19,18 @@
     <string-array name="date_of_traffic_prefix">
         <item>"אתמול: "</item>
         <item>"היום: "</item>
+        <item>"החודש שעבר: "</item>
         <item>"החודש: "</item>
     </string-array>
     <string-array name="date_of_app_all">
         <item>אתמול (נתונים)</item>
         <item>היום (נתונים)</item>
-        <item>החודש (נתונים)</item>
+        <item>החודש שעבר (נתונים)</item>
+        <item>החודש הנוכחי (נתונים)</item>
         <item>אתמול באמצעות רשת אלחוטית</item>
         <item>היום באמצעות רשת אלחוטית</item>
-        <item>החודש באמצעות רשת אלחוטית</item>
+        <item>בחודש שעבר באמצעות רשת אלחוטית</item>
+        <item>החודש הנוכחי באמצעות רשת אלחוטית</item>
     </string-array>
     <string-array name="traffic_type">
         <item>"שימוש ברשת סלולרית "</item>

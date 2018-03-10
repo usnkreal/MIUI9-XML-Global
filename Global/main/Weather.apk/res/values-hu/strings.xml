@@ -64,12 +64,13 @@
     <string name="button_abandon">Változások elvetése</string>
     <string name="button_add_city">Hely hozzáadása</string>
     <string name="button_allow">OK</string>
-    <string name="button_confirm">Engedélyezés</string>
-    <string name="button_exit">Kilépés</string>
+    <string name="button_confirm">Elfogadás</string>
+    <string name="button_exit">Elutasítás</string>
     <string name="button_not_allow">Mégse</string>
     <string name="button_sure_abandon">Elveti a módosításokat?</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Ellenőrizze a hálózati kapcsolatot és próbálja újra</string>
+    <string name="china_version_first_start_network_msg">A termék használatával Ön elfogadja a Xiaomi %1$sét és a %2$sről szóló nyilatkozatát. Az alkalmazás megfelelő működéséhez internetkapcsolat, a tartózkodási hely meghatározása, és a névjegyzék elérése szükséges.</string>
     <string name="city_exceeded_warning">Legfeljebb 10 várost adhat hozzá</string>
     <string name="commercial">Reklám</string>
     <string name="common_loading_text">Egy pillanat…</string>
@@ -153,7 +154,7 @@ Húzza lefelé a frissítéshez, vagy ellenőrize a hálózati beállításokat"
     <string name="menu_location">Helyszínek</string>
     <string name="menu_speaker">Hangsugárzás</string>
     <string name="mi_pad2">latte</string>
-    <string name="minute_rain">Percenkénti előrejelzés</string>
+    <string name="minute_rain">Csapadék-előrejelzés</string>
     <string name="minute_rain_after_an_hour">Egy óra múlva</string>
     <string name="minute_rain_after_two_hour">Két óra múlva</string>
     <string name="minute_rain_feedback_subtitle">Közölje velünk, milyen az idő.</string>
@@ -268,4 +269,16 @@ Húzza lefelé a frissítéshez, vagy ellenőrize a hálózati beállításokat"
     <string name="xiaomi_weather_description_title">Az Időjárásról</string>
     <string name="yes_vote_ratio">Vele: %1$s%%</string>
     <string name="your_location">Saját hely</string>
+    <string name="button_settings_cancel">Mégse</string>
+    <string name="button_settings_confirm">Visszavonás</string>
+    <string name="button_settings_confirm_to_revoke_msg">Az engedély visszavonása után nem fogja tudni használni az Időjárás alkalmazást.</string>
+    <string name="button_settings_confirm_to_revoke_title">Visszavonja az engedélyt?</string>
+    <string name="eu_region_version_first_start_network_msg">"A termék használatával Ön hozzájárul, hogy a Xiaomi összegyűjtse, feldolgozza és felhasználja az Ön személyes adatait, beleértve a keresett város földrajzi kordinátáit, és az Adatvédelmi irányelvekben megadott adatfajtákat. Az Adatvédelmi irányelvekben megtalálhatja, hogyan kezeljük adatait. Az \"Elfogadás\"-ra kattintva, Ön elfogadja a Xiaomi's%1$s-ét és %2$s-ről szóló nyilatkozatát."</string>
+    <string name="policy_settings">Felhasználási feltételek</string>
+    <string name="privacy_grant_failed">Nem sikerült az engedélyt megadni. Egy-két perc múlva próbálja újra.</string>
+    <string name="privacy_grant_or_revoke_settings">Engedély megadása és visszavonása</string>
+    <string name="privacy_grant_success">Az engedély sikeresen megadva</string>
+    <string name="privacy_revoke_failed">Nem sikerült az engedélyt visszavonni. Egy-két perc múlva próbálja újra.</string>
+    <string name="privacy_revoke_success">Az engedély sikeresen visszavonva</string>
+    <string name="privacy_settings">Adatvédelmi Irányelvek</string>
 </resources>

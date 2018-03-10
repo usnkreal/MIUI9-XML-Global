@@ -29,16 +29,16 @@
         <item quantity="one">%1$s visninger</item>
     </plurals>
     <plurals name="hint_similar_image_header_left">
-        <item quantity="other">%d groups</item>
-        <item quantity="one">%d grupper</item>
+        <item quantity="other">%d grupper</item>
+        <item quantity="one">%d gruppe</item>
     </plurals>
     <plurals name="dialog_content_delete_image_confirm">
-        <item quantity="other">Delete %d photos?</item>
-        <item quantity="one">Slette %d bilder?</item>
+        <item quantity="other">Slette %d bilder?</item>
+        <item quantity="one">Slette %d bilde?</item>
     </plurals>
     <plurals name="dialog_content_delete_image_from_all_devices_confirm">
-        <item quantity="other">Delete %1$s photos from all devices?</item>
-        <item quantity="one">Slette %1$s bilder fra alle enheter?</item>
+        <item quantity="other">Slette %1$s bilder fra alle enheter?</item>
+        <item quantity="one">Slette %1$s bilde fra alle enheter?</item>
     </plurals>
     <plurals name="deepclean_cache_summary">
         <item quantity="other">Du kan tømme uviktige data for %d apper</item>
@@ -49,12 +49,12 @@
         <item quantity="one">%d apper installert, du kan slette apper du sjelden bruker</item>
     </plurals>
     <plurals name="deepclean_large_summary">
-        <item quantity="other">Found %d big files, you can delete the unimportant ones</item>
-        <item quantity="one">Fant %d store filer, du kan slette de som ikke er viktige</item>
+        <item quantity="other">Fant %d store filer, du kan slette de som ikke er viktige</item>
+        <item quantity="one">Found %d big file, you can delete this one</item>
     </plurals>
     <plurals name="deepclean_similar_summary">
-        <item quantity="other">Found %d photos, you can delete duplicates or redundant images</item>
-        <item quantity="one">Fant %d bilder, du kan slette duplikater og overflødige bilder</item>
+        <item quantity="other">Fant %d bilder, du kan slette duplikater og overflødige bilder</item>
+        <item quantity="one">Fant %d bilde, du kan slette duplikater og overflødige bilder</item>
     </plurals>
     <plurals name="deepclean_apk_summary">
         <item quantity="other">Found %d APKs, you can delete the unnecessary ones.</item>
@@ -89,7 +89,7 @@
         <item quantity="one">Ikke brukt på %d år</item>
     </plurals>
     <plurals name="resutl_function_install_app_summary">
-        <item quantity="other">&lt;Data>&amp;lt;font color=#ff0000 >%d&amp;lt;/font> apper har ikke blitt brukt på lenge. Ta en titt.&lt;/Data></item>
-        <item quantity="one">&lt;Data>&amp;lt;font color=#ff0000 >%d&amp;lt;/font> app har ikke blitt brukt på lenge. Ta en titt.&lt;/Data></item>
+        <item quantity="other">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> apper har ikke blitt brukt på lenge. Ta en titt.&lt;/Data></item>
+        <item quantity="one">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> app har ikke blitt brukt på lenge. Ta en titt.&lt;/Data></item>
     </plurals>
 </resources>

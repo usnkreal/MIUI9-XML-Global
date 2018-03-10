@@ -200,4 +200,5 @@
     <string name="refuse_to_share_as_pic_because_of_content">Tato poznámka je pro sdílení příliš velká.</string>
     <string name="refuse_to_open_as_pic_because_of_loading">Počkejte až bude poznámka načtena a zkuste to znovu.</string>
     <string name="toast_reach_text_limit_checkbox">Zaškrtávací políčko nelze přidat, protože poznámka je příliš dlouhá</string>
+    <string name="dialog_privacy_revoke_tips">Po zrušení oprávnění, aplikace přestane shromažďovat data a všechny údaje ze serverů budou odstraněny. Aplikace poté nemusí být nadále použitelná. Chcete oprávnění přesto odebrat? Pro zajištění bezpečnosti vašeho účtu, se před odebráním oprávnění Mi Cloud službám přihlaste na i.mi.com.</string>
 </resources>

@@ -71,6 +71,16 @@ Zostanie dodany do wyjątków, ale poprzednio blokowane elementy nie pojawią si
     <string name="dlg_add_white">Nowe połączenia i wiadomości od numerów dodanych do wyjątków zostaną wyświetlone w historii połączeń oraz jako odebrane wiadomości. Jednakże, poprzednio zablokowane elementy się tam nie pojawią. Dodać wybrane numery do wyjątków?</string>
     <string name="dlg_not_block_sms">Odblokować wybrane numery? Zostaną dodane do wyjątków, ale poprzednio blokowane elementy nie pojawią się jako wiadomości odebrane.</string>
     <string name="dlg_not_block_call">Odblokować wybrane numery? Zostaną dodane do wyjątków, ale poprzednio blokowane elementy nie pojawią się w historii połączeń.</string>
+    <string name="dlg_update_date_title">Ostrzeżenie</string>
+    <string name="dlg_update_data_content">Nie jesteś podłączone za pomocą Wi-Fi. Korzystanie z danych mobilnych może wygenerować dodatkowe opłaty. Czy na pewno kontynuować?</string>
+    <string name="dlg_sec_network_unavailable">Aplikacja panelu sterowania nie może się zaktualizować ponieważ ograniczyłeś połączenie internetowe. Zezwolić Panelowi sterowania na łączenie się z internetem?</string>
+    <string name="dlg_update_btn_contiue">Kontynuuj</string>
+    <string name="dlg_update_btn_open">Zezwól</string>
+    <string name="dlg_update_updating">Aktualizowanie…</string>
+    <string name="toast_update_nonetwork">Nie udało się połączyć z siecią</string>
+    <string name="toast_update_fail">Nie udało się zaktualizować</string>
+    <string name="toast_update_success">Pomyślnie zaktualizowano</string>
+    <string name="toast_update_notneed">Aktualny</string>
     <string name="menu_call">Wybieranie</string>
     <string name="menu_sms">Wyślij wiadomość</string>
     <string name="menu_bl_call_log">Pokaż zablokowane połączenia</string>
@@ -251,6 +261,7 @@ Zostanie dodany do wyjątków, ale poprzednio blokowane elementy nie pojawią si
     <string name="mark_time_text">%d</string>
     <string name="mark_time_setting_dialog_title">Zgłoś numer</string>
     <string name="sms_smart_engine_update">Aktualizuj automatycznie filtr SMS</string>
+    <string name="sms_smart_engine_update_now">Aktualizuj</string>
     <string name="mark_number_setting_guide_title">Blokuj zgłoszone numery</string>
     <string name="mark_number_setting_guide_content1">Zablokować połączenia od zgłoszonych numerów?</string>
     <string name="mark_number_setting_guide_content2">Automatyczne blokuj numery raportowane przez innych użytkowników</string>
@@ -304,6 +315,7 @@ Zostanie dodany do wyjątków, ale poprzednio blokowane elementy nie pojawią si
     <string name="cta_dialog_title">Połączenie z Internetem</string>
     <string name="cta_dialog_msg">Panel sterowanie wymaga połączenia internetowego, aby pobrać aktualizacje, a także dostępu do lokalizacji, do poprawnego działania.</string>
     <string name="cta_settings">Zezwól na łączność z siecią</string>
+    <string name="gdpr_msg"><Data>Aby korzystać z podstawowych funkcji Panelu sterowania, musisz wyrazić zgodę na zbieranie, przetwarzanie i wykorzystywanie przez Xiaomi twoich danych osobistych, włączając w to informacje o sposobach wykorzystywania funkcji Panelu sterowania (np. statystyk danych mobilnych, informacji o podejrzanych aplikacjach, a także podstawowych informacjach o twoim urządzeniu), a także innych typach informacji wyspecyfikowanych w naszej &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Polityce prywatności&lt;/a>.</Data></string>
     <string name="app_name_na">Użycie danych</string>
     <string name="list_empty_text">Pusta lista</string>
     <string name="dialog_title_attention">Powiadomienie</string>
@@ -383,6 +395,12 @@ odpowie"</string>
     <string name="firewall_wifi_dialog_message">Zainstalowana aplikacja nie będzie mogła łączyć się z internetem za pomocą Wi-Fi, gdy przełącznik jest wyłączony.</string>
     <string name="firewall_system_title">Użycie danych przez aplikacje systemowe</string>
     <string name="firewall_temp_rule_reason">Aplikacja %2$s ograniczyła połączenie z internetem dla %1$s​</string>
+    <string name="dialog_restrict_all_wlan_title">Ogranicz połączenie Wi-Fi</string>
+    <string name="dialog_restrict_all_wlan_summary">Połączenie Wi-Fi zostanie ograniczone dla wszystkich aplikacji po wykonaniu tej akcji.</string>
+    <string name="dialog_restrict_all_mobile_title">Ogranicz połączenie danych mobilnych dla %s</string>
+    <string name="dialog_restrict_all_mobile_summary">Połączenie danych mobilnych dla %s zostanie ograniczone dla wszystkich aplikacji po wykonaniu tej akcji.</string>
+    <string name="dialog_restrict_positive">Anuluj</string>
+    <string name="dialog_restrict_negative">Ogranicz</string>
     <string name="usage_sorted_activity_lable">Użycie danych</string>
     <string name="usage_sorted_loading_text">Chwileczkę…</string>
     <string name="usage_sorted_empty_text">Pusto</string>
@@ -518,6 +536,12 @@ odpowie"</string>
     <string name="leisure_usage_dialog_message">"Osiągnięto limit danych mobilnych poza szczytem.
 
 Operator może naliczyć dodatkowe opłaty, jeśli będziesz korzystać z danych mobilnych."</string>
+    <string name="data_usage_protected_notify_title">Wykorzystano już 5GB danych mobilnych</string>
+    <string name="data_usage_protected_notify_message">MIUI wyłączył dane mobilne, aby zapobiec generowaniu dodatkowych kosztów u operatora.</string>
+    <string name="data_usage_mobile_dialog_title">Wykorzystano już 5GB danych mobilnych. MIUI wyłączył dane mobilne.</string>
+    <string name="data_usage_protected_dialog_message">"MIUI wyłączył dane mobilne, aby zapobiec generowaniu dodatkowych kosztów u operatora.
+
+Twój operator może zażądać dodatkowej opłaty, jeśli ponownie włączysz dane mobilne."</string>
     <string name="lock_screen_traffic_warn_title">Transmisja danych po zablokowaniu</string>
     <string name="lock_screen_traffic_notify_body">Użyto %3$s po %2$s od blokady (%1$s)</string>
     <string name="timeshow_s">%d s</string>

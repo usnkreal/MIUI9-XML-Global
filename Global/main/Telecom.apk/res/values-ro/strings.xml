@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="telecommAppLabel">Telefon – Gestionarea apelurilor</string>
+    <string name="telecommAppLabel">Gestionare apeluri</string>
     <string name="userCallActivityLabel">Telefon</string>
     <string name="unknown">Necunoscut</string>
     <string name="notification_missedCallTitle">Apel pierdut</string>

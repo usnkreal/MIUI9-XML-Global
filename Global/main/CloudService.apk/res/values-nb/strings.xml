@@ -302,15 +302,16 @@ Bruk en annen konto."</string>
     <string name="micloud_detail_pause">Synkronisering satt på pause</string>
     <string name="micloud_detail_need_charge_or_sleep">Koble til laderen og skru av skjermen for å synkronisere</string>
     <string name="micloud_detail_battery_low">Lavt batteri</string>
-    <string name="micloud_privacy_cloud_off">Sync Off</string>
-    <string name="micloud_privacy_licence_agreed">Agree with Mi Cloud privacy policy.</string>
-    <string name="micloud_privacy_licence_privacy_policy">privacy policy</string>
-    <string name="micloud_privacy_explanation">Active Mi Cloud after enabling the authorization</string>
-    <string name="micloud_privacy_cloud_sync">Active Mi Cloud</string>
-    <string name="micloud_privacy_warning_title">Hint</string>
-    <string name="micloud_privacy_warning_content">"Can't active Mi Cloud. Try it later."</string>
+    <string name="micloud_privacy_cloud_off">Sync is off</string>
+    <string name="micloud_privacy_licence_agreed">Agree to Mi Cloud Privacy Policy.</string>
+    <string name="micloud_privacy_licence_privacy_policy">Privacy Policy</string>
+    <string name="micloud_privacy_explanation">Grant authorization to turn on Mi Cloud services</string>
+    <string name="micloud_privacy_cloud_sync">Turn on Mi Cloud services</string>
+    <string name="micloud_privacy_warning_title">Attention</string>
+    <string name="micloud_privacy_warning_content">"Can't turn on Mi Cloud services. Wait a minute or two and try again."</string>
     <string name="micloud_privacy_warning_button">Tilbake</string>
-    <string name="micloud_privacy_more">more</string>
+    <string name="micloud_privacy_progress_content">Granting authorization…</string>
+    <string name="micloud_privacy_more">More</string>
     <string name="micloud_check_sim_title">"Det ser ut som du har byttet SIM-kort. Logg inn
 til din Mi Account for å aktivere Mi Cloud på nytt."</string>
     <string name="micloud_check_sim_notify_title">Aktiver Mi Cloud på nytt</string>
@@ -331,7 +332,7 @@ til din Mi Account for å aktivere Mi Cloud på nytt."</string>
     <string name="get_first_month_gb">Få %s i gratis lagringsplass</string>
     <string name="more_activity_in_upgrade_space">Lær mer på <a href="http://i.mi.com">http://i.mi.com</a></string>
     <string name="success_upgraded_space">%s Lagt til</string>
-    <string name="total_space_upgraded_to">Total space: %s</string>
+    <string name="total_space_upgraded_to">Total plass: %s</string>
     <string name="apple_cloud">iCloud</string>
     <string name="google_cloud">Google Drive</string>
     <string name="microsoft_cloud">Microsoft Cloud Service</string>
@@ -471,8 +472,8 @@ Siste sikkerhetskopi var %2$s"</string>
     <string name="micloud_notif_content_multi_user_error">Du logget inn med den samme kontoen som i Primærlagringen.</string>
     <string name="micloud_notif_title_dirty_data">Du har elementer som ikke er synkronisert</string>
     <string name="micloud_notif_content_dirty_data">Detaljer</string>
-    <string name="micloud_notif_title_privacy_reopen_failed">"Couldn't start cloud service"</string>
-    <string name="micloud_notif_content_privacy_reopen_failed">View details</string>
+    <string name="micloud_notif_title_privacy_reopen_failed">"Couldn't turn on Mi Cloud services"</string>
+    <string name="micloud_notif_content_privacy_reopen_failed">Vis detaljer</string>
     <string name="micloud_find_device_guide_title">Logg inn på &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font> for å lokalisere, låse eller slette enheten din. Dette kan hjelpe deg med å finne enheten din i tilfelle den blir borte.&lt;br />Hvis du mister enheten din, kan du kontakte sikkerhetstjenesten som finnes på appene du bruker hyppig (f.eks. Alipay, WeChat, QQ) for å beskytte kontoene dine på &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font>.</string>
     <string name="micloud_find_device_guide_content">For å aktivere denne tjenesten må du kanskje sende en SMS. Leverandøren din vil belaste deg for denne meldingen. Når du bytter SIM-kort, vil det automatisk sendes en melding for å aktivere denne funksjonen på nytt.</string>
     <string name="micloud_find_device_guide_button">Skru på Finn enhet</string>
@@ -511,8 +512,8 @@ Siste sikkerhetskopi var %2$s"</string>
     <string name="micloud_find_device_close_alert_content">Hvis du skrur av denne funksjonen, vil du ikke kunne lokalisere enheten din dersom den blir borte.</string>
     <string name="micloud_find_device_close_alert_positive">Ha den slått på</string>
     <string name="micloud_find_device_close_alert_negtive">Skru av uansett</string>
-    <string name="find_device_gdpr_prompt">By turning on Find device, you agree to \"Privacy Policy\". If you need to revoke your privacy authorization, please turn off this feature.</string>
-    <string name="find_device_gdpr_prompt_policy_doc_name">\"Privacy Policy\"</string>
+    <string name="find_device_gdpr_prompt">By turning on Find device, you agree to our Privacy Policy. If you need to revoke authorization, turn this feature off.</string>
+    <string name="find_device_gdpr_prompt_policy_doc_name">Privacy Policy</string>
     <string name="activate_finddevice">Koble til et nettverk for å aktivere enheten</string>
     <string name="account_related">Enheten din er tilknyttet en eksisterende Mi Account(%s). Koble til nettverket for å bekrefte enheten.</string>
     <string name="connect_network">Koble til Wi-Fi eller sett inn et SIM-kort</string>

@@ -115,6 +115,6 @@
     <string name="phone_get_text">לאפשר ל-%1$s לקבל את מספר הטלפון שלך (%2$s)?</string>
     <string name="phone_get_processing">מקבל…</string>
     <string name="agree">אפשר</string>
-    <string name="privacy_revoke_tips">במידה ותשלול הרשאה זו, לא ניתן יהיה עוד להשתמש בסנכרון המסרונים</string>
-    <string name="privacy_revoke_failed_msg">שלילת פרטיות, לא ניתן לקבל את מספר הטלפון, ההפעלה נכשלה</string>
+    <string name="privacy_revoke_tips">After you revoke authorization, Messaging will stop collecting your data and delete all your data from its servers. Sync with Mi Cloud, Mi Message, and other Messaging features will no longer be available. Revoke authorization anyway?</string>
+    <string name="privacy_revoke_failed_msg">Activation requires granting authorization so that Messaging could get your phone number.</string>
 </resources>

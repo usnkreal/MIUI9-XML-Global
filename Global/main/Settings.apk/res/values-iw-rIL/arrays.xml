@@ -1025,16 +1025,6 @@
         <item>16GB</item>
         <item>ארבע ליבות מקס 2.5GHz</item>
     </string-array>
-    <string-array name="miracast_policies">
-        <item>השהיה קצרה יותר</item>
-        <item>רגיל</item>
-        <item>איכות גבוהה יותר</item>
-    </string-array>
-    <string-array name="standard_configuration_version_mi3">
-        <item>3.00GB</item>
-        <item>16GB</item>
-        <item>ארבע ליבות מקס 2.5GHz</item>
-    </string-array>
     <string-array name="install_non_market_app_entries">
         <item>הפעלה (מומלץ)</item>
         <item>אל תשתמש (מסוכן)</item>
@@ -1067,28 +1057,12 @@
         <item>גרסת אנדרואיד</item>
     </string-array>
     <string-array name="standard_configuration_version_description_secondary">
-        <item>Snapdragon 801</item>
-        <item>(3080mAh(typ</item>
+        <item>Snapdragon 430</item>
+        <item>(4000mAh(typ</item>
         <item>13MP</item>
         <item>"5 אינץ'"</item>
-        <item>1920 × 1080</item>
-        <item>6.0.1</item>
-    </string-array>
-    <string-array name="standard_configuration_version_description_primary_mi3">
-        <item>CPU</item>
-        <item>קיבולת הסוללה</item>
-        <item>מצלמה אחורית</item>
-        <item>גודל המסך</item>
-        <item>רזולוציה</item>
-        <item>גרסת אנדרואיד</item>
-    </string-array>
-    <string-array name="standard_configuration_version_description_secondary_mi3">
-        <item>Snapdragon 800</item>
-        <item>(3050mAh(typ</item>
-        <item>13MP</item>
-        <item>"5 אינץ'"</item>
-        <item>1920 × 1080</item>
-        <item>6.0.1</item>
+        <item>720 × 1280</item>
+        <item>6.0</item>
     </string-array>
     <string-array name="pink_panel_led_color_entries">
         <item>לילך</item>

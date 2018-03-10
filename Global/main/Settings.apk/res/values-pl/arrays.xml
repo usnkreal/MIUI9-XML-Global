@@ -1420,16 +1420,6 @@ Informacja: Tylko dla Ubuntu 8.04!"</item>
         <item>16GB</item>
         <item>Quad-core Max 2,5GHz</item>
     </string-array>
-    <string-array name="miracast_policies">
-        <item>Krótsze opóźnienie</item>
-        <item>Standardowa</item>
-        <item>Lepsza jakość</item>
-    </string-array>
-    <string-array name="standard_configuration_version_mi3">
-        <item>3.00GB</item>
-        <item>16GB</item>
-        <item>Quad-core Max 2,5GHz</item>
-    </string-array>
     <string-array name="install_non_market_app_entries">
         <item>Włącz (zalecana)</item>
         <item>Nie używaj (niebezpieczna)</item>
@@ -1462,28 +1452,12 @@ Informacja: Tylko dla Ubuntu 8.04!"</item>
         <item>Wersja Android</item>
     </string-array>
     <string-array name="standard_configuration_version_description_secondary">
-        <item>Snapdragon 801</item>
-        <item>3080mAh(typ)</item>
+        <item>Snapdragon 430</item>
+        <item>4000mAh(typ)</item>
         <item>13MP</item>
         <item>5 cali</item>
-        <item>1920 × 1080</item>
-        <item>6.0.1</item>
-    </string-array>
-    <string-array name="standard_configuration_version_description_primary_mi3">
-        <item>CPU</item>
-        <item>Pojemność baterii</item>
-        <item>Aparat (główny)</item>
-        <item>Rozmiar ekranu</item>
-        <item>Rozdzielczość</item>
-        <item>Wersja Android</item>
-    </string-array>
-    <string-array name="standard_configuration_version_description_secondary_mi3">
-        <item>Snapdragon 800</item>
-        <item>3050mAh(typ)</item>
-        <item>13MP</item>
-        <item>5 cali</item>
-        <item>1920 × 1080</item>
-        <item>6.0.1</item>
+        <item>1280 x 720</item>
+        <item>6.0</item>
     </string-array>
     <string-array name="pink_panel_led_color_entries">
         <item>Bez</item>

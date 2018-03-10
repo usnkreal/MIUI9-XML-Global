@@ -15,8 +15,8 @@
     <string name="menu_delete">Odstrániť</string>
     <string name="menu_select_all">Vybrať všetko</string>
     <string name="menu_copy">Kopírovať do…</string>
-    <string name="menu_advanced_show">Zobraziť interné úložisko</string>
-    <string name="menu_advanced_hide">Skryť interné úložisko</string>
+    <string name="menu_advanced_show">Zobraziť SD kartu</string>
+    <string name="menu_advanced_hide">Skryť SD kartu</string>
     <string name="menu_file_size_show">Zobraziť veľkosť súboru</string>
     <string name="menu_file_size_hide">Skryť veľkosť súboru</string>
     <string name="button_select">Vybrať</string>

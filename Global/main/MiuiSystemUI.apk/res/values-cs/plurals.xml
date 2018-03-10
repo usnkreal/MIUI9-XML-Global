@@ -34,7 +34,7 @@
         <item quantity="other">Upozornění aplikace %1$s a dalších %2$d aplikací jsou skryta.</item>
         <item quantity="one">Upozornění aplikace %1$s a další %2$d aplikace jsou skryta.</item>
         <item quantity="few">Upozornění aplikace %1$s a dalších %2$d aplikací jsou skryta.</item>
-        <item quantity="many">Hiding notifications from %1$s &amp;amp; %2$d apps.</item>
+        <item quantity="many">Hiding notifications from %1$s &amp; %2$d apps.</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Jasno</item>

@@ -211,6 +211,8 @@
     <string name="contact_detail_calllog_call_note_tips">Бележка към повикване</string>
     <string name="contact_detail_calllog_call_record_tips">Записани обаждания</string>
     <string name="contact_detail_calllog_empty">Няма хронология</string>
+    <string name="contact_detail_entry_pay">Плати</string>
+    <string name="contact_detail_entry_pay_dialog_title">Изберете телефонен номер</string>
     <string name="contact_detail_menu_delete_miprofile">Изтрий картата</string>
     <string name="contact_detail_miprofile_accept">Обмяна на контактни карти</string>
     <string name="contact_detail_miprofile_accept_fail_toast">Неуспешна обмяна на контактни карти</string>
