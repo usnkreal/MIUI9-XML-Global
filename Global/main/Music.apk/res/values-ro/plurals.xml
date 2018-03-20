@@ -97,9 +97,9 @@ melodii similare\""</item>
         <item quantity="few">Ștergeți %d melodiile din Mi Cloud? Vor fi șterse de asemena și din listele de redare locale.</item>
     </plurals>
     <plurals name="download_finished">
-        <item quantity="other">&lt;culoarea fontului==\"red\">%d melodii&lt;/font> descărcat</item>
-        <item quantity="one">&lt;culoarea fontului==\"red\">%d melodie&lt;/font> descărcat</item>
-        <item quantity="few">&lt;culoarea fontului==\"red\">%d melodii&lt;/font> descărcat</item>
+        <item quantity="other">&amp;lt;culoarea fontului==\"red\">%d melodii&amp;lt;/font> descărcat</item>
+        <item quantity="one">&amp;lt;culoarea fontului==\"red\">%d melodie&amp;lt;/font> descărcat</item>
+        <item quantity="few">&amp;lt;culoarea fontului==\"red\">%d melodii&amp;lt;/font> descărcat</item>
     </plurals>
     <plurals name="download_info_count_deleted_tasks">
         <item quantity="other">%d descărcări eliminate</item>
@@ -107,9 +107,9 @@ melodii similare\""</item>
         <item quantity="few">%d descărcări eliminate</item>
     </plurals>
     <plurals name="download_running">
-        <item quantity="other">&lt;culoarea fontului==\"roșu\">%d melodii&lt;/font> se descarcă</item>
-        <item quantity="one">&lt;culoarea fontului==\"roșu\">%d melodie&lt;/font> se descarcă</item>
-        <item quantity="few">&lt;culoarea fontului==\"roșu\">%d melodii&lt;/font> se descarcă</item>
+        <item quantity="other">&amp;lt;culoarea fontului==\"roșu\">%d melodii&amp;lt;/font> se descarcă</item>
+        <item quantity="one">&amp;lt;culoarea fontului==\"roșu\">%d melodie&amp;lt;/font> se descarcă</item>
+        <item quantity="few">&amp;lt;culoarea fontului==\"roșu\">%d melodii&amp;lt;/font> se descarcă</item>
     </plurals>
     <plurals name="multichoice_title">
         <item quantity="other">%d elemente selectate</item>

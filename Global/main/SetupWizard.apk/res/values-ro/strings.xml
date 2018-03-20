@@ -28,12 +28,9 @@
     <string name="common_signin_button_text">Conectați</string>
     <string name="common_signin_button_text_long">Conectați-vă cu Google</string>
     <string name="common_open_on_phone">Deschideți pe telefon</string>
-    <string name="suw_next_button_label">Înainte</string>
-    <string name="suw_back_button_label">Înapoi</string>
-    <string name="suw_more_button_label">Mai mult</string>
-    <string name="setup_wizard_title">Asistent de configurare</string>
     <string name="setup_wizard_next_button_label">Înainte</string>
     <string name="setup_wizard_back_button_label">Înapoi</string>
+    <string name="setup_wizard_title">Asistent de configurare</string>
     <string name="setup_wizard_services_activity_title">Servicii Google</string>
     <string name="setup_wizard_services_description">Aceste servicii vă oferă posibilitatea de a beneficia la maximum de avantajele oferite de Google și le puteți activa sau dezactiva oricând. Datele vor fi utilizate în conformitate cu <annotation id="google_privacy">Politica de confidențialitate</annotation> Google.</string>
     <string name="setup_wizard_services_backup_restore_heading">Backup și restabilire</string>
@@ -54,17 +51,40 @@
 Puteți activa sau dezactiva oricând trimiterea informațiilor în aplicația Setări Google. Nu va fi afectată capacitatea dispozitivului de a trimite informațiile necesare pentru primirea serviciilor de bază, cum ar fi actualizările de sistem și de securitate."</string>
     <string name="setup_wizard_services_agreement">Acest telefon poate primi și instala actualizări și aplicații de la Google, de la operatorul dvs. și de la producătorul dispozitivului. Unele aplicații ar putea fi descărcate și instalate dacă veți continua, dar le puteți elimina oricând.</string>
     <string name="default_device_name">Android</string>
+    <string name="welcome_message">Bun venit</string>
+    <string name="welcome_secondary_user_added_text">%s v-a adăugat pe acest telefon.</string>
+    <string name="welcome_secondary_user_added_no_owner_name_text">Aţi fost adăugat(ă) pe acest telefon.</string>
+    <string name="welcome_secondary_user_info_text">"După ce aţi terminat configurarea, puteţi să utilizaţi aceste aplicaţii sau să instalaţi altele, ca de obicei.
+
+"<b>Important:</b>"
+
+"<li><ul>Proprietarul telefonului poate să dezinstaleze aplicaţiile dvs. sau să elimine în întregime spaţiul dvs.</ul></li>"
+
+"<li><ul>Oricare alt utilizator poate accepta permisiunile aplicaţiilor actualizate în numele dvs.</ul></li>"
+
+"<li><ul>Ca pentru orice alt computer, trebuie să permiteţi accesul la acest telefon numai persoanelor în care aveţi încredere.</ul></li></string>
+    <string name="welcome_limited_user_info_text">" 
+"<b>Important:</b>"
+
+ "<li><ul>proprietarul telefonului poate să instaleze și să dezinstaleze aplicații, să seteze limite pentru spațiul dvs. sau să îl elimine complet.</ul></li>"
+
+ "<li><ul>Oricare alt utilizator poate accepta permisiunile aplicațiilor actualizate în numele dvs.</ul></li>"
+
+ "<li><ul>Ca pentru oricare alt computer, trebuie să permiteți accesul la telefon numai persoanelor în care aveți încredere. </ul></li></string>
+    <string name="welcome_text_edu">Configurați dispozitivul pentru Google Play for Education</string>
+    <string name="welcome_secondary_user_text_edu">Să terminăm de configurat contul pe această tabletă!</string>
+    <string name="welcome_secondary_user_additional_info_header_edu">Important</string>
+    <string name="welcome_secondary_user_additional_info_edu">Utilizați această tabletă împreună cu alți studenți. După ce ați configurat contul, adăugați un cod PIN pentru a vă proteja fișierele.</string>
     <string name="finish_button_label">Finalizaţi</string>
     <string name="skip_button_label">Omiteţi</string>
     <string name="skip_anyway_button_label">Ignoraţi oricum</string>
     <string name="dont_skip_button_label">Nu ignorați</string>
     <string name="down_button_label">Mai mult</string>
-    <string name="cancel_button_label">Anulați</string>
+    <string name="cancel_button_label">Anulaţi</string>
     <string name="restart_button_label">Reporniţi</string>
-    <string name="try_again_button_label">Încercați din nou</string>
+    <string name="try_again_button_label">Încercaţi din nou</string>
     <string name="close_button_label">Închideţi</string>
     <string name="got_it_button_label">Am înțeles</string>
-    <string name="ok_button_label">OK</string>
     <string name="google_legal_title">Aspecte juridice Google</string>
     <string name="url_load_unsuccessful_message">Telefonul dvs. nu este conectat la un serviciu de date mobile. Pentru a vedea acum aceste informaţii, accesaţi %s într-un browser web.</string>
     <string name="start">Porniţi</string>
@@ -77,15 +97,15 @@ Dispozitivul nu a fost configurat"</string>
     <string name="activation_title_activating">Se activează serviciul mobil...</string>
     <string name="activation_default_network_name">reţea mobilă</string>
     <string name="activation_network_bars_template">Puterea semnalului %d bare</string>
-    <string name="activation_text">Atingeţi <b>Activați</b>" pentru a activa acum serviciul de date pentru mobil. (Poate dura câteva minute.)
+    <string name="activation_text">Atingeţi <b>Activaţi</b>" pentru a activa acum serviciul de date pentru mobil. (Poate dura câteva minute.)
 
 Sau atingeţi "<b>Omiteţi</b> pentru a configura telefonul utilizând o conexiune Wi-Fi.</string>
-    <string name="activation_text_standalone">Atingeţi <b>Activați</b> pentru a activa acum serviciul de date pentru mobil. (Poate dura câteva minute.)</string>
+    <string name="activation_text_standalone">Atingeţi <b>Activaţi</b> pentru a activa acum serviciul de date pentru mobil. (Poate dura câteva minute.)</string>
     <string name="activation_skip_confirmation">"Până la activarea serviciului de date mobile, cele mai multe dintre funcţiile telefonului dvs. nu vor funcţiona.
 
-Dacă preferați să omiteţi acest pas acum, puteţi activa serviciul mai târziu, în Setări de sistem."</string>
+Dacă preferaţi să omiteţi acest pas acum, puteţi activa serviciul mai târziu, în Setări de sistem."</string>
     <string name="activation_continue_skip_label">Continuaţi</string>
-    <string name="activation_button_label">Activați</string>
+    <string name="activation_button_label">Activaţi</string>
     <string name="activation_progress_before_connect">Atingeţi <b>Omiteţi</b> pentru a finaliza configurarea utilizând o conexiune Wi-Fi.</string>
     <string name="activation_progress">Activarea poate dura câteva minute. Atingeţi <b>Omiteţi</b> pentru a finaliza configurarea utilizând o conexiune Wi-Fi.</string>
     <string name="activation_progress_gen">Aceasta poate dura cel mult 5 minute</string>
@@ -104,11 +124,11 @@ Activarea a reuşit, dar pot trece câteva minute până când reţeaua de date 
     <string name="activation_failure_text">"Încercați din nou peste un minut sau reporniți telefonul dacă problema persistă.
 
 Dacă preferați să ignorați problema momentan, nu uitați să activați telefonul mai târziu din Setările sistemului. Telefonul dvs. nu va beneficia de o conexiune de date mobile până la activare."</string>
-    <string name="activation_failure_text_gen">Serviciul dvs. de date mobile nu a putut fi activat. Aceasta poate fi o problemă temporară și poate fi soluționată prin repornirea telefonului.</string>
-    <string name="activation_failure_text_standalone">Nu s-a putut activa serviciul de date mobile. Pentru a reîncerca activarea, atingeţi <b>Încercați din nou</b>".
+    <string name="activation_failure_text_gen">Serviciul dvs. de date mobile nu a putut fi activat. Aceasta poate fi o problemă temporară şi poate fi soluţionată prin repornirea telefonului.</string>
+    <string name="activation_failure_text_standalone">Nu s-a putut activa serviciul de date mobile. Pentru a reîncerca activarea, atingeţi <b>Încercaţi din nou</b>".
 
-Puteţi să activați serviciul de date mobile mai târziu din "<b>Setări de sistem > Wireless și reţele > Reţele mobile</b></string>
-    <string name="activation_cancel_title">Anulați solicitarea</string>
+Puteţi să activaţi serviciul de date mobile mai târziu din "<b>Setări de sistem > Wireless şi reţele > Reţele mobile</b></string>
+    <string name="activation_cancel_title">Anulaţi solicitarea</string>
     <string name="activation_cancel_text">Se anulează activarea... Această operaţie poate dura 5 – 10 secunde.</string>
     <string name="activation_canceled_title">Activarea anulată</string>
     <string name="activation_canceled_text">"Doriți să anulați activarea? Trebuie să activați serviciul de rețea mobilă înainte de a-l putea utiliza pentru a vă conecta la internet.
@@ -119,21 +139,27 @@ Puteți să activați serviciul de rețea mobilă mai târziu din "<b>Setări de
     <string name="activation_canceled_text_standalone">"Activare anulată.
 
 Puteți să activați serviciul de date mobile mai târziu, în "<b>Setări de sistem > Wireless și rețele > Rețele mobile</b>.</string>
-    <string name="activation_spc_failure_text">A apărut o eroare care necesită închiderea și repornirea telefonului înainte de a putea face o nouă încercare de activare. Telefonul dvs. se va închide automat în 60 de secunde sau puteţi atinge <b>Închideţi acum</b>".
+    <string name="activation_spc_failure_text">A apărut o eroare care necesită închiderea şi repornirea telefonului înainte de a putea face o nouă încercare de activare. Telefonul dvs. se va închide automat în 60 de secunde sau puteţi atinge <b>Închideţi acum</b>".
 
 După închiderea telefonului, apăsaţi pe butonul de pornire pentru a-l reporni. Activarea va porni în mod automat."</string>
-    <string name="shutdown_button_label">Opriți acum</string>
+    <string name="shutdown_button_label">Opriţi acum</string>
     <string name="reboot_button_label">Reporniţi</string>
     <string name="activation_skip_text">Dacă omiteți activarea, asigurați-vă că activați mai târziu, în Setări. Până la activare, telefonul nu va avea o conexiune de date mobile.</string>
     <string name="notification_update_title">Contul dvs. trebuie să fie actualizat</string>
-    <string name="notification_update_message">Atingeţi aici pentru a rula din nou aplicația-asistent de configurare.</string>
+    <string name="notification_update_message">Atingeţi aici pentru a rula din nou aplicaţia-asistent de configurare.</string>
     <string name="account_exists_title">Contul a fost adăugat</string>
     <string name="account_exists_text">Primul dvs. cont este gata de utilizare. Puteți să adăugați și să eliminați ulterior conturi din Setări.</string>
-    <string name="date_time_setup_title">Data și ora</string>
+    <string name="date_time_setup_title">Data şi ora</string>
     <string name="date_time_message">Ajustați dacă este necesar.</string>
     <string name="date_time_current_date">Dată</string>
     <string name="date_time_current_time">Oră</string>
-    <string name="date_time_time_zone_full" formatted="false">%s (%s)</string>
+    <string name="location_sharing_title">Google şi localizarea</string>
+    <string name="tos_title">Google Services</string>
+    <string name="tos_agreement_text">Telefonul poate să primească și să instaleze actualizări de la Google. Continuând, sunteți de acord cu <annotation id="tos">Termenii și condițiile</annotation> și cu <annotation id="google_privacy">Politica de confidențialitate</annotation> Google.</string>
+    <string name="tos_agreement_text_germany">De asemenea, sunteți de acord ca dispozitivul dvs. să primească și să instaleze actualizări de la Google. Când utilizați acest dispozitiv, respectăm <annotation id="google_privacy">Politica de confidențialitate</annotation> și se aplică <annotation id="tos">termeni și condiții suplimentare</annotation>.</string>
+    <string name="setup_complete_title">Configurare finalizată</string>
+    <string name="setup_complete_message">Telefonul dvs. este configurat şi gata de utilizare.</string>
+    <string name="backup_assistant_prompt">Porniţi Verizon Asistent Backup pentru a restabili persoane din agenda altui telefon Verizon.</string>
     <string name="sim_missing_title">Introduceţi cardul SIM</string>
     <string name="sim_setup_title">Configurați cardurile SIM</string>
     <string name="sim_setup_select_data">Selectați un card SIM pentru date mobile</string>
@@ -142,7 +168,7 @@ După închiderea telefonului, apăsaţi pe butonul de pornire pentru a-l reporn
     <string name="sim_setup_ask_every_time">Întreabă de fiecare dată</string>
     <string name="walled_garden_title">Conexiune în curs de verificare...</string>
     <string name="walled_garden_check_indefinite_text">Această acțiune poate dura ceva timp</string>
-    <string name="walled_garden_skipped_message">"Dacă nu folosiți Wi‑Fi:
+    <string name="walled_garden_skipped_message">"Dacă omiteți:
 
 telefonul nu va avea o conexiune la internet;
 
@@ -160,39 +186,31 @@ nu puteți activa acum funcțiile de protecție a dispozitivului."</string>
     <string name="early_update_downloading_text">Se descarcă %s</string>
     <string name="early_update_installing_text">Se instalează %s</string>
     <string name="warm_sim_check_msg">Se aşteaptă reţeaua…</string>
-    <string name="sign_in_agreement">Conectându-vă, sunteți de acord cu <annotation id="tos">Termenii și condiţiile</annotation> și cu <annotation id="google_privacy">Politica de confidenţialitate</annotation> Google, precum și cu <annotation id="play_tos">Termenii și condiţiile Google Play</annotation>.</string>
+    <string name="sign_in_agreement">Conectându-vă, sunteţi de acord cu <annotation id="tos">Termenii şi condiţiile</annotation> şi cu <annotation id="google_privacy">Politica de confidenţialitate</annotation> Google, precum şi cu <annotation id="play_tos">Termenii şi condiţiile Google Play</annotation>.</string>
     <string name="android_privacy_policy_title">Politica de confidenţialitate suplimentară</string>
-    <string name="google_terms_of_service_title">Termenii și condiţiile Google</string>
+    <string name="google_terms_of_service_title">Termenii şi condiţiile Google</string>
     <string name="google_privacy_policy_title">Politica de confidenţialitate Google</string>
     <string name="google_plus_privacy_policy_title">Politică confidenţialitate Google Plus</string>
-    <string name="google_play_tos_title">Termeni și condiţii Google Play</string>
-    <string name="chrome_tos_title">Termeni și condiţii Chrome</string>
+    <string name="google_play_tos_title">Termeni şi condiţii Google Play</string>
+    <string name="chrome_tos_title">Termeni şi condiţii Chrome</string>
     <string name="chrome_privacy_title">Notificare confidenţialitate Chrome</string>
     <string name="url_load_unsuccessful_message_wifi_only">Dispozitivul dvs. Android nu este conectat la o reţea Wi-Fi. Pentru a vizualiza aceste informaţii acum, accesaţi %s cu un browser web.</string>
-    <string name="continue_for_a11y">Continuaţi să atingeţi ecranul până când auziți un bip, pentru a activa modul Accesibilitate.</string>
+    <string name="continue_for_a11y">Continuaţi să atingeţi ecranul până când auziţi un bip, pentru a activa modul Accesibilitate.</string>
     <string name="canceled_a11y">Modul Accesibilitate a fost anulat.</string>
     <string name="enabled_a11y">Modul Accesibilitate a fost activat.</string>
-    <string name="welcome_message">Bun venit</string>
-    <string name="emergency_dial">Urgență</string>
-    <string name="welcome_language_picker_dialog_title">Alegeți limba</string>
-    <string name="welcome_language_picker_section_suggested">Sugerate</string>
-    <string name="welcome_language_picker_section_all">Toate limbile</string>
+    <string name="emergency_dial">Apel de urgenţă</string>
     <string name="welcome_language_picker_content_description">Limba: %s</string>
     <string name="lock_screen_intro_title">Protejați telefonul</string>
-    <string name="lock_screen_intro_text">Activați funcțiile de protecție a dispozitivului pentru a împiedica alte persoane să folosească acest telefon fără permisiunea dvs. <annotation id="learn_more">Aflați mai multe</annotation></string>
-    <string name="lock_screen_intro_text_secondary">Dacă alegeți Da, veți fi îndrumat(ă) pentru a seta blocarea ecranului.</string>
-    <string name="lock_screen_intro_check_box"><b>Protejați dispozitivul</b> cu PIN, model sau parolă necesară pt. a debloca ecranul</string>
-    <string name="lock_screen_intro_radio_fingerprint">Configurați amprenta</string>
-    <string name="lock_screen_intro_radio_generic">Configurați codul PIN, modelul sau parola</string>
-    <string name="lock_screen_intro_radio_no">Nu, mulțumesc</string>
-    <string name="lock_screen_intro_success">"Blocarea ecranului a fost setată.
+    <string name="lock_screen_intro_text">"Activați funcțiile de protecție a dispozitivului pentru a împiedica alte persoane să folosească acest telefon fără permisiunea dvs.
 "<annotation id="learn_more">Aflați mai multe</annotation></string>
-    <string name="lock_screen_intro_dialog_text_frp">"Protecția dispozitivului este activată automat când adăugați un Cont Google și setați o blocare a ecranului. Folosind și Managerul de dispozitiv Android, puteți să localizați telefonul și să ștergeți datele de pe acesta, dacă este pierdut sau furat.
+    <string name="lock_screen_intro_text_secondary">Dacă alegeți Da, veți fi îndrumat(ă) pentru a seta ecranul de blocare.</string>
+    <string name="lock_screen_intro_check_box"><b>Protejați dispozitivul</b> cu PIN, model sau parolă necesară pt. a debloca ecranul</string>
+    <string name="lock_screen_intro_button">Configurați blocarea ecranului acum</string>
+    <string name="lock_screen_intro_success">Ecranul de blocare a fost setat.</string>
+    <string name="lock_screen_intro_dialog_text">"Protecția dispozitivului este activată automat când adăugați un Cont Google și setați o blocare a ecranului. Folosind Managerul de dispozitiv Android, puteți localiza telefonul, îi puteți șterge datele și puteți împiedica reutilizarea acestuia, dacă este pierdut sau furat.
 
-Chiar dacă datele de pe telefon sunt șterse, pentru utilizarea acestuia va fi necesară parola Contului Google."</string>
-    <string name="lock_screen_intro_dialog_text">Protecția dispozitivului este activată automat când adăugați un Cont Google și setați o blocare a ecranului. Folosind și Managerul de dispozitiv Android, puteți să localizați telefonul și să ștergeți datele de pe acesta, dacă este pierdut sau furat.</string>
-    <string name="lock_screen_intro_skip_dialog_text_frp">Funcțiile de protecție a dispozitivului nu vor fi activate. Nu veți putea împiedica alte persoane să folosească acest telefon, dacă este pierdut, furat sau dacă datele de pe acesta sunt șterse.</string>
-    <string name="lock_screen_intro_skip_dialog_text">Funcțiile de protecție a dispozitivului nu vor fi activate. Nu veți putea să împiedicați alte persoane să folosească acest telefon, dacă este pierdut sau furat.</string>
+Chiar dacă datele telefonului sunt șterse, pentru utilizarea acestuia va fi necesară parola Contului Google."</string>
+    <string name="lock_screen_intro_skip_dialog_text">Funcțiile de protecție a dispozitivului nu vor fi activate. Nu veți putea împiedica alte persoane să folosească telefonul, dacă este furat, pierdut sau dacă datele acestuia sunt șterse.</string>
     <string name="services_activity_title">Servicii Google</string>
     <string name="services_backup_heading">Copie de rezervă</string>
     <string name="services_location_heading">Locație</string>
@@ -204,45 +222,21 @@ Chiar dacă datele de pe telefon sunt șterse, pentru utilizarea acestuia va fi 
     <string name="restore_wallpaper_title">Se restabilește imaginea de fundal...</string>
     <string name="restore_device_settings_title">Se restabilesc setările dispoz....</string>
     <string name="restore_launcher_title">Se restabilește lansatorul...</string>
-    <string name="restore_failed_message">Nu s-au putut restabili datele din backup.</string>
-    <string name="restore_no_backup_message">Nu există backupuri disponibile pentru dispozitivul sursă.</string>
-    <string name="restore_stopped_message">Din păcate, dispozitivul a încetat restabilirea datelor din backup.</string>
+    <string name="restore_failed_message">Imposibil de restabilit din backup</string>
     <string name="name_title">Nume</string>
     <string name="name_text">Dacă vă adăugați numele, telefonul dvs. va putea personaliza unele aplicații.</string>
     <string name="first_name">Prenume</string>
     <string name="last_name">Nume</string>
     <string name="cant_be_blank">Câmpul nu poate fi necompletat.</string>
-    <string name="device_owner_warning_title">Telefonul poate fi monitorizat</string>
-    <string name="device_owner_warning">Acest telefon este gestionat de „%1$s”, ceea ce înseamnă că este posibil ca unele informații să fie vizibile și altor persoane. Pentru a împiedica monitorizarea, resetați telefonul.</string>
-    <string name="device_owner_continue">Continuați</string>
-    <string name="device_owner_reset">Resetați telefonul</string>
-    <string name="factory_reset_title">Resetați telefonul</string>
-    <string name="factory_reset_instructions">Avertisment: resetarea va șterge toate conturile și datele din memoria internă a acestui telefon.</string>
-    <string name="factory_reset_confirmation_title">Resetați?</string>
-    <string name="factory_reset_confirmation">Ștergeți toate conturile și datele de pe acest telefon? Nu puteți anula această acțiune!</string>
-    <string name="factory_reset_button">Ștergeți și resetați</string>
-    <string name="restart_setup_wizard_dialog_title">Neconectat(ă)</string>
-    <string name="restart_setup_wizard_dialog_text">"Pentru a folosi acest telefon, trebuie să vă conectați mai întâi la Contul Google al unui proprietar, care era folosit pe acest telefon la ultima resetare.
-
-Deoarece nu ați făcut acest lucru, trebuie să configurați telefonul din nou."</string>
-    <string name="restart_setup_wizard_button_label">Configurați telefon</string>
-    <string name="sec_user_continue">Continuați</string>
-    <string name="sec_user_quit">Ieșiți</string>
-    <string name="user_warning_title">Configurați un utilizator nou</string>
-    <string name="welcome_secondary_user_added_text">%s v-a adăugat pe acest telefon.</string>
-    <string name="welcome_secondary_user_added_no_owner_name_text">Aţi fost adăugat(ă) pe acest telefon.</string>
-    <string name="welcome_secondary_user_info_text"><b>Important:</b>"
-
-"<li><ul>proprietarul telefonului poate să dezinstaleze aplicații sau să vă elimine spațiul complet.</ul></li>"
-
-"<li><ul>Oricare alt utilizator poate accepta permisiunile aplicațiilor actualizate în numele dvs.</ul></li>"
-
-"<li><ul>Ca pentru oricare alt computer, trebuie să permiteți accesul la telefon numai persoanelor de încredere.</ul></li></string>
-    <string name="welcome_limited_user_info_text">" "<b>Important:</b>"
-
- "<li><ul>proprietarul telefonului poate să instaleze și să dezinstaleze aplicații, să seteze limite pentru spațiul dvs. sau să îl elimine complet.</ul></li>"
-
- "<li><ul>Oricare alt utilizator poate accepta permisiunile aplicațiilor actualizate în numele dvs.</ul></li>"
-
- "<li><ul>Ca pentru oricare alt computer, trebuie să permiteți accesul la telefon numai persoanelor de încredere. </ul></li></string>
+    <string name="lock_pin_confirm_your_pin_header">Confirmați codul PIN</string>
+    <string name="lock_pin_choose_your_pin_header">Alegeți codul PIN</string>
+    <string name="lock_pin_ok_label">OK</string>
+    <string name="lock_pin_cancel_label">Anulați</string>
+    <string name="lock_pin_press_continue">Atingeți Continuați când ați terminat</string>
+    <string name="lock_pin_too_short">Codul PIN trebuie să conțină minimum %d cifre</string>
+    <string name="lock_pin_too_long">Codul PIN trebuie să aibă mai puțin de %d cifre.</string>
+    <string name="lock_pin_illegal_character">Parola conține un caracter nepermis.</string>
+    <string name="lock_pin_contains_non_digits">Codul PIN trebuie să conțină numai cifre 0 – 9.</string>
+    <string name="lock_pin_confirm_pins_dont_match">Codurile PIN nu corespund</string>
+    <string name="lock_pin_continue_label">Continuați</string>
 </resources>

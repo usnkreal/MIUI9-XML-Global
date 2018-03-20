@@ -25,6 +25,7 @@
     <string name="deselect_all">Egyik sem</string>
     <string name="instruction">Utasítások</string>
     <string name="sar">Rádiófrekvenciás sugárzás információ</string>
+    <string name="user_experience_program">Felhasználóiélmény-program</string>
     <string name="abc_action_bar_up_description">Fel</string>
     <string name="abc_action_bar_home_description">Kezdőlap</string>
     <string name="time_picker_label_hour">Ó</string>
@@ -231,7 +232,7 @@
     <string name="saturday">Szombat</string>
     <string name="sunday_short">Vas</string>
     <string name="monday_short">Hét</string>
-    <string name="tuesday_short">Ked</string>
+    <string name="tuesday_short">Kedd</string>
     <string name="wednesday_short">Sze</string>
     <string name="thursday_short">Csü</string>
     <string name="friday_short">Pén</string>

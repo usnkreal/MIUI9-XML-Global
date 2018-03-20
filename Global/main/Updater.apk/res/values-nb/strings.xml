@@ -199,6 +199,9 @@ http://zhushou.xiaomi.com"</string>
     <string name="confirm_local_package_wipe_title">Slette data?</string>
     <string name="confirm_local_package_wipe_msg">Dine personlige data blir slettet. Sørg for å sikkerhetskopiere alt du vil beholde før du starter prosessen.</string>
     <string name="confirm_local_package_wipe_btn">Slett og oppdater</string>
+    <string name="file_path_error_title">Incorrect path</string>
+    <string name="file_path_error_msg">Make sure the path to the update package contains only letters and numbers.</string>
+    <string name="file_path_error_btn">Got it</string>
     <string name="delay_update_text">Oppdater i natt</string>
     <string name="dialog_delay_update_title">Oppdatering er tilgjengelig</string>
     <string name="dialog_delay_update_msg">Oppdateringer blir installert mellom 02.00 og 05.00 dersom batteriet er minst 30% fullt.</string>

@@ -396,9 +396,9 @@ SMS 전송"</string>
     <string name="firewall_system_title">시스템 앱 데이터 사용량</string>
     <string name="firewall_temp_rule_reason">%2$s가 %1$s​의 인터넷 연결을 제한했습니다.</string>
     <string name="dialog_restrict_all_wlan_title">Wi-Fi 연결 제한</string>
-    <string name="dialog_restrict_all_wlan_summary">Wi-Fi connection will be restricted for all apps after this.</string>
+    <string name="dialog_restrict_all_wlan_summary">이 과정 후 모든 앱의 Wi-Fi 연결이 제한될 것입니다.</string>
     <string name="dialog_restrict_all_mobile_title">%s 모바일 데이터 연결 제한</string>
-    <string name="dialog_restrict_all_mobile_summary">%s Mobile data connection will be restricted for all apps after this.</string>
+    <string name="dialog_restrict_all_mobile_summary">모든 앱의 %s 모바일 데이터 연결이 제한될 것입니다.</string>
     <string name="dialog_restrict_positive">취소</string>
     <string name="dialog_restrict_negative">제한</string>
     <string name="usage_sorted_activity_lable">데이터 사용량</string>
@@ -1933,7 +1933,7 @@ Rolled over extra data"</string>
     <string name="sponsored_sec_fb">스폰서</string>
     <string name="add_game_notification_summary">탭하여 실행 &amp; 가속</string>
     <string name="app_manager_title">앱 관리</string>
-    <string name="app_manager_app_lock">앱 잠금</string>
+    <string name="app_manager_uninstall">Uninstall</string>
     <string name="app_manager_bipartition">듀얼 앱</string>
     <string name="app_manager_perm">권한</string>
     <string name="app_manager_app_update">업데이트</string>
@@ -2040,8 +2040,6 @@ Rolled over extra data"</string>
     <string name="app_manager_cache_size">캐시</string>
     <string name="app_manager_clear_all_data">모든 데이터 지우기</string>
     <string name="app_manager_dlg_clear_cache_title">캐시를 지우시겠습니까?</string>
-    <string name="app_manager_support_uninstall">이 앱들을 삭제하실 수 있습니다.</string>
-    <string name="app_manager_not_support_uninstall">이 앱을 삭제할 수 없습니다.</string>
     <string name="app_manager_comuting_size">계산 중…</string>
     <string name="app_manager_show_all_apps_opened">모든 앱의 결과 표시 중…</string>
     <string name="app_manager_search_prompt">결과를 찾을 수 없으십니까? 모든 앱의 결과 표시를 시도해 보십시오.</string>

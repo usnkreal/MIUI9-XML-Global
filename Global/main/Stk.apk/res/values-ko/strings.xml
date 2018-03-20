@@ -25,8 +25,8 @@
     <string name="default_close_channel_msg">채널 닫힘</string>
     <string name="stk_dialog_accept">네</string>
     <string name="stk_dialog_reject">아니요</string>
-    <string name="no_sim_card_inserted">SIM 툴킷을 실행하려면 SIM 카드를 삽입하십시오.</string>
     <string name="stk_intent_permission">권한 요구됨</string>
+    <string name="no_sim_card_inserted">SIM 툴킷을 실행하려면 SIM 카드를 삽입하십시오.</string>
     <string name="sim_type_sim_name">SIM 툴킷</string>
     <string name="sim_type_usim_name">USIM 툴킷</string>
     <string name="sim_type_uim_name">UIM 툴킷</string>

@@ -65,7 +65,6 @@
         <item>Częstotliwość użytkowania</item>
         <item>Użyta przestrzeń</item>
         <item>Czas instalacji</item>
-        <item>Aplikacje, które mogą zostać odinstalowane</item>
     </string-array>
     <string-array name="sort_title">
         <item>Sortuj wg statusu</item>
@@ -73,7 +72,6 @@
         <item>Sortuj wg częstotliwości używania</item>
         <item>Sortuj wg użytej przestrzeni</item>
         <item>Sortuj według czasu instalacji</item>
-        <item>Wyświetl aplikacje, które mogą zostać najpierw odinstalowane</item>
     </string-array>
     <string-array name="key_app_info">
         <item>install_source</item>

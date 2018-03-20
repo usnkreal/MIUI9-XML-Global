@@ -25,8 +25,8 @@
         <item quantity="one">%1$s personne |</item>
     </plurals>
     <plurals name="total_voted_num_text">
-        <item quantity="other">"&lt;font color='#20a7ff'>%1$s&lt;/font> personnes ont voté"</item>
-        <item quantity="one">"&lt;font color='#20a7ff'>%1$s&lt;/font> personne ont voté"</item>
+        <item quantity="other">"&amp;lt;font color='#20a7ff'>%1$s&amp;lt;/font> personnes ont voté"</item>
+        <item quantity="one">"&amp;lt;font color='#20a7ff'>%1$s&amp;lt;/font> personne ont voté"</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Dégagé</item>

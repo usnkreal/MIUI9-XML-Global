@@ -9,12 +9,12 @@
         <item quantity="one">La til %d bilder fra cloud, skru av \"Vis kun lokale album\" for å vise dem.</item>
     </plurals>
     <plurals name="add_to_album_failed_with_reason_and_count">
-        <item quantity="other">"%2$d items can't be added to album. %1$s."</item>
-        <item quantity="one">%2$d elementer kan ikke legges til album. %1$s.</item>
+        <item quantity="other">%2$d elementer kan ikke legges til album. %1$s.</item>
+        <item quantity="one">%2$d element kan ikke legges til album. %1$s.</item>
     </plurals>
     <plurals name="add_to_secret_failed_with_reason_and_count">
-        <item quantity="other">"%2$d items can't be added to hidden album. %1$s."</item>
-        <item quantity="one">%2$d elementer kan ikke legges til i skjult album. %1$s.</item>
+        <item quantity="other">%2$d elementer kan ikke legges til i skjult album. %1$s.</item>
+        <item quantity="one">%2$d element kan ikke legges til i skjult album. %1$s.</item>
     </plurals>
     <plurals name="age_day">
         <item quantity="other">%d days</item>
@@ -129,8 +129,8 @@
         <item quantity="one">Totalt %d bilde</item>
     </plurals>
     <plurals name="fail_reason_processing_file">
-        <item quantity="other">Processing photos…</item>
-        <item quantity="one">Behandler bilder…</item>
+        <item quantity="other">Behandler bilder…</item>
+        <item quantity="one">Behandler bilde…</item>
     </plurals>
     <plurals name="fast_share_auto_render_failed">
         <item quantity="other">"Skipped %1$d photos which couldn't be rendered."</item>
@@ -141,8 +141,8 @@
         <item quantity="one">Totalt %1$d elementer</item>
     </plurals>
     <plurals name="number_of_images_and_videos_to_upload">
-        <item quantity="other">%1$d items waiting to back up</item>
-        <item quantity="one">%1$d elementer venter på sikkerhetskopiering</item>
+        <item quantity="other">%1$d elementer venter på sikkerhetskopiering</item>
+        <item quantity="one">1 element venter på sikkerhetskopiering</item>
     </plurals>
     <plurals name="number_of_images_synced">
         <item quantity="other">%1$d bilder</item>
@@ -153,12 +153,12 @@
         <item quantity="one">1 bilde venter på sikkerhetskopiering</item>
     </plurals>
     <plurals name="number_of_uploading_images">
-        <item quantity="other">Backing up %1$d photos…</item>
-        <item quantity="one">Sikkerhetskopierer %1$d bilder…</item>
+        <item quantity="other">Sikkerhetskopierer %1$d bilder…</item>
+        <item quantity="one">Sikkerhetskopierer %1$d bilde…</item>
     </plurals>
     <plurals name="number_of_uploading_images_and_videos">
-        <item quantity="other">Backing up %1$d items…</item>
-        <item quantity="one">Sikkerhetskopierer %1$d elementer…</item>
+        <item quantity="other">Sikkerhetskopierer %1$d elementer…</item>
+        <item quantity="one">Sikkerhetskopierer %1$d element…</item>
     </plurals>
     <plurals name="number_of_uploading_videos">
         <item quantity="other">Backing up %1$d videos…</item>
@@ -173,11 +173,11 @@
         <item quantity="one">%1$d videoer venter på sikkerhetskopiering</item>
     </plurals>
     <plurals name="picker_all_image_need_download">
-        <item quantity="other">"Selected photos aren't on device. Download them using mobile data?"</item>
+        <item quantity="other">De valgte bildene er ikke på enheten. Laste dem ned ved bruk av mobildata?</item>
         <item quantity="one">De valgte bildene er ikke på enheten. Laste dem ned ved bruk av mobildata?</item>
     </plurals>
     <plurals name="picker_all_image_will_download">
-        <item quantity="other">"Selected photos aren't on device. They will be downloaded."</item>
+        <item quantity="other">De valgte bildene er ikke på enheten. De vil lastes ned.</item>
         <item quantity="one">De valgte bildene er ikke på enheten. De vil lastes ned.</item>
     </plurals>
     <plurals name="picker_all_origin_need_download">
@@ -189,8 +189,8 @@
         <item quantity="one">Avbryte nedlasting gjenstående bilde?</item>
     </plurals>
     <plurals name="picker_no_network_retry_image_confirm_message">
-        <item quantity="other">"Couldn't download %1$d photos, connect to the network and try again"</item>
-        <item quantity="one">Kunne ikke laste ned %1$d bilder. Koble til nettverket og prøv igjen</item>
+        <item quantity="other">Kunne ikke laste ned %1$d bilder. Koble til nettverket og prøv igjen</item>
+        <item quantity="one">Kunne ikke laste ned 1 bilder. Koble til nettverket og prøv igjen</item>
     </plurals>
     <plurals name="picker_no_network_retry_origin_confirm_message">
         <item quantity="other">Kunne ikke laste ned %1$d bilder (%2$d MB). Koble til nettverket og prøv igjen.</item>
@@ -205,8 +205,8 @@
         <item quantity="one">Kunne ikke laste ned %1$d bilder (%2$d MB). Prøve igjen?</item>
     </plurals>
     <plurals name="picker_skip_unavailable_images">
-        <item quantity="other">"Skipped %d photos which aren't on device."</item>
-        <item quantity="one">Hoppet over %d bilder som ikke er på enheten.</item>
+        <item quantity="other">Hoppet over %d bilder som ikke er på enheten.</item>
+        <item quantity="one">Hoppet over 1 bilde som ikke er på enheten.</item>
     </plurals>
     <plurals name="quickly_discovery_message_format">
         <item quantity="other">Found %1$d new photos</item>

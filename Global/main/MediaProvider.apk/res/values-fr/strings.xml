@@ -2,6 +2,7 @@
 <resources>
     <string name="uid_label">Multimédia</string>
     <string name="app_label">Stockage multimédia</string>
+    <string name="upgrade_msg">Mise à jour de la base de données multimédia.</string>
     <string name="artist_label">Artiste</string>
     <string name="ringtone_default">Sonnerie par défaut</string>
     <string name="notification_sound_default">Son de notification par défaut</string>

@@ -25,8 +25,8 @@
     <string name="default_close_channel_msg">Canal închis</string>
     <string name="stk_dialog_accept">DA</string>
     <string name="stk_dialog_reject">NU</string>
-    <string name="no_sim_card_inserted">Introduceți cartela SIM pentru a lansa Instrumente SIM.</string>
     <string name="stk_intent_permission">Sunt necesare permisiuni</string>
+    <string name="no_sim_card_inserted">Introduceți cartela SIM pentru a lansa Instrumente SIM.</string>
     <string name="sim_type_sim_name">Instrumente SIM</string>
     <string name="sim_type_usim_name">Instrumente USIM</string>
     <string name="sim_type_uim_name">Instrumente UIM</string>

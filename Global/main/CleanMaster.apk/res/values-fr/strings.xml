@@ -476,7 +476,7 @@
     <string name="engine_init">Initialisation…</string>
     <string name="unlike">Non merci</string>
     <string name="wechat_qq_celan_tab_video">Vidéos</string>
-    <string name="wechat_qq_celan_tab_voice">Message vocaux</string>
+    <string name="wechat_qq_celan_tab_voice">Messages vocaux</string>
     <string name="wechat_qq_celan_tab_image">Images</string>
     <string name="wechat_qq_celan_tab_file">Fichiers</string>
     <string name="wechat_qq_deep_clean_button_text">Nettoyage en profondeur</string>

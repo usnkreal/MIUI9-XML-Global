@@ -25,6 +25,7 @@
     <string name="deselect_all">Размаркиране на всички</string>
     <string name="instruction">Инструкции</string>
     <string name="sar">РФ Информация за експониране</string>
+    <string name="user_experience_program">Програма за потребителски отзиви</string>
     <string name="abc_action_bar_up_description">Придвижване нагоре</string>
     <string name="abc_action_bar_home_description">Придвижване към „Начало“</string>
     <string name="time_picker_label_hour">Ч</string>

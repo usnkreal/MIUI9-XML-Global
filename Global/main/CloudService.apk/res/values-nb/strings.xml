@@ -173,8 +173,7 @@ Hvis du bytter SIM-kort, vil en melding automatisk sendes som aktiverer denne fu
     <string name="micloud_user_space_usage">Lagringsplass</string>
     <string name="micloud_web_discription_01">Logg inn på i.mi.com</string>
     <string name="micloud_web_discription_02">for å lagre og få tilgang til filene dine fra hvor som helst</string>
-    <string name="micloud_web_discription">Besøk i.mi.com</string>
-    <string name="micloud_web_discription_international">Besøk www.mi.com/micloud</string>
+    <string name="micloud_web_discription_place_holder">Visit %1$s</string>
     <string name="micloud_full_influence_title">Når din Mi Cloud er full…</string>
     <string name="micloud_warn_low_title">Nesten tom for plass</string>
     <string name="micloud_warn_low_sum">Din Mi Cloud er 90 % full.</string>

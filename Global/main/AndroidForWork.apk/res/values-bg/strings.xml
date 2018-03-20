@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setup_wizard_next_button_label">Напред</string>
+    <string name="setup_wizard_back_button_label">Назад</string>
+    <string name="app_name">Android Work Assistant</string>
+    <string name="android_for_work_title">Настройване на устройството ви</string>
+    <string name="corp_owned_explanation">Организацията ви контролира устройството ви и се грижи за сигурността му.</string>
+    <string name="set_up">Настройване</string>
+    <string name="email_hint">Имейл адрес</string>
+    <string name="code_hint">Код за активиране</string>
+    <string name="dialog_activation_code_title">Код за активиране</string>
+    <string name="dialog_activation_code_main_text">За да настроите профила си в Android Work, трябва да инсталирате одобрено от организацията ви приложение за администриране. За инсталирането му ви е необходим код за активиране. За да го получите, се свържете с отдела си за информационни технологии.</string>
+    <string name="dialog_close">Затваряне</string>
+    <string name="dialog_cancel">Отказ</string>
+    <string name="dialog_ok">ОK</string>
+    <string name="dialog_try_again">Нов опит</string>
+    <string name="error_dialog_mdm_lookup_failed">Информацията за организацията ви не можа да се извлече. Проверете връзката си с интернет и опитайте отново.</string>
+    <string name="error_dialog_cert_hash_mismatch">Приложението %1$ вече е инсталирано. Премахнете го и опитайте отново.</string>
+    <string name="error_dialog_input_error">Имейл адресът и кодът ви за активиране не съвпадат. Проверете за правописни грешки и опитайте отново.</string>
+    <string name="lookup_progress_text">Търси се приложението за управление на устройството ви...</string>
+</resources>

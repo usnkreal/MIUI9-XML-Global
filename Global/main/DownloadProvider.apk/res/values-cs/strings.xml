@@ -63,7 +63,7 @@
     <string name="permdesc_downloadManagerAdvanced">Povolit aplikaci přístup k pokročilým funkcím Stažených. Škodlivé aplikace mohou tohoto využít k přerušení stahování a přístupu k osobním informacím.</string>
     <string name="permlab_downloadCompletedIntent">Odesílat oznámení o stažení.</string>
     <string name="permdesc_downloadCompletedIntent">Povolit aplikaci zasílat oznámení o dokončených stahováních. Škodlivé aplikace mohou tohoto využít ke zmatení jiných aplikací, které stahují soubory.</string>
-    <string name="permlab_seeAllExternal">Zobrazit všechna stahování na SD kartě</string>
+    <string name="permlab_seeAllExternal">Zobrazit všechna stahování na USB úložišti</string>
     <string name="permdesc_seeAllExternal">Povolit aplikaci zobrazit všechna stahování na SD kartě, bez ohledu na to, jaká aplikace byla pro stahování použita.</string>
     <string name="permlab_downloadCacheNonPurgeable">Rezervovat místo pro stahování ve vyrovnávací paměti</string>
     <string name="permdesc_downloadCacheNonPurgeable">Povolit aplikaci stahovat soubory do mezipaměti, která nebude automaticky vymazána, pokud aplikace Stažené potřebuje více místa.</string>

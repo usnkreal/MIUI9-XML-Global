@@ -42,10 +42,6 @@
         <item quantity="other">%1$d אפליקציות עודכנו</item>
         <item quantity="one">אפליקציה %1$d עודכנה</item>
     </plurals>
-    <plurals name="delete_backup_success_message">
-        <item quantity="other">הגיבויים נמחקו.</item>
-        <item quantity="one">הגיבוי נמחק.</item>
-    </plurals>
     <plurals name="download_message_all_failed">
         <item quantity="other">לא ניתן היה להוריד את הפריטים</item>
         <item quantity="one">לא ניתן להוריד את הפריט</item>
@@ -123,22 +119,6 @@
         <item quantity="other">האם לשתף את התיקיות האלו?</item>
         <item quantity="one">האם לשתף את התיקיה הזו?</item>
     </plurals>
-    <plurals name="move_error_cannot_move_in_not_owned">
-        <item quantity="other">אינך הבעלים של חלק מהפריטים, ולכן אינך יכול להעביר אותם לאחסון הקבוצתי.</item>
-        <item quantity="one">אינך הבעלים של הפריט הזה, ולכן אינך יכול להעביר אותו לאחסון הקבוצתי.</item>
-    </plurals>
-    <plurals name="move_error_no_permission_src">
-        <item quantity="other">אין לך הרשאה להוציא חלק מהפריטים מהתיקיות שלהם.</item>
-        <item quantity="one">אין לך הרשאה להוציא את הפריט הזה מהתיקייה שלו.</item>
-    </plurals>
-    <plurals name="pdocs_action_items">
-        <item quantity="other">%1$s פריטי פעולה</item>
-        <item quantity="one">%1$s פעולה לביצוע</item>
-    </plurals>
-    <plurals name="pdocs_comments">
-        <item quantity="other">%1$s אזכורים ללא תשובה</item>
-        <item quantity="one">אזכור %1$s ללא תשובה</item>
-    </plurals>
     <plurals name="pdocs_suggestions">
         <item quantity="other">%1$s הצעות</item>
         <item quantity="one">הצעה %1$s</item>
@@ -163,51 +143,39 @@
         <item quantity="other">%1$d קבצים</item>
         <item quantity="one">קובץ %1$d</item>
     </plurals>
-    <plurals name="pin_notification_waiting_ticker">
-        <item quantity="other">‏ההורדות הושהו, ממתין ל-Wi-Fi..</item>
-        <item quantity="one">‏ההורדה הושהתה, ממתין ל-Wi-Fi..</item>
-    </plurals>
     <plurals name="pin_notification_waiting_title">
         <item quantity="other">%1$d הורדות הושהו.</item>
         <item quantity="one">הורדה %1$d הושהתה.</item>
     </plurals>
     <plurals name="plus_photo_item_remove_items_dialog_text_multiple">
-        <item quantity="other">‏%1$d פריטים יועברו לאשפה וכתוצאה מכך יוסרו גם מתמונות Google‎.</item>
-        <item quantity="one">‏פריט אחד יועבר לאשפה וכתוצאה מכך יוסר גם מתמונות Google‎.</item>
-    </plurals>
-    <plurals name="prioritydocs_badge_a11y_text">
-        <item quantity="other">%1$s פריטים למעקב</item>
-        <item quantity="one">%1$s פריט למעקב</item>
-    </plurals>
-    <plurals name="prioritydocs_menu_item_a11y_text">
-        <item quantity="other">%1$s פריטים למעקב</item>
-        <item quantity="one">%1$s פריט למעקב</item>
+        <item quantity="other">‏%d פריטים יועברו לאשפה וכתוצאה מכך יוסרו גם מאלבומי Google.</item>
+        <item quantity="one">‏פריט אחד יועבר לאשפה וכתוצאה מכך יוסר גם מאלבומי Google.</item>
     </plurals>
     <plurals name="recent_activity_type_commented_many_users">
-        <item quantity="other">הוספת תגובה ל-%1$d קבצים</item>
+        <item quantity="other">הוספת תגובה ל-%d קבצים</item>
         <item quantity="one">הוספת תגובה לקובץ</item>
     </plurals>
     <plurals name="recent_activity_type_commented_one_user">
-        <item quantity="other">הוספת תגובה ל-%1$d קבצים</item>
+        <item quantity="other">הוספת תגובה ל-%d קבצים</item>
         <item quantity="one">הוספת תגובה לקובץ</item>
     </plurals>
     <plurals name="recent_activity_type_commented_this_file">
         <item quantity="other">הוספת תגובה לקובץ זה</item>
     </plurals>
     <plurals name="recent_activity_type_created_extra_many_users">
-        <item quantity="other">יצירת %1$d פריטים ב:</item>
+        <item quantity="other">יצירת %d פריטים ב:</item>
         <item quantity="one">יצירת פריט ב:</item>
     </plurals>
     <plurals name="recent_activity_type_created_extra_one_user">
-        <item quantity="other">יצירת %1$d פריטים ב:</item>
+        <item quantity="other">יצירת %d פריטים ב:</item>
         <item quantity="one">יצירת פריט ב:</item>
     </plurals>
     <plurals name="recent_activity_type_created_many_users">
-        <item quantity="other">יצירת %1$d פריטים</item>
+        <item quantity="other">יצירת %d פריטים</item>
         <item quantity="one">יצירת פריט</item>
     </plurals>
     <plurals name="recent_activity_type_created_one_user">
-        <item quantity="other">יצירת %1$d פריטים</item>
+        <item quantity="other">יצירת %d פריטים</item>
         <item quantity="one">יצירת פריט</item>
     </plurals>
     <plurals name="recent_activity_type_created_this_file">
@@ -217,26 +185,26 @@
         <item quantity="other">יצירת תיקיה זו</item>
     </plurals>
     <plurals name="recent_activity_type_edited_many_users">
-        <item quantity="other">עריכת %1$d פריטים</item>
+        <item quantity="other">עריכת %d פריטים</item>
         <item quantity="one">עריכת פריט</item>
     </plurals>
     <plurals name="recent_activity_type_edited_one_user">
-        <item quantity="other">עריכת %1$d פריטים</item>
+        <item quantity="other">עריכת %d פריטים</item>
         <item quantity="one">עריכת פריט</item>
     </plurals>
     <plurals name="recent_activity_type_edited_this_file">
         <item quantity="other">עריכת קובץ זה</item>
     </plurals>
     <plurals name="recent_activity_type_empty_trash">
-        <item quantity="other">מחיקת %1$d פריטים לצמיתות</item>
+        <item quantity="other">מחיקת %d פריטים לצמיתות</item>
         <item quantity="one">מחיקת פריט לצמיתות</item>
     </plurals>
     <plurals name="recent_activity_type_link_many_users">
-        <item quantity="other">שינוי גישה של קישור ל-%1$d פריטים</item>
+        <item quantity="other">שינוי גישה של קישור ל-%d פריטים</item>
         <item quantity="one">שינוי גישה של קישור לפריט אחד</item>
     </plurals>
     <plurals name="recent_activity_type_link_one_user">
-        <item quantity="other">שינוי גישה של קישור ל-%1$d פריטים</item>
+        <item quantity="other">שינוי גישה של קישור ל-%d פריטים</item>
         <item quantity="one">שינוי גישה של קישור לפריט אחד</item>
     </plurals>
     <plurals name="recent_activity_type_link_this_file">
@@ -246,19 +214,19 @@
         <item quantity="other">שינוי גישה של קישור לתיקיה זו</item>
     </plurals>
     <plurals name="recent_activity_type_moved_extra_many_users">
-        <item quantity="other">העברת %1$d פריטים אל:</item>
+        <item quantity="other">העברת %d פריטים אל:</item>
         <item quantity="one">העברת פריט אל:</item>
     </plurals>
     <plurals name="recent_activity_type_moved_extra_one_user">
-        <item quantity="other">העברת %1$d פריטים אל:</item>
+        <item quantity="other">העברת %d פריטים אל:</item>
         <item quantity="one">העברת פריט אל:</item>
     </plurals>
     <plurals name="recent_activity_type_moved_many_users">
-        <item quantity="other">העברת %1$d פריטים</item>
+        <item quantity="other">העברת %d פריטים</item>
         <item quantity="one">העברת פריט</item>
     </plurals>
     <plurals name="recent_activity_type_moved_one_user">
-        <item quantity="other">העברת %1$d פריטים</item>
+        <item quantity="other">העברת %d פריטים</item>
         <item quantity="one">העברת פריט</item>
     </plurals>
     <plurals name="recent_activity_type_moved_this_file">
@@ -274,11 +242,11 @@
         <item quantity="other">העברת תיקיה זו אל:</item>
     </plurals>
     <plurals name="recent_activity_type_renamed_many_users">
-        <item quantity="other">‏שינוי שם של ‎%1$d‎ פריטים</item>
+        <item quantity="other">‏שינוי שם של ‎%d‎ פריטים</item>
         <item quantity="one">שינוי שם של פריט</item>
     </plurals>
     <plurals name="recent_activity_type_renamed_one_user">
-        <item quantity="other">‏שינוי שם של ‎%1$d‎ פריטים</item>
+        <item quantity="other">‏שינוי שם של ‎%d‎ פריטים</item>
         <item quantity="one">שינוי שם של פריט</item>
     </plurals>
     <plurals name="recent_activity_type_renamed_this_file">
@@ -288,19 +256,19 @@
         <item quantity="other">שינוי השם של תיקיה זו</item>
     </plurals>
     <plurals name="recent_activity_type_shared_extra_many_users">
-        <item quantity="other">שיתוף %1$d פריטים עם:</item>
+        <item quantity="other">שיתוף %d פריטים עם:</item>
         <item quantity="one">שיתוף פריט עם:</item>
     </plurals>
     <plurals name="recent_activity_type_shared_extra_one_user">
-        <item quantity="other">שיתוף %1$d פריטים עם:</item>
+        <item quantity="other">שיתוף %d פריטים עם:</item>
         <item quantity="one">שיתוף פריט עם:</item>
     </plurals>
     <plurals name="recent_activity_type_shared_many_users">
-        <item quantity="other">שיתוף %1$d פריטים</item>
+        <item quantity="other">שיתוף %d פריטים</item>
         <item quantity="one">שיתוף פריט</item>
     </plurals>
     <plurals name="recent_activity_type_shared_one_user">
-        <item quantity="other">שיתוף %1$d פריטים</item>
+        <item quantity="other">שיתוף %d פריטים</item>
         <item quantity="one">שיתוף פריט</item>
     </plurals>
     <plurals name="recent_activity_type_shared_this_file">
@@ -316,11 +284,11 @@
         <item quantity="other">שיתוף תיקיה זו עם:</item>
     </plurals>
     <plurals name="recent_activity_type_trashed_many_users">
-        <item quantity="other">העברת %1$d פריטים לאשפה</item>
+        <item quantity="other">העברת %d פריטים לאשפה</item>
         <item quantity="one">העברת פריט לאשפה</item>
     </plurals>
     <plurals name="recent_activity_type_trashed_one_user">
-        <item quantity="other">העברת %1$d פריטים לאשפה</item>
+        <item quantity="other">העברת %d פריטים לאשפה</item>
         <item quantity="one">העברת פריט לאשפה</item>
     </plurals>
     <plurals name="recent_activity_type_trashed_this_file">
@@ -330,11 +298,11 @@
         <item quantity="other">הסרת תיקיה זו</item>
     </plurals>
     <plurals name="recent_activity_type_unshared_many_users">
-        <item quantity="other">הגבלת גישה ל-%1$d פריטים</item>
+        <item quantity="other">הגבלת גישה ל-%d פריטים</item>
         <item quantity="one">הגבלת גישה לפריט אחד</item>
     </plurals>
     <plurals name="recent_activity_type_unshared_one_user">
-        <item quantity="other">הגבלת גישה ל-%1$d פריטים</item>
+        <item quantity="other">הגבלת גישה ל-%d פריטים</item>
         <item quantity="one">הגבלת גישה לפריט אחד</item>
     </plurals>
     <plurals name="recent_activity_type_unshared_this_file">
@@ -344,11 +312,11 @@
         <item quantity="other">הגבלת גישה לתיקיה זו</item>
     </plurals>
     <plurals name="recent_activity_type_uploaded_many_users">
-        <item quantity="other">העלאת %1$d פריטים</item>
+        <item quantity="other">העלאת %d פריטים</item>
         <item quantity="one">העלאת פריט</item>
     </plurals>
     <plurals name="recent_activity_type_uploaded_one_user">
-        <item quantity="other">העלאת %1$d פריטים</item>
+        <item quantity="other">העלאת %d פריטים</item>
         <item quantity="one">העלאת פריט</item>
     </plurals>
     <plurals name="recent_activity_type_uploaded_this_file">
@@ -360,17 +328,9 @@
     <plurals name="recent_activity_users_more">
         <item quantity="other">%1$s ו-%2$d נוספים</item>
     </plurals>
-    <plurals name="remove_dialog_delete_for_everyone_files_text">
-        <item quantity="other">%1$d קבצים יועברו לאשפה של %2$s ויימחקו לנצח לאחר 30 יום.</item>
-        <item quantity="one">הקובץ יועבר לאשפה של %2$s ויימחק לנצח לאחר 30 יום</item>
-    </plurals>
-    <plurals name="remove_dialog_delete_for_everyone_folders_text">
-        <item quantity="other">%1$d תיקיות יועברו לאשפה של %2$s ויימחקו לנצח לאחר 30 יום.</item>
-        <item quantity="one">התיקייה תועבר לאשפה של %2$s ותימחק לנצח לאחר 30 יום.</item>
-    </plurals>
-    <plurals name="remove_dialog_delete_for_everyone_items_text">
-        <item quantity="other">%1$d פריטים יועברו לאשפה של %2$s ויימחקו לנצח לאחר 30 יום.</item>
-        <item quantity="one">הפריט יועבר לאשפה של %2$s ויימחק לנצח לאחר 30 יום.</item>
+    <plurals name="remove_dialog_delete_permanently_text_multiple">
+        <item quantity="other">האם אתה בטוח שאתה רוצה למחוק לנצח את %d הפריטים? לא ניתן לבטל את הפעולה.</item>
+        <item quantity="one">האם אתה בטוח שאתה רוצה למחוק לנצח פריט אחד? לא ניתן לבטל את הפעולה.</item>
     </plurals>
     <plurals name="selection_floating_handle_count">
         <item quantity="other">%1$d פריטים</item>
@@ -384,71 +344,60 @@
         <item quantity="other">בוטלה הבחירה של %1$d פריטים</item>
         <item quantity="one">בוטלה הבחירה של פריט %1$d</item>
     </plurals>
-    <plurals name="selection_message_pin_num_items">
-        <item quantity="other">%d פריטים יהיו זמינים במצב לא מקוון</item>
-        <item quantity="one">פריט אחד יהיה זמין במצב לא מקוון</item>
-    </plurals>
     <plurals name="selection_message_star_num_items">
-        <item quantity="other">%1$d פריטים סומנו בכוכב</item>
+        <item quantity="other">%d פריטים סומנו בכוכב</item>
         <item quantity="one">פריט אחד סומן בכוכב</item>
     </plurals>
     <plurals name="selection_message_unpin_num_items">
-        <item quantity="other">%1$d פריטים לא יהיו זמינים במצב לא מקוון</item>
-        <item quantity="one">פריט אחד לא יהיה זמין במצב לא מקוון</item>
+        <item quantity="other">%d פריטים הוסרו מהמכשיר</item>
+        <item quantity="one">פריט אחד הוסר מהמכשיר</item>
     </plurals>
     <plurals name="selection_message_unstar_num_items">
-        <item quantity="other">בוטל הסימון בכוכב של %1$d פריטים</item>
+        <item quantity="other">בוטל הסימון בכוכב של %d פריטים</item>
         <item quantity="one">בוטל הסימון בכוכב של פריט אחד</item>
     </plurals>
     <plurals name="selection_message_untrash_num_items">
-        <item quantity="other">%1$d פריטים שוחזרו</item>
+        <item quantity="other">%d פריטים שוחזרו</item>
         <item quantity="one">פריט אחד שוחזר</item>
     </plurals>
-    <plurals name="selection_undo_complete_message_remove_num_items">
-        <item quantity="other">%1$d פריטים שוחזרו</item>
-        <item quantity="one">פריט שוחזר</item>
-    </plurals>
-    <plurals name="selection_undo_complete_num_items_add_trashed_message">
-        <item quantity="other">%1$d פריטים הוסרו</item>
-        <item quantity="one">פריט הוסר</item>
-    </plurals>
-    <plurals name="selection_undo_complete_num_items_move_message">
-        <item quantity="other">%1$d פריטים הוחזרו</item>
-        <item quantity="one">פריט הוחזר</item>
-    </plurals>
-    <plurals name="selection_undo_complete_num_items_move_trashed_message">
-        <item quantity="other">%1$d פריטים הועברו חזרה לאשפה</item>
-        <item quantity="one">פריט הועבר חזרה לאשפה</item>
-    </plurals>
-    <plurals name="selection_undo_complete_num_items_restore_trashed_message">
-        <item quantity="other">%1$d פריטים הוחזרו לאשפה</item>
-        <item quantity="one">פריט הוחזר לאשפה</item>
-    </plurals>
     <plurals name="selection_undo_message_remove_num_items">
-        <item quantity="other">%1$d פריטים הוסרו</item>
+        <item quantity="other">%d פריטים הוסרו</item>
         <item quantity="one">פריט אחד הוסר</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_add_message">
+        <item quantity="other">%1$d פריטים נוספו אל %2$s</item>
+        <item quantity="one">פריט אחד נוסף אל %2$s</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_add_trashed_message">
+        <item quantity="other">%1$d פריטים שוחזרו ונוספו אל %2$s</item>
+        <item quantity="one">פריט אחד שוחזר ונוסף אל %2$s</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_move_message">
+        <item quantity="other">%1$d פריטים הועברו אל %2$s</item>
+        <item quantity="one">פריט אחד הועבר אל %2$s</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_move_trashed_message">
+        <item quantity="other">%1$d פריטים שוחזרו והועברו אל %2$s</item>
+        <item quantity="one">פריט אחד שוחזר והועבר אל %2$s</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_restore_trashed_message">
+        <item quantity="other">%1$d פריטים שוחזרו אל %2$s</item>
+        <item quantity="one">פריט אחד שוחזר אל %2$s</item>
     </plurals>
     <plurals name="send_files">
         <item quantity="other">שליחת קבצים באמצעות</item>
         <item quantity="one">שליחת קובץ באמצעות</item>
     </plurals>
     <plurals name="sharing_message_add_users_more">
-        <item quantity="other">הפריט %1$s שותף עם %2$s ו-%3$d משתמשים נוספים</item>
-    </plurals>
-    <plurals name="td_sharing_message_add_users_more">
-        <item quantity="other">%2$s ו-%3$d אנשים נוספים נוספו אל %1$s</item>
-    </plurals>
-    <plurals name="teamdrive_acl_info_summary">
-        <item quantity="other">%d חברים</item>
-        <item quantity="zero">אין חברים</item>
-        <item quantity="one">חבר אחד</item>
-    </plurals>
-    <plurals name="teamdrive_plus_others_text">
-        <item quantity="other">+%d</item>
+        <item quantity="other">%1$s שותף עם %2$s ו-%3$d משתמשים נוספים</item>
     </plurals>
     <plurals name="transfer_notification_waiting_resume">
         <item quantity="other">המשך הכל עכשיו</item>
         <item quantity="one">המשך עכשיו</item>
+    </plurals>
+    <plurals name="transfer_notification_waiting_ticker">
+        <item quantity="other">‏ההעלאות הושהו, ממתין לרשת Wi-Fi..</item>
+        <item quantity="one">‏ההעלאה הושהתה, ממתין לרשת Wi-Fi..</item>
     </plurals>
     <plurals name="upload_notification_prepare_upload_canceled">
         <item quantity="other">בוטל התזמון להעלאת %1$d קבצים.</item>
@@ -469,10 +418,6 @@
     <plurals name="upload_notification_sync_progress">
         <item quantity="other">מעלה %1$d קבצים.</item>
         <item quantity="one">מעלה קובץ %1$d.</item>
-    </plurals>
-    <plurals name="upload_notification_waiting_ticker">
-        <item quantity="other">‏ההעלאות הושהו, ממתין ל-Wi-Fi..</item>
-        <item quantity="one">‏ההעלאה הושהתה, ממתין ל-Wi-Fi..</item>
     </plurals>
     <plurals name="upload_notification_waiting_title">
         <item quantity="other">%1$d העלאות הושהו.</item>

@@ -13,14 +13,12 @@
     <string name="menu_save">שמור</string>
     <string name="menu_share">שתף</string>
     <string name="menu_delete">מחק</string>
-    <string name="menu_select_all">בחר הכל</string>
-    <string name="menu_copy">העתק אל…</string>
-    <string name="menu_advanced_show">‏הצג כרטיס SD</string>
-    <string name="menu_advanced_hide">‏הסתר כרטיס SD</string>
+    <string name="menu_select">בחר ב-\"^1\"</string>
+    <string name="menu_advanced_show">הצג אחסון פנימי</string>
+    <string name="menu_advanced_hide">הסתר אחסון פנימי</string>
     <string name="menu_file_size_show">הצג גודל קובץ</string>
     <string name="menu_file_size_hide">הסתר גודל קובץ</string>
-    <string name="button_select">בחר</string>
-    <string name="button_copy">העתק</string>
+    <string name="mode_selected_count">%1$d נבחרו</string>
     <string name="sort_name">לפי שם</string>
     <string name="sort_date">לפי תאריך שינוי</string>
     <string name="sort_size">לפי גודל</string>
@@ -39,10 +37,4 @@
     <string name="toast_no_application">לא ניתן לפתוח את הקובץ</string>
     <string name="toast_failed_delete">לא ניתן למחוק חלק מהמסמכים</string>
     <string name="share_via">שתף באמצעות</string>
-    <string name="copy_notification_title">מעתיק קבצים</string>
-    <string name="copy_remaining">זמן נותר: %s</string>
-    <string name="copy_preparing">מתכונן להעתקה...</string>
-    <string name="notification_touch_for_details">גע כדי להציג את הפרטים</string>
-    <string name="retry">נסה שוב</string>
-    <string name="copy_failure_alert_content">הקבצים הבאים לא הועתקו: %1$s</string>
 </resources>

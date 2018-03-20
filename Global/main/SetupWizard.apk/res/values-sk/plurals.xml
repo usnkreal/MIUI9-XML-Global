@@ -1,39 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="shutdown_countdown_text">
-        <item quantity="other">Zariadenie sa o %d sekúnd vypne…</item>
-        <item quantity="one">Zariadenie sa o 1 sekundu vypne…</item>
-        <item quantity="few">Zariadenie sa o %d sekundy vypne…</item>
-        <item quantity="many">Zariadenie sa o %d sekundy vypne…</item>
+        <item quantity="other">%d sekúnd do vypnutia...</item>
+        <item quantity="one">1 sekunda do vypnutia...</item>
     </plurals>
     <plurals name="sim_missing_title">
-        <item quantity="other">Vložte SIM karty</item>
-        <item quantity="one">Vložte SIM kartu</item>
-        <item quantity="few">Vložte SIM karty</item>
-        <item quantity="many">Vložte SIM karty</item>
+        <item quantity="other">Vloženie SIM kariet</item>
+        <item quantity="zero">Vloženie SIM kariet</item>
+        <item quantity="one">Vloženie SIM karty</item>
+        <item quantity="two">Vloženie SIM kariet</item>
+        <item quantity="few">Vloženie SIM kariet</item>
+        <item quantity="many">Vloženie SIM kariet</item>
     </plurals>
     <plurals name="sim_missing_text_tablet">
-        <item quantity="other">Neviete ako? Prečítajte si pokyny, ktoré ste dostali spolu s tabletom.</item>
-        <item quantity="one">Neviete ako? Prečítajte si pokyny, ktoré ste dostali spolu s tabletom.</item>
-        <item quantity="few">Neviete ako? Prečítajte si pokyny, ktoré ste dostali spolu s tabletom.</item>
-        <item quantity="many">Neviete ako? Prečítajte si pokyny, ktoré ste dostali spolu s tabletom.</item>
+        <item quantity="other">Máte pochybnosti o tom, ako to urobiť? Prečítajte si návod pre váš tablet.</item>
+        <item quantity="zero">Máte pochybnosti o tom, ako to urobiť? Prečítajte si návod pre váš tablet.</item>
+        <item quantity="one">Máte pochybnosti o tom, ako to urobiť? Prečítajte si návod pre váš tablet.</item>
+        <item quantity="two">Máte pochybnosti o tom, ako to urobiť? Prečítajte si návod pre váš tablet.</item>
+        <item quantity="few">Máte pochybnosti o tom, ako to urobiť? Prečítajte si návod pre váš tablet.</item>
+        <item quantity="many">Máte pochybnosti o tom, ako to urobiť? Prečítajte si návod pre váš tablet.</item>
     </plurals>
     <plurals name="sim_missing_text_device">
-        <item quantity="other">Neviete ako? Prečítajte si pokyny, ktoré ste dostali spolu so zariadením.</item>
-        <item quantity="one">Neviete ako? Prečítajte si pokyny, ktoré ste dostali spolu so zariadením.</item>
-        <item quantity="few">Neviete ako? Prečítajte si pokyny, ktoré ste dostali spolu so zariadením.</item>
-        <item quantity="many">Neviete ako? Prečítajte si pokyny, ktoré ste dostali spolu so zariadením.</item>
+        <item quantity="other">Máte pochybnosti o tom, ako to urobiť? Prečítajte si návod pre vaše zariadenie.</item>
+        <item quantity="zero">Máte pochybnosti o tom, ako to urobiť? Prečítajte si návod pre vaše zariadenie.</item>
+        <item quantity="one">Máte pochybnosti o tom, ako to urobiť? Prečítajte si návod pre vaše zariadenie.</item>
+        <item quantity="two">Máte pochybnosti o tom, ako to urobiť? Prečítajte si návod pre vaše zariadenie.</item>
+        <item quantity="few">Máte pochybnosti o tom, ako to urobiť? Prečítajte si návod pre vaše zariadenie.</item>
+        <item quantity="many">Máte pochybnosti o tom, ako to urobiť? Prečítajte si návod pre vaše zariadenie.</item>
     </plurals>
     <plurals name="sim_missing_text_default">
-        <item quantity="other">Neviete ako? Prečítajte si pokyny, ktoré ste dostali spolu s telefónom.</item>
-        <item quantity="one">Neviete ako? Prečítajte si pokyny, ktoré ste dostali spolu s telefónom.</item>
-        <item quantity="few">Neviete ako? Prečítajte si pokyny, ktoré ste dostali spolu s telefónom.</item>
-        <item quantity="many">Neviete ako? Prečítajte si pokyny, ktoré ste dostali spolu s telefónom.</item>
+        <item quantity="other">Máte pochybnosti o tom, ako to urobiť? Prečítajte si návod pre váš telefón.</item>
+        <item quantity="zero">Máte pochybnosti o tom, ako to urobiť? Prečítajte si návod pre váš telefón.</item>
+        <item quantity="one">Máte pochybnosti o tom, ako to urobiť? Prečítajte si návod pre váš telefón.</item>
+        <item quantity="two">Máte pochybnosti o tom, ako to urobiť? Prečítajte si návod pre váš telefón.</item>
+        <item quantity="few">Máte pochybnosti o tom, ako to urobiť? Prečítajte si návod pre váš telefón.</item>
+        <item quantity="many">Máte pochybnosti o tom, ako to urobiť? Prečítajte si návod pre váš telefón.</item>
     </plurals>
     <plurals name="walled_garden_check_timeout_text">
-        <item quantity="other">Môže to trvať až %d minút</item>
-        <item quantity="one">Môže to trvať až %d minútu</item>
-        <item quantity="few">Môže to trvať až %d minúty</item>
-        <item quantity="many">Môže to trvať až %d minúty</item>
+        <item quantity="other">Môže to trvať až %d min.</item>
+        <item quantity="one">Môže to trvať až %d min.</item>
+        <item quantity="two">Môže to trvať až %d min.</item>
+        <item quantity="few">Môže to trvať až %d min.</item>
+        <item quantity="many">Môže to trvať až %d min.</item>
     </plurals>
 </resources>

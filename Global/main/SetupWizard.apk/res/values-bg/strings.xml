@@ -28,12 +28,9 @@
     <string name="common_signin_button_text">Вход</string>
     <string name="common_signin_button_text_long">Вход с Google</string>
     <string name="common_open_on_phone">Отваряне в телефона</string>
-    <string name="suw_next_button_label">Напред</string>
-    <string name="suw_back_button_label">Назад</string>
-    <string name="suw_more_button_label">Още</string>
-    <string name="setup_wizard_title">Съветник за инсталиране</string>
     <string name="setup_wizard_next_button_label">Напред</string>
     <string name="setup_wizard_back_button_label">Назад</string>
+    <string name="setup_wizard_title">Съветник за инсталиране</string>
     <string name="setup_wizard_services_activity_title">Услуги на Google</string>
     <string name="setup_wizard_services_description">Посредством тези услуги Google работи за вас и можете да ги включите или изключите по всяко време. Данните ще се използват в съответствие с <annotation id="google_privacy">Декларацията ни за поверителност</annotation>.</string>
     <string name="setup_wizard_services_backup_restore_heading">Резервни копия и възстановяване</string>
@@ -54,6 +51,30 @@
 Можете да включите или изключите функцията по всяко време от Настройки за Google. Това не засяга възможността на устройството ви да изпраща информацията, която му е необходима за получаване на основни услуги, като системни актуализации и защитни настройки."</string>
     <string name="setup_wizard_services_agreement">Този телефон може също да получава и инсталира актуализации и приложения от Google, оператора ви и производителя си. Възможно е някои приложения да бъдат изтеглени и инсталирани, ако продължите, но можете да ги премахнете по всяко време.</string>
     <string name="default_device_name">Android</string>
+    <string name="welcome_message">Добре дошли</string>
+    <string name="welcome_secondary_user_added_text">%s ви добави към този телефон.</string>
+    <string name="welcome_secondary_user_added_no_owner_name_text">Бяхте добавени към този телефон.</string>
+    <string name="welcome_secondary_user_info_text">"Когато приключите с настройването, можете да работите с приложенията или да инсталирате нови както обикновено.
+
+"<b>Важно:</b>"
+
+"<li><ul>Собственикът на телефона може да деинсталира приложенията ви или да премахне напълно работното ви пространство.</ul></li>"
+
+"<li><ul>Всеки друг потребител може да приема от ваше име актуализирани разрешения за приложения.</ul></li>"
+
+"<li><ul>Както с всеки компютър трябва да споделяте този телефон само с хора, на които имате доверие.</ul></li></string>
+    <string name="welcome_limited_user_info_text">" 
+"<b>Важно:</b>"
+
+ "<li><ul>Собственикът на телефона може да инсталира и деинсталира приложения, да задава ограничения или да премахне напълно работното ви пространство.</ul></li>"
+
+ "<li><ul>Всеки друг потребител може да приема от ваше име актуализирани разрешения за приложения.</ul></li>"
+
+ "<li><ul>Както с всеки компютър, трябва да споделяте този телефон само с хора, на които имате доверие. </ul></li></string>
+    <string name="welcome_text_edu">Настройте устройството си за използване с Google Play for Education</string>
+    <string name="welcome_secondary_user_text_edu">Нека завършим настройването на профила ви на този таблет.</string>
+    <string name="welcome_secondary_user_additional_info_header_edu">Важно</string>
+    <string name="welcome_secondary_user_additional_info_edu">Споделяте този таблет с други учащи. След като настроите профила си, добавете ПИН код, за да защитите работата си.</string>
     <string name="finish_button_label">Край</string>
     <string name="skip_button_label">Пропускане</string>
     <string name="skip_anyway_button_label">Пропускане</string>
@@ -64,7 +85,6 @@
     <string name="try_again_button_label">Опитайте отново</string>
     <string name="close_button_label">Затваряне</string>
     <string name="got_it_button_label">Разбрах</string>
-    <string name="ok_button_label">OK</string>
     <string name="google_legal_title">Google – правен текст</string>
     <string name="url_load_unsuccessful_message">Телефонът ви не е свързан с мобилна услуга за данни. За да видите тази информация сега, посетете %s от уеб браузър.</string>
     <string name="start">Старт</string>
@@ -133,7 +153,13 @@
     <string name="date_time_message">Коригирайте, ако е необходимо.</string>
     <string name="date_time_current_date">Датa</string>
     <string name="date_time_current_time">Час</string>
-    <string name="date_time_time_zone_full" formatted="false">%s (%s)</string>
+    <string name="location_sharing_title">Google и местоположение</string>
+    <string name="tos_title">Услуги на Google</string>
+    <string name="tos_agreement_text">Този телефон може също да получава и инсталира актуализации от Google. С продължаването си приемате <annotation id="tos">Общите ни условия</annotation> и <annotation id="google_privacy">Декларацията ни за поверителност</annotation>.</string>
+    <string name="tos_agreement_text_germany">Също така приемате, че устройството ви може да получава и инсталира актуализации от Google. Когато го използвате, спазваме <annotation id="google_privacy">Декларацията си за поверителност</annotation> и са в сила <annotation id="tos">допълнителни условия</annotation>.</string>
+    <string name="setup_complete_title">Настройката завърши</string>
+    <string name="setup_complete_message">Телефонът ви е настроен и готов за използване.</string>
+    <string name="backup_assistant_prompt">Стартирайте помощника на Verizon за създаване на резервни копия, за да възстановите контакти от друг телефон под този оператор.</string>
     <string name="sim_missing_title">Поставете SIM карта</string>
     <string name="sim_setup_title">Настройване на SIM картите</string>
     <string name="sim_setup_select_data">Изберете SIM карта за мобилни данни</string>
@@ -148,7 +174,7 @@
 
 Няма да получавате софтуерни актуализации, докато не се свържете с интернет.
 
-Няма да можете да активирате функциите за защита на устройството."</string>
+Понастоящем не можете да активирате функциите за защита на устройството."</string>
     <string name="walled_garden_connection_failed">Отнема твърде много време? Опитайте да се върнете назад и да се свържете с друга мрежа.</string>
     <string name="walled_garden_connection_unsuccessful">Не можа да се установи връзка с интернет</string>
     <string name="ota_update_title">Актуализиране на телефона</string>
@@ -172,27 +198,19 @@
     <string name="continue_for_a11y">Продължете да докосвате екрана, докато чуете писукане, за да активирате режима на достъпност.</string>
     <string name="canceled_a11y">Анулирахте режима на достъпност.</string>
     <string name="enabled_a11y">Режимът на достъпност е активиран.</string>
-    <string name="welcome_message">Добре дошли</string>
-    <string name="emergency_dial">Спешни случаи</string>
-    <string name="welcome_language_picker_dialog_title">Изберете езика си</string>
-    <string name="welcome_language_picker_section_suggested">Предложени</string>
-    <string name="welcome_language_picker_section_all">Всички езици</string>
+    <string name="emergency_dial">Спешно обаждане</string>
     <string name="welcome_language_picker_content_description">Език: %s</string>
     <string name="lock_screen_intro_title">Защитете телефона си</string>
-    <string name="lock_screen_intro_text">Предотвратете използването на този телефон от други хора без разрешението ви, като активирате функциите за защита на устройството. <annotation id="learn_more">Научете повече</annotation></string>
-    <string name="lock_screen_intro_text_secondary">Ако изберете „Да“, ще получите указания за настройване на заключването на екрана.</string>
-    <string name="lock_screen_intro_check_box"><b>Защитете у-вото</b> и изисквайте ПИН код, фигура или парола за отключване на екрана</string>
-    <string name="lock_screen_intro_radio_fingerprint">Настройване на отпечатък</string>
-    <string name="lock_screen_intro_radio_generic">Настройване на ПИН код, фигура или парола</string>
-    <string name="lock_screen_intro_radio_no">Не, благодаря</string>
-    <string name="lock_screen_intro_success">"Заключването на екрана ви е настроено успешно.
+    <string name="lock_screen_intro_text">"Предотвратете използването на този телефон от други хора без разрешението ви, като активирате функциите за защита на устройството.
 "<annotation id="learn_more">Научете повече</annotation></string>
-    <string name="lock_screen_intro_dialog_text_frp">"Защитата на устройството автоматично се активира, когато добавите профил в Google и зададете опция за заключване на екрана. С помощта на Администратор на устройства с Android можете да намерите телефона си и да изтриете данните от него, ако бъде изгубен или откраднат.
+    <string name="lock_screen_intro_text_secondary">Ако изберете „Да“, ще получите указания за настройване на заключения си екран.</string>
+    <string name="lock_screen_intro_check_box"><b>Защитете у-вото</b> и изисквайте ПИН код, фигура или парола за отключване на екрана</string>
+    <string name="lock_screen_intro_button">Задаване на заключване на екрана сега</string>
+    <string name="lock_screen_intro_success">Заключеният ви екран е настроен успешно.</string>
+    <string name="lock_screen_intro_dialog_text">"Защитата на устройството автоматично се активира, когато добавите профил в Google и зададете опция за заключване на екрана. С помощта на Администратор на устройства с Android можете да намирате телефона си, да изтривате данните му и да го защитавате от повторна употреба, ако бъде изгубен или откраднат.
 
-Дори данните от телефона ви да бъдат изтрити, за използването му ще се изисква паролата за профила ви в Google."</string>
-    <string name="lock_screen_intro_dialog_text">Защитата на устройството автоматично се активира, когато добавите профил в Google и зададете опция за заключване на екрана. С помощта на Администратор на устройства с Android можете да намерите телефона си и да изтриете данните от него, ако бъде изгубен или откраднат.</string>
-    <string name="lock_screen_intro_skip_dialog_text_frp">Функциите за защита на устройството няма да бъдат активирани. Няма да можете да предотвратите използването на този телефон от други хора, ако бъде изгубен, откраднат или данните му бъдат изтрити.</string>
-    <string name="lock_screen_intro_skip_dialog_text">Функциите за защита на устройството няма да бъдат активирани. Няма да можете да предотвратите използването на този телефон от други хора, ако бъде изгубен или откраднат.</string>
+Дори ако данните от телефона ви бъдат изтрити, преди някой да може да го използва, ще се изисква паролата за профила ви в Google."</string>
+    <string name="lock_screen_intro_skip_dialog_text">Функциите за защита на устройството няма да бъдат активирани. Няма да можете да предотвратите използването на този телефон от други хора, ако бъде изгубен, откраднат или данните му бъдат изтрити.</string>
     <string name="services_activity_title">Услуги на Google</string>
     <string name="services_backup_heading">Резервно копие</string>
     <string name="services_location_heading">Местоположение</string>
@@ -204,45 +222,21 @@
     <string name="restore_wallpaper_title">Тапетът се възстановява…</string>
     <string name="restore_device_settings_title">Настройките на у-вото се възстановяват…</string>
     <string name="restore_launcher_title">Стартовият панел се възстановява…</string>
-    <string name="restore_failed_message">Данните не можаха да се възстановят от резервното копие.</string>
-    <string name="restore_no_backup_message">Няма налични резервни копия за изходното устройство.</string>
-    <string name="restore_stopped_message">За съжаление, устройството спря да възстановява данните от резервното копие.</string>
+    <string name="restore_failed_message">Възстановяването от резервно копие не бе успешно</string>
     <string name="name_title">Име</string>
     <string name="name_text">Добавянето на името ви позволява на телефона ви да персонализира някои приложения.</string>
     <string name="first_name">Собствено</string>
     <string name="last_name">Фамилно</string>
     <string name="cant_be_blank">Полето трябва да се попълни.</string>
-    <string name="device_owner_warning_title">Телефонът може да се наблюдава</string>
-    <string name="device_owner_warning">Този телефон се управлява от „%1$s“, което означава, че част от информацията ви може да е видима за други хора. Нулирайте го, за да предотвратите наблюдението.</string>
-    <string name="device_owner_continue">Напред</string>
-    <string name="device_owner_reset">Нулиране на телефона</string>
-    <string name="factory_reset_title">Нулиране на телефона</string>
-    <string name="factory_reset_instructions">Предупреждение: При нулирането ще се изтрият всички профили и данни от вътрешното хранилище на този телефон.</string>
-    <string name="factory_reset_confirmation_title">Да се извърши ли нулиране?</string>
-    <string name="factory_reset_confirmation">Да се изтрият ли всички профили и данни от телефона? Не можете да отмените това действие!</string>
-    <string name="factory_reset_button">Изтриване на данните и нулиране</string>
-    <string name="restart_setup_wizard_dialog_title">Не сте в профила си</string>
-    <string name="restart_setup_wizard_dialog_text">"За да използвате този телефон, трябва първо да влезете в профила в Google на собственик, ползван при последното му нулиране.
-
-Тъй като не сте направили това, трябва отново да настроите телефона."</string>
-    <string name="restart_setup_wizard_button_label">Телефон: Настройване</string>
-    <string name="sec_user_continue">Напред</string>
-    <string name="sec_user_quit">Изход</string>
-    <string name="user_warning_title">Настройване на нов потребител</string>
-    <string name="welcome_secondary_user_added_text">%s ви добави към този телефон.</string>
-    <string name="welcome_secondary_user_added_no_owner_name_text">Бяхте добавени към този телефон.</string>
-    <string name="welcome_secondary_user_info_text"><b>Важно:</b>"
-
-"<li><ul>Собственикът на телефона може да деинсталира приложенията ви или да премахне напълно работното ви пространство.</ul></li>"
-
-"<li><ul>Всеки друг потребител може да приема от ваше име актуализирани разрешения за приложения.</ul></li>"
-
-"<li><ul>Както с всеки компютър, трябва да споделяте този телефон само с хора, на които имате доверие.</ul></li></string>
-    <string name="welcome_limited_user_info_text">" "<b>Важно:</b>"
-
- "<li><ul>Собственикът на телефона може да инсталира и деинсталира приложения, да задава ограничения или да премахне напълно работното ви пространство.</ul></li>"
-
- "<li><ul>Всеки друг потребител може да приема от ваше име актуализирани разрешения за приложения.</ul></li>"
-
- "<li><ul>Както с всеки компютър, трябва да споделяте този телефон само с хора, на които имате доверие. </ul></li></string>
+    <string name="lock_pin_confirm_your_pin_header">Потвърдете ПИН кода си</string>
+    <string name="lock_pin_choose_your_pin_header">Изберете ПИН кода си</string>
+    <string name="lock_pin_ok_label">ОK</string>
+    <string name="lock_pin_cancel_label">Отказ</string>
+    <string name="lock_pin_press_continue">Докоснете „Напред“, когато сте готови.</string>
+    <string name="lock_pin_too_short">ПИН кодът трябва да съдържа поне %d цифри.</string>
+    <string name="lock_pin_too_long">ПИН кодът трябва да съдържа по-малко от %d цифри.</string>
+    <string name="lock_pin_illegal_character">Паролата съдържа непозволен знак.</string>
+    <string name="lock_pin_contains_non_digits">ПИН кодът трябва да съдържа само цифри от 0 до 9.</string>
+    <string name="lock_pin_confirm_pins_dont_match">ПИН кодовете не са идентични</string>
+    <string name="lock_pin_continue_label">Напред</string>
 </resources>

@@ -25,8 +25,8 @@
     <string name="default_close_channel_msg">Kanal stengt</string>
     <string name="stk_dialog_accept">JA</string>
     <string name="stk_dialog_reject">NEI</string>
-    <string name="no_sim_card_inserted">Sett inn SIM-kort for å starte SIM-verktøykasse.</string>
     <string name="stk_intent_permission">Tillatelser kreves</string>
+    <string name="no_sim_card_inserted">Sett inn SIM-kort for å starte SIM-verktøykasse.</string>
     <string name="sim_type_sim_name">SIM-verktøykasse</string>
     <string name="sim_type_usim_name">USIM-verktøy</string>
     <string name="sim_type_uim_name">UIM-verktøy</string>

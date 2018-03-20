@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="notification_new_messages">
+        <item quantity="other">Nouveaux messages</item>
+        <item quantity="one">Nouveau message</item>
+    </plurals>
     <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
         <item quantity="other">Vous a invité à un Hangout avec %1$d autres utilisateurs</item>
         <item quantity="one">Vous a invité à un Hangout avec %1$d autre utilisateur</item>
@@ -12,57 +16,49 @@
         <item quantity="other">avec %1$d autres utilisateurs</item>
         <item quantity="one">avec %1$d autre utilisateur</item>
     </plurals>
-    <plurals name="gallery_picker_max_image_count_reached_message">
-        <item quantity="other">Vous ne pouvez sélectionner que %d images en pièces jointes.</item>
-        <item quantity="one">"Vous ne pouvez sélectionner qu'une image en pièce jointe."</item>
-    </plurals>
-    <plurals name="gallery_picker_max_video_count_reached_message">
-        <item quantity="other">Vous ne pouvez sélectionner que %d vidéos en pièces jointes.</item>
-        <item quantity="one">"Vous ne pouvez sélectionner qu'une vidéo en pièce jointe."</item>
-    </plurals>
-    <plurals name="watermark_gallery_label">
-        <item quantity="other">Vu par %s</item>
-        <item quantity="one">Vu par %s</item>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">Vous ne pouvez sélectionner que %d pièces jointes.</item>
+        <item quantity="one">"Vous ne pouvez sélectionner qu'une pièce jointe."</item>
     </plurals>
     <plurals name="num_minutes_in_the_past">
         <item quantity="other">%d min</item>
         <item quantity="one">%d min</item>
     </plurals>
     <plurals name="elapsed_minutes">
-        <item quantity="other">il y a %d min</item>
-        <item quantity="one">il y a %d min</item>
+        <item quantity="other">Il y a %d min</item>
+        <item quantity="one">Il y a %d min</item>
     </plurals>
     <plurals name="elapsed_minutes_announce">
         <item quantity="other">il y a %d minutes</item>
         <item quantity="one">il y a %d minute</item>
     </plurals>
     <plurals name="elapsed_hours">
-        <item quantity="other">il y a %d h</item>
-        <item quantity="one">il y a %d h</item>
+        <item quantity="other">Il y a %d h</item>
+        <item quantity="one">Il y a %d h</item>
     </plurals>
     <plurals name="elapsed_hours_announce">
         <item quantity="other">il y a %d heures</item>
         <item quantity="one">il y a %d heure</item>
     </plurals>
     <plurals name="elapsed_days">
-        <item quantity="other">il y a %d jours</item>
-        <item quantity="one">il y a %d j</item>
+        <item quantity="other">Il y a %d jours</item>
+        <item quantity="one">Il y a %d j</item>
     </plurals>
     <plurals name="elapsed_days_announce">
         <item quantity="other">il y a %d jours</item>
         <item quantity="one">il y a %d jour</item>
     </plurals>
     <plurals name="elapsed_weeks">
-        <item quantity="other">il y a %d semaines</item>
-        <item quantity="one">il y a %d sem.</item>
+        <item quantity="other">Il y a %d semaines</item>
+        <item quantity="one">Il y a %d sem.</item>
     </plurals>
     <plurals name="elapsed_weeks_announce">
         <item quantity="other">il y a %d semaines</item>
         <item quantity="one">il y a %d semaine</item>
     </plurals>
     <plurals name="elapsed_months">
-        <item quantity="other">il y a %d mois</item>
-        <item quantity="one">il y a %d mois</item>
+        <item quantity="other">Il y a %d mois</item>
+        <item quantity="one">Il y a %d mois</item>
     </plurals>
     <plurals name="elapsed_months_announce">
         <item quantity="other">il y a %d mois</item>
@@ -159,6 +155,10 @@
     <plurals name="dnd_minutes">
         <item quantity="other">%d minutes</item>
         <item quantity="one">1 minute</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">Vu par %s</item>
+        <item quantity="one">Vu par %s</item>
     </plurals>
     <plurals name="focus_gallery_label">
         <item quantity="other">%s ont lu tous les messages.</item>

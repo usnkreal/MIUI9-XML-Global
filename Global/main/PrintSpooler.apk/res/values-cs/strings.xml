@@ -4,11 +4,10 @@
     <string name="more_options_button">Další možnosti</string>
     <string name="label_destination">Cíl</string>
     <string name="label_copies">Kopie</string>
-    <string name="label_copies_summary">Kopie:</string>
+    <string name="label_copies_summary">Počet kopií:</string>
     <string name="label_paper_size">Velikost papíru</string>
     <string name="label_paper_size_summary">Velikost papíru:</string>
     <string name="label_color">Barva</string>
-    <string name="label_duplex">Oboustranně</string>
     <string name="label_orientation">Orientace</string>
     <string name="label_pages">Stránky</string>
     <string name="template_all_pages">Vše: %1$s</string>
@@ -49,7 +48,7 @@
     <string name="restart">Restartovat</string>
     <string name="no_connection_to_printer">Nelze se připojit k tiskárně</string>
     <string name="reason_unknown">neznámé</string>
-    <string name="printer_unavailable">%1$s – není k dispozici</string>
+    <string name="printer_unavailable">%1$s – není k dispozici</string>
     <string name="print_write_error_message">Do souboru nelze zapisovat.</string>
     <string name="print_error_default_message">Litujeme, nepodařilo se. Zkuste to znovu.</string>
     <string name="print_error_retry">Opakovat</string>

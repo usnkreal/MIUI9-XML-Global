@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="album_subtitle">
+        <item quantity="other">%1$s  •  %2$d elementu</item>
+        <item quantity="one">%1$s  •  1 element</item>
+        <item quantity="few">%1$s  •  %2$d elementy</item>
+        <item quantity="many">%1$s  •  %2$d elementów</item>
+    </plurals>
     <plurals name="audience_hidden_user_count">
         <item quantity="other">+%d others</item>
         <item quantity="one">i 1 inna osoba</item>
         <item quantity="few">i %d inne osoby</item>
         <item quantity="many">i %d innych osób</item>
-    </plurals>
-    <plurals name="autocomplete_ellipsis_text">
-        <item quantity="other">i %d innej osoby</item>
-        <item quantity="one">i %d inna osoba</item>
-        <item quantity="few">i %d inne osoby</item>
-        <item quantity="many">i %d innych osób</item>
     </plurals>
     <plurals name="delete_everywhere_message_text">
         <item quantity="other">Przeniesienie tych elementów do kosza spowoduje też usunięcie ich z:</item>
@@ -110,27 +110,9 @@
         <item quantity="few">%d komentarze</item>
         <item quantity="many">%d komentarzy</item>
     </plurals>
-    <plurals name="photos_album_editalbumphotos_album_will_be_too_large_album_limit">
-        <item quantity="other">Nowy rozmiar albumu przekraczałby bieżący limit %1$d elementu.</item>
-        <item quantity="one">Nowy rozmiar albumu przekraczałby bieżący limit %1$d elementu.</item>
-        <item quantity="few">Nowy rozmiar albumu przekraczałby bieżący limit %1$d elementów.</item>
-        <item quantity="many">Nowy rozmiar albumu przekraczałby bieżący limit %1$d elementów.</item>
-    </plurals>
-    <plurals name="photos_album_editalbumphotos_album_will_be_too_large_new_estimate_size">
-        <item quantity="other">Album zawierałby %1$d elementu.</item>
-        <item quantity="one">Album zawierałby %1$d element.</item>
-        <item quantity="few">Album zawierałby %1$d elementy.</item>
-        <item quantity="many">Album zawierałby %1$d elementów.</item>
-    </plurals>
-    <plurals name="photos_album_editalbumphotos_remove_confirmation">
-        <item quantity="other">Usunąć %1$d elementu z albumu?</item>
-        <item quantity="one">Usunąć %1$d element z albumu?</item>
-        <item quantity="few">Usunąć %1$d elementy z albumu?</item>
-        <item quantity="many">Usunąć %1$d elementów z albumu?</item>
-    </plurals>
     <plurals name="photos_album_editalbumphotos_remove_from_album">
         <item quantity="other">Usuwam %d elementu z albumu…</item>
-        <item quantity="one">Usuwam %d element z albumu…</item>
+        <item quantity="one">Usuwam 1 elementu z albumu…</item>
         <item quantity="few">Usuwam %d elementy z albumu…</item>
         <item quantity="many">Usuwam %d elementów z albumu…</item>
     </plurals>
@@ -165,10 +147,10 @@
         <item quantity="many">Usuwam elementy z tego albumu…</item>
     </plurals>
     <plurals name="photos_album_removefromalbum_items_removed">
-        <item quantity="other">Usunięto %d elementu</item>
-        <item quantity="one">Usunięto %d element</item>
-        <item quantity="few">Usunięto %d elementy</item>
-        <item quantity="many">Usunięto %d elementów</item>
+        <item quantity="other">%d elementu zostało usunięte z albumu</item>
+        <item quantity="one">Element został usunięty z albumu</item>
+        <item quantity="few">%d elementy zostały usunięte z albumu</item>
+        <item quantity="many">%d elementów zostało usuniętych z albumu</item>
     </plurals>
     <plurals name="photos_album_removefromalbum_photo_pending">
         <item quantity="other">Usuwam zdjęcia z tego albumu…</item>
@@ -182,11 +164,11 @@
         <item quantity="few">Usuwam filmy z tego albumu…</item>
         <item quantity="many">Usuwam filmy z tego albumu…</item>
     </plurals>
-    <plurals name="photos_allphotos_data_album_items_title">
-        <item quantity="other">%d elementu</item>
-        <item quantity="one">%d element</item>
-        <item quantity="few">%d elementy</item>
-        <item quantity="many">%d elementów</item>
+    <plurals name="photos_allphotos_ui_actionconfirmation_delete_error">
+        <item quantity="other">Nie można usunąć elementów</item>
+        <item quantity="one">Nie można usunąć elementu</item>
+        <item quantity="few">Nie można usunąć elementów</item>
+        <item quantity="many">Nie można usunąć elementów</item>
     </plurals>
     <plurals name="photos_allphotos_ui_actionconfirmation_local_delete_title">
         <item quantity="other">Usunąć kopie z urządzenia?</item>
@@ -202,13 +184,13 @@
     </plurals>
     <plurals name="photos_assistant_autobackup_items_left">
         <item quantity="other">Pozostało %d elementu</item>
-        <item quantity="one">Pozostał %d element</item>
+        <item quantity="one">Pozostał 1 element</item>
         <item quantity="few">Pozostały %d elementy</item>
         <item quantity="many">Pozostało %d elementów</item>
     </plurals>
     <plurals name="photos_assistant_autobackup_photos_to_back_up">
         <item quantity="other">%d elementu do przesłania</item>
-        <item quantity="one">%d element do przesłania</item>
+        <item quantity="one">1 element do przesłania</item>
         <item quantity="few">%d elementy do przesłania</item>
         <item quantity="many">%d elementów do przesłania</item>
     </plurals>
@@ -220,57 +202,57 @@
     </plurals>
     <plurals name="photos_burst_actionsheet_trash_all">
         <item quantity="other">Wszystkie %d zdjęcia</item>
-        <item quantity="one">%d zdjęcie</item>
+        <item quantity="one">1 zdjęcie</item>
         <item quantity="few">Wszystkie %d zdjęcia</item>
         <item quantity="many">Wszystkie %d zdjęć</item>
     </plurals>
     <plurals name="photos_collectionlist_album_items_count">
         <item quantity="other">%1$d elementu</item>
-        <item quantity="one">%d element</item>
+        <item quantity="one">1 element</item>
         <item quantity="few">%1$d elementy</item>
         <item quantity="many">%1$d elementów</item>
     </plurals>
-    <plurals name="photos_comments_ui_commentbanner_album_comment_badge_content_desc">
-        <item quantity="other">W tym albumie jest %d komentarza</item>
-        <item quantity="one">W tym albumie jest %d komentarz</item>
-        <item quantity="few">W tym albumie są %d komentarze</item>
-        <item quantity="many">W tym albumie jest %d komentarzy</item>
+    <plurals name="photos_collectionlist_story_moments_count">
+        <item quantity="other">%1$d momentu</item>
+        <item quantity="one">1 moment</item>
+        <item quantity="few">%1$d momenty</item>
+        <item quantity="many">%1$d momentów</item>
+    </plurals>
+    <plurals name="photos_comments_ui_album_comment_badge_content_desc">
+        <item quantity="other">%d komentarza do tego albumu</item>
+        <item quantity="one">1 komentarz do tego albumu</item>
+        <item quantity="few">%d komentarze do tego albumu</item>
+        <item quantity="many">%d komentarzy do tego albumu</item>
     </plurals>
     <plurals name="photos_create_mediabundle_validation_error_add_to_album">
         <item quantity="other">Album może zawierać najwyżej %d elementu.</item>
-        <item quantity="one">Album może zawierać najwyżej %d element.</item>
+        <item quantity="one">Album może zawierać najwyżej 1 element.</item>
         <item quantity="few">Album może zawierać najwyżej %d elementy.</item>
         <item quantity="many">Album może zawierać najwyżej %d elementów.</item>
     </plurals>
     <plurals name="photos_create_mediabundle_validation_error_max">
         <item quantity="other">Wybierz najwyżej %d elementu.</item>
-        <item quantity="one">Wybierz najwyżej %d element.</item>
+        <item quantity="one">Wybierz najwyżej 1 element.</item>
         <item quantity="few">Wybierz najwyżej %d elementy.</item>
         <item quantity="many">Wybierz najwyżej %d elementów.</item>
     </plurals>
     <plurals name="photos_create_mediabundle_validation_error_min">
         <item quantity="other">Wybierz co najmniej %d elementu.</item>
-        <item quantity="one">Wybierz co najmniej %d element.</item>
+        <item quantity="one">Wybierz co najmniej 1 element.</item>
         <item quantity="few">Wybierz co najmniej %d elementy.</item>
         <item quantity="many">Wybierz co najmniej %d elementów.</item>
     </plurals>
-    <plurals name="photos_create_mediabundle_validation_error_story_time_delta">
-        <item quantity="other">Wybierz elementy z zakresu %d dnia.</item>
-        <item quantity="one">Wybierz elementy z zakresu %d dnia.</item>
-        <item quantity="few">Wybierz elementy z zakresu %d dni.</item>
-        <item quantity="many">Wybierz elementy z zakresu %d dni.</item>
-    </plurals>
     <plurals name="photos_create_uploadhandlers_existing_album">
-        <item quantity="other">Dodaję %d elementu do albumu…</item>
-        <item quantity="one">Dodaję %d element do albumu…</item>
-        <item quantity="few">Dodaję %d elementy do albumu…</item>
-        <item quantity="many">Dodaję %d elementów do albumu…</item>
+        <item quantity="other">Dodawanie %d elementu do albumu…</item>
+        <item quantity="one">Dodawanie 1 elementu do albumu…</item>
+        <item quantity="few">Dodawanie %d elementów do albumu…</item>
+        <item quantity="many">Dodawanie %d elementów do albumu…</item>
     </plurals>
     <plurals name="photos_create_uploadhandlers_success_existing_album">
-        <item quantity="other">Dodano %d elementu</item>
-        <item quantity="one">Dodano %d element</item>
-        <item quantity="few">Dodano %d elementy</item>
-        <item quantity="many">Dodano %d elementów</item>
+        <item quantity="other">%d elementu zostało dodane do albumu.</item>
+        <item quantity="one">Jeden element został dodany do albumu.</item>
+        <item quantity="few">%d elementy zostały dodane do albumu.</item>
+        <item quantity="many">%d elementów zostało dodanych do albumu.</item>
     </plurals>
     <plurals name="photos_dateformat_within_24_hours">
         <item quantity="other">%d godz.</item>
@@ -303,16 +285,22 @@
         <item quantity="many">Usunąć %1$d elementów?</item>
     </plurals>
     <plurals name="photos_devicemanagement_assistant_freeing_up_space_subtitle">
-        <item quantity="other">Usuwam %1$d oryginalnego zdjęcia lub filmu</item>
-        <item quantity="one">Usuwam %1$d oryginalne zdjęcie lub film</item>
-        <item quantity="few">Usuwam %1$d oryginalne zdjęcia lub filmy</item>
-        <item quantity="many">Usuwam %1$d oryginalnych zdjęć lub filmów</item>
+        <item quantity="other">Usuwanie %1$d oryginalnego zdjęcia/filmu</item>
+        <item quantity="one">Usuwanie jednego oryginalnego zdjęcia/filmu</item>
+        <item quantity="few">Usuwanie %1$d oryginalnych zdjęć/filmów</item>
+        <item quantity="many">Usuwanie %1$d oryginalnych zdjęć/filmów</item>
     </plurals>
     <plurals name="photos_drawermenu_unread_assistant_card">
         <item quantity="other">%d nowej karty</item>
         <item quantity="one">1 nowa karta</item>
         <item quantity="few">%d nowe karty</item>
         <item quantity="many">%d nowych kart</item>
+    </plurals>
+    <plurals name="photos_envelope_add_success_toast_text">
+        <item quantity="other">%d elementu zostało dodane do albumu</item>
+        <item quantity="one">%d element został dodany do albumu</item>
+        <item quantity="few">%d elementy zostały dodane do albumu</item>
+        <item quantity="many">%d elementów zostało dodanych do albumu</item>
     </plurals>
     <plurals name="photos_envelope_savetolibrary_pending">
         <item quantity="other">Zapisuję elementy w bibliotece…</item>
@@ -326,77 +314,41 @@
         <item quantity="few">Znaleziono %d powiązane zdjęcia. Dodać je?</item>
         <item quantity="many">Znaleziono %d powiązanych zdjęć. Dodać je?</item>
     </plurals>
-    <plurals name="photos_envelope_uploadhandler_success_adding">
-        <item quantity="other">Dodano %d elementu</item>
-        <item quantity="one">Dodano %d element</item>
-        <item quantity="few">Dodano %d elementy</item>
-        <item quantity="many">Dodano %d elementów</item>
-    </plurals>
     <plurals name="photos_localmedia_ui_delete_folder_on_device">
         <item quantity="other">Usuń folder i %d elementu, które się w nim znajduje</item>
-        <item quantity="one">Usuń folder i %d element, który się w nim znajduje</item>
+        <item quantity="one">Usuń folder i 1 element, który się w nim znajduje</item>
         <item quantity="few">Usuń folder i %d elementy, które się w nim znajdują</item>
         <item quantity="many">Usuń folder i %d elementów, które się w nim znajdują</item>
     </plurals>
     <plurals name="photos_localmedia_ui_filemanagement_copy_to_folder_error">
         <item quantity="other">Nie udało się skopiować %d elementu</item>
-        <item quantity="one">Nie udało się skopiować %d elementu</item>
+        <item quantity="one">Nie udało się skopiować 1 elementu</item>
         <item quantity="few">Nie udało się skopiować %d elementów</item>
         <item quantity="many">Nie udało się skopiować %d elementów</item>
     </plurals>
     <plurals name="photos_localmedia_ui_filemanagement_copy_to_folder_success">
         <item quantity="other">Skopiowano %d elementu</item>
-        <item quantity="one">Skopiowano %d element</item>
+        <item quantity="one">Skopiowano 1 element</item>
         <item quantity="few">Skopiowano %d elementy</item>
         <item quantity="many">Skopiowano %d elementów</item>
     </plurals>
     <plurals name="photos_localmedia_ui_filemanagement_move_to_folder_error">
         <item quantity="other">Nie udało się przenieść %d elementu</item>
-        <item quantity="one">Nie udało się przenieść %d elementu</item>
+        <item quantity="one">Nie udało się przenieść elementu</item>
         <item quantity="few">Nie udało się przenieść %d elementów</item>
         <item quantity="many">Nie udało się przenieść %d elementów</item>
     </plurals>
     <plurals name="photos_localmedia_ui_filemanagement_move_to_folder_success">
         <item quantity="other">Przeniesiono %d elementu</item>
-        <item quantity="one">Przeniesiono %d element</item>
+        <item quantity="one">Przeniesiono 1 element</item>
         <item quantity="few">Przeniesiono %d elementy</item>
         <item quantity="many">Przeniesiono %d elementów</item>
-    </plurals>
-    <plurals name="photos_search_localclusters_notification_cluster_type_people">
-        <item quantity="other">%d osoby</item>
-        <item quantity="one">%d osoba</item>
-        <item quantity="few">%d osoby</item>
-        <item quantity="many">%d osób</item>
-    </plurals>
-    <plurals name="photos_search_localclusters_notification_cluster_type_places">
-        <item quantity="other">%d miejsca</item>
-        <item quantity="one">%d miejsce</item>
-        <item quantity="few">%d miejsca</item>
-        <item quantity="many">%d miejsc</item>
-    </plurals>
-    <plurals name="photos_search_localclusters_notification_cluster_type_things">
-        <item quantity="other">%d rzeczy</item>
-        <item quantity="one">%d rzecz</item>
-        <item quantity="few">%d rzeczy</item>
-        <item quantity="many">%d rzeczy</item>
-    </plurals>
-    <plurals name="photos_search_peoplelabeling_header_count">
-        <item quantity="other">%d zdjęcia</item>
-        <item quantity="one">%d zdjęcie</item>
-        <item quantity="few">%d zdjęcia</item>
-        <item quantity="many">%d zdjęć</item>
     </plurals>
     <plurals name="photos_selected_description">
         <item quantity="other">Wybrano %1$d elementu</item>
         <item quantity="one">Wybrano %1$d element</item>
         <item quantity="few">Wybrano %1$d elementy</item>
         <item quantity="many">Wybrano %1$d elementów</item>
-    </plurals>
-    <plurals name="photos_selection_cabmode_title_n_selected">
-        <item quantity="other">%d wybranego</item>
-        <item quantity="one">%d wybrany</item>
-        <item quantity="few">%d wybrane</item>
-        <item quantity="many">%d wybranych</item>
     </plurals>
     <plurals name="photos_settings_deleting_error_title">
         <item quantity="other">Nie udało się usunąć %1$d zdjęcia i/lub filmu</item>
@@ -410,29 +362,41 @@
         <item quantity="few">Usuwanie %1$d zdjęć/filmów…</item>
         <item quantity="many">Usuwanie %1$d zdjęć/filmów…</item>
     </plurals>
-    <plurals name="photos_share_handler_add_to_existing_album_success_toast_text">
-        <item quantity="other">%d elementu zostało dodane do albumu</item>
-        <item quantity="one">%d element został dodany do albumu</item>
-        <item quantity="few">%d elementy zostały dodane do albumu</item>
-        <item quantity="many">%d elementów zostało dodanych do albumu</item>
-    </plurals>
     <plurals name="photos_sharedlinks_subtitle_recipient_list">
         <item quantity="other">%1$s i %2$d innej osoby</item>
-        <item quantity="one">%1$s i %2$d inna osoba</item>
+        <item quantity="one">%1$s i 1 inna osoba</item>
         <item quantity="few">%1$s i %2$d inne osoby</item>
         <item quantity="many">%1$s i %2$d innych osób</item>
     </plurals>
-    <plurals name="photos_sharedmedia_envelope_items_title">
+    <plurals name="photos_sharedmedia_envelope_title">
         <item quantity="other">%d elementu</item>
-        <item quantity="one">%d element</item>
+        <item quantity="one">1 element</item>
         <item quantity="few">%d elementy</item>
         <item quantity="many">%d elementów</item>
     </plurals>
-    <plurals name="photos_trash_delete_delete_error">
-        <item quantity="other">Nie można usunąć elementów</item>
-        <item quantity="one">Nie można usunąć elementu</item>
-        <item quantity="few">Nie można usunąć elementów</item>
-        <item quantity="many">Nie można usunąć elementów</item>
+    <plurals name="photos_syncdevicedeletes_assistant_description">
+        <item quantity="other">Usunąć te elementy też ze Zdjęć Google?</item>
+        <item quantity="one">Usunąć ten element też ze Zdjęć Google?</item>
+        <item quantity="few">Usunąć te elementy też ze Zdjęć Google?</item>
+        <item quantity="many">Usunąć te elementy też ze Zdjęć Google?</item>
+    </plurals>
+    <plurals name="photos_syncdevicedeletes_assistant_sync_deletes">
+        <item quantity="other">SYNCHRONIZUJ OPERACJE USUNIĘCIA</item>
+        <item quantity="one">SYNCHRONIZUJ OPERACJĘ USUNIĘCIA</item>
+        <item quantity="few">SYNCHRONIZUJ OPERACJE USUNIĘCIA</item>
+        <item quantity="many">SYNCHRONIZUJ OPERACJE USUNIĘCIA</item>
+    </plurals>
+    <plurals name="photos_syncdevicedeletes_assistant_title">
+        <item quantity="other">%d zdjęcia zostało usunięte przez Ciebie z urządzenia</item>
+        <item quantity="one">%d zdjęcie zostało usunięte przez Ciebie z urządzenia</item>
+        <item quantity="few">%d zdjęcia zostały usunięte przez Ciebie z urządzenia</item>
+        <item quantity="many">%d zdjęć zostało usuniętych przez Ciebie z urządzenia</item>
+    </plurals>
+    <plurals name="photos_syncdevicedeletes_title">
+        <item quantity="other">%d zdjęcia</item>
+        <item quantity="one">%d zdjęcie</item>
+        <item quantity="few">%d zdjęcia</item>
+        <item quantity="many">%d zdjęć</item>
     </plurals>
     <plurals name="photos_trash_delete_local_only_delete_error">
         <item quantity="other">Nie można usunąć kopii z urządzenia</item>
@@ -440,21 +404,33 @@
         <item quantity="few">Nie można usunąć kopii z urządzenia</item>
         <item quantity="many">Nie można usunąć kopii z urządzenia</item>
     </plurals>
+    <plurals name="photos_trash_delete_local_only_delete_item_pending">
+        <item quantity="other">Usuwam kopie z urządzenia…</item>
+        <item quantity="one">Usuwam kopię z urządzenia…</item>
+        <item quantity="few">Usuwam kopie z urządzenia…</item>
+        <item quantity="many">Usuwam kopie z urządzenia…</item>
+    </plurals>
     <plurals name="photos_trash_delete_local_only_delete_toast_text">
         <item quantity="other">Usunięto kopie z urządzenia</item>
         <item quantity="one">Usunięto kopię z urządzenia</item>
         <item quantity="few">Usunięto kopie z urządzenia</item>
         <item quantity="many">Usunięto kopie z urządzenia</item>
     </plurals>
+    <plurals name="photos_trash_delete_on_sd_card_message">
+        <item quantity="other">Zdjęcia nie mają uprawnień do usunięcia elementów z karty SD. Aby je usunąć, otwórz aplikację Galeria.</item>
+        <item quantity="one">Zdjęcia nie mają uprawnień do usunięcia elementu z karty SD. Aby je usunąć, otwórz aplikację Galeria.</item>
+        <item quantity="few">Zdjęcia nie mają uprawnień do usunięcia elementów z karty SD. Aby je usunąć, otwórz aplikację Galeria.</item>
+        <item quantity="many">Zdjęcia nie mają uprawnień do usunięcia elementów z karty SD. Aby je usunąć, otwórz aplikację Galeria.</item>
+    </plurals>
     <plurals name="photos_trash_delete_on_sd_card_title">
         <item quantity="other">Nie można usunąć %d elementu</item>
-        <item quantity="one">Nie można usunąć %d elementu</item>
+        <item quantity="one">Nie można usunąć 1 elementu</item>
         <item quantity="few">Nie można usunąć %d elementów</item>
         <item quantity="many">Nie można usunąć %d elementów</item>
     </plurals>
     <plurals name="photos_trash_delete_permanent_delete_error">
         <item quantity="other">Nie można trwale usunąć %d elementu</item>
-        <item quantity="one">Nie można trwale usunąć %d elementu</item>
+        <item quantity="one">Nie można trwale usunąć 1 elementu</item>
         <item quantity="few">Nie można trwale usunąć %d elementów</item>
         <item quantity="many">Nie można trwale usunąć %d elementów</item>
     </plurals>
@@ -466,7 +442,7 @@
     </plurals>
     <plurals name="photos_trash_delete_permanent_delete_toast_text">
         <item quantity="other">%d elementu zostało trwale usunięte</item>
-        <item quantity="one">%d element został trwale usunięty</item>
+        <item quantity="one">1 element został trwale usunięty</item>
         <item quantity="few">%d elementy zostały trwale usunięte</item>
         <item quantity="many">%d elementów zostało trwale usuniętych</item>
     </plurals>
@@ -478,15 +454,15 @@
     </plurals>
     <plurals name="photos_trash_restore_restore_photo_error">
         <item quantity="other">Nie można przywrócić %d elementu</item>
-        <item quantity="one">Nie można przywrócić %d elementu</item>
+        <item quantity="one">Nie można przywrócić 1 elementu</item>
         <item quantity="few">Nie można przywrócić %d elementów</item>
         <item quantity="many">Nie można przywrócić %d elementów</item>
     </plurals>
     <plurals name="photos_trash_restore_restored_from_trash_toast_text">
-        <item quantity="other">%d elementu zostało przywrócone z kosza</item>
-        <item quantity="one">%d element został przywrócony z kosza</item>
-        <item quantity="few">%d elementy zostały przywrócone z kosza</item>
-        <item quantity="many">%d elementów zostało przywróconych z kosza</item>
+        <item quantity="other">Przywrócono z kosza %d elementu</item>
+        <item quantity="one">Przywrócono z kosza 1 element</item>
+        <item quantity="few">Przywrócono z kosza %d elementy</item>
+        <item quantity="many">Przywrócono z kosza %d elementów</item>
     </plurals>
     <plurals name="photos_trash_skip_trash_title">
         <item quantity="other">Trwale usunąć elementy?</item>
@@ -530,15 +506,9 @@
         <item quantity="few">Utworzenie kopii zapasowej tych elementów spowoduje użycie transmisji danych. Jeśli nie chcesz używać transmisji danych, połącz się z Wi-Fi.</item>
         <item quantity="many">Utworzenie kopii zapasowej tych elementów spowoduje użycie transmisji danych. Jeśli nie chcesz używać transmisji danych, połącz się z Wi-Fi.</item>
     </plurals>
-    <plurals name="photos_upload_title_uploading">
-        <item quantity="other">Przesyłam… Pozostało %d pliku</item>
-        <item quantity="one">Przesyłam… Pozostał %d plik</item>
-        <item quantity="few">Przesyłam… Pozostały %d pliki</item>
-        <item quantity="many">Przesyłam… Pozostało %d plików</item>
-    </plurals>
     <plurals name="photos_uploadtoalbum_upload_media_num_files">
         <item quantity="other">%d pliku</item>
-        <item quantity="one">%d plik</item>
+        <item quantity="one">1 plik</item>
         <item quantity="few">%d pliki</item>
         <item quantity="many">%d plików</item>
     </plurals>
@@ -578,11 +548,23 @@
         <item quantity="few">Wybierz filmy</item>
         <item quantity="many">Wybierz filmy</item>
     </plurals>
-    <plurals name="sendkit_ui_multiple_contact_methods">
-        <item quantity="other">Wybrano %d</item>
-        <item quantity="one">Wybrano %d</item>
-        <item quantity="few">Wybrano %d</item>
-        <item quantity="many">Wybrano %d</item>
+    <plurals name="story_element_picker_tooltip">
+        <item quantity="other">Wybierz momenty (%d)</item>
+        <item quantity="one"></item>
+        <item quantity="few">Wybierz momenty (%d)</item>
+        <item quantity="many">Wybierz momenty (%d)</item>
+    </plurals>
+    <plurals name="story_warning_hit_min_photos">
+        <item quantity="other">Historia musi zawierać co najmniej %1$d zdjęcia.</item>
+        <item quantity="one">Historia musi zawierać co najmniej %1$d zdjęcie.</item>
+        <item quantity="few">Historia musi zawierać co najmniej %1$d zdjęcia.</item>
+        <item quantity="many">Historia musi zawierać co najmniej %1$d zdjęć.</item>
+    </plurals>
+    <plurals name="story_warning_too_few_photos">
+        <item quantity="other">Wybierz co najmniej %1$d zdjęcia do historii.</item>
+        <item quantity="one">Wybierz co najmniej %1$d zdjęcie do historii.</item>
+        <item quantity="few">Wybierz co najmniej %1$d zdjęcia do historii.</item>
+        <item quantity="many">Wybierz co najmniej %1$d zdjęć do historii.</item>
     </plurals>
     <plurals name="trash_full_message">
         <item quantity="other">Kosz na Twoim urządzeniu jest pełny. Jeśli usuniesz te elementy, zostaną one trwale skasowane z urządzenia i konta.</item>

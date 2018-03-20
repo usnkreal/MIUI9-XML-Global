@@ -199,6 +199,9 @@ http://zhushou.xiaomi.com"</string>
     <string name="confirm_local_package_wipe_title">Şterge date?</string>
     <string name="confirm_local_package_wipe_msg">Datele personale vor fi șterse. Asigurați-vă că ați salvat tot ce doriți să păstrați înainte să porniți procesul.</string>
     <string name="confirm_local_package_wipe_btn">Șterge și actualizează</string>
+    <string name="file_path_error_title">Incorrect path</string>
+    <string name="file_path_error_msg">Make sure the path to the update package contains only letters and numbers.</string>
+    <string name="file_path_error_btn">Got it</string>
     <string name="delay_update_text">Actualizează în această seară</string>
     <string name="dialog_delay_update_title">Este disponibilă o actualizare</string>
     <string name="dialog_delay_update_msg">Actualizările vor fi instalate între orele 2:00 și 5:00 AM dacă bateria este plină cu cel puțin 30%.</string>
@@ -320,5 +323,5 @@ Nu s-a putut trimite feedback"</string>
     <string name="security_space_msg">MIUI 9 are un nou sistem de fișiere. Dacă reporniți dispozitivul acum, este posibil să nu puteți utiliza Al doilea spațiu. Mutați toate elementele din Al doilea spațiu în Primul spațiu înainte de a reporni.</string>
     <string name="security_space_button_pos">Nu reporniți</string>
     <string name="security_space_button_neg">Reporniți acum</string>
-    <string name="privacy_revoke_msg">Updater allows you to keep MIUI and its features up to date. After you revoke authorization, the app will stop collecting data, and all the related data (including the data about devices which require updates) will be deleted from this device and the servers. Refusing to update your device might bring security risks. Revoke authorization anyway?</string>
+    <string name="privacy_revoke_msg">Actualizatorul vă permite să păstrați actualizările MIUI și funcțiile sale. După ce revocați autorizația, aplicația va opri colectarea datelor și toate datele asociate (inclusiv datele despre dispozitivele care necesită actualizări) vor fi șterse de pe acest dispozitiv și de pe servere. Refuzarea actualizării dispozitivului poate aduce riscuri de securitate. Revocați oricum autorizația?</string>
 </resources>

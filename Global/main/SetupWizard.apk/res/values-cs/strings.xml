@@ -28,12 +28,9 @@
     <string name="common_signin_button_text">Přihlásit se</string>
     <string name="common_signin_button_text_long">Přihlásit se účtem Google</string>
     <string name="common_open_on_phone">Otevřít v telefonu</string>
-    <string name="suw_next_button_label">Další</string>
-    <string name="suw_back_button_label">Zpět</string>
-    <string name="suw_more_button_label">Další</string>
-    <string name="setup_wizard_title">Průvodce nastavením</string>
     <string name="setup_wizard_next_button_label">Další</string>
     <string name="setup_wizard_back_button_label">Zpět</string>
+    <string name="setup_wizard_title">Průvodce nastavením</string>
     <string name="setup_wizard_services_activity_title">Služby Google</string>
     <string name="setup_wizard_services_description">Tyto služby umožňují Googlu pracovat pro vás a kdykoli je můžete zapnout či vypnout. Data budou požita v souladu se <annotation id="google_privacy">zásadami ochrany soukromí</annotation> společnosti Google.</string>
     <string name="setup_wizard_services_backup_restore_heading">Zálohování a obnovení</string>
@@ -54,6 +51,30 @@
 Tuto možnost můžete kdykoli vypnout v aplikaci Nastavení Google. Nebude to mít žádný vliv na schopnost zařízení odesílat informace, které potřebuje k přijímání základních služeb, jako jsou aktualizace systému nebo zabezpečení."</string>
     <string name="setup_wizard_services_agreement">Tento telefon může také dostávat a instalovat aktualizace a aplikace od společnosti Google, operátora a výrobce telefonu. Budete-li pokračovat, mohou být staženy a nainstalovány některé aplikace, které však můžete kdykoli odstranit.</string>
     <string name="default_device_name">Android</string>
+    <string name="welcome_message">Vítejte</string>
+    <string name="welcome_secondary_user_added_text">%s vás přidal(a) do tohoto telefonu.</string>
+    <string name="welcome_secondary_user_added_no_owner_name_text">Byli jste přidáni do tohoto telefonu.</string>
+    <string name="welcome_secondary_user_info_text">"Po dokončení nastavení můžete pracovat s aplikacemi nebo si nainstalovat nové.
+
+"<b>Důležité:</b>"
+
+"<li><ul>Vlastník tabletu může vaše aplikace odinstalovat nebo váš prostor zcela odstranit.</ul></li>"
+
+"<li><ul>Kterýkoli jiný uživatel za vás může přijmout oprávnění aktualizovaných aplikací.</ul></li>"
+
+"<li><ul>Stejně jako počítač byste tento telefon měli sdílet pouze s lidmi, kterým věříte.</ul></li></string>
+    <string name="welcome_limited_user_info_text">" 
+"<b>Důležité:</b>"
+
+ "<li><ul>Vlastník telefonu může instalovat a odinstalovat aplikace, nastavit omezení nebo váš prostor zcela odstranit.</ul></li>"
+
+ "<li><ul>Aktualizovaná oprávnění aplikace za vás může přijmout kterýkoliv jiný uživatel.</ul></li>"
+
+ "<li><ul>Stejně jako v případě počítače byste měli telefon půjčovat jen lidem, kterým důvěřujete. </ul></li></string>
+    <string name="welcome_text_edu">Nastavte své zařízení pro použití se službou Google Play for Education</string>
+    <string name="welcome_secondary_user_text_edu">Dokončete nastavení účtu na tomto tabletu.</string>
+    <string name="welcome_secondary_user_additional_info_header_edu">Důležité</string>
+    <string name="welcome_secondary_user_additional_info_edu">Tento tablet sdílíte s ostatními studenty. Po nastavení účtu svoji práci ochraňte přidáním kódu PIN.</string>
     <string name="finish_button_label">Dokončit</string>
     <string name="skip_button_label">Přeskočit</string>
     <string name="skip_anyway_button_label">Přesto přeskočit</string>
@@ -64,7 +85,6 @@ Tuto možnost můžete kdykoli vypnout v aplikaci Nastavení Google. Nebude to m
     <string name="try_again_button_label">Opakovat akci</string>
     <string name="close_button_label">Zavřít</string>
     <string name="got_it_button_label">Rozumím</string>
-    <string name="ok_button_label">OK</string>
     <string name="google_legal_title">Právní informace společnosti Google</string>
     <string name="url_load_unsuccessful_message">Váš telefon není připojen k mobilní datové službě. Chcete-li tyto informace zobrazit nyní, přejděte ve webovém prohlížeči na adresu %s.</string>
     <string name="start">Spustit</string>
@@ -119,9 +139,9 @@ Mobilní datovou službu můžete aktivovat později v části "<b>Systémová n
     <string name="activation_canceled_text_standalone">"Aktivace byla zrušena.
 
 Mobilní datovou službu můžete aktivovat později v části "<b>Systémová nastavení > Bezdrátová připojení a sítě > Mobilní sítě</b>.</string>
-    <string name="activation_spc_failure_text">Došlo k chybě, která vyžaduje vypnutí a opětovné zapnutí telefonu. Poté se o aktivaci můžete pokusit znovu. Telefon se automaticky vypne za 60 sekund, nebo jej můžete vypnout klepnutím na možnost <b>Vypnout ihned</b>".
+    <string name="activation_spc_failure_text">Došlo k chybě, která vyžaduje vypnutí a opětovné zapnutí telefonu. Poté se o aktivaci můžete pokusit znovu. Telefon se automaticky vypne za 60 sekund, nebo jej můžete vypnout klepnutím na možnost <b>Vypnout ihned</b>".
 
-Jakmile se telefon vypne, stisknutím vypínače jej znovu zapněte. Aktivace bude zahájena automaticky."</string>
+Jakmile se telefon vypne, stisknutím tlačítka napájení jej znovu zapněte. Aktivace bude zahájena automaticky."</string>
     <string name="shutdown_button_label">Vypnout ihned</string>
     <string name="reboot_button_label">Restartovat</string>
     <string name="activation_skip_text">Pokud aktivaci přeskočíte, nezapomeňte ji provést později v Nastavení. Dokud aktivaci neprovedete, telefon nebude mít mobilní datové připojení.</string>
@@ -133,7 +153,13 @@ Jakmile se telefon vypne, stisknutím vypínače jej znovu zapněte. Aktivace bu
     <string name="date_time_message">V případě potřeby upravte.</string>
     <string name="date_time_current_date">Datum</string>
     <string name="date_time_current_time">Čas</string>
-    <string name="date_time_time_zone_full" formatted="false">%s (%s)</string>
+    <string name="location_sharing_title">Google a poloha</string>
+    <string name="tos_title">Služby Google</string>
+    <string name="tos_agreement_text">Tento telefon může rovněž přijímat a instalovat aplikace od Googlu. Pokračováním vyjadřujete souhlas se <annotation id="tos">smluvními podmínkami</annotation> a <annotation id="google_privacy">zásadami ochrany soukromí společnosti Google</annotation>.</string>
+    <string name="tos_agreement_text_germany">Dále souhlasíte s tím, že zařízení může přijímat a instalovat aktualizace z Googlu. Při používání tohoto zařízení je třeba dodržovat <annotation id="google_privacy">zásady ochrany soukromí</annotation> a <annotation id="tos">další podmínky</annotation>.</string>
+    <string name="setup_complete_title">Nastavení je hotové.</string>
+    <string name="setup_complete_message">Telefon je nastaven a připraven k použití.</string>
+    <string name="backup_assistant_prompt">Chcete-li obnovit kontakty z jiného telefonu Verizon, spusťte aplikaci Verizon Backup Assistant.</string>
     <string name="sim_missing_title">Vložte SIM kartu</string>
     <string name="sim_setup_title">Nastavení SIM karet</string>
     <string name="sim_setup_select_data">Vyberte SIM kartu pro mobilní data.</string>
@@ -148,7 +174,7 @@ Telefon nebude mít připojení k internetu.
 
 Dokud se nepřipojíte k internetu, nebudete dostávat aktualizace softwaru.
 
-V tuto chvíli nelze aktivovat funkce ochrany zařízení."</string>
+Nemůžete nyní aktivovat funkce ochrany zařízení."</string>
     <string name="walled_garden_connection_failed">Trvá to příliš dlouho? Zkuste se vrátit a připojit k jiné síti.</string>
     <string name="walled_garden_connection_unsuccessful">Připojení k internetu se nezdařilo</string>
     <string name="ota_update_title">Aktualizace telefonu</string>
@@ -172,27 +198,19 @@ V tuto chvíli nelze aktivovat funkce ochrany zařízení."</string>
     <string name="continue_for_a11y">Dotýkejte se obrazovky, dokud nezazní zvukový signál oznamující zapnutí režimu usnadnění.</string>
     <string name="canceled_a11y">Režim Usnadnění zrušen.</string>
     <string name="enabled_a11y">Režim Usnadnění aktivován.</string>
-    <string name="welcome_message">Vítejte</string>
-    <string name="emergency_dial">Stav nouze</string>
-    <string name="welcome_language_picker_dialog_title">Vyberte jazyk</string>
-    <string name="welcome_language_picker_section_suggested">Navržené</string>
-    <string name="welcome_language_picker_section_all">Všechny jazyky</string>
+    <string name="emergency_dial">Tísňové volání</string>
     <string name="welcome_language_picker_content_description">Jazyk: %s</string>
-    <string name="lock_screen_intro_title">Chraňte svůj telefon</string>
-    <string name="lock_screen_intro_text">Aktivujte funkce ochrany zařízení a zabraňte tak ostatním v používání telefonu bez vašeho svolení. <annotation id="learn_more">Další informace</annotation></string>
-    <string name="lock_screen_intro_text_secondary">Pokud vyberete Ano, budete provedeni nastavením zámku obrazovky.</string>
-    <string name="lock_screen_intro_check_box"><b>Chránit toto zařízení</b> a před odemknutím obrazovky požadovat kód PIN, gesto nebo heslo</string>
-    <string name="lock_screen_intro_radio_fingerprint">Nastavit digitální otisk</string>
-    <string name="lock_screen_intro_radio_generic">Nastavit kód PIN, gesto nebo heslo</string>
-    <string name="lock_screen_intro_radio_no">Ne, děkuji</string>
-    <string name="lock_screen_intro_success">"Zámek obrazovky byl úspěšně nastaven.
+    <string name="lock_screen_intro_title">Ochraňte svůj telefon</string>
+    <string name="lock_screen_intro_text">"Aktivujte funkce ochrany zařízení a zabraňte tak ostatním v používání tohoto telefonu bez vašeho svolení.
 "<annotation id="learn_more">Další informace</annotation></string>
-    <string name="lock_screen_intro_dialog_text_frp">"Když přidáte účet Google a nastavíte zámek obrazovky, automaticky se aktivuje ochrana zařízení. V kombinaci se Správcem zařízení Android vám tato ochrana umožňuje v případě ztráty nebo odcizení telefon vyhledat a vymazat.
+    <string name="lock_screen_intro_text_secondary">Pokud vyberete Ano, budete provedeni nastavením zámku obrazovky.</string>
+    <string name="lock_screen_intro_check_box"><b>Ochránit toto zařízení</b> a před odemknutím obrazovky požadovat PIN, gesto nebo heslo</string>
+    <string name="lock_screen_intro_button">Nastavit obrazovku uzamčení</string>
+    <string name="lock_screen_intro_success">Zámek obrazovky byl úspěšně nastaven.</string>
+    <string name="lock_screen_intro_dialog_text">"Pokud přidáte účet Google a nastavíte zámek obrazovky, automaticky se aktivuje ochrana zařízení. V kombinaci se Správcem zařízení Android vám umožňuje v případě ztráty nebo odcizení telefon vyhledat, vymazat a zabránit jeho opětovnému používání.
 
-I v případě, že bude telefon vymazán, jej bude možné používat až po zadání hesla vašeho účtu Google."</string>
-    <string name="lock_screen_intro_dialog_text">Když přidáte účet Google a nastavíte zámek obrazovky, automaticky se aktivuje ochrana zařízení. V kombinaci se Správcem zařízení Android vám tato ochrana umožňuje v případě ztráty nebo odcizení telefon vyhledat a vymazat.</string>
-    <string name="lock_screen_intro_skip_dialog_text_frp">Nebudou aktivovány funkce ochrany zařízení. V případě ztráty, odcizení nebo vymazání telefonu nebudete moci ostatním zabránit v jeho používání.</string>
-    <string name="lock_screen_intro_skip_dialog_text">Nebudou aktivovány funkce ochrany zařízení. V případě ztráty nebo odcizení telefonu nebudete moci ostatním zabránit v jeho používání.</string>
+I v případě, že bude telefon vymazán, jej bude možné používat až po zadání hesla vašeho účtu Google."</string>
+    <string name="lock_screen_intro_skip_dialog_text">Nebudou aktivovány funkce ochrany zařízení. V případě ztráty, odcizení nebo vymazání telefonu nebudete moci ostatním zabránit v jeho používání.</string>
     <string name="services_activity_title">Služby Google</string>
     <string name="services_backup_heading">Záloha</string>
     <string name="services_location_heading">Poloha</string>
@@ -204,45 +222,21 @@ I v případě, že bude telefon vymazán, jej bude možné používat až po 
     <string name="restore_wallpaper_title">Obnovování tapety…</string>
     <string name="restore_device_settings_title">Obnovování nastavení zařízení…</string>
     <string name="restore_launcher_title">Obnovování spouštěče…</string>
-    <string name="restore_failed_message">Obnovení ze zálohy se nezdařilo.</string>
-    <string name="restore_no_backup_message">Nejsou dostupné žádné zálohy zdrojového zařízení.</string>
-    <string name="restore_stopped_message">Obnovování dat ze zálohy bylo bohužel v zařízení přerušeno.</string>
+    <string name="restore_failed_message">Obnovení ze zálohy se nezdařilo</string>
     <string name="name_title">Jméno</string>
     <string name="name_text">Pokud zadáte své jméno, některé aplikace v telefonu bude možné personalizovat.</string>
     <string name="first_name">Jméno</string>
     <string name="last_name">Příjmení</string>
     <string name="cant_be_blank">Pole nesmí být prázdné.</string>
-    <string name="device_owner_warning_title">Telefon může být sledován</string>
-    <string name="device_owner_warning">Telefon je spravován vlastníkem %1$s. To znamená, že některé vaše údaje mohou být viditelné ostatním uživatelům. Chcete-li zabránit sledování, telefon resetujte.</string>
-    <string name="device_owner_continue">Pokračovat</string>
-    <string name="device_owner_reset">Resetovat telefon</string>
-    <string name="factory_reset_title">Resetovat telefon</string>
-    <string name="factory_reset_instructions">Upozornění: V rámci resetování budou z telefonu vymazány všechny účty a data v interním úložišti.</string>
-    <string name="factory_reset_confirmation_title">Resetovat?</string>
-    <string name="factory_reset_confirmation">Chcete z tohoto telefonu vymazat všechny účty a data? Tuto akci nelze vrátit zpět.</string>
-    <string name="factory_reset_button">Vymazat a resetovat</string>
-    <string name="restart_setup_wizard_dialog_title">Nejste přihlášeni</string>
-    <string name="restart_setup_wizard_dialog_text">"Chcete-li tento telefon používat, musíte se nejprve přihlásit k účtu Google vlastníka, který telefon používal před posledním resetováním.
-
-Jelikož jste tak neučinili, je nutné telefon znovu nastavit."</string>
-    <string name="restart_setup_wizard_button_label">Nastavit telefon</string>
-    <string name="sec_user_continue">Pokračovat</string>
-    <string name="sec_user_quit">Ukončit</string>
-    <string name="user_warning_title">Nastavit nového uživatele</string>
-    <string name="welcome_secondary_user_added_text">%s vás přidal(a) do tohoto telefonu.</string>
-    <string name="welcome_secondary_user_added_no_owner_name_text">Byli jste přidáni do tohoto telefonu.</string>
-    <string name="welcome_secondary_user_info_text"><b>Důležité:</b>"
-
-"<li><ul>Vlastník telefonu může odinstalovat vaše aplikace nebo váš prostor zcela odstranit.</ul></li>"
-
-"<li><ul>Kterýkoliv jiný uživatel vaším jménem může přijmout aktualizovaná oprávnění aplikací.</ul></li>"
-
-"<li><ul>Jako každé jiné zařízení, i tento telefon byste měli sdílet pouze s lidmi, kterým důvěřujete.</ul></li></string>
-    <string name="welcome_limited_user_info_text">" "<b>Important:</b>"
-
- "<li><ul>Vlastník telefonu může instalovat a odinstalovat aplikace, nastavit omezení nebo váš prostor zcela odstranit.</ul></li>"
-
- "<li><ul>Libovolný uživatel může vaším jménem přijímat aktualizovaná oprávnění aplikací.</ul></li>"
-
- "<li><ul>Jako každé jiné zařízení, i tento telefon byste měli sdílet pouze s lidmi, kterým důvěřujete. </ul></li></string>
+    <string name="lock_pin_confirm_your_pin_header">Potvrďte kód PIN</string>
+    <string name="lock_pin_choose_your_pin_header">Zvolte kód PIN</string>
+    <string name="lock_pin_ok_label">OK</string>
+    <string name="lock_pin_cancel_label">Zrušit</string>
+    <string name="lock_pin_press_continue">Po dokončení se dotkněte tlačítka Pokračovat</string>
+    <string name="lock_pin_too_short">PIN musí mít minimálně %d číslic.</string>
+    <string name="lock_pin_too_long">PIN musí mít méně než %d číslic.</string>
+    <string name="lock_pin_illegal_character">Heslo obsahuje neplatný znak.</string>
+    <string name="lock_pin_contains_non_digits">Kód PIN musí obsahovat pouze číslice 0 až 9.</string>
+    <string name="lock_pin_confirm_pins_dont_match">Kódy PIN nejsou shodné</string>
+    <string name="lock_pin_continue_label">Pokračovat</string>
 </resources>

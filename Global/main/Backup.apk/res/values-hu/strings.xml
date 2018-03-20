@@ -59,10 +59,10 @@ Delta frissítés mérete: %2$s"</string>
     <string name="backup_update">Mentés módosítása</string>
     <string name="backup_delete">Mentés törlése:</string>
     <string name="findlost_contact">Névjegy keresése</string>
-    <string name="findlost_contact_online">Névjegy keresése online</string>
+    <string name="findlost_contact_online">Névjegy visszaállítása a Mi Cloudból</string>
     <string name="cloud_backup_login">Jelentkezzen be a Mi Fiókba</string>
     <string name="cloud_backup_hint">Jelentkezzen be a biztonsági mentés eléréséhez</string>
-    <string name="cloud_backup_window_title">Online adatmentés</string>
+    <string name="cloud_backup_window_title">Mi Cloud mentés</string>
     <string name="cloud_restore_window_title">Mi Cloud visszaállítás</string>
     <string name="cloud_restore_title">Online adatmentés</string>
     <string name="local_backup_window_title">Helyi adatmentés</string>

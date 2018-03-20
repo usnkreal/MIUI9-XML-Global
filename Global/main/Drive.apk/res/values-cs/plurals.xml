@@ -42,10 +42,6 @@
         <item quantity="other">Aplikace byly aktualizovány (celkem %1$d)</item>
         <item quantity="one">%1$d aplikace byla aktualizována</item>
     </plurals>
-    <plurals name="delete_backup_success_message">
-        <item quantity="other">Zálohy smazány.</item>
-        <item quantity="one">Záloha smazána.</item>
-    </plurals>
     <plurals name="download_message_all_failed">
         <item quantity="other">Položky se nepodařilo stáhnout.</item>
         <item quantity="one">Položku nelze stáhnout.</item>
@@ -123,22 +119,6 @@
         <item quantity="other">Sdílet tyto složky?</item>
         <item quantity="one">Sdílet tuto složku?</item>
     </plurals>
-    <plurals name="move_error_cannot_move_in_not_owned">
-        <item quantity="other">Některé položky nevlastníte. Nemůžete je přesunout na týmový disk.</item>
-        <item quantity="one">Tuto položku nevlastníte. Nemůžete ji přesunout na týmový disk.</item>
-    </plurals>
-    <plurals name="move_error_no_permission_src">
-        <item quantity="other">Nemáte oprávnění k přesunutí některých položek z jejich složky.</item>
-        <item quantity="one">Nemáte oprávnění k přesunutí této položky z její složky.</item>
-    </plurals>
-    <plurals name="pdocs_action_items">
-        <item quantity="other">Počet úkolů: %1$s</item>
-        <item quantity="one">%1$s úkol</item>
-    </plurals>
-    <plurals name="pdocs_comments">
-        <item quantity="other">Počet nezodpovězených zmínek: %1$s</item>
-        <item quantity="one">%1$s nezodpovězená zmínka</item>
-    </plurals>
     <plurals name="pdocs_suggestions">
         <item quantity="other">Počet návrhů: %1$s</item>
         <item quantity="one">%1$s návrh</item>
@@ -163,51 +143,39 @@
         <item quantity="other">soubory (celkem %1$d)</item>
         <item quantity="one">%1$d soubor</item>
     </plurals>
-    <plurals name="pin_notification_waiting_ticker">
-        <item quantity="other">Stahování pozastavena, čeká se na Wi-Fi.</item>
-        <item quantity="one">Stahování pozastaveno, čeká se na Wi-Fi.</item>
-    </plurals>
     <plurals name="pin_notification_waiting_title">
         <item quantity="other">Stahování (celkem %1$d) pozastavena.</item>
         <item quantity="one">%1$d stahování pozastaveno.</item>
     </plurals>
     <plurals name="plus_photo_item_remove_items_dialog_text_multiple">
-        <item quantity="other">Položky (celkem %1$d) se přesunou do koše. Odstraní se tak i z Fotek Google.</item>
+        <item quantity="other">Položky (celkem %d) se přesunou do koše. Odstraní se tak i z Fotek Google.</item>
         <item quantity="one">Jedna položka se přesune do koše. Odstraní se tak i z Fotek Google.</item>
     </plurals>
-    <plurals name="prioritydocs_badge_a11y_text">
-        <item quantity="other">Počet reakcí: %1$s</item>
-        <item quantity="one">%1$s reakce</item>
-    </plurals>
-    <plurals name="prioritydocs_menu_item_a11y_text">
-        <item quantity="other">Počet reakcí: %1$s</item>
-        <item quantity="one">%1$s reakce</item>
-    </plurals>
     <plurals name="recent_activity_type_commented_many_users">
-        <item quantity="other">Okomentovali soubory (celkem %1$d)</item>
+        <item quantity="other">Okomentovali soubory (celkem %d)</item>
         <item quantity="one">Okomentovali soubor</item>
     </plurals>
     <plurals name="recent_activity_type_commented_one_user">
-        <item quantity="other">Okomentoval(a) soubory (celkem %1$d)</item>
+        <item quantity="other">Okomentoval(a) soubory (celkem %d)</item>
         <item quantity="one">Okomentoval(a) soubor</item>
     </plurals>
     <plurals name="recent_activity_type_commented_this_file">
         <item quantity="other">Okomentovali tento soubor</item>
     </plurals>
     <plurals name="recent_activity_type_created_extra_many_users">
-        <item quantity="other">Vytvořili položky (celkem %1$d) v:</item>
+        <item quantity="other">Vytvořili položky (celkem %d) v:</item>
         <item quantity="one">Vytvořili položku v:</item>
     </plurals>
     <plurals name="recent_activity_type_created_extra_one_user">
-        <item quantity="other">Vytvořil(a) položky (celkem %1$d) v:</item>
+        <item quantity="other">Vytvořil(a) položky (celkem %d) v:</item>
         <item quantity="one">Vytvořil(a) položku v:</item>
     </plurals>
     <plurals name="recent_activity_type_created_many_users">
-        <item quantity="other">Vytvořili položky (celkem %1$d)</item>
+        <item quantity="other">Vytvořili položky (celkem %d)</item>
         <item quantity="one">Vytvořili položku</item>
     </plurals>
     <plurals name="recent_activity_type_created_one_user">
-        <item quantity="other">Vytvořil(a) položky (celkem %1$d)</item>
+        <item quantity="other">Vytvořil(a) položky (celkem %d)</item>
         <item quantity="one">Vytvořil(a) položku</item>
     </plurals>
     <plurals name="recent_activity_type_created_this_file">
@@ -217,26 +185,26 @@
         <item quantity="other">Vytvořil(a) tuto složku</item>
     </plurals>
     <plurals name="recent_activity_type_edited_many_users">
-        <item quantity="other">Upravili položky (celkem %1$d)</item>
+        <item quantity="other">Upravili položky (celkem %d)</item>
         <item quantity="one">Upravili položku</item>
     </plurals>
     <plurals name="recent_activity_type_edited_one_user">
-        <item quantity="other">Upravil(a) položky (celkem %1$d)</item>
+        <item quantity="other">Upravil(a) položky (celkem %d)</item>
         <item quantity="one">Upravil(a) položku</item>
     </plurals>
     <plurals name="recent_activity_type_edited_this_file">
         <item quantity="other">Provedli úpravy v tomto souboru</item>
     </plurals>
     <plurals name="recent_activity_type_empty_trash">
-        <item quantity="other">Trvale smazal(a) položky (celkem %1$d)</item>
+        <item quantity="other">Trvale smazal(a) položky (celkem %d)</item>
         <item quantity="one">Trvale smazal(a) položku</item>
     </plurals>
     <plurals name="recent_activity_type_link_many_users">
-        <item quantity="other">Změnili přístup přes odkaz u položek (celkem %1$d)</item>
+        <item quantity="other">Změnili přístup přes odkaz u položek (celkem %d)</item>
         <item quantity="one">Změnili přístup přes odkaz u 1 položky</item>
     </plurals>
     <plurals name="recent_activity_type_link_one_user">
-        <item quantity="other">Změnil(a) přístup přes odkaz u položek (celkem %1$d)</item>
+        <item quantity="other">Změnil(a) přístup přes odkaz u položek (celkem %d)</item>
         <item quantity="one">Změnil(a) přístup přes odkaz u 1 položky</item>
     </plurals>
     <plurals name="recent_activity_type_link_this_file">
@@ -246,19 +214,19 @@
         <item quantity="other">Změnili přístup přes odkaz u této složky</item>
     </plurals>
     <plurals name="recent_activity_type_moved_extra_many_users">
-        <item quantity="other">Přesunuli položky (celkem %1$d) do:</item>
+        <item quantity="other">Přesunuli položky (celkem %d) do:</item>
         <item quantity="one">Přesunuli položku do:</item>
     </plurals>
     <plurals name="recent_activity_type_moved_extra_one_user">
-        <item quantity="other">Přesunul(a) položky (celkem %1$d) do:</item>
+        <item quantity="other">Přesunul(a) položky (celkem %d) do:</item>
         <item quantity="one">Přesunul(a) položku do:</item>
     </plurals>
     <plurals name="recent_activity_type_moved_many_users">
-        <item quantity="other">Přesunuli položky (celkem %1$d)</item>
+        <item quantity="other">Přesunuli položky (celkem %d)</item>
         <item quantity="one">Přesunuli položku</item>
     </plurals>
     <plurals name="recent_activity_type_moved_one_user">
-        <item quantity="other">Přesunul(a) položky (celkem %1$d)</item>
+        <item quantity="other">Přesunul(a) položky (celkem %d)</item>
         <item quantity="one">Přesunul(a) položku</item>
     </plurals>
     <plurals name="recent_activity_type_moved_this_file">
@@ -288,19 +256,19 @@
         <item quantity="other">Přejmenovali tuto složku</item>
     </plurals>
     <plurals name="recent_activity_type_shared_extra_many_users">
-        <item quantity="other">Sdíleli položky (celkem %1$d) s:</item>
+        <item quantity="other">Sdíleli položky (celkem %d) s:</item>
         <item quantity="one">Sdíleli položku s:</item>
     </plurals>
     <plurals name="recent_activity_type_shared_extra_one_user">
-        <item quantity="other">Sdílel(a) položky (celkem %1$d) s:</item>
+        <item quantity="other">Sdílel(a) položky (celkem %d) s:</item>
         <item quantity="one">Sdílel(a) položku s:</item>
     </plurals>
     <plurals name="recent_activity_type_shared_many_users">
-        <item quantity="other">Sdíleli položky (celkem %1$d)</item>
+        <item quantity="other">Sdíleli položky (celkem %d)</item>
         <item quantity="one">Sdíleli položku</item>
     </plurals>
     <plurals name="recent_activity_type_shared_one_user">
-        <item quantity="other">Sdílel(a) položky (celkem %1$d)</item>
+        <item quantity="other">Sdílel(a) položky (celkem %d)</item>
         <item quantity="one">Sdílel(a) položku</item>
     </plurals>
     <plurals name="recent_activity_type_shared_this_file">
@@ -316,11 +284,11 @@
         <item quantity="other">Sdíleli tuto složku s:</item>
     </plurals>
     <plurals name="recent_activity_type_trashed_many_users">
-        <item quantity="other">Přesunuli položky do koše (celkem %1$d)</item>
+        <item quantity="other">Přesunuli položky do koše (celkem %d)</item>
         <item quantity="one">Přesunuli položku do koše</item>
     </plurals>
     <plurals name="recent_activity_type_trashed_one_user">
-        <item quantity="other">Přesunul(a) položky do koše (celkem %1$d)</item>
+        <item quantity="other">Přesunul(a) položky do koše (celkem %d)</item>
         <item quantity="one">Přesunul(a) položku do koše</item>
     </plurals>
     <plurals name="recent_activity_type_trashed_this_file">
@@ -330,11 +298,11 @@
         <item quantity="other">Odstranili tuto složku</item>
     </plurals>
     <plurals name="recent_activity_type_unshared_many_users">
-        <item quantity="other">Omezili přístup k položkám (celkem %1$d)</item>
+        <item quantity="other">Omezili přístup k položkám (celkem %d)</item>
         <item quantity="one">Omezili přístup k 1 položce</item>
     </plurals>
     <plurals name="recent_activity_type_unshared_one_user">
-        <item quantity="other">Omezil(a) přístup k položkám (celkem %1$d)</item>
+        <item quantity="other">Omezil(a) přístup k položkám (celkem %d)</item>
         <item quantity="one">Omezil(a) přístup k 1 položce</item>
     </plurals>
     <plurals name="recent_activity_type_unshared_this_file">
@@ -344,11 +312,11 @@
         <item quantity="other">Omezili přístup k této složce</item>
     </plurals>
     <plurals name="recent_activity_type_uploaded_many_users">
-        <item quantity="other">Nahráli položky (celkem %1$d)</item>
+        <item quantity="other">Nahráli položky (celkem %d)</item>
         <item quantity="one">Nahráli položku</item>
     </plurals>
     <plurals name="recent_activity_type_uploaded_one_user">
-        <item quantity="other">Nahrál(a) položky (celkem %1$d)</item>
+        <item quantity="other">Nahrál(a) položky (celkem %d)</item>
         <item quantity="one">Nahrál(a) položku</item>
     </plurals>
     <plurals name="recent_activity_type_uploaded_this_file">
@@ -360,17 +328,9 @@
     <plurals name="recent_activity_users_more">
         <item quantity="other">%1$s a další (%2$d)</item>
     </plurals>
-    <plurals name="remove_dialog_delete_for_everyone_files_text">
-        <item quantity="other">Soubory (celkem %1$d) budou přesunuty do koše týmového disku %2$s a po 30 dnech trvale smazány.</item>
-        <item quantity="one">Soubor bude přesunut do koše týmového disku %2$s a po 30 dnech trvale smazán.</item>
-    </plurals>
-    <plurals name="remove_dialog_delete_for_everyone_folders_text">
-        <item quantity="other">Složky (celkem %1$d) budou přesunuty do koše týmové disku %2$s a po 30 dnech trvale smazány.</item>
-        <item quantity="one">Složka bude přesunuta do koše týmového disku %2$s a po 30 dnech trvale smazána.</item>
-    </plurals>
-    <plurals name="remove_dialog_delete_for_everyone_items_text">
-        <item quantity="other">Položky (celkem %1$d) budou přesunuty do koše týmového disku %2$s a po 30 dnech trvale smazány.</item>
-        <item quantity="one">Položka bude přesunuta do koše týmového disku %2$s a po 30 dnech trvale smazána.</item>
+    <plurals name="remove_dialog_delete_permanently_text_multiple">
+        <item quantity="other">Opravdu chcete provést trvalé smazání %d položek? Tuto akci nelze vrátit zpět.</item>
+        <item quantity="one">Opravdu chcete jednu položku trvale smazat? Tuto akci nelze vrátit zpět.</item>
     </plurals>
     <plurals name="selection_floating_handle_count">
         <item quantity="other">Položek: %1$d</item>
@@ -384,71 +344,60 @@
         <item quantity="other">Zrušen výběr %1$d položek</item>
         <item quantity="one">Zrušen výběr %1$d položky</item>
     </plurals>
-    <plurals name="selection_message_pin_num_items">
-        <item quantity="other">Položky (%d) budou přístupné offline</item>
-        <item quantity="one">1 položka bude přístupná offline</item>
-    </plurals>
     <plurals name="selection_message_star_num_items">
-        <item quantity="other">Položky (%1$d) byly označeny hvězdičkou</item>
+        <item quantity="other">Položky (%d) byly označeny hvězdičkou</item>
         <item quantity="one">Položka byla označena hvězdičkou</item>
     </plurals>
     <plurals name="selection_message_unpin_num_items">
-        <item quantity="other">Položky (%1$d) nebudou dostupné offline</item>
-        <item quantity="one">1 položka nebude dostupná offline</item>
+        <item quantity="other">Položky (%d) odebrány ze zařízení</item>
+        <item quantity="one">Položka byla odebrána ze zařízení</item>
     </plurals>
     <plurals name="selection_message_unstar_num_items">
-        <item quantity="other">Označení %1$d položek hvězdičk. zrušeno</item>
+        <item quantity="other">Označení %d položek hvězdičk. zrušeno</item>
         <item quantity="one">Označení položky hvězdičkou zrušeno</item>
     </plurals>
     <plurals name="selection_message_untrash_num_items">
-        <item quantity="other">Obnovené položky: %1$d</item>
+        <item quantity="other">Obnovené položky: %d</item>
         <item quantity="one">1 obnovená položka</item>
     </plurals>
-    <plurals name="selection_undo_complete_message_remove_num_items">
-        <item quantity="other">Počet obnovených položek: %1$d</item>
-        <item quantity="one">1 obnovená položka</item>
-    </plurals>
-    <plurals name="selection_undo_complete_num_items_add_trashed_message">
-        <item quantity="other">Počet odstraněných položek: %1$d</item>
-        <item quantity="one">1 položka odstraněna</item>
-    </plurals>
-    <plurals name="selection_undo_complete_num_items_move_message">
-        <item quantity="other">Počet položek přesunutých zpět: %1$d</item>
-        <item quantity="one">1 položka přesunuta zpět</item>
-    </plurals>
-    <plurals name="selection_undo_complete_num_items_move_trashed_message">
-        <item quantity="other">Počet položek přesunutých zpět do koše: %1$d</item>
-        <item quantity="one">1 položka přesunuta zpět do koše</item>
-    </plurals>
-    <plurals name="selection_undo_complete_num_items_restore_trashed_message">
-        <item quantity="other">Počet položek vrácených do koše: %1$d</item>
-        <item quantity="one">1 položka vrácena do koše</item>
-    </plurals>
     <plurals name="selection_undo_message_remove_num_items">
-        <item quantity="other">Položky (celkem %1$d) byly odstraněny</item>
+        <item quantity="other">Položky (celkem %d) byly odstraněny</item>
         <item quantity="one">1 položka byla odstraněna</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_add_message">
+        <item quantity="other">Do složky %2$s bylo přidáno několik položek (celkem %1$d)</item>
+        <item quantity="one">Do složky %2$s byla přidána 1 položka</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_add_trashed_message">
+        <item quantity="other">Položky (%1$d) obnoveny a přidány do složky %2$s</item>
+        <item quantity="one">1 položka obnovena a přidána do složky %2$s</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_move_message">
+        <item quantity="other">Položka (celkem %1$d) přesunuty do složky %2$s</item>
+        <item quantity="one">1 položka přesunuta do složky %2$s</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_move_trashed_message">
+        <item quantity="other">Položky (%1$d) obnoveny a přesunuty do složky %2$s</item>
+        <item quantity="one">1 položka obnovena a přesunuta do složky %2$s</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_restore_trashed_message">
+        <item quantity="other">Provedeno obnovení %1$d položek do složky %2$s</item>
+        <item quantity="one">1 položka obnovena do složky %2$s</item>
     </plurals>
     <plurals name="send_files">
         <item quantity="other">Odeslat soubory pomocí</item>
         <item quantity="one">Odeslat soubor pomocí</item>
     </plurals>
     <plurals name="sharing_message_add_users_more">
-        <item quantity="other">Položka %1$s byla sdílena s uživatelem %2$s a %3$d dalšími</item>
-    </plurals>
-    <plurals name="td_sharing_message_add_users_more">
-        <item quantity="other">Na disk %1$s byl přidán uživatel %2$s a další uživatelé (%3$d)</item>
-    </plurals>
-    <plurals name="teamdrive_acl_info_summary">
-        <item quantity="other">Počet členů: %d</item>
-        <item quantity="zero">Žádní členové</item>
-        <item quantity="one">1 člen</item>
-    </plurals>
-    <plurals name="teamdrive_plus_others_text">
-        <item quantity="other">+%d</item>
+        <item quantity="other">Položka %1$s byla sdílena s uživatelem %2$s a %3$d dalšími</item>
     </plurals>
     <plurals name="transfer_notification_waiting_resume">
         <item quantity="other">Pokračovat ve všech</item>
         <item quantity="one">Pokračovat</item>
+    </plurals>
+    <plurals name="transfer_notification_waiting_ticker">
+        <item quantity="other">Nahrávání byla pozastavena, čeká se na Wi-Fi.</item>
+        <item quantity="one">Nahrávání bylo pozastaveno, čeká se na Wi-Fi.</item>
     </plurals>
     <plurals name="upload_notification_prepare_upload_canceled">
         <item quantity="other">Zrušeno plánované nahrání %1$d souborů.</item>
@@ -469,10 +418,6 @@
     <plurals name="upload_notification_sync_progress">
         <item quantity="other">Nahrávají se soubory (%1$d).</item>
         <item quantity="one">Nahrává se %1$d soubor.</item>
-    </plurals>
-    <plurals name="upload_notification_waiting_ticker">
-        <item quantity="other">Nahrávání byla pozastavena, čeká se na Wi-Fi.</item>
-        <item quantity="one">Nahrávání bylo pozastaveno, čeká se na Wi-Fi.</item>
     </plurals>
     <plurals name="upload_notification_waiting_title">
         <item quantity="other">Nahrávání (celkem %1$d) byla pozastavena.</item>

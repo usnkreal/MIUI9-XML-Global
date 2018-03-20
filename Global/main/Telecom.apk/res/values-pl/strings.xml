@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="telecommAppLabel">Zarządzaj połączeniami</string>
-    <string name="userCallActivityLabel">Telefon</string>
+    <string name="telecommAppLabel">Telefon</string>
     <string name="unknown">Nieznany</string>
     <string name="notification_missedCallTitle">Nieodebrane połączenie</string>
     <string name="notification_missedCallsTitle">Nieodebrane połączenia</string>
@@ -19,19 +18,13 @@
     <string name="respond_via_sms_setting_title_2">Edytuj szybkie odpowiedzi</string>
     <string name="respond_via_sms_setting_summary" />
     <string name="respond_via_sms_edittext_dialog_title">Szybka odpowiedź</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Resetuj domyślną aplikację</string>
     <string name="respond_via_sms_confirmation_format">Wiadomość wysłano na numer %s.</string>
-    <string name="enable_account_preference_title">Konta telefonu</string>
-    <string name="outgoing_call_not_allowed_user_restriction">Dozwolone są tylko połączenia alarmowe.</string>
-    <string name="outgoing_call_not_allowed_no_permission">Ta aplikacja nie może wykonywać połączeń wychodzących bez wymaganych uprawnień.</string>
+    <string name="outgoing_call_not_allowed">Ten użytkownik nie ma uprawnień do połączeń innych niż alarmowe</string>
     <string name="outgoing_call_error_no_phone_number_supplied">Aby nawiązać połączenie, należy wprowadzić prawidłowy numer.</string>
-    <string name="duplicate_video_call_not_allowed">Nie można dodać więcej połączeń</string>
-    <string name="video_call_not_allowed_if_tty_enabled">Wyłącz tryb TTY, by korzystać z rozmów wideo.</string>
     <string name="no_vm_number">Brakuje numeru poczty głosowej</string>
     <string name="no_vm_number_msg">Na karcie SIM nie ma zapisanego numeru poczty głosowej.</string>
     <string name="add_vm_number_str">Dodaj numer</string>
-    <string name="change_default_dialer_dialog_title">Ustawić %s jako domyślną aplikację telefoniczną?</string>
-    <string name="change_default_dialer_with_previous_app_set_text">Zmienić %2$s na %1$s jako domyślną aplikację telefonu?</string>
-    <string name="change_default_dialer_no_previous_app_set_text">Ustawić %s jako domyślną aplikację telefonu?</string>
     <string name="test_account_0_label">Q Mobile</string>
     <string name="test_account_1_label">Market Wireless</string>
     <string name="test_account_2_label">Sonoma Circles Talk Plus</string>
@@ -41,21 +34,29 @@
     <string name="test_account_2_short_description">Talk to everyone in your Circles!</string>
     <string name="test_account_3_short_description">Chat with Chat Network users</string>
     <string name="handle_restricted">RESTRICTED</string>
+    <string name="headset_plugin_view_text">Zestaw słuchawkowy jest podłączony.</string>
+    <string name="headset_plugin_view_title">Zestaw słuchawkowy</string>
     <string name="voice_report_incoming_call">Połączenie przychodzące</string>
     <string name="voice_report_unknown_num">Nieznany numer</string>
     <string name="incall_error_call_failed">Połączenie nie zostało zrealizowane.</string>
-    <string name="notification_missedCall_call_back_miui">Połącz</string>
     <string name="dial_vt_fail_prompt">Obecna sieć nie obsługuje VoLTE. Przełączyć na zwykłe połączenie?</string>
     <string name="dial_conference_fail_prompt">Nie można wybrać konferencji bezpośredniej, ponieważ obecna sieć nie obsługuje VoLTE.</string>
     <string name="can_not_dial_while_vt_prompt">Nie można wybrać podczas przetwarzania rozmowy video</string>
     <string name="can_not_dial_vt_while_voice_prompt">Nie można wykonać połączenia wideo gdy trwa połączenie głosowe</string>
     <string name="voice_dial_out">Rozmowa głosowa</string>
+    <string name="notification_missedCall_call_back_miui">Połącz</string>
     <string name="notification_AllMissedCallTitle">Wszystkie nieodebrane połączenia</string>
     <string name="close">Zamknij</string>
     <string name="callFailed_simError">Błąd karty SIM</string>
     <string name="incall_error_supp_service_unknown">Usługa nie jest obsługiwana.</string>
     <string name="incall_error_power_off">Wyłącz tryb samolotowy, aby nawiązać połączenie.</string>
+    <string name="userCallActivityLabel">Telefon</string>
     <string name="notification_missedWorkCallTitle">Nieodebrane połączenie</string>
+    <string name="enable_account_preference_title">Konta telefonu</string>
+    <string name="outgoing_call_not_allowed_user_restriction">Dozwolone są tylko połączenia alarmowe.</string>
+    <string name="outgoing_call_not_allowed_no_permission">Ta aplikacja nie może wykonywać połączeń wychodzących bez wymaganych uprawnień.</string>
+    <string name="duplicate_video_call_not_allowed">Nie można dodać więcej połączeń</string>
+    <string name="change_default_dialer_dialog_title">Ustawić %s jako domyślną aplikację telefoniczną?</string>
     <string name="change_default_dialer_dialog_affirmative">Ustaw jako domyślną aplikację telefoniczną</string>
     <string name="change_default_dialer_dialog_negative">Anuluj</string>
     <string name="change_default_dialer_warning_message">Aplikacja %s będzie mogła rozpoczynać i kontrolować połączenia. Tylko aplikacje, którym ufasz, mogą być ustawione jako domyślna aplikacja telefoniczna.</string>
@@ -78,6 +79,4 @@
     <string name="blocked_numbers_number_already_blocked_message">%1$s jest już zablokowany.</string>
     <string name="toast_personal_call_msg">Użyj aplikacji telefonicznej użytkownika</string>
     <string name="toast_make_video_call_failed">Nie moNa wykonać połączenia wideo. Wprowadzony numer jest nieprawidłowy.</string>
-    <string name="headset_plugin_view_text">Zestaw słuchawkowy jest podłączony.</string>
-    <string name="headset_plugin_view_title">Zestaw słuchawkowy</string>
 </resources>

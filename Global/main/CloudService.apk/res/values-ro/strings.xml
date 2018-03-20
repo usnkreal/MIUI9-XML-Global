@@ -173,8 +173,7 @@ Dacă schimbați cartela SIM, un alt SMS va fi trimis automat pentru a reactiva 
     <string name="micloud_user_space_usage">Spațiu de stocare</string>
     <string name="micloud_web_discription_01">Conectați-vă la i.mi.com</string>
     <string name="micloud_web_discription_02">pentru a stoca și accesa fișierele de oriunde</string>
-    <string name="micloud_web_discription">Vizitați i.mi.com</string>
-    <string name="micloud_web_discription_international">Vizitați www.mi.com/micloud</string>
+    <string name="micloud_web_discription_place_holder">Vizită %1$s</string>
     <string name="micloud_full_influence_title">Când spațiul tău Mi Cloud este plin…</string>
     <string name="micloud_warn_low_title">Aproape ați ajuns la limita de spațiu</string>
     <string name="micloud_warn_low_sum">Spațiul dvs. de stocare Mi Cloud este 90% plin.</string>
@@ -302,16 +301,16 @@ Utilizați un alt cont."</string>
     <string name="micloud_detail_pause">Sincronizare întreruptă</string>
     <string name="micloud_detail_need_charge_or_sleep">Conectaţi încărcătorul și opriți ecranul pentru a relua sincronizarea</string>
     <string name="micloud_detail_battery_low">Bateria este aproape descărcată</string>
-    <string name="micloud_privacy_cloud_off">Sync is off</string>
-    <string name="micloud_privacy_licence_agreed">Agree to Mi Cloud Privacy Policy.</string>
-    <string name="micloud_privacy_licence_privacy_policy">Privacy Policy</string>
-    <string name="micloud_privacy_explanation">Grant authorization to turn on Mi Cloud services</string>
-    <string name="micloud_privacy_cloud_sync">Turn on Mi Cloud services</string>
-    <string name="micloud_privacy_warning_title">Attention</string>
-    <string name="micloud_privacy_warning_content">"Can't turn on Mi Cloud services. Wait a minute or two and try again."</string>
+    <string name="micloud_privacy_cloud_off">Sincronizarea este oprită</string>
+    <string name="micloud_privacy_licence_agreed">Sunt de acord cu politica de confidențialitate Mi Cloud.</string>
+    <string name="micloud_privacy_licence_privacy_policy">Politica de confidențialitate</string>
+    <string name="micloud_privacy_explanation">Acordați autorizație pentru a activa serviciile Mi Cloud</string>
+    <string name="micloud_privacy_cloud_sync">Activează serviciile Mi Cloud</string>
+    <string name="micloud_privacy_warning_title">Atenţie</string>
+    <string name="micloud_privacy_warning_content">Nu puteți activa serviciile Mi Cloud. Așteptați un minut sau două și încercați din nou.</string>
     <string name="micloud_privacy_warning_button">Înapoi</string>
-    <string name="micloud_privacy_progress_content">Granting authorization…</string>
-    <string name="micloud_privacy_more">More</string>
+    <string name="micloud_privacy_progress_content">Se obține autorizație…</string>
+    <string name="micloud_privacy_more">Mai mult</string>
     <string name="micloud_check_sim_title">"Se pare că ți-ai schimbat cartele SIM.
 Conectați-vă la contul dvs. Mi pentru a reactiva Mi Cloud."</string>
     <string name="micloud_check_sim_notify_title">Reactivarea Mi Cloud</string>
@@ -472,7 +471,7 @@ Ultima salvare pe %2$s"</string>
     <string name="micloud_notif_content_multi_user_error">V-ați conectat cu același cont ca și în Primul spațiu.</string>
     <string name="micloud_notif_title_dirty_data">Ai elementele nesincronizate</string>
     <string name="micloud_notif_content_dirty_data">Detalii</string>
-    <string name="micloud_notif_title_privacy_reopen_failed">"Couldn't turn on Mi Cloud services"</string>
+    <string name="micloud_notif_title_privacy_reopen_failed">Nu s-au putut activa serviciile Mi Cloud</string>
     <string name="micloud_notif_content_privacy_reopen_failed">Vezi detalii</string>
     <string name="micloud_find_device_guide_title">Conectați-vă la &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font> pentru a localiza, a bloca sau a șterge dispozitivul. Acest lucru vă poate ajuta să găsiți dispozitivul în cazul în care acesta este pierdut.&lt;br />Dacă vă pierdeți dispozitivul, puteți contacta serviciul de securitate al aplicațiilor pe care le utilizați frecvent (de exemplu, Alipay, WeChat, QQ) pentru a vă proteja conturile pe &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font>.</string>
     <string name="micloud_find_device_guide_content">Un mesaj SMS poate fi necesar pentru a activa acest serviciu. Operatorul dumneavoastră vă va factura pentru acest mesaj. Când comutaţi cartela SIM, un mesaj va fi trimis automat pentru a reactiva această caracteristică.</string>
@@ -512,8 +511,8 @@ Ultima salvare pe %2$s"</string>
     <string name="micloud_find_device_close_alert_content">Dacă dezactivați această funcție, nu veți putea localiza dispozitivul în cazul în care acesta este pierdut.</string>
     <string name="micloud_find_device_close_alert_positive">Continuă</string>
     <string name="micloud_find_device_close_alert_negtive">Opreşte oricum</string>
-    <string name="find_device_gdpr_prompt">By turning on Find device, you agree to our Privacy Policy. If you need to revoke authorization, turn this feature off.</string>
-    <string name="find_device_gdpr_prompt_policy_doc_name">Privacy Policy</string>
+    <string name="find_device_gdpr_prompt">Dacă activați Găsiți dispozitiv, sunteți de acord cu Politica noastră de confidențialitate. Dacă trebuie să revocați autorizarea, dezactivați această caracteristică.</string>
+    <string name="find_device_gdpr_prompt_policy_doc_name">Politica de confidențialitate</string>
     <string name="activate_finddevice">Conectați-vă la rețea pentru a activa dispozitivul</string>
     <string name="account_related">Dispozitivul este asociat cu un cont Mi existent (%s). Conectați-vă la rețea pentru a verifica dispozitivul.</string>
     <string name="connect_network">Conectați-vă la Wi-Fi sau introduceți un card SIM</string>

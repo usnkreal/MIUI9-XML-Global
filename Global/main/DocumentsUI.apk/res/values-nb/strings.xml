@@ -13,16 +13,14 @@
     <string name="menu_save">Lagre</string>
     <string name="menu_share">Del</string>
     <string name="menu_delete">Slett</string>
-    <string name="menu_select_all">Markér alt</string>
-    <string name="menu_copy">Kopiér til …</string>
-    <string name="menu_advanced_show">Vis SD-kortet</string>
-    <string name="menu_advanced_hide">Skjul SD-kortet</string>
+    <string name="menu_select">Velg «^1»</string>
+    <string name="menu_advanced_show">Vis den interne lagringen</string>
+    <string name="menu_advanced_hide">Skjul den interne lagringen</string>
     <string name="menu_file_size_show">Vis filstørrelsen</string>
     <string name="menu_file_size_hide">Skjul filstørrelsen</string>
-    <string name="button_select">Velg</string>
-    <string name="button_copy">Kopiér</string>
+    <string name="mode_selected_count">%1$d valgt</string>
     <string name="sort_name">Etter navn</string>
-    <string name="sort_date">Etter endringsdato</string>
+    <string name="sort_date">«Etter dato» endret</string>
     <string name="sort_size">Etter størrelse</string>
     <string name="drawer_open">Vis røtter</string>
     <string name="drawer_close">Skjul røtter</string>
@@ -30,7 +28,7 @@
     <string name="create_error">Kunne ikke opprette mappen</string>
     <string name="query_error">Kunne ikke undersøke dokumenter</string>
     <string name="root_recent">Siste</string>
-    <string name="root_available_bytes">%1$s ledig</string>
+    <string name="root_available_bytes">%1$s gratis</string>
     <string name="root_type_service">Lagringstjenester</string>
     <string name="root_type_shortcut">Snarveier</string>
     <string name="root_type_device">Enheter</string>
@@ -39,10 +37,4 @@
     <string name="toast_no_application">Kan ikke åpne filen</string>
     <string name="toast_failed_delete">Enkelte dokumenter kunne ikke slettes</string>
     <string name="share_via">Del via</string>
-    <string name="copy_notification_title">Kopierer filer</string>
-    <string name="copy_remaining">%s gjenstår</string>
-    <string name="copy_preparing">Forbereder kopiering …</string>
-    <string name="notification_touch_for_details">Trykk for å se detaljer</string>
-    <string name="retry">Prøv på nytt</string>
-    <string name="copy_failure_alert_content">Disse filene ble ikke kopiert: %1$s</string>
 </resources>

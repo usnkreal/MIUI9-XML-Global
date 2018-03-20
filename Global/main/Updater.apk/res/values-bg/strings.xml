@@ -199,6 +199,9 @@
     <string name="confirm_local_package_wipe_title">Изтриване на данните?</string>
     <string name="confirm_local_package_wipe_msg">Your personal data will be erased. Make sure you back up all important items before you start the process.</string>
     <string name="confirm_local_package_wipe_btn">Изтрий и актуализирай</string>
+    <string name="file_path_error_title">Грешен път</string>
+    <string name="file_path_error_msg">Бъдете сигурни, че посоченият път за актуализация на пакета съдържа само букви и цифри.</string>
+    <string name="file_path_error_btn">Разбрах</string>
     <string name="delay_update_text">Актуализирай тази вечер</string>
     <string name="dialog_delay_update_title">Налично е обновление</string>
     <string name="dialog_delay_update_msg">Актуализациите ще бъдат инсталирани между 02:00ч и 05:00ч, ако батерията е пълна над 30%.</string>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="telecommAppLabel">Správce hovorů</string>
-    <string name="userCallActivityLabel">Telefon</string>
+    <string name="telecommAppLabel">Telefon</string>
     <string name="unknown">Neznámý</string>
     <string name="notification_missedCallTitle">Zmeškaný hovor</string>
     <string name="notification_missedCallsTitle">Zmeškané hovory</string>
@@ -19,19 +18,13 @@
     <string name="respond_via_sms_setting_title_2">Upravit Rychlé odpovědi</string>
     <string name="respond_via_sms_setting_summary" />
     <string name="respond_via_sms_edittext_dialog_title">Rychlá odpověď</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Resetovat výchozí aplikaci</string>
     <string name="respond_via_sms_confirmation_format">Zpráva byla odeslána na číslo %s.</string>
-    <string name="enable_account_preference_title">Telefonní účty</string>
-    <string name="outgoing_call_not_allowed_user_restriction">Povolena pouze tísňová volání.</string>
-    <string name="outgoing_call_not_allowed_no_permission">Tato aplikace nemůže uskutečnit odchozí hovory bez povolení.</string>
+    <string name="outgoing_call_not_allowed">Uživatel smí uskutečňovat pouze tísňová volání.</string>
     <string name="outgoing_call_error_no_phone_number_supplied">Pro spojení hovoru zadejte platné telefonní číslo.</string>
-    <string name="duplicate_video_call_not_allowed">Nelze přidat více hovorů</string>
-    <string name="video_call_not_allowed_if_tty_enabled">Chcete-li vést videohovory, vypněte režim TTY.</string>
     <string name="no_vm_number">Chybí číslo hlasové schránky</string>
     <string name="no_vm_number_msg">Na SIM kartě není uloženo žádné číslo hlasové schránky.</string>
     <string name="add_vm_number_str">Přidat číslo</string>
-    <string name="change_default_dialer_dialog_title">Použít %s jako výchozí aplikaci pro telefonování?</string>
-    <string name="change_default_dialer_with_previous_app_set_text">Chcete aplikaci %1$s použít jako výchozí aplikaci vytáčení místo aplikace %2$s?</string>
-    <string name="change_default_dialer_no_previous_app_set_text">Chcete aplikaci %s použít jako výchozí aplikaci vytáčení?</string>
     <string name="test_account_0_label">Q Mobile</string>
     <string name="test_account_1_label">Market Wireless</string>
     <string name="test_account_2_label">Sonoma Circles Talk Plus</string>
@@ -41,21 +34,29 @@
     <string name="test_account_2_short_description">Talk to everyone in your Circles!</string>
     <string name="test_account_3_short_description">Chat with Chat Network users</string>
     <string name="handle_restricted">RESTRICTED</string>
+    <string name="headset_plugin_view_text">Sluchátka připojena.</string>
+    <string name="headset_plugin_view_title">Sluchátka</string>
     <string name="voice_report_incoming_call">Příchozí hovor</string>
     <string name="voice_report_unknown_num">Neznámé číslo</string>
     <string name="incall_error_call_failed">Hovor nebyl spojen.</string>
-    <string name="notification_missedCall_call_back_miui">Hovor</string>
     <string name="dial_vt_fail_prompt">Současná síť nepodporuje VoLTE. Přepnout na běžný hlasový hovor?</string>
     <string name="dial_conference_fail_prompt">Nelze uskutečnit konferenční hovor přímo, protože stávající síť nepodporuje VoLTE.</string>
     <string name="can_not_dial_while_vt_prompt">Během videohovoru nelze vytočit číslo</string>
     <string name="can_not_dial_vt_while_voice_prompt">Během hlasového hovoru nelze uskutečnit videohovor</string>
     <string name="voice_dial_out">Hlasový hovor</string>
+    <string name="notification_missedCall_call_back_miui">Hovor</string>
     <string name="notification_AllMissedCallTitle">Všechny zmeškané hovory</string>
     <string name="close">Zavřít</string>
     <string name="callFailed_simError">Chyba SIM karty</string>
     <string name="incall_error_supp_service_unknown">Tato služba není podporována.</string>
     <string name="incall_error_power_off">Pro uskutečnění hovoru nejprve vypněte režim Letadlo.</string>
+    <string name="userCallActivityLabel">Telefon</string>
     <string name="notification_missedWorkCallTitle">Zmeškaný pracovní hovor</string>
+    <string name="enable_account_preference_title">Telefonní účty</string>
+    <string name="outgoing_call_not_allowed_user_restriction">Povolena pouze tísňová volání.</string>
+    <string name="outgoing_call_not_allowed_no_permission">Tato aplikace nemůže uskutečnit odchozí hovory bez povolení.</string>
+    <string name="duplicate_video_call_not_allowed">Nelze přidat více hovorů</string>
+    <string name="change_default_dialer_dialog_title">Použít %s jako výchozí aplikaci pro telefonování?</string>
     <string name="change_default_dialer_dialog_affirmative">Použít jako výchozí aplikaci pro telefonování</string>
     <string name="change_default_dialer_dialog_negative">Zrušit</string>
     <string name="change_default_dialer_warning_message">Aplikace %s bude schopna uskutečňovat a kontrolovat vaše hovory. Jako výchozí aplikaci pro telefonování byste měli zvolit pouze důvěryhodné aplikace.</string>
@@ -78,6 +79,4 @@
     <string name="blocked_numbers_number_already_blocked_message">%1$s je již zablokováno.</string>
     <string name="toast_personal_call_msg">Použít vlastní vytáčení</string>
     <string name="toast_make_video_call_failed">Videohovor nelze uskutečnit. Zadané číslo není správné.</string>
-    <string name="headset_plugin_view_text">Sluchátka připojena.</string>
-    <string name="headset_plugin_view_title">Sluchátka</string>
 </resources>

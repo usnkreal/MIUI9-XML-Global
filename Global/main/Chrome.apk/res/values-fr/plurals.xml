@@ -12,20 +12,4 @@
         <item quantity="other">Il y a %d jours</item>
         <item quantity="one">Il y a %d jour</item>
     </plurals>
-    <plurals name="accessibility_toolbar_btn_tabswitcher_toggle">
-        <item quantity="other">%1$d onglets ouverts</item>
-        <item quantity="one">%1$d onglet ouvert</item>
-    </plurals>
-    <plurals name="accessibility_selected_items">
-        <item quantity="other">%d éléments sélectionnés</item>
-        <item quantity="one">%d élément sélectionné</item>
-    </plurals>
-    <plurals name="accessibility_share_selected_items">
-        <item quantity="other">Partager %d éléments sélectionnés</item>
-        <item quantity="one">Partager %d élément sélectionné</item>
-    </plurals>
-    <plurals name="accessibility_remove_selected_items">
-        <item quantity="other">Supprimer %d éléments sélectionnés</item>
-        <item quantity="one">Supprimer %d élément sélectionné</item>
-    </plurals>
 </resources>

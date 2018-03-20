@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="telecommAppLabel">Administrer anrop</string>
-    <string name="userCallActivityLabel">Telefon</string>
+    <string name="telecommAppLabel">Telefon</string>
     <string name="unknown">Ukjent</string>
     <string name="notification_missedCallTitle">Tapt anrop</string>
     <string name="notification_missedCallsTitle">Tapt anrop</string>
@@ -19,19 +18,13 @@
     <string name="respond_via_sms_setting_title_2">Rediger raske svar</string>
     <string name="respond_via_sms_setting_summary" />
     <string name="respond_via_sms_edittext_dialog_title">Hurtigsvar</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Tilbakestill standardappen</string>
     <string name="respond_via_sms_confirmation_format">Melding sendt til %s.</string>
-    <string name="enable_account_preference_title">Ringekontoer</string>
-    <string name="outgoing_call_not_allowed_user_restriction">Bare nødanrop er tillatt.</string>
-    <string name="outgoing_call_not_allowed_no_permission">Denne appen kan ikke foreta utgående anrop uten de nødvendige tillatelsene.</string>
+    <string name="outgoing_call_not_allowed">Denne brukeren har bare tillatelse til å ringe nødnumre</string>
     <string name="outgoing_call_error_no_phone_number_supplied">For å ringe, tast inn et gyldig nummer.</string>
-    <string name="duplicate_video_call_not_allowed">Kan ikke legge til flere anrop.</string>
-    <string name="video_call_not_allowed_if_tty_enabled">Slå av TTY-modus for å starte videosamtaler.</string>
     <string name="no_vm_number">Talepostnummer mangler</string>
     <string name="no_vm_number_msg">Ikke noe talepostnummer lagret på SIM-kortet.</string>
     <string name="add_vm_number_str">Legg til nummer</string>
-    <string name="change_default_dialer_dialog_title">Gjør %s til din standard telefon-app?</string>
-    <string name="change_default_dialer_with_previous_app_set_text">Vil du bruke %1$s i stedet for %2$s som standard telefonapp?</string>
-    <string name="change_default_dialer_no_previous_app_set_text">Vil du bruke %s som standard telefonapp?</string>
     <string name="test_account_0_label">Q Mobile</string>
     <string name="test_account_1_label">Market Wireless</string>
     <string name="test_account_2_label">Sonoma Circles Talk Plus</string>
@@ -41,21 +34,29 @@
     <string name="test_account_2_short_description">Talk to everyone in your Circles!</string>
     <string name="test_account_3_short_description">Chat with Chat Network users</string>
     <string name="handle_restricted">RESTRICTED</string>
+    <string name="headset_plugin_view_text">Hodesettet er plugget inn.</string>
+    <string name="headset_plugin_view_title">Hodesett</string>
     <string name="voice_report_incoming_call">Innkommende anrop</string>
     <string name="voice_report_unknown_num">Ukjent nummer</string>
     <string name="incall_error_call_failed">Kunne ikke foreta anrop.</string>
-    <string name="notification_missedCall_call_back_miui">Anrop</string>
     <string name="dial_vt_fail_prompt">Nåværende nettverk støtter ikke VoLTE. Bytt til vanlig taleanrop?</string>
     <string name="dial_conference_fail_prompt">Kan ikke ringe konferanse direkte fordi det nåværende nettverket ikke støtter VoLTE.</string>
     <string name="can_not_dial_while_vt_prompt">Kan ikke ringe mens et videoanrop pågår</string>
     <string name="can_not_dial_vt_while_voice_prompt">Kan ikke gjøre videoanrop mens taleanrop pågår</string>
     <string name="voice_dial_out">Taleanrop</string>
+    <string name="notification_missedCall_call_back_miui">Anrop</string>
     <string name="notification_AllMissedCallTitle">Alle tapte anrop</string>
     <string name="close">Lukk</string>
     <string name="callFailed_simError">SIM-kortfeil</string>
     <string name="incall_error_supp_service_unknown">Denne tjenesten støttes ikke.</string>
     <string name="incall_error_power_off">Slå av flymodus for å ringe.</string>
+    <string name="userCallActivityLabel">Telefon</string>
     <string name="notification_missedWorkCallTitle">Tapt jobbanrop</string>
+    <string name="enable_account_preference_title">Ringekontoer</string>
+    <string name="outgoing_call_not_allowed_user_restriction">Bare nødanrop er tillatt.</string>
+    <string name="outgoing_call_not_allowed_no_permission">Denne appen kan ikke foreta utgående anrop uten de nødvendige tillatelsene.</string>
+    <string name="duplicate_video_call_not_allowed">Kan ikke legge til flere anrop.</string>
+    <string name="change_default_dialer_dialog_title">Gjør %s til din standard telefon-app?</string>
     <string name="change_default_dialer_dialog_affirmative">Gjør til standard telefon-app</string>
     <string name="change_default_dialer_dialog_negative">Avbryt</string>
     <string name="change_default_dialer_warning_message">%s vil kunne foreta og kontrollere alle aspekter ved anrop. Kun apper du stoler på, bør angis som standard telefon-app.</string>
@@ -78,6 +79,4 @@
     <string name="blocked_numbers_number_already_blocked_message">%1$s is allerede blokkert.</string>
     <string name="toast_personal_call_msg">Bruk tilpasset oppringning</string>
     <string name="toast_make_video_call_failed">Kan ikke foreta videosamtaler. Nummeret du skrev inn er feil.</string>
-    <string name="headset_plugin_view_text">Hodesettet er plugget inn.</string>
-    <string name="headset_plugin_view_title">Hodesett</string>
 </resources>

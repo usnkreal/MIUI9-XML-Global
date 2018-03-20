@@ -8,7 +8,6 @@
     <string name="label_paper_size">Formatul hârtiei</string>
     <string name="label_paper_size_summary">Formatul hârtiei:</string>
     <string name="label_color">Culoare</string>
-    <string name="label_duplex">Față-verso</string>
     <string name="label_orientation">Orientare</string>
     <string name="label_pages">Pagini</string>
     <string name="template_all_pages">Toate cele %1$s</string>
@@ -55,4 +54,5 @@
     <string name="print_error_retry">Reîncercați</string>
     <string name="print_error_printer_unavailable">Această imprimantă nu este disponibilă momentan.</string>
     <string name="print_preparing_preview">Se pregătește previzualizarea...</string>
+    <string name="label_duplex">Față-verso</string>
 </resources>

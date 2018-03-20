@@ -151,4 +151,5 @@
     <string name="head_set_tip_dialog_msg">Rozłącz swoje słuchawki, aby móc nagrywać dźwięk wg ustawień (np. muzyka, głos).</string>
     <string name="head_set_tip_dialog_ok">Rozumiem</string>
     <string name="rename_fail_tip">Nie udało się zmienić nazwy. Plik o tej nazwie już istnieje.</string>
+    <string name="dialog_privacy_revoke_tips">Po unieważnieniu autoryzacji, aplikacja przestanie zbierać dane, a wszystkie zgromadzone dane zostaną usunięte z serwerów. Może to spowodować, że aplikacja stanie się wirtualnie nieprzydatna. Unieważnić autoryzację mimo to? Aby zachować bezpieczeństwo konta, zaloguj się na i.mi.com przed unieważnieniem autoryzacji dla usług Chmury Xiaomi.</string>
 </resources>

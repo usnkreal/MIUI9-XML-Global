@@ -73,8 +73,8 @@ Ha újra bekapcsolja a mobiladat-kapcsolatot, a szolgáltatója további díjaka
         <item quantity="one">%d alkalmazás megtalálva</item>
     </plurals>
     <plurals name="network_restrict_count">
-        <item quantity="other">"A hálózat elérése &lt;font color='#ff0000'>%d&lt;/font> alkalmazás részére korlátozva van"</item>
-        <item quantity="one">"A hálózat elérése &lt;font color='#ff0000'>%d&lt;/font> alkalmazás részére korlátozva van"</item>
+        <item quantity="other">"A hálózat elérése &amp;lt;font color='#ff0000'>%d&amp;lt;/font> alkalmazás részére korlátozva van"</item>
+        <item quantity="one">"A hálózat elérése &amp;lt;font color='#ff0000'>%d&amp;lt;/font> alkalmazás részére korlátozva van"</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
         <item quantity="other">%d alkalmazás nem működik rendesen és fogyasztja az akkumulátort</item>

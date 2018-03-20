@@ -24,34 +24,6 @@
         <item>Oznámení budou zobrazena v Oznamovací roletce</item>
         <item>Oznámení budou zobrazena v oddělené složce</item>
     </string-array>
-    <string-array name="wifi_status">
-        <item></item>
-        <item>Vyhledávání…</item>
-        <item>Připojování…</item>
-        <item>Ověřování…</item>
-        <item>Získávání IP adresy…</item>
-        <item>Připojeno</item>
-        <item>Pozastaveno</item>
-        <item>Odpojování…</item>
-        <item>Odpojeno</item>
-        <item>Neúspěšné</item>
-        <item>Blokováno</item>
-        <item>Dočasné vyhýbání se nekvalitnímu připojení</item>
-    </string-array>
-    <string-array name="wifi_status_with_ssid">
-        <item></item>
-        <item>Vyhledávání…</item>
-        <item>Připojování k %1$s…</item>
-        <item>Ověřování %1$s…</item>
-        <item>Získávání IP adresy z %1$s…</item>
-        <item>Připojeno k %1$s</item>
-        <item>Pozastaveno</item>
-        <item>Odpojování od %1$s…</item>
-        <item>Odpojeno</item>
-        <item>Neúspěšné</item>
-        <item>Blokováno</item>
-        <item>Dočasné vyhýbání se nekvalitnímu připojení</item>
-    </string-array>
     <string-array name="timezone_filters">
         <item>Amerika</item>
         <item>Evropa</item>
@@ -81,11 +53,11 @@
         <item>30 minut</item>
     </string-array>
     <string-array name="lock_after_timeout_entries">
-        <item>Okamžitě</item>
+        <item>okamžitě</item>
         <item>5 sekund</item>
         <item>15 sekund</item>
         <item>30 sekund</item>
-        <item>1 minutu</item>
+        <item>1 minuta</item>
         <item>2 minuty</item>
         <item>5 minut</item>
         <item>10 minut</item>
@@ -100,24 +72,13 @@
     <string-array name="tts_rate_entries">
         <item>Velmi pomalá</item>
         <item>Pomalá</item>
-        <item>Normální</item>
+        <item>Běžná</item>
         <item>Rychlá</item>
         <item>Rychlejší</item>
         <item>Velmi rychlá</item>
-        <item>Vysoce rychlá</item>
-        <item>Super rychlá</item>
+        <item>Svižná</item>
+        <item>Velmi svižná</item>
         <item>Nejrychlejší</item>
-    </string-array>
-    <string-array name="tts_rate_values">
-        <item>60</item>
-        <item>80</item>
-        <item>100</item>
-        <item>150</item>
-        <item>200</item>
-        <item>250</item>
-        <item>300</item>
-        <item>350</item>
-        <item>400</item>
     </string-array>
     <string-array name="tts_pitch_entries">
         <item>Velmi nízká</item>
@@ -126,16 +87,35 @@
         <item>Vysoká</item>
         <item>Velmi vysoká</item>
     </string-array>
-    <string-array name="wifi_eap_method">
-        <item>PEAP</item>
-        <item>TLS</item>
-        <item>TTLS</item>
-        <item>PWD</item>
-        <item>SIM</item>
-        <item>AKA</item>
-        <item>"AKA'"</item>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Vyhledávání...</item>
+        <item>Připojování...</item>
+        <item>Ověřování...</item>
+        <item>Načítání adresy IP…</item>
+        <item>Připojeno</item>
+        <item>Pozastaveno</item>
+        <item>Odpojování...</item>
+        <item>Odpojeno</item>
+        <item>Neúspěšné</item>
+        <item>Blokováno</item>
+        <item>Dočasné předcházení slabému připojení</item>
     </string-array>
-    <string-array name="eap_method_without_sim_auth">
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Vyhledávání...</item>
+        <item>Připojování k síti %1$s...</item>
+        <item>Ověřování v síti %1$s...</item>
+        <item>Získávání adresy IP ze sítě %1$s...</item>
+        <item>Připojeno k síti %1$s</item>
+        <item>Pozastaveno</item>
+        <item>Odpojování od sítě %1$s...</item>
+        <item>Odpojeno</item>
+        <item>Neúspěšné</item>
+        <item>Blokováno</item>
+        <item>Dočasné předcházení slabému připojení</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
         <item>PEAP</item>
         <item>TLS</item>
         <item>TTLS</item>
@@ -178,6 +158,10 @@
     <string-array name="data_usage_data_range">
         <item>Posledních 30 dní</item>
         <item>Zadat cyklus počítání...</item>
+    </string-array>
+    <string-array name="sim_card_data_range">
+        <item>Poslední čtyři číslice</item>
+        <item>První čtyři číslice</item>
     </string-array>
     <string-array name="wifi_frequency_band_entries">
         <item>Automatické</item>
@@ -228,22 +212,9 @@
         <item>IPv4/IPv6</item>
     </string-array>
     <string-array name="bearer_entries">
-        <item>Nespecifikováno</item>
         <item>LTE</item>
-        <item>HSPAP</item>
-        <item>HSPA</item>
-        <item>HSUPA</item>
-        <item>HSDPA</item>
-        <item>UMTS</item>
-        <item>EDGE</item>
-        <item>GPRS</item>
         <item>eHRPD</item>
-        <item>EVDO_B</item>
-        <item>EVDO_A</item>
-        <item>EVDO_0</item>
-        <item>1×RTT</item>
-        <item>IS95B</item>
-        <item>IS95A</item>
+        <item>Nespecifikováno</item>
     </string-array>
     <string-array name="mvno_type_entries">
         <item>Žádné</item>
@@ -311,9 +282,6 @@
         <item>vypnout nebo zapnout zvuk mikrofonu</item>
         <item>promítat média</item>
         <item>aktivovat VPN</item>
-        <item>zápis tapety</item>
-        <item>struktura asistence</item>
-        <item>snímek obrazovky asistence</item>
     </string-array>
     <string-array name="app_ops_labels">
         <item>Poloha</item>
@@ -363,9 +331,6 @@
         <item>Vypnout nebo zapnout zvuk mikrofonu</item>
         <item>Promítat média</item>
         <item>Aktivovat VPN</item>
-        <item>Zápis tapety</item>
-        <item>Struktura asistence</item>
-        <item>Snímek obrazovky asistence</item>
     </string-array>
     <string-array name="long_press_timeout_selector_titles">
         <item>Krátká</item>
@@ -413,30 +378,27 @@
         <item>Vlastní</item>
     </string-array>
     <string-array name="select_logd_size_titles">
-        <item>Vypnuto</item>
-        <item>64 KB</item>
-        <item>256 KB</item>
-        <item>1 MB</item>
-        <item>4 MB</item>
-        <item>16 MB</item>
+        <item>64 kB</item>
+        <item>256 kB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>16 MB</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
-        <item>Vypnuto</item>
-        <item>64 KB</item>
-        <item>256 KB</item>
-        <item>1 MB</item>
+        <item>64 kB</item>
+        <item>256 kB</item>
+        <item>1 MB</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
-        <item>Vypnuto</item>
-        <item>64 KB/záznam vyrovnávací paměti</item>
-        <item>256 KB/záznam vyrovnávací paměti</item>
-        <item>1 MB/záznam vyrovnávací paměti</item>
-        <item>4 MB/záznam vyrovnávací paměti</item>
-        <item>16 MB/záznam vyrovnávací paměti</item>
+        <item>64 kB na vyrovnávací paměť protokolů</item>
+        <item>256 kB na vyrovnávací paměť protokolů</item>
+        <item>1 MB na vyrovnávací paměť protokolů</item>
+        <item>4 MB na vyrovnávací paměť protokolů</item>
+        <item>16 MB na vyrovnávací paměť protokolů</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
         <item>Nikdy nekontrolovat</item>
-        <item>Kontrolovat pouze pro obsah DRM</item>
+        <item>Kontrolovat jen obsah DRM</item>
         <item>Vždy kontrolovat</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
@@ -445,70 +407,66 @@
         <item>Vždy používat kontrolu HDCP</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
-        <item>Animace vypnuty</item>
-        <item>Stupeň animace 0,5x</item>
-        <item>Stupeň animace 1x</item>
-        <item>Stupeň animace 1,5x</item>
-        <item>Stupeň animace 2x</item>
-        <item>Stupeň animace 5x</item>
-        <item>Stupeň animace 10x</item>
+        <item>Animace je vypnuta</item>
+        <item>Měřítko animace 0,5x</item>
+        <item>Měřítko animace 1x</item>
+        <item>Měřítko animace 1,5x</item>
+        <item>Měřítko animace 2x</item>
+        <item>Měřítko animace 5x</item>
+        <item>Měřítko animace 10x</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
-        <item>Animace vypnuty</item>
-        <item>Stupeň animace 0,5x</item>
-        <item>Stupeň animace 1x</item>
-        <item>Stupeň animace 1,5x</item>
-        <item>Stupeň animace 2x</item>
-        <item>Stupeň animace 5x</item>
-        <item>Stupeň animace 10x</item>
+        <item>Animace je vypnuta</item>
+        <item>Měřítko animace 0,5x</item>
+        <item>Měřítko animace 1x</item>
+        <item>Měřítko animace 1,5x</item>
+        <item>Měřítko animace 2x</item>
+        <item>Měřítko animace 5x</item>
+        <item>Měřítko animace 10x</item>
     </string-array>
     <string-array name="animator_duration_scale_entries">
-        <item>Animace vypnuty</item>
-        <item>Stupeň animace 0,5x</item>
-        <item>Stupeň animace 1x</item>
-        <item>Stupeň animace 1,5x</item>
-        <item>Stupeň animace 2x</item>
-        <item>Stupeň animace 5x</item>
-        <item>Stupeň animace 10x</item>
+        <item>Animace je vypnuta</item>
+        <item>Měřítko animace 0,5x</item>
+        <item>Měřítko animace 1x</item>
+        <item>Měřítko animace 1,5x</item>
+        <item>Měřítko animace 2x</item>
+        <item>Měřítko animace 5x</item>
+        <item>Měřítko animace 10x</item>
     </string-array>
     <string-array name="overlay_display_devices_entries">
-        <item>Žádné</item>
-        <item>480p</item>
-        <item>480p (bezpečné)</item>
-        <item>720p</item>
-        <item>720p (bezpečné)</item>
-        <item>1080p</item>
-        <item>1080p (bezpečné)</item>
-        <item>4K</item>
-        <item>4K (bezpečné)</item>
-        <item>4K (přesahující)</item>
-        <item>4K (přesahující, bezpečné)</item>
-        <item>720p, 1080p (duální obrazovka)</item>
+        <item>Žádný</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (zabezpečené)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (zabezpečené)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (zabezpečené)</item>
+        <item>1280x720 tvdpi a 1920x1080 xhdpi</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>Žádné</item>
         <item>Logcat</item>
-        <item>Systrace (Grafika)</item>
-        <item>Zásobník volání na glGetError</item>
+        <item>Systrace (grafika)</item>
+        <item>Zásobník volání funkce glGetError</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
         <item>Vypnuto</item>
-        <item>Nakreslete oblast nepravoúhlého výstřižku modře</item>
+        <item>Vykreslit neobdélníkový výstřižek modře</item>
         <item>Zvýraznit testované příkazy kreslení zeleně</item>
     </string-array>
     <string-array name="track_frame_time_entries">
         <item>Vypnuto</item>
-        <item>Na obrazovce jako panely</item>
-        <item>V adb shell dumpsys gfxinfo</item>
+        <item>Na obrazovce ve formě sloupců</item>
+        <item>adb shell dumpsys gfxinfo</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
         <item>Vypnuto</item>
-        <item>Zobrazit přesahující oblasti</item>
-        <item>Zobrazit oblasti deuteranomálie</item>
+        <item>Zobrazit překreslované oblasti</item>
+        <item>Zobrazit oblasti pro deuteranomálii</item>
     </string-array>
     <string-array name="app_process_limit_entries">
         <item>Standardní limit</item>
-        <item>Žádné procesy na pozadí</item>
+        <item>Procesy na pozadí deaktivovány</item>
         <item>Maximálně 1 proces</item>
         <item>Maximálně 2 procesy</item>
         <item>Maximálně 3 procesy</item>
@@ -536,11 +494,15 @@
         <item>Vždy povolit</item>
     </string-array>
     <string-array name="ram_states">
-        <item>Normální</item>
-        <item>Střední</item>
-        <item>Nízký</item>
-        <item>Kritický</item>
-        <item>\?</item>
+        <item>normální</item>
+        <item>střední</item>
+        <item>nízká</item>
+        <item>kritická</item>
+    </string-array>
+    <string-array name="entries_zen_mode">
+        <item>Vypnuto</item>
+        <item>Omezený počet vyrušování</item>
+        <item>Žádná vyrušování</item>
     </string-array>
     <string-array name="proc_stats_memory_states">
         <item>Normální</item>
@@ -563,30 +525,6 @@
         <item>V mezipaměti (aktivita)</item>
         <item>V mezipaměti (klient aktivity)</item>
         <item>V mezipaměti (prázdné)</item>
-    </string-array>
-    <string-array name="color_picker">
-        <item>Šedozelená</item>
-        <item>Modrá</item>
-        <item>Indigo</item>
-        <item>Nachová</item>
-        <item>Růžová</item>
-        <item>Červená</item>
-    </string-array>
-    <string-array name="usb_configuration_titles">
-        <item>@string/usb_use_charging_only</item>
-        <item>MTP (Protokol přenosu médií)</item>
-        <item>PTP (Protokol přenosu obrázků)</item>
-        <item>RNDIS (USB Ethernet)</item>
-        <item>Zdroj zvuku</item>
-        <item>MIDI</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_choices">
-        <item>Preferována síť W-Fi</item>
-        <item>Preferována mobilní síť</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_values">
-        <item>2</item>
-        <item>1</item>
     </string-array>
     <string-array name="haptic_feedback_level_texts">
         <item>Vypnuto</item>
@@ -640,10 +578,6 @@
         <item>Bílá</item>
         <item>Fialová</item>
     </string-array>
-    <string-array name="screen_key_position_action">
-        <item>Tlačítko Menu na levé straně a tlačítko Zpět na pravé straně</item>
-        <item>Tlačítko Zpět na levé straně a tlačítko Menu na pravé straně</item>
-    </string-array>
     <string-array name="screen_key_press_action">
         <item>Zobrazit řádek naposledy spuštěných apl.</item>
         <item>Zobrazit menu</item>
@@ -664,7 +598,7 @@
         <item>2 sekundy</item>
     </string-array>
     <string-array name="long_press_volume_down_action">
-        <item>Žádná</item>
+        <item>Žádný</item>
         <item>Režim Rychlý snímek (fotografie)</item>
         <item>Režim Rychlý snímek (video)</item>
         <item>Veřejná doprava</item>
@@ -729,9 +663,9 @@
 Note: Pouze pro Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="screen_color_title">
-        <item>Teplé</item>
+        <item>Teplé barvy</item>
         <item>Přirozené barvy</item>
-        <item>Studené</item>
+        <item>Studené barvy</item>
     </string-array>
     <string-array name="screen_saturation_title">
         <item>Zářivá</item>
@@ -775,16 +709,6 @@ Note: Pouze pro Ubuntu 8.04!"</item>
         <item>Připojit automaticky</item>
         <item>Připojit manuálně</item>
     </string-array>
-    <string-array name="traffic_balance_entries">
-        <item>Vypnuto</item>
-        <item>Běžný režim</item>
-        <item>Zjednodušený režim</item>
-    </string-array>
-    <string-array name="traffic_balance_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
     <string-array name="preferred_app_entries">
         <item>Launcher</item>
         <item>Volání</item>
@@ -813,7 +737,7 @@ Note: Pouze pro Ubuntu 8.04!"</item>
         <item>Faster</item>
     </string-array>
     <string-array name="whetstone_level_entries">
-        <item>Vypnuto</item>
+        <item>Vypnuta</item>
         <item>Nízká</item>
         <item>Střední</item>
         <item>Vysoká</item>
@@ -961,11 +885,27 @@ Note: Pouze pro Ubuntu 8.04!"</item>
         <item>Zámek aplikací</item>
         <item>Druhý prostor</item>
     </string-array>
-    <string-array name="screen_button_style">
-        <item>Styl levou rukou</item>
-        <item>Styl pravou rukou</item>
-    </string-array>
     <string-array name="city_name">
+        <item>Midway</item>
+        <item>Regina</item>
+        <item>Manaus</item>
+        <item>Recife</item>
+        <item>Godthab</item>
+        <item>Jižní Georgie</item>
+        <item>Azory</item>
+        <item>Windhoek</item>
+        <item>Tbilisi</item>
+        <item>Jerevan</item>
+        <item>Oral</item>
+        <item>Jekatěrinburg</item>
+        <item>Káthmándú</item>
+        <item>Krasnojarsk</item>
+        <item>Irkutsk</item>
+        <item>Jakutsk</item>
+        <item>Hobart</item>
+        <item>Vladivostok</item>
+        <item>Magadan</item>
+        <item>Majuro</item>
         <item>Abidžan</item>
         <item>Accra</item>
         <item>Addis Abeba</item>
@@ -1409,16 +1349,16 @@ Note: Pouze pro Ubuntu 8.04!"</item>
         <item>Pracovní dny</item>
         <item>Vlastní</item>
     </string-array>
+    <string-array name="standard_configuration_version">
+        <item>3 GB</item>
+        <item>16 GB</item>
+        <item>Quad-core Max 2,5 GHz</item>
+    </string-array>
     <string-array name="privacy_password_function_specfication_names">
         <item>Zprávy</item>
         <item>Fotografie</item>
         <item>Soubory</item>
         <item>Poznámky</item>
-    </string-array>
-    <string-array name="standard_configuration_version">
-        <item>3 GB</item>
-        <item>16 GB</item>
-        <item>Quad-core Max 2,5 GHz</item>
     </string-array>
     <string-array name="install_non_market_app_entries">
         <item>Zapnout (doporučeno)</item>
@@ -1427,21 +1367,6 @@ Note: Pouze pro Ubuntu 8.04!"</item>
     <string-array name="install_non_market_app_contents">
         <item>Zapnout</item>
         <item>Nepoužívat</item>
-    </string-array>
-    <string-array name="color_mode_names">
-        <item>Zářivé (výchozí)</item>
-        <item>Přirozené</item>
-        <item>Standardní</item>
-    </string-array>
-    <string-array name="color_mode_descriptions">
-        <item>Vylepšené barvy</item>
-        <item>Přirozené barvy tak, jak je vidí naše oko</item>
-        <item>Barvy optimalizované pro digitální obsah</item>
-    </string-array>
-    <string-array name="battery_labels">
-        <item>0 %</item>
-        <item>50 %</item>
-        <item>100 %</item>
     </string-array>
     <string-array name="standard_configuration_version_description_primary">
         <item>Procesor</item>
@@ -1452,7 +1377,7 @@ Note: Pouze pro Ubuntu 8.04!"</item>
         <item>Verze systému Android</item>
     </string-array>
     <string-array name="standard_configuration_version_description_secondary">
-        <item>Snapdragon 430</item>
+        <item>Snapdragon 616</item>
         <item>4000 mAh (typ)</item>
         <item>13MP</item>
         <item>5 palců</item>

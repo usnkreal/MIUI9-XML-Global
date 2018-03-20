@@ -19,8 +19,9 @@
     <string name="abc_shareactionprovider_share_with">공유 대상</string>
     <string name="abc_shareactionprovider_share_with_application">%s와(과) 공유</string>
     <string name="abc_toolbar_collapse_description">접기</string>
-    <string name="access_as_visitors_title">그 외 모든 사용자</string>
-    <string name="access_via_team_drive_title">%1$s(으)로 액세스</string>
+    <string name="access_request_accepted">수락됨</string>
+    <string name="access_request_give_access">권한 부여</string>
+    <string name="access_request_reply">답장</string>
     <string name="accessbility_suggestion_dropdown_closed">제안사항이 없습니다.</string>
     <string name="accessbility_suggestion_dropdown_opened">추천 연락처 열림</string>
     <string name="account_item">%1$s(으)로 전환</string>
@@ -39,8 +40,8 @@
     <string name="action_card_announce_untrash">항목이 복원됨</string>
     <string name="action_card_download">다운로드</string>
     <string name="action_card_download_content_desc">사본 다운로드</string>
-    <string name="action_card_export">사본 보내기</string>
-    <string name="action_card_export_content_desc">사본 보내기</string>
+    <string name="action_card_export">파일 보내기</string>
+    <string name="action_card_export_content_desc">파일 보내기</string>
     <string name="action_card_folder_color">색상 변경</string>
     <string name="action_card_get_link">링크 공유</string>
     <string name="action_card_move">이동</string>
@@ -53,7 +54,6 @@
     <string name="action_card_remove_content_desc">항목 삭제</string>
     <string name="action_card_remove_permanently">완전삭제</string>
     <string name="action_card_remove_permanently_content_desc">완전히 항목 삭제</string>
-    <string name="action_card_remove_td_item">모든 사용자로부터 삭제</string>
     <string name="action_card_rename">이름 바꾸기</string>
     <string name="action_card_rename_content_desc">항목 이름 바꾸기</string>
     <string name="action_card_share">사용자 추가</string>
@@ -83,18 +83,12 @@
     <string name="add_account">계정 추가</string>
     <string name="add_collaborator_accept">추가</string>
     <string name="add_collaborators">사용자 추가</string>
-    <string name="add_collaborators_acl_list_title">액세스 권한이 있는 사용자</string>
     <string name="add_collaborators_hint">이름 또는 이메일 입력</string>
     <string name="add_collaborators_send_button_content_desc">공유를 확인하며 공동작업자에게 전송</string>
-    <string name="add_collaborators_textbox_title">사용자</string>
-    <string name="add_members_acl_list_title">%1$s 멤버</string>
-    <string name="add_members_dialog_title">멤버 추가</string>
-    <string name="add_members_send_button_content_desc">멤버 추가를 확인하고 멤버에게 전송합니다.</string>
-    <string name="add_members_textbox_title">멤버</string>
+    <string name="add_collaborators_textbox_title">공유할 사용자</string>
     <string name="alphabet_set">0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string name="announce_account_switch">계정을 %1$s(으)로 전환했습니다.</string>
     <string name="announce_account_using">사용 중인 계정: %1$s.</string>
-    <string name="announce_action_undone">작업이 실행취소되었습니다.</string>
     <string name="announce_collection_removed">폴더가 삭제되었습니다.</string>
     <string name="announce_create_new">새로 만들기</string>
     <string name="announce_document_removed">파일이 삭제되었습니다.</string>
@@ -106,8 +100,6 @@
     <string name="announce_search_found_no_item">검색결과가 없습니다.</string>
     <string name="announce_select_to_change">변경하려면 선택하세요.</string>
     <string name="announce_sort_order_and_direction">정렬 기준: %1$s, %2$s</string>
-    <string name="announce_swatch_checked">%1$s 확인됨</string>
-    <string name="announce_swatch_not_checked">%1$s 확인되지 않음</string>
     <string name="app_installation_in_progress">설치 중...</string>
     <string name="app_installation_in_progress_toast">설치 중입니다. 자세한 내용은 알림을 참조하세요.</string>
     <string name="app_installed_dialog_drive_installed_title">Google 드라이브 설치 완료</string>
@@ -121,19 +113,27 @@
     <string name="app_name_drive">드라이브</string>
     <string name="app_restrictions_description">로컬 인쇄 API 사용을 중지하려면 false로 설정합니다.</string>
     <string name="app_restrictions_title">앱의 로컬 인쇄 API 사용을 허용</string>
-    <string name="apps">앱</string>
-    <string name="apps_footer_text">앱 %s개</string>
-    <string name="apps_predict_carousel_title">빠른 액세스</string>
     <string name="apps_predict_doclist_suggestions_header">추천 항목</string>
     <string name="apps_predict_open_error">항목을 열 수 없습니다.</string>
-    <string name="apps_predict_overlay_close_button">닫기</string>
     <string name="apps_predict_overlay_introduction_header">새롭게 제안된 항목</string>
     <string name="apps_predict_overlay_introduction_text">드라이브에서 이제 내가 사용할 가능성이 높은 항목을 자동으로 제안합니다. 무엇을 찾으시나요? 항목을 닫으려면 스와이프하면 됩니다.</string>
     <string name="apps_predict_overlay_title_assistant">어시스턴트</string>
     <string name="apps_predict_overlay_title_items_now">현재 관심이 있을 만한 항목</string>
     <string name="apps_predict_overlay_title_smart_items">스마트 항목</string>
+    <string name="apps_predict_reason_frequently_accessed">자주 액세스함</string>
+    <string name="apps_predict_reason_outstanding_comments">아직 처리하지 않은 댓글 있음</string>
+    <string name="apps_predict_reason_recent_activity">최근 활동 기반</string>
+    <string name="apps_predict_reason_recently_accessed">최근에 액세스함</string>
+    <string name="apps_predict_reason_recently_commented_on">최근에 댓글 작성됨</string>
+    <string name="apps_predict_reason_recently_notified">최근에 알림이 수신됨</string>
+    <string name="apps_predict_reason_recently_shared_with_you">최근에 나와 공유됨</string>
+    <string name="apps_predict_reason_recently_updated">최근에 업데이트됨</string>
+    <string name="apps_predict_reason_related_to_recent_document">최근 문서와 관련 있음</string>
+    <string name="apps_predict_reason_time_of_day">이 시간대에 액세스함</string>
     <string name="apps_predict_suggestions_dismissed_undo">추천 항목 닫음</string>
     <string name="apps_with_backup">Google 드라이브에 백업된 앱</string>
+    <string name="ask_confirmation_for_document_deletion">이 파일을 삭제하시겠습니까?</string>
+    <string name="ask_confirmation_for_folder_deletion">이 폴더를 삭제하시겠습니까?</string>
     <string name="audio_info_loading">로드 중</string>
     <string name="authentication_error">인증 도중 오류 발생</string>
     <string name="auto_backup_open_settings_page_failure_toast">자동 백업 설정 페이지를 열지 못했습니다. 잠시 후 다시 시도해 주세요.</string>
@@ -143,10 +143,8 @@
     <string name="backup_app_footer_text" formatted="false">%s에 %s의 항목이 백업되었습니다.</string>
     <string name="backup_banner_msg">기기를 드라이브에 백업 시작</string>
     <string name="backup_complete_msg">백업 완료</string>
-    <string name="backup_data">데이터 백업</string>
     <string name="backup_disabled_for_account">이 기기의 백업이 %s에 허용되었습니다. 기기당 백업 계정은 한 개만 사용할 수 있습니다.</string>
     <string name="backup_disabled_for_device">백업 데이터가 없습니다. 이 기기에서 백업을 사용하도록 설정하고 데이터가 저장될 때까지 24시간 동안 기다려 주시기 바랍니다.</string>
-    <string name="backup_entity_footer_text">%s에 마지막으로 백업</string>
     <string name="backup_failed_msg">백업하지 못했습니다.</string>
     <string name="backup_help_card_content">기기의 이미지, 파일, 앱 설정이 %s(으)로 자동 백업됩니다.</string>
     <string name="backup_help_card_title">Google 드라이브로 데이터 백업</string>
@@ -154,9 +152,7 @@
     <string name="backup_now">지금 백업</string>
     <string name="backup_preferences">앱 자동 백업</string>
     <string name="backup_retry_msg">탭하여 다시 시도</string>
-    <string name="backup_settings">백업 설정</string>
-    <string name="backup_view_error">백업된 데이터를 표시할 수 없습니다. 네트워크 연결을 확인하거나 나중에 다시 시도하세요.</string>
-    <string name="basesearchsuggestion_date_modified_label">수정됨: %1$s</string>
+    <string name="basesearchsuggestion_date_modified_label">수정됨: %s</string>
     <string name="button_create_contact">새 연락처 만들기</string>
     <string name="button_exit">종료</string>
     <string name="button_ok">확인</string>
@@ -166,42 +162,39 @@
     <string name="buy_content_description">%2$s에 %1$s 구매</string>
     <string name="cakemix_device_offline">연결되지 않음</string>
     <string name="cakemix_problem_with_file">파일 문제 발생</string>
-    <string name="cakemix_video_unprocessed">동영상을 처리하고 있습니다. 나중에 다시 확인하세요.</string>
-    <string name="calendar">캘린더</string>
-    <string name="calendar_footer_text">Google 캘린더에 동기화됨</string>
-    <string name="calendar_message">캘린더 일정이 Google 캘린더를 사용하는 모든 기기에 동기화됩니다.</string>
-    <string name="call_history">통화 기록</string>
-    <string name="call_history_message">백업에는 발신 및 수신 통화의 수신자 및 날짜가 포함됩니다.</string>
+    <string name="cakemix_video_unprocessed">동영상을 처리할 수 없습니다.</string>
     <string name="camera_ocr_error_capture">사진 촬영 중에 오류가 발생했습니다.</string>
     <string name="camera_ocr_no_sdcard">카메라를 사용하기 전에 SD 카드를 삽입하세요.</string>
-    <string name="carbon_device_extra_delete_confirmation_message">"
-
-이 기기에서 동기화된 사진, 연락처, 캘린더 일정은 삭제되지 않습니다."</string>
+    <string name="check_connection_tap_to_retry">연결을 확인한 후 탭하여 다시 시도하세요.</string>
     <string name="chips_action_cancel">취소</string>
     <string name="chips_action_copy">복사</string>
     <string name="chips_permission_text">주소록 제안 허용</string>
     <string name="clear_cache">캐시 지우기</string>
     <string name="clear_cache_cleared_message">문서 캐시가 삭제되었습니다.</string>
-    <string name="clear_cache_clearing_message">캐시를 삭제하는 중</string>
     <string name="clear_cache_message">문서 캐시가 삭제됩니다.</string>
-    <string name="common_google_play_services_api_unavailable_text">현재 %1$s에 필요한 하나 이상의 Google Play 서비스를 사용할 수 없습니다. 개발자에게 문의하여 도움을 받으시기 바랍니다.</string>
+    <string name="comment_quote">인용문: %1$s</string>
+    <string name="common_android_wear_notification_needs_update_text">%1$s에서 Android Wear 앱을 업데이트해야 합니다.</string>
+    <string name="common_android_wear_update_text">%1$s은(는) Android Wear 앱을 업데이트하지 않으면 실행되지 않습니다.</string>
+    <string name="common_android_wear_update_title">Android Wear 업데이트</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$s에 필요한 하나 이상의 Google Play 서비스를 현재 사용할 수 없습니다. 개발자에게 문의하여 도움을 받으시기 바랍니다.</string>
     <string name="common_google_play_services_enable_button">Google Play 서비스 사용</string>
     <string name="common_google_play_services_enable_text">Google Play 서비스를 사용하도록 설정해야 %1$s이(가) 작동합니다.</string>
     <string name="common_google_play_services_enable_title">Google Play 서비스 사용</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">%1$s에서 요청</string>
     <string name="common_google_play_services_install_button">Google Play 서비스 설치</string>
-    <string name="common_google_play_services_install_text_phone">스마트폰에 Google Play 서비스가 설치되어 있어야 %1$s이(가) 실행됩니다.</string>
+    <string name="common_google_play_services_install_text_phone">휴대전화에 Google Play 서비스가 설치되어 있어야 %1$s이(가) 실행됩니다.</string>
     <string name="common_google_play_services_install_text_tablet">태블릿에 Google Play 서비스가 설치되어 있어야 %1$s이(가) 실행됩니다.</string>
     <string name="common_google_play_services_install_title">Google Play 서비스 설치</string>
     <string name="common_google_play_services_invalid_account_text">지정한 계정이 이 기기에 존재하지 않습니다. 다른 계정을 선택하세요.</string>
-    <string name="common_google_play_services_invalid_account_title">계정 오류</string>
+    <string name="common_google_play_services_invalid_account_title">올바르지 않은 계정</string>
+    <string name="common_google_play_services_needs_enabling_title">Google Play 서비스를 사용 설정해야 하는 애플리케이션입니다.</string>
     <string name="common_google_play_services_network_error_text">Google Play 서비스에 연결하려면 데이터 연결이 필요합니다.</string>
     <string name="common_google_play_services_network_error_title">네트워크 오류</string>
+    <string name="common_google_play_services_notification_needs_update_title">Google Play 서비스를 업데이트해야 하는 애플리케이션입니다.</string>
     <string name="common_google_play_services_notification_ticker">Google Play 서비스 오류</string>
-    <string name="common_google_play_services_restricted_profile_text">제한된 프로필에서 계정에 액세스할 수 없습니다.</string>
-    <string name="common_google_play_services_restricted_profile_title">제한된 프로필</string>
     <string name="common_google_play_services_sign_in_failed_text">지정한 계정에 로그인하는 중에 오류가 발생했습니다. 다른 계정을 선택해 주세요.</string>
     <string name="common_google_play_services_sign_in_failed_title">로그인 실패</string>
-    <string name="common_google_play_services_unknown_issue">%1$s에서 Google Play 서비스를 사용하는 데 문제가 있습니다. 문제가 계속되는 경우 개발자에게 지원을 요청하세요.</string>
+    <string name="common_google_play_services_unknown_issue">Google Play 서비스에 알 수 없는 문제가 발생했습니다.</string>
     <string name="common_google_play_services_unsupported_text">%1$s에 필요한 Google Play 서비스가 사용자 기기에서 지원되지 않습니다. 기기 제조업체에 문의하시기 바랍니다.</string>
     <string name="common_google_play_services_unsupported_title">Google Play 서비스</string>
     <string name="common_google_play_services_update_button">업데이트</string>
@@ -209,21 +202,12 @@
     <string name="common_google_play_services_update_title">Google Play 서비스 업데이트</string>
     <string name="common_google_play_services_updating_text">현재 업데이트 중인 Google Play 서비스가 있어야 %1$s이(가) 실행됩니다.</string>
     <string name="common_google_play_services_updating_title">Google Play 서비스 업데이트 중</string>
-    <string name="common_google_play_services_wear_update_text">새 버전의 Google Play 서비스가 필요합니다. 곧 자동으로 업데이트됩니다.</string>
-    <string name="common_open_on_phone">스마트폰에서 열기</string>
-    <string name="common_signin_button_text">로그인</string>
-    <string name="common_signin_button_text_long">Google 계정으로 로그인</string>
+    <string name="common_open_on_phone">휴대전화에서 열기</string>
     <string name="contact_sharing_commenter">댓글 작성 가능</string>
-    <string name="contact_sharing_no_access">액세스 권한 없음</string>
+    <string name="contact_sharing_no_access">액세스 불가</string>
     <string name="contact_sharing_reader">보기 가능</string>
-    <string name="contact_sharing_td_organizer">제한사항 없음</string>
-    <string name="contact_sharing_td_remove">삭제</string>
-    <string name="contact_sharing_td_writer">수정 및 업로드 가능</string>
     <string name="contact_sharing_writer">수정 가능</string>
-    <string name="contact_sharing_writer_folder">정리, 추가, 수정 가능</string>
-    <string name="contacts">주소록</string>
-    <string name="contacts_footer_text">Google 주소록에 동기화됨</string>
-    <string name="contacts_message">주소록이 Google 주소록을 사용하는 모든 기기에 동기화됩니다.</string>
+    <string name="contact_sharing_writer_folder">구성, 추가, 수정할 수 있음</string>
     <string name="convert_conversion_failed">죄송합니다. 문서를 처리하지 못했습니다. 네트워크 연결 상태를 확인한 다음 다시 시도해 주세요.</string>
     <string name="convert_document_too_big">죄송합니다. 문서의 크기가 너무 커서 처리할 수 없습니다.</string>
     <string name="convert_loading_document_failed">죄송합니다. 문서를 처리하지 못했습니다.</string>
@@ -246,7 +230,6 @@
     <string name="create_new_error_presentation">프레젠테이션을 만드는 중에 오류가 발생했습니다.</string>
     <string name="create_new_error_read_only_folder">이 폴더에 항목을 추가할 수 있는 권한이 없습니다.</string>
     <string name="create_new_error_spreadsheet">스프레드시트를 만드는 중에 오류가 발생했습니다.</string>
-    <string name="create_new_error_team_drive">팀 드라이브를 만드는 중 오류가 발생했습니다.</string>
     <string name="create_new_folder">폴더</string>
     <string name="create_new_from_scan">스캔</string>
     <string name="create_new_ocr_doc">사진 변환 문서</string>
@@ -255,7 +238,6 @@
     <string name="create_new_offline_error_folder">새 폴더를 만들려면 온라인으로 전환하세요.</string>
     <string name="create_new_offline_error_presentation">새 프레젠테이션을 만들려면 온라인으로 전환하세요.</string>
     <string name="create_new_offline_error_spreadsheet">스프레드시트를 만들려면 온라인으로 전환하세요.</string>
-    <string name="create_new_offline_error_team_drive">새로운 팀 드라이브를 만들려면 인터넷에 연결하세요.</string>
     <string name="create_shortcut_label">드라이브 바로가기</string>
     <string name="create_shortcut_title">바로가기를 생성할 위치</string>
     <string name="created_folder">%1$s 폴더를 만들었습니다.</string>
@@ -264,35 +246,16 @@
     <string name="creating_folder">폴더를 만드는 중...</string>
     <string name="creating_presentation">프레젠테이션을 만드는 중…</string>
     <string name="creating_spreadsheet">스프레드시트를 만드는 중...</string>
-    <string name="creating_team_drive">팀 드라이브 만드는 중…</string>
     <string name="cross_app_promo_dismiss_button_text">닫기</string>
     <string name="cross_app_promo_install_button_text">설치</string>
     <string name="cross_app_promo_view_only_button_text">보기 전용</string>
-    <string name="current_device">이 기기</string>
     <string name="decrypting_progress_message">%1$s 복호화 중</string>
     <string name="default_new_drawing_title">제목없는 그림</string>
     <string name="default_new_folder_title">제목없는 폴더</string>
     <string name="default_new_kix_title">제목없는 문서</string>
     <string name="default_new_punch_title">제목없는 프레젠테이션</string>
-    <string name="default_new_team_drive_title">팀 이름</string>
     <string name="default_new_trix_title">제목없는 스프레드시트</string>
     <string name="default_scope_contact_name">모든 사용자</string>
-    <string name="delete_backup">백업 삭제</string>
-    <string name="delete_backup_confirm_button">삭제</string>
-    <string name="delete_backup_progress_message">백업 삭제 중</string>
-    <string name="delete_device_backup_confirmation_message">"이 기기의 백업 데이터가 영구적으로 삭제됩니다.
-
-%s에서 백업을 사용하도록 계속 설정되어 있는 경우 새로운 백업 데이터가 생성됩니다."</string>
-    <string name="delete_device_backup_title">‘%s’ 백업을 삭제할까요?</string>
-    <string name="delete_multiple_backup_error_message">일부 백업을 삭제할 수 없습니다.</string>
-    <string name="delete_single_backup_error_message">백업을 삭제할 수 없습니다.</string>
-    <string name="delete_whatsapp_backup_after_turnoff_confirmation_message">"
-
-%s의 WhatsApp 채팅과 미디어 백업 또한 영구 삭제하시겠습니까?"</string>
-    <string name="delete_whatsapp_backup_confirmation_message">"WhatsApp 채팅과 미디어 백업이 %s에서 영구적으로 삭제됩니다.
-
-이 번호에서 백업을 사용하도록 계속 설정되어 있는 경우 새로운 백업 데이터가 설정됩니다."</string>
-    <string name="delete_whatsapp_backup_title">WhatsApp 백업을 삭제할까요?</string>
     <string name="desc_album_art">앨범아트</string>
     <string name="desc_audio_forward">30초 앞으로 이동</string>
     <string name="desc_audio_next">다음</string>
@@ -324,17 +287,16 @@
     <string name="desc_promo_page">도움말 오버레이: PDF를 Google 드라이브에 저장</string>
     <string name="desc_selection_start">선택 영역 시작</string>
     <string name="desc_selection_stop">선택 영역 끝</string>
-    <string name="desc_video_player">동영상 플레이어</string>
     <string name="desc_web_link">링크: %1$s</string>
     <string name="desc_web_link_shortened_to_domain">링크: %1$s의 웹페이지</string>
     <string name="desc_zoom">%1$d퍼센트 확대/축소</string>
     <string name="description_icon_stale_items">오래된 항목이 있습니다.</string>
-    <string name="detail_fragment_title">%1$s의 항목 속성 표시</string>
+    <string name="detail_fragment_title">%s의 항목 속성 표시</string>
     <string name="detail_preview_created_time">만든 날짜</string>
-    <string name="detail_preview_date_performed_by">%1$s(%2$s)</string>
+    <string name="detail_preview_date_performed_by" formatted="false">%s(%s)</string>
     <string name="detail_preview_folder_location">위치</string>
     <string name="detail_preview_folder_restore_location">삭제됨</string>
-    <string name="detail_preview_google_files_free">%1$s 파일 무료 저장</string>
+    <string name="detail_preview_google_files_free">%s 파일 무료 저장</string>
     <string name="detail_preview_information_content_description">정보</string>
     <string name="detail_preview_kind">유형</string>
     <string name="detail_preview_last_modified_date">수정한 날짜</string>
@@ -343,15 +305,12 @@
     <string name="detail_preview_quota">사용된 저장용량</string>
     <string name="detail_preview_size">크기</string>
     <string name="device_offline">연결되지 않음</string>
-    <string name="device_settings">기기 설정</string>
-    <string name="device_settings_message">백업에는 배경화면, Wi-Fi 비밀번호, 기본 앱 등 기기 설정이 포함됩니다.</string>
     <string name="dialog_confirm_expiration">만료 설정을 삭제하시겠어요?</string>
     <string name="dialog_confirm_expiration_button">만료 설정 삭제</string>
     <string name="dialog_confirm_expiration_message">"이 사용자의 액세스 권한에는 만료일이 설정되어 있습니다.
 
 역할을 수정하면 영구 액세스 권한이 설정됩니다."</string>
     <string name="dialog_confirm_sharing">공유 확인</string>
-    <string name="dialog_confirm_sharing_button">공유</string>
     <string name="dialog_confirm_sharing_message">%1$s은(는) 외부 도메인 사용자입니다. 공유하시겠습니까?</string>
     <string name="dialog_confirm_sharing_message_multiple">%1$d개 연락처는 외부 도메인 사용자입니다. 공유하시겠습니까?</string>
     <string name="dialog_contact_sharing">사용자 공유 설정</string>
@@ -385,8 +344,6 @@
     <string name="doclist_sortby_relevance">관련성</string>
     <string name="doclist_sortby_shared_title">공유 날짜</string>
     <string name="doclist_starred_state">별표표시 있음</string>
-    <string name="doclist_team_drive_state">팀 드라이브</string>
-    <string name="doclist_unified_actions_more_actions_button">추가 작업</string>
     <string name="document_deleted_error_dialog_message">열려고 하는 문서가 삭제되었습니다. 바로가기를 삭제하려면 바로가기를 길게 탭한 뒤 화면 상단의 삭제 아이콘으로 드래그합니다.</string>
     <string name="document_deleted_error_dialog_title">문서가 삭제됨</string>
     <string name="document_preparing_to_open_progress">열기 준비 중...</string>
@@ -514,8 +471,6 @@
 
  중요: 의견을 보낸 후에 애플리케이션 캐시를 지우세요(설정 -> 앱 -> 드라이브 -> 캐시 지우기). 캐시를 지우지 않으면 다른 악성 앱에서 덤프된 데이터에 액세스할 수도 있습니다. 계속하시겠습니까?"</string>
     <string name="dump_database_dialog_title">Dogfood 피드백입니다. 앱 개선을 위해 의견을 보내주세요.</string>
-    <string name="empty_backup_content">기기 백업과 앱 데이터가 여기 표시됩니다.</string>
-    <string name="empty_backup_title">백업 없음</string>
     <string name="empty_doclist">항목이 없습니다.</string>
     <string name="empty_doclist_for_devices_view">기기 폴더가 없습니다.</string>
     <string name="empty_doclist_for_devices_view_details">기기 폴더를 만들려면 컴퓨터에 최신 버전의 드라이브를 설치하고 로컬 폴더를 동기화하도록 구성하세요.</string>
@@ -529,15 +484,14 @@
     <string name="empty_doclist_for_search_view">결과가 없습니다.</string>
     <string name="empty_doclist_for_shared_with_me_view">나와 공유된 파일이 여기에 표시됩니다.</string>
     <string name="empty_doclist_for_starred_view">별표표시한 파일이 없습니다.</string>
-    <string name="empty_doclist_for_starred_view_details">파일을 이 목록에 추가하려면 파일의 옵션 메뉴에 있는 별표 아이콘을 탭하세요.</string>
+    <string name="empty_doclist_for_starred_view_details">이 목록에 파일을 추가하려면 세부정보 창의 별표 아이콘을 탭하세요.</string>
+    <string name="empty_doclist_for_uploads_view">최근에 업로드한 항목이 없습니다.</string>
+    <string name="empty_doclist_for_uploads_view_details">활성 업로드를 관리하고 이 기기에서 최근에 업로드한 파일을 보세요.</string>
     <string name="empty_recent_doclist_message_subtitle">사용자가 만들고 수정한 항목은 모두 여기에 표시됩니다. 새 그림을 만들려면 +를 클릭하세요.</string>
     <string name="empty_recent_doclist_message_title">Google 문서에 오신 것을 환영합니다.</string>
     <string name="empty_sharing_list">공유 정보를 표시할 수 없음</string>
-    <string name="empty_team_drives_doclist">팀 드라이브가 비어 있습니다. 먼저 파일 및 사용자를 추가하세요.</string>
     <string name="enable_backup">데이터 백업 사용 설정</string>
     <string name="enter_new_name">새 이름 입력:</string>
-    <string name="entity_backup_time">%s에 마지막으로 백업</string>
-    <string name="entity_item_more_action_button">추가 작업</string>
     <string name="error_access_denied_html">문서에 액세스할 수 없습니다. &lt;br> 이유: 문서에 대한 액세스가 거부되었습니다. &lt;br>&lt;br> 이 문서를 볼 수 있는 권한이 있는지 확인하고 다시 시도해 주세요.</string>
     <string name="error_app_intent">다른 앱에서 이 파일( %1$s)을 처리할 수 없습니다.</string>
     <string name="error_app_open">파일을 여는 중 오류 발생</string>
@@ -572,8 +526,6 @@
     <string name="error_ssl_generic_template">"'%2$s' 연결 도중 SSL 오류(코드 %1$d)가 발생했습니다."</string>
     <string name="error_ssl_idmismatch_template">"'%2$s' 연결 도중 SSL 오류(코드 %1$d)가 발생했습니다. 호스트 이름이 일치하지 않습니다."</string>
     <string name="error_ssl_validity_template">"'%2$s' 연결 도중 SSL 오류(코드 %1$d)가 발생했습니다. 인증서가 만료되었거나 아직 유효하지 않습니다. 이 기기의 날짜 설정이 정확한가요?"</string>
-    <string name="error_start_client">" %1$s에서 더 많은 파일을 로드할 수 없음"</string>
-    <string name="error_title">오류</string>
     <string name="error_video_not_available">동영상이 처리되지 않았습니다. 나중에 다시 시도해 주세요.</string>
     <string name="expires_future">%1$s 후 만료됨</string>
     <string name="expires_today">오늘 만료됨</string>
@@ -619,7 +571,7 @@
     <string name="folder_color_cyan_200">아이슬란드</string>
     <string name="folder_color_cyan_500">카리브해 리프트</string>
     <string name="folder_color_deep_orange_500">귤</string>
-    <string name="folder_color_default">기본값</string>
+    <string name="folder_color_default">쥐</string>
     <string name="folder_color_google_blue_500">파란 하늘</string>
     <string name="folder_color_google_green_400">세이지</string>
     <string name="folder_color_google_green_500">바질</string>
@@ -631,27 +583,22 @@
     <string name="folder_color_lime_500">쑥떡</string>
     <string name="folder_color_orange_200">복숭아 솜털</string>
     <string name="folder_color_orange_500">오렌지</string>
-    <string name="folder_color_orange_600">감귤</string>
     <string name="folder_color_pink_200">연한 핑크</string>
     <string name="folder_color_pink_300">연분홍</string>
     <string name="folder_color_pink_500">라즈베리</string>
     <string name="folder_color_purple_100">인형의 집</string>
-    <string name="folder_color_purple_200">나팔꽃</string>
     <string name="folder_color_purple_300">푸크시아</string>
-    <string name="folder_color_purple_400">퍼플</string>
     <string name="folder_color_teal_100">대기실</string>
     <string name="gallery_select_error">업로드할 이미지를 선택하는 중에 오류가 발생했습니다.</string>
     <string name="getting_authentication_information">문서를 여는 중</string>
     <string name="gf_feedback">의견 보내기</string>
+    <string name="give_access_failed">%1$s에 대한 액세스 권한을 부여하지 못했습니다.</string>
+    <string name="give_access_failed_offline">오프라인 상태에서는 액세스 권한을 부여할 수 없습니다.</string>
+    <string name="give_access_success">%1$s님에게 액세스 권한이 부여되었습니다.</string>
+    <string name="giving_access">%1$s님에게 액세스 권한 부여 중</string>
     <string name="google_account_missing">Google 계정을 찾을 수 없습니다. 애플리케이션을 종료합니다.</string>
     <string name="google_account_needed">이 애플리케이션을 사용하려면 Google 계정을 최소 1개는 설정해야 합니다.</string>
-    <string name="google_docs_long">Google 문서</string>
-    <string name="google_docs_short">문서</string>
     <string name="google_drive">Google 드라이브</string>
-    <string name="google_sheets_long">Google 스프레드시트</string>
-    <string name="google_sheets_short">스프레드시트</string>
-    <string name="google_slides_long">Google 프레젠테이션</string>
-    <string name="google_slides_short">프레젠테이션</string>
     <string name="grid_sync_download_label_format">"%1$s/%2$s
 다운로드 중"</string>
     <string name="grid_sync_upload_label_format">"%1$s/%2$s
@@ -688,35 +635,24 @@
     <string name="label_password_incorrect">비밀번호가 잘못됨</string>
     <string name="label_zoom" formatted="false">%1$d% 확대/축소</string>
     <string name="launch_drive">드라이브를 시작하여 파일 더 가져오기</string>
-    <string name="launcher_scan_short">스캔</string>
-    <string name="launcher_search_short">검색</string>
-    <string name="launcher_upload_short">업로드</string>
-    <string name="learn_more">자세히 알아보기</string>
-    <string name="libraries_material_featurehighlight_dismiss">취소</string>
     <string name="linksharing_saved">공유 설정 저장됨</string>
     <string name="loading">로드 중…</string>
     <string name="loading_document">문서 로드 중</string>
     <string name="loading_for_printing">문서 로드 중</string>
     <string name="loading_printers">프린터 로드 중...</string>
     <string name="location_entry_content_description">위치: %1$s. 항목을 열려면 두 번 탭하세요.</string>
-    <string name="location_entry_content_description_unclickable">위치: %1$s</string>
-    <string name="location_removed_entry_content_description">%1$s에서 삭제되었습니다. 열려면 두 번 탭하세요.</string>
-    <string name="location_removed_entry_content_description_unclickable">%1$s에서 삭제되었습니다.</string>
     <string name="manage_accounts">계정 관리</string>
     <string name="manage_backup">백업 관리</string>
+    <string name="manage_backup_page_title">백업 관리</string>
     <string name="manage_backup_summary">백업된 앱 목록</string>
-    <string name="manage_members_default_members">기본적으로 멤버가 다른 멤버를 수정, 정리, 추가할 수 있습니다.</string>
-    <string name="manage_members_dialog_title">%s 멤버</string>
     <string name="manifest_app_pdfviewer">Google PDF 뷰어</string>
     <string name="manifest_app_projector">프로젝터</string>
     <string name="manifest_intent_view_pdf">PDF 뷰어</string>
     <string name="manifest_intent_view_pdf_drive">드라이브 PDF 뷰어</string>
     <string name="media_player_error">재생 오류가 발생했습니다.</string>
     <string name="menu_account_settings">계정 설정</string>
-    <string name="menu_add_members">멤버 추가</string>
-    <string name="menu_backup">백업</string>
     <string name="menu_create_new_doc">새로 추가</string>
-    <string name="menu_create_shortcut">메인 스크린에 추가</string>
+    <string name="menu_create_shortcut">홈 화면에 추가</string>
     <string name="menu_delete">삭제</string>
     <string name="menu_doc_view_grid_mode">바둑판식 보기</string>
     <string name="menu_doc_view_list_mode">목록으로 보기</string>
@@ -730,11 +666,8 @@
     <string name="menu_full_screen">전체 화면으로 전환</string>
     <string name="menu_google_photos">Google 포토</string>
     <string name="menu_help">도움말</string>
-    <string name="menu_help_and_feedback">고객센터</string>
-    <string name="menu_item_manage_members">멤버 관리</string>
-    <string name="menu_item_use_advanced_permission">고급 권한 사용</string>
+    <string name="menu_help_and_feedback">도움말 및 의견</string>
     <string name="menu_learn_more">자세히 알아보기</string>
-    <string name="menu_manage_members">멤버 관리</string>
     <string name="menu_move_to">이동</string>
     <string name="menu_my_drive">내 드라이브</string>
     <string name="menu_navigation_devices">기기</string>
@@ -770,6 +703,7 @@
     <string name="menu_show_team_drives">팀 드라이브</string>
     <string name="menu_show_trash">휴지통</string>
     <string name="menu_show_trix">스프레드시트</string>
+    <string name="menu_show_upload">업로드</string>
     <string name="menu_sort_by">정렬 기준</string>
     <string name="menu_sort_creation_time">만든 날짜</string>
     <string name="menu_sort_direction">정렬 방향</string>
@@ -783,36 +717,17 @@
     <string name="menu_trash_delete_forever">삭제</string>
     <string name="menu_trash_restore">복원</string>
     <string name="menu_unpin">기기에서 삭제</string>
-    <string name="menu_view_members">멤버 보기</string>
     <string name="message_downloaded_file">%1$s을(를) 다운로드했습니다.</string>
     <string name="message_match_status">%1$d/%2$d</string>
     <string name="message_no_matches_found">일치하는 항목 없음</string>
-    <string name="more_actions_content_description">추가 작업</string>
-    <string name="more_info">자세한 정보</string>
     <string name="more_string">%1$d명 이상</string>
     <string name="move">이동</string>
-    <string name="move_confirm_dialog_message_cannot_undo">‘%1$s’에 항목을 추가하고 수정할 수 있는 권한만 있으므로 이 작업을 실행취소할 수 없습니다.</string>
-    <string name="move_confirm_dialog_message_lose_access_shared_folders">공유 폴더에서 일부 항목을 이동하므로 다른 사용자가 이 항목에 액세스하지 못하게 됩니다.</string>
-    <string name="move_confirm_dialog_message_lose_access_team_drives">팀 드라이브에서 일부 항목을 이동하므로 다른 사용자가 이 항목에 액세스하지 못하게 됩니다.</string>
-    <string name="move_confirm_dialog_message_lose_access_team_drives_and_shared_folders">공유 폴더 및 팀 드라이브에서 일부 항목을 이동하므로 다른 사용자가 이 항목에 액세스하지 못하게 됩니다.</string>
     <string name="move_confirm_dialog_title">이동 확인</string>
-    <string name="move_confirm_dialog_title_cannot_undo">이 작업을 실행취소할 수 없음</string>
-    <string name="move_confirm_dialog_title_lose_access">일부 사용자가 액세스할 수 없게 됨</string>
-    <string name="move_confirm_dialog_title_lose_access_single_td">‘%1$s’에서 액세스할 수 없게 됨</string>
     <string name="move_confirm_dialog_title_unshare">공유 폴더에서 나가시겠습니까?</string>
     <string name="move_dialog_title">대상 폴더 선택</string>
-    <string name="move_error_cannot_move_in_folders">아직 팀 드라이브로 폴더를 이동할 수 없습니다.</string>
-    <string name="move_error_cannot_move_out_folders">아직 팀 드라이브 밖으로 폴더를 이동할 수 없습니다.</string>
-    <string name="move_error_no_permission_dest">"항목을 '%1$s'(으)로 이동할 수 있는 권한이 없습니다."</string>
     <string name="move_error_read_only_folder">이 폴더로 항목을 이동할 권한이 없습니다.</string>
-    <string name="move_error_target_folder_not_exist">대상 폴더가 존재하지 않습니다.</string>
-    <string name="move_error_team_drive_items_not_supported_yet">팀 드라이브에서는 아직 이동을 지원하지 않습니다.</string>
     <string name="move_multi_parent_file">여러 폴더에 있는 파일을 정리하려면 컴퓨터에서 드라이브를 열어 작업하세요.</string>
     <string name="move_multi_parent_folder">여러 폴더에 있는 폴더를 정리하려면 컴퓨터에서 드라이브를 열어 작업하세요.</string>
-    <string name="move_notice_lost_access_shared_folders">항목이 공유 폴더 외부로 이동했습니다. 일부 사용자가 이 항목에 액세스할 수 없게 되었습니다.</string>
-    <string name="move_notice_lost_access_team_drive_single">%1$s ‘%2$s’에서 액세스할 수 없습니다.</string>
-    <string name="move_notice_lost_access_team_drives">항목이 팀 드라이브 외부로 이동했습니다. 일부 사용자가 이 항목에 액세스할 수 없게 되었습니다.</string>
-    <string name="move_notice_lost_access_team_drives_and_shared_folders">항목이 팀 드라이브 및 공유 폴더 외부로 이동했습니다. 일부 사용자가 이 항목에 액세스할 수 없게 되었습니다.</string>
     <string name="move_shared_to_shared">"%1$s을(를) 공유 폴더 %2$s에서 이동하면 모든 공동작업자의 액세스 권한이 삭제됩니다. 
 
 앞으로는 %3$s에서 공유됩니다."</string>
@@ -832,14 +747,10 @@
     <string name="new_folder_title">새 폴더</string>
     <string name="new_kix_title">문서 제목</string>
     <string name="new_punch_title">프레젠테이션 제목</string>
-    <string name="new_team_drive_title">새 팀 드라이브</string>
     <string name="new_trix_title">스프레드시트 제목</string>
     <string name="no_account_for_upload_message">드라이브에 업로드하려면 Google 계정으로 로그인하거나 Google 계정을 만드세요.</string>
     <string name="no_account_for_upload_setup_account">계정 설정</string>
     <string name="no_account_for_upload_title">드라이브에 업로드</string>
-    <string name="no_backup_help_card_button">백업 설정</string>
-    <string name="no_backup_help_card_content">이후에 데이터를 복구하고 휴대전화를 전환할 수 있도록 자동 백업을 사용 설정하세요.</string>
-    <string name="no_backup_help_card_title">이 기기를 백업하지 않음</string>
     <string name="notification_extra_text_is_too_long">업로드할 수 없습니다. 텍스트가 너무 깁니다.</string>
     <string name="notification_feedback">의견 보내기</string>
     <string name="notification_help_card_content">이제 내게 파일이 공유되거나, 다른 사람이 특정 파일에 대한 액세스를 요청하거나, 기타 중요한 이벤트가 발생하면 드라이브에서 내게 알림을 보냅니다.</string>
@@ -848,6 +759,7 @@
     <string name="notification_home_empty_title">최근 알림 없음</string>
     <string name="notification_home_read">읽음</string>
     <string name="notification_home_unread">읽지 않음</string>
+    <string name="notification_message">메시지: %1$s</string>
     <string name="notification_setting_access_request_title">액세스 요청 알림</string>
     <string name="notification_setting_comment_title">댓글 알림</string>
     <string name="notification_setting_keep_on">보관</string>
@@ -871,44 +783,36 @@
     <string name="notify_access_request_description_num_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_ITEMS_1,plural, =1{}other{항목 {NUM_ITEMS_2}개에 대한 액세스 권한을 요청함}}}male{{NUM_ITEMS_1,plural, =1{}other{항목 {NUM_ITEMS_2}개에 대한 액세스 권한을 요청함}}}other{{NUM_ITEMS_1,plural, =1{}other{항목 {NUM_ITEMS_2}개에 대한 액세스 권한을 요청함}}}}}male{{SENDER_GENDER,select, female{{NUM_ITEMS_1,plural, =1{}other{항목 {NUM_ITEMS_2}개에 대한 액세스 권한을 요청함}}}male{{NUM_ITEMS_1,plural, =1{}other{항목 {NUM_ITEMS_2}개에 대한 액세스 권한을 요청함}}}other{{NUM_ITEMS_1,plural, =1{}other{항목 {NUM_ITEMS_2}개에 대한 액세스 권한을 요청함}}}}}other{{SENDER_GENDER,select, female{{NUM_ITEMS_1,plural, =1{}other{항목 {NUM_ITEMS_2}개에 대한 액세스 권한을 요청함}}}male{{NUM_ITEMS_1,plural, =1{}other{항목 {NUM_ITEMS_2}개에 대한 액세스 권한을 요청함}}}other{{NUM_ITEMS_1,plural, =1{}other{항목 {NUM_ITEMS_2}개에 대한 액세스 권한을 요청함}}}}}}</string>
     <string name="notify_comment_text_quoted">"'%1$s'"</string>
     <string name="notify_comment_text_suggestion_with_content_type">%1$s: %2$s</string>
-    <string name="notify_comment_text_with_content_type">"%1$s: '%2$s'"</string>
+    <string name="notify_comment_text_with_content_type">"%1$s '%2$s'"</string>
     <string name="notify_comments_description_many_comments_many_users_icu">{RECIPIENT_GENDER,select, female{‘{ITEM_TITLE}’에 댓글 99개 이상 추가됨}male{‘{ITEM_TITLE}’에 댓글 99개 이상 추가됨}other{‘{ITEM_TITLE}’에 댓글 99개 이상 추가됨}}</string>
     <string name="notify_comments_description_many_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에 댓글 99개 이상 추가됨}male{‘{ITEM_TITLE}’에 댓글 99개 이상 추가됨}other{‘{ITEM_TITLE}’에 댓글 99개 이상 추가됨}}}male{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에 댓글 99개 이상 추가됨}male{‘{ITEM_TITLE}’에 댓글 99개 이상 추가됨}other{‘{ITEM_TITLE}’에 댓글 99개 이상 추가됨}}}other{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에 댓글 99개 이상 추가됨}male{‘{ITEM_TITLE}’에 댓글 99개 이상 추가됨}other{‘{ITEM_TITLE}’에 댓글 99개 이상 추가됨}}}}</string>
+    <string name="notify_comments_description_many_items_many_users_icu">{RECIPIENT_GENDER,select, female{‘{ITEM_TITLE}’에 댓글 및 제안사항 99개 이상 추가됨}male{‘{ITEM_TITLE}’에 댓글 및 제안사항 99개 이상 추가됨}other{‘{ITEM_TITLE}’에 댓글 및 제안사항 99개 이상 추가됨}}</string>
+    <string name="notify_comments_description_many_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에 댓글 및 제안사항 99개 이상 추가됨}male{‘{ITEM_TITLE}’에 댓글 및 제안사항 99개 이상 추가됨}other{‘{ITEM_TITLE}’에 댓글 및 제안사항 99개 이상 추가됨}}}male{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에 댓글 및 제안사항 99개 이상 추가됨}male{‘{ITEM_TITLE}’에 댓글 및 제안사항 99개 이상 추가됨}other{‘{ITEM_TITLE}’에 댓글 및 제안사항 99개 이상 추가됨}}}other{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에 댓글 및 제안사항 99개 이상 추가됨}male{‘{ITEM_TITLE}’에 댓글 및 제안사항 99개 이상 추가됨}other{‘{ITEM_TITLE}’에 댓글 및 제안사항 99개 이상 추가됨}}}}</string>
     <string name="notify_comments_description_many_suggestions_many_users_icu">{RECIPIENT_GENDER,select, female{‘{ITEM_TITLE}’에 제안사항 99개 이상 추가됨}male{‘{ITEM_TITLE}’에 제안사항 99개 이상 추가됨}other{‘{ITEM_TITLE}’에 제안사항 99개 이상 추가됨}}</string>
     <string name="notify_comments_description_many_suggestions_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에 제안사항 99개 이상 추가됨}male{‘{ITEM_TITLE}’에 제안사항 99개 이상 추가됨}other{‘{ITEM_TITLE}’에 제안사항 99개 이상 추가됨}}}male{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에 제안사항 99개 이상 추가됨}male{‘{ITEM_TITLE}’에 제안사항 99개 이상 추가됨}other{‘{ITEM_TITLE}’에 제안사항 99개 이상 추가됨}}}other{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에 제안사항 99개 이상 추가됨}male{‘{ITEM_TITLE}’에 제안사항 99개 이상 추가됨}other{‘{ITEM_TITLE}’에 제안사항 99개 이상 추가됨}}}}</string>
-    <string name="notify_comments_description_many_todos_many_users_icu">{RECIPIENT_GENDER,select, female{‘{ITEM_TITLE}’에 작업 항목 99개 이상 추가됨}male{‘{ITEM_TITLE}’에 작업 항목 99개 이상 추가됨}other{‘{ITEM_TITLE}’에 작업 항목 99개 이상 추가됨}}</string>
-    <string name="notify_comments_description_many_todos_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에 작업 항목 99개 이상 추가됨}male{‘{ITEM_TITLE}’에 작업 항목 99개 이상 추가됨}other{‘{ITEM_TITLE}’에 작업 항목 99개 이상 추가됨}}}male{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에 작업 항목 99개 이상 추가됨}male{‘{ITEM_TITLE}’에 작업 항목 99개 이상 추가됨}other{‘{ITEM_TITLE}’에 작업 항목 99개 이상 추가됨}}}other{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에 작업 항목 99개 이상 추가됨}male{‘{ITEM_TITLE}’에 작업 항목 99개 이상 추가됨}other{‘{ITEM_TITLE}’에 작업 항목 99개 이상 추가됨}}}}</string>
-    <string name="notify_comments_description_num_comments_many_users_icu">{RECIPIENT_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 {TOTAL_ITEMS_2}개}}}male{{TOTAL_ITEMS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 {TOTAL_ITEMS_2}개}}}other{{TOTAL_ITEMS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 {TOTAL_ITEMS_2}개}}}}</string>
-    <string name="notify_comments_description_num_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 {TOTAL_ITEMS_2}개}}}male{{TOTAL_ITEMS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 {TOTAL_ITEMS_2}개}}}other{{TOTAL_ITEMS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 {TOTAL_ITEMS_2}개}}}}}male{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 {TOTAL_ITEMS_2}개}}}male{{TOTAL_ITEMS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 {TOTAL_ITEMS_2}개}}}other{{TOTAL_ITEMS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 {TOTAL_ITEMS_2}개}}}}}other{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 {TOTAL_ITEMS_2}개}}}male{{TOTAL_ITEMS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 {TOTAL_ITEMS_2}개}}}other{{TOTAL_ITEMS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 {TOTAL_ITEMS_2}개}}}}}}</string>
+    <string name="notify_comments_description_num_comments_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 {NUM_COMMENTS_2}개가 작성됨}}}male{{NUM_COMMENTS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 {NUM_COMMENTS_2}개가 작성됨}}}other{{NUM_COMMENTS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 {NUM_COMMENTS_2}개가 작성됨}}}}</string>
+    <string name="notify_comments_description_num_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 {NUM_COMMENTS_2}개가 작성됨}}}male{{NUM_COMMENTS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 {NUM_COMMENTS_2}개가 작성됨}}}other{{NUM_COMMENTS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 {NUM_COMMENTS_2}개가 작성됨}}}}}male{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 {NUM_COMMENTS_2}개가 작성됨}}}male{{NUM_COMMENTS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 {NUM_COMMENTS_2}개가 작성됨}}}other{{NUM_COMMENTS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 {NUM_COMMENTS_2}개가 작성됨}}}}}other{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 {NUM_COMMENTS_2}개가 작성됨}}}male{{NUM_COMMENTS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 {NUM_COMMENTS_2}개가 작성됨}}}other{{NUM_COMMENTS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 {NUM_COMMENTS_2}개가 작성됨}}}}}}</string>
+    <string name="notify_comments_description_num_items_many_users_icu">{RECIPIENT_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 및 제안사항 {TOTAL_ITEMS_2}개 추가됨}}}male{{TOTAL_ITEMS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 및 제안사항 {TOTAL_ITEMS_2}개 추가됨}}}other{{TOTAL_ITEMS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 및 제안사항 {TOTAL_ITEMS_2}개 추가됨}}}}</string>
+    <string name="notify_comments_description_num_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 및 제안사항 {TOTAL_ITEMS_2}개 추가됨}}}male{{TOTAL_ITEMS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 및 제안사항 {TOTAL_ITEMS_2}개 추가됨}}}other{{TOTAL_ITEMS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 및 제안사항 {TOTAL_ITEMS_2}개 추가됨}}}}}male{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 및 제안사항 {TOTAL_ITEMS_2}개 추가됨}}}male{{TOTAL_ITEMS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 및 제안사항 {TOTAL_ITEMS_2}개 추가됨}}}other{{TOTAL_ITEMS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 및 제안사항 {TOTAL_ITEMS_2}개 추가됨}}}}}other{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 및 제안사항 {TOTAL_ITEMS_2}개 추가됨}}}male{{TOTAL_ITEMS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 및 제안사항 {TOTAL_ITEMS_2}개 추가됨}}}other{{TOTAL_ITEMS_1,plural, =1{}other{‘{ITEM_TITLE}’에 댓글 및 제안사항 {TOTAL_ITEMS_2}개 추가됨}}}}}}</string>
     <string name="notify_comments_description_num_suggestions_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}other{‘{ITEM_TITLE}’에 제안사항 {NUM_SUGGESTIONS_2}개 추가됨}}}male{{NUM_SUGGESTIONS_1,plural, =1{}other{‘{ITEM_TITLE}’에 제안사항 {NUM_SUGGESTIONS_2}개 추가됨}}}other{{NUM_SUGGESTIONS_1,plural, =1{}other{‘{ITEM_TITLE}’에 제안사항 {NUM_SUGGESTIONS_2}개 추가됨}}}}</string>
     <string name="notify_comments_description_num_suggestions_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}other{‘{ITEM_TITLE}’에 제안사항 {NUM_SUGGESTIONS_2}개 추가됨}}}male{{NUM_SUGGESTIONS_1,plural, =1{}other{‘{ITEM_TITLE}’에 제안사항 {NUM_SUGGESTIONS_2}개 추가됨}}}other{{NUM_SUGGESTIONS_1,plural, =1{}other{‘{ITEM_TITLE}’에 제안사항 {NUM_SUGGESTIONS_2}개 추가됨}}}}}male{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}other{‘{ITEM_TITLE}’에 제안사항 {NUM_SUGGESTIONS_2}개 추가됨}}}male{{NUM_SUGGESTIONS_1,plural, =1{}other{‘{ITEM_TITLE}’에 제안사항 {NUM_SUGGESTIONS_2}개 추가됨}}}other{{NUM_SUGGESTIONS_1,plural, =1{}other{‘{ITEM_TITLE}’에 제안사항 {NUM_SUGGESTIONS_2}개 추가됨}}}}}other{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}other{‘{ITEM_TITLE}’에 제안사항 {NUM_SUGGESTIONS_2}개 추가됨}}}male{{NUM_SUGGESTIONS_1,plural, =1{}other{‘{ITEM_TITLE}’에 제안사항 {NUM_SUGGESTIONS_2}개 추가됨}}}other{{NUM_SUGGESTIONS_1,plural, =1{}other{‘{ITEM_TITLE}’에 제안사항 {NUM_SUGGESTIONS_2}개 추가됨}}}}}}</string>
-    <string name="notify_comments_description_num_todos_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_TODOS_1,plural, =1{}other{‘{ITEM_TITLE}’에 작업 항목 {NUM_TODOS_2}개 추가됨}}}male{{NUM_TODOS_1,plural, =1{}other{‘{ITEM_TITLE}’에 작업 항목 {NUM_TODOS_2}개 추가됨}}}other{{NUM_TODOS_1,plural, =1{}other{‘{ITEM_TITLE}’에 작업 항목 {NUM_TODOS_2}개 추가됨}}}}</string>
-    <string name="notify_comments_description_num_todos_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}other{‘{ITEM_TITLE}’에 작업 항목 {NUM_TODOS_2}개 추가됨}}}male{{NUM_TODOS_1,plural, =1{}other{‘{ITEM_TITLE}’에 작업 항목 {NUM_TODOS_2}개 추가됨}}}other{{NUM_TODOS_1,plural, =1{}other{‘{ITEM_TITLE}’에 작업 항목 {NUM_TODOS_2}개 추가됨}}}}}male{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}other{‘{ITEM_TITLE}’에 작업 항목 {NUM_TODOS_2}개 추가됨}}}male{{NUM_TODOS_1,plural, =1{}other{‘{ITEM_TITLE}’에 작업 항목 {NUM_TODOS_2}개 추가됨}}}other{{NUM_TODOS_1,plural, =1{}other{‘{ITEM_TITLE}’에 작업 항목 {NUM_TODOS_2}개 추가됨}}}}}other{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}other{‘{ITEM_TITLE}’에 작업 항목 {NUM_TODOS_2}개 추가됨}}}male{{NUM_TODOS_1,plural, =1{}other{‘{ITEM_TITLE}’에 작업 항목 {NUM_TODOS_2}개 추가됨}}}other{{NUM_TODOS_1,plural, =1{}other{‘{ITEM_TITLE}’에 작업 항목 {NUM_TODOS_2}개 추가됨}}}}}}</string>
-    <string name="notify_comments_description_only_one_assign_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에서 {ASSIGNEE}님에게 할당됨}male{‘{ITEM_TITLE}’에서 {ASSIGNEE}님에게 할당됨}other{‘{ITEM_TITLE}’에서 {ASSIGNEE}님에게 할당됨}}}male{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에서 {ASSIGNEE}님에게 할당됨}male{‘{ITEM_TITLE}’에서 {ASSIGNEE}님에게 할당됨}other{‘{ITEM_TITLE}’에서 {ASSIGNEE}님에게 할당됨}}}other{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에서 {ASSIGNEE}님에게 할당됨}male{‘{ITEM_TITLE}’에서 {ASSIGNEE}님에게 할당됨}other{‘{ITEM_TITLE}’에서 {ASSIGNEE}님에게 할당됨}}}}</string>
-    <string name="notify_comments_description_only_one_assign_to_you_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에서 나에게 할당됨}male{‘{ITEM_TITLE}’에서 나에게 할당됨}other{‘{ITEM_TITLE}’에서 나에게 할당됨}}}male{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에서 나에게 할당됨}male{‘{ITEM_TITLE}’에서 나에게 할당됨}other{‘{ITEM_TITLE}’에서 나에게 할당됨}}}other{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에서 나에게 할당됨}male{‘{ITEM_TITLE}’에서 나에게 할당됨}other{‘{ITEM_TITLE}’에서 나에게 할당됨}}}}</string>
     <string name="notify_comments_description_only_one_comment_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에 대해 댓글을 작성함}male{‘{ITEM_TITLE}’에 대해 댓글을 작성함}other{‘{ITEM_TITLE}’에 대해 댓글을 작성함}}}male{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에 대해 댓글을 작성함}male{‘{ITEM_TITLE}’에 대해 댓글을 작성함}other{‘{ITEM_TITLE}’에 대해 댓글을 작성함}}}other{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에 대해 댓글을 작성함}male{‘{ITEM_TITLE}’에 대해 댓글을 작성함}other{‘{ITEM_TITLE}’에 대해 댓글을 작성함}}}}</string>
     <string name="notify_comments_description_only_one_mention_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에서 나를 멘션함}male{‘{ITEM_TITLE}’에서 나를 멘션함}other{‘{ITEM_TITLE}’에서 나를 멘션함}}}male{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에서 나를 멘션함}male{‘{ITEM_TITLE}’에서 나를 멘션함}other{‘{ITEM_TITLE}’에서 나를 멘션함}}}other{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에서 나를 멘션함}male{‘{ITEM_TITLE}’에서 나를 멘션함}other{‘{ITEM_TITLE}’에서 나를 멘션함}}}}</string>
-    <string name="notify_comments_description_only_one_reassign_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에서 {ASSIGNEE}님에게 다시 할당됨}male{‘{ITEM_TITLE}’에서 {ASSIGNEE}님에게 다시 할당됨}other{‘{ITEM_TITLE}’에서 {ASSIGNEE}님에게 다시 할당됨}}}male{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에서 {ASSIGNEE}님에게 다시 할당됨}male{‘{ITEM_TITLE}’에서 {ASSIGNEE}님에게 다시 할당됨}other{‘{ITEM_TITLE}’에서 {ASSIGNEE}님에게 다시 할당됨}}}other{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에서 {ASSIGNEE}님에게 다시 할당됨}male{‘{ITEM_TITLE}’에서 {ASSIGNEE}님에게 다시 할당됨}other{‘{ITEM_TITLE}’에서 {ASSIGNEE}님에게 다시 할당됨}}}}</string>
-    <string name="notify_comments_description_only_one_reassign_to_you_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에서 나에게 다시 할당됨}male{‘{ITEM_TITLE}’에서 나에게 다시 할당됨}other{‘{ITEM_TITLE}’에서 나에게 다시 할당됨}}}male{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에서 나에게 다시 할당됨}male{‘{ITEM_TITLE}’에서 나에게 다시 할당됨}other{‘{ITEM_TITLE}’에서 나에게 다시 할당됨}}}other{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에서 나에게 다시 할당됨}male{‘{ITEM_TITLE}’에서 나에게 다시 할당됨}other{‘{ITEM_TITLE}’에서 나에게 다시 할당됨}}}}</string>
     <string name="notify_comments_description_only_one_suggestion_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에 변경사항 제안됨}male{‘{ITEM_TITLE}’에 변경사항 제안됨}other{‘{ITEM_TITLE}’에 변경사항 제안됨}}}male{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에 변경사항 제안됨}male{‘{ITEM_TITLE}’에 변경사항 제안됨}other{‘{ITEM_TITLE}’에 변경사항 제안됨}}}other{{SENDER_GENDER,select, female{‘{ITEM_TITLE}’에 변경사항 제안됨}male{‘{ITEM_TITLE}’에 변경사항 제안됨}other{‘{ITEM_TITLE}’에 변경사항 제안됨}}}}</string>
     <string name="notify_comments_description_short_many_comments_many_users_icu">{RECIPIENT_GENDER,select, female{댓글 99개 이상 추가됨}male{댓글 99개 이상 추가됨}other{댓글 99개 이상 추가됨}}</string>
     <string name="notify_comments_description_short_many_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{댓글 99개 이상 추가됨}male{댓글 99개 이상 추가됨}other{댓글 99개 이상 추가됨}}}male{{SENDER_GENDER,select, female{댓글 99개 이상 추가됨}male{댓글 99개 이상 추가됨}other{댓글 99개 이상 추가됨}}}other{{SENDER_GENDER,select, female{댓글 99개 이상 추가됨}male{댓글 99개 이상 추가됨}other{댓글 99개 이상 추가됨}}}}</string>
+    <string name="notify_comments_description_short_many_items_many_users_icu">{RECIPIENT_GENDER,select, female{댓글 및 제안사항 99개 이상 추가됨}male{댓글 및 제안사항 99개 이상 추가됨}other{댓글 및 제안사항 99개 이상 추가됨}}</string>
+    <string name="notify_comments_description_short_many_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{댓글 및 제안사항 99개 이상 추가됨}male{댓글 및 제안사항 99개 이상 추가됨}other{댓글 및 제안사항 99개 이상 추가됨}}}male{{SENDER_GENDER,select, female{댓글 및 제안사항 99개 이상 추가됨}male{댓글 및 제안사항 99개 이상 추가됨}other{댓글 및 제안사항 99개 이상 추가됨}}}other{{SENDER_GENDER,select, female{댓글 및 제안사항 99개 이상 추가됨}male{댓글 및 제안사항 99개 이상 추가됨}other{댓글 및 제안사항 99개 이상 추가됨}}}}</string>
     <string name="notify_comments_description_short_many_suggestions_many_users_icu">{RECIPIENT_GENDER,select, female{제안사항 99개 이상 추가됨}male{제안사항 99개 이상 추가됨}other{제안사항 99개 이상 추가됨}}</string>
     <string name="notify_comments_description_short_many_suggestions_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{제안사항 99개 이상 추가됨}male{제안사항 99개 이상 추가됨}other{제안사항 99개 이상 추가됨}}}male{{SENDER_GENDER,select, female{제안사항 99개 이상 추가됨}male{제안사항 99개 이상 추가됨}other{제안사항 99개 이상 추가됨}}}other{{SENDER_GENDER,select, female{제안사항 99개 이상 추가됨}male{제안사항 99개 이상 추가됨}other{제안사항 99개 이상 추가됨}}}}</string>
-    <string name="notify_comments_description_short_many_todos_many_users_icu">{RECIPIENT_GENDER,select, female{작업 항목 99개 이상 추가됨}male{작업 항목 99개 이상 추가됨}other{작업 항목 99개 이상 추가됨}}</string>
-    <string name="notify_comments_description_short_many_todos_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{작업 항목 99개 이상 추가됨}male{작업 항목 99개 이상 추가됨}other{작업 항목 99개 이상 추가됨}}}male{{SENDER_GENDER,select, female{작업 항목 99개 이상 추가됨}male{작업 항목 99개 이상 추가됨}other{작업 항목 99개 이상 추가됨}}}other{{SENDER_GENDER,select, female{작업 항목 99개 이상 추가됨}male{작업 항목 99개 이상 추가됨}other{작업 항목 99개 이상 추가됨}}}}</string>
-    <string name="notify_comments_description_short_num_comments_many_users_icu">{RECIPIENT_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{댓글 {TOTAL_ITEMS_2}개 추가됨}}}male{{TOTAL_ITEMS_1,plural, =1{}other{댓글 {TOTAL_ITEMS_2}개 추가됨}}}other{{TOTAL_ITEMS_1,plural, =1{}other{댓글 {TOTAL_ITEMS_2}개 추가됨}}}}</string>
-    <string name="notify_comments_description_short_num_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{댓글 {TOTAL_ITEMS_2}개 추가됨}}}male{{TOTAL_ITEMS_1,plural, =1{}other{댓글 {TOTAL_ITEMS_2}개 추가됨}}}other{{TOTAL_ITEMS_1,plural, =1{}other{댓글 {TOTAL_ITEMS_2}개 추가됨}}}}}male{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{댓글 {TOTAL_ITEMS_2}개 추가됨}}}male{{TOTAL_ITEMS_1,plural, =1{}other{댓글 {TOTAL_ITEMS_2}개 추가됨}}}other{{TOTAL_ITEMS_1,plural, =1{}other{댓글 {TOTAL_ITEMS_2}개 추가됨}}}}}other{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{댓글 {TOTAL_ITEMS_2}개 추가됨}}}male{{TOTAL_ITEMS_1,plural, =1{}other{댓글 {TOTAL_ITEMS_2}개 추가됨}}}other{{TOTAL_ITEMS_1,plural, =1{}other{댓글 {TOTAL_ITEMS_2}개 추가됨}}}}}}</string>
+    <string name="notify_comments_description_short_num_comments_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}other{댓글 {NUM_COMMENTS_2}개를 추가함}}}male{{NUM_COMMENTS_1,plural, =1{}other{댓글 {NUM_COMMENTS_2}개를 추가함}}}other{{NUM_COMMENTS_1,plural, =1{}other{댓글 {NUM_COMMENTS_2}개를 추가함}}}}</string>
+    <string name="notify_comments_description_short_num_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}other{댓글 {NUM_COMMENTS_2}개를 추가함}}}male{{NUM_COMMENTS_1,plural, =1{}other{댓글 {NUM_COMMENTS_2}개를 추가함}}}other{{NUM_COMMENTS_1,plural, =1{}other{댓글 {NUM_COMMENTS_2}개를 추가함}}}}}male{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}other{댓글 {NUM_COMMENTS_2}개를 추가함}}}male{{NUM_COMMENTS_1,plural, =1{}other{댓글 {NUM_COMMENTS_2}개를 추가함}}}other{{NUM_COMMENTS_1,plural, =1{}other{댓글 {NUM_COMMENTS_2}개를 추가함}}}}}other{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}other{댓글 {NUM_COMMENTS_2}개를 추가함}}}male{{NUM_COMMENTS_1,plural, =1{}other{댓글 {NUM_COMMENTS_2}개를 추가함}}}other{{NUM_COMMENTS_1,plural, =1{}other{댓글 {NUM_COMMENTS_2}개를 추가함}}}}}}</string>
+    <string name="notify_comments_description_short_num_items_many_users_icu">{RECIPIENT_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{댓글 및 제안사항 {TOTAL_ITEMS_2}개 추가됨}}}male{{TOTAL_ITEMS_1,plural, =1{}other{댓글 및 제안사항 {TOTAL_ITEMS_2}개 추가됨}}}other{{TOTAL_ITEMS_1,plural, =1{}other{댓글 및 제안사항 {TOTAL_ITEMS_2}개 추가됨}}}}</string>
+    <string name="notify_comments_description_short_num_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{댓글 및 제안사항 {TOTAL_ITEMS_2}개 추가됨}}}male{{TOTAL_ITEMS_1,plural, =1{}other{댓글 및 제안사항 {TOTAL_ITEMS_2}개 추가됨}}}other{{TOTAL_ITEMS_1,plural, =1{}other{댓글 및 제안사항 {TOTAL_ITEMS_2}개 추가됨}}}}}male{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{댓글 및 제안사항 {TOTAL_ITEMS_2}개 추가됨}}}male{{TOTAL_ITEMS_1,plural, =1{}other{댓글 및 제안사항 {TOTAL_ITEMS_2}개 추가됨}}}other{{TOTAL_ITEMS_1,plural, =1{}other{댓글 및 제안사항 {TOTAL_ITEMS_2}개 추가됨}}}}}other{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{댓글 및 제안사항 {TOTAL_ITEMS_2}개 추가됨}}}male{{TOTAL_ITEMS_1,plural, =1{}other{댓글 및 제안사항 {TOTAL_ITEMS_2}개 추가됨}}}other{{TOTAL_ITEMS_1,plural, =1{}other{댓글 및 제안사항 {TOTAL_ITEMS_2}개 추가됨}}}}}}</string>
     <string name="notify_comments_description_short_num_suggestions_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}other{변경사항 {NUM_SUGGESTIONS_2}개 제안됨}}}male{{NUM_SUGGESTIONS_1,plural, =1{}other{변경사항 {NUM_SUGGESTIONS_2}개 제안됨}}}other{{NUM_SUGGESTIONS_1,plural, =1{}other{변경사항 {NUM_SUGGESTIONS_2}개 제안됨}}}}</string>
     <string name="notify_comments_description_short_num_suggestions_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}other{제안 {NUM_SUGGESTIONS_2}개 추가됨}}}male{{NUM_SUGGESTIONS_1,plural, =1{}other{제안 {NUM_SUGGESTIONS_2}개 추가됨}}}other{{NUM_SUGGESTIONS_1,plural, =1{}other{제안 {NUM_SUGGESTIONS_2}개 추가됨}}}}}male{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}other{제안 {NUM_SUGGESTIONS_2}개 추가됨}}}male{{NUM_SUGGESTIONS_1,plural, =1{}other{제안 {NUM_SUGGESTIONS_2}개 추가됨}}}other{{NUM_SUGGESTIONS_1,plural, =1{}other{제안 {NUM_SUGGESTIONS_2}개 추가됨}}}}}other{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}other{제안 {NUM_SUGGESTIONS_2}개 추가됨}}}male{{NUM_SUGGESTIONS_1,plural, =1{}other{제안 {NUM_SUGGESTIONS_2}개 추가됨}}}other{{NUM_SUGGESTIONS_1,plural, =1{}other{제안 {NUM_SUGGESTIONS_2}개 추가됨}}}}}}</string>
-    <string name="notify_comments_description_short_num_todos_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_TODOS_1,plural, =1{}other{작업 항목 {NUM_TODOS_2}개 추가됨}}}male{{NUM_TODOS_1,plural, =1{}other{작업 항목 {NUM_TODOS_2}개 추가됨}}}other{{NUM_TODOS_1,plural, =1{}other{작업 항목 {NUM_TODOS_2}개 추가됨}}}}</string>
-    <string name="notify_comments_description_short_num_todos_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}other{작업 항목 {NUM_TODOS_2}개 추가됨}}}male{{NUM_TODOS_1,plural, =1{}other{작업 항목 {NUM_TODOS_2}개 추가됨}}}other{{NUM_TODOS_1,plural, =1{}other{작업 항목 {NUM_TODOS_2}개 추가됨}}}}}male{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}other{작업 항목 {NUM_TODOS_2}개 추가됨}}}male{{NUM_TODOS_1,plural, =1{}other{작업 항목 {NUM_TODOS_2}개 추가됨}}}other{{NUM_TODOS_1,plural, =1{}other{작업 항목 {NUM_TODOS_2}개 추가됨}}}}}other{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}other{작업 항목 {NUM_TODOS_2}개 추가됨}}}male{{NUM_TODOS_1,plural, =1{}other{작업 항목 {NUM_TODOS_2}개 추가됨}}}other{{NUM_TODOS_1,plural, =1{}other{작업 항목 {NUM_TODOS_2}개 추가됨}}}}}}</string>
-    <string name="notify_comments_description_short_only_one_assign_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{ASSIGNEE}님에게 할당됨}male{{ASSIGNEE}님에게 할당됨}other{{ASSIGNEE}님에게 할당됨}}}male{{SENDER_GENDER,select, female{{ASSIGNEE}님에게 할당됨}male{{ASSIGNEE}님에게 할당됨}other{{ASSIGNEE}님에게 할당됨}}}other{{SENDER_GENDER,select, female{{ASSIGNEE}님에게 할당됨}male{{ASSIGNEE}님에게 할당됨}other{{ASSIGNEE}님에게 할당됨}}}}</string>
-    <string name="notify_comments_description_short_only_one_assign_to_you_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{나에게 할당됨}male{나에게 할당됨}other{나에게 할당됨}}}male{{SENDER_GENDER,select, female{나에게 할당됨}male{나에게 할당됨}other{나에게 할당됨}}}other{{SENDER_GENDER,select, female{나에게 할당됨}male{나에게 할당됨}other{나에게 할당됨}}}}</string>
     <string name="notify_comments_description_short_only_one_comment_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{댓글을 추가함}male{댓글을 추가함}other{댓글을 추가함}}}male{{SENDER_GENDER,select, female{댓글을 추가함}male{댓글을 추가함}other{댓글을 추가함}}}other{{SENDER_GENDER,select, female{댓글을 추가함}male{댓글을 추가함}other{댓글을 추가함}}}}</string>
     <string name="notify_comments_description_short_only_one_mention_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{나를 멘션함}male{나를 멘션함}other{나를 멘션함}}}male{{SENDER_GENDER,select, female{나를 멘션함}male{나를 멘션함}other{나를 멘션함}}}other{{SENDER_GENDER,select, female{나를 멘션함}male{나를 멘션함}other{나를 멘션함}}}}</string>
-    <string name="notify_comments_description_short_only_one_reassign_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{ASSIGNEE}님에게 다시 할당됨}male{{ASSIGNEE}님에게 다시 할당됨}other{{ASSIGNEE}님에게 다시 할당됨}}}male{{SENDER_GENDER,select, female{{ASSIGNEE}님에게 다시 할당됨}male{{ASSIGNEE}님에게 다시 할당됨}other{{ASSIGNEE}님에게 다시 할당됨}}}other{{SENDER_GENDER,select, female{{ASSIGNEE}님에게 다시 할당됨}male{{ASSIGNEE}님에게 다시 할당됨}other{{ASSIGNEE}님에게 다시 할당됨}}}}</string>
-    <string name="notify_comments_description_short_only_one_reassign_to_you_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{나에게 다시 할당됨}male{나에게 다시 할당됨}other{나에게 다시 할당됨}}}male{{SENDER_GENDER,select, female{나에게 다시 할당됨}male{나에게 다시 할당됨}other{나에게 다시 할당됨}}}other{{SENDER_GENDER,select, female{나에게 다시 할당됨}male{나에게 다시 할당됨}other{나에게 다시 할당됨}}}}</string>
     <string name="notify_comments_description_short_only_one_suggestion_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{변경사항을 제안함}male{변경사항을 제안함}other{변경사항을 제안함}}}male{{SENDER_GENDER,select, female{변경사항을 제안함}male{변경사항을 제안함}other{변경사항을 제안함}}}other{{SENDER_GENDER,select, female{변경사항을 제안함}male{변경사항을 제안함}other{변경사항을 제안함}}}}</string>
     <string name="notify_comments_reply_text_icu">{RECIPIENT_GENDER,select, female{{OTHER_POSTER_COUNT_1,plural, =0{{POSTER_NAME}님에게 답장}=1{{POSTER_NAME}님 외 1명에게 답장}other{{POSTER_NAME}님 외 {OTHER_POSTER_COUNT_2}명에게 답장}}}male{{OTHER_POSTER_COUNT_1,plural, =0{{POSTER_NAME}님에게 답장}=1{{POSTER_NAME}님 외 1명에게 답장}other{{POSTER_NAME}님 외 {OTHER_POSTER_COUNT_2}명에게 답장}}}other{{OTHER_POSTER_COUNT_1,plural, =0{{POSTER_NAME}님에게 답장}=1{{POSTER_NAME}님 외 1명에게 답장}other{{POSTER_NAME}님 외 {OTHER_POSTER_COUNT_2}명에게 답장}}}}</string>
     <string name="notify_description_role_comment_request_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{댓글 액세스 권한을 요청함}male{댓글 액세스 권한을 요청함}other{댓글 액세스 권한을 요청함}}}male{{SENDER_GENDER,select, female{댓글 액세스 권한을 요청함}male{댓글 액세스 권한을 요청함}other{댓글 액세스 권한을 요청함}}}other{{SENDER_GENDER,select, female{댓글 액세스 권한을 요청함}male{댓글 액세스 권한을 요청함}other{댓글 액세스 권한을 요청함}}}}</string>
@@ -916,16 +820,6 @@
     <string name="notify_description_role_generic_access_request_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{액세스 권한을 요청함}male{액세스 권한을 요청함}other{액세스 권한을 요청함}}}male{{SENDER_GENDER,select, female{액세스 권한을 요청함}male{액세스 권한을 요청함}other{액세스 권한을 요청함}}}other{{SENDER_GENDER,select, female{액세스 권한을 요청함}male{액세스 권한을 요청함}other{액세스 권한을 요청함}}}}</string>
     <string name="notify_description_role_own_request_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{소유 권한을 요청함}male{소유 권한을 요청함}other{소유 권한을 요청함}}}male{{SENDER_GENDER,select, female{소유 권한을 요청함}male{소유 권한을 요청함}other{소유 권한을 요청함}}}other{{SENDER_GENDER,select, female{소유 권한을 요청함}male{소유 권한을 요청함}other{소유 권한을 요청함}}}}</string>
     <string name="notify_description_role_view_request_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{보기 액세스 권한을 요청함}male{보기 액세스 권한을 요청함}other{보기 액세스 권한을 요청함}}}male{{SENDER_GENDER,select, female{보기 액세스 권한을 요청함}male{보기 액세스 권한을 요청함}other{보기 액세스 권한을 요청함}}}other{{SENDER_GENDER,select, female{보기 액세스 권한을 요청함}male{보기 액세스 권한을 요청함}other{보기 액세스 권한을 요청함}}}}</string>
-    <string name="notify_drive_storage_expired_icu">{RECIPIENT_GENDER,select, female{드라이브 스토리지가 만료되었습니다.}male{드라이브 스토리지가 만료되었습니다.}other{드라이브 스토리지가 만료되었습니다.}}</string>
-    <string name="notify_drive_storage_expires_friday">{RECIPIENT_GENDER,select, female{드라이브 스토리지가 금요일에 만료됩니다.}male{드라이브 스토리지가 금요일에 만료됩니다.}other{드라이브 스토리지가 금요일에 만료됩니다.}}</string>
-    <string name="notify_drive_storage_expires_monday">{RECIPIENT_GENDER,select, female{드라이브 스토리지가 월요일에 만료됩니다.}male{드라이브 스토리지가 월요일에 만료됩니다.}other{드라이브 스토리지가 월요일에 만료됩니다.}}</string>
-    <string name="notify_drive_storage_expires_saturday">{RECIPIENT_GENDER,select, female{드라이브 스토리지가 토요일에 만료됩니다.}male{드라이브 스토리지가 토요일에 만료됩니다.}other{드라이브 스토리지가 토요일에 만료됩니다.}}</string>
-    <string name="notify_drive_storage_expires_soon">{RECIPIENT_GENDER,select, female{드라이브 스토리지가 곧 만료됩니다.}male{드라이브 스토리지가 곧 만료됩니다.}other{드라이브 스토리지가 곧 만료됩니다.}}</string>
-    <string name="notify_drive_storage_expires_sunday">{RECIPIENT_GENDER,select, female{드라이브 스토리지가 일요일에 만료됩니다.}male{드라이브 스토리지가 일요일에 만료됩니다.}other{드라이브 스토리지가 일요일에 만료됩니다.}}</string>
-    <string name="notify_drive_storage_expires_thursday">{RECIPIENT_GENDER,select, female{드라이브 스토리지가 목요일에 만료됩니다.}male{드라이브 스토리지가 목요일에 만료됩니다.}other{드라이브 스토리지가 목요일에 만료됩니다.}}</string>
-    <string name="notify_drive_storage_expires_tuesday">{RECIPIENT_GENDER,select, female{드라이브 스토리지가 화요일에 만료됩니다.}male{드라이브 스토리지가 화요일에 만료됩니다.}other{드라이브 스토리지가 화요일에 만료됩니다.}}</string>
-    <string name="notify_drive_storage_expires_wednesday">{RECIPIENT_GENDER,select, female{드라이브 스토리지가 수요일에 만료됩니다.}male{드라이브 스토리지가 수요일에 만료됩니다.}other{드라이브 스토리지가 수요일에 만료됩니다.}}</string>
-    <string name="notify_drive_storage_expiring_today_icu">{RECIPIENT_GENDER,select, female{드라이브 스토리지가 오늘 만료됨}male{드라이브 스토리지가 오늘 만료됨}other{드라이브 스토리지가 오늘 만료됨}}</string>
     <string name="notify_heading_anonymous_user">익명</string>
     <string name="notify_heading_icu">{NUM_SENDERS,plural,offset:1 =1{{FIRST_SENDER_DISPLAY_NAME}}=2{{FIRST_SENDER_DISPLAY_NAME}님과 {SECOND_SENDER}님}other{{FIRST_SENDER_DISPLAY_NAME}님 외 {XXX}명}}</string>
     <string name="notify_heading_many_people">%1$s님 외 다수</string>
@@ -968,15 +862,10 @@
     <string name="notify_sharing_description_one_folder_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{나와 폴더 한 개를 공유함}male{나와 폴더 한 개를 공유함}other{나와 폴더 한 개를 공유함}}}male{{SENDER_GENDER,select, female{나와 폴더 한 개를 공유함}male{나와 폴더 한 개를 공유함}other{나와 폴더 한 개를 공유함}}}other{{SENDER_GENDER,select, female{나와 폴더 한 개를 공유함}male{나와 폴더 한 개를 공유함}other{나와 폴더 한 개를 공유함}}}}</string>
     <string name="notify_sharing_description_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{나와 ‘{ITEM_TITLE}’을(를) 공유함}male{나와 ‘{ITEM_TITLE}’을(를) 공유함}other{나와 ‘{ITEM_TITLE}’을(를) 공유함}}}male{{SENDER_GENDER,select, female{나와 ‘{ITEM_TITLE}’을(를) 공유함}male{나와 ‘{ITEM_TITLE}’을(를) 공유함}other{나와 ‘{ITEM_TITLE}’을(를) 공유함}}}other{{SENDER_GENDER,select, female{나와 ‘{ITEM_TITLE}’을(를) 공유함}male{나와 ‘{ITEM_TITLE}’을(를) 공유함}other{나와 ‘{ITEM_TITLE}’을(를) 공유함}}}}</string>
     <string name="notify_unknown_document_title">알 수 없는 문서</string>
-    <string name="open_calendar">Google 캘린더 열기</string>
-    <string name="open_contacts">Google 주소록 열기</string>
     <string name="open_document_error_item_cannot_be_exported">다운로드할 수 없습니다. 웹 모드에서 여는 중...</string>
     <string name="open_document_error_no_viewer_app_found">파일을 볼 수 있는 설치된 앱이 없습니다. 웹 모드에서 여는 중…</string>
     <string name="open_document_in_browser">브라우저에서 열기</string>
-    <string name="open_folder_removed">열려 있던 폴더를 더 이상 볼 수 없습니다.</string>
-    <string name="open_folder_trashed">%1$s이(가) 삭제되었습니다.</string>
     <string name="open_online_button">온라인에서 열기</string>
-    <string name="open_photos">Google 포토 열기</string>
     <string name="open_pinned_version">기기에서 열기</string>
     <string name="open_url_authentication_error">문서에 액세스할 수 없습니다. 인증 도중 오류가 발생했습니다.</string>
     <string name="open_url_error_access_denied">이 항목을 열 수 없습니다. 항목에 대한 권한이 없거나 항목이 더 이상 존재하지 않습니다.</string>
@@ -994,7 +883,6 @@
     <string name="operation_sync_network_error">네트워크 오류가 발생했습니다. 나중에 다시 시도해 주세요.</string>
     <string name="organize_introduction_header">드래그하여 항목 이동</string>
     <string name="organize_introduction_text">아래에 있는 선택항목을 원하는 폴더로 드래그하여 이동합니다. 선택 해제하려면 선택항목을 스와이프하세요.</string>
-    <string name="other_backups">다른 기기</string>
     <string name="ouch_button_close">닫기</string>
     <string name="ouch_button_report">오류 신고</string>
     <string name="ouch_msg_sync_error">Google 드라이브 동기화 오류가 발생했습니다. 동기화되지 않은 데이터가 존재할 수 있습니다. Google 제품 개선을 위해 오류를 신고해 주세요.</string>
@@ -1022,9 +910,6 @@
     <string name="phonesky_installation_failure_alert_dialog_title">설치하지 못함</string>
     <string name="phonesky_no_internet_connection_alert_dialog_message">기기가 인터넷에 연결되지 않았습니다. 나중에 다시 시도해 주세요.</string>
     <string name="phonesky_no_internet_connection_alert_dialog_title">연결되지 않음</string>
-    <string name="photos_and_videos">사진 및 동영상</string>
-    <string name="photos_and_videos_footer_text">Google 포토에 동기화됨</string>
-    <string name="photos_and_videos_message">사진과 동영상이 Google 포토를 사용하는 모든 기기에 동기화됩니다.</string>
     <string name="pick_entry_create_new_folder">새 폴더 만들기</string>
     <string name="pick_entry_current_folder">현재 폴더: %1s</string>
     <string name="pick_entry_dialog_title">항목 선택</string>
@@ -1054,21 +939,20 @@
     <string name="pin_warning_external_storage_not_ready">문서가 고정되었지만 외부 저장소가 준비될 때까지 다운로드할 수 없습니다.</string>
     <string name="pin_warning_external_storage_not_ready_ok">확인</string>
     <string name="pinned_item_unavailable_dialog_message">다음번에 인터넷 연결 시 파일을 오프라인으로 사용할 수 있게 됩니다.</string>
-    <string name="pinned_item_unavailable_dialog_title">%1$s에 액세스할 수 없음</string>
+    <string name="pinned_item_unavailable_dialog_title">%s에 액세스할 수 없음</string>
     <string name="plus_photo_all_set">설정이 완료됐습니다. 이제 사진 및 동영상이 백업됩니다.</string>
     <string name="plus_photo_item_remove_dialog_confirm_button">모든 곳에서 삭제</string>
     <string name="plus_photo_item_remove_dialog_title">삭제</string>
-    <string name="plus_photo_item_remove_items_dialog_text_single">%1$s 파일을 휴지통으로 이동합니다. 이렇게 하면 Google 포토에서도 이 파일이 삭제됩니다.</string>
+    <string name="plus_photo_item_remove_items_dialog_text_single">%s 파일을 휴지통으로 이동합니다. 이렇게 하면 Google 포토에서도 이 파일이 삭제됩니다.</string>
     <string name="policy_privacy">개인정보취급방침</string>
+    <string name="policy_privacy_local_url_format_string">http://www.google.com/intl/%1$s/policies/privacy/</string>
     <string name="policy_terms">이용약관</string>
+    <string name="policy_terms_local_url_format_string">http://www.google.com/intl/%1$s/policies/terms/</string>
     <string name="pref_auto_backup_referral">자동 백업을 사용하려면 Google 포토를 설치하세요.</string>
     <string name="preferences_license_summary">오픈소스 소프트웨어에 대한 라이선스 세부정보</string>
     <string name="preferences_license_title">오픈소스 라이선스</string>
     <string name="prefs_about_category_title">정보</string>
     <string name="prefs_abuse_program_policies">프로그램 정책</string>
-    <string name="prefs_apps_predict_carousel_category">빠른 액세스</string>
-    <string name="prefs_apps_predict_carousel_enabled_setting">빠른 액세스 사용</string>
-    <string name="prefs_apps_predict_carousel_enabled_summary">열어 보고 싶을 수 있는 시간 관련 파일 제안을 받습니다. 내 드라이브 상단에 섹션을 추가합니다.</string>
     <string name="prefs_apps_predict_category">콘텐츠 추천</string>
     <string name="prefs_apps_predict_show_suggestions">콘텐츠 추천 보기</string>
     <string name="prefs_apps_predict_show_suggestions_summary">가능한 경우 자동으로 관련 콘텐츠 추천</string>
@@ -1082,7 +966,6 @@
     <string name="prefs_cache_size">캐시 크기</string>
     <string name="prefs_cache_size_choice_format_string">%1$dMB</string>
     <string name="prefs_cache_size_summary_format_string">캐시 크기가 %1$sMB로 설정되었습니다.</string>
-    <string name="prefs_category_content_description">섹션, %1$s</string>
     <string name="prefs_change_error">설정을 변경하지 못했습니다. 잠시 후 다시 시도해 주세요.</string>
     <string name="prefs_clear_cache_summary">캐시된 문서를 모두 삭제합니다.</string>
     <string name="prefs_data_usage_category">데이터 사용량</string>
@@ -1102,7 +985,6 @@
     <string name="prefs_notification_email_notification">이메일로 알림 보내기</string>
     <string name="prefs_notification_email_notification_offline">오프라인에서 사용할 수 없습니다.</string>
     <string name="prefs_notification_email_notification_save_error">설정을 저장하지 못했습니다.</string>
-    <string name="prefs_notification_email_notification_summary">계정 관련 메시지는 계속 전송됩니다.</string>
     <string name="prefs_notification_enable">알림 표시</string>
     <string name="prefs_notification_enable_summary">%1$s에 대한 드라이브, 문서, 스프레드시트, 프레젠테이션 알림 표시</string>
     <string name="prefs_notification_other_settings_subheading">기타 설정</string>
@@ -1119,37 +1001,29 @@
     <string name="prefs_sync_over_wifi_only_summary">Wi-Fi에 연결할 수 없으면 파일 업로드와 업데이트가 일시중지됩니다.</string>
     <string name="prefs_sync_over_wifi_only_title">Wi-Fi만 사용하여 파일 전송</string>
     <string name="prefs_title">설정</string>
-    <string name="preselection_reason">최근에 내가 열어 봄</string>
-    <string name="preselection_reason_recently_modified">최근에 수정됨</string>
-    <string name="preselection_reason_recently_modified_by_me">최근에 내가 수정함</string>
-    <string name="preselection_reason_recently_opened_by_me">최근에 내가 열어 봄</string>
-    <string name="preselection_reason_recently_uploaded_by_me">최근에 내가 업로드함</string>
     <string name="preview_click_to_open">시작하려면 여기를 탭하세요.</string>
     <string name="preview_document_available_in_docs_app">이 파일은 문서 애플리케이션에서 사용할 수 있습니다.</string>
     <string name="preview_document_available_in_sheets_app">이 파일은 스프레드시트 애플리케이션에서 사용할 수 있습니다.</string>
     <string name="preview_open_in_docs_app_description">이 파일을 문서 애플리케이션에서 열려면 여기를 탭하세요.</string>
     <string name="preview_open_in_sheets_app_description">이 파일을 스프레드시트 애플리케이션에서 열려면 여기를 탭하세요.</string>
-    <string name="pride_query_toast_message">Google과 함께 다양성 및 LGBT Pride를 기념해 주셔서 감사합니다. 소셜 미디어에서 #prideforeveryone을 사용하세요.</string>
     <string name="print_cancelled">인쇄 작업을 취소했습니다.</string>
     <string name="print_error">현재 Google 클라우드 프린트에 액세스할 수 없습니다. 나중에 다시 시도해 주세요.</string>
     <string name="print_failure">문서를 인쇄하지 못했습니다.</string>
-    <string name="prioritydocs_entrypoint_label">답장필수</string>
-    <string name="prioritydocs_promo_bodycopy">팔로우업을 보려면 %1$s 앱을 설치하세요.</string>
-    <string name="prioritydocs_promo_headline">%1$s 앱을 다운로드하시겠습니까?</string>
-    <string name="prioritydocs_promo_negative">아니요</string>
-    <string name="prioritydocs_promo_positive">설치</string>
+    <string name="prioritydocs_entrypoint_label">작업 항목</string>
     <string name="problem_with_file">파일 문제 발생</string>
     <string name="promo_button">확인</string>
-    <string name="promo_text1">문서와 사진을 15GB까지 안전하게 무료로 보관할 수 있는 저장소인 Google 드라이브에 이 항목을 저장해 보세요. 어느 기기에서나 액세스할 수 있습니다.</string>
-    <string name="promo_title">파일 사본 저장</string>
+    <string name="promo_text1">PDF 파일을 Google 드라이브에 저장하면 파일을 안전하게 보관할 수 있을 뿐 아니라 장소에 관계없이 어떤 기기에서든 사용할 수 있습니다.</string>
+    <string name="promo_title">PDF를 Google 드라이브에 저장</string>
     <string name="punctuation_period">.</string>
     <string name="purchase_dialog_how_storage_used">저장용량은 Gmail, Google 포토, Google 드라이브 간에 공유됩니다.</string>
-    <string name="purchase_dialog_manage">저장공간 관리</string>
-    <string name="purchase_dialog_terms_service">스토리지 요금제를 선택하면 %1$s에 동의하게 됩니다.</string>
+    <string name="purchase_dialog_learn_more">자세히 알아보기</string>
+    <string name="purchase_dialog_more">스토리지 요금제 더보기</string>
+    <string name="purchase_dialog_terms_service">"스토리지 요금제를 선택하고 '구매'를 클릭하면 %1$s에 동의하게 됩니다."</string>
     <string name="purchase_dialog_title">Google 드라이브 스토리지 요금제</string>
     <string name="purchase_error">문제가 발생했습니다.</string>
     <string name="purchase_error_connect">연결할 수 없습니다.</string>
     <string name="purchase_per_month">%1$s/월</string>
+    <string name="purchase_success">요금제를 구매했습니다.</string>
     <string name="quota_cannot_determine">확인할 수 없음</string>
     <string name="quota_range_large">10MB~100MB</string>
     <string name="quota_range_larger">100MB~1GB</string>
@@ -1162,26 +1036,26 @@
     <string name="recent_activity_button_show_more_files">더보기...</string>
     <string name="recent_activity_card_title">활동</string>
     <string name="recent_activity_empty">활동 기록 없음</string>
-    <string name="recent_activity_end">%1$s 이전의 활동 기록 없음</string>
+    <string name="recent_activity_end">%s 이전의 활동 기록 없음</string>
     <string name="recent_activity_failed">죄송합니다. 활동 기록을 로드하지 못했습니다. 나중에 다시 시도해 주세요.</string>
     <string name="recent_activity_rename_titles_accessibility">%1$s에서 %2$s(으)로 이름이 변경됨</string>
-    <string name="recent_activity_users_two">%1$s님, %2$s님</string>
+    <string name="recent_activity_users_two" formatted="false">%s님, %s님</string>
+    <string name="remove_button_confirm">삭제</string>
+    <string name="remove_collection">폴더 삭제</string>
     <string name="remove_dialog_confirm_delete_button">완전삭제</string>
-    <string name="remove_dialog_confirm_delete_for_everyone_button">모든 사용자로부터 삭제</string>
-    <string name="remove_dialog_delete_different_permissions_files">이 파일에 대해 여러 권한을 가지고 있습니다. 일부 파일은 휴지통으로 이동되어 30일 후에 완전히 삭제됩니다. 다른 파일은 삭제됩니다.</string>
-    <string name="remove_dialog_delete_different_permissions_folders">이 폴더에 대해 여러 권한을 가지고 있습니다. 일부 폴더는 휴지통으로 이동되어 30일 후에 완전히 삭제됩니다. 다른 폴더는 삭제됩니다.</string>
-    <string name="remove_dialog_delete_different_permissions_items">이 항목에 대해 여러 권한을 가지고 있습니다. 일부 항목은 휴지통으로 이동되어 30일 후에 완전히 삭제됩니다. 다른 항목은 삭제됩니다.</string>
-    <string name="remove_dialog_delete_different_permissions_title">일부 항목만 삭제됨</string>
-    <string name="remove_dialog_delete_for_everyone_title">모든 사용자로부터 삭제하시겠습니까?</string>
-    <string name="remove_parent_confirmation">다른 사용자가 공유 폴더 %2$s에서 %1$s을(를) 더 이상 볼 수 없음</string>
-    <string name="remove_parent_not_allowed">공유 폴더 %2$s에서 %1$s을(를) 삭제할 권한이 없음</string>
-    <string name="removed_parent_message">%2$s에서 %1$s을(를) 삭제함</string>
+    <string name="remove_dialog_delete_permanently_text_single">%s 파일을 완전히 삭제하시겠습니까? 이 작업은 실행취소할 수 없습니다.</string>
+    <string name="remove_dialog_delete_permanently_title">완전삭제</string>
+    <string name="remove_document">파일 삭제</string>
+    <string name="remove_parent_confirmation" formatted="false">다른 사용자가 공유 폴더 %s에서 %s을(를) 더 이상 볼 수 없음</string>
+    <string name="remove_parent_not_allowed" formatted="false">공유 폴더 %s에서 %s을(를) 삭제할 권한이 없음</string>
+    <string name="removed_parent_message" formatted="false">%s에서 %s을(를) 삭제함</string>
     <string name="rename_collection">폴더 이름 바꾸기</string>
     <string name="rename_document">문서 이름 바꾸기</string>
     <string name="rename_drawing">그림 이름 바꾸기</string>
     <string name="rename_file">파일 이름 바꾸기</string>
     <string name="rename_presentation">프레젠테이션 이름 바꾸기</string>
     <string name="rename_spreadsheet">스프레드시트 이름 바꾸기</string>
+    <string name="reply_email_subject">Re: 액세스 요청</string>
     <string name="report_abuse_title">악용사례 신고</string>
     <string name="request_access">액세스 요청</string>
     <string name="request_access_message">소유자는 액세스를 요청하는 사용자에 대한 이메일 알림을 받게 됩니다.</string>
@@ -1191,21 +1065,16 @@
     <string name="retry_button_text">다시 시도</string>
     <string name="scan_shortcut_failed_folder_deleted">폴더 %1$s이(가) 삭제되었습니다.</string>
     <string name="scan_shortcut_failed_folder_trashed">폴더 %1$s이(가) 휴지통에 있습니다. 문서를 스캔하려면 먼저 폴더를 복원해야 합니다.</string>
-    <string name="scan_task_title">드라이브로 스캔</string>
     <string name="search_description">Google 드라이브</string>
     <string name="search_hint">내 드라이브 검색</string>
     <string name="search_hint_short">검색</string>
-    <string name="search_menu_title">검색</string>
     <string name="search_showing_local_results_only">검색할 수 없습니다. 제목이 일치하는 결과만 표시합니다.</string>
     <string name="search_showing_local_results_only_offline">일치 제목만 표시됨. 더 많은 검색결과는 온라인 상태에서 확인하세요.</string>
     <string name="select_account">계정 선택</string>
     <string name="select_folder_color">폴더 색상</string>
-    <string name="select_team_drive_desc">팀 드라이브 선택</string>
-    <string name="select_team_drive_title">팀 드라이브 선택</string>
     <string name="selected_account">%1$s에 로그인</string>
     <string name="selection_action_bar_drop_to_current_folder_header">이동</string>
     <string name="selection_action_bar_drop_to_current_folder_header_as_add">추가 위치:</string>
-    <string name="selection_cannot_move_into_self">항목을 해당 항목 안으로 이동할 수 없습니다.</string>
     <string name="selection_item_select_button">%1$s %2$s 선택</string>
     <string name="selection_item_unselect_button">%1$s %2$s 선택 취소</string>
     <string name="selection_limit_reached">일부 항목이 선택되지 않았습니다. 선택할 수 있는 최대 항목 수에 도달했습니다.</string>
@@ -1273,12 +1142,10 @@
     <string name="sharing_info_loading">공유 정보 로드 중...</string>
     <string name="sharing_list_offline">공유 목록은 오프라인 모드에서 사용할 수 없습니다.</string>
     <string name="sharing_list_updated">공유 설정이 업데이트되었습니다.</string>
-    <string name="sharing_message_add_users_one">%1$s이(가) %2$s님과 공유되었습니다.</string>
-    <string name="sharing_message_add_users_two">%1$s이(가) %2$s님, %3$s님과 공유되었습니다.</string>
-    <string name="sharing_message_remove">%s님이 파일에서 삭제되었습니다.</string>
-    <string name="sharing_message_remove_td">%s님이 팀 드라이브에서 삭제되었습니다.</string>
+    <string name="sharing_message_add_users_one">%1$s을(를) %2$s님과 공유함</string>
+    <string name="sharing_message_add_users_two">%1$s을(를) %2$s님 및 %3$s님과 공유함</string>
+    <string name="sharing_message_remove">%s님이 파일에서 삭제됨</string>
     <string name="sharing_message_saved">공유 설정이 저장되었습니다. 공유 목록을 새로고칩니다.</string>
-    <string name="sharing_message_saved_td">%s님의 멤버십이 변경되었습니다.</string>
     <string name="sharing_message_title">메시지</string>
     <string name="sharing_message_unable_to_change">공유 설정을 변경할 수 없습니다.</string>
     <string name="sharing_offline">오프라인 상태에서는 공유할 수 없습니다.</string>
@@ -1287,16 +1154,16 @@
     <string name="sharing_option_anyone_can_contribute">누구나 구성, 추가, 수정할 수 있음</string>
     <string name="sharing_option_anyone_can_edit">누구나 수정 가능</string>
     <string name="sharing_option_anyone_can_view">누구나 보기 가능</string>
-    <string name="sharing_option_anyone_from">%1$s의 사용자 누구나 찾고 액세스할 수 있음</string>
-    <string name="sharing_option_anyone_from_can_comment">%1$s의 사용자 누구나 찾고 댓글을 작성할 수 있음</string>
-    <string name="sharing_option_anyone_from_can_contribute">%1$s의 모든 사용자가 찾고 참여할 수 있음</string>
-    <string name="sharing_option_anyone_from_can_edit">%1$s의 사용자 누구나 찾고 수정할 수 있음</string>
-    <string name="sharing_option_anyone_from_can_view">%1$s의 사용자 누구나 찾고 볼 수 있음</string>
-    <string name="sharing_option_anyone_from_with_link">링크가 있는 모든 %1$s 사용자</string>
-    <string name="sharing_option_anyone_from_with_link_can_comment">링크가 있는 %1$s의 사용자 누구나 댓글을 작성할 수 있음</string>
-    <string name="sharing_option_anyone_from_with_link_can_contribute">링크가 있는 %1$s의 사용자 누구나 구성, 추가, 수정할 수 있음</string>
-    <string name="sharing_option_anyone_from_with_link_can_edit">링크가 있는 %1$s의 사용자 누구나 수정할 수 있음</string>
-    <string name="sharing_option_anyone_from_with_link_can_view">링크가 있는 %1$s의 사용자 누구나 볼 수 있음</string>
+    <string name="sharing_option_anyone_from">%s의 사용자 누구나 찾고 액세스할 수 있음</string>
+    <string name="sharing_option_anyone_from_can_comment">%s의 사용자 누구나 찾고 댓글을 작성할 수 있음</string>
+    <string name="sharing_option_anyone_from_can_contribute">%s의 모든 사용자가 찾고 참여할 수 있음</string>
+    <string name="sharing_option_anyone_from_can_edit">%s의 사용자 누구나 찾고 수정할 수 있음</string>
+    <string name="sharing_option_anyone_from_can_view">%s의 사용자 누구나 찾고 볼 수 있음</string>
+    <string name="sharing_option_anyone_from_with_link">링크가 있는 모든 %s 사용자</string>
+    <string name="sharing_option_anyone_from_with_link_can_comment">링크가 있는 %s의 사용자 누구나 댓글을 작성할 수 있음</string>
+    <string name="sharing_option_anyone_from_with_link_can_contribute">링크가 있는 %s의 사용자 누구나 구성, 추가, 수정할 수 있음</string>
+    <string name="sharing_option_anyone_from_with_link_can_edit">링크가 있는 %s의 사용자 누구나 수정할 수 있음</string>
+    <string name="sharing_option_anyone_from_with_link_can_view">링크가 있는 %s의 사용자 누구나 볼 수 있음</string>
     <string name="sharing_option_anyone_with_link">링크가 있는 모든 사용자</string>
     <string name="sharing_option_anyone_with_link_can_comment">링크가 있는 모든 사용자가 댓글 작성 가능</string>
     <string name="sharing_option_anyone_with_link_can_contribute">링크가 있는 사용자 누구나 구성, 추가, 수정할 수 있음</string>
@@ -1305,10 +1172,10 @@
     <string name="sharing_option_private">비공개</string>
     <string name="sharing_option_private_acl_message">공유되지 않음</string>
     <string name="sharing_option_private_no_collaborators">비공개 - 나만 액세스할 수 있음</string>
-    <string name="sharing_option_specific_people">특정 사용자와 공유</string>
+    <string name="sharing_option_specific_people">특정 사용자와 공유함</string>
     <string name="sharing_option_unknown">알 수 없는 공유 모드</string>
-    <string name="sharing_progress_loading_message">공유 정보 로드 중</string>
-    <string name="sharing_progress_saving_message">공유 정보를 저장하는 중입니다.</string>
+    <string name="sharing_progress_loading_message">공유 정보를 로드 중입니다.</string>
+    <string name="sharing_progress_saving_message">공유 정보를 저장 중입니다.</string>
     <string name="sharing_role_commenter">댓글 작성 가능</string>
     <string name="sharing_role_content_description">%2$s님의 %1$s 버튼</string>
     <string name="sharing_role_contributor">구성, 추가, 수정할 수 있음</string>
@@ -1317,38 +1184,13 @@
     <string name="sharing_role_reader">보기 가능</string>
     <string name="sharing_role_unknown">알 수 없는 액세스</string>
     <string name="sharing_role_writer">수정 가능</string>
-    <string name="sharing_server_error_generic_all">이 항목을 공유할 수 없습니다.</string>
-    <string name="sharing_server_error_more">이 항목을 %1$s님과 공유할 수 없습니다.</string>
-    <string name="sharing_server_error_one">이 항목을 %1$s님과 공유할 수 없습니다.</string>
-    <string name="sharing_server_error_partial_summary">일부 사용자와만 공유</string>
-    <string name="sharing_server_error_restricted_all">이 항목은 제한된 콘텐츠를 포함하며 공유할 수 없습니다.</string>
-    <string name="sharing_server_error_restricted_more">이 항목은 제한된 콘텐츠를 포함하며 %1$s님은 조직 외부 사용자이므로 공유할 수 없습니다.</string>
-    <string name="sharing_server_error_restricted_one">이 항목은 제한된 콘텐츠를 포함하며 %1$s님은 조직 외부 사용자이므로 공유할 수 없습니다.</string>
-    <string name="sharing_server_error_restricted_three">이 항목은 제한된 콘텐츠를 포함하며 %1$s님, %2$s님, %3$s님은 조직 외부 사용자이므로 공유할 수 없습니다.</string>
-    <string name="sharing_server_error_restricted_two">이 항목은 제한된 콘텐츠를 포함하며 %1$s님, %2$s님은 조직 외부 사용자이므로 공유할 수 없습니다.</string>
-    <string name="sharing_server_error_summary">이 항목을 공유할 수 없습니다.</string>
-    <string name="sharing_server_error_three">이 항목을 %1$s님, %2$s님, %3$s님과 공유할 수 없습니다.</string>
-    <string name="sharing_server_error_two">이 항목을 %1$s님, %2$s님과 공유할 수 없습니다.</string>
-    <string name="sharing_server_success_more">%2$s님은 조직 내 사용자이므로 %1$s이(가) 공유되었습니다.</string>
-    <string name="sharing_server_success_one">%2$s님은 조직 내 사용자이므로 %1$s이(가) 공유되었습니다.</string>
-    <string name="sharing_server_success_three">%2$s님, %3$s님, %4$s님은 조직 내 사용자이므로 %1$s이(가) 공유되었습니다.</string>
-    <string name="sharing_server_success_two">%2$s님, %3$s님은 조직 내 사용자이므로 %1$s이(가) 공유되었습니다.</string>
-    <string name="sharing_server_warning_more">%1$s님과 공유하시겠습니까?</string>
-    <string name="sharing_server_warning_one">%1$s님과 공유하시겠습니까?</string>
-    <string name="sharing_server_warning_summary">외부에 공유하시겠습니까?</string>
-    <string name="sharing_server_warning_three">%1$s님, %2$s님, %3$s님과 공유하시겠습니까?</string>
-    <string name="sharing_server_warning_two">%1$s님, %2$s님과 공유하시겠습니까?</string>
     <string name="sharing_show_smartprofile_content_description">%s님의 스마트 프로필 열기</string>
     <string name="sharing_show_who_has_access">액세스 권한이 있는 사용자 - 탭하여 공동작업자를 관리합니다.</string>
-    <string name="sharing_undo_role_failure">오류 발생. 실행취소할 수 없음</string>
-    <string name="sharing_undo_role_success">설정 공유를 되돌렸습니다.</string>
     <string name="shortcut_created">홈 화면에 바로가기 추가됨</string>
     <string name="shortcut_creation_failed">바로가기를 만들 수 없습니다.</string>
     <string name="show_account_list">계정 표시</string>
     <string name="sign_in">로그인</string>
     <string name="slider_title_all_items">모든 항목</string>
-    <string name="sms">문자 메시지</string>
-    <string name="sms_message">백업에는 전송 및 수신된 메시지가 포함됩니다.</string>
     <string name="sorting_label_for_creation_time_shorten">만든 날짜</string>
     <string name="sorting_label_for_last_modified_shorten">최종 수정 날짜</string>
     <string name="sorting_label_for_modified_by_me_shorten">내가 수정한 항목</string>
@@ -1358,32 +1200,25 @@
     <string name="sorting_order_ascending">오름차순</string>
     <string name="sorting_order_descending">내림차순</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="storage_info">이 백업은 드라이브 스토리지 저장용량을 사용하지 않습니다.</string>
     <string name="storage_upgrade">저장용량 업그레이드</string>
-    <string name="storage_upgraded_help_card_content">Gmail, Google 드라이브, Google 포토에서 공유되는 %2$s의 저장공간에 대해 매월 %1$s이(가) 청구됩니다. 언제든지 요금제를 취소하거나 변경할 수 있습니다. 새로운 저장공간을 사용할 수 있게 되는 데 최대 24시간이 걸릴 수 있습니다.</string>
-    <string name="storage_upgraded_help_card_help_button">도움말</string>
-    <string name="storage_upgraded_help_card_title">감사합니다.</string>
+    <string name="storage_upgraded_help_card_contact_button">문의하기</string>
+    <string name="storage_upgraded_help_card_content">Google 드라이브 스토리지를 %1$s로 업그레이드했습니다. 또한 이 구매를 통해 스마트폰, 이메일, 채팅 지원에 우선적으로 액세스할 수 있습니다. 궁금한 점이 있으면 언제든지 문의해 주세요.</string>
+    <string name="storage_upgraded_help_card_title">마음껏 사용하세요!</string>
     <string name="storage_used">%1$s/%2$s 사용 중</string>
     <string name="storage_used_unlimited">%1$s 사용 중</string>
     <string name="suggest_pin_dialog_message">이 파일은 오프라인에서 사용할 수 없습니다. 다음번에 오프라인 상태에서 사용할 수 있도록 하시겠습니까?</string>
     <string name="suggest_pin_dialog_negative_button">아니요</string>
     <string name="suggest_pin_dialog_positive_button">오프라인에서 사용하도록 설정</string>
     <string name="suggest_pin_dialog_title">연결되지 않음</string>
-    <string name="switch_account_help_card_button">계정 변경</string>
-    <string name="switch_account_help_card_content">이 기기가 다른 계정으로 백업되었습니다. %s</string>
-    <string name="switch_account_help_card_title">다른 계정으로 백업</string>
     <string name="switch_backup_account">백업 설정에서 계정 전환</string>
     <string name="sync_failed">Google 드라이브 동기화 오류</string>
     <string name="sync_more">더보기…</string>
     <string name="sync_more_error">추가 항목을 검색하는 동안 오류가 발생했습니다.</string>
     <string name="sync_more_error_offline">일부 문서가 오프라인에서 표시되지 않을 수 있습니다.</string>
+    <string name="tap_to_retry">다시 시도하려면 탭하세요.</string>
+    <string name="tap_to_view_who_has_access">액세스 권한이 있는 사용자를 보려면 탭하세요.</string>
     <string name="targetviewintro_close_button">확인</string>
-    <string name="td_downgrade_not_allowed">팀 드라이브 멤버의 액세스 권한만 업그레이드할 수 있습니다.</string>
-    <string name="td_members_access">멤버 %1$d명</string>
-    <string name="td_sharing_message_add_users_one">%2$s님이 %1$s에 추가되었습니다.</string>
-    <string name="td_sharing_message_add_users_two">%2$s님, %3$s님이 %1$s에 추가되었습니다.</string>
-    <string name="team_drive_empty_list_message_can_create">팀 드라이브는 팀과 공동작업을 할 수 있도록 공유된 공간입니다. 팀원의 직무에 따라 팀 드라이브를 맞춤설정해 보세요.</string>
-    <string name="team_drive_empty_list_message_cannot_create">팀 드라이브는 팀과 공동작업 할 수 있도록 공유된 공간입니다. 팀 드라이브에 추가되면 여기 표시됩니다.</string>
+    <string name="td_downgrade_not_allowed">팀 드라이브 구성원의 액세스만 업그레이드할 수 있습니다.</string>
     <string name="thumbnail_open">열기</string>
     <string name="time_range_1_day">1일</string>
     <string name="time_range_days">%1$d일</string>
@@ -1395,27 +1230,16 @@
     <string name="title_send_intent">파일 보내기: %1$s</string>
     <string name="title_show_files">%1$d/%2$d</string>
     <string name="transfer_notification_waiting_content">Wi-Fi 네트워크 연결 대기 중</string>
+    <string name="trash_delete_forever_confirm">완전삭제</string>
+    <string name="trash_delete_forever_question">완전삭제</string>
     <string name="trash_delete_forever_success">1개 항목이 삭제되었습니다.</string>
-    <string name="turnoff_backup">백업 사용 안함</string>
-    <string name="turnoff_backup_confirm_button">사용 중지</string>
-    <string name="turnoff_backup_error_message">백업을 사용 중지하지 못했습니다.</string>
-    <string name="turnoff_backup_progress_message">백업 사용 중지</string>
-    <string name="turnoff_whatsapp_backup_confirmation_message">"모든 기기에서 WhatsApp 채팅 및 미디어의 백업이 중지됩니다.
-
-%s
-설정 > 채팅 > WhatsApp의 채팅 백업으로 이동하여 백업을 다시 사용 설정할 수 있습니다."</string>
-    <string name="turnoff_whatsapp_backup_title">WhatsApp 백업을 중지할까요?</string>
-    <string name="tutorial_upload_complete_body">어디에서나 드라이브에 로그인하여 액세스할 수 있습니다.</string>
-    <string name="tutorial_upload_complete_header">드라이브에 파일을 추가했습니다.</string>
-    <string name="tutorial_upload_fab_hint_text">기기의 파일을 드라이브에 추가하여 어디에서나 액세스하려면 더하기 아이콘을 탭하세요.</string>
-    <string name="unable_to_preview">파일을 미리 볼 수 없습니다.</string>
+    <string name="trash_delete_forever_warning">이 항목이 드라이브에서 완전히 삭제됩니다. 이 작업은 실행취소할 수 없습니다.</string>
     <string name="unified_actions_add_to_drive">내 드라이브에 추가</string>
-    <string name="unified_link_sharing_is_off">링크 공유 사용 안함</string>
-    <string name="unified_link_sharing_is_on">링크 공유 사용</string>
+    <string name="unified_link_sharing_is_off">링크 공유 사용 중지됨</string>
+    <string name="unified_link_sharing_is_on">링크 공유 사용 중</string>
     <string name="unknown_album">알 수 없는 앨범</string>
     <string name="unknown_artist">알 수 없는 아티스트</string>
     <string name="unsupported_file">이 파일 형식은 지원되지 않습니다.</string>
-    <string name="untitled_audio">제목없는 오디오</string>
     <string name="untrash_and_open_message">%1$s에 액세스하려면 휴지통에서 파일을 꺼내세요.</string>
     <string name="untrash_and_open_not_allowed_message">소유자가 삭제한 %1$s 파일입니다.</string>
     <string name="untrash_and_open_positive_button">휴지통에서 꺼내기</string>
@@ -1434,7 +1258,6 @@
     <string name="upload_incomplete">업로드 미완료</string>
     <string name="upload_multiple_document_titles">문서 제목</string>
     <string name="upload_notification_cancel_title">업로드 취소됨</string>
-    <string name="upload_notification_failure_folder">폴더를 업로드할 수 없습니다.</string>
     <string name="upload_notification_failure_no_retry_title">업로드하지 못함</string>
     <string name="upload_notification_failure_ticker">업로드 실패</string>
     <string name="upload_notification_more_files">+%1$d개</string>
@@ -1479,14 +1302,6 @@
     <string name="welcome_title">Google 드라이브 시작 패널</string>
     <string name="welcome_title_announce">Google 드라이브 공지 패널</string>
     <string name="welcome_title_highlights">Google 드라이브 공지 패널</string>
-    <string name="whatsapp">WhatsApp</string>
-    <string name="whatsapp_message">채팅과 미디어(사진, 동영상, 오디오, 문서 포함)가 Google 드라이브에 백업됩니다. 기기를 변경하는 경우 WhatsApp을 다시 설치하면 채팅과 미디어를 복원할 수 있습니다.</string>
-    <string name="whatsapp_turned_off_message">"백업이 사용 중지되었습니다.
-%s에 마지막으로 백업되었습니다.
-
-채팅과 미디어(사진, 동영상, 오디오, 문서 포함)가 Google 드라이브에 백업됩니다. 기기를 변경하는 경우 WhatsApp을 다시 설치하면 채팅과 미디어를 복원할 수 있습니다.
-
-백업을 다시 사용 설정하려면 WhatsApp에서 설정 > 채팅으로 이동하세요."</string>
     <string name="widget_account_missing">오류: 계정을 찾을 수 없습니다. %1$s의 계정 설정을 확인하세요.</string>
     <string name="widget_configuration_missing">오류: 구성이 손실되었습니다. 위젯을 삭제한 후 다시 추가하세요.</string>
     <string name="widget_initializing">초기화 중...</string>
@@ -1509,7 +1324,6 @@
     <string name="zss_remove_all_filters_button_content_description">모든 필터 삭제</string>
     <string name="zss_remove_filter_button_content_description">필터 삭제: %1$s</string>
     <string name="zss_showing_list_of_filters">사용할 수 있는 필터 목록을 표시합니다.</string>
-    <string name="zss_team_drive">%1$s에서 검색</string>
     <string name="zss_type_archive">보관 파일</string>
     <string name="zss_type_audio">오디오</string>
     <string name="zss_type_documents">텍스트 문서</string>

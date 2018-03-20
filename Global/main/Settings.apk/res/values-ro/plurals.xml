@@ -16,99 +16,44 @@
         <item quantity="few">%1$d comutări vor apărea în Panoul de notificări</item>
     </plurals>
     <plurals name="show_dev_countdown">
-        <item quantity="other">Mai aveți %1$d de pași pentru a deveni dezvoltator.</item>
-        <item quantity="one">Mai aveți %1$d pas pentru a deveni dezvoltator.</item>
-        <item quantity="few">Mai aveți %1$d pași pentru a deveni dezvoltator.</item>
-    </plurals>
-    <plurals name="security_settings_fingerprint_preference_summary">
-        <item quantity="other">%1$d de amprente configurate</item>
-        <item quantity="one">%1$d amprentă configurată</item>
-        <item quantity="few">%1$d amprente configurate</item>
+        <item quantity="other">Mai aveți de parcurs %1$d pași pentru a deveni dezvoltator.</item>
+        <item quantity="one">Mai aveți de parcurs %1$d pas pentru a deveni dezvoltator.</item>
     </plurals>
     <plurals name="lockpassword_password_requires_letters">
-        <item quantity="other">Parola trebuie să conțină cel puțin %d de litere.</item>
-        <item quantity="one">Parola trebuie să conțină cel puțin o literă.</item>
-        <item quantity="few">Parola trebuie să conțină cel puțin %d litere.</item>
+        <item quantity="other">Parola trebuie să conţină cel puţin %d litere.</item>
+        <item quantity="one">Parola trebuie să conţină cel puţin 1 literă.</item>
     </plurals>
     <plurals name="lockpassword_password_requires_lowercase">
-        <item quantity="other">Parola trebuie să conțină cel puțin %d de minuscule.</item>
-        <item quantity="one">Parola trebuie să conțină cel puțin o minusculă.</item>
-        <item quantity="few">Parola trebuie să conțină cel puțin %d minuscule.</item>
+        <item quantity="other">Parola trebuie să conţină cel puţin %d minuscule.</item>
+        <item quantity="one">Parola trebuie să conţină cel puţin 1 minusculă.</item>
     </plurals>
     <plurals name="lockpassword_password_requires_uppercase">
-        <item quantity="other">Parola trebuie să conțină cel puțin %d de majuscule.</item>
-        <item quantity="one">Parola trebuie să conțină cel puțin o majusculă.</item>
-        <item quantity="few">Parola trebuie să conțină cel puțin %d majuscule.</item>
+        <item quantity="other">Parola trebuie să conţină cel puţin %d majuscule.</item>
+        <item quantity="one">Parola trebuie să conţină cel puţin 1 majusculă.</item>
     </plurals>
     <plurals name="lockpassword_password_requires_numeric">
-        <item quantity="other">Parola trebuie să conțină cel puțin %d de cifre.</item>
-        <item quantity="one">Parola trebuie să conțină cel puțin o cifră.</item>
-        <item quantity="few">Parola trebuie să conțină cel puțin %d cifre.</item>
+        <item quantity="other">Parola trebuie să conţină cel puţin %d cifre.</item>
+        <item quantity="one">Parola trebuie să conţină cel puţin 1 cifră.</item>
     </plurals>
     <plurals name="lockpassword_password_requires_symbols">
-        <item quantity="other">Parola trebuie să conțină cel puțin %d de simboluri speciale.</item>
-        <item quantity="one">Parola trebuie să conțină cel puțin un simbol special.</item>
-        <item quantity="few">Parola trebuie să conțină cel puțin %d simboluri speciale.</item>
+        <item quantity="other">Parola trebuie să conţină cel puţin %d simboluri speciale.</item>
+        <item quantity="one">Parola trebuie să conţină cel puţin 1 simbol special.</item>
     </plurals>
     <plurals name="lockpassword_password_requires_nonletter">
-        <item quantity="other">Parola trebuie să conțină cel puțin %d de caractere care să nu fie litere.</item>
-        <item quantity="one">Parola trebuie să conțină cel puțin un caracter care să nu fie o literă.</item>
-        <item quantity="few">Parola trebuie să conțină cel puțin %d caractere care să nu fie litere.</item>
+        <item quantity="other">Parola trebuie să conţină cel puţin %d caractere care să nu fie litere.</item>
+        <item quantity="one">Parola trebuie să conţină cel puţin 1 caracter care să nu fie o literă.</item>
     </plurals>
     <plurals name="wrong_pin_code">
-        <item quantity="other">Codul PIN pentru cardul SIM este incorect. V-au mai rămas %d de încercări.</item>
-        <item quantity="one">Cod PIN incorect pt. card SIM. %d încercare rămasă, apoi deblocați dispozitivul contactând operatorul.</item>
-        <item quantity="few">Codul PIN pentru cardul SIM este incorect. V-au mai rămas %d încercări.</item>
+        <item quantity="other">Codul PIN pentru cardul SIM este incorect. V-au mai rămas %d încercări.</item>
+        <item quantity="one">Codul PIN pentru cardul SIM este incorect. V-a mai rămas %d încercare, după care va trebui să contactați operatorul pentru a vă debloca dispozitivul.</item>
     </plurals>
     <plurals name="manage_notification_access_summary_nonzero">
-        <item quantity="other">%d de aplicații pot citi notificările</item>
+        <item quantity="other">%d aplicații pot citi notificările</item>
         <item quantity="one">%d aplicație poate citi notificările</item>
-        <item quantity="few">%d aplicații pot citi notificările</item>
     </plurals>
-    <plurals name="zen_mode_summary_alarms_only_by_minute">
-        <item quantity="other">Schimbați la „Numai alarme” pentru %1$d de minute (până la %2$s)</item>
-        <item quantity="one">Schimbați la „Numai alarme” pentru un minut, până la %2$s</item>
-        <item quantity="few">Schimbați la „Numai alarme” pentru %1$d minute (până la %2$s)</item>
-    </plurals>
-    <plurals name="zen_mode_summary_alarms_only_by_hour">
-        <item quantity="other">Schimbați la „Numai alarme” pentru %1$d de ore, până la %2$s</item>
-        <item quantity="one">Schimbați la „Numai alarme” pentru o oră, până la %2$s</item>
-        <item quantity="few">Schimbați la „Numai alarme” pentru %1$d ore, până la %2$s</item>
-    </plurals>
-    <plurals name="permissions_summary">
-        <item quantity="other">%d de permisiuni acordate</item>
-        <item quantity="one">%d permisiune acordată</item>
-        <item quantity="few">%d permisiuni acordate</item>
-    </plurals>
-    <plurals name="runtime_permissions_summary">
-        <item quantity="other">%1$d din %2$d de permisiuni acordate</item>
-        <item quantity="one">%1$d din %2$d permisiune acordată</item>
-        <item quantity="few">%1$d din %2$d permisiuni acordate</item>
-    </plurals>
-    <plurals name="runtime_permissions_additional_count">
-        <item quantity="other">%d de permisiuni suplimentare</item>
-        <item quantity="one">%d permisiune suplimentară</item>
-        <item quantity="few">%d permisiuni suplimentare</item>
-    </plurals>
-    <plurals name="domain_urls_apps_summary">
-        <item quantity="other">%d de aplicații pot deschide linkurile acceptate</item>
-        <item quantity="one">O aplicație poate deschide linkurile acceptate</item>
-        <item quantity="few">%d aplicații pot deschide linkurile acceptate</item>
-    </plurals>
-    <plurals name="high_power_count">
-        <item quantity="other">%d de aplicații au permisiunea să ignore optimizarea bateriei</item>
-        <item quantity="one">O aplicație are permisiunea să ignore optimizarea bateriei</item>
-        <item quantity="few">%d aplicații au permisiunea să ignore optimizarea bateriei</item>
-    </plurals>
-    <plurals name="memory_usage_apps_summary">
-        <item quantity="other">%1$d de aplicații au folosit memoria în ultimele %2$s</item>
-        <item quantity="one">O aplicație a folosit memoria în ultimele %2$s</item>
-        <item quantity="few">%1$d aplicații au folosit memoria în ultimele %2$s</item>
-    </plurals>
-    <plurals name="virus_scan_app_find_risk">
-        <item quantity="other">%d riscuri găsite</item>
-        <item quantity="one">%d risc găsit</item>
-        <item quantity="few">%d riscuri găsite</item>
+    <plurals name="manage_condition_providers_summary_nonzero">
+        <item quantity="other">%d aplicații furnizează condiții</item>
+        <item quantity="one">%d aplicație furnizează condiții</item>
     </plurals>
     <plurals name="auto_startup_count">
         <item quantity="other">%d aplicații au permisiunea să pornească automat</item>

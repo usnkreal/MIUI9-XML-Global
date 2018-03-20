@@ -25,8 +25,8 @@
     <string name="default_close_channel_msg">Kanál uzavřen</string>
     <string name="stk_dialog_accept">ANO</string>
     <string name="stk_dialog_reject">NE</string>
-    <string name="no_sim_card_inserted">Pro spuštění Sady nástrojů vložte SIM kartu.</string>
     <string name="stk_intent_permission">Vyžadována povolení</string>
+    <string name="no_sim_card_inserted">Pro spuštění Sady nástrojů vložte SIM kartu.</string>
     <string name="sim_type_sim_name">Sada nástrojů SIM</string>
     <string name="sim_type_usim_name">Sada nástrojů USIM</string>
     <string name="sim_type_uim_name">Sada nástrojů UIM</string>

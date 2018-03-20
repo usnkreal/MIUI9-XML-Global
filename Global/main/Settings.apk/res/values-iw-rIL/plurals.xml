@@ -18,12 +18,6 @@
         <item quantity="two">"%1$d מתגים יופיעו ב'לוח ההתראות'"</item>
         <item quantity="many">"%1$d מתגים יופיעו ב'לוח ההתראות'"</item>
     </plurals>
-    <plurals name="virus_scan_app_find_risk">
-        <item quantity="other">%d סיכונים נמצאו</item>
-        <item quantity="one">סיכון %d נמצא</item>
-        <item quantity="two">%d סיכונים נמצאו</item>
-        <item quantity="many">%d סיכונים נמצאו</item>
-    </plurals>
     <plurals name="auto_startup_count">
         <item quantity="other">הרשאת הפעלה אוטומטית ניתנה ל-%d יישומים</item>
         <item quantity="one">הרשאת הפעלה אוטומטית ניתנה ליישום %d</item>

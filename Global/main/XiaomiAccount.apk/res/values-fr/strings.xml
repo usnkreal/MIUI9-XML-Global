@@ -202,7 +202,7 @@ Pour activer votre compte, suivez le
     <string name="passport_get_innetdate_msg">&lt;font color=Red>Il semble&lt;/font> que le numéro %s a été recyclé par votre opérateur. Vérifier quand est-ce que le numéro était en ligne ?</string>
     <string name="passport_get_innetdate_agree">Vérifier</string>
     <string name="passport_get_innetdate_disagree">Non</string>
-    <string name="passport_extra_gdpr_license">Creating your Mi Account means that you agree that Xiaomi will collect, process, and use your personal data, including verification data (e.g., verification codes), Second space data (e.g., information about the ways you use Second space, IDs used in First and Second spaces), and other data specified in our Privacy Policy. Refer to our Privacy Policy to learn how we process and use personal data.</string>
+    <string name="passport_extra_gdpr_license">"Créer votre compte Mi signifie que vous acceptez que Xiaomi collectera, traitera et utilisera vos données personnelles, y compris les données de vérification (par exemple, les codes de vérification), les données du second espace (par exemple, informations sur les façons d'utiliser les premier et second espaces), et d'autres données spécifiées dans notre politique de confidentialité. Référez-vous à notre politique de confidentialité pour apprendre comment nous traitons et utilisons les données personnelles."</string>
     <string name="search_app_name">Compte Mi</string>
     <string name="search_mi_account">Compte Mi</string>
     <string name="search_mi_account_key_words">Mi Cloud, Paramètre de compte, Informations Mi Pay, Se déconnecter</string>
@@ -416,10 +416,10 @@ Pour activer votre compte, suivez le
     <string name="find_device_prompt_message">Appareil verrouillé. Message : %1$s.</string>
     <string name="find_device_activate_account">Activer votre compte</string>
     <string name="login_check_find_device">Obtention des informations de sécurité…</string>
-    <string name="unlock_help_notice">"Help:
-1. If you forgot your password, go to id.mi.com to reset it.
-2. If you can't unlock the device, go to i.mi.com to turn off Find device.
-3. Your unlock number: %s"</string>
+    <string name="unlock_help_notice">"Aide :
+1. Si vous avez oublié votre mot de passe, rendez-vous sur id.mi.com pour le réinitialiser.
+2. Si vous ne parvenez pas à déverrouiller votre appareil, rendez-vous sur i.mi.com pour désactiver l'option \"Localiser l'appareil\".
+3. Votre numéro de déverrouillage : %s"</string>
     <string name="login_find_device_bind">"Cet appareil est associé à l'ID d'un Compte Mi existant (%s)."</string>
     <string name="find_device_locked_account_phone" formatted="false">%s, numéro de téléphone associé : %s</string>
     <string name="find_device_locked_account_email" formatted="false">%s, adresse e-mail associée : %s</string>

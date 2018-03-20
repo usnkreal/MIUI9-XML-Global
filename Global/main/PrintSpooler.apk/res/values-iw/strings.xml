@@ -8,7 +8,6 @@
     <string name="label_paper_size">גודל נייר</string>
     <string name="label_paper_size_summary">גודל נייר:</string>
     <string name="label_color">צבע</string>
-    <string name="label_duplex">דו-צדדי</string>
     <string name="label_orientation">כיוון</string>
     <string name="label_pages">עמודים</string>
     <string name="template_all_pages">הכל %1$s</string>

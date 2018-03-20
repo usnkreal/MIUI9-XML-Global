@@ -24,7 +24,13 @@
         <item>Scump</item>
         <item>Foarte scump</item>
     </string-array>
-    <array name="RESTRICTION_ALLOWED_PRICE_LEVEL_SHORT" />
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_SHORT">
+        <item>Orice preț</item>
+        <item>$</item>
+        <item>$$</item>
+        <item>$$$</item>
+        <item>$$$$</item>
+    </string-array>
     <string-array name="RESTRICTION_ALLOWED_STARS">
         <item>Oricare</item>
         <item>2.0</item>
@@ -37,7 +43,12 @@
         <item>Trei sau mai multe stele</item>
         <item>Patru sau mai multe stele</item>
     </string-array>
-    <array name="RESTRICTION_ALLOWED_STARS_SHORT" />
+    <string-array name="RESTRICTION_ALLOWED_STARS_SHORT">
+        <item>Orice evaluare</item>
+        <item>Cel puțin 2 stele</item>
+        <item>Cel puțin 3 stele</item>
+        <item>Cel puțin 4 stele</item>
+    </string-array>
     <string-array name="RESTRICTION_HOTEL_CLASSES">
         <item>Oricare</item>
         <item>3 stele</item>

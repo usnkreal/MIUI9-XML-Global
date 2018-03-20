@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setup_wizard_next_button_label">הבא</string>
+    <string name="setup_wizard_back_button_label">הקודם</string>
+    <string name="app_name">Android Work Assistant</string>
+    <string name="android_for_work_title">התקנת המכשיר שלך</string>
+    <string name="corp_owned_explanation">הארגון שולט בפרופיל ושומר על אבטחתו.</string>
+    <string name="set_up">הגדר</string>
+    <string name="email_hint">כתובת אימייל</string>
+    <string name="code_hint">קוד הפעלה</string>
+    <string name="dialog_activation_code_title">קוד הפעלה</string>
+    <string name="dialog_activation_code_main_text">כדי להגדיר חשבון של Android Work, עליך להתקין אפליקציית ניהול שאושרה על ידי הארגון. כדי להתקין אפליקציה זו, תזדקק לקוד הפעלה. פנה למחלקת ה-IT כדי לקבל קוד זה.</string>
+    <string name="dialog_close">סגור</string>
+    <string name="dialog_cancel">בטל</string>
+    <string name="dialog_ok">אישור</string>
+    <string name="dialog_try_again">נסה שוב</string>
+    <string name="error_dialog_mdm_lookup_failed">לא ניתן לקבל את פרטי הארגון שלך. בדוק את החיבור לאינטרנט ונסה שוב.</string>
+    <string name="error_dialog_cert_hash_mismatch">האפליקציה %1$ כבר מותקנת. הסר את האפליקציה ונסה שוב.</string>
+    <string name="error_dialog_input_error">אין התאמה בין כתובת האימייל ובין קוד ההפעלה שלך. בדוק שאין שגיאות הקלדה ונסה שוב.</string>
+    <string name="lookup_progress_text">מחפש את אפליקציית ניהול המכשיר שלך...</string>
+</resources>

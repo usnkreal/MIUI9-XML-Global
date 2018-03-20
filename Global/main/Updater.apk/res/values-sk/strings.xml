@@ -199,6 +199,9 @@ Navštívte www.miuios.cz/rom (MIUIv6) pre viac informácií.\""</string>
     <string name="confirm_local_package_wipe_title">Vymazať dáta?</string>
     <string name="confirm_local_package_wipe_msg">Vaše užívateľské dáta budú vymazané. Uistite sa, že máte zálohované všetky dôležité dáta predtým ako spustite inštaláciu.</string>
     <string name="confirm_local_package_wipe_btn">Vymazať a aktualizovať</string>
+    <string name="file_path_error_title">Nesprávna cesta</string>
+    <string name="file_path_error_msg">Make sure the path to the update package contains only letters and numbers.</string>
+    <string name="file_path_error_btn">Rozumiem</string>
     <string name="delay_update_text">Aktualizovať dnes v noci</string>
     <string name="dialog_delay_update_title">Dostupná aktualizácia</string>
     <string name="dialog_delay_update_msg">Aktualizácie sa budú inštalovať medzi 2:00 a 5:00 hod. za predpokladu, že batéria má aspoň 30%.</string>

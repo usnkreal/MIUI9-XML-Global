@@ -603,9 +603,9 @@ Ta flere bilder av vennene dine!"</string>
     <string name="mark_myself_suggestion_load_more">"That's not me"</string>
     <string name="mark_myself_suggestion_title">"Select photos with your face
 to personalize Gallery"</string>
-    <string name="mark_operation_failed">"Couldn't add"</string>
-    <string name="mark_operation_processing">Processing…</string>
-    <string name="mark_operation_succeeded">Added successfully</string>
+    <string name="mark_operation_failed">Kunne ikke legge til</string>
+    <string name="mark_operation_processing">Behandler…</string>
+    <string name="mark_operation_succeeded">Lagt til</string>
     <string name="mark_people_ignore_info_message">Press and hold photos of people to add them to groups</string>
     <string name="megabyteShort">MB</string>
     <string name="menu_album_new_album">Nytt album</string>
@@ -894,7 +894,7 @@ to personalize Gallery"</string>
     <string name="search_image_result_title">Søkeresultater</string>
     <string name="search_login_now">Logg inn</string>
     <string name="search_login_sub_title">Logg inn for å finne flere bilder</string>
-    <string name="search_login_title">Mi Account</string>
+    <string name="search_login_title">Mi-konto</string>
     <string name="search_login_title_full_screen">Logg inn med din Mi Account for å finne flere objekter og mennesker</string>
     <string name="search_mark_feedback_false_negative_title">OK</string>
     <string name="search_mark_feedback_false_positive_title">Fiks</string>

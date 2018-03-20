@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setup_wizard_next_button_label">Következő</string>
+    <string name="setup_wizard_back_button_label">Vissza</string>
+    <string name="app_name">Android Work Assistant</string>
+    <string name="android_for_work_title">Az eszköz beállítása</string>
+    <string name="corp_owned_explanation">Ezt az eszközt szervezete kezeli, és gondoskodik annak biztonságáról.</string>
+    <string name="set_up">Beállítás</string>
+    <string name="email_hint">E-mail cím</string>
+    <string name="code_hint">Aktiváló kód</string>
+    <string name="dialog_activation_code_title">Aktiváló kód</string>
+    <string name="dialog_activation_code_main_text">Az Android Work-fiók létrehozásához telepítenie kell a szervezete által jóváhagyott rendszergazdai alkalmazást. Az alkalmazás telepítéséhez aktiváló kódra lesz szüksége. A kód beszerzéséhez vegye fel a kapcsolatot informatikai részlegével.</string>
+    <string name="dialog_close">Bezárás</string>
+    <string name="dialog_cancel">Mégse</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_try_again">Próbálkozzon újra</string>
+    <string name="error_dialog_mdm_lookup_failed">Nem sikerült lekérni a szervezet adatait. Ellenőrizze az internetkapcsolatot, majd próbálja újra.</string>
+    <string name="error_dialog_cert_hash_mismatch">A(z) %1$ alkalmazást már telepítette. Távolítsa el az alkalmazást, és próbálja újra.</string>
+    <string name="error_dialog_input_error">Az e-mail cím és az aktiváló kód nem felel meg egymásnak. Ellenőrizze az esetleges gépelési hibákat, és próbálkozzon újra.</string>
+    <string name="lookup_progress_text">Eszközkezelő alkalmazás keresése…</string>
+</resources>

@@ -134,7 +134,7 @@
     <string name="browserFrameNetworkErrorLabel">Csatlakozási hiba</string>
     <string name="cancel">Mégse</string>
     <string name="cannot_download">Csak \"http\" vagy \"https\" weboldalak letöltése lehetséges</string>
-    <string name="card_setting_close_recommend">Hirdetések fogadása</string>
+    <string name="card_setting_close_recommend">Ajánlások fogadása</string>
     <string name="choosertitle_sharevia">Megosztás a következővel:</string>
     <string name="clear_history">Előzmények törlése</string>
     <string name="clear_most_visited">Legutóbbi előzmények</string>
@@ -408,7 +408,7 @@ Elhagyja ezt az oldalt?"</string>
     <string name="miui_content_extent_select">Több kijelölése</string>
     <string name="miui_content_open_url">URL megnyitása</string>
     <string name="miui_content_paste">Beillesztés</string>
-    <string name="miui_content_select">Kiválasztás</string>
+    <string name="miui_content_select">Kijelölés</string>
     <string name="miui_content_select_all">Összes kijelölése</string>
     <string name="miui_content_share">Megosztás</string>
     <string name="miui_content_web_search">Keresés</string>
@@ -855,9 +855,9 @@ Ne felejtse el, hogy a letöltött fájlok és a könyvjelzők így is mentésre
     <string name="user_defined_webpage">Hozzáadás a kezdőlaphoz</string>
     <string name="user_defined_webpage_title">Hozzáadás a kezdőlaphoz</string>
     <string name="username">Név</string>
-    <string name="v5_deselect_all">Egyik sem</string>
+    <string name="v5_deselect_all">Összes kijelölés törlése</string>
     <string name="v5_edit_mode_title_empty">Nincs kiválasztott</string>
-    <string name="v5_select_all">Az összes kijelölése</string>
+    <string name="v5_select_all">Összes kijelölése</string>
     <string name="version_check_button_checking">Ellenőrzés…</string>
     <string name="version_check_button_default">Frissítések keresése</string>
     <string name="version_check_button_download_failed">Letöltés folytatása</string>

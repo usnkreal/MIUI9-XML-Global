@@ -151,4 +151,5 @@
     <string name="head_set_tip_dialog_msg">Deconectaţi căștile pentru a fi capabil de a înregistra un sunet cu presetări specifice (de exemplu, Muzică, Voce).</string>
     <string name="head_set_tip_dialog_ok">Am înțeles</string>
     <string name="rename_fail_tip">Nu se poate redenumi. Un fișier cu același nume există deja.</string>
+    <string name="dialog_privacy_revoke_tips">După ce revocați autorizația, aplicația va opri colectarea datelor și toate datele asociate vor fi șterse de pe servere. Acest lucru poate face aplicația practic inutilizabilă. Anulați oricum autorizația?Pentru a vă asigura securitatea contului dvs. conectați-vă la i.mi.com înainte de a revoca autorizația pentru serviciile Mi Cloud.</string>
 </resources>

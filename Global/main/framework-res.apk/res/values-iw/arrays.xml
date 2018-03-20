@@ -37,10 +37,6 @@
         <item>אחר</item>
         <item>בהתאמה אישית</item>
     </string-array>
-    <array name="wfcOperatorErrorAlertMessages" />
-    <array name="wfcOperatorErrorNotificationMessages" />
-    <array name="fingerprint_acquired_vendor" />
-    <array name="fingerprint_error_vendor" />
     <string-array name="imAddressTypes">
         <item>בית</item>
         <item>עבודה</item>

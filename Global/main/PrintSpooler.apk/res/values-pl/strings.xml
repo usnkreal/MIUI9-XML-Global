@@ -8,7 +8,6 @@
     <string name="label_paper_size">Rozmiar papieru</string>
     <string name="label_paper_size_summary">Rozmiar papieru:</string>
     <string name="label_color">Kolor</string>
-    <string name="label_duplex">Dwustronny</string>
     <string name="label_orientation">Orientacja</string>
     <string name="label_pages">Strony</string>
     <string name="template_all_pages">Wszystkie %1$s</string>

@@ -8,7 +8,6 @@
     <string name="label_paper_size">Размер на хартията</string>
     <string name="label_paper_size_summary">Размер на хартията:</string>
     <string name="label_color">Цвят</string>
-    <string name="label_duplex">Двустранно</string>
     <string name="label_orientation">Ориентация</string>
     <string name="label_pages">Страници</string>
     <string name="template_all_pages">Всички %1$s</string>
@@ -39,7 +38,7 @@
     <string name="print_select_printer">Избиране на принтер</string>
     <string name="print_forget_printer">Забравяне на принтера</string>
     <string name="choose_print_service">Избиране на услуга за отпечатване</string>
-    <string name="print_searching_for_printers">Търсене на принтери</string>
+    <string name="print_searching_for_printers">Търсят се принтери</string>
     <string name="print_no_printers">Няма намерени принтери</string>
     <string name="printing_notification_title_template">„%1$s“ се отпечатва</string>
     <string name="cancelling_notification_title_template">„%1$s“ се анулира</string>

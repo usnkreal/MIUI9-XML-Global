@@ -28,12 +28,9 @@
     <string name="common_signin_button_text">Belépés</string>
     <string name="common_signin_button_text_long">Google-bejelentkezés</string>
     <string name="common_open_on_phone">Megnyitás a telefonon</string>
-    <string name="suw_next_button_label">Következő</string>
-    <string name="suw_back_button_label">Vissza</string>
-    <string name="suw_more_button_label">Továbbiak</string>
-    <string name="setup_wizard_title">Beállításvarázsló</string>
     <string name="setup_wizard_next_button_label">Következő</string>
     <string name="setup_wizard_back_button_label">Vissza</string>
+    <string name="setup_wizard_title">Beállításvarázsló</string>
     <string name="setup_wizard_services_activity_title">Google-szolgáltatások</string>
     <string name="setup_wizard_services_description">Ezek az Ön szolgálatába állítják a Google-t, és bármikor ki- illetve bekapcsolhatja azokat. Az adatok felhasználása a Google <annotation id="google_privacy">adatvédelmi irányelveivel</annotation> összhangban történik.</string>
     <string name="setup_wizard_services_backup_restore_heading">Biztonsági mentés és visszaállítás</string>
@@ -54,17 +51,40 @@
 Ezt a funkciót bármikor ki- vagy bekapcsolhatja a Google Beállítások alkalmazásban. Ez nem befolyásolja eszközének képességét azon információk elküldésére, amelyekre a nélkülözhetetlen szolgáltatásokhoz, például a rendszerfrissítésekhez és a biztonság megőrzéséhez szüksége van."</string>
     <string name="setup_wizard_services_agreement">A telefon frissítéseket és alkalmazásokat is fogadhat a Google-tól, az Ön szolgáltatójától és a telefon gyártójától, illetve telepítheti ezeket. Ha folytatja, a rendszer egyes alkalmazásokat letölthet és telepíthet – ezeket Ön bármikor eltávolíthatja.</string>
     <string name="default_device_name">Android</string>
+    <string name="welcome_message">Üdvözlet</string>
+    <string name="welcome_secondary_user_added_text">%s hozzáadta Önt ehhez a telefonhoz.</string>
+    <string name="welcome_secondary_user_added_no_owner_name_text">Ön már hozzá van adva ehhez a telefonhoz.</string>
+    <string name="welcome_secondary_user_info_text">"Ha befejezte a beállítást, akkor a szokásos módon dolgozhat az alkalmazásokkal, illetve telepíthet újakat.
+
+"<b>Fontos:</b>"
+
+"<li><ul>A telefon tulajdonosa eltávolíthatja az Ön alkalmazásait, illetve teljes mértékben törölheti tárhelyét.</ul></li>"
+
+"<li><ul>Bármelyik másik felhasználó elfogadhatja az alkalmazás frissített engedélyeit az Ön nevében.</ul></li>"
+
+"<li><ul>Mint minden számítógép esetében is tenné, csak megbízható személyekkel ossza meg ezt a telefont.</ul></li></string>
+    <string name="welcome_limited_user_info_text">" 
+"<b>Fontos:</b>"
+
+ "<li><ul>A telefon tulajdonosa telepíthet és eltávolíthat alkalmazásokat, korlátozásokat állíthat be, illetve teljesen eltávolíthatja tárhelyét.</ul></li>"
+
+ "<li><ul>Bármelyik másik felhasználó elfogadhat frissített alkalmazásengedélyeket az Ön nevében.</ul></li>"
+
+ "<li><ul>Ahogy más számítógépeket, a telefont is csak olyan személyekkel ossza meg, akikben megbízik. </ul></li></string>
+    <string name="welcome_text_edu">Állítsa be eszközén a Google Play iskolának szolgáltatás használatát</string>
+    <string name="welcome_secondary_user_text_edu">Fejezze be a fiók létrehozását ezen a táblagépen.</string>
+    <string name="welcome_secondary_user_additional_info_header_edu">Fontos</string>
+    <string name="welcome_secondary_user_additional_info_edu">Más diákokkal osztozik ezen a táblagépen. Miután létrehozta fiókját, adjon meg egy PIN kódot tartalmai megóvása érdekében.</string>
     <string name="finish_button_label">Befejezés</string>
-    <string name="skip_button_label">Kihagyás</string>
+    <string name="skip_button_label">Átugrás</string>
     <string name="skip_anyway_button_label">Mégis kihagyom</string>
-    <string name="dont_skip_button_label">Nem hagyom ki</string>
+    <string name="dont_skip_button_label">Ne hagyja ki</string>
     <string name="down_button_label">Továbbiak</string>
     <string name="cancel_button_label">Mégse</string>
     <string name="restart_button_label">Újraindítás</string>
-    <string name="try_again_button_label">Újra</string>
+    <string name="try_again_button_label">Próbálkozzon újra</string>
     <string name="close_button_label">Bezárás</string>
     <string name="got_it_button_label">Értem</string>
-    <string name="ok_button_label">OK</string>
     <string name="google_legal_title">Google -- jogi szabályozás</string>
     <string name="url_load_unsuccessful_message">Telefonja nem kapcsolódik mobil adatszolgáltatáshoz. Az információ megtekintéséhez keresse fel a(z) %s webhelyet egy böngészőben.</string>
     <string name="start">Indítás</string>
@@ -133,7 +153,13 @@ Miután a telefon leállt, az újraindításhoz nyomja meg a bekapcsológombot."
     <string name="date_time_message">Szükség esetén állítsa át.</string>
     <string name="date_time_current_date">Dátum</string>
     <string name="date_time_current_time">Idő</string>
-    <string name="date_time_time_zone_full" formatted="false">%s (%s)</string>
+    <string name="location_sharing_title">A Google és a helymegosztás</string>
+    <string name="tos_title">Google-szolgáltatások</string>
+    <string name="tos_agreement_text">A telefon frissítéseket fogadhat és telepíthet a Google-tól. A folytatással elfogadja a <annotation id="tos">Google Általános Szerződési Feltételeit</annotation> és <annotation id="google_privacy">Adatvédelmi irányelveit</annotation>.</string>
+    <string name="tos_agreement_text_germany">Elfogadja továbbá, hogy az eszköz frissítéseket kaphat és telepíthet a Google-tól. Miközben az eszközt használja, betartjuk <annotation id="google_privacy">Adatvédelmi irányelveinket</annotation>, valamint <annotation id="tos">további feltételek</annotation> is érvényesek.</string>
+    <string name="setup_complete_title">A telepítés kész</string>
+    <string name="setup_complete_message">Sikerült a telefon beállítása, így most már használatra kész.</string>
+    <string name="backup_assistant_prompt">Indítsa el a Verizon Backup Assistant alkalmazást a névjegyek visszaállításához egy másik Verizon-telefonról.</string>
     <string name="sim_missing_title">Helyezze be a SIM kártyát.</string>
     <string name="sim_setup_title">SIM kártyák beállítása</string>
     <string name="sim_setup_select_data">Válassza ki a SIM kártyát a mobiladatokhoz</string>
@@ -172,27 +198,19 @@ Most nem aktiválhatja az eszköz védelmi funkcióit."</string>
     <string name="continue_for_a11y">A Kisegítő lehetőségek aktiválásához tartsa ujját a képernyőn addig, amíg egy hangjelzést nem hall.</string>
     <string name="canceled_a11y">Kisegítő mód megszakítva.</string>
     <string name="enabled_a11y">Kisegítő mód engedélyezve.</string>
-    <string name="welcome_message">Üdvözöljük!</string>
     <string name="emergency_dial">Segélyhívás</string>
-    <string name="welcome_language_picker_dialog_title">Nyelv kiválasztása</string>
-    <string name="welcome_language_picker_section_suggested">Javasolt</string>
-    <string name="welcome_language_picker_section_all">Minden nyelv</string>
     <string name="welcome_language_picker_content_description">Nyelv: %s</string>
     <string name="lock_screen_intro_title">Óvja meg telefonját</string>
-    <string name="lock_screen_intro_text">Az eszköz védelmi funkcióinak aktiválásával megakadályozhatja, hogy mások az Ön engedélye nélkül használják a telefont.<annotation id="learn_more">További információ</annotation></string>
-    <string name="lock_screen_intro_text_secondary">Ha az igen lehetőséget választja, a rendszer végigvezeti a képernyőzár beállításának folyamatán.</string>
-    <string name="lock_screen_intro_check_box"><b>Óvja meg eszközét</b>, és a képernyőzár feloldásához állítson be PIN kódot, mintát vagy jelszót.</string>
-    <string name="lock_screen_intro_radio_fingerprint">Ujjlenyomat beállítása</string>
-    <string name="lock_screen_intro_radio_generic">PIN kód, minta vagy jelszó beállítása</string>
-    <string name="lock_screen_intro_radio_no">Köszönöm, nem</string>
-    <string name="lock_screen_intro_success">"Sikeresen beállította a képernyőzárat.
+    <string name="lock_screen_intro_text">"Az eszköz védelmi funkcióinak aktiválásával megakadályozhatja, hogy mások az Ön engedélye nélkül használják a telefont.
 "<annotation id="learn_more">További információ</annotation></string>
-    <string name="lock_screen_intro_dialog_text_frp">"Az eszközvédelem automatikusan aktiválódik, ha hozzáad egy Google-fiókot, és beállítja a képernyőzárat. Az Android Eszközkezelővel együttesen használva meghatározhatja a telefon helyét, és törölheti annak tartalmát, ha elveszíti vagy ellopják azt.
+    <string name="lock_screen_intro_text_secondary">Ha az igen lehetőséget választja, a rendszer végigvezeti a lezárási képernyő beállításának folyamatán.</string>
+    <string name="lock_screen_intro_check_box"><b>Óvja meg eszközét</b>, és a képernyőzár feloldásához állítson be PIN kódot, mintát vagy jelszót</string>
+    <string name="lock_screen_intro_button">Képernyőzár beállítása most</string>
+    <string name="lock_screen_intro_success">Sikeresen beállította a lezárási képernyőt.</string>
+    <string name="lock_screen_intro_dialog_text">"Az eszközvédelem automatikusan aktiválódik, ha hozzáad egy Google-fiókot, és beállít egy képernyőzárat. Az Android Eszközkezelővel együttesen használva meghatározhatja a telefon helyét, törölheti annak tartalmát, illetve megakadályozhatja a további használatát, ha elveszti vagy ellopják.
 
-Még ha törlik is a telefont, a használatához szükség lesz az Ön Google-fiókjának jelszavára."</string>
-    <string name="lock_screen_intro_dialog_text">Az eszközvédelem automatikusan aktiválódik, ha hozzáad egy Google-fiókot és beállítja a képernyőzárat. Az Android Eszközkezelővel együttesen használva meghatározhatja a telefon helyét, és törölheti annak tartalmát, ha elveszti vagy ellopják készülékét.</string>
-    <string name="lock_screen_intro_skip_dialog_text_frp">Az eszköz védelmi funkciói nem aktiválódnak. Nem fogja tudni megakadályozni, hogy mások használják a telefont, ha elveszti, ellopják vagy törlik azt.</string>
-    <string name="lock_screen_intro_skip_dialog_text">Az eszköz védelmi funkciói nem aktiválódnak. Nem fogja tudni megakadályozni, hogy mások használják a telefont, ha elveszti vagy ellopják azt.</string>
+Még ha törlik is telefonját, annak használatához szükség lesz az Ön Google-fiókjának jelszavára."</string>
+    <string name="lock_screen_intro_skip_dialog_text">Az eszköz védelmi funkciói nem aktiválódnak. Nem fogja tudni megakadályozni, hogy mások használják a telefont, ha elveszti, ellopják vagy törlik azt.</string>
     <string name="services_activity_title">Google-szolgáltatások</string>
     <string name="services_backup_heading">Biztonsági másolat</string>
     <string name="services_location_heading">Hely</string>
@@ -204,45 +222,21 @@ Még ha törlik is a telefont, a használatához szükség lesz az Ön Google-fi
     <string name="restore_wallpaper_title">Háttérkép helyreállítása…</string>
     <string name="restore_device_settings_title">Eszközbeállítások helyreállítása…</string>
     <string name="restore_launcher_title">Indító helyreállítása…</string>
-    <string name="restore_failed_message">Nem sikerült visszaállítani a biztonsági másolatból.</string>
-    <string name="restore_no_backup_message">A forráseszköz esetén nem érhető el biztonsági másolat.</string>
-    <string name="restore_stopped_message">Sajnos az eszközön félbemaradt az adatok biztonsági mentésből való visszaállítása.</string>
+    <string name="restore_failed_message">Nem sikerült visszaállítani a biztonsági másolatból</string>
     <string name="name_title">Név</string>
     <string name="name_text">A név megadását követően a telefon személyre szabhat egyes alkalmazásokat.</string>
     <string name="first_name">Utónév</string>
     <string name="last_name">Vezetéknév</string>
     <string name="cant_be_blank">A mező nem lehet üres.</string>
-    <string name="device_owner_warning_title">A telefon felügyelet alatt állhat</string>
-    <string name="device_owner_warning">A telefon kezelését „%1$s” végzi, ezért az Ön egyes adatai láthatók lehetnek mások számára. A felügyelet elkerüléséhez állítsa vissza telefonját.</string>
-    <string name="device_owner_continue">Tovább</string>
-    <string name="device_owner_reset">Telefon visszaállítása</string>
-    <string name="factory_reset_title">Telefon visszaállítása</string>
-    <string name="factory_reset_instructions">Figyelmeztetés: A visszaállítás törli a telefon belső tárhelyén lévő összes fiókot és adatot.</string>
-    <string name="factory_reset_confirmation_title">Visszaállítja?</string>
-    <string name="factory_reset_confirmation">Törli a telefonon lévő összes fiókot és adatot? Ez a művelet nem vonható vissza!</string>
-    <string name="factory_reset_button">Törlés és visszaállítás</string>
-    <string name="restart_setup_wizard_dialog_title">Nincs bejelentkezve</string>
-    <string name="restart_setup_wizard_dialog_text">"A telefon használatához először be kell jelentkeznie egy tulajdonosi Google-fiókba, amelyet a legutóbbi visszaállításkor használtak a telefonon.
-
-Mivel Ön ezt nem tette meg, újra be kell állítania a telefont."</string>
-    <string name="restart_setup_wizard_button_label">Telefon beállítása</string>
-    <string name="sec_user_continue">Tovább</string>
-    <string name="sec_user_quit">Kilépés</string>
-    <string name="user_warning_title">Új felhasználó beállítása</string>
-    <string name="welcome_secondary_user_added_text">%s hozzáadta Önt ehhez a telefonhoz.</string>
-    <string name="welcome_secondary_user_added_no_owner_name_text">Ön már hozzá van adva ehhez a telefonhoz.</string>
-    <string name="welcome_secondary_user_info_text"><b>Fontos:</b>"
-
-"<li><ul>A telefon tulajdonosa eltávolíthat alkalmazásokat, illetve teljesen eltávolíthatja az Ön tárhelyét.</ul></li>"
-
-"<li><ul>Az összes többi felhasználó elfogadhat frissített alkalmazásengedélyeket az Ön nevében.</ul></li>"
-
-"<li><ul>Mint minden más számítógép esetében, csak olyan személlyel ossza meg ezt az eszközt, akiben megbízik.</ul></li></string>
-    <string name="welcome_limited_user_info_text">" "<b>Fontos:</b>"
-
- "<li><ul>A telefon tulajdonosa telepíthet és eltávolíthat alkalmazásokat, korlátozásokat állíthat be, illetve teljesen eltávolíthatja az Ön tárhelyét.</ul></li>"
-
- "<ul>Bármelyik másik felhasználó elfogadhat frissített alkalmazásengedélyeket az Ön nevében.</ul>"
-
- "<ul>Ahogyan a számítógépek esetében is megszokta, csak olyan személlyel ossza meg ezt a telefont, akiben megbízik.<li> </li></ul></string>
+    <string name="lock_pin_confirm_your_pin_header">PIN kód megerősítése</string>
+    <string name="lock_pin_choose_your_pin_header">Adja meg PIN kódját</string>
+    <string name="lock_pin_ok_label">OK</string>
+    <string name="lock_pin_cancel_label">Mégse</string>
+    <string name="lock_pin_press_continue">Ha kész, érintse meg a Folytatás gombot</string>
+    <string name="lock_pin_too_short">A PIN kódnak legalább %d számjegyűnek kell lennie.</string>
+    <string name="lock_pin_too_long">A PIN kódnak rövidebbnek kell lennie %d számjegynél.</string>
+    <string name="lock_pin_illegal_character">A jelszó érvénytelen karaktert tartalmaz.</string>
+    <string name="lock_pin_contains_non_digits">A PIN kód csak számokat tartalmazhat, 0-tól 9-ig.</string>
+    <string name="lock_pin_confirm_pins_dont_match">A PIN kódok nem egyeznek</string>
+    <string name="lock_pin_continue_label">Tovább</string>
 </resources>

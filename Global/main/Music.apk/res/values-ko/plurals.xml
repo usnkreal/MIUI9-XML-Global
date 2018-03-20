@@ -56,13 +56,13 @@
         <item quantity="other">Mi 클라우드의 %d개 노래를 삭제하시겠습니까? 로컬 재생 목록도 삭제될 것입니다.</item>
     </plurals>
     <plurals name="download_finished">
-        <item quantity="other">&lt;font color=\"red\">%d개 노래&lt;/font> 다운로드됨</item>
+        <item quantity="other">&amp;lt;font color=\"red\">%d개 노래&amp;lt;/font> 다운로드됨</item>
     </plurals>
     <plurals name="download_info_count_deleted_tasks">
         <item quantity="other">%d개 다운로드 제거됨</item>
     </plurals>
     <plurals name="download_running">
-        <item quantity="other">&lt;font color=\"red\">%d개 노래&lt;/font> 다운로드 중</item>
+        <item quantity="other">&amp;lt;font color=\"red\">%d개 노래&amp;lt;/font> 다운로드 중</item>
     </plurals>
     <plurals name="multichoice_title">
         <item quantity="other">%d 개 선택됨</item>

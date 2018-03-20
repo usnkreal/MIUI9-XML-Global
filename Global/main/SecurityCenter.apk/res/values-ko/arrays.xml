@@ -65,7 +65,6 @@
         <item>사용 빈도</item>
         <item>사용 중인 용량</item>
         <item>설치 시간</item>
-        <item>설치 제거 지원 앱</item>
     </string-array>
     <string-array name="sort_title">
         <item>상태로 정렬</item>
@@ -73,7 +72,6 @@
         <item>사용 빈도로 정렬</item>
         <item>사용 중인 용량으로 정렬</item>
         <item>설치 시간으로 정렬</item>
-        <item>삭제 가능한 앱을 먼저 표시할 수 있습니다.</item>
     </string-array>
     <string-array name="key_app_info">
         <item>install_source</item>

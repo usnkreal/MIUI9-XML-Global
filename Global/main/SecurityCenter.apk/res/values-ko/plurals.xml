@@ -54,7 +54,7 @@
         <item quantity="other">%d개 앱 발견됨</item>
     </plurals>
     <plurals name="network_restrict_count">
-        <item quantity="other">"&lt;font color='#ff0000'>%d:&lt;/font>개 앱의 네트워크 접근이 제한되었습니다."</item>
+        <item quantity="other">"&amp;lt;font color='#ff0000'>%d:&amp;lt;/font>개 앱의 네트워크 접근이 제한되었습니다."</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
         <item quantity="other">%d개 앱이 제대로 작동하지 않으며 배터리를 소모합니다.</item>

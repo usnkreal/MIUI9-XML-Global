@@ -9,8 +9,8 @@
         <item quantity="one">%1$d további kattintás</item>
     </plurals>
     <plurals name="add_collaborators_invalid_contact_address">
-        <item quantity="other">Érvénytelen e-mail-címek: %s.</item>
-        <item quantity="one">Érvénytelen e-mail-cím: %s.</item>
+        <item quantity="other">A(z) %s nem érvényes e-mail címek.</item>
+        <item quantity="one">A(z) %s nem érvényes e-mail-cím.</item>
     </plurals>
     <plurals name="add_confirm_dialog_message_share_files">
         <item quantity="other">A fájlok hozzáadásával minden olyan személlyel megosztja őket, aki látja a(z) %1$s megosztott mappát</item>
@@ -41,10 +41,6 @@
     <plurals name="backup_apps_success_msg">
         <item quantity="other">%1$d alkalmazás frissítve</item>
         <item quantity="one">%1$d alkalmazás frissítve</item>
-    </plurals>
-    <plurals name="delete_backup_success_message">
-        <item quantity="other">Biztonsági másolatok törölve.</item>
-        <item quantity="one">Biztonsági másolat törölve.</item>
     </plurals>
     <plurals name="download_message_all_failed">
         <item quantity="other">Az elemeket nem sikerült letölteni</item>
@@ -123,22 +119,6 @@
         <item quantity="other">Megosztja ezeket a mappákat?</item>
         <item quantity="one">Megosztja ezt a mappát?</item>
     </plurals>
-    <plurals name="move_error_cannot_move_in_not_owned">
-        <item quantity="other">Egyes elemeknek nem Ön a tulajdonosa, ezért nem helyezheti át őket a csapatmeghajtóra.</item>
-        <item quantity="one">Nem Ön az elem tulajdonosa, ezért nem helyezheti át azt a csapatmeghajtóra.</item>
-    </plurals>
-    <plurals name="move_error_no_permission_src">
-        <item quantity="other">Nem jogosult rá, hogy egyes elemeket áthelyezzen ebből a mappából.</item>
-        <item quantity="one">Nem jogosult rá, hogy áthelyezze ezt az elemet ebből a mappából.</item>
-    </plurals>
-    <plurals name="pdocs_action_items">
-        <item quantity="other">%1$s műveletelem</item>
-        <item quantity="one">%1$s műveletelem</item>
-    </plurals>
-    <plurals name="pdocs_comments">
-        <item quantity="other">%1$s megválaszolatlan említés</item>
-        <item quantity="one">%1$s megválaszolatlan említés</item>
-    </plurals>
     <plurals name="pdocs_suggestions">
         <item quantity="other">%1$s javaslat</item>
         <item quantity="one">%1$s javaslat</item>
@@ -163,51 +143,39 @@
         <item quantity="other">%1$d fájl</item>
         <item quantity="one">%1$d fájl</item>
     </plurals>
-    <plurals name="pin_notification_waiting_ticker">
-        <item quantity="other">A letöltések szünetelnek, várakozás a Wi-Fi-re…</item>
-        <item quantity="one">A letöltés szünetel, várakozás Wi-Fire…</item>
-    </plurals>
     <plurals name="pin_notification_waiting_title">
         <item quantity="other">%1$d letöltés szünetel.</item>
         <item quantity="one">%1$d letöltés szünetel.</item>
     </plurals>
     <plurals name="plus_photo_item_remove_items_dialog_text_multiple">
-        <item quantity="other">%1$d elem a kukába kerül. Ezzel a Google Fotókból is eltávolítja.</item>
+        <item quantity="other">%d elem a kukába kerül. Ezzel a Google Fotókból is eltávolítja.</item>
         <item quantity="one">Egy elem a kukába kerül. Ezzel a Google Fotókból is eltávolítja.</item>
     </plurals>
-    <plurals name="prioritydocs_badge_a11y_text">
-        <item quantity="other">%1$s teendő</item>
-        <item quantity="one">%1$s teendő</item>
-    </plurals>
-    <plurals name="prioritydocs_menu_item_a11y_text">
-        <item quantity="other">%1$s teendő</item>
-        <item quantity="one">%1$s teendő</item>
-    </plurals>
     <plurals name="recent_activity_type_commented_many_users">
-        <item quantity="other">Hozzászólt %1$d fájlhoz</item>
+        <item quantity="other">Hozzászólt %d fájlhoz</item>
         <item quantity="one">Hozzászólt egy fájlhoz</item>
     </plurals>
     <plurals name="recent_activity_type_commented_one_user">
-        <item quantity="other">Hozzászólt %1$d fájlhoz</item>
+        <item quantity="other">Hozzászólt %d fájlhoz</item>
         <item quantity="one">Hozzászólt egy fájlhoz</item>
     </plurals>
     <plurals name="recent_activity_type_commented_this_file">
         <item quantity="other">Hozzászólt a fájlhoz</item>
     </plurals>
     <plurals name="recent_activity_type_created_extra_many_users">
-        <item quantity="other">Létrehozott %1$d elemet itt:</item>
+        <item quantity="other">Létrehozott %d elemet itt:</item>
         <item quantity="one">Létrehozott egy elemet itt:</item>
     </plurals>
     <plurals name="recent_activity_type_created_extra_one_user">
-        <item quantity="other">Létrehozott %1$d elemet itt:</item>
+        <item quantity="other">Létrehozott %d elemet itt:</item>
         <item quantity="one">Létrehozott egy elemet itt:</item>
     </plurals>
     <plurals name="recent_activity_type_created_many_users">
-        <item quantity="other">Létrehozott %1$d elemet</item>
+        <item quantity="other">Létrehozott %d elemet</item>
         <item quantity="one">Létrehozott egy elemet</item>
     </plurals>
     <plurals name="recent_activity_type_created_one_user">
-        <item quantity="other">Létrehozott %1$d elemet</item>
+        <item quantity="other">Létrehozott %d elemet</item>
         <item quantity="one">Létrehozott egy elemet</item>
     </plurals>
     <plurals name="recent_activity_type_created_this_file">
@@ -217,26 +185,26 @@
         <item quantity="other">Létrehozta ezt a mappát</item>
     </plurals>
     <plurals name="recent_activity_type_edited_many_users">
-        <item quantity="other">Szerkesztett %1$d elemet</item>
+        <item quantity="other">Szerkesztett %d elemet</item>
         <item quantity="one">Szerkesztett egy elemet</item>
     </plurals>
     <plurals name="recent_activity_type_edited_one_user">
-        <item quantity="other">Szerkesztett %1$d elemet</item>
+        <item quantity="other">Szerkesztett %d elemet</item>
         <item quantity="one">Szerkesztett egy elemet</item>
     </plurals>
     <plurals name="recent_activity_type_edited_this_file">
         <item quantity="other">Szerkesztette ezt a fájlt</item>
     </plurals>
     <plurals name="recent_activity_type_empty_trash">
-        <item quantity="other">Végleg törölt %1$d elemet</item>
+        <item quantity="other">Végleg törölt %d elemet</item>
         <item quantity="one">Végleg törölt egy elemet</item>
     </plurals>
     <plurals name="recent_activity_type_link_many_users">
-        <item quantity="other">Módosította %1$d elem linkkel való elérését</item>
+        <item quantity="other">Módosította %d elem linkkel való elérését</item>
         <item quantity="one">Módosította 1 elem linkkel való elérését</item>
     </plurals>
     <plurals name="recent_activity_type_link_one_user">
-        <item quantity="other">Módosította %1$d elem linkkel való elérését</item>
+        <item quantity="other">Módosította %d elem linkkel való elérését</item>
         <item quantity="one">Módosította 1 elem linkkel való elérését</item>
     </plurals>
     <plurals name="recent_activity_type_link_this_file">
@@ -246,19 +214,19 @@
         <item quantity="other">Módosította a mappa linkkel való elérését</item>
     </plurals>
     <plurals name="recent_activity_type_moved_extra_many_users">
-        <item quantity="other">Áthelyezett %1$d elemet ide:</item>
+        <item quantity="other">Áthelyezett %d elemet ide:</item>
         <item quantity="one">Áthelyezett egy elemet ide:</item>
     </plurals>
     <plurals name="recent_activity_type_moved_extra_one_user">
-        <item quantity="other">Áthelyezett %1$d elemet ide:</item>
+        <item quantity="other">Áthelyezett %d elemet ide:</item>
         <item quantity="one">Áthelyezett egy elemet ide:</item>
     </plurals>
     <plurals name="recent_activity_type_moved_many_users">
-        <item quantity="other">Áthelyezett %1$d elemet</item>
+        <item quantity="other">Áthelyezett %d elemet</item>
         <item quantity="one">Áthelyezett egy elemet</item>
     </plurals>
     <plurals name="recent_activity_type_moved_one_user">
-        <item quantity="other">Áthelyezett %1$d elemet</item>
+        <item quantity="other">Áthelyezett %d elemet</item>
         <item quantity="one">Áthelyezett egy elemet</item>
     </plurals>
     <plurals name="recent_activity_type_moved_this_file">
@@ -274,11 +242,11 @@
         <item quantity="other">Áthelyezte ezt a mappát ide:</item>
     </plurals>
     <plurals name="recent_activity_type_renamed_many_users">
-        <item quantity="other">%d elem átnevezve</item>
+        <item quantity="other">Átnevezett %d elemet</item>
         <item quantity="one">Átnevezett egy elemet</item>
     </plurals>
     <plurals name="recent_activity_type_renamed_one_user">
-        <item quantity="other">%d elem átnevezve</item>
+        <item quantity="other">Átnevezett %d elemet</item>
         <item quantity="one">Átnevezett egy elemet</item>
     </plurals>
     <plurals name="recent_activity_type_renamed_this_file">
@@ -288,19 +256,19 @@
         <item quantity="other">Átnevezte ezt a mappát</item>
     </plurals>
     <plurals name="recent_activity_type_shared_extra_many_users">
-        <item quantity="other">Megosztott %1$d elemet a következőkkel:</item>
+        <item quantity="other">Megosztott %d elemet a következőkkel:</item>
         <item quantity="one">Megosztott egy elemet a következőkkel:</item>
     </plurals>
     <plurals name="recent_activity_type_shared_extra_one_user">
-        <item quantity="other">Megosztott %1$d elemet a következőkkel:</item>
+        <item quantity="other">Megosztott %d elemet a következőkkel:</item>
         <item quantity="one">Megosztott egy elemet a következőkkel:</item>
     </plurals>
     <plurals name="recent_activity_type_shared_many_users">
-        <item quantity="other">Megosztott %1$d elemet</item>
+        <item quantity="other">Megosztott %d elemet</item>
         <item quantity="one">Megosztott egy elemet</item>
     </plurals>
     <plurals name="recent_activity_type_shared_one_user">
-        <item quantity="other">Megosztott %1$d elemet</item>
+        <item quantity="other">Megosztott %d elemet</item>
         <item quantity="one">Megosztott egy elemet</item>
     </plurals>
     <plurals name="recent_activity_type_shared_this_file">
@@ -316,11 +284,11 @@
         <item quantity="other">Megosztotta ezt a mappát a következőkkel:</item>
     </plurals>
     <plurals name="recent_activity_type_trashed_many_users">
-        <item quantity="other">A kukába helyezett %1$d elemet</item>
+        <item quantity="other">A kukába helyezett %d elemet</item>
         <item quantity="one">A kukába helyezett egy elemet</item>
     </plurals>
     <plurals name="recent_activity_type_trashed_one_user">
-        <item quantity="other">A kukába helyezett %1$d elemet</item>
+        <item quantity="other">A kukába helyezett %d elemet</item>
         <item quantity="one">A kukába helyezett egy elemet</item>
     </plurals>
     <plurals name="recent_activity_type_trashed_this_file">
@@ -330,11 +298,11 @@
         <item quantity="other">Eltávolította ezt a mappát</item>
     </plurals>
     <plurals name="recent_activity_type_unshared_many_users">
-        <item quantity="other">Korlátozta %1$d elem elérését</item>
+        <item quantity="other">Korlátozta %d elem elérését</item>
         <item quantity="one">Korlátozta 1 elem elérését</item>
     </plurals>
     <plurals name="recent_activity_type_unshared_one_user">
-        <item quantity="other">Korlátozta %1$d elem elérését</item>
+        <item quantity="other">Korlátozta %d elem elérését</item>
         <item quantity="one">Korlátozta 1 elem elérését</item>
     </plurals>
     <plurals name="recent_activity_type_unshared_this_file">
@@ -344,11 +312,11 @@
         <item quantity="other">Korlátozta ennek a mappának az elérését</item>
     </plurals>
     <plurals name="recent_activity_type_uploaded_many_users">
-        <item quantity="other">Feltöltött %1$d elemet</item>
+        <item quantity="other">Feltöltött %d elemet</item>
         <item quantity="one">Feltöltött egy elemet</item>
     </plurals>
     <plurals name="recent_activity_type_uploaded_one_user">
-        <item quantity="other">Feltöltött %1$d elemet</item>
+        <item quantity="other">Feltöltött %d elemet</item>
         <item quantity="one">Feltöltött egy elemet</item>
     </plurals>
     <plurals name="recent_activity_type_uploaded_this_file">
@@ -360,17 +328,9 @@
     <plurals name="recent_activity_users_more">
         <item quantity="other">%1$s és %2$d további felhasználó</item>
     </plurals>
-    <plurals name="remove_dialog_delete_for_everyone_files_text">
-        <item quantity="other">A rendszer %1$d fájlt a(z) %2$s kukájába helyez, és 30 nap után véglegesen törli őket.</item>
-        <item quantity="one">A rendszer a fájlt a(z) %2$s kukájába helyezi, és 30 nap után véglegesen törli.</item>
-    </plurals>
-    <plurals name="remove_dialog_delete_for_everyone_folders_text">
-        <item quantity="other">A rendszer %1$d mappát a(z) %2$s kukájába helyez, és 30 nap után véglegesen törli őket.</item>
-        <item quantity="one">A rendszer a mappát a(z) %2$s kukájába helyezi, és 30 nap után véglegesen törli.</item>
-    </plurals>
-    <plurals name="remove_dialog_delete_for_everyone_items_text">
-        <item quantity="other">A rendszer %1$d elemet a(z) %2$s kukájába helyez, és 30 nap után véglegesen törli őket.</item>
-        <item quantity="one">A rendszer az elemet a(z) %2$s kukájába helyezi, és 30 nap után véglegesen törli.</item>
+    <plurals name="remove_dialog_delete_permanently_text_multiple">
+        <item quantity="other">Biztosan véglegesen törölni szeretne %d elemet? A művelet nem vonható vissza.</item>
+        <item quantity="one">Biztosan véglegesen törölni szeretne egy elemet? A művelet nem vonható vissza.</item>
     </plurals>
     <plurals name="selection_floating_handle_count">
         <item quantity="other">%1$d elem</item>
@@ -384,49 +344,45 @@
         <item quantity="other">%1$d elem kijelölése megszüntetve</item>
         <item quantity="one">%1$d elem kijelölése megszüntetve</item>
     </plurals>
-    <plurals name="selection_message_pin_num_items">
-        <item quantity="other">%d elem offline is elérhető lesz.</item>
-        <item quantity="one">1 elem offline is elérhető lesz</item>
-    </plurals>
     <plurals name="selection_message_star_num_items">
-        <item quantity="other">%1$d elem megcsillagozva</item>
+        <item quantity="other">%d elem megcsillagozva</item>
         <item quantity="one">1 elem megcsillagozva</item>
     </plurals>
     <plurals name="selection_message_unpin_num_items">
-        <item quantity="other">%1$d elem nem lesz elérhető offline</item>
-        <item quantity="one">1 elem nem lesz elérhető offline</item>
+        <item quantity="other">%d elem eltávolítva az eszközről</item>
+        <item quantity="one">1 elem eltávolítva az eszközről</item>
     </plurals>
     <plurals name="selection_message_unstar_num_items">
-        <item quantity="other">%1$d elem csillagozása megszüntetve</item>
+        <item quantity="other">%d elem csillagozása megszüntetve</item>
         <item quantity="one">1 elem csillagozása megszüntetve</item>
     </plurals>
     <plurals name="selection_message_untrash_num_items">
-        <item quantity="other">%1$d elem visszaállítva</item>
+        <item quantity="other">%d elem visszaállítva</item>
         <item quantity="one">1 elem visszaállítva</item>
-    </plurals>
-    <plurals name="selection_undo_complete_message_remove_num_items">
-        <item quantity="other">%1$d elem visszaállítva</item>
-        <item quantity="one">1 elem visszaállítva</item>
-    </plurals>
-    <plurals name="selection_undo_complete_num_items_add_trashed_message">
-        <item quantity="other">%1$d elem eltávolítva</item>
-        <item quantity="one">1 elem eltávolítva</item>
-    </plurals>
-    <plurals name="selection_undo_complete_num_items_move_message">
-        <item quantity="other">%1$d elem visszaállítva</item>
-        <item quantity="one">1 elem visszaállítva</item>
-    </plurals>
-    <plurals name="selection_undo_complete_num_items_move_trashed_message">
-        <item quantity="other">%1$d elem újra a kukába helyezve</item>
-        <item quantity="one">1 elem újra a kukába helyezve</item>
-    </plurals>
-    <plurals name="selection_undo_complete_num_items_restore_trashed_message">
-        <item quantity="other">%1$d elem újra a kukába helyezve</item>
-        <item quantity="one">1 elem újra a kukába helyezve</item>
     </plurals>
     <plurals name="selection_undo_message_remove_num_items">
-        <item quantity="other">%1$d elem eltávolítva</item>
+        <item quantity="other">%d elem eltávolítva</item>
         <item quantity="one">1 elem eltávolítva</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_add_message">
+        <item quantity="other">%1$d elem hozzáadva a(z) %2$s mapához</item>
+        <item quantity="one">1 elem hozzáadva a(z) %2$s mappához</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_add_trashed_message">
+        <item quantity="other">%1$d elem visszaállítva és hozzáadva a következőhöz: %2$s</item>
+        <item quantity="one">1 elem visszaállítva és hozzáadva a következőhöz: %2$s</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_move_message">
+        <item quantity="other">%1$d elem áthelyezve ide: %2$s</item>
+        <item quantity="one">1 elem áthelyezve ide: %2$s</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_move_trashed_message">
+        <item quantity="other">%1$d elem visszaállítva és áthelyezve ide: %2$s</item>
+        <item quantity="one">1 elem visszaállítva és áthelyezve ide: %2$s</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_restore_trashed_message">
+        <item quantity="other">%1$d elem visszaállítva ide: %2$s</item>
+        <item quantity="one">1 elem visszaállítva ide: %2$s</item>
     </plurals>
     <plurals name="send_files">
         <item quantity="other">Fájlok küldése a következővel</item>
@@ -435,20 +391,13 @@
     <plurals name="sharing_message_add_users_more">
         <item quantity="other">%1$s meg lett osztva a következővel: %2$s és további %3$d felhasználó</item>
     </plurals>
-    <plurals name="td_sharing_message_add_users_more">
-        <item quantity="other">%2$s és további %3$d személy hozzáadva a következőhöz: %1$s</item>
-    </plurals>
-    <plurals name="teamdrive_acl_info_summary">
-        <item quantity="other">%d tag</item>
-        <item quantity="zero">Nincsenek tagok</item>
-        <item quantity="one">1 tag</item>
-    </plurals>
-    <plurals name="teamdrive_plus_others_text">
-        <item quantity="other">+%d</item>
-    </plurals>
     <plurals name="transfer_notification_waiting_resume">
         <item quantity="other">Összes folytatása most</item>
         <item quantity="one">Folytatás most</item>
+    </plurals>
+    <plurals name="transfer_notification_waiting_ticker">
+        <item quantity="other">A feltöltések szünetelnek, várakozás a Wi-Fire…</item>
+        <item quantity="one">A feltöltés szünetel, várakozás a Wi-Fire…</item>
     </plurals>
     <plurals name="upload_notification_prepare_upload_canceled">
         <item quantity="other">%1$d fájl feltöltési ütemezése megszakítva.</item>
@@ -469,10 +418,6 @@
     <plurals name="upload_notification_sync_progress">
         <item quantity="other">%1$d fájl feltöltése.</item>
         <item quantity="one">%1$d fájl feltöltése.</item>
-    </plurals>
-    <plurals name="upload_notification_waiting_ticker">
-        <item quantity="other">A feltöltések szünetelnek, várakozás a Wi-Fi-re…</item>
-        <item quantity="one">A feltöltés szünetel, várakozás a Wi-Fire…</item>
     </plurals>
     <plurals name="upload_notification_waiting_title">
         <item quantity="other">%1$d fájl feltöltése szünetel.</item>

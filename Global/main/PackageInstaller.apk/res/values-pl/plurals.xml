@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="additional_permissions_more">
-        <item quantity="other">Jeszcze %1$d</item>
-        <item quantity="one">Jeszcze %1$d</item>
-        <item quantity="few">Jeszcze %1$d</item>
-        <item quantity="many">Jeszcze %1$d</item>
+        <item quantity="other">%1$d więcej</item>
+        <item quantity="one">%1$d więcej</item>
+        <item quantity="few">%1$d więcej</item>
+        <item quantity="many">%1$d więcej</item>
     </plurals>
 </resources>

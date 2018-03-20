@@ -2,6 +2,7 @@
 <resources>
     <string name="uid_label">Média</string>
     <string name="app_label">Médiatároló</string>
+    <string name="upgrade_msg">Médiaszolgáltató adatbázisának frissítése</string>
     <string name="artist_label">Előadó</string>
     <string name="ringtone_default">Alapértelmezett csengőhang</string>
     <string name="notification_sound_default">Alapértelmezett értesítési hang</string>

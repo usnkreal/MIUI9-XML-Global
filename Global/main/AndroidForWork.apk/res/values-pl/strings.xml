@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setup_wizard_next_button_label">Dalej</string>
+    <string name="setup_wizard_back_button_label">Wstecz</string>
+    <string name="app_name">Asystent Android Work</string>
+    <string name="android_for_work_title">Konfigurowanie urządzenia</string>
+    <string name="corp_owned_explanation">Twoja organizacja kontroluje i zabezpiecza to urządzenie.</string>
+    <string name="set_up">Skonfiguruj</string>
+    <string name="email_hint">Adres e-mail</string>
+    <string name="code_hint">Kod aktywacyjny</string>
+    <string name="dialog_activation_code_title">Kod aktywacyjny</string>
+    <string name="dialog_activation_code_main_text">Aby skonfigurować konto Android Work, zainstaluj zatwierdzoną przez Twoją organizację aplikację administratora. Będziesz potrzebować kodu aktywacyjnego. Poproś o niego dział IT.</string>
+    <string name="dialog_close">Zamknij</string>
+    <string name="dialog_cancel">Anuluj</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_try_again">Spróbuj ponownie</string>
+    <string name="error_dialog_mdm_lookup_failed">Nie udało się pobrać informacji o organizacji. Sprawdź połączenie z internetem i spróbuj ponownie.</string>
+    <string name="error_dialog_cert_hash_mismatch">Aplikacja %1$ jest już zainstalowana. Usuń aplikację i spróbuj jeszcze raz.</string>
+    <string name="error_dialog_input_error">Twój adres e-mail i kod aktywacyjny nie są zgodne. Sprawdź, czy nie ma w nich błędów i spróbuj ponownie.</string>
+    <string name="lookup_progress_text">Znajdowanie aplikacji do zarządzania urządzeniem...</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setup_wizard_next_button_label">Suivant</string>
+    <string name="setup_wizard_back_button_label">Précédent</string>
+    <string name="app_name">Assistant Android Work</string>
+    <string name="android_for_work_title">"Configurer l'appareil"</string>
+    <string name="corp_owned_explanation">Votre entreprise gère votre appareil et assure sa sécurité.</string>
+    <string name="set_up">Configurer</string>
+    <string name="email_hint">Adresse de courriel</string>
+    <string name="code_hint">"Code d'activation"</string>
+    <string name="dialog_activation_code_title">"Code d'activation"</string>
+    <string name="dialog_activation_code_main_text">"Pour configurer votre compte Android Work, vous devez installer une application d'administration approuvée par votre entreprise. Pour cela, vous aurez besoin d'un code d'activation. Adressez-vous à votre service informatique pour obtenir ce code."</string>
+    <string name="dialog_close">Fermer</string>
+    <string name="dialog_cancel">Annuler</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_try_again">Réessayer</string>
+    <string name="error_dialog_mdm_lookup_failed">"Impossible d'obtenir les données relatives à votre entreprise. Vérifiez votre connexion Internet, puis réessayez."</string>
+    <string name="error_dialog_cert_hash_mismatch">"L'application %1$ est déjà installée. Supprimez l'application, puis réessayez."</string>
+    <string name="error_dialog_input_error">"Votre adresse de courriel et le code d'activation ne correspondent pas. Vérifiez que vous n'avez pas introduit de fautes de frappe, puis réessayez."</string>
+    <string name="lookup_progress_text">"Recherche de votre application de gestion d'appareils en cours…"</string>
+</resources>

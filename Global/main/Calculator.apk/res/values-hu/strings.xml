@@ -126,7 +126,7 @@
     <string name="tax_threshold">Adómentességi értékhatár</string>
     <string name="tax_income_type">Jövedelem típusa</string>
     <string name="tax_social_insurance">Társadalombiztosítás</string>
-    <string name="tax_accumulation_fund">Felhalmozási alap</string>
+    <string name="tax_accumulation_fund">Felhalmozási célú támogatási alap</string>
     <string name="tax_endowment">Nyugdíjalap</string>
     <string name="tax_medical">Orvosi</string>
     <string name="tax_unemployment">Munkanélküliség</string>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="telecommAppLabel">ניהול שיחות</string>
-    <string name="userCallActivityLabel">טלפון</string>
     <string name="unknown">לא ידוע</string>
     <string name="notification_missedCallTitle">שיחה שלא נענתה</string>
     <string name="notification_missedCallsTitle">שיחות שלא נענו</string>
@@ -20,15 +19,10 @@
     <string name="respond_via_sms_setting_summary" />
     <string name="respond_via_sms_edittext_dialog_title">תגובה מהירה</string>
     <string name="respond_via_sms_confirmation_format">ההודעה נשלחה אל %s.</string>
-    <string name="enable_account_preference_title">חשבונות חיוג</string>
-    <string name="outgoing_call_not_allowed_user_restriction">שיחות חירום בלבד מאופשרות.</string>
-    <string name="outgoing_call_not_allowed_no_permission">יישום זה אינו יכול לבצע שיחות יוצאות ללא ההרשאות הנדרשות.</string>
     <string name="outgoing_call_error_no_phone_number_supplied">לביצוע שיחה, הזן מספר חוקי.</string>
-    <string name="duplicate_video_call_not_allowed">לא ניתן להוסיף עוד שיחות</string>
     <string name="no_vm_number">מספר תא קולי חסר</string>
     <string name="no_vm_number_msg">לא קיים מספר תא קולי בכרטיס ה-SIM.</string>
     <string name="add_vm_number_str">הוסף מספר</string>
-    <string name="change_default_dialer_dialog_title">להגדיר את %s כיישום ברירת המחדל שלך עבור שיחות?</string>
     <string name="test_account_0_label">Q Mobile</string>
     <string name="test_account_1_label">Market Wireless</string>
     <string name="test_account_2_label">Sonoma Circles Talk Plus</string>
@@ -38,21 +32,29 @@
     <string name="test_account_2_short_description">Talk to everyone in your Circles!</string>
     <string name="test_account_3_short_description">Chat with Chat Network users</string>
     <string name="handle_restricted">RESTRICTED</string>
+    <string name="headset_plugin_view_text">אוזניות מחוברות.</string>
+    <string name="headset_plugin_view_title">אוזניות</string>
     <string name="voice_report_incoming_call">שיחה נכנסת</string>
     <string name="voice_report_unknown_num">מספר לא ידוע</string>
     <string name="incall_error_call_failed">לא ניתן היה לבצע את השיחה.</string>
-    <string name="notification_missedCall_call_back_miui">שיחה</string>
     <string name="dial_vt_fail_prompt">הרשת הנוכחית אינה תומכת ב-VoLTE. להחליף לשיחה קולית רגילה?</string>
     <string name="dial_conference_fail_prompt">לא ניתן לבצע שיחת ועידה באופן ישיר מפני שהרשת הנוכחית אינה תומכת ב-VoLTE.</string>
     <string name="can_not_dial_while_vt_prompt">לא ניתן לחייג כאשר שיחת וידאו נמצאת בעיצומה</string>
     <string name="can_not_dial_vt_while_voice_prompt">לא ניתן לבצע שיחת וידאו במהלך ביצוע שיחה קולית</string>
     <string name="voice_dial_out">שיחה קולית</string>
+    <string name="notification_missedCall_call_back_miui">שיחה</string>
     <string name="notification_AllMissedCallTitle">כל השיחות שלא נענו</string>
     <string name="close">סגירה</string>
     <string name="callFailed_simError">שגיאת כרטיס SIM</string>
     <string name="incall_error_supp_service_unknown">שירות זה אינו נתמך.</string>
     <string name="incall_error_power_off">"כבה את 'מצב טיסה' על מנת לבצע שיחה."</string>
+    <string name="userCallActivityLabel">טלפון</string>
     <string name="notification_missedWorkCallTitle">שיחת עבודה שלא נענתה</string>
+    <string name="enable_account_preference_title">חשבונות חיוג</string>
+    <string name="outgoing_call_not_allowed_user_restriction">שיחות חירום בלבד מאופשרות.</string>
+    <string name="outgoing_call_not_allowed_no_permission">יישום זה אינו יכול לבצע שיחות יוצאות ללא ההרשאות הנדרשות.</string>
+    <string name="duplicate_video_call_not_allowed">לא ניתן להוסיף עוד שיחות</string>
+    <string name="change_default_dialer_dialog_title">להגדיר את %s כיישום ברירת המחדל שלך עבור שיחות?</string>
     <string name="change_default_dialer_dialog_affirmative">הגדרה כיישום ברירת המחדל עבור שיחות</string>
     <string name="change_default_dialer_dialog_negative">ביטול</string>
     <string name="change_default_dialer_warning_message">%s יוכל לבצע ולשלוט בכל ההיבטים של שיחות. יש להגדיר יישומים בהם הינך בוטח בלבד כברירת המחדל שלך עבור שיחות.</string>
@@ -75,6 +77,4 @@
     <string name="blocked_numbers_number_already_blocked_message">%1$s נחסם כבר.</string>
     <string name="toast_personal_call_msg">השתמש בחייגן מותאם אישית</string>
     <string name="toast_make_video_call_failed">לא ניתן לבצע שיחת וידאו. המספר שהזנת שגוי.</string>
-    <string name="headset_plugin_view_text">אוזניות מחוברות.</string>
-    <string name="headset_plugin_view_title">אוזניות</string>
 </resources>

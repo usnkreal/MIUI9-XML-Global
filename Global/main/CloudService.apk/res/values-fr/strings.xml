@@ -174,8 +174,7 @@ Si vous changez de carte SIM, un autre SMS sera envoyé automatiquement pour ré
     <string name="micloud_user_space_usage">Espace de stockage</string>
     <string name="micloud_web_discription_01">Connectez-vous sur i.mi.com</string>
     <string name="micloud_web_discription_02">"pour stocker et accéder à vos fichiers depuis n'importe où"</string>
-    <string name="micloud_web_discription">Visitez i.mi.com</string>
-    <string name="micloud_web_discription_international">Visitez www.mi.com/micloud</string>
+    <string name="micloud_web_discription_place_holder">Visiter%1$s</string>
     <string name="micloud_full_influence_title">Lorsque votre Mi Cloud est plein…</string>
     <string name="micloud_warn_low_title">Bientôt plein</string>
     <string name="micloud_warn_low_sum">Votre Mi Cloud est rempli à 90%.</string>
@@ -515,7 +514,7 @@ Dernière sauvegarde à %2$s"</string>
     <string name="micloud_find_device_close_alert_content">Si vous désactivez cette fonctionnalité, vous ne serez plus en mesure de localiser votre appareil en cas de perte.</string>
     <string name="micloud_find_device_close_alert_positive">Continuer</string>
     <string name="micloud_find_device_close_alert_negtive">Désactiver quand même</string>
-    <string name="find_device_gdpr_prompt">"En activant Localiser l'appareil, vous acceptez notre \"Politique de confidentialité\". Si vous devez révoquer votre autorisation de confidentialité veuillez désactiver cette fonctionnalité."</string>
+    <string name="find_device_gdpr_prompt">"En activant l'option Localiser l'appareil, vous acceptez notre \"Politique de confidentialité\". Si vous devez révoquer votre autorisation de confidentialité veuillez désactiver cette fonctionnalité."</string>
     <string name="find_device_gdpr_prompt_policy_doc_name">Politique de Confidentialité</string>
     <string name="activate_finddevice">"Connectez-vous à Internet pour activer votre l'appareil"</string>
     <string name="account_related">"Votre appareil est associé avec un Compte Mi existant(%s). Connectez-vous à Internet pour vérifier l'appareil."</string>

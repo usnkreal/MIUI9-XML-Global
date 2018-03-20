@@ -34,10 +34,10 @@
     <string name="enable_emergency_alerts_summary">"Afficher les diffusions d'alerte d'urgence"</string>
     <string name="alert_sound_duration_title">"Durée de l'alarme"</string>
     <string name="alert_reminder_interval_title">"Rappel d'alerte"</string>
-    <string name="enable_alert_speech_title">"Énoncer un message d'alerte"</string>
+    <string name="enable_alert_speech_title">"Énoncer le message d'alerte"</string>
     <string name="enable_alert_speech_summary">"Utiliser la synthèse vocale pour énoncer des messages d'alerte d'urgence"</string>
     <string name="category_etws_settings_title">Paramètres ETWS</string>
-    <string name="enable_etws_test_alerts_title">Afficher les diffusions test ETWS</string>
+    <string name="enable_etws_test_alerts_title">Afficher diffusions test ETWS</string>
     <string name="enable_etws_test_alerts_summary">"Afficher les diffusions test du système d'avertissement pour tremblements de terre et tsunamis"</string>
     <string name="enable_cmas_extreme_threat_alerts_title">Afficher les menaces extrêmes</string>
     <string name="enable_cmas_extreme_threat_alerts_summary">Afficher les alertes relatives aux menaces extrêmes à la vie et aux biens</string>
@@ -87,7 +87,7 @@
     <string name="delivery_time_heading">Reçu :</string>
     <string name="notification_multiple">%s alertes non lues</string>
     <string name="notification_multiple_title">Nouvelles alertes</string>
-    <string name="show_cmas_opt_out_summary">Afficher une boîte de dialogue de désactivation après la 1e alerte CMAS, sauf alerte présidentielle</string>
+    <string name="show_cmas_opt_out_summary">Afficher boîte de dialogue de désactivation après première alerte CMAS (sauf alerte présidentielle)</string>
     <string name="show_cmas_opt_out_title">Afficher boîte dialogue de désactivation</string>
     <string name="cmas_opt_out_dialog_text">"Vous recevez actuellement les alertes d'urgence. Voulez-vous continuer à les recevoir ?"</string>
     <string name="cmas_opt_out_button_yes">Oui</string>

@@ -24,7 +24,13 @@
         <item>Drahé</item>
         <item>Veľmi drahé</item>
     </string-array>
-    <array name="RESTRICTION_ALLOWED_PRICE_LEVEL_SHORT" />
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_SHORT">
+        <item>Všetky ceny</item>
+        <item>$</item>
+        <item>$$</item>
+        <item>$$$</item>
+        <item>$$$$</item>
+    </string-array>
     <string-array name="RESTRICTION_ALLOWED_STARS">
         <item>Všetky</item>
         <item>2,0</item>
@@ -37,7 +43,12 @@
         <item>Tri a viac hviezdičiek</item>
         <item>Štyri a viac hviezdičiek</item>
     </string-array>
-    <array name="RESTRICTION_ALLOWED_STARS_SHORT" />
+    <string-array name="RESTRICTION_ALLOWED_STARS_SHORT">
+        <item>Všetky hodnotenia</item>
+        <item>Hodnotenie 2+</item>
+        <item>Hodnotenie 3+</item>
+        <item>Hodnotenie 4+</item>
+    </string-array>
     <string-array name="RESTRICTION_HOTEL_CLASSES">
         <item>Všetky</item>
         <item>3 hviezdičky</item>
@@ -53,7 +64,7 @@
     <string-array name="REVIEW_RATING_STAR_TEXT_DESCRIPTIONS">
         <item>Veľmi zlé</item>
         <item>Zlé</item>
-        <item>Dobré</item>
+        <item>Je to OK</item>
         <item>Veľmi dobré</item>
         <item>Vynikajúce</item>
     </string-array>

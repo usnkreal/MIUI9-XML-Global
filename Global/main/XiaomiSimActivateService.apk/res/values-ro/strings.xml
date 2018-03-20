@@ -115,6 +115,6 @@ Introduceți numărul de telefon asociat cu noua cartelă SIM pentru a reactiva 
     <string name="phone_get_text">Permiteți ca %1$s să obțină numărul dvs. de telefon ( %2$s)?</string>
     <string name="phone_get_processing">Se obține…</string>
     <string name="agree">Permite</string>
-    <string name="privacy_revoke_tips">After you revoke authorization, Messaging will stop collecting your data and delete all your data from its servers. Sync with Mi Cloud, Mi Message, and other Messaging features will no longer be available. Revoke authorization anyway?</string>
-    <string name="privacy_revoke_failed_msg">Activation requires granting authorization so that Messaging could get your phone number.</string>
+    <string name="privacy_revoke_tips">După ce revocați autorizația, Mesaje va opri colectarea datelor dvs. și va șterge toate datele de pe serverele sale. Sincronizarea cu Mi Cloud, Mi Mesage și alte funcții de mesagerie nu vor mai fi disponibile. Revocați oricum autorizația?</string>
+    <string name="privacy_revoke_failed_msg">Activarea necesită acordarea autorizației pentru ca Mesaje să poată obține numărul dvs. de telefon.</string>
 </resources>

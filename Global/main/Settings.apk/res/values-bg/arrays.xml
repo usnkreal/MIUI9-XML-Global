@@ -24,34 +24,6 @@
         <item>Известията ще бъдат показвани директно в Лентата с известия</item>
         <item>Всички известия ще се покажат в отделна папка</item>
     </string-array>
-    <string-array name="wifi_status">
-        <item></item>
-        <item>Сканиране…</item>
-        <item>Свързване…</item>
-        <item>Удостоверяване…</item>
-        <item>Получаване на IP адрес…</item>
-        <item>Свързан</item>
-        <item>Преустановен</item>
-        <item>Прекъснат…</item>
-        <item>Не е свързан</item>
-        <item>Неуспешно</item>
-        <item>Блокиран</item>
-        <item>Временно е избегната лоша връзка</item>
-    </string-array>
-    <string-array name="wifi_status_with_ssid">
-        <item></item>
-        <item>Сканиране…</item>
-        <item>Свързване с %1$s…</item>
-        <item>Удостоверяване с %1$s…</item>
-        <item>Получаване на IP адрес от %1$s…</item>
-        <item>Свързан с %1$s</item>
-        <item>Преустановено</item>
-        <item>Прекъсната връзка с %1$s…</item>
-        <item>Не е свързан</item>
-        <item>Неуспешно</item>
-        <item>Блокиран</item>
-        <item>Временно е избегната лоша връзка</item>
-    </string-array>
     <string-array name="timezone_filters">
         <item>Америка</item>
         <item>Европа</item>
@@ -102,22 +74,11 @@
         <item>Бавна</item>
         <item>Нормална</item>
         <item>Бърза</item>
-        <item>По-бърза</item>
-        <item>Много бърза</item>
-        <item>Изключително бърза</item>
-        <item>Екстремно бърза</item>
-        <item>Скорострелна</item>
-    </string-array>
-    <string-array name="tts_rate_values">
-        <item>60</item>
-        <item>80</item>
-        <item>100</item>
-        <item>150</item>
-        <item>200</item>
-        <item>250</item>
-        <item>300</item>
-        <item>350</item>
-        <item>400</item>
+        <item>По-бързо</item>
+        <item>Много бързо</item>
+        <item>Бързо</item>
+        <item>Много бързо</item>
+        <item>Най-бързо</item>
     </string-array>
     <string-array name="tts_pitch_entries">
         <item>Много нисък</item>
@@ -126,20 +87,39 @@
         <item>Висок</item>
         <item>Много висок</item>
     </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Сканира се...</item>
+        <item>Установява се връзка…</item>
+        <item>Удостоверява се...</item>
+        <item>Получава се IP адрес</item>
+        <item>Установена е връзка</item>
+        <item>Прекъсната</item>
+        <item>Изключва се...</item>
+        <item>Изкл.</item>
+        <item>Неуспешно</item>
+        <item>Блокирано</item>
+        <item>Временно се избягва лоша връзка</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Сканира се...</item>
+        <item>Установява се връзка с/ъс %1$s...</item>
+        <item>Удостоверява се с/ъс %1$s...</item>
+        <item>IP адресът от %1$s се получава...</item>
+        <item>Установена е връзка с/ъс%1$s</item>
+        <item>Прекъсната</item>
+        <item>Изключва се от %1$s...</item>
+        <item>Изкл.</item>
+        <item>Неуспешно</item>
+        <item>Блокирано</item>
+        <item>Временно се избягва лоша връзка</item>
+    </string-array>
     <string-array name="wifi_eap_method">
         <item>PEAP</item>
         <item>TLS</item>
         <item>TTLS</item>
         <item>ПАРОЛА</item>
-        <item>SIM</item>
-        <item>AKA</item>
-        <item>"AKA'"</item>
-    </string-array>
-    <string-array name="eap_method_without_sim_auth">
-        <item>PEAP</item>
-        <item>TLS</item>
-        <item>TTLS</item>
-        <item>PWD</item>
     </string-array>
     <string-array name="wifi_p2p_wps_setup">
         <item>Бутон</item>
@@ -179,6 +159,10 @@
         <item>Последните 30 дни</item>
         <item>Цикъл на пренос...</item>
     </string-array>
+    <string-array name="sim_card_data_range">
+        <item>Последните 4 цифри</item>
+        <item>Първите 4 цифри</item>
+    </string-array>
     <string-array name="wifi_frequency_band_entries">
         <item>Автоматично</item>
         <item>Само на 5 GHz</item>
@@ -214,7 +198,7 @@
     <string-array name="wifi_proxy_settings">
         <item>Няма</item>
         <item>Ръчно</item>
-        <item>Прокси: Автоконфиг.</item>
+        <item>Прокси: Автоконфигуриране</item>
     </string-array>
     <string-array name="apn_auth_entries">
         <item>Без</item>
@@ -228,22 +212,9 @@
         <item>IPv4/IPv6</item>
     </string-array>
     <string-array name="bearer_entries">
-        <item>Непосочено</item>
         <item>LTE</item>
-        <item>HSPAP</item>
-        <item>HSPA</item>
-        <item>HSUPA</item>
-        <item>HSDPA</item>
-        <item>UMTS</item>
-        <item>EDGE</item>
-        <item>GPRS</item>
         <item>eHRPD</item>
-        <item>EVDO_B</item>
-        <item>EVDO_A</item>
-        <item>EVDO_0</item>
-        <item>1xRTT</item>
-        <item>IS95B</item>
-        <item>IS95A</item>
+        <item>Неизвестен</item>
     </string-array>
     <string-array name="mvno_type_entries">
         <item>Без ефекти</item>
@@ -311,9 +282,6 @@
         <item>заглушаване/включване на микрофона</item>
         <item>прожектиране на мултимедия</item>
         <item>активиране на виртуална частна мрежа (VPN)</item>
-        <item>запис на тапет</item>
-        <item>структура за помощ</item>
-        <item>екранна снимка за помощ</item>
     </string-array>
     <string-array name="app_ops_labels">
         <item>Местоположение</item>
@@ -363,9 +331,6 @@
         <item>Заглушаване/включване на микрофона</item>
         <item>Прожектиране на мултимедия</item>
         <item>Активиране на виртуална частна мрежа (VPN)</item>
-        <item>Запис на тапет</item>
-        <item>Структура за помощ</item>
-        <item>Екранна снимка за помощ</item>
     </string-array>
     <string-array name="long_press_timeout_selector_titles">
         <item>Кратко</item>
@@ -405,114 +370,107 @@
         <item>100%</item>
     </string-array>
     <string-array name="captioning_preset_selector_titles">
-        <item>Стандартен за приложението</item>
+        <item>Използване на стандартното за прил.</item>
         <item>Бяло върху черно</item>
         <item>Черно върху бяло</item>
         <item>Жълто върху черно</item>
         <item>Жълто върху синьо</item>
-        <item>Персонализиран</item>
+        <item>Персонализирано</item>
     </string-array>
     <string-array name="select_logd_size_titles">
-        <item>Изключено</item>
-        <item>64КБ</item>
-        <item>256КБ</item>
-        <item>1МБ</item>
-        <item>4МБ</item>
-        <item>16МБ</item>
+        <item>64 КБ</item>
+        <item>256 КБ</item>
+        <item>1 МБ</item>
+        <item>4 МБ</item>
+        <item>16 МБ</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
-        <item>Изключено</item>
-        <item>64КБ</item>
-        <item>256КБ</item>
-        <item>1МБ</item>
+        <item>64 КБ</item>
+        <item>256 КБ</item>
+        <item>1 МБ</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
-        <item>Изключено</item>
-        <item>64КБ за буфер регистър</item>
-        <item>256КБ за буфер регистър</item>
-        <item>1МБ за буфер регистър</item>
-        <item>4МБ за буфер регистър</item>
-        <item>16МБ за буфер регистър</item>
+        <item>Рег. буфер – 64 КБ</item>
+        <item>Рег. буфер – 256 КБ</item>
+        <item>Рег. буфер – 1 МБ</item>
+        <item>Рег. буфер – 4 МБ</item>
+        <item>Рег. буфер – 16 МБ</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
-        <item>Не извършвай проверка</item>
-        <item>Проверявай само правата за управление на съдържанието</item>
-        <item>Винаги извършвай проверка</item>
+        <item>Никога да не се проверява</item>
+        <item>Проверка само за DRM съдържание</item>
+        <item>Винаги да се проверява</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
-        <item>Никога не използвай проверка за авторски права</item>
-        <item>Извършвай проверка за авторски права само в политиките за управление на съдържанието</item>
-        <item>Винаги извършвай проверка за авторски права</item>
+        <item>Никога да не се използва проверка с HDCP</item>
+        <item>Да се използва проверка с HDCP само за DRM съдържание</item>
+        <item>Винаги да се използва проверка с HDCP</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
-        <item>Изключване на анимациите</item>
-        <item>Скала на анимации 0.5x</item>
-        <item>Скала на анимации 1x</item>
-        <item>Скала на анимации 1.5x</item>
-        <item>Скала на анимации 2x</item>
-        <item>Скала на анимации 5x</item>
-        <item>Скала на анимации 10x</item>
+        <item>Анимацията е изключена</item>
+        <item>Скала на анимацията .5x</item>
+        <item>Скала на анимацията 1x</item>
+        <item>Скала на анимацията 1.5x</item>
+        <item>Скала на анимацията 2x</item>
+        <item>Скала на анимацията 5x</item>
+        <item>Скала на анимацията 10x</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
-        <item>Изключване на анимациите</item>
-        <item>Скала на анимации 0.5x</item>
-        <item>Скала на анимации 1x</item>
-        <item>Скала на анимации 1.5x</item>
-        <item>Скала на анимации 2x</item>
-        <item>Скала на анимации 5x</item>
-        <item>Скала на анимации 10x</item>
+        <item>Анимацията е изключена</item>
+        <item>Скала на анимацията .5x</item>
+        <item>Скала на анимацията 1x</item>
+        <item>Скала на анимацията 1.5x</item>
+        <item>Скала на анимацията 2x</item>
+        <item>Скала на анимацията 5x</item>
+        <item>Скала на анимацията 10x</item>
     </string-array>
     <string-array name="animator_duration_scale_entries">
-        <item>Изключване на анимациите</item>
-        <item>Скала на анимации 0.5x</item>
-        <item>Скала на анимации 1x</item>
-        <item>Скала на анимации 1.5x</item>
-        <item>Скала на анимации 2x</item>
-        <item>Скала на анимации 5x</item>
-        <item>Скала на анимации 10x</item>
+        <item>Анимацията е изключена</item>
+        <item>Скала на анимацията .5x</item>
+        <item>Скала на анимацията 1x</item>
+        <item>Скала на анимацията 1.5x</item>
+        <item>Скала на анимацията 2x</item>
+        <item>Скала на анимацията 5x</item>
+        <item>Скала на анимацията 10x</item>
     </string-array>
     <string-array name="overlay_display_devices_entries">
-        <item>Без ефекти</item>
-        <item>480p</item>
-        <item>480p (безопасно)</item>
-        <item>720p</item>
-        <item>720p (безопасно)</item>
-        <item>1080p</item>
-        <item>1080p (безопасно)</item>
-        <item>4K</item>
-        <item>4К (безопасно)</item>
-        <item>4K (по-голям мащаб)</item>
-        <item>4K (по-голям мащаб, безопасно)</item>
-        <item>720p, 1080p (двоен екран)</item>
+        <item>Няма</item>
+        <item>720 x 480 mdpi</item>
+        <item>720 x 480 mdpi (защитено)</item>
+        <item>1280 x 720 tvdpi</item>
+        <item>1280 x 720 tvdpi (защитено)</item>
+        <item>1920 x 1080 xhdpi</item>
+        <item>1920 x 1080 xhdpi (защитено)</item>
+        <item>1280 x 720 tvdpi и 1920 x 1080 xhdpi</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
-        <item>Без ефекти</item>
-        <item>Дневник на системните съобщения</item>
-        <item>Анализ на производителността на графиката</item>
-        <item>Изчистване на грешките на графиката</item>
+        <item>Без</item>
+        <item>Logcat</item>
+        <item>Systrace (Графика)</item>
+        <item>Извикване на стека при glGetError</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
         <item>Изключено</item>
-        <item>Загради неправоъгълната област на клипа в синьо</item>
-        <item>Освети в зелено тестваните команди за изчертаване</item>
+        <item>Начертаване в синьо на неправоъгълна област</item>
+        <item>Зелено за тест. команди за начерт.</item>
     </string-array>
     <string-array name="track_frame_time_entries">
-        <item>Изключено</item>
-        <item>Покажи екрана на блокчета</item>
-        <item>Следене на използването на батерията от системата</item>
+        <item>Изкл.</item>
+        <item>На екрана като чертички</item>
+        <item>In adb shell dumpsys gfxinfo</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
         <item>Изключено</item>
-        <item>Показване на опасните зони</item>
-        <item>Показване на далтоничните зони</item>
+        <item>Области за преизчертаване: Показв.</item>
+        <item>Показване на областите за деутеранопия</item>
     </string-array>
     <string-array name="app_process_limit_entries">
         <item>Стандартно ограничение</item>
-        <item>Изключване на процесите на заден план</item>
-        <item>Не повече от 1 процес</item>
-        <item>Не повече от 2 процеса</item>
-        <item>Не повече от 3 процеса</item>
-        <item>Не повече от 4 процеса</item>
+        <item>Няма процеси на заден план</item>
+        <item>Най-много 1 процес</item>
+        <item>Най-много 2 процеса</item>
+        <item>Най-много 3 процеса</item>
+        <item>Най-много 4 процеса</item>
     </string-array>
     <string-array name="vpn_types_long">
         <item>VPN с PPTP</item>
@@ -536,11 +494,15 @@
         <item>Винаги да се разрешава</item>
     </string-array>
     <string-array name="ram_states">
-        <item>Нормално</item>
-        <item>Средно</item>
-        <item>Недостатъчно</item>
-        <item>Критичнo</item>
-        <item>\?</item>
+        <item>нормално</item>
+        <item>средно</item>
+        <item>лошо</item>
+        <item>критично</item>
+    </string-array>
+    <string-array name="entries_zen_mode">
+        <item>Изключено</item>
+        <item>Ограничени прекъсвания</item>
+        <item>Нула прекъсвания</item>
     </string-array>
     <string-array name="proc_stats_memory_states">
         <item>Нормално</item>
@@ -564,32 +526,8 @@
         <item>Кеширано (клиентска програма за активността)</item>
         <item>Кеширано (празно)</item>
     </string-array>
-    <string-array name="color_picker">
-        <item>синьо-зелено</item>
-        <item>синьо</item>
-        <item>индиго</item>
-        <item>лилаво</item>
-        <item>розово</item>
-        <item>червено</item>
-    </string-array>
-    <string-array name="usb_configuration_titles">
-        <item>@string/usb_use_charging_only</item>
-        <item>MTP (Media Transfer Protocol)</item>
-        <item>PTP (Picture Transfer Protocol)</item>
-        <item>RNDIS (USB Ethernet)</item>
-        <item>Аудио източник</item>
-        <item>MIDI</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_choices">
-        <item>Предпочита се Wi-Fi</item>
-        <item>Предпочита се клетъчна мрежа</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_values">
-        <item>2</item>
-        <item>1</item>
-    </string-array>
     <string-array name="haptic_feedback_level_texts">
-        <item>Деактивиране</item>
+        <item>Изк</item>
         <item>Слабо</item>
         <item>Средно</item>
         <item>Силно</item>
@@ -600,12 +538,12 @@
         <item>Слабо</item>
     </string-array>
     <string-array name="ap_identify">
-        <item>По подразбиране</item>
+        <item>Подразбиране</item>
         <item>iPhone</item>
     </string-array>
     <string-array name="battery_indicator_style_entries">
         <item>Графично</item>
-        <item>Проценти</item>
+        <item>Процентно</item>
         <item>Статус лента</item>
     </string-array>
     <string-array name="usb_connection_mode_entries">
@@ -626,7 +564,7 @@
     <string-array name="mi1_led_color_entries">
         <item>Синьо</item>
         <item>Червено</item>
-        <item>Зален</item>
+        <item>Зелено</item>
         <item>Розово</item>
         <item>Виолетово</item>
         <item>Пурпурно</item>
@@ -636,16 +574,12 @@
         <item>Червено</item>
         <item>Жълто</item>
         <item>Зелено</item>
-        <item>Синьозелено</item>
+        <item>Синьозелен</item>
         <item>Бяло</item>
         <item>Виолетово</item>
     </string-array>
-    <string-array name="screen_key_position_action">
-        <item>Бутон Меню отляво, бутон Назад отдясно</item>
-        <item>Бутон Назад отляво, бутон Меню отдясно</item>
-    </string-array>
     <string-array name="screen_key_press_action">
-        <item>Покажи последно отваряните приложения</item>
+        <item>Последни приложения</item>
         <item>Показване на меню</item>
     </string-array>
     <string-array name="key_and_gesture_shortcut_action">
@@ -675,7 +609,7 @@
         <item>5 секунди</item>
         <item>10 секунди</item>
         <item>20 секунди</item>
-        <item>Винаги</item>
+        <item>Винаги включен</item>
     </string-array>
     <string-array name="wfd_status">
         <item>Създава се сесия…</item>
@@ -748,13 +682,13 @@
         <item>Контрастът ще остане постоянен</item>
     </string-array>
     <string-array name="perm_hips_action">
-        <item>Приеми</item>
-        <item>Питай</item>
-        <item>Откажи</item>
+        <item>Разрешавам</item>
+        <item>Запитване</item>
+        <item>Отказвам</item>
     </string-array>
     <string-array name="startup_hips_action">
-        <item>Приеми</item>
-        <item>Откажи</item>
+        <item>Разрешавам</item>
+        <item>Отказвам</item>
     </string-array>
     <string-array name="phone_call_noise_suppression_title">
         <item>Шумопотискане с един микрофон</item>
@@ -762,7 +696,7 @@
     </string-array>
     <string-array name="change_security_lock_picker">
         <item>Отключване с лице</item>
-        <item>Шаблон</item>
+        <item>Фигура</item>
         <item>PIN</item>
         <item>Парола</item>
     </string-array>
@@ -775,16 +709,6 @@
         <item>Автоматично свързване</item>
         <item>Ръчно свързване</item>
     </string-array>
-    <string-array name="traffic_balance_entries">
-        <item>Изкл</item>
-        <item>Стандартен режим</item>
-        <item>Лесен режим</item>
-    </string-array>
-    <string-array name="traffic_balance_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
     <string-array name="preferred_app_entries">
         <item>Лаунчер</item>
         <item>Набиране</item>
@@ -794,7 +718,7 @@
         <item>Галерия</item>
         <item>Музика</item>
         <item>Имейл</item>
-        <item>Възпроизв на видео</item>
+        <item>Пусни видеото</item>
     </string-array>
     <string-array name="network_speed_slow_summary">
         <item>Връзката е бавна поради засилен трафик</item>
@@ -814,7 +738,7 @@
     </string-array>
     <string-array name="whetstone_level_entries">
         <item>Изкл</item>
-        <item>Ниско</item>
+        <item>Слабо</item>
         <item>Средно</item>
         <item>Високо</item>
     </string-array>
@@ -870,7 +794,7 @@
         <item>След 1 минута</item>
         <item>След 2 минути</item>
         <item>След 5 минути</item>
-        <item>Изключено</item>
+        <item>Никога</item>
     </string-array>
     <string-array name="fluency_mode_entries">
         <item>Скрий системните анимации</item>
@@ -890,7 +814,7 @@
     </string-array>
     <string-array name="miui_entries_font_size">
         <item>S</item>
-        <item>М</item>
+        <item>M</item>
         <item>L</item>
         <item>XL</item>
         <item>XXL</item>
@@ -898,7 +822,7 @@
     </string-array>
     <string-array name="max_number_titles">
         <item>6</item>
-        <item>6</item>
+        <item>5</item>
         <item>4</item>
         <item>3</item>
         <item>2</item>
@@ -961,11 +885,27 @@
         <item>Заключване на приложения</item>
         <item>Второ работно място</item>
     </string-array>
-    <string-array name="screen_button_style">
-        <item>За левичари</item>
-        <item>За дясна ръка</item>
-    </string-array>
     <string-array name="city_name">
+        <item>Мидуей</item>
+        <item>Регина</item>
+        <item>Манаус</item>
+        <item>Ресифе</item>
+        <item>Готхоб</item>
+        <item>Южна Джорджия</item>
+        <item>Азорски о-ви</item>
+        <item>Уиндхук</item>
+        <item>Тбилиси</item>
+        <item>Ереван</item>
+        <item>Орал</item>
+        <item>Екатеринбург</item>
+        <item>Катманду</item>
+        <item>Красноярск</item>
+        <item>Иркутск</item>
+        <item>Якутск</item>
+        <item>Хобарт</item>
+        <item>Владивосток</item>
+        <item>Магадан</item>
+        <item>Маджуро</item>
         <item>Абиджан</item>
         <item>Акра</item>
         <item>Адис Абеба</item>
@@ -1409,16 +1349,16 @@
         <item>Делнични дни</item>
         <item>По избор</item>
     </string-array>
+    <string-array name="standard_configuration_version">
+        <item>3.00ГБ</item>
+        <item>16ГБ</item>
+        <item>Четириядрен Max 2.5GHz</item>
+    </string-array>
     <string-array name="privacy_password_function_specfication_names">
         <item>Съобщения</item>
         <item>Снимки</item>
         <item>Файлове</item>
         <item>Бележки</item>
-    </string-array>
-    <string-array name="standard_configuration_version">
-        <item>3.00ГБ</item>
-        <item>16ГБ</item>
-        <item>Четириядрен Max 2.5GHz</item>
     </string-array>
     <string-array name="install_non_market_app_entries">
         <item>Включи (препоръчително)</item>
@@ -1427,21 +1367,6 @@
     <string-array name="install_non_market_app_contents">
         <item>Активиране</item>
         <item>Не използвай</item>
-    </string-array>
-    <string-array name="color_mode_names">
-        <item>Резониращ</item>
-        <item>Естествен</item>
-        <item>Стандартен</item>
-    </string-array>
-    <string-array name="color_mode_descriptions">
-        <item>Подобрени цветове</item>
-        <item>Естествени цетове, както се виждат</item>
-        <item>Оптимизирани цветове за дигитално съдържание</item>
-    </string-array>
-    <string-array name="battery_labels">
-        <item>0%</item>
-        <item>50%</item>
-        <item>100%</item>
     </string-array>
     <string-array name="standard_configuration_version_description_primary">
         <item>Процесор</item>
@@ -1452,7 +1377,7 @@
         <item>Версия на Android</item>
     </string-array>
     <string-array name="standard_configuration_version_description_secondary">
-        <item>Snapdragon 430</item>
+        <item>Snapdragon 616</item>
         <item>4000mAh(typ)</item>
         <item>13MP</item>
         <item>5 инча</item>

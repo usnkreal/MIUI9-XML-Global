@@ -14,6 +14,42 @@
         <item>Бакалница или супермаркет</item>
         <item>Друго</item>
     </string-array>
+    <string-array name="auth_gls_passwordStrength">
+        <item>лоша</item>
+        <item>задоволителна</item>
+        <item>добра</item>
+        <item>надеждна</item>
+    </string-array>
+    <string-array name="auth_trust_agent_trusted_devices_add_device_options_no_bt">
+        <item>КБП</item>
+    </string-array>
+    <string-array name="auth_trust_agent_trusted_devices_add_device_options_no_nfc">
+        <item>Bluetooth</item>
+    </string-array>
+    <string-array name="car_app_mode_labels">
+        <item>Стандартна версия</item>
+        <item>За програмисти</item>
+        <item>Търговия на дребно</item>
+        <item>Демонстрация</item>
+    </string-array>
+    <string-array name="car_error_user_friendly">
+        <item>Телефонът и автомобилът са с несъвместим софтуер. За подробности посетете &lt;a href="android.com/auto">android.com/auto&lt;/a></item>
+        <item>Автомобилът подаде информация за неправилен набор от аудио- и/или видеоконфигурации.</item>
+        <item>"USB връзката не работи правилно. Неща, които да изпробвате: 
+
+• уверете се, че кабелът е свързан правилно и в двата края; 
+• уверете се, че имате USB кабел за пренос на данни; 
+• уверете се, че датата и часът са зададени правилно на автомобила и телефона ви."</item>
+        <item>Автомобилът спря работата на Android Auto.</item>
+        <item>Сесията на Android Auto спря по заявка.</item>
+        <item>Възможно е софтуерът на автомобила да не е актуален. За подробности и поддръжка се свържете с производителя.</item>
+        <item>Софтуерът на автомобила ви не премина проверките за сигурност на Android Auto. За подробности и поддръжка се свържете с производителя.</item>
+        <item>Софтуерът на автомобила ви не премина проверките за сигурност на Android Auto. Уверете се, че датата и часът на автомобила са зададени правилно и че приложението Android Auto е актуализирано.</item>
+        <item>Времето за изчакване на дадено действие изтече. Трябва да изготвите отчет за програмни грешки и да изпратите отзив.</item>
+        <item>Изглежда, че нямате инсталиран стартов панел. Правилно ли е настроен телефонът ви?</item>
+        <item>Графичният софтуер току-що спря да работи. Трябва да изготвите отчет за програмни грешки и да изпратите отзив.</item>
+        <item>Автомобилът не отговаря на съобщения от телефона. Автомобилът може да е в неправилно състояние.</item>
+    </string-array>
     <string-array name="category_descriptions">
         <item>Летище</item>
         <item>Банкомат</item>
@@ -62,18 +98,6 @@
         <item>ноември</item>
         <item>декември</item>
     </string-array>
-    <string-array name="car_app_mode_labels">
-        <item>Версия</item>
-        <item>За програмисти</item>
-        <item>Търговия на дребно</item>
-        <item>Демонстрационна версия</item>
-    </string-array>
-    <string-array name="car_day_night_mode_labels">
-        <item>Контролиране от автомобила</item>
-        <item>Контролиране от телефона</item>
-        <item>Ден</item>
-        <item>Нощ</item>
-    </string-array>
     <string-array name="location_sharing_edit_share_duration_array">
         <item>Спиране на споделянето</item>
         <item>15 минути</item>
@@ -93,10 +117,12 @@
         <item>30</item>
         <item>45</item>
     </string-array>
-    <string-array name="auth_gls_passwordStrength">
-        <item>лоша</item>
-        <item>задоволителна</item>
-        <item>добра</item>
-        <item>надеждна</item>
+    <string-array name="auth_gls_security_questions">
+        <item>Изберете защитен въпрос</item>
+        <item>Първият ви телефонен номер?</item>
+        <item>Как се казва най-добрият ви приятел от детството?</item>
+        <item>Името на първия ви учител?</item>
+        <item>Името на началника на първата ви работа?</item>
+        <item>Регистрационният номер на превозното ви средство?</item>
     </string-array>
 </resources>

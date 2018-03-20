@@ -25,6 +25,7 @@
     <string name="deselect_all">Odznacz wszystko</string>
     <string name="instruction">Instrukcje</string>
     <string name="sar">Informacje o ekspozycji RF</string>
+    <string name="user_experience_program">Program zadowolenia użytkownika</string>
     <string name="abc_action_bar_up_description">Do góry</string>
     <string name="abc_action_bar_home_description">Na ekran główny</string>
     <string name="time_picker_label_hour">godz.</string>

@@ -32,15 +32,11 @@
         <item>Vlastní</item>
     </string-array>
     <string-array name="postalAddressTypes">
-        <item>Domov</item>
+        <item>Domů</item>
         <item>Práce</item>
         <item>Ostatní</item>
         <item>Vlastní</item>
     </string-array>
-    <array name="wfcOperatorErrorAlertMessages" />
-    <array name="wfcOperatorErrorNotificationMessages" />
-    <array name="fingerprint_acquired_vendor" />
-    <array name="fingerprint_error_vendor" />
     <string-array name="imAddressTypes">
         <item>Domů</item>
         <item>Práce</item>

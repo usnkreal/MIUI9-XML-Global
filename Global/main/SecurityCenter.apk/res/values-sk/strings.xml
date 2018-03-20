@@ -396,9 +396,9 @@ operátora"</string>
     <string name="firewall_system_title">Využitie dát systém. aplikáciami</string>
     <string name="firewall_temp_rule_reason">%2$s obmedzené internetové pripojenie pre %1$s​</string>
     <string name="dialog_restrict_all_wlan_title">Zakázať pripojenie Wi-Fi</string>
-    <string name="dialog_restrict_all_wlan_summary">Wi-Fi connection will be restricted for all apps after this.</string>
+    <string name="dialog_restrict_all_wlan_summary">Po tomto bude Wi-Fi pripojenie obmedzené pre všetky tieto informácie.</string>
     <string name="dialog_restrict_all_mobile_title">Obmedziť mobilné dátové pripojenie pre %s</string>
-    <string name="dialog_restrict_all_mobile_summary">%s Mobile data connection will be restricted for all apps after this.</string>
+    <string name="dialog_restrict_all_mobile_summary">%s Po tomto bude mobilné dátové pripojenie zakázané pre všetky aplikácie.</string>
     <string name="dialog_restrict_positive">Zrušiť</string>
     <string name="dialog_restrict_negative">Obmedziť</string>
     <string name="usage_sorted_activity_lable">Spotreba dát</string>
@@ -1914,7 +1914,7 @@ vaše zariadenie"</string>
     <string name="sponsored_sec_fb">Sponzorované</string>
     <string name="add_game_notification_summary">Dotykom spustíte</string>
     <string name="app_manager_title">Aplikácie</string>
-    <string name="app_manager_app_lock">Zámok</string>
+    <string name="app_manager_uninstall">Odinštalovať</string>
     <string name="app_manager_bipartition">Klonovať</string>
     <string name="app_manager_perm">Povolenia</string>
     <string name="app_manager_app_update">Aktualizácie</string>
@@ -2021,8 +2021,6 @@ vaše zariadenie"</string>
     <string name="app_manager_cache_size">Cache</string>
     <string name="app_manager_clear_all_data">Vymazať všetky dáta</string>
     <string name="app_manager_dlg_clear_cache_title">Vymazať cache?</string>
-    <string name="app_manager_support_uninstall">Môžete odinštalovať tieto aplikácie</string>
-    <string name="app_manager_not_support_uninstall">Tieto aplikácie nie je možné odinštalovať</string>
     <string name="app_manager_comuting_size">Prepočítavanie…</string>
     <string name="app_manager_show_all_apps_opened">Zobrazovanie výsledkov zo všetkých aplikácií…</string>
     <string name="app_manager_search_prompt">Nenašli ste výsledky? Skúste výsledky zo všetkých aplikácií.</string>

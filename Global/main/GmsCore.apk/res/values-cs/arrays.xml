@@ -14,6 +14,42 @@
         <item>Potraviny či supermarket</item>
         <item>Jiné</item>
     </string-array>
+    <string-array name="auth_gls_passwordStrength">
+        <item>Slabé</item>
+        <item>Uspokojivé</item>
+        <item>Dobré</item>
+        <item>Silné</item>
+    </string-array>
+    <string-array name="auth_trust_agent_trusted_devices_add_device_options_no_bt">
+        <item>NFC</item>
+    </string-array>
+    <string-array name="auth_trust_agent_trusted_devices_add_device_options_no_nfc">
+        <item>Bluetooth</item>
+    </string-array>
+    <string-array name="car_app_mode_labels">
+        <item>Vydání</item>
+        <item>Vývojář</item>
+        <item>Maloobchod</item>
+        <item>Ukázka</item>
+    </string-array>
+    <string-array name="car_error_user_friendly">
+        <item>V telefonu a autě je spuštěn nekompatibilní software. Podrobnosti naleznete na adrese &lt;a href="android.com/auto">android.com/auto&lt;/a>.</item>
+        <item>Auto navrhlo nesprávnou sadu konfigurací zvuku nebo videa.</item>
+        <item>"Připojení USB nefunguje správně. Další postup:
+
+• Zkontrolujte, zda je kabel na obou stranách zapojen správně.
+• Zkontrolujte, zda se jedná o datový kabel USB.
+• Zkontrolujte, zda je v autě i v telefonu správně nastaveno datum a čas."</item>
+        <item>Aplikace Android Auto v autě přestala fungovat.</item>
+        <item>Relace aplikace Android Auto byla na žádost ukončena.</item>
+        <item>Software auta je pravděpodobně zastaralý. Další podrobnosti a podporu vám poskytne výrobce.</item>
+        <item>Software auta neprošel bezpečnostními kontrolami aplikace Android Auto. Další podrobnosti a podporu vám poskytne výrobce.</item>
+        <item>Software auta neprošel bezpečnostními kontrolami aplikace Android Auto. Zkontrolujte, zda je v autě správně nastaveno datum a čas a zda je aplikace Android Auto aktualizovaná.</item>
+        <item>Časový limit akce vypršel. Doporučujeme vám použít hlášení o chybách a odeslat zpětnou vazbu.</item>
+        <item>Zdá se, že nemáte nainstalovanou aplikaci Launcher. Je váš telefon nastaven správně?</item>
+        <item>Ovladač grafiky právě selhal. Doporučujeme vám použít hlášení o chybách a odeslat zpětnou vazbu.</item>
+        <item>Auto nereaguje na zprávy z telefonu. Je možné, že autu není dobře.</item>
+    </string-array>
     <string-array name="category_descriptions">
         <item>Letiště</item>
         <item>Bankomat</item>
@@ -62,18 +98,6 @@
         <item>listopad</item>
         <item>prosinec</item>
     </string-array>
-    <string-array name="car_app_mode_labels">
-        <item>Vydání</item>
-        <item>Vývojář</item>
-        <item>Maloobchod</item>
-        <item>Ukázka</item>
-    </string-array>
-    <string-array name="car_day_night_mode_labels">
-        <item>Podle auta</item>
-        <item>Podle telefonu</item>
-        <item>Den</item>
-        <item>Noc</item>
-    </string-array>
     <string-array name="location_sharing_edit_share_duration_array">
         <item>Ukončit sdílení</item>
         <item>15 minut</item>
@@ -83,7 +107,7 @@
     </string-array>
     <string-array name="location_sharing_link_edit_share_duration_array">
         <item>Ukončit sdílení</item>
-        <item>15 minut</item>
+        <item>15 minut</item>
         <item>30 minut</item>
         <item>1 hodina</item>
     </string-array>
@@ -93,10 +117,12 @@
         <item>30</item>
         <item>45</item>
     </string-array>
-    <string-array name="auth_gls_passwordStrength">
-        <item>Slabé</item>
-        <item>Uspokojivé</item>
-        <item>Dobré</item>
-        <item>Silné</item>
+    <string-array name="auth_gls_security_questions">
+        <item>Zvolte bezpečností otázku</item>
+        <item>První telefonní číslo?</item>
+        <item>Jméno nejlepšího kamaráda z dětství?</item>
+        <item>Jméno prvního učitele?</item>
+        <item>Jméno šéfa v první práci?</item>
+        <item>SPZ auta?</item>
     </string-array>
 </resources>

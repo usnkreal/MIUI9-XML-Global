@@ -1933,7 +1933,7 @@ enheten din"</string>
     <string name="sponsored_sec_fb">Sponset</string>
     <string name="add_game_notification_summary">Trykk for å starte &amp; hastighetsøkning</string>
     <string name="app_manager_title">Behandle apper</string>
-    <string name="app_manager_app_lock">Applås</string>
+    <string name="app_manager_uninstall">Uninstall</string>
     <string name="app_manager_bipartition">Doble apper</string>
     <string name="app_manager_perm">Tillatelser</string>
     <string name="app_manager_app_update">Oppdateringer</string>
@@ -2039,8 +2039,6 @@ enheten din"</string>
     <string name="app_manager_cache_size">Cache</string>
     <string name="app_manager_clear_all_data">Tøm all data</string>
     <string name="app_manager_dlg_clear_cache_title">Tømme cache?</string>
-    <string name="app_manager_support_uninstall">Du kan avinstallere disse appene</string>
-    <string name="app_manager_not_support_uninstall">"Can't uninstall these apps"</string>
     <string name="app_manager_comuting_size">Beregner…</string>
     <string name="app_manager_show_all_apps_opened">Viser resultater fra alle apper…</string>
     <string name="app_manager_search_prompt">Finner du ikke resultaterP Prøv å vise resultater fra alle apper.</string>

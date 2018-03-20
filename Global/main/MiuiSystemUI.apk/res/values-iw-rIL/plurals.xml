@@ -31,10 +31,10 @@
         <item quantity="many">להסתיר התראות של %d יישומים?</item>
     </plurals>
     <plurals name="block_record_notification_more_text">
-        <item quantity="other">מסתיר התראות מ- %1$s &amp; %2$d יישומים.</item>
-        <item quantity="one">מסתיר התראות מיישום %1$s &amp; %2$d.</item>
-        <item quantity="two">מסתיר התראות מ- %1$s &amp; %2$d יישומים.</item>
-        <item quantity="many">מסתיר התראות מ- %1$s &amp; %2$d יישומים.</item>
+        <item quantity="other">מסתיר התראות מ- %1$s &amp;amp; %2$d יישומים.</item>
+        <item quantity="one">מסתיר התראות מיישום %1$s &amp;amp; %2$d.</item>
+        <item quantity="two">מסתיר התראות מ- %1$s &amp;amp; %2$d יישומים.</item>
+        <item quantity="many">מסתיר התראות מ- %1$s &amp;amp; %2$d יישומים.</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">בהיר</item>

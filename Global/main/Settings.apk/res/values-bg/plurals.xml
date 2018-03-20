@@ -16,10 +16,6 @@
         <item quantity="other">Вече сте на %1$d стъпки от това, да бъдете програмист.</item>
         <item quantity="one">Вече сте на %1$d стъпка от това, да бъдете програмист.</item>
     </plurals>
-    <plurals name="security_settings_fingerprint_preference_summary">
-        <item quantity="other">Настроени са %1$d отпечатъка</item>
-        <item quantity="one">Настроен е %1$d отпечатък</item>
-    </plurals>
     <plurals name="lockpassword_password_requires_letters">
         <item quantity="other">Паролата трябва да съдържа поне %d букви.</item>
         <item quantity="one">Паролата трябва да съдържа поне 1 буква.</item>
@@ -52,45 +48,13 @@
         <item quantity="other">%d приложения могат да четат известията</item>
         <item quantity="one">%d приложение може да чете известията</item>
     </plurals>
-    <plurals name="zen_mode_summary_alarms_only_by_minute">
-        <item quantity="other">Активиране на режима „Само будилници“ за %1$d минути (до %2$s)</item>
-        <item quantity="one">Активиране на режима „Само будилници“ за една минута до %2$s</item>
-    </plurals>
-    <plurals name="zen_mode_summary_alarms_only_by_hour">
-        <item quantity="other">Активиране на режима „Само будилници“ за %1$d часа до %2$s</item>
-        <item quantity="one">Активиране на режима „Само будилници“ за един час до %2$s</item>
-    </plurals>
-    <plurals name="permissions_summary">
-        <item quantity="other">Предоставени са %d разрешения</item>
-        <item quantity="one">Предоставено е %d разрешение</item>
-    </plurals>
-    <plurals name="runtime_permissions_summary">
-        <item quantity="other">Предоставени са %1$d от %2$d разрешения</item>
-        <item quantity="one">Предоставено е %1$d от %2$d разрешение</item>
-    </plurals>
-    <plurals name="runtime_permissions_additional_count">
-        <item quantity="other">%d допълнителни разрешения</item>
-        <item quantity="one">%d допълнително разрешение</item>
-    </plurals>
-    <plurals name="domain_urls_apps_summary">
-        <item quantity="other">%d приложения могат да отварят поддържани връзки</item>
-        <item quantity="one">Едно приложение може да отваря поддържани връзки</item>
-    </plurals>
-    <plurals name="high_power_count">
-        <item quantity="other">%d приложения имат разрешение да пренебрегват оптимизирането на батерията</item>
-        <item quantity="one">1 приложение има разрешение да пренебрегва оптимизирането на батерията</item>
-    </plurals>
-    <plurals name="memory_usage_apps_summary">
-        <item quantity="other">%1$d приложения са използвали памет през последния период от %2$s</item>
-        <item quantity="one">1 приложение е използвало памет през последния период от %2$s</item>
-    </plurals>
-    <plurals name="virus_scan_app_find_risk">
-        <item quantity="other">%d опасности са намерени</item>
-        <item quantity="one">%d опасност е намерена</item>
+    <plurals name="manage_condition_providers_summary_nonzero">
+        <item quantity="other">%d приложения предоставят условия</item>
+        <item quantity="one">%d приложение предоставя условия</item>
     </plurals>
     <plurals name="auto_startup_count">
-        <item quantity="other">%d приложения имат разрешение за автостартиране</item>
-        <item quantity="one">%d приложение има разрешение за автостартиране</item>
+        <item quantity="other">%d приложения имат разрешение за автостарт</item>
+        <item quantity="one">%d приложение има разрешение за автостарт</item>
     </plurals>
     <plurals name="lockpassword_pin_fixed_length">
         <item quantity="other">PIN кодът трябва да е %d цифри</item>
@@ -109,7 +73,7 @@
         <item quantity="one">%1$d свързан потребител</item>
     </plurals>
     <plurals name="show_pho_countdown">
-        <item quantity="other">Вече сте на %1$d стъпка от влизането в информацията за устройството.</item>
+        <item quantity="other">Вече сте на %1$d стъпки от влизането в информацията за устройството.</item>
         <item quantity="one">Вече сте на %1$d стъпка от влизането в информацията за устройството.</item>
     </plurals>
     <plurals name="show_cit_countdown">

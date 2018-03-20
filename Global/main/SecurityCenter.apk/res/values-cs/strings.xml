@@ -398,9 +398,9 @@ operátora"</string>
     <string name="firewall_system_title">Využití dat systém. aplikacemi</string>
     <string name="firewall_temp_rule_reason">Aplikace %2$s omezila internetové připojení pro %1$s​</string>
     <string name="dialog_restrict_all_wlan_title">Zakázat využití Wi-Fi sítě</string>
-    <string name="dialog_restrict_all_wlan_summary">Wi-Fi connection will be restricted for all apps after this.</string>
+    <string name="dialog_restrict_all_wlan_summary">Využití Wi-Fi připojení bude zakázáno všem aplikacím.</string>
     <string name="dialog_restrict_all_mobile_title">Zakázat mobilní datové připojení pro %s</string>
-    <string name="dialog_restrict_all_mobile_summary">%s Mobile data connection will be restricted for all apps after this.</string>
+    <string name="dialog_restrict_all_mobile_summary">%s Využití mobilního datového připojení bude zakázáno všem aplikacím.</string>
     <string name="dialog_restrict_positive">Zrušit</string>
     <string name="dialog_restrict_negative">Zakázat</string>
     <string name="usage_sorted_activity_lable">Využití dat</string>
@@ -1935,7 +1935,7 @@ vaše zařízení"</string>
     <string name="sponsored_sec_fb">Sponzorováno</string>
     <string name="add_game_notification_summary">Klepněte pro spuštění a posílení rychlosti</string>
     <string name="app_manager_title">Správa aplikací</string>
-    <string name="app_manager_app_lock">Zámek aplikací</string>
+    <string name="app_manager_uninstall">Odinstalovat</string>
     <string name="app_manager_bipartition">Duální aplikace</string>
     <string name="app_manager_perm">Povolení</string>
     <string name="app_manager_app_update">Aktualizace</string>
@@ -2042,8 +2042,6 @@ vaše zařízení"</string>
     <string name="app_manager_cache_size">Mezipaměť</string>
     <string name="app_manager_clear_all_data">Vymazat všechna data</string>
     <string name="app_manager_dlg_clear_cache_title">Vyčistit mezipaměť?</string>
-    <string name="app_manager_support_uninstall">Tyto aplikace lze odinstalovat</string>
-    <string name="app_manager_not_support_uninstall">Tyto aplikace nelze odinstalovat</string>
     <string name="app_manager_comuting_size">Výpočet…</string>
     <string name="app_manager_show_all_apps_opened">Zobrazování výsledků ze všech aplikací…</string>
     <string name="app_manager_search_prompt">Nenašli jste co jste hledali? Zkuste zobrazit výsledky ze všech aplikací.</string>

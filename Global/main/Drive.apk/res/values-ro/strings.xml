@@ -19,8 +19,9 @@
     <string name="abc_shareactionprovider_share_with">Trimiteți la</string>
     <string name="abc_shareactionprovider_share_with_application">Trimiteți la %s</string>
     <string name="abc_toolbar_collapse_description">Restrângeți</string>
-    <string name="access_as_visitors_title">Toți ceilalți</string>
-    <string name="access_via_team_drive_title">Acces prin %1$s</string>
+    <string name="access_request_accepted">Acceptat</string>
+    <string name="access_request_give_access">Permiteți accesul</string>
+    <string name="access_request_reply">Răspundeți</string>
     <string name="accessbility_suggestion_dropdown_closed">Nicio sugestie disponibilă</string>
     <string name="accessbility_suggestion_dropdown_opened">Sugestii de persoane de contact disponibile</string>
     <string name="account_item">Comutați la %1$s</string>
@@ -39,8 +40,8 @@
     <string name="action_card_announce_untrash">Articol restabilit</string>
     <string name="action_card_download">Descărcați</string>
     <string name="action_card_download_content_desc">Descărcați o copie</string>
-    <string name="action_card_export">Trim. o copie</string>
-    <string name="action_card_export_content_desc">Trimiteți o copie</string>
+    <string name="action_card_export">Trim. fișierul</string>
+    <string name="action_card_export_content_desc">Trimiteți fișierul</string>
     <string name="action_card_folder_color">Modif. culoare</string>
     <string name="action_card_get_link">Trimiteți linkul</string>
     <string name="action_card_move">Mutați</string>
@@ -53,7 +54,6 @@
     <string name="action_card_remove_content_desc">Eliminați articolul</string>
     <string name="action_card_remove_permanently">Ștergeți definitiv</string>
     <string name="action_card_remove_permanently_content_desc">Ștergeți definitiv articolul</string>
-    <string name="action_card_remove_td_item">Ștergeți pentru toată lumea</string>
     <string name="action_card_rename">Redenumiți</string>
     <string name="action_card_rename_content_desc">Redenumiți articolul</string>
     <string name="action_card_share">Adăugați persoane</string>
@@ -83,18 +83,12 @@
     <string name="add_account">Adăugați un cont</string>
     <string name="add_collaborator_accept">Adăugați</string>
     <string name="add_collaborators">Adăugați persoane</string>
-    <string name="add_collaborators_acl_list_title">Cine are acces</string>
     <string name="add_collaborators_hint">Introduceți un nume sau o adresă de e-mail</string>
-    <string name="add_collaborators_send_button_content_desc">Confirmați trimiterea și trimiteți colaboratorilor</string>
-    <string name="add_collaborators_textbox_title">Persoane</string>
-    <string name="add_members_acl_list_title">Membri %1$s</string>
-    <string name="add_members_dialog_title">Adăugați membri</string>
-    <string name="add_members_send_button_content_desc">Confirmați adăugarea membrilor și trimiteți membrilor</string>
-    <string name="add_members_textbox_title">Membri</string>
+    <string name="add_collaborators_send_button_content_desc">Confirmați permiterea accesului și trimiteți colaboratorilor</string>
+    <string name="add_collaborators_textbox_title">Utilizatori</string>
     <string name="alphabet_set">0123456789AĂÂBCDEFGHIÎJKLMNOPQRSȘTȚUVWXYZ</string>
     <string name="announce_account_switch">S-a conectat la contul %1$s.</string>
     <string name="announce_account_using">Cont folosit: %1$s.</string>
-    <string name="announce_action_undone">Acțiunea a fost anulată.</string>
     <string name="announce_collection_removed">Dosarul a fost eliminat.</string>
     <string name="announce_create_new">Creați unul nou</string>
     <string name="announce_document_removed">Fișierul a fost eliminat.</string>
@@ -106,8 +100,6 @@
     <string name="announce_search_found_no_item">Nu au fost găsite rezultate</string>
     <string name="announce_select_to_change">selectați pentru a modifica</string>
     <string name="announce_sort_order_and_direction">Sortare după: %1$s, %2$s</string>
-    <string name="announce_swatch_checked">%1$s a fost bifată</string>
-    <string name="announce_swatch_not_checked">%1$s nu a fost bifată</string>
     <string name="app_installation_in_progress">Instalare în curs…</string>
     <string name="app_installation_in_progress_toast">Instalare în curs. Consultați notificările pentru detalii.</string>
     <string name="app_installed_dialog_drive_installed_title">S-a instalat Google Drive</string>
@@ -121,19 +113,27 @@
     <string name="app_name_drive">Drive</string>
     <string name="app_restrictions_description">Setați ca fals pentru a dezactiva utilizarea API-urilor de imprimare locale</string>
     <string name="app_restrictions_title">Aplicația este autorizată să utilizeze API-uri de imprimare locale</string>
-    <string name="apps">Google Apps</string>
-    <string name="apps_footer_text">%s aplicații</string>
-    <string name="apps_predict_carousel_title">Acces rapid</string>
     <string name="apps_predict_doclist_suggestions_header">Elemente instantanee</string>
     <string name="apps_predict_open_error">Nu se poate deschide articolul.</string>
-    <string name="apps_predict_overlay_close_button">Închideți</string>
     <string name="apps_predict_overlay_introduction_header">Articole sugerate noi</string>
     <string name="apps_predict_overlay_introduction_text">Acum, Drive sugerează automat articolele pe care este cel mai probabil să le folosiți. Nu asta căutați? Este de ajuns să glisați pentru a respinge.</string>
     <string name="apps_predict_overlay_title_assistant">Asistent</string>
     <string name="apps_predict_overlay_title_items_now">Articole recomandate acum</string>
     <string name="apps_predict_overlay_title_smart_items">Articole inteligente</string>
+    <string name="apps_predict_reason_frequently_accessed">Accesat frecvent</string>
+    <string name="apps_predict_reason_outstanding_comments">Are comentarii netrimise</string>
+    <string name="apps_predict_reason_recent_activity">În baza activității recente</string>
+    <string name="apps_predict_reason_recently_accessed">Accesat recent</string>
+    <string name="apps_predict_reason_recently_commented_on">Are comentarii recente</string>
+    <string name="apps_predict_reason_recently_notified">V-a fost notificat recent</string>
+    <string name="apps_predict_reason_recently_shared_with_you">V-a fost trimis recent</string>
+    <string name="apps_predict_reason_recently_updated">Actualizat recent</string>
+    <string name="apps_predict_reason_related_to_recent_document">Legat de un document recent</string>
+    <string name="apps_predict_reason_time_of_day">Accesat în prezent</string>
     <string name="apps_predict_suggestions_dismissed_undo">Sugestiile au fost respinse</string>
     <string name="apps_with_backup">Aplicații pentru care s-a făcut backup în Google Drive</string>
+    <string name="ask_confirmation_for_document_deletion">Doriți să eliminați acest fișier?</string>
+    <string name="ask_confirmation_for_folder_deletion">Doriți să eliminați acest dosar?</string>
     <string name="audio_info_loading">Se încarcă</string>
     <string name="authentication_error">Eroare la obținerea autentificării</string>
     <string name="auto_backup_open_settings_page_failure_toast">Nu s-a putut deschide pagina cu setări pentru Backup automat. Reîncercați.</string>
@@ -143,10 +143,8 @@
     <string name="backup_app_footer_text" formatted="false">Backup de %s creat pe %s</string>
     <string name="backup_banner_msg">Începe backupul dispozitivului pe Drive</string>
     <string name="backup_complete_msg">Backupul a fost finalizat</string>
-    <string name="backup_data">Faceți backup pentru date</string>
     <string name="backup_disabled_for_account">Backupul pentru acest dispozitiv este activat pentru %s. Puteți avea un singur cont de backup pentru fiecare dispozitiv.</string>
     <string name="backup_disabled_for_device">Nu există date de backup disponibile. Activați backupul pentru acest dispozitiv și așteptați 24 de ore pentru ca datele să fie salvate.</string>
-    <string name="backup_entity_footer_text">Data ultimului backup: %s</string>
     <string name="backup_failed_msg">Nu s-a putut realiza backupul.</string>
     <string name="backup_help_card_content">Pentru imagini, fișiere și setările aplicației se face backup automat de pe dispozitivul dvs. pe %s</string>
     <string name="backup_help_card_title">Faceți backup pentru date în Google Drive</string>
@@ -154,9 +152,7 @@
     <string name="backup_now">Faceți backup acum</string>
     <string name="backup_preferences">Backup automat pentru aplicații</string>
     <string name="backup_retry_msg">Atingeți pentru a încerca din nou</string>
-    <string name="backup_settings">Setări pentru backup</string>
-    <string name="backup_view_error">Nu se poate încărca lista cu datele pentru care s-a făcut backup. Verificați conexiunea la rețea sau încercați din nou mai târziu.</string>
-    <string name="basesearchsuggestion_date_modified_label">Modificate: %1$s</string>
+    <string name="basesearchsuggestion_date_modified_label">Modificate: %s</string>
     <string name="button_create_contact">Creați o intrare nouă în Agendă</string>
     <string name="button_exit">Închideți</string>
     <string name="button_ok">OK</string>
@@ -166,64 +162,52 @@
     <string name="buy_content_description">Cumpărați %1$s cu %2$s</string>
     <string name="cakemix_device_offline">Nu există conexiune</string>
     <string name="cakemix_problem_with_file">Problemă cu fișierul</string>
-    <string name="cakemix_video_unprocessed">Videoclip în curs de procesare. Verificați mai târziu.</string>
-    <string name="calendar">Calendar</string>
-    <string name="calendar_footer_text">Sincronizat cu Google Calendar</string>
-    <string name="calendar_message">Evenimentele din calendar sunt sincronizate pe dispozitive cu ajutorul Google Calendar.</string>
-    <string name="call_history">Istoricul apelurilor</string>
-    <string name="call_history_message">Backupul include data și destinatarul apelurilor efectuate și primite.</string>
+    <string name="cakemix_video_unprocessed">Acest videoclip nu a putut fi procesat.</string>
     <string name="camera_ocr_error_capture">Eroare la realizarea fotografiei</string>
     <string name="camera_ocr_no_sdcard">Inserați un card SD înainte de a utiliza camera foto.</string>
-    <string name="carbon_device_extra_delete_confirmation_message">"
-
-Fotografiile, agenda și evenimentele din calendar sincronizate de pe acest dispozitiv nu vor fi șterse."</string>
+    <string name="check_connection_tap_to_retry">Verif. conexiunea și atingeți pt. a încerca iar</string>
     <string name="chips_action_cancel">Anulați</string>
     <string name="chips_action_copy">Copiați</string>
     <string name="chips_permission_text">Permiteți sugestii de persoane de contact</string>
     <string name="clear_cache">Ștergeți mem. cache</string>
     <string name="clear_cache_cleared_message">Memoria cache pentru documente a fost ștearsă</string>
-    <string name="clear_cache_clearing_message">Se șterge memoria cache</string>
     <string name="clear_cache_message">Memoria cache pentru documente va fi ștearsă.</string>
+    <string name="comment_quote">Citat: %1$s</string>
+    <string name="common_android_wear_notification_needs_update_text">%1$s necesită o actualizare a aplicației Android Wear.</string>
+    <string name="common_android_wear_update_text">%1$s nu va rula decât dacă actualizați aplicația Android Wear.</string>
+    <string name="common_android_wear_update_title">Actualizați Android Wear</string>
     <string name="common_google_play_services_api_unavailable_text">%1$s necesită unul sau mai multe servicii Google Play, care momentan nu sunt disponibile. Contactați dezvoltatorul pentru asistență.</string>
-    <string name="common_google_play_services_enable_button">Activați serviciile Google Play</string>
+    <string name="common_google_play_services_enable_button">Activați Servicii Google Play</string>
     <string name="common_google_play_services_enable_text">%1$s nu va funcționa decât dacă activați serviciile Google Play.</string>
-    <string name="common_google_play_services_enable_title">Activați serviciile Google Play</string>
-    <string name="common_google_play_services_install_button">Descărcați serviciile Google Play</string>
+    <string name="common_google_play_services_enable_title">Activați Servicii Google Play</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Solicitată de %1$s</string>
+    <string name="common_google_play_services_install_button">Obţineţi Servicii Google Play</string>
     <string name="common_google_play_services_install_text_phone">%1$s nu va rula fără serviciile Google Play, care lipsesc de pe telefon.</string>
     <string name="common_google_play_services_install_text_tablet">%1$s nu va rula fără serviciile Google Play, care lipsesc de pe tabletă.</string>
-    <string name="common_google_play_services_install_title">Descărcați serviciile Google Play</string>
+    <string name="common_google_play_services_install_title">Descărcaţi Servicii Google Play</string>
     <string name="common_google_play_services_invalid_account_text">Contul menționat nu există pe acest dispozitiv. Alegeți alt cont.</string>
-    <string name="common_google_play_services_invalid_account_title">Contul nu este valid</string>
+    <string name="common_google_play_services_invalid_account_title">Cont nevalid</string>
+    <string name="common_google_play_services_needs_enabling_title">O aplicație necesită activarea serviciilor Google Play.</string>
     <string name="common_google_play_services_network_error_text">Este necesară o conexiune de date pentru a vă conecta la serviciile Google Play.</string>
-    <string name="common_google_play_services_network_error_title">Eroare de rețea</string>
-    <string name="common_google_play_services_notification_ticker">Eroare privind serviciile Google Play</string>
-    <string name="common_google_play_services_restricted_profile_text">Accesarea conturilor dintr-un profil cu permisiuni limitate nu este acceptată.</string>
-    <string name="common_google_play_services_restricted_profile_title">Profil cu permisiuni limitate</string>
+    <string name="common_google_play_services_network_error_title">Eroare de reţea</string>
+    <string name="common_google_play_services_notification_needs_update_title">O aplicație necesită o actualizare pentru serviciile Google Play.</string>
+    <string name="common_google_play_services_notification_ticker">Eroare a serviciilor Google Play</string>
     <string name="common_google_play_services_sign_in_failed_text">Eroare la conectarea la contul specificat. Alegeți alt cont.</string>
     <string name="common_google_play_services_sign_in_failed_title">Conectarea nu a reușit</string>
-    <string name="common_google_play_services_unknown_issue">%1$s întâmpină probleme privind serviciile Google Play. Dacă problema persistă, contactați dezvoltatorul pentru asistență.</string>
+    <string name="common_google_play_services_unknown_issue">Problemă necunoscută privind Servicii Google Play.</string>
     <string name="common_google_play_services_unsupported_text">%1$s se bazează pe serviciile Google Play, care nu sunt acceptate de dispozitiv. Contactați producătorul pentru asistență.</string>
-    <string name="common_google_play_services_unsupported_title">Serviciile Google Play</string>
-    <string name="common_google_play_services_update_button">Actualizați</string>
+    <string name="common_google_play_services_unsupported_title">Servicii Google Play</string>
+    <string name="common_google_play_services_update_button">Actualizaţi</string>
     <string name="common_google_play_services_update_text">%1$s nu va rula decât dacă actualizați serviciile Google Play.</string>
-    <string name="common_google_play_services_update_title">Actualizați serviciile Google Play</string>
+    <string name="common_google_play_services_update_title">Actualizaţi Servicii Google Play</string>
     <string name="common_google_play_services_updating_text">%1$s nu va rula fără serviciile Google Play, care momentan se actualizează.</string>
     <string name="common_google_play_services_updating_title">Se actualizează serviciile Google Play</string>
-    <string name="common_google_play_services_wear_update_text">Este necesară o nouă versiune a serviciilor Google Play. Se vor actualiza automat în curând.</string>
     <string name="common_open_on_phone">Deschideți pe telefon</string>
-    <string name="common_signin_button_text">Conectați-vă</string>
-    <string name="common_signin_button_text_long">Conectați-vă cu Google</string>
     <string name="contact_sharing_commenter">Poate comenta</string>
     <string name="contact_sharing_no_access">Niciun acces</string>
-    <string name="contact_sharing_reader">Poate vedea</string>
-    <string name="contact_sharing_td_organizer">Nu există restricții</string>
-    <string name="contact_sharing_td_remove">Eliminați</string>
-    <string name="contact_sharing_td_writer">Poate edita și încărca</string>
+    <string name="contact_sharing_reader">Poate vizualiza</string>
     <string name="contact_sharing_writer">Poate edita</string>
     <string name="contact_sharing_writer_folder">Poate organiza, adăuga și edita</string>
-    <string name="contacts">Agendă</string>
-    <string name="contacts_footer_text">Sincronizat cu Agenda Google</string>
-    <string name="contacts_message">Agenda este sincronizată pe dispozitive cu ajutorul Agendei Google.</string>
     <string name="convert_conversion_failed">Documentul nu a putut fi procesat. Verificați conexiunea la rețea și încercați din nou.</string>
     <string name="convert_document_too_big">Documentul este prea mare pentru a fi procesat.</string>
     <string name="convert_loading_document_failed">Documentul nu a putut fi procesat.</string>
@@ -246,7 +230,6 @@ Fotografiile, agenda și evenimentele din calendar sincronizate de pe acest disp
     <string name="create_new_error_presentation">Eroare la crearea prezentării</string>
     <string name="create_new_error_read_only_folder">Nu aveți permisiunea de a adăuga articole în acest dosar.</string>
     <string name="create_new_error_spreadsheet">Eroare la crearea foii de calcul</string>
-    <string name="create_new_error_team_drive">Eroare la crearea Drive-ului în echipă</string>
     <string name="create_new_folder">Dosar</string>
     <string name="create_new_from_scan">Scanați</string>
     <string name="create_new_ocr_doc">Document din imagine</string>
@@ -255,7 +238,6 @@ Fotografiile, agenda și evenimentele din calendar sincronizate de pe acest disp
     <string name="create_new_offline_error_folder">Conectați-vă pentru a crea un dosar nou</string>
     <string name="create_new_offline_error_presentation">Conectați-vă pentru a crea o prezentare nouă</string>
     <string name="create_new_offline_error_spreadsheet">Conectați-vă pentru a crea o foaie de calcul nouă</string>
-    <string name="create_new_offline_error_team_drive">Conectați-vă la internet pentru a crea un nou Drive în echipă</string>
     <string name="create_shortcut_label">Comandă rapidă pentru Drive</string>
     <string name="create_shortcut_title">Creați com. rapidă pt.…</string>
     <string name="created_folder">A fost creat dosarul %1$s</string>
@@ -264,35 +246,16 @@ Fotografiile, agenda și evenimentele din calendar sincronizate de pe acest disp
     <string name="creating_folder">Se creează dosarul…</string>
     <string name="creating_presentation">Se creează prezentarea…</string>
     <string name="creating_spreadsheet">Se creează foaia de calcul…</string>
-    <string name="creating_team_drive">Se creează Drive-ul în echipă…</string>
     <string name="cross_app_promo_dismiss_button_text">Închideți</string>
     <string name="cross_app_promo_install_button_text">Instalați</string>
     <string name="cross_app_promo_view_only_button_text">Numai vizualizare</string>
-    <string name="current_device">Acest dispozitiv</string>
     <string name="decrypting_progress_message">Se decriptează %1$s</string>
     <string name="default_new_drawing_title">Desen fără titlu</string>
     <string name="default_new_folder_title">Dosar fără titlu</string>
     <string name="default_new_kix_title">Document fără titlu</string>
     <string name="default_new_punch_title">Prezentare fără titlu</string>
-    <string name="default_new_team_drive_title">Numele echipei</string>
     <string name="default_new_trix_title">Foaie de calcul fără titlu</string>
     <string name="default_scope_contact_name">Toți utilizatorii</string>
-    <string name="delete_backup">Ștergeți backupul</string>
-    <string name="delete_backup_confirm_button">Ștergeți</string>
-    <string name="delete_backup_progress_message">Se șterge backupul</string>
-    <string name="delete_device_backup_confirmation_message">"Datele de backup pentru acest dispozitiv vor fi șterse definitiv.
-
-Se vor crea noi date de backup dacă backupul este în continuare activat pentru %s."</string>
-    <string name="delete_device_backup_title">Ștergeți backupul %s?</string>
-    <string name="delete_multiple_backup_error_message">Unele backupuri nu au putut fi șterse.</string>
-    <string name="delete_single_backup_error_message">Backupul nu a putut fi șters.</string>
-    <string name="delete_whatsapp_backup_after_turnoff_confirmation_message">"Doriți să ștergeți definitiv și backupul pentru chatul și media WhatsApp pentru:
-
-%s"</string>
-    <string name="delete_whatsapp_backup_confirmation_message">"Backupul pentru chatul și media WhatsApp va fi șters definitiv pentru %s.
-
-Se vor crea noi date de backup dacă backupul este în continuare activat pentru acest număr."</string>
-    <string name="delete_whatsapp_backup_title">Ștergeți backupul WhatsApp?</string>
     <string name="desc_album_art">Grafica albumului</string>
     <string name="desc_audio_forward">Înainte cu 30 de secunde</string>
     <string name="desc_audio_next">Înainte</string>
@@ -324,17 +287,16 @@ Se vor crea noi date de backup dacă backupul este în continuare activat pentru
     <string name="desc_promo_page">Sfat suprapus: Salvați PDF-urile în Google Drive</string>
     <string name="desc_selection_start">începutul selecției</string>
     <string name="desc_selection_stop">sfârșitul selecției</string>
-    <string name="desc_video_player">Player video</string>
     <string name="desc_web_link">Link: %1$s</string>
     <string name="desc_web_link_shortened_to_domain">Link: pagina de web %1$s</string>
     <string name="desc_zoom">zoom de %1$d la sută</string>
     <string name="description_icon_stale_items">Aveți articole neactualizate.</string>
-    <string name="detail_fragment_title">Se afișează proprietățile articolului pentru %1$s</string>
+    <string name="detail_fragment_title">Se afișează proprietățile articolului pentru %s</string>
     <string name="detail_preview_created_time">Creat la</string>
-    <string name="detail_preview_date_performed_by">%1$s de %2$s</string>
+    <string name="detail_preview_date_performed_by" formatted="false">%s de %s</string>
     <string name="detail_preview_folder_location">Locație</string>
     <string name="detail_preview_folder_restore_location">Eliminat din</string>
-    <string name="detail_preview_google_files_free">Fișierele %1$s nu ocupă spațiu de stocare</string>
+    <string name="detail_preview_google_files_free">Fișierele %s nu ocupă spațiu de stocare</string>
     <string name="detail_preview_information_content_description">Informații</string>
     <string name="detail_preview_kind">Tip</string>
     <string name="detail_preview_last_modified_date">Modificat la</string>
@@ -343,15 +305,12 @@ Se vor crea noi date de backup dacă backupul este în continuare activat pentru
     <string name="detail_preview_quota">Spațiu utilizat</string>
     <string name="detail_preview_size">Dimensiune</string>
     <string name="device_offline">Nu există conexiune</string>
-    <string name="device_settings">Setări dispozitiv</string>
-    <string name="device_settings_message">Backupul include configurarea dispozitivului, cum ar fi imaginea de fundal, parolele pentru Wi-Fi și aplicațiile prestabilite.</string>
     <string name="dialog_confirm_expiration">Eliminați expirarea?</string>
     <string name="dialog_confirm_expiration_button">Eliminați expirarea</string>
     <string name="dialog_confirm_expiration_message">"Accesul acestui utilizator a fost setat anterior să expire.
 
 Dacă îi schimbați rolul, se va restaura accesul permanent."</string>
     <string name="dialog_confirm_sharing">Confirm. trimiterea</string>
-    <string name="dialog_confirm_sharing_button">Trimiteți</string>
     <string name="dialog_confirm_sharing_message">%1$s nu face parte din domeniul articolului. Sigur doriți să trimiteți?</string>
     <string name="dialog_confirm_sharing_message_multiple">%1$d persoane din Agendă nu fac parte din domeniul articolului. Sigur doriți să trimiteți?</string>
     <string name="dialog_contact_sharing">Set. trim. pt. util.</string>
@@ -385,8 +344,6 @@ Dacă îi schimbați rolul, se va restaura accesul permanent."</string>
     <string name="doclist_sortby_relevance">Relevanță</string>
     <string name="doclist_sortby_shared_title">Data trimiterii</string>
     <string name="doclist_starred_state">Cu stea</string>
-    <string name="doclist_team_drive_state">Drive în echipă</string>
-    <string name="doclist_unified_actions_more_actions_button">Mai multe acțiuni</string>
     <string name="document_deleted_error_dialog_message">Documentul pe care încercați să îl deschideți a fost șters. Pentru a șterge comanda rapidă, atingeți-o lung și trageți-o deasupra pictogramei Eliminați din partea de sus a ecranului.</string>
     <string name="document_deleted_error_dialog_title">Acest document a fost șters.</string>
     <string name="document_preparing_to_open_progress">Deschidere în curs...</string>
@@ -514,8 +471,6 @@ Dacă îi schimbați rolul, se va restaura accesul permanent."</string>
 
  IMPORTANT! După ce trimiteți feedback-ul, ștergeți cache-ul aplicației (Setări -> Aplicații -> Drive -> Ștergeți CACHE-ul), altfel datele copiate pot fi accesate de alte aplicații rău intenționate. Sigur continuați?"</string>
     <string name="dump_database_dialog_title">Feedback intern. Ajutați-ne să îmbunătățim apl.</string>
-    <string name="empty_backup_content">Backupurile dispozitivului și ale datelor din aplicații se afișează aici</string>
-    <string name="empty_backup_title">Nu există backupuri</string>
     <string name="empty_doclist">Zero articole</string>
     <string name="empty_doclist_for_devices_view">Nu s-au găsit dosare pentru dispozitive.</string>
     <string name="empty_doclist_for_devices_view_details">Pentru a crea dosare pentru dispozitive, instalați cea mai recentă versiune de Drive pe computer și configurați pentru a sincroniza dosarele locale.</string>
@@ -529,15 +484,14 @@ Dacă îi schimbați rolul, se va restaura accesul permanent."</string>
     <string name="empty_doclist_for_search_view">Niciun rezultat.</string>
     <string name="empty_doclist_for_shared_with_me_view">Fișierele la care vi s-a permis accesul vor apărea aici.</string>
     <string name="empty_doclist_for_starred_view">Nu există fișiere marcate cu stea.</string>
-    <string name="empty_doclist_for_starred_view_details">Atingeți pictograma stea din meniul de opțiuni al fișierului pentru a-l adăuga la această listă.</string>
+    <string name="empty_doclist_for_starred_view_details">Atingeți pictograma stea din panoul de detalii pentru a adăuga fișierul în această listă.</string>
+    <string name="empty_doclist_for_uploads_view">Nu există încărcări recente.</string>
+    <string name="empty_doclist_for_uploads_view_details">Gestionați încărcările active și vizualizați fișierele pe care le-ați încărcat de curând de pe acest dispozitiv.</string>
     <string name="empty_recent_doclist_message_subtitle">Orice articol creat sau modificat va apărea aici. Dați clic pe + pentru a crea un desen nou.</string>
     <string name="empty_recent_doclist_message_title">Bun venit la Documente Google!</string>
     <string name="empty_sharing_list">Info. despre trimitere indisponibile</string>
-    <string name="empty_team_drives_doclist">Drive-ul dvs. în echipă este gol. Adăugați fișiere și persoane pentru a începe.</string>
     <string name="enable_backup">ACTIVAȚI FUNCȚIA BACKUP PENTRU DATELE MELE</string>
     <string name="enter_new_name">Introduceți un nume nou:</string>
-    <string name="entity_backup_time">Data ultimului backup: %s</string>
-    <string name="entity_item_more_action_button">Mai multe acțiuni</string>
     <string name="error_access_denied_html">Imposibil de accesat documentul. &lt;br> Motiv: acces la document interzis. &lt;br>&lt;br> Asigurați-vă că aveți permisiunea de a vedea documentul și reîncercați.</string>
     <string name="error_app_intent">Altă aplicație nu poate gestiona acest fișier ( %1$s)</string>
     <string name="error_app_open">Eroare la deschiderea fișierului</string>
@@ -572,8 +526,6 @@ Dacă îi schimbați rolul, se va restaura accesul permanent."</string>
     <string name="error_ssl_generic_template">Eroare SSL (cod %1$d) la conectarea la „%2$s”.</string>
     <string name="error_ssl_idmismatch_template">Eroare SSL (cod %1$d) la conectarea la „%2$s”: numele de gazdă nu este corect.</string>
     <string name="error_ssl_validity_template">Eroare SSL (cod %1$d) la conectarea la „%2$s”: certificatul a expirat sau nu este încă valid; data setată pentru dispozitivul dvs. este corectă?</string>
-    <string name="error_start_client">"Nu se mai pot încărca fișiere din  %1$s"</string>
-    <string name="error_title">Eroare</string>
     <string name="error_video_not_available">Videoclipul nu a fost procesat. Încercați din nou mai târziu.</string>
     <string name="expires_future">Expiră peste %1$s</string>
     <string name="expires_today">Expiră astăzi</string>
@@ -612,14 +564,14 @@ Dacă îi schimbați rolul, se va restaura accesul permanent."</string>
     <string name="file_type_unknown">necunoscut</string>
     <string name="file_type_video">Videoclip</string>
     <string name="file_type_word">Word</string>
-    <string name="folder_color_blue_grey_500">Albastru metalizat</string>
+    <string name="folder_color_blue_grey_500">Oțel albastru</string>
     <string name="folder_color_brown_100">Beton</string>
     <string name="folder_color_brown_200">Gard maro decolorat</string>
     <string name="folder_color_brown_400">Mocha Frappe</string>
     <string name="folder_color_cyan_200">Islanda</string>
     <string name="folder_color_cyan_500">Falie din Caraibe</string>
     <string name="folder_color_deep_orange_500">Mandarină</string>
-    <string name="folder_color_default">Prestabilită</string>
+    <string name="folder_color_default">Gri-șoarece</string>
     <string name="folder_color_google_blue_500">Cer albastru</string>
     <string name="folder_color_google_green_400">Salvie</string>
     <string name="folder_color_google_green_500">Busuioc</string>
@@ -627,31 +579,26 @@ Dacă îi schimbați rolul, se va restaura accesul permanent."</string>
     <string name="folder_color_google_yellow_100">Caprifoi</string>
     <string name="folder_color_light_blue_500">Păun</string>
     <string name="folder_color_light_green_500">Verde praz proaspăt</string>
-    <string name="folder_color_lime_200">Lămâie verde</string>
+    <string name="folder_color_lime_200">Lămâie</string>
     <string name="folder_color_lime_500">Verde lămâiță</string>
     <string name="folder_color_orange_200">Puf de piersică</string>
     <string name="folder_color_orange_500">Portocaliu</string>
-    <string name="folder_color_orange_600">Taxi galben</string>
     <string name="folder_color_pink_200">Roz-purceluș</string>
     <string name="folder_color_pink_300">Flamingo</string>
     <string name="folder_color_pink_500">Zmeură</string>
     <string name="folder_color_purple_100">Casă de păpuși</string>
-    <string name="folder_color_purple_200">Dinozaur</string>
-    <string name="folder_color_purple_300">Fucsia</string>
-    <string name="folder_color_purple_400">Vânătă</string>
+    <string name="folder_color_purple_300">Fucsie</string>
     <string name="folder_color_teal_100">Sală de așteptare</string>
     <string name="gallery_select_error">A apărut o eroare la selectarea imaginii pentru încărcare.</string>
     <string name="getting_authentication_information">Se deschide documentul</string>
     <string name="gf_feedback">Feedback</string>
+    <string name="give_access_failed">%1$s nu a primit acces</string>
+    <string name="give_access_failed_offline">Nu se poate permite accesul offline</string>
+    <string name="give_access_success">%1$s a primit acces</string>
+    <string name="giving_access">Se permite accesul pentru %1$s</string>
     <string name="google_account_missing">Nu s-a găsit niciun cont Google; se închide aplicația</string>
     <string name="google_account_needed">Trebuie să aveți cel puțin un cont Google configurat înainte de a putea utiliza această aplicație.</string>
-    <string name="google_docs_long">Documente Google</string>
-    <string name="google_docs_short">Documente</string>
     <string name="google_drive">Google Drive</string>
-    <string name="google_sheets_long">Foi de calcul Google</string>
-    <string name="google_sheets_short">Foi de calcul</string>
-    <string name="google_slides_long">Prezentări Google</string>
-    <string name="google_slides_short">Prezentări</string>
     <string name="grid_sync_download_label_format">"Se descarcă
 %1$s/%2$s"</string>
     <string name="grid_sync_upload_label_format">"Se încarcă
@@ -688,35 +635,24 @@ Toate fotografiile, videoclipurile, documentele și alte fișiere sunt la îndem
     <string name="label_password_incorrect">Parolă incorectă</string>
     <string name="label_zoom" formatted="false">z. de %1$d%</string>
     <string name="launch_drive">Lansați Drive pentru a prelua mai multe fișiere.</string>
-    <string name="launcher_scan_short">Scanați</string>
-    <string name="launcher_search_short">Căutați</string>
-    <string name="launcher_upload_short">Încărcați</string>
-    <string name="learn_more">AFLAȚI MAI MULTE</string>
-    <string name="libraries_material_featurehighlight_dismiss">Închideți</string>
     <string name="linksharing_saved">Setările de acces au fost salvate</string>
     <string name="loading">Se încarcă…</string>
     <string name="loading_document">Se încarcă documentul</string>
     <string name="loading_for_printing">Se încarcă documentul</string>
     <string name="loading_printers">Se încarcă imprimantele...</string>
     <string name="location_entry_content_description">Locație %1$s. Atingeți de două ori pentru a deschide</string>
-    <string name="location_entry_content_description_unclickable">Locație %1$s.</string>
-    <string name="location_removed_entry_content_description">Eliminat din %1$s. Atingeți de două ori pentru a deschide</string>
-    <string name="location_removed_entry_content_description_unclickable">Eliminat din %1$s.</string>
     <string name="manage_accounts">Gestionați conturile</string>
-    <string name="manage_backup">Gestionați backupurile</string>
+    <string name="manage_backup">Gestionați backupul</string>
+    <string name="manage_backup_page_title">Gestionați backupurile</string>
     <string name="manage_backup_summary">Lista de aplicații care au backup</string>
-    <string name="manage_members_default_members">În mod prestabilit, membrii pot edita, organiza și adăuga alți membri</string>
-    <string name="manage_members_dialog_title">Membrii %s</string>
     <string name="manifest_app_pdfviewer">Google PDF Viewer</string>
     <string name="manifest_app_projector">Projector</string>
     <string name="manifest_intent_view_pdf">PDF Viewer</string>
     <string name="manifest_intent_view_pdf_drive">Drive PDF Viewer</string>
     <string name="media_player_error">A apărut o eroare de redare</string>
     <string name="menu_account_settings">Setările contului</string>
-    <string name="menu_add_members">Adăugați membri</string>
-    <string name="menu_backup">Backupuri</string>
     <string name="menu_create_new_doc">Ad. unul</string>
-    <string name="menu_create_shortcut">Ad. la Ec. pornire</string>
+    <string name="menu_create_shortcut">Ad. la ec. porn.</string>
     <string name="menu_delete">Eliminați</string>
     <string name="menu_doc_view_grid_mode">Afișați ca grilă</string>
     <string name="menu_doc_view_list_mode">Afișați ca listă</string>
@@ -731,10 +667,7 @@ Toate fotografiile, videoclipurile, documentele și alte fișiere sunt la îndem
     <string name="menu_google_photos">Google Foto</string>
     <string name="menu_help">Ajutor</string>
     <string name="menu_help_and_feedback">Ajutor și feedback</string>
-    <string name="menu_item_manage_members">Gestionați membrii</string>
-    <string name="menu_item_use_advanced_permission">Utilizați permisiunea avansată</string>
     <string name="menu_learn_more">Aflați mai multe</string>
-    <string name="menu_manage_members">Gestionați membrii</string>
     <string name="menu_move_to">Mutați</string>
     <string name="menu_my_drive">Contul meu Drive</string>
     <string name="menu_navigation_devices">Dispozitive</string>
@@ -767,9 +700,10 @@ Toate fotografiile, videoclipurile, documentele și alte fișiere sunt la îndem
     <string name="menu_show_punch">Prezentări</string>
     <string name="menu_show_recent">Recente</string>
     <string name="menu_show_starred">Cu stea</string>
-    <string name="menu_show_team_drives">Drive-uri în echipă</string>
+    <string name="menu_show_team_drives">Drive pentru echipă</string>
     <string name="menu_show_trash">Coș de gunoi</string>
     <string name="menu_show_trix">Foi de calcul</string>
+    <string name="menu_show_upload">Încărcări</string>
     <string name="menu_sort_by">Sortați după</string>
     <string name="menu_sort_creation_time">Data creării</string>
     <string name="menu_sort_direction">Direcția de sortare</string>
@@ -783,36 +717,17 @@ Toate fotografiile, videoclipurile, documentele și alte fișiere sunt la îndem
     <string name="menu_trash_delete_forever">Ștergeți</string>
     <string name="menu_trash_restore">Restabiliți</string>
     <string name="menu_unpin">Elim. de pe disp.</string>
-    <string name="menu_view_members">Vedeți membrii</string>
     <string name="message_downloaded_file">%1$s s-a descărcat</string>
     <string name="message_match_status">%1$d din %2$d</string>
     <string name="message_no_matches_found">Nu s-au găsit potriviri.</string>
-    <string name="more_actions_content_description">Mai multe acțiuni</string>
-    <string name="more_info">Mai multe informații</string>
     <string name="more_string">+%1$d</string>
     <string name="move">Mutați</string>
-    <string name="move_confirm_dialog_message_cannot_undo">Aveți permisiune doar pentru a adăuga și a edita articole în „%1$s”, așa că nu veți putea anula această acțiune.</string>
-    <string name="move_confirm_dialog_message_lose_access_shared_folders">Mutați unele articole din dosare comune, așa că persoanele nu vor mai avea acces la aceste articole.</string>
-    <string name="move_confirm_dialog_message_lose_access_team_drives">Mutați unele elemente din Drive-urile în echipă, așa că persoanele nu vor mai avea acces la aceste articole.</string>
-    <string name="move_confirm_dialog_message_lose_access_team_drives_and_shared_folders">Mutați unele articole din Drive-uri în echipă și din dosare comune, așa că persoanele nu vor mai avea acces la aceste articole.</string>
     <string name="move_confirm_dialog_title">Confirmați mutarea</string>
-    <string name="move_confirm_dialog_title_cannot_undo">Nu puteți anula această acțiune</string>
-    <string name="move_confirm_dialog_title_lose_access">Unele persoane nu vor mai avea acces</string>
-    <string name="move_confirm_dialog_title_lose_access_single_td">„%1$s” nu va mai avea acces</string>
     <string name="move_confirm_dialog_title_unshare">Mutați din dosarul comun?</string>
     <string name="move_dialog_title">Selectați destinația</string>
-    <string name="move_error_cannot_move_in_folders">Dosarele nu pot fi mutate încă în Drive-urile în echipă.</string>
-    <string name="move_error_cannot_move_out_folders">Dosarele nu pot fi mutate încă din Drive-urile în echipă.</string>
-    <string name="move_error_no_permission_dest">Nu aveți permisiunea de a muta articole în „%1$s”</string>
     <string name="move_error_read_only_folder">Nu aveți permisiunea de a muta elemente în acest dosar.</string>
-    <string name="move_error_target_folder_not_exist">Dosarul țintă nu există.</string>
-    <string name="move_error_team_drive_items_not_supported_yet">Mutarea fișierelor nu este acceptată încă pentru Drive-urile în echipă.</string>
     <string name="move_multi_parent_file">Încercați să organizați un fișier care face parte din mai multe dosare. Accesați Drive de pe computerul dvs. pentru a organiza fișierul.</string>
     <string name="move_multi_parent_folder">Încercați să organizați un dosar care face parte din mai multe dosare. Accesați Drive de pe computerul dvs. pentru a organiza dosarul.</string>
-    <string name="move_notice_lost_access_shared_folders">Elementele au fost mutate din dosarele comune. Unele persoane nu mai au acces.</string>
-    <string name="move_notice_lost_access_team_drive_single">%1$s „%2$s” nu mai are acces.</string>
-    <string name="move_notice_lost_access_team_drives">Elementele au fost mutate din Drive-uri în echipă. Unele persoane nu mai au acces.</string>
-    <string name="move_notice_lost_access_team_drives_and_shared_folders">Au fost mutate elemente din Drive-uri în echipă și din dosare comune. Unele persoane nu mai au acces.</string>
     <string name="move_shared_to_shared">"Dacă mutați fișierul %1$s din dosarul comun %2$s, se va anula accesul pentru toți colaboratorii.
 
 Acesta va fi distribuit în dosarul %3$s."</string>
@@ -832,14 +747,10 @@ Acesta va fi distribuit în dosarul %3$s."</string>
     <string name="new_folder_title">Dosar nou</string>
     <string name="new_kix_title">Titlul documentului</string>
     <string name="new_punch_title">Titlul prezentării</string>
-    <string name="new_team_drive_title">Drive în echipă nou</string>
     <string name="new_trix_title">Titlul foii de calcul</string>
     <string name="no_account_for_upload_message">Conectați-vă sau creați un cont Google pentru a încărca fișiere în Drive.</string>
     <string name="no_account_for_upload_setup_account">Configurați contul</string>
     <string name="no_account_for_upload_title">Încărcați în Drive</string>
-    <string name="no_backup_help_card_button">SETĂRI PENTRU BACKUP</string>
-    <string name="no_backup_help_card_content">Activați funcția de backup automat ca să vă puteți restabili fișierele sau să schimbați telefonul în viitor.</string>
-    <string name="no_backup_help_card_title">Nu există backup pentru acest dispozitiv</string>
     <string name="notification_extra_text_is_too_long">Imposibil de încărcat. Textul este prea lung.</string>
     <string name="notification_feedback">Feedback</string>
     <string name="notification_help_card_content">Drive vă trimite notificare atunci când vi se permite accesul la fișiere, când cineva cere accesul la un fișier și pentru alte evenimente importante.</string>
@@ -848,6 +759,7 @@ Acesta va fi distribuit în dosarul %3$s."</string>
     <string name="notification_home_empty_title">Nu sunt notificări recente</string>
     <string name="notification_home_read">Citite</string>
     <string name="notification_home_unread">Necitite</string>
+    <string name="notification_message">Mesaj: %1$s</string>
     <string name="notification_setting_access_request_title">Notificări privind solicitările de acces</string>
     <string name="notification_setting_comment_title">Notificări privind comentariile</string>
     <string name="notification_setting_keep_on">Continuați</string>
@@ -871,44 +783,36 @@ Acesta va fi distribuit în dosarul %3$s."</string>
     <string name="notify_access_request_description_num_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_ITEMS_1,plural, =1{}few{A solicitat accesul la {NUM_ITEMS_2} articole}other{A solicitat accesul la {NUM_ITEMS_2} de articole}}}male{{NUM_ITEMS_1,plural, =1{}few{A solicitat accesul la {NUM_ITEMS_2} articole}other{A solicitat accesul la {NUM_ITEMS_2} de articole}}}other{{NUM_ITEMS_1,plural, =1{}few{A solicitat accesul la {NUM_ITEMS_2} articole}other{A solicitat accesul la {NUM_ITEMS_2} de articole}}}}}male{{SENDER_GENDER,select, female{{NUM_ITEMS_1,plural, =1{}few{A solicitat accesul la {NUM_ITEMS_2} articole}other{A solicitat accesul la {NUM_ITEMS_2} de articole}}}male{{NUM_ITEMS_1,plural, =1{}few{A solicitat accesul la {NUM_ITEMS_2} articole}other{A solicitat accesul la {NUM_ITEMS_2} de articole}}}other{{NUM_ITEMS_1,plural, =1{}few{A solicitat accesul la {NUM_ITEMS_2} articole}other{A solicitat accesul la {NUM_ITEMS_2} de articole}}}}}other{{SENDER_GENDER,select, female{{NUM_ITEMS_1,plural, =1{}few{A solicitat accesul la {NUM_ITEMS_2} articole}other{A solicitat accesul la {NUM_ITEMS_2} de articole}}}male{{NUM_ITEMS_1,plural, =1{}few{A solicitat accesul la {NUM_ITEMS_2} articole}other{A solicitat accesul la {NUM_ITEMS_2} de articole}}}other{{NUM_ITEMS_1,plural, =1{}few{A solicitat accesul la {NUM_ITEMS_2} articole}other{A solicitat accesul la {NUM_ITEMS_2} de articole}}}}}}</string>
     <string name="notify_comment_text_quoted">„%1$s”</string>
     <string name="notify_comment_text_suggestion_with_content_type">%1$s: %2$s</string>
-    <string name="notify_comment_text_with_content_type">%1$s: „%2$s”</string>
+    <string name="notify_comment_text_with_content_type">%1$s „%2$s”</string>
     <string name="notify_comments_description_many_comments_many_users_icu">{RECIPIENT_GENDER,select, female{Peste 99 de comentarii la „{ITEM_TITLE}”}male{Peste 99 de comentarii la „{ITEM_TITLE}”}other{Peste 99 de comentarii la „{ITEM_TITLE}”}}</string>
     <string name="notify_comments_description_many_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Peste 99 de comentarii la „{ITEM_TITLE}”}male{Peste 99 de comentarii la „{ITEM_TITLE}”}other{Peste 99 de comentarii la „{ITEM_TITLE}”}}}male{{SENDER_GENDER,select, female{Peste 99 de comentarii la „{ITEM_TITLE}”}male{Peste 99 de comentarii la „{ITEM_TITLE}”}other{Peste 99 de comentarii la „{ITEM_TITLE}”}}}other{{SENDER_GENDER,select, female{Peste 99 de comentarii la „{ITEM_TITLE}”}male{Peste 99 de comentarii la „{ITEM_TITLE}”}other{Peste 99 de comentarii la „{ITEM_TITLE}”}}}}</string>
+    <string name="notify_comments_description_many_items_many_users_icu">{RECIPIENT_GENDER,select, female{Peste 99 de comentarii și sugestii în „{ITEM_TITLE}”}male{Peste 99 de comentarii și sugestii în „{ITEM_TITLE}”}other{Peste 99 de comentarii și sugestii în „{ITEM_TITLE}”}}</string>
+    <string name="notify_comments_description_many_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Peste 99 de comentarii și sugestii în „{ITEM_TITLE}”}male{Peste 99 de comentarii și sugestii în „{ITEM_TITLE}”}other{Peste 99 de comentarii și sugestii în „{ITEM_TITLE}”}}}male{{SENDER_GENDER,select, female{Peste 99 de comentarii și sugestii în „{ITEM_TITLE}”}male{Peste 99 de comentarii și sugestii în „{ITEM_TITLE}”}other{Peste 99 de comentarii și sugestii în „{ITEM_TITLE}”}}}other{{SENDER_GENDER,select, female{Peste 99 de comentarii și sugestii în „{ITEM_TITLE}”}male{Peste 99 de comentarii și sugestii în „{ITEM_TITLE}”}other{Peste 99 de comentarii și sugestii în „{ITEM_TITLE}”}}}}</string>
     <string name="notify_comments_description_many_suggestions_many_users_icu">{RECIPIENT_GENDER,select, female{Peste 99 de sugestii în „{ITEM_TITLE}”}male{Peste 99 de sugestii în „{ITEM_TITLE}”}other{Peste 99 de sugestii în „{ITEM_TITLE}”}}</string>
     <string name="notify_comments_description_many_suggestions_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Peste 99 de sugestii în „{ITEM_TITLE}”}male{Peste 99 de sugestii în „{ITEM_TITLE}”}other{Peste 99 de sugestii în „{ITEM_TITLE}”}}}male{{SENDER_GENDER,select, female{Peste 99 de sugestii în „{ITEM_TITLE}”}male{Peste 99 de sugestii în „{ITEM_TITLE}”}other{Peste 99 de sugestii în „{ITEM_TITLE}”}}}other{{SENDER_GENDER,select, female{Peste 99 de sugestii în „{ITEM_TITLE}”}male{Peste 99 de sugestii în „{ITEM_TITLE}”}other{Peste 99 de sugestii în „{ITEM_TITLE}”}}}}</string>
-    <string name="notify_comments_description_many_todos_many_users_icu">{RECIPIENT_GENDER,select, female{Peste 99 de acțiuni în „{ITEM_TITLE}”}male{Peste 99 de acțiuni în „{ITEM_TITLE}”}other{Peste 99 de acțiuni în „{ITEM_TITLE}”}}</string>
-    <string name="notify_comments_description_many_todos_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Peste 99 de acțiuni în „{ITEM_TITLE}”}male{Peste 99 de acțiuni în „{ITEM_TITLE}”}other{Peste 99 de acțiuni în „{ITEM_TITLE}”}}}male{{SENDER_GENDER,select, female{Peste 99 de acțiuni în „{ITEM_TITLE}”}male{Peste 99 de acțiuni în „{ITEM_TITLE}”}other{Peste 99 de acțiuni în „{ITEM_TITLE}”}}}other{{SENDER_GENDER,select, female{Peste 99 de acțiuni în „{ITEM_TITLE}”}male{Peste 99 de acțiuni în „{ITEM_TITLE}”}other{Peste 99 de acțiuni în „{ITEM_TITLE}”}}}}</string>
-    <string name="notify_comments_description_num_comments_many_users_icu">{RECIPIENT_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} comentarii la „{ITEM_TITLE}”}other{{TOTAL_ITEMS_2} de comentarii la „{ITEM_TITLE}”}}}male{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} comentarii la „{ITEM_TITLE}”}other{{TOTAL_ITEMS_2} de comentarii la „{ITEM_TITLE}”}}}other{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} comentarii la „{ITEM_TITLE}”}other{{TOTAL_ITEMS_2} de comentarii la „{ITEM_TITLE}”}}}}</string>
-    <string name="notify_comments_description_num_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} comentarii la „{ITEM_TITLE}”}other{{TOTAL_ITEMS_2} de comentarii la „{ITEM_TITLE}”}}}male{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} comentarii la „{ITEM_TITLE}”}other{{TOTAL_ITEMS_2} de comentarii la „{ITEM_TITLE}”}}}other{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} comentarii la „{ITEM_TITLE}”}other{{TOTAL_ITEMS_2} de comentarii la „{ITEM_TITLE}”}}}}}male{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} comentarii la „{ITEM_TITLE}”}other{{TOTAL_ITEMS_2} de comentarii la „{ITEM_TITLE}”}}}male{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} comentarii la „{ITEM_TITLE}”}other{{TOTAL_ITEMS_2} de comentarii la „{ITEM_TITLE}”}}}other{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} comentarii la „{ITEM_TITLE}”}other{{TOTAL_ITEMS_2} de comentarii la „{ITEM_TITLE}”}}}}}other{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} comentarii la „{ITEM_TITLE}”}other{{TOTAL_ITEMS_2} de comentarii la „{ITEM_TITLE}”}}}male{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} comentarii la „{ITEM_TITLE}”}other{{TOTAL_ITEMS_2} de comentarii la „{ITEM_TITLE}”}}}other{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} comentarii la „{ITEM_TITLE}”}other{{TOTAL_ITEMS_2} de comentarii la „{ITEM_TITLE}”}}}}}}</string>
+    <string name="notify_comments_description_num_comments_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} comentarii la „{ITEM_TITLE}”}other{{NUM_COMMENTS_2} de comentarii la „{ITEM_TITLE}”}}}male{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} comentarii la „{ITEM_TITLE}”}other{{NUM_COMMENTS_2} de comentarii la „{ITEM_TITLE}”}}}other{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} comentarii la „{ITEM_TITLE}”}other{{NUM_COMMENTS_2} de comentarii la „{ITEM_TITLE}”}}}}</string>
+    <string name="notify_comments_description_num_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} comentarii la „{ITEM_TITLE}”}other{{NUM_COMMENTS_2} de comentarii la „{ITEM_TITLE}”}}}male{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} comentarii la „{ITEM_TITLE}”}other{{NUM_COMMENTS_2} de comentarii la „{ITEM_TITLE}”}}}other{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} comentarii la „{ITEM_TITLE}”}other{{NUM_COMMENTS_2} de comentarii la „{ITEM_TITLE}”}}}}}male{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} comentarii la „{ITEM_TITLE}”}other{{NUM_COMMENTS_2} de comentarii la „{ITEM_TITLE}”}}}male{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} comentarii la „{ITEM_TITLE}”}other{{NUM_COMMENTS_2} de comentarii la „{ITEM_TITLE}”}}}other{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} comentarii la „{ITEM_TITLE}”}other{{NUM_COMMENTS_2} de comentarii la „{ITEM_TITLE}”}}}}}other{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} comentarii la „{ITEM_TITLE}”}other{{NUM_COMMENTS_2} de comentarii la „{ITEM_TITLE}”}}}male{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} comentarii la „{ITEM_TITLE}”}other{{NUM_COMMENTS_2} de comentarii la „{ITEM_TITLE}”}}}other{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} comentarii la „{ITEM_TITLE}”}other{{NUM_COMMENTS_2} de comentarii la „{ITEM_TITLE}”}}}}}}</string>
+    <string name="notify_comments_description_num_items_many_users_icu">{RECIPIENT_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} comentarii și sugestii în „{ITEM_TITLE}”}other{{TOTAL_ITEMS_2} de comentarii și sugestii în „{ITEM_TITLE}”}}}male{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} comentarii și sugestii în „{ITEM_TITLE}”}other{{TOTAL_ITEMS_2} de comentarii și sugestii în „{ITEM_TITLE}”}}}other{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} comentarii și sugestii în „{ITEM_TITLE}”}other{{TOTAL_ITEMS_2} de comentarii și sugestii în „{ITEM_TITLE}”}}}}</string>
+    <string name="notify_comments_description_num_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} comentarii și sugestii în „{ITEM_TITLE}”}other{{TOTAL_ITEMS_2} de comentarii și sugestii în „{ITEM_TITLE}”}}}male{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} comentarii și sugestii în „{ITEM_TITLE}”}other{{TOTAL_ITEMS_2} de comentarii și sugestii în „{ITEM_TITLE}”}}}other{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} comentarii și sugestii în „{ITEM_TITLE}”}other{{TOTAL_ITEMS_2} de comentarii și sugestii în „{ITEM_TITLE}”}}}}}male{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} comentarii și sugestii în „{ITEM_TITLE}”}other{{TOTAL_ITEMS_2} de comentarii și sugestii în „{ITEM_TITLE}”}}}male{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} comentarii și sugestii în „{ITEM_TITLE}”}other{{TOTAL_ITEMS_2} de comentarii și sugestii în „{ITEM_TITLE}”}}}other{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} comentarii și sugestii în „{ITEM_TITLE}”}other{{TOTAL_ITEMS_2} de comentarii și sugestii în „{ITEM_TITLE}”}}}}}other{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} comentarii și sugestii în „{ITEM_TITLE}”}other{{TOTAL_ITEMS_2} de comentarii și sugestii în „{ITEM_TITLE}”}}}male{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} comentarii și sugestii în „{ITEM_TITLE}”}other{{TOTAL_ITEMS_2} de comentarii și sugestii în „{ITEM_TITLE}”}}}other{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} comentarii și sugestii în „{ITEM_TITLE}”}other{{TOTAL_ITEMS_2} de comentarii și sugestii în „{ITEM_TITLE}”}}}}}}</string>
     <string name="notify_comments_description_num_suggestions_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} sugestii în „{ITEM_TITLE}”}other{{NUM_SUGGESTIONS_2} de sugestii în „{ITEM_TITLE}”}}}male{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} sugestii în „{ITEM_TITLE}”}other{{NUM_SUGGESTIONS_2} de sugestii în „{ITEM_TITLE}”}}}other{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} sugestii în „{ITEM_TITLE}”}other{{NUM_SUGGESTIONS_2} de sugestii în „{ITEM_TITLE}”}}}}</string>
     <string name="notify_comments_description_num_suggestions_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} sugestii în „{ITEM_TITLE}”}other{{NUM_SUGGESTIONS_2} de sugestii în „{ITEM_TITLE}”}}}male{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} sugestii în „{ITEM_TITLE}”}other{{NUM_SUGGESTIONS_2} de sugestii în „{ITEM_TITLE}”}}}other{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} sugestii în „{ITEM_TITLE}”}other{{NUM_SUGGESTIONS_2} de sugestii în „{ITEM_TITLE}”}}}}}male{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} sugestii în „{ITEM_TITLE}”}other{{NUM_SUGGESTIONS_2} de sugestii în „{ITEM_TITLE}”}}}male{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} sugestii în „{ITEM_TITLE}”}other{{NUM_SUGGESTIONS_2} de sugestii în „{ITEM_TITLE}”}}}other{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} sugestii în „{ITEM_TITLE}”}other{{NUM_SUGGESTIONS_2} de sugestii în „{ITEM_TITLE}”}}}}}other{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} sugestii în „{ITEM_TITLE}”}other{{NUM_SUGGESTIONS_2} de sugestii în „{ITEM_TITLE}”}}}male{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} sugestii în „{ITEM_TITLE}”}other{{NUM_SUGGESTIONS_2} de sugestii în „{ITEM_TITLE}”}}}other{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} sugestii în „{ITEM_TITLE}”}other{{NUM_SUGGESTIONS_2} de sugestii în „{ITEM_TITLE}”}}}}}}</string>
-    <string name="notify_comments_description_num_todos_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} acțiuni în „{ITEM_TITLE}”}other{{NUM_TODOS_2} de acțiuni în „{ITEM_TITLE}”}}}male{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} acțiuni în „{ITEM_TITLE}”}other{{NUM_TODOS_2} de acțiuni în „{ITEM_TITLE}”}}}other{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} acțiuni în „{ITEM_TITLE}”}other{{NUM_TODOS_2} de acțiuni în „{ITEM_TITLE}”}}}}</string>
-    <string name="notify_comments_description_num_todos_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} acțiuni în „{ITEM_TITLE}”}other{{NUM_TODOS_2} de acțiuni în „{ITEM_TITLE}”}}}male{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} acțiuni în „{ITEM_TITLE}”}other{{NUM_TODOS_2} de acțiuni în „{ITEM_TITLE}”}}}other{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} acțiuni în „{ITEM_TITLE}”}other{{NUM_TODOS_2} de acțiuni în „{ITEM_TITLE}”}}}}}male{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} acțiuni în „{ITEM_TITLE}”}other{{NUM_TODOS_2} de acțiuni în „{ITEM_TITLE}”}}}male{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} acțiuni în „{ITEM_TITLE}”}other{{NUM_TODOS_2} de acțiuni în „{ITEM_TITLE}”}}}other{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} acțiuni în „{ITEM_TITLE}”}other{{NUM_TODOS_2} de acțiuni în „{ITEM_TITLE}”}}}}}other{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} acțiuni în „{ITEM_TITLE}”}other{{NUM_TODOS_2} de acțiuni în „{ITEM_TITLE}”}}}male{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} acțiuni în „{ITEM_TITLE}”}other{{NUM_TODOS_2} de acțiuni în „{ITEM_TITLE}”}}}other{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} acțiuni în „{ITEM_TITLE}”}other{{NUM_TODOS_2} de acțiuni în „{ITEM_TITLE}”}}}}}}</string>
-    <string name="notify_comments_description_only_one_assign_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Atribuită către {ASSIGNEE} în „{ITEM_TITLE}”}male{Atribuită către {ASSIGNEE} în „{ITEM_TITLE}”}other{Atribuită către {ASSIGNEE} în „{ITEM_TITLE}”}}}male{{SENDER_GENDER,select, female{Atribuită către {ASSIGNEE} în „{ITEM_TITLE}”}male{Atribuită către {ASSIGNEE} în „{ITEM_TITLE}”}other{Atribuită către {ASSIGNEE} în „{ITEM_TITLE}”}}}other{{SENDER_GENDER,select, female{Atribuită către {ASSIGNEE} în „{ITEM_TITLE}”}male{Atribuită către {ASSIGNEE} în „{ITEM_TITLE}”}other{Atribuită către {ASSIGNEE} în „{ITEM_TITLE}”}}}}</string>
-    <string name="notify_comments_description_only_one_assign_to_you_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Atribuită dvs. în „{ITEM_TITLE}”}male{Atribuită dvs. în „{ITEM_TITLE}”}other{Atribuită dvs. în „{ITEM_TITLE}”}}}male{{SENDER_GENDER,select, female{Atribuită dvs. în „{ITEM_TITLE}”}male{Atribuită dvs. în „{ITEM_TITLE}”}other{Atribuită dvs. în „{ITEM_TITLE}”}}}other{{SENDER_GENDER,select, female{Atribuită dvs. în „{ITEM_TITLE}”}male{Atribuită dvs. în „{ITEM_TITLE}”}other{Atribuită dvs. în „{ITEM_TITLE}”}}}}</string>
     <string name="notify_comments_description_only_one_comment_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A comentat la „{ITEM_TITLE}”}male{A comentat la „{ITEM_TITLE}”}other{A comentat la „{ITEM_TITLE}”}}}male{{SENDER_GENDER,select, female{A comentat la „{ITEM_TITLE}”}male{A comentat la „{ITEM_TITLE}”}other{A comentat la „{ITEM_TITLE}”}}}other{{SENDER_GENDER,select, female{A comentat la „{ITEM_TITLE}”}male{A comentat la „{ITEM_TITLE}”}other{A comentat la „{ITEM_TITLE}”}}}}</string>
     <string name="notify_comments_description_only_one_mention_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{V-a menționat în „{ITEM_TITLE}”}male{V-a menționat în „{ITEM_TITLE}”}other{V-a menționat în „{ITEM_TITLE}”}}}male{{SENDER_GENDER,select, female{V-a menționat în „{ITEM_TITLE}”}male{V-a menționat în „{ITEM_TITLE}”}other{V-a menționat în „{ITEM_TITLE}”}}}other{{SENDER_GENDER,select, female{V-a menționat în „{ITEM_TITLE}”}male{V-a menționat în „{ITEM_TITLE}”}other{V-a menționat în „{ITEM_TITLE}”}}}}</string>
-    <string name="notify_comments_description_only_one_reassign_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Reatribuită către {ASSIGNEE} în „{ITEM_TITLE}”}male{Reatribuită către {ASSIGNEE} în „{ITEM_TITLE}”}other{Reatribuită către {ASSIGNEE} în „{ITEM_TITLE}”}}}male{{SENDER_GENDER,select, female{Reatribuită către {ASSIGNEE} în „{ITEM_TITLE}”}male{Reatribuită către {ASSIGNEE} în „{ITEM_TITLE}”}other{Reatribuită către {ASSIGNEE} în „{ITEM_TITLE}”}}}other{{SENDER_GENDER,select, female{Reatribuită către {ASSIGNEE} în „{ITEM_TITLE}”}male{Reatribuită către {ASSIGNEE} în „{ITEM_TITLE}”}other{Reatribuită către {ASSIGNEE} în „{ITEM_TITLE}”}}}}</string>
-    <string name="notify_comments_description_only_one_reassign_to_you_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Reatribuită dvs. în „{ITEM_TITLE}”}male{Reatribuită dvs. în „{ITEM_TITLE}”}other{Reatribuită dvs. în „{ITEM_TITLE}”}}}male{{SENDER_GENDER,select, female{Reatribuită dvs. în „{ITEM_TITLE}”}male{Reatribuită dvs. în „{ITEM_TITLE}”}other{Reatribuită dvs. în „{ITEM_TITLE}”}}}other{{SENDER_GENDER,select, female{Reatribuită dvs. în „{ITEM_TITLE}”}male{Reatribuită dvs. în „{ITEM_TITLE}”}other{Reatribuită dvs. în „{ITEM_TITLE}”}}}}</string>
     <string name="notify_comments_description_only_one_suggestion_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A sugerat o schimbare în „{ITEM_TITLE}”}male{A sugerat o schimbare în „{ITEM_TITLE}”}other{A sugerat o schimbare în „{ITEM_TITLE}”}}}male{{SENDER_GENDER,select, female{A sugerat o schimbare în „{ITEM_TITLE}”}male{A sugerat o schimbare în „{ITEM_TITLE}”}other{A sugerat o schimbare în „{ITEM_TITLE}”}}}other{{SENDER_GENDER,select, female{A sugerat o schimbare în „{ITEM_TITLE}”}male{A sugerat o schimbare în „{ITEM_TITLE}”}other{A sugerat o schimbare în „{ITEM_TITLE}”}}}}</string>
     <string name="notify_comments_description_short_many_comments_many_users_icu">{RECIPIENT_GENDER,select, female{Au adăugat peste 99 de comentarii}male{Au adăugat peste 99 de comentarii}other{Au adăugat peste 99 de comentarii}}</string>
     <string name="notify_comments_description_short_many_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A adăugat peste 99 de comentarii}male{A adăugat peste 99 de comentarii}other{A adăugat peste 99 de comentarii}}}male{{SENDER_GENDER,select, female{A adăugat peste 99 de comentarii}male{A adăugat peste 99 de comentarii}other{A adăugat peste 99 de comentarii}}}other{{SENDER_GENDER,select, female{A adăugat peste 99 de comentarii}male{A adăugat peste 99 de comentarii}other{A adăugat peste 99 de comentarii}}}}</string>
+    <string name="notify_comments_description_short_many_items_many_users_icu">{RECIPIENT_GENDER,select, female{Au adăugat peste 99 de sugestii și sugestii}male{Au adăugat peste 99 de sugestii și sugestii}other{Au adăugat peste 99 de sugestii și sugestii}}</string>
+    <string name="notify_comments_description_short_many_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A adăugat peste 99 de comentarii și sugestii}male{A adăugat peste 99 de comentarii și sugestii}other{A adăugat peste 99 de comentarii și sugestii}}}male{{SENDER_GENDER,select, female{A adăugat peste 99 de comentarii și sugestii}male{A adăugat peste 99 de comentarii și sugestii}other{A adăugat peste 99 de comentarii și sugestii}}}other{{SENDER_GENDER,select, female{A adăugat peste 99 de comentarii și sugestii}male{A adăugat peste 99 de comentarii și sugestii}other{A adăugat peste 99 de comentarii și sugestii}}}}</string>
     <string name="notify_comments_description_short_many_suggestions_many_users_icu">{RECIPIENT_GENDER,select, female{Au adăugat peste 99 de sugestii}male{Au adăugat peste 99 de sugestii}other{Au adăugat peste 99 de sugestii}}</string>
     <string name="notify_comments_description_short_many_suggestions_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A adăugat peste 99 de sugestii}male{A adăugat peste 99 de sugestii}other{A adăugat peste 99 de sugestii}}}male{{SENDER_GENDER,select, female{A adăugat peste 99 de sugestii}male{A adăugat peste 99 de sugestii}other{A adăugat peste 99 de sugestii}}}other{{SENDER_GENDER,select, female{A adăugat peste 99 de sugestii}male{A adăugat peste 99 de sugestii}other{A adăugat peste 99 de sugestii}}}}</string>
-    <string name="notify_comments_description_short_many_todos_many_users_icu">{RECIPIENT_GENDER,select, female{Au adăugat peste 99 de acțiuni}male{Au adăugat peste 99 de acțiuni}other{Au adăugat peste 99 de acțiuni}}</string>
-    <string name="notify_comments_description_short_many_todos_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A adăugat peste 99 de acțiuni}male{A adăugat peste 99 de acțiuni}other{A adăugat peste 99 de acțiuni}}}male{{SENDER_GENDER,select, female{A adăugat peste 99 de acțiuni}male{A adăugat peste 99 de acțiuni}other{A adăugat peste 99 de acțiuni}}}other{{SENDER_GENDER,select, female{A adăugat peste 99 de acțiuni}male{A adăugat peste 99 de acțiuni}other{A adăugat peste 99 de acțiuni}}}}</string>
-    <string name="notify_comments_description_short_num_comments_many_users_icu">{RECIPIENT_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{Au adăugat {TOTAL_ITEMS_2} comentarii}other{Au adăugat {TOTAL_ITEMS_2} de comentarii}}}male{{TOTAL_ITEMS_1,plural, =1{}few{Au adăugat {TOTAL_ITEMS_2} comentarii}other{Au adăugat {TOTAL_ITEMS_2} comentarii}}}other{{TOTAL_ITEMS_1,plural, =1{}few{Au adăugat {TOTAL_ITEMS_2} comentarii}other{Au adăugat {TOTAL_ITEMS_2} de comentarii}}}}</string>
-    <string name="notify_comments_description_short_num_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{A adăugat {TOTAL_ITEMS_2} comentarii}other{A adăugat {TOTAL_ITEMS_2} de comentarii}}}male{{TOTAL_ITEMS_1,plural, =1{}few{A adăugat {TOTAL_ITEMS_2} comentarii}other{A adăugat {TOTAL_ITEMS_2} de comentarii}}}other{{TOTAL_ITEMS_1,plural, =1{}few{A adăugat {TOTAL_ITEMS_2} comentarii}other{A adăugat {TOTAL_ITEMS_2} de comentarii}}}}}male{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{A adăugat {TOTAL_ITEMS_2} comentarii}other{A adăugat {TOTAL_ITEMS_2} de comentarii}}}male{{TOTAL_ITEMS_1,plural, =1{}few{A adăugat {TOTAL_ITEMS_2} comentarii}other{A adăugat {TOTAL_ITEMS_2} de comentarii}}}other{{TOTAL_ITEMS_1,plural, =1{}few{A adăugat {TOTAL_ITEMS_2} comentarii}other{A adăugat {TOTAL_ITEMS_2} de comentarii}}}}}other{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{A adăugat {TOTAL_ITEMS_2} comentarii}other{A adăugat {TOTAL_ITEMS_2} de comentarii}}}male{{TOTAL_ITEMS_1,plural, =1{}few{A adăugat {TOTAL_ITEMS_2} comentarii}other{A adăugat {TOTAL_ITEMS_2} de comentarii}}}other{{TOTAL_ITEMS_1,plural, =1{}few{A adăugat {TOTAL_ITEMS_2} comentarii}other{A adăugat {TOTAL_ITEMS_2} de comentarii}}}}}}</string>
+    <string name="notify_comments_description_short_num_comments_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}few{Au adăugat {NUM_COMMENTS_2} comentarii}other{Au adăugat {NUM_COMMENTS_2} de comentarii}}}male{{NUM_COMMENTS_1,plural, =1{}few{Au adăugat {NUM_COMMENTS_2} comentarii}other{Au adăugat {NUM_COMMENTS_2} de comentarii}}}other{{NUM_COMMENTS_1,plural, =1{}few{Au adăugat {NUM_COMMENTS_2} comentarii}other{Au adăugat {NUM_COMMENTS_2} de comentarii}}}}</string>
+    <string name="notify_comments_description_short_num_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}few{A adăugat {NUM_COMMENTS_2} comentarii}other{A adăugat {NUM_COMMENTS_2} de comentarii}}}male{{NUM_COMMENTS_1,plural, =1{}few{A adăugat {NUM_COMMENTS_2} comentarii}other{A adăugat {NUM_COMMENTS_2} de comentarii}}}other{{NUM_COMMENTS_1,plural, =1{}few{A adăugat {NUM_COMMENTS_2} comentarii}other{A adăugat {NUM_COMMENTS_2} de comentarii}}}}}male{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}few{A adăugat {NUM_COMMENTS_2} comentarii}other{A adăugat {NUM_COMMENTS_2} de comentarii}}}male{{NUM_COMMENTS_1,plural, =1{}few{A adăugat {NUM_COMMENTS_2} comentarii}other{A adăugat {NUM_COMMENTS_2} de comentarii}}}other{{NUM_COMMENTS_1,plural, =1{}few{A adăugat {NUM_COMMENTS_2} comentarii}other{A adăugat {NUM_COMMENTS_2} de comentarii}}}}}other{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}few{A adăugat {NUM_COMMENTS_2} comentarii}other{A adăugat {NUM_COMMENTS_2} de comentarii}}}male{{NUM_COMMENTS_1,plural, =1{}few{A adăugat {NUM_COMMENTS_2} comentarii}other{A adăugat {NUM_COMMENTS_2} de comentarii}}}other{{NUM_COMMENTS_1,plural, =1{}few{A adăugat {NUM_COMMENTS_2} comentarii}other{A adăugat {NUM_COMMENTS_2} de comentarii}}}}}}</string>
+    <string name="notify_comments_description_short_num_items_many_users_icu">{RECIPIENT_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{Au adăugat {TOTAL_ITEMS_2} comentarii și sugestii}other{Au adăugat {TOTAL_ITEMS_2} de comentarii și sugestii}}}male{{TOTAL_ITEMS_1,plural, =1{}few{Au adăugat {TOTAL_ITEMS_2} comentarii și sugestii}other{Au adăugat {TOTAL_ITEMS_2} de comentarii și sugestii}}}other{{TOTAL_ITEMS_1,plural, =1{}few{Au adăugat {TOTAL_ITEMS_2} comentarii și sugestii}other{Au adăugat {TOTAL_ITEMS_2} de comentarii și sugestii}}}}</string>
+    <string name="notify_comments_description_short_num_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{A adăugat {TOTAL_ITEMS_2} comentarii și sugestii}other{A adăugat {TOTAL_ITEMS_2} de comentarii și sugestii}}}male{{TOTAL_ITEMS_1,plural, =1{}few{A adăugat {TOTAL_ITEMS_2} comentarii și sugestii}other{A adăugat {TOTAL_ITEMS_2} de comentarii și sugestii}}}other{{TOTAL_ITEMS_1,plural, =1{}few{A adăugat {TOTAL_ITEMS_2} comentarii și sugestii}other{A adăugat {TOTAL_ITEMS_2} de comentarii și sugestii}}}}}male{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{A adăugat {TOTAL_ITEMS_2} comentarii și sugestii}other{A adăugat {TOTAL_ITEMS_2} de comentarii și sugestii}}}male{{TOTAL_ITEMS_1,plural, =1{}few{A adăugat {TOTAL_ITEMS_2} comentarii și sugestii}other{A adăugat {TOTAL_ITEMS_2} de comentarii și sugestii}}}other{{TOTAL_ITEMS_1,plural, =1{}few{A adăugat {TOTAL_ITEMS_2} comentarii și sugestii}other{A adăugat {TOTAL_ITEMS_2} de comentarii și sugestii}}}}}other{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{A adăugat {TOTAL_ITEMS_2} comentarii și sugestii}other{A adăugat {TOTAL_ITEMS_2} de comentarii și sugestii}}}male{{TOTAL_ITEMS_1,plural, =1{}few{A adăugat {TOTAL_ITEMS_2} comentarii și sugestii}other{A adăugat {TOTAL_ITEMS_2} de comentarii și sugestii}}}other{{TOTAL_ITEMS_1,plural, =1{}few{A adăugat {TOTAL_ITEMS_2} comentarii și sugestii}other{A adăugat {TOTAL_ITEMS_2} de comentarii și sugestii}}}}}}</string>
     <string name="notify_comments_description_short_num_suggestions_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}few{Au sugerat {NUM_SUGGESTIONS_2} schimbări}other{Au sugerat {NUM_SUGGESTIONS_2} de schimbări}}}male{{NUM_SUGGESTIONS_1,plural, =1{}few{Au sugerat {NUM_SUGGESTIONS_2} schimbări}other{Au sugerat {NUM_SUGGESTIONS_2} de schimbări}}}other{{NUM_SUGGESTIONS_1,plural, =1{}few{Au sugerat {NUM_SUGGESTIONS_2} schimbări}other{Au sugerat {NUM_SUGGESTIONS_2} de schimbări}}}}</string>
     <string name="notify_comments_description_short_num_suggestions_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}few{A adăugat {NUM_SUGGESTIONS_2} sugestii}other{A adăugat {NUM_SUGGESTIONS_2} de sugestii}}}male{{NUM_SUGGESTIONS_1,plural, =1{}few{A adăugat {NUM_SUGGESTIONS_2} sugestii}other{A adăugat {NUM_SUGGESTIONS_2} de sugestii}}}other{{NUM_SUGGESTIONS_1,plural, =1{}few{A adăugat {NUM_SUGGESTIONS_2} sugestii}other{A adăugat {NUM_SUGGESTIONS_2} de sugestii}}}}}male{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}few{A adăugat {NUM_SUGGESTIONS_2} sugestii}other{A adăugat {NUM_SUGGESTIONS_2} de sugestii}}}male{{NUM_SUGGESTIONS_1,plural, =1{}few{A adăugat {NUM_SUGGESTIONS_2} sugestii}other{A adăugat {NUM_SUGGESTIONS_2} de sugestii}}}other{{NUM_SUGGESTIONS_1,plural, =1{}few{A adăugat {NUM_SUGGESTIONS_2} sugestii}other{A adăugat {NUM_SUGGESTIONS_2} de sugestii}}}}}other{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}few{A adăugat {NUM_SUGGESTIONS_2} sugestii}other{A adăugat {NUM_SUGGESTIONS_2} de sugestii}}}male{{NUM_SUGGESTIONS_1,plural, =1{}few{A adăugat {NUM_SUGGESTIONS_2} sugestii}other{A adăugat {NUM_SUGGESTIONS_2} de sugestii}}}other{{NUM_SUGGESTIONS_1,plural, =1{}few{A adăugat {NUM_SUGGESTIONS_2} sugestii}other{A adăugat {NUM_SUGGESTIONS_2} de sugestii}}}}}}</string>
-    <string name="notify_comments_description_short_num_todos_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_TODOS_1,plural, =1{}few{Au adăugat {NUM_TODOS_2} acțiuni}other{Au adăugat {NUM_TODOS_2} de acțiuni}}}male{{NUM_TODOS_1,plural, =1{}few{Au adăugat {NUM_TODOS_2} acțiuni}other{Au adăugat {NUM_TODOS_2} de acțiuni}}}other{{NUM_TODOS_1,plural, =1{}few{Au adăugat {NUM_TODOS_2} acțiuni}other{Au adăugat {NUM_TODOS_2} de acțiuni}}}}</string>
-    <string name="notify_comments_description_short_num_todos_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}few{A adăugat {NUM_TODOS_2} acțiuni}other{A adăugat {NUM_TODOS_2} de acțiuni}}}male{{NUM_TODOS_1,plural, =1{}few{A adăugat {NUM_TODOS_2} acțiuni}other{A adăugat {NUM_TODOS_2} de acțiuni}}}other{{NUM_TODOS_1,plural, =1{}few{A adăugat {NUM_TODOS_2} acțiuni}other{A adăugat {NUM_TODOS_2} de acțiuni}}}}}male{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}few{A adăugat {NUM_TODOS_2} acțiuni}other{A adăugat {NUM_TODOS_2} de acțiuni}}}male{{NUM_TODOS_1,plural, =1{}few{A adăugat {NUM_TODOS_2} acțiuni}other{A adăugat {NUM_TODOS_2} de acțiuni}}}other{{NUM_TODOS_1,plural, =1{}few{A adăugat {NUM_TODOS_2} acțiuni}other{A adăugat {NUM_TODOS_2} de acțiuni}}}}}other{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}few{A adăugat {NUM_TODOS_2} acțiuni}other{A adăugat {NUM_TODOS_2} de acțiuni}}}male{{NUM_TODOS_1,plural, =1{}few{A adăugat {NUM_TODOS_2} acțiuni}other{A adăugat {NUM_TODOS_2} de acțiuni}}}other{{NUM_TODOS_1,plural, =1{}few{A adăugat {NUM_TODOS_2} acțiuni}other{A adăugat {NUM_TODOS_2} de acțiuni}}}}}}</string>
-    <string name="notify_comments_description_short_only_one_assign_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A atribuit către {ASSIGNEE}}male{A atribuit către {ASSIGNEE}}other{A atribuit către {ASSIGNEE}}}}male{{SENDER_GENDER,select, female{A atribuit către {ASSIGNEE}}male{A atribuit către {ASSIGNEE}}other{A atribuit către {ASSIGNEE}}}}other{{SENDER_GENDER,select, female{A atribuit către {ASSIGNEE}}male{A atribuit către {ASSIGNEE}}other{A atribuit către {ASSIGNEE}}}}}</string>
-    <string name="notify_comments_description_short_only_one_assign_to_you_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{V-a atribuit dvs. acțiunea}male{V-a atribuit dvs. acțiunea}other{V-a atribuit dvs. acțiunea}}}male{{SENDER_GENDER,select, female{V-a atribuit dvs. acțiunea}male{V-a atribuit dvs. acțiunea}other{V-a atribuit dvs. acțiunea}}}other{{SENDER_GENDER,select, female{V-a atribuit dvs. acțiunea}male{V-a atribuit dvs. acțiunea}other{V-a atribuit dvs. acțiunea}}}}</string>
     <string name="notify_comments_description_short_only_one_comment_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A adăugat un comentariu}male{A adăugat un comentariu}other{A adăugat un comentariu}}}male{{SENDER_GENDER,select, female{A adăugat un comentariu}male{A adăugat un comentariu}other{A adăugat un comentariu}}}other{{SENDER_GENDER,select, female{A adăugat un comentariu}male{A adăugat un comentariu}other{A adăugat un comentariu}}}}</string>
     <string name="notify_comments_description_short_only_one_mention_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{V-a menționat}male{V-a menționat}other{V-a menționat}}}male{{SENDER_GENDER,select, female{V-a menționat}male{V-a menționat}other{V-a menționat}}}other{{SENDER_GENDER,select, female{V-a menționat}male{V-a menționat}other{V-a menționat}}}}</string>
-    <string name="notify_comments_description_short_only_one_reassign_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A realocat către {ASSIGNEE}}male{A realocat către {ASSIGNEE}}other{A realocat către {ASSIGNEE}}}}male{{SENDER_GENDER,select, female{A realocat către {ASSIGNEE}}male{A realocat către {ASSIGNEE}}other{A realocat către {ASSIGNEE}}}}other{{SENDER_GENDER,select, female{A realocat către {ASSIGNEE}}male{A realocat către {ASSIGNEE}}other{A realocat către {ASSIGNEE}}}}}</string>
-    <string name="notify_comments_description_short_only_one_reassign_to_you_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{V-a reatribuit dvs. acțiunea}male{V-a reatribuit dvs. acțiunea}other{V-a reatribuit dvs. acțiunea}}}male{{SENDER_GENDER,select, female{V-a reatribuit dvs. acțiunea}male{V-a reatribuit dvs. acțiunea}other{V-a reatribuit dvs. acțiunea}}}other{{SENDER_GENDER,select, female{V-a reatribuit dvs. acțiunea}male{V-a reatribuit dvs. acțiunea}other{V-a reatribuit dvs. acțiunea}}}}</string>
     <string name="notify_comments_description_short_only_one_suggestion_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A sugerat o schimbare}male{A sugerat o schimbare}other{A sugerat o schimbare}}}male{{SENDER_GENDER,select, female{A sugerat o schimbare}male{A sugerat o schimbare}other{A sugerat o schimbare}}}other{{SENDER_GENDER,select, female{A sugerat o schimbare}male{A sugerat o schimbare}other{A sugerat o schimbare}}}}</string>
     <string name="notify_comments_reply_text_icu">{RECIPIENT_GENDER,select, female{{OTHER_POSTER_COUNT_1,plural, =0{Ca răspuns pentru {POSTER_NAME}}=1{Ca răspuns pentru {POSTER_NAME} și încă un utilizator}few{Ca răspuns pentru {POSTER_NAME} și încă {OTHER_POSTER_COUNT_2} utilizatori}other{Ca răspuns pentru {POSTER_NAME} și încă {OTHER_POSTER_COUNT_2} de utilizatori}}}male{{OTHER_POSTER_COUNT_1,plural, =0{Ca răspuns pentru {POSTER_NAME}}=1{Ca răspuns pentru {POSTER_NAME} și încă un utilizator}few{Ca răspuns pentru {POSTER_NAME} și încă {OTHER_POSTER_COUNT_2} utilizatori}other{Ca răspuns pentru {POSTER_NAME} și încă {OTHER_POSTER_COUNT_2} de utilizatori}}}other{{OTHER_POSTER_COUNT_1,plural, =0{Ca răspuns pentru {POSTER_NAME}}=1{Ca răspuns pentru {POSTER_NAME} și încă un utilizator}few{Ca răspuns pentru {POSTER_NAME} și încă {OTHER_POSTER_COUNT_2} utilizatori}other{Ca răspuns pentru {POSTER_NAME} și încă {OTHER_POSTER_COUNT_2} de utilizatori}}}}</string>
     <string name="notify_description_role_comment_request_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A solicitat acces pentru comentare}male{A solicitat acces pentru comentare}other{A solicitat acces pentru comentare}}}male{{SENDER_GENDER,select, female{A solicitat acces pentru comentare}male{A solicitat acces pentru comentare}other{A solicitat acces pentru comentare}}}other{{SENDER_GENDER,select, female{A solicitat acces pentru comentare}male{A solicitat acces pentru comentare}other{A solicitat acces pentru comentare}}}}</string>
@@ -916,16 +820,6 @@ Acesta va fi distribuit în dosarul %3$s."</string>
     <string name="notify_description_role_generic_access_request_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A solicitat acces}male{A solicitat acces}other{A solicitat acces}}}male{{SENDER_GENDER,select, female{A solicitat acces}male{A solicitat acces}other{A solicitat acces}}}other{{SENDER_GENDER,select, female{A solicitat acces}male{A solicitat acces}other{A solicitat acces}}}}</string>
     <string name="notify_description_role_own_request_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A solicitat drept de proprietate}male{A solicitat drept de proprietate}other{A solicitat drept de proprietate}}}male{{SENDER_GENDER,select, female{A solicitat drept de proprietate}male{A solicitat drept de proprietate}other{A solicitat drept de proprietate}}}other{{SENDER_GENDER,select, female{A solicitat drept de proprietate}male{A solicitat drept de proprietate}other{A solicitat drept de proprietate}}}}</string>
     <string name="notify_description_role_view_request_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A solicitat acces pentru vizualizare}male{A solicitat acces pentru vizualizare}other{A solicitat acces pentru vizualizare}}}male{{SENDER_GENDER,select, female{A solicitat acces pentru vizualizare}male{A solicitat acces pentru vizualizare}other{A solicitat acces pentru vizualizare}}}other{{SENDER_GENDER,select, female{A solicitat acces pentru vizualizare}male{A solicitat acces pentru vizualizare}other{A solicitat acces pentru vizualizare}}}}</string>
-    <string name="notify_drive_storage_expired_icu">{RECIPIENT_GENDER,select, female{Drive storage a expirat}male{Drive storage a expirat}other{Drive storage a expirat}}</string>
-    <string name="notify_drive_storage_expires_friday">{RECIPIENT_GENDER,select, female{Drive storage expiră vineri}male{Drive storage expiră vineri}other{Drive storage expiră vineri}}</string>
-    <string name="notify_drive_storage_expires_monday">{RECIPIENT_GENDER,select, female{Drive storage expiră luni}male{Drive storage expiră luni}other{Drive storage expiră luni}}</string>
-    <string name="notify_drive_storage_expires_saturday">{RECIPIENT_GENDER,select, female{Drive storage expiră sâmbătă}male{Drive storage expiră sâmbătă}other{Drive storage expiră sâmbătă}}</string>
-    <string name="notify_drive_storage_expires_soon">{RECIPIENT_GENDER,select, female{Drive storage expiră curând}male{Drive storage expiră curând}other{Drive storage expiră curând}}</string>
-    <string name="notify_drive_storage_expires_sunday">{RECIPIENT_GENDER,select, female{Drive storage expiră duminică}male{Drive storage expiră duminică}other{Drive storage expiră duminică}}</string>
-    <string name="notify_drive_storage_expires_thursday">{RECIPIENT_GENDER,select, female{Drive storage expiră joi}male{Drive storage expiră joi}other{Drive storage expiră joi}}</string>
-    <string name="notify_drive_storage_expires_tuesday">{RECIPIENT_GENDER,select, female{Drive storage expiră marți}male{Drive storage expiră marți}other{Drive storage expiră marți}}</string>
-    <string name="notify_drive_storage_expires_wednesday">{RECIPIENT_GENDER,select, female{Drive storage expiră miercuri}male{Drive storage expiră miercuri}other{Drive storage expiră miercuri}}</string>
-    <string name="notify_drive_storage_expiring_today_icu">{RECIPIENT_GENDER,select, female{Drive storage expiră astăzi}male{Drive storage expiră astăzi}other{Drive storage expiră astăzi}}</string>
     <string name="notify_heading_anonymous_user">Anonim</string>
     <string name="notify_heading_icu">{NUM_SENDERS,plural,offset:1 =1{{FIRST_SENDER_DISPLAY_NAME}}=2{{FIRST_SENDER_DISPLAY_NAME} și {SECOND_SENDER}}few{{FIRST_SENDER_DISPLAY_NAME} și încă {XXX} persoane}other{{FIRST_SENDER_DISPLAY_NAME} și încă {XXX} de persoane}}</string>
     <string name="notify_heading_many_people">%1$s și mulți alții</string>
@@ -968,15 +862,10 @@ Acesta va fi distribuit în dosarul %3$s."</string>
     <string name="notify_sharing_description_one_folder_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{V-a(u) permis accesul la un dosar}male{V-a(u) permis accesul la un dosar}other{V-a(u) permis accesul la un dosar}}}male{{SENDER_GENDER,select, female{V-a(u) permis accesul la un dosar}male{V-a(u) permis accesul la un dosar}other{V-a(u) permis accesul la un dosar}}}other{{SENDER_GENDER,select, female{V-a(u) permis accesul la un dosar}male{V-a(u) permis accesul la un dosar}other{V-a(u) permis accesul la un dosar}}}}</string>
     <string name="notify_sharing_description_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{V-a permis accesul la „{ITEM_TITLE}”}male{V-a permis accesul la „{ITEM_TITLE}”}other{V-a permis accesul la „{ITEM_TITLE}”}}}male{{SENDER_GENDER,select, female{V-a permis accesul la „{ITEM_TITLE}”}male{V-a permis accesul la „{ITEM_TITLE}”}other{V-a permis accesul la „{ITEM_TITLE}”}}}other{{SENDER_GENDER,select, female{V-a permis accesul la „{ITEM_TITLE}”}male{V-a permis accesul la „{ITEM_TITLE}”}other{V-a permis accesul la „{ITEM_TITLE}”}}}}</string>
     <string name="notify_unknown_document_title">Document necunoscut</string>
-    <string name="open_calendar">DESCHIDEȚI GOOGLE CALENDAR</string>
-    <string name="open_contacts">DESCHIDEȚI AGENDA GOOGLE</string>
     <string name="open_document_error_item_cannot_be_exported">Imposibil de descărcat; se deschide în modul pentru web...</string>
     <string name="open_document_error_no_viewer_app_found">Aplic. instalate nu văd fișierul. Se deschide în modul web…</string>
     <string name="open_document_in_browser">Deschid. în browser</string>
-    <string name="open_folder_removed">Dosarul deschis nu mai poate fi văzut.</string>
-    <string name="open_folder_trashed">%1$s a fost mutat la coșul de gunoi.</string>
     <string name="open_online_button">deschideți online</string>
-    <string name="open_photos">DESCHIDEȚI GOOGLE FOTO</string>
     <string name="open_pinned_version">Desc. de pe dispoz.</string>
     <string name="open_url_authentication_error">Imposibil de accesat documentul. Eroare la obținerea autentificării.</string>
     <string name="open_url_error_access_denied">Art. nu poate fi deschis. Poate nu aveți permis. de a-l deschide sau art. nu mai este disponibil.</string>
@@ -994,7 +883,6 @@ Acesta va fi distribuit în dosarul %3$s."</string>
     <string name="operation_sync_network_error">Eroare de rețea. Încercați din nou mai târziu.</string>
     <string name="organize_introduction_header">Trageți pentru a muta articolele</string>
     <string name="organize_introduction_text">Trageți colecția de articole selectate mai jos în dosarul dorit pentru a le muta. Glisați colecția pentru a o deselecta.</string>
-    <string name="other_backups">Alte dispozitive</string>
     <string name="ouch_button_close">Închideți</string>
     <string name="ouch_button_report">Raportați</string>
     <string name="ouch_msg_sync_error">Eroare la sincronizarea cu Google Drive. E posibil ca nu toate datele să se fi sincronizat. Raportați eroarea și ajutați-ne să îmbunătățim produsul.</string>
@@ -1022,9 +910,6 @@ toate fișierele dvs."</string>
     <string name="phonesky_installation_failure_alert_dialog_title">Nu s-a efectuat instalarea</string>
     <string name="phonesky_no_internet_connection_alert_dialog_message">Dispozitivul dvs. nu este conectat la internet. Încercați din nou mai târziu.</string>
     <string name="phonesky_no_internet_connection_alert_dialog_title">Neconectat(ă)</string>
-    <string name="photos_and_videos">Fotografii și videoclipuri</string>
-    <string name="photos_and_videos_footer_text">Sincronizat cu Google Foto</string>
-    <string name="photos_and_videos_message">Fotografiile și videoclipurile sunt sincronizate pe dispozitive cu ajutorul Google Foto.</string>
     <string name="pick_entry_create_new_folder">Creați un dosar nou</string>
     <string name="pick_entry_current_folder">Dosarul actual: %1s</string>
     <string name="pick_entry_dialog_title">Alegeți un articol</string>
@@ -1054,21 +939,20 @@ toate fișierele dvs."</string>
     <string name="pin_warning_external_storage_not_ready">Documentul a fost marcat, dar nu se va descărca înainte ca mediul de stocare extern să fie pregătit.</string>
     <string name="pin_warning_external_storage_not_ready_ok">OK</string>
     <string name="pinned_item_unavailable_dialog_message">Fișierul va fi disponibil offline data viitoare când vă conectați la internet.</string>
-    <string name="pinned_item_unavailable_dialog_title">Nu se poate accesa %1$s.</string>
+    <string name="pinned_item_unavailable_dialog_title">Nu se poate accesa %s.</string>
     <string name="plus_photo_all_set">Gata! Ați activat backupul automat pentru fotografiile și videoclipurile dvs.</string>
     <string name="plus_photo_item_remove_dialog_confirm_button">Ștergeți tot</string>
     <string name="plus_photo_item_remove_dialog_title">Eliminați</string>
-    <string name="plus_photo_item_remove_items_dialog_text_single">%1$s va fi mutat în Coșul de gunoi. Astfel, va fi eliminat și din Google Foto.</string>
+    <string name="plus_photo_item_remove_items_dialog_text_single">%s va fi mutat în Coșul de gunoi. Astfel, va fi eliminat și din Google Foto.</string>
     <string name="policy_privacy">Confidențialit.</string>
+    <string name="policy_privacy_local_url_format_string">http://www.google.com/intl/%1$s/policies/privacy/</string>
     <string name="policy_terms">Termeni și cond.</string>
+    <string name="policy_terms_local_url_format_string">http://www.google.com/intl/%1$s/policies/terms/</string>
     <string name="pref_auto_backup_referral">Instalați Google Foto pentru a activa Backup automat.</string>
     <string name="preferences_license_summary">Detalii de licență pentru software-ul open source</string>
     <string name="preferences_license_title">Licențe open source</string>
     <string name="prefs_about_category_title">Despre</string>
     <string name="prefs_abuse_program_policies">Politicile de produs</string>
-    <string name="prefs_apps_predict_carousel_category">Acces rapid</string>
-    <string name="prefs_apps_predict_carousel_enabled_setting">Activați accesul rapid</string>
-    <string name="prefs_apps_predict_carousel_enabled_summary">Primiți sugestii de fișiere relevante ca oră, pe care să le deschideți. Se adaugă o secțiune sus în Contul dvs. Drive.</string>
     <string name="prefs_apps_predict_category">Sugestii de conținut</string>
     <string name="prefs_apps_predict_show_suggestions">Doresc să se afișeze sugestii de conținut</string>
     <string name="prefs_apps_predict_show_suggestions_summary">Doresc să mi se sugereze în mod automat conținut relevant, atunci când este disponibil</string>
@@ -1082,7 +966,6 @@ toate fișierele dvs."</string>
     <string name="prefs_cache_size">Dimensiunea memoriei cache</string>
     <string name="prefs_cache_size_choice_format_string">%1$d MB</string>
     <string name="prefs_cache_size_summary_format_string">Dimensiunea memoriei cache este setată la %1$s MB.</string>
-    <string name="prefs_category_content_description">Secțiune, %1$s</string>
     <string name="prefs_change_error">Imposibil de schimbat setarea. Încercați din nou mai târziu.</string>
     <string name="prefs_clear_cache_summary">Eliminați toate documentele memorate în cache.</string>
     <string name="prefs_data_usage_category">Utilizarea datelor</string>
@@ -1102,7 +985,6 @@ toate fișierele dvs."</string>
     <string name="prefs_notification_email_notification">Vreau să primesc notificări prin e-mail</string>
     <string name="prefs_notification_email_notification_offline">Indisponibil offline</string>
     <string name="prefs_notification_email_notification_save_error">Setarea nu a putut fi salvată</string>
-    <string name="prefs_notification_email_notification_summary">Mesajele legate de cont vor fi trimise în continuare</string>
     <string name="prefs_notification_enable">Afișați notificările</string>
     <string name="prefs_notification_enable_summary">Afișați notificările pentru Drive, Documente, Foi de calcul și Prezentări pentru %1$s</string>
     <string name="prefs_notification_other_settings_subheading">Alte setări</string>
@@ -1119,37 +1001,29 @@ toate fișierele dvs."</string>
     <string name="prefs_sync_over_wifi_only_summary">Încărcarea și actualizarea fișierelor se vor întrerupe atunci când nu este disponibilă o conexiune Wi-Fi.</string>
     <string name="prefs_sync_over_wifi_only_title">Transferați fișiere numai prin Wi-Fi</string>
     <string name="prefs_title">Setări</string>
-    <string name="preselection_reason">Deschis recent de dvs.</string>
-    <string name="preselection_reason_recently_modified">Modificate recent</string>
-    <string name="preselection_reason_recently_modified_by_me">Modificate recent de mine</string>
-    <string name="preselection_reason_recently_opened_by_me">Deschise recent de mine</string>
-    <string name="preselection_reason_recently_uploaded_by_me">Încărcate recent de mine</string>
     <string name="preview_click_to_open">Atingeți aici pentru a deschide</string>
     <string name="preview_document_available_in_docs_app">Acest fișier este disponibil în aplicația Documente</string>
     <string name="preview_document_available_in_sheets_app">Acest fișier este disponibil în aplicația Foi de calcul</string>
     <string name="preview_open_in_docs_app_description">Atingeți aici pentru a deschide acest fișier în aplicația Documente</string>
     <string name="preview_open_in_sheets_app_description">Atingeți aici pentru a deschide acest fișier în aplicația Foi de calcul</string>
-    <string name="pride_query_toast_message">Sărbătoriți diversitatea și LGBT cu Google. Utilizați #prideforeveryone pe rețelele sociale.</string>
     <string name="print_cancelled">Printare anulată.</string>
     <string name="print_error">Nu putem accesa Google Cloud Print în acest moment. Încercați din nou mai târziu.</string>
     <string name="print_failure">Nu s-a imprimat documentul.</string>
-    <string name="prioritydocs_entrypoint_label">Necesită răspuns</string>
-    <string name="prioritydocs_promo_bodycopy">Pentru a vedea răspunsurile, instalați aplicația %1$s.</string>
-    <string name="prioritydocs_promo_headline">Descărcați aplicația %1$s?</string>
-    <string name="prioritydocs_promo_negative">NU, MULȚUMESC</string>
-    <string name="prioritydocs_promo_positive">INSTALAȚI</string>
+    <string name="prioritydocs_entrypoint_label">Articole de acțiune</string>
     <string name="problem_with_file">Problemă cu fișierul</string>
     <string name="promo_button">Am înțeles</string>
-    <string name="promo_text1">Salvați în Google Drive, spațiul de stocare sigur și gratuit de 15 GB pentru documente și fotografii - accesibil de pe oricare dintre dispozitivele dvs.</string>
-    <string name="promo_title">Păstrați o copie a acestui fișier</string>
+    <string name="promo_text1">Salvați orice PDF în Google Drive pentru a-l păstra în siguranță și pentru a-l putea accesa de oriunde și de pe orice dispozitiv!</string>
+    <string name="promo_title">Salvați PDF-urile în Google Drive</string>
     <string name="punctuation_period">.</string>
     <string name="purchase_dialog_how_storage_used">Spațiul de stocare este împărțit între Gmail, Google Foto și Google Drive</string>
-    <string name="purchase_dialog_manage">Gestionați spațiul de stocare</string>
-    <string name="purchase_dialog_terms_service">Alegând un plan de stocare, acceptați %1$s.</string>
-    <string name="purchase_dialog_title">Planurile pentru spațiul de stocare Google Drive</string>
+    <string name="purchase_dialog_learn_more">Aflați mai multe</string>
+    <string name="purchase_dialog_more">Mai multe planuri pentru spațiul de stocare</string>
+    <string name="purchase_dialog_terms_service">Alegând un plan de stocare și dând clic pe „Cumpărați”, acceptați %1$s.</string>
+    <string name="purchase_dialog_title">Planuri pentru spațiul de stocare Google Drive</string>
     <string name="purchase_error">A apărut o problemă</string>
     <string name="purchase_error_connect">Nu se poate stabili conexiunea</string>
     <string name="purchase_per_month">%1$s pe lună</string>
+    <string name="purchase_success">Planul a fost cumpărat</string>
     <string name="quota_cannot_determine">imposibil de determinat</string>
     <string name="quota_range_large">Între 10 MB și 100 MB</string>
     <string name="quota_range_larger">Între 100 MB și 1 GB</string>
@@ -1162,26 +1036,26 @@ toate fișierele dvs."</string>
     <string name="recent_activity_button_show_more_files">Afișați mai multe...</string>
     <string name="recent_activity_card_title">Activitate</string>
     <string name="recent_activity_empty">Nicio activitate înregistrată</string>
-    <string name="recent_activity_end">Nicio activitate înregistrată înainte de %1$s</string>
+    <string name="recent_activity_end">Nicio activitate înregistrată înainte de %s</string>
     <string name="recent_activity_failed">Ne pare rău, activitatea nu s-a încărcat. Încercați din nou mai târziu.</string>
     <string name="recent_activity_rename_titles_accessibility">S-a înlocuit numele %1$s cu %2$s</string>
-    <string name="recent_activity_users_two">%1$s și %2$s</string>
+    <string name="recent_activity_users_two" formatted="false">%s și %s</string>
+    <string name="remove_button_confirm">Eliminați</string>
+    <string name="remove_collection">Eliminați dosarul</string>
     <string name="remove_dialog_confirm_delete_button">Ștergeți definitiv</string>
-    <string name="remove_dialog_confirm_delete_for_everyone_button">Ștergeți pentru toată lumea</string>
-    <string name="remove_dialog_delete_different_permissions_files">Aveți permisiuni diferite pentru aceste fișiere. Unele vor fi mutate în Coșul de gunoi și șterse definitiv după 30 de zile. Altele vor fi eliminate.</string>
-    <string name="remove_dialog_delete_different_permissions_folders">Aveți permisiuni diferite pentru aceste dosare. Unele vor fi mutate în Coșul de gunoi și șterse definitiv după 30 de zile. Altele vor fi eliminate.</string>
-    <string name="remove_dialog_delete_different_permissions_items">Aveți permisiuni diferite pentru aceste articole. Unele vor fi mutate în Coșul de gunoi și șterse definitiv după 30 de zile. Altele vor fi eliminate.</string>
-    <string name="remove_dialog_delete_different_permissions_title">Doar unele articole vor fi șterse</string>
-    <string name="remove_dialog_delete_for_everyone_title">Ștergeți pentru toată lumea?</string>
-    <string name="remove_parent_confirmation">Alții nu vor vedea %1$s în dosarul comun %2$s</string>
-    <string name="remove_parent_not_allowed">Nu puteți elimina %1$s din dosarul comun %2$s</string>
-    <string name="removed_parent_message">%1$s a fost eliminat din %2$s</string>
+    <string name="remove_dialog_delete_permanently_text_single">Sigur doriți să ștergeți definitiv %s? Nu puteți anula această acțiune.</string>
+    <string name="remove_dialog_delete_permanently_title">Ștergeți definitiv</string>
+    <string name="remove_document">Eliminați fișierul</string>
+    <string name="remove_parent_confirmation" formatted="false">Alții nu vor vedea %s în dosarul comun %s</string>
+    <string name="remove_parent_not_allowed" formatted="false">Nu puteți elimina %s din dosarul comun %s</string>
+    <string name="removed_parent_message" formatted="false">%s a fost eliminat din %s</string>
     <string name="rename_collection">Redenumiți dosarul</string>
     <string name="rename_document">Redenumiți documentul</string>
     <string name="rename_drawing">Redenumiți desenul</string>
     <string name="rename_file">Redenumiți fișierul</string>
     <string name="rename_presentation">Redenumiți prezentarea</string>
     <string name="rename_spreadsheet">Redenumiți foaia de calcul</string>
+    <string name="reply_email_subject">Re: Solicitarea dvs. de acces</string>
     <string name="report_abuse_title">Raport privind abuzul</string>
     <string name="request_access">Solicitați acces</string>
     <string name="request_access_message">Proprietarul va primi un e-mail de notificare pentru persoana care solicită acces.</string>
@@ -1191,23 +1065,16 @@ toate fișierele dvs."</string>
     <string name="retry_button_text">reîncercați</string>
     <string name="scan_shortcut_failed_folder_deleted">Dosarul %1$s este șters.</string>
     <string name="scan_shortcut_failed_folder_trashed">Dosarul %1$s este în Coșul de gunoi. Restaurați dosarul înainte de a scana documentul.</string>
-    <string name="scan_task_title">Scanați în Drive</string>
     <string name="search_description">Google Drive</string>
     <string name="search_hint">Căutați în contul Google Drive</string>
     <string name="search_hint_short">Căutați</string>
-    <string name="search_menu_title">Căutați</string>
-    <string name="search_results_may_be_incomplete">Nu am putut căuta în toate Drive-urile în echipă. Încercați să restrângeți căutarea la un anumit Drive în echipă.</string>
-    <string name="search_select_td">Selectați un Drive în echipă</string>
     <string name="search_showing_local_results_only">Nu se poate efectua căutarea, afișându-se numai titlurile care corespund.</string>
     <string name="search_showing_local_results_only_offline">Rez. căutării includ doar potriv. de titlu. Pt. mai multe rez., căutați online.</string>
     <string name="select_account">Selectați un cont</string>
     <string name="select_folder_color">Culoarea dosarului</string>
-    <string name="select_team_drive_desc">Selectați un Drive în echipă</string>
-    <string name="select_team_drive_title">Sel. Drive în echipă</string>
     <string name="selected_account">V-ați conectat la %1$s</string>
     <string name="selection_action_bar_drop_to_current_folder_header">Mutați în</string>
     <string name="selection_action_bar_drop_to_current_folder_header_as_add">Adăugați la</string>
-    <string name="selection_cannot_move_into_self">Nu se poate muta articolul în el însuși</string>
     <string name="selection_item_select_button">Selectați %1$s %2$s</string>
     <string name="selection_item_unselect_button">Deselectați %1$s %2$s</string>
     <string name="selection_limit_reached">Unele articole nu au fost selectate. A fost atins numărul maxim de articole selectate.</string>
@@ -1274,13 +1141,11 @@ toate fișierele dvs."</string>
     <string name="sharing_error">Eroare de server: informațiile despre distribuire nu au putut fi recuperate.</string>
     <string name="sharing_info_loading">Informațiile despre trimitere încă se încarcă…</string>
     <string name="sharing_list_offline">Lista de distribuire nu este disponibilă în modul offline.</string>
-    <string name="sharing_list_updated">Setările de trimitere au fost actualizate.</string>
+    <string name="sharing_list_updated">Setările pentru permiterea accesului au fost actualizate.</string>
     <string name="sharing_message_add_users_one">%1$s a fost trimis la %2$s</string>
     <string name="sharing_message_add_users_two">%1$s a fost trimis la %2$s și la %3$s</string>
     <string name="sharing_message_remove">%s a fost eliminat(ă) din fișier</string>
-    <string name="sharing_message_remove_td">Utilizatorul %s a fost eliminat din Drive-ul în echipă</string>
     <string name="sharing_message_saved">Setările pentru distribuire s-au salvat; se actualizează lista de distribuire.</string>
-    <string name="sharing_message_saved_td">Calitatea de membru a fost modificată pentru %s</string>
     <string name="sharing_message_title">Mesaj</string>
     <string name="sharing_message_unable_to_change">Imposibil de modificat setările de distribuire</string>
     <string name="sharing_offline">Nu puteți distribui atunci când sunteți offline.</string>
@@ -1289,16 +1154,16 @@ toate fișierele dvs."</string>
     <string name="sharing_option_anyone_can_contribute">Oricine poate organiza, adăuga și edita</string>
     <string name="sharing_option_anyone_can_edit">Oricine poate edita</string>
     <string name="sharing_option_anyone_can_view">Oricine poate vizualiza</string>
-    <string name="sharing_option_anyone_from">Oricine din %1$s poate găsi și accesa</string>
-    <string name="sharing_option_anyone_from_can_comment">Oricine din %1$s poate găsi și comenta</string>
-    <string name="sharing_option_anyone_from_can_contribute">Oricine din %1$s poate găsi și contribui</string>
-    <string name="sharing_option_anyone_from_can_edit">Oricine din %1$s poate găsi și edita</string>
-    <string name="sharing_option_anyone_from_can_view">Oricine din %1$s poate găsi și vedea</string>
-    <string name="sharing_option_anyone_from_with_link">Oricine din %1$s care are linkul</string>
-    <string name="sharing_option_anyone_from_with_link_can_comment">Oricine din %1$s care are linkul poate comenta</string>
-    <string name="sharing_option_anyone_from_with_link_can_contribute">Oricine din %1$s care are linkul poate organiza, adăuga și edita</string>
-    <string name="sharing_option_anyone_from_with_link_can_edit">Oricine din %1$s care are linkul poate edita</string>
-    <string name="sharing_option_anyone_from_with_link_can_view">Oricine din %1$s care are linkul poate vedea</string>
+    <string name="sharing_option_anyone_from">Oricine din %s poate găsi și accesa</string>
+    <string name="sharing_option_anyone_from_can_comment">Oricine din %s poate găsi și comenta</string>
+    <string name="sharing_option_anyone_from_can_contribute">Oricine din %s poate găsi și contribui</string>
+    <string name="sharing_option_anyone_from_can_edit">Oricine din %s poate găsi și edita</string>
+    <string name="sharing_option_anyone_from_can_view">Oricine din %s poate găsi și vedea</string>
+    <string name="sharing_option_anyone_from_with_link">Oricine din %s care are linkul</string>
+    <string name="sharing_option_anyone_from_with_link_can_comment">Oricine din %s care are linkul poate comenta</string>
+    <string name="sharing_option_anyone_from_with_link_can_contribute">Oricine din %s care are linkul poate organiza, adăuga și edita</string>
+    <string name="sharing_option_anyone_from_with_link_can_edit">Oricine din %s care are linkul poate edita</string>
+    <string name="sharing_option_anyone_from_with_link_can_view">Oricine din %s care are linkul poate vedea</string>
     <string name="sharing_option_anyone_with_link">Oricine are linkul</string>
     <string name="sharing_option_anyone_with_link_can_comment">Oricine are linkul poate comenta</string>
     <string name="sharing_option_anyone_with_link_can_contribute">Oricine are linkul poate organiza, adăuga și edita</string>
@@ -1306,11 +1171,11 @@ toate fișierele dvs."</string>
     <string name="sharing_option_anyone_with_link_can_view">Oricine are linkul poate vedea</string>
     <string name="sharing_option_private">Privat</string>
     <string name="sharing_option_private_acl_message">Nedistribuit</string>
-    <string name="sharing_option_private_no_collaborators">Privat – numai dvs. puteți accesa articolul</string>
-    <string name="sharing_option_specific_people">Trimis anumitor persoane</string>
+    <string name="sharing_option_private_no_collaborators">Privat – numai dvs. aveți acces</string>
+    <string name="sharing_option_specific_people">Accesul permis pentru anumite persoane</string>
     <string name="sharing_option_unknown">Mod de distribuire necunoscut</string>
-    <string name="sharing_progress_loading_message">Se încarcă informațiile despre trimitere.</string>
-    <string name="sharing_progress_saving_message">Se salvează informațiile de trimitere.</string>
+    <string name="sharing_progress_loading_message">Se încarcă informațiile despre permiterea accesului.</string>
+    <string name="sharing_progress_saving_message">Se salvează informațiile despre permiterea accesului.</string>
     <string name="sharing_role_commenter">Poate comenta</string>
     <string name="sharing_role_content_description">Buton %1$s pentru %2$s</string>
     <string name="sharing_role_contributor">Pot organiza, adăuga și edita</string>
@@ -1319,38 +1184,13 @@ toate fișierele dvs."</string>
     <string name="sharing_role_reader">Poate vizualiza</string>
     <string name="sharing_role_unknown">Acces necunoscut</string>
     <string name="sharing_role_writer">Poate edita</string>
-    <string name="sharing_server_error_generic_all">Acest articol nu poate fi trimis.</string>
-    <string name="sharing_server_error_more">Acest articol nu poate fi trimis la %1$s.</string>
-    <string name="sharing_server_error_one">Acest articol nu poate fi trimis la %1$s.</string>
-    <string name="sharing_server_error_partial_summary">Nu a fost trimis la toți utilizatorii</string>
-    <string name="sharing_server_error_restricted_all">Acest articol are conținut restricționat și nu poate fi trimis.</string>
-    <string name="sharing_server_error_restricted_more">Acest articol are conținut restricționat și nu poate fi trimis la %1$s deoarece nu fac parte din organizația dvs.</string>
-    <string name="sharing_server_error_restricted_one">Acest articol are conținut restricționat și nu poate fi trimis la %1$s deoarece nu face parte din organizația dvs.</string>
-    <string name="sharing_server_error_restricted_three">Acest articol are conținut restricționat și nu poate fi trimis la %1$s, la %2$s și la %3$s deoarece nu fac parte din organizația dvs.</string>
-    <string name="sharing_server_error_restricted_two">Acest articol are conținut restricționat și nu poate fi trimis la %1$s și la %2$s deoarece nu fac parte din organizația dvs.</string>
-    <string name="sharing_server_error_summary">Nu puteți trimite acest document</string>
-    <string name="sharing_server_error_three">Acest articol nu poate fi trimis la %1$s, la %2$s și la %3$s.</string>
-    <string name="sharing_server_error_two">Acest articol nu poate fi trimis la %1$s și la %2$s.</string>
-    <string name="sharing_server_success_more">%1$s a fost trimis la %2$s deoarece fac parte din organizația dvs.</string>
-    <string name="sharing_server_success_one">%1$s a fost trimis la %2$s deoarece face parte din organizația dvs.</string>
-    <string name="sharing_server_success_three">%1$s a fost trimis la %2$s, la %3$s și la %4$s deoarece fac parte din organizația dvs.</string>
-    <string name="sharing_server_success_two">%1$s a fost trimis la %2$s și la %3$s deoarece fac parte din organizația dvs.</string>
-    <string name="sharing_server_warning_more">Sigur doriți să trimiteți la %1$s?</string>
-    <string name="sharing_server_warning_one">Sigur doriți să trimiteți la %1$s?</string>
-    <string name="sharing_server_warning_summary">Trimiteți în extern?</string>
-    <string name="sharing_server_warning_three">Sigur doriți să trimiteți la %1$s, la %2$s și la %3$s?</string>
-    <string name="sharing_server_warning_two">Sigur doriți să trimiteți la %1$s și la %2$s?</string>
     <string name="sharing_show_smartprofile_content_description">Desch. profil inteligent pt. %s</string>
     <string name="sharing_show_who_has_access">Cine are acces - atingeți pentru a gestiona colaboratorii.</string>
-    <string name="sharing_undo_role_failure">Eroare la anulare.</string>
-    <string name="sharing_undo_role_success">Setări de trimitere precedente</string>
     <string name="shortcut_created">Com. rapidă adăugată în ecr. de pornire</string>
     <string name="shortcut_creation_failed">Nu s-a putut crea comanda rapidă</string>
     <string name="show_account_list">Afișați conturile</string>
     <string name="sign_in">Conectați-vă</string>
     <string name="slider_title_all_items">Toate artic.</string>
-    <string name="sms">SMS</string>
-    <string name="sms_message">Backupul include mesajele trimise și primite.</string>
     <string name="sorting_label_for_creation_time_shorten">Data creării</string>
     <string name="sorting_label_for_last_modified_shorten">Ultima modificare</string>
     <string name="sorting_label_for_modified_by_me_shorten">Modificat de mine</string>
@@ -1360,32 +1200,25 @@ toate fișierele dvs."</string>
     <string name="sorting_order_ascending">În ordine crescătoare</string>
     <string name="sorting_order_descending">În ordine descrescătoare</string>
     <string name="status_bar_notification_info_overflow">˃999</string>
-    <string name="storage_info">Acest backup nu folosește spațiu de stocare în Drive</string>
     <string name="storage_upgrade">Măriți cota de stocare</string>
-    <string name="storage_upgraded_help_card_content">Veți fi taxat(ă) cu %1$s în fiecare lună pentru %2$s de spațiu de stocare folosit în comun de produsele Gmail, Google Drive și Google Foto. Puteți să anulați oricând planul pentru spațiul de stocare. Noul spațiu de stocare devine disponibil în maximum 24 de ore.</string>
-    <string name="storage_upgraded_help_card_help_button">Ajutor</string>
-    <string name="storage_upgraded_help_card_title">Mulțumim</string>
+    <string name="storage_upgraded_help_card_contact_button">Contactați-ne</string>
+    <string name="storage_upgraded_help_card_content">Ați mărit spațiul de stocare Google Drive la %1$s. Cu această achiziție, primiți și acces prioritar la asistență pentru telefon, e-mail și chat. Contactați-ne oricând dacă aveți întrebări.</string>
+    <string name="storage_upgraded_help_card_title">Haideți, extindeți-vă!</string>
     <string name="storage_used">Ați folosit %1$s din %2$s</string>
     <string name="storage_used_unlimited">%1$s folosiți</string>
     <string name="suggest_pin_dialog_message">Acest fișier nu este disponibil offline. Îl faceți disponibil pentru data viitoare când veți fi offline?</string>
     <string name="suggest_pin_dialog_negative_button">Nu, mulțumesc</string>
     <string name="suggest_pin_dialog_positive_button">Faceți disponibil offline</string>
     <string name="suggest_pin_dialog_title">Nu există conexiune</string>
-    <string name="switch_account_help_card_button">SCHIMBAȚI CONTUL</string>
-    <string name="switch_account_help_card_content">Pentru datele de pe acest dispozitiv s-a făcut backup într-un alt cont. %s</string>
-    <string name="switch_account_help_card_title">Crearea unui backup într-un alt cont</string>
     <string name="switch_backup_account">SCHIMBAȚI CONTUL ÎN SETĂRILE PENTRU BACKUP</string>
     <string name="sync_failed">Eroare la sincronizarea cu Google Drive</string>
     <string name="sync_more">Încărcați mai multe…</string>
     <string name="sync_more_error">Eroare la preluarea articolelor suplimentare</string>
     <string name="sync_more_error_offline">Este posibil ca unele documente să nu mai fie vizibile offline.</string>
+    <string name="tap_to_retry">Atingeți pt. a încerca din nou</string>
+    <string name="tap_to_view_who_has_access">Atingeți pentru a vedea cine are acces</string>
     <string name="targetviewintro_close_button">Am înțeles</string>
-    <string name="td_downgrade_not_allowed">Puteți îmbunătăți accesul numai pentru membrii unui Drive în echipă.</string>
-    <string name="td_members_access">%1$d membri</string>
-    <string name="td_sharing_message_add_users_one">Utilizatorul %2$s a fost adăugat la %1$s</string>
-    <string name="td_sharing_message_add_users_two">Utilizatorii %2$s și %3$s au fost adăugați la %1$s</string>
-    <string name="team_drive_empty_list_message_can_create">Un Drive în echipă este un spațiu comun în care puteți colabora cu echipa dvs. Personalizați-l în funcție de personalitatea echipei.</string>
-    <string name="team_drive_empty_list_message_cannot_create">Un Drive în echipă este un spațiu comun în care puteți colabora cu echipa dvs. Când sunteți adăugat(ă) la un Drive în echipă, acesta se va afișa aici.</string>
+    <string name="td_downgrade_not_allowed">Puteți îmbunătăți accesul numai pentru membrii unui drive pentru echipă.</string>
     <string name="thumbnail_open">Deschideți</string>
     <string name="time_range_1_day">o zi</string>
     <string name="time_range_days">%1$d (de) zile</string>
@@ -1397,27 +1230,16 @@ toate fișierele dvs."</string>
     <string name="title_send_intent">Trimiteți %1$s prin</string>
     <string name="title_show_files">%1$d din %2$d</string>
     <string name="transfer_notification_waiting_content">Se așteaptă conectarea la rețeaua Wi-Fi...</string>
+    <string name="trash_delete_forever_confirm">Ștergeți definitiv</string>
+    <string name="trash_delete_forever_question">Ștergeți definitiv</string>
     <string name="trash_delete_forever_success">Un articol a fost șters.</string>
-    <string name="turnoff_backup">Dezactivați backupul</string>
-    <string name="turnoff_backup_confirm_button">Dezactivați</string>
-    <string name="turnoff_backup_error_message">Backupul nu a putut fi dezactivat.</string>
-    <string name="turnoff_backup_progress_message">Se dezactivează backupul</string>
-    <string name="turnoff_whatsapp_backup_confirmation_message">"Astfel veți opri backupul pentru conversațiile prin chat și fișierele media din WhatsApp pentru toate dispozitivele:
-
-%s
-Puteți să reactivați backupul accesând Setări> Conversații prin chat > Backup pentru conversațiile prin chat din WhatsApp."</string>
-    <string name="turnoff_whatsapp_backup_title">Dezactivați backupul WhatsApp?</string>
-    <string name="tutorial_upload_complete_body">Aveți acces indiferent de unde vă conectați la Drive</string>
-    <string name="tutorial_upload_complete_header">Ați adăugat un fișier în Drive</string>
-    <string name="tutorial_upload_fab_hint_text">Atingeți pictograma plus pentru a adăuga fișiere de pe acest dispozitiv în Drive și pentru a le accesa de oriunde.</string>
-    <string name="unable_to_preview">Nu se poate previzualiza fișierul.</string>
+    <string name="trash_delete_forever_warning">Acest articol va fi șters definitiv din Drive. Nu puteți anula această acțiune.</string>
     <string name="unified_actions_add_to_drive">Adăugați în contul dvs. Drive</string>
-    <string name="unified_link_sharing_is_off">Trimiterea de linkuri este dezactivată</string>
-    <string name="unified_link_sharing_is_on">Trimiterea de linkuri este activată</string>
+    <string name="unified_link_sharing_is_off">Accesul printr-un link este dezactivat</string>
+    <string name="unified_link_sharing_is_on">Accesul printr-un link este activat</string>
     <string name="unknown_album">Album necunoscut</string>
     <string name="unknown_artist">Artist necunoscut</string>
     <string name="unsupported_file">Acest tip de fișier nu este acceptat.</string>
-    <string name="untitled_audio">Fișier audio fără titlu</string>
     <string name="untrash_and_open_message">Pentru a accesa %1$s, scoateți-l din coșul de gunoi.</string>
     <string name="untrash_and_open_not_allowed_message">%1$s a fost mutat în coșul de gunoi de către proprietar.</string>
     <string name="untrash_and_open_positive_button">Scoateți din coș</string>
@@ -1436,7 +1258,6 @@ Puteți să reactivați backupul accesând Setări> Conversații prin chat > Bac
     <string name="upload_incomplete">Încărcare incompletă</string>
     <string name="upload_multiple_document_titles">Titluri de documente</string>
     <string name="upload_notification_cancel_title">Încărcarea a fost anulată</string>
-    <string name="upload_notification_failure_folder">Nu se poate încărca un dosar</string>
     <string name="upload_notification_failure_no_retry_title">Nu s-a efectuat încărcarea</string>
     <string name="upload_notification_failure_ticker">Eroare la încărcare</string>
     <string name="upload_notification_more_files">+încă %1$d</string>
@@ -1481,14 +1302,6 @@ Puteți să reactivați backupul accesând Setări> Conversații prin chat > Bac
     <string name="welcome_title">Panoul de bun venit la Google Drive.</string>
     <string name="welcome_title_announce">Panoul de anunțuri Google Drive.</string>
     <string name="welcome_title_highlights">Panoul de anunțuri Google Drive.</string>
-    <string name="whatsapp">WhatsApp</string>
-    <string name="whatsapp_message">Pentru conversațiile dvs. prin chat și fișierele media (inclusiv fotografii, videoclipuri, înregistrări audio și documente) se face backup pe Google Drive. Dacă vă schimbați dispozitivele, le puteți restabili când reinstalați WhatsApp.</string>
-    <string name="whatsapp_turned_off_message">"Funcția de backup este dezactivată.
-Ultimul backup: %s
-
-Pentru conversațiile dvs. prin chat și fișierele media (inclusiv fotografii, videoclipuri, înregistrări audio și documente) se face backup pe Google Drive. Dacă vă schimbați dispozitivele, le puteți restabili când reinstalați WhatsApp.
-
-Pentru a reactiva funcția de backup, accesați Setări > Conversații prin chat în WhatsApp."</string>
     <string name="widget_account_missing">Eroare: contul nu a fost găsit, verif. setările contului: %1$s.</string>
     <string name="widget_configuration_missing">Eroare: configurările s-au pierdut; eliminați widgetul și adăugați-l din nou.</string>
     <string name="widget_initializing">Se inițializează...</string>
@@ -1511,7 +1324,6 @@ Pentru a reactiva funcția de backup, accesați Setări > Conversații prin chat
     <string name="zss_remove_all_filters_button_content_description">Eliminați toate filtrele</string>
     <string name="zss_remove_filter_button_content_description">Eliminați filtrul: %1$s</string>
     <string name="zss_showing_list_of_filters">Se afișează lista de filtre disponibile.</string>
-    <string name="zss_team_drive">Căutați în %1$s</string>
     <string name="zss_type_archive">Arhivă</string>
     <string name="zss_type_audio">Audio</string>
     <string name="zss_type_documents">Documente text</string>

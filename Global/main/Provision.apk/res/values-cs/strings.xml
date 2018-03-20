@@ -19,9 +19,10 @@ Zobrazit Zásady ochrany osobních údajů pro tuto klávesnici."</string>
     <string name="other_settings_location">Přístup k poloze</string>
     <string name="other_settings_location_summary">Povolit aplikacím přístup k vaší poloze.</string>
     <string name="other_settings_user_experience">Optimalizace na základě uživatelské zkušenosti</string>
-    <string name="other_settings_user_experience_summary">Pomozte nám vylepšit naše produkty a služby odesíláním anonymních diagnostických dat.</string>
+    <string name="other_settings_user_experience_summary">Pomozte nám vylepšit naše produkty a služby sdílením statistik o využívání vašich dat. Podrobnosti</string>
+    <string name="other_settings_user_experience_summary_index">Podrobnosti</string>
     <string name="other_settings_upload_debug_log_title">Odesílat diagnostická data automaticky</string>
-    <string name="other_settings_upload_debug_log_summary">Informace, které shromažďujeme, budou sloužit k nalezení a analyzování problémů v systému a mohou obsahovat osobní údaje. Žádné údaje nebudou použity k vaší identifikaci.</string>
+    <string name="other_settings_upload_debug_log_summary">Statistiky o využití dat, které nám pomohou lokalizovat a vyřešit problémy, mohou obsahovat vaše osobní informace</string>
     <string name="other_settings_auto_update">Instalovat automaticky</string>
     <string name="other_settings_auto_update_summary">MIUI vybere nejvhodnější čas pro instalaci aktualizací.</string>
     <string name="other_settings_ad_enable">Přizpůsobená reklamní doporučení</string>

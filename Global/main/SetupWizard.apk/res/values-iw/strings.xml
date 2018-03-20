@@ -28,12 +28,9 @@
     <string name="common_signin_button_text">היכנס</string>
     <string name="common_signin_button_text_long">‏היכנס באמצעות Google</string>
     <string name="common_open_on_phone">פתח בטלפון</string>
-    <string name="suw_next_button_label">הבא</string>
-    <string name="suw_back_button_label">חזרה</string>
-    <string name="suw_more_button_label">עוד</string>
-    <string name="setup_wizard_title">אשף ההגדרה</string>
     <string name="setup_wizard_next_button_label">הבא</string>
     <string name="setup_wizard_back_button_label">הקודם</string>
+    <string name="setup_wizard_title">אשף ההגדרה</string>
     <string name="setup_wizard_services_activity_title">‏שירותי Google</string>
     <string name="setup_wizard_services_description">‏בעזרת השירותים האלה Google עובדת עבורך, וניתן להפעיל או לכבות אותם בכל עת. השימוש בנתונים יעשה בהתאם ל<annotation id="google_privacy">מדיניות הפרטיות</annotation> של Google.</string>
     <string name="setup_wizard_services_backup_restore_heading">גיבוי ושחזור</string>
@@ -54,6 +51,30 @@
 תוכל להפעיל או לבטל אפשרות זו בכל עת באפליקציית ההגדרות של Google. לא תהיה לכך השפעה על היכולת של המכשיר שלך לשלוח את המידע הדרוש לו לקבלת שירותים חיוניים כגון עדכוני מערכת ואבטחה."</string>
     <string name="setup_wizard_services_agreement">‏טלפון זה עשוי לקבל ולהתקין עדכונים ואפליקציות גם מ-Google, מהספק שלך ומיצרן הטלפון. אם תמשיך, ייתכן שאפליקציות מסוימות יורדו ויותקנו, ותוכל להסיר אותן בכל עת.</string>
     <string name="default_device_name">Android</string>
+    <string name="welcome_message">ברוך הבא</string>
+    <string name="welcome_secondary_user_added_text">%s הוסיף אותך לטלפון הזה.</string>
+    <string name="welcome_secondary_user_added_no_owner_name_text">נוספת לטלפון הזה.</string>
+    <string name="welcome_secondary_user_info_text">"לאחר סיום ההגדרה, תוכל לעבוד עם אפליקציות או להתקין אפליקציות חדשות כרגיל.
+
+"<b>חשוב:</b>"
+
+"<li><ul>הבעלים של הטלפון יכול להסיר את התקנת האפליקציות שלך או להסיר לחלוטין את השטח שהוקצה לך.</ul></li>"
+
+"<li><ul>כל משתמש אחר יכול לקבל הרשאות אפליקציה מעודכנות בשמך.</ul></li>"
+
+"<li><ul>כמו בכל מחשב, עליך לשתף את הטלפון הזה רק עם אנשים שאתה סומך עליהם.</ul></li></string>
+    <string name="welcome_limited_user_info_text">" 
+"<b>חשוב:</b>"
+
+ "<li><ul>הבעלים של הטלפון יכול להתקין ולהסיר אפליקציות, להגדיר הגבלות או להסיר את השטח שלך לחלוטין.</ul></li>"
+
+ "<li><ul>כל משתמש אחר יכול לקבל הרשאות מעודכנות לאפליקציות בשמך.</ul></li>"
+
+ "<li><ul>כמו בכל מחשב, יש לשתף את הטלפון הזה רק עם אנשים שעליהם אתה סומך. </ul></li></string>
+    <string name="welcome_text_edu">‏הגדר את המכשיר שלך לשימוש עם Google Play for Education</string>
+    <string name="welcome_secondary_user_text_edu">בוא נסיים את הגדרת החשבון שלך בטאבלט הזה.</string>
+    <string name="welcome_secondary_user_additional_info_header_edu">חשוב</string>
+    <string name="welcome_secondary_user_additional_info_edu">‏הטאבלט הזה משותף לך ולתלמידים אחרים. לאחר הגדרת החשבון, הוסף מספר PIN כדי להגן על העבודה שלך.</string>
     <string name="finish_button_label">סיום</string>
     <string name="skip_button_label">דלג</string>
     <string name="skip_anyway_button_label">דלג בכל מקרה</string>
@@ -64,7 +85,6 @@
     <string name="try_again_button_label">נסה שוב</string>
     <string name="close_button_label">סגור</string>
     <string name="got_it_button_label">הבנתי</string>
-    <string name="ok_button_label">אישור</string>
     <string name="google_legal_title">‏מידע משפטי של Google</string>
     <string name="url_load_unsuccessful_message">הטלפון שלך אינו מחובר לשירות נתונים לנייד. כדי להציג מידע זה כעת, עבור לכתובת %s בדפדפן אינטרנט.</string>
     <string name="start">התחל</string>
@@ -130,10 +150,16 @@
     <string name="account_exists_title">התווסף חשבון</string>
     <string name="account_exists_text">החשבון הראשון שלך מוכן לשימוש. תוכל להוסיף ולהסיר חשבונות בהמשך דרך ההגדרות.</string>
     <string name="date_time_setup_title">תאריך ושעה</string>
-    <string name="date_time_message">ניתן לשנות לפי הצורך.</string>
+    <string name="date_time_message">שנה בהתאם לצורך.</string>
     <string name="date_time_current_date">תאריך</string>
     <string name="date_time_current_time">שעה</string>
-    <string name="date_time_time_zone_full" formatted="false">%s (%s)</string>
+    <string name="location_sharing_title">‏Google ומיקום</string>
+    <string name="tos_title">‏שירותי Google</string>
+    <string name="tos_agreement_text">‏טלפון זה עשוי גם לקבל ולהתקין עדכונים מ-Google. בכך שתמשיך, אתה מביע את הסכמתך ל<annotation id="tos">תנאים ולהגבלות של Google</annotation> ול<annotation id="google_privacy">מדיניות הפרטיות</annotation> שלה.</string>
+    <string name="tos_agreement_text_germany">‏בנוסף, את המסכים שהמכשיר יקבל עדכונים מ-Google ויתקין אותם. כאשר תשתמש במכשיר זה, אנו מחויבים ל<annotation id="google_privacy">מדיניות הפרטיות</annotation> שלנו ול<annotation id="tos">תנאים הנוספים</annotation> החלים.</string>
+    <string name="setup_complete_title">ההגדרה הושלמה</string>
+    <string name="setup_complete_message">הטלפון שלך מוגדר ומוכן לשימוש.</string>
+    <string name="backup_assistant_prompt">‏התחל את Verizon Backup Assistant כדי לשחזר אנשי קשר מטלפון Verizon אחר.</string>
     <string name="sim_missing_title">‏הכנס את כרטיס ה-SIM</string>
     <string name="sim_setup_title">‏הגדרת כרטיסי SIM</string>
     <string name="sim_setup_select_data">‏בחר SIM לנתונים סלולריים</string>
@@ -142,13 +168,13 @@
     <string name="sim_setup_ask_every_time">שאל בכל פעם</string>
     <string name="walled_garden_title">בודק חיבור…</string>
     <string name="walled_garden_check_indefinite_text">פעולה זו עשויה להימשך זמן מה</string>
-    <string name="walled_garden_skipped_message">"אם תדלג:
+    <string name="walled_garden_skipped_message">"אם אתה מדלג על שלב זה:
 
-לא יהיה לטלפון חיבור לאינטרנט.
+הטלפון לא יהיה מחובר לאינטרנט.
 
-לא תקבל עדכוני תוכנה עד שתתחבר לאינטרנט.
+לא תוכל לקבל עדכוני תוכנה עד שתתחבר לאינטרנט.
 
-בשלב זה לא תוכל להפעיל תכונות של הגנת המכשיר."</string>
+בשלב זה אינך יכול להפעיל תכונות של הגנת מכשיר."</string>
     <string name="walled_garden_connection_failed">התהליך נמשך זמן רב מדי? נסה לחזור חזרה ולהתחבר לרשת אחרת.</string>
     <string name="walled_garden_connection_unsuccessful">לא ניתן היה להתחבר לאינטרנט</string>
     <string name="ota_update_title">עדכון הטלפון</string>
@@ -172,27 +198,19 @@
     <string name="continue_for_a11y">המשך לגעת במסך עד שתשמע צפצוף על מנת להפעיל את מצב הנגישות.</string>
     <string name="canceled_a11y">מצב נגישות בוטל.</string>
     <string name="enabled_a11y">מצב נגישות מופעל.</string>
-    <string name="welcome_message">ברוכים הבאים!</string>
-    <string name="emergency_dial">חירום</string>
-    <string name="welcome_language_picker_dialog_title">באיזו שפה להשתמש?</string>
-    <string name="welcome_language_picker_section_suggested">הצעות</string>
-    <string name="welcome_language_picker_section_all">כל השפות</string>
+    <string name="emergency_dial">שיחת חירום</string>
     <string name="welcome_language_picker_content_description">שפה: %s</string>
     <string name="lock_screen_intro_title">הגן על הטלפון שלך</string>
-    <string name="lock_screen_intro_text">הפעל את תכונות הגנת המכשיר כדי למנוע מאחרים להשתמש בטלפון הזה ללא אישורך. <annotation id="learn_more">למידע נוסף</annotation></string>
-    <string name="lock_screen_intro_text_secondary">"אם תבחר באפשרות 'כן', תקבל הנחיות להגדרת מסך הנעילה."</string>
-    <string name="lock_screen_intro_check_box"><b>הגן על מכשיר זה</b> ודרוש קוד אימות, קו או סיסמה לביטול נעילת המסך.</string>
-    <string name="lock_screen_intro_radio_fingerprint">הגדר טביעת אצבע</string>
-    <string name="lock_screen_intro_radio_generic">‏הגדר PIN, קו ביטול נעילה או סיסמה</string>
-    <string name="lock_screen_intro_radio_no">לא</string>
-    <string name="lock_screen_intro_success">"נעילת המסך שלך הוגדרה בהצלחה.
+    <string name="lock_screen_intro_text">"מנע מאחרים להשתמש בטלפון זה ללא אישורך על ידי הפעלת תכונות של הגנת מכשיר.
 "<annotation id="learn_more">למידע נוסף</annotation></string>
-    <string name="lock_screen_intro_dialog_text_frp">"‏ההגנה על המכשיר מופעלת באופן אוטומטי כאשר אתה מוסיף חשבון Google ומגדיר נעילת מסך. בשילוב עם 'ניהול מכשיר ה-Android', ההגנה על המכשיר עוזרת לך לאתר ולמחוק את הטלפון במקרה של אובדן או גנבה.
+    <string name="lock_screen_intro_text_secondary">"אם תבחר באפשרות 'כן', תראה הנחיות להגדרת מסך הנעילה."</string>
+    <string name="lock_screen_intro_check_box"><b>הגן על מכשיר זה</b> ודרוש קוד אימות, קו או סיסמה לביטול נעילת המסך.</string>
+    <string name="lock_screen_intro_button">הגדר נעילת מסך עכשיו</string>
+    <string name="lock_screen_intro_success">מסך הנעילה הוגדר בהצלחה.</string>
+    <string name="lock_screen_intro_dialog_text">"‏הגנת המכשיר מופעלת באופן אוטומטי כשאתה מוסיף חשבון Google ומגדיר נעילת מסך. באמצעות 'ניהול מכשיר ה-Android', תוכל לאתר ולמחוק את הטלפון, ולהגן עליו מפני שימוש חוזר במקרה של אובדן או גניבה.
 
-גם אם הטלפון יימחק, אף אחד לא יוכל להשתמש בו ללא הסיסמה של חשבון Google."</string>
-    <string name="lock_screen_intro_dialog_text">"‏ההגנה על המכשיר מופעלת באופן אוטומטי כאשר אתה מוסיף חשבון Google ומגדיר נעילת מסך. בשילוב עם 'ניהול מכשיר ה-Android', ההגנה על המכשיר עוזרת לך לאתר ולמחוק את הטלפון במקרה של אובדן או גנבה."</string>
-    <string name="lock_screen_intro_skip_dialog_text_frp">התכונות של הגנה על המכשיר לא יופעלו. במקרה של אובדן, גנבה או מחיקה, לא תהיה לך אפשרות למנוע מאחרים להשתמש בטלפון.</string>
-    <string name="lock_screen_intro_skip_dialog_text">התכונות של הגנה על המכשיר לא יופעלו. במקרה של אובדן או גנבה, לא תהיה לך אפשרות למנוע מאחרים להשתמש בטלפון.</string>
+גם אם הטלפון יימחק, יהיה צורך בסיסמה של חשבון Google שלך על מנת להשתמש בו."</string>
+    <string name="lock_screen_intro_skip_dialog_text">התכונות של הגנת מכשיר לא יופעלו. לא תוכל למנוע מאחרים להשתמש בטלפון זה במקרה של אובדן, גניבה או מחיקה.</string>
     <string name="services_activity_title">‏שירותי Google</string>
     <string name="services_backup_heading">גיבוי</string>
     <string name="services_location_heading">מיקום</string>
@@ -204,45 +222,21 @@
     <string name="restore_wallpaper_title">משחזר טפט…</string>
     <string name="restore_device_settings_title">משחזר הגדרות מכשיר…</string>
     <string name="restore_launcher_title">משחזר את מפעיל האפליקציות…</string>
-    <string name="restore_failed_message">לא ניתן היה לשחזר מהגיבוי.</string>
-    <string name="restore_no_backup_message">אין גיבויים זמינים בשביל המכשיר המקורי.</string>
-    <string name="restore_stopped_message">לצערנו, המכשיר הפסיק לשחזר נתונים מהגיבוי.</string>
+    <string name="restore_failed_message">לא ניתן היה לשחזר מהגיבוי</string>
     <string name="name_title">שם</string>
     <string name="name_text">הוספת השם מאפשרת לטלפון להתאים אישית חלק מהאפליקציות.</string>
     <string name="first_name">פרטי</string>
     <string name="last_name">משפחה</string>
     <string name="cant_be_blank">חובה למלא את השדה.</string>
-    <string name="device_owner_warning_title">אפשר לעקוב אחר הטלפון</string>
-    <string name="device_owner_warning">הטלפון הזה מנוהל על ידי “%1$s”, והמשמעות היא שחלק מהמידע עשוי להיות גלוי לאנשים אחרים. כדי למנוע מעקב, אפס את הטלפון שלך.</string>
-    <string name="device_owner_continue">המשך</string>
-    <string name="device_owner_reset">איפוס טלפון</string>
-    <string name="factory_reset_title">איפוס טלפון</string>
-    <string name="factory_reset_instructions">אזהרה: איפוס ימחק את כל החשבונות והנתונים באחסון הפנימי של הטלפון הזה.</string>
-    <string name="factory_reset_confirmation_title">האם לאפס?</string>
-    <string name="factory_reset_confirmation">האם למחוק את כל החשבונות והנתונים בטלפון הזה? לא ניתן לבטל את הפעולה הזו!</string>
-    <string name="factory_reset_button">מחק ואפס</string>
-    <string name="restart_setup_wizard_dialog_title">לא מחובר לחשבון</string>
-    <string name="restart_setup_wizard_dialog_text">"‏כדי להשתמש בטלפון הזה, ראשית עליך להיכנס אל חשבון Google של בעלים שהיה מוגדר בטלפון הזה בזמן האיפוס האחרון.
-
-מפני שלא עשית זאת, עליך להגדיר שוב את הטלפון."</string>
-    <string name="restart_setup_wizard_button_label">הגדר את הטלפון</string>
-    <string name="sec_user_continue">המשך</string>
-    <string name="sec_user_quit">צא</string>
-    <string name="user_warning_title">הגדרת משתמש חדש</string>
-    <string name="welcome_secondary_user_added_text">%s הוסיף אותך לטלפון הזה.</string>
-    <string name="welcome_secondary_user_added_no_owner_name_text">נוספת לטלפון הזה.</string>
-    <string name="welcome_secondary_user_info_text"><b>חשוב:</b>"
-
- "<li><ul>הבעלים של הטלפון יכול להסיר אפליקציות או להסיר לחלוטין את השטח שהוקצה לך.</ul></li>"
-
- "<li><ul>כל משתמש אחר יכול לקבל הרשאות אפליקציה מעודכנות בשמך.</ul></li>"
-
- "<li><ul>כמו בכל מחשב, עליך לשתף את הטלפון הזה רק עם אנשים שאתה סומך עליהם. </ul></li></string>
-    <string name="welcome_limited_user_info_text">" "<b>חשוב:</b>"
-
- "<li><ul>הבעלים של הטלפון יכול להתקין ולהסיר אפליקציות, להגדיר מגבלות או להסיר לחלוטין את השטח שהוקצה לך.</ul></li>"
-
- "<li><ul>כל משתמש אחר יכול לקבל הרשאות אפליקציה מעודכנות בשמך.</ul></li>"
-
- "<li><ul>כמו בכל מחשב, עליך לשתף את הטלפון הזה רק עם אנשים שאתה סומך עליהם. </ul></li></string>
+    <string name="lock_pin_confirm_your_pin_header">‏אשר את מספר ה-PIN</string>
+    <string name="lock_pin_choose_your_pin_header">‏בחר את מספר ה-PIN</string>
+    <string name="lock_pin_ok_label">אישור</string>
+    <string name="lock_pin_cancel_label">בטל</string>
+    <string name="lock_pin_press_continue">"גע ב'המשך' כשתסיים"</string>
+    <string name="lock_pin_too_short">‏על מספר ה-PIN להיות באורך %d ספרות לפחות</string>
+    <string name="lock_pin_too_long">‏מספר ה-PIN חייב להיות קצר מ-%d ספרות.</string>
+    <string name="lock_pin_illegal_character">הסיסמה מכילה תו לא חוקי.</string>
+    <string name="lock_pin_contains_non_digits">‏מספר ה-PIN יכול להכיל רק את הספרות 0‏-9.</string>
+    <string name="lock_pin_confirm_pins_dont_match">‏מספרי ה-PIN אינם תואמים</string>
+    <string name="lock_pin_continue_label">המשך</string>
 </resources>

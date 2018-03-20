@@ -42,10 +42,6 @@
         <item quantity="other">%1$d apper ble oppdatert</item>
         <item quantity="one">%1$d app ble oppdatert</item>
     </plurals>
-    <plurals name="delete_backup_success_message">
-        <item quantity="other">Sikkerhetskopiene er slettet.</item>
-        <item quantity="one">Sikkerhetskopien er slettet.</item>
-    </plurals>
     <plurals name="download_message_all_failed">
         <item quantity="other">Elementene kunne ikke lastes ned</item>
         <item quantity="one">Kunne ikke laste ned elementet</item>
@@ -123,22 +119,6 @@
         <item quantity="other">Vil du dele disse mappene?</item>
         <item quantity="one">Vil du dele denne mappen?</item>
     </plurals>
-    <plurals name="move_error_cannot_move_in_not_owned">
-        <item quantity="other">Det finnes enkelte elementer du ikke eier. De kan ikke flyttes til team-disken.</item>
-        <item quantity="one">Du eier ikke dette elementet. Det kan ikke flyttes til team-disken.</item>
-    </plurals>
-    <plurals name="move_error_no_permission_src">
-        <item quantity="other">Det finnes enkelte elementer du ikke har tillatelse til å flytte ut av mappen.</item>
-        <item quantity="one">Du har ikke tillatelse til å flytte dette elementet ut av denne mappen.</item>
-    </plurals>
-    <plurals name="pdocs_action_items">
-        <item quantity="other">%1$s handlingselementer</item>
-        <item quantity="one">%1$s handlingselement</item>
-    </plurals>
-    <plurals name="pdocs_comments">
-        <item quantity="other">%1$s ubesvarte nevninger</item>
-        <item quantity="one">%1$s ubesvart nevning</item>
-    </plurals>
     <plurals name="pdocs_suggestions">
         <item quantity="other">%1$s forslag</item>
         <item quantity="one">%1$s forslag</item>
@@ -163,51 +143,39 @@
         <item quantity="other">%1$d filer</item>
         <item quantity="one">%1$d fil</item>
     </plurals>
-    <plurals name="pin_notification_waiting_ticker">
-        <item quantity="other">Nedlastinger er satt på pause – venter på Wi-Fi …</item>
-        <item quantity="one">Nedlastingen er satt på pause. Venter på Wi-Fi …</item>
-    </plurals>
     <plurals name="pin_notification_waiting_title">
         <item quantity="other">%1$d nedlastinger har stoppet midlertidig.</item>
         <item quantity="one">%1$d nedlasting har stoppet midlertidig.</item>
     </plurals>
     <plurals name="plus_photo_item_remove_items_dialog_text_multiple">
-        <item quantity="other">%1$d elementer blir flyttet til papirkurven. Elementene blir også fjernet fra Google Foto.</item>
+        <item quantity="other">%d elementer blir flyttet til papirkurven. Elementene blir også fjernet fra Google Foto.</item>
         <item quantity="one">Ett element blir flyttet til papirkurven. Elementet blir også fjernet fra Google Foto.</item>
     </plurals>
-    <plurals name="prioritydocs_badge_a11y_text">
-        <item quantity="other">%1$s oppfølgingselementer</item>
-        <item quantity="one">%1$s oppfølgingselement</item>
-    </plurals>
-    <plurals name="prioritydocs_menu_item_a11y_text">
-        <item quantity="other">%1$s oppfølgingselementer</item>
-        <item quantity="one">%1$s oppfølgingselement</item>
-    </plurals>
     <plurals name="recent_activity_type_commented_many_users">
-        <item quantity="other">Har kommentert %1$d filer</item>
+        <item quantity="other">Har kommentert %d filer</item>
         <item quantity="one">Har kommentert en fil</item>
     </plurals>
     <plurals name="recent_activity_type_commented_one_user">
-        <item quantity="other">Har kommentert %1$d filer</item>
+        <item quantity="other">Har kommentert %d filer</item>
         <item quantity="one">Har kommentert en fil</item>
     </plurals>
     <plurals name="recent_activity_type_commented_this_file">
         <item quantity="other">Har kommentert denne filen</item>
     </plurals>
     <plurals name="recent_activity_type_created_extra_many_users">
-        <item quantity="other">Har opprettet %1$d elementer i:</item>
+        <item quantity="other">Har opprettet %d elementer i:</item>
         <item quantity="one">Har opprettet et element i:</item>
     </plurals>
     <plurals name="recent_activity_type_created_extra_one_user">
-        <item quantity="other">Har opprettet %1$d elementer i:</item>
+        <item quantity="other">Har opprettet %d elementer i:</item>
         <item quantity="one">Har opprettet et element i:</item>
     </plurals>
     <plurals name="recent_activity_type_created_many_users">
-        <item quantity="other">Har opprettet %1$d elementer</item>
+        <item quantity="other">Har opprettet %d elementer</item>
         <item quantity="one">Har opprettet et element</item>
     </plurals>
     <plurals name="recent_activity_type_created_one_user">
-        <item quantity="other">Har opprettet %1$d elementer</item>
+        <item quantity="other">Har opprettet %d elementer</item>
         <item quantity="one">Har opprettet et element</item>
     </plurals>
     <plurals name="recent_activity_type_created_this_file">
@@ -217,26 +185,26 @@
         <item quantity="other">Har opprettet denne mappen</item>
     </plurals>
     <plurals name="recent_activity_type_edited_many_users">
-        <item quantity="other">Har redigert %1$d elementer</item>
+        <item quantity="other">Har redigert %d elementer</item>
         <item quantity="one">Har redigert et element</item>
     </plurals>
     <plurals name="recent_activity_type_edited_one_user">
-        <item quantity="other">Har redigert %1$d elementer</item>
+        <item quantity="other">Har redigert %d elementer</item>
         <item quantity="one">Har redigert et element</item>
     </plurals>
     <plurals name="recent_activity_type_edited_this_file">
         <item quantity="other">Har redigert denne filen</item>
     </plurals>
     <plurals name="recent_activity_type_empty_trash">
-        <item quantity="other">Har slettet %1$d elementer for godt</item>
+        <item quantity="other">Har slettet %d elementer for godt</item>
         <item quantity="one">Har slettet et element for godt</item>
     </plurals>
     <plurals name="recent_activity_type_link_many_users">
-        <item quantity="other">Har endret linktilgangen for %1$d elementer</item>
+        <item quantity="other">Har endret linktilgangen for %d elementer</item>
         <item quantity="one">Har endret linktilgangen for et element</item>
     </plurals>
     <plurals name="recent_activity_type_link_one_user">
-        <item quantity="other">Har endret linktilgangen for %1$d elementer</item>
+        <item quantity="other">Har endret linktilgangen for %d elementer</item>
         <item quantity="one">Har endret linktilgangen for et element</item>
     </plurals>
     <plurals name="recent_activity_type_link_this_file">
@@ -246,19 +214,19 @@
         <item quantity="other">Har endret linktilgangen for denne mappen</item>
     </plurals>
     <plurals name="recent_activity_type_moved_extra_many_users">
-        <item quantity="other">Har flyttet %1$d elementer til:</item>
+        <item quantity="other">Har flyttet %d elementer til:</item>
         <item quantity="one">Har flyttet et element til:</item>
     </plurals>
     <plurals name="recent_activity_type_moved_extra_one_user">
-        <item quantity="other">Har flyttet %1$d elementer til:</item>
+        <item quantity="other">Har flyttet %d elementer til:</item>
         <item quantity="one">Har flyttet et element til:</item>
     </plurals>
     <plurals name="recent_activity_type_moved_many_users">
-        <item quantity="other">Har flyttet %1$d elementer</item>
+        <item quantity="other">Har flyttet %d elementer</item>
         <item quantity="one">Har flyttet et element</item>
     </plurals>
     <plurals name="recent_activity_type_moved_one_user">
-        <item quantity="other">Har flyttet %1$d elementer</item>
+        <item quantity="other">Har flyttet %d elementer</item>
         <item quantity="one">Har flyttet et element</item>
     </plurals>
     <plurals name="recent_activity_type_moved_this_file">
@@ -274,11 +242,11 @@
         <item quantity="other">Har flyttet denne mappen til:</item>
     </plurals>
     <plurals name="recent_activity_type_renamed_many_users">
-        <item quantity="other">Ga nytt navn til %1$d elementer</item>
+        <item quantity="other">Har endret navn på %d elementer</item>
         <item quantity="one">Har endret navn på et element</item>
     </plurals>
     <plurals name="recent_activity_type_renamed_one_user">
-        <item quantity="other">Ga nytt navn til %1$d elementer</item>
+        <item quantity="other">Har endret navn på %d elementer</item>
         <item quantity="one">Har endret navn på et element</item>
     </plurals>
     <plurals name="recent_activity_type_renamed_this_file">
@@ -288,19 +256,19 @@
         <item quantity="other">Har endret navn på denne mappen</item>
     </plurals>
     <plurals name="recent_activity_type_shared_extra_many_users">
-        <item quantity="other">Har delt %1$d elementer med:</item>
+        <item quantity="other">Har delt %d elementer med:</item>
         <item quantity="one">Har delt et element med:</item>
     </plurals>
     <plurals name="recent_activity_type_shared_extra_one_user">
-        <item quantity="other">Har delt %1$d elementer med:</item>
+        <item quantity="other">Har delt %d elementer med:</item>
         <item quantity="one">Har delt et element med:</item>
     </plurals>
     <plurals name="recent_activity_type_shared_many_users">
-        <item quantity="other">Har delt %1$d elementer</item>
+        <item quantity="other">Har delt %d elementer</item>
         <item quantity="one">Har delt et element</item>
     </plurals>
     <plurals name="recent_activity_type_shared_one_user">
-        <item quantity="other">Har delt %1$d elementer</item>
+        <item quantity="other">Har delt %d elementer</item>
         <item quantity="one">Har delt et element</item>
     </plurals>
     <plurals name="recent_activity_type_shared_this_file">
@@ -316,11 +284,11 @@
         <item quantity="other">Har delt denne mappen med:</item>
     </plurals>
     <plurals name="recent_activity_type_trashed_many_users">
-        <item quantity="other">Har flyttet %1$d elementer til papirkurven</item>
+        <item quantity="other">Har flyttet %d elementer til papirkurven</item>
         <item quantity="one">Har flyttet et element til papirkurven</item>
     </plurals>
     <plurals name="recent_activity_type_trashed_one_user">
-        <item quantity="other">Har flyttet %1$d elementer til papirkurven</item>
+        <item quantity="other">Har flyttet %d elementer til papirkurven</item>
         <item quantity="one">Har flyttet et element til papirkurven</item>
     </plurals>
     <plurals name="recent_activity_type_trashed_this_file">
@@ -330,11 +298,11 @@
         <item quantity="other">Har fjernet denne mappen</item>
     </plurals>
     <plurals name="recent_activity_type_unshared_many_users">
-        <item quantity="other">Har begrenset tilgangen til %1$d elementer</item>
+        <item quantity="other">Har begrenset tilgangen til %d elementer</item>
         <item quantity="one">Har begrenset tilgangen til et element</item>
     </plurals>
     <plurals name="recent_activity_type_unshared_one_user">
-        <item quantity="other">Har begrenset tilgangen til %1$d elementer</item>
+        <item quantity="other">Har begrenset tilgangen til %d elementer</item>
         <item quantity="one">Har begrenset tilgangen til ett element</item>
     </plurals>
     <plurals name="recent_activity_type_unshared_this_file">
@@ -344,11 +312,11 @@
         <item quantity="other">Har begrenset tilgangen til denne mappen</item>
     </plurals>
     <plurals name="recent_activity_type_uploaded_many_users">
-        <item quantity="other">Har lastet opp %1$d elementer</item>
+        <item quantity="other">Har lastet opp %d elementer</item>
         <item quantity="one">Har lastet opp et element</item>
     </plurals>
     <plurals name="recent_activity_type_uploaded_one_user">
-        <item quantity="other">Har lastet opp %1$d elementer</item>
+        <item quantity="other">Har lastet opp %d elementer</item>
         <item quantity="one">Har lastet opp et element</item>
     </plurals>
     <plurals name="recent_activity_type_uploaded_this_file">
@@ -360,17 +328,9 @@
     <plurals name="recent_activity_users_more">
         <item quantity="other">%1$s og %2$d andre</item>
     </plurals>
-    <plurals name="remove_dialog_delete_for_everyone_files_text">
-        <item quantity="other">%1$d filer blir flyttet til %2$s-papirkurven og slettet for godt etter 30 dager.</item>
-        <item quantity="one">Filen blir flyttet til %2$s-papirkurven og slettet for godt etter 30 dager</item>
-    </plurals>
-    <plurals name="remove_dialog_delete_for_everyone_folders_text">
-        <item quantity="other">%1$d mapper blir flyttet til %2$s-papirkurven og slettet for godt etter 30 dager.</item>
-        <item quantity="one">Mappen blir flyttet til %2$s-papirkurven og slettet for godt etter 30 dager</item>
-    </plurals>
-    <plurals name="remove_dialog_delete_for_everyone_items_text">
-        <item quantity="other">%1$d elementer blir flyttet til %2$s-papirkurven og slettet for godt etter 30 dager.</item>
-        <item quantity="one">Elementet blir flyttet til %2$s-papirkurven og slettet for godt etter 30 dager</item>
+    <plurals name="remove_dialog_delete_permanently_text_multiple">
+        <item quantity="other">Er du sikker på at du vil slette disse %d elementene for godt? Denne handlingen kan ikke angres.</item>
+        <item quantity="one">Er du sikker på at du vil slette dette elementet for godt? Du kan ikke angre denne handlingen.</item>
     </plurals>
     <plurals name="selection_floating_handle_count">
         <item quantity="other">%1$d elementer</item>
@@ -384,49 +344,45 @@
         <item quantity="other">Opphevet valget av %1$d elementer</item>
         <item quantity="one">Opphevet valget av %1$d element</item>
     </plurals>
-    <plurals name="selection_message_pin_num_items">
-        <item quantity="other">%d elementer blir tilgj. uten nett</item>
-        <item quantity="one">1 element blir tilgjengelig uten nett</item>
-    </plurals>
     <plurals name="selection_message_star_num_items">
-        <item quantity="other">%1$d elementer ble stjernemerket</item>
+        <item quantity="other">%d elementer ble stjernemerket</item>
         <item quantity="one">1 element ble stjernemerket</item>
     </plurals>
     <plurals name="selection_message_unpin_num_items">
-        <item quantity="other">%1$d elementer blir ikke lenger tilgjengelige uten nett</item>
-        <item quantity="one">1 element blir ikke lenger tilgjengelig uten nett</item>
+        <item quantity="other">%d elementer ble fjernet fra enheten</item>
+        <item quantity="one">1 element ble fjernet fra enheten</item>
     </plurals>
     <plurals name="selection_message_unstar_num_items">
-        <item quantity="other">Fjernet stjernemerking fra %1$d elementer</item>
+        <item quantity="other">Fjernet stjernemerking fra %d elementer</item>
         <item quantity="one">Fjernet stjernemerking fra 1 element</item>
     </plurals>
     <plurals name="selection_message_untrash_num_items">
-        <item quantity="other">%1$d elementer ble gjenopprettet</item>
+        <item quantity="other">%d elementer ble gjenopprettet</item>
         <item quantity="one">1 element ble gjenopprettet</item>
-    </plurals>
-    <plurals name="selection_undo_complete_message_remove_num_items">
-        <item quantity="other">%1$d elementer ble gjenopprettet</item>
-        <item quantity="one">1 element ble gjenopprettet</item>
-    </plurals>
-    <plurals name="selection_undo_complete_num_items_add_trashed_message">
-        <item quantity="other">%1$d elementer ble fjernet</item>
-        <item quantity="one">1 element ble fjernet</item>
-    </plurals>
-    <plurals name="selection_undo_complete_num_items_move_message">
-        <item quantity="other">%1$d elementer ble flyttet tilbake</item>
-        <item quantity="one">1 element ble flyttet tilbake</item>
-    </plurals>
-    <plurals name="selection_undo_complete_num_items_move_trashed_message">
-        <item quantity="other">%1$d elementer ble flyttet tilbake til papirkurven</item>
-        <item quantity="one">1 element ble flyttet tilbake til papirkurven</item>
-    </plurals>
-    <plurals name="selection_undo_complete_num_items_restore_trashed_message">
-        <item quantity="other">%1$d elementer ble flyttet tilbake til papirkurven</item>
-        <item quantity="one">1 element ble flyttet tilbake til papirkurven</item>
     </plurals>
     <plurals name="selection_undo_message_remove_num_items">
-        <item quantity="other">%1$d elementer ble fjernet</item>
+        <item quantity="other">%d elementer ble fjernet</item>
         <item quantity="one">Ett element ble fjernet</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_add_message">
+        <item quantity="other">%1$d elementer ble lagt til i %2$s</item>
+        <item quantity="one">1 element ble lagt til i %2$s</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_add_trashed_message">
+        <item quantity="other">%1$d elementer ble gjenopprettet og lagt til i %2$s</item>
+        <item quantity="one">1 element ble gjenopprettet og lagt til i %2$s</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_move_message">
+        <item quantity="other">%1$d elementer ble flyttet til %2$s</item>
+        <item quantity="one">Ett element ble flyttet til %2$s</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_move_trashed_message">
+        <item quantity="other">%1$d elementer ble gjenopprettet og flyttet til %2$s</item>
+        <item quantity="one">1 element ble gjenopprettet og flyttet til %2$s</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_restore_trashed_message">
+        <item quantity="other">%1$d elementer ble gjenopprettet til %2$s</item>
+        <item quantity="one">1 element ble gjenopprettet til %2$s</item>
     </plurals>
     <plurals name="send_files">
         <item quantity="other">Send filer med</item>
@@ -435,20 +391,13 @@
     <plurals name="sharing_message_add_users_more">
         <item quantity="other">%1$s er delt med %2$s og %3$d andre</item>
     </plurals>
-    <plurals name="td_sharing_message_add_users_more">
-        <item quantity="other">%2$s og %3$d andre ble lagt til i %1$s</item>
-    </plurals>
-    <plurals name="teamdrive_acl_info_summary">
-        <item quantity="other">%d medlemmer</item>
-        <item quantity="zero">Ingen medlemmer</item>
-        <item quantity="one">1 medlem</item>
-    </plurals>
-    <plurals name="teamdrive_plus_others_text">
-        <item quantity="other">+%d</item>
-    </plurals>
     <plurals name="transfer_notification_waiting_resume">
         <item quantity="other">Gjenoppta alle nå</item>
         <item quantity="one">Gjenoppta nå</item>
+    </plurals>
+    <plurals name="transfer_notification_waiting_ticker">
+        <item quantity="other">Opplastingene har stoppet midlertidig. Venter på Wi-Fi ...</item>
+        <item quantity="one">Opplastingen har stoppet midlertidig. Venter på Wi-Fi ...</item>
     </plurals>
     <plurals name="upload_notification_prepare_upload_canceled">
         <item quantity="other">Du kansellerte den planlagte opplastingen av %1$d filer.</item>
@@ -469,10 +418,6 @@
     <plurals name="upload_notification_sync_progress">
         <item quantity="other">Laster opp %1$d filer.</item>
         <item quantity="one">Laster opp %1$d fil.</item>
-    </plurals>
-    <plurals name="upload_notification_waiting_ticker">
-        <item quantity="other">Opplastingene har stoppet midlertidig. Venter på Wi-Fi …</item>
-        <item quantity="one">Opplastingen har stoppet midlertidig. Venter på Wi-Fi …</item>
     </plurals>
     <plurals name="upload_notification_waiting_title">
         <item quantity="other">%1$d opplastinger har stoppet midlertidig.</item>

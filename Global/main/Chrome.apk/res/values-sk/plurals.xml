@@ -18,28 +18,4 @@
         <item quantity="few">pred %d dňami</item>
         <item quantity="many">pred %d dňom</item>
     </plurals>
-    <plurals name="accessibility_toolbar_btn_tabswitcher_toggle">
-        <item quantity="other">%1$d otvorených kariet</item>
-        <item quantity="one">%1$d otvorená karta</item>
-        <item quantity="few">%1$d otvorené karty</item>
-        <item quantity="many">%1$d otvorenej karty</item>
-    </plurals>
-    <plurals name="accessibility_selected_items">
-        <item quantity="other">%d vybraných položiek</item>
-        <item quantity="one">1 vybraná položka</item>
-        <item quantity="few">%d vybrané položky</item>
-        <item quantity="many">%d vybranej položky</item>
-    </plurals>
-    <plurals name="accessibility_share_selected_items">
-        <item quantity="other">Zdieľať %d vybraných položiek</item>
-        <item quantity="one">Zdieľať 1 vybranú položku</item>
-        <item quantity="few">Zdieľať %d vybrané položky</item>
-        <item quantity="many">Zdieľať %d vybranej položky</item>
-    </plurals>
-    <plurals name="accessibility_remove_selected_items">
-        <item quantity="other">Odstrániť %d vybraných položiek</item>
-        <item quantity="one">Odstrániť 1 vybranú položku</item>
-        <item quantity="few">Odstrániť %d vybrané položky</item>
-        <item quantity="many">Odstrániť %d vybranej položky</item>
-    </plurals>
 </resources>

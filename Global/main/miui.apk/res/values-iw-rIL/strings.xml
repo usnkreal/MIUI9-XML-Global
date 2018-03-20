@@ -25,6 +25,7 @@
     <string name="deselect_all">בטל בחירה</string>
     <string name="instruction">הוראות</string>
     <string name="sar">"פרטי חשיפת 'תדרי רדיו' (RF)"</string>
+    <string name="user_experience_program">User Experience Program</string>
     <string name="abc_action_bar_up_description">נווט מעלה</string>
     <string name="abc_action_bar_home_description">נווט הביתה</string>
     <string name="time_picker_label_hour">ש</string>

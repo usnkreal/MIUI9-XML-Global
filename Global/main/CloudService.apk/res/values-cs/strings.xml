@@ -173,8 +173,7 @@ Při změně SIM karty bude automaticky odeslána SMS zpráva pro znovu aktivov�
     <string name="micloud_user_space_usage">Kapacita úložiště</string>
     <string name="micloud_web_discription_01">Přihlaste se na i.mi.com</string>
     <string name="micloud_web_discription_02">pro ukládání a přístup k vašim souborům odkudkoli</string>
-    <string name="micloud_web_discription">Navštivte i.mi.com</string>
-    <string name="micloud_web_discription_international">Navštivte www.mi.com/micloud</string>
+    <string name="micloud_web_discription_place_holder">Navštivte %1$s</string>
     <string name="micloud_full_influence_title">Když je Mi Cloud plný…</string>
     <string name="micloud_warn_low_title">Dochází volné místo</string>
     <string name="micloud_warn_low_sum">Je využito 90% úložiště.</string>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="notification_new_messages">
+        <item quantity="other">Új üzenetek</item>
+        <item quantity="one">Új üzenet</item>
+    </plurals>
     <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
         <item quantity="other">Meghívott egy Hangouts-beszélgetésbe %1$d másik felhasználóval együtt</item>
         <item quantity="one">Meghívott egy Hangouts-beszélgetésbe %1$d másik felhasználóval együtt</item>
@@ -12,17 +16,9 @@
         <item quantity="other">további %1$d személlyel</item>
         <item quantity="one">további %1$d személlyel</item>
     </plurals>
-    <plurals name="gallery_picker_max_image_count_reached_message">
-        <item quantity="other">Legfeljebb %d képmellékletet jelölhet ki.</item>
-        <item quantity="one">Legfeljebb 1 képmellékletet jelölhet ki.</item>
-    </plurals>
-    <plurals name="gallery_picker_max_video_count_reached_message">
-        <item quantity="other">Legfeljebb %d videomellékletet jelölhet ki.</item>
-        <item quantity="one">Legfeljebb 1 videomellékletet jelölhet ki.</item>
-    </plurals>
-    <plurals name="watermark_gallery_label">
-        <item quantity="other">Látta: %s</item>
-        <item quantity="one">Látta: %s</item>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">Legfeljebb %d mellékletet jelölhet ki.</item>
+        <item quantity="one">Legfeljebb 1 mellékletet jelölhet ki.</item>
     </plurals>
     <plurals name="num_minutes_in_the_past">
         <item quantity="other">%d p</item>
@@ -159,6 +155,10 @@
     <plurals name="dnd_minutes">
         <item quantity="other">%d perc</item>
         <item quantity="one">1 perc</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">Látta: %s</item>
+        <item quantity="one">Látta: %s</item>
     </plurals>
     <plurals name="focus_gallery_label">
         <item quantity="other">%s az összes üzenetet olvasta.</item>

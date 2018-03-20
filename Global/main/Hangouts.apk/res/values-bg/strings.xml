@@ -54,11 +54,8 @@
     <string name="setup_error_enable_voice_calling">Обажданията през Wi‑Fi за този профил не можаха да бъдат активирани.</string>
     <string name="teleconnectionservice_notification">Project Fi – активно обаждане</string>
     <string name="settings_label">Конфигуриране на обажданията през Wi‑Fi</string>
-    <string name="settings_wifi_data_label">Обаждания през Wi‑Fi и мобилна връзка за данни</string>
     <string name="wifi_calling_enabled_title">Обаждания през Wi‑Fi</string>
     <string name="wifi_calling_enabled_summary">Използване на Wi-Fi за обаждания, когато връзката ми е достатъчно силна</string>
-    <string name="wifi_data_calling_title">Обаждания през Wi‑Fi и мобилна връзка за данни</string>
-    <string name="wifi_data_calling_enabled_summary">Използване на Wi-Fi за обаждания, когато сигналът е достатъчно силен. Също така използване на мобилна връзка за данни при някои международни обаждания с цел по-добро качество.</string>
     <string name="selected_account_title">Профил за Wi‑Fi</string>
     <string name="ask_each_call_title">Питане всеки път</string>
     <string name="request_feedback_title">Оценяване на обажданията</string>
@@ -78,20 +75,6 @@
     <string name="sms_promo_banner_message_text">За да изпращате лесно и бързо SMS, изпробвайте Messenger.</string>
     <string name="sms_promo_banner_dismiss_button_text">Отхвърляне</string>
     <string name="sms_promo_banner_try_it_button_text">Изпробване</string>
-    <string name="new_conversation_shortcut_short_text">Чат</string>
-    <string name="video_call_shortcut_short_text">Обаждане</string>
-    <string name="audio_call_shortcut_short_text">Обаждане</string>
-    <string name="unsupported_content_type">Неподдържан тип съдържание</string>
-    <string name="unmerged_setting_message_text">Обединяването на разговори вече не е възможно. &lt;a href=%s>Научете повече&lt;/a></string>
-    <string name="gv_sms_alert_dialog_title">Получателят на SMS е невалиден</string>
-    <string name="gv_sms_unsupported_destination_message">Понастоящем Google Voice не може да изпраща SMS до телефонни номера извън САЩ или Канада.</string>
-    <string name="sms_invalid_phone_number_message_prefix">Следният телефонен номер е твърде дълъг:</string>
-    <string name="sms_update_the_contact">Моля, актуализирайте контакта и опитайте отново.</string>
-    <string name="gv_sms_invalid_phone_number_message_length_suffix">(Максималната дължина за получателите на SMS в Google Voice е %s цифри, напр. номера в САЩ или Канада.)</string>
-    <string name="emergency_message_warning_title">Не може да се изпрати спешно съобщение</string>
-    <string name="emergency_message_warning_message">Не се предлага изпращане на текстови съобщения до номер на услугите за спешни случаи. За да се обадите на %s, наберете номера през телефона си.</string>
-    <string name="hangouts_emergency_warning_title">Не е възможно да се обадите или да изпратите съобщение до номер за спешни случаи</string>
-    <string name="hangouts_emergency_warning_message">Не е възможно да се свържете с номерата за спешни случаи чрез обаждания или съобщения в Hangouts. За да се обадите на %s, наберете номера през телефона си.</string>
     <string name="quick_reply_option">Отговор</string>
     <string name="quick_reply_send_message">Изпратете съобщение</string>
     <string name="quick_reply_reply_to">Отговор до %s</string>
@@ -118,7 +101,6 @@
     <string name="verify_phone_invalid_code">Невалиден код. Моля, опитайте отново.</string>
     <string name="verify_phone_verify">Напред</string>
     <string name="verify_phone_hint_text">••••</string>
-    <string name="verify_phone_code_resent_toast">Кодът е изпратен</string>
     <string name="verify_phone_verifying_number">Номерът ви се потвърждава</string>
     <string name="verify_phone_duration_warning">Това може да отнеме минута или повече в зависимост от оператора ви.</string>
     <string name="verify_phone_number_verified">"Потвърден номер
@@ -127,26 +109,20 @@
     <string name="verify_phone_try_again">Но можете да опитате отново по-късно.</string>
     <string name="verify_phone_done">Готово</string>
     <string name="verify_phone_done_image">Потвърждаването на телефона завърши.</string>
-    <string name="group_search_section_header">Вашите групи</string>
     <string name="new_conversation_adding">Премахване на %s</string>
     <string name="peoplelistv2_loading">Зарежда се…</string>
-    <string name="group_name_title">Нова група</string>
-    <string name="invite_more_title">Добавяне на хора</string>
+    <string name="group_name_title">Нов групов разговор</string>
     <string name="group_name_hint_text">Наименувайте тази група</string>
     <string name="chip_lock_description">Участникът вече е в разговора и не може да бъде премахнат.</string>
     <string name="remove_participant_description">Премахване на %s от списъка с участници за добавяне в разговора</string>
     <string name="people_list_error">Данните не могат да се заредят. Проверете връзката си.</string>
     <string name="menu_contacts">Контакти</string>
-    <string name="merged_people_section_title">Вашите контакти</string>
+    <string name="merged_people_section_title">Контакти</string>
     <string name="frequent_contacts_section_title_short">Чести</string>
-    <string name="on_hangouts_contacts_section_title">В Hangouts</string>
-    <string name="not_on_hangouts_contacts_section_title">Извън Hangouts</string>
-    <string name="other_contacts_section_title">Други контакти</string>
     <string name="proceed_conversation">Преминаване към разговора</string>
     <string name="proceed_hangout">Преминаване към видеообаждането</string>
-    <string name="proceed_audio_call">Преминаване към гласово обаждане</string>
     <string name="domain_title">Домейн</string>
-    <string name="search_gplus_title">Други хора в Google</string>
+    <string name="search_gplus_title">Търсене в Google+</string>
     <string name="frequent_contacts_section_title">Чести</string>
     <string name="no_contacts_text">Няма контакти</string>
     <string name="no_contacts_instruction_text">Не се притеснявайте. Поканете си приятели!</string>
@@ -156,12 +132,11 @@
     <string name="contacts_permission_allow_text">Разрешаване</string>
     <string name="people_list_no_results_contacts">Няма намерени резултати от контактите ви</string>
     <string name="people_list_no_results_gplus">Няма намерени резултати в Google+</string>
-    <string name="people_search_hint">Име, имейл или телефон</string>
+    <string name="people_search_hint">Въведете име, телефон или имейл адрес</string>
     <string name="new_video_call">Ново видеообаждане</string>
     <string name="new_group">Нова група</string>
     <string name="new_sms">Нов SMS</string>
     <string name="new_conversation">Нов разговор</string>
-    <string name="name_group_option">Наименувайте групата си</string>
     <string name="select_phone_number_list_item" formatted="false">%s: %s</string>
     <string name="add_people_history">Добавените от вас хора могат да виждат всички предишни съобщения в този разговор</string>
     <string name="invitation_detail_title">Поканване в Hangouts</string>
@@ -177,6 +152,53 @@
     <string name="promo_skip_button">Пропускане</string>
     <string name="gebi_progress">Контактът се търси</string>
     <string name="gebi_failure">Търсенето на контакта не бе възможно</string>
+    <string name="reply_activity_title">Отговор</string>
+    <string name="compose_message_view_hint_text">Отговорете безплатно като %1s</string>
+    <string name="compose_message_send_text">ИЗПРАЩАНЕ</string>
+    <string name="compose_message_mute_text">ПРЕНЕБРЕГВАНЕ</string>
+    <string name="compose_message_install_text">ИНСТАЛИРАНЕ</string>
+    <string name="mute_conversation_text">Ако не искате да виждате тези съобщения, можете да пренебрегнете този разговор.</string>
+    <string name="mute_chat_title">ПРЕНЕБРЕГВАНЕ</string>
+    <string name="mute_confirm_button">ОK</string>
+    <string name="mute_conversation_item">Пренебрегване на разговора</string>
+    <string name="report_spam_item">Пренебрегване и подаване на сигнал за СПАМ</string>
+    <string name="mute_app_item">Изключване на известията от %1s</string>
+    <string name="confirm_mute_text">Можете по всяко време да инсталирате %1s от Google Play Магазин, за да извлечете съобщенията си.</string>
+    <string name="confirm_mute_title">Да се изключат ли известията от %1s?</string>
+    <string name="image_notification_content_text">Изпрати изображение</string>
+    <string name="audio_notification_content_text">Изпрати аудиосъобщение</string>
+    <string name="video_notification_content_text">Изпрати видеосъобщение</string>
+    <string name="sticker_notification_content_text">Изпрати стикер</string>
+    <string name="location_notification_content_text">Сподели местоположението си</string>
+    <string name="group_audio_message_content_text">%1s изпрати аудиосъобщение</string>
+    <string name="group_video_message_content_text">%1s изпрати видеосъобщение</string>
+    <string name="group_sticker_message_content_text">%1s изпрати стикер</string>
+    <string name="group_image_message_content_text">%1s изпрати изображение</string>
+    <string name="group_location_message_content_text">%1s сподели местоположение</string>
+    <string name="message_send_success_toast_text">Съобщението бе изпратено</string>
+    <string name="message_send_failure_notification_text">Ами сега! Проблем при изпращането. Докоснете за нов опит</string>
+    <string name="no_thanks_button">НЕ, БЛАГОДАРЯ</string>
+    <string name="install_button">ИНСТАЛИРАНЕ</string>
+    <string name="got_it_button">РАЗБРАХ</string>
+    <string name="first_time_notification_clicked_title">Ново съобщение от %1s</string>
+    <string name="first_time_notification_clicked_dialog_text" formatted="false">%1s говори в чата с вас през приложението %2s. Можете да отговаряте тук безплатно. &lt;a href=%3$s>Научете повече&lt;/a></string>
+    <string name="swipe_to_dismiss_text">Плъзнете за отхвърляне</string>
+    <string name="first_time_message_sent_dialog_title">Съобщението бе изпратено</string>
+    <string name="first_time_message_sent_dialog_text" formatted="false">Продължете разговора с/ъс %1s в/ъв %2s.</string>
+    <string name="notification_reply_action_text">Отговор</string>
+    <string name="notification_ignore_action_text">Пренебрегване</string>
+    <string name="message_send_failure_notification_title">Съобщение до %1s</string>
+    <string name="multi_participants_chat_title" formatted="false">%1s и още %2s</string>
+    <string name="delete_button_text">Готово</string>
+    <string name="restore_button_text">Възстановяване</string>
+    <string name="unsupported_message_text">Съобщението не се поддържа</string>
+    <string name="unknown_notification_content_text">Изпрати ви съобщение</string>
+    <string name="app_icon_content_description">Икона на приложението</string>
+    <string name="avatar_icon_content_description">Икона на разговор</string>
+    <string name="loading_text">Зарежда се…</string>
+    <string name="image_download_notification_title">Изображението се изтегля</string>
+    <string name="message_not_accessible_text">Вече няма достъп до това съобщение</string>
+    <string name="redacted_notification_text">Съдържанието е скрито</string>
     <string name="location_tos_title">Общи условия</string>
     <string name="location_tos_body" formatted="false">С кликването си върху „Приемам“ приемате &lt;a href=%s>Общите условия за местоположението&lt;/a>, &lt;a href=%s>Общите условия на Google&lt;/a> и &lt;a href=%s>Декларацията за поверителност&lt;/a>.</string>
     <string name="location_tos_decline">ОТХВЪРЛЯНЕ</string>
@@ -185,6 +207,8 @@
     <string name="location_attachment_content_description">Местоположение</string>
     <string name="location_address_attachment_content_description">Местоположение, %s</string>
     <string name="location_name_address_attachment_content_description" formatted="false">Местоположение, %s, %s</string>
+    <string name="last_seen">Последно ползване</string>
+    <string name="last_seen_elapsed">Последно ползване: %s</string>
     <string name="account_picker_select_initial_title">Вход</string>
     <string name="offnetwork_invite_send_button_text">Покана</string>
     <string name="offnetwork_invite_sms_continue">Изпращане на SMS</string>
@@ -270,255 +294,31 @@
     <string name="gv_sms_notification_promo_label">Интегриране на Project Fi с SMS</string>
     <string name="gv_sms_integration_promo_notification_title">Активиране на SMS съобщения във Fi</string>
     <string name="gv_sms_integration_promo_notification_description">Изпращайте и получавайте съобщения през връзка за данни и ги четете в Hangouts на всичките си устройства. &lt;a href=%s>Научете повече&lt;/a></string>
-    <string name="gv_sms_no_thanks_button_label">Отхвърляне</string>
+    <string name="no_thanks_button_label">Отхвърляне</string>
     <string name="gv_sms_integration_promo_enable">Активиране</string>
-    <string name="gv_sms_integration_promo_turn_on">Включване</string>
     <string name="gv_sms_optin_confirmation">Интегрирането на Fi с SMS бе активирано.</string>
-    <string name="gmscore_upgrade_title">Актуализиране на услугите за Google Play</string>
-    <string name="gmscore_upgrade_ticker">Hangouts изисква актуализиране на услугите за Google Play.</string>
     <string name="fab_new_conversation">Нов разговор</string>
     <string name="fab_dial_pad">Клавиатура за набиране</string>
     <string name="fab_phone">Набиране</string>
-    <string name="invite_people_bottom_sheet_title">Поканване на хора</string>
-    <string name="invite_people_bottom_sheet_share_link_option">Споделяне на връзката</string>
-    <string name="link_share_intro_text" formatted="false">%s ви кани да се присъедините към обаждане в Hangouts: %s</string>
-    <string name="in_call_hangup_description">Затваряне</string>
-    <string name="in_call_turn_camera_off_button_description">Изключване на камерата</string>
-    <string name="in_call_turn_camera_on_button_description">Включване на камерата</string>
-    <string name="in_call_turn_microphone_off_button_description">Изключване на микрофона</string>
-    <string name="in_call_turn_microphone_on_button_description">Включване на микрофона</string>
-    <string name="in_call_audio_route_speaker">Превключване от високоговорителя</string>
-    <string name="in_call_audio_route_earpiece">Превключване от слушалката</string>
-    <string name="in_call_audio_route_bluetooth">Превключване от Bluetooth</string>
-    <string name="in_call_video_source_front">Превключване към задната камера</string>
-    <string name="in_call_video_source_rear">Превключване към предната камера</string>
-    <string name="in_call_invite">Поканване</string>
-    <string name="in_call_help">Помощ и отзиви</string>
-    <string name="in_call_switch_to_audio">Гласово обаждане</string>
-    <string name="audio_call_switch_to_video">Видеообаждане</string>
-    <string name="ongoing_video_call_notification_title">Текущо видеообаждане</string>
-    <string name="ongoing_audio_call_notification_title">Текущо гласово обаждане</string>
-    <string name="ongoing_call_notification_text">Докоснете за връщане към обаждането.</string>
-    <string name="ongoing_call_notification_exit_text">Изход</string>
-    <string name="status_overlay_calling_text_1_participant">Обаждаме се на %s</string>
-    <string name="status_overlay_calling_text_2_participants" formatted="false">Обаждаме се на %s и %s</string>
-    <string name="status_overlay_calling_text_3_participants" formatted="false">Обаждаме се на %s, %s и %s</string>
-    <string name="status_overlay_calling_text_4_participants" formatted="false">Обаждаме се на %s, %s, %s и %s</string>
-    <string name="status_overlay_calling_text_over_4_participants" formatted="false">Обаждаме се на %s, %s, %s и още %s души</string>
-    <string name="status_overlay_connecting_text">Установява се връзка…</string>
-    <string name="status_overlay_greenroom_text_no_participants">Вие сте първият човек тук</string>
-    <string name="status_overlay_greenroom_text_1_participant">%s участва в обаждането</string>
-    <string name="status_overlay_greenroom_text_2_participants" formatted="false">%s и %s участват в обаждането</string>
-    <string name="status_overlay_greenroom_text_3_participants" formatted="false">%s, %s и %s участват в обаждането</string>
-    <string name="status_overlay_greenroom_text_4_participants" formatted="false">%s, %s, %s и %s участват в обаждането</string>
-    <string name="status_overlay_greenroom_text_over_4_participants" formatted="false">%s, %s, %s и още %s души участват в обаждането</string>
-    <string name="greenroom_join_button_text">Присъединяване</string>
-    <string name="invite_failed">Поканването не бе успешно</string>
-    <string name="default_participant_name">Участник</string>
-    <string name="participant_joined_announcement">%s се присъедини към обаждането</string>
-    <string name="participant_left_announcement">%s напусна обаждането</string>
-    <string name="filmstrip_remote_participant_content_description">Фиксиране на %s</string>
-    <string name="filmstrip_local_participant_content_description">Фиксиране на вас</string>
-    <string name="filmstrip_local_participant_name">Вие</string>
-    <string name="filmstrip_participant_audio_mute_description">Заглушен/а</string>
-    <string name="greenroom_join_button_description">Присъединяване към видеообаждането</string>
-    <string name="action_bar_default_title">Обаждане</string>
-    <string name="action_bar_title_2_participants" formatted="false">%s, %s</string>
-    <string name="action_bar_title_3_participants" formatted="false">%s, %s, %s</string>
-    <string name="action_bar_title_4_participants" formatted="false">%s, %s, %s, %s</string>
-    <string name="action_bar_title_over_4_participants" formatted="false">%s, %s, %s, още %s души</string>
-    <string name="audio_route_selector_fragment_title">Превключване на устройството</string>
-    <string name="audio_route_selector_fragment_speaker">Високоговорител</string>
-    <string name="audio_route_selector_fragment_earpiece">Слушалка</string>
-    <string name="audio_route_selector_fragment_bluetooth">Bluetooth</string>
-    <string name="call_launch_already_in_hangout">Вече сте в обаждане.</string>
-    <string name="call_exited">Напуснахте обаждането.</string>
-    <string name="call_enter_ongoing_phone_call_error">Не можете да се присъедините към обаждане, докато водите телефонен разговор.</string>
-    <string name="call_enter_timeout_error">Времето за изчакване при присъединяване към обаждането изтече. Проверете връзката си с мрежата и опитайте отново.</string>
-    <string name="call_enter_blocked_error">Не можете да се присъедините към обаждането, защото един от участниците ви е блокирал.</string>
-    <string name="call_enter_blocking_error">Не можете да се присъедините към обаждането, защото сте блокирали един от участниците.</string>
-    <string name="call_enter_max_users_error">Ами сега! В това обаждане вече няма места.</string>
-    <string name="call_enter_unknown_error">Присъединяването към обаждането не бе възможно.</string>
-    <string name="call_enter_mature_content">Неразрешено на непълнолетни лица да се присъединят към това обаждане.</string>
-    <string name="call_exited_kicked">Бяхте премахнати от това обаждане.</string>
-    <string name="call_account_registration_error">При регистрирането на профила възникна неочаквана грешка. Моля, опитайте отново.</string>
-    <string name="call_enter_no_network_error">Проверете връзката си с мрежата и опитайте отново.</string>
-    <string name="call_exited_for_phone_call">Обаждането бе прекъснато, защото приехте телефонно обаждане.</string>
-    <string name="call_exited_network_error">Обаждането бе прекъснато. Проверете връзката си с мрежата и опитайте отново.</string>
-    <string name="call_over_error">Обаждането вече приключи.</string>
-    <string name="call_mic_permission_required">За да се присъедините към обаждане, е нужно разрешение за използване на микрофона ви.</string>
-    <string name="unknown_user_name">Неизвестен</string>
-    <string name="status_overlay_a11y_announcement_join_call">Натиснете бутона за присъединяване, за да влезете в обаждането</string>
-    <string name="a11y_announcement_call_control_available">Налични са контроли за обаждането</string>
-    <string name="direct_share_target_long_conversation_name">%s…</string>
     <string name="diagnostics_promo_title">Подобрете Hangouts</string>
     <string name="diagnostics_promo_body">Hangouts ще събира основна информация за използването от ваша страна, за да ни помогне да подобряваме продукта. Понякога Hangouts може също да събира по-подробни диагностични данни, за да ни помогне още повече с подобренията.</string>
     <string name="diagnostics_promo_ok">OK</string>
     <string name="diagnostics_improve_hangouts_summary">Съобщаване на допълнителна диагностична информация за помощ при подобряването на Hangouts</string>
-    <string name="custom_tabs_share_description">Споделяне</string>
-    <string name="custom_tabs_share_sheet_title">Споделяне през</string>
-    <string name="custom_tabs_setting_title">Преглед в Hangouts</string>
-    <string name="custom_tabs_setting_summary">Разрешаване на браузъра на Hangouts да отваря уеб връзки</string>
-    <string name="custom_tabs_mismatched_account_emails_toast">Влезли сте като %s</string>
-    <string name="launch_video_camera_failed">Приложението Камера не можа да се стартира.</string>
-    <string name="video_camera_picker_indicator_desc">Видеоклип</string>
-    <string name="menu_capture_video">Заснемане на видеоклип</string>
-    <string name="video_sharing_hangouts_only">Споделянето на видеоклипове е налице само в разговори в Hangouts.</string>
     <string name="sticker_picker_indicator_desc">Стикери</string>
-    <string name="proxy_picker_indicator_desc">Камера или видеоклип</string>
-    <string name="choose_picture_attachment">Правене на снимка</string>
-    <string name="choose_video_attachment">Правене на филм</string>
     <string name="location_picker_indicator_desc">Местоположение</string>
     <string name="live_camera_indicator_desc">Камера</string>
-    <string name="live_camera_take_photo_desc">Снимане</string>
-    <string name="live_camera_send_photo_desc">Изпращане на снимката</string>
-    <string name="switch_to_front_camera_desc">Превключване към предната камера</string>
-    <string name="switch_to_rear_camera_desc">Превключване към задната камера</string>
     <string name="gallery_picker_empty_view_text">Няма изображения</string>
     <string name="gallery_picker_photo_picking_fab_content_description">Избор на снимка</string>
     <string name="gallery_picker_indicator_desc">Снимки</string>
-    <string name="gallery_photo_selected_str">Избрана, снимката е направена на %s</string>
-    <string name="gallery_photo_unselected_str">Снимката е направена на %s</string>
-    <string name="gallery_video_selected_str" formatted="false">Избран, видеоклипът е заснет на %s, %s</string>
-    <string name="gallery_video_unselected_str" formatted="false">Видеоклипът е заснет на %s, %s</string>
+    <string name="gallery_item_selected_str">Избрано: %1$s</string>
+    <string name="gallery_item_unselected_str">%s</string>
     <string name="gallery_item_video_name_and_duration" formatted="false">%s, %s</string>
     <string name="emoji_picker_indicator_desc">Емотикони</string>
     <string name="launch_camera_failed">Приложението Камера не можа да се стартира.</string>
     <string name="camera_picker_indicator_desc">Камера</string>
     <string name="menu_take_camera_photo">Правене на снимка</string>
-    <string name="pin_menu_item_text">Добавяне към началния екран</string>
-    <string name="people_and_options_activity_title">Хора и опции</string>
-    <string name="menu_show_participants_and_options">Хора и опции</string>
-    <string name="conversation_people_menu_item_text">Хора</string>
-    <string name="people_activity_title">Хора</string>
-    <string name="group_conversation_options_partition_title">Групов разговор</string>
-    <string name="people_in_this_conversation_options_partition_title">Хората в този разговор</string>
-    <string name="last_seen">Активни</string>
-    <string name="last_seen_elapsed">Активност: %s</string>
-    <string name="conversation_options_menu_item_text">Опции</string>
-    <string name="options_activity_title">Опции</string>
-    <string name="conversation_partition_title">Разговор</string>
-    <string name="group_options_partition_title">Опции за групата</string>
-    <string name="notification_options_partition_title">Опции за известяване</string>
-    <string name="other_actions_partition_title">Други действия</string>
-    <string name="hangouts_message_notification_sound_title">Звук за съобщения в чата</string>
-    <string name="hangouts_call_ringtone_title">Мелодия за обаждания</string>
-    <string name="off_the_record_conversation_option_title">История</string>
-    <string name="realtimechat_otr_state_enforced_self">Тази настройка не може да бъде променена поради правилата за домейните, зададени от администратора ви.</string>
-    <string name="realtimechat_otr_state_enforced_other">Тази настройка не може да бъде променена поради правилата за домейните на други потребители в разговора.</string>
-    <string name="conversation_notifications_option">Известия</string>
-    <string name="conversation_notifications_option_all">Всички</string>
-    <string name="conversation_notifications_option_important">Важни</string>
-    <string name="conversation_notifications_option_important_subtext">Споменавания</string>
-    <string name="conversation_notifications_option_none">Никои</string>
-    <string name="conversation_notifications_option_use_global">Използване на глобалните ви настройки</string>
-    <string name="new_group_conversation_option_title">Създаване на група</string>
-    <string name="new_group_with_x_conversation_option_title">Създаване на група с/ъс %s</string>
-    <string name="new_group_mms_conversation_option_title">Създаване на групов MMS</string>
-    <string name="new_group_mms_with_x_conversation_option_title">Създаване на групов MMS с/ъс %s</string>
-    <string name="leave_conversation_option_title">Напускане на разговора</string>
-    <string name="invite_more_conversation_option_title">Добавяне на хора</string>
-    <string name="conversation_group_link_sharing_option_title">Присъединяване чрез връзка</string>
-    <string name="conversation_group_link_sharing_option_dialog_title">Присъединяването чрез връзка вече е активирано</string>
-    <string name="conversation_group_link_sharing_option_dialog_message">Хората, които се присъединят към групата, могат да виждат всички предишни съобщения в този разговор</string>
-    <string name="conversation_group_link_sharing_option_dialog_confirm">Разбрах</string>
-    <string name="conversation_dialog_retrieving_group_link">Връзката се създава...</string>
-    <string name="conversation_group_link_request_failed">Създаването на връзката бе неуспешно</string>
-    <string name="conversation_group_link_description_text">Присъединяване към разговора в Hangouts</string>
-    <string name="conversation_group_link_share_intent_text">Споделяне на връзката</string>
-    <string name="fork_conversation_option_title">Създаване на нов разговор с група</string>
-    <string name="delete_conversation_option_title">Изтриване на разговора</string>
-    <string name="conversation_name_option">Име на разговора</string>
-    <string name="realtimechat_conversation_rename_dialog_title">Преименуване на разговора</string>
-    <string name="realtimechat_conversation_rename_save_button_text">Запазване</string>
-    <string name="realtimechat_conversation_rename_cancel_button_text">Отказ</string>
-    <string name="realtimechat_conversation_rename_hint">Име на разговора</string>
-    <string name="conversation_block_option">Блокиране на %s</string>
-    <string name="conversation_unblock_option">Отблокиране на %s</string>
-    <string name="archive_conversation_option_title">Архивиране на разговора</string>
-    <string name="unarchive_conversation_option_title">Разархивиране на разговора</string>
-    <string name="sms_not_delivered">SMS съобщението не е доставено</string>
-    <string name="ephemeral_message_queued">Подготвя се</string>
-    <string name="ephemeral_message_uploading">Качва се</string>
-    <string name="ephemeral_message_processing">Обработва се</string>
-    <string name="ephemeral_message_sending">Изпраща сe</string>
-    <string name="ephemeral_message_downloading">Изтегля се</string>
-    <string name="mms_failed_mobile_data_disabled">Мобилните данни са деактивирани.</string>
-    <string name="mms_failed_service_blocked">Мобилният план блокира MMS.</string>
-    <string name="mms_failed_invalid_address">Целевият адрес е невалиден.</string>
-    <string name="mms_failed_network_problem">Има проблем с мрежата. Докоснете за нов опит.</string>
-    <string name="mms_failed_message_not_found">MMS съобщението не може да бъде намерено на сървъра на доставчика.</string>
-    <string name="mms_failed_address_hiding_not_supported">Функцията за скриване на адреса не се поддържа.</string>
-    <string name="mms_failed_can_not_persist">MMS съобщението не може да се съхрани.</string>
-    <string name="mms_failed_content_not_accepted">Съдържанието на MMS съобщението не е прието.</string>
-    <string name="mms_failed_lack_of_prepaid">Недостатъчно предплатени средства.</string>
-    <string name="mms_failed_message_format_corrupt">Повреден формат на съобщението.</string>
-    <string name="mms_failed_message_not_supported">Съобщението не се поддържа от доставчика.</string>
-    <string name="mms_failed_no_available_apn">Няма име на точка за достъп.</string>
-    <string name="mms_failed_reply_charging_error">Грешка в таксуването при отговор.</string>
-    <string name="mms_failed_invalid_message_to_send">Невалидно съдържание на съобщението.</string>
-    <string name="permanent_message_download_error">Съобщ. не е изтеглено. Докоснете за нов опит.</string>
-    <string name="permanent_message_error">Изпращането не бе успешно. Докоснете за нов опит</string>
-    <string name="mms_touch_to_download">Докоснете за изтегляне.</string>
-    <string name="unpersisted_message_warning">Съобщението може да не е доставено навсякъде.</string>
-    <string name="via_gv">през Google Voice</string>
-    <string name="via_sms">чрез SMS</string>
-    <string name="via_mms">чрез MMS</string>
-    <string name="via_tycho">през Project Fi</string>
-    <string name="no_contact_toast">Няма намерена информация за връзка</string>
-    <string name="system_message_off_the_record">Изключихте историята</string>
-    <string name="system_message_off_the_record_ongoing">Историята се изключва</string>
-    <string name="system_message_off_the_record_external">%s изключи историята</string>
-    <string name="system_message_off_the_record_external_anonymous">Историята е изключена</string>
-    <string name="system_message_off_the_record_failed">Историята не можа да се изключи</string>
-    <string name="system_message_on_the_record">Включихте историята</string>
-    <string name="system_message_on_the_record_ongoing">Историята се включва</string>
-    <string name="system_message_on_the_record_external">%s включи историята</string>
-    <string name="system_message_on_the_record_external_anonymous">Историята е включена</string>
-    <string name="system_message_on_the_record_failed">Историята не можа да се включи</string>
-    <string name="share_location">Споделяне на местоположението ви</string>
-    <string name="copy_text_clip_data_plain_text_label">Текст на съобщението</string>
-    <string name="play_media">Пускане</string>
-    <string name="pause_media">Пауза</string>
-    <string name="speakerphone_on">Превключване към слушалката</string>
-    <string name="speakerphone_off">Превключване към високоговорителя</string>
-    <string name="audio_mms_title">Аудиосъобщение</string>
-    <string name="voicemail_title">Гласова поща</string>
-    <string name="menu_details_title">Опции на съобщението</string>
-    <string name="menu_copy_text">Копиране на текста</string>
-    <string name="menu_save_media">Запазване на мултимедията</string>
-    <string name="menu_forward_message">Препращане</string>
-    <string name="menu_view_details">Преглед на подробностите</string>
-    <string name="menu_view_debug_details">Подробности за отстраняване на грешки</string>
-    <string name="menu_delete_message">Изтриване</string>
-    <string name="menu_dont_send_message">Да не се изпраща</string>
-    <string name="menu_view_profile">Преглед на потребителския профил</string>
-    <string name="menu_add_address_to_contacts">Добавяне на %s към Хора</string>
-    <string name="message_details_title">Подробности за съобщението</string>
-    <string name="message_type_label">Тип: %s</string>
-    <string name="text_message">Текстово съобщение</string>
-    <string name="multimedia_message">Мултимедийно съобщение</string>
-    <string name="google_voice_message">Съобщение в Google Voice</string>
-    <string name="tycho_message">Съобщение от Project Fi</string>
-    <string name="hangouts_message">Съобщение в Hangouts</string>
-    <string name="from_label">От: %s</string>
-    <string name="to_address_label">До: %s</string>
-    <string name="sent_label">Изпратено: %s</string>
-    <string name="received_label">Получено: %s</string>
-    <string name="subject_label">Тема: %s</string>
-    <string name="message_size_label">Размер на съобщението: %s КБ</string>
-    <string name="priority_label">Приоритет: %s</string>
-    <string name="priority_high">Висок</string>
-    <string name="priority_normal">Нормален</string>
-    <string name="priority_low">Нисък</string>
-    <string name="hidden_sender_address">Скрит адрес на подателя</string>
-    <string name="image_attachment_content_description">Снимка</string>
-    <string name="realtimechat_conversation_join_hangout_menu_item_text">Видеообаждане</string>
-    <string name="realtimechat_conversation_call_menu_item_text">Обаждане</string>
-    <string name="realtimechat_go_on_the_record_menu_item_text">Включване на историята</string>
-    <string name="realtimechat_go_off_the_record_menu_item_text">Изключване на историята</string>
+    <string name="pin_menu_item_text">Запазване в началния екран</string>
     <string name="system_intent_result_send_desc">Изпращане на снимката</string>
-    <string name="system_intent_result_send_video_desc">Изпращане на видеоклипа</string>
     <string name="media_not_supported">Мултимедийният формат не се поддържа.</string>
     <string name="media_sharing_too_big_error">Мултимедийният файл е твърде голям за изпращане.</string>
     <string name="unable_to_attach_media">Мултимедийният файл не може да бъде прикачен.</string>
@@ -535,23 +335,21 @@
     <string name="otr_status_send_button_text">Изпращане</string>
     <string name="otr_status_cancel_button_text">Отказ</string>
     <string name="sticker_to_group_sms_error">До SMS група не могат да се изпращат стикери</string>
-    <string name="video_too_long_dialog_title">Видеоклипът е твърде дълъг за изпращане</string>
-    <string name="cant_attach_video_dialog_title">Видеоклипът не може да се прикачи</string>
-    <string name="video_too_long_dialog_text">Hangouts може да изпраща само видеоклипове, по-кратки от %s.</string>
-    <string name="video_too_long_dialog_text_with_save">Hangouts запази видеоклипа ви, но може да изпраща само клипове, по-кратки от %s.</string>
-    <string name="video_corrupted_dialog_title">Видеоклипът не може да се изпрати</string>
-    <string name="video_corrupted_dialog_text">Неизвестно защо, Hangouts не може да изпрати този видеоклип. Възможно е видеофайлът да е повреден.</string>
-    <string name="cant_send_video_dialog_ok_button">ОK</string>
     <string name="transport_selection_title">Започване на SMS със</string>
     <string name="carrier_number">Номера от оператора</string>
     <string name="gv_number">Google Voice</string>
     <string name="unreachable_person">Понастоящем не може да се установи контакт с/ъс %s чрез Hangouts.</string>
+    <string name="hangouts_msg_title">Съобщение в Hangouts</string>
+    <string name="sms_msg_title">SMS съобщение</string>
+    <string name="voice_call_title">Гласово обаждане</string>
+    <string name="video_call_title">Видеообаждане</string>
+    <string name="loading_conversation_message">Разговорът се зарежда</string>
+    <string name="hangouts_call">Обаждане в Hangouts: %s</string>
+    <string name="phone_call">Телефонно обаждане: %s</string>
     <string name="hangouts_service_name">Услуга за съобщения в Hangouts</string>
     <string name="unknown_caller">Неизв. обаждащ се</string>
     <string name="unknown_user">Няма информация за този човек</string>
-    <string name="active">Активни</string>
     <string name="on_hangouts">В Hangouts</string>
-    <string name="invite_to_hangouts">Поканване</string>
     <string name="home_screen_babel_label">Hangouts</string>
     <string name="share_intent_label">Hangouts</string>
     <string name="fmf_promo_title">Телефонни обаждания с безплатна първа минута!</string>
@@ -577,6 +375,7 @@
     <string name="gv_sms_promo_text_bottom">Изберете номера, от който се изпращат SMS, от настройките на услугата. Старите съобщения остават налице в Google Voice. &lt;a href=%s>Вижте всички промени на функциите&lt;/a></string>
     <string name="gv_sms_promo_no_thanks">Не, благодаря</string>
     <string name="gv_sms_promo_turn_on">Включване</string>
+    <string name="new_plus_account">вече може да използва Hangouts</string>
     <string name="phone_callerid_title">Изходящ номер на обаждащия се</string>
     <string name="phone_callerid_preferences_disable_message">Изходящ номер на обаждащия се се деактивира…</string>
     <string name="phone_callerid_preferences_connectivity_unavailable">За промяната на тази настройка се изисква връзка с мрежата.</string>
@@ -612,13 +411,14 @@
     <string name="phone_callerid_alert_summary_callerid_device">За да използва Изходящ номер на обаждащия се, Hangouts трябва периодично да потвърждава номера ви.</string>
     <string name="phone_callerid_alert_summary_tablet_device">Функцията Изходящ номер на обаждащия се за номер %s е деактивирана от съображения за сигурност. Обаждането ви ще бъде извършено от неизвестен номер. Потвърдете номера си от устройството със съответната SIM карта, за да активирате функцията повторно.</string>
     <string name="phone_callerid_callfrom_dialpad">Функцията Изходящ номер на обаждащия се с/ъс %s е активна</string>
-    <string name="forced_upgrade_title">Актуализиране на Hangouts</string>
-    <string name="forced_upgrade_body">Тази версия на Hangouts вече не се поддържа. За да продължите, моля, актуализирайте приложението.</string>
-    <string name="forced_upgrade_update_button">Актуализиране сега</string>
-    <string name="app_upgrade_banner_title">Използвате стара версия на Hangouts</string>
-    <string name="app_upgrade_banner_description">За най-добра работа актуализирайте до най-новата версия.</string>
-    <string name="app_upgrade_banner_decline_button">Не, благодаря</string>
-    <string name="app_upgrade_banner_update_button">Актуализиране</string>
+    <string name="business_features_promo_disable">Деактивиране</string>
+    <string name="business_features_promo_accept">Добре, разбрах</string>
+    <string name="business_features_promo_content">вече може да разговаря в чата с клиенти. Те ще виждат в Google Карти и Търсене кога сте на разположение. &lt;a href=%s>Научете повече&lt;/a></string>
+    <string name="force_upgrade_dialog_title">Изисква се актуализация</string>
+    <string name="signup_required_update_available">Налице е важна нова версия на Hangouts. Необходимо е да актуализирате услугата, преди да можете да продължите да я използвате.</string>
+    <string name="suggested_upgrade_dialog_title">Препоръчва се актуализация</string>
+    <string name="signup_suggested_update_available">Налице е нова важна версия на Hangouts. Трябва да надстроите, преди да продължите да използвате функцията.</string>
+    <string name="app_upgrade_ok">ОK</string>
     <string name="sms_only_account_name">SMS</string>
     <string name="app_name">Hangouts</string>
     <string name="moi">Вие</string>
@@ -631,19 +431,16 @@
     <string name="reply_status">Какво става?</string>
     <string name="reply_affirmative">Да</string>
     <string name="reply_negative">Не</string>
+    <string name="gv_sms_alert_dialog_title">Получателят на SMS е невалиден</string>
+    <string name="gv_sms_unsupported_destination_message">Понастоящем Google Voice не може да изпраща SMS до телефонни номера извън САЩ или Канада.</string>
+    <string name="sms_invalid_phone_number_message_prefix">Следният телефонен номер е твърде дълъг:</string>
+    <string name="sms_update_the_contact">Моля, актуализирайте контакта и опитайте отново.</string>
+    <string name="gv_sms_invalid_phone_number_message_length_suffix">(Максималната дължина за получателите на SMS в Google Voice е %s цифри, напр. номера в САЩ или Канада.)</string>
+    <string name="emergency_message_warning_title">Не може да се изпрати спешно съобщение</string>
+    <string name="emergency_message_warning_message">Не се предлага изпращане на текстови съобщения до номер на услугите за спешни случаи. За да се обадите на %s, наберете номера през телефона си.</string>
+    <string name="hangouts_emergency_warning_title">Не е възможно да се обадите или да изпратите съобщение до номер за спешни случаи</string>
+    <string name="hangouts_emergency_warning_message">Не е възможно да се свържете с номерата за спешни случаи чрез обаждания или съобщения в Hangouts. За да се обадите на %s, наберете номера през телефона си.</string>
     <string name="offnetwork_invite_without_name_title">Поканване в Hangouts</string>
-    <string name="hangouts_msg_title">Изпратете съобщение</string>
-    <string name="sms_msg_title">SMS съобщение</string>
-    <string name="voice_call_title">Гласово обаждане</string>
-    <string name="video_call_title">Видеообаждане</string>
-    <string name="view_profile_title">Преглед на потребителския профил</string>
-    <string name="remove_from_group_title">Премахване от групата</string>
-    <string name="block_title">Блокиране</string>
-    <string name="unblock_title">Отблокиране</string>
-    <string name="loading_conversation_message">Разговорът се зарежда</string>
-    <string name="hangouts_call">Обаждане в Hangouts: %s</string>
-    <string name="phone_call">Телефонно обаждане: %s</string>
-    <string name="mms_unknown_sender_name">Неизвестен подател</string>
     <string name="elapsed_just_now">току-що</string>
     <string name="elapsed_just_now_announce">току-що</string>
     <string name="elapsed_today">днес</string>
@@ -1547,12 +1344,10 @@
     <string name="spoken_close_more_keys_keyboard">Алтернативните знаци са отхвърлени</string>
     <string name="spoken_open_more_suggestions">Налице са алтернативни предложения</string>
     <string name="spoken_close_more_suggestions">Алтернативните предложения са отхвърлени</string>
-    <string name="place_autocomplete_clear_button">Изчистване на търсенето</string>
-    <string name="place_autocomplete_search_hint">Търсете</string>
     <string name="application">Приложение</string>
     <string name="reinstall_prompt_dialog_title">Преинсталиране на „%1$s“</string>
     <string name="reinstall_prompt_dialog_message">При инсталирането на „%1$s“ възникна грешка. Моля, деинсталирайте приложението и го инсталирайте отново.</string>
-    <string name="account_settings_preference_category">Профил</string>
+    <string name="account_settings_preference_category">Настройки на профила</string>
     <string name="preferences_add_account_title">Добавяне на профил</string>
     <string name="preference_content_description">Предпочитание</string>
     <string name="back_button">Назад</string>
@@ -1570,8 +1365,6 @@
     <string name="tracing_preference_title">Проследяване</string>
     <string name="learn_more_preference_text">Научете повече</string>
     <string name="on_loader_error_content">За да видите тези настройки, трябва да имате връзка за данни. Докоснете за повторен опит.</string>
-    <string name="preferences_license_title">Лицензи за отворен код</string>
-    <string name="preferences_license_summary">Подробности за лиценза на софтуера с отворен код</string>
     <string name="retry_send">Нов опит</string>
     <string name="save">Запазване</string>
     <string name="done">Готово</string>
@@ -1606,42 +1399,41 @@
     <string name="remove">Премахване</string>
     <string name="remove_photo">Премахване на снимката</string>
     <string name="choose_photo">Избор на снимка</string>
-    <string name="tab_content_description_selected">%1$s, раздел %2$d от %3$d</string>
+    <string name="tab_content_description_selected">%1$s, избрано, раздел %2$d от %3$d</string>
     <string name="tab_content_description_unselected">%1$s, раздел %2$d от %3$d</string>
-    <string name="collexion_get_notifications_message">Получаване на известия за тази колекция</string>
-    <string name="turn_notifications_on_action">ВКЛЮЧВАНЕ</string>
     <string name="camera_label">Камера</string>
-    <string name="common_google_play_services_unknown_issue">%1$s има проблем с услугите за Google Play. Ако той не се отстрани, моля, свържете се с програмиста за съдействие.</string>
-    <string name="common_google_play_services_api_unavailable_text">%1$s изисква една или повече услуги за Google Play, които понастоящем не са налице. Моля, свържете се с програмиста за съдействие.</string>
-    <string name="common_google_play_services_enable_button">Услуги за Google Play: Актив.</string>
-    <string name="common_google_play_services_enable_text">%1$s няма да работи, освен ако не активирате услугите за Google Play.</string>
-    <string name="common_google_play_services_enable_title">Активиране на услугите за Google Play</string>
-    <string name="common_google_play_services_install_button">Изтегляне на услугите за Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Грешка в услугите за Google Play</string>
+    <string name="common_google_play_services_notification_needs_update_title">Приложение изисква актуализирането на услугите за Google Play.</string>
+    <string name="common_android_wear_notification_needs_update_text">%1$s изисква актуализиране на приложението Android Wear.</string>
+    <string name="common_google_play_services_needs_enabling_title">Приложение изисква активирането на услугите за Google Play.</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Заявено от %1$s</string>
+    <string name="common_google_play_services_install_title">Изтегляне на услугите за Google Play</string>
     <string name="common_google_play_services_install_text_phone">%1$s няма да се изпълнява, тъй като услугите за Google Play не са инсталирани на телефона ви.</string>
     <string name="common_google_play_services_install_text_tablet">%1$s няма да се изпълнява, тъй като услугите за Google Play не са инсталирани на таблета ви.</string>
-    <string name="common_google_play_services_install_title">Изтегляне на услугите за Google Play</string>
-    <string name="common_google_play_services_invalid_account_text">Посоченият профил не съществува на това устройство. Моля, изберете друг.</string>
-    <string name="common_google_play_services_invalid_account_title">Невалиден профил</string>
-    <string name="common_google_play_services_network_error_text">За свързване с услугите за Google Play се изисква връзка за данни.</string>
-    <string name="common_google_play_services_network_error_title">Грешка в мрежата</string>
-    <string name="common_google_play_services_notification_ticker">Грешка в услугите за Google Play</string>
-    <string name="common_google_play_services_resolution_required_text">Моля, извършете действието, изисквано от %1$s.</string>
-    <string name="common_google_play_services_resolution_required_title">Услуги за Google Play: Нужно е действие</string>
-    <string name="common_google_play_services_restricted_profile_text">Осъществяването на достъп до профили от ограничен потребителски профил не се поддържа.</string>
-    <string name="common_google_play_services_restricted_profile_title">Ограничен потребителски профил</string>
-    <string name="common_google_play_services_sign_in_failed_text">При влизането в посочения профил възникна грешка. Моля, изберете друг.</string>
-    <string name="common_google_play_services_sign_in_failed_title">Влизането в профила не бе успешно</string>
-    <string name="common_google_play_services_unsupported_text">%1$s разчита на услугите за Google Play, които не се поддържат от устройството ви. Свържете се с производителя за съдействие.</string>
-    <string name="common_google_play_services_unsupported_title">Услуги за Google Play</string>
-    <string name="common_google_play_services_update_button">Актуализиране</string>
-    <string name="common_google_play_services_update_text">%1$s няма да се изпълнява, освен ако не актуализирате услугите за Google Play.</string>
+    <string name="common_google_play_services_install_button">Услуги за Google Play: Изтегл.</string>
+    <string name="common_google_play_services_enable_title">Активиране на услугите за Google Play</string>
+    <string name="common_google_play_services_enable_text">%1$s няма да работи, освен ако не активирате услугите за Google Play.</string>
+    <string name="common_google_play_services_enable_button">Услуги за Google Play: Актив.</string>
     <string name="common_google_play_services_update_title">Актуализиране на услугите за Google Play</string>
-    <string name="common_google_play_services_updating_text">%1$s няма да се изпълнява без услугите за Google Play. Понастоящем те се актуализират.</string>
+    <string name="common_android_wear_update_title">Актуализиране на Android Wear</string>
+    <string name="common_google_play_services_update_text">%1$s няма да се изпълнява, освен ако не актуализирате услугите за Google Play.</string>
+    <string name="common_android_wear_update_text">%1$s няма да стартира, освен ако не актуализирате приложението Android Wear.</string>
     <string name="common_google_play_services_updating_title">Услугите за Google Play се актуализират</string>
-    <string name="common_google_play_services_wear_update_text">Необходима е нова версия на услугите за Google Play. Скоро тя ще се актуализира автоматично.</string>
-    <string name="common_open_on_phone">Отваряне на телефона</string>
+    <string name="common_google_play_services_updating_text">%1$s няма да се изпълнява без услугите за Google Play. Понастоящем те се актуализират.</string>
+    <string name="common_google_play_services_network_error_title">Грешка в мрежата</string>
+    <string name="common_google_play_services_network_error_text">За свързване с услугите за Google Play се изисква връзка за данни.</string>
+    <string name="common_google_play_services_invalid_account_title">Невалиден профил</string>
+    <string name="common_google_play_services_invalid_account_text">Посоченият профил не съществува на това устройство. Моля, изберете друг.</string>
+    <string name="common_google_play_services_unknown_issue">Неизвестен проблем с услугите за Google Play.</string>
+    <string name="common_google_play_services_unsupported_title">Услуги за Google Play</string>
+    <string name="common_google_play_services_unsupported_text">%1$s разчита на услугите за Google Play, които не се поддържат от устройството ви. Свържете се с производителя за съдействие.</string>
+    <string name="common_google_play_services_update_button">Актуализиране</string>
     <string name="common_signin_button_text">Вход</string>
     <string name="common_signin_button_text_long">Вход с Google</string>
+    <string name="common_open_on_phone">Отваряне в телефона</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$s изисква една или повече услуги за Google Play, които понастоящем не са налице. Моля, свържете се с програмиста за съдействие.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Влизането в профила не бе успешно</string>
+    <string name="common_google_play_services_sign_in_failed_text">При влизането в посочения профил възникна грешка. Моля, изберете друг.</string>
     <string name="alert_dialog_remember_choice">Това съобщение да не се показва отново</string>
     <string name="gateway_account_picker_title">Избиране на профил</string>
     <string name="sms_account_picker_title">Избиране на профил за SMS</string>
@@ -1662,6 +1454,7 @@
     <string name="menu_item_save">Запазване</string>
     <string name="menu_privacy_policy">Декларация за поверителност</string>
     <string name="menu_terms_of_service">Общи условия</string>
+    <string name="menu_copy_text">Копиране на текста</string>
     <string name="menu_contact_options_title">Опции за връзка</string>
     <string name="menu_hide_contact">Скриване на контакта</string>
     <string name="menu_title_recent_call_options">Опции за скорошните обаждания</string>
@@ -1671,13 +1464,11 @@
     <string name="location_hint_text">Местоположението е готово за изпращане</string>
     <string name="vcard_hint_text">Визитната картичка е готова за изпращане</string>
     <string name="realtimechat_participant_avatar_sms_text">SMS</string>
-    <string name="realtimechat_unblock_user_button">Отблокиране</string>
-    <string name="realtimechat_block_user_button">Блокиране</string>
-    <string name="realtimechat_block_merged_text">Ако потребителят бъде блокиран, повече няма да получавате директни съобщения и известия в Hangouts или по SMS, но този човек пак ще присъства в общите ви групови разговори. &lt;a href=\"http://support.google.com/hangouts?p=blocking\">Научете повече&lt;/a> &lt;br>&lt;br> Възможно е да промените кои хора могат да започват разговор с вас, като персонализирате настройките си за покани.</string>
-    <string name="realtimechat_block_number_text">Ако бъде блокиран, SMS и MMS съобщенията от този номер ще бъдат архивирани и няма да бъдете известявани при получаването на нови.</string>
+    <string name="realtimechat_block_user_title">Блокиране на %s</string>
     <string name="realtimechat_block_user_text">Ако потребителят бъде блокиран, повече няма да получавате директни съобщения и известия, но този човек пак ще присъства в общите ви групови разговори. &lt;a href=\"http://support.google.com/hangouts?p=blocking\">Научете повече&lt;/a> &lt;br>&lt;br> Възможно е да промените кои хора могат да започват разговор с вас, като персонализирате настройките си за покани.</string>
-    <string name="realtimechat_block_user_title">Да се блокира ли %s?</string>
-    <string name="realtimechat_block_user_toast">Блокиран потребител: %s</string>
+    <string name="realtimechat_block_number_text">Ако бъде блокиран, SMS и MMS съобщенията от този номер ще бъдат архивирани и няма да бъдете известявани при получаването на нови.</string>
+    <string name="realtimechat_block_user_button">Блокиране</string>
+    <string name="realtimechat_unblock_user_button">Отблокиране</string>
     <string name="realtimechat_unblock_user_toast">Отблокиране на %s</string>
     <string name="realtimechat_unblock_unknown_user_failed">Този човек не можа да бъде отблокиран. Опитайте отново.</string>
     <string name="realtimechat_unblock_user_failed">Не можахте да отблокирате %s. Опитайте отново.</string>
@@ -1685,13 +1476,11 @@
     <string name="realtimechat_load_blocked_users_failed">Блокираните контакти не можаха да бъдат заредени. Опитайте отново по-късно.</string>
     <string name="realtimechat_load_blocked_users_failed_network">Блокираните контакти не можаха да бъдат заредени, защото нямате връзка. Опитайте отново по-късно.</string>
     <string name="realtimechat_conversation_delete_title">Изтриване на разговора</string>
-    <string name="realtimechat_conversation_delete_text">Така ще се изтрие копието ви на разговора и повече няма да можете да виждате тези съобщения.</string>
-    <string name="realtimechat_leave_conversation_title">Напускане на групата</string>
+    <string name="realtimechat_conversation_delete_text">Ако изтриете разговора, ще загубите съобщенията и другата история от него.</string>
+    <string name="realtimechat_leave_conversation_title">Искате ли да напуснете групата?</string>
     <string name="realtimechat_leave_conversation_text">Повече няма да можете да четете или да изпращате съобщения до групата. Искате ли да напуснете този групов разговор?</string>
     <string name="realtimechat_leave_conversation_button_text">Напускане</string>
-    <string name="realtimechat_remove_from_group_title">Премахване от групата</string>
-    <string name="realtimechat_remove_from_group_text">Потребителят „%s“ ще бъде премахнат от този групов разговор</string>
-    <string name="realtimechat_remove_from_group_button_text">Премахване</string>
+    <string name="realtimechat_unmerge_menu_item_text">Премахване на обединяването на SMS съобщенията</string>
     <string name="recent_calls_text">Скорошни обаждания</string>
     <string name="recent_clear_text">Изчистване на скорошни</string>
     <string name="recent_calls_clear_title">Изчистване на скорошните обаждания</string>
@@ -1738,9 +1527,17 @@
     <string name="contact_hangouts">Hangouts</string>
     <string name="phone_select_title">Изпращане на съобщение до %s чрез</string>
     <string name="person_has_no_phone">За избрания човек няма намерен телефон.</string>
+    <string name="gmscore_upgrade_title">Актуализиране на услугите за Google Play</string>
+    <string name="gmscore_upgrade_ticker">Hangouts изисква актуализиране на услугите за Google Play.</string>
     <string name="realtimechat_conversation_mute_menu_item_text">Изключване на известията</string>
     <string name="realtimechat_conversation_unmute_menu_item_text">Включване на известията</string>
     <string name="realtimechat_conversation_leave_menu_item_text">Напускане</string>
+    <string name="realtimechat_go_on_the_record_menu_item_text">Включване на историята</string>
+    <string name="realtimechat_go_off_the_record_menu_item_text">Изключване на историята</string>
+    <string name="realtimechat_conversation_rename_dialog_title">Преименуване на разговора</string>
+    <string name="realtimechat_conversation_rename_save_button_text">Запазване</string>
+    <string name="realtimechat_conversation_rename_cancel_button_text">Отказ</string>
+    <string name="realtimechat_conversation_rename_hint">Име на разговора</string>
     <string name="realtimechat_send_button_description">Изпращане</string>
     <string name="realtimechat_send_sms_button_description">Изпращане на SMS</string>
     <string name="realtimechat_send_mms_button_description">Изпращане на MMS</string>
@@ -1769,64 +1566,53 @@
     <string name="realtimechat_conversation_description_selected">Избрано</string>
     <string name="realtimechat_conversation_description_has_unread_messages">Има непрочетени съобщения</string>
     <string name="realtimechat_conversation_description_muted">Спряно</string>
-    <string name="realtimechat_conversation_description_important_only">Само важните</string>
     <string name="realtimechat_conversation_description_blocked">Блокирано</string>
     <string name="realtimechat_conversation_description_voicemail">Гласова поща</string>
     <string name="realtimechat_conversation_list_voicemail_snippet">Нова гласова поща</string>
-    <string name="system_message_rename_by_actor" formatted="false">%s преименува разговора на „%s“</string>
-    <string name="system_message_rename_empty_by_actor">%s изчисти името на разговора</string>
-    <string name="system_message_rename">Разговорът бе преименуван на „%s“</string>
-    <string name="system_message_rename_empty">Името на разговора бе изчистено</string>
-    <string name="system_message_rename_by_self">Преименувахте разговора на „%s“</string>
-    <string name="system_message_rename_empty_by_self">Изчистихте името на разговора</string>
+    <string name="system_message_rename_by_actor" formatted="false">%s &lt;b>преименува&lt;/b> този разговор на „%s“</string>
+    <string name="system_message_rename_empty_by_actor">%s &lt;b>изчисти&lt;/b> името на този разговор</string>
+    <string name="system_message_rename">Този разговор бе &lt;b>преименуван&lt;b> на „%s“</string>
+    <string name="system_message_rename_empty">Името на този разговор бе &lt;b>изчистено&lt;/b></string>
+    <string name="system_message_rename_by_self">&lt;b>Преименувахте&lt;/b> този разговор на „%s“</string>
+    <string name="system_message_rename_empty_by_self">&lt;b>Изчистихте&lt;b> името на този разговор</string>
     <string name="system_message_rename_failed">Този разговор не можа да се преименува на „%s“</string>
-    <string name="system_message_enable_group_link_sharing_ongoing">Включва се присъединяване чрез връзка</string>
-    <string name="system_message_disable_group_link_sharing_ongoing">Изключва се присъединяване чрез връзка</string>
-    <string name="system_message_modify_group_link_sharing_ongoing">Присъединяването чрез връзка се променя</string>
-    <string name="system_message_disable_group_link_sharing_failed">Присъединяването чрез връзка не можа да бъде изключено</string>
-    <string name="system_message_enable_group_link_sharing_failed">Присъединяването чрез връзка не можа да бъде включено</string>
-    <string name="system_message_modify_group_link_sharing_failed">Присъединяването чрез връзка не можа да бъде променено</string>
-    <string name="system_message_enabled_group_link_sharing">Включихте присъединяването чрез връзка</string>
-    <string name="system_message_enabled_group_link_sharing_external">%s включи присъединяването чрез връзка</string>
-    <string name="system_message_disabled_group_link_sharing">Изключихте присъединяването чрез връзка</string>
-    <string name="system_message_disabled_group_link_sharing_external">%s изключи присъединяването чрез връзка.</string>
-    <string name="system_message_modified_group_link_sharing">Променихте присъединяването чрез връзка</string>
-    <string name="system_message_modified_group_link_sharing_external">%s промени присъединяването чрез връзка</string>
-    <string name="system_message_participant_added" formatted="false">%s добави %s към разговора</string>
-    <string name="system_message_participant_added_by_self">Добавихте %s към разговора</string>
-    <string name="system_message_participant_added_by_unknown">Потребителят „%s“ бе добавен към разговора</string>
-    <string name="system_message_participant_kicked" formatted="false">%s премахна %s от този групов разговор</string>
-    <string name="system_message_participant_kicked_by_self">Премахнахте %s от този групов разговор</string>
-    <string name="system_message_participant_kicked_unknown">Потребителят %s бе премахнат от този групов разговор</string>
-    <string name="system_message_participant_kicked_failed">Премахването на %s от разговора не бе възможно</string>
-    <string name="system_message_participant_self_added">%s се присъедини към разговора</string>
-    <string name="system_message_participant_self_added_by_self">Присъединихте се към разговора</string>
-    <string name="system_message_unknown_participant_added">%s добави човек към разговора</string>
-    <string name="system_message_unknown_participant_added_by_self">Добавихте човек към разговора</string>
-    <string name="system_message_unknown_participant_added_by_unknown">Някой добави някого към разговора</string>
-    <string name="system_message_invitee_error_unknown">Не можахме да добавим участници към разговора</string>
+    <string name="system_message_off_the_record">Изключихте историята</string>
+    <string name="system_message_off_the_record_ongoing">Историята се изключва</string>
+    <string name="system_message_off_the_record_external">%s изключи историята</string>
+    <string name="system_message_on_the_record">Включихте историята</string>
+    <string name="system_message_on_the_record_ongoing">Историята се включва</string>
+    <string name="system_message_on_the_record_external">%s включи историята</string>
+    <string name="system_message_off_the_record_failed">Историята не можа да се изключи</string>
+    <string name="system_message_on_the_record_failed">Историята не можа да се включи</string>
+    <string name="system_message_participant_added" formatted="false">&lt;b>%s добави&lt;/b> %s към разговора</string>
+    <string name="system_message_participant_added_by_self">&lt;b>Добавихте&lt;/b> %s към разговора</string>
+    <string name="system_message_participant_added_by_unknown">Участникът %s бе добавен към този разговор</string>
+    <string name="system_message_unknown_participant_added">&lt;b>%s добави&lt;/b> някого към разговора</string>
+    <string name="system_message_unknown_participant_added_by_self">&lt;b>Добавихте&lt;/b> някого към разговора</string>
+    <string name="system_message_unknown_participant_added_by_unknown">Някой бе добавен към този разговор</string>
+    <string name="system_message_invitee_error_unknown">Не можаха да бъдат добавени участници към този разговор</string>
     <string name="system_message_conversation_error">Разговорът не можа да бъде създаден</string>
-    <string name="system_message_invitee_error_one">Не можахме да добавим %s към разговора</string>
-    <string name="system_message_invitee_error_two" formatted="false">Не можахме да добавим %s и %s към разговора</string>
-    <string name="system_message_invitee_error_three" formatted="false">Не можахме да добавим %s, %s и %s към разговора</string>
-    <string name="system_message_invitee_error_over_three" formatted="false">Не можахме да добавим %s, %s и още %d души към разговора</string>
-    <string name="system_message_invitee_error_policy_fork_unknown">Не можахме да добавим участници към разговора заради правила на домейна, но вместо това създадохме нов разговор</string>
-    <string name="system_message_invitee_error_policy_fork_one">Не можахме да добавим %s към разговора заради правила на домейна, но вместо това създадохме нов разговор</string>
-    <string name="system_message_invitee_error_policy_fork_two" formatted="false">Не можахме да добавим %s и %s към разговора заради правила на домейна, но вместо това създадохме нов разговор</string>
-    <string name="system_message_invitee_error_policy_fork_three" formatted="false">Не можахме да добавим %s, %s и %s към разговора заради правила на домейна, но вместо това създадохме нов разговор</string>
-    <string name="system_message_invitee_error_policy_fork_over_three" formatted="false">Не можахме да добавим %s, %s и още %d души към разговора заради правила на домейна, но вместо това създадохме нов разговор</string>
-    <string name="system_message_invitee_error_policy_unknown">Не можахме да добавим участници към разговора заради правила на домейна (вашия или на други потребители)</string>
-    <string name="system_message_invitee_error_policy_one">Не можахме да добавим %s към разговора заради правила на домейна (вашия или на други потребители)</string>
-    <string name="system_message_invitee_error_policy_two" formatted="false">Не можахме да добавим %s и %s към разговора заради правила на домейна (вашия или на други потребители)</string>
-    <string name="system_message_invitee_error_policy_three" formatted="false">Не можахме да добавим %s, %s и %s към разговора заради правила на домейна (вашия или на други потребители)</string>
-    <string name="system_message_invitee_error_policy_over_three" formatted="false">Не можахме да добавим %s, %s и още %d души към разговора заради правила на домейна (вашия или на други потребители)</string>
-    <string name="system_message_participants_added" formatted="false">%s добави %s и %s към разговора</string>
-    <string name="system_message_participants_added_by_self" formatted="false">Добавихте %s и %s към разговора</string>
-    <string name="system_message_participants_added_unknown" formatted="false">%s и %s бяха добавени към разговора</string>
-    <string name="system_message_participant_left">%s напусна разговора</string>
-    <string name="system_message_participant_left_domain_policy">%s напусна разговора заради промени в правилата на домейна си</string>
-    <string name="system_message_participant_left_unknown">Някой напусна разговора</string>
-    <string name="system_message_participant_left_domain_policy_unknown">Някой напусна разговора заради промени в правилата на домейна си</string>
+    <string name="system_message_invitee_error_one">%s не можа да се добави към този разговор</string>
+    <string name="system_message_invitee_error_two" formatted="false">%s и %s не можаха да бъдат добавени към този разговор</string>
+    <string name="system_message_invitee_error_three" formatted="false">%s, %s и %s не можаха да бъдат добавени към този разговор</string>
+    <string name="system_message_invitee_error_over_three" formatted="false">%s, %s и още %d души не можаха да бъдат добавени към този разговор</string>
+    <string name="system_message_invitee_error_policy_fork_unknown">Не можахме да добавим участници към този разговор поради правилата на домейна, но вместо това създадохме нов</string>
+    <string name="system_message_invitee_error_policy_fork_one">Не можахме да добавим %s към този разговор поради правилата на домейна, но вместо това създадохме нов</string>
+    <string name="system_message_invitee_error_policy_fork_two" formatted="false">Не можахме да добавим %s и %s към този разговор поради правилата на домейна, но вместо това създадохме нов</string>
+    <string name="system_message_invitee_error_policy_fork_three" formatted="false">Не можахме да добавим %s, %s и %s към този разговор поради правилата на домейна, но вместо това създадохме нов</string>
+    <string name="system_message_invitee_error_policy_fork_over_three" formatted="false">Не можахме да добавим %s, %s и още %d души към този разговор поради правилата на домейна, но вместо това създадохме нов</string>
+    <string name="system_message_invitee_error_policy_unknown">Не можахме да добавим участници към този разговор поради вашите или правилата за домейните на други потребители</string>
+    <string name="system_message_invitee_error_policy_one">Не можахме да добавим %s към този разговор поради вашите или правилата за домейните на други потребители</string>
+    <string name="system_message_invitee_error_policy_two" formatted="false">Не можахме да добавим %s и %s към този разговор поради вашите или правилата за домейните на други потребители</string>
+    <string name="system_message_invitee_error_policy_three" formatted="false">Не можахме да добавим %s, %s и %s към този разговор поради вашите или правилата за домейните на други потребители</string>
+    <string name="system_message_invitee_error_policy_over_three" formatted="false">Не можахме да добавим %s, %s и още %d души към този разговор поради вашите или правилата за домейните на други потребители</string>
+    <string name="system_message_participants_added" formatted="false">&lt;b>%s добави&lt;/b> %s и %s към разговора</string>
+    <string name="system_message_participants_added_by_self" formatted="false">&lt;b>Добавихте&lt;/b> %s и %s към разговора</string>
+    <string name="system_message_participants_added_unknown" formatted="false">%s и %s бяха добавени към този разговор</string>
+    <string name="system_message_participant_left">&lt;b>%s напусна&lt;/b> разговора</string>
+    <string name="system_message_participant_left_domain_policy">&lt;b>%s напусна&lt;/b> разговора заради промени в правилата на домейна си</string>
+    <string name="system_message_participant_left_unknown">Някой &lt;b>напусна&lt;/b> този разговор</string>
+    <string name="system_message_participant_left_domain_policy_unknown">Някой &lt;b>напусна&lt;/b> този разговор поради промени в правилата на домейна си</string>
     <string name="system_message_hangout_started_by_another">%s стартира видеообаждане</string>
     <string name="system_message_hangout_started">Стартирано е видеообаждане</string>
     <string name="system_message_hangout_started_only_you">Стартирахте видеообаждане</string>
@@ -1850,8 +1636,8 @@
     <string name="realtimechat_conversation_error_dialog_leave_button">ОK</string>
     <string name="realtimechat_participant_without_name_text">Няма име</string>
     <string name="realtimechat_conversation_invite_menu_item_text">Добавяне на хора</string>
-    <string name="realtimechat_conversation_new_group_conversation_menu_item_text">Създаване на нова група</string>
-    <string name="redacted_notification_text">Съдържанието е скрито</string>
+    <string name="realtimechat_conversation_new_group_conversation_menu_item_text">Нов групов разговор</string>
+    <string name="realtimechat_start_hangout_description">Видеообаждане</string>
     <string name="realtimechat_message_text_author">%s:</string>
     <string name="realtimechat_message_sticker">изпрати стикер</string>
     <string name="realtimechat_message_image">изпрати изображение</string>
@@ -1888,9 +1674,9 @@
     <string name="new_group_mms_activity_title">Нов групов MMS</string>
     <string name="new_sms_activity_title">Ново SMS съобщение</string>
     <string name="realtimechat_edit_audience_activity_title">Добавяне на хора</string>
+    <string name="share_location">Споделяне на местоположението ви</string>
     <string name="audience_local_contact_title">Контакти</string>
     <string name="frequent_contacts_title">Чести контакти</string>
-    <string name="conversation_people_and_options_participant_menu">Допълнителни опции</string>
     <string name="audience_phone_type_home">Домашен</string>
     <string name="audience_phone_type_mobile">Мобилен</string>
     <string name="audience_phone_type_work">Служебен</string>
@@ -1900,7 +1686,7 @@
     <string name="realtimechat_reject_invitation_button_text">Пренебрегване</string>
     <string name="realtimechat_accept_invitation_button_text">Приемам</string>
     <string name="realtimechat_profile_avatar_content_description">Потребителски профил на %s</string>
-    <string name="people_search_in_your_domain">Хората от %s</string>
+    <string name="people_search_in_your_domain">Хора от %s</string>
     <string name="blocked_contacts_empty">Няма блокирани контакти</string>
     <string name="profile_does_not_exist">Потребителският профил в Google+ липсва.</string>
     <string name="menu_license">Лицензи за отворен код</string>
@@ -1909,11 +1695,11 @@
     <string name="no_conversations_instruction_description">Докоснете бутона „Нов разговор“, за да започнете разговор</string>
     <string name="no_archived_conversations_text">Няма архивирани разговори</string>
     <string name="hangout_activity_label">Обаждане</string>
-    <string name="hangout_menu_turn_microphone_off">Изключване на микрофона</string>
+    <string name="hangout_menu_audio_mute">Заглушаване на звука</string>
     <string name="hangout_menu_dialpad">Клавиатура за набиране</string>
     <string name="hangout_menu_audio_device">Аудио</string>
     <string name="hangout_menu_select_audio_output">Превключване към следващия аудиоизход</string>
-    <string name="hangout_menu_turn_microphone_on">Включване на микрофона</string>
+    <string name="hangout_menu_audio_unmute">Включване на звука</string>
     <string name="menu_item_switch_audio_output_button" formatted="false">%s. Бутон за превключване към %s</string>
     <string name="menu_item_switch_unknown_audio_output_button">%s. Бутон за превключване към следващото аудиоустройство</string>
     <string name="menu_item_speaker">Високоговорител</string>
@@ -1923,8 +1709,8 @@
     <string name="hangout_menu_switch_to_front_camera">Задна камера</string>
     <string name="hangout_menu_switch_to_back_camera">Предна камера</string>
     <string name="hangout_menu_switch_camera">Превключване на камерата</string>
-    <string name="hangout_menu_turn_camera_off">Изключване на камерата</string>
-    <string name="hangout_menu_turn_camera_on">Включване на камерата</string>
+    <string name="hangout_menu_video_mute">Без образ</string>
+    <string name="hangout_menu_video_unmute">С образ</string>
     <string name="hangout_menu_enable_video">Активиране на видеото</string>
     <string name="hangout_not_supported_no_microphone">За обажданията се изисква микрофон.</string>
     <string name="hangout_not_supported_device">Обажданията не се поддържат на това устройство.</string>
@@ -2023,8 +1809,8 @@ Google Voice
     <string name="hangout_exit_error_code_insufficient_funds">Обаждането завърши, защото нямате достатъчно салдо</string>
     <string name="hangout_exit_error_code_busy_signal">Номерът, на който се обаждате, е зает.</string>
     <string name="hangout_exit_error_code_connection_failed">Не можа да се установи връзка с/ъс %1$s или тя бе прекратена</string>
-    <string name="hangout_incoming_ring_in_background">Входящо видеообаждане</string>
-    <string name="voice_hangout_incoming_ring_in_background">Входящо гласово обаждане</string>
+    <string name="hangout_incoming_ring_in_background">Поканени сте във видеообаждане</string>
+    <string name="voice_hangout_incoming_ring_in_background">Поканени сте в гласово обаждане</string>
     <string name="hangout_ringing_accept">Отговор</string>
     <string name="hangout_ringing_ignore">Отхвърляне</string>
     <string name="hangout_permission_not_granted">Отключете устройството си и разрешете на Hangouts да използва микрофона и камерата ви.</string>
@@ -2109,8 +1895,6 @@ Google Voice
     <string name="updating_status">Състоянието се актуализира…</string>
     <string name="status_failed_updating">Актуализирането на състоянието бе неуспешно</string>
     <string name="tycho_service_provider">през Project Fi</string>
-    <string name="announce_participant_is_typing">%s пише...</string>
-    <string name="announce_participant_stopped_typing">%s спря да пише…</string>
     <string name="rich_status_typing_description">Въвежда се…</string>
     <string name="rich_status_in_call_description">Извършва се обаждане</string>
     <string name="rich_status_share_your_status">Споделяне на състоянието ви</string>
@@ -2125,7 +1909,7 @@ Google Voice
     <string name="share_device_presence_title">Присъствие на устройството</string>
     <string name="share_device_presence_disabled_summary">Можете да споделите активността на това устройство с всички, с които използвате Hangouts</string>
     <string name="share_device_presence_enabled_summary">Всички, с които използвате Hangouts, знаят кога сте активни на това устройство</string>
-    <string name="chat_notification_enabled_title">Съобщения</string>
+    <string name="chat_notification_enabled_title">Съобщения и покани в Hangouts</string>
     <string name="chat_notification_sound_title">Звук</string>
     <string name="gv_sms_notifications_key_title">SMS съобщения от Google Voice</string>
     <string name="tycho_sms_notifications_key_title">SMS в Project Fi</string>
@@ -2134,7 +1918,9 @@ Google Voice
     <string name="play_sound_only">Възпроизвеждане на звук</string>
     <string name="vibrate_only">Вибриране</string>
     <string name="show_notifications_only">Показване на известията без звук</string>
-    <string name="incoming_call_notification_screen_title">Входящи обаждания</string>
+    <string name="hangouts_message_notification_sound_title">Звук за съобщения в чата</string>
+    <string name="hangouts_call_ringtone_title">Мелодия за обаждания</string>
+    <string name="video_nofification_screen_title">Видеообаждания</string>
     <string name="gv_voicemail_notification_screen_title">Гласова поща в Google Voice</string>
     <string name="tycho_voicemail_notification_screen_title">Гласова поща в Project Fi</string>
     <string name="tycho_sms_alert_enable_title">SMS да се доставят ли през Hangouts?</string>
@@ -2183,19 +1969,21 @@ Google Voice
     <string name="silent_ringtone">Тих режим</string>
     <string name="people_in_conversation_header">Хората в този разговор</string>
     <string name="conversation_title">Разговор: %s</string>
-    <string name="conversation_group_link_sharing_option_button_text">Споделяне на връзката за покана в групата</string>
-    <string name="conversation_group_link_sharing_open">Разговорът се отваря…</string>
-    <string name="conversation_group_link_sharing_join_failed">Връзката вече не е валидна</string>
-    <string name="conversation_group_link_sharing_open_failed">"Присъединихте се към групата. 
-Докоснете разговора, за да го отворите."</string>
+    <string name="conversation_name_option">Име на разговора</string>
+    <string name="conversation_notifications_option">Известия</string>
+    <string name="conversation_block_option">Блокиране на %s</string>
+    <string name="conversation_unblock_option">Отблокиране на %s</string>
     <string name="last_account_signout_confirmation_header">Затваряне на %s</string>
     <string name="last_account_signout_confirmation">Излизането от този профил ще затвори %s.</string>
+    <string name="menu_show_participants_and_options">Хора и опции</string>
     <string name="add_to_contacts_menu_item_text">Добавяне към контактите</string>
+    <string name="conversation_participants_activity_title">Хора и опции</string>
     <string name="notification_ticker_separator">": "</string>
     <string name="notification_space_separator">"  "</string>
     <string name="conversations_selected">Избрахте %d</string>
     <string name="realtimechat_conversation_archive_menu_item_text">Архивиране</string>
     <string name="realtimechat_conversation_delete_menu_item_text">Изтриване</string>
+    <string name="realtimechat_conversation_call_menu_item_text">Обаждане</string>
     <string name="realtimechat_conversation_unarchive_menu_item_text">Деархивиране</string>
     <string name="menu_archived_conversations">Архивирани</string>
     <string name="menu_blocked_contacts">Блокирани контакти</string>
@@ -2206,15 +1994,34 @@ Google Voice
     <string name="cancel_mute">Включване</string>
     <string name="cancel_photo_send">Отхвърляне на снимката</string>
     <string name="conversation_muted">Известията са изключени.</string>
-    <string name="conversation_important_only">Получавате известия само за важните съобщения.</string>
     <string name="realtimechat_conversation_fork_menu_item_text">Нов разговор с тази група</string>
     <string name="archived_conversations_title">Архивирани разговори</string>
     <string name="invites_title">Покани</string>
     <string name="invitation_title">Покана</string>
+    <string name="ephemeral_message_sending">Изпраща сe</string>
+    <string name="ephemeral_message_downloading">Изтегля се</string>
+    <string name="permanent_message_error">Изпращането не успя. Докоснете за нов опит</string>
     <string name="sending_failed_toast">Изпращането не бе успешно</string>
+    <string name="permanent_message_download_error">Съобщ. не е изтеглено. Докоснете за нов опит.</string>
+    <string name="mms_failed_mobile_data_disabled">Мобилните данни са деактивирани.</string>
+    <string name="mms_failed_service_blocked">Мобилният план блокира MMS.</string>
+    <string name="mms_failed_invalid_address">Целевият адрес е невалиден.</string>
+    <string name="mms_failed_network_problem">Има проблем с мрежата. Докоснете за нов опит.</string>
+    <string name="mms_failed_message_not_found">MMS съобщението не може да бъде намерено на сървъра на доставчика.</string>
+    <string name="mms_failed_address_hiding_not_supported">Функцията за скриване на адреса не се поддържа.</string>
+    <string name="mms_failed_can_not_persist">MMS съобщението не може да се съхрани.</string>
+    <string name="mms_failed_content_not_accepted">Съдържанието на MMS съобщението не е прието.</string>
+    <string name="mms_failed_lack_of_prepaid">Недостатъчно предплатени средства.</string>
+    <string name="mms_failed_message_format_corrupt">Повреден формат на съобщението.</string>
+    <string name="mms_failed_message_not_supported">Съобщението не се поддържа от доставчика.</string>
+    <string name="mms_failed_no_available_apn">Няма име на точка за достъп.</string>
+    <string name="mms_failed_reply_charging_error">Грешка в таксуването при отговор.</string>
+    <string name="mms_failed_invalid_message_to_send">Невалидно съдържание на съобщението.</string>
+    <string name="mms_touch_to_download">Докоснете за изтегляне.</string>
+    <string name="unpersisted_message_warning">Съобщението може да не е доставено навсякъде.</string>
     <string name="redownload_dialog_title">Съобщението не бе изтеглено</string>
     <string name="delete_failed_message">Изтриване</string>
-    <string name="delete_message_failed_toast">Съжаляваме, не успяхме да спрем съобщението навреме.</string>
+    <string name="delete_message_failed_toast">Изтриването на съобщението не бе успешно.</string>
     <string name="download">Изтегляне</string>
     <string name="notification_send_failures_line1_singular">Едно съобщение не е изпратено</string>
     <string name="notification_send_failures_line1_plural">Някои съобщения не са изпратени</string>
@@ -2251,6 +2058,8 @@ Google Voice
     <string name="oobe_dialog_close_button">Затваряне</string>
     <string name="oobe_domain_blocked_title">Не може да се влезе в профила</string>
     <string name="oobe_domain_blocked_body">Администраторът на домейна ви не е активирал Hangouts за профилите от %s.</string>
+    <string name="oobe_parental_block_title">Не е разрешено</string>
+    <string name="oobe_parental_block_body">За съжаление, в момента не можете да използвате това приложение.</string>
     <string name="oobe_parental_block_add_account_button">Добавяне на профил</string>
     <string name="oobe_parental_block_close_button">Затваряне</string>
     <string name="oobe_archive_not_enabled_title">Добре дошли в Hangouts</string>
@@ -2305,12 +2114,42 @@ Hangouts ще запазва цялата история на разговори
     <string name="mms">MMS</string>
     <string name="converting_to_picture_message">Преобразува се в мултимедийно съобщение…</string>
     <string name="hangouts_conversation_spinner">Hangouts</string>
+    <string name="menu_view_details">Преглед на подробностите</string>
+    <string name="menu_delete_message">Изтриване</string>
+    <string name="menu_forward_message">Препращане</string>
+    <string name="menu_view_profile">Преглед на потребителския профил</string>
+    <string name="menu_save_media">Запазване на мултимедията</string>
+    <string name="menu_details_title">Опции на съобщението</string>
     <string name="class_0_message_activity">Съобщения от клас 0</string>
     <string name="message_content_description_from">от %s</string>
+    <string name="message_details_title">Подробности за съобщението</string>
+    <string name="message_type_label">Тип: %s</string>
+    <string name="text_message">Текстово съобщение</string>
+    <string name="multimedia_message">Мултимедийно съобщение</string>
+    <string name="google_voice_message">Съобщение в Google Voice</string>
+    <string name="tycho_message">Съобщение от Project Fi</string>
+    <string name="hangouts_message">Съобщение в Hangouts</string>
+    <string name="from_label">От: %s</string>
+    <string name="to_address_label">До: %s</string>
+    <string name="sent_label">Изпратено: %s</string>
+    <string name="received_label">Получено: %s</string>
+    <string name="subject_label">Тема: %s</string>
+    <string name="message_size_label">Размер на съобщението: %s КБ</string>
+    <string name="priority_label">Приоритет: %s</string>
+    <string name="priority_high">Висок</string>
+    <string name="priority_normal">Нормален</string>
+    <string name="priority_low">Нисък</string>
+    <string name="hidden_sender_address">Скрит адрес на подателя</string>
+    <string name="menu_add_address_to_contacts">Добавяне на %s към Хора</string>
     <string name="settings_general_category_title">Общи</string>
     <string name="mms_notification_template" formatted="false">Ново MMS съобщение за изтегляне с размер от %s и валидност до %s.</string>
     <string name="kilobyte">КБ</string>
+    <string name="via_gv">през Google Voice</string>
+    <string name="via_sms">чрез SMS</string>
+    <string name="via_mms">чрез MMS</string>
+    <string name="via_tycho">през Project Fi</string>
     <string name="play_button_content_description">Пускане</string>
+    <string name="image_attachment_content_description">Снимка</string>
     <string name="video_attachment_content_description">Видеоклип</string>
     <string name="generic_attachment_content_description">Прикачен файл</string>
     <string name="vCard_attachment_content_description">Визитна картичка</string>
@@ -2318,6 +2157,7 @@ Hangouts ще запазва цялата история на разговори
     <string name="sticker_attachment_content_description">Стикер</string>
     <string name="subject_hint">Тема</string>
     <string name="byline_time_and_transport" formatted="false">%s %s</string>
+    <string name="sms_not_delivered">SMS съобщението не е доставено</string>
     <string name="sms_notification_enabled_title">Известия</string>
     <string name="sms_notification_sound_title">Звук</string>
     <string name="sms_notification_vibrate_title">Вибриране</string>
@@ -2335,6 +2175,7 @@ Hangouts ще запазва цялата история на разговори
     <string name="forward_text_mms">Препращане на MMS</string>
     <string name="touch_to_add_to_contacts">Докоснете за добавяне към контактите</string>
     <string name="sms_not_enabled_error">За да изпратите SMS с Hangouts, включете функцията в „Настройки“.</string>
+    <string name="mms_unknown_sender_name">Неизвестен подател</string>
     <string name="mms_downloaded_toast">MMS съобщението от %s се изтегли.</string>
     <string name="unknown_sender_mms_text_input_toast">Не могат да се изпращат съобщения до неизвестен подател. Докоснете MMS съобщението, за да го изтеглите.</string>
     <string name="unknown_sender_phone_text_input_toast">Не могат да се изпращат съобщения до неизвестен или скрит подател.</string>
@@ -2373,6 +2214,7 @@ Hangouts ще запазва цялата история на разговори
     <string name="sms_send_from_sim_summary">Номер от оператора</string>
     <string name="sms_send_from_sim_summary_with_number">Оператор: %1s</string>
     <string name="sms_send_from_sim_summary_with_carrier_and_number" formatted="false">%1s: %2s</string>
+    <string name="realtimechat_block_merged_text">Ако потребителят бъде блокиран, повече няма да получавате директни съобщения и известия в Hangouts или по SMS, но този човек пак ще присъства в общите ви групови разговори. &lt;a href=\"http://support.google.com/hangouts?p=blocking\">Научете повече&lt;/a> &lt;br>&lt;br> Възможно е да промените кои хора могат да започват разговор с вас, като персонализирате настройките си за покани.</string>
     <string name="enable_merged_conversations_title">Активиране на обединените разговори</string>
     <string name="enable_merged_conversations_summary">SMS и разговорите в Hangouts с едни и същи контакти ще се показват обединени</string>
     <string name="transport_spinner_promo_main_text">Разговорите ви вече са обединени.</string>
@@ -2394,6 +2236,12 @@ Hangouts ще запазва цялата история на разговори
     <string name="google_voice_blocked_dialog_message">За съжаление, телефонните обаждания временно не са налице. Моля, опитайте отново по-късно.</string>
     <string name="call_input_phone_number_text">Обаждане до %s</string>
     <string name="add_phone_participants_action_bar_title">Добавяне на телефонен участник</string>
+    <string name="play_media">Пускане</string>
+    <string name="pause_media">Пауза</string>
+    <string name="speakerphone_on">Превключване към слушалката</string>
+    <string name="speakerphone_off">Превключване към високоговорителя</string>
+    <string name="audio_mms_title">Аудиосъобщение</string>
+    <string name="voicemail_title">Гласова поща</string>
     <string name="audio_loading">Зарежда се…</string>
     <string name="audio_load_failed">Зареждането не е възможно. Моля, опитайте отново.</string>
     <string name="view_vcard">Преглед на визитната картичка</string>
@@ -2792,7 +2640,8 @@ Hangouts ще запазва цялата история на разговори
     <string name="hangout_announce_switch_local_controls">Контролите за обаждането са показани</string>
     <string name="hangout_announce_switch_participant_tray">Контролите за участниците са показани</string>
     <string name="message_image_failed_to_load">Изображението не може да се покаже.</string>
-    <string name="message_content_not_supported_by_hangouts">Изпращането на този тип съобщения не се поддържа от Hangouts. Опитайте посредством SMS.</string>
+    <string name="message_content_not_supported_by_hangouts">Изпращането на това съобщение не се поддържа от Hangouts. Опитайте посредством SMS.</string>
+    <string name="message_content_not_supported_by_sms">Изпращането на това съобщение не се поддържа от SMS. Опитайте посредством Hangouts.</string>
     <string name="autoswitch_to_hangouts_promo">Автоматично се превключи към Hangouts въз основа на последното получено съобщение.</string>
     <string name="autoswitch_to_sms_promo">Автоматично се превключи към SMS въз основа на последното получено съобщение.</string>
     <string name="promo_message_dismiss">Отхвърляне</string>
@@ -2812,6 +2661,8 @@ Hangouts ще запазва цялата история на разговори
     <string name="archive_conversation_failed">Разговорът не можа да се архивира.</string>
     <string name="archive_conversation_failed_network">Разговорът не можа да се архивира, защото нямате връзка.</string>
     <string name="video_call_start_audio_only_hangout">Разговор</string>
+    <string name="realtimechat_otr_state_enforced_self">Тази настройка не може да бъде променена поради правилата за домейните, зададени от администратора ви.</string>
+    <string name="realtimechat_otr_state_enforced_other">Тази настройка не може да бъде променена поради правилата за домейните на други потребители в разговора.</string>
     <string name="navigation_drawer_open">Меню за навигация</string>
     <string name="navigation_drawer_close">Скриване на менюто за навигация</string>
     <string name="business_features_settings_title">Предварителен преглед на Hangouts за бизнеса ви</string>
@@ -2831,6 +2682,7 @@ Hangouts ще запазва цялата история на разговори
     <string name="send_button_deferred_send">Съобщението ви е в опашката и скоро ще бъде доставено.</string>
     <string name="message_email_mms_warning_description">Изпращането на MMS до имейл адреси през Google Voice още не се поддържа.</string>
     <string name="message_tycho_email_mms_warning_description">Изпращането на MMS до имейл адреси през Project Fi още не се поддържа.</string>
+    <string name="no_contact_toast">Няма намерена информация за връзка</string>
     <string name="improve_hangouts_category">Подобряване на Hangouts</string>
     <string name="improve_hangouts_title">Подобряване на Hangouts</string>
     <string name="improve_hangouts_summary">Съобщаване на допълнителна диагностична информация с цел подобряване на Hangouts</string>
@@ -2841,7 +2693,7 @@ Hangouts ще запазва цялата история на разговори
     <string name="tab_name_dialer">Обаждания</string>
     <string name="contact_avatar_checked">Отметнато</string>
     <string name="contact_avatar_locked">Отметнато, отметката не може да се премахне</string>
-    <string name="video_not_supported_by_hangouts">Изпращането на този видеоклип не се поддържа в Hangouts.</string>
+    <string name="video_not_supported_by_hangouts">Изпращането на този видеоклип не се поддържа в Hangouts. Опитайте да го изпратите с MMS.</string>
     <string name="video_too_large">Видеоклипът може да е твърде голям за изпращане с MMS.</string>
     <string name="invite_not_accepted_one_on_one">%s не прие поканата ви.</string>
     <string name="invite_not_accepted_send_a_message">Изпратете съобщение до %s, за да поканите този човек в разговора.</string>
@@ -2853,30 +2705,7 @@ Hangouts ще запазва цялата история на разговори
     <string name="video_battery_saver_unmute">Режимът за запазване на батерията е изключен.</string>
     <string name="video_battery_saver_unmute_enable">Включване на камерата</string>
     <string name="hangout_mic_permission_required">За да се присъедините към обаждане, е нужно разрешение за използване на микрофона ви.</string>
-    <string name="video_muted_due_to_camera_error">Видеото не работи поради проблем с камерата.</string>
-    <string name="easteregg_algebraic_value">| ( •◡•)| (❍ᴥ❍ʋ)</string>
-    <string name="easteregg_disapprove_value">ಠ_ಠ</string>
-    <string name="easteregg_facepalm_value">(－‸ლ)</string>
-    <string name="easteregg_flowerbeam_value">( ・◡・)つ━☆🌸🌺🌼</string>
-    <string name="easteregg_happy_value">ᕕ( ᐛ )ᕗ</string>
-    <string name="easteregg_lgtm_value">👍 👍 👍</string>
-    <string name="easteregg_lit_value">🔥 🔥 🔥</string>
-    <string name="easteregg_shame_value">🔔 🔔 🔔</string>
-    <string name="easteregg_success_value">(•̀ᴗ•́)و ̑̑</string>
-    <string name="easteregg_sunglasses_value">"( •_•)
-( •_•)>⌐■-■
-(⌐■_■)"</string>
-    <string name="easteregg_tableflip_value">(╯°□°)╯︵ ┻━┻</string>
-    <string name="easteregg_tableback_value">┬─┬ノ( ゜-゜ノ)</string>
-    <string name="easteregg_this_value">☜(ﾟヮﾟ☜)</string>
-    <string name="easteregg_that_value">(☞ﾟヮﾟ)☞</string>
-    <string name="easteregg_wizard_value">(∩ ` -´)⊃━━☆ﾟ.*･｡ﾟ</string>
-    <string name="easteregg_yuno_value">ლ(ಠ益ಠლ)</string>
-    <string name="easteregg_shruggie_key">shruggie</string>
-    <string name="easteregg_shruggie_value">¯\\_(ツ)_/¯</string>
-    <string name="easteregg_puppyparty_value">🐕🐩🐕🙌🐩🐕🐩</string>
-    <string name="easteregg_octodisco_value">🎶🐙🎶</string>
-    <string name="joining_call_progress_dialog_message">Присъединявате се към обаждането</string>
+    <string name="widget_unavailable">Приспособлението вече не е налице</string>
     <string name="cancel">Отказ</string>
     <string name="clear">Изчистване</string>
     <string name="no">Не</string>
@@ -2901,7 +2730,6 @@ Hangouts ще запазва цялата история на разговори
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="abc_capital_on">ВКЛ.</string>
     <string name="abc_capital_off">ИЗКЛ.</string>
-    <string name="search_menu_title">Търсене</string>
     <string name="add_account">Добавяне на профил</string>
     <string name="manage_accounts">Управление на профилите</string>
     <string name="sign_in">Вход</string>
@@ -2910,4 +2738,9 @@ Hangouts ще запазва цялата история на разговори
     <string name="account_item">Превключване към %1$s</string>
     <string name="selected_account">Влезли сте в/ъв %1$s</string>
     <string name="account_list">Списък с профили</string>
+    <string name="apply">Прилагане</string>
+    <string name="copy">Копиране</string>
+    <string name="dismiss">Отхвърляне</string>
+    <string name="not_now">Не сега</string>
+    <string name="yes">Да</string>
 </resources>

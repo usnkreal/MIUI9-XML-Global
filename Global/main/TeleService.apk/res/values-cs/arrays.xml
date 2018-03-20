@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="preferred_network_mode_choices_world_mode">
-        <item>Globální</item>
-        <item>LTE / CDMA</item>
-        <item>LTE / GSM / UMTS</item>
+    <string-array name="tty_mode_entries">
+        <item>TTY vypnuto</item>
+        <item>TTY plné</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
     </string-array>
-    <string-array name="preferred_network_mode_values_world_mode">
-        <item>10</item>
-        <item>8</item>
-        <item>9</item>
+    <string-array name="dtmf_tone_entries">
+        <item>Normální</item>
+        <item>Dlouhé</item>
     </string-array>
     <string-array name="clir_display_values">
         <item>Výchozí síť</item>
@@ -69,15 +69,5 @@
     <string-array name="cdma_subscription_values">
         <item>0</item>
         <item>1</item>
-    </string-array>
-    <string-array name="tty_mode_entries">
-        <item>TTY vypnuto</item>
-        <item>TTY plné</item>
-        <item>TTY HCO</item>
-        <item>TTY VCO</item>
-    </string-array>
-    <string-array name="dtmf_tone_entries">
-        <item>Normální</item>
-        <item>Dlouhé</item>
     </string-array>
 </resources>

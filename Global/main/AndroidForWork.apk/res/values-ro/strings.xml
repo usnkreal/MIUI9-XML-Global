@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setup_wizard_next_button_label">Înainte</string>
+    <string name="setup_wizard_back_button_label">Înapoi</string>
+    <string name="app_name">Android Work Assistant</string>
+    <string name="android_for_work_title">Configurați dispozitivul</string>
+    <string name="corp_owned_explanation">Organizația dvs. controlează acest dispozitiv și menține siguranța acestuia.</string>
+    <string name="set_up">Configurați</string>
+    <string name="email_hint">Adresă de e-mail</string>
+    <string name="code_hint">Codul de activare</string>
+    <string name="dialog_activation_code_title">Codul de activare</string>
+    <string name="dialog_activation_code_main_text">Pentru a configura contul Android Work, trebuie să instalați o aplicație de administrare aprobată de organizația dvs. Pentru a instala aplicația, veți avea nevoie de un cod de activare. Contactați departamentul IT pentru a obține codul.</string>
+    <string name="dialog_close">Închideți</string>
+    <string name="dialog_cancel">Anulați</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_try_again">Reîncercați</string>
+    <string name="error_dialog_mdm_lookup_failed">Nu s-au putut obține informațiile organizației dvs. Verificați conexiunea la internet și încercați din nou.</string>
+    <string name="error_dialog_cert_hash_mismatch">Aplicația %1$ este deja instalată. Eliminați aplicația și încercați din nou.</string>
+    <string name="error_dialog_input_error">Adresa dvs. de e-mail și codul de activare nu se potrivesc. Verificați dacă există greșeli de ortografie și încercați din nou.</string>
+    <string name="lookup_progress_text">Se caută aplicația de administrare a dispozitivului...</string>
+</resources>

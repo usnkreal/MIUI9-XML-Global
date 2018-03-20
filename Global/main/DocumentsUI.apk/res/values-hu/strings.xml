@@ -13,14 +13,12 @@
     <string name="menu_save">Mentés</string>
     <string name="menu_share">Megosztás</string>
     <string name="menu_delete">Törlés</string>
-    <string name="menu_select_all">Összes kijelölése</string>
-    <string name="menu_copy">Másolás ide…</string>
-    <string name="menu_advanced_show">SD-kártya megjelenítése</string>
-    <string name="menu_advanced_hide">SD-kártya elrejtése</string>
+    <string name="menu_select">A(z) „^1” mappa kiválasztása</string>
+    <string name="menu_advanced_show">Belső tárhely</string>
+    <string name="menu_advanced_hide">Belső tárhely elrejtése</string>
     <string name="menu_file_size_show">Fájlméret megjelenítése</string>
     <string name="menu_file_size_hide">Fájlméret elrejtése</string>
-    <string name="button_select">Kiválasztás</string>
-    <string name="button_copy">Másolás</string>
+    <string name="mode_selected_count">%1$d kiválasztva</string>
     <string name="sort_name">Név szerint</string>
     <string name="sort_date">Módosítás dátuma szerint</string>
     <string name="sort_size">Méret szerint</string>
@@ -39,10 +37,4 @@
     <string name="toast_no_application">A fájlt nem lehet megnyitni</string>
     <string name="toast_failed_delete">Néhány dokumentumot nem lehet törölni</string>
     <string name="share_via">Megosztás itt:</string>
-    <string name="copy_notification_title">Fájlok másolása</string>
-    <string name="copy_remaining">%s van hátra</string>
-    <string name="copy_preparing">Felkészülés a másolásra…</string>
-    <string name="notification_touch_for_details">Érintse meg a részletek megtekintéséhez</string>
-    <string name="retry">Újra</string>
-    <string name="copy_failure_alert_content">A következő fájlokat nem sikerült átmásolni: %1$s</string>
 </resources>

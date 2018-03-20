@@ -2,6 +2,7 @@
 <resources>
     <string name="uid_label">Médiá</string>
     <string name="app_label">Ukladací priestor médií</string>
+    <string name="upgrade_msg">Prebieha inovácia databázy médií</string>
     <string name="artist_label">Umelec</string>
     <string name="ringtone_default">Predvolený tón zvonenia</string>
     <string name="notification_sound_default">Predvolený zvuk upozornenia</string>

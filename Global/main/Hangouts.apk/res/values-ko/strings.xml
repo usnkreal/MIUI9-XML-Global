@@ -54,11 +54,8 @@
     <string name="setup_error_enable_voice_calling">이 계정의 Wi‑Fi 통화를 사용 설정하지 못했습니다.</string>
     <string name="teleconnectionservice_notification">Project Fi - 진행 중인 통화</string>
     <string name="settings_label">Wi‑Fi 통화 설정</string>
-    <string name="settings_wifi_data_label">Wi‑Fi 및 모바일 데이터 통화</string>
     <string name="wifi_calling_enabled_title">Wi‑Fi 통화</string>
     <string name="wifi_calling_enabled_summary">연결이 안정적인 경우 통화에 Wi‑Fi 사용</string>
-    <string name="wifi_data_calling_title">Wi‑Fi 및 모바일 데이터 통화</string>
-    <string name="wifi_data_calling_enabled_summary">Wi-Fi의 신호가 충분히 강하면 통화 시 Wi-Fi를 사용합니다. 일부 국제 전화의 경우 더 나은 통화 환경을 위해 모바일 데이터를 사용합니다.</string>
     <string name="selected_account_title">Wi‑Fi 계정</string>
     <string name="ask_each_call_title">항상 확인</string>
     <string name="request_feedback_title">통화 평가</string>
@@ -78,20 +75,6 @@
     <string name="sms_promo_banner_message_text">Messenger를 사용하여 SMS 문자 메시지를 간편하고 빠르게 보내 보세요.</string>
     <string name="sms_promo_banner_dismiss_button_text">닫기</string>
     <string name="sms_promo_banner_try_it_button_text">사용해 보기</string>
-    <string name="new_conversation_shortcut_short_text">채팅</string>
-    <string name="video_call_shortcut_short_text">화상 통화</string>
-    <string name="audio_call_shortcut_short_text">음성 통화</string>
-    <string name="unsupported_content_type">지원되지 않는 콘텐츠 유형</string>
-    <string name="unmerged_setting_message_text">더 이상 대화 병합이 지원되지 않습니다. &lt;a href=%s>자세히 알아보기&lt;/a></string>
-    <string name="gv_sms_alert_dialog_title">잘못된 SMS 수신자</string>
-    <string name="gv_sms_unsupported_destination_message">Google 보이스에서는 현재 미국, 캐나다 이외 국가의 전화번호로는 SMS 메시지를 보낼 수 없습니다.</string>
-    <string name="sms_invalid_phone_number_message_prefix">다음 전화번호는 너무 깁니다.</string>
-    <string name="sms_update_the_contact">연락처를 업데이트하고 다시 시도하세요.</string>
-    <string name="gv_sms_invalid_phone_number_message_length_suffix">(Google 보이스 SMS 수신자에 허용되는 최대 길이는 %s자(예: 미국 또는 캐나다 전화번호)입니다.)</string>
-    <string name="emergency_message_warning_title">긴급 메시지를 보낼 수 없습니다.</string>
-    <string name="emergency_message_warning_message">문자 메시지로 긴급 서비스에 신고할 수 없습니다. %s에 전화하려면 전화의 다이얼러를 사용하세요.</string>
-    <string name="hangouts_emergency_warning_title">긴급 서비스에 전화를 걸거나 메시지를 보낼 수 없습니다.</string>
-    <string name="hangouts_emergency_warning_message">긴급 서비스에는 행아웃 통화나 메시지로 연락할 수 없습니다. %s에 전화하려면 전화의 다이얼러를 사용하세요.</string>
     <string name="quick_reply_option">답장</string>
     <string name="quick_reply_send_message">메시지 보내기</string>
     <string name="quick_reply_reply_to">%s에 답장</string>
@@ -118,7 +101,6 @@
     <string name="verify_phone_invalid_code">코드가 잘못되었습니다. 다시 시도해 주세요.</string>
     <string name="verify_phone_verify">다음</string>
     <string name="verify_phone_hint_text">••••</string>
-    <string name="verify_phone_code_resent_toast">코드 전송됨</string>
     <string name="verify_phone_verifying_number">전화번호 인증 중</string>
     <string name="verify_phone_duration_warning">이동통신사에 따라 몇 분 정도 걸릴 수 있습니다.</string>
     <string name="verify_phone_number_verified">"확인된 번호
@@ -127,26 +109,20 @@
     <string name="verify_phone_try_again">나중에 다시 시도할 수 있습니다.</string>
     <string name="verify_phone_done">완료</string>
     <string name="verify_phone_done_image">휴대전화 인증이 완료되었습니다.</string>
-    <string name="group_search_section_header">내 그룹</string>
     <string name="new_conversation_adding">%s 삭제</string>
     <string name="peoplelistv2_loading">로드 중...</string>
-    <string name="group_name_title">새 그룹</string>
-    <string name="invite_more_title">사용자 추가</string>
+    <string name="group_name_title">새로운 그룹 대화</string>
     <string name="group_name_hint_text">이 그룹 이름 정하기</string>
     <string name="chip_lock_description">이미 대화에 참여 중인 사용자는 삭제할 수 없습니다.</string>
     <string name="remove_participant_description">참여자 목록에서 %s님을 삭제하여 대화에 추가합니다.</string>
     <string name="people_list_error">데이터를 로드할 수 없습니다. 연결 상태를 확인하세요.</string>
     <string name="menu_contacts">주소록</string>
-    <string name="merged_people_section_title">내 주소록</string>
+    <string name="merged_people_section_title">주소록</string>
     <string name="frequent_contacts_section_title_short">자주 연락하는 사람</string>
-    <string name="on_hangouts_contacts_section_title">행아웃 사용</string>
-    <string name="not_on_hangouts_contacts_section_title">행아웃 사용 안 함</string>
-    <string name="other_contacts_section_title">기타 주소록</string>
     <string name="proceed_conversation">대화 진행</string>
     <string name="proceed_hangout">화상 통화 진행</string>
-    <string name="proceed_audio_call">음성 통화 진행</string>
     <string name="domain_title">도메인</string>
-    <string name="search_gplus_title">Google에 있는 다른 사용자</string>
+    <string name="search_gplus_title">Google+에서 검색</string>
     <string name="frequent_contacts_section_title">자주 연락하는 사람</string>
     <string name="no_contacts_text">연락처가 없습니다.</string>
     <string name="no_contacts_instruction_text">자신 있게 친구를 초대해 보세요.</string>
@@ -156,12 +132,11 @@
     <string name="contacts_permission_allow_text">허용</string>
     <string name="people_list_no_results_contacts">연락처에서 검색결과 없음</string>
     <string name="people_list_no_results_gplus">Google+에서 검색결과 없음</string>
-    <string name="people_search_hint">이름, 이메일 또는 전화번호</string>
+    <string name="people_search_hint">이름, 휴대전화 또는 이메일 입력</string>
     <string name="new_video_call">새 화상 통화</string>
     <string name="new_group">새 그룹</string>
     <string name="new_sms">새로운 SMS</string>
     <string name="new_conversation">새 대화</string>
-    <string name="name_group_option">그룹 이름 지정</string>
     <string name="select_phone_number_list_item" formatted="false">%s %s</string>
     <string name="add_people_history">추가한 사용자는 이 행아웃의 이전 메시지를 모두 볼 수 있습니다.</string>
     <string name="invitation_detail_title">행아웃에 초대</string>
@@ -177,6 +152,53 @@
     <string name="promo_skip_button">건너뛰기</string>
     <string name="gebi_progress">연락처를 조회 중입니다.</string>
     <string name="gebi_failure">연락처를 조회할 수 없습니다.</string>
+    <string name="reply_activity_title">답장</string>
+    <string name="compose_message_view_hint_text">%1s번으로 무료로 답장</string>
+    <string name="compose_message_send_text">보내기</string>
+    <string name="compose_message_mute_text">무시</string>
+    <string name="compose_message_install_text">설치</string>
+    <string name="mute_conversation_text">이러한 메시지를 보고 싶지 않다면 이 대화를 무시하시면 됩니다.</string>
+    <string name="mute_chat_title">무시</string>
+    <string name="mute_confirm_button">확인</string>
+    <string name="mute_conversation_item">이 대화 무시</string>
+    <string name="report_spam_item">무시하고 스팸으로 신고</string>
+    <string name="mute_app_item">%1s 알림 사용 중지</string>
+    <string name="confirm_mute_text">언제든지 Play 스토어에서 %1s을(를) 설치하여 메시지를 검색할 수 있습니다.</string>
+    <string name="confirm_mute_title">%1s 알림을 사용 중지하시겠습니까?</string>
+    <string name="image_notification_content_text">이미지를 전송함</string>
+    <string name="audio_notification_content_text">오디오 메시지를 전송함</string>
+    <string name="video_notification_content_text">동영상 메시지를 전송함</string>
+    <string name="sticker_notification_content_text">스티커를 전송함</string>
+    <string name="location_notification_content_text">공유한 위치</string>
+    <string name="group_audio_message_content_text">%1s님이 오디오 메시지를 전송함</string>
+    <string name="group_video_message_content_text">%1s님이 동영상 메시지를 전송함</string>
+    <string name="group_sticker_message_content_text">%1s님이 스티커를 전송함</string>
+    <string name="group_image_message_content_text">%1s님이 이미지를 보냈습니다.</string>
+    <string name="group_location_message_content_text">%1s님이 위치를 공유함</string>
+    <string name="message_send_success_toast_text">메시지 전송됨</string>
+    <string name="message_send_failure_notification_text">전송 중 문제가 발생했습니다. 다시 시도하려면 탭하세요.</string>
+    <string name="no_thanks_button">아니요</string>
+    <string name="install_button">설치</string>
+    <string name="got_it_button">확인</string>
+    <string name="first_time_notification_clicked_title">%1s님이 보낸 새 메시지</string>
+    <string name="first_time_notification_clicked_dialog_text" formatted="false">%1s님이 %2s 앱을 사용하여 채팅하고 있습니다. 여기에서 무료로 답할 수 있습니다. &lt;a href=%3$s>자세히 알아보기&lt;/a></string>
+    <string name="swipe_to_dismiss_text">닫으려면 스와이프하세요.</string>
+    <string name="first_time_message_sent_dialog_title">메시지 전송됨</string>
+    <string name="first_time_message_sent_dialog_text" formatted="false">%1s님과 %2s에서 계속 대화하세요.</string>
+    <string name="notification_reply_action_text">답장</string>
+    <string name="notification_ignore_action_text">무시</string>
+    <string name="message_send_failure_notification_title">%1s님에게 메시지 보내기</string>
+    <string name="multi_participants_chat_title" formatted="false">%1s님 외 %2s명</string>
+    <string name="delete_button_text">완료</string>
+    <string name="restore_button_text">복원</string>
+    <string name="unsupported_message_text">지원되지 않는 메시지</string>
+    <string name="unknown_notification_content_text">나에게 메시지를 보냄</string>
+    <string name="app_icon_content_description">앱 아이콘</string>
+    <string name="avatar_icon_content_description">대화 아이콘</string>
+    <string name="loading_text">로드 중…</string>
+    <string name="image_download_notification_title">이미지 다운로드 중</string>
+    <string name="message_not_accessible_text">더 이상 이 메시지에 액세스할 수 없습니다.</string>
+    <string name="redacted_notification_text">콘텐츠 숨겨짐</string>
     <string name="location_tos_title">서비스 약관</string>
     <string name="location_tos_body" formatted="false">동의를 클릭하면 &lt;a href=%s>위치 서비스 약관&lt;/a>, &lt;a href=%s>Google 서비스 약관&lt;/a> 및 &lt;a href=%s>개인정보취급방침&lt;/a>에 동의하게 됩니다.</string>
     <string name="location_tos_decline">거부</string>
@@ -185,6 +207,8 @@
     <string name="location_attachment_content_description">위치</string>
     <string name="location_address_attachment_content_description">위치, %s</string>
     <string name="location_name_address_attachment_content_description" formatted="false">위치, %s, %s</string>
+    <string name="last_seen">마지막 사용 시간</string>
+    <string name="last_seen_elapsed">마지막 사용 시간 %s</string>
     <string name="account_picker_select_initial_title">로그인</string>
     <string name="offnetwork_invite_send_button_text">초대</string>
     <string name="offnetwork_invite_sms_continue">SMS 보내기</string>
@@ -226,7 +250,7 @@
     <string name="invite_text_show_missed_video_call">부재중 화상 통화</string>
     <string name="no_invites_text">초대 없음</string>
     <string name="conv_invite_list_toolbar_heading">초대</string>
-    <string name="help_feedback_menu_item_text">고객센터</string>
+    <string name="help_feedback_menu_item_text">도움말 및 의견</string>
     <string name="help_menu_privacy_policy">개인정보취급방침</string>
     <string name="help_menu_maps_tos">지도 서비스 약관</string>
     <string name="help_menu_license">오픈소스 라이선스</string>
@@ -270,255 +294,31 @@
     <string name="gv_sms_notification_promo_label">Project Fi SMS 통합</string>
     <string name="gv_sms_integration_promo_notification_title">Fi SMS 메시지 사용 설정</string>
     <string name="gv_sms_integration_promo_notification_description">데이터로 메시지를 주고받고, 모든 기기의 행아웃에서 메시지를 볼 수 있습니다. &lt;a href=%s>자세히 알아보기&lt;/a></string>
-    <string name="gv_sms_no_thanks_button_label">닫기</string>
+    <string name="no_thanks_button_label">닫기</string>
     <string name="gv_sms_integration_promo_enable">사용</string>
-    <string name="gv_sms_integration_promo_turn_on">사용</string>
     <string name="gv_sms_optin_confirmation">Fi SMS 통합이 사용 설정되었습니다.</string>
-    <string name="gmscore_upgrade_title">Google Play 서비스 업데이트</string>
-    <string name="gmscore_upgrade_ticker">행아웃을 사용하려면 Google Play 서비스를 업데이트해야 합니다.</string>
     <string name="fab_new_conversation">새 대화</string>
     <string name="fab_dial_pad">다이얼패드</string>
     <string name="fab_phone">전화걸기</string>
-    <string name="invite_people_bottom_sheet_title">사용자 초대</string>
-    <string name="invite_people_bottom_sheet_share_link_option">링크 공유</string>
-    <string name="link_share_intro_text" formatted="false">%s님이 행아웃 통화에 초대했습니다. %s</string>
-    <string name="in_call_hangup_description">통화 종료</string>
-    <string name="in_call_turn_camera_off_button_description">카메라 끄기</string>
-    <string name="in_call_turn_camera_on_button_description">카메라 켜기</string>
-    <string name="in_call_turn_microphone_off_button_description">마이크 끄기</string>
-    <string name="in_call_turn_microphone_on_button_description">마이크 켜기</string>
-    <string name="in_call_audio_route_speaker">스피커폰 사용 안함</string>
-    <string name="in_call_audio_route_earpiece">스피커 사용 안함</string>
-    <string name="in_call_audio_route_bluetooth">블루투스 기기 사용 안함</string>
-    <string name="in_call_video_source_front">후면 카메라로 전환</string>
-    <string name="in_call_video_source_rear">전면 카메라로 전환</string>
-    <string name="in_call_invite">초대</string>
-    <string name="in_call_help">고객센터</string>
-    <string name="in_call_switch_to_audio">음성 통화</string>
-    <string name="audio_call_switch_to_video">화상 통화</string>
-    <string name="ongoing_video_call_notification_title">진행 중인 화상 통화</string>
-    <string name="ongoing_audio_call_notification_title">진행 중인 음성 통화</string>
-    <string name="ongoing_call_notification_text">통화로 돌아가려면 탭하세요.</string>
-    <string name="ongoing_call_notification_exit_text">나가기</string>
-    <string name="status_overlay_calling_text_1_participant">%s님에게 전화 거는 중</string>
-    <string name="status_overlay_calling_text_2_participants" formatted="false">%s님, %s님에게 전화 거는 중</string>
-    <string name="status_overlay_calling_text_3_participants" formatted="false">%s님, %s님, %s님에게 전화 거는 중</string>
-    <string name="status_overlay_calling_text_4_participants" formatted="false">%s님, %s님, %s님, %s님에게 전화 거는 중</string>
-    <string name="status_overlay_calling_text_over_4_participants" formatted="false">%s님, %s님, %s님 외 %s명에게 전화 거는 중</string>
-    <string name="status_overlay_connecting_text">연결 중…</string>
-    <string name="status_overlay_greenroom_text_no_participants">통화에 첫 번째로 참여했습니다.</string>
-    <string name="status_overlay_greenroom_text_1_participant">%s님이 통화에 참여 중입니다.</string>
-    <string name="status_overlay_greenroom_text_2_participants" formatted="false">%s님, %s님이 통화에 참여 중입니다.</string>
-    <string name="status_overlay_greenroom_text_3_participants" formatted="false">%s님, %s님, %s님이 통화에 참여 중입니다.</string>
-    <string name="status_overlay_greenroom_text_4_participants" formatted="false">%s님, %s님, %s님, %s님이 통화에 참여 중입니다.</string>
-    <string name="status_overlay_greenroom_text_over_4_participants" formatted="false">%s님, %s님, %s님 외 %s명이 통화에 참여 중입니다.</string>
-    <string name="greenroom_join_button_text">참여하기</string>
-    <string name="invite_failed">초대하지 못함</string>
-    <string name="default_participant_name">참여자</string>
-    <string name="participant_joined_announcement">%s님이 통화에 참여했습니다.</string>
-    <string name="participant_left_announcement">%s님이 통화에서 나갔습니다.</string>
-    <string name="filmstrip_remote_participant_content_description">%s님 고정</string>
-    <string name="filmstrip_local_participant_content_description">나 고정</string>
-    <string name="filmstrip_local_participant_name">나</string>
-    <string name="filmstrip_participant_audio_mute_description">음소거됨</string>
-    <string name="greenroom_join_button_description">화상 통화 참여</string>
-    <string name="action_bar_default_title">전화 걸기</string>
-    <string name="action_bar_title_2_participants" formatted="false">%s님, %s님</string>
-    <string name="action_bar_title_3_participants" formatted="false">%s님, %s님, %s님</string>
-    <string name="action_bar_title_4_participants" formatted="false">%s님, %s님, %s님, %s님</string>
-    <string name="action_bar_title_over_4_participants" formatted="false">%s님, %s님, %s님 외 %s명</string>
-    <string name="audio_route_selector_fragment_title">기기 전환</string>
-    <string name="audio_route_selector_fragment_speaker">스피커폰</string>
-    <string name="audio_route_selector_fragment_earpiece">이어피스</string>
-    <string name="audio_route_selector_fragment_bluetooth">블루투스</string>
-    <string name="call_launch_already_in_hangout">이미 통화 중입니다.</string>
-    <string name="call_exited">통화를 끊었습니다.</string>
-    <string name="call_enter_ongoing_phone_call_error">음성 통화 중에는 통화에 참여할 수 없습니다.</string>
-    <string name="call_enter_timeout_error">통화에 참여하는 중에 시간이 초과되었습니다. 네트워크 연결을 확인하고 다시 시도해 주세요.</string>
-    <string name="call_enter_blocked_error">참여자 중 누군가가 나를 차단했기 때문에 이 통화에 참여할 수 없습니다.</string>
-    <string name="call_enter_blocking_error">참여자 중 누군가를 차단했기 때문에 이 통화에 참여할 수 없습니다.</string>
-    <string name="call_enter_max_users_error">죄송합니다. 이 통화는 이미 꽉 찼습니다.</string>
-    <string name="call_enter_unknown_error">통화에 참여할 수 없습니다.</string>
-    <string name="call_enter_mature_content">미성년자는 이 통화에 참여할 수 없습니다.</string>
-    <string name="call_exited_kicked">이 통화에서 삭제되었습니다.</string>
-    <string name="call_account_registration_error">예기치 않은 계정 등록 오류가 발생했습니다. 다시 시도해 주세요.</string>
-    <string name="call_enter_no_network_error">네트워크 연결을 확인하고 다시 시도해 주세요.</string>
-    <string name="call_exited_for_phone_call">음성 전화를 받았기 때문에 통화의 연결이 끊어졌습니다.</string>
-    <string name="call_exited_network_error">통화 연결이 끊어졌습니다. 네트워크 연결을 확인하고 다시 시도해 주세요.</string>
-    <string name="call_over_error">이미 종료된 통화입니다.</string>
-    <string name="call_mic_permission_required">통화에 참여하려면 마이크를 사용할 수 있는 권한이 필요합니다.</string>
-    <string name="unknown_user_name">알 수 없음</string>
-    <string name="status_overlay_a11y_announcement_join_call">통화에 참여하려면 참여 버튼을 누르세요.</string>
-    <string name="a11y_announcement_call_control_available">통화 관리 사용 가능</string>
-    <string name="direct_share_target_long_conversation_name">%s…</string>
     <string name="diagnostics_promo_title">행아웃 개선</string>
     <string name="diagnostics_promo_body">제품 개선을 위해 행아웃에서 앱 사용에 대한 기본 세부정보를 수집합니다. 때로는 제품 개선을 지원하기 위해 더 자세한 진단 정보를 수집할 수도 있습니다.</string>
     <string name="diagnostics_promo_ok">확인</string>
     <string name="diagnostics_improve_hangouts_summary">행아웃 개선을 위해 추가 진단 결과를 보고합니다.</string>
-    <string name="custom_tabs_share_description">공유</string>
-    <string name="custom_tabs_share_sheet_title">다음을 통해 공유:</string>
-    <string name="custom_tabs_setting_title">행아웃에서 찾아보기</string>
-    <string name="custom_tabs_setting_summary">행아웃 브라우저에서 웹 링크를 열도록 허용</string>
-    <string name="custom_tabs_mismatched_account_emails_toast">%s(으)로 로그인함</string>
-    <string name="launch_video_camera_failed">카메라를 실행할 수 없습니다.</string>
-    <string name="video_camera_picker_indicator_desc">동영상</string>
-    <string name="menu_capture_video">동영상 촬영</string>
-    <string name="video_sharing_hangouts_only">행아웃 대화 중에만 동영상을 공유할 수 있습니다.</string>
     <string name="sticker_picker_indicator_desc">스티커</string>
-    <string name="proxy_picker_indicator_desc">카메라 또는 동영상</string>
-    <string name="choose_picture_attachment">사진 촬영</string>
-    <string name="choose_video_attachment">영화 만들기</string>
     <string name="location_picker_indicator_desc">위치</string>
     <string name="live_camera_indicator_desc">카메라</string>
-    <string name="live_camera_take_photo_desc">사진 촬영</string>
-    <string name="live_camera_send_photo_desc">사진 전송</string>
-    <string name="switch_to_front_camera_desc">전면 카메라로 전환</string>
-    <string name="switch_to_rear_camera_desc">후면 카메라로 전환</string>
     <string name="gallery_picker_empty_view_text">이미지가 없습니다.</string>
     <string name="gallery_picker_photo_picking_fab_content_description">사진 선택</string>
     <string name="gallery_picker_indicator_desc">사진</string>
-    <string name="gallery_photo_selected_str">선택됨, %s에 촬영한 사진</string>
-    <string name="gallery_photo_unselected_str">%s에 촬영한 사진</string>
-    <string name="gallery_video_selected_str" formatted="false">선택됨, %s에 촬영한 동영상(길이: %s)</string>
-    <string name="gallery_video_unselected_str" formatted="false">%s에 촬영한 동영상(길이: %s)</string>
+    <string name="gallery_item_selected_str">선택됨, %s</string>
+    <string name="gallery_item_unselected_str">%s</string>
     <string name="gallery_item_video_name_and_duration" formatted="false">%s, %s</string>
     <string name="emoji_picker_indicator_desc">그림 이모티콘</string>
     <string name="launch_camera_failed">카메라를 실행할 수 없습니다.</string>
     <string name="camera_picker_indicator_desc">카메라</string>
     <string name="menu_take_camera_photo">사진 찍기</string>
-    <string name="pin_menu_item_text">메인 스크린에 추가</string>
-    <string name="people_and_options_activity_title">사용자 및 옵션</string>
-    <string name="menu_show_participants_and_options">사용자 및 옵션</string>
-    <string name="conversation_people_menu_item_text">참여자</string>
-    <string name="people_activity_title">참여자</string>
-    <string name="group_conversation_options_partition_title">그룹 대화</string>
-    <string name="people_in_this_conversation_options_partition_title">이 대화의 참가자</string>
-    <string name="last_seen">최근 접속</string>
-    <string name="last_seen_elapsed">최근 접속 %s</string>
-    <string name="conversation_options_menu_item_text">옵션</string>
-    <string name="options_activity_title">옵션</string>
-    <string name="conversation_partition_title">대화</string>
-    <string name="group_options_partition_title">그룹 옵션</string>
-    <string name="notification_options_partition_title">알림 옵션</string>
-    <string name="other_actions_partition_title">기타 작업</string>
-    <string name="hangouts_message_notification_sound_title">채팅 메시지 알림음</string>
-    <string name="hangouts_call_ringtone_title">전화 벨소리</string>
-    <string name="off_the_record_conversation_option_title">기록</string>
-    <string name="realtimechat_otr_state_enforced_self">관리자가 설정한 도메인 정책으로 인해 이 설정을 변경할 수 없습니다.</string>
-    <string name="realtimechat_otr_state_enforced_other">이 행아웃에 있는 다른 사용자의 도메인 정책으로 인해 이 설정을 변경할 수 없습니다.</string>
-    <string name="conversation_notifications_option">알림</string>
-    <string name="conversation_notifications_option_all">전체</string>
-    <string name="conversation_notifications_option_important">중요한 메시지만</string>
-    <string name="conversation_notifications_option_important_subtext">멘션</string>
-    <string name="conversation_notifications_option_none">선택 안함</string>
-    <string name="conversation_notifications_option_use_global">전체 설정 사용</string>
-    <string name="new_group_conversation_option_title">그룹 만들기</string>
-    <string name="new_group_with_x_conversation_option_title">%s님과 그룹 만들기</string>
-    <string name="new_group_mms_conversation_option_title">그룹 MMS 만들기</string>
-    <string name="new_group_mms_with_x_conversation_option_title">%s님과 그룹 MMS 만들기</string>
-    <string name="leave_conversation_option_title">대화 나가기</string>
-    <string name="invite_more_conversation_option_title">사용자 추가</string>
-    <string name="conversation_group_link_sharing_option_title">링크로 참여하기</string>
-    <string name="conversation_group_link_sharing_option_dialog_title">"현재 '링크로 참여하기'가 사용 설정되어 있습니다."</string>
-    <string name="conversation_group_link_sharing_option_dialog_message">이 그룹에 참여하는 사용자는 이 행아웃의 이전 메시지를 모두 볼 수 있습니다.</string>
-    <string name="conversation_group_link_sharing_option_dialog_confirm">확인</string>
-    <string name="conversation_dialog_retrieving_group_link">링크 생성 중...</string>
-    <string name="conversation_group_link_request_failed">링크를 생성하지 못했습니다.</string>
-    <string name="conversation_group_link_description_text">행아웃 대화에 참여하기</string>
-    <string name="conversation_group_link_share_intent_text">링크 공유</string>
-    <string name="fork_conversation_option_title">새 그룹 대화 만들기</string>
-    <string name="delete_conversation_option_title">대화 삭제</string>
-    <string name="conversation_name_option">대화 이름</string>
-    <string name="realtimechat_conversation_rename_dialog_title">대화 이름 변경</string>
-    <string name="realtimechat_conversation_rename_save_button_text">저장</string>
-    <string name="realtimechat_conversation_rename_cancel_button_text">취소</string>
-    <string name="realtimechat_conversation_rename_hint">대화 이름</string>
-    <string name="conversation_block_option">%s님 차단</string>
-    <string name="conversation_unblock_option">%s님 차단 해제</string>
-    <string name="archive_conversation_option_title">대화 보관처리</string>
-    <string name="unarchive_conversation_option_title">대화 보관 안함</string>
-    <string name="sms_not_delivered">SMS가 전송되지 않았습니다.</string>
-    <string name="ephemeral_message_queued">준비 중</string>
-    <string name="ephemeral_message_uploading">업로드 중</string>
-    <string name="ephemeral_message_processing">처리 중</string>
-    <string name="ephemeral_message_sending">전송 중</string>
-    <string name="ephemeral_message_downloading">다운로드 중</string>
-    <string name="mms_failed_mobile_data_disabled">모바일 데이터가 사용 중지되었습니다.</string>
-    <string name="mms_failed_service_blocked">사용 중인 휴대전화 요금제에서는 MMS를 사용할 수 없습니다.</string>
-    <string name="mms_failed_invalid_address">수신 주소가 잘못되었습니다.</string>
-    <string name="mms_failed_network_problem">네트워크에 문제가 있습니다. 다시 시도하려면 탭하세요.</string>
-    <string name="mms_failed_message_not_found">제공업체 서버에서 MMS를 찾을 수 없습니다.</string>
-    <string name="mms_failed_address_hiding_not_supported">주소 숨기기는 지원되지 않습니다.</string>
-    <string name="mms_failed_can_not_persist">MMS를 저장할 수 없습니다.</string>
-    <string name="mms_failed_content_not_accepted">MMS 콘텐츠는 허용되지 않습니다.</string>
-    <string name="mms_failed_lack_of_prepaid">선불 금액이 부족합니다.</string>
-    <string name="mms_failed_message_format_corrupt">메시지 형식이 손상되었습니다.</string>
-    <string name="mms_failed_message_not_supported">제공업체에서 메시지를 지원하지 않습니다.</string>
-    <string name="mms_failed_no_available_apn">액세스포인트 네임(APN)을 사용할 수 없습니다.</string>
-    <string name="mms_failed_reply_charging_error">답장 과금 오류입니다.</string>
-    <string name="mms_failed_invalid_message_to_send">메시지 내용이 잘못되었습니다.</string>
-    <string name="permanent_message_download_error">메시지 다운로드할 수 없음. 탭하여 다시 시도하기</string>
-    <string name="permanent_message_error">전송에 실패했습니다. 탭하여 다시 시도하세요.</string>
-    <string name="mms_touch_to_download">다운로드하려면 탭하세요.</string>
-    <string name="unpersisted_message_warning">메시지가 일부에 전달되지 않은 것 같습니다.</string>
-    <string name="via_gv">Google 보이스를 통해 전송</string>
-    <string name="via_sms">SMS로 전송</string>
-    <string name="via_mms">MMS 전송</string>
-    <string name="via_tycho">Project Fi로</string>
-    <string name="no_contact_toast">연락처 정보가 없습니다.</string>
-    <string name="system_message_off_the_record">기록을 사용 중지했습니다.</string>
-    <string name="system_message_off_the_record_ongoing">채팅 기록 사용 중지 중</string>
-    <string name="system_message_off_the_record_external">%s님이 기록을 사용 중지했습니다.</string>
-    <string name="system_message_off_the_record_external_anonymous">기록이 사용 중지되었습니다.</string>
-    <string name="system_message_off_the_record_failed">기록을 사용 중지할 수 없습니다.</string>
-    <string name="system_message_on_the_record">기록을 사용하도록 설정했습니다.</string>
-    <string name="system_message_on_the_record_ongoing">채팅 기록 사용 설정 중</string>
-    <string name="system_message_on_the_record_external">%s님이 기록을 사용하도록 설정했습니다.</string>
-    <string name="system_message_on_the_record_external_anonymous">기록이 사용 설정되었습니다.</string>
-    <string name="system_message_on_the_record_failed">기록을 사용하도록 설정할 수 없습니다.</string>
-    <string name="share_location">위치 공유</string>
-    <string name="copy_text_clip_data_plain_text_label">메시지 내용</string>
-    <string name="play_media">재생</string>
-    <string name="pause_media">일시중지</string>
-    <string name="speakerphone_on">스피커로 전환</string>
-    <string name="speakerphone_off">스피커폰으로 전환</string>
-    <string name="audio_mms_title">오디오 메시지</string>
-    <string name="voicemail_title">음성사서함</string>
-    <string name="menu_details_title">메시지 옵션</string>
-    <string name="menu_copy_text">텍스트 복사</string>
-    <string name="menu_save_media">미디어 저장</string>
-    <string name="menu_forward_message">전달</string>
-    <string name="menu_view_details">세부정보 보기</string>
-    <string name="menu_view_debug_details">디버그 세부정보</string>
-    <string name="menu_delete_message">삭제</string>
-    <string name="menu_dont_send_message">보내지 않음</string>
-    <string name="menu_view_profile">프로필 보기</string>
-    <string name="menu_add_address_to_contacts">주소록에 %s 추가</string>
-    <string name="message_details_title">메시지 세부정보</string>
-    <string name="message_type_label">유형: %s</string>
-    <string name="text_message">문자 메시지</string>
-    <string name="multimedia_message">멀티미디어 메시지</string>
-    <string name="google_voice_message">Google 보이스 메시지</string>
-    <string name="tycho_message">Project Fi 메시지</string>
-    <string name="hangouts_message">행아웃 메시지</string>
-    <string name="from_label">보낸사람: %s</string>
-    <string name="to_address_label">받는사람: %s</string>
-    <string name="sent_label">보낸 시간: %s</string>
-    <string name="received_label">받은 시간: %s</string>
-    <string name="subject_label">제목: %s</string>
-    <string name="message_size_label">메시지 크기: %sKB</string>
-    <string name="priority_label">중요도: %s</string>
-    <string name="priority_high">높음</string>
-    <string name="priority_normal">보통</string>
-    <string name="priority_low">낮음</string>
-    <string name="hidden_sender_address">숨은 발신자 주소</string>
-    <string name="image_attachment_content_description">사진</string>
-    <string name="realtimechat_conversation_join_hangout_menu_item_text">화상 통화</string>
-    <string name="realtimechat_conversation_call_menu_item_text">전화</string>
-    <string name="realtimechat_go_on_the_record_menu_item_text">대화 기록 저장</string>
-    <string name="realtimechat_go_off_the_record_menu_item_text">기록 안함</string>
+    <string name="pin_menu_item_text">메인 스크린에 저장</string>
     <string name="system_intent_result_send_desc">사진 전송</string>
-    <string name="system_intent_result_send_video_desc">동영상 전송</string>
     <string name="media_not_supported">지원되지 않는 미디어 형식입니다.</string>
     <string name="media_sharing_too_big_error">미디어 파일이 너무 커서 전송할 수 없습니다.</string>
     <string name="unable_to_attach_media">미디어 파일을 첨부할 수 없습니다.</string>
@@ -535,23 +335,21 @@
     <string name="otr_status_send_button_text">보내기</string>
     <string name="otr_status_cancel_button_text">취소</string>
     <string name="sticker_to_group_sms_error">SMS 그룹에 스티커를 보낼 수 없습니다.</string>
-    <string name="video_too_long_dialog_title">동영상이 너무 길어서 전송할 수 없음</string>
-    <string name="cant_attach_video_dialog_title">동영상을 첨부할 수 없음</string>
-    <string name="video_too_long_dialog_text">행아웃은 %s보다 짧은 동영상만 전송할 수 있습니다.</string>
-    <string name="video_too_long_dialog_text_with_save">행아웃에서 동영상을 저장했으나 %s보다 짧은 동영상만 전송할 수 있습니다.</string>
-    <string name="video_corrupted_dialog_title">동영상 보낼 수 없음</string>
-    <string name="video_corrupted_dialog_text">어떠한 이유로 행아웃에서 이 동영상을 전송할 수 없습니다. 동영상 파일이 손상되었을 수 있습니다.</string>
-    <string name="cant_send_video_dialog_ok_button">확인</string>
     <string name="transport_selection_title">SMS 시작하기</string>
     <string name="carrier_number">이동통신사 전화번호</string>
     <string name="gv_number">Google 보이스</string>
     <string name="unreachable_person">현재 %s님과 행아웃으로 연락할 수 없습니다.</string>
+    <string name="hangouts_msg_title">행아웃 메시지</string>
+    <string name="sms_msg_title">SMS 메시지</string>
+    <string name="voice_call_title">음성 통화</string>
+    <string name="video_call_title">화상 통화</string>
+    <string name="loading_conversation_message">대화 로드 중</string>
+    <string name="hangouts_call">행아웃 통화: %s</string>
+    <string name="phone_call">전화 통화: %s</string>
     <string name="hangouts_service_name">행아웃 메시지 서비스</string>
     <string name="unknown_caller">알 수 없는 발신자</string>
     <string name="unknown_user">알 수 없는 사람</string>
-    <string name="active">사용 중</string>
     <string name="on_hangouts">행아웃 사용</string>
-    <string name="invite_to_hangouts">초대</string>
     <string name="home_screen_babel_label">행아웃</string>
     <string name="share_intent_label">행아웃</string>
     <string name="fmf_promo_title">처음 1분은 무료로 통화할 수 있습니다.</string>
@@ -577,6 +375,7 @@
     <string name="gv_sms_promo_text_bottom">SMS 설정에서 전송된 SMS 번호를 선택하세요. Google 보이스에 이전 메시지가 남아 있습니다. &lt;a href=%s>모든 기능 변경사항 보기&lt;/a></string>
     <string name="gv_sms_promo_no_thanks">사용 안함</string>
     <string name="gv_sms_promo_turn_on">사용</string>
+    <string name="new_plus_account">현재 행아웃을 사용할 수 있음</string>
     <string name="phone_callerid_title">발신자 번호 표시</string>
     <string name="phone_callerid_preferences_disable_message">발신자 번호 표시 기능 사용 중지...</string>
     <string name="phone_callerid_preferences_connectivity_unavailable">이 설정을 변경하려면 네트워크에 연결되어 있어야 합니다.</string>
@@ -612,13 +411,14 @@
     <string name="phone_callerid_alert_summary_callerid_device">발신자 번호 표시 기능을 사용하려면 행아웃에서 주기적으로 내 번호를 확인해야 합니다.</string>
     <string name="phone_callerid_alert_summary_tablet_device">보안상의 이유로 %s번에 대한 발신자 번호 표시 기능이 사용 중지되었습니다. 전화를 걸면 상대방에게 내 번호가 표시되지 않습니다. 다시 사용 설정하려면 해당 SIM이 있는 기기에서 번호를 확인하세요.</string>
     <string name="phone_callerid_callfrom_dialpad">발신자 번호 %s번이 활성화됨</string>
-    <string name="forced_upgrade_title">행아웃 업데이트</string>
-    <string name="forced_upgrade_body">더 이상 지원되지 않는 행아웃 버전입니다. 계속하려면 앱을 업데이트하시기 바랍니다.</string>
-    <string name="forced_upgrade_update_button">지금 업데이트</string>
-    <string name="app_upgrade_banner_title">행아웃의 이전 버전을 사용 중입니다.</string>
-    <string name="app_upgrade_banner_description">최상의 사용 환경을 위해서는 최신 버전으로 업데이트하세요.</string>
-    <string name="app_upgrade_banner_decline_button">업데이트 안함</string>
-    <string name="app_upgrade_banner_update_button">업데이트</string>
+    <string name="business_features_promo_disable">사용 중지</string>
+    <string name="business_features_promo_accept">확인</string>
+    <string name="business_features_promo_content">이제 고객과 채팅할 수 있습니다. 고객이 Google 지도와 검색에서 내 상태를 확인할 수 있습니다. &lt;a href=%s>자세히 알아보기&lt;/a></string>
+    <string name="force_upgrade_dialog_title">업데이트 필요</string>
+    <string name="signup_required_update_available">중요한 행아웃 최신 업데이트가 출시되었습니다. 행아웃을 계속 사용하려면 업데이트해야 합니다.</string>
+    <string name="suggested_upgrade_dialog_title">업데이트하세요.</string>
+    <string name="signup_suggested_update_available">중요한 행아웃 최신 버전이 출시되었습니다. 행아웃을 계속 사용하려면 업데이트해야 합니다.</string>
+    <string name="app_upgrade_ok">확인</string>
     <string name="sms_only_account_name">SMS</string>
     <string name="app_name">행아웃</string>
     <string name="moi">나</string>
@@ -631,19 +431,16 @@
     <string name="reply_status">무슨 일인가요?</string>
     <string name="reply_affirmative">예</string>
     <string name="reply_negative">아니요</string>
+    <string name="gv_sms_alert_dialog_title">잘못된 SMS 수신자</string>
+    <string name="gv_sms_unsupported_destination_message">Google 보이스에서는 현재 미국, 캐나다 이외 국가의 전화번호로는 SMS 메시지를 보낼 수 없습니다.</string>
+    <string name="sms_invalid_phone_number_message_prefix">다음 전화번호는 너무 깁니다.</string>
+    <string name="sms_update_the_contact">연락처를 업데이트하고 다시 시도하세요.</string>
+    <string name="gv_sms_invalid_phone_number_message_length_suffix">(Google 보이스 SMS 수신자에 허용되는 최대 길이는 %s자(예: 미국 또는 캐나다 전화번호)입니다.)</string>
+    <string name="emergency_message_warning_title">긴급 메시지를 보낼 수 없습니다.</string>
+    <string name="emergency_message_warning_message">문자 메시지로 긴급 서비스에 신고할 수 없습니다. %s에 전화하려면 전화의 다이얼러를 사용하세요.</string>
+    <string name="hangouts_emergency_warning_title">긴급 서비스에 전화를 걸거나 메시지를 보낼 수 없습니다.</string>
+    <string name="hangouts_emergency_warning_message">긴급 서비스에는 행아웃 통화나 메시지로 연락할 수 없습니다. %s에 전화하려면 전화의 다이얼러를 사용하세요.</string>
     <string name="offnetwork_invite_without_name_title">행아웃에 초대</string>
-    <string name="hangouts_msg_title">메시지 보내기</string>
-    <string name="sms_msg_title">SMS 메시지</string>
-    <string name="voice_call_title">음성 통화</string>
-    <string name="video_call_title">화상 통화</string>
-    <string name="view_profile_title">프로필 보기</string>
-    <string name="remove_from_group_title">그룹에서 삭제</string>
-    <string name="block_title">차단</string>
-    <string name="unblock_title">차단 해제</string>
-    <string name="loading_conversation_message">대화 로드 중</string>
-    <string name="hangouts_call">행아웃 통화: %s</string>
-    <string name="phone_call">전화 통화: %s</string>
-    <string name="mms_unknown_sender_name">발신자 알 수 없음</string>
     <string name="elapsed_just_now">방금 전</string>
     <string name="elapsed_just_now_announce">방금 전</string>
     <string name="elapsed_today">오늘</string>
@@ -1547,12 +1344,10 @@
     <string name="spoken_close_more_keys_keyboard">대체 문자를 닫았습니다.</string>
     <string name="spoken_open_more_suggestions">대체 추천 단어를 사용할 수 있습니다</string>
     <string name="spoken_close_more_suggestions">대체 추천 단어를 닫았습니다.</string>
-    <string name="place_autocomplete_clear_button">검색어 지우기</string>
-    <string name="place_autocomplete_search_hint">검색</string>
     <string name="application">애플리케이션</string>
     <string name="reinstall_prompt_dialog_title">%1$s 다시 설치</string>
     <string name="reinstall_prompt_dialog_message">%1$s 앱을 설치하는 중에 오류가 발생했습니다. 앱을 제거한 다음 다시 설치하시기 바랍니다.</string>
-    <string name="account_settings_preference_category">계정</string>
+    <string name="account_settings_preference_category">계정 설정</string>
     <string name="preferences_add_account_title">계정 추가</string>
     <string name="preference_content_description">환경설정</string>
     <string name="back_button">뒤로</string>
@@ -1570,8 +1365,6 @@
     <string name="tracing_preference_title">추적</string>
     <string name="learn_more_preference_text">자세히 알아보기</string>
     <string name="on_loader_error_content">이 설정을 보려면 데이터 연결이 있어야 합니다. 다시 시도하려면 탭하세요.</string>
-    <string name="preferences_license_title">오픈소스 라이선스</string>
-    <string name="preferences_license_summary">오픈소스 소프트웨어에 대한 라이선스 세부정보</string>
     <string name="retry_send">다시 시도</string>
     <string name="save">저장</string>
     <string name="done">완료</string>
@@ -1606,42 +1399,41 @@
     <string name="remove">삭제</string>
     <string name="remove_photo">사진 삭제</string>
     <string name="choose_photo">사진 선택</string>
-    <string name="tab_content_description_selected">전체 %3$d개 중 %2$d번째 탭(%1$s)</string>
+    <string name="tab_content_description_selected">전체 %3$d개 중 %2$d번째 탭(%1$s) 선택됨</string>
     <string name="tab_content_description_unselected">전체 %3$d개 중 %2$d번째 탭(%1$s)</string>
-    <string name="collexion_get_notifications_message">이 소식 모음의 알림 받기</string>
-    <string name="turn_notifications_on_action">사용</string>
     <string name="camera_label">카메라</string>
-    <string name="common_google_play_services_unknown_issue">%1$s에서 Google Play 서비스를 사용하는 데 문제가 있습니다. 문제가 계속되는 경우 개발자에게 지원을 요청하세요.</string>
-    <string name="common_google_play_services_api_unavailable_text">현재 %1$s에 필요한 하나 이상의 Google Play 서비스를 사용할 수 없습니다. 개발자에게 문의하여 도움을 받으시기 바랍니다.</string>
-    <string name="common_google_play_services_enable_button">Google Play 서비스 사용</string>
-    <string name="common_google_play_services_enable_text">Google Play 서비스를 사용하도록 설정해야 %1$s이(가) 작동합니다.</string>
-    <string name="common_google_play_services_enable_title">Google Play 서비스 사용</string>
-    <string name="common_google_play_services_install_button">Google Play 서비스 설치</string>
-    <string name="common_google_play_services_install_text_phone">스마트폰에 Google Play 서비스가 설치되어 있어야 %1$s이(가) 실행됩니다.</string>
-    <string name="common_google_play_services_install_text_tablet">태블릿에 Google Play 서비스가 설치되어 있어야 %1$s이(가) 실행됩니다.</string>
-    <string name="common_google_play_services_install_title">Google Play 서비스 설치</string>
-    <string name="common_google_play_services_invalid_account_text">지정한 계정이 이 기기에 존재하지 않습니다. 다른 계정을 선택하세요.</string>
-    <string name="common_google_play_services_invalid_account_title">올바르지 않은 계정</string>
-    <string name="common_google_play_services_network_error_text">Google Play 서비스에 연결하려면 데이터 연결이 필요합니다.</string>
-    <string name="common_google_play_services_network_error_title">네트워크 오류</string>
     <string name="common_google_play_services_notification_ticker">Google Play 서비스 오류</string>
-    <string name="common_google_play_services_resolution_required_text">%1$s에 필요한 작업을 완료해 주세요.</string>
-    <string name="common_google_play_services_resolution_required_title">Google Play 서비스에서 작업 요구</string>
-    <string name="common_google_play_services_restricted_profile_text">제한된 프로필에서 계정에 액세스할 수 없습니다.</string>
-    <string name="common_google_play_services_restricted_profile_title">제한된 프로필</string>
-    <string name="common_google_play_services_sign_in_failed_text">지정한 계정에 로그인하는 중에 오류가 발생했습니다. 다른 계정을 선택해 주세요.</string>
-    <string name="common_google_play_services_sign_in_failed_title">로그인 실패</string>
-    <string name="common_google_play_services_unsupported_text">%1$s에 필요한 Google Play 서비스가 사용자 기기에서 지원되지 않습니다. 기기 제조업체에 문의하시기 바랍니다.</string>
-    <string name="common_google_play_services_unsupported_title">Google Play 서비스</string>
-    <string name="common_google_play_services_update_button">업데이트</string>
-    <string name="common_google_play_services_update_text">Google Play 서비스를 업데이트해야 %1$s이(가) 실행됩니다.</string>
+    <string name="common_google_play_services_notification_needs_update_title">Google Play 서비스를 업데이트해야 하는 애플리케이션입니다.</string>
+    <string name="common_android_wear_notification_needs_update_text">%1$s에서 Android Wear 앱을 업데이트해야 합니다.</string>
+    <string name="common_google_play_services_needs_enabling_title">Google Play 서비스를 사용 설정해야 하는 애플리케이션입니다.</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">%1$s에서 요청</string>
+    <string name="common_google_play_services_install_title">Google Play 서비스 설치</string>
+    <string name="common_google_play_services_install_text_phone">휴대전화에 Google Play 서비스가 설치되어 있어야 %1$s이(가) 실행됩니다.</string>
+    <string name="common_google_play_services_install_text_tablet">태블릿에 Google Play 서비스가 설치되어 있어야 %1$s이(가) 실행됩니다.</string>
+    <string name="common_google_play_services_install_button">Google Play 서비스 설치</string>
+    <string name="common_google_play_services_enable_title">Google Play 서비스 사용</string>
+    <string name="common_google_play_services_enable_text">Google Play 서비스를 사용하도록 설정해야 %1$s이(가) 작동합니다.</string>
+    <string name="common_google_play_services_enable_button">Google Play 서비스 사용</string>
     <string name="common_google_play_services_update_title">Google Play 서비스 업데이트</string>
-    <string name="common_google_play_services_updating_text">현재 업데이트 중인 Google Play 서비스가 있어야 %1$s이(가) 실행됩니다.</string>
+    <string name="common_android_wear_update_title">Android Wear 업데이트</string>
+    <string name="common_google_play_services_update_text">Google Play 서비스를 업데이트해야 %1$s이(가) 실행됩니다.</string>
+    <string name="common_android_wear_update_text">%1$s은(는) Android Wear 앱을 업데이트하지 않으면 실행되지 않습니다.</string>
     <string name="common_google_play_services_updating_title">Google Play 서비스 업데이트 중</string>
-    <string name="common_google_play_services_wear_update_text">새 버전의 Google Play 서비스가 필요합니다. 곧 자동으로 업데이트됩니다.</string>
-    <string name="common_open_on_phone">스마트폰에서 열기</string>
+    <string name="common_google_play_services_updating_text">현재 업데이트 중인 Google Play 서비스가 있어야 %1$s이(가) 실행됩니다.</string>
+    <string name="common_google_play_services_network_error_title">네트워크 오류</string>
+    <string name="common_google_play_services_network_error_text">Google Play 서비스에 연결하려면 데이터 연결이 필요합니다.</string>
+    <string name="common_google_play_services_invalid_account_title">올바르지 않은 계정</string>
+    <string name="common_google_play_services_invalid_account_text">지정한 계정이 이 기기에 존재하지 않습니다. 다른 계정을 선택하세요.</string>
+    <string name="common_google_play_services_unknown_issue">Google Play 서비스에 알 수 없는 문제가 발생했습니다.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play 서비스</string>
+    <string name="common_google_play_services_unsupported_text">%1$s에 필요한 Google Play 서비스가 사용자 기기에서 지원되지 않습니다. 기기 제조업체에 문의하시기 바랍니다.</string>
+    <string name="common_google_play_services_update_button">업데이트</string>
     <string name="common_signin_button_text">로그인</string>
     <string name="common_signin_button_text_long">Google 계정으로 로그인</string>
+    <string name="common_open_on_phone">휴대전화에서 열기</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$s에 필요한 하나 이상의 Google Play 서비스를 현재 사용할 수 없습니다. 개발자에게 문의하여 도움을 받으시기 바랍니다.</string>
+    <string name="common_google_play_services_sign_in_failed_title">로그인 실패</string>
+    <string name="common_google_play_services_sign_in_failed_text">지정한 계정에 로그인하는 중에 오류가 발생했습니다. 다른 계정을 선택해 주세요.</string>
     <string name="alert_dialog_remember_choice">메시지를 다시 표시하지 않음</string>
     <string name="gateway_account_picker_title">계정 선택</string>
     <string name="sms_account_picker_title">SMS 계정 선택</string>
@@ -1662,6 +1454,7 @@
     <string name="menu_item_save">저장</string>
     <string name="menu_privacy_policy">개인정보취급방침</string>
     <string name="menu_terms_of_service">서비스 약관</string>
+    <string name="menu_copy_text">텍스트 복사</string>
     <string name="menu_contact_options_title">연락처 옵션</string>
     <string name="menu_hide_contact">연락처 숨기기</string>
     <string name="menu_title_recent_call_options">최근 통화 옵션</string>
@@ -1671,27 +1464,23 @@
     <string name="location_hint_text">위치 전송 준비됨</string>
     <string name="vcard_hint_text">연락처 카드 전송 준비됨</string>
     <string name="realtimechat_participant_avatar_sms_text">SMS</string>
-    <string name="realtimechat_unblock_user_button">차단 해제</string>
-    <string name="realtimechat_block_user_button">차단</string>
-    <string name="realtimechat_block_merged_text">차단하면 메시지나 알림이 행아웃 또는 SMS를 통해 나에게 직접 전송되지는 않지만, 둘 다 참여하는 그룹 행아웃에는 차단된 사용자가 계속해서 표시됩니다. &lt;a href=\"http://support.google.com/hangouts?p=blocking\">자세히 알아보기&lt;/a> &lt;br>&lt;br> 초대를 맞춤설정하여 대화를 시작할 수 있는 사용자를 변경할 수 있습니다.</string>
-    <string name="realtimechat_block_number_text">차단된 경우 이 번호에서 전송한 SMS 및 MMS 메시지가 보관처리되며 새 메시지가 도착하더라도 알림이 표시되지 않습니다.</string>
+    <string name="realtimechat_block_user_title">%s님 차단</string>
     <string name="realtimechat_block_user_text">차단하면 메시지나 알림이 나에게 직접 전송되지는 않지만, 둘 다 참여하는 그룹 행아웃에는 차단된 사용자가 계속해서 표시됩니다. &lt;a href=\"http://support.google.com/hangouts?p=blocking\">자세히 알아보기&lt;/a> &lt;br>&lt;br> 초대를 맞춤설정하여 대화를 시작할 수 있는 사용자를 변경할 수 있습니다.</string>
-    <string name="realtimechat_block_user_title">%s님을 차단하시겠습니까?</string>
-    <string name="realtimechat_block_user_toast">%s님 차단됨</string>
+    <string name="realtimechat_block_number_text">차단된 경우 이 번호에서 전송한 SMS 및 MMS 메시지가 보관처리되며 새 메시지가 도착하더라도 알림이 표시되지 않습니다.</string>
+    <string name="realtimechat_block_user_button">차단</string>
+    <string name="realtimechat_unblock_user_button">차단 해제</string>
     <string name="realtimechat_unblock_user_toast">%s님이 차단 해제됨</string>
     <string name="realtimechat_unblock_unknown_user_failed">이 사용자를 차단 해제할 수 없습니다. 다시 시도하세요.</string>
     <string name="realtimechat_unblock_user_failed">%s님을 차단 해제하지 못했습니다. 다시 시도해 주세요.</string>
     <string name="realtimechat_unblock_user_failed_network">인터넷에 연결되어 있지 않기 때문에 %s님을 차단 해제할 수 없습니다. 나중에 다시 시도해 주세요.</string>
     <string name="realtimechat_load_blocked_users_failed">차단된 연락처를 로드할 수 없습니다. 나중에 다시 시도해 주세요.</string>
     <string name="realtimechat_load_blocked_users_failed_network">네트워크에 연결되어 있지 않기 때문에 차단된 연락처를 로드할 수 없습니다. 나중에 다시 시도해 주세요.</string>
-    <string name="realtimechat_conversation_delete_title">대화 삭제</string>
-    <string name="realtimechat_conversation_delete_text">작업을 수행하면 대화 사본이 삭제되며 더 이상 메시지를 볼 수 없게 됩니다.</string>
-    <string name="realtimechat_leave_conversation_title">그룹 나가기</string>
+    <string name="realtimechat_conversation_delete_title">행아웃 삭제</string>
+    <string name="realtimechat_conversation_delete_text">삭제하면 이 행아웃의 메시지 및 기타 기록이 손실됩니다.</string>
+    <string name="realtimechat_leave_conversation_title">그룹에서 나가시겠습니까?</string>
     <string name="realtimechat_leave_conversation_text">더 이상 이 그룹에서 메시지를 읽거나 보낼 수 없게 됩니다. 그룹 대화에서 나가시겠습니까?</string>
     <string name="realtimechat_leave_conversation_button_text">퇴장</string>
-    <string name="realtimechat_remove_from_group_title">그룹에서 삭제</string>
-    <string name="realtimechat_remove_from_group_text">%s님이 그룹 대화에서 삭제됩니다.</string>
-    <string name="realtimechat_remove_from_group_button_text">삭제</string>
+    <string name="realtimechat_unmerge_menu_item_text">SMS 병합 해제</string>
     <string name="recent_calls_text">최근 통화</string>
     <string name="recent_clear_text">최근 통화 기록 삭제</string>
     <string name="recent_calls_clear_title">최근 통화 삭제</string>
@@ -1738,9 +1527,17 @@
     <string name="contact_hangouts">행아웃</string>
     <string name="phone_select_title">%s님에게 메시지 보내기:</string>
     <string name="person_has_no_phone">선택한 사람의 전화번호가 없습니다.</string>
+    <string name="gmscore_upgrade_title">Google Play 서비스 업데이트</string>
+    <string name="gmscore_upgrade_ticker">행아웃을 사용하려면 Google Play 서비스를 업데이트해야 합니다.</string>
     <string name="realtimechat_conversation_mute_menu_item_text">알림 사용 중지</string>
     <string name="realtimechat_conversation_unmute_menu_item_text">알림 사용</string>
     <string name="realtimechat_conversation_leave_menu_item_text">퇴장</string>
+    <string name="realtimechat_go_on_the_record_menu_item_text">대화 기록 저장</string>
+    <string name="realtimechat_go_off_the_record_menu_item_text">기록 안함</string>
+    <string name="realtimechat_conversation_rename_dialog_title">대화 이름 변경</string>
+    <string name="realtimechat_conversation_rename_save_button_text">저장</string>
+    <string name="realtimechat_conversation_rename_cancel_button_text">취소</string>
+    <string name="realtimechat_conversation_rename_hint">대화 이름</string>
     <string name="realtimechat_send_button_description">보내기</string>
     <string name="realtimechat_send_sms_button_description">SMS 보내기</string>
     <string name="realtimechat_send_mms_button_description">MMS 보내기</string>
@@ -1769,64 +1566,53 @@
     <string name="realtimechat_conversation_description_selected">선택함</string>
     <string name="realtimechat_conversation_description_has_unread_messages">읽지 않은 메시지가 있습니다.</string>
     <string name="realtimechat_conversation_description_muted">숨김</string>
-    <string name="realtimechat_conversation_description_important_only">중요한 알림만</string>
     <string name="realtimechat_conversation_description_blocked">차단된 사용자</string>
     <string name="realtimechat_conversation_description_voicemail">음성사서함</string>
     <string name="realtimechat_conversation_list_voicemail_snippet">새 음성사서함</string>
-    <string name="system_message_rename_by_actor" formatted="false">%s님이 이 행아웃의 이름을 %s(으)로 변경했습니다.</string>
-    <string name="system_message_rename_empty_by_actor">%s님이 이 행아웃의 이름을 삭제했습니다.</string>
-    <string name="system_message_rename">이 행아웃의 이름이 %s(으)로 변경되었습니다.</string>
-    <string name="system_message_rename_empty">이 행아웃의 이름이 삭제되었습니다.</string>
-    <string name="system_message_rename_by_self">이 행아웃의 이름을 %s(으)로 변경했습니다.</string>
-    <string name="system_message_rename_empty_by_self">이 행아웃의 이름을 삭제했습니다.</string>
+    <string name="system_message_rename_by_actor" formatted="false">%s님이 %s(으)로 행아웃의 &lt;b>이름을 변경&lt;/b>했습니다.</string>
+    <string name="system_message_rename_empty_by_actor">%s님이 행아웃의 이름을 &lt;b>삭제&lt;/b>했습니다.</string>
+    <string name="system_message_rename">이 행아웃은 %s(으)로 &lt;b>이름이 변경&lt;/b>되었습니다.</string>
+    <string name="system_message_rename_empty">행아웃의 이름이 &lt;b>삭제&lt;/b>되었습니다.</string>
+    <string name="system_message_rename_by_self">행아웃의 이름을 %s(으)로 &lt;b>변경&lt;/b>했습니다.</string>
+    <string name="system_message_rename_empty_by_self">행아웃의 이름을 &lt;b>삭제&lt;/b>했습니다.</string>
     <string name="system_message_rename_failed">행아웃의 이름을 %s(으)로 변경할 수 없습니다.</string>
-    <string name="system_message_enable_group_link_sharing_ongoing">"'링크로 참여하기' 사용"</string>
-    <string name="system_message_disable_group_link_sharing_ongoing">"'링크로 참여하기' 사용 중지"</string>
-    <string name="system_message_modify_group_link_sharing_ongoing">"'링크로 참여하기' 수정"</string>
-    <string name="system_message_disable_group_link_sharing_failed">"'링크로 참여하기'를 사용 중지할 수 없습니다."</string>
-    <string name="system_message_enable_group_link_sharing_failed">"'링크로 참여하기'를 사용 설정할 수 없습니다."</string>
-    <string name="system_message_modify_group_link_sharing_failed">"'링크로 참여하기'를 수정할 수 없습니다."</string>
-    <string name="system_message_enabled_group_link_sharing">"'링크로 참여하기'를 사용 설정했습니다."</string>
-    <string name="system_message_enabled_group_link_sharing_external">"%s님이 '링크로 참여하기'를 사용 설정했습니다."</string>
-    <string name="system_message_disabled_group_link_sharing">"'링크로 참여하기'를 사용 중지했습니다."</string>
-    <string name="system_message_disabled_group_link_sharing_external">"%s님이 '링크로 참여하기'를 사용 중지했습니다."</string>
-    <string name="system_message_modified_group_link_sharing">"'링크로 참여하기'를 수정했습니다."</string>
-    <string name="system_message_modified_group_link_sharing_external">"%s님이 '링크로 참여하기'를 수정했습니다."</string>
-    <string name="system_message_participant_added" formatted="false">%s님이 %s님을 이 대화에 추가했습니다.</string>
-    <string name="system_message_participant_added_by_self">%s님을 이 대화에 추가했습니다.</string>
-    <string name="system_message_participant_added_by_unknown">%s님이 대화에 추가되었습니다.</string>
-    <string name="system_message_participant_kicked" formatted="false">%s님이 %s님을 이 그룹 대화에서 삭제했습니다.</string>
-    <string name="system_message_participant_kicked_by_self">%s님을 이 그룹 대화에서 삭제했습니다.</string>
-    <string name="system_message_participant_kicked_unknown">%s님이 이 그룹 대화에서 삭제되었습니다.</string>
-    <string name="system_message_participant_kicked_failed">대화에서 %s님을 삭제할 수 없습니다.</string>
-    <string name="system_message_participant_self_added">%s님이 이 대화에 참여했습니다.</string>
-    <string name="system_message_participant_self_added_by_self">이 대화에 참여했습니다.</string>
-    <string name="system_message_unknown_participant_added">%s님이 다른 사용자를 대화에 추가했습니다.</string>
-    <string name="system_message_unknown_participant_added_by_self">다른 사용자를 이 대화에 추가했습니다.</string>
-    <string name="system_message_unknown_participant_added_by_unknown">다른 사용자가 대화에 추가되었습니다.</string>
-    <string name="system_message_invitee_error_unknown">대화에 참가자를 추가할 수 없습니다.</string>
-    <string name="system_message_conversation_error">대화를 만들지 못했습니다.</string>
-    <string name="system_message_invitee_error_one">대화에 %s님을 추가할 수 없습니다.</string>
-    <string name="system_message_invitee_error_two" formatted="false">%s님, %s님을 대화에 추가하지 못했습니다.</string>
-    <string name="system_message_invitee_error_three" formatted="false">%s님, %s님, %s님을 대화에 추가하지 못했습니다.</string>
-    <string name="system_message_invitee_error_over_three" formatted="false">%s님, %s님 외 %d명을 대화에 추가하지 못했습니다.</string>
-    <string name="system_message_invitee_error_policy_fork_unknown">도메인 정책으로 인해 대화에 참가자를 추가할 수 없어서 새 대화를 만들었습니다.</string>
-    <string name="system_message_invitee_error_policy_fork_one">도메인 정책으로 인해 대화에 %s님을 추가할 수 없어서 새 대화를 만들었습니다.</string>
-    <string name="system_message_invitee_error_policy_fork_two" formatted="false">도메인 정책으로 인해 대화에 %s님, %s님을 추가할 수 없어서 새 대화를 만들었습니다.</string>
-    <string name="system_message_invitee_error_policy_fork_three" formatted="false">도메인 정책으로 인해 %s님, %s님, %s님을 행아웃에 추가할 수 없어서 새 대화를 만들었습니다.</string>
-    <string name="system_message_invitee_error_policy_fork_over_three" formatted="false">도메인 정책으로 인해 %s님, %s님 외 %d명을 대화에 추가할 수 없어서 새 대화를 만들었습니다.</string>
-    <string name="system_message_invitee_error_policy_unknown">나 또는 다른 사용자의 도메인 정책으로 인해 참가자를 대화에 추가할 수 없습니다.</string>
-    <string name="system_message_invitee_error_policy_one">나 또는 다른 사용자의 도메인 정책으로 인해 %s님을 대화에 추가할 수 없습니다.</string>
-    <string name="system_message_invitee_error_policy_two" formatted="false">나 또는 다른 사용자의 도메인 정책으로 인해 %s님, %s님을 대화에 추가할 수 없습니다.</string>
-    <string name="system_message_invitee_error_policy_three" formatted="false">나 또는 다른 사용자의 도메인 정책으로 인해 %s님, %s님, %s님을 대화에 추가할 수 없습니다.</string>
-    <string name="system_message_invitee_error_policy_over_three" formatted="false">나 또는 다른 사용자의 도메인 정책으로 인해 %s님, %s님 외 %d명을 대화에 추가할 수 없습니다.</string>
-    <string name="system_message_participants_added" formatted="false">%s님이 %s님, %s님을 이 대화에 추가했습니다.</string>
-    <string name="system_message_participants_added_by_self" formatted="false">%s님, %s님을 이 대화에 추가했습니다.</string>
-    <string name="system_message_participants_added_unknown" formatted="false">%s님, %s님이 대화에 추가되었습니다.</string>
-    <string name="system_message_participant_left">%s님이 이 대화에서 나갔습니다.</string>
-    <string name="system_message_participant_left_domain_policy">%s님이 도메인 정책 변경으로 인해 이 대화에서 나갔습니다.</string>
-    <string name="system_message_participant_left_unknown">다른 사용자가 이 대화에서 나갔습니다.</string>
-    <string name="system_message_participant_left_domain_policy_unknown">다른 사용자가 도메인 정책 변경으로 인해 이 대화에서 나갔습니다.</string>
+    <string name="system_message_off_the_record">기록을 사용 중지했습니다.</string>
+    <string name="system_message_off_the_record_ongoing">채팅 기록 사용 중지 중</string>
+    <string name="system_message_off_the_record_external">%s님이 기록을 사용 중지했습니다.</string>
+    <string name="system_message_on_the_record">기록을 사용하도록 설정했습니다.</string>
+    <string name="system_message_on_the_record_ongoing">채팅 기록 사용 설정 중</string>
+    <string name="system_message_on_the_record_external">%s님이 기록을 사용하도록 설정했습니다.</string>
+    <string name="system_message_off_the_record_failed">기록을 사용 중지할 수 없습니다.</string>
+    <string name="system_message_on_the_record_failed">기록을 사용하도록 설정할 수 없습니다.</string>
+    <string name="system_message_participant_added" formatted="false">&lt;b>%s님&lt;/b>이 행아웃에 %s님을 추가함</string>
+    <string name="system_message_participant_added_by_self">&lt;b>내&lt;/b>가 행아웃에 %s님을 추가함</string>
+    <string name="system_message_participant_added_by_unknown">%s님이 행아웃에 추가되었습니다.</string>
+    <string name="system_message_unknown_participant_added">&lt;b>%s님&lt;/b>이 행아웃에 사용자를 추가함</string>
+    <string name="system_message_unknown_participant_added_by_self">&lt;b>내&lt;/b>가 행아웃에 사용자를 추가함</string>
+    <string name="system_message_unknown_participant_added_by_unknown">행아웃에 다른 사용자가 추가되었습니다.</string>
+    <string name="system_message_invitee_error_unknown">행아웃에 참여자를 추가할 수 없습니다.</string>
+    <string name="system_message_conversation_error">행아웃을 만들 수 없음</string>
+    <string name="system_message_invitee_error_one">행아웃에 %s님을 추가할 수 없습니다.</string>
+    <string name="system_message_invitee_error_two" formatted="false">행아웃에 %s님과 %s님을 추가할 수 없습니다.</string>
+    <string name="system_message_invitee_error_three" formatted="false">행아웃에 %s님, %s님, %s님을 추가할 수 없습니다.</string>
+    <string name="system_message_invitee_error_over_three" formatted="false">행아웃에 %s님, %s님 외 %d명을 추가할 수 없습니다.</string>
+    <string name="system_message_invitee_error_policy_fork_unknown">도메인 정책으로 인해 이 행아웃에 참여자를 추가할 수 없어서 새 행아웃을 만들었습니다.</string>
+    <string name="system_message_invitee_error_policy_fork_one">도메인 정책으로 인해 이 행아웃에 %s님을 추가할 수 없어서 새 행아웃을 만들었습니다.</string>
+    <string name="system_message_invitee_error_policy_fork_two" formatted="false">도메인 정책으로 인해 이 행아웃에 %s님과 %s님을 추가할 수 없어서 새 행아웃을 만들었습니다.</string>
+    <string name="system_message_invitee_error_policy_fork_three" formatted="false">도메인 정책으로 인해 이 행아웃에 %s님, %s님, %s님을 추가할 수 없어서 새 행아웃을 만들었습니다.</string>
+    <string name="system_message_invitee_error_policy_fork_over_three" formatted="false">도메인 정책으로 인해 이 행아웃에 %s님, %s님 외 %d명을 추가할 수 없어서 새 행아웃을 만들었습니다.</string>
+    <string name="system_message_invitee_error_policy_unknown">나 또는 다른 사용자의 도메인 정책으로 인해 이 행아웃에 참가자를 추가할 수 없습니다.</string>
+    <string name="system_message_invitee_error_policy_one">나 또는 다른 사용자의 도메인 정책으로 인해 %s님을 이 행아웃에 추가할 수 없습니다.</string>
+    <string name="system_message_invitee_error_policy_two" formatted="false">나 또는 다른 사용자의 도메인 정책으로 인해 %s님과 %s님을 이 행아웃에 추가할 수 없습니다.</string>
+    <string name="system_message_invitee_error_policy_three" formatted="false">나 또는 다른 사용자의 도메인 정책으로 인해 %s님, %s님, %s님을 이 행아웃에 추가할 수 없습니다.</string>
+    <string name="system_message_invitee_error_policy_over_three" formatted="false">나 또는 다른 사용자의 도메인 정책으로 인해 %s님, %s님 외 %d명을 이 행아웃에 추가할 수 없습니다.</string>
+    <string name="system_message_participants_added" formatted="false">&lt;b>%s님&lt;/b>이 행아웃에 %s님과 %s님을 추가함</string>
+    <string name="system_message_participants_added_by_self" formatted="false">&lt;b>내&lt;/b>가 행아웃에 %s님과 %s님을 추가함</string>
+    <string name="system_message_participants_added_unknown" formatted="false">행아웃에 %s님과 %s님을 추가했습니다.</string>
+    <string name="system_message_participant_left">행아웃에서 &lt;b>%s님이 나감&lt;/b></string>
+    <string name="system_message_participant_left_domain_policy">도메인 정책 변경으로 인해 행아웃에서 &lt;b>%s님이 나감&lt;/b></string>
+    <string name="system_message_participant_left_unknown">누군가가 행아웃에서 &lt;b>퇴장&lt;/b>했습니다.</string>
+    <string name="system_message_participant_left_domain_policy_unknown">도메인 정책 변경에 의해 누군가 이 행아웃을 &lt;b>나갔습니다.&lt;/b></string>
     <string name="system_message_hangout_started_by_another">%s님이 화상 통화를 시작했습니다.</string>
     <string name="system_message_hangout_started">화상 통화가 시작되었습니다.</string>
     <string name="system_message_hangout_started_only_you">화상 통화를 시작했습니다.</string>
@@ -1850,8 +1636,8 @@
     <string name="realtimechat_conversation_error_dialog_leave_button">확인</string>
     <string name="realtimechat_participant_without_name_text">이름 없음</string>
     <string name="realtimechat_conversation_invite_menu_item_text">사용자 추가</string>
-    <string name="realtimechat_conversation_new_group_conversation_menu_item_text">새 그룹 만들기</string>
-    <string name="redacted_notification_text">콘텐츠 숨겨짐</string>
+    <string name="realtimechat_conversation_new_group_conversation_menu_item_text">새로운 그룹 대화</string>
+    <string name="realtimechat_start_hangout_description">화상 통화</string>
     <string name="realtimechat_message_text_author">%s:</string>
     <string name="realtimechat_message_sticker">스티커를 보냄</string>
     <string name="realtimechat_message_image">이미지 보냄</string>
@@ -1888,9 +1674,9 @@
     <string name="new_group_mms_activity_title">새 그룹 MMS</string>
     <string name="new_sms_activity_title">새 SMS</string>
     <string name="realtimechat_edit_audience_activity_title">사용자 추가</string>
+    <string name="share_location">위치 공유</string>
     <string name="audience_local_contact_title">연락처</string>
     <string name="frequent_contacts_title">자주 사용하는 연락처</string>
-    <string name="conversation_people_and_options_participant_menu">추가 옵션</string>
     <string name="audience_phone_type_home">집</string>
     <string name="audience_phone_type_mobile">휴대전화</string>
     <string name="audience_phone_type_work">직장</string>
@@ -1909,11 +1695,11 @@
     <string name="no_conversations_instruction_description">대화를 시작하려면 새 대화 버튼을 탭하세요.</string>
     <string name="no_archived_conversations_text">보관된 대화가 없습니다.</string>
     <string name="hangout_activity_label">통화</string>
-    <string name="hangout_menu_turn_microphone_off">마이크 끄기</string>
+    <string name="hangout_menu_audio_mute">음소거</string>
     <string name="hangout_menu_dialpad">다이얼패드</string>
     <string name="hangout_menu_audio_device">오디오</string>
     <string name="hangout_menu_select_audio_output">다음 오디오 출력으로 전환</string>
-    <string name="hangout_menu_turn_microphone_on">마이크 켜기</string>
+    <string name="hangout_menu_audio_unmute">음소거 해제</string>
     <string name="menu_item_switch_audio_output_button" formatted="false">%s. %s(으)로 전환 버튼</string>
     <string name="menu_item_switch_unknown_audio_output_button">%s. 다음 오디오 기기로 전환 버튼</string>
     <string name="menu_item_speaker">스피커</string>
@@ -1923,8 +1709,8 @@
     <string name="hangout_menu_switch_to_front_camera">후면 카메라</string>
     <string name="hangout_menu_switch_to_back_camera">전면 카메라</string>
     <string name="hangout_menu_switch_camera">카메라 전환</string>
-    <string name="hangout_menu_turn_camera_off">카메라 끄기</string>
-    <string name="hangout_menu_turn_camera_on">카메라 켜기</string>
+    <string name="hangout_menu_video_mute">영상 끄기</string>
+    <string name="hangout_menu_video_unmute">영상 켜기</string>
     <string name="hangout_menu_enable_video">동영상 사용</string>
     <string name="hangout_not_supported_no_microphone">통화를 하려면 마이크가 필요합니다.</string>
     <string name="hangout_not_supported_device">이 기기에서는 통화가 지원되지 않습니다.</string>
@@ -2014,7 +1800,7 @@
     <string name="hangout_camera_error">카메라 오류</string>
     <string name="hangout_avatar_menu_remote_kick_menu">퇴출</string>
     <string name="hangout_avatar_menu_remote_kick_content_description">%s님 퇴출</string>
-    <string name="hangout_avatar_menu_remote_mute_menu">음소거</string>
+    <string name="hangout_avatar_menu_remote_mute_menu">숨기기</string>
     <string name="hangout_avatar_menu_remote_mute_content_description">%s 숨기기</string>
     <string name="hangout_avatar_menu_ignore_menu">무시</string>
     <string name="hangout_avatar_menu_ignore_content_description">%s 무시</string>
@@ -2023,8 +1809,8 @@
     <string name="hangout_exit_error_code_insufficient_funds">잔액이 부족하여 통화가 종료되었습니다.</string>
     <string name="hangout_exit_error_code_busy_signal">현재 상대방이 통화 중입니다.</string>
     <string name="hangout_exit_error_code_connection_failed">%1$s(으)로 연결할 수 없거나 연결이 끊겼습니다.</string>
-    <string name="hangout_incoming_ring_in_background">화상 통화 수신 중</string>
-    <string name="voice_hangout_incoming_ring_in_background">음성 통화 수신 중</string>
+    <string name="hangout_incoming_ring_in_background">화상 통화에 초대함</string>
+    <string name="voice_hangout_incoming_ring_in_background">음성 통화에 초대되었습니다.</string>
     <string name="hangout_ringing_accept">응답</string>
     <string name="hangout_ringing_ignore">거부</string>
     <string name="hangout_permission_not_granted">기기를 잠금 해제하고 행아웃이 마이크와 카메라를 사용하도록 허용하시기 바랍니다.</string>
@@ -2058,7 +1844,7 @@
     <string name="hangout_crash_report_description">행아웃이 예기치 않게 중단되었습니다. 문제를 신고하시겠습니까?</string>
     <string name="hangout_crash_report_send">보고서 보내기</string>
     <string name="hangout_crash_report_cancel">취소</string>
-    <string name="hangout_crash_report_sending">비정상 종료 보고서를 보내는 중...</string>
+    <string name="hangout_crash_report_sending">오류 보고서를 보내는 중...</string>
     <string name="hangout_crash_report_view">미리보기</string>
     <string name="menu_privacy">개인정보취급방침</string>
     <string name="menu_send_feedback">의견</string>
@@ -2109,8 +1895,6 @@
     <string name="updating_status">상태 업데이트 중…</string>
     <string name="status_failed_updating">상태 업데이트 실패</string>
     <string name="tycho_service_provider">Project Fi를 통해</string>
-    <string name="announce_participant_is_typing">%s님이 입력하는 중입니다.</string>
-    <string name="announce_participant_stopped_typing">%s님이 입력을 중지했습니다.</string>
     <string name="rich_status_typing_description">입력 중…</string>
     <string name="rich_status_in_call_description">통화 중</string>
     <string name="rich_status_share_your_status">상태 공유</string>
@@ -2125,7 +1909,7 @@
     <string name="share_device_presence_title">기기 활동</string>
     <string name="share_device_presence_disabled_summary">이 기기에서 이뤄지는 활동을 행아웃을 함께 사용하는 모든 사람과 공유할 수 있습니다.</string>
     <string name="share_device_presence_enabled_summary">행아웃을 함께 사용하는 모든 사람이 내가 이 기기에서 활동 중일 때를 알 수 있습니다.</string>
-    <string name="chat_notification_enabled_title">메시지</string>
+    <string name="chat_notification_enabled_title">행아웃 메시지 및 초대</string>
     <string name="chat_notification_sound_title">소리</string>
     <string name="gv_sms_notifications_key_title">Google 보이스 SMS</string>
     <string name="tycho_sms_notifications_key_title">Project Fi SMS</string>
@@ -2134,7 +1918,9 @@
     <string name="play_sound_only">알림음 재생</string>
     <string name="vibrate_only">진동</string>
     <string name="show_notifications_only">알림음 없이 알림 표시</string>
-    <string name="incoming_call_notification_screen_title">수신 전화</string>
+    <string name="hangouts_message_notification_sound_title">채팅 메시지 알림음</string>
+    <string name="hangouts_call_ringtone_title">전화 벨소리</string>
+    <string name="video_nofification_screen_title">화상 통화</string>
     <string name="gv_voicemail_notification_screen_title">Google 보이스 음성사서함</string>
     <string name="tycho_voicemail_notification_screen_title">Project Fi 음성메일</string>
     <string name="tycho_sms_alert_enable_title">행아웃을 통해 SMS를 전송할까요?</string>
@@ -2183,19 +1969,21 @@
     <string name="silent_ringtone">무음</string>
     <string name="people_in_conversation_header">이 대화의 참여자</string>
     <string name="conversation_title">대화: %s</string>
-    <string name="conversation_group_link_sharing_option_button_text">그룹 초대 링크 공유</string>
-    <string name="conversation_group_link_sharing_open">대화 여는 중...</string>
-    <string name="conversation_group_link_sharing_join_failed">더 이상 유효하지 않은 링크입니다.</string>
-    <string name="conversation_group_link_sharing_open_failed">"그룹에 참여했습니다. 
-'대화'를 탭하여 대화창을 엽니다."</string>
+    <string name="conversation_name_option">대화 이름</string>
+    <string name="conversation_notifications_option">알림</string>
+    <string name="conversation_block_option">%s님 차단</string>
+    <string name="conversation_unblock_option">%s님 차단 해제</string>
     <string name="last_account_signout_confirmation_header">%s 닫기</string>
     <string name="last_account_signout_confirmation">이 계정에서 로그아웃하면 %s이(가) 종료됩니다.</string>
+    <string name="menu_show_participants_and_options">사용자 및 옵션</string>
     <string name="add_to_contacts_menu_item_text">주소록에 추가</string>
+    <string name="conversation_participants_activity_title">사용자 및 옵션</string>
     <string name="notification_ticker_separator">": "</string>
     <string name="notification_space_separator">"  "</string>
     <string name="conversations_selected">대화 %d개 선택됨</string>
     <string name="realtimechat_conversation_archive_menu_item_text">행아웃 보관</string>
     <string name="realtimechat_conversation_delete_menu_item_text">삭제</string>
+    <string name="realtimechat_conversation_call_menu_item_text">전화</string>
     <string name="realtimechat_conversation_unarchive_menu_item_text">보관 취소</string>
     <string name="menu_archived_conversations">보관됨</string>
     <string name="menu_blocked_contacts">차단된 연락처</string>
@@ -2206,15 +1994,34 @@
     <string name="cancel_mute">사용</string>
     <string name="cancel_photo_send">사진 삭제</string>
     <string name="conversation_muted">알림이 사용 중지되었습니다.</string>
-    <string name="conversation_important_only">중요한 메시지의 알림만 받습니다.</string>
     <string name="realtimechat_conversation_fork_menu_item_text">이 그룹과 함께하는 새 행아웃</string>
     <string name="archived_conversations_title">보관된 대화</string>
     <string name="invites_title">초대</string>
     <string name="invitation_title">초대장</string>
+    <string name="ephemeral_message_sending">전송 중</string>
+    <string name="ephemeral_message_downloading">다운로드 중</string>
+    <string name="permanent_message_error">전송에 실패했습니다. 탭하여 다시 시도하세요.</string>
     <string name="sending_failed_toast">전송에 실패했습니다.</string>
+    <string name="permanent_message_download_error">메시지 다운로드할 수 없음. 탭하여 다시 시도하기</string>
+    <string name="mms_failed_mobile_data_disabled">모바일 데이터가 사용 중지되었습니다.</string>
+    <string name="mms_failed_service_blocked">사용 중인 휴대전화 요금제에서는 MMS를 사용할 수 없습니다.</string>
+    <string name="mms_failed_invalid_address">수신 주소가 잘못되었습니다.</string>
+    <string name="mms_failed_network_problem">네트워크에 문제가 있습니다. 다시 시도하려면 탭하세요.</string>
+    <string name="mms_failed_message_not_found">제공업체 서버에서 MMS를 찾을 수 없습니다.</string>
+    <string name="mms_failed_address_hiding_not_supported">주소 숨기기는 지원되지 않습니다.</string>
+    <string name="mms_failed_can_not_persist">MMS를 저장할 수 없습니다.</string>
+    <string name="mms_failed_content_not_accepted">MMS 콘텐츠는 허용되지 않습니다.</string>
+    <string name="mms_failed_lack_of_prepaid">선불 금액이 부족합니다.</string>
+    <string name="mms_failed_message_format_corrupt">메시지 형식이 손상되었습니다.</string>
+    <string name="mms_failed_message_not_supported">제공업체에서 메시지를 지원하지 않습니다.</string>
+    <string name="mms_failed_no_available_apn">액세스포인트 네임(APN)을 사용할 수 없습니다.</string>
+    <string name="mms_failed_reply_charging_error">답장 과금 오류입니다.</string>
+    <string name="mms_failed_invalid_message_to_send">메시지 내용이 잘못되었습니다.</string>
+    <string name="mms_touch_to_download">다운로드하려면 탭하세요.</string>
+    <string name="unpersisted_message_warning">메시지가 일부에 전달되지 않은 것 같습니다.</string>
     <string name="redownload_dialog_title">메시지를 다운로드하지 못했습니다.</string>
     <string name="delete_failed_message">삭제</string>
-    <string name="delete_message_failed_toast">메시지 전송을 제때 중지할 수 없습니다.</string>
+    <string name="delete_message_failed_toast">메시지를 삭제하지 못했습니다.</string>
     <string name="download">다운로드</string>
     <string name="notification_send_failures_line1_singular">한 개의 메시지가 전송되지 않았습니다.</string>
     <string name="notification_send_failures_line1_plural">일부 메시지가 전송되지 않았습니다.</string>
@@ -2251,6 +2058,8 @@
     <string name="oobe_dialog_close_button">닫기</string>
     <string name="oobe_domain_blocked_title">로그인할 수 없음</string>
     <string name="oobe_domain_blocked_body">도메인 관리자가 %s 계정에서 행아웃을 사용 설정하지 않았습니다.</string>
+    <string name="oobe_parental_block_title">허용되지 않음</string>
+    <string name="oobe_parental_block_body">죄송하지만 현재 이 앱을 사용할 수 없습니다.</string>
     <string name="oobe_parental_block_add_account_button">계정 추가</string>
     <string name="oobe_parental_block_close_button">닫기</string>
     <string name="oobe_archive_not_enabled_title">행아웃에 오신 것을 환영합니다.</string>
@@ -2305,12 +2114,42 @@
     <string name="mms">MMS</string>
     <string name="converting_to_picture_message">멀티미디어 메시지로 변환 중...</string>
     <string name="hangouts_conversation_spinner">행아웃</string>
+    <string name="menu_view_details">세부정보 보기</string>
+    <string name="menu_delete_message">삭제</string>
+    <string name="menu_forward_message">전달</string>
+    <string name="menu_view_profile">프로필 보기</string>
+    <string name="menu_save_media">미디어 저장</string>
+    <string name="menu_details_title">메시지 옵션</string>
     <string name="class_0_message_activity">클래스 0 메시지</string>
     <string name="message_content_description_from">보낸사람: %s</string>
+    <string name="message_details_title">메시지 세부정보</string>
+    <string name="message_type_label">유형: %s</string>
+    <string name="text_message">문자 메시지</string>
+    <string name="multimedia_message">멀티미디어 메시지</string>
+    <string name="google_voice_message">Google 보이스 메시지</string>
+    <string name="tycho_message">Project Fi 메시지</string>
+    <string name="hangouts_message">행아웃 메시지</string>
+    <string name="from_label">보낸사람: %s</string>
+    <string name="to_address_label">받는사람: %s</string>
+    <string name="sent_label">보낸 시간: %s</string>
+    <string name="received_label">받은 시간: %s</string>
+    <string name="subject_label">제목: %s</string>
+    <string name="message_size_label">메시지 크기: %sKB</string>
+    <string name="priority_label">중요도: %s</string>
+    <string name="priority_high">높음</string>
+    <string name="priority_normal">보통</string>
+    <string name="priority_low">낮음</string>
+    <string name="hidden_sender_address">숨은 발신자 주소</string>
+    <string name="menu_add_address_to_contacts">주소록에 %s 추가</string>
     <string name="settings_general_category_title">일반</string>
     <string name="mms_notification_template" formatted="false">새로운 MMS 메시지를 다운로드할 수 있습니다(크기: %s, 만료일: %s).</string>
     <string name="kilobyte">KB</string>
+    <string name="via_gv">Google 보이스를 통해 전송</string>
+    <string name="via_sms">SMS로 전송</string>
+    <string name="via_mms">MMS 전송</string>
+    <string name="via_tycho">Project Fi로</string>
     <string name="play_button_content_description">재생</string>
+    <string name="image_attachment_content_description">사진</string>
     <string name="video_attachment_content_description">동영상</string>
     <string name="generic_attachment_content_description">첨부파일</string>
     <string name="vCard_attachment_content_description">연락처 카드</string>
@@ -2318,6 +2157,7 @@
     <string name="sticker_attachment_content_description">스티커</string>
     <string name="subject_hint">제목</string>
     <string name="byline_time_and_transport" formatted="false">%s %s</string>
+    <string name="sms_not_delivered">SMS가 전송되지 않았습니다.</string>
     <string name="sms_notification_enabled_title">알림</string>
     <string name="sms_notification_sound_title">소리</string>
     <string name="sms_notification_vibrate_title">진동</string>
@@ -2335,6 +2175,7 @@
     <string name="forward_text_mms">MMS 전달</string>
     <string name="touch_to_add_to_contacts">연락처에 추가하려면 탭하세요.</string>
     <string name="sms_not_enabled_error">행아웃에서 SMS를 보내려면 설정에서 SMS를 사용하도록 설정하세요.</string>
+    <string name="mms_unknown_sender_name">발신자 알 수 없음</string>
     <string name="mms_downloaded_toast">%s님이 보낸 MMS가 다운로드되었습니다.</string>
     <string name="unknown_sender_mms_text_input_toast">알 수 없는 발신자에게 메시지를 보낼 수 없습니다. MMS 메시지를 다운로드하려면 탭하세요.</string>
     <string name="unknown_sender_phone_text_input_toast">알 수 없는 발신자 또는 비공개 발신자에게 메시지를 보낼 수 없습니다.</string>
@@ -2358,7 +2199,7 @@
     <string name="restore_default_apn_completed">기본 APN 설정을 초기화했습니다.</string>
     <string name="untitled_apn">제목 없음</string>
     <string name="compose_message_toast_no_photo_sharing">이 계정에서 사진을 전송할 수 없습니다.</string>
-    <string name="sms_send_from_title">SMS 전송 번호</string>
+    <string name="sms_send_from_title">SMS 보내기 방법</string>
     <string name="sms_send_from_unknown_number">알 수 없는 번호</string>
     <string name="sms_send_from_auto_smart_reply_title">스마트 답장</string>
     <string name="sms_send_from_auto_always_ask_title">항상 확인</string>
@@ -2373,6 +2214,7 @@
     <string name="sms_send_from_sim_summary">이동통신사 전화번호</string>
     <string name="sms_send_from_sim_summary_with_number">이동통신사: %1s</string>
     <string name="sms_send_from_sim_summary_with_carrier_and_number" formatted="false">%1s: %2s</string>
+    <string name="realtimechat_block_merged_text">차단하면 메시지나 알림이 행아웃 또는 SMS를 통해 나에게 직접 전송되지는 않지만, 둘 다 참여하는 그룹 행아웃에는 차단된 사용자가 계속해서 표시됩니다. &lt;a href=\"http://support.google.com/hangouts?p=blocking\">자세히 알아보기&lt;/a> &lt;br>&lt;br> 초대를 맞춤설정하여 대화를 시작할 수 있는 사용자를 변경할 수 있습니다.</string>
     <string name="enable_merged_conversations_title">대화 병합을 사용하도록 설정</string>
     <string name="enable_merged_conversations_summary">동일한 연락처의 SMS와 행아웃 대화가 병합되어 표시됩니다.</string>
     <string name="transport_spinner_promo_main_text">대화가 지금 병합됩니다.</string>
@@ -2394,6 +2236,12 @@
     <string name="google_voice_blocked_dialog_message">일시적으로 전화를 걸 수 없습니다. 나중에 다시 시도해 주세요.</string>
     <string name="call_input_phone_number_text">%s에 전화 걸기</string>
     <string name="add_phone_participants_action_bar_title">통화 참여자 추가</string>
+    <string name="play_media">재생</string>
+    <string name="pause_media">일시중지</string>
+    <string name="speakerphone_on">스피커로 전환</string>
+    <string name="speakerphone_off">스피커폰으로 전환</string>
+    <string name="audio_mms_title">오디오 메시지</string>
+    <string name="voicemail_title">음성사서함</string>
     <string name="audio_loading">로드 중...</string>
     <string name="audio_load_failed">로드할 수 없습니다. 다시 시도해 주세요.</string>
     <string name="view_vcard">연락처 카드 보기</string>
@@ -2792,7 +2640,8 @@
     <string name="hangout_announce_switch_local_controls">통화 컨트롤 표시</string>
     <string name="hangout_announce_switch_participant_tray">참여자 컨트롤 표시</string>
     <string name="message_image_failed_to_load">이미지를 표시할 수 없습니다.</string>
-    <string name="message_content_not_supported_by_hangouts">이 메시지 유형은 행아웃에서 지원되지 않습니다. 대신 SMS를 이용하세요.</string>
+    <string name="message_content_not_supported_by_hangouts">행아웃에서는 이 메시지 전송이 지원되지 않습니다. SMS를 사용하여 전송해 보세요.</string>
+    <string name="message_content_not_supported_by_sms">SMS에서는 이 메시지 전송이 지원되지 않습니다. 행아웃을 사용하여 전송해 보세요.</string>
     <string name="autoswitch_to_hangouts_promo">최근에 수신한 메시지에 근거하여 행아웃으로 자동 전환되었습니다.</string>
     <string name="autoswitch_to_sms_promo">최근에 수신한 메시지에 근거하여 SMS로 자동 전환되었습니다.</string>
     <string name="promo_message_dismiss">닫기</string>
@@ -2812,6 +2661,8 @@
     <string name="archive_conversation_failed">대화를 보관할 수 없습니다.</string>
     <string name="archive_conversation_failed_network">네트워크에 연결되어 있지 않기 때문에 대화를 보관할 수 없습니다.</string>
     <string name="video_call_start_audio_only_hangout">행아웃</string>
+    <string name="realtimechat_otr_state_enforced_self">관리자가 설정한 도메인 정책으로 인해 이 설정을 변경할 수 없습니다.</string>
+    <string name="realtimechat_otr_state_enforced_other">이 행아웃에 있는 다른 사용자의 도메인 정책으로 인해 이 설정을 변경할 수 없습니다.</string>
     <string name="navigation_drawer_open">탐색 메뉴</string>
     <string name="navigation_drawer_close">탐색 메뉴 숨기기</string>
     <string name="business_features_settings_title">비즈니스용 행아웃 미리보기</string>
@@ -2831,6 +2682,7 @@
     <string name="send_button_deferred_send">메시지가 대기 중이며 곧 전송됩니다.</string>
     <string name="message_email_mms_warning_description">Google 보이스를 통해 MMS를 이메일 주소로 전송하는 기능이 아직 지원되지 않습니다.</string>
     <string name="message_tycho_email_mms_warning_description">Project Fi를 통해 이메일 주소로 MMS를 보내는 작업은 아직 지원되지 않습니다.</string>
+    <string name="no_contact_toast">연락처 정보가 없습니다.</string>
     <string name="improve_hangouts_category">행아웃 개선</string>
     <string name="improve_hangouts_title">행아웃 개선</string>
     <string name="improve_hangouts_summary">행아웃을 개선할 수 있도록 추가 진단 정보를 보내주세요.</string>
@@ -2841,7 +2693,7 @@
     <string name="tab_name_dialer">통화</string>
     <string name="contact_avatar_checked">선택함</string>
     <string name="contact_avatar_locked">선택했으며, 선택 해제할 수 없습니다.</string>
-    <string name="video_not_supported_by_hangouts">행아웃에서 이 동영상을 보낼 수 없습니다.</string>
+    <string name="video_not_supported_by_hangouts">행아웃에서 이 동영상 전송을 지원하지 않습니다. MMS로 다시 전송해 보세요.</string>
     <string name="video_too_large">동영상의 크기가 너무 커서 MMS로도 전송이 불가능할 수 있습니다.</string>
     <string name="invite_not_accepted_one_on_one">%s님이 초대를 수락하지 않았습니다.</string>
     <string name="invite_not_accepted_send_a_message">%s님에게 메시지를 보내 이 대화에 초대하세요.</string>
@@ -2853,30 +2705,7 @@
     <string name="video_battery_saver_unmute">배터리 세이버가 사용 중지됨</string>
     <string name="video_battery_saver_unmute_enable">카메라 켜기</string>
     <string name="hangout_mic_permission_required">통화에 참여하려면 마이크를 사용할 수 있는 권한이 있어야 합니다.</string>
-    <string name="video_muted_due_to_camera_error">카메라 문제로 인해 동영상이 작동하지 않습니다.</string>
-    <string name="easteregg_algebraic_value">| ( •◡•)| (❍ᴥ❍ʋ)</string>
-    <string name="easteregg_disapprove_value">ಠ_ಠ</string>
-    <string name="easteregg_facepalm_value">(－‸ლ)</string>
-    <string name="easteregg_flowerbeam_value">( ・◡・)つ━☆🌸🌺🌼</string>
-    <string name="easteregg_happy_value">ᕕ( ᐛ )ᕗ</string>
-    <string name="easteregg_lgtm_value">👍 👍 👍</string>
-    <string name="easteregg_lit_value">🔥 🔥 🔥</string>
-    <string name="easteregg_shame_value">🔔 🔔 🔔</string>
-    <string name="easteregg_success_value">(•̀ᴗ•́)و ̑̑</string>
-    <string name="easteregg_sunglasses_value">"( •_•)
-( •_•)>⌐■-■
-(⌐■_■)"</string>
-    <string name="easteregg_tableflip_value">(╯°□°)╯︵ ┻━┻</string>
-    <string name="easteregg_tableback_value">┬─┬ノ( ゜-゜ノ)</string>
-    <string name="easteregg_this_value">☜(ﾟヮﾟ☜)</string>
-    <string name="easteregg_that_value">(☞ﾟヮﾟ)☞</string>
-    <string name="easteregg_wizard_value">(∩ ` -´)⊃━━☆ﾟ.*･｡ﾟ</string>
-    <string name="easteregg_yuno_value">ლ(ಠ益ಠლ)</string>
-    <string name="easteregg_shruggie_key">어깨 으쓱</string>
-    <string name="easteregg_shruggie_value">¯\\_(ツ)_/¯</string>
-    <string name="easteregg_puppyparty_value">🐕🐩🐕🙌🐩🐕🐩</string>
-    <string name="easteregg_octodisco_value">🎶🐙🎶</string>
-    <string name="joining_call_progress_dialog_message">통화에 참여 중</string>
+    <string name="widget_unavailable">더 이상 위젯을 사용할 수 없음</string>
     <string name="cancel">취소</string>
     <string name="clear">삭제</string>
     <string name="no">아니요</string>
@@ -2901,7 +2730,6 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="abc_capital_on">사용</string>
     <string name="abc_capital_off">사용 안함</string>
-    <string name="search_menu_title">검색</string>
     <string name="add_account">계정 추가</string>
     <string name="manage_accounts">계정 관리</string>
     <string name="sign_in">로그인</string>
@@ -2910,4 +2738,9 @@
     <string name="account_item">%1$s(으)로 전환</string>
     <string name="selected_account">%1$s에 로그인</string>
     <string name="account_list">계정 목록</string>
+    <string name="apply">적용</string>
+    <string name="copy">복사</string>
+    <string name="dismiss">닫기</string>
+    <string name="not_now">사용 안함</string>
+    <string name="yes">예</string>
 </resources>

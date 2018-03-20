@@ -19,9 +19,10 @@ A kiválasztott billentyűzet Adatvédelmi Nyilatkozatának megtekintése."</str
     <string name="other_settings_location">Helyszolgáltatások</string>
     <string name="other_settings_location_summary">Engedje, hogy az alkalmazások hozzáférjenek az Ön pontos helyadatához.</string>
     <string name="other_settings_user_experience">Felhasználói visszajelzés</string>
-    <string name="other_settings_user_experience_summary">Segítse termékeink és szolgáltatásaink fejlesztését anonim használati adatok küldésével.</string>
+    <string name="other_settings_user_experience_summary">Segítse termékeink és szolgáltatásaink fejlesztését azzal, hogy használati adatait megosztja velünk. Részletek</string>
+    <string name="other_settings_user_experience_summary_index">Részletek</string>
     <string name="other_settings_upload_debug_log_title">Diagnosztikai adatok automatikus küldése</string>
-    <string name="other_settings_upload_debug_log_summary">Az általunk gyűjtött információk a problémák felkutatására lesznek használva és személyes adatokat tartalmazhatnak. Sosem lesznek az Ön személyes azonosítására fordítva.</string>
+    <string name="other_settings_upload_debug_log_summary">Használati adatokat, amelyek segítenek nekünk azonosítani és megoldani a problémákat, amiket az Ön beküldött adatai tartalmazhatnak</string>
     <string name="other_settings_auto_update">Telepítés automatikusan</string>
     <string name="other_settings_auto_update_summary">A MIUI kiválasztja a legmegfelelőbb pillanatot a frissítések telepítésére.</string>
     <string name="other_settings_ad_enable">Személyre szabott reklámajánlat</string>

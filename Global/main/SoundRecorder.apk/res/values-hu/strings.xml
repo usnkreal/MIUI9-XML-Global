@@ -151,4 +151,5 @@
     <string name="head_set_tip_dialog_msg">Húzza ki a fülhallgatót, hogy fel tudja venni a hangot a megadott beállításokkal (pl., zene, hang).</string>
     <string name="head_set_tip_dialog_ok">Rendben</string>
     <string name="rename_fail_tip">Az átnevezés nem sikerült. Már van ugyanilyen nevű elem.</string>
+    <string name="dialog_privacy_revoke_tips">Miután visszavonja az engedélyt, az alkalmazás nem gyűjt többé adatokat, és az összes kapcsolódó adatot törli a kiszolgálókról. Ez gyakorlatilag használhatatlanná teheti az alkalmazást. Mégis visszavonja az engedélyt? A fiókbiztonság érdekében jelentkezzen be az i.mi.com weboldalra, mielőtt visszavonja a Mi Cloud szolgáltatás engedélyét.</string>
 </resources>

@@ -27,42 +27,8 @@
     <string name="cert_too_large_error">Не можа да се инсталира, защото размерът на сертификата е твърде голям.</string>
     <string name="cert_missing_error">Не можа да се инсталира, защото файлът със сертификата не можа да бъде намерен.</string>
     <string name="cert_read_error">Не можа да се инсталира, защото файлът със сертификата не можа да бъде прочетен.</string>
-    <string name="no_cert_file_found">На SD картата не бе намерен файл със сертификат.</string>
-    <string name="sdcard_not_present">SD картата липсва.</string>
+    <string name="no_cert_file_found">В USB хранилището не бе намерен файл със сертификат.</string>
+    <string name="sdcard_not_present">USB хранилището не е налице.</string>
     <string name="only_primary_user_allowed">Само собственикът на това устройство може да инсталира сертификати.</string>
     <string name="credential_usage_label">Използв. на идент. данни</string>
-    <string name="wifi_title">Потребителски профил за Wi-Fi</string>
-    <string name="wifi_detail_title">Подробности за %s</string>
-    <string name="wifi_detail_label">Подробности</string>
-    <string name="wifi_install_label">Инсталиране</string>
-    <string name="wifi_installing_label">Инсталира се</string>
-    <string name="wifi_cancel_label">Отказ</string>
-    <string name="wifi_dismiss_label">Отхвърляне</string>
-    <string name="wifi_no_config">Няма</string>
-    <string name="wifi_config_text">"Име: %1$s
-Пълно име на домейна (FQDN): %2$s
-Консорциуми за роуминг: %3$s
-Област: %4$s
-Метод на удостоверяване: EAP-%5$s
-"</string>
-    <string name="wifi_ttls_config_text">"Потребителско име: %s
-"</string>
-    <string name="wifi_tls_config_text">"Клиентски сертификат:
-%1$s
-Ключ: %2$s
-"</string>
-    <string name="wifi_sim_config_text">"SIM карта: %s
-"</string>
-    <string name="wifi_trust_config_text">"Надежден сертификат:
-%s
-"</string>
-    <string name="install_done_title">Идентификационните данни са инсталирани</string>
-    <string name="install_done">Идентификационните данни за %1$s са добавени към запазените Wi-Fi мрежи.</string>
-    <string name="done_label">ГОТОВО</string>
-    <string name="wifi_installer_detail">Инсталирайте идентификационните данни за Wi-Fi, за да се установява връзка с мрежите, налични чрез %1$s.</string>
-    <string name="wifi_installer_download_error">Изтегленият файл не може да се инсталира поради проблеми. Уверете се, че сте го изтеглили от правилния източник.</string>
-    <string name="wifi_installer_fail">Идентификационните данни за Wi-Fi не могат да се инсталират. Опитайте да изтеглите отново файла.</string>
-    <string name="wifi_installer_fail_no_wifi_title">Инсталирането е анулирано</string>
-    <string name="wifi_installer_fail_title">Не може да се инсталира</string>
-    <string name="wifi_installer_fail_no_wifi">Включете Wi-Fi и опитайте отново.</string>
 </resources>

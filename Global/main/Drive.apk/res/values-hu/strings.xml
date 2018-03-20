@@ -19,8 +19,9 @@
     <string name="abc_shareactionprovider_share_with">Megosztás a következővel:</string>
     <string name="abc_shareactionprovider_share_with_application">Megosztás a következővel: %s</string>
     <string name="abc_toolbar_collapse_description">Összecsukás</string>
-    <string name="access_as_visitors_title">Mindenki más</string>
-    <string name="access_via_team_drive_title">Elérés a következőn keresztül: %1$s</string>
+    <string name="access_request_accepted">Elfogadva</string>
+    <string name="access_request_give_access">Hozzáférés megadása</string>
+    <string name="access_request_reply">Válasz</string>
     <string name="accessbility_suggestion_dropdown_closed">Nincs elérhető javaslat</string>
     <string name="accessbility_suggestion_dropdown_opened">Névjegyjavaslatok megnyitva</string>
     <string name="account_item">Váltás erre: %1$s</string>
@@ -39,8 +40,8 @@
     <string name="action_card_announce_untrash">Elem visszaállítva</string>
     <string name="action_card_download">Letöltés</string>
     <string name="action_card_download_content_desc">Másolat letöltése</string>
-    <string name="action_card_export">Másolat küld.</string>
-    <string name="action_card_export_content_desc">Másolat küldése</string>
+    <string name="action_card_export">Fájl küldése</string>
+    <string name="action_card_export_content_desc">Fájl küldése</string>
     <string name="action_card_folder_color">Szín cseréje</string>
     <string name="action_card_get_link">Link megosztása</string>
     <string name="action_card_move">Áthelyezés</string>
@@ -53,7 +54,6 @@
     <string name="action_card_remove_content_desc">Elem eltávolítása</string>
     <string name="action_card_remove_permanently">Végl. törlés</string>
     <string name="action_card_remove_permanently_content_desc">Az elem végleges törlése</string>
-    <string name="action_card_remove_td_item">Törlés mindenkire vonatkozóan</string>
     <string name="action_card_rename">Átnevezés</string>
     <string name="action_card_rename_content_desc">Elem átnevezése</string>
     <string name="action_card_share">Személyek hozzáadása</string>
@@ -82,19 +82,13 @@
     <string name="add">Hozzáadás</string>
     <string name="add_account">Fiók hozzáadása</string>
     <string name="add_collaborator_accept">Hozzáadás</string>
-    <string name="add_collaborators">Személyek felvétele</string>
-    <string name="add_collaborators_acl_list_title">Kinek van hozzáférése</string>
+    <string name="add_collaborators">Személyek hozzáadása</string>
     <string name="add_collaborators_hint">Adjon meg egy nevet vagy e-mail címet</string>
     <string name="add_collaborators_send_button_content_desc">Megosztás megerősítése és küldés az együttműködőknek</string>
-    <string name="add_collaborators_textbox_title">Felhasználók</string>
-    <string name="add_members_acl_list_title">%1$s tag</string>
-    <string name="add_members_dialog_title">Tagok felvétele</string>
-    <string name="add_members_send_button_content_desc">A tagfelvétel megerősítése és küldés a tagoknak</string>
-    <string name="add_members_textbox_title">Tagok</string>
+    <string name="add_collaborators_textbox_title">Személyek</string>
     <string name="alphabet_set">0123456789AÁBCDEÉFGHIÍJKLMNOÓÖŐPQRSTUÚÜŰVWXYZ</string>
     <string name="announce_account_switch">Átváltott a(z) %1$s fiókra.</string>
     <string name="announce_account_using">Használt fiók: %1$s.</string>
-    <string name="announce_action_undone">Visszavonta a műveletet.</string>
     <string name="announce_collection_removed">Eltávolította a mappát.</string>
     <string name="announce_create_new">Új létrehozása</string>
     <string name="announce_document_removed">Eltávolította a fájlt.</string>
@@ -106,8 +100,6 @@
     <string name="announce_search_found_no_item">Nincs találat</string>
     <string name="announce_select_to_change">jelölje ki a módosításához</string>
     <string name="announce_sort_order_and_direction">Rendezési szempont: %1$s, %2$s</string>
-    <string name="announce_swatch_checked">%1$s kijelölve</string>
-    <string name="announce_swatch_not_checked">%1$s nincs kijelölve</string>
     <string name="app_installation_in_progress">A telepítés folyamatban van…</string>
     <string name="app_installation_in_progress_toast">A telepítés folyamatban van, a részletekért lásd az értesítéseket!</string>
     <string name="app_installed_dialog_drive_installed_title">A Google Drive telepítése kész</string>
@@ -121,19 +113,27 @@
     <string name="app_name_drive">Drive</string>
     <string name="app_restrictions_description">A helyi nyomtatási API-k használatának letiltásához állítsa Hamisra</string>
     <string name="app_restrictions_title">Az alkalmazás használhatja a helyi nyomtatási API-kat</string>
-    <string name="apps">Google Alkalmazások</string>
-    <string name="apps_footer_text">%s alkalmazás</string>
-    <string name="apps_predict_carousel_title">Gyors hozzáférés</string>
     <string name="apps_predict_doclist_suggestions_header">Azonnali elemek</string>
     <string name="apps_predict_open_error">Az elem nem nyitható meg.</string>
-    <string name="apps_predict_overlay_close_button">Bezárás</string>
     <string name="apps_predict_overlay_introduction_header">Új javasolt elemek</string>
     <string name="apps_predict_overlay_introduction_text">A Drive olyan elemeket javasol, amelyeket valószínűleg használni szeretne. Nem azt javasolja, amit keres? Egyszerűen húzza el oldalra az elvetéshez.</string>
     <string name="apps_predict_overlay_title_assistant">Asszisztens</string>
     <string name="apps_predict_overlay_title_items_now">Javasolt elemek</string>
     <string name="apps_predict_overlay_title_smart_items">Intelligens elemek</string>
+    <string name="apps_predict_reason_frequently_accessed">Gyakran megnyitott</string>
+    <string name="apps_predict_reason_outstanding_comments">Megválaszolatlan megjegyzések</string>
+    <string name="apps_predict_reason_recent_activity">Közelmúlt műveletei alapján</string>
+    <string name="apps_predict_reason_recently_accessed">A közelmúltban megnyitott</string>
+    <string name="apps_predict_reason_recently_commented_on">Nemrég megjegyzés érkezett</string>
+    <string name="apps_predict_reason_recently_notified">Nem értesítést kapott róla</string>
+    <string name="apps_predict_reason_recently_shared_with_you">Nemrég megosztva Önnel</string>
+    <string name="apps_predict_reason_recently_updated">Nemrég frissítve</string>
+    <string name="apps_predict_reason_related_to_recent_document">Megnyitott fájlhoz kapcsolódik</string>
+    <string name="apps_predict_reason_time_of_day">Ebben az időpontban megnyitott</string>
     <string name="apps_predict_suggestions_dismissed_undo">Javaslatok elvetve</string>
     <string name="apps_with_backup">Alkalmazások mentve a Google Drive-ra</string>
+    <string name="ask_confirmation_for_document_deletion">Valóban el szeretné távolítani ezt a fájlt?</string>
+    <string name="ask_confirmation_for_folder_deletion">Valóban el szeretné távolítani ezt a mappát?</string>
     <string name="audio_info_loading">Betöltés</string>
     <string name="authentication_error">Hiba a hitelesítés során</string>
     <string name="auto_backup_open_settings_page_failure_toast">Nem sikerült megnyitni az Auto. mentés beállítási oldalát. Próbálja újra később!</string>
@@ -143,10 +143,8 @@
     <string name="backup_app_footer_text" formatted="false">%s automatikusan mentve ekkor: %s</string>
     <string name="backup_banner_msg">Az eszköz tartalmainak Drive-on történő automatikus mentésének indítása</string>
     <string name="backup_complete_msg">A mentés befejeződött</string>
-    <string name="backup_data">Adat biztonsági mentése</string>
     <string name="backup_disabled_for_account">Az eszköz biztonsági mentése engedélyezve van a(z) %s fiókhoz. Eszközönként csak egy fiókhoz állítható be biztonsági mentés.</string>
     <string name="backup_disabled_for_device">Nincs elérhető biztonsági mentés. Engedélyezze a biztonsági mentést az eszközön, és várjon 24 órát az adatok mentéséhez.</string>
-    <string name="backup_entity_footer_text">Utolsó biztonsági mentés: %s</string>
     <string name="backup_failed_msg">Sikertelen automatikus mentés</string>
     <string name="backup_help_card_content">Az eszközén lévő képek, fájlok és alkalmazásbeállítások automatikusan mentve vannak itt: %s.</string>
     <string name="backup_help_card_title">Adatmentés a Google Drive-ban</string>
@@ -154,9 +152,7 @@
     <string name="backup_now">Automatikus mentés most</string>
     <string name="backup_preferences">Alkalmazások biztonsági mentése</string>
     <string name="backup_retry_msg">Koppintson az újrapróbálkozáshoz</string>
-    <string name="backup_settings">A biztonsági mentés beállításai</string>
-    <string name="backup_view_error">Nem sikerült listázni a biztonságimásolat-adatokat. Ellenőrizze a hálózati kapcsolatot, és próbálja újra.</string>
-    <string name="basesearchsuggestion_date_modified_label">Módosítva: %1$s</string>
+    <string name="basesearchsuggestion_date_modified_label">Módosítva: %s</string>
     <string name="button_create_contact">Új névjegy létrehozása</string>
     <string name="button_exit">Kilépés</string>
     <string name="button_ok">OK</string>
@@ -166,64 +162,52 @@
     <string name="buy_content_description">Vásároljon %1$s helyet ennyiért: %2$s</string>
     <string name="cakemix_device_offline">Nincs kapcsolat</string>
     <string name="cakemix_problem_with_file">Probléma merült fel a fájllal</string>
-    <string name="cakemix_video_unprocessed">A videó feldolgozása folyamatban van. Nézzen vissza később.</string>
-    <string name="calendar">Naptár</string>
-    <string name="calendar_footer_text">Szinkronizálva a Google Naptár szolgáltatással</string>
-    <string name="calendar_message">A naptáreseményeket a rendszer minden eszközön szinkronizálja a Google Naptár szolgáltatással.</string>
-    <string name="call_history">Híváslista</string>
-    <string name="call_history_message">A biztonsági másolat magában foglalja a bejövő és kimenő hívások dátumát és címzettjét.</string>
+    <string name="cakemix_video_unprocessed">A videó nem dolgozható fel.</string>
     <string name="camera_ocr_error_capture">Hiba történt a fotó elkészítésekor</string>
     <string name="camera_ocr_no_sdcard">A fényképezőgép használatához helyezzen be egy SD-kártyát.</string>
-    <string name="carbon_device_extra_delete_confirmation_message">"
-
-A rendszer nem törli az eszközről szinkronizált fotókat, névjegyeket és naptáreseményeket."</string>
+    <string name="check_connection_tap_to_retry">Ellenőrizze a kapcsolatot, és koppintson ide.</string>
     <string name="chips_action_cancel">Mégse</string>
     <string name="chips_action_copy">Másolás</string>
     <string name="chips_permission_text">Névjegyjavaslatok engedélyezése</string>
     <string name="clear_cache">Gyorsítótár ürítése</string>
     <string name="clear_cache_cleared_message">A dokumentum-gyorsítótár kiürítve</string>
-    <string name="clear_cache_clearing_message">Gyorsítótár ürítése</string>
     <string name="clear_cache_message">A dokumentum-gyorsítótár ki lesz ürítve.</string>
-    <string name="common_google_play_services_api_unavailable_text">A(z) %1$s alkalmazásnak legalább egy olyan Google Play-szolgáltatásra van szüksége, amely jelenleg nem érhető el. További segítségért vegye fel a kapcsolatot a fejlesztővel.</string>
-    <string name="common_google_play_services_enable_button">Google Play-szolgáltatások engedélyezése</string>
-    <string name="common_google_play_services_enable_text">"A(z) %1$s alkalmazás csak akkor működik, ha  engedélyezi a Google Play-szolgáltatásokat."</string>
-    <string name="common_google_play_services_enable_title">Google Play-szolgáltatások engedélyezése</string>
-    <string name="common_google_play_services_install_button">A Google Play-szolgáltatások beszerzése</string>
-    <string name="common_google_play_services_install_text_phone">A(z) %1$s alkalmazás nem fut a Google Play-szolgáltatások nélkül, amelyek hiányoznak a telefonról.</string>
-    <string name="common_google_play_services_install_text_tablet">A(z) %1$s alkalmazás nem fut a Google Play-szolgáltatások nélkül, amelyek hiányoznak a táblagépről.</string>
-    <string name="common_google_play_services_install_title">A Google Play-szolgáltatások beszerzése</string>
-    <string name="common_google_play_services_invalid_account_text">A megadott fiók nem létezik ezen az eszközön. Válasszon másik fiókot.</string>
+    <string name="comment_quote">Idézet: %1$s</string>
+    <string name="common_android_wear_notification_needs_update_text">A(z) %1$s alkalmazás az Android Wear alkalmazás frissítését igényli.</string>
+    <string name="common_android_wear_update_text">A(z) %1$s alkalmazás csak az Android Wear alkalmazás frissítését követően fog működni.</string>
+    <string name="common_android_wear_update_title">Az Android Wear frissítése</string>
+    <string name="common_google_play_services_api_unavailable_text">A(z) %1$s alkalmazásnak szüksége van egy vagy több, jelenleg nem elérhető Google Play-szolgáltatásra. További segítségért vegye fel a kapcsolatot a fejlesztővel.</string>
+    <string name="common_google_play_services_enable_button">Play-szolgáltatások aktiválása</string>
+    <string name="common_google_play_services_enable_text">A(z) %1$s alkalmazás csak akkor működik, ha Ön engedélyezi a Google Play-szolgáltatásokat.</string>
+    <string name="common_google_play_services_enable_title">Google Play-szolgáltatások aktiválása</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">A(z) %1$s kérésére</string>
+    <string name="common_google_play_services_install_button">Play-szolgáltatások telepítése</string>
+    <string name="common_google_play_services_install_text_phone">A(z) %1$s alkalmazás nem fut a Google Play-szolgáltatások nélkül, amelyek hiányoznak a telefonjáról.</string>
+    <string name="common_google_play_services_install_text_tablet">A(z) %1$s alkalmazás nem fut a Google Play-szolgáltatások nélkül, amelyek hiányoznak a táblagépéről.</string>
+    <string name="common_google_play_services_install_title">Play-szolgáltatások telepítése</string>
+    <string name="common_google_play_services_invalid_account_text">A megadott fiók nem létezik ezen az eszközön. Kérjük, válasszon másik fiókot.</string>
     <string name="common_google_play_services_invalid_account_title">Érvénytelen fiók</string>
+    <string name="common_google_play_services_needs_enabling_title">Egy alkalmazás Google Play-szolgáltatások engedélyezését kéri.</string>
     <string name="common_google_play_services_network_error_text">A Google Play-szolgáltatásokhoz történő kapcsolódáshoz adatkapcsolat szükséges.</string>
     <string name="common_google_play_services_network_error_title">Hálózati hiba</string>
+    <string name="common_google_play_services_notification_needs_update_title">Egy alkalmazás Google Play-szolgáltatások frissítését kéri.</string>
     <string name="common_google_play_services_notification_ticker">Google Play-szolgáltatások – hiba</string>
-    <string name="common_google_play_services_restricted_profile_text">Korlátozott jogokkal rendelkező profilból nem lehetséges a fiókelérés.</string>
-    <string name="common_google_play_services_restricted_profile_title">Korlátozott jogokkal rendelkező profil</string>
-    <string name="common_google_play_services_sign_in_failed_text">Hiba a megadott fiókba való bejelentkezéskor. Kérjük, válasszon másik fiókot.</string>
+    <string name="common_google_play_services_sign_in_failed_text">Hiba a megadott fiókba való bejelentkezéskor. Kérjük, válasszon egy másik fiókot.</string>
     <string name="common_google_play_services_sign_in_failed_title">Sikertelen bejelentkezés</string>
-    <string name="common_google_play_services_unknown_issue">A(z) %1$s alkalmazás problémába ütközött a Google Play szolgáltatásainak használata során. Ha a probléma továbbra is fennáll, vegye fel a kapcsolatot a fejlesztővel.</string>
-    <string name="common_google_play_services_unsupported_text">A(z) %1$s használatához olyan Google Play-szolgáltatásokra van szükség, amelyeket eszköze nem támogat. Ha segítségre van szüksége, lépjen kapcsolatba a gyártóval.</string>
+    <string name="common_google_play_services_unknown_issue">Ismeretlen hiba a Google Play-szolgáltatásokban.</string>
+    <string name="common_google_play_services_unsupported_text">A(z) %1$s használatához olyan Google Play-szolgáltatásokra lesz szüksége, amelyeket eszköze nem támogat. Ha segítségre van szüksége, lépjen kapcsolatba a gyártóval.</string>
     <string name="common_google_play_services_unsupported_title">Google Play-szolgáltatások</string>
     <string name="common_google_play_services_update_button">Frissítés</string>
     <string name="common_google_play_services_update_text">A(z) %1$s alkalmazás csak akkor fog működni, ha frissíti a Google Play-szolgáltatásokat.</string>
-    <string name="common_google_play_services_update_title">A Google Play-szolgáltatások frissítése</string>
-    <string name="common_google_play_services_updating_text">A(z) %1$s alkalmazás nem fut a Google Play-szolgáltatások nélkül, amelyek frissítése folyamatban van.</string>
+    <string name="common_google_play_services_update_title">Play-szolgáltatások frissítése</string>
+    <string name="common_google_play_services_updating_text">A(z) %1$s alkalmazás nem fut a Google Play-szolgáltatások nélkül, amelyek éppen frissülnek.</string>
     <string name="common_google_play_services_updating_title">A Google Play-szolgáltatások frissülnek</string>
-    <string name="common_google_play_services_wear_update_text">A Google Play-szolgáltatások új verziójára van szükség. A szolgáltatás hamarosan frissíti önmagát.</string>
     <string name="common_open_on_phone">Megnyitás a telefonon</string>
-    <string name="common_signin_button_text">Bejelentkezés</string>
-    <string name="common_signin_button_text_long">Bejelentkezés Google-fiókkal</string>
     <string name="contact_sharing_commenter">Megjegyzést írhat</string>
     <string name="contact_sharing_no_access">Nincs hozzáférés</string>
     <string name="contact_sharing_reader">Megtekintheti</string>
-    <string name="contact_sharing_td_organizer">Nincs korlátozás</string>
-    <string name="contact_sharing_td_remove">Eltávolítás</string>
-    <string name="contact_sharing_td_writer">Szerkesztés és feltöltés</string>
-    <string name="contact_sharing_writer">Szerkesztés</string>
+    <string name="contact_sharing_writer">Szerkesztheti</string>
     <string name="contact_sharing_writer_folder">Rendezés, hozzáadás és szerkesztés</string>
-    <string name="contacts">Névjegyek</string>
-    <string name="contacts_footer_text">Szinkronizálva a Google Névjegyek szolgáltatással</string>
-    <string name="contacts_message">A névjegyeket a rendszer minden eszközön szinkronizálja a Google Névjegyek szolgáltatással.</string>
     <string name="convert_conversion_failed">Sajnos nem sikerült feldolgozni a dokumentumot. Ellenőrizze a hálózati kapcsolatot, és próbálja újra.</string>
     <string name="convert_document_too_big">A dokumentum sajnos túl nagy a feldolgozáshoz.</string>
     <string name="convert_loading_document_failed">A dokumentumát nem sikerült feldolgozni.</string>
@@ -246,7 +230,6 @@ A rendszer nem törli az eszközről szinkronizált fotókat, névjegyeket és n
     <string name="create_new_error_presentation">Nem sikerült létrehozni a prezentációt</string>
     <string name="create_new_error_read_only_folder">Nincs jogosultsága ahhoz, hogy fájlokat helyezzen ebbe a mappába.</string>
     <string name="create_new_error_spreadsheet">Nem sikerült létrehozni a táblázatot</string>
-    <string name="create_new_error_team_drive">Hiba történt a csapatmeghajtó létrehozásakor.</string>
     <string name="create_new_folder">Mappa</string>
     <string name="create_new_from_scan">Beolvasás</string>
     <string name="create_new_ocr_doc">Dokumentum fotóból</string>
@@ -255,7 +238,6 @@ A rendszer nem törli az eszközről szinkronizált fotókat, névjegyeket és n
     <string name="create_new_offline_error_folder">Új mappa létrehozásához kapcsolódjon az internethez</string>
     <string name="create_new_offline_error_presentation">Új prezentáció létrehozásához kapcsolódjon az internethez</string>
     <string name="create_new_offline_error_spreadsheet">Új táblázat létrehozásához kapcsolódjon az internethez</string>
-    <string name="create_new_offline_error_team_drive">Ha új csapatmeghajtót szeretne létrehozni, csatlakozzon az internethez.</string>
     <string name="create_shortcut_label">A Drive parancsikonja</string>
     <string name="create_shortcut_title">Parancsikon létrehozása…</string>
     <string name="created_folder">Mappa (%1$s) létrehozva</string>
@@ -264,35 +246,16 @@ A rendszer nem törli az eszközről szinkronizált fotókat, névjegyeket és n
     <string name="creating_folder">Mappa létrehozása…</string>
     <string name="creating_presentation">Prezentáció létrehozása…</string>
     <string name="creating_spreadsheet">Táblázat létrehozása…</string>
-    <string name="creating_team_drive">Csapatmeghajtó létrehozása…</string>
     <string name="cross_app_promo_dismiss_button_text">Bezárás</string>
     <string name="cross_app_promo_install_button_text">Telepítés</string>
     <string name="cross_app_promo_view_only_button_text">Csak olvasható</string>
-    <string name="current_device">Ez az eszköz</string>
     <string name="decrypting_progress_message">%1$s visszafejtése</string>
     <string name="default_new_drawing_title">Névtelen rajz</string>
     <string name="default_new_folder_title">Névtelen mappa</string>
     <string name="default_new_kix_title">Névtelen dokumentum</string>
     <string name="default_new_punch_title">Névtelen prezentáció</string>
-    <string name="default_new_team_drive_title">Csapat neve</string>
     <string name="default_new_trix_title">Névtelen táblázat</string>
     <string name="default_scope_contact_name">Mindenki</string>
-    <string name="delete_backup">Biztonsági másolat törlése</string>
-    <string name="delete_backup_confirm_button">Törlés</string>
-    <string name="delete_backup_progress_message">Biztonsági másolat törlése</string>
-    <string name="delete_device_backup_confirmation_message">"A rendszer véglegesen törli az ehhez az eszközhöz tartozó biztonságimásolat-adatokat.
-
-Ha a biztonsági mentés továbbra is be van kapcsolva az eszközhöz (%s), a rendszer új biztonságimásolat-adatokat hoz létre."</string>
-    <string name="delete_device_backup_title">Törli a(z) „%s” másolatát?</string>
-    <string name="delete_multiple_backup_error_message">Nem sikerült törölni egyes biztonsági másolatokat.</string>
-    <string name="delete_single_backup_error_message">Nem sikerült törölni a biztonsági másolatot.</string>
-    <string name="delete_whatsapp_backup_after_turnoff_confirmation_message">"A következők WhatApps-csevegéseiről és -médiafájljairól készült biztonsági másolatokat is véglegesen törölni szeretné:
-
-%s"</string>
-    <string name="delete_whatsapp_backup_confirmation_message">"A rendszer véglegesen törli a következő számhoz tartozó WhatsApp-csevegésekről és -médiafájlokról készült biztonsági másolatokat: %s.
-
-Ha a biztonsági mentés továbbra is be van kapcsolva a számra vonatkozóan, a rendszer új biztonságimásolat-adatokat hoz létre."</string>
-    <string name="delete_whatsapp_backup_title">Törli a WhatsApp-másolatokat?</string>
     <string name="desc_album_art">Lemezborító</string>
     <string name="desc_audio_forward">Előre 30 másodpercet</string>
     <string name="desc_audio_next">Tovább</string>
@@ -324,17 +287,16 @@ Ha a biztonsági mentés továbbra is be van kapcsolva a számra vonatkozóan, a
     <string name="desc_promo_page">Tippfelület: PDF-ek mentése a Google Drive-ba</string>
     <string name="desc_selection_start">kijelölés kezdete</string>
     <string name="desc_selection_stop">kijelölés vége</string>
-    <string name="desc_video_player">Videolejátszó</string>
     <string name="desc_web_link">Link: %1$s</string>
     <string name="desc_web_link_shortened_to_domain">Link: weboldal helye: %1$s</string>
     <string name="desc_zoom">%1$d százalékos nagyítása</string>
     <string name="description_icon_stale_items">Elavult elemei vannak.</string>
-    <string name="detail_fragment_title">A(z) %1$s fájl elemtulajdonságainak megjelenítése</string>
+    <string name="detail_fragment_title">A(z) %s fájl elemtulajdonságainak megjelenítése</string>
     <string name="detail_preview_created_time">Létrehozás dátuma</string>
-    <string name="detail_preview_date_performed_by">%1$s, létrehozta: %2$s</string>
+    <string name="detail_preview_date_performed_by" formatted="false">%s, létrehozta: %s</string>
     <string name="detail_preview_folder_location">Hely</string>
     <string name="detail_preview_folder_restore_location">Eltávolítva innen</string>
-    <string name="detail_preview_google_files_free">A(z) %1$s fájl nem számít bele a tárhelybe</string>
+    <string name="detail_preview_google_files_free">A(z) %s fájl nem számít bele a tárhelybe</string>
     <string name="detail_preview_information_content_description">Információs</string>
     <string name="detail_preview_kind">Típus</string>
     <string name="detail_preview_last_modified_date">Módosítás dátuma</string>
@@ -343,15 +305,12 @@ Ha a biztonsági mentés továbbra is be van kapcsolva a számra vonatkozóan, a
     <string name="detail_preview_quota">Felhasznált tárhely</string>
     <string name="detail_preview_size">Méret</string>
     <string name="device_offline">Nincs kapcsolat</string>
-    <string name="device_settings">Eszközbeállítások</string>
-    <string name="device_settings_message">A biztonsági másolat magában foglalja az eszközkonfigurációt is, beleértve a hátteret, a Wi-Fi-jelszavakat, valamint az alapértelmezett alkalmazásokat is.</string>
     <string name="dialog_confirm_expiration">Eltávolítja a lejáratot?</string>
     <string name="dialog_confirm_expiration_button">Lejárat eltávolítása</string>
     <string name="dialog_confirm_expiration_message">"A felhasználó hozzáféréséhez korábban lejáratot állítottak be.
 
 A szerepköre módosításával végleges hozzáférést ad neki."</string>
     <string name="dialog_confirm_sharing">Megosztás-jóváhagyás</string>
-    <string name="dialog_confirm_sharing_button">Megosztás</string>
     <string name="dialog_confirm_sharing_message">%1$s nem tartozik az elem domainjébe. Biztosan folytatja a megosztást?</string>
     <string name="dialog_confirm_sharing_message_multiple">%1$d partner nem tartozik az elem domainjébe. Biztosan folytatja a megosztást?</string>
     <string name="dialog_contact_sharing">Felh. megoszt. beáll</string>
@@ -385,8 +344,6 @@ A szerepköre módosításával végleges hozzáférést ad neki."</string>
     <string name="doclist_sortby_relevance">Relevancia</string>
     <string name="doclist_sortby_shared_title">Megosztás dátuma</string>
     <string name="doclist_starred_state">Csillagozott</string>
-    <string name="doclist_team_drive_state">Csapatmeghajtó</string>
-    <string name="doclist_unified_actions_more_actions_button">További műveletek</string>
     <string name="document_deleted_error_dialog_message">A megnyitni kívánt dokumentumot törölték. A parancsikon törléséhez koppintson az elemre, majd húzza azt a képernyő tetején lévő Eltávolítás ikonra.</string>
     <string name="document_deleted_error_dialog_title">A dokumentum törölve lett</string>
     <string name="document_preparing_to_open_progress">Felkészülés a megnyitásra…</string>
@@ -514,8 +471,6 @@ A szerepköre módosításával végleges hozzáférést ad neki."</string>
 
  FONTOS! A visszajelzés elküldése után ne feledje el üríteni az alkalmazás gyorsítótárát (Beállítások > Alkalmazások > Drive > Gyorsítótár ürítése), különben az ürített adatokhoz más kártékony alkalmazások is hozzáférhetnek. Folytatja?"</string>
     <string name="dump_database_dialog_title">Visszajelzés: segítse az alkalmazás fejlesztését!</string>
-    <string name="empty_backup_content">Az eszközről és alkalmazásadatokról készített biztonsági másolatok jelennek meg majd itt.</string>
-    <string name="empty_backup_title">Nincsenek biztonsági másolatok</string>
     <string name="empty_doclist">Nincs elem.</string>
     <string name="empty_doclist_for_devices_view">Nem található számítógépmappa.</string>
     <string name="empty_doclist_for_devices_view_details">Számítógépmappák létrehozásához telepítse a Drive legújabb verzióját a számítógépén, és állítsa be a helyi mappák szinkronizálását.</string>
@@ -529,15 +484,14 @@ Próbáljon feltölteni egy fájlt!"</string>
     <string name="empty_doclist_for_search_view">Nincs találat.</string>
     <string name="empty_doclist_for_shared_with_me_view">Az Önnel megosztott fájlok itt fognak megjelenni.</string>
     <string name="empty_doclist_for_starred_view">Nem rendelkezik csillagozott fájlokkal.</string>
-    <string name="empty_doclist_for_starred_view_details">Koppintson a Csillag ikonra a fájl menüjében a listához való hozzáadáshoz.</string>
+    <string name="empty_doclist_for_starred_view_details">A fájl felvételéhez a listába koppintson a részletek paneljén a csillag ikonra.</string>
+    <string name="empty_doclist_for_uploads_view">Nincsenek nemrég feltöltött fájljai.</string>
+    <string name="empty_doclist_for_uploads_view_details">Kezelheti aktív feltöltéseit, és megtekintheti az erről az eszközről nemrég feltöltött fájlokat.</string>
     <string name="empty_recent_doclist_message_subtitle">Minden, amit létrehoz és szerkeszt, itt jelenik meg. Új rajz létrehozásához kattintson erre: +</string>
     <string name="empty_recent_doclist_message_title">Üdvözöljük a Google Dokumentumokban!</string>
     <string name="empty_sharing_list">Nem érhetők el a megosztási információk</string>
-    <string name="empty_team_drives_doclist">A csapatmeghajtója üres. Adjon hozzá fájlokat és személyeket a kezdéshez.</string>
     <string name="enable_backup">A BIZTONSÁGI MENTÉS BEKAPCSOLÁSA</string>
     <string name="enter_new_name">Adja meg az új nevet:</string>
-    <string name="entity_backup_time">Utolsó biztonsági mentés: %s</string>
-    <string name="entity_item_more_action_button">További műveletek</string>
     <string name="error_access_denied_html">A dokumentum nem érhető el. &lt;br> Ok: A dokumentumhoz való hozzáférés megtagadva. &lt;br>&lt;br> Ellenőrizze, hogy jogosult-e a megtekintésére, és próbálkozzon újra.</string>
     <string name="error_app_intent">Másik alkalmazás nem tudja kezelni ezt a fájlt ( %1$s)</string>
     <string name="error_app_open">Hiba történt a fájl megnyitásakor.</string>
@@ -572,8 +526,6 @@ Próbáljon feltölteni egy fájlt!"</string>
     <string name="error_ssl_generic_template">SSL-hiba (kód: %1$d) a(z) „%2$s” távoli szerverhez való csatlakozás során.</string>
     <string name="error_ssl_idmismatch_template">SSL-hiba (kód: %1$d) a(z) „%2$s” távoli szerverhezhez való csatlakozás során: a szervernév nem egyezik.</string>
     <string name="error_ssl_validity_template">SSL-hiba (kód: %1$d) a(z) „%2$s” távoli szerverhez való csatlakozás során: A tanúsítvány lejárt, vagy még nem érvényes. Pontosan van beállítva a dátum ezen az eszközön?</string>
-    <string name="error_start_client">"Nem tölthető be több fájl innen:  %1$s"</string>
-    <string name="error_title">Hiba</string>
     <string name="error_video_not_available">A videót még dolgoztuk fel. Próbálkozzon újra később.</string>
     <string name="expires_future">Lejár: %1$s</string>
     <string name="expires_today">Ma jár le</string>
@@ -619,7 +571,7 @@ Próbáljon feltölteni egy fájlt!"</string>
     <string name="folder_color_cyan_200">Izland</string>
     <string name="folder_color_cyan_500">Karibi</string>
     <string name="folder_color_deep_orange_500">Mandarin</string>
-    <string name="folder_color_default">Alapértelmezett</string>
+    <string name="folder_color_default">Egérszürke</string>
     <string name="folder_color_google_blue_500">Égszínkék</string>
     <string name="folder_color_google_green_400">Zsályaszín</string>
     <string name="folder_color_google_green_500">Bazsalikomzöld</string>
@@ -631,27 +583,22 @@ Próbáljon feltölteni egy fájlt!"</string>
     <string name="folder_color_lime_500">Zöldcitrom</string>
     <string name="folder_color_orange_200">Barackszín</string>
     <string name="folder_color_orange_500">Narancssárga</string>
-    <string name="folder_color_orange_600">Taxisárga</string>
     <string name="folder_color_pink_200">Malacrózsaszín</string>
     <string name="folder_color_pink_300">Flamingórózsaszín</string>
     <string name="folder_color_pink_500">Málnaszín</string>
     <string name="folder_color_purple_100">Babaházlila</string>
-    <string name="folder_color_purple_200">Dino</string>
     <string name="folder_color_purple_300">Fukszialila</string>
-    <string name="folder_color_purple_400">Padlizsán</string>
     <string name="folder_color_teal_100">Váróteremkék</string>
     <string name="gallery_select_error">Hiba történt a feltölteni kívánt kép kiválasztása során.</string>
     <string name="getting_authentication_information">Dokumentum megnyitása</string>
     <string name="gf_feedback">Visszajelzés</string>
+    <string name="give_access_failed">Nem sikerült hozzáférést adni a következőnek: %1$s</string>
+    <string name="give_access_failed_offline">Offline módban nem adható hozzáférés</string>
+    <string name="give_access_success">Hozzáférést adott a következőnek: %1$s</string>
+    <string name="giving_access">Hozzáférés adása a következőnek: %1$s</string>
     <string name="google_account_missing">Nem található Google-fiók, az alkalmazás bezárul</string>
     <string name="google_account_needed">Az alkalmazás használatához legalább egy Google-fiókot be kell állítania.</string>
-    <string name="google_docs_long">Google Dokumentumok</string>
-    <string name="google_docs_short">Google Dokumentumok</string>
     <string name="google_drive">Google Drive</string>
-    <string name="google_sheets_long">Google Táblázatok</string>
-    <string name="google_sheets_short">Táblázatok</string>
-    <string name="google_slides_long">Google Diák</string>
-    <string name="google_slides_short">Diák</string>
     <string name="grid_sync_download_label_format">"Letöltés
 %2$s / %1$s"</string>
     <string name="grid_sync_upload_label_format">"Feltöltés
@@ -688,35 +635,24 @@ Bárhová megy, egyetlen kattintással elérheti összes fotóját, videóját, 
     <string name="label_password_incorrect">Helytelen jelszó</string>
     <string name="label_zoom" formatted="false">%1$d%-os nagy.</string>
     <string name="launch_drive">További fájlok betöltéséhez indítsa el a Drive-ot.</string>
-    <string name="launcher_scan_short">Szkennelés</string>
-    <string name="launcher_search_short">Keresés</string>
-    <string name="launcher_upload_short">Feltöltés</string>
-    <string name="learn_more">TOVÁBBI INFORMÁCIÓ</string>
-    <string name="libraries_material_featurehighlight_dismiss">Elvetés</string>
     <string name="linksharing_saved">A megosztási beállítások mentése sikerült.</string>
     <string name="loading">Betöltés…</string>
     <string name="loading_document">Dokumentum betöltése</string>
     <string name="loading_for_printing">Dokumentum betöltése</string>
     <string name="loading_printers">Nyomtatók betöltése…</string>
     <string name="location_entry_content_description">Hely: %1$s. Koppintson duplán a megnyitáshoz.</string>
-    <string name="location_entry_content_description_unclickable">Hely: %1$s.</string>
-    <string name="location_removed_entry_content_description">Eltávolítva innen: %1$s. Koppintson duplán a megnyitáshoz.</string>
-    <string name="location_removed_entry_content_description_unclickable">Eltávolítva innen: %1$s.</string>
     <string name="manage_accounts">Fiókok kezelése</string>
-    <string name="manage_backup">Biztonsági mentések kezelése</string>
+    <string name="manage_backup">Biztonsági mentés kezelése</string>
+    <string name="manage_backup_page_title">Biztonsági mentések kezelése</string>
     <string name="manage_backup_summary">Biztonsági mentett alkalmazások listázása</string>
-    <string name="manage_members_default_members">Alapértelmezés szerint a tagok szerkeszthetnek, rendezhetnek és hozzáadhatnak más tagokat.</string>
-    <string name="manage_members_dialog_title">%s tagjai</string>
     <string name="manifest_app_pdfviewer">Google PDF-olvasó</string>
     <string name="manifest_app_projector">Projektor</string>
     <string name="manifest_intent_view_pdf">PDF-megjelenítő</string>
     <string name="manifest_intent_view_pdf_drive">Drive PDF-olvasó</string>
     <string name="media_player_error">Lejátszási hiba történt</string>
     <string name="menu_account_settings">Fiókbeállítások</string>
-    <string name="menu_add_members">Tagok hozzáadása</string>
-    <string name="menu_backup">Biztonsági másolatok</string>
     <string name="menu_create_new_doc">Új</string>
-    <string name="menu_create_shortcut">A kezdőképernyőhöz</string>
+    <string name="menu_create_shortcut">A kezdőképernyőre</string>
     <string name="menu_delete">Eltávolítás</string>
     <string name="menu_doc_view_grid_mode">Rácsnézet</string>
     <string name="menu_doc_view_list_mode">Listanézet</string>
@@ -731,10 +667,7 @@ Bárhová megy, egyetlen kattintással elérheti összes fotóját, videóját, 
     <string name="menu_google_photos">Google Fotók</string>
     <string name="menu_help">Súgó</string>
     <string name="menu_help_and_feedback">Súgó és visszajelzés</string>
-    <string name="menu_item_manage_members">Tagok kezelése</string>
-    <string name="menu_item_use_advanced_permission">Speciális engedély használata</string>
     <string name="menu_learn_more">További információ</string>
-    <string name="menu_manage_members">Tagok kezelése</string>
     <string name="menu_move_to">Áthelyezés</string>
     <string name="menu_my_drive">Saját meghajtó</string>
     <string name="menu_navigation_devices">Eszközök</string>
@@ -770,6 +703,7 @@ Bárhová megy, egyetlen kattintással elérheti összes fotóját, videóját, 
     <string name="menu_show_team_drives">Csapatmeghajtók</string>
     <string name="menu_show_trash">Kuka</string>
     <string name="menu_show_trix">Táblázatok</string>
+    <string name="menu_show_upload">Feltöltések</string>
     <string name="menu_sort_by">Rendezési szempont</string>
     <string name="menu_sort_creation_time">Létrehozás dátuma</string>
     <string name="menu_sort_direction">Rendezési irány</string>
@@ -783,36 +717,17 @@ Bárhová megy, egyetlen kattintással elérheti összes fotóját, videóját, 
     <string name="menu_trash_delete_forever">Törlés</string>
     <string name="menu_trash_restore">Visszaállítás</string>
     <string name="menu_unpin">Törl. az eszközről</string>
-    <string name="menu_view_members">Tagok megtekintése</string>
     <string name="message_downloaded_file">Letöltve: %1$s</string>
     <string name="message_match_status">%2$d/%1$d</string>
     <string name="message_no_matches_found">Eredménytelen keresés.</string>
-    <string name="more_actions_content_description">További műveletek</string>
-    <string name="more_info">További információ</string>
     <string name="more_string">+%1$d</string>
     <string name="move">Áthelyezés</string>
-    <string name="move_confirm_dialog_message_cannot_undo">Csak elemek hozzáadására és szerkesztésére van engedélye a(z) %1$s mappában, így nem vonhatja vissza ezt a műveletet.</string>
-    <string name="move_confirm_dialog_message_lose_access_shared_folders">Egyes elemeket megosztott mappákból helyez át, így a felhasználók elveszítik a hozzáférésüket.</string>
-    <string name="move_confirm_dialog_message_lose_access_team_drives">Egyes elemeket csapatmeghajtókról helyez át, így a felhasználók elveszítik a hozzáférésüket.</string>
-    <string name="move_confirm_dialog_message_lose_access_team_drives_and_shared_folders">Egyes elemeket csapatmeghajtókról és megosztott mappákból helyez át, így a felhasználók elveszítik a hozzáférésüket.</string>
     <string name="move_confirm_dialog_title">Megerősítés</string>
-    <string name="move_confirm_dialog_title_cannot_undo">Ez a művelet nem vonható vissza</string>
-    <string name="move_confirm_dialog_title_lose_access">Néhányan elveszítik a hozzáférésüket</string>
-    <string name="move_confirm_dialog_title_lose_access_single_td">A(z) %1$s csapatmeghajtóban nem lesz elérhető</string>
     <string name="move_confirm_dialog_title_unshare">Áthelyezi a megosztott mappából?</string>
     <string name="move_dialog_title">Célmappa kiválasztása</string>
-    <string name="move_error_cannot_move_in_folders">Mappák még nem helyezhetők át csapatmeghajtókba.</string>
-    <string name="move_error_cannot_move_out_folders">Még nem helyezhetők át mappák a csapatmeghajtókról.</string>
-    <string name="move_error_no_permission_dest">Nem jogosult rá, hogy elemeket helyezzen át a következő mappába: „%1$s”.</string>
     <string name="move_error_read_only_folder">Nincs jogosultsága ahhoz, hogy fájlokat helyezzen ebbe a mappába.</string>
-    <string name="move_error_target_folder_not_exist">A célmappa nem létezik.</string>
-    <string name="move_error_team_drive_items_not_supported_yet">Egyelőre nem támogatjuk az elemek áthelyezését a csapatmeghajtókról vagy a csapatmeghajtókra.</string>
     <string name="move_multi_parent_file">Több mappában is szereplő fájlt próbál áthelyezni. Kérjük, a fájl áthelyezéséhez nyissa meg a Google Drive-ot a számítógépen.</string>
     <string name="move_multi_parent_folder">Több mappában is szereplő mappát próbál áthelyezni. Kérjük, a mappa áthelyezéséhez nyissa meg a Google Drive-ot a számítógépen.</string>
-    <string name="move_notice_lost_access_shared_folders">Egyes elemeket megosztott mappákból távolított el. Néhány felhasználó elveszítette a hozzáférését.</string>
-    <string name="move_notice_lost_access_team_drive_single">%1$s A(z) „%2$s” csapatmeghajtóban már nem érhető el.</string>
-    <string name="move_notice_lost_access_team_drives">Elemeket távolított el egy csapatmeghajtóból. Néhány felhasználó elveszítette a hozzáférését.</string>
-    <string name="move_notice_lost_access_team_drives_and_shared_folders">Elemeket távolított el néhány csapatmeghajtóból és megosztott mappából. Néhány felhasználó elveszítette a hozzáférését.</string>
     <string name="move_shared_to_shared">"A(z) %1$s áthelyezése a(z) %2$s megosztott mappából az együttműködők hozzáférésének elvesztésével jár.
 
 Az új megosztott mappa: %3$s."</string>
@@ -832,14 +747,10 @@ Az új megosztott mappa: %3$s."</string>
     <string name="new_folder_title">Új mappa</string>
     <string name="new_kix_title">Dokumentum címe</string>
     <string name="new_punch_title">Prezentáció címe</string>
-    <string name="new_team_drive_title">Új csapatmeghajtó</string>
     <string name="new_trix_title">Táblázat címe</string>
     <string name="no_account_for_upload_message">Jelentkezzen be vagy hozzon létre Google-fiókot a Drive-ba való feltöltéshez.</string>
     <string name="no_account_for_upload_setup_account">Fiók létrehozása</string>
     <string name="no_account_for_upload_title">Feltöltés a Drive-ra</string>
-    <string name="no_backup_help_card_button">A BIZTONSÁGI MENTÉS BEÁLLÍTÁSAI</string>
-    <string name="no_backup_help_card_content">Kapcsolja be a biztonsági mentést, hogy bármikor visszaállíthassa az adatait, akkor is, ha telefont vált.</string>
-    <string name="no_backup_help_card_title">Nem tartozik biztonsági másolat az eszközhöz.</string>
     <string name="notification_extra_text_is_too_long">A feltöltés sikertelen. A szöveg túl hosszú.</string>
     <string name="notification_feedback">Visszajelzés</string>
     <string name="notification_help_card_content">A Drive értesítést küld az Önnel megosztott fájlokról, a fájlhozzáférési kérelmekről és a többi fontos eseményről.</string>
@@ -848,6 +759,7 @@ Az új megosztott mappa: %3$s."</string>
     <string name="notification_home_empty_title">Nincsenek értesítések a közelmúltból</string>
     <string name="notification_home_read">Olvasott</string>
     <string name="notification_home_unread">Olvasatlan</string>
+    <string name="notification_message">Üzenet: %1$s</string>
     <string name="notification_setting_access_request_title">Hozzáférési kérésekről szóló értesítések</string>
     <string name="notification_setting_comment_title">Megjegyzésekről szóló értesítések</string>
     <string name="notification_setting_keep_on">Engedélyezés</string>
@@ -871,44 +783,36 @@ Az új megosztott mappa: %3$s."</string>
     <string name="notify_access_request_description_num_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_ITEMS_1,plural, =1{}other{Hozzáférést kért {NUM_ITEMS_2} elemhez}}}male{{NUM_ITEMS_1,plural, =1{}other{Hozzáférést kért {NUM_ITEMS_2} elemhez}}}other{{NUM_ITEMS_1,plural, =1{}other{Hozzáférést kért {NUM_ITEMS_2} elemhez}}}}}male{{SENDER_GENDER,select, female{{NUM_ITEMS_1,plural, =1{}other{Hozzáférést kért {NUM_ITEMS_2} elemhez}}}male{{NUM_ITEMS_1,plural, =1{}other{Hozzáférést kért {NUM_ITEMS_2} elemhez}}}other{{NUM_ITEMS_1,plural, =1{}other{Hozzáférést kért {NUM_ITEMS_2} elemhez}}}}}other{{SENDER_GENDER,select, female{{NUM_ITEMS_1,plural, =1{}other{Hozzáférést kért {NUM_ITEMS_2} elemhez}}}male{{NUM_ITEMS_1,plural, =1{}other{Hozzáférést kért {NUM_ITEMS_2} elemhez}}}other{{NUM_ITEMS_1,plural, =1{}other{Hozzáférést kért {NUM_ITEMS_2} elemhez}}}}}}</string>
     <string name="notify_comment_text_quoted">„%1$s”</string>
     <string name="notify_comment_text_suggestion_with_content_type">%1$s: %2$s</string>
-    <string name="notify_comment_text_with_content_type">%1$s: „%2$s”</string>
+    <string name="notify_comment_text_with_content_type">%1$s „%2$s”</string>
     <string name="notify_comments_description_many_comments_many_users_icu">{RECIPIENT_GENDER,select, female{99+ megjegyzés: {ITEM_TITLE}}male{99+ megjegyzés: {ITEM_TITLE}}other{99+ megjegyzés: {ITEM_TITLE}}}</string>
     <string name="notify_comments_description_many_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{99+ megjegyzés: {ITEM_TITLE}}male{99+ megjegyzés: {ITEM_TITLE}}other{99+ megjegyzés: {ITEM_TITLE}}}}male{{SENDER_GENDER,select, female{99+ megjegyzés: {ITEM_TITLE}}male{99+ megjegyzés: {ITEM_TITLE}}other{99+ megjegyzés: {ITEM_TITLE}}}}other{{SENDER_GENDER,select, female{99+ megjegyzés: {ITEM_TITLE}}male{99+ megjegyzés: {ITEM_TITLE}}other{99+ megjegyzés: {ITEM_TITLE}}}}}</string>
+    <string name="notify_comments_description_many_items_many_users_icu">{RECIPIENT_GENDER,select, female{99+ megjegyzés és javaslat hozzáadva: {ITEM_TITLE}}male{99+ megjegyzés és javaslat hozzáadva: {ITEM_TITLE}}other{99+ megjegyzés és javaslat hozzáadva: {ITEM_TITLE}}}</string>
+    <string name="notify_comments_description_many_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{99+ megjegyzés és javaslat: {ITEM_TITLE}}male{99+ megjegyzés és javaslat: {ITEM_TITLE}}other{99+ megjegyzés és javaslat: {ITEM_TITLE}}}}male{{SENDER_GENDER,select, female{99+ megjegyzés és javaslat: {ITEM_TITLE}}male{99+ megjegyzés és javaslat: {ITEM_TITLE}}other{99+ megjegyzés és javaslat: {ITEM_TITLE}}}}other{{SENDER_GENDER,select, female{99+ megjegyzés és javaslat: {ITEM_TITLE}}male{99+ megjegyzés és javaslat: {ITEM_TITLE}}other{99+ megjegyzés és javaslat: {ITEM_TITLE}}}}}</string>
     <string name="notify_comments_description_many_suggestions_many_users_icu">{RECIPIENT_GENDER,select, female{99+ javaslat: {ITEM_TITLE}}male{99+ javaslat: {ITEM_TITLE}}other{99+ javaslat: {ITEM_TITLE}}}</string>
     <string name="notify_comments_description_many_suggestions_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{99+ javaslat: {ITEM_TITLE}}male{99+ javaslat: {ITEM_TITLE}}other{99+ javaslat: {ITEM_TITLE}}}}male{{SENDER_GENDER,select, female{99+ javaslat: {ITEM_TITLE}}male{99+ javaslat: {ITEM_TITLE}}other{99+ javaslat: {ITEM_TITLE}}}}other{{SENDER_GENDER,select, female{99+ javaslat: {ITEM_TITLE}}male{99+ javaslat: {ITEM_TITLE}}other{99+ javaslat: {ITEM_TITLE}}}}}</string>
-    <string name="notify_comments_description_many_todos_many_users_icu">{RECIPIENT_GENDER,select, female{99+ műveletelem itt: {ITEM_TITLE}}male{99+ műveletelem itt: {ITEM_TITLE}}other{99+ műveletelem itt: {ITEM_TITLE}}}</string>
-    <string name="notify_comments_description_many_todos_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{99+ műveletelem itt: {ITEM_TITLE}}male{99+ műveletelem itt: {ITEM_TITLE}}other{99+ műveletelem itt: {ITEM_TITLE}}}}male{{SENDER_GENDER,select, female{99+ műveletelem itt: {ITEM_TITLE}}male{99+ műveletelem itt: {ITEM_TITLE}}other{99+ műveletelem itt: {ITEM_TITLE}}}}other{{SENDER_GENDER,select, female{99+ műveletelem itt: {ITEM_TITLE}}male{99+ műveletelem itt: {ITEM_TITLE}}other{99+ műveletelem itt: {ITEM_TITLE}}}}}</string>
-    <string name="notify_comments_description_num_comments_many_users_icu">{RECIPIENT_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés a következőn: {ITEM_TITLE}}}}male{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés a következőn: {ITEM_TITLE}}}}other{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés a következőn: {ITEM_TITLE}}}}}</string>
-    <string name="notify_comments_description_num_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés a következőn: {ITEM_TITLE}}}}male{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés a következőn: {ITEM_TITLE}}}}other{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés a következőn: {ITEM_TITLE}}}}}}male{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés a következőn: {ITEM_TITLE}}}}male{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés a következőn: {ITEM_TITLE}}}}other{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés a következőn: {ITEM_TITLE}}}}}}other{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés a következőn: {ITEM_TITLE}}}}male{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés a következőn: {ITEM_TITLE}}}}other{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés a következőn: {ITEM_TITLE}}}}}}}</string>
+    <string name="notify_comments_description_num_comments_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}other{{NUM_COMMENTS_2} megjegyzés: {ITEM_TITLE}}}}male{{NUM_COMMENTS_1,plural, =1{}other{{NUM_COMMENTS_2} megjegyzés: {ITEM_TITLE}}}}other{{NUM_COMMENTS_1,plural, =1{}other{{NUM_COMMENTS_2} megjegyzés: {ITEM_TITLE}}}}}</string>
+    <string name="notify_comments_description_num_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}other{{NUM_COMMENTS_2} megjegyzés: {ITEM_TITLE}}}}male{{NUM_COMMENTS_1,plural, =1{}other{{NUM_COMMENTS_2} megjegyzés: {ITEM_TITLE}}}}other{{NUM_COMMENTS_1,plural, =1{}other{{NUM_COMMENTS_2} megjegyzés: {ITEM_TITLE}}}}}}male{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}other{{NUM_COMMENTS_2} megjegyzés: {ITEM_TITLE}}}}male{{NUM_COMMENTS_1,plural, =1{}other{{NUM_COMMENTS_2} megjegyzés: {ITEM_TITLE}}}}other{{NUM_COMMENTS_1,plural, =1{}other{{NUM_COMMENTS_2} megjegyzés: {ITEM_TITLE}}}}}}other{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}other{{NUM_COMMENTS_2} megjegyzés: {ITEM_TITLE}}}}male{{NUM_COMMENTS_1,plural, =1{}other{{NUM_COMMENTS_2} megjegyzés: {ITEM_TITLE}}}}other{{NUM_COMMENTS_1,plural, =1{}other{{NUM_COMMENTS_2} megjegyzés: {ITEM_TITLE}}}}}}}</string>
+    <string name="notify_comments_description_num_items_many_users_icu">{RECIPIENT_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés és javaslat: {ITEM_TITLE}}}}male{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés és javaslat: {ITEM_TITLE}}}}other{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés és javaslat: {ITEM_TITLE}}}}}</string>
+    <string name="notify_comments_description_num_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés és javaslat: {ITEM_TITLE}}}}male{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés és javaslat: {ITEM_TITLE}}}}other{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés és javaslat: {ITEM_TITLE}}}}}}male{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés és javaslat: {ITEM_TITLE}}}}male{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés és javaslat: {ITEM_TITLE}}}}other{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés és javaslat: {ITEM_TITLE}}}}}}other{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés és javaslat: {ITEM_TITLE}}}}male{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés és javaslat: {ITEM_TITLE}}}}other{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés és javaslat: {ITEM_TITLE}}}}}}}</string>
     <string name="notify_comments_description_num_suggestions_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}other{{NUM_SUGGESTIONS_2} javaslat: {ITEM_TITLE}}}}male{{NUM_SUGGESTIONS_1,plural, =1{}other{{NUM_SUGGESTIONS_2} javaslat: {ITEM_TITLE}}}}other{{NUM_SUGGESTIONS_1,plural, =1{}other{{NUM_SUGGESTIONS_2} javaslat: {ITEM_TITLE}}}}}</string>
     <string name="notify_comments_description_num_suggestions_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}other{{NUM_SUGGESTIONS_2} javaslat: {ITEM_TITLE}}}}male{{NUM_SUGGESTIONS_1,plural, =1{}other{{NUM_SUGGESTIONS_2} javaslat: {ITEM_TITLE}}}}other{{NUM_SUGGESTIONS_1,plural, =1{}other{{NUM_SUGGESTIONS_2} javaslat: {ITEM_TITLE}}}}}}male{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}other{{NUM_SUGGESTIONS_2} javaslat: {ITEM_TITLE}}}}male{{NUM_SUGGESTIONS_1,plural, =1{}other{{NUM_SUGGESTIONS_2} javaslat: {ITEM_TITLE}}}}other{{NUM_SUGGESTIONS_1,plural, =1{}other{{NUM_SUGGESTIONS_2} javaslat: {ITEM_TITLE}}}}}}other{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}other{{NUM_SUGGESTIONS_2} javaslat: {ITEM_TITLE}}}}male{{NUM_SUGGESTIONS_1,plural, =1{}other{{NUM_SUGGESTIONS_2} javaslat: {ITEM_TITLE}}}}other{{NUM_SUGGESTIONS_1,plural, =1{}other{{NUM_SUGGESTIONS_2} javaslat: {ITEM_TITLE}}}}}}}</string>
-    <string name="notify_comments_description_num_todos_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_TODOS_1,plural, =1{}other{{NUM_TODOS_2} műveletelem itt: {ITEM_TITLE}}}}male{{NUM_TODOS_1,plural, =1{}other{{NUM_TODOS_2} műveletelem itt: {ITEM_TITLE}}}}other{{NUM_TODOS_1,plural, =1{}other{{NUM_TODOS_2} műveletelem itt: {ITEM_TITLE}}}}}</string>
-    <string name="notify_comments_description_num_todos_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}other{{NUM_TODOS_2} műveletelem itt: {ITEM_TITLE}}}}male{{NUM_TODOS_1,plural, =1{}other{{NUM_TODOS_2} műveletelem itt: {ITEM_TITLE}}}}other{{NUM_TODOS_1,plural, =1{}other{{NUM_TODOS_2} műveletelem itt: {ITEM_TITLE}}}}}}male{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}other{{NUM_TODOS_2} műveletelem itt: {ITEM_TITLE}}}}male{{NUM_TODOS_1,plural, =1{}other{{NUM_TODOS_2} műveletelem itt: {ITEM_TITLE}}}}other{{NUM_TODOS_1,plural, =1{}other{{NUM_TODOS_2} műveletelem itt: {ITEM_TITLE}}}}}}other{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}other{{NUM_TODOS_2} műveletelem itt: {ITEM_TITLE}}}}male{{NUM_TODOS_1,plural, =1{}other{{NUM_TODOS_2} műveletelem itt: {ITEM_TITLE}}}}other{{NUM_TODOS_1,plural, =1{}other{{NUM_TODOS_2} műveletelem itt: {ITEM_TITLE}}}}}}}</string>
-    <string name="notify_comments_description_only_one_assign_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A következőhöz rendelve: {ASSIGNEE}, itt: {ITEM_TITLE}}male{A következőhöz rendelve: {ASSIGNEE}, itt: {ITEM_TITLE}}other{A következőhöz rendelve: {ASSIGNEE}, itt: {ITEM_TITLE}}}}male{{SENDER_GENDER,select, female{A következőhöz rendelve: {ASSIGNEE}, itt: {ITEM_TITLE}}male{A következőhöz rendelve: {ASSIGNEE}, itt: {ITEM_TITLE}}other{A következőhöz rendelve: {ASSIGNEE}, itt: {ITEM_TITLE}}}}other{{SENDER_GENDER,select, female{A következőhöz rendelve: {ASSIGNEE}, itt: {ITEM_TITLE}}male{A következőhöz rendelve: {ASSIGNEE}, itt: {ITEM_TITLE}}other{A következőhöz rendelve: {ASSIGNEE}, itt: {ITEM_TITLE}}}}}</string>
-    <string name="notify_comments_description_only_one_assign_to_you_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Önhöz rendelve itt: {ITEM_TITLE}}male{Önhöz rendelve itt: {ITEM_TITLE}}other{Önhöz rendelve itt: {ITEM_TITLE}}}}male{{SENDER_GENDER,select, female{Önhöz rendelve itt: {ITEM_TITLE}}male{Önhöz rendelve itt: {ITEM_TITLE}}other{Önhöz rendelve itt: {ITEM_TITLE}}}}other{{SENDER_GENDER,select, female{Önhöz rendelve itt: {ITEM_TITLE}}male{Önhöz rendelve itt: {ITEM_TITLE}}other{Önhöz rendelve itt: {ITEM_TITLE}}}}}</string>
     <string name="notify_comments_description_only_one_comment_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Megjegyzést fűzött a következőhöz: {ITEM_TITLE}}male{Megjegyzést fűzött a következőhöz: {ITEM_TITLE}}other{Megjegyzést fűzött a következőhöz: {ITEM_TITLE}}}}male{{SENDER_GENDER,select, female{Megjegyzést fűzött a következőhöz: {ITEM_TITLE}}male{Megjegyzést fűzött a következőhöz: {ITEM_TITLE}}other{Megjegyzést fűzött a következőhöz: {ITEM_TITLE}}}}other{{SENDER_GENDER,select, female{Megjegyzést fűzött a következőhöz: {ITEM_TITLE}}male{Megjegyzést fűzött a következőhöz: {ITEM_TITLE}}other{Megjegyzést fűzött a következőhöz: {ITEM_TITLE}}}}}</string>
     <string name="notify_comments_description_only_one_mention_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Megemlítette Önt itt: {ITEM_TITLE}}male{Megemlítette Önt itt: {ITEM_TITLE}}other{Megemlítette Önt itt: {ITEM_TITLE}}}}male{{SENDER_GENDER,select, female{Megemlítette Önt itt: {ITEM_TITLE}}male{Megemlítette Önt itt: {ITEM_TITLE}}other{Megemlítette Önt itt: {ITEM_TITLE}}}}other{{SENDER_GENDER,select, female{Megemlítette Önt itt: {ITEM_TITLE}}male{Megemlítette Önt itt: {ITEM_TITLE}}other{Megemlítette Önt itt: {ITEM_TITLE}}}}}</string>
-    <string name="notify_comments_description_only_one_reassign_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Újra hozzárendelve a következőhöz: {ASSIGNEE}, itt: {ITEM_TITLE}}male{Újra hozzárendelve a következőhöz: {ASSIGNEE}, itt: {ITEM_TITLE}}other{Újra hozzárendelve a következőhöz: {ASSIGNEE}, itt: {ITEM_TITLE}}}}male{{SENDER_GENDER,select, female{Újra hozzárendelve a következőhöz: {ASSIGNEE}, itt: {ITEM_TITLE}}male{Újra hozzárendelve a következőhöz: {ASSIGNEE}, itt: {ITEM_TITLE}}other{Újra hozzárendelve a következőhöz: {ASSIGNEE}, itt: {ITEM_TITLE}}}}other{{SENDER_GENDER,select, female{Újra hozzárendelve a következőhöz: {ASSIGNEE}, itt: {ITEM_TITLE}}male{Újra hozzárendelve a következőhöz: {ASSIGNEE}, itt: {ITEM_TITLE}}other{Újra hozzárendelve a következőhöz: {ASSIGNEE}, itt: {ITEM_TITLE}}}}}</string>
-    <string name="notify_comments_description_only_one_reassign_to_you_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Újra Önhöz rendelve itt: {ITEM_TITLE}}male{Újra Önhöz rendelve itt: {ITEM_TITLE}}other{Újra Önhöz rendelve itt: {ITEM_TITLE}}}}male{{SENDER_GENDER,select, female{Újra Önhöz rendelve itt: {ITEM_TITLE}}male{Újra Önhöz rendelve itt: {ITEM_TITLE}}other{Újra Önhöz rendelve itt: {ITEM_TITLE}}}}other{{SENDER_GENDER,select, female{Újra Önhöz rendelve itt: {ITEM_TITLE}}male{Újra Önhöz rendelve itt: {ITEM_TITLE}}other{Újra Önhöz rendelve itt: {ITEM_TITLE}}}}}</string>
     <string name="notify_comments_description_only_one_suggestion_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Javasolt egy módosítást: {ITEM_TITLE}}male{Javasolt egy módosítást: {ITEM_TITLE}}other{Javasolt egy módosítást: {ITEM_TITLE}}}}male{{SENDER_GENDER,select, female{Javasolt egy módosítást: {ITEM_TITLE}}male{Javasolt egy módosítást: {ITEM_TITLE}}other{Javasolt egy módosítást: {ITEM_TITLE}}}}other{{SENDER_GENDER,select, female{Javasolt egy módosítást: {ITEM_TITLE}}male{Javasolt egy módosítást: {ITEM_TITLE}}other{Javasolt egy módosítást: {ITEM_TITLE}}}}}</string>
     <string name="notify_comments_description_short_many_comments_many_users_icu">{RECIPIENT_GENDER,select, female{99+ megjegyzés hozzáadva}male{99+ megjegyzés hozzáadva}other{99+ megjegyzés hozzáadva}}</string>
     <string name="notify_comments_description_short_many_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{99+ megjegyzés hozzáadva}male{99+ megjegyzés hozzáadva}other{99+ megjegyzés hozzáadva}}}male{{SENDER_GENDER,select, female{99+ megjegyzés hozzáadva}male{99+ megjegyzés hozzáadva}other{99+ megjegyzés hozzáadva}}}other{{SENDER_GENDER,select, female{99+ megjegyzés hozzáadva}male{99+ megjegyzés hozzáadva}other{99+ megjegyzés hozzáadva}}}}</string>
+    <string name="notify_comments_description_short_many_items_many_users_icu">{RECIPIENT_GENDER,select, female{99+ javaslat hozzáadva}male{99+ javaslat hozzáadva}other{99+ javaslat hozzáadva}}</string>
+    <string name="notify_comments_description_short_many_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{99+ megjegyzés és javaslat hozzáadva}male{99+ megjegyzés és javaslat hozzáadva}other{99+ megjegyzés és javaslat hozzáadva}}}male{{SENDER_GENDER,select, female{99+ megjegyzés és javaslat hozzáadva}male{99+ megjegyzés és javaslat hozzáadva}other{99+ megjegyzés és javaslat hozzáadva}}}other{{SENDER_GENDER,select, female{99+ megjegyzés és javaslat hozzáadva}male{99+ megjegyzés és javaslat hozzáadva}other{99+ megjegyzés és javaslat hozzáadva}}}}</string>
     <string name="notify_comments_description_short_many_suggestions_many_users_icu">{RECIPIENT_GENDER,select, female{99+ javaslat hozzáadva}male{99+ javaslat hozzáadva}other{99+ javaslat hozzáadva}}</string>
     <string name="notify_comments_description_short_many_suggestions_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{99+ javaslat hozzáadva}male{99+ javaslat hozzáadva}other{99+ javaslat hozzáadva}}}male{{SENDER_GENDER,select, female{99+ javaslat hozzáadva}male{99+ javaslat hozzáadva}other{99+ javaslat hozzáadva}}}other{{SENDER_GENDER,select, female{99+ javaslat hozzáadva}male{99+ javaslat hozzáadva}other{99+ javaslat hozzáadva}}}}</string>
-    <string name="notify_comments_description_short_many_todos_many_users_icu">{RECIPIENT_GENDER,select, female{99+ műveletelem hozzáadva}male{99+ műveletelem hozzáadva}other{99+ műveletelem hozzáadva}}</string>
-    <string name="notify_comments_description_short_many_todos_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{99+ műveletelem hozzáadva}male{99+ műveletelem hozzáadva}other{99+ műveletelem hozzáadva}}}male{{SENDER_GENDER,select, female{99+ műveletelem hozzáadva}male{99+ műveletelem hozzáadva}other{99+ műveletelem hozzáadva}}}other{{SENDER_GENDER,select, female{99+ műveletelem hozzáadva}male{99+ műveletelem hozzáadva}other{99+ műveletelem hozzáadva}}}}</string>
-    <string name="notify_comments_description_short_num_comments_many_users_icu">{RECIPIENT_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés hozzáadva}}}male{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés hozzáadva}}}other{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés hozzáadva}}}}</string>
-    <string name="notify_comments_description_short_num_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés hozzáadva}}}male{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés hozzáadva}}}other{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés hozzáadva}}}}}male{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés hozzáadva}}}male{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés hozzáadva}}}other{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés hozzáadva}}}}}other{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés hozzáadva}}}male{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés hozzáadva}}}other{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés hozzáadva}}}}}}</string>
+    <string name="notify_comments_description_short_num_comments_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}other{Hozzáadott {NUM_COMMENTS_2} megjegyzést}}}male{{NUM_COMMENTS_1,plural, =1{}other{Hozzáadott {NUM_COMMENTS_2} megjegyzést}}}other{{NUM_COMMENTS_1,plural, =1{}other{Hozzáadott {NUM_COMMENTS_2} megjegyzést}}}}</string>
+    <string name="notify_comments_description_short_num_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}other{Hozzáadott {NUM_COMMENTS_2} megjegyzést}}}male{{NUM_COMMENTS_1,plural, =1{}other{Hozzáadott {NUM_COMMENTS_2} megjegyzést}}}other{{NUM_COMMENTS_1,plural, =1{}other{Hozzáadott {NUM_COMMENTS_2} megjegyzést}}}}}male{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}other{Hozzáadott {NUM_COMMENTS_2} megjegyzést}}}male{{NUM_COMMENTS_1,plural, =1{}other{Hozzáadott {NUM_COMMENTS_2} megjegyzést}}}other{{NUM_COMMENTS_1,plural, =1{}other{Hozzáadott {NUM_COMMENTS_2} megjegyzést}}}}}other{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}other{Hozzáadott {NUM_COMMENTS_2} megjegyzést}}}male{{NUM_COMMENTS_1,plural, =1{}other{Hozzáadott {NUM_COMMENTS_2} megjegyzést}}}other{{NUM_COMMENTS_1,plural, =1{}other{Hozzáadott {NUM_COMMENTS_2} megjegyzést}}}}}}</string>
+    <string name="notify_comments_description_short_num_items_many_users_icu">{RECIPIENT_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés és javaslat hozzáadva}}}male{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés és javaslat hozzáadva}}}other{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés és javaslat hozzáadva}}}}</string>
+    <string name="notify_comments_description_short_num_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés és javaslat hozzáadva}}}male{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés és javaslat hozzáadva}}}other{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés és javaslat hozzáadva}}}}}male{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés és javaslat hozzáadva}}}male{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés és javaslat hozzáadva}}}other{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés és javaslat hozzáadva}}}}}other{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés és javaslat hozzáadva}}}male{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés és javaslat hozzáadva}}}other{{TOTAL_ITEMS_1,plural, =1{}other{{TOTAL_ITEMS_2} megjegyzés és javaslat hozzáadva}}}}}}</string>
     <string name="notify_comments_description_short_num_suggestions_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}other{Javasolt {NUM_SUGGESTIONS_2} módosítást}}}male{{NUM_SUGGESTIONS_1,plural, =1{}other{Javasolt {NUM_SUGGESTIONS_2} módosítást}}}other{{NUM_SUGGESTIONS_1,plural, =1{}other{Javasolt {NUM_SUGGESTIONS_2} módosítást}}}}</string>
     <string name="notify_comments_description_short_num_suggestions_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}other{{NUM_SUGGESTIONS_2} javaslat hozzáadva}}}male{{NUM_SUGGESTIONS_1,plural, =1{}other{{NUM_SUGGESTIONS_2} javaslat hozzáadva}}}other{{NUM_SUGGESTIONS_1,plural, =1{}other{{NUM_SUGGESTIONS_2} javaslat hozzáadva}}}}}male{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}other{{NUM_SUGGESTIONS_2} javaslat hozzáadva}}}male{{NUM_SUGGESTIONS_1,plural, =1{}other{{NUM_SUGGESTIONS_2} javaslat hozzáadva}}}other{{NUM_SUGGESTIONS_1,plural, =1{}other{{NUM_SUGGESTIONS_2} javaslat hozzáadva}}}}}other{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}other{{NUM_SUGGESTIONS_2} javaslat hozzáadva}}}male{{NUM_SUGGESTIONS_1,plural, =1{}other{{NUM_SUGGESTIONS_2} javaslat hozzáadva}}}other{{NUM_SUGGESTIONS_1,plural, =1{}other{{NUM_SUGGESTIONS_2} javaslat hozzáadva}}}}}}</string>
-    <string name="notify_comments_description_short_num_todos_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_TODOS_1,plural, =1{}other{{NUM_TODOS_2} műveletelem hozzáadva}}}male{{NUM_TODOS_1,plural, =1{}other{{NUM_TODOS_2} műveletelem hozzáadva}}}other{{NUM_TODOS_1,plural, =1{}other{{NUM_TODOS_2} műveletelem hozzáadva}}}}</string>
-    <string name="notify_comments_description_short_num_todos_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}other{{NUM_TODOS_2} műveletelem hozzáadva}}}male{{NUM_TODOS_1,plural, =1{}other{{NUM_TODOS_2} műveletelem hozzáadva}}}other{{NUM_TODOS_1,plural, =1{}other{{NUM_TODOS_2} műveletelem hozzáadva}}}}}male{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}other{{NUM_TODOS_2} műveletelem hozzáadva}}}male{{NUM_TODOS_1,plural, =1{}other{{NUM_TODOS_2} műveletelem hozzáadva}}}other{{NUM_TODOS_1,plural, =1{}other{{NUM_TODOS_2} műveletelem hozzáadva}}}}}other{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}other{{NUM_TODOS_2} műveletelem hozzáadva}}}male{{NUM_TODOS_1,plural, =1{}other{{NUM_TODOS_2} műveletelem hozzáadva}}}other{{NUM_TODOS_1,plural, =1{}other{{NUM_TODOS_2} műveletelem hozzáadva}}}}}}</string>
-    <string name="notify_comments_description_short_only_one_assign_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Átadva a következőnek: {ASSIGNEE}}male{Átadva a következőnek: {ASSIGNEE}}other{Átadva a következőnek: {ASSIGNEE}}}}male{{SENDER_GENDER,select, female{Átadva a következőnek: {ASSIGNEE}}male{Átadva a következőnek: {ASSIGNEE}}other{Átadva a következőnek: {ASSIGNEE}}}}other{{SENDER_GENDER,select, female{Átadva a következőnek: {ASSIGNEE}}male{Átadva a következőnek: {ASSIGNEE}}other{Átadva a következőnek: {ASSIGNEE}}}}}</string>
-    <string name="notify_comments_description_short_only_one_assign_to_you_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Átadva Önnek}male{Átadva Önnek}other{Átadva Önnek}}}male{{SENDER_GENDER,select, female{Átadva Önnek}male{Átadva Önnek}other{Átadva Önnek}}}other{{SENDER_GENDER,select, female{Átadva Önnek}male{Átadva Önnek}other{Átadva Önnek}}}}</string>
     <string name="notify_comments_description_short_only_one_comment_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Hozzáadott egy megjegyzést}male{Hozzáadott egy megjegyzést}other{Hozzáadott egy megjegyzést}}}male{{SENDER_GENDER,select, female{Hozzáadott egy megjegyzést}male{Hozzáadott egy megjegyzést}other{Hozzáadott egy megjegyzést}}}other{{SENDER_GENDER,select, female{Hozzáadott egy megjegyzést}male{Hozzáadott egy megjegyzést}other{Hozzáadott egy megjegyzést}}}}</string>
     <string name="notify_comments_description_short_only_one_mention_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Megemlítette Önt}male{Megemlítette Önt}other{Megemlítette Önt}}}male{{SENDER_GENDER,select, female{Megemlítette Önt}male{Megemlítette Önt}other{Megemlítette Önt}}}other{{SENDER_GENDER,select, female{Megemlítette Önt}male{Megemlítette Önt}other{Megemlítette Önt}}}}</string>
-    <string name="notify_comments_description_short_only_one_reassign_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Átadva a következőnek: {ASSIGNEE}}male{Átadva a következőnek: {ASSIGNEE}}other{Átadva a következőnek: {ASSIGNEE}}}}male{{SENDER_GENDER,select, female{Átadva a következőnek: {ASSIGNEE}}male{Átadva a következőnek: {ASSIGNEE}}other{Átadva a következőnek: {ASSIGNEE}}}}other{{SENDER_GENDER,select, female{Átadva a következőnek: {ASSIGNEE}}male{Átadva a következőnek: {ASSIGNEE}}other{Átadva a következőnek: {ASSIGNEE}}}}}</string>
-    <string name="notify_comments_description_short_only_one_reassign_to_you_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Átadva Önnek}male{Átadva Önnek}other{Átadva Önnek}}}male{{SENDER_GENDER,select, female{Átadva Önnek}male{Átadva Önnek}other{Átadva Önnek}}}other{{SENDER_GENDER,select, female{Átadva Önnek}male{Átadva Önnek}other{Átadva Önnek}}}}</string>
     <string name="notify_comments_description_short_only_one_suggestion_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Javasolt egy módosítást}male{Javasolt egy módosítást}other{Javasolt egy módosítást}}}male{{SENDER_GENDER,select, female{Javasolt egy módosítást}male{Javasolt egy módosítást}other{Javasolt egy módosítást}}}other{{SENDER_GENDER,select, female{Javasolt egy módosítást}male{Javasolt egy módosítást}other{Javasolt egy módosítást}}}}</string>
     <string name="notify_comments_reply_text_icu">{RECIPIENT_GENDER,select, female{{OTHER_POSTER_COUNT_1,plural, =0{Válasz a következőre: {POSTER_NAME}}=1{Válasz a következőre: {POSTER_NAME} és 1 másik felhasználó}other{Válasz a következőre: {POSTER_NAME} és {OTHER_POSTER_COUNT_2} másik felhasználó}}}male{{OTHER_POSTER_COUNT_1,plural, =0{Válasz a következőre: {POSTER_NAME}}=1{Válasz a következőre: {POSTER_NAME} és 1 másik felhasználó}other{Válasz a következőre: {POSTER_NAME} és {OTHER_POSTER_COUNT_2} másik felhasználó}}}other{{OTHER_POSTER_COUNT_1,plural, =0{Válasz a következőre: {POSTER_NAME}}=1{Válasz a következőre: {POSTER_NAME} és 1 másik felhasználó}other{Válasz a következőre: {POSTER_NAME} és {OTHER_POSTER_COUNT_2} másik felhasználó}}}}</string>
     <string name="notify_description_role_comment_request_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Megjegyzés-hozzáfűzési hozzáférést kért}male{Megjegyzés-hozzáfűzési hozzáférést kért}other{Megjegyzés-hozzáfűzési hozzáférést kért}}}male{{SENDER_GENDER,select, female{Megjegyzés-hozzáfűzési hozzáférést kért}male{Megjegyzés-hozzáfűzési hozzáférést kért}other{Megjegyzés-hozzáfűzési hozzáférést kért}}}other{{SENDER_GENDER,select, female{Megjegyzés-hozzáfűzési hozzáférést kért}male{Megjegyzés-hozzáfűzési hozzáférést kért}other{Megjegyzés-hozzáfűzési hozzáférést kért}}}}</string>
@@ -916,16 +820,6 @@ Az új megosztott mappa: %3$s."</string>
     <string name="notify_description_role_generic_access_request_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Hozzáférést kért}male{Hozzáférést kért}other{Hozzáférést kért}}}male{{SENDER_GENDER,select, female{Hozzáférést kért}male{Hozzáférést kért}other{Hozzáférést kért}}}other{{SENDER_GENDER,select, female{Hozzáférést kért}male{Hozzáférést kért}other{Hozzáférést kért}}}}</string>
     <string name="notify_description_role_own_request_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Tulajdonosi hozzáférést kért}male{Tulajdonosi hozzáférést kért}other{Tulajdonosi hozzáférést kért}}}male{{SENDER_GENDER,select, female{Tulajdonosi hozzáférést kért}male{Tulajdonosi hozzáférést kért}other{Tulajdonosi hozzáférést kért}}}other{{SENDER_GENDER,select, female{Tulajdonosi hozzáférést kért}male{Tulajdonosi hozzáférést kért}other{Tulajdonosi hozzáférést kért}}}}</string>
     <string name="notify_description_role_view_request_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Megtekintési hozzáférést kért}male{Megtekintési hozzáférést kért}other{Megtekintési hozzáférést kért}}}male{{SENDER_GENDER,select, female{Megtekintési hozzáférést kért}male{Megtekintési hozzáférést kért}other{Megtekintési hozzáférést kért}}}other{{SENDER_GENDER,select, female{Megtekintési hozzáférést kért}male{Megtekintési hozzáférést kért}other{Megtekintési hozzáférést kért}}}}</string>
-    <string name="notify_drive_storage_expired_icu">{RECIPIENT_GENDER,select, female{A Drive-tárhely lejárt}male{A Drive-tárhely lejárt}other{A Drive-tárhely lejárt}}</string>
-    <string name="notify_drive_storage_expires_friday">{RECIPIENT_GENDER,select, female{A Drive-tárhely érvényessége pénteken lejár}male{A Drive-tárhely érvényessége pénteken lejár}other{A Drive-tárhely érvényessége pénteken lejár}}</string>
-    <string name="notify_drive_storage_expires_monday">{RECIPIENT_GENDER,select, female{A Drive-tárhely érvényessége hétfőn lejár}male{A Drive-tárhely érvényessége hétfőn lejár}other{A Drive-tárhely érvényessége hétfőn lejár}}</string>
-    <string name="notify_drive_storage_expires_saturday">{RECIPIENT_GENDER,select, female{A Drive-tárhely érvényessége szombaton lejár}male{A Drive-tárhely érvényessége szombaton lejár}other{A Drive-tárhely érvényessége szombaton lejár}}</string>
-    <string name="notify_drive_storage_expires_soon">{RECIPIENT_GENDER,select, female{A Drive-tárhely érvényessége hamarosan lejár}male{A Drive-tárhely érvényessége hamarosan lejár}other{A Drive-tárhely érvényessége hamarosan lejár}}</string>
-    <string name="notify_drive_storage_expires_sunday">{RECIPIENT_GENDER,select, female{A Drive-tárhely érvényessége vasárnap lejár}male{A Drive-tárhely érvényessége vasárnap lejár}other{A Drive-tárhely érvényessége vasárnap lejár}}</string>
-    <string name="notify_drive_storage_expires_thursday">{RECIPIENT_GENDER,select, female{A Drive-tárhely érvényessége csütörtökön lejár}male{A Drive-tárhely érvényessége csütörtökön lejár}other{A Drive-tárhely érvényessége csütörtökön lejár}}</string>
-    <string name="notify_drive_storage_expires_tuesday">{RECIPIENT_GENDER,select, female{A Drive-tárhely érvényessége kedden lejár}male{A Drive-tárhely érvényessége kedden lejár}other{A Drive-tárhely érvényessége kedden lejár}}</string>
-    <string name="notify_drive_storage_expires_wednesday">{RECIPIENT_GENDER,select, female{A Drive-tárhely érvényessége szerdán lejár}male{A Drive-tárhely érvényessége szerdán lejár}other{A Drive-tárhely érvényessége szerdán lejár}}</string>
-    <string name="notify_drive_storage_expiring_today_icu">{RECIPIENT_GENDER,select, female{Drive-tárhelye ma jár le}male{Drive-tárhelye ma jár le}other{Drive-tárhelye ma jár le}}</string>
     <string name="notify_heading_anonymous_user">Névtelen</string>
     <string name="notify_heading_icu">{NUM_SENDERS,plural,offset:1 =1{{FIRST_SENDER_DISPLAY_NAME}}=2{{FIRST_SENDER_DISPLAY_NAME} és {SECOND_SENDER}}other{{FIRST_SENDER_DISPLAY_NAME} és további {XXX} felhasználó}}</string>
     <string name="notify_heading_many_people">%1$s és sok más</string>
@@ -968,15 +862,10 @@ Az új megosztott mappa: %3$s."</string>
     <string name="notify_sharing_description_one_folder_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Megosztott Önnel egy mappát}male{Megosztott Önnel egy mappát}other{Megosztott Önnel egy mappát}}}male{{SENDER_GENDER,select, female{Megosztott Önnel egy mappát}male{Megosztott Önnel egy mappát}other{Megosztott Önnel egy mappát}}}other{{SENDER_GENDER,select, female{Megosztott Önnel egy mappát}male{Megosztott Önnel egy mappát}other{Megosztott Önnel egy mappát}}}}</string>
     <string name="notify_sharing_description_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Megosztotta a következőt Önnel: {ITEM_TITLE}}male{Megosztotta a következőt Önnel: {ITEM_TITLE}}other{Megosztotta a következőt Önnel: {ITEM_TITLE}}}}male{{SENDER_GENDER,select, female{Megosztotta a következőt Önnel: {ITEM_TITLE}}male{Megosztotta a következőt Önnel: {ITEM_TITLE}}other{Megosztotta a következőt Önnel: {ITEM_TITLE}}}}other{{SENDER_GENDER,select, female{Megosztotta a következőt Önnel: {ITEM_TITLE}}male{Megosztotta a következőt Önnel: {ITEM_TITLE}}other{Megosztotta a következőt Önnel: {ITEM_TITLE}}}}}</string>
     <string name="notify_unknown_document_title">Ismeretlen dokumentum</string>
-    <string name="open_calendar">A GOOGLE NAPTÁR MEGNYITÁSA</string>
-    <string name="open_contacts">A GOOGLE NÉVJEGYEK MEGNYITÁSA</string>
     <string name="open_document_error_item_cannot_be_exported">Nem sikerült a letöltés. Megnyitás internetes módban…</string>
     <string name="open_document_error_no_viewer_app_found">Egy alkalmazással sem nyitható meg. Megnyitás webes módban…</string>
     <string name="open_document_in_browser">Megnyit. böngészőben</string>
-    <string name="open_folder_removed">A megnyitott mappa már nem érhető el.</string>
-    <string name="open_folder_trashed">A(z) %1$s mappát a kukába helyezték.</string>
     <string name="open_online_button">megnyitás online</string>
-    <string name="open_photos">A GOOGLE FOTÓK MEGNYITÁSA</string>
     <string name="open_pinned_version">Megnyit. az eszközön</string>
     <string name="open_url_authentication_error">Nem érhető el a dokumentum. Nem sikerült a hitelesítés.</string>
     <string name="open_url_error_access_denied">Az elemet nem lehet megnyitni. Lehet, hogy már nem érhető el, vagy Ön nem jogosult a megnyitására.</string>
@@ -994,7 +883,6 @@ Az új megosztott mappa: %3$s."</string>
     <string name="operation_sync_network_error">Hálózati hiba történt, próbálja újra később.</string>
     <string name="organize_introduction_header">Húzással áthelyezheti az elemeket</string>
     <string name="organize_introduction_text">A kijelölt elemek gyűjteményét a kívánt mappa alá húzva helyezheti át. A kijelölés törléséhez húzza el a gyűjteményt.</string>
-    <string name="other_backups">Más eszközök</string>
     <string name="ouch_button_close">Bezárás</string>
     <string name="ouch_button_report">Jelentés</string>
     <string name="ouch_msg_sync_error">Szinkronizálási hiba a Google Drive-on. Nem biztos, hogy mindent sikerült szinkronizálni. Kérjük, segítse a termék fejlesztését a hiba jelentésével.</string>
@@ -1022,9 +910,6 @@ minden fájljának"</string>
     <string name="phonesky_installation_failure_alert_dialog_title">A telepítés nem sikerült</string>
     <string name="phonesky_no_internet_connection_alert_dialog_message">Nincs internetkapcsolat. Később próbálkozzon újra.</string>
     <string name="phonesky_no_internet_connection_alert_dialog_title">Nincs kapcsolat</string>
-    <string name="photos_and_videos">Fotók és videók</string>
-    <string name="photos_and_videos_footer_text">Szinkronizálva a Google Fotók szolgáltatással</string>
-    <string name="photos_and_videos_message">A fotókat és videókat a rendszer minden eszközön szinkronizálja a Google Fotók szolgáltatással.</string>
     <string name="pick_entry_create_new_folder">Új mappa létrehozása</string>
     <string name="pick_entry_current_folder">Jelenlegi mappa: %1s</string>
     <string name="pick_entry_dialog_title">Válasszon egy elemet</string>
@@ -1054,21 +939,20 @@ minden fájljának"</string>
     <string name="pin_warning_external_storage_not_ready">A dokumentum rögzítve van, de nem tölthető le, amíg a külső tároló nem áll készen.</string>
     <string name="pin_warning_external_storage_not_ready_ok">OK</string>
     <string name="pinned_item_unavailable_dialog_message">A rendszer offline elérhetővé teszi a fájlt, amikor legközelebb csatlakozik az internethez.</string>
-    <string name="pinned_item_unavailable_dialog_title">Sikertelen hozzáférés: %1$s.</string>
+    <string name="pinned_item_unavailable_dialog_title">Sikertelen hozzáférés: %s.</string>
     <string name="plus_photo_all_set">Minden készen áll! A fotóit és videóit a rendszer automatikusan menti.</string>
     <string name="plus_photo_item_remove_dialog_confirm_button">Eltávolítás mindenhonnan</string>
     <string name="plus_photo_item_remove_dialog_title">Eltávolítás</string>
-    <string name="plus_photo_item_remove_items_dialog_text_single">A(z) %1$s fájl a kukába kerül. Ezzel a Google Fotókból is eltávolítja.</string>
+    <string name="plus_photo_item_remove_items_dialog_text_single">A(z) %s fájl a kukába kerül. Ezzel a Google Fotókból is eltávolítja.</string>
     <string name="policy_privacy">Adatvédelem</string>
+    <string name="policy_privacy_local_url_format_string">http://www.google.com/intl/%1$s/policies/privacy/</string>
     <string name="policy_terms">Feltételek</string>
+    <string name="policy_terms_local_url_format_string">http://www.google.com/intl/%1$s/policies/terms/</string>
     <string name="pref_auto_backup_referral">Telepítse a Google Fotókat az Automatikus mentés engedélyezéséhez.</string>
     <string name="preferences_license_summary">A nyílt forráskódú szoftverekhez kapcsolódó licenc részletei</string>
     <string name="preferences_license_title">Nyílt forráskódú licencek</string>
     <string name="prefs_about_category_title">Névjegy</string>
     <string name="prefs_abuse_program_policies">Programszabályzat</string>
-    <string name="prefs_apps_predict_carousel_category">Gyors hozzáférés</string>
-    <string name="prefs_apps_predict_carousel_enabled_setting">Gyors hozzáférés engedélyezése</string>
-    <string name="prefs_apps_predict_carousel_enabled_summary">Javaslatokat kaphat az időben releváns fájlokról. Új szakaszt ad a Saját meghajtó felső részéhez.</string>
     <string name="prefs_apps_predict_category">Tartalmi javaslatok</string>
     <string name="prefs_apps_predict_show_suggestions">Tartalmi javaslatok megjelenítése</string>
     <string name="prefs_apps_predict_show_suggestions_summary">Releváns tartalmak automatikus ajánlása</string>
@@ -1082,7 +966,6 @@ minden fájljának"</string>
     <string name="prefs_cache_size">Gyorsítótár mérete</string>
     <string name="prefs_cache_size_choice_format_string">%1$d MB</string>
     <string name="prefs_cache_size_summary_format_string">A gyorsítótár mérete %1$s MB.</string>
-    <string name="prefs_category_content_description">Szakasz, %1$s</string>
     <string name="prefs_change_error">A beállítás nem módosítható. Próbálja újra később!</string>
     <string name="prefs_clear_cache_summary">Az összes dokumentum eltávolítása a gyorsítótárból.</string>
     <string name="prefs_data_usage_category">Adathasználat</string>
@@ -1102,7 +985,6 @@ minden fájljának"</string>
     <string name="prefs_notification_email_notification">Értesítések küldése az e-mail-címemre</string>
     <string name="prefs_notification_email_notification_offline">Offline állapotban nem érhető el</string>
     <string name="prefs_notification_email_notification_save_error">A beállítás mentése nem sikerült</string>
-    <string name="prefs_notification_email_notification_summary">A rendszer továbbra is elküldi a fiókkal kapcsolatos üzeneteket</string>
     <string name="prefs_notification_enable">Értesítések megjelenítése</string>
     <string name="prefs_notification_enable_summary">A(z) %1$s fiók Drive-, Dokumentumok-, Táblázatok- és Diák-értesítéseinek megjelenítése</string>
     <string name="prefs_notification_other_settings_subheading">Egyéb beállítások</string>
@@ -1119,37 +1001,29 @@ minden fájljának"</string>
     <string name="prefs_sync_over_wifi_only_summary">Szünetelteti a fájlok feltöltését és frissítését, amikor nem áll rendelkezésre Wi-Fi kapcsolat.</string>
     <string name="prefs_sync_over_wifi_only_title">Fájlok átvitele csak Wi-Fi kapcsolaton</string>
     <string name="prefs_title">Beállítások</string>
-    <string name="preselection_reason">A közelmúltban megnyitotta</string>
-    <string name="preselection_reason_recently_modified">Nemrég módosítva</string>
-    <string name="preselection_reason_recently_modified_by_me">Általam nemrég módosítva</string>
-    <string name="preselection_reason_recently_opened_by_me">Általam nemrég megnyitva</string>
-    <string name="preselection_reason_recently_uploaded_by_me">Általam nemrég feltöltve</string>
     <string name="preview_click_to_open">Koppintson ide a megnyitáshoz</string>
     <string name="preview_document_available_in_docs_app">Ez a fájl a Dokumentumok alkalmazásban érhető el</string>
     <string name="preview_document_available_in_sheets_app">Ez a fájl a Táblázatok alkalmazásban érhető el</string>
     <string name="preview_open_in_docs_app_description">Koppintson ide a fájl megnyitásához a Dokumentumok alkalmazásban</string>
     <string name="preview_open_in_sheets_app_description">Koppintson ide a fájl megnyitásához a Táblázatok alkalmazásban</string>
-    <string name="pride_query_toast_message">Ünnepelje a sokszínűséget és az LMBT-személyeket a Google-lal. Keressen a #prideforeveryone hashtagre a közösségi médiában.</string>
     <string name="print_cancelled">Nyomtatás megszakítva.</string>
     <string name="print_error">Jelenleg nem érhető el a Google Cloud Print. Próbálkozzon újra később.</string>
     <string name="print_failure">A dokumentum nyomtatása nem sikerült.</string>
-    <string name="prioritydocs_entrypoint_label">Teendők</string>
-    <string name="prioritydocs_promo_bodycopy">A teendők megtekintéséhez telepítse a(z) %1$s alkalmazást.</string>
-    <string name="prioritydocs_promo_headline">Letölti a(z) %1$s alkalmazást?</string>
-    <string name="prioritydocs_promo_negative">KÖSZÖNÖM, NEM</string>
-    <string name="prioritydocs_promo_positive">TELEPÍTÉS</string>
+    <string name="prioritydocs_entrypoint_label">Műveleti elemek</string>
     <string name="problem_with_file">Probléma merült fel a fájllal</string>
     <string name="promo_button">Rendben</string>
-    <string name="promo_text1">Mentse ezt a fájlt a Google Drive-ban, ahol 15 GB-nyi ingyenes tárhelyen helyezheti el dokumentumait és fotóit, melyeket aztán bármely eszközéről elérhet.</string>
-    <string name="promo_title">A fájl egy másolatának megtartása</string>
+    <string name="promo_text1">PDF-jeit biztonságosan tárolhatja a Google Drive-ban, így bármikor, bárhonnan elérheti őket.</string>
+    <string name="promo_title">PDF-ek mentése a Google Drive-ba</string>
     <string name="punctuation_period">,</string>
     <string name="purchase_dialog_how_storage_used">A tárhelyet közösen használja a Gmail, a Google Fotók és a Google Drive</string>
-    <string name="purchase_dialog_manage">Tárhely kezelése</string>
-    <string name="purchase_dialog_terms_service">A tárhelycsomag kiválasztásával elfogadja a következőt: %1$s.</string>
+    <string name="purchase_dialog_learn_more">További információ.</string>
+    <string name="purchase_dialog_more">További tárhelycsomagok</string>
+    <string name="purchase_dialog_terms_service">A tárhelycsomag kiválasztásával és a Vásárlás gombra kattintva elfogadja a következőt: %1$s.</string>
     <string name="purchase_dialog_title">Google Drive-tárhelycsomagok</string>
     <string name="purchase_error">Probléma lépett fel</string>
     <string name="purchase_error_connect">Sikertelen kapcsolódás</string>
     <string name="purchase_per_month">%1$s havonta</string>
+    <string name="purchase_success">Az előfizetés sikeresen megvásárolva</string>
     <string name="quota_cannot_determine">nem sikerült megállapítani</string>
     <string name="quota_range_large">10 MB és 100 MB között</string>
     <string name="quota_range_larger">100 MB és 1 GB között</string>
@@ -1162,26 +1036,26 @@ minden fájljának"</string>
     <string name="recent_activity_button_show_more_files">Több megjelenítése…</string>
     <string name="recent_activity_card_title">Tevékenység</string>
     <string name="recent_activity_empty">Nincs rögzített tevékenység</string>
-    <string name="recent_activity_end">Nincs %1$s előtti rögzített tevékenység</string>
+    <string name="recent_activity_end">Nincs %s előtti rögzített tevékenység</string>
     <string name="recent_activity_failed">Hoppá, nem sikerült betölteni a tevékenységet. Később próbálkozzon újra.</string>
     <string name="recent_activity_rename_titles_accessibility">Átnevezés – régi név: %1$s, új név: %2$s</string>
-    <string name="recent_activity_users_two">%1$s és %2$s</string>
+    <string name="recent_activity_users_two" formatted="false">%s és %s</string>
+    <string name="remove_button_confirm">Eltávolítás</string>
+    <string name="remove_collection">Mappa eltávolítása</string>
     <string name="remove_dialog_confirm_delete_button">Végleges törlés</string>
-    <string name="remove_dialog_confirm_delete_for_everyone_button">Törlés mindenkire vonatkozóan</string>
-    <string name="remove_dialog_delete_different_permissions_files">A fájlokhoz eltérő engedéllyel bír. Egyes elemek a kukába kerülnek, és a rendszer 30 nap után véglegesen törli őket. Más elemeket a rendszer eltávolít.</string>
-    <string name="remove_dialog_delete_different_permissions_folders">A mappákhoz eltérő engedéllyel bír. Egyes elemek a kukába kerülnek, és a rendszer 30 nap után véglegesen törli őket. Más elemeket a rendszer eltávolít.</string>
-    <string name="remove_dialog_delete_different_permissions_items">Az elemekhez eltérő engedéllyel bír. Egyes elemek a kukába kerülnek, és a rendszer 30 nap után véglegesen törli őket. Más elemeket a rendszer eltávolít.</string>
-    <string name="remove_dialog_delete_different_permissions_title">Csak néhány elemet töröl</string>
-    <string name="remove_dialog_delete_for_everyone_title">Törli az elemet mindenkire vonatkozóan?</string>
-    <string name="remove_parent_confirmation">A többiek nem érhetik el: %1$s (mappa: %2$s)</string>
-    <string name="remove_parent_not_allowed">Nem jogosult az eltávolításra: %1$s (%2$s)</string>
-    <string name="removed_parent_message">%1$s eltávolítva innen: %2$s</string>
+    <string name="remove_dialog_delete_permanently_text_single">Biztosan véglegesen törölni szeretné a következőt: %s? A művelet nem vonható vissza.</string>
+    <string name="remove_dialog_delete_permanently_title">Végleges törlés</string>
+    <string name="remove_document">Fájl eltávolítása</string>
+    <string name="remove_parent_confirmation" formatted="false">A többiek nem érhetik el: %s (mappa: %s)</string>
+    <string name="remove_parent_not_allowed" formatted="false">Nem jogosult az eltávolításra: %s (%s)</string>
+    <string name="removed_parent_message" formatted="false">%s eltávolítva innen: %s</string>
     <string name="rename_collection">Mappa átnevezése</string>
     <string name="rename_document">Dokumentum átnevezése</string>
     <string name="rename_drawing">Rajz átnevezése</string>
     <string name="rename_file">Fájl átnevezése</string>
     <string name="rename_presentation">Prezentáció átnevezése</string>
     <string name="rename_spreadsheet">Táblázat átnevezése</string>
+    <string name="reply_email_subject">Re: Hozzáférési kérelem</string>
     <string name="report_abuse_title">Visszaélés bejelentése</string>
     <string name="request_access">Hozzáférés kérése</string>
     <string name="request_access_message">A tulajdonos e-mailes értesítést kap a hozzáférés-kérelemről.</string>
@@ -1191,21 +1065,16 @@ minden fájljának"</string>
     <string name="retry_button_text">újra</string>
     <string name="scan_shortcut_failed_folder_deleted">A(z) %1$s mappa törölve.</string>
     <string name="scan_shortcut_failed_folder_trashed">A(z) %1$s mappa a kukában van. A dokumentum beolvasása előtt állítsa vissza a mappát.</string>
-    <string name="scan_task_title">Szkennelés a Drive-ban</string>
     <string name="search_description">Google Drive - Megtekintő</string>
     <string name="search_hint">Keresés a Saját meghajtón</string>
     <string name="search_hint_short">Keresés</string>
-    <string name="search_menu_title">Keresés</string>
     <string name="search_showing_local_results_only">A keresés sikertelen volt; csak a címtalálatok jelennek meg.</string>
     <string name="search_showing_local_results_only_offline">A keresés csak címtalálatokat ad vissza. Keressen online további találatokhoz.</string>
     <string name="select_account">Válasszon fiókot</string>
     <string name="select_folder_color">Mappa színe</string>
-    <string name="select_team_drive_desc">Csapatmeghajtó kiválasztása</string>
-    <string name="select_team_drive_title">Csapatmeghajtó kiválasztása</string>
     <string name="selected_account">Bejelentkezve ebbe: %1$s</string>
     <string name="selection_action_bar_drop_to_current_folder_header">Áthelyezés ide:</string>
     <string name="selection_action_bar_drop_to_current_folder_header_as_add">Hozzáadás ehhez:</string>
-    <string name="selection_cannot_move_into_self">Az elemek nem helyezhetők át magukba</string>
     <string name="selection_item_select_button">Kijelölés: %1$s %2$s</string>
     <string name="selection_item_unselect_button">Kijelölés törlése: %1$s %2$s</string>
     <string name="selection_limit_reached">Egyes cikkek nem lettek kijelölve. Elérte a kijelölt elemek maximális számát.</string>
@@ -1253,7 +1122,7 @@ minden fájljának"</string>
     <string name="selection_mode_started">Kijelölés mód elkezdődött</string>
     <string name="selection_suffix_checked">Bejelölve</string>
     <string name="selection_suffix_not_checked">Nincs bejelölve</string>
-    <string name="selection_undo_button">Mégse</string>
+    <string name="selection_undo_button">Visszavon</string>
     <string name="send_to_clipboard_activity_title">Másolás a vágólapra</string>
     <string name="send_to_clipboard_success">Vágólapra másolva</string>
     <string name="share_card_enabled_link_sharing_toast">Linken keresztüli megosztás bekapcsolva</string>
@@ -1274,11 +1143,9 @@ minden fájljának"</string>
     <string name="sharing_list_offline">A megosztási lista offline módban nem érhető el.</string>
     <string name="sharing_list_updated">Sikeresen frissítette a megosztási beállításokat.</string>
     <string name="sharing_message_add_users_one">%1$s megosztva a következővel: %2$s</string>
-    <string name="sharing_message_add_users_two">%1$s megosztva a következővel: %2$s és további %3$sˇfelhasználó</string>
+    <string name="sharing_message_add_users_two">%1$s megosztva a következővel: %2$s és további %3$s felhasználó</string>
     <string name="sharing_message_remove">%s eltávolítva a fájlból</string>
-    <string name="sharing_message_remove_td">%s eltávolítva a csapatmeghajtóról</string>
     <string name="sharing_message_saved">A megosztási beállításokat mentettük, a megosztási lista frissül.</string>
-    <string name="sharing_message_saved_td">A következő tagsága módosult: %s</string>
     <string name="sharing_message_title">Üzenet</string>
     <string name="sharing_message_unable_to_change">Nem módosíthatók a megosztási beállítások</string>
     <string name="sharing_offline">Offline módban nem lehet megosztani.</string>
@@ -1287,16 +1154,16 @@ minden fájljának"</string>
     <string name="sharing_option_anyone_can_contribute">Bárki rendezhet, hozzáadhat és szerkeszthet elemeket</string>
     <string name="sharing_option_anyone_can_edit">Bárki szerkesztheti</string>
     <string name="sharing_option_anyone_can_view">Bárki megtekintheti</string>
-    <string name="sharing_option_anyone_from">A(z) %1$s felhasználói kereshetik és elérhetik</string>
-    <string name="sharing_option_anyone_from_can_comment">A(z) %1$s felhasználói kereshetik és megjegyzést fűzhetnek hozzá</string>
-    <string name="sharing_option_anyone_from_can_contribute">A(z) %1$s domain összes tagja hozzájárulhat</string>
-    <string name="sharing_option_anyone_from_can_edit">A(z) %1$s felhasználói kereshetik és szerkeszthetik</string>
-    <string name="sharing_option_anyone_from_can_view">A(z) %1$s felhasználói kereshetik és megtekinthetik</string>
-    <string name="sharing_option_anyone_from_with_link">A link birtokában bárki a(z) %1$s domainben</string>
-    <string name="sharing_option_anyone_from_with_link_can_comment">A link birtokában bárki a(z) %1$s domainben megjegyzést írhat</string>
-    <string name="sharing_option_anyone_from_with_link_can_contribute">A linkkel a domainben (%1$s): rendezés, hozzáadás és szerkesztés</string>
-    <string name="sharing_option_anyone_from_with_link_can_edit">A link birtokában bárki a(z) %1$s domainben szerkesztheti</string>
-    <string name="sharing_option_anyone_from_with_link_can_view">A link birtokában bárki a(z) %1$s domainben megtekintheti</string>
+    <string name="sharing_option_anyone_from">A(z) %s felhasználói kereshetik és elérhetik</string>
+    <string name="sharing_option_anyone_from_can_comment">A(z) %s felhasználói kereshetik és megjegyzést fűzhetnek hozzá</string>
+    <string name="sharing_option_anyone_from_can_contribute">A(z) %s domain összes tagja hozzájárulhat</string>
+    <string name="sharing_option_anyone_from_can_edit">A(z) %s felhasználói kereshetik és szerkeszthetik</string>
+    <string name="sharing_option_anyone_from_can_view">A(z) %s felhasználói kereshetik és megtekinthetik</string>
+    <string name="sharing_option_anyone_from_with_link">A link birtokában bárki a(z) %s domainben</string>
+    <string name="sharing_option_anyone_from_with_link_can_comment">A link birtokában bárki a(z) %s domainben megjegyzést írhat</string>
+    <string name="sharing_option_anyone_from_with_link_can_contribute">A linkkel a domainben (%s): rendezés, hozzáadás és szerkesztés</string>
+    <string name="sharing_option_anyone_from_with_link_can_edit">A link birtokában bárki a(z) %s domainben szerkesztheti</string>
+    <string name="sharing_option_anyone_from_with_link_can_view">A link birtokában bárki a(z) %s domainben megtekintheti</string>
     <string name="sharing_option_anyone_with_link">A link birtokában bárki</string>
     <string name="sharing_option_anyone_with_link_can_comment">A link birtokában bárki írhat megjegyzést</string>
     <string name="sharing_option_anyone_with_link_can_contribute">A linkkel bárki rendezhet, hozzáadhat és szerkeszthet</string>
@@ -1317,38 +1184,13 @@ minden fájljának"</string>
     <string name="sharing_role_reader">Megtekintheti</string>
     <string name="sharing_role_unknown">Ismeretlen hozzáférés</string>
     <string name="sharing_role_writer">Szerkesztheti</string>
-    <string name="sharing_server_error_generic_all">Ez az elem nem osztható meg.</string>
-    <string name="sharing_server_error_more">Az elem nem osztható meg a következőkkel: %1$s.</string>
-    <string name="sharing_server_error_one">Az elem nem osztható meg a következőkkel: %1$s.</string>
-    <string name="sharing_server_error_partial_summary">Nincs megosztva az összes felhasználóvan</string>
-    <string name="sharing_server_error_restricted_all">Az elemben korlátozott tartalom található, ezért nem osztható meg.</string>
-    <string name="sharing_server_error_restricted_more">Az elemben korlátozott tartalom található, ezért nem osztható a következőkkel, mert nem tagjai a szervezetnek: %1$s.</string>
-    <string name="sharing_server_error_restricted_one">Az elemben korlátozott tartalom található, ezért nem osztható a következőkkel, mert nem tagja a szervezetnek: %1$s.</string>
-    <string name="sharing_server_error_restricted_three">Az elemben korlátozott tartalom található, ezért nem osztható a következőkkel, mert nem tagjai a szervezetnek: %1$s, %2$s és %3$s.</string>
-    <string name="sharing_server_error_restricted_two">Az elemben korlátozott tartalom található, ezért nem osztható a következőkkel, mert nem tagjai a szervezetnek: %1$s és %2$s.</string>
-    <string name="sharing_server_error_summary">Ezt a dokumentumot nem oszthatja meg</string>
-    <string name="sharing_server_error_three">Az elem nem osztható meg a következőkkel: %1$s, %2$s és %3$s.</string>
-    <string name="sharing_server_error_two">Az elem nem osztható meg a következőkkel: %1$s és %2$s.</string>
-    <string name="sharing_server_success_more">A(z) %1$s elem meg lett osztva a következőkkel, mert tagjai a szervezetnek: %2$s.</string>
-    <string name="sharing_server_success_one">A(z) %1$s elem meg lett osztva a következővel, mert tagja a szervezetnek: %2$s.</string>
-    <string name="sharing_server_success_three">A(z) %1$s elem meg lett osztva a következőkkel, mert tagjai a szervezetnek: %2$s, %3$s és %4$s.</string>
-    <string name="sharing_server_success_two">A(z) %1$s elem meg lett osztva a következőkkel, mert tagjai a szervezetnek: %2$s és %3$s.</string>
-    <string name="sharing_server_warning_more">Biztosan meg szeretné osztani a tartalmat a következőkkel: %1$s?</string>
-    <string name="sharing_server_warning_one">Biztosan meg szeretné osztani a tartalmat a következővel: %1$s?</string>
-    <string name="sharing_server_warning_summary">Megosztja a tartalmat a szervezeten kívül?</string>
-    <string name="sharing_server_warning_three">Biztosan meg szeretné osztani a tartalmat a következőkkel: %1$s, %2$s és %3$s?</string>
-    <string name="sharing_server_warning_two">Biztosan meg szeretné osztani a tartalmat a következőkkel: %1$s és %2$s?</string>
     <string name="sharing_show_smartprofile_content_description">%s int. profiljának megnyitása</string>
     <string name="sharing_show_who_has_access">Ki férhet hozzá – koppintson az együttműködők kezeléséhez.</string>
-    <string name="sharing_undo_role_failure">Hiba. Sikertelen visszavonás.</string>
-    <string name="sharing_undo_role_success">Beállítások visszaállítva.</string>
     <string name="shortcut_created">A parancsikon felkerült a kezdőképernyőre</string>
     <string name="shortcut_creation_failed">Nem sikerült létrehozni a parancsikont</string>
     <string name="show_account_list">Fiókok megjelenítése</string>
     <string name="sign_in">Bejelentkezés</string>
     <string name="slider_title_all_items">Összes elem</string>
-    <string name="sms">SMS-üzenetek</string>
-    <string name="sms_message">A biztonsági másolat tartalmazza az elküldött és bejövő üzeneteket.</string>
     <string name="sorting_label_for_creation_time_shorten">Létrehozás dátuma</string>
     <string name="sorting_label_for_last_modified_shorten">Utolsó módosítás</string>
     <string name="sorting_label_for_modified_by_me_shorten">Saját módosítás</string>
@@ -1358,32 +1200,25 @@ minden fájljának"</string>
     <string name="sorting_order_ascending">Növekvő</string>
     <string name="sorting_order_descending">Csökkenő</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="storage_info">A biztonsági másolat nem számít bele a Drive-tárhelykvótájába.</string>
     <string name="storage_upgrade">Tárhely bővítése</string>
-    <string name="storage_upgraded_help_card_content">Havonta %1$s összegért %2$s tárhelyet kap, mely a Gmail, a Google Drive és a Google Fotók között oszlik meg. Az előfizetést bármikor lemondhatja vagy módosíthatja. Az új tárhely 24 órán belül elérhető lesz.</string>
-    <string name="storage_upgraded_help_card_help_button">Súgó</string>
-    <string name="storage_upgraded_help_card_title">Köszönjük</string>
+    <string name="storage_upgraded_help_card_contact_button">Kapcsolatfelvétel</string>
+    <string name="storage_upgraded_help_card_content">%1$s Google Drive-tárhelyet vásárolt. A vásárlással emellett elsőbbségi hozzáférést kap a telefonos, e-mailes és csevegéses ügyfélszolgálathoz. Keressen minket bátran kérdéseivel.</string>
+    <string name="storage_upgraded_help_card_title">Próbálja ki! Bővítse tárhelyét!</string>
     <string name="storage_used">%2$s/%1$s felhasználva</string>
     <string name="storage_used_unlimited">%1$s felhasználva</string>
     <string name="suggest_pin_dialog_message">A fájl nem érhető el offline. Szeretné, ha legközelebb már offline is elérhető lenne?</string>
     <string name="suggest_pin_dialog_negative_button">Köszönöm, nem</string>
     <string name="suggest_pin_dialog_positive_button">Legyen elérhető offline</string>
     <string name="suggest_pin_dialog_title">Nincs kapcsolat</string>
-    <string name="switch_account_help_card_button">MÁSIK FIÓK VÁLASZTÁSA</string>
-    <string name="switch_account_help_card_content">Az eszköz tartalmairól egy másik fiókban készül biztonsági mentés. %s</string>
-    <string name="switch_account_help_card_title">Biztonsági mentés egy másik fiókba</string>
     <string name="switch_backup_account">FIÓKVÁLTÁS A BIZTONSÁGI MENTÉS BEÁLLÍTÁSAIBAN</string>
     <string name="sync_failed">A Google Drive-ban szinkronizálási hiba lépett fel</string>
     <string name="sync_more">Továbbiak betöltése…</string>
     <string name="sync_more_error">Hiba történt a további elemek lekérésekor</string>
     <string name="sync_more_error_offline">Előfordulhat, hogy egyes dokumentumok nem láthatók offline.</string>
+    <string name="tap_to_retry">Koppintás: újrapróbálkozás</string>
+    <string name="tap_to_view_who_has_access">Koppintson a hozzáférő személyek megtekintéséhez</string>
     <string name="targetviewintro_close_button">Értem</string>
     <string name="td_downgrade_not_allowed">Csak a csapameghajtók tagjainak hozzáférését frissítheti.</string>
-    <string name="td_members_access">%1$d tag</string>
-    <string name="td_sharing_message_add_users_one">%2$s hozzáadva a következőhöz: %1$s</string>
-    <string name="td_sharing_message_add_users_two">%2$s és %3$s hozzáadva a következőhöz: %1$s</string>
-    <string name="team_drive_empty_list_message_can_create">A csapatmeghajtó egy olyan megosztott munkaterület, ahol együttműködhet csapatával. A meghajtót személyre is szabhatja, hogy az megfeleljen a csapat elvárásainak.</string>
-    <string name="team_drive_empty_list_message_cannot_create">A csapatmeghajtó egy olyan megosztott munkaterület, ahol együttműködhet csapatával. Azok a csapatmeghajtók láthatók itt, amelyekhez hozzáadták.</string>
     <string name="thumbnail_open">Megnyitás</string>
     <string name="time_range_1_day">1 nap</string>
     <string name="time_range_days">%1$d nap</string>
@@ -1395,27 +1230,16 @@ minden fájljának"</string>
     <string name="title_send_intent">A(z) %1$s küldése ezen keresztül:</string>
     <string name="title_show_files">%2$d/%1$d.</string>
     <string name="transfer_notification_waiting_content">Várakozás a Wi-Fi hálózatra…</string>
+    <string name="trash_delete_forever_confirm">Végleges törlés</string>
+    <string name="trash_delete_forever_question">Végleges törlés</string>
     <string name="trash_delete_forever_success">Egy elem törölve.</string>
-    <string name="turnoff_backup">Biztonsági mentés kikapcsolása</string>
-    <string name="turnoff_backup_confirm_button">Kikapcsolás</string>
-    <string name="turnoff_backup_error_message">Nem sikerült kikapcsolni a biztonsági mentést.</string>
-    <string name="turnoff_backup_progress_message">A biztonsági mentés kikapcsolása</string>
-    <string name="turnoff_whatsapp_backup_confirmation_message">"Ezzel leállítja a WhatsApp-csevegések és -médiafájlok biztonsági mentését az összes eszközre vonatkozóan:
-
-%s
-A biztonsági mentést a Beállítások > Csevegések > Csevegések automatikus mentése a WhatsAppban oldalon kapcsolhatja vissza."</string>
-    <string name="turnoff_whatsapp_backup_title">Letiltja a WhatsApp mentését?</string>
-    <string name="tutorial_upload_complete_body">A Drive-ba való bejelentkezéssel bárhonnan elérheti a tartalmakat</string>
-    <string name="tutorial_upload_complete_header">Hozzáadott egy fájlt a Drive-hoz</string>
-    <string name="tutorial_upload_fab_hint_text">A pluszjelre koppintva az eszközről is adhat fájlokat a Drive-hoz, melyeket később bárhonnan elérhet.</string>
-    <string name="unable_to_preview">Nem sikerült megnyitni a fájlelőnézetet.</string>
+    <string name="trash_delete_forever_warning">Ez az elem véglegesen törlődik a Drive-ból. A műveletet nem lehet visszavonni.</string>
     <string name="unified_actions_add_to_drive">Hozzáadás a Saját meghajtóhoz</string>
-    <string name="unified_link_sharing_is_off">A linkmegosztás ki van kapcsolva</string>
+    <string name="unified_link_sharing_is_off">Linken keresztüli megosztás kikapcsolva</string>
     <string name="unified_link_sharing_is_on">Linken keresztüli megosztás bekapcsolva</string>
     <string name="unknown_album">Ismeretlen album</string>
     <string name="unknown_artist">Ismeretlen előadó</string>
     <string name="unsupported_file">A fájltípus nem támogatott.</string>
-    <string name="untitled_audio">Névtelen hangfájl</string>
     <string name="untrash_and_open_message">A fájl (%1$s) eléréséhez vegye ki a kukából.</string>
     <string name="untrash_and_open_not_allowed_message">A fájlt (%1$s) a tulajdonos a kukába helyezte.</string>
     <string name="untrash_and_open_positive_button">Visszaállítás</string>
@@ -1434,7 +1258,6 @@ A biztonsági mentést a Beállítások > Csevegések > Csevegések automatikus 
     <string name="upload_incomplete">Befejezetlen feltöltés</string>
     <string name="upload_multiple_document_titles">Dokumentumcímek</string>
     <string name="upload_notification_cancel_title">Megszakította a feltöltést</string>
-    <string name="upload_notification_failure_folder">Nem sikerült feltölteni egy mappát</string>
     <string name="upload_notification_failure_no_retry_title">A feltöltés nem sikerült</string>
     <string name="upload_notification_failure_ticker">Sikertelen feltöltés</string>
     <string name="upload_notification_more_files">és további %1$d</string>
@@ -1462,7 +1285,7 @@ A biztonsági mentést a Beállítások > Csevegések > Csevegések automatikus 
     <string name="video_show_subtitles">Feliratok megjelenítése</string>
     <string name="viewer_casting_to_device">Átküldés ide:</string>
     <string name="warm_welcome_done_button">Kész</string>
-    <string name="warm_welcome_next_button">Következő</string>
+    <string name="warm_welcome_next_button">Tovább</string>
     <string name="warm_welcome_skip_button">Kihagyás</string>
     <string name="welcome_button_close">Ugrás: Drive</string>
     <string name="welcome_button_continue">Tovább</string>
@@ -1479,14 +1302,6 @@ A biztonsági mentést a Beállítások > Csevegések > Csevegések automatikus 
     <string name="welcome_title">A Google Drive üdvözlőpanelje.</string>
     <string name="welcome_title_announce">A Google Drive bejelentéseinek panelje.</string>
     <string name="welcome_title_highlights">A Google Drive bejelentéseinek panelje.</string>
-    <string name="whatsapp">WhatsApp</string>
-    <string name="whatsapp_message">A rendszer biztonsági másolatot készít a csevegéseiről és médiafájljairól (például fotókról, videókról, hangfájlokról és dokumentumokról) a Google Drive-ban. Ha eszközt vált, a WhatsApp újratelepítésével visszaállíthatja őket.</string>
-    <string name="whatsapp_turned_off_message">"A biztonsági mentés ki van kapcsolva.
-A legutóbbi biztonsági mentés időpontja: %s
-
-A rendszer biztonsági másolatot készít a csevegéseiről és médiafájljairól (például fotókról, videókról, hangfájlokról és dokumentumokról) a Google Drive-ban. Ha eszközt vált, a WhatsApp újratelepítésével visszaállíthatja őket.
-
-A biztonsági mentést a Beállítások > WhatsApp-csevegések oldalon kapcsolhatja be újra."</string>
     <string name="widget_account_missing">Hiba: a fiók nem található, ellenőrizze a fiókbeállításait: %1$s</string>
     <string name="widget_configuration_missing">Hiba: a konfiguráció elveszett. Távolítsa el, majd vegye fel újra a modult.</string>
     <string name="widget_initializing">Inicializálás…</string>
@@ -1509,7 +1324,6 @@ A biztonsági mentést a Beállítások > WhatsApp-csevegések oldalon kapcsolha
     <string name="zss_remove_all_filters_button_content_description">Az összes szűrő eltávolítása</string>
     <string name="zss_remove_filter_button_content_description">Szűrő eltávolítása: %1$s</string>
     <string name="zss_showing_list_of_filters">Az elérhető szűrők listájának megjelenítése.</string>
-    <string name="zss_team_drive">Keresés a következőben: %1$s</string>
     <string name="zss_type_archive">Archívum</string>
     <string name="zss_type_audio">Hang</string>
     <string name="zss_type_documents">Szövegfájlok</string>

@@ -19,9 +19,10 @@ Se det valgte tastaturets personverninnstillinger."</string>
     <string name="other_settings_location">Sted</string>
     <string name="other_settings_location_summary">Tillat apper å få tilgang til posisjonen din.</string>
     <string name="other_settings_user_experience">Brukeropplevelsesprogram</string>
-    <string name="other_settings_user_experience_summary">Hjelp til å forbedre våre produkter og tjenester ved å sende anonyme bruksdata.</string>
+    <string name="other_settings_user_experience_summary">Help us improve our products and services by sharing your usage stats with us. Details</string>
+    <string name="other_settings_user_experience_summary_index">Details</string>
     <string name="other_settings_upload_debug_log_title">Send diagnosedata automatisk</string>
-    <string name="other_settings_upload_debug_log_summary">Informasjonen vi samler vil bli brukt til å lokalisere og analysere problemene i systemet og kan inneholde personlig informasjon. Ingen data vil bli brukt til å identifisere deg personlig.</string>
+    <string name="other_settings_upload_debug_log_summary">Usage stats which help us locate and solve issues may contain your personal info</string>
     <string name="other_settings_auto_update">Installer automatisk</string>
     <string name="other_settings_auto_update_summary">MIUI vil velge det beste tidspunktet for å installere oppdateringer.</string>
     <string name="other_settings_ad_enable">Personalized Ad Recommendation</string>

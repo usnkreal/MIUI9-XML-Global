@@ -3,485 +3,784 @@
     <plurals name="AAP_SUGGEST_LABEL">
         <item quantity="other">Potriviri posibile din apropiere</item>
         <item quantity="one">Potrivire posibilă din apropiere</item>
+        <item quantity="two">Potriviri posibile din apropiere</item>
         <item quantity="few">Potriviri posibile din apropiere</item>
+        <item quantity="many">Potriviri posibile din apropiere</item>
     </plurals>
     <plurals name="ACCESSIBILITY_DECIMAL_STARS">
-        <item quantity="other">%.1f de stele</item>
-        <item quantity="one">%.1f stele</item>
+        <item quantity="other">%.1f stele</item>
+        <item quantity="zero">%.1f stele</item>
+        <item quantity="one">%.1f stea</item>
+        <item quantity="two">%.1f stele</item>
         <item quantity="few">%.1f stele</item>
+        <item quantity="many">%.1f stele</item>
     </plurals>
     <plurals name="ACCESSIBILITY_STARS">
-        <item quantity="other">%d de stele</item>
-        <item quantity="one">%d stele</item>
+        <item quantity="other">%d stele</item>
+        <item quantity="zero">%d stele</item>
+        <item quantity="one">%d stea</item>
+        <item quantity="two">%d stele</item>
         <item quantity="few">%d stele</item>
+        <item quantity="many">%d stele</item>
     </plurals>
     <plurals name="ADD_PHOTOS_MORE_PHOTOS_COUNT">
-        <item quantity="other">+ %d fotografii</item>
+        <item quantity="other">+ %d de fotografii</item>
+        <item quantity="zero">+ %d fotografii</item>
         <item quantity="one">+ %d fotografie</item>
+        <item quantity="two">+ %d fotografii</item>
         <item quantity="few">+ %d fotografii</item>
+        <item quantity="many">+ %d fotografii</item>
     </plurals>
     <plurals name="CAR_BUSINESS_ATTRIBUTION">
         <item quantity="other">Surse: %s</item>
-        <item quantity="one">Sursă: %s</item>
-        <item quantity="few">Surse: %s</item>
+        <item quantity="one">Sursă: %s</item>
     </plurals>
     <plurals name="DA_DAYS">
-        <item quantity="other">%d de zile</item>
+        <item quantity="other">%d zile</item>
+        <item quantity="zero">%d zile</item>
         <item quantity="one">%d zi</item>
+        <item quantity="two">%d zile</item>
         <item quantity="few">%d zile</item>
+        <item quantity="many">%d zile</item>
     </plurals>
     <plurals name="DA_DAYS_ABBREVIATED">
         <item quantity="other">%s z</item>
+        <item quantity="zero">%s z</item>
         <item quantity="one">%s z</item>
+        <item quantity="two">%s z</item>
         <item quantity="few">%s z</item>
+        <item quantity="many">%s z</item>
     </plurals>
     <plurals name="DA_DAYS_SHORT">
         <item quantity="other">%d de zile</item>
+        <item quantity="zero">%d zile</item>
         <item quantity="one">%d zi</item>
+        <item quantity="two">%d zile</item>
         <item quantity="few">%d zile</item>
+        <item quantity="many">%d zile</item>
     </plurals>
     <plurals name="DA_HOURS">
-        <item quantity="other">%d de ore</item>
+        <item quantity="other">%d ore</item>
+        <item quantity="zero">%d ore</item>
         <item quantity="one">%d oră</item>
+        <item quantity="two">%d ore</item>
         <item quantity="few">%d ore</item>
+        <item quantity="many">%d ore</item>
     </plurals>
     <plurals name="DA_HOURS_ABBREVIATED">
         <item quantity="other">%s h</item>
+        <item quantity="zero">%s h</item>
         <item quantity="one">%s h</item>
+        <item quantity="two">%s h</item>
         <item quantity="few">%s h</item>
+        <item quantity="many">%s h</item>
     </plurals>
     <plurals name="DA_MINUTES">
-        <item quantity="other">%d de minute</item>
+        <item quantity="other">%d minute</item>
+        <item quantity="zero">%d minute</item>
         <item quantity="one">%d minut</item>
+        <item quantity="two">%d minute</item>
         <item quantity="few">%d minute</item>
+        <item quantity="many">%d minute</item>
     </plurals>
     <plurals name="DA_MINUTES_ABBREVIATED">
-        <item quantity="other">%s min.</item>
-        <item quantity="one">%s min.</item>
-        <item quantity="few">%s min.</item>
-    </plurals>
-    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
-        <item quantity="other">%s</item>
-        <item quantity="one">%s</item>
-        <item quantity="few">%s</item>
+        <item quantity="other">%s min</item>
+        <item quantity="zero">%s min</item>
+        <item quantity="one">%s min</item>
+        <item quantity="two">%s min</item>
+        <item quantity="few">%s min</item>
+        <item quantity="many">%s min</item>
     </plurals>
     <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
         <item quantity="other">Continuați încă %1$s ft</item>
+        <item quantity="zero">Continuați încă %1$s de picioare</item>
         <item quantity="one">Continuați încă %1$s ft</item>
+        <item quantity="two">Continuați încă %1$s ft</item>
         <item quantity="few">Continuați încă %1$s ft</item>
+        <item quantity="many">Continuați încă %1$s ft</item>
     </plurals>
     <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
-        <item quantity="other">Continuați încă %1$s de kilometri</item>
+        <item quantity="other">Continuați încă %1$s kilometri</item>
+        <item quantity="zero">Continuați încă %1$s kilometri</item>
         <item quantity="one">Continuați încă %1$s kilometri</item>
+        <item quantity="two">Continuați încă %1$s kilometri</item>
         <item quantity="few">Continuați încă %1$s kilometri</item>
+        <item quantity="many">Continuați încă %1$s kilometri</item>
     </plurals>
     <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
         <item quantity="other">Continuați încă %1$s de metri</item>
+        <item quantity="zero">Continuați încă %1$s de metri</item>
         <item quantity="one">Continuați încă %1$s metru</item>
+        <item quantity="two">Continuați încă %1$s metri</item>
         <item quantity="few">Continuați încă %1$s metri</item>
+        <item quantity="many">Continuați încă %1$s de metri</item>
     </plurals>
     <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
-        <item quantity="other">Continuați încă %1$s de mile</item>
+        <item quantity="other">Continuați încă %1$s mile</item>
+        <item quantity="zero">Continuați încă %1$s mile</item>
         <item quantity="one">Continuați încă %1$s milă</item>
+        <item quantity="two">Continuați încă %1$s mile</item>
         <item quantity="few">Continuați încă %1$s mile</item>
+        <item quantity="many">Continuați încă %1$s mile</item>
     </plurals>
     <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
         <item quantity="other">Continuați încă %1$s de yarzi</item>
+        <item quantity="zero">Continuați încă %1$s de yarzi</item>
         <item quantity="one">Continuați încă %1$s yard</item>
+        <item quantity="two">Continuați încă %1$s yarzi</item>
         <item quantity="few">Continuați încă %1$s yarzi</item>
+        <item quantity="many">Continuați încă %1$s de yarzi</item>
     </plurals>
     <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
-        <item quantity="other">Continuați pe %2$s încă %1$s de picioare</item>
-        <item quantity="one">Continuați pe %2$s încă %1$s picior</item>
-        <item quantity="few">Continuați pe %2$s încă %1$s picioare</item>
+        <item quantity="other">Continuați pe %2$s încă %1$s ft</item>
+        <item quantity="zero">Continuați pe %2$s încă %1$s de picioare</item>
+        <item quantity="one">Continuați pe %2$s încă %1$s ft</item>
+        <item quantity="two">Continuați pe %2$s încă %1$s ft</item>
+        <item quantity="few">Continuați pe %2$s încă %1$s ft</item>
+        <item quantity="many">Continuați pe %2$s încă %1$s ft</item>
     </plurals>
     <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
-        <item quantity="other">Continuați pe %2$s încă %1$s de kilometri</item>
+        <item quantity="other">Continuați pe %2$s încă %1$s kilometri</item>
+        <item quantity="zero">Continuați pe %2$s încă %1$s kilometri</item>
         <item quantity="one">Continuați pe %2$s încă %1$s kilometru</item>
+        <item quantity="two">Continuați pe %2$s încă %1$s kilometri</item>
         <item quantity="few">Continuați pe %2$s încă %1$s kilometri</item>
+        <item quantity="many">Continuați pe %2$s încă %1$s kilometri</item>
     </plurals>
     <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
         <item quantity="other">Continuați pe %2$s încă %1$s de metri</item>
+        <item quantity="zero">Continuați pe %2$s încă %1$s de metri</item>
         <item quantity="one">Continuați pe %2$s încă %1$s metru</item>
+        <item quantity="two">Continuați pe %2$s încă %1$s metri</item>
         <item quantity="few">Continuați pe %2$s încă %1$s metri</item>
+        <item quantity="many">Continuați pe %2$s încă %1$s de metri</item>
     </plurals>
     <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
-        <item quantity="other">Continuați pe %2$s încă %1$s de mile</item>
+        <item quantity="other">Continuați pe %2$s încă %1$s mile</item>
+        <item quantity="zero">Continuați pe %2$s încă %1$s mile</item>
         <item quantity="one">Continuați pe %2$s încă %1$s milă</item>
+        <item quantity="two">Continuați pe %2$s încă %1$s mile</item>
         <item quantity="few">Continuați pe %2$s încă %1$s mile</item>
+        <item quantity="many">Continuați pe %2$s încă %1$s mile</item>
     </plurals>
     <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
         <item quantity="other">Continuați pe %2$s încă %1$s de yarzi</item>
+        <item quantity="zero">Continuați pe %2$s încă %1$s yarzi</item>
         <item quantity="one">Continuați pe %2$s încă %1$s yard</item>
+        <item quantity="two">Continuați pe %2$s încă %1$s yarzi</item>
         <item quantity="few">Continuați pe %2$s încă %1$s yarzi</item>
+        <item quantity="many">Continuați pe %2$s încă %1$s de yarzi</item>
     </plurals>
-    <plurals name="DA_SPEECH_DAYS" />
-    <plurals name="DA_SPEECH_HOURS" />
+    <plurals name="DA_SPEECH_DAYS">
+        <item quantity="other">%s zile</item>
+        <item quantity="zero">%s zile</item>
+        <item quantity="one">%s zi</item>
+        <item quantity="two">%s zile</item>
+        <item quantity="few">%s zile</item>
+        <item quantity="many">%s zile</item>
+    </plurals>
+    <plurals name="DA_SPEECH_HOURS">
+        <item quantity="other">%s ore</item>
+        <item quantity="zero">%s ore</item>
+        <item quantity="one">%s oră</item>
+        <item quantity="two">%s ore</item>
+        <item quantity="few">%s ore</item>
+        <item quantity="many">%s ore</item>
+    </plurals>
     <plurals name="DA_SPEECH_IN_X_FEET">
         <item quantity="other">Peste %1$s ft</item>
+        <item quantity="zero">Peste %1$s de picioare</item>
         <item quantity="one">Peste %1$s ft</item>
+        <item quantity="two">Peste %1$s ft</item>
         <item quantity="few">Peste %1$s ft</item>
+        <item quantity="many">Peste %1$s ft</item>
     </plurals>
     <plurals name="DA_SPEECH_IN_X_KILOMETERS">
-        <item quantity="other">Peste %1$s de kilometri</item>
+        <item quantity="other">Peste %1$s kilometri</item>
+        <item quantity="zero">Peste %1$s kilometri</item>
         <item quantity="one">Peste %1$s kilometru</item>
+        <item quantity="two">Peste %1$s kilometri</item>
         <item quantity="few">Peste %1$s kilometri</item>
+        <item quantity="many">Peste %1$s kilometri</item>
     </plurals>
     <plurals name="DA_SPEECH_IN_X_METERS">
         <item quantity="other">Peste %1$s de metri</item>
+        <item quantity="zero">Peste %1$s de metri</item>
         <item quantity="one">Peste %1$s metru</item>
+        <item quantity="two">Peste %1$s metri</item>
         <item quantity="few">Peste %1$s metri</item>
+        <item quantity="many">Peste %1$s de metri</item>
     </plurals>
     <plurals name="DA_SPEECH_IN_X_MILES">
-        <item quantity="other">Peste %1$s de mile</item>
+        <item quantity="other">Peste %1$s mile</item>
+        <item quantity="zero">Peste %1$s mile</item>
         <item quantity="one">Peste %1$s milă</item>
+        <item quantity="two">Peste %1$s mile</item>
         <item quantity="few">Peste %1$s mile</item>
+        <item quantity="many">Peste %1$s mile</item>
     </plurals>
     <plurals name="DA_SPEECH_IN_X_YARDS">
         <item quantity="other">Peste %1$s de yarzi</item>
+        <item quantity="zero">Peste %1$s de yarzi</item>
         <item quantity="one">Peste %1$s yard</item>
+        <item quantity="two">Peste %1$s yarzi</item>
         <item quantity="few">Peste %1$s yarzi</item>
+        <item quantity="many">Peste %1$s de yarzi</item>
     </plurals>
-    <plurals name="DA_SPEECH_MINUTES" />
-    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
-        <item quantity="other">%s de kilometri pe oră</item>
-        <item quantity="one">%s kilometru pe oră</item>
-        <item quantity="few">%s kilometri pe oră</item>
-    </plurals>
-    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
-        <item quantity="other">%s de mile pe oră</item>
-        <item quantity="one">%s milă pe oră</item>
-        <item quantity="few">%s mile pe oră</item>
+    <plurals name="DA_SPEECH_MINUTES">
+        <item quantity="other">%s minute</item>
+        <item quantity="zero">%s minute</item>
+        <item quantity="one">%s minut</item>
+        <item quantity="two">%s minute</item>
+        <item quantity="few">%s minute</item>
+        <item quantity="many">%s minute</item>
     </plurals>
     <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
         <item quantity="other">Destinația dvs. se află la %1$s de picioare distanță</item>
+        <item quantity="zero">Destinația dvs. se află la %1$s de picioare distanță</item>
         <item quantity="one">Destinația dvs. se află la %1$s picior distanță</item>
+        <item quantity="two">Destinația dvs. se află la %1$s picioare distanță</item>
         <item quantity="few">Destinația dvs. se află la %1$s picioare distanță</item>
+        <item quantity="many">Destinația dvs. se află la %1$s de picioare distanță</item>
     </plurals>
     <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
         <item quantity="other">Destinația dvs. se află la %1$s de kilometri distanță</item>
+        <item quantity="zero">Destinația dvs. se află la %1$s kilometri distanță</item>
         <item quantity="one">Destinația dvs. se află la %1$s kilometru distanță</item>
+        <item quantity="two">Destinația dvs. se află la %1$s kilometri distanță</item>
         <item quantity="few">Destinația dvs. se află la %1$s kilometri distanță</item>
+        <item quantity="many">Destinația dvs. se află la %1$s de kilometri distanță</item>
     </plurals>
     <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
         <item quantity="other">Destinația dvs. se află la %1$s de metri distanță</item>
+        <item quantity="zero">Destinația dvs. se află la %1$s de metri distanță</item>
         <item quantity="one">Destinația dvs. se află la %1$s metru distanță</item>
+        <item quantity="two">Destinația dvs. se află la %1$s metri distanță</item>
         <item quantity="few">Destinația dvs. se află la %1$s metri distanță</item>
+        <item quantity="many">Destinația dvs. se află la %1$s de metri distanță</item>
     </plurals>
     <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
         <item quantity="other">Destinația dvs. se află la %1$s de mile distanță</item>
+        <item quantity="zero">Destinația dvs. se află la %1$s mile distanță</item>
         <item quantity="one">Destinația dvs. se află la %1$s milă distanță</item>
+        <item quantity="two">Destinația dvs. se află la %1$s mile distanță</item>
         <item quantity="few">Destinația dvs. se află la %1$s mile distanță</item>
+        <item quantity="many">Destinația dvs. se află la %1$s de mile distanță</item>
     </plurals>
     <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
         <item quantity="other">Destinația dvs. se află la %1$s de yarzi distanță</item>
+        <item quantity="zero">Destinația dvs. se află la %1$s de yarzi distanță</item>
         <item quantity="one">Destinația dvs. se află la %1$s yard distanță</item>
+        <item quantity="two">Destinația dvs. se află la %1$s yarzi distanță</item>
         <item quantity="few">Destinația dvs. se află la %1$s yarzi distanță</item>
-    </plurals>
-    <plurals name="DIRECTIONS_COUNT_STOPS">
-        <item quantity="other">%d de stații</item>
-        <item quantity="one">%d stație</item>
-        <item quantity="few">%d stații</item>
+        <item quantity="many">Destinația dvs. se află la %1$s de yarzi distanță</item>
     </plurals>
     <plurals name="DIRECTIONS_MORE_TRAFFIC_DISRUPTIONS">
         <item quantity="other">Încă %1$s de întreruperi ale traficului</item>
-        <item quantity="one">%1$s întrerupere a traficului</item>
+        <item quantity="zero">Încă %1$s probleme în trafic</item>
+        <item quantity="one">Încă %1$s întrerupere a traficului</item>
+        <item quantity="two">Încă %1$s întreruperi ale traficului</item>
         <item quantity="few">Încă %1$s întreruperi ale traficului</item>
+        <item quantity="many">Încă %1$s de întreruperi ale traficului</item>
     </plurals>
     <plurals name="EDIT_PUBLISHED_NOTIFICATION_TITLE">
         <item quantity="other">%d dintre modificările dvs. apar acum live!</item>
+        <item quantity="zero">%d dintre modificările dvs. apar acum live!</item>
         <item quantity="one">Acum modificarea dvs. apare live!</item>
+        <item quantity="two">%d dintre modificările dvs. apar acum live!</item>
         <item quantity="few">%d dintre modificările dvs. apar acum live!</item>
+        <item quantity="many">%d dintre modificările dvs. apar acum live!</item>
     </plurals>
-    <plurals name="FIVESTAR_HISTOGRAM_BAR_LABEL" />
-    <plurals name="HOTEL_RESERVATION_NUMBER_OF_NIGHTS_TEXT">
-        <item quantity="other">%d de nopți</item>
-        <item quantity="one">%d noapte</item>
-        <item quantity="few">%d nopți</item>
+    <plurals name="FIVESTAR_HISTOGRAM_BAR_LABEL">
+        <item quantity="other">%d de stele</item>
+        <item quantity="zero">%d stele</item>
+        <item quantity="one">%d stea</item>
+        <item quantity="two">%d stele</item>
+        <item quantity="few">%d stele</item>
+        <item quantity="many">%d (de) stele</item>
     </plurals>
     <plurals name="HOTEL_STAR_CLASS">
         <item quantity="other">Hotel de %d de stele</item>
+        <item quantity="zero">Hotel de %d stele</item>
         <item quantity="one">Hotel de %d stea</item>
+        <item quantity="two">Hotel de %d stele</item>
         <item quantity="few">Hotel de %d stele</item>
+        <item quantity="many">Hotel de %d stele</item>
     </plurals>
-    <plurals name="IAMHERE_YOUVE_TAKEN_PHOTO_HERE" />
+    <plurals name="IAMHERE_YOUVE_TAKEN_PHOTO_HERE">
+        <item quantity="other">Ați făcut %d de fotografii aici</item>
+        <item quantity="zero">Ați făcut %d de fotografii aici</item>
+        <item quantity="one">Ați făcut %d fotografie aici</item>
+        <item quantity="two">Ați făcut %d fotografii aici</item>
+        <item quantity="few">Ați făcut %d fotografii aici</item>
+        <item quantity="many">Ați făcut %d fotografii aici</item>
+    </plurals>
     <plurals name="LAST_HERE_DAYS_AGO">
-        <item quantity="other">Ați făcut o vizită cu %d de zile în urmă</item>
-        <item quantity="one">Ați făcut o vizită cu %d zi în urmă</item>
-        <item quantity="few">Ați făcut o vizită cu %d zile în urmă</item>
+        <item quantity="other">Ați fost acolo acum %d de zile</item>
+        <item quantity="two">Ați fost acolo acum %d zile</item>
+        <item quantity="few">Ați fost acolo acum %d zile</item>
+        <item quantity="many">Ați fost acolo acum %d zile</item>
     </plurals>
     <plurals name="LAST_HERE_MONTHS_AGO">
-        <item quantity="other">Ați fost acolo acum %d de luni</item>
+        <item quantity="other">Ați vizitat locația acum %d de luni</item>
         <item quantity="one">Ați fost acolo acum %d lună</item>
-        <item quantity="few">Ați fost acolo acum %d luni</item>
+        <item quantity="two">Ați vizitat locația acum %d luni</item>
+        <item quantity="few">Ați vizitat locația acum %d luni</item>
+        <item quantity="many">Ați vizitat locația acum %d luni</item>
     </plurals>
     <plurals name="LAST_HERE_WEEKS_AGO">
         <item quantity="other">Ați fost acolo acum %d de săptămâni</item>
         <item quantity="one">Ați fost acolo acum %d săptămână</item>
+        <item quantity="two">Ați fost acolo acum %d săptămâni</item>
         <item quantity="few">Ați fost acolo acum %d săptămâni</item>
     </plurals>
     <plurals name="LAST_HERE_YEARS_AGO">
-        <item quantity="other">Ați fost acolo acum %d de ani</item>
+        <item quantity="other">Ați vizitat locația acum %d de ani</item>
         <item quantity="one">Ați fost acolo acum %d an</item>
-        <item quantity="few">Ați fost acolo acum %d ani</item>
-    </plurals>
-    <plurals name="LIST_COUNT_PLACES">
-        <item quantity="other">%d de locații</item>
-        <item quantity="one">%d locație</item>
-        <item quantity="few">%d locații</item>
+        <item quantity="two">Ați vizitat locația acum %d ani</item>
+        <item quantity="few">Ați vizitat locația acum %d ani</item>
+        <item quantity="many">Ați vizitat locația acum %d ani</item>
     </plurals>
     <plurals name="LOCAL_GUIDE_CURRENT_LEVEL">
         <item quantity="other">Nivelul %d</item>
         <item quantity="one">Nivelul %d</item>
-        <item quantity="few">Nivelul %d</item>
     </plurals>
     <plurals name="MAPS_ACTIVITY_PHOTOS_REMOVED">
-        <item quantity="other">Fotografii eliminate</item>
-        <item quantity="one">Fotografie eliminată</item>
-        <item quantity="few">Fotografii eliminate</item>
+        <item quantity="other">Fotografiile au fost eliminate</item>
+        <item quantity="zero">Fotografiile au fost eliminate</item>
+        <item quantity="one">Fotografia a fost eliminată</item>
+        <item quantity="two">Fotografiile au fost eliminate</item>
+        <item quantity="few">Fotografiile au fost eliminate</item>
+        <item quantity="many">Fotografiile au fost eliminate</item>
     </plurals>
-    <plurals name="MENU_REMOVE_STOPS" />
+    <plurals name="MENU_REMOVE_STOPS">
+        <item quantity="other">Eliminați opririle</item>
+        <item quantity="zero">Eliminați opririle</item>
+        <item quantity="one">Eliminați oprirea</item>
+        <item quantity="two">Eliminați opririle</item>
+        <item quantity="few">Eliminați opririle</item>
+        <item quantity="many">Eliminați opririle</item>
+    </plurals>
     <plurals name="MONTHS_AGO">
-        <item quantity="other">Acum %d de luni</item>
+        <item quantity="other">Acum %d luni</item>
         <item quantity="one">Acum %d lună</item>
+        <item quantity="two">Acum %d luni</item>
         <item quantity="few">Acum %d luni</item>
+        <item quantity="many">Acum %d luni</item>
     </plurals>
     <plurals name="MY_MAPS_PHOTO_VIDEO_COUNT">
-        <item quantity="other">%d articole foto/video</item>
-        <item quantity="one">%d articol foto/video</item>
-        <item quantity="few">%d articole foto/video</item>
+        <item quantity="other">%d foto/video.</item>
+        <item quantity="one">%d foto/video.</item>
     </plurals>
     <plurals name="MY_MAPS_VIDEO_COUNT">
-        <item quantity="other">%d de videoclipuri</item>
+        <item quantity="other">%d (de) videoclipuri</item>
         <item quantity="one">%d videoclip</item>
-        <item quantity="few">%d videoclipuri</item>
-    </plurals>
-    <plurals name="NUMBER_OF_AFFECTED_LINES">
-        <item quantity="other">%1$s de linii afectate</item>
-        <item quantity="one">%1$s linie afectată</item>
-        <item quantity="few">%1$s linii afectate</item>
     </plurals>
     <plurals name="NUMBER_OF_CONTRIBUTIONS">
         <item quantity="other">%d de contribuții</item>
+        <item quantity="zero">%d contribuții</item>
         <item quantity="one">%d contribuție</item>
+        <item quantity="two">%d contribuții</item>
         <item quantity="few">%d contribuții</item>
+        <item quantity="many">%d contribuții</item>
     </plurals>
     <plurals name="NUMBER_OF_LOCAL_GUIDE_POINTS">
         <item quantity="other">%d de puncte</item>
+        <item quantity="zero">%d puncte</item>
         <item quantity="one">%d punct</item>
+        <item quantity="two">%d puncte</item>
         <item quantity="few">%d puncte</item>
+        <item quantity="many">%d puncte</item>
     </plurals>
-    <plurals name="NUMBER_OF_PLACES">
-        <item quantity="other">%d de locații</item>
-        <item quantity="one">%d locație</item>
-        <item quantity="few">%d locații</item>
+    <plurals name="OFFLINE_AREA_EXPIRES_IN_DAYS">
+        <item quantity="other">Expiră peste %d de zile</item>
+        <item quantity="zero">Expiră peste %d zile</item>
+        <item quantity="one">Expiră peste %d zi</item>
+        <item quantity="two">Expiră peste %d zile</item>
+        <item quantity="few">Expiră peste %d zile</item>
+        <item quantity="many">Expiră peste %d zile</item>
+    </plurals>
+    <plurals name="OFFLINE_AREA_EXPIRES_IN_LESS_THAN_DAYS">
+        <item quantity="other">Expiră în mai puțin de %d de zile</item>
+        <item quantity="zero">Expiră în mai puțin de %d zile</item>
+        <item quantity="one">Expiră în mai puțin de %d zi</item>
+        <item quantity="two">Expiră în mai puțin de %d zile</item>
+        <item quantity="few">Expiră în mai puțin de %d zile</item>
+        <item quantity="many">Expiră în mai puțin de %d zile</item>
+    </plurals>
+    <plurals name="OFFLINE_CACHE_ESTIMATED_SIZE_NUM">
+        <item quantity="other">%d MB</item>
+        <item quantity="zero">%d MB</item>
+        <item quantity="one">%d MB</item>
+        <item quantity="two">%d MB</item>
+        <item quantity="few">%d MB</item>
+        <item quantity="many">%d MB</item>
     </plurals>
     <plurals name="OFFLINE_MAPS_CARD_TITLE">
         <item quantity="other">%d de zone offline</item>
+        <item quantity="zero">%d zone offline</item>
         <item quantity="one">%d zonă offline</item>
+        <item quantity="two">%d zone offline</item>
         <item quantity="few">%d zone offline</item>
+        <item quantity="many">%d zone offline</item>
     </plurals>
-    <plurals name="OFFLINE_RESULTS_FOUND" />
-    <plurals name="OFFLINE_RESULTS_FOUND_TITLE" />
+    <plurals name="OFFLINE_RESULTS_FOUND">
+        <item quantity="other">Chiar dacă aveți o conexiune slabă, am reușit să găsim rezultate din zonele offline.</item>
+        <item quantity="one">Chiar dacă aveți o conexiune slabă, am reușit să găsim un rezultat din zonele offline.</item>
+        <item quantity="two">Chiar dacă aveți o conexiune slabă, am reușit să găsim rezultate din zonele offline.</item>
+        <item quantity="few">Chiar dacă aveți o conexiune slabă, am reușit să găsim rezultate din zonele offline.</item>
+        <item quantity="many">Chiar dacă aveți o conexiune slabă, am reușit să găsim rezultate din zonele offline.</item>
+    </plurals>
+    <plurals name="OFFLINE_RESULTS_FOUND_TITLE">
+        <item quantity="other">Rezultate offline</item>
+        <item quantity="one">Rezultat offline</item>
+        <item quantity="two">Rezultate offline</item>
+        <item quantity="few">Rezultate offline</item>
+        <item quantity="many">Rezultate offline</item>
+    </plurals>
     <plurals name="PERSONAL_CALENDAR_EVENTS_TITLE">
         <item quantity="other">Evenimente viitoare din Google Calendar</item>
+        <item quantity="zero">Evenimente viitoare din Google Calendar</item>
         <item quantity="one">Eveniment viitor din Google Calendar</item>
+        <item quantity="two">Evenimente viitoare din Google Calendar</item>
         <item quantity="few">Evenimente viitoare din Google Calendar</item>
-    </plurals>
-    <plurals name="PERSONAL_CALENDAR_OTHER_PARTICIPANTS_COUNT">
-        <item quantity="other">Încă %d</item>
-        <item quantity="one">Încă %d</item>
-        <item quantity="few">Încă %d</item>
+        <item quantity="many">Evenimente viitoare din Google Calendar</item>
     </plurals>
     <plurals name="PERSONAL_GMAIL_RESERVATIONS_AND_CALENDAR_EVENTS_TITLE">
         <item quantity="other">Evenimente viitoare din Gmail și Google Calendar</item>
+        <item quantity="zero">Evenimente viitoare din Gmail și Google Calendar</item>
         <item quantity="one">Evenimentul viitor din Gmail și Google Calendar</item>
+        <item quantity="two">Evenimente viitoare din Gmail și Google Calendar</item>
         <item quantity="few">Evenimente viitoare din Gmail și Google Calendar</item>
+        <item quantity="many">Evenimente viitoare din Gmail și Google Calendar</item>
     </plurals>
     <plurals name="PERSONAL_GMAIL_RESERVATIONS_TITLE">
         <item quantity="other">Rezervări viitoare din Gmail</item>
+        <item quantity="zero">Rezervări viitoare din Gmail</item>
         <item quantity="one">Rezervare viitoare din Gmail</item>
+        <item quantity="two">Rezervări viitoare din Gmail</item>
         <item quantity="few">Rezervări viitoare din Gmail</item>
+        <item quantity="many">Rezervări viitoare din Gmail</item>
     </plurals>
     <plurals name="PERSONAL_RESERVATIONS_SUBTITLE">
         <item quantity="other">Doar dvs. puteți vedea aceste informații</item>
         <item quantity="one">Doar dvs. puteți vedea aceste informații</item>
+        <item quantity="two">Doar dvs. puteți vedea aceste informații</item>
         <item quantity="few">Doar dvs. puteți vedea aceste informații</item>
+        <item quantity="many">Doar dvs. puteți vedea aceste informații</item>
     </plurals>
     <plurals name="PHOTOS">
-        <item quantity="other">%d de fotografii</item>
+        <item quantity="other">%d fotografii</item>
+        <item quantity="zero">%d fotografii</item>
         <item quantity="one">%d fotografie</item>
+        <item quantity="two">%d fotografii</item>
         <item quantity="few">%d fotografii</item>
+        <item quantity="many">%d fotografii</item>
     </plurals>
     <plurals name="PHOTOS_UPLOADING_PHOTOS">
         <item quantity="other">Se încarcă %d de fotografii</item>
+        <item quantity="zero">Se încarcă %d fotografii</item>
         <item quantity="one">Se încarcă %d fotografie</item>
+        <item quantity="two">Se încarcă %d fotografii</item>
         <item quantity="few">Se încarcă %d fotografii</item>
+        <item quantity="many">Se încarcă %d fotografii</item>
     </plurals>
     <plurals name="PHOTO_TAKEN_NOTIFICATION_TAP_TO_ADD_PHOTO_MULTIPLE">
-        <item quantity="other">Adăugați %1$d de fotografii la %2$s</item>
-        <item quantity="one">Adăugați %1$d fotografie la %2$s</item>
+        <item quantity="other">Adăugați %1$d (de) fotografii la %2$s</item>
+        <item quantity="two">Adăugați %1$d fotografii la %2$s</item>
         <item quantity="few">Adăugați %1$d fotografii la %2$s</item>
+        <item quantity="many">Adăugați %1$d fotografii la %2$s</item>
     </plurals>
-    <plurals name="PHOTO_UPLOADED_MSG" />
+    <plurals name="PHOTO_UPLOADED_MSG">
+        <item quantity="other">Fotografiile dvs. vor fi publice după examinare.</item>
+        <item quantity="one">Fotografia dvs. va fi publică după examinare.</item>
+        <item quantity="two">Fotografiile dvs. vor fi publice după examinare.</item>
+        <item quantity="few">Fotografiile dvs. vor fi publice după examinare.</item>
+        <item quantity="many">Fotografiile dvs. vor fi publice după examinare.</item>
+    </plurals>
     <plurals name="PLACE_PAGE_EXPANDED_NUMBER_OF_REVIEWS">
         <item quantity="other">%d de recenzii</item>
+        <item quantity="zero">%d recenzii</item>
         <item quantity="one">%d recenzie</item>
+        <item quantity="two">%d recenzii</item>
         <item quantity="few">%d recenzii</item>
+        <item quantity="many">%d de recenzii</item>
     </plurals>
     <plurals name="PLACE_PENDING_EDIT_MORE_EDITS">
         <item quantity="other">+ %d de modificări</item>
+        <item quantity="zero">+ %d modificări</item>
         <item quantity="one">+ %d modificare</item>
+        <item quantity="two">+ %d modificări</item>
         <item quantity="few">+ %d modificări</item>
+        <item quantity="many">+ %d de modificări</item>
     </plurals>
     <plurals name="POI_PROMPT_REPLACE_STOP">
-        <item quantity="other">Înlocuiți stațiile</item>
-        <item quantity="one">Înlocuiți stația</item>
-        <item quantity="few">Înlocuiți stațiile</item>
+        <item quantity="other">Înlocuiți opririle intermediare</item>
+        <item quantity="zero">Înlocuiți opririle intermediare</item>
+        <item quantity="one">Înlocuiți oprirea intermediară</item>
+        <item quantity="two">Înlocuiți opririle intermediare</item>
+        <item quantity="few">Înlocuiți opririle intermediare</item>
+        <item quantity="many">Înlocuiți opririle intermediare</item>
     </plurals>
-    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTOS" />
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTOS">
+        <item quantity="other">%d de fotografii</item>
+        <item quantity="zero">%d fotografii</item>
+        <item quantity="one">%d fotografie</item>
+        <item quantity="two">%d fotografii</item>
+        <item quantity="few">%d fotografii</item>
+        <item quantity="many">%d fotografii</item>
+    </plurals>
     <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTO_VIEWS">
         <item quantity="other">%,d de vizualizări</item>
+        <item quantity="zero">%,d vizualizări</item>
         <item quantity="one">%,d vizualizare</item>
+        <item quantity="two">%,d vizualizări</item>
         <item quantity="few">%,d vizualizări</item>
+        <item quantity="many">%,d vizualizări</item>
     </plurals>
     <plurals name="PROFILE_ACTIVITY_NUMBER_OF_RATINGS">
         <item quantity="other">%d de evaluări</item>
+        <item quantity="zero">%d evaluări</item>
         <item quantity="one">%d evaluare</item>
+        <item quantity="two">%d evaluări</item>
         <item quantity="few">%d evaluări</item>
+        <item quantity="many">%d evaluări</item>
     </plurals>
     <plurals name="PROFILE_ACTIVITY_NUMBER_OF_REVIEWS">
         <item quantity="other">%d de recenzii</item>
+        <item quantity="zero">%d recenzii</item>
         <item quantity="one">%d recenzie</item>
+        <item quantity="two">%d recenzii</item>
         <item quantity="few">%d recenzii</item>
+        <item quantity="many">%d recenzii</item>
     </plurals>
     <plurals name="PROFILE_ACTIVITY_PHOTOS">
         <item quantity="other">de fotografii</item>
+        <item quantity="zero">fotografii</item>
         <item quantity="one">fotografie</item>
+        <item quantity="two">fotografii</item>
         <item quantity="few">fotografii</item>
+        <item quantity="many">fotografii</item>
     </plurals>
     <plurals name="PROFILE_ACTIVITY_REVIEWS">
         <item quantity="other">de recenzii</item>
+        <item quantity="zero">recenzii</item>
         <item quantity="one">recenzie</item>
+        <item quantity="two">recenzii</item>
         <item quantity="few">recenzii</item>
+        <item quantity="many">recenzii</item>
     </plurals>
     <plurals name="QUESTIONS_REMAINING">
-        <item quantity="other">+încă %d de întrebări.</item>
-        <item quantity="one">+încă %d întrebare.</item>
-        <item quantity="few">+încă %d întrebări.</item>
+        <item quantity="other">încă %d de întrebări.</item>
+        <item quantity="one">încă %d întrebare.</item>
+        <item quantity="two">încă %d întrebări.</item>
+        <item quantity="few">încă %d întrebări.</item>
+        <item quantity="many">încă %d întrebări.</item>
     </plurals>
     <plurals name="RELATED_PLACES_MORE">
         <item quantity="other">+ încă %d</item>
         <item quantity="one">+ încă %d</item>
+        <item quantity="two">+ încă %d</item>
         <item quantity="few">+ încă %d</item>
+        <item quantity="many">+ încă %d</item>
     </plurals>
     <plurals name="RESERVATION_PARTY_SIZE">
         <item quantity="other">%d de persoane</item>
+        <item quantity="zero">%d persoane</item>
         <item quantity="one">%d persoană</item>
+        <item quantity="two">%d persoane</item>
         <item quantity="few">%d persoane</item>
+        <item quantity="many">%d de persoane</item>
     </plurals>
     <plurals name="REVIEW_SNIPPET_AUTHOR_WITH_SIMILAR_STATEMENTS">
         <item quantity="other">%1$s și %2$d de examinatori</item>
+        <item quantity="zero">%1$s și %2$d examinatori</item>
         <item quantity="one">%1$s și %2$d examinator</item>
+        <item quantity="two">%1$s și %2$d examinatori</item>
         <item quantity="few">%1$s și %2$d examinatori</item>
+        <item quantity="many">%1$s și %2$d (de) examinatori</item>
     </plurals>
     <plurals name="REVIEW_SNIPPET_TOTAL_STATEMENTS">
         <item quantity="other">%d de examinatori</item>
+        <item quantity="zero">%d examinatori</item>
         <item quantity="one">%d examinator</item>
+        <item quantity="two">%d examinatori</item>
         <item quantity="few">%d examinatori</item>
+        <item quantity="many">%d (de) examinatori</item>
     </plurals>
-    <plurals name="REVIEW_THUMBS_UP_PEOPLE_COUNT">
-        <item quantity="other">%d de persoane</item>
-        <item quantity="one">%d persoană</item>
-        <item quantity="few">%d persoane</item>
-    </plurals>
-    <plurals name="SAVE_VISIT_N_DAYS_AGO">
-        <item quantity="other">Salvați vizita de acum %d de zile?</item>
-        <item quantity="one">Salvați vizita de acum %d zi?</item>
+    <plurals name="SAVE_VISIT_DAYS_AGO">
+        <item quantity="other">Salvați vizita de acum %d zile?</item>
+        <item quantity="zero">Salvați vizita de astăzi?</item>
+        <item quantity="one">Salvați vizita de ieri?</item>
         <item quantity="few">Salvați vizita de acum %d zile?</item>
+        <item quantity="many">Salvați vizita de acum %d zile?</item>
     </plurals>
-    <plurals name="SEARCH_OFFLINE_RESULTS" />
-    <plurals name="STATION_NEARBY_STATIONS" />
+    <plurals name="SEARCH_OFFLINE_RESULTS">
+        <item quantity="other">Conexiune pierdută. Se afișează rezultatele offline.</item>
+        <item quantity="zero">Conexiune pierdută. Se afișează rezultatele offline.</item>
+        <item quantity="one">Conexiune pierdută. Se afișează rezultatul offline.</item>
+        <item quantity="two">Conexiune pierdută. Se afișează rezultatele offline.</item>
+        <item quantity="few">Conexiune pierdută. Se afișează rezultatele offline.</item>
+        <item quantity="many">Conexiune pierdută. Se afișează rezultatele offline.</item>
+    </plurals>
+    <plurals name="STATION_NEARBY_STATIONS">
+        <item quantity="other">Stații în apropiere</item>
+        <item quantity="zero">Stații în apropiere</item>
+        <item quantity="one">Stație în apropiere</item>
+        <item quantity="two">Stații în apropiere</item>
+        <item quantity="few">Stații în apropiere</item>
+        <item quantity="many">Stații în apropiere</item>
+    </plurals>
     <plurals name="SWIPE_MILESTONE_MESSAGE">
         <item quantity="other">Am călătorit %,d de kilometri în Google Street View!</item>
+        <item quantity="zero">Am călătorit %,d kilometri în Google Street View!</item>
         <item quantity="one">Am călătorit %,d kilometru în Google Street View!</item>
+        <item quantity="two">Am călătorit %,d kilometri în Google Street View!</item>
         <item quantity="few">Am călătorit %,d kilometri în Google Street View!</item>
+        <item quantity="many">Am călătorit %,d de kilometri în Google Street View!</item>
     </plurals>
     <plurals name="TODO_PHOTO_MORE_PHOTOS">
         <item quantity="other">+ încă %d</item>
+        <item quantity="zero">+ încă %d</item>
         <item quantity="one">+ încă %d</item>
+        <item quantity="two">+ încă %d</item>
         <item quantity="few">+ încă %d</item>
+        <item quantity="many">+ încă %d</item>
     </plurals>
     <plurals name="TRANSIT_DETAILS_FREQUENT_DEPARTURE">
-        <item quantity="other">Pleacă în %1$s min.</item>
-        <item quantity="one">Pleacă în %1$s min.</item>
-        <item quantity="few">Pleacă în %1$s min.</item>
+        <item quantity="other">Pleacă în %1$s min</item>
+        <item quantity="zero">Pleacă acum</item>
+        <item quantity="one">Pleacă în %1$s min</item>
+        <item quantity="two">Pleacă în %1$s min</item>
+        <item quantity="few">Pleacă în %1$s min</item>
+        <item quantity="many">Pleacă în %1$s min</item>
     </plurals>
     <plurals name="TRANSIT_DETAILS_FREQUENT_TWO_DEPARTURES">
-        <item quantity="other">Pleacă în %1$s, %2$s de min.</item>
-        <item quantity="one">Pleacă în %1$s, %2$s min.</item>
-        <item quantity="few">Pleacă în %1$s, %2$s min.</item>
+        <item quantity="other">Pleacă în %1$s, %2$s min</item>
+        <item quantity="zero">Pleacă acum</item>
+        <item quantity="one">Pleacă în %1$s, %2$s min</item>
+        <item quantity="two">Pleacă în %1$s, %2$s min</item>
+        <item quantity="few">Pleacă în %1$s, %2$s min</item>
+        <item quantity="many">Pleacă în %1$s, %2$s min</item>
     </plurals>
-    <plurals name="TRANSIT_MORE_DEPARTURES_WITH_NUMBER" />
+    <plurals name="TRANSIT_MORE_DEPARTURES_WITH_NUMBER">
+        <item quantity="other">și încă %d</item>
+        <item quantity="zero">și încă %d</item>
+        <item quantity="one">și încă %d</item>
+        <item quantity="two">și încă %d</item>
+        <item quantity="few">și încă %d</item>
+        <item quantity="many">și încă %d</item>
+    </plurals>
     <plurals name="TRANSIT_NUM_STOPS">
-        <item quantity="other">%d de stații</item>
-        <item quantity="one">%d stație</item>
-        <item quantity="few">%d stații</item>
+        <item quantity="other">%d opriri</item>
+        <item quantity="zero">%d opriri</item>
+        <item quantity="one">%d oprire</item>
+        <item quantity="two">%d opriri</item>
+        <item quantity="few">%d opriri</item>
+        <item quantity="many">%d opriri</item>
     </plurals>
     <plurals name="TRANSIT_RADAR_MORE_ALERTS_HIDDEN">
-        <item quantity="other">Și încă %d de alerte</item>
+        <item quantity="other">Și încă %d (de) alerte</item>
         <item quantity="one">Și încă %d alertă</item>
-        <item quantity="few">Și încă %d alerte</item>
     </plurals>
-    <plurals name="TRANSIT_SCHEMATIC_MAP_DEFAULT_BUTTON_TITLE" />
+    <plurals name="TRANSIT_SCHEMATIC_MAP_DEFAULT_BUTTON_TITLE">
+        <item quantity="other">Hărțile transportului public</item>
+        <item quantity="one">Harta transportului public</item>
+        <item quantity="two">Hărțile transportului public</item>
+        <item quantity="few">Hărțile transportului public</item>
+        <item quantity="many">Hărțile transportului public</item>
+    </plurals>
     <plurals name="TRIP_LEVEL_NOTICES_MORE_BUTTON">
         <item quantity="other">Încă %1$s de avertismente</item>
+        <item quantity="zero">Încă %1$s avertismente</item>
         <item quantity="one">Încă %1$s avertisment</item>
+        <item quantity="two">Încă %1$s avertismente</item>
         <item quantity="few">Încă %1$s avertismente</item>
+        <item quantity="many">Încă %1$s avertismente</item>
     </plurals>
-    <plurals name="UGC_TASKS_POST_SUBMIT_DIALOG_TITLE">
-        <item quantity="other">Ați făcut %d de descoperiri!</item>
-        <item quantity="one">Ați făcut %d descoperire!</item>
-        <item quantity="few">Ați făcut %d descoperiri!</item>
+    <plurals name="UPDATE_ALL_SUCCESS_TITLE">
+        <item quantity="other">Updated %d photos</item>
+        <item quantity="zero">Updated %d photos</item>
+        <item quantity="one">Updated %d photos</item>
+        <item quantity="two">Updated %d photos</item>
+        <item quantity="few">Updated %d photos</item>
+        <item quantity="many">Updated %d photos</item>
     </plurals>
-    <plurals name="UGC_TASK_N_CONTRIBUTIONS_TEXT" />
-    <plurals name="UGC_TASK_N_ITEMS_TEXT" />
-    <plurals name="UPDATE_ALL_SUCCESS_TITLE" />
-    <plurals name="UPDATE_FAILED_TITLE" />
+    <plurals name="UPDATE_FAILED_TITLE">
+        <item quantity="other">"Couldn't update %d photos"</item>
+        <item quantity="zero">"Couldn't update %d photos"</item>
+        <item quantity="one">"Couldn't update %d photo"</item>
+        <item quantity="two">"Couldn't update %d photos"</item>
+        <item quantity="few">"Couldn't update %d photos"</item>
+        <item quantity="many">"Couldn't update %d photos"</item>
+    </plurals>
     <plurals name="UPLOAD_ALL_SUCCESS_TITLE">
-        <item quantity="other">%d de fotografii au fost adăugate la Maps</item>
-        <item quantity="one">%d fotografie a fost adăugată la Maps</item>
-        <item quantity="few">%d fotografii au fost adăugate la Maps</item>
+        <item quantity="other">%d (de) fotografii au fost adăugate pe Maps</item>
+        <item quantity="zero">%d (de) fotografii au fost adăugate pe Maps</item>
+        <item quantity="one">%d photo added to Maps</item>
+        <item quantity="two">%d (de) fotografii au fost adăugate pe Maps</item>
+        <item quantity="few">%d (de) fotografii au fost adăugate pe Maps</item>
+        <item quantity="many">%d (de) fotografii au fost adăugate pe Maps</item>
+    </plurals>
+    <plurals name="UPLOAD_FAILED_TITLE">
+        <item quantity="other">Nu s-au putut adăuga %d (de) fotografii pe Maps</item>
+        <item quantity="zero">Nu s-au putut adăuga %d (de) fotografii pe Maps</item>
+        <item quantity="one">"Couldn't add %d photo to Maps"</item>
+        <item quantity="two">Nu s-au putut adăuga %d (de) fotografii pe Maps</item>
+        <item quantity="few">Nu s-au putut adăuga %d (de) fotografii pe Maps</item>
+        <item quantity="many">Nu s-au putut adăuga %d (de) fotografii pe Maps</item>
     </plurals>
     <plurals name="UPLOAD_IN_PROGRESS_TEXT">
         <item quantity="other">%1$d din %2$d</item>
+        <item quantity="zero">%1$d din %2$d</item>
         <item quantity="one">%1$d din %2$d</item>
+        <item quantity="two">%1$d din %2$d</item>
         <item quantity="few">%1$d din %2$d</item>
+        <item quantity="many">%1$d din %2$d</item>
     </plurals>
     <plurals name="UPLOAD_IN_PROGRESS_TITLE">
-        <item quantity="other">Se adaugă %d de fotografii la Maps</item>
-        <item quantity="one">Se adaugă %d fotografie la Maps</item>
-        <item quantity="few">Se adaugă %d fotografii la Maps</item>
+        <item quantity="other">Se adaugă %d (de) fotografii pe Maps</item>
+        <item quantity="zero">Se adaugă %d (de) fotografii pe Maps</item>
+        <item quantity="one">Adding %d photo to Maps</item>
+        <item quantity="two">Se adaugă %d (de) fotografii pe Maps</item>
+        <item quantity="few">Se adaugă %d (de) fotografii pe Maps</item>
+        <item quantity="many">Se adaugă %d (de) fotografii pe Maps</item>
     </plurals>
     <plurals name="UPLOAD_PHOTO_DISCLAIMER_TITLEBAR">
-        <item quantity="other">(%d) de postări sunt publice</item>
-        <item quantity="one">Postările sunt publice</item>
-        <item quantity="few">(%d) postări sunt publice</item>
+        <item quantity="other">Se postează public (%d)</item>
+        <item quantity="zero">Se postează public</item>
+        <item quantity="one">Se postează public</item>
+        <item quantity="two">Se postează public (%d)</item>
+        <item quantity="few">Se postează public (%d)</item>
+        <item quantity="many">Se postează public (%d)</item>
     </plurals>
     <plurals name="UPLOAD_PHOTO_DISCLAIMER_TITLEBAR_NO_COUNT">
-        <item quantity="other">Postările sunt publice</item>
-        <item quantity="one">Postările sunt publice</item>
-        <item quantity="few">Postările sunt publice</item>
+        <item quantity="other">Se postează public</item>
+        <item quantity="zero">Se postează public</item>
+        <item quantity="one">Se postează public</item>
+        <item quantity="two">Se postează public</item>
+        <item quantity="few">Se postează public</item>
+        <item quantity="many">Se postează public</item>
     </plurals>
-    <plurals name="UPLOAD_PHOTO_PHOTOS_SELECTED" />
+    <plurals name="UPLOAD_PHOTO_PHOTOS_SELECTED">
+        <item quantity="other">%d de fotografii selectate</item>
+        <item quantity="zero">%d fotografii selectate</item>
+        <item quantity="one">%d fotografie selectată</item>
+        <item quantity="two">%d fotografii selectate</item>
+        <item quantity="few">%d fotografii selectate</item>
+        <item quantity="many">%d fotografii selectate</item>
+    </plurals>
     <plurals name="WEEKS_AGO">
-        <item quantity="other">Acum %d de săptămâni</item>
+        <item quantity="other">Acum %d săptămâni</item>
         <item quantity="one">Acum %d săptămână</item>
+        <item quantity="two">Acum %d săptămâni</item>
         <item quantity="few">Acum %d săptămâni</item>
     </plurals>
     <plurals name="YEARS_AGO">
         <item quantity="other">Acum %d de ani</item>
         <item quantity="one">Acum %d an</item>
+        <item quantity="two">Acum %d ani</item>
         <item quantity="few">Acum %d ani</item>
+        <item quantity="many">Acum %d de ani</item>
     </plurals>
 </resources>

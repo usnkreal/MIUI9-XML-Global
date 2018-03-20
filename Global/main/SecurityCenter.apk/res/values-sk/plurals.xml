@@ -111,10 +111,10 @@ Ak znova zapnete mobilné dáta, váš operátor vám môže účtovať ďalšie
         <item quantity="many">Našlo sa %d aplikácie</item>
     </plurals>
     <plurals name="network_restrict_count">
-        <item quantity="other">"Sieťový prístup je obmedzený pre &lt;font color='#ff0000'>%d&lt;/font> aplikácií"</item>
-        <item quantity="one">"Sieťový prístup je obmedzený pre &lt;font color='#ff0000'>%d&lt;/font> aplikáciu"</item>
-        <item quantity="few">"Sieťový prístup je obmedzený pre &lt;font color='#ff0000'>%d&lt;/font> aplikácie"</item>
-        <item quantity="many">"Sieťový prístup je obmedzený pre &lt;font color='#ff0000'>%d&lt;/font> aplikácie"</item>
+        <item quantity="other">"Sieťový prístup je obmedzený pre &amp;lt;font color='#ff0000'>%d&amp;lt;/font> aplikácií"</item>
+        <item quantity="one">"Sieťový prístup je obmedzený pre &amp;lt;font color='#ff0000'>%d&amp;lt;/font> aplikáciu"</item>
+        <item quantity="few">"Sieťový prístup je obmedzený pre &amp;lt;font color='#ff0000'>%d&amp;lt;/font> aplikácie"</item>
+        <item quantity="many">"Sieťový prístup je obmedzený pre &amp;lt;font color='#ff0000'>%d&amp;lt;/font> aplikácie"</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
         <item quantity="other">%d aplikácie nefungujú správne a znižujú výdrž batérie</item>

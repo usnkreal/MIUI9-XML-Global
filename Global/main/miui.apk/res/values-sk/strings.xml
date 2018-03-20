@@ -25,6 +25,7 @@
     <string name="deselect_all">Zrušiť výber</string>
     <string name="instruction">Inštrukcie</string>
     <string name="sar">Informácie o vystavení vysokofrekvenčnému(VF) žiareniu</string>
+    <string name="user_experience_program">User Experience Program</string>
     <string name="abc_action_bar_up_description">Nahor</string>
     <string name="abc_action_bar_home_description">Domov</string>
     <string name="time_picker_label_hour">H</string>

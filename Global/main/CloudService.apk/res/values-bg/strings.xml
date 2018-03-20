@@ -176,8 +176,7 @@
     <string name="micloud_user_space_usage">Използвано</string>
     <string name="micloud_web_discription_01">Влезте на i.mi.com</string>
     <string name="micloud_web_discription_02">за съхраняване и достъп до вашите файлове отвсякъде</string>
-    <string name="micloud_web_discription">Посетете i.mi.com</string>
-    <string name="micloud_web_discription_international">Посетете www.mi.com/micloud</string>
+    <string name="micloud_web_discription_place_holder">Посетете %1$s</string>
     <string name="micloud_full_influence_title">Когато вашият Mi Cloud е пълен…</string>
     <string name="micloud_warn_low_title">Свободното място е на свършване</string>
     <string name="micloud_warn_low_sum">Вашият Mi Cloud е на 90% пълен.</string>

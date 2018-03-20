@@ -199,6 +199,9 @@ http://zhushou.xiaomi.com"</string>
     <string name="confirm_local_package_wipe_title">Supprimer les données ?</string>
     <string name="confirm_local_package_wipe_msg">Vos données personnelles seront supprimées. Assurez-vous de sauvegarder tout ce dont vous avez besoin avant de procéder.</string>
     <string name="confirm_local_package_wipe_btn">Supprimer et mettre à jour</string>
+    <string name="file_path_error_title">Incorrect path</string>
+    <string name="file_path_error_msg">Make sure the path to the update package contains only letters and numbers.</string>
+    <string name="file_path_error_btn">Got it</string>
     <string name="delay_update_text">Mettre à jour ce soir</string>
     <string name="dialog_delay_update_title">Mise à jour disponible</string>
     <string name="dialog_delay_update_msg">Les mises à jour seront installées entre 2:00 et 5:00 du matin si la batterie est chargée à au moins 30%.</string>
@@ -317,7 +320,7 @@ Impossible d'envoyer le retour"</string>
     <string name="accessibility_video">Vidéo</string>
     <string name="accessibility_image">Image</string>
     <string name="security_space_title">Mise à jour importante</string>
-    <string name="security_space_msg">MIUI 9 a un nouveau système de fichiers. Si vous redémarrez votre appareil maintenant, vous ne pourrez peut-être plus utiliser Second espace. Déplacez tous les éléments du second espace vers le premier espace avant de redémarrer.</string>
+    <string name="security_space_msg">MIUI 9 a un nouveau système de fichiers. Si vous redémarrez votre appareil maintenant, vous ne pourrez peut-être plus utiliser le second espace. Déplacez tous les éléments du second espace vers le premier espace avant de redémarrer.</string>
     <string name="security_space_button_pos">Ne pas redémarrer</string>
     <string name="security_space_button_neg">Redémarrer maintenant</string>
     <string name="privacy_revoke_msg">"Mise à jour vous permet de garder MIUI et ses fonctionnalités à jour. Après avoir révoqué l'autorisation, l'application arrêtera de collecter les données et toutes les données associées (y compris les données sur les appareils nécessitant des mises à jour) seront supprimées de cet appareil et des serveurs. Refuser de mettre à jour votre appareil peut entraîner des risques de sécurité. Révoquer l'autorisation quand même ?"</string>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="notification_new_messages">
+        <item quantity="other">Нови съобщения</item>
+        <item quantity="one">Ново съобщение</item>
+    </plurals>
     <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
         <item quantity="other">Покани ви в Hangout с още %1$d души</item>
         <item quantity="one">Покани ви в Hangout с още %1$d човек</item>
@@ -12,17 +16,9 @@
         <item quantity="other">с още %1$d души</item>
         <item quantity="one">с още %1$d човек</item>
     </plurals>
-    <plurals name="gallery_picker_max_image_count_reached_message">
-        <item quantity="other">Можете да изберете най-много %d прикачени изображения.</item>
-        <item quantity="one">Можете да изберете най-много 1 прикачено изображение.</item>
-    </plurals>
-    <plurals name="gallery_picker_max_video_count_reached_message">
-        <item quantity="other">Можете да изберете най-много %d прикачени видеоклипа.</item>
-        <item quantity="one">Можете да изберете най-много 1 прикачен видеоклип.</item>
-    </plurals>
-    <plurals name="watermark_gallery_label">
-        <item quantity="other">Видяно от %s</item>
-        <item quantity="one">Видяно от %s</item>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">Можете да изберете най-много %d прикачени файла.</item>
+        <item quantity="one">Можете да изберете най-много 1 прикачен файл.</item>
     </plurals>
     <plurals name="num_minutes_in_the_past">
         <item quantity="other">%d мин</item>
@@ -159,6 +155,10 @@
     <plurals name="dnd_minutes">
         <item quantity="other">%d минути</item>
         <item quantity="one">1 минута</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">Видяно от %s</item>
+        <item quantity="one">Видяно от %s</item>
     </plurals>
     <plurals name="focus_gallery_label">
         <item quantity="other">%s прочетоха всички съобщения.</item>

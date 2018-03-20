@@ -40,7 +40,7 @@ Megjegyzés: a telepített alkalmazások adatai nem lesznek elmentve a Mi Cloudb
     <string name="cloud_app_restore_error">Nem állítható vissza</string>
     <string name="cloud_app_restore_success">Alkalmazások visszaállítva</string>
     <string name="cloud_app_backup_success">Alkalmazások mentése sikeres</string>
-    <string name="cloud_app_check_data">Ellenőrzés …</string>
+    <string name="cloud_app_check_data">Kapcsolatfelvétel a Mi Clouddal…</string>
     <string name="cloud_app_no_network">Nem sikerült kapcsolódni a hálózathoz</string>
     <string name="button_delete">Törlés</string>
     <string name="customization"><u>Testreszabás</u></string>

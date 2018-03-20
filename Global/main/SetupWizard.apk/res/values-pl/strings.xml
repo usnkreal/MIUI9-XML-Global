@@ -28,12 +28,9 @@
     <string name="common_signin_button_text">Zaloguj się</string>
     <string name="common_signin_button_text_long">Zaloguj się przez Google</string>
     <string name="common_open_on_phone">Otwórz na telefonie</string>
-    <string name="suw_next_button_label">Dalej</string>
-    <string name="suw_back_button_label">Wstecz</string>
-    <string name="suw_more_button_label">Więcej</string>
-    <string name="setup_wizard_title">Kreator konfiguracji</string>
     <string name="setup_wizard_next_button_label">Dalej</string>
     <string name="setup_wizard_back_button_label">Wstecz</string>
+    <string name="setup_wizard_title">Kreator konfiguracji</string>
     <string name="setup_wizard_services_activity_title">Usługi Google</string>
     <string name="setup_wizard_services_description">Dzięki tym usługom Google pracuje dla Ciebie. Możesz je w każdej chwili włączyć lub wyłączyć. Dane będą używane zgodnie z <annotation id="google_privacy">Polityką prywatności</annotation> Google.</string>
     <string name="setup_wizard_services_backup_restore_heading">Tworzenie i przywracanie kopii zapasowej</string>
@@ -43,20 +40,44 @@
     <string name="setup_wizard_services_backup_restore"><b>Utwórz kopie zapasowe aplikacji i ich danych, ustawień, osobistych słowników i haseł Wi-Fi</b>, korzystając ze swojego konta Google, aby w przyszłości móc łatwo je przywrócić.</string>
     <string name="setup_wizard_services_backup_restore_footnote">Dane obejmują aplikacje, ustawienia aplikacji i systemu oraz hasła Wi‑Fi.</string>
     <string name="setup_wizard_services_backup_restore_dialog_text">Gdy włączysz automatyczne tworzenie kopii zapasowej, dane z urządzenia będą okresowo zapisywane na Twoim koncie Google. Kopie zapasowe mogą zawierać informacje z folderów danych aplikacji, takie jak ustawienia, wiadomości, zdjęcia i inne pliki.</string>
-    <string name="setup_wizard_services_location_sharing"><b>Używaj usług lokalizacyjnych Google</b>", by ułatwić aplikacjom rozpoznawać  lokalizację Twojego urządzenia. Wiąże się to z przesyłaniem anonimowych danych o lokalizacji do Google, nawet gdy nie są uruchomione żadne aplikacje. "<annotation id="location_details">Więcej informacji</annotation></string>
-    <string name="setup_wizard_services_location_sharing_dialog_text">Usługi lokalizacyjne Google używają źródeł takich jak sieci Wi‑Fi i komórkowe, by szybciej i dokładniej określać lokalizację Twojego urządzenia. Gdy je włączysz, urządzenie wejdzie w tryb, w którym używa sieci Wi‑Fi i komórkowych do podawania informacji o lokalizacji. Możesz wyłączyć tę funkcję w ustawieniach lokalizacji, wybierając tryb, który używa tylko łączności GPS (nazywany czasem trybem Tylko urządzenie).</string>
-    <string name="setup_wizard_services_location_wifi_scan"><b>Pomagaj ulepszać usługi lokalizacyjne</b>, zezwalając aplikacjom i usługom na skanowanie w poszukiwaniu sieci, nawet przy wyłączonym Wi-Fi.</string>
+    <string name="setup_wizard_services_location_sharing"><b>Użyj usługi lokalizacyjnych Google</b>, by umożliwić aplikacjom rozpoznanie Twojego położenia. Wiąże się to z przesyłaniem anonimowych danych o lokalizacji do Google, nawet gdy nie są uruchomione żadne aplikacje. <annotation id="location_details">Więcej informacji</annotation></string>
+    <string name="setup_wizard_services_location_sharing_dialog_text">Usługi lokalizacyjne Google używają źródeł takich jak sieci Wi‑Fi i komórkowe, by szybciej i dokładniej określać lokalizację Twojego urządzenia. Gdy je włączysz, urządzenie wejdzie w tryb, w którym używa sieci Wi‑Fi i komórkowych do podawania informacji o lokalizacji. Możesz wyłączyć tę funkcję w ustawieniach lokalizacji, wybierając tryb, który używa tylko łączności GPS (nazywany czasem trybem Tylko urządzenie).</string>
+    <string name="setup_wizard_services_location_wifi_scan"><b>Pomóż ulepszyć usługi lokalizacyjne</b>, zezwalając aplikacjom i usługom na skanowanie w poszukiwaniu sieci, nawet przy wyłączonym Wi-Fi.</string>
     <string name="setup_wizard_services_location_footnote">Usługa lokalizacji Google korzysta z Wi‑Fi i innych sygnałów do szybkiego i precyzyjnego ustalania lokalizacji, często zużywając przy tym mniej energii niż GPS. Niektóre dane mogą być zapisywane na urządzeniu. Dane mogą być zbierane, nawet gdy nie są uruchomione żadne aplikacje.</string>
     <string name="setup_wizard_services_play"><b>Informuj mnie</b> o nowościach i ofertach z Google Play.</string>
-    <string name="setup_wizard_services_usage_reporting"><b>Pomagaj ulepszyć Androida</b>, automatycznie wysyłając do Google dane diagnostyczne i dotyczące użytkowania. Nie są one używane do identyfikacji użytkownika. Dane te pomagają zespołom pracować m.in. nad wydłużeniem czasu pracy na baterii, zwiększeniem wydajności aplikacji i nowymi funkcjami Google. <annotation id="usage_reporting_details">Więcej informacji</annotation></string>
-    <string name="setup_wizard_services_usage_reporting_dialog_text">"Są to ogólne informacje o urządzeniu i sposobie jego użytkowania, takie jak poziom naładowania baterii, częstotliwość korzystania z aplikacji, jakość i czas trwania połączeń sieciowych (komórkowych, Wi-Fi i Bluetooth) oraz raporty o problemach. Posłużą one do ulepszania produktów i usług Google dla wszystkich użytkowników i nie będą powiązane z Twoim kontem Google. Niektóre zagregowane informacje pomogą również w ulepszaniu aplikacji i produktów naszym partnerom (np. programistom aplikacji na Androida).
+    <string name="setup_wizard_services_usage_reporting"><b>Pomóż ulepszyć Androida</b>, automatycznie wysyłając do Google dane diagnostyczne i o użytkowaniu. Nie użyjemy ich do identyfikacji Ciebie. Dane pomogą zespołom pracującym nad wydłużeniem czasu pracy na baterii, zwiększeniem wydajności aplikacji i nowymi funkcjami Google. <annotation id="usage_reporting_details">Więcej informacji</annotation></string>
+    <string name="setup_wizard_services_usage_reporting_dialog_text">"Są to ogólne informacje o urządzeniu i sposobie jego użytkowania, takie jak poziom naładowania baterii, częstotliwość korzystania z aplikacji, jakość i czas trwania połączeń sieciowych (komórkowych, Wi-Fi i Bluetooth) oraz raporty o problemach. Posłużą one do ulepszania produktów i usług dla wszystkich użytkowników i nie będą powiązane z Twoim kontem Google. Niektóre zagregowane informacje pomogą również w ulepszaniu aplikacji i produktów naszym partnerom (np. programistom aplikacji na Androida).
 
-W każdej chwili możesz wyłączyć lub włączyć tę funkcję w aplikacji Ustawienia Google. To ustawienie nie wpływa na możliwość wysyłania przez urządzenie informacji potrzebnych do używania podstawowych usług, takich jak aktualizacje systemu i zabezpieczenia."</string>
+W każdej chwili możesz wyłączyć lub włączyć tę funkcję w aplikacji Ustawienia Google. Nie wpływa ona na możliwość wysyłania przez urządzenie informacji potrzebnych do używania podstawowych usług, takich jak aktualizacje systemu i zabezpieczenia."</string>
     <string name="setup_wizard_services_agreement">Telefon może również otrzymywać i instalować aktualizacje i aplikacje od Google, Twojego operatora i producenta telefonu. Jeśli przejdziesz dalej, mogą zostać pobrane i zainstalowane niektóre aplikacje. Możesz je zawsze usunąć.</string>
     <string name="default_device_name">Android</string>
+    <string name="welcome_message">Witamy</string>
+    <string name="welcome_secondary_user_added_text">%s dodał(a) Cię do tego telefonu.</string>
+    <string name="welcome_secondary_user_added_no_owner_name_text">Dodano Cię do tego telefonu.</string>
+    <string name="welcome_secondary_user_info_text">"Po zakończeniu konfiguracji możesz normalnie korzystać z aplikacji i instalować nowe.
+
+"<b>Ważne:</b>"
+
+"<li><ul>Właściciel telefonu może odinstalować Twoje aplikacje lub zupełnie wyczyścić używane przez Ciebie miejsce.</ul></li>"
+
+"<li><ul>Dowolny użytkownik może w Twoim imieniu zaakceptować zaktualizowane uprawnienia aplikacji.</ul></li>"
+
+"<li><ul>Tak jak w przypadku komputera, udostępniaj telefon tylko tym osobom, którym ufasz.</ul></li></string>
+    <string name="welcome_limited_user_info_text">" 
+"<b>Ważne:</b>"
+
+ "<li><ul>Właściciel telefonu może instalować i odinstalowywać aplikacje, określać limity oraz zupełnie usunąć używane przez Ciebie miejsce.</ul></li>"
+
+ "<li><ul>Dowolny użytkownik może w Twoim imieniu zaakceptować zaktualizowane uprawnienia aplikacji.</ul></li>"
+
+ "<li><ul>Tak jak w przypadku komputera, udostępniaj telefon tylko tym osobom, którym ufasz. </ul></li></string>
+    <string name="welcome_text_edu">Skonfiguruj urządzenie, by korzystać na nim z Google Play dla Szkół i Uczelni</string>
+    <string name="welcome_secondary_user_text_edu">Zakończ zakładanie konta na tym tablecie.</string>
+    <string name="welcome_secondary_user_additional_info_header_edu">Ważne</string>
+    <string name="welcome_secondary_user_additional_info_edu">Z tego tabletu korzystają też inni uczniowie. Gdy założysz konto, zabezpiecz je PIN-em, by chronić efekty swojej pracy.</string>
     <string name="finish_button_label">Zakończ</string>
     <string name="skip_button_label">Pomiń</string>
-    <string name="skip_anyway_button_label">Pomiń mimo to</string>
+    <string name="skip_anyway_button_label">Pomiń mimo wszystko</string>
     <string name="dont_skip_button_label">Nie pomijaj</string>
     <string name="down_button_label">Więcej</string>
     <string name="cancel_button_label">Anuluj</string>
@@ -64,9 +85,8 @@ W każdej chwili możesz wyłączyć lub włączyć tę funkcję w aplikacji Us
     <string name="try_again_button_label">Spróbuj ponownie</string>
     <string name="close_button_label">Zamknij</string>
     <string name="got_it_button_label">OK</string>
-    <string name="ok_button_label">OK</string>
     <string name="google_legal_title">Informacje prawne Google</string>
-    <string name="url_load_unsuccessful_message">Telefon nie jest połączony z komórkową usługą transmisji danych. Aby wyświetlić te informacje teraz, otwórz w przeglądarce stronę: %s.</string>
+    <string name="url_load_unsuccessful_message">Telefon nie jest połączony z komórkową usługą transmisji danych. Aby wyświetlić te informacje teraz, wejdź za pomocą przeglądarki na %s.</string>
     <string name="start">Rozpocznij</string>
     <string name="wait_msg">Chwileczkę...</string>
     <string name="skip_toast">Kreator konfiguracji został pominięty</string>
@@ -133,7 +153,13 @@ Po wyłączeniu telefonu naciśnij przycisk zasilania, aby ponownie uruchomić u
     <string name="date_time_message">Zmień w razie potrzeby.</string>
     <string name="date_time_current_date">Data</string>
     <string name="date_time_current_time">Godzina</string>
-    <string name="date_time_time_zone_full" formatted="false">%s (%s)</string>
+    <string name="location_sharing_title">Google i lokalizacja</string>
+    <string name="tos_title">Usługi Google</string>
+    <string name="tos_agreement_text">Telefon może również otrzymywać i instalować aktualizacje od Google. Kontynuując, wyrażasz zgodę na <annotation id="tos">Warunki korzystania z usług Google</annotation> i <annotation id="google_privacy">Politykę prywatności</annotation>.</string>
+    <string name="tos_agreement_text_germany">Zgadzasz się, by urządzenie otrzymywało i instalowało aktualizacje od Google. Podczas korzystania z urządzenia obowiązuje nasza <annotation id="google_privacy">Polityka prywatności</annotation> i <annotation id="tos">warunki dodatkowe</annotation>.</string>
+    <string name="setup_complete_title">Konfiguracja ukończona</string>
+    <string name="setup_complete_message">Twój telefon jest skonfigurowany i gotowy do użycia.</string>
+    <string name="backup_assistant_prompt">Uruchom Asystenta kopii zapasowej Verizon, aby przywrócić kontakty z innego telefonu Verizon.</string>
     <string name="sim_missing_title">Włóż kartę SIM</string>
     <string name="sim_setup_title">Skonfiguruj karty SIM</string>
     <string name="sim_setup_select_data">Wybierz kartę SIM do komórkowej transmisji danych</string>
@@ -146,9 +172,9 @@ Po wyłączeniu telefonu naciśnij przycisk zasilania, aby ponownie uruchomić u
 
 Telefon nie będzie mieć połączenia z internetem.
 
-Nie będzie można pobrać aktualizacji oprogramowania, dopóki nie połączysz się z internetem.
+Nie będziesz można pobrać aktualizacji oprogramowania, dopóki nie połączysz się z internetem.
 
-Nie możesz włączyć funkcji ochrony urządzenia."</string>
+Nie możesz obecnie włączyć funkcji ochrony urządzenia."</string>
     <string name="walled_garden_connection_failed">Trwa to zbyt długo? Spróbuj cofnąć się i połączyć z inną siecią.</string>
     <string name="walled_garden_connection_unsuccessful">Nie udało się połączyć z internetem</string>
     <string name="ota_update_title">Aktualizuj telefon</string>
@@ -162,8 +188,8 @@ Nie możesz włączyć funkcji ochrony urządzenia."</string>
     <string name="warm_sim_check_msg">Czekam na sieć</string>
     <string name="sign_in_agreement">Logując się, akceptujesz <annotation id="tos">Warunki korzystania z usług</annotation> i <annotation id="google_privacy">Politykę Prywatności</annotation> Google oraz <annotation id="play_tos">Warunki korzystania z Google Play</annotation>.</string>
     <string name="android_privacy_policy_title">Dodatkowa polityka prywatności</string>
-    <string name="google_terms_of_service_title">Warunki korzystania z usług Google</string>
-    <string name="google_privacy_policy_title">Polityka prywatności Google</string>
+    <string name="google_terms_of_service_title">Warunki korzystania z usług firmy Google</string>
+    <string name="google_privacy_policy_title">Polityka prywatności firmy Google</string>
     <string name="google_plus_privacy_policy_title">Polityka prywatności Google Plus</string>
     <string name="google_play_tos_title">Warunki korzystania z Google Play</string>
     <string name="chrome_tos_title">Warunki korzystania z Chrome</string>
@@ -172,27 +198,19 @@ Nie możesz włączyć funkcji ochrony urządzenia."</string>
     <string name="continue_for_a11y">Aby włączyć tryb ułatwień dostępu, dotykaj ekran, aż usłyszysz sygnał dźwiękowy.</string>
     <string name="canceled_a11y">Wyłączono tryb ułatwień dostępu.</string>
     <string name="enabled_a11y">Włączono tryb ułatwień dostępu.</string>
-    <string name="welcome_message">Witamy</string>
-    <string name="emergency_dial">Alarmowe</string>
-    <string name="welcome_language_picker_dialog_title">Wybierz język</string>
-    <string name="welcome_language_picker_section_suggested">Proponowane</string>
-    <string name="welcome_language_picker_section_all">Wszystkie języki</string>
+    <string name="emergency_dial">Połączenie alarmowe</string>
     <string name="welcome_language_picker_content_description">Język: %s</string>
-    <string name="lock_screen_intro_title">Zabezpiecz telefon</string>
-    <string name="lock_screen_intro_text">Włącz funkcje ochrony urządzenia, aby zablokować innym możliwość używania tego urządzenia bez Twojej zgody. <annotation id="learn_more">Więcej informacji</annotation></string>
-    <string name="lock_screen_intro_text_secondary">Jeśli wybierzesz Tak, wyświetlą się instrukcje konfigurowania ekranu blokady.</string>
-    <string name="lock_screen_intro_check_box"><b>Zabezpiecz to urządzenie</b>, wymagając kodu PIN, wzoru lub hasła do odblokowania ekranu</string>
-    <string name="lock_screen_intro_radio_fingerprint">Ustaw odcisk palca</string>
-    <string name="lock_screen_intro_radio_generic">Ustaw PIN, wzorzec lub hasło</string>
-    <string name="lock_screen_intro_radio_no">Nie, dziękuję</string>
-    <string name="lock_screen_intro_success">"Ekran blokady został pomyślnie skonfigurowany.
+    <string name="lock_screen_intro_title">Zabezpiecz swój telefon</string>
+    <string name="lock_screen_intro_text">"Zablokuj innym możliwość używania telefonu bez Twojej zgody, włączając funkcje ochrony urządzenia.
 "<annotation id="learn_more">Więcej informacji</annotation></string>
-    <string name="lock_screen_intro_dialog_text_frp">"Ochrona urządzenia włącza się automatycznie, gdy dodasz konto Google i ustawisz blokadę ekranu. Razem z Menedżerem urządzeń Android pozwala zlokalizować zgubiony lub skradziony telefon i wykasować z niego dane.
+    <string name="lock_screen_intro_text_secondary">Jeśli wybierzesz Tak, zostaną wyświetlone instrukcje konfigurowania ekranu blokady.</string>
+    <string name="lock_screen_intro_check_box"><b>Zabezpiecz to urządzenie</b>, wymagając kodu PIN, wzoru lub hasła do odblokowania ekranu</string>
+    <string name="lock_screen_intro_button">Skonfiguruj teraz blokadę ekranu</string>
+    <string name="lock_screen_intro_success">Ekran blokady został skonfigurowany.</string>
+    <string name="lock_screen_intro_dialog_text">"Ochrona urządzenia jest włączana automatycznie po dodaniu konta Google i skonfigurowaniu blokady ekranu. W połączeniu z Menedżerem urządzeń Android umożliwia Ci zlokalizowanie i wyczyszczenie telefonu oraz zabezpieczenie go przed dalszym używaniem w przypadku jego zgubienia lub kradzieży.
 
-Nawet po wymazaniu zawartości telefonu nikt nie będzie mógł go używać bez podania hasła do Twojego konta Google."</string>
-    <string name="lock_screen_intro_dialog_text">Ochrona urządzenia włącza się automatycznie, gdy dodasz konto Google i ustawisz blokadę ekranu. Razem z Menedżerem urządzeń Android pozwala zlokalizować zgubiony lub skradziony telefon i wykasować z niego dane.</string>
-    <string name="lock_screen_intro_skip_dialog_text_frp">Funkcje ochrony urządzenia nie zostaną włączone. Nie będzie można zablokować innym możliwości używania tego telefonu w przypadku jego zgubienia, kradzieży lub wyczyszczenia.</string>
-    <string name="lock_screen_intro_skip_dialog_text">Funkcje ochrony urządzenia nie zostaną włączone. Nie będzie można zablokować innym możliwości używania tego telefonu w przypadku jego zgubienia lub kradzieży.</string>
+Nawet po wyczyszczeniu telefonu nikt nie będzie mógł go używać bez podania hasła do Twojego konta Google."</string>
+    <string name="lock_screen_intro_skip_dialog_text">Funkcje ochrony urządzenia nie zostaną włączone. Nie będzie można zablokować innym możliwości używania tego telefonu w przypadku jego zgubienia, kradzieży lub wyczyszczenia.</string>
     <string name="services_activity_title">Usługi Google</string>
     <string name="services_backup_heading">Kopia zapasowa</string>
     <string name="services_location_heading">Lokalizacja</string>
@@ -204,45 +222,21 @@ Nawet po wymazaniu zawartości telefonu nikt nie będzie mógł go używać bez 
     <string name="restore_wallpaper_title">Przywracam tapetę…</string>
     <string name="restore_device_settings_title">Przywracam ustawienia urządzenia…</string>
     <string name="restore_launcher_title">Przywracam Launcher…</string>
-    <string name="restore_failed_message">Nie udało się przywrócić danych z kopii zapasowej.</string>
-    <string name="restore_no_backup_message">Brak kopii zapasowych z tego urządzenia źródłowego.</string>
-    <string name="restore_stopped_message">Przywracanie danych z kopii zapasowej na tym urządzeniu zostało przerwane.</string>
+    <string name="restore_failed_message">Nie można przywrócić danych z kopii zapasowej</string>
     <string name="name_title">Imię i nazwisko</string>
     <string name="name_text">Podanie imienia i nazwiska pozwala spersonalizować niektóre aplikacje na telefonie.</string>
     <string name="first_name">Imię</string>
     <string name="last_name">Nazwisko</string>
     <string name="cant_be_blank">Pole nie może być puste.</string>
-    <string name="device_owner_warning_title">Telefon może być monitorowany</string>
-    <string name="device_owner_warning">Ten telefon jest zarządzany przez „%1$s”, co oznacza, że niektóre Twoje informacje mogą być widoczne dla innych osób. Aby uchronić się przed monitorowaniem, zresetuj telefon.</string>
-    <string name="device_owner_continue">Dalej</string>
-    <string name="device_owner_reset">Resetuj telefon</string>
-    <string name="factory_reset_title">Resetuj telefon</string>
-    <string name="factory_reset_instructions">Ostrzeżenie: zresetowanie spowoduje wykasowanie wszystkich kont i danych w wewnętrznej pamięci tego telefonu.</string>
-    <string name="factory_reset_confirmation_title">Zresetować?</string>
-    <string name="factory_reset_confirmation">Wykasować wszystkie konta i dane na tym telefonie? Tej czynności nie można cofnąć.</string>
-    <string name="factory_reset_button">Wykasuj i resetuj</string>
-    <string name="restart_setup_wizard_dialog_title">Nie jesteś zalogowany</string>
-    <string name="restart_setup_wizard_dialog_text">"Aby użyć tego telefonu, trzeba zalogować się na konto Google jego właściciela, które było w użyciu, gdy telefon ten był uprzednio resetowany.
-
-Ponieważ tego nie zrobiłeś, musisz ponownie skonfigurować ten telefon."</string>
-    <string name="restart_setup_wizard_button_label">Skonfiguruj telefon</string>
-    <string name="sec_user_continue">Dalej</string>
-    <string name="sec_user_quit">Zamknij</string>
-    <string name="user_warning_title">Utwórz nowego użytkownika</string>
-    <string name="welcome_secondary_user_added_text">%s dodał(a) Cię do tego telefonu.</string>
-    <string name="welcome_secondary_user_added_no_owner_name_text">Dodano Cię do tego telefonu.</string>
-    <string name="welcome_secondary_user_info_text"><b>Ważne:</b>"
-
-"<li><ul>Właściciel telefonu może usuwać Twoje aplikacje oraz całkowicie zablokować Ci dostęp.</ul></li>"
-
-"<li><ul>Każdy inny użytkownik może akceptować zaktualizowane uprawnienia aplikacji w Twoim imieniu.</ul></li>"
-
-"<li><ul>Tak jak w przypadku komputera, korzystaj z tego telefonu tylko z osobami, którym ufasz.</ul></li></string>
-    <string name="welcome_limited_user_info_text">" "<b>Ważne:</b>"
-
- "<li><ul>Właściciel telefonu może instalować i usuwać aplikacje, ustawiać ograniczenia oraz całkowicie zablokować Ci dostęp.</ul></li>"
-
- "<li><ul>Każdy inny użytkownik może akceptować zaktualizowane uprawnienia aplikacji w Twoim imieniu.</ul></li>"
-
- "<li><ul>Tak jak w przypadku komputera, korzystaj z tego telefonu tylko z osobami, którym ufasz. </ul></li></string>
+    <string name="lock_pin_confirm_your_pin_header">Potwierdź kod PIN</string>
+    <string name="lock_pin_choose_your_pin_header">Wybierz kod PIN</string>
+    <string name="lock_pin_ok_label">OK</string>
+    <string name="lock_pin_cancel_label">Anuluj</string>
+    <string name="lock_pin_press_continue">Gdy skończysz, kliknij Dalej</string>
+    <string name="lock_pin_too_short">Kod PIN musi mieć co najmniej %d cyfr(y)</string>
+    <string name="lock_pin_too_long">Kod PIN musi mieć mniej niż %d cyfr(y).</string>
+    <string name="lock_pin_illegal_character">Hasło zawiera niedozwolony znak.</string>
+    <string name="lock_pin_contains_non_digits">Kod PIN musi zawierać tylko cyfry 0-9.</string>
+    <string name="lock_pin_confirm_pins_dont_match">Kody PIN nie są identyczne</string>
+    <string name="lock_pin_continue_label">Dalej</string>
 </resources>

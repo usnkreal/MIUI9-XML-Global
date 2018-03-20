@@ -4,11 +4,10 @@
     <string name="more_options_button">Ďalšie možnosti</string>
     <string name="label_destination">Cieľ</string>
     <string name="label_copies">Kópie</string>
-    <string name="label_copies_summary">Kópie:</string>
+    <string name="label_copies_summary">Počet kópií:</string>
     <string name="label_paper_size">Veľkosť papiera</string>
     <string name="label_paper_size_summary">Veľkosť papiera:</string>
     <string name="label_color">Farba</string>
-    <string name="label_duplex">Obojstranné</string>
     <string name="label_orientation">Orientácia</string>
     <string name="label_pages">Strany</string>
     <string name="template_all_pages">Všetky: %1$s</string>
@@ -30,7 +29,7 @@
     <string name="savetopdf_button">Uložiť do súboru PDF</string>
     <string name="print_options_expanded">Možnosti tlače sú rozbalené</string>
     <string name="print_options_collapsed">Možnosti tlače sú zbalené</string>
-    <string name="search">Hľadať</string>
+    <string name="search">VYHĽADÁVANIE</string>
     <string name="all_printers_label">Všetky tlačiarne</string>
     <string name="add_print_service_label">Pridať službu</string>
     <string name="print_search_box_shown_utterance">Vyhľadávacie pole sa zobrazuje</string>

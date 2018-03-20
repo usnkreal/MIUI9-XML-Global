@@ -199,6 +199,9 @@ http://zhushou.xiaomi.com"</string>
     <string name="confirm_local_package_wipe_title">Vymazat data?</string>
     <string name="confirm_local_package_wipe_msg">Vaše uživatelská data budou vymazána. Ujistěte se, že máte zálohována všechna důležitá data.</string>
     <string name="confirm_local_package_wipe_btn">Vymazat a aktualizovat</string>
+    <string name="file_path_error_title">Nesprávná cesta</string>
+    <string name="file_path_error_msg">Ujistěte se, že název cesty k aktualizačnímu balíčku obsahuje pouze písmena a čísla.</string>
+    <string name="file_path_error_btn">Rozumím</string>
     <string name="delay_update_text">Aktualizovat dnes v noci</string>
     <string name="dialog_delay_update_title">Dostupná aktualizace</string>
     <string name="dialog_delay_update_msg">Aktualizace budou nainstalovány mezi 2:00 a 5:00 hodinou ranní, pokud bude baterie nabita alespoň na 30 %.</string>

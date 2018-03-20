@@ -73,8 +73,8 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
         <item quantity="one">%d apper funnet</item>
     </plurals>
     <plurals name="network_restrict_count">
-        <item quantity="other">"Nettverkstilgangen er begrenset for &lt;font color='#ff0000'>%d:&lt;/font> apper"</item>
-        <item quantity="one">"Nettverkstilgangen er begrenset for &lt;font color='#ff0000'>%d:&lt;/font> app"</item>
+        <item quantity="other">"Nettverkstilgangen er begrenset for &amp;lt;font color='#ff0000'>%d:&amp;lt;/font> apper"</item>
+        <item quantity="one">"Nettverkstilgangen er begrenset for &amp;lt;font color='#ff0000'>%d:&amp;lt;/font> app"</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
         <item quantity="other">%d apper fungerer ikke ordentlig og tømmer batteri</item>

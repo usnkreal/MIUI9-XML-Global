@@ -133,9 +133,9 @@
         <item quantity="many">Nie używana przez %d lat</item>
     </plurals>
     <plurals name="resutl_function_install_app_summary">
-        <item quantity="other">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> aplikacji nie były używanych od dłuższego czasu, sprawdź czy nadal ich potrzebujesz.;&lt;/Data></item>
-        <item quantity="one">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> aplikacja nie była używana od dłuższego czasu, sprawdź czy nadal jej potrzebujesz.;&lt;/Data></item>
-        <item quantity="few">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> aplikacje nie były używane od dłuższego czasu, sprawdź czy nadal ich potrzebujesz.;&lt;/Data></item>
-        <item quantity="many">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> aplikacji nie były używanych od dłuższego czasu, sprawdź czy nadal ich potrzebujesz.;&lt;/Data></item>
+        <item quantity="other">&lt;Data>&amp;lt;font color=#ff0000 >%d&amp;lt;/font> aplikacji nie były używanych od dłuższego czasu, sprawdź czy nadal ich potrzebujesz.;&lt;/Data></item>
+        <item quantity="one">&lt;Data>&amp;lt;font color=#ff0000 >%d&amp;lt;/font> aplikacja nie była używana od dłuższego czasu, sprawdź czy nadal jej potrzebujesz.;&lt;/Data></item>
+        <item quantity="few">&lt;Data>&amp;lt;font color=#ff0000 >%d&amp;lt;/font> aplikacje nie były używane od dłuższego czasu, sprawdź czy nadal ich potrzebujesz.;&lt;/Data></item>
+        <item quantity="many">&lt;Data>&amp;lt;font color=#ff0000 >%d&amp;lt;/font> aplikacji nie były używanych od dłuższego czasu, sprawdź czy nadal ich potrzebujesz.;&lt;/Data></item>
     </plurals>
 </resources>

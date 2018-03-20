@@ -65,7 +65,6 @@
         <item>תדירות שימוש</item>
         <item>שימוש באחסון</item>
         <item>מועד ההתקנה</item>
-        <item>יישומים הניתנים להסרה</item>
     </string-array>
     <string-array name="sort_title">
         <item>מיון לפי סטטוס</item>
@@ -73,7 +72,6 @@
         <item>מיון לפי תדירות שימוש</item>
         <item>מיון לפי שימוש באחסון</item>
         <item>מיון על פי מועד ההתקנה</item>
-        <item>הצג יישומים הניתנים להסרה בראש</item>
     </string-array>
     <string-array name="key_app_info">
         <item>install_source</item>

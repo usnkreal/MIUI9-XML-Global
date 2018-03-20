@@ -4,11 +4,6 @@
         <item>Svart og hvitt</item>
         <item>Farge</item>
     </string-array>
-    <string-array name="duplex_mode_labels">
-        <item>Ingen</item>
-        <item>Langsiden</item>
-        <item>Kortsiden</item>
-    </string-array>
     <string-array name="orientation_labels">
         <item>Stående</item>
         <item>Liggende</item>

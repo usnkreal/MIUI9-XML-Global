@@ -199,6 +199,9 @@ http://zhushou.xiaomi.com"</string>
     <string name="confirm_local_package_wipe_title">למחוק נתונים?</string>
     <string name="confirm_local_package_wipe_msg">נתוניך האישיים ימחקו. ודא גבוי של נתונים שתרצה לשמור לפני שתמשיך.</string>
     <string name="confirm_local_package_wipe_btn">מחיקה ועדכון</string>
+    <string name="file_path_error_title">Incorrect path</string>
+    <string name="file_path_error_msg">Make sure the path to the update package contains only letters and numbers.</string>
+    <string name="file_path_error_btn">Got it</string>
     <string name="delay_update_text">עדכן הלילה</string>
     <string name="dialog_delay_update_title">קיים עדכון זמין</string>
     <string name="dialog_delay_update_msg">העדכונים יותקנו בין 2:00 ל-5:00 לפנות בוקר בתנאי שהסוללה מלאה ב-30% לפחות.</string>

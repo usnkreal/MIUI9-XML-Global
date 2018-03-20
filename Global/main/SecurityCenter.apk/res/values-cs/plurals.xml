@@ -111,10 +111,10 @@ If you turn on mobile data again, your carrier may charge you for additional dat
         <item quantity="many">%d apps found</item>
     </plurals>
     <plurals name="network_restrict_count">
-        <item quantity="other">"Přístup k síti byl zakázán pro &lt;font color='#ff0000'>%d&lt;/font> aplikací"</item>
-        <item quantity="one">"Přístup k síti byl zakázán pro &lt;font color='#ff0000'>%d&lt;/font> aplikaci"</item>
-        <item quantity="few">"Přístup k síti byl zakázán pro &lt;font color='#ff0000'>%d&lt;/font> aplikace"</item>
-        <item quantity="many">"Network access is restricted for &lt;font color='#ff0000'>%d&lt;/font> apps"</item>
+        <item quantity="other">"Přístup k síti byl zakázán pro &amp;lt;font color='#ff0000'>%d&amp;lt;/font> aplikací"</item>
+        <item quantity="one">"Přístup k síti byl zakázán pro &amp;lt;font color='#ff0000'>%d&amp;lt;/font> aplikaci"</item>
+        <item quantity="few">"Přístup k síti byl zakázán pro &amp;lt;font color='#ff0000'>%d&amp;lt;/font> aplikace"</item>
+        <item quantity="many">"Network access is restricted for &amp;lt;font color='#ff0000'>%d&amp;lt;/font> apps"</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
         <item quantity="other">%d aplikací nefunguje správně a vybíjí tak baterii</item>

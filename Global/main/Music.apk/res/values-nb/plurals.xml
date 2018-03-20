@@ -75,16 +75,16 @@ total %2$d sang"</item>
         <item quantity="one">Slett %d sang fra Mi Cloud? Den vil også bli slettet fra lokal spilleliste.</item>
     </plurals>
     <plurals name="download_finished">
-        <item quantity="other">&lt;font color=\"red\">%d songs&lt;/font> lastet ned</item>
-        <item quantity="one">&lt;font color==\"red\">%d song&lt;/font> lastet ned</item>
+        <item quantity="other">&amp;lt;font color=\"red\">%d songs&amp;lt;/font> lastet ned</item>
+        <item quantity="one">&amp;lt;font color==\"red\">%d song&amp;lt;/font> lastet ned</item>
     </plurals>
     <plurals name="download_info_count_deleted_tasks">
         <item quantity="other">%d nedlastinger fjernet</item>
         <item quantity="one">%d nedlastet fjernet</item>
     </plurals>
     <plurals name="download_running">
-        <item quantity="other">&lt;font color=\"red\">%d songs&lt;/font> laster ned</item>
-        <item quantity="one">&lt;font color==\"red\">%d song&lt;/font> laster ned</item>
+        <item quantity="other">&amp;lt;font color=\"red\">%d songs&amp;lt;/font> laster ned</item>
+        <item quantity="one">&amp;lt;font color==\"red\">%d song&amp;lt;/font> laster ned</item>
     </plurals>
     <plurals name="multichoice_title">
         <item quantity="other">%d enheter valgt</item>

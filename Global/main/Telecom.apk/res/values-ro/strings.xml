@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="telecommAppLabel">Gestionare apeluri</string>
-    <string name="userCallActivityLabel">Telefon</string>
+    <string name="telecommAppLabel">Telefon</string>
     <string name="unknown">Necunoscut</string>
     <string name="notification_missedCallTitle">Apel pierdut</string>
     <string name="notification_missedCallsTitle">Apeluri pierdute</string>
@@ -19,19 +18,13 @@
     <string name="respond_via_sms_setting_title_2">Editați răspunsuri rapide</string>
     <string name="respond_via_sms_setting_summary" />
     <string name="respond_via_sms_edittext_dialog_title">Răspuns rapid</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Resetați aplic. prestabilită</string>
     <string name="respond_via_sms_confirmation_format">Mesajul a fost trimis la %s.</string>
-    <string name="enable_account_preference_title">Conturi de apel</string>
-    <string name="outgoing_call_not_allowed_user_restriction">Numai apelurile de urgență sunt permise.</string>
-    <string name="outgoing_call_not_allowed_no_permission">Această aplicație nu poate efectua apeluri fără permisiunea telefonului.</string>
+    <string name="outgoing_call_not_allowed">Acest utilizator nu are permisiunea de a efectua apeluri telefonice către alte numere în afară de cele de urgență</string>
     <string name="outgoing_call_error_no_phone_number_supplied">Pentru a iniția un apel, introduceți un număr valabil.</string>
-    <string name="duplicate_video_call_not_allowed">Nu se pot adăuga mai multe apeluri</string>
-    <string name="video_call_not_allowed_if_tty_enabled">Dezactivați modul TTY pentru a iniția apeluri video.</string>
     <string name="no_vm_number">Numărul de poștă vocală lipsește</string>
     <string name="no_vm_number_msg">Nu există numărul de mesagerie vocală stocat pe cartela SIM.</string>
     <string name="add_vm_number_str">Adaugă număr</string>
-    <string name="change_default_dialer_dialog_title">Setați %s aplicația dvs. telefonică implicită?</string>
-    <string name="change_default_dialer_with_previous_app_set_text">Folosiți %1$s și nu %2$s ca aplicație de telefonie prestabilită?</string>
-    <string name="change_default_dialer_no_previous_app_set_text">Folosiți %s ca aplicație de telefonie prestabilită?</string>
     <string name="test_account_0_label">Q Mobile</string>
     <string name="test_account_1_label">Market Wireless</string>
     <string name="test_account_2_label">Sonoma Circles Talk Plus</string>
@@ -41,21 +34,29 @@
     <string name="test_account_2_short_description">Talk to everyone in your Circles!</string>
     <string name="test_account_3_short_description">Chat with Chat Network users</string>
     <string name="handle_restricted">RESTRICTED</string>
+    <string name="headset_plugin_view_text">Căștile sunt conectate.</string>
+    <string name="headset_plugin_view_title">Căști</string>
     <string name="voice_report_incoming_call">Apel de intrare</string>
     <string name="voice_report_unknown_num">Număr necunoscut</string>
     <string name="incall_error_call_failed">Nu s-a putut efectua apelul.</string>
-    <string name="notification_missedCall_call_back_miui">Apelați</string>
     <string name="dial_vt_fail_prompt">Rețeaua actuală nu suportă VoLTE. Comutați la un apel vocal obișnuit?</string>
     <string name="dial_conference_fail_prompt">Nu se poate apela conferință direct, deoarece rețeaua curentă nu suportă VoLTE.</string>
     <string name="can_not_dial_while_vt_prompt">Nu se poate apela în timp ce un apel video este în proces</string>
     <string name="can_not_dial_vt_while_voice_prompt">Nu se poate efectua un apel video în timp ce un apel vocal este în curs</string>
     <string name="voice_dial_out">Apel voce</string>
+    <string name="notification_missedCall_call_back_miui">Apelați</string>
     <string name="notification_AllMissedCallTitle">Toate apelurile pierdute</string>
     <string name="close">Închide</string>
     <string name="callFailed_simError">Eroare cartelă SIM</string>
     <string name="incall_error_supp_service_unknown">Acest serviciu nu este suportat.</string>
     <string name="incall_error_power_off">Opriți modul avion pentru a face un apel.</string>
+    <string name="userCallActivityLabel">Telefon</string>
     <string name="notification_missedWorkCallTitle">Pierdut apel de la muncă</string>
+    <string name="enable_account_preference_title">Conturi de apel</string>
+    <string name="outgoing_call_not_allowed_user_restriction">Numai apelurile de urgență sunt permise.</string>
+    <string name="outgoing_call_not_allowed_no_permission">Această aplicație nu poate efectua apeluri fără permisiunea telefonului.</string>
+    <string name="duplicate_video_call_not_allowed">Nu se pot adăuga mai multe apeluri</string>
+    <string name="change_default_dialer_dialog_title">Setați %s aplicația dvs. telefonică implicită?</string>
     <string name="change_default_dialer_dialog_affirmative">Setați aplicația dvs. telefonică implicită</string>
     <string name="change_default_dialer_dialog_negative">Anulează</string>
     <string name="change_default_dialer_warning_message">%sva putea plasa și controla toate aspectele legate de apeluri. Numai aplicațiile în care aveți încredere ar trebui să fie setate ca aplicație telefonică implicită.</string>
@@ -78,6 +79,4 @@
     <string name="blocked_numbers_number_already_blocked_message">%1$s este deja blocat.</string>
     <string name="toast_personal_call_msg">Utilizați apel personalizat</string>
     <string name="toast_make_video_call_failed">Nu se poate suna video. Numărul format este incorect.</string>
-    <string name="headset_plugin_view_text">Căștile sunt conectate.</string>
-    <string name="headset_plugin_view_title">Căști</string>
 </resources>

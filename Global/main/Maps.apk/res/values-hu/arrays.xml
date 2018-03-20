@@ -24,7 +24,13 @@
         <item>Drága</item>
         <item>Nagyon drága</item>
     </string-array>
-    <array name="RESTRICTION_ALLOWED_PRICE_LEVEL_SHORT" />
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_SHORT">
+        <item>Minden ár</item>
+        <item>$</item>
+        <item>$$</item>
+        <item>$$$</item>
+        <item>$$$$</item>
+    </string-array>
     <string-array name="RESTRICTION_ALLOWED_STARS">
         <item>Bármelyik</item>
         <item>2.0</item>
@@ -37,7 +43,12 @@
         <item>Három vagy több csillag</item>
         <item>Négy vagy több csillag</item>
     </string-array>
-    <array name="RESTRICTION_ALLOWED_STARS_SHORT" />
+    <string-array name="RESTRICTION_ALLOWED_STARS_SHORT">
+        <item>Minden értékelés</item>
+        <item>Értékelés: 2+</item>
+        <item>Értékelés: 3+</item>
+        <item>Értékelés: 4+</item>
+    </string-array>
     <string-array name="RESTRICTION_HOTEL_CLASSES">
         <item>Bármely</item>
         <item>3 csillag</item>

@@ -14,6 +14,42 @@
         <item>Épicerie ou supermarché</item>
         <item>Autre</item>
     </string-array>
+    <string-array name="auth_gls_passwordStrength">
+        <item>médiocre</item>
+        <item>satisfaisant</item>
+        <item>bon</item>
+        <item>excellent</item>
+    </string-array>
+    <string-array name="auth_trust_agent_trusted_devices_add_device_options_no_bt">
+        <item>NFC</item>
+    </string-array>
+    <string-array name="auth_trust_agent_trusted_devices_add_device_options_no_nfc">
+        <item>Bluetooth</item>
+    </string-array>
+    <string-array name="car_app_mode_labels">
+        <item>Utilisateur</item>
+        <item>Développeur</item>
+        <item>Commerce de détail</item>
+        <item>Démo</item>
+    </string-array>
+    <string-array name="car_error_user_friendly">
+        <item>"Les logiciels du téléphone et de la voiture ne sont pas compatibles. Pour plus d'informations, rendez-vous à l'adresse "&lt;a href="android.com/auto">android.com/auto&lt;/a>.</item>
+        <item>"L'ensemble de configurations audio et/ou vidéo annoncés par la voiture est incorrect."</item>
+        <item>"La connexion USB ne fonctionne pas correctement. Essayez les solutions suivantes : 
+
+• Assurez-vous que le câble est bien ajusté aux deux extrémités. 
+• Veillez à utiliser un câble de données USB. 
+• Assurez-vous que la date et l'heure sont correctement réglées dans la voiture et sur le téléphone."</item>
+        <item>"L'exécution d'Android Auto dans la voiture s'est arrêtée."</item>
+        <item>"La session Android Auto a été arrêtée à la demande de l'utilisateur."</item>
+        <item>"Le logiciel de la voiture est peut-être obsolète. Pour en savoir plus et obtenir de l'aide, veuillez contacter le fabricant."</item>
+        <item>"Le logiciel de la voiture ne répond pas aux critères de sécurité Android Auto. Pour en savoir plus et obtenir de l'aide, veuillez contacter le fabricant."</item>
+        <item>"Le logiciel de la voiture ne répond pas aux critères de sécurité Android Auto. Veuillez vous assurer que la date et l'heure sont correctement réglées dans la voiture, et qu'Android Auto a été mis à jour."</item>
+        <item>"Une action est arrivée à expiration. Veuillez récupérer un formulaire de rapport d'erreur afin de nous envoyer vos commentaires."</item>
+        <item>"Aucun lanceur d'applications ne semble être installé. Votre téléphone est-il configuré correctement ?"</item>
+        <item>"Le pipeline des images ne fonctionne plus. Veuillez récupérer un formulaire de rapport d'erreur afin de nous envoyer vos commentaires."</item>
+        <item>"Les messages envoyés via le téléphone ne font l'objet d'aucune réponse de la part de la voiture. L'état de cette dernière est peut-être incorrect."</item>
+    </string-array>
     <string-array name="category_descriptions">
         <item>Aéroport</item>
         <item>Distributeur de billets</item>
@@ -24,7 +60,7 @@
         <item>Camping</item>
         <item>Cimetière</item>
         <item>Église</item>
-        <item>Hôtel de Ville</item>
+        <item>Hôtel de ville</item>
         <item>Établissement</item>
         <item>Station-service</item>
         <item>Épicerie ou supermarché</item>
@@ -62,18 +98,6 @@
         <item>Novembre</item>
         <item>Décembre</item>
     </string-array>
-    <string-array name="car_app_mode_labels">
-        <item>Utilisateur</item>
-        <item>Développeur</item>
-        <item>Commerce de détail</item>
-        <item>Démo</item>
-    </string-array>
-    <string-array name="car_day_night_mode_labels">
-        <item>Contrôlé par la voiture</item>
-        <item>Contrôlé par le téléphone</item>
-        <item>Jour</item>
-        <item>Nuit</item>
-    </string-array>
     <string-array name="location_sharing_edit_share_duration_array">
         <item>Arrêter le partage</item>
         <item>15 minutes</item>
@@ -93,10 +117,12 @@
         <item>30</item>
         <item>45</item>
     </string-array>
-    <string-array name="auth_gls_passwordStrength">
-        <item>médiocre</item>
-        <item>satisfaisant</item>
-        <item>bon</item>
-        <item>excellent</item>
+    <string-array name="auth_gls_security_questions">
+        <item>Sélectionner une question de sécurité</item>
+        <item>Quel était votre premier numéro de téléphone ?</item>
+        <item>"Quel était le prénom de votre meilleur ami d'enfance ?"</item>
+        <item>Quel était le nom de votre premier instituteur ?</item>
+        <item>Quel était le nom de votre responsable lors de votre premier emploi ?</item>
+        <item>"Quel est le numéro d'immatriculation de votre véhicule ?"</item>
     </string-array>
 </resources>

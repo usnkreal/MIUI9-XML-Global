@@ -5,7 +5,7 @@
     <string name="backup_confirm_text">"הוגשה בקשה לגיבוי מלא של כל הנתונים במחשב שולחני מחובר. האם אתה רוצה לאפשר פעולה זו? 
 
 אם לא ביקשת את הגיבוי בעצמך, אל תאפשר לפעולה להמשיך."</string>
-    <string name="allow_backup_button_label">גיבוי הנתונים שלי</string>
+    <string name="allow_backup_button_label">גבה את הנתונים שלי</string>
     <string name="deny_backup_button_label">אל תגבה</string>
     <string name="restore_confirm_text">"הוגשה בקשה לשחזור מלא של כל הנתונים ממחשב שולחני מחובר. האם אתה רוצה לאפשר פעולה זו? 
  

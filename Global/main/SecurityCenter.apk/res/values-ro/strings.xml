@@ -394,9 +394,9 @@ Va fi adăugat la excepții, dar elementele blocate anterior nu vor apărea în 
     <string name="firewall_system_title">Utilizarea datelor pentru aplicațiile de sistem</string>
     <string name="firewall_temp_rule_reason">%2$s conexiune la internet restricționată pentru %1$s</string>
     <string name="dialog_restrict_all_wlan_title">Restricționează utilizarea cu conexiunea Wi-Fi</string>
-    <string name="dialog_restrict_all_wlan_summary">Wi-Fi connection will be restricted for all apps after this.</string>
+    <string name="dialog_restrict_all_wlan_summary">Conexiunea Wi-Fi va fi restricționată pentru toate aplicațiile ulterior.</string>
     <string name="dialog_restrict_all_mobile_title">Restricționați conexiunea la datele mobile la %s</string>
-    <string name="dialog_restrict_all_mobile_summary">%s Mobile data connection will be restricted for all apps after this.</string>
+    <string name="dialog_restrict_all_mobile_summary">%s Conexiunea de date mobilă va fi restricționată pentru toate aplicațiile ulterior.</string>
     <string name="dialog_restrict_positive">Anulează</string>
     <string name="dialog_restrict_negative">Restricționează</string>
     <string name="usage_sorted_activity_lable">Date folosite</string>
@@ -1931,7 +1931,7 @@ dispozitivul"</string>
     <string name="sponsored_sec_fb">Sponsorizat</string>
     <string name="add_game_notification_summary">Atingeţi pentru a lansa &amp; accelerare viteză</string>
     <string name="app_manager_title">Administrare aplicații</string>
-    <string name="app_manager_app_lock">Blocare aplicație</string>
+    <string name="app_manager_uninstall">Uninstall</string>
     <string name="app_manager_bipartition">Aplicaţii duale</string>
     <string name="app_manager_perm">Permisiuni</string>
     <string name="app_manager_app_update">Actualizări</string>
@@ -2038,8 +2038,6 @@ dispozitivul"</string>
     <string name="app_manager_cache_size">Cache</string>
     <string name="app_manager_clear_all_data">Ștergeți toate datele</string>
     <string name="app_manager_dlg_clear_cache_title">Şterge cache?</string>
-    <string name="app_manager_support_uninstall">Puteți dezinstala aceste aplicații</string>
-    <string name="app_manager_not_support_uninstall">Nu puteți dezinstala aceste aplicații</string>
     <string name="app_manager_comuting_size">Se calculează…</string>
     <string name="app_manager_show_all_apps_opened">Se afișează rezultatele din toate aplicațiile…</string>
     <string name="app_manager_search_prompt">Nu s-a găsit niciun rezultat? Încercați să afișați rezultatele din toate aplicațiile.</string>

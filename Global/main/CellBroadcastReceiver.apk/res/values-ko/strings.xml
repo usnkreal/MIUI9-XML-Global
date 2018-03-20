@@ -35,7 +35,7 @@
     <string name="alert_sound_duration_title">경고음 지속 시간</string>
     <string name="alert_reminder_interval_title">경고 알림</string>
     <string name="enable_alert_speech_title">경고 메시지를 음성 언어로 표시</string>
-    <string name="enable_alert_speech_summary">비상사태 경고 메시지를 TTS 기능을 사용하여 음성 언어로 알림</string>
+    <string name="enable_alert_speech_summary">비상사태 경고 메시지를 TTX 기능을 사용하여 음성 언어로 알림</string>
     <string name="category_etws_settings_title">ETWS 설정</string>
     <string name="enable_etws_test_alerts_title">ETWS 테스트 브로드캐스트 표시</string>
     <string name="enable_etws_test_alerts_summary">지진 해일 경보 시스템용 테스트 브로드캐스트 표시</string>

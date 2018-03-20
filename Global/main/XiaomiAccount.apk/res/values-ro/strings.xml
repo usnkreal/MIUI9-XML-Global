@@ -202,7 +202,7 @@ Pentru a activa contul, urmati link-ul
     <string name="passport_get_innetdate_msg">&lt;font color=Red> Arată că&lt;/font> numărul %s a fost reciclat de operatorul dvs. Verificați când numărul a fost online?</string>
     <string name="passport_get_innetdate_agree">Verifică</string>
     <string name="passport_get_innetdate_disagree">Nu</string>
-    <string name="passport_extra_gdpr_license">Creating your Mi Account means that you agree that Xiaomi will collect, process, and use your personal data, including verification data (e.g., verification codes), Second space data (e.g., information about the ways you use Second space, IDs used in First and Second spaces), and other data specified in our Privacy Policy. Refer to our Privacy Policy to learn how we process and use personal data.</string>
+    <string name="passport_extra_gdpr_license">Crearea Contului dvs. Mi înseamnă că sunteți de acord că Xiaomi va colecta, procesa și utiliza datele dvs. personale, inclusiv date de verificare (de exemplu: coduri de verificare), Date din Al doilea spațiu (de exemplu: informații despre modurile în care utilizați cel de-al doilea spațiu, ID-urile utilizate în primul și al doilea spațiu) și alte date specificate în politica noastră de confidențialitate. Consultați politica noastră de confidențialitate pentru a afla cum procesăm și folosim datele personale.</string>
     <string name="search_app_name">Contul Mi</string>
     <string name="search_mi_account">Contul Mi</string>
     <string name="search_mi_account_key_words">Mi Cloud,Setări Cont,Informații Mi Plată,Deconectare</string>
@@ -416,10 +416,10 @@ Pentru a activa contul, urmati link-ul
     <string name="find_device_prompt_message">Dispozitivul este blocat. Mesaj %1$s.</string>
     <string name="find_device_activate_account">Activează contul</string>
     <string name="login_check_find_device">Obținerea de informații de securitate al dispozitivului…</string>
-    <string name="unlock_help_notice">"Help:
-1. If you forgot your password, go to id.mi.com to reset it.
-2. If you can't unlock the device, go to i.mi.com to turn off Find device.
-3. Your unlock number: %s"</string>
+    <string name="unlock_help_notice">"Ajutor:
+1. Dacă ați uitat parola, du-te la id.mi.com pentru a reseta.
+2. Dacă nu se poate debloca dispozitivul, du-te la i.mi.com pentru a opri Găsește dispozitivul.
+3. Numărul tău de deblocare este: %s"</string>
     <string name="login_find_device_bind">Acest dispozitiv este asociat cu un cont Mi ID existent (%s).</string>
     <string name="find_device_locked_account_phone" formatted="false">%s, numărul de telefon asociat: %s</string>
     <string name="find_device_locked_account_email" formatted="false">%s adresă de e-mail asociată: %s</string>

@@ -19,8 +19,9 @@
     <string name="abc_shareactionprovider_share_with">Zdieľať pomocou</string>
     <string name="abc_shareactionprovider_share_with_application">Zdieľať pomocou %s</string>
     <string name="abc_toolbar_collapse_description">Zbaliť</string>
-    <string name="access_as_visitors_title">Všetci ostatní</string>
-    <string name="access_via_team_drive_title">Prístup prostredníctvom možnosti %1$s</string>
+    <string name="access_request_accepted">Prijaté</string>
+    <string name="access_request_give_access">Dať prístup</string>
+    <string name="access_request_reply">Odpovedať</string>
     <string name="accessbility_suggestion_dropdown_closed">K dispozícii nie sú žiadne návrhy</string>
     <string name="accessbility_suggestion_dropdown_opened">Ponuka Návrhy kontaktov je otvorená</string>
     <string name="account_item">Prepnúť na účet %1$s</string>
@@ -39,8 +40,8 @@
     <string name="action_card_announce_untrash">Položka bola obnovená</string>
     <string name="action_card_download">Stiahnuť</string>
     <string name="action_card_download_content_desc">Stiahnuť kópiu</string>
-    <string name="action_card_export">Odoslať kópiu</string>
-    <string name="action_card_export_content_desc">Odoslať kópiu</string>
+    <string name="action_card_export">Odoslať súbor</string>
+    <string name="action_card_export_content_desc">Odoslať súbor</string>
     <string name="action_card_folder_color">Zmeniť farbu</string>
     <string name="action_card_get_link">Zdieľať odkaz</string>
     <string name="action_card_move">Presunúť</string>
@@ -53,7 +54,6 @@
     <string name="action_card_remove_content_desc">Odstrániť položku</string>
     <string name="action_card_remove_permanently">Navždy odstr.</string>
     <string name="action_card_remove_permanently_content_desc">Natrvalo odstrániť položku</string>
-    <string name="action_card_remove_td_item">Odstrániť pre všetkých</string>
     <string name="action_card_rename">Premenovať</string>
     <string name="action_card_rename_content_desc">Premenovať položku</string>
     <string name="action_card_share">Pridať ľudí</string>
@@ -83,18 +83,12 @@
     <string name="add_account">Pridať účet</string>
     <string name="add_collaborator_accept">Pridať</string>
     <string name="add_collaborators">Pridať ľudí</string>
-    <string name="add_collaborators_acl_list_title">Kto má prístup</string>
     <string name="add_collaborators_hint">Zadajte meno alebo e-mailovú adresu</string>
-    <string name="add_collaborators_send_button_content_desc">Potvrdiť zdieľanie a odoslať spolupracovníkom</string>
+    <string name="add_collaborators_send_button_content_desc">Potvrdiť zdieľanie a odoslať spolupracovníkom</string>
     <string name="add_collaborators_textbox_title">Ľudia</string>
-    <string name="add_members_acl_list_title">Členovia: %1$s</string>
-    <string name="add_members_dialog_title">Pridanie členov</string>
-    <string name="add_members_send_button_content_desc">Potvrdiť pridanie členov a odoslať členom</string>
-    <string name="add_members_textbox_title">Členovia</string>
     <string name="alphabet_set">0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string name="announce_account_switch">Účet bol prepnutý na %1$s.</string>
     <string name="announce_account_using">Používa sa účet: %1$s.</string>
-    <string name="announce_action_undone">Akcia bola vrátená späť.</string>
     <string name="announce_collection_removed">Priečinok bol odstránený.</string>
     <string name="announce_create_new">Vytvoriť nový</string>
     <string name="announce_document_removed">Súbor bol odstránený.</string>
@@ -106,8 +100,6 @@
     <string name="announce_search_found_no_item">Nenašli sa žiadne výsledky</string>
     <string name="announce_select_to_change">vyberte na zmenu</string>
     <string name="announce_sort_order_and_direction">Kritérium zoradenia: %1$s, %2$s</string>
-    <string name="announce_swatch_checked">Začiarknuté: %1$s</string>
-    <string name="announce_swatch_not_checked">Nezačiarknuté: %1$s</string>
     <string name="app_installation_in_progress">Aplikácia sa inštaluje…</string>
     <string name="app_installation_in_progress_toast">Aplikácia sa inštaluje. Podrobnosti sú uvedené v upozorneniach.</string>
     <string name="app_installed_dialog_drive_installed_title">Disk Google je nainštalovaný</string>
@@ -121,19 +113,27 @@
     <string name="app_name_drive">Disk</string>
     <string name="app_restrictions_description">Nastaviť na možnosť false a vypnúť tak používanie lokálnych rozhraní API určených na tlač</string>
     <string name="app_restrictions_title">Aplikácia môže používať lokálne rozhrania API určené na tlač</string>
-    <string name="apps">Aplikácie</string>
-    <string name="apps_footer_text">Niekoľko (%s) aplikácií</string>
-    <string name="apps_predict_carousel_title">Rýchly prístup</string>
     <string name="apps_predict_doclist_suggestions_header">Dynamické položky</string>
-    <string name="apps_predict_open_error">Položka sa nedá otvoriť</string>
-    <string name="apps_predict_overlay_close_button">Zavrieť</string>
+    <string name="apps_predict_open_error">Položka sa nedá otvoriť.</string>
     <string name="apps_predict_overlay_introduction_header">Nové navrhované položky</string>
     <string name="apps_predict_overlay_introduction_text">Disk teraz automaticky navrhuje položky, ktoré s najväčšou pravdepodobnosťou použijete. Nie je to to, čo hľadáte? Odmietnite položku prejdením prsta.</string>
     <string name="apps_predict_overlay_title_assistant">Asistent</string>
     <string name="apps_predict_overlay_title_items_now">Položky, ktoré môžu byť užitočné</string>
     <string name="apps_predict_overlay_title_smart_items">Inteligentné položky</string>
+    <string name="apps_predict_reason_frequently_accessed">Často používané</string>
+    <string name="apps_predict_reason_outstanding_comments">Má nevybavené komentáre</string>
+    <string name="apps_predict_reason_recent_activity">Na základe nedávnej aktivity</string>
+    <string name="apps_predict_reason_recently_accessed">Nedávno použité</string>
+    <string name="apps_predict_reason_recently_commented_on">Nedávno komentovaný dokument</string>
+    <string name="apps_predict_reason_recently_notified">S nedávnym upozornením</string>
+    <string name="apps_predict_reason_recently_shared_with_you">Nedávno zdieľaný s vami</string>
+    <string name="apps_predict_reason_recently_updated">Nedávno aktualizovaný</string>
+    <string name="apps_predict_reason_related_to_recent_document">Týkajúci sa nedávn. dokumentu</string>
+    <string name="apps_predict_reason_time_of_day">Používané v tomto čase</string>
     <string name="apps_predict_suggestions_dismissed_undo">Návrhy boli odmietnuté</string>
     <string name="apps_with_backup">Aplikácie zálohované na Disku Google</string>
+    <string name="ask_confirmation_for_document_deletion">Naozaj chcete odstrániť tento súbor?</string>
+    <string name="ask_confirmation_for_folder_deletion">Naozaj chcete odstrániť tento priečinok?</string>
     <string name="audio_info_loading">Načítava sa</string>
     <string name="authentication_error">Chyba pri získavaní overenia totožnosti</string>
     <string name="auto_backup_open_settings_page_failure_toast">Nepodarilo sa otvoriť stránku nastavení automat. zálohovania. Skúste to neskôr.</string>
@@ -143,10 +143,8 @@
     <string name="backup_app_footer_text" formatted="false">%s – zálohované %s</string>
     <string name="backup_banner_msg">Spúšťa sa zálohovanie vášho zariadenia na Disk</string>
     <string name="backup_complete_msg">Zálohovanie je dokončené</string>
-    <string name="backup_data">Zálohovať údaje</string>
     <string name="backup_disabled_for_account">Zálohovanie tohto zariadenia je aktivované pre účet %s. Pre jednotlivé zariadenie môžete mať iba jeden účet na zálohovanie.</string>
     <string name="backup_disabled_for_device">Záloha dát nie je k dispozícii. Uistite sa, že ste aktivovali zálohovanie dát pre toto zariadenie, a počkajte 24 hodín, kým sa dáta uložia.</string>
-    <string name="backup_entity_footer_text">Naposledy zálohované %s</string>
     <string name="backup_failed_msg">Zálohovanie nebolo úspešné</string>
     <string name="backup_help_card_content">Obrázky, súbory a nastavenia aplikácie sa automaticky zálohujú zo zariadenia do aplikácie %s</string>
     <string name="backup_help_card_title">Zálohovanie dát na Disk Google</string>
@@ -154,9 +152,7 @@
     <string name="backup_now">Zálohovať</string>
     <string name="backup_preferences">Automatické zálohovanie pre aplikácie</string>
     <string name="backup_retry_msg">Klepnutím pokus zopakujete</string>
-    <string name="backup_settings">Nastavenia zálohovania</string>
-    <string name="backup_view_error">Nebolo možné vytvoriť zoznam zálohovaných údajov. Skontrolujte svoje sieťové pripojenie alebo to o chvíľu skúste znova.</string>
-    <string name="basesearchsuggestion_date_modified_label">Zmenené: %1$s</string>
+    <string name="basesearchsuggestion_date_modified_label">Zmenené: %s</string>
     <string name="button_create_contact">Vytvoriť nový kontakt</string>
     <string name="button_exit">Ukončiť</string>
     <string name="button_ok">OK</string>
@@ -166,64 +162,52 @@
     <string name="buy_content_description">Zakúpiť %1$s za %2$s</string>
     <string name="cakemix_device_offline">Bez pripojenia</string>
     <string name="cakemix_problem_with_file">Problém so súborom</string>
-    <string name="cakemix_video_unprocessed">Toto video spracúvame. Skúste o chvíľu.</string>
-    <string name="calendar">Kalendár</string>
-    <string name="calendar_footer_text">Synchronizované do Kalendára Google</string>
-    <string name="calendar_message">Udalosti kalendára sú medzi zariadeniami synchronizované pomocou Kalendára Google.</string>
-    <string name="call_history">História hovorov</string>
-    <string name="call_history_message">Záloha zahŕňa dátum a príjemcu odchádzajúcich a prichádzajúcich hovorov.</string>
+    <string name="cakemix_video_unprocessed">Toto video nie je možné spracovať.</string>
     <string name="camera_ocr_error_capture">Chyba pri fotení</string>
     <string name="camera_ocr_no_sdcard">Pred použitím fotoaparátu vložte SD kartu.</string>
-    <string name="carbon_device_extra_delete_confirmation_message">"
-
-Fotky, kontakty a udalosti v kalendári synchronizované z tohto zariadenia sa neodstránia."</string>
+    <string name="check_connection_tap_to_retry">Skontrolujte pripojenie a klepnutím to skúste znova</string>
     <string name="chips_action_cancel">Zrušiť</string>
     <string name="chips_action_copy">Kopírovať</string>
     <string name="chips_permission_text">Povoliť návrhy kontaktov</string>
     <string name="clear_cache">Vymazať vyrov. pamäť</string>
     <string name="clear_cache_cleared_message">Vyrovnávacia pamäť dokumentov bola vymazaná</string>
-    <string name="clear_cache_clearing_message">Maže sa vyrovnávacia pamäť</string>
     <string name="clear_cache_message">Vyrovnávacia pamäť dokumentov bude vymazaná</string>
-    <string name="common_google_play_services_api_unavailable_text">Aplikácia %1$s vyžaduje minimálne jednu službu Google Play, ktorá v súčasnosti nie je k dispozícii. Kontaktujte príslušného vývojára a požiadajte ho o pomoc.</string>
+    <string name="comment_quote">Citácia: %1$s</string>
+    <string name="common_android_wear_notification_needs_update_text">Aplikácia %1$s vyžaduje aktualizáciu aplikácie Android Wear.</string>
+    <string name="common_android_wear_update_text">Aplikácia %1$s bude fungovať až po aktualizácii aplikácie Android Wear.</string>
+    <string name="common_android_wear_update_title">Aktualizujte aplikáciu Android Wear</string>
+    <string name="common_google_play_services_api_unavailable_text">Aplikácia %1$s vyžaduje minimálne jednu službu Google Play, ktorá v súčasnosti nie je k dispozícii. Kontaktujte príslušného vývojára a požiadajte ho o pomoc.</string>
     <string name="common_google_play_services_enable_button">Povoliť služby Google Play</string>
     <string name="common_google_play_services_enable_text">Aplikácia %1$s bude fungovať až po povolení služieb Google Play.</string>
     <string name="common_google_play_services_enable_title">Povoliť služby Google Play</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Vyžiadané aplikáciou %1$s</string>
     <string name="common_google_play_services_install_button">Inštalovať služby Google Play</string>
     <string name="common_google_play_services_install_text_phone">Na spustenie aplikácie %1$s sa vyžadujú služby Google Play, ktoré na telefóne nemáte.</string>
     <string name="common_google_play_services_install_text_tablet">Na spustenie aplikácie %1$s sa vyžadujú služby Google Play, ktoré na tablete nemáte.</string>
     <string name="common_google_play_services_install_title">Inštalovať služby Google Play</string>
-    <string name="common_google_play_services_invalid_account_text">Zadaný účet v tomto zariadení neexistuje. Vyberte iný účet.</string>
+    <string name="common_google_play_services_invalid_account_text">Zadaný účet v tomto zariadení neexistuje. Vyberte iný účet.</string>
     <string name="common_google_play_services_invalid_account_title">Neplatný účet</string>
-    <string name="common_google_play_services_network_error_text">Pripojenie k službám Google Play vyžaduje dátové pripojenie.</string>
+    <string name="common_google_play_services_needs_enabling_title">Aplikácia vyžaduje povolenie služieb Google Play.</string>
+    <string name="common_google_play_services_network_error_text">Pripojenie k službám Google Play si vyžaduje dátové pripojenie.</string>
     <string name="common_google_play_services_network_error_title">Chyba siete</string>
+    <string name="common_google_play_services_notification_needs_update_title">Aplikácia vyžaduje aktualizáciu služieb Google Play.</string>
     <string name="common_google_play_services_notification_ticker">Chyba služieb Google Play</string>
-    <string name="common_google_play_services_restricted_profile_text">Prístup k účtom z obmedzeného profilu nie je podporovaný.</string>
-    <string name="common_google_play_services_restricted_profile_title">Obmedzený profil</string>
     <string name="common_google_play_services_sign_in_failed_text">Pri prihlasovaní do určeného účtu sa vyskytla chyba. Zvoľte iný účet.</string>
     <string name="common_google_play_services_sign_in_failed_title">Prihlásenie zlyhalo</string>
-    <string name="common_google_play_services_unknown_issue">Aplikácia %1$s má problémy so službami Google Play. Ak problém pretrváva, kontaktujte vývojára a požiadajte ho o pomoc.</string>
-    <string name="common_google_play_services_unsupported_text">Aplikácia %1$s potrebuje služby Google Play, ktoré vaše zariadenie nepodporuje. Kontaktujte príslušného výrobcu a požiadajte ho o pomoc.</string>
+    <string name="common_google_play_services_unknown_issue">Neznámy problém so službami Google Play.</string>
+    <string name="common_google_play_services_unsupported_text">Aplikácia %1$s potrebuje služby Google Play, ktoré vaše zariadenie nepodporuje. Kontaktujte príslušného výrobcu a požiadajte ho o pomoc.</string>
     <string name="common_google_play_services_unsupported_title">Služby Google Play</string>
     <string name="common_google_play_services_update_button">Aktualizovať</string>
     <string name="common_google_play_services_update_text">Aplikáciu %1$s bude možné spustiť až po aktualizácii služieb Google Play.</string>
-    <string name="common_google_play_services_update_title">Aktualizácia služieb Google Play</string>
+    <string name="common_google_play_services_update_title">Aktualizovať služby Google Play</string>
     <string name="common_google_play_services_updating_text">Na spustenie aplikácie %1$s sa vyžadujú služby Google Play, ktoré sa momentálne aktualizujú.</string>
     <string name="common_google_play_services_updating_title">Služby Google Play sa aktualizujú</string>
-    <string name="common_google_play_services_wear_update_text">Vyžaduje sa nová verzia služieb Google Play. Aktualizujú sa automaticky v najbližšom čase.</string>
-    <string name="common_open_on_phone">Otvoriť v telefóne</string>
-    <string name="common_signin_button_text">Prihlásiť sa</string>
-    <string name="common_signin_button_text_long">Prihlásiť sa do účtu Google</string>
+    <string name="common_open_on_phone">Otvoriť na telefóne</string>
     <string name="contact_sharing_commenter">Môže komentovať</string>
-    <string name="contact_sharing_no_access">Nemá prístup</string>
+    <string name="contact_sharing_no_access">Bez prístupu</string>
     <string name="contact_sharing_reader">Môže zobraziť</string>
-    <string name="contact_sharing_td_organizer">Bez obmedzení</string>
-    <string name="contact_sharing_td_remove">Odstrániť</string>
-    <string name="contact_sharing_td_writer">Môže upravovať a nahrávať</string>
     <string name="contact_sharing_writer">Môže upravovať</string>
     <string name="contact_sharing_writer_folder">Môže usporadúvať, pridávať a upravovať</string>
-    <string name="contacts">Kontakty</string>
-    <string name="contacts_footer_text">Synchronizované do Kontaktov Google</string>
-    <string name="contacts_message">Kontakty sú medzi zariadeniami synchronizované pomocou Kontaktov Google.</string>
     <string name="convert_conversion_failed">Ľutujeme, dokument sa nepodarilo spracovať. Skontrolujte svoje sieťové pripojenie a skúste to znova.</string>
     <string name="convert_document_too_big">Ľutujeme, dokument je na spracovanie príliš veľký</string>
     <string name="convert_loading_document_failed">Ľutujeme, váš dokument sa nepodarilo spracovať</string>
@@ -246,7 +230,6 @@ Fotky, kontakty a udalosti v kalendári synchronizované z tohto zariadenia s
     <string name="create_new_error_presentation">Chyba pri vytváraní prezentácie</string>
     <string name="create_new_error_read_only_folder">Nemáte povolenie na pridávanie položiek do tohto priečinka.</string>
     <string name="create_new_error_spreadsheet">Chyba pri vytváraní tabuľky</string>
-    <string name="create_new_error_team_drive">Pri vytváraní tímového disku sa vyskytla chyba</string>
     <string name="create_new_folder">Priečinok</string>
     <string name="create_new_from_scan">Skenovať</string>
     <string name="create_new_ocr_doc">Dokument z fotky</string>
@@ -255,8 +238,7 @@ Fotky, kontakty a udalosti v kalendári synchronizované z tohto zariadenia s
     <string name="create_new_offline_error_folder">Prejdite online a vytvorte nový priečinok</string>
     <string name="create_new_offline_error_presentation">Prejdite online a vytvorte novú prezentáciu</string>
     <string name="create_new_offline_error_spreadsheet">Prejdite online a vytvorte novú tabuľku</string>
-    <string name="create_new_offline_error_team_drive">Prejdite online a vytvorte nový tímový disk</string>
-    <string name="create_shortcut_label">Disk (odkaz)</string>
+    <string name="create_shortcut_label">Zástupca Disku</string>
     <string name="create_shortcut_title">Vytvoriť odkaz na…</string>
     <string name="created_folder">Bol vytvorený priečinok %1$s</string>
     <string name="creating_document">Vytvára sa dokument…</string>
@@ -264,35 +246,16 @@ Fotky, kontakty a udalosti v kalendári synchronizované z tohto zariadenia s
     <string name="creating_folder">Vytvára sa priečinok…</string>
     <string name="creating_presentation">Vytvára sa prezentácia…</string>
     <string name="creating_spreadsheet">Vytvára sa tabuľka…</string>
-    <string name="creating_team_drive">Vytvára sa tímový disk…</string>
     <string name="cross_app_promo_dismiss_button_text">Ignorovať</string>
     <string name="cross_app_promo_install_button_text">Inštalovať</string>
     <string name="cross_app_promo_view_only_button_text">Iba zobrazenie</string>
-    <string name="current_device">Toto zariadenie</string>
     <string name="decrypting_progress_message">Dešifruje sa %1$s</string>
     <string name="default_new_drawing_title">Nákres bez názvu</string>
     <string name="default_new_folder_title">Priečinok bez názvu</string>
     <string name="default_new_kix_title">Dokument bez názvu</string>
     <string name="default_new_punch_title">Prezentácia bez názvu</string>
-    <string name="default_new_team_drive_title">Názov tímu</string>
     <string name="default_new_trix_title">Tabuľka bez názvu</string>
     <string name="default_scope_contact_name">Ktokoľvek</string>
-    <string name="delete_backup">Odstrániť zálohu</string>
-    <string name="delete_backup_confirm_button">Odstrániť</string>
-    <string name="delete_backup_progress_message">Záloha sa odstraňuje</string>
-    <string name="delete_device_backup_confirmation_message">"Údaje zálohy tohto zariadenia sa natrvalo odstránia.
-
-Ak je naďalej zapnuté zálohovanie zariadenia %s, vytvoria sa nové údaje zálohy."</string>
-    <string name="delete_device_backup_title">Odstrániť zálohu zariadenia %s?</string>
-    <string name="delete_multiple_backup_error_message">Niektoré zálohy sa nepodarilo odstrániť.</string>
-    <string name="delete_single_backup_error_message">Zálohu sa nepodarilo odstrániť.</string>
-    <string name="delete_whatsapp_backup_after_turnoff_confirmation_message">"Chcete tiež natrvalo odstrániť zálohu četov a médií aplikácie WhatsApp pre:
-
-%s"</string>
-    <string name="delete_whatsapp_backup_confirmation_message">"Záloha četov a médií aplikácie WhatsApp pre číslo %s sa natrvalo odstráni.
-
-Ak je pre toto číslo naďalej zapnuté zálohovanie, vytvoria sa nové údaje zálohy."</string>
-    <string name="delete_whatsapp_backup_title">Odstrániť zálohu pre WhatsApp?</string>
     <string name="desc_album_art">Obrázok albumu</string>
     <string name="desc_audio_forward">O 30 sekúnd vpred</string>
     <string name="desc_audio_next">Ďalej</string>
@@ -324,17 +287,16 @@ Ak je pre toto číslo naďalej zapnuté zálohovanie, vytvoria sa nové údaje 
     <string name="desc_promo_page">Prekrytie tipu: Ukladanie PDF súborov na Disk Google</string>
     <string name="desc_selection_start">začiatok výberu</string>
     <string name="desc_selection_stop">koniec výberu</string>
-    <string name="desc_video_player">Prehrávač videa</string>
     <string name="desc_web_link">Odkaz: %1$s</string>
     <string name="desc_web_link_shortened_to_domain">Odkaz: webová stránka v doméne %1$s</string>
     <string name="desc_zoom">lupa na %1$d percent</string>
     <string name="description_icon_stale_items">Máte zastarané položky.</string>
-    <string name="detail_fragment_title">Zobrazujú sa vlastnosti položky pre %1$s</string>
+    <string name="detail_fragment_title">Zobrazujú sa vlastnosti položky pre %s</string>
     <string name="detail_preview_created_time">Vytvorené</string>
-    <string name="detail_preview_date_performed_by">%1$s, %2$s</string>
+    <string name="detail_preview_date_performed_by" formatted="false">%s, %s</string>
     <string name="detail_preview_folder_location">Miesto</string>
     <string name="detail_preview_folder_restore_location">Odstránené z</string>
-    <string name="detail_preview_google_files_free">Súbory %1$s sú zdarma</string>
+    <string name="detail_preview_google_files_free">Súbory %s sú zdarma</string>
     <string name="detail_preview_information_content_description">Informácie</string>
     <string name="detail_preview_kind">Typ</string>
     <string name="detail_preview_last_modified_date">Upravené</string>
@@ -343,15 +305,12 @@ Ak je pre toto číslo naďalej zapnuté zálohovanie, vytvoria sa nové údaje 
     <string name="detail_preview_quota">Využité úložisko</string>
     <string name="detail_preview_size">Veľkosť</string>
     <string name="device_offline">Žiadne pripojenie</string>
-    <string name="device_settings">Nastavenia zariadenia</string>
-    <string name="device_settings_message">Záloha zahŕňa konfiguráciu zariadenia, napríklad tapetu, heslá k sieťam Wi-Fi a predvolené aplikácie.</string>
     <string name="dialog_confirm_expiration">Odstrániť časový limit prístupu?</string>
     <string name="dialog_confirm_expiration_button">Odstrániť časový limit prístupu</string>
     <string name="dialog_confirm_expiration_message">"Prístup tohto používateľa bol v minulosti nastavený tak, aby jeho platnosť vypršala.
 
 Ak bude rola používateľa zmenená, obnoví sa jeho trvalý prístup."</string>
     <string name="dialog_confirm_sharing">Potvrdenie zdieľania</string>
-    <string name="dialog_confirm_sharing_button">Zdieľať</string>
     <string name="dialog_confirm_sharing_message">Používateľ %1$s je mimo domény položky. Naozaj s ním chcete zdieľať položku?</string>
     <string name="dialog_confirm_sharing_message_multiple">Niektoré kontakty (%1$d) sa nachádzajú mimo domény položky. Naozaj s nimi chcete zdieľať položku?</string>
     <string name="dialog_contact_sharing">Nastavenia zdieľania</string>
@@ -385,8 +344,6 @@ Ak bude rola používateľa zmenená, obnoví sa jeho trvalý prístup."</string
     <string name="doclist_sortby_relevance">Relevancia</string>
     <string name="doclist_sortby_shared_title">Dátum zdieľania</string>
     <string name="doclist_starred_state">S hviezdičkou</string>
-    <string name="doclist_team_drive_state">Tímový disk</string>
-    <string name="doclist_unified_actions_more_actions_button">Ďalšie akcie</string>
     <string name="document_deleted_error_dialog_message">Dokument, ktorý sa pokúšate otvoriť, bol odstránený. Ak chcete odkaz odstrániť, klepnite naň, podržte ho a presuňte ho na ikonu Odstrániť navrchu obrazovky.</string>
     <string name="document_deleted_error_dialog_title">Tento dokument bol odstránený</string>
     <string name="document_preparing_to_open_progress">Pripravuje sa otvorenie…</string>
@@ -514,8 +471,6 @@ Ak sa chyba vyskytla len nedávno, zaznamenajte aj hlásenie o chybe (stlačte n
 
 DÔLEŽITÉ! Po odoslaní spätnej väzby vymažte vyrovnávaciu pamäť aplikácie (Nastavenia -> Aplikácie -> Disk -> Vymazať vyrovnávaciu pamäť), aby k údajom výpisu nezískali prístup iné škodlivé aplikácie. Chcete pokračovať?"</string>
     <string name="dump_database_dialog_title">Interné testovanie – návrhy na zlepšenie aplikácie</string>
-    <string name="empty_backup_content">Tu sa zobrazujú zálohy zariadenia a údajov aplikácie</string>
-    <string name="empty_backup_title">Žiadne zálohy</string>
     <string name="empty_doclist">Žiadne položky</string>
     <string name="empty_doclist_for_devices_view">Nenašiel sa žiadny priečinok zariadenia.</string>
     <string name="empty_doclist_for_devices_view_details">Ak chcete vytvoriť priečinok zariadenia, nainštalujte si v počítači najnovšiu verziu Disku a nakonfigurujte synchronizáciu miestnych priečinkov.</string>
@@ -529,15 +484,14 @@ Skúste nahrať súbor."</string>
     <string name="empty_doclist_for_search_view">Žiadne výsledky</string>
     <string name="empty_doclist_for_shared_with_me_view">Tu sa zobrazia súbory, ktoré s vami zdieľajú ostatní</string>
     <string name="empty_doclist_for_starred_view">Nemáte žiadne súbory označené hviezdičkou</string>
-    <string name="empty_doclist_for_starred_view_details">Klepnite na ikonu hviezdičky v ponuke možností súboru, ktorý chcete pridať na tento zoznam.</string>
+    <string name="empty_doclist_for_starred_view_details">Klepnutím na ikonu hviezdičky na paneli podrobností pridajte súbor do tohto zoznamu.</string>
+    <string name="empty_doclist_for_uploads_view">Žiadne nedávne nahrania</string>
+    <string name="empty_doclist_for_uploads_view_details">Spravujte aktívne nahrania a zobrazte súbory, ktoré ste nedávno nahrali z tohto zariadenia.</string>
     <string name="empty_recent_doclist_message_subtitle">Objaví sa tu všetko, čo vytvoríte alebo upravíte. Kliknutím na tlačidlo + vytvorte nový nákres.</string>
     <string name="empty_recent_doclist_message_title">Vítajú vás Dokumenty Google!</string>
     <string name="empty_sharing_list">Informácie o zdieľaní nie sú dostupné</string>
-    <string name="empty_team_drives_doclist">Váš tímový disk je prázdny. Ak chcete začať, pridajte súbory a ľudí.</string>
     <string name="enable_backup">ZAPNÚŤ ZÁLOHOVANIE DÁT</string>
     <string name="enter_new_name">Zadajte nový názov:</string>
-    <string name="entity_backup_time">Naposledy zálohované %s</string>
-    <string name="entity_item_more_action_button">Ďalšie akcie</string>
     <string name="error_access_denied_html">Nemožno získať prístup k dokumentu. &lt;br> Prístup k dokumentu bol zamietnutý. &lt;br>&lt;br> Skontrolujte, či máte povolenie na zobrazenie dokumentu, a skúste to znova.</string>
     <string name="error_app_intent">Iná aplikácia nemôže spracovať tento súbor ( %1$s)</string>
     <string name="error_app_open">Chyba pri otváraní súboru</string>
@@ -572,8 +526,6 @@ Skúste nahrať súbor."</string>
     <string name="error_ssl_generic_template">Chyba SSL (kód %1$d) pri pripájaní k hostiteľovi %2$s</string>
     <string name="error_ssl_idmismatch_template">Chyba SSL (kód %1$d) pri pripájaní k adrese %2$s: nesúlad názvov hostiteľa</string>
     <string name="error_ssl_validity_template">Chyba SSL (kód %1$d) pri pripájaní k adrese %2$s: certifikát vypršal alebo ešte nie je platný. Je v tomto zariadení nastavený správny dátum?</string>
-    <string name="error_start_client">"Z aplik.  %1$s nemôžete načítať viac súborov"</string>
-    <string name="error_title">Chyba</string>
     <string name="error_video_not_available">Video nebolo spracované. Skúste to znova neskôr.</string>
     <string name="expires_future">Vyprší o %1$s</string>
     <string name="expires_today">Vyprší dnes</string>
@@ -615,43 +567,38 @@ Skúste nahrať súbor."</string>
     <string name="folder_color_blue_grey_500">Modrá oceľ</string>
     <string name="folder_color_brown_100">Betónová</string>
     <string name="folder_color_brown_200">Vyblednutý hnedý plot</string>
-    <string name="folder_color_brown_400">Mocha frappuccino</string>
+    <string name="folder_color_brown_400">Mocha Frapp</string>
     <string name="folder_color_cyan_200">Island</string>
     <string name="folder_color_cyan_500">Karibský útes</string>
     <string name="folder_color_deep_orange_500">Mandarínka</string>
-    <string name="folder_color_default">Predvolené</string>
+    <string name="folder_color_default">Myš</string>
     <string name="folder_color_google_blue_500">Modrá obloha</string>
     <string name="folder_color_google_green_400">Šalviová</string>
     <string name="folder_color_google_green_500">Bazalková</string>
     <string name="folder_color_google_red_500">Zrelá jahoda</string>
-    <string name="folder_color_google_yellow_100">Zemolezová</string>
+    <string name="folder_color_google_yellow_100">Zimozeleňová</string>
     <string name="folder_color_light_blue_500">Pávia</string>
     <string name="folder_color_light_green_500">Čerstvá špargľa</string>
-    <string name="folder_color_lime_200">Citrón a limetka</string>
+    <string name="folder_color_lime_200">Citrón a limetka</string>
     <string name="folder_color_lime_500">Zelený sliz</string>
     <string name="folder_color_orange_200">Broskyňová</string>
     <string name="folder_color_orange_500">Oranžová</string>
-    <string name="folder_color_orange_600">Žltý taxík</string>
     <string name="folder_color_pink_200">Ružové prasiatko</string>
     <string name="folder_color_pink_300">Plameniaková</string>
     <string name="folder_color_pink_500">Malinová</string>
     <string name="folder_color_purple_100">Dom pre bábiky</string>
-    <string name="folder_color_purple_200">Dinosauria</string>
     <string name="folder_color_purple_300">Fuchsiová</string>
-    <string name="folder_color_purple_400">Baklažánová</string>
     <string name="folder_color_teal_100">Čakáreň</string>
     <string name="gallery_select_error">Chyba pri výbere obrázka na nahranie</string>
     <string name="getting_authentication_information">Otvára sa dokument</string>
     <string name="gf_feedback">Spätná väzba</string>
+    <string name="give_access_failed">Povolenie prístupu príjemcovi %1$s zlyhalo</string>
+    <string name="give_access_failed_offline">Nie je možné povoliť prístup v režime offline</string>
+    <string name="give_access_success">Príjemcovi %1$s bol povolený prístup</string>
+    <string name="giving_access">Povoľuje sa prístup príjemcovi %1$s</string>
     <string name="google_account_missing">Nenašli sa žiadne účty Google, aplikácia sa ukončí</string>
     <string name="google_account_needed">Ak chcete používať túto aplikáciu, musíte mať vytvorený aspoň jeden účet Google.</string>
-    <string name="google_docs_long">Dokumenty Google</string>
-    <string name="google_docs_short">Dokumenty</string>
     <string name="google_drive">Disk Google</string>
-    <string name="google_sheets_long">Tabuľky Google</string>
-    <string name="google_sheets_short">Tabuľky</string>
-    <string name="google_slides_long">Prezentácie Google</string>
-    <string name="google_slides_short">Prezentácie</string>
     <string name="grid_sync_download_label_format">"Sťahuje sa
 %1$s / %2$s"</string>
     <string name="grid_sync_upload_label_format">"Nahráva sa
@@ -688,33 +635,22 @@ Všetky svoje fotky, videá, dokumenty a ďalšie súbory môžete mať poruke, 
     <string name="label_password_incorrect">Heslo je nesprávne</string>
     <string name="label_zoom" formatted="false">lupa %1$d %</string>
     <string name="launch_drive">Spustite Disk, aby sa načítalo viac súborov.</string>
-    <string name="launcher_scan_short">Skenovať</string>
-    <string name="launcher_search_short">Hľadať</string>
-    <string name="launcher_upload_short">Nahrať</string>
-    <string name="learn_more">ĎALŠIE INFORMÁCIE</string>
-    <string name="libraries_material_featurehighlight_dismiss">Zrušiť</string>
     <string name="linksharing_saved">Nastavenia zdieľania boli uložené</string>
     <string name="loading">Načítava sa...</string>
     <string name="loading_document">Načítava sa dokument</string>
     <string name="loading_for_printing">Načítava sa dokument</string>
     <string name="loading_printers">Načítavajú sa tlačiarne...</string>
     <string name="location_entry_content_description">Umiestnenie %1$s. Priečinok otvoríte dvojitým klepnutím</string>
-    <string name="location_entry_content_description_unclickable">Miesto %1$s.</string>
-    <string name="location_removed_entry_content_description">Položka bola odstránená z priečinka %1$s. Priečinok otvoríte dvojitým klepnutím.</string>
-    <string name="location_removed_entry_content_description_unclickable">Položka bola odstránená z priečinka %1$s.</string>
     <string name="manage_accounts">Správa účtov</string>
-    <string name="manage_backup">Spravovať zálohy</string>
+    <string name="manage_backup">Spravovať zálohu</string>
+    <string name="manage_backup_page_title">Spravovať zálohy</string>
     <string name="manage_backup_summary">Zoznam aplikácií, ktoré sú zálohované</string>
-    <string name="manage_members_default_members">Pri predvolenom nastavení môžu členovia upraviť, usporiadať a pridať ďalších členov</string>
-    <string name="manage_members_dialog_title">Členovia tímu: %s</string>
     <string name="manifest_app_pdfviewer">Zobrazovač PDF Google</string>
     <string name="manifest_app_projector">Projektor</string>
     <string name="manifest_intent_view_pdf">Zobrazovač PDF</string>
     <string name="manifest_intent_view_pdf_drive">Zobrazovač PDF na Disku</string>
     <string name="media_player_error">Vyskytla sa chyba prehrávania</string>
     <string name="menu_account_settings">Nastavenia účtu</string>
-    <string name="menu_add_members">Pridať členov</string>
-    <string name="menu_backup">Zálohy</string>
     <string name="menu_create_new_doc">Pridať nové</string>
     <string name="menu_create_shortcut">Pridať na plochu</string>
     <string name="menu_delete">Odstrániť</string>
@@ -731,10 +667,7 @@ Všetky svoje fotky, videá, dokumenty a ďalšie súbory môžete mať poruke, 
     <string name="menu_google_photos">Fotky Google</string>
     <string name="menu_help">Pomocník</string>
     <string name="menu_help_and_feedback">Pomocník a spätná väzba</string>
-    <string name="menu_item_manage_members">Spravovať členov</string>
-    <string name="menu_item_use_advanced_permission">Použiť rozšírené povolenie</string>
     <string name="menu_learn_more">Ďalšie informácie</string>
-    <string name="menu_manage_members">Spravovať členov</string>
     <string name="menu_move_to">Presunúť</string>
     <string name="menu_my_drive">Môj disk</string>
     <string name="menu_navigation_devices">Zariadenia</string>
@@ -770,6 +703,7 @@ Všetky svoje fotky, videá, dokumenty a ďalšie súbory môžete mať poruke, 
     <string name="menu_show_team_drives">Tímové disky</string>
     <string name="menu_show_trash">Kôš</string>
     <string name="menu_show_trix">Tabuľky</string>
+    <string name="menu_show_upload">Nahrané položky</string>
     <string name="menu_sort_by">Kritérium zoradenia</string>
     <string name="menu_sort_creation_time">Dátum vytvorenia</string>
     <string name="menu_sort_direction">Smer zoradenia</string>
@@ -783,36 +717,17 @@ Všetky svoje fotky, videá, dokumenty a ďalšie súbory môžete mať poruke, 
     <string name="menu_trash_delete_forever">Odstrániť</string>
     <string name="menu_trash_restore">Obnoviť</string>
     <string name="menu_unpin">Odstr. zo zariad.</string>
-    <string name="menu_view_members">Zobraziť členov</string>
     <string name="message_downloaded_file">Súbor %1$s bol stiahnutý</string>
     <string name="message_match_status">%1$d z %2$d</string>
     <string name="message_no_matches_found">Nenašli sa žiadne zhody.</string>
-    <string name="more_actions_content_description">Ďalšie akcie</string>
-    <string name="more_info">Ďalšie informácie</string>
     <string name="more_string">+%1$d</string>
     <string name="move">Presunúť</string>
-    <string name="move_confirm_dialog_message_cannot_undo">V priečinku %1$s máte povolenie iba na pridávanie a úpravu položiek. Tento krok preto nebudete môcť vrátiť späť.</string>
-    <string name="move_confirm_dialog_message_lose_access_shared_folders">Presúvate niektoré položky mimo zdieľaných priečinkov, v dôsledku čoho k nim ľudia stratia prístup.</string>
-    <string name="move_confirm_dialog_message_lose_access_team_drives">Presúvate niektoré položky mimo tímových diskov, v dôsledku čoho k nim ľudia stratia prístup.</string>
-    <string name="move_confirm_dialog_message_lose_access_team_drives_and_shared_folders">Presúvate niektoré položky mimo tímových diskov a zdieľaných priečinkov, v dôsledku čoho k nim ľudia stratia prístup.</string>
     <string name="move_confirm_dialog_title">Potvrdiť presun</string>
-    <string name="move_confirm_dialog_title_cannot_undo">Túto akciu nemôžete vrátiť späť</string>
-    <string name="move_confirm_dialog_title_lose_access">Niektorí ľudia stratia prístup</string>
-    <string name="move_confirm_dialog_title_lose_access_single_td">Disk %1$s stratí prístup</string>
     <string name="move_confirm_dialog_title_unshare">Presunúť zo zdieľaného priečinka?</string>
     <string name="move_dialog_title">Vyberte cieľový priečinok</string>
-    <string name="move_error_cannot_move_in_folders">Priečinky zatiaľ nie je možné presunúť na tímové disky.</string>
-    <string name="move_error_cannot_move_out_folders">Priečinky zatiaľ nie je možné presunúť z tímových diskov.</string>
-    <string name="move_error_no_permission_dest">Nemáte povolenie na presun položiek do priečinka %1$s</string>
     <string name="move_error_read_only_folder">Nemáte povolenie na presúvanie položiek do tohto priečinka.</string>
-    <string name="move_error_target_folder_not_exist">Cieľový priečinok neexistuje.</string>
-    <string name="move_error_team_drive_items_not_supported_yet">Presun zatiaľ pre tímové disky nie je podporovaný.</string>
     <string name="move_multi_parent_file">Pokúšate sa usporiadať súbor, ktorý sa nachádza vo viacerých priečinkoch. Ak ho chcete usporiadať, prejdite do aplikácie Disk na počítači.</string>
     <string name="move_multi_parent_folder">Pokúšate sa usporiadať priečinok, ktorý sa nachádza vo viacerých priečinkoch. Ak ho chcete usporiadať, prejdite do aplikácie Disk na počítači.</string>
-    <string name="move_notice_lost_access_shared_folders">Položky boli presunuté mimo zdieľaných priečinkov. Niektorí ľudia stratili prístup.</string>
-    <string name="move_notice_lost_access_team_drive_single">%1$s – disk %2$s stratil prístup.</string>
-    <string name="move_notice_lost_access_team_drives">Položky boli presunuté mimo tímových diskov. Niektorí ľudia stratili prístup.</string>
-    <string name="move_notice_lost_access_team_drives_and_shared_folders">Položky boli presunuté mimo tímových diskov a zdieľaných priečinkov. Niektorí ľudia stratili prístup.</string>
     <string name="move_shared_to_shared">"Presunutie súboru %1$s zo zdieľaného priečinka %2$s zruší prístup pre všetkých spolupracovníkov.
 
 Súbor bude zdieľaný v priečinku %3$s."</string>
@@ -832,14 +747,10 @@ Súbor bude zdieľaný v priečinku %3$s."</string>
     <string name="new_folder_title">Nový priečinok</string>
     <string name="new_kix_title">Názov dokumentu</string>
     <string name="new_punch_title">Názov prezentácie</string>
-    <string name="new_team_drive_title">Nový tímový disk</string>
     <string name="new_trix_title">Názov tabuľky</string>
     <string name="no_account_for_upload_message">Ak chcete nahrávať na Disk, prihláste sa do účtu Google alebo si ho vytvorte.</string>
     <string name="no_account_for_upload_setup_account">Vytvoriť účet</string>
     <string name="no_account_for_upload_title">Nahranie na Disk</string>
-    <string name="no_backup_help_card_button">NASTAVENIA ZÁLOHOVANIA</string>
-    <string name="no_backup_help_card_content">Keď zapnete automatické zálohovanie, v budúcnosti budete môcť obnoviť svoj obsah alebo prejsť na iný telefón.</string>
-    <string name="no_backup_help_card_title">Žiadna záloha tohto zariadenia</string>
     <string name="notification_extra_text_is_too_long">Nemožno nahrať. Text je príliš dlhý.</string>
     <string name="notification_feedback">Spätná väzba</string>
     <string name="notification_help_card_content">Disk vás teraz upozorní, keď s vami niekto zdieľa súbory, keď niekto požiada o prístup k súboru a keď sa vyskytnú iné dôležité udalosti.</string>
@@ -848,6 +759,7 @@ Súbor bude zdieľaný v priečinku %3$s."</string>
     <string name="notification_home_empty_title">Nemáte žiadne nedávne upozornenia</string>
     <string name="notification_home_read">Prečítané</string>
     <string name="notification_home_unread">Neprečítané</string>
+    <string name="notification_message">Správa: %1$s</string>
     <string name="notification_setting_access_request_title">Prístup k upozorneniam na žiadosti</string>
     <string name="notification_setting_comment_title">Upozornenia na komentáre</string>
     <string name="notification_setting_keep_on">Ponechať zapnuté</string>
@@ -871,44 +783,36 @@ Súbor bude zdieľaný v priečinku %3$s."</string>
     <string name="notify_access_request_description_num_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_ITEMS_1,plural, =1{}few{Požiadala o prístup k {NUM_ITEMS_2} položkám}many{Požiadala o prístup k niekoľkým ({NUM_ITEMS_2}) položkám}other{Požiadala o prístup k {NUM_ITEMS_2} položkám}}}male{{NUM_ITEMS_1,plural, =1{}few{Požiadal o prístup k {NUM_ITEMS_2} položkám}many{Požiadal o prístup k niekoľkým ({NUM_ITEMS_2}) položkám}other{Požiadal o prístup k {NUM_ITEMS_2} položkám}}}other{{NUM_ITEMS_1,plural, =1{}few{Požiadal(a) o prístup k {NUM_ITEMS_2} položkám}many{Požiadal(a) o prístup k niekoľkým ({NUM_ITEMS_2}) položkám}other{Požiadal(a) o prístup k {NUM_ITEMS_2} položkám}}}}}male{{SENDER_GENDER,select, female{{NUM_ITEMS_1,plural, =1{}few{Požiadala o prístup k {NUM_ITEMS_2} položkám}many{Požiadala o prístup k niekoľkým ({NUM_ITEMS_2}) položkám}other{Požiadala o prístup k {NUM_ITEMS_2} položkám}}}male{{NUM_ITEMS_1,plural, =1{}few{Požiadal o prístup k {NUM_ITEMS_2} položkám}many{Požiadal o prístup k niekoľkým ({NUM_ITEMS_2}) položkám}other{Požiadal o prístup k {NUM_ITEMS_2} položkám}}}other{{NUM_ITEMS_1,plural, =1{}few{Požiadal(a) o prístup k {NUM_ITEMS_2} položkám}many{Požiadal(a) o prístup k niekoľkým ({NUM_ITEMS_2}) položkám}other{Požiadal(a) o prístup k {NUM_ITEMS_2} položkám}}}}}other{{SENDER_GENDER,select, female{{NUM_ITEMS_1,plural, =1{}few{Požiadala o prístup k {NUM_ITEMS_2} položkám}many{Požiadala o prístup k niekoľkým ({NUM_ITEMS_2}) položkám}other{Požiadala o prístup k {NUM_ITEMS_2} položkám}}}male{{NUM_ITEMS_1,plural, =1{}few{Požiadal o prístup k {NUM_ITEMS_2} položkám}many{Požiadal o prístup k niekoľkým ({NUM_ITEMS_2}) položkám}other{Požiadal o prístup k {NUM_ITEMS_2} položkám}}}other{{NUM_ITEMS_1,plural, =1{}few{Požiadal(a) o prístup k {NUM_ITEMS_2} položkám}many{Požiadal(a) o prístup k niekoľkým ({NUM_ITEMS_2}) položkám}other{Požiadal(a) o prístup k {NUM_ITEMS_2} položkám}}}}}}</string>
     <string name="notify_comment_text_quoted">„%1$s“</string>
     <string name="notify_comment_text_suggestion_with_content_type">%1$s: %2$s</string>
-    <string name="notify_comment_text_with_content_type">%1$s: „%2$s“</string>
+    <string name="notify_comment_text_with_content_type">%1$s „%2$s“</string>
     <string name="notify_comments_description_many_comments_many_users_icu">{RECIPIENT_GENDER,select, female{Viac ako 99 komentárov k položke {ITEM_TITLE}}male{Viac ako 99 komentárov k položke {ITEM_TITLE}}other{Viac ako 99 komentárov k položke {ITEM_TITLE}}}</string>
     <string name="notify_comments_description_many_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Viac ako 99 komentárov k položke {ITEM_TITLE}}male{Viac ako 99 komentárov k položke {ITEM_TITLE}}other{Viac ako 99 komentárov k položke {ITEM_TITLE}}}}male{{SENDER_GENDER,select, female{Viac ako 99 komentárov k položke {ITEM_TITLE}}male{Viac ako 99 komentárov k položke {ITEM_TITLE}}other{Viac ako 99 komentárov k položke {ITEM_TITLE}}}}other{{SENDER_GENDER,select, female{Viac ako 99 komentárov k položke {ITEM_TITLE}}male{Viac ako 99 komentárov k položke {ITEM_TITLE}}other{Viac ako 99 komentárov k položke {ITEM_TITLE}}}}}</string>
+    <string name="notify_comments_description_many_items_many_users_icu">{RECIPIENT_GENDER,select, female{Viac ako 99 komentárov a návrhov k položke {ITEM_TITLE}}male{Viac ako 99 komentárov a návrhov k položke {ITEM_TITLE}}other{Viac ako 99 komentárov a návrhov k položke {ITEM_TITLE}}}</string>
+    <string name="notify_comments_description_many_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Viac ako 99 komentárov a návrhov k položke {ITEM_TITLE}}male{Viac ako 99 komentárov a návrhov k položke {ITEM_TITLE}}other{Viac ako 99 komentárov a návrhov k položke {ITEM_TITLE}}}}male{{SENDER_GENDER,select, female{Viac ako 99 komentárov a návrhov k položke {ITEM_TITLE}}male{Viac ako 99 komentárov a návrhov k položke {ITEM_TITLE}}other{Viac ako 99 komentárov a návrhov k položke {ITEM_TITLE}}}}other{{SENDER_GENDER,select, female{Viac ako 99 komentárov a návrhov k položke {ITEM_TITLE}}male{Viac ako 99 komentárov a návrhov k položke {ITEM_TITLE}}other{Viac ako 99 komentárov a návrhov k položke {ITEM_TITLE}}}}}</string>
     <string name="notify_comments_description_many_suggestions_many_users_icu">{RECIPIENT_GENDER,select, female{viac ako 99 návrhov k položke {ITEM_TITLE}}male{viac ako 99 návrhov k položke {ITEM_TITLE}}other{viac ako 99 návrhov k položke {ITEM_TITLE}}}</string>
     <string name="notify_comments_description_many_suggestions_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{viac ako 99 návrhov k položke {ITEM_TITLE}}male{viac ako 99 návrhov k položke {ITEM_TITLE}}other{viac ako 99 návrhov k položke {ITEM_TITLE}}}}male{{SENDER_GENDER,select, female{viac ako 99 návrhov k položke {ITEM_TITLE}}male{viac ako 99 návrhov k položke {ITEM_TITLE}}other{viac ako 99 návrhov k položke {ITEM_TITLE}}}}other{{SENDER_GENDER,select, female{viac ako 99 návrhov k položke {ITEM_TITLE}}male{viac ako 99 návrhov k položke {ITEM_TITLE}}other{viac ako 99 návrhov k položke {ITEM_TITLE}}}}}</string>
-    <string name="notify_comments_description_many_todos_many_users_icu">{RECIPIENT_GENDER,select, female{Viac ako 99 úloh v položke {ITEM_TITLE}}male{Viac ako 99 úloh v položke {ITEM_TITLE}}other{Viac ako 99 úloh v položke {ITEM_TITLE}}}</string>
-    <string name="notify_comments_description_many_todos_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Viac ako 99 úloh v položke {ITEM_TITLE}}male{Viac ako 99 úloh v položke {ITEM_TITLE}}other{Viac ako 99 úloh v položke {ITEM_TITLE}}}}male{{SENDER_GENDER,select, female{Viac ako 99 úloh v položke {ITEM_TITLE}}male{Viac ako 99 úloh v položke {ITEM_TITLE}}other{Viac ako 99 úloh v položke {ITEM_TITLE}}}}other{{SENDER_GENDER,select, female{Viac ako 99 úloh v položke {ITEM_TITLE}}male{Viac ako 99 úloh v položke {ITEM_TITLE}}other{Viac ako 99 úloh v položke {ITEM_TITLE}}}}}</string>
-    <string name="notify_comments_description_num_comments_many_users_icu">{RECIPIENT_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáre k položke {ITEM_TITLE}}many{{TOTAL_ITEMS_2} comments on ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} komentárov k položke {ITEM_TITLE}}}}male{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáre k položke {ITEM_TITLE}}many{{TOTAL_ITEMS_2} comments on ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} komentárov k položke {ITEM_TITLE}}}}other{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáre k položke {ITEM_TITLE}}many{{TOTAL_ITEMS_2} comments on ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} komentárov k položke {ITEM_TITLE}}}}}</string>
-    <string name="notify_comments_description_num_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáre k položke {ITEM_TITLE}}many{{TOTAL_ITEMS_2} comments on ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} komentárov k položke {ITEM_TITLE}}}}male{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáre k položke {ITEM_TITLE}}many{{TOTAL_ITEMS_2} comments on ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} komentárov k položke {ITEM_TITLE}}}}other{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáre k položke {ITEM_TITLE}}many{{TOTAL_ITEMS_2} comments on ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} komentárov k položke {ITEM_TITLE}}}}}}male{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáre k položke {ITEM_TITLE}}many{{TOTAL_ITEMS_2} comments on ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} komentárov k položke {ITEM_TITLE}}}}male{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáre k položke {ITEM_TITLE}}many{{TOTAL_ITEMS_2} comments on ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} komentárov k položke {ITEM_TITLE}}}}other{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáre k položke {ITEM_TITLE}}many{{TOTAL_ITEMS_2} comments on ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} komentárov k položke {ITEM_TITLE}}}}}}other{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáre k položke {ITEM_TITLE}}many{{TOTAL_ITEMS_2} comments on ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} komentárov k položke {ITEM_TITLE}}}}male{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáre k položke {ITEM_TITLE}}many{{TOTAL_ITEMS_2} comments on ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} komentárov k položke {ITEM_TITLE}}}}other{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáre k položke {ITEM_TITLE}}many{{TOTAL_ITEMS_2} comments on ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} komentárov k položke {ITEM_TITLE}}}}}}}</string>
+    <string name="notify_comments_description_num_comments_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} komentáre k položke {ITEM_TITLE}}many{{NUM_COMMENTS_2} komentára k položke {ITEM_TITLE}}other{{NUM_COMMENTS_2} komentárov k položke {ITEM_TITLE}}}}male{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} komentáre k položke {ITEM_TITLE}}many{{NUM_COMMENTS_2} komentára k položke {ITEM_TITLE}}other{{NUM_COMMENTS_2} komentárov k položke {ITEM_TITLE}}}}other{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} komentáre k položke {ITEM_TITLE}}many{{NUM_COMMENTS_2} komentára k položke {ITEM_TITLE}}other{{NUM_COMMENTS_2} komentárov k položke {ITEM_TITLE}}}}}</string>
+    <string name="notify_comments_description_num_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} komentáre k položke {ITEM_TITLE}}many{{NUM_COMMENTS_2} komentára k položke {ITEM_TITLE}}other{{NUM_COMMENTS_2} komentárov k položke {ITEM_TITLE}}}}male{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} komentáre k položke {ITEM_TITLE}}many{{NUM_COMMENTS_2} komentára k položke {ITEM_TITLE}}other{{NUM_COMMENTS_2} komentárov k položke {ITEM_TITLE}}}}other{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} komentáre k položke {ITEM_TITLE}}many{{NUM_COMMENTS_2} komentára k položke {ITEM_TITLE}}other{{NUM_COMMENTS_2} komentárov k položke {ITEM_TITLE}}}}}}male{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} komentáre k položke {ITEM_TITLE}}many{{NUM_COMMENTS_2} komentára k položke {ITEM_TITLE}}other{{NUM_COMMENTS_2} komentárov k položke {ITEM_TITLE}}}}male{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} komentáre k položke {ITEM_TITLE}}many{{NUM_COMMENTS_2} komentára k položke {ITEM_TITLE}}other{{NUM_COMMENTS_2} komentárov k položke {ITEM_TITLE}}}}other{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} komentáre k položke {ITEM_TITLE}}many{{NUM_COMMENTS_2} komentára k položke {ITEM_TITLE}}other{{NUM_COMMENTS_2} komentárov k položke {ITEM_TITLE}}}}}}other{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} komentáre k položke {ITEM_TITLE}}many{{NUM_COMMENTS_2} komentára k položke {ITEM_TITLE}}other{{NUM_COMMENTS_2} komentárov k položke {ITEM_TITLE}}}}male{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} komentáre k položke {ITEM_TITLE}}many{{NUM_COMMENTS_2} komentára k položke {ITEM_TITLE}}other{{NUM_COMMENTS_2} komentárov k položke {ITEM_TITLE}}}}other{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} komentáre k položke {ITEM_TITLE}}many{{NUM_COMMENTS_2} komentára k položke {ITEM_TITLE}}other{{NUM_COMMENTS_2} komentárov k položke {ITEM_TITLE}}}}}}}</string>
+    <string name="notify_comments_description_num_items_many_users_icu">{RECIPIENT_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáre a návrhy k položke {ITEM_TITLE}}many{{TOTAL_ITEMS_2} comments &amp; suggestions in ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} komentárov a návrhov k položke {ITEM_TITLE}}}}male{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáre a návrhy k položke {ITEM_TITLE}}many{{TOTAL_ITEMS_2} comments &amp; suggestions in ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} komentárov a návrhov k položke {ITEM_TITLE}}}}other{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáre a návrhy k položke {ITEM_TITLE}}many{{TOTAL_ITEMS_2} comments &amp; suggestions in ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} komentárov a návrhov k položke {ITEM_TITLE}}}}}</string>
+    <string name="notify_comments_description_num_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáre a návrhy k položke {ITEM_TITLE}}many{{TOTAL_ITEMS_2} comments &amp; suggestions in ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} komentárov a návrhov k položke {ITEM_TITLE}}}}male{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáre a návrhy k položke {ITEM_TITLE}}many{{TOTAL_ITEMS_2} comments &amp; suggestions in ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} komentárov a návrhov k položke {ITEM_TITLE}}}}other{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáre a návrhy k položke {ITEM_TITLE}}many{{TOTAL_ITEMS_2} comments &amp; suggestions in ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} komentárov a návrhov k položke {ITEM_TITLE}}}}}}male{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáre a návrhy k položke {ITEM_TITLE}}many{{TOTAL_ITEMS_2} comments &amp; suggestions in ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} komentárov a návrhov k položke {ITEM_TITLE}}}}male{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáre a návrhy k položke {ITEM_TITLE}}many{{TOTAL_ITEMS_2} comments &amp; suggestions in ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} komentárov a návrhov k položke {ITEM_TITLE}}}}other{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáre a návrhy k položke {ITEM_TITLE}}many{{TOTAL_ITEMS_2} comments &amp; suggestions in ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} komentárov a návrhov k položke {ITEM_TITLE}}}}}}other{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáre a návrhy k položke {ITEM_TITLE}}many{{TOTAL_ITEMS_2} comments &amp; suggestions in ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} komentárov a návrhov k položke {ITEM_TITLE}}}}male{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáre a návrhy k položke {ITEM_TITLE}}many{{TOTAL_ITEMS_2} comments &amp; suggestions in ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} komentárov a návrhov k položke {ITEM_TITLE}}}}other{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáre a návrhy k položke {ITEM_TITLE}}many{{TOTAL_ITEMS_2} comments &amp; suggestions in ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} komentárov a návrhov k položke {ITEM_TITLE}}}}}}}</string>
     <string name="notify_comments_description_num_suggestions_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} návrhy k položke {ITEM_TITLE}}many{{NUM_SUGGESTIONS_2} suggestions in ‘{ITEM_TITLE}’}other{{NUM_SUGGESTIONS_2} návrhov k položke {ITEM_TITLE}}}}male{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} návrhy k položke {ITEM_TITLE}}many{{NUM_SUGGESTIONS_2} suggestions in ‘{ITEM_TITLE}’}other{{NUM_SUGGESTIONS_2} návrhov k položke {ITEM_TITLE}}}}other{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} návrhy k položke {ITEM_TITLE}}many{{NUM_SUGGESTIONS_2} suggestions in ‘{ITEM_TITLE}’}other{{NUM_SUGGESTIONS_2} návrhov k položke {ITEM_TITLE}}}}}</string>
     <string name="notify_comments_description_num_suggestions_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} návrhy k položke {ITEM_TITLE}}many{{NUM_SUGGESTIONS_2} suggestions in ‘{ITEM_TITLE}’}other{{NUM_SUGGESTIONS_2} návrhov k položke {ITEM_TITLE}}}}male{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} návrhy k položke {ITEM_TITLE}}many{{NUM_SUGGESTIONS_2} suggestions in ‘{ITEM_TITLE}’}other{{NUM_SUGGESTIONS_2} návrhov k položke {ITEM_TITLE}}}}other{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} návrhy k položke {ITEM_TITLE}}many{{NUM_SUGGESTIONS_2} suggestions in ‘{ITEM_TITLE}’}other{{NUM_SUGGESTIONS_2} návrhov k položke {ITEM_TITLE}}}}}}male{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} návrhy k položke {ITEM_TITLE}}many{{NUM_SUGGESTIONS_2} suggestions in ‘{ITEM_TITLE}’}other{{NUM_SUGGESTIONS_2} návrhov k položke {ITEM_TITLE}}}}male{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} návrhy k položke {ITEM_TITLE}}many{{NUM_SUGGESTIONS_2} suggestions in ‘{ITEM_TITLE}’}other{{NUM_SUGGESTIONS_2} návrhov k položke {ITEM_TITLE}}}}other{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} návrhy k položke {ITEM_TITLE}}many{{NUM_SUGGESTIONS_2} suggestions in ‘{ITEM_TITLE}’}other{{NUM_SUGGESTIONS_2} návrhov k položke {ITEM_TITLE}}}}}}other{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} návrhy k položke {ITEM_TITLE}}many{{NUM_SUGGESTIONS_2} suggestions in ‘{ITEM_TITLE}’}other{{NUM_SUGGESTIONS_2} návrhov k položke {ITEM_TITLE}}}}male{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} návrhy k položke {ITEM_TITLE}}many{{NUM_SUGGESTIONS_2} suggestions in ‘{ITEM_TITLE}}other{{NUM_SUGGESTIONS_2} návrhov k položke {ITEM_TITLE}}}}other{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} návrhy k položke {ITEM_TITLE}}many{{NUM_SUGGESTIONS_2} suggestions in ‘{ITEM_TITLE}’}other{{NUM_SUGGESTIONS_2} návrhov k položke {ITEM_TITLE}}}}}}}</string>
-    <string name="notify_comments_description_num_todos_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} úlohy v položke {ITEM_TITLE}}many{{NUM_TODOS_2} action items in ‘{ITEM_TITLE}’}other{{NUM_TODOS_2} úloh v položke {ITEM_TITLE}}}}male{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} úlohy v položke {ITEM_TITLE}}many{{NUM_TODOS_2} action items in ‘{ITEM_TITLE}’}other{{NUM_TODOS_2} úloh v položke {ITEM_TITLE}}}}other{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} úlohy v položke {ITEM_TITLE}}many{{NUM_TODOS_2} action items in ‘{ITEM_TITLE}’}other{{NUM_TODOS_2} úloh v položke {ITEM_TITLE}}}}}</string>
-    <string name="notify_comments_description_num_todos_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} úlohy v položke {ITEM_TITLE}}many{{NUM_TODOS_2} action items in ‘{ITEM_TITLE}’}other{{NUM_TODOS_2} úloh v položke {ITEM_TITLE}}}}male{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} úlohy v položke {ITEM_TITLE}}many{{NUM_TODOS_2} action items in ‘{ITEM_TITLE}’}other{{NUM_TODOS_2} úloh v položke {ITEM_TITLE}}}}other{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} úlohy v položke {ITEM_TITLE}}many{{NUM_TODOS_2} action items in ‘{ITEM_TITLE}’}other{{NUM_TODOS_2} úloh v položke {ITEM_TITLE}}}}}}male{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} úlohy v položke {ITEM_TITLE}}many{{NUM_TODOS_2} action items in ‘{ITEM_TITLE}’}other{{NUM_TODOS_2} úloh v položke {ITEM_TITLE}}}}male{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} úlohy v položke {ITEM_TITLE}}many{{NUM_TODOS_2} action items in ‘{ITEM_TITLE}’}other{{NUM_TODOS_2} úloh v položke {ITEM_TITLE}}}}other{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} úlohy v položke {ITEM_TITLE}}many{{NUM_TODOS_2} action items in ‘{ITEM_TITLE}’}other{{NUM_TODOS_2} úloh v položke {ITEM_TITLE}}}}}}other{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} úlohy v položke {ITEM_TITLE}}many{{NUM_TODOS_2} action items in ‘{ITEM_TITLE}’}other{{NUM_TODOS_2} úloh v položke {ITEM_TITLE}}}}male{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} úlohy v položke {ITEM_TITLE}}many{{NUM_TODOS_2} action items in ‘{ITEM_TITLE}’}other{{NUM_TODOS_2} úloh v položke {ITEM_TITLE}}}}other{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} úlohy v položke {ITEM_TITLE}}many{{NUM_TODOS_2} action items in ‘{ITEM_TITLE}’}other{{NUM_TODOS_2} úloh v položke {ITEM_TITLE}}}}}}}</string>
-    <string name="notify_comments_description_only_one_assign_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Priradené používateľovi {ASSIGNEE} v položke {ITEM_TITLE}}male{Priradené používateľovi {ASSIGNEE} v položke {ITEM_TITLE}}other{Priradené používateľovi {ASSIGNEE} v položke {ITEM_TITLE}}}}male{{SENDER_GENDER,select, female{Priradené používateľovi {ASSIGNEE} v položke {ITEM_TITLE}}male{Priradené používateľovi {ASSIGNEE} v položke {ITEM_TITLE}}other{Priradené používateľovi {ASSIGNEE} v položke {ITEM_TITLE}}}}other{{SENDER_GENDER,select, female{Priradené používateľovi {ASSIGNEE} v položke {ITEM_TITLE}}male{Priradené používateľovi {ASSIGNEE} v položke {ITEM_TITLE}}other{Priradené používateľovi {ASSIGNEE} v položke {ITEM_TITLE}}}}}</string>
-    <string name="notify_comments_description_only_one_assign_to_you_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Úloha bola v položke {ITEM_TITLE} priradená vám}male{Úloha bola v položke {ITEM_TITLE} priradená vám}other{Úloha bola v položke {ITEM_TITLE} priradená vám}}}male{{SENDER_GENDER,select, female{Úloha bola v položke {ITEM_TITLE} priradená vám}male{Úloha bola v položke {ITEM_TITLE} priradená vám}other{Úloha bola v položke {ITEM_TITLE} priradená vám}}}other{{SENDER_GENDER,select, female{Úloha bola v položke {ITEM_TITLE} priradená vám}male{Úloha bola v položke {ITEM_TITLE} priradená vám}other{Úloha bola v položke {ITEM_TITLE} priradená vám}}}}</string>
     <string name="notify_comments_description_only_one_comment_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Komentovala položku {ITEM_TITLE}}male{Komentoval položku {ITEM_TITLE}}other{Komentoval(a) položku {ITEM_TITLE}}}}male{{SENDER_GENDER,select, female{Komentovala položku {ITEM_TITLE}}male{Komentoval položku {ITEM_TITLE}}other{Komentoval(a) položku {ITEM_TITLE}}}}other{{SENDER_GENDER,select, female{Komentovala položku {ITEM_TITLE}}male{Komentoval položku {ITEM_TITLE}}other{Komentoval(a) položku {ITEM_TITLE}}}}}</string>
     <string name="notify_comments_description_only_one_mention_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Vás zmienila v príspevku {ITEM_TITLE}}male{Vás zmienil v príspevku {ITEM_TITLE}}other{Vás zmienil(a) v príspevku {ITEM_TITLE}}}}male{{SENDER_GENDER,select, female{Vás zmienila v príspevku {ITEM_TITLE}}male{Vás zmienil v príspevku {ITEM_TITLE}}other{Vás zmienil(a) v príspevku {ITEM_TITLE}}}}other{{SENDER_GENDER,select, female{Vás zmienila v príspevku {ITEM_TITLE}}male{Vás zmienil v príspevku {ITEM_TITLE}}other{Vás zmienil(a) v príspevku {ITEM_TITLE}}}}}</string>
-    <string name="notify_comments_description_only_one_reassign_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Priradenie bolo v položke {ITEM_TITLE} zmenené na používateľa {ASSIGNEE}}male{Priradenie bolo v položke {ITEM_TITLE} zmenené na používateľa {ASSIGNEE}}other{Priradenie bolo v položke {ITEM_TITLE} zmenené na používateľa {ASSIGNEE}}}}male{{SENDER_GENDER,select, female{Priradenie bolo v položke {ITEM_TITLE} zmenené na používateľa {ASSIGNEE}}male{Priradenie bolo v položke {ITEM_TITLE} zmenené na používateľa {ASSIGNEE}}other{Priradenie bolo v položke {ITEM_TITLE} zmenené na používateľa {ASSIGNEE}}}}other{{SENDER_GENDER,select, female{Priradenie bolo v položke {ITEM_TITLE} zmenené na používateľa {ASSIGNEE}}male{Priradenie bolo v položke {ITEM_TITLE} zmenené na používateľa {ASSIGNEE}}other{Priradenie bolo v položke {ITEM_TITLE} zmenené na používateľa {ASSIGNEE}}}}}</string>
-    <string name="notify_comments_description_only_one_reassign_to_you_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Priradenie bolo v položke {ITEM_TITLE} zmenené na vás}male{Priradenie bolo v položke {ITEM_TITLE} zmenené na vás}other{Priradenie bolo v položke {ITEM_TITLE} zmenené na vás}}}male{{SENDER_GENDER,select, female{Priradenie bolo v položke {ITEM_TITLE} zmenené na vás}male{Priradenie bolo v položke {ITEM_TITLE} zmenené na vás}other{Priradenie bolo v položke {ITEM_TITLE} zmenené na vás}}}other{{SENDER_GENDER,select, female{Priradenie bolo v položke {ITEM_TITLE} zmenené na vás}male{Priradenie bolo v položke {ITEM_TITLE} zmenené na vás}other{Priradenie bolo v položke {ITEM_TITLE} zmenené na vás}}}}</string>
     <string name="notify_comments_description_only_one_suggestion_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Navrhla zmenu položky {ITEM_TITLE}}male{Navrhol zmenu položky {ITEM_TITLE}}other{Bola navrhnutá zmena položky {ITEM_TITLE}}}}male{{SENDER_GENDER,select, female{Navrhla zmenu položky {ITEM_TITLE}}male{Navrhol zmenu položky {ITEM_TITLE}}other{Bola navrhnutá zmena položky {ITEM_TITLE}}}}other{{SENDER_GENDER,select, female{Navrhla zmenu položky {ITEM_TITLE}}male{Navrhol zmenu položky {ITEM_TITLE}}other{Bola navrhnutá zmena položky {ITEM_TITLE}}}}}</string>
     <string name="notify_comments_description_short_many_comments_many_users_icu">{RECIPIENT_GENDER,select, female{Pridala viac ako 99 komentárov}male{Pridal viac ako 99 komentárov}other{Bolo pridaných viac ako 99 komentárov}}</string>
     <string name="notify_comments_description_short_many_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Pridala viac ako 99 komentárov}male{Pridal viac ako 99 komentárov}other{Bolo pridaných viac ako 99 komentárov}}}male{{SENDER_GENDER,select, female{Pridala viac ako 99 komentárov}male{Pridal viac ako 99 komentárov}other{Bolo pridaných viac ako 99 komentárov}}}other{{SENDER_GENDER,select, female{Pridala viac ako 99 komentárov}male{Pridal viac ako 99 komentárov}other{Bolo pridaných viac ako 99 komentárov}}}}</string>
+    <string name="notify_comments_description_short_many_items_many_users_icu">{RECIPIENT_GENDER,select, female{Pridala viac ako 99 návrhov}male{Pridal viac ako 99 návrhov}other{Bolo pridaných viac ako 99 návrhov}}</string>
+    <string name="notify_comments_description_short_many_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Pridala viac ako 99 komentárov a návrhov}male{Pridal viac ako 99 komentárov a návrhov}other{Bolo pridaných viac ako 99 komentárov a návrhov}}}male{{SENDER_GENDER,select, female{Pridala viac ako 99 komentárov a návrhov}male{Pridal viac ako 99 komentárov a návrhov}other{Bolo pridaných viac ako 99 komentárov a návrhov}}}other{{SENDER_GENDER,select, female{Pridala viac ako 99 komentárov a návrhov}male{Pridal viac ako 99 komentárov a návrhov}other{Bolo pridaných viac ako 99 komentárov a návrhov}}}}</string>
     <string name="notify_comments_description_short_many_suggestions_many_users_icu">{RECIPIENT_GENDER,select, female{Pridala viac ako 99 návrhov}male{Pridal viac ako 99 návrhov}other{Bolo pridaných viac ako 99 návrhov}}</string>
     <string name="notify_comments_description_short_many_suggestions_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Pridala viac ako 99 návrhov}male{Pridal viac ako 99 návrhov}other{Bolo pridaných viac ako 99 návrhov}}}male{{SENDER_GENDER,select, female{Pridala viac ako 99 návrhov}male{Pridal viac ako 99 návrhov}other{Bolo pridaných viac ako 99 návrhov}}}other{{SENDER_GENDER,select, female{Pridala viac ako 99 návrhov}male{Pridal viac ako 99 návrhov}other{Bolo pridaných viac ako 99 návrhov}}}}</string>
-    <string name="notify_comments_description_short_many_todos_many_users_icu">{RECIPIENT_GENDER,select, female{Pridala viac ako 99 úloh}male{Pridal viac ako 99 úloh}other{Bolo pridaných viac ako 99 úloh}}</string>
-    <string name="notify_comments_description_short_many_todos_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Pridala viac ako 99 úloh}male{Pridal viac ako 99 úloh}other{Bolo pridaných viac ako 99 úloh}}}male{{SENDER_GENDER,select, female{Pridala viac ako 99 úloh}male{Pridal viac ako 99 úloh}other{Bolo pridaných viac ako 99 úloh}}}other{{SENDER_GENDER,select, female{Pridala viac ako 99 úloh}male{Pridal viac ako 99 úloh}other{Bolo pridaných viac ako 99 úloh}}}}</string>
-    <string name="notify_comments_description_short_num_comments_many_users_icu">{RECIPIENT_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{Pridala {TOTAL_ITEMS_2} komentáre}many{Added {TOTAL_ITEMS_2} comments}other{Pridala {TOTAL_ITEMS_2} komentárov}}}male{{TOTAL_ITEMS_1,plural, =1{}few{Pridal {TOTAL_ITEMS_2} komentáre}many{Added {TOTAL_ITEMS_2} comments}other{Pridal {TOTAL_ITEMS_2} komentárov}}}other{{TOTAL_ITEMS_1,plural, =1{}few{Boli pridané {TOTAL_ITEMS_2} komentáre}many{Added {TOTAL_ITEMS_2} comments}other{Bolo pridaných {TOTAL_ITEMS_2} komentárov}}}}</string>
-    <string name="notify_comments_description_short_num_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{Pridala {TOTAL_ITEMS_2} komentáre}many{Added {TOTAL_ITEMS_2} comments}other{Pridala {TOTAL_ITEMS_2} komentárov}}}male{{TOTAL_ITEMS_1,plural, =1{}few{Pridal {TOTAL_ITEMS_2} komentáre}many{Added {TOTAL_ITEMS_2} comments}other{Pridal {TOTAL_ITEMS_2} komentárov}}}other{{TOTAL_ITEMS_1,plural, =1{}few{Boli pridané {TOTAL_ITEMS_2} komentáre}many{Added {TOTAL_ITEMS_2} comments}other{Bolo pridaných {TOTAL_ITEMS_2} komentárov}}}}}male{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{Pridala {TOTAL_ITEMS_2} komentáre}many{Added {TOTAL_ITEMS_2} comments}other{Pridala {TOTAL_ITEMS_2} komentárov}}}male{{TOTAL_ITEMS_1,plural, =1{}few{Pridal {TOTAL_ITEMS_2} komentáre}many{Added {TOTAL_ITEMS_2} comments}other{Pridal {TOTAL_ITEMS_2} komentárov}}}other{{TOTAL_ITEMS_1,plural, =1{}few{Boli pridané {TOTAL_ITEMS_2} komentáre}many{Added {TOTAL_ITEMS_2} comments}other{Bolo pridaných {TOTAL_ITEMS_2} komentárov}}}}}other{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{Pridala {TOTAL_ITEMS_2} komentáre}many{Added {TOTAL_ITEMS_2} comments}other{Pridala {TOTAL_ITEMS_2} komentárov}}}male{{TOTAL_ITEMS_1,plural, =1{}few{Pridal {TOTAL_ITEMS_2} komentáre}many{Added {TOTAL_ITEMS_2} comments}other{Pridal {TOTAL_ITEMS_2} komentárov}}}other{{TOTAL_ITEMS_1,plural, =1{}few{Boli pridané {TOTAL_ITEMS_2} komentáre}many{Added {TOTAL_ITEMS_2} comments}other{Bolo pridaných {TOTAL_ITEMS_2} komentárov}}}}}}</string>
+    <string name="notify_comments_description_short_num_comments_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}few{Pridala {NUM_COMMENTS_2} komentáre}many{Pridala {NUM_COMMENTS_2} komentára}other{Pridala {NUM_COMMENTS_2} komentárov}}}male{{NUM_COMMENTS_1,plural, =1{}few{Pridal {NUM_COMMENTS_2} komentáre}many{Pridal {NUM_COMMENTS_2} komentára}other{Pridal {NUM_COMMENTS_2} komentárov}}}other{{NUM_COMMENTS_1,plural, =1{}few{Pridal(a) {NUM_COMMENTS_2} komentáre}many{Pridal(a) {NUM_COMMENTS_2} komentára}other{Pridal(a) {NUM_COMMENTS_2} komentárov}}}}</string>
+    <string name="notify_comments_description_short_num_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}few{Pridala {NUM_COMMENTS_2} komentáre}many{Pridala {NUM_COMMENTS_2} komentára}other{Pridala {NUM_COMMENTS_2} komentárov}}}male{{NUM_COMMENTS_1,plural, =1{}few{Pridal {NUM_COMMENTS_2} komentáre}many{Pridal {NUM_COMMENTS_2} komentára}other{Pridal {NUM_COMMENTS_2} komentárov}}}other{{NUM_COMMENTS_1,plural, =1{}few{Pridal(a) {NUM_COMMENTS_2} komentáre}many{Pridal(a) {NUM_COMMENTS_2} komentára}other{Pridal(a) {NUM_COMMENTS_2} komentárov}}}}}male{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}few{Pridala {NUM_COMMENTS_2} komentáre}many{Pridala {NUM_COMMENTS_2} komentára}other{Pridala {NUM_COMMENTS_2} komentárov}}}male{{NUM_COMMENTS_1,plural, =1{}few{Pridal {NUM_COMMENTS_2} komentáre}many{Pridal {NUM_COMMENTS_2} komentára}other{Pridal {NUM_COMMENTS_2} komentárov}}}other{{NUM_COMMENTS_1,plural, =1{}few{Pridal(a) {NUM_COMMENTS_2} komentáre}many{Pridal(a) {NUM_COMMENTS_2} komentára}other{Pridal(a) {NUM_COMMENTS_2} komentárov}}}}}other{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}few{Pridala {NUM_COMMENTS_2} komentáre}many{Pridala {NUM_COMMENTS_2} komentára}other{Pridala {NUM_COMMENTS_2} komentárov}}}male{{NUM_COMMENTS_1,plural, =1{}few{Pridal {NUM_COMMENTS_2} komentáre}many{Pridal {NUM_COMMENTS_2} komentára}other{Pridal {NUM_COMMENTS_2} komentárov}}}other{{NUM_COMMENTS_1,plural, =1{}few{Pridal(a) {NUM_COMMENTS_2} komentáre}many{Pridal(a) {NUM_COMMENTS_2} komentára}other{Pridal(a) {NUM_COMMENTS_2} komentárov}}}}}}</string>
+    <string name="notify_comments_description_short_num_items_many_users_icu">{RECIPIENT_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{Pridala {TOTAL_ITEMS_2} komentáre a návrhy}many{Added {TOTAL_ITEMS_2} comments &amp; suggestions}other{Pridala {TOTAL_ITEMS_2} komentárov a návrhov}}}male{{TOTAL_ITEMS_1,plural, =1{}few{Pridal {TOTAL_ITEMS_2} komentáre a návrhy}many{Added {TOTAL_ITEMS_2} comments &amp; suggestions}other{Pridal {TOTAL_ITEMS_2} komentárov a návrhov}}}other{{TOTAL_ITEMS_1,plural, =1{}few{Boli pridané {TOTAL_ITEMS_2} komentáre a návrhy}many{Added {TOTAL_ITEMS_2} comments &amp; suggestions}other{Bolo pridaných {TOTAL_ITEMS_2} komentárov a návrhov}}}}</string>
+    <string name="notify_comments_description_short_num_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{Pridala {TOTAL_ITEMS_2} komentáre a návrhy}many{Added {TOTAL_ITEMS_2} comments &amp; suggestions}other{Pridala {TOTAL_ITEMS_2} komentárov a návrhov}}}male{{TOTAL_ITEMS_1,plural, =1{}few{Pridal {TOTAL_ITEMS_2} komentáre a návrhy}many{Added {TOTAL_ITEMS_2} comments &amp; suggestions}other{Pridal {TOTAL_ITEMS_2} komentárov a návrhov}}}other{{TOTAL_ITEMS_1,plural, =1{}few{Boli pridané {TOTAL_ITEMS_2} komentáre a návrhy}many{Added {TOTAL_ITEMS_2} comments &amp; suggestions}other{Bolo pridaných {TOTAL_ITEMS_2} komentárov a návrhov}}}}}male{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{Pridala {TOTAL_ITEMS_2} komentáre a návrhy}many{Added {TOTAL_ITEMS_2} comments &amp; suggestions}other{Pridala {TOTAL_ITEMS_2} komentárov a návrhov}}}male{{TOTAL_ITEMS_1,plural, =1{}few{Pridal {TOTAL_ITEMS_2} komentáre a návrhy}many{Added {TOTAL_ITEMS_2} comments &amp; suggestions}other{Pridal {TOTAL_ITEMS_2} komentárov a návrhov}}}other{{TOTAL_ITEMS_1,plural, =1{}few{Boli pridané {TOTAL_ITEMS_2} komentáre a návrhy}many{Added {TOTAL_ITEMS_2} comments &amp; suggestions}other{Bolo pridaných {TOTAL_ITEMS_2} komentárov a návrhov}}}}}other{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{Pridala {TOTAL_ITEMS_2} komentáre a návrhy}many{Added {TOTAL_ITEMS_2} comments &amp; suggestions}other{Pridala {TOTAL_ITEMS_2} komentárov a návrhov}}}male{{TOTAL_ITEMS_1,plural, =1{}few{Pridal {TOTAL_ITEMS_2} komentáre a návrhy}many{Added {TOTAL_ITEMS_2} comments &amp; suggestions}other{Pridal {TOTAL_ITEMS_2} komentárov a návrhov}}}other{{TOTAL_ITEMS_1,plural, =1{}few{Boli pridané {TOTAL_ITEMS_2} komentáre a návrhy}many{Added {TOTAL_ITEMS_2} comments &amp; suggestions}other{Bolo pridaných {TOTAL_ITEMS_2} komentárov a návrhov}}}}}}</string>
     <string name="notify_comments_description_short_num_suggestions_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}few{Navrhla {NUM_SUGGESTIONS_2} zmeny}many{Suggested {NUM_SUGGESTIONS_2} changes}other{Navrhla {NUM_SUGGESTIONS_2} zmien}}}male{{NUM_SUGGESTIONS_1,plural, =1{}few{Navrhol {NUM_SUGGESTIONS_2} zmeny}many{Suggested {NUM_SUGGESTIONS_2} changes}other{Navrhol {NUM_SUGGESTIONS_2} zmien}}}other{{NUM_SUGGESTIONS_1,plural, =1{}few{Boli navrhnuté {NUM_SUGGESTIONS_2} zmeny}many{Suggested {NUM_SUGGESTIONS_2} changes}other{Bolo navrhnutých {NUM_SUGGESTIONS_2} zmien}}}}</string>
     <string name="notify_comments_description_short_num_suggestions_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}few{Pridala {NUM_SUGGESTIONS_2} návrhy}many{Added {NUM_SUGGESTIONS_2} suggestions}other{Pridala {NUM_SUGGESTIONS_2} návrhov}}}male{{NUM_SUGGESTIONS_1,plural, =1{}few{Pridal {NUM_SUGGESTIONS_2} návrhy}many{Added {NUM_SUGGESTIONS_2} suggestions}other{Pridal {NUM_SUGGESTIONS_2} návrhov}}}other{{NUM_SUGGESTIONS_1,plural, =1{}few{Boli pridané {NUM_SUGGESTIONS_2} návrhy}many{Added {NUM_SUGGESTIONS_2} suggestions}other{Bolo pridaných {NUM_SUGGESTIONS_2} návrhov}}}}}male{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}few{Pridala {NUM_SUGGESTIONS_2} návrhy}many{Added {NUM_SUGGESTIONS_2} suggestions}other{Pridala {NUM_SUGGESTIONS_2} návrhov}}}male{{NUM_SUGGESTIONS_1,plural, =1{}few{Pridal {NUM_SUGGESTIONS_2} návrhy}many{Added {NUM_SUGGESTIONS_2} suggestions}other{Pridal {NUM_SUGGESTIONS_2} návrhov}}}other{{NUM_SUGGESTIONS_1,plural, =1{}few{Boli pridané {NUM_SUGGESTIONS_2} návrhy}many{Added {NUM_SUGGESTIONS_2} suggestions}other{Bolo pridaných {NUM_SUGGESTIONS_2} návrhov}}}}}other{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}few{Pridala {NUM_SUGGESTIONS_2} návrhy}many{Added {NUM_SUGGESTIONS_2} suggestions}other{Pridala {NUM_SUGGESTIONS_2} návrhov}}}male{{NUM_SUGGESTIONS_1,plural, =1{}few{Pridal {NUM_SUGGESTIONS_2} návrhy}many{Added {NUM_SUGGESTIONS_2} suggestions}other{Pridal {NUM_SUGGESTIONS_2} návrhov}}}other{{NUM_SUGGESTIONS_1,plural, =1{}few{Boli pridané {NUM_SUGGESTIONS_2} návrhy}many{Added {NUM_SUGGESTIONS_2} suggestions}other{Bolo pridaných {NUM_SUGGESTIONS_2} návrhov}}}}}}</string>
-    <string name="notify_comments_description_short_num_todos_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_TODOS_1,plural, =1{}few{Pridala {NUM_TODOS_2} položky akcií}many{Added {NUM_TODOS_2} action items}other{Pridala {NUM_TODOS_2} úloh}}}male{{NUM_TODOS_1,plural, =1{}few{Pridal {NUM_TODOS_2} položky akcií}many{Added {NUM_TODOS_2} action items}other{Pridal {NUM_TODOS_2} úloh}}}other{{NUM_TODOS_1,plural, =1{}few{Boli pridané {NUM_TODOS_2} položky akcií}many{Added {NUM_TODOS_2} action items}other{Bolo pridaných {NUM_TODOS_2} úloh}}}}</string>
-    <string name="notify_comments_description_short_num_todos_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}few{Pridala {NUM_TODOS_2} položky akcií}many{Added {NUM_TODOS_2} action items}other{Pridala {NUM_TODOS_2} úloh}}}male{{NUM_TODOS_1,plural, =1{}few{Pridal {NUM_TODOS_2} položky akcií}many{Added {NUM_TODOS_2} action items}other{Pridal {NUM_TODOS_2} úloh}}}other{{NUM_TODOS_1,plural, =1{}few{Boli pridané {NUM_TODOS_2} položky akcií}many{Added {NUM_TODOS_2} action items}other{Bolo pridaných {NUM_TODOS_2} úloh}}}}}male{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}few{Pridala {NUM_TODOS_2} položky akcií}many{Added {NUM_TODOS_2} action items}other{Pridala {NUM_TODOS_2} úloh}}}male{{NUM_TODOS_1,plural, =1{}few{Pridal {NUM_TODOS_2} položky akcií}many{Added {NUM_TODOS_2} action items}other{Pridal {NUM_TODOS_2} úloh}}}other{{NUM_TODOS_1,plural, =1{}few{Boli pridané {NUM_TODOS_2} položky akcií}many{Added {NUM_TODOS_2} action items}other{Bolo pridaných {NUM_TODOS_2} úloh}}}}}other{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}few{Pridala {NUM_TODOS_2} položky akcií}many{Added {NUM_TODOS_2} action items}other{Pridala {NUM_TODOS_2} úloh}}}male{{NUM_TODOS_1,plural, =1{}few{Pridal {NUM_TODOS_2} položky akcií}many{Added {NUM_TODOS_2} action items}other{Pridal {NUM_TODOS_2} úloh}}}other{{NUM_TODOS_1,plural, =1{}few{Boli pridané {NUM_TODOS_2} položky akcií}many{Added {NUM_TODOS_2} action items}other{Bolo pridaných {NUM_TODOS_2} úloh}}}}}}</string>
-    <string name="notify_comments_description_short_only_one_assign_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Položka bola priradená používateľovi {ASSIGNEE}}male{Položka bola priradená používateľovi {ASSIGNEE}}other{Položka bola priradená používateľovi {ASSIGNEE}}}}male{{SENDER_GENDER,select, female{Položka bola priradená používateľovi {ASSIGNEE}}male{Položka bola priradená používateľovi {ASSIGNEE}}other{Položka bola priradená používateľovi {ASSIGNEE}}}}other{{SENDER_GENDER,select, female{Položka bola priradená používateľovi {ASSIGNEE}}male{Položka bola priradená používateľovi {ASSIGNEE}}other{Položka bola priradená používateľovi {ASSIGNEE}}}}}</string>
-    <string name="notify_comments_description_short_only_one_assign_to_you_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Položka bola priradená vám}male{Položka bola priradená vám}other{Položka bola priradená vám}}}male{{SENDER_GENDER,select, female{Položka bola priradená vám}male{Položka bola priradená vám}other{Položka bola priradená vám}}}other{{SENDER_GENDER,select, female{Položka bola priradená vám}male{Položka bola priradená vám}other{Položka bola priradená vám}}}}</string>
     <string name="notify_comments_description_short_only_one_comment_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Pridala komentár}male{Pridal komentár}other{Pridal(a) komentár}}}male{{SENDER_GENDER,select, female{Pridala komentár}male{Pridal komentár}other{Pridal(a) komentár}}}other{{SENDER_GENDER,select, female{Pridala komentár}male{Pridal komentár}other{Pridal(a) komentár}}}}</string>
     <string name="notify_comments_description_short_only_one_mention_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Vás zmienila}male{Vás zmienil}other{Vás zmienil(a)}}}male{{SENDER_GENDER,select, female{Vás zmienila}male{Vás zmienil}other{Vás zmienil(a)}}}other{{SENDER_GENDER,select, female{Vás zmienila}male{Vás zmienil}other{Vás zmienil(a)}}}}</string>
-    <string name="notify_comments_description_short_only_one_reassign_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Priradenie bolo zmenené na používateľa {ASSIGNEE}}male{Priradenie bolo zmenené na používateľa {ASSIGNEE}}other{Priradenie bolo zmenené na používateľa {ASSIGNEE}}}}male{{SENDER_GENDER,select, female{Priradenie bolo zmenené na používateľa {ASSIGNEE}}male{Priradenie bolo zmenené na používateľa {ASSIGNEE}}other{Priradenie bolo zmenené na používateľa {ASSIGNEE}}}}other{{SENDER_GENDER,select, female{Priradenie bolo zmenené na používateľa {ASSIGNEE}}male{Priradenie bolo zmenené na používateľa {ASSIGNEE}}other{Priradenie bolo zmenené na používateľa {ASSIGNEE}}}}}</string>
-    <string name="notify_comments_description_short_only_one_reassign_to_you_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Priradenie bolo zmenené na vás}male{Priradenie bolo zmenené na vás}other{Priradenie bolo zmenené na vás}}}male{{SENDER_GENDER,select, female{Priradenie bolo zmenené na vás}male{Priradenie bolo zmenené na vás}other{Priradenie bolo zmenené na vás}}}other{{SENDER_GENDER,select, female{Priradenie bolo zmenené na vás}male{Priradenie bolo zmenené na vás}other{Priradenie bolo zmenené na vás}}}}</string>
     <string name="notify_comments_description_short_only_one_suggestion_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Navrhla zmenu}male{Navrhol zmenu}other{Navrhuje zmenu}}}male{{SENDER_GENDER,select, female{Navrhla zmenu}male{Navrhol zmenu}other{Navrhuje zmenu}}}other{{SENDER_GENDER,select, female{Navrhla zmenu}male{Navrhol zmenu}other{Navrhuje zmenu}}}}</string>
     <string name="notify_comments_reply_text_icu">{RECIPIENT_GENDER,select, female{{OTHER_POSTER_COUNT_1,plural, =0{Odpoveď na príspevok používateľa {POSTER_NAME}}=1{Odpoveď na príspevok používateľa {POSTER_NAME} a 1 ďalšieho}few{Odpoveď na príspevok používateľa {POSTER_NAME} a {OTHER_POSTER_COUNT_2} ďalších}many{In reply to {POSTER_NAME} and {OTHER_POSTER_COUNT_2} others}other{Odpoveď na príspevok používateľa {POSTER_NAME} a {OTHER_POSTER_COUNT_2} ďalších}}}male{{OTHER_POSTER_COUNT_1,plural, =0{Odpoveď na príspevok používateľa {POSTER_NAME}}=1{Odpoveď na príspevok používateľa {POSTER_NAME} a 1 ďalšieho}few{Odpoveď na príspevok používateľa {POSTER_NAME} a {OTHER_POSTER_COUNT_2} ďalších}many{In reply to {POSTER_NAME} and {OTHER_POSTER_COUNT_2} others}other{Odpoveď na príspevok používateľa {POSTER_NAME} a {OTHER_POSTER_COUNT_2} ďalších}}}other{{OTHER_POSTER_COUNT_1,plural, =0{Odpoveď na príspevok používateľa {POSTER_NAME}}=1{Odpoveď na príspevok používateľa {POSTER_NAME} a 1 ďalšieho}few{Odpoveď na príspevok používateľa {POSTER_NAME} a {OTHER_POSTER_COUNT_2} ďalších}many{In reply to {POSTER_NAME} and {OTHER_POSTER_COUNT_2} others}other{Odpoveď na príspevok používateľa {POSTER_NAME} a {OTHER_POSTER_COUNT_2} ďalších}}}}</string>
     <string name="notify_description_role_comment_request_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Požiadala o prístup na komentovanie}male{Požiadal o prístup na komentovanie}other{Požiadal(a) o prístup na komentovanie}}}male{{SENDER_GENDER,select, female{Požiadala o prístup na komentovanie}male{Požiadal o prístup na komentovanie}other{Požiadal(a) o prístup na komentovanie}}}other{{SENDER_GENDER,select, female{Požiadala o prístup na komentovanie}male{Požiadal o prístup na komentovanie}other{Požiadal(a) o prístup na komentovanie}}}}</string>
@@ -916,16 +820,6 @@ Súbor bude zdieľaný v priečinku %3$s."</string>
     <string name="notify_description_role_generic_access_request_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Požiadala o prístup}male{Požiadal o prístup}other{Požiadal(a) o prístup}}}male{{SENDER_GENDER,select, female{Požiadala o prístup}male{Požiadal o prístup}other{Požiadal(a) o prístup}}}other{{SENDER_GENDER,select, female{Požiadala o prístup}male{Požiadal o prístup}other{Požiadal(a) o prístup}}}}</string>
     <string name="notify_description_role_own_request_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Požiadala o vlastníctvo}male{Požiadal o vlastníctvo}other{Požiadal(a) o vlastníctvo}}}male{{SENDER_GENDER,select, female{Požiadala o vlastníctvo}male{Požiadal o vlastníctvo}other{Požiadal(a) o vlastníctvo}}}other{{SENDER_GENDER,select, female{Požiadala o vlastníctvo}male{Požiadal o vlastníctvo}other{Požiadal(a) o vlastníctvo}}}}</string>
     <string name="notify_description_role_view_request_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Požiadala o prístup na prezeranie}male{Požiadal o prístup na prezeranie}other{Požiadal(a) o prístup na prezeranie}}}male{{SENDER_GENDER,select, female{Požiadala o prístup na prezeranie}male{Požiadal o prístup na prezeranie}other{Požiadal(a) o prístup na prezeranie}}}other{{SENDER_GENDER,select, female{Požiadala o prístup na prezeranie}male{Požiadal o prístup na prezeranie}other{Požiadal(a) o prístup na prezeranie}}}}</string>
-    <string name="notify_drive_storage_expired_icu">{RECIPIENT_GENDER,select, female{Platnosť úložiska Disku vypršala}male{Platnosť úložiska Disku vypršala}other{Platnosť úložiska Disku vypršala}}</string>
-    <string name="notify_drive_storage_expires_friday">{RECIPIENT_GENDER,select, female{Platnosť úložiska Disku uplynie v piatok}male{Platnosť úložiska Disku uplynie v piatok}other{Platnosť úložiska Disku uplynie v piatok}}</string>
-    <string name="notify_drive_storage_expires_monday">{RECIPIENT_GENDER,select, female{Platnosť úložiska Disku uplynie v pondelok}male{Platnosť úložiska Disku uplynie v pondelok}other{Platnosť úložiska Disku uplynie v pondelok}}</string>
-    <string name="notify_drive_storage_expires_saturday">{RECIPIENT_GENDER,select, female{Platnosť úložiska Disku uplynie v sobotu}male{Platnosť úložiska Disku uplynie v sobotu}other{Platnosť úložiska Disku uplynie v sobotu}}</string>
-    <string name="notify_drive_storage_expires_soon">{RECIPIENT_GENDER,select, female{Platnosť úložiska Disku uplynie čoskoro}male{Platnosť úložiska Disku uplynie čoskoro}other{Platnosť úložiska Disku uplynie čoskoro}}</string>
-    <string name="notify_drive_storage_expires_sunday">{RECIPIENT_GENDER,select, female{Platnosť úložiska Disku uplynie v nedeľu}male{Platnosť úložiska Disku uplynie v nedeľu}other{Platnosť úložiska Disku uplynie v nedeľu}}</string>
-    <string name="notify_drive_storage_expires_thursday">{RECIPIENT_GENDER,select, female{Platnosť úložiska Disku uplynie vo štvrtok}male{Platnosť úložiska Disku uplynie vo štvrtok}other{Platnosť úložiska Disku uplynie vo štvrtok}}</string>
-    <string name="notify_drive_storage_expires_tuesday">{RECIPIENT_GENDER,select, female{Platnosť úložiska Disku uplynie v utorok}male{Platnosť úložiska Disku uplynie v utorok}other{Platnosť úložiska Disku uplynie v utorok}}</string>
-    <string name="notify_drive_storage_expires_wednesday">{RECIPIENT_GENDER,select, female{Platnosť úložiska Disku uplynie v stredu}male{Platnosť úložiska Disku uplynie v stredu}other{Platnosť úložiska Disku uplynie v stredu}}</string>
-    <string name="notify_drive_storage_expiring_today_icu">{RECIPIENT_GENDER,select, female{Platnosť úložiska Disku uplynie dnes}male{Platnosť úložiska Disku uplynie dnes}other{Platnosť úložiska Disku uplynie dnes}}</string>
     <string name="notify_heading_anonymous_user">Anonymný používateľ</string>
     <string name="notify_heading_icu">{NUM_SENDERS,plural,offset:1 =1{{FIRST_SENDER_DISPLAY_NAME}}=2{{FIRST_SENDER_DISPLAY_NAME} a {SECOND_SENDER}}few{{FIRST_SENDER_DISPLAY_NAME} a {XXX} ďalší}many{{FIRST_SENDER_DISPLAY_NAME} and {XXX} others}other{{FIRST_SENDER_DISPLAY_NAME} a {XXX} ďalších}}</string>
     <string name="notify_heading_many_people">%1$s a mnoho ďalších</string>
@@ -968,15 +862,10 @@ Súbor bude zdieľaný v priečinku %3$s."</string>
     <string name="notify_sharing_description_one_folder_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Zdieľa s vami priečinok}male{Zdieľa s vami priečinok}other{Zdieľa s vami priečinok}}}male{{SENDER_GENDER,select, female{Zdieľa s vami priečinok}male{Zdieľa s vami priečinok}other{Zdieľa s vami priečinok}}}other{{SENDER_GENDER,select, female{Zdieľa s vami priečinok}male{Zdieľa s vami priečinok}other{Zdieľa s vami priečinok}}}}</string>
     <string name="notify_sharing_description_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Zdieľa s vami položku „{ITEM_TITLE}“}male{Zdieľa s vami položku „{ITEM_TITLE}“}other{Zdieľa s vami položku „{ITEM_TITLE}“}}}male{{SENDER_GENDER,select, female{Zdieľa s vami položku „{ITEM_TITLE}“}male{Zdieľa s vami položku „{ITEM_TITLE}“}other{Zdieľa s vami položku „{ITEM_TITLE}“}}}other{{SENDER_GENDER,select, female{Zdieľa s vami položku „{ITEM_TITLE}“}male{Zdieľa s vami položku „{ITEM_TITLE}“}other{Zdieľa s vami položku „{ITEM_TITLE}“}}}}</string>
     <string name="notify_unknown_document_title">Neznámy dokument</string>
-    <string name="open_calendar">OTVORIŤ KALENDÁR GOOGLE</string>
-    <string name="open_contacts">OTVORIŤ KONTAKTY GOOGLE</string>
     <string name="open_document_error_item_cannot_be_exported">Nemožno stiahnuť; otvára sa vo webovom režime...</string>
     <string name="open_document_error_no_viewer_app_found">Nainštalované aplikácie súbor nezobrazia. Otvára sa vo webovom režime…</string>
     <string name="open_document_in_browser">Otvoriť v prehliadači</string>
-    <string name="open_folder_removed">Otvorený priečinok sa už nedá zobraziť</string>
-    <string name="open_folder_trashed">Priečinok %1$s bol vyhodený do koša</string>
     <string name="open_online_button">otvoriť online</string>
-    <string name="open_photos">OTVORIŤ FOTKY GOOGLE</string>
     <string name="open_pinned_version">Otvoriť zo zariad.</string>
     <string name="open_url_authentication_error">Nedá sa získať prístup k dokumentu. Pri overovaní totožnosti sa vyskytla chyba.</string>
     <string name="open_url_error_access_denied">Táto položka sa nedá otvoriť. Pravdepodobne nemáte povolenie alebo už nie je k dispozícii.</string>
@@ -989,12 +878,11 @@ Súbor bude zdieľaný v priečinku %3$s."</string>
     <string name="open_with_picker_dialog_open_button">Otvoriť</string>
     <string name="open_with_web_app_item_subtitle">Otvoriť vo webovom prehliadači</string>
     <string name="opening_document">Otvára sa dokument %1$s</string>
-    <string name="opening_in_app">Otvára sa v službe Disk Google</string>
+    <string name="opening_in_app">Otvára sa v službe Disk Google.</string>
     <string name="operation_sync_error">Chyba synchronizácie. Skúste to znova neskôr.</string>
     <string name="operation_sync_network_error">Chyba siete. Skúste to znova neskôr.</string>
     <string name="organize_introduction_header">Presunutím premiestnite položky</string>
     <string name="organize_introduction_text">Presunutím zbierky vybraných položiek nižšie do požadovaného priečinka ich premiestnite. Výber zrušíte prejdením prstom po zbierke a jej presunutím preč.</string>
-    <string name="other_backups">Ostatné zariadenia</string>
     <string name="ouch_button_close">Zavrieť</string>
     <string name="ouch_button_report">Nahlásiť</string>
     <string name="ouch_msg_sync_error">Pri synchronizácii s Diskom Google sa vyskytla chyba. Niektoré údaje sa nemuseli zosynchronizovať. Oznámením tejto chyby pomôžete zlepšiť náš produkt.</string>
@@ -1022,9 +910,6 @@ v bezpečí"</string>
     <string name="phonesky_installation_failure_alert_dialog_title">Inštalácia nebola úspešná</string>
     <string name="phonesky_no_internet_connection_alert_dialog_message">Vaše zariadenie nie je pripojené k Internetu. Skúste to znova neskôr.</string>
     <string name="phonesky_no_internet_connection_alert_dialog_title">Nepripojené</string>
-    <string name="photos_and_videos">Fotky a videá</string>
-    <string name="photos_and_videos_footer_text">Synchronizované do Fotiek Google</string>
-    <string name="photos_and_videos_message">Fotky a videá sú medzi zariadeniami synchronizované pomocou Fotiek Google.</string>
     <string name="pick_entry_create_new_folder">Vytvoriť nový priečinok</string>
     <string name="pick_entry_current_folder">Aktuálny priečinok: %1s</string>
     <string name="pick_entry_dialog_title">Vyberte položku</string>
@@ -1054,21 +939,20 @@ v bezpečí"</string>
     <string name="pin_warning_external_storage_not_ready">Dokument je pripnutý, ale neprevezme sa, kým nie je pripravený externý ukladací priestor.</string>
     <string name="pin_warning_external_storage_not_ready_ok">OK</string>
     <string name="pinned_item_unavailable_dialog_message">Tento súbor bude sprístupnení offline, keď sa najbližšie pripojíte na internet.</string>
-    <string name="pinned_item_unavailable_dialog_title">K súboru %1$s nie je možné pristupovať.</string>
+    <string name="pinned_item_unavailable_dialog_title">K súboru %s nie je možné pristupovať.</string>
     <string name="plus_photo_all_set">Hotovo! Vaše fotky a videá sa zálohujú.</string>
     <string name="plus_photo_item_remove_dialog_confirm_button">Odstrániť všade</string>
     <string name="plus_photo_item_remove_dialog_title">Odstrániť</string>
-    <string name="plus_photo_item_remove_items_dialog_text_single">Súbor %1$s bude presunutý do koša. Bude tiež odstránený z Fotiek Google.</string>
+    <string name="plus_photo_item_remove_items_dialog_text_single">Súbor %s bude presunutý do koša. Bude tiež odstránený z Fotiek Google.</string>
     <string name="policy_privacy">Ochrana údajov</string>
+    <string name="policy_privacy_local_url_format_string">http://www.google.com/intl/%1$s/policies/privacy/</string>
     <string name="policy_terms">Zmluvné podmien.</string>
+    <string name="policy_terms_local_url_format_string">http://www.google.com/intl/%1$s/policies/terms/</string>
     <string name="pref_auto_backup_referral">Ak chcete aktivovať Automatické zálohovanie, nainštalujte si Fotky Google.</string>
     <string name="preferences_license_summary">Podrobnosti o licencii pre softvér s otvoreným zdrojom</string>
     <string name="preferences_license_title">Licencie open source</string>
     <string name="prefs_about_category_title">Informácie</string>
     <string name="prefs_abuse_program_policies">Pravidlá programu</string>
-    <string name="prefs_apps_predict_carousel_category">Rýchly prístup</string>
-    <string name="prefs_apps_predict_carousel_enabled_setting">Povoliť rýchly prístup</string>
-    <string name="prefs_apps_predict_carousel_enabled_summary">Získajte návrhy pre časovo relevantné súbory, ktoré chcete otvoriť. Táto možnosť pridá sekciu navrchu Môjho disku.</string>
     <string name="prefs_apps_predict_category">Návrhy obsahu</string>
     <string name="prefs_apps_predict_show_suggestions">Zobraziť návrhy obsahu</string>
     <string name="prefs_apps_predict_show_suggestions_summary">V prípade dostupnosti mi automaticky navrhnúť relevantný obsah</string>
@@ -1082,7 +966,6 @@ v bezpečí"</string>
     <string name="prefs_cache_size">Veľkosť vyrovnávacej pamäte</string>
     <string name="prefs_cache_size_choice_format_string">%1$d MB</string>
     <string name="prefs_cache_size_summary_format_string">Veľkosť vyrovnávacej pamäte je nastavená na %1$s MB</string>
-    <string name="prefs_category_content_description">Sekcia, %1$s</string>
     <string name="prefs_change_error">Nastavenie sa nepodarilo zmeniť. Skúste to znova neskôr.</string>
     <string name="prefs_clear_cache_summary">Odstrániť všetky dokumenty vo vyrovnávacej pamäti</string>
     <string name="prefs_data_usage_category">Spotreba dát</string>
@@ -1102,7 +985,6 @@ v bezpečí"</string>
     <string name="prefs_notification_email_notification">Odosielať mi upozornenia e-mailom</string>
     <string name="prefs_notification_email_notification_offline">Nie je k dispozícii offline</string>
     <string name="prefs_notification_email_notification_save_error">Nastavenie sa nepodarilo uložiť</string>
-    <string name="prefs_notification_email_notification_summary">Budú sa odosielať správy súvisiace s účtom</string>
     <string name="prefs_notification_enable">Zobrazovať upozornenia</string>
     <string name="prefs_notification_enable_summary">Zobrazovať upozornenia Disku, Dokumentov, Tabuliek a Prezentácií pre %1$s</string>
     <string name="prefs_notification_other_settings_subheading">Ďalšie nastavenia</string>
@@ -1119,37 +1001,29 @@ v bezpečí"</string>
     <string name="prefs_sync_over_wifi_only_summary">Nahrávanie a aktualizácia súborov sa pri nedostupnosti pripojenia siete Wi-Fi pozastavia.</string>
     <string name="prefs_sync_over_wifi_only_title">Prenášať súbory iba cez sieť Wi-Fi</string>
     <string name="prefs_title">Nastavenia</string>
-    <string name="preselection_reason">Nedávno otvorené vami</string>
-    <string name="preselection_reason_recently_modified">Nedávno upravené</string>
-    <string name="preselection_reason_recently_modified_by_me">Nedávno upravené mnou</string>
-    <string name="preselection_reason_recently_opened_by_me">Nedávno otvorené mnou</string>
-    <string name="preselection_reason_recently_uploaded_by_me">Nedávno nahrané mnou</string>
     <string name="preview_click_to_open">Otvorte klepnutím tu</string>
     <string name="preview_document_available_in_docs_app">Tento súbor je k dispozícii v aplikácii Dokumenty</string>
     <string name="preview_document_available_in_sheets_app">Tento súbor je k dispozícii v aplikácii Tabuľky</string>
     <string name="preview_open_in_docs_app_description">Klepnutím tu otvorte tento súbor v aplikácii Dokumenty</string>
     <string name="preview_open_in_sheets_app_description">Klepnutím tu otvorte tento súbor v aplikácii Tabuľky</string>
-    <string name="pride_query_toast_message">Oslávte s Googlom rôznorodosť a pochod komunity LGBT. Použite výraz #prideforeveryone v sociálnych médiách.</string>
     <string name="print_cancelled">Tlačová úloha bola zrušená</string>
     <string name="print_error">Služba Google Cloud Print je momentálne nedostupná. Skúste to znova neskôr.</string>
     <string name="print_failure">Tlač dokumentu nebola úspešná</string>
-    <string name="prioritydocs_entrypoint_label">Reakcia</string>
-    <string name="prioritydocs_promo_bodycopy">Na zobrazenie reakcií si nainštalujte aplikáciu %1$s.</string>
-    <string name="prioritydocs_promo_headline">Získať aplikáciu %1$s?</string>
-    <string name="prioritydocs_promo_negative">NIE, ĎAKUJEM</string>
-    <string name="prioritydocs_promo_positive">INŠTALOVAŤ</string>
+    <string name="prioritydocs_entrypoint_label">Položky akcií</string>
     <string name="problem_with_file">Problém so súborom</string>
     <string name="promo_button">Dobre</string>
-    <string name="promo_text1">Uložte si tento súbor na Disk Google, bezpečný priestor s bezplatným úložiskom na dokumenty aj fotky s kapacitou 15 GB, ku ktorému môžete získať prístup z ľubovoľného zariadenia.</string>
-    <string name="promo_title">Uchovajte si kópiu tohto súboru</string>
+    <string name="promo_text1">Uložené PDF súbory vám bezpečne zostanú v Disku Google. Budú tak k dispozícii všade a na všetkých zariadeniach.</string>
+    <string name="promo_title">Ukladanie PDF súborov na Disk Google</string>
     <string name="punctuation_period">.</string>
     <string name="purchase_dialog_how_storage_used">Úložisko sa zdieľa s Gmailom, Fotkami Google a Diskom Google</string>
-    <string name="purchase_dialog_manage">Spravovať úložisko</string>
-    <string name="purchase_dialog_terms_service">Výberom tarify úložiska vyjadrujete súhlas s dokumentom %1$s.</string>
-    <string name="purchase_dialog_title">Programy úložísk na Disku Google</string>
+    <string name="purchase_dialog_learn_more">Ďalšie informácie</string>
+    <string name="purchase_dialog_more">Ďalšie tarify úložiska</string>
+    <string name="purchase_dialog_terms_service">Keď vyberiete tarifu úložiska a kliknete na tlačidlo Kúpiť, vyjadrujete tak súhlas s dokumentom: %1$s.</string>
+    <string name="purchase_dialog_title">Programy úložíska na Disku Google</string>
     <string name="purchase_error">Vyskytol sa problém</string>
     <string name="purchase_error_connect">Nedá sa pripojiť</string>
     <string name="purchase_per_month">%1$s mesačne</string>
+    <string name="purchase_success">Tarifa bola úspešne zakúpená</string>
     <string name="quota_cannot_determine">nie je možné určiť</string>
     <string name="quota_range_large">Od 10 MB do 100 MB</string>
     <string name="quota_range_larger">Od 100 MB do 1 GB</string>
@@ -1162,26 +1036,26 @@ v bezpečí"</string>
     <string name="recent_activity_button_show_more_files">Zobraziť viac...</string>
     <string name="recent_activity_card_title">Aktivita</string>
     <string name="recent_activity_empty">Žiadna zaznamenaná aktivita</string>
-    <string name="recent_activity_end">Žiadna zaznamenaná aktivita pred dátumom %1$s</string>
+    <string name="recent_activity_end">Žiadna zaznamenaná aktivita pred dátumom %s</string>
     <string name="recent_activity_failed">Hops, aktivitu sa nepodarilo načítať. Skúste to znova neskôr.</string>
     <string name="recent_activity_rename_titles_accessibility">Súbor bol premenovaný z %1$s na %2$s</string>
-    <string name="recent_activity_users_two">%1$s a %2$s</string>
+    <string name="recent_activity_users_two" formatted="false">%s a %s</string>
+    <string name="remove_button_confirm">Odstrániť</string>
+    <string name="remove_collection">Odstránenie priečinka</string>
     <string name="remove_dialog_confirm_delete_button">Navždy odstrániť</string>
-    <string name="remove_dialog_confirm_delete_for_everyone_button">Odstrániť pre všetkých</string>
-    <string name="remove_dialog_delete_different_permissions_files">Pre tieto súbory máte odlišné povolenia. Niektoré súbory budú presunuté do koša a po 30 dňoch natrvalo odstránené. Ostatné súbory budú odstránené.</string>
-    <string name="remove_dialog_delete_different_permissions_folders">Pre tieto priečinky máte odlišné povolenia. Niektoré priečinky budú presunuté do koša a po 30 dňoch natrvalo odstránené. Ostatné priečinky budú odstránené.</string>
-    <string name="remove_dialog_delete_different_permissions_items">Pre tieto položky máte odlišné poverenia. Niektoré položky budú presunuté do koša a po 30 dňoch natrvalo odstránené. Ostatné položky budú odstránené.</string>
-    <string name="remove_dialog_delete_different_permissions_title">Odstránené budú iba niektoré položky</string>
-    <string name="remove_dialog_delete_for_everyone_title">Odstrániť pre všetkých?</string>
-    <string name="remove_parent_confirmation">Ostatným používateľom sa súbor %1$s už nezobrazí v zdieľanom priečinku %2$s</string>
-    <string name="remove_parent_not_allowed">Nemáte povolenie odstrániť súbor %1$s zo zdieľaného priečinka %2$s</string>
-    <string name="removed_parent_message">Súbor %1$s bol odstránený z priečinka %2$s</string>
+    <string name="remove_dialog_delete_permanently_text_single">Skutočne chcete natrvalo odstrániť súbor %s? Túto akciu nie je možné vrátiť späť.</string>
+    <string name="remove_dialog_delete_permanently_title">Navždy odstrániť</string>
+    <string name="remove_document">Odstránenie súboru</string>
+    <string name="remove_parent_confirmation" formatted="false">Ostatným používateľom sa súbor %s už nezobrazí v zdieľanom priečinku %s</string>
+    <string name="remove_parent_not_allowed" formatted="false">Nemáte povolenie odstrániť súbor %s zo zdieľaného priečinka %s</string>
+    <string name="removed_parent_message" formatted="false">Súbor %s bol odstránený z priečinka %s</string>
     <string name="rename_collection">Premenovanie priečinka</string>
     <string name="rename_document">Premenovanie dokumentu</string>
     <string name="rename_drawing">Premenovanie nákresu</string>
     <string name="rename_file">Premenovanie súboru</string>
     <string name="rename_presentation">Premenovanie prezentácie</string>
     <string name="rename_spreadsheet">Premenovanie tabuľky</string>
+    <string name="reply_email_subject">Re: Vaša žiadosť o prístup</string>
     <string name="report_abuse_title">Nahlásenie zneužitia</string>
     <string name="request_access">Vyžiadať prístup</string>
     <string name="request_access_message">Vlastník dostane e-mailové upozornenie na osobu požadujúcu prístup.</string>
@@ -1191,21 +1065,16 @@ v bezpečí"</string>
     <string name="retry_button_text">skúsiť znova</string>
     <string name="scan_shortcut_failed_folder_deleted">Priečinok %1$s je odstránený.</string>
     <string name="scan_shortcut_failed_folder_trashed">Priečinok %1$s je v koši. Pred skenovaním dokumentu priečinok obnovte.</string>
-    <string name="scan_task_title">Skenovanie na Disk</string>
     <string name="search_description">Disk Google</string>
     <string name="search_hint">Hľadať na Disku</string>
     <string name="search_hint_short">Hľadať</string>
-    <string name="search_menu_title">Vyhľadávanie</string>
     <string name="search_showing_local_results_only">Vyhľadávanie nie je možné, zobrazujú sa len zhody v názve</string>
     <string name="search_showing_local_results_only_offline">Vo výsledkoch vyhľadávania sú len zhody názvov. Ďalšie výsledky nájdete online.</string>
     <string name="select_account">Výber účtu</string>
     <string name="select_folder_color">Farba priečinka</string>
-    <string name="select_team_drive_desc">Vyberte tímový disk</string>
-    <string name="select_team_drive_title">Výber tímového disku</string>
     <string name="selected_account">Prihlásený/-á do účtu %1$s</string>
     <string name="selection_action_bar_drop_to_current_folder_header">Presunúť do</string>
     <string name="selection_action_bar_drop_to_current_folder_header_as_add">Pridať do</string>
-    <string name="selection_cannot_move_into_self">Položka sa nedá umiestniť do rovnakého umiestnenia</string>
     <string name="selection_item_select_button">Vybrať položku %1$s %2$s</string>
     <string name="selection_item_unselect_button">Zrušiť výber položky %1$s %2$s</string>
     <string name="selection_limit_reached">Niektoré položky neboli vybraté. Dosiahli ste maximálny počet vybratých položiek.</string>
@@ -1273,12 +1142,10 @@ v bezpečí"</string>
     <string name="sharing_info_loading">Informácie o zdieľaní sa stále načítavajú…</string>
     <string name="sharing_list_offline">Zoznam pre zdieľanie je v režime offline nedostupný.</string>
     <string name="sharing_list_updated">Nastavenia zdieľania boli úspešne aktualizované.</string>
-    <string name="sharing_message_add_users_one">Dokument %1$s bol zdieľaný s používateľom %2$s</string>
-    <string name="sharing_message_add_users_two">Dokument %1$s bol zdieľaný s používateľmi %2$s a %3$s</string>
+    <string name="sharing_message_add_users_one">%1$s sa zdieľa s používateľom %2$s</string>
+    <string name="sharing_message_add_users_two">%1$s sa zdieľa s používateľmi %2$s a %3$s</string>
     <string name="sharing_message_remove">Používateľ %s bol odstránený zo súboru</string>
-    <string name="sharing_message_remove_td">Používateľ %s bol odstránený z tímového disku</string>
     <string name="sharing_message_saved">Nastavenia zdieľania sa uložili. Obnovuje sa zoznam pre zdieľanie.</string>
-    <string name="sharing_message_saved_td">Členstvo používateľa %s bolo zmenené</string>
     <string name="sharing_message_title">Správa</string>
     <string name="sharing_message_unable_to_change">Nastavenia zdieľania nie je možné zmeniť</string>
     <string name="sharing_offline">V režime offline sa nedá zdieľať.</string>
@@ -1287,16 +1154,16 @@ v bezpečí"</string>
     <string name="sharing_option_anyone_can_contribute">Každý môže usporadúvať, pridávať a upravovať</string>
     <string name="sharing_option_anyone_can_edit">Ktokoľvek môže upravovať</string>
     <string name="sharing_option_anyone_can_view">Ktokoľvek môže zobraziť</string>
-    <string name="sharing_option_anyone_from">Ktokoľvek v doméne %1$s môže dokument nájsť a mať k nemu prístup</string>
-    <string name="sharing_option_anyone_from_can_comment">Ktokoľvek v doméne %1$s môže dokument nájsť a komentovať</string>
-    <string name="sharing_option_anyone_from_can_contribute">Ktokoľvek s doménou %1$s môže vyhľadávať a prispievať</string>
-    <string name="sharing_option_anyone_from_can_edit">Ktokoľvek v doméne %1$s môže dokument nájsť a upraviť</string>
-    <string name="sharing_option_anyone_from_can_view">Ktokoľvek v doméne %1$s môže dokument nájsť a zobraziť</string>
-    <string name="sharing_option_anyone_from_with_link">Ktokoľvek s odkazom v doméne %1$s</string>
-    <string name="sharing_option_anyone_from_with_link_can_comment">Ktokoľvek s odkazom v doméne %1$s môže dokument komentovať</string>
-    <string name="sharing_option_anyone_from_with_link_can_contribute">Každý s odkazom v doméne %1$s môže usporiadať, pridať a upraviť</string>
-    <string name="sharing_option_anyone_from_with_link_can_edit">Ktokoľvek s odkazom v doméne %1$s môže dokument upraviť</string>
-    <string name="sharing_option_anyone_from_with_link_can_view">Ktokoľvek s odkazom v doméne %1$s môže dokument zobraziť</string>
+    <string name="sharing_option_anyone_from">Ktokoľvek v doméne %s môže dokument nájsť a mať k nemu prístup</string>
+    <string name="sharing_option_anyone_from_can_comment">Ktokoľvek v doméne %s môže dokument nájsť a komentovať</string>
+    <string name="sharing_option_anyone_from_can_contribute">Ktokoľvek s doménou %s môže vyhľadávať a prispievať</string>
+    <string name="sharing_option_anyone_from_can_edit">Ktokoľvek v doméne %s môže dokument nájsť a upraviť</string>
+    <string name="sharing_option_anyone_from_can_view">Ktokoľvek v doméne %s môže dokument nájsť a zobraziť</string>
+    <string name="sharing_option_anyone_from_with_link">Ktokoľvek s odkazom v doméne %s</string>
+    <string name="sharing_option_anyone_from_with_link_can_comment">Ktokoľvek s odkazom v doméne %s môže dokument komentovať</string>
+    <string name="sharing_option_anyone_from_with_link_can_contribute">Každý s odkazom v doméne %s môže usporiadať, pridať a upraviť</string>
+    <string name="sharing_option_anyone_from_with_link_can_edit">Ktokoľvek s odkazom v doméne %s môže dokument upraviť</string>
+    <string name="sharing_option_anyone_from_with_link_can_view">Ktokoľvek s odkazom v doméne %s môže dokument zobraziť</string>
     <string name="sharing_option_anyone_with_link">Ktokoľvek s odkazom</string>
     <string name="sharing_option_anyone_with_link_can_comment">Dokument môže komentovať ktokoľvek s odkazom</string>
     <string name="sharing_option_anyone_with_link_can_contribute">Každý s odkazom môže usporadúvať, pridávať a upravovať</string>
@@ -1304,51 +1171,26 @@ v bezpečí"</string>
     <string name="sharing_option_anyone_with_link_can_view">Dokument môže zobraziť ktokoľvek s odkazom</string>
     <string name="sharing_option_private">Súkromné</string>
     <string name="sharing_option_private_acl_message">Nezdieľané</string>
-    <string name="sharing_option_private_no_collaborators">Súkromné – prístup máte iba vy</string>
-    <string name="sharing_option_specific_people">Zdieľané s konkrétnymi ľuďmi</string>
+    <string name="sharing_option_private_no_collaborators">Súkromné ​​– prístup máte iba vy</string>
+    <string name="sharing_option_specific_people">Zdieľané s konkrétnymi ľuďmi</string>
     <string name="sharing_option_unknown">Neznámy režim zdieľania</string>
-    <string name="sharing_progress_loading_message">Načítavajú sa informácie o zdieľaní.</string>
-    <string name="sharing_progress_saving_message">Ukladajú sa informácie o zdieľaní.</string>
+    <string name="sharing_progress_loading_message">Načítavajú sa informácie o zdieľaní</string>
+    <string name="sharing_progress_saving_message">Ukladajú sa informácie o zdieľaní</string>
     <string name="sharing_role_commenter">Môže komentovať</string>
     <string name="sharing_role_content_description">Tlačidlo %1$s pre používateľa %2$s</string>
     <string name="sharing_role_contributor">Usporiad., pridávanie a úpravy</string>
-    <string name="sharing_role_no_access">Nepovolený prístup</string>
+    <string name="sharing_role_no_access">Bez prístupu</string>
     <string name="sharing_role_owner">Vlastník</string>
     <string name="sharing_role_reader">Môže zobraziť</string>
     <string name="sharing_role_unknown">Neznámy prístup</string>
     <string name="sharing_role_writer">Môže upravovať</string>
-    <string name="sharing_server_error_generic_all">Táto položka sa nedá zdieľať.</string>
-    <string name="sharing_server_error_more">Táto položka sa nedá zdieľať s používateľmi %1$s.</string>
-    <string name="sharing_server_error_one">Táto položka sa nedá zdieľať s používateľom %1$s.</string>
-    <string name="sharing_server_error_partial_summary">Nezdieľa sa so všetkými používateľmi</string>
-    <string name="sharing_server_error_restricted_all">Táto položka má dôverný obsah a nedá sa zdieľať.</string>
-    <string name="sharing_server_error_restricted_more">Táto položka má dôverný obsah a nedá sa zdieľať s používateľmi %1$s, pretože sú mimo vašej organizácie.</string>
-    <string name="sharing_server_error_restricted_one">Táto položka má dôverný obsah a nedá sa zdieľať s používateľom %1$s, pretože je mimo vašej organizácie.</string>
-    <string name="sharing_server_error_restricted_three">Táto položka má dôverný obsah a nedá sa zdieľať s používateľmi %1$s, %2$s a %3$s, pretože sú mimo vašej organizácie.</string>
-    <string name="sharing_server_error_restricted_two">Táto položka má dôverný obsah a nedá sa zdieľať s používateľmi %1$s a %2$s, pretože sú mimo vašej organizácie.</string>
-    <string name="sharing_server_error_summary">Nemôžete zdieľať túto položku</string>
-    <string name="sharing_server_error_three">Táto položka sa nedá zdieľať s používateľmi %1$s, %2$s a %3$s.</string>
-    <string name="sharing_server_error_two">Táto položka sa nedá zdieľať s používateľmi %1$s a %2$s.</string>
-    <string name="sharing_server_success_more">Položka %1$s bola zdieľaná s používateľmi %2$s, pretože sú vo vašej organizácii.</string>
-    <string name="sharing_server_success_one">Položka %1$s bola zdieľaná s používateľom %2$s, pretože je vo vašej organizácii.</string>
-    <string name="sharing_server_success_three">Položka %1$s bola zdieľaná s používateľmi %2$s, %3$s a %4$s, pretože sú vo vašej organizácii.</string>
-    <string name="sharing_server_success_two">Položka %1$s bola zdieľaná s používateľmi %2$s a %3$s, pretože sú vo vašej organizácii.</string>
-    <string name="sharing_server_warning_more">Naozaj chcete položku zdieľať s používateľmi %1$s?</string>
-    <string name="sharing_server_warning_one">Naozaj chcete položku zdieľať s používateľom %1$s?</string>
-    <string name="sharing_server_warning_summary">Zdieľať externe?</string>
-    <string name="sharing_server_warning_three">Naozaj chcete položku zdieľať s používateľmi %1$s, %2$s a %3$s?</string>
-    <string name="sharing_server_warning_two">Naozaj chcete položku zdieľať s používateľmi %1$s a %2$s?</string>
     <string name="sharing_show_smartprofile_content_description">Otvoriť intelig. profil pre: %s</string>
     <string name="sharing_show_who_has_access">Kto má prístup – klepnutím spravujte spolupracovníkov.</string>
-    <string name="sharing_undo_role_failure">Chyba. Vrátenie zlyhalo.</string>
-    <string name="sharing_undo_role_success">Nastavenia zdieľ. sa vrátili.</string>
-    <string name="shortcut_created">Na plochu bol pridaný odkaz</string>
+    <string name="shortcut_created">Skratka bola pridaná na plochu</string>
     <string name="shortcut_creation_failed">Nepodarilo sa vytvoriť odkaz</string>
     <string name="show_account_list">Zobraziť účty</string>
     <string name="sign_in">Prihlásiť sa</string>
     <string name="slider_title_all_items">Všetky položky</string>
-    <string name="sms">SMS</string>
-    <string name="sms_message">Záloha zahŕňa odoslané a prijaté správy.</string>
     <string name="sorting_label_for_creation_time_shorten">Dátum vytvorenia</string>
     <string name="sorting_label_for_last_modified_shorten">Naposledy upravené</string>
     <string name="sorting_label_for_modified_by_me_shorten">Upravené mnou</string>
@@ -1358,32 +1200,25 @@ v bezpečí"</string>
     <string name="sorting_order_ascending">Vzostupne</string>
     <string name="sorting_order_descending">Zostupne</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="storage_info">Táto záloha nepoužíva žiadnu kvótu úložiska na Disku</string>
     <string name="storage_upgrade">Inovovať úložisko</string>
-    <string name="storage_upgraded_help_card_content">Za úložisko %2$s vám bude mesačne účtovaná suma %1$s. Toto úložisko zdieľajú služby Gmail, Disk Google a Fotky Google. Svoju tarifu môžete kedykoľvek zrušiť alebo zmeniť. Sprístupnenie vášho nového úložiska môže potrvať až 24 hodín.</string>
-    <string name="storage_upgraded_help_card_help_button">Pomocník</string>
-    <string name="storage_upgraded_help_card_title">Ďakujeme</string>
+    <string name="storage_upgraded_help_card_contact_button">Kontaktujte nás</string>
+    <string name="storage_upgraded_help_card_content">Inovovali ste na %1$s úložiska Disku Google. Vďaka tomuto nákupu zároveň získavate prioritný prístup k telefonickej, e-mailovej a chatovej podpore. Ak budete mať otázky, kedykoľvek nás kontaktujte.</string>
+    <string name="storage_upgraded_help_card_title">Len do toho: využite svoje miesto!</string>
     <string name="storage_used">Využíva sa: %1$s z %2$s</string>
     <string name="storage_used_unlimited">Využíva sa: %1$s</string>
     <string name="suggest_pin_dialog_message">Tento súbor nie je prístupný offline. Chcete ho sprístupniť, keď nabudúce prepnete do offline režimu?</string>
     <string name="suggest_pin_dialog_negative_button">Nie, ďakujem</string>
     <string name="suggest_pin_dialog_positive_button">Sprístupniť offline</string>
     <string name="suggest_pin_dialog_title">Bez pripojenia</string>
-    <string name="switch_account_help_card_button">ZMENIŤ ÚČET</string>
-    <string name="switch_account_help_card_content">Toto zariadenie je zálohované do iného účtu. %s</string>
-    <string name="switch_account_help_card_title">Zálohuje sa do iného účtu</string>
     <string name="switch_backup_account">PREPNÚŤ ÚČET V NASTAVENIACH ZÁLOHOVANIA</string>
     <string name="sync_failed">Chyba pri synchronizácii s Diskom Google</string>
     <string name="sync_more">Načítať viac</string>
     <string name="sync_more_error">Chyba pri načítavaní ďalších položiek</string>
     <string name="sync_more_error_offline">Niektoré dokumenty nemusia byť v režime offline viditeľné.</string>
+    <string name="tap_to_retry">Klepnutím to skúste znova</string>
+    <string name="tap_to_view_who_has_access">Klepnutím zobrazíte, kto má prístup</string>
     <string name="targetviewintro_close_button">Dobre</string>
-    <string name="td_downgrade_not_allowed">Prístup môžete inovovať iba pre členov tímového disku.</string>
-    <string name="td_members_access">Členovia: %1$d</string>
-    <string name="td_sharing_message_add_users_one">Používateľ %2$s bol pridaný na disk %1$s</string>
-    <string name="td_sharing_message_add_users_two">%2$s a %3$s boli pridaní na disk %1$s</string>
-    <string name="team_drive_empty_list_message_can_create">Tímový disk je zdieľaný priestor, ktorý umožňuje spoluprácu s vaším tímom. Prispôsobte ho tak, aby zodpovedal osobitosti vášho tímu.</string>
-    <string name="team_drive_empty_list_message_cannot_create">Tímový disk je zdieľaný priestor, ktorý umožňuje spoluprácu s vaším tímom. Keď vás doň pridajú, zobrazí sa tu.</string>
+    <string name="td_downgrade_not_allowed">Prístup môžete iba rozšíriť pre členov Tímového disku.</string>
     <string name="thumbnail_open">Otvoriť</string>
     <string name="time_range_1_day">1 d.</string>
     <string name="time_range_days">%1$d d.</string>
@@ -1395,27 +1230,16 @@ v bezpečí"</string>
     <string name="title_send_intent">Odoslať obrázok: %1$s cez</string>
     <string name="title_show_files">%1$d z %2$d</string>
     <string name="transfer_notification_waiting_content">Čaká sa na Wi-Fi</string>
+    <string name="trash_delete_forever_confirm">Navždy odstrániť</string>
+    <string name="trash_delete_forever_question">Navždy odstrániť</string>
     <string name="trash_delete_forever_success">1 položka bola odstránená</string>
-    <string name="turnoff_backup">Vypnúť zálohovanie</string>
-    <string name="turnoff_backup_confirm_button">Vypnúť</string>
-    <string name="turnoff_backup_error_message">Zálohu sa nepodarilo vypnúť.</string>
-    <string name="turnoff_backup_progress_message">Vypína sa záloha</string>
-    <string name="turnoff_whatsapp_backup_confirmation_message">"Týmto zastavíte čet a médiá WhatsApp pre všetky zariadenia:
-
-%s
-Zálohovanie môžete znova zapnúť tak, že prejdete do časti Nastavenia > Čety > Zálohovanie četu v aplikácii WhatsApp."</string>
-    <string name="turnoff_whatsapp_backup_title">Vypnúť zálohu WhatsApp?</string>
-    <string name="tutorial_upload_complete_body">Pristupujte k tomuto súboru odkiaľkoľvek, kde sa prihlásite do Disku</string>
-    <string name="tutorial_upload_complete_header">Na Disk ste pridali súbor</string>
-    <string name="tutorial_upload_fab_hint_text">Ak chcete pridať súbory v tomto zariadení na Disk a mať k nim prístup z ľubovoľného miesta, klepnite na ikonu plus.</string>
-    <string name="unable_to_preview">Nie je možné zobraziť ukážku súboru.</string>
+    <string name="trash_delete_forever_warning">Táto položka sa natrvalo odstráni z Disku. Túto akciu nemožno vrátiť späť.</string>
     <string name="unified_actions_add_to_drive">Pridať na Môj disk</string>
     <string name="unified_link_sharing_is_off">Zdieľanie odkazom je vypnuté</string>
     <string name="unified_link_sharing_is_on">Zdieľanie odkazom je zapnuté</string>
     <string name="unknown_album">Neznámy album</string>
     <string name="unknown_artist">Neznámy interpret</string>
     <string name="unsupported_file">Tento typ súboru nie je podporovaný.</string>
-    <string name="untitled_audio">Zvuk bez názvu</string>
     <string name="untrash_and_open_message">Ak chcete pristupovať k súboru %1$s, vyberte ho z koša.</string>
     <string name="untrash_and_open_not_allowed_message">Položku %1$s jej vlastník vyhodil do koša.</string>
     <string name="untrash_and_open_positive_button">Vybrať z koša</string>
@@ -1434,7 +1258,6 @@ Zálohovanie môžete znova zapnúť tak, že prejdete do časti Nastavenia > Č
     <string name="upload_incomplete">Neúplné nahranie</string>
     <string name="upload_multiple_document_titles">Názvy dokumentov</string>
     <string name="upload_notification_cancel_title">Nahrávanie bolo zrušené</string>
-    <string name="upload_notification_failure_folder">Priečinok nie je možné nahrať</string>
     <string name="upload_notification_failure_no_retry_title">Nahrávanie nebolo úspešné</string>
     <string name="upload_notification_failure_ticker">Nahrávanie zlyhalo</string>
     <string name="upload_notification_more_files">+ niekoľko (%1$d) ďalších</string>
@@ -1479,14 +1302,6 @@ Zálohovanie môžete znova zapnúť tak, že prejdete do časti Nastavenia > Č
     <string name="welcome_title">Úvodný panel aplikácie Disk Google.</string>
     <string name="welcome_title_announce">Panel oznámení aplikácie Disk Google.</string>
     <string name="welcome_title_highlights">Panel oznámení aplikácie Disk Google.</string>
-    <string name="whatsapp">WhatsApp</string>
-    <string name="whatsapp_message">Vaše čety a médiá (vrátane fotiek, videí, zvukových súborov a dokumentov) sa zálohujú na Disk Google. Ak zmeníte zariadenie, môžete ich po preinštalovaní aplikácie WhatsApp obnoviť.</string>
-    <string name="whatsapp_turned_off_message">"Zálohovanie je vypnuté.
-Naposledy zálohované %s
-
-Vaše čety a médiá (vrátane fotiek, videí, zvukových súborov a dokumentov) sa zálohujú na Disk Google. Ak zmeníte zariadenie, môžete ich po preinštalovaní aplikácie WhatsApp obnoviť.
-
-Ak chcete zálohovania opäť zapnúť, prejdite na položky Nastavenia > Čety v aplikácii WhatsApp."</string>
     <string name="widget_account_missing">Chyba: Účet sa nenašiel. Skontrolujte nastavenia účtu: %1$s.</string>
     <string name="widget_configuration_missing">Chyba: Konfigurácia sa stratila. Odstráňte miniaplikáciu a znova ju pridajte.</string>
     <string name="widget_initializing">Inicializuje sa...</string>
@@ -1509,7 +1324,6 @@ Ak chcete zálohovania opäť zapnúť, prejdite na položky Nastavenia > Čety 
     <string name="zss_remove_all_filters_button_content_description">Odstrániť všetky filtre</string>
     <string name="zss_remove_filter_button_content_description">Odstrániť filter: %1$s</string>
     <string name="zss_showing_list_of_filters">Zobrazuje sa zoznam dostupných filtrov.</string>
-    <string name="zss_team_drive">Hľadať na disku %1$s</string>
     <string name="zss_type_archive">Archív</string>
     <string name="zss_type_audio">Zvuk</string>
     <string name="zss_type_documents">Textové dokumenty</string>

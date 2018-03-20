@@ -28,12 +28,9 @@
     <string name="common_signin_button_text">Prihlásiť sa</string>
     <string name="common_signin_button_text_long">Prihlásiť sa do účtu Google</string>
     <string name="common_open_on_phone">Otvoriť na telefóne</string>
-    <string name="suw_next_button_label">Ďalej</string>
-    <string name="suw_back_button_label">Späť</string>
-    <string name="suw_more_button_label">Viac</string>
-    <string name="setup_wizard_title">Sprievodca nastavením</string>
     <string name="setup_wizard_next_button_label">Ďalej</string>
     <string name="setup_wizard_back_button_label">Späť</string>
+    <string name="setup_wizard_title">Sprievodca nastavením</string>
     <string name="setup_wizard_services_activity_title">Služby Google</string>
     <string name="setup_wizard_services_description">Tieto služby umožňujú, aby Google pracoval pre vás. Môžete ich kedykoľvek zapnúť alebo vypnúť. Údaje sa budú používať v súlade s <annotation id="google_privacy">pravidlami ochrany osobných údajov</annotation> spoločnosti Google.</string>
     <string name="setup_wizard_services_backup_restore_heading">Zálohovanie a obnovenie</string>
@@ -49,22 +46,45 @@
     <string name="setup_wizard_services_location_footnote">Pomocou siete Wi-Fi a iných signálov dokáže služba určovania polohy Google zistiť vašu polohu rýchlejšie a presnejšie. Väčšinou tým zaťažujete batériu menej ako pri použití GPS. Časť údajov môže byť uložená v zariadení. Údaje sa môžu zhromažďovať, aj keď nie sú spustené žiadne aplikácie.</string>
     <string name="setup_wizard_services_play"><b>Informujte ma</b> o novinkách a ponukách služby Google Play.</string>
     <string name="setup_wizard_services_usage_reporting">Automatickým posielaním diagnostických údajov a údajov o využití do spoločnosti Google môžete <b>prispieť k zlepšeniu prostredia Android</b>. Tieto informácie nebudú slúžiť na zistenie vašej totožnosti. Pomôžu našim tímom, ktoré sa zaoberajú napríklad výdržou batérie, výkonom aplikácií alebo novými funkciami Google. <annotation id="usage_reporting_details">Viac informácií</annotation></string>
-    <string name="setup_wizard_services_usage_reporting_dialog_text">"Ide o všeobecné informácie o vašom zariadení a o spôsobe, akým ho používate – nabitie batérie, frekvencia používania aplikácií, kvalita a čas pripojenia k sieti (mobilnej, Wi-Fi alebo Bluetooth), a keď niečo nefunguje, ako by malo, tiež správy o zlyhaní. Tieto informácie napomôžu k zlepšeniu služieb a aplikácií Google pre všetkých používateľov a nebudú priradené k vášmu účtu Google. Niektoré súhrnné informácie pomôžu s vylepšením aplikácií a služieb tiež našim partnerom, napríklad vývojárom systému Android.
+    <string name="setup_wizard_services_usage_reporting_dialog_text">"Ide o všeobecné informácie o vašom zariadení a o spôsobe, akým ho používate – stav batérie, frekvencia používania aplikácií, kvalita a čas pripojenia k sieti (mobilnej, Wi-Fi alebo Bluetooth), a keď niečo nefunguje, ako by malo, tiež správy o zlyhaní. Tieto informácie napomôžu k zlepšeniu služieb a aplikácií Google pre všetkých používateľov a nebudú priradené k vášmu účtu Google. Niektoré súhrnné informácie pomôžu s vylepšením aplikácií a služieb tiež našim partnerom, napríklad vývojárom systému Android.
 
 Toto nastavenie môžete kedykoľvek vypnúť či zapnúť. Nebude to mať žiadny vplyv na schopnosť zariadenia odosielať informácie, ktoré potrebujete na prijímanie základných služieb, ako sú aktualizácie systému a zabezpečenie."</string>
     <string name="setup_wizard_services_agreement">Tento telefón môže tiež prijímať a inštalovať aktualizácie a aplikácie od Googlu, telefónneho operátora a výrobcu telefónu. Ak budete pokračovať, môžu sa stiahnuť a nainštalovať niektoré aplikácie, ktoré však môžete kedykoľvek odstrániť.</string>
     <string name="default_device_name">Android</string>
+    <string name="welcome_message">Vitajte!</string>
+    <string name="welcome_secondary_user_added_text">Používateľ %s vás pridal do tohto telefónu.</string>
+    <string name="welcome_secondary_user_added_no_owner_name_text">V tomto telefóne bol vytvorený váš používateľský účet.</string>
+    <string name="welcome_secondary_user_info_text">"Po dokončení nastavenia môžete pracovať s aplikáciami alebo inštalovať nové aplikácie ako obvykle.
+
+"<b>Dôležité:</b>"
+
+"<li><ul>Vlastník telefónu môže vaše aplikácie úplne odinštalovať alebo môže úplne odstrániť váš priestor.</ul></li>"
+
+"<li><ul>Všetci ostatní používatelia môžu prijímať povolenia aktualizovanej aplikácie vo vašom mene.</ul></li>"
+
+"<li><ul>Rovnako ako pri počítačoch, aj v tomto prípade platí, že by ste telefón mali zdieľať len s ľuďmi, ktorým dôverujete.</ul></li></string>
+    <string name="welcome_limited_user_info_text">" 
+"<b>Dôležité:</b>"
+
+ "<li><ul>Vlastník telefónu môže inštalovať a odinštalovať aplikácie, nastaviť obmedzenia alebo váš priestor úplne odstrániť.</ul></li>"
+
+ "<li><ul>Aktualizované povolenia aplikácie môže vo vašom mene prijať ktorýkoľvek iný používateľ.</ul></li>"
+
+ "<li><ul>Telefón by ste mali (tak ako v prípade počítača) požičiavať len ľuďom, ktorým dôverujete. </ul></li></string>
+    <string name="welcome_text_edu">Nastavte svoje zariadenie na použitie so službou Google Play for Education</string>
+    <string name="welcome_secondary_user_text_edu">Dokončite nastavenie účtu na tomto tablete</string>
+    <string name="welcome_secondary_user_additional_info_header_edu">Dôležité</string>
+    <string name="welcome_secondary_user_additional_info_edu">Tento tablet zdieľate s inými študentmi. Po nastavení svojho účtu pridajte číslo PIN, aby ste ochránili svoju prácu.</string>
     <string name="finish_button_label">Dokončiť</string>
     <string name="skip_button_label">Preskočiť</string>
-    <string name="skip_anyway_button_label">Preskočiť</string>
+    <string name="skip_anyway_button_label">Napriek tomu preskočiť</string>
     <string name="dont_skip_button_label">Nepreskočiť</string>
     <string name="down_button_label">Viac</string>
     <string name="cancel_button_label">Zrušiť</string>
     <string name="restart_button_label">Reštartovať</string>
     <string name="try_again_button_label">Skúsiť znova</string>
     <string name="close_button_label">Zavrieť</string>
-    <string name="got_it_button_label">Dobre</string>
-    <string name="ok_button_label">OK</string>
+    <string name="got_it_button_label">Rozumiem</string>
     <string name="google_legal_title">Právne informácie spoločnosti Google</string>
     <string name="url_load_unsuccessful_message">Váš telefón nie je pripojený k mobilnej dátovej službe. Ak chcete zobraziť tieto informácie, prejdite vo webovom prehliadači na stránky %s.</string>
     <string name="start">Spustiť</string>
@@ -119,10 +139,10 @@ Mobilnú dátovú službu môžete aktivovať neskôr v časti "<b>Systémové n
     <string name="activation_canceled_text_standalone">"Aktivácia bola zrušená.
 
 Mobilnú dátovú službu môžete aktivovať neskôr v časti "<b>Nastavenia systému > Bezdrôtové pripojenie a siete > Mobilné siete</b>.</string>
-    <string name="activation_spc_failure_text">Vyskytla sa chyba, ktorá vyžaduje, aby bol telefón pred ďalším pokusom o aktiváciu vypnutý a opäť zapnutý. Telefón sa automaticky vypne o 60 sekúnd, prípadne klepnutím na tlačidlo <b>Vypnúť ihneď</b>".
+    <string name="activation_spc_failure_text">Vyskytla sa chyba, ktorá vyžaduje, aby bol telefón pred ďalším pokusom o aktiváciu vypnutý a opäť zapnutý. Telefón sa automaticky vypne o 60 sekúnd, prípadne ho môžete vypnúť dotknutím sa tlačidla <b>Vypnúť ihneď</b>".
 
-Po vypnutí môžete telefón znova zapnúť stlačením vypínača. Aktivácia sa spustí automaticky."</string>
-    <string name="shutdown_button_label">Vypnúť ihneď</string>
+Po vypnutí ho zapnete znova stlačením tlačidla napájania. Aktivácia sa spustí automaticky."</string>
+    <string name="shutdown_button_label">Vypnúť teraz</string>
     <string name="reboot_button_label">Reštartovať</string>
     <string name="activation_skip_text">Ak aktiváciu preskočíte, dokončite ju neskôr v nastaveniach. Dokým svoj telefón neaktivujete, nebudete môcť používať mobilné dátové pripojenie.</string>
     <string name="notification_update_title">Váš účet treba aktualizovať</string>
@@ -133,22 +153,28 @@ Po vypnutí môžete telefón znova zapnúť stlačením vypínača. Aktivácia 
     <string name="date_time_message">V prípade potreby upravte.</string>
     <string name="date_time_current_date">Dátum</string>
     <string name="date_time_current_time">Čas</string>
-    <string name="date_time_time_zone_full" formatted="false">%s (%s)</string>
+    <string name="location_sharing_title">Google a poloha</string>
+    <string name="tos_title">Služby Google</string>
+    <string name="tos_agreement_text">Tento telefón môže tiež prijímať a inštalovať aktualizácie od Googlu. Pokračovaním vyjadrujete súhlas so <annotation id="tos">zmluvnými podmienkami</annotation> a <annotation id="google_privacy">pravidlami ochrany osobných údajov</annotation> spoločnosti Google.</string>
+    <string name="tos_agreement_text_germany">Ďalej súhlasíte, že zariadenie môže prijímať a inštalovať aktualizácie z Googlu. Ak používate toto zariadenie, je potrebné dodržiavať <annotation id="google_privacy">pravidlá ochrany osobných údajov</annotation> a <annotation id="tos">ďalšie podmienky</annotation>.</string>
+    <string name="setup_complete_title">Nastavenie bolo dokončené</string>
+    <string name="setup_complete_message">Váš telefón je nastavený a pripravený na použitie.</string>
+    <string name="backup_assistant_prompt">Ak chcete obnoviť kontakty z iného telefónu Verizon, spustite aplikáciu Verizon Backup Assistant.</string>
     <string name="sim_missing_title">Vloženie SIM karty</string>
     <string name="sim_setup_title">Nastavenie SIM kariet</string>
     <string name="sim_setup_select_data">Vyberte SIM kartu pre mobilné dáta</string>
     <string name="sim_setup_select_voice">Vyberte SIM kartu pre hovory</string>
     <string name="sim_setup_select_text">Vyberte SIM kartu pre textové správy</string>
     <string name="sim_setup_ask_every_time">Vždy sa opýtať</string>
-    <string name="walled_garden_title">Kontroluje sa pripojenie…</string>
+    <string name="walled_garden_title">Prebieha kontrola pripojenia...</string>
     <string name="walled_garden_check_indefinite_text">Môže to chvíľu trvať</string>
-    <string name="walled_garden_skipped_message">"Ak ho preskočíte:
+    <string name="walled_garden_skipped_message">"Ak ju preskočíte:
 
-váš telefón nebude pripojený k internetu;
+váš telefón nebude pripojený k internetu;
 
-aktualizácie softvéru získate až po pripojení k internetu;
+aktualizácie softvéru získate až po pripojení k internetu;
 
-nebudete zatiaľ môcť aktivovať funkcie ochrany zariadenia."</string>
+nebudete môcť aktivovať funkcie ochrany zariadenia."</string>
     <string name="walled_garden_connection_failed">Trvá to príliš dlho? Skúste sa vrátiť a pripojte sa k inej sieti.</string>
     <string name="walled_garden_connection_unsuccessful">Nepodarilo sa pripojiť k internetu</string>
     <string name="ota_update_title">Aktualizácia telefónu</string>
@@ -169,30 +195,22 @@ nebudete zatiaľ môcť aktivovať funkcie ochrany zariadenia."</string>
     <string name="chrome_tos_title">Zmluvné podmienky prehliadača Chrome</string>
     <string name="chrome_privacy_title">Upozornenie o ochrane osobných údajov aplikácie Chrome</string>
     <string name="url_load_unsuccessful_message_wifi_only">Zaradenie s Androidom nie je pripojené k sieti Wi-Fi. Ak chcete tieto informácie zobraziť, navštívte vo webovom prehliadači adresu %s.</string>
-    <string name="continue_for_a11y">Dotýkajte sa obrazovky, dokým nezaznie zvukový signál oznamujúci zapnutie režimu dostupnosti.</string>
+    <string name="continue_for_a11y">Dotýkajte sa obrazovky, dokým nezaznie zvukový signál oznamujúci povolenie režimu zjednodušenia ovládania.</string>
     <string name="canceled_a11y">Zrušený režim dostupnosti.</string>
     <string name="enabled_a11y">Režim dostupnosti je povolený.</string>
-    <string name="welcome_message">Vitajte!</string>
     <string name="emergency_dial">Tiesňové volanie</string>
-    <string name="welcome_language_picker_dialog_title">Vyberte si jazyk</string>
-    <string name="welcome_language_picker_section_suggested">Navrhnuté</string>
-    <string name="welcome_language_picker_section_all">Všetky jazyky</string>
     <string name="welcome_language_picker_content_description">Jazyk: %s</string>
     <string name="lock_screen_intro_title">Chráňte svoje telefón</string>
-    <string name="lock_screen_intro_text">Zabráňte ostatným v používaní tohto telefónu bez vášho povolenia a aktivujte funkcie ochrany zariadenia. <annotation id="learn_more">Ďalšie informácie</annotation></string>
+    <string name="lock_screen_intro_text">"Zabráňte ostatným v používaní tohto telefónu bez vášho povolenia aktivovaním funkcií ochrany zariadenia.
+"<annotation id="learn_more">Viac informácií</annotation></string>
     <string name="lock_screen_intro_text_secondary">Ak zvolíte možnosť Áno, prevedieme vás nastavením zámky obrazovky.</string>
-    <string name="lock_screen_intro_check_box"><b>Chrániť toto zariadenie</b> a vyžadovať kód PIN, bezpečnostný vzor alebo heslo na odomknutie obrazovky</string>
-    <string name="lock_screen_intro_radio_fingerprint">Nastaviť odtlačok prsta</string>
-    <string name="lock_screen_intro_radio_generic">Nastaviť PIN, vzor alebo heslo</string>
-    <string name="lock_screen_intro_radio_no">Nie, ďakujem</string>
-    <string name="lock_screen_intro_success">"Zámka obrazovky bola úspešne nastavená.
-"<annotation id="learn_more">Ďalšie informácie</annotation></string>
-    <string name="lock_screen_intro_dialog_text_frp">"Keď si pridáte účet Google a nastavíte zámku obrazovky, automaticky sa aktivuje ochrana zariadenia. Spolu so Správcom zariadenia Android umožňuje určiť polohu vášho telefónu a vymazať ho v prípade jeho straty alebo krádeže.
+    <string name="lock_screen_intro_check_box"><b>Chrániť toto zariadenie</b> a vyžadovať kód PIN, bezpečnostný vzor alebo heslo na odomknutie obrazovky</string>
+    <string name="lock_screen_intro_button">Nastaviť zámku obrazovky</string>
+    <string name="lock_screen_intro_success">Zámka obrazovky bola úspešne nastavená.</string>
+    <string name="lock_screen_intro_dialog_text">"Keď si pridáte účet Google a nastavíte zámku obrazovky, automaticky sa aktivuje ochrana zariadenia. Pomocou Správcu zariadenia Android môžete určiť polohu vášho zariadenia, vymazať ho a v prípade jeho straty alebo krádeže ho tak ochrániť pred opätovným použitím.
 
 Heslo účtu Google sa bude vyžadovať dokonca aj v prípade, keď váš telefón niekto úplne vymaže."</string>
-    <string name="lock_screen_intro_dialog_text">Keď si pridáte účet Google a nastavíte zámku obrazovky, automaticky sa aktivuje ochrana zariadenia. Spolu so Správcom zariadenia Android umožňuje určiť polohu vášho telefónu a vymazať ho v prípade jeho straty alebo krádeže.</string>
-    <string name="lock_screen_intro_skip_dialog_text_frp">Funkcie ochrany zariadenia nebudú aktivované. V prípade straty, krádeže alebo vymazania telefónu nebudete môcť ostatným zabrániť v jeho používaní.</string>
-    <string name="lock_screen_intro_skip_dialog_text">Funkcie ochrany zariadenia nebudú aktivované. V prípade straty alebo krádeže tohto telefónu nebudete môcť ostatným zabrániť v jeho používaní.</string>
+    <string name="lock_screen_intro_skip_dialog_text">Funkcie ochrany zariadenia nebudú aktivované. V prípade straty, krádeže alebo vymazania telefónu nebudete môcť ostatným zabrániť v jeho používaní.</string>
     <string name="services_activity_title">Služby Google</string>
     <string name="services_backup_heading">Záloha</string>
     <string name="services_location_heading">Poloha</string>
@@ -204,45 +222,21 @@ Heslo účtu Google sa bude vyžadovať dokonca aj v prípade, keď váš telef�
     <string name="restore_wallpaper_title">Obnovuje sa tapeta…</string>
     <string name="restore_device_settings_title">Obnovujú sa nastavenia zariadenia...</string>
     <string name="restore_launcher_title">Obnovuje sa aplikácia Launcher...</string>
-    <string name="restore_failed_message">Obnovenie zo zálohy sa nepodarilo</string>
-    <string name="restore_no_backup_message">Pre zdrojové zariadenie nie sú k dispozícii žiadne zálohy</string>
-    <string name="restore_stopped_message">Obnovovanie údajov zo zálohy bolo bohužiaľ na zariadení prerušené</string>
+    <string name="restore_failed_message">Obnovenie zo zálohy sa nepodarilo.</string>
     <string name="name_title">Meno</string>
     <string name="name_text">Ak zadáte svoje meno, niektoré aplikácie v telefóne bude možné prispôsobiť.</string>
     <string name="first_name">Meno</string>
     <string name="last_name">Priezvisko</string>
     <string name="cant_be_blank">Pole nesmie byť prázdne.</string>
-    <string name="device_owner_warning_title">Telefón môže byť sledovaný</string>
-    <string name="device_owner_warning">Tento telefón spravuje aplikácia %1$s. Znamená to, že niektoré vaše informácie môžu vidieť iní ľudia. Ak chcete zabrániť sledovaniu, obnovte svoje zariadenie.</string>
-    <string name="device_owner_continue">Pokračovať</string>
-    <string name="device_owner_reset">Resetovať telefón</string>
-    <string name="factory_reset_title">Resetovať telefón</string>
-    <string name="factory_reset_instructions">Upozornenie: Obnovením vymažete všetky účty a údaje v internom úložisku tohto telefónu.</string>
-    <string name="factory_reset_confirmation_title">Resetovať?</string>
-    <string name="factory_reset_confirmation">Chcete vymazať všetky účty a údaje na tomto telefóne? Táto akcia sa nedá vrátiť späť.</string>
-    <string name="factory_reset_button">Vymazať a Obnoviť</string>
-    <string name="restart_setup_wizard_dialog_title">Nie ste prihlásený/-á</string>
-    <string name="restart_setup_wizard_dialog_text">"Ak chcete tento telefón používať, musíte sa najprv prihlásiť do účtu Google vlastníka, ktorý sa na tomto zariadení používal pri jeho poslednom obnovení.
-
-Keďže ste to nespravili, musíte telefón znova nastaviť."</string>
-    <string name="restart_setup_wizard_button_label">Nastaviť telefón</string>
-    <string name="sec_user_continue">Pokračovať</string>
-    <string name="sec_user_quit">Ukončiť</string>
-    <string name="user_warning_title">Nastavenie nového používateľa</string>
-    <string name="welcome_secondary_user_added_text">Používateľ %s vás pridal do tohto telefónu.</string>
-    <string name="welcome_secondary_user_added_no_owner_name_text">V tomto telefóne bol vytvorený váš používateľský účet.</string>
-    <string name="welcome_secondary_user_info_text"><b>Dôležité:</b>"
-
-"<li><ul>Vlastník telefónu môže odinštalovať aplikácie alebo úplne odstrániť váš priestor.</ul></li>"
-
-"<li><ul>Akýkoľvek používateľ môže prijať aktualizované povolenia aplikácie vo vašom mene.</ul></li>"
-
-"<li><ul>Toto zariadenie (tak ako každý počítač) by ste mali zdieľať iba s ľuďmi, ktorým dôverujete.</ul></li></string>
-    <string name="welcome_limited_user_info_text">" "<b>Dôležité:</b>"
-
- "<li><ul>Vlastník telefónu môže inštalovať a odinštalovať aplikácie, nastaviť obmedzenia alebo váš priestor úplne odstrániť.</ul></li>"
-
- "<li><ul>Akýkoľvek používateľ môže prijať aktualizované povolenia aplikácie vo vašom mene.</ul></li>"
-
- "<li><ul>Tento telefón (tak ako každý počítač) by ste mali zdieľať iba s ľuďmi, ktorým dôverujete. </ul></li></string>
+    <string name="lock_pin_confirm_your_pin_header">Potvrďte kód PIN</string>
+    <string name="lock_pin_choose_your_pin_header">Zvoľte kód PIN</string>
+    <string name="lock_pin_ok_label">OK</string>
+    <string name="lock_pin_cancel_label">Zrušiť</string>
+    <string name="lock_pin_press_continue">Po dokončení sa dotknite tlačidla Pokračovať</string>
+    <string name="lock_pin_too_short">Minimálny počet číslic kódu PIN: %d</string>
+    <string name="lock_pin_too_long">Kód PIN musí mať menej ako %d číslic.</string>
+    <string name="lock_pin_illegal_character">Heslo obsahuje neplatný znak.</string>
+    <string name="lock_pin_contains_non_digits">Kód PIN musí obsahovať len číslice 0 až 9.</string>
+    <string name="lock_pin_confirm_pins_dont_match">Kódy PIN nie sú zhodné</string>
+    <string name="lock_pin_continue_label">Pokračovať</string>
 </resources>

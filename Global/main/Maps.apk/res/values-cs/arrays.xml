@@ -24,7 +24,13 @@
         <item>Drahé</item>
         <item>Velmi vysoká</item>
     </string-array>
-    <array name="RESTRICTION_ALLOWED_PRICE_LEVEL_SHORT" />
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_SHORT">
+        <item>Všechny ceny</item>
+        <item>$</item>
+        <item>$$</item>
+        <item>$$$</item>
+        <item>$$$$</item>
+    </string-array>
     <string-array name="RESTRICTION_ALLOWED_STARS">
         <item>Jakékoli</item>
         <item>2,0</item>
@@ -37,7 +43,12 @@
         <item>Tři a více hvězdiček</item>
         <item>Čtyři a více hvězdiček</item>
     </string-array>
-    <array name="RESTRICTION_ALLOWED_STARS_SHORT" />
+    <string-array name="RESTRICTION_ALLOWED_STARS_SHORT">
+        <item>Všechna hodnocení</item>
+        <item>Hodnocení 2 a vyšší</item>
+        <item>Hodnocení 3 a vyšší</item>
+        <item>Hodnocení 4 a vyšší</item>
+    </string-array>
     <string-array name="RESTRICTION_HOTEL_CLASSES">
         <item>Libovolná</item>
         <item>***</item>

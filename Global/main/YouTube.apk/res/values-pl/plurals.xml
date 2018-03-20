@@ -95,25 +95,9 @@
         <item quantity="few">%1$d z %2$d filmów</item>
         <item quantity="many">%1$d z %2$d filmów</item>
     </plurals>
-    <plurals name="offline_pending_time_window_plural">
-        <item quantity="other">I %1$d innego. Ustawiono do zapisania między %2$s a %3$s.</item>
-        <item quantity="zero"></item>
-        <item quantity="one">Ustawiono do zapisania między %2$s a %3$s.</item>
-        <item quantity="two">I %1$d inne. Ustawiono do zapisania między %2$s a %3$s.</item>
-        <item quantity="few">I %1$d inne. Ustawiono do zapisania między %2$s a %3$s.</item>
-        <item quantity="many">I %1$d innych. Ustawiono do zapisania między %2$s a %3$s.</item>
-    </plurals>
     <plurals name="playlist_size">
         <item quantity="other">Filmy: %1$,d</item>
         <item quantity="one">1 film</item>
-    </plurals>
-    <plurals name="transcoding_progress">
-        <item quantity="other">Przygotowuję %1$,d%%</item>
-        <item quantity="zero">Przygotowuję %1$,d%%</item>
-        <item quantity="one">Przygotowuję %1$,d%%</item>
-        <item quantity="two">Przygotowuję %1$,d%%</item>
-        <item quantity="few">Przygotowuję %1$,d%%</item>
-        <item quantity="many">Przygotowuję %1$,d%%</item>
     </plurals>
     <plurals name="upload_hours_remaing">
         <item quantity="other">Pozostało około %1$,d godz.</item>

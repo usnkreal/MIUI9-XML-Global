@@ -65,7 +65,6 @@
         <item>"Fréquence d'utilisation"</item>
         <item>Stockage utilisé</item>
         <item>"Heure d'installation"</item>
-        <item>Les applications qui peuvent être désinstallées</item>
     </string-array>
     <string-array name="sort_title">
         <item>Trier par état</item>
@@ -73,7 +72,6 @@
         <item>"Trier par fréquence d'utilisation"</item>
         <item>Trier par stockage utilisé</item>
         <item>"Trier par date d'installation"</item>
-        <item>Afficher les applications qui peuvent être désinstallées en premier</item>
     </string-array>
     <string-array name="key_app_info">
         <item>install_source</item>

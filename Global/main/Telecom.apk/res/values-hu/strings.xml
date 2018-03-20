@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="telecommAppLabel">Hívások kezelése</string>
-    <string name="userCallActivityLabel">Telefon</string>
+    <string name="telecommAppLabel">Telefon</string>
     <string name="unknown">Ismeretlen</string>
     <string name="notification_missedCallTitle">Nem fogadott hívás</string>
     <string name="notification_missedCallsTitle">Nem fogadott hívások</string>
@@ -19,19 +18,13 @@
     <string name="respond_via_sms_setting_title_2">Gyors válaszok szerkesztése</string>
     <string name="respond_via_sms_setting_summary" />
     <string name="respond_via_sms_edittext_dialog_title">Gyors válasz</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Alapalkalmazás visszaállítása</string>
     <string name="respond_via_sms_confirmation_format">Üzenet elküldve ide: %s.</string>
-    <string name="enable_account_preference_title">Hívás fiókok</string>
-    <string name="outgoing_call_not_allowed_user_restriction">Csak segélyhívások vannak engedélyezve.</string>
-    <string name="outgoing_call_not_allowed_no_permission">Az alkalmazás nem tud hívásokat kezdeményezni a szükséges engedélyek hiánya miatt.</string>
+    <string name="outgoing_call_not_allowed">Ez a felhasználó csak vészhelyzeti telefonhívásokat kezdeményezhet</string>
     <string name="outgoing_call_error_no_phone_number_supplied">Adjon meg egy érvényes számot a híváshoz.</string>
-    <string name="duplicate_video_call_not_allowed">Nem lehet több hívást hozzáadni</string>
-    <string name="video_call_not_allowed_if_tty_enabled">Videohívások indításához kapcsolja ki a TTY módot.</string>
     <string name="no_vm_number">Hiányzó hangpostaszám</string>
     <string name="no_vm_number_msg">Nincs hangpostaszám a SIM-kártyán.</string>
     <string name="add_vm_number_str">Szám hozzáadása</string>
-    <string name="change_default_dialer_dialog_title">%s használata alapértelmezett Tárcsázó alkalmazásként?</string>
-    <string name="change_default_dialer_with_previous_app_set_text">Legyen a(z) %1$s az alapértelmezett tárcsázó alkalmazás a(z) %2$s helyett?</string>
-    <string name="change_default_dialer_no_previous_app_set_text">Legyen a(z) %s az alapértelmezett tárcsázó alkalmazás?</string>
     <string name="test_account_0_label">Q Mobile</string>
     <string name="test_account_1_label">Market Wireless</string>
     <string name="test_account_2_label">Sonoma Circles Talk Plus</string>
@@ -41,21 +34,29 @@
     <string name="test_account_2_short_description">Talk to everyone in your Circles!</string>
     <string name="test_account_3_short_description">Chat with Chat Network users</string>
     <string name="handle_restricted">RESTRICTED</string>
+    <string name="headset_plugin_view_text">Fülhallgató csatlakoztatva.</string>
+    <string name="headset_plugin_view_title">Fülhallgató</string>
     <string name="voice_report_incoming_call">Bejövő hívás</string>
     <string name="voice_report_unknown_num">Ismeretlen telefonszám</string>
     <string name="incall_error_call_failed">Nem sikerült hívást indítani.</string>
-    <string name="notification_missedCall_call_back_miui">Hívás</string>
     <string name="dial_vt_fail_prompt">A hálózat nem támogatja a VoLTE-t. Átvált hagyományos hanghívásra?</string>
     <string name="dial_conference_fail_prompt">Nem sikerült konferenciahívást létrehozni, mert a hálózat nem támogatja a VoLTE-t.</string>
     <string name="can_not_dial_while_vt_prompt">Nem lehet tárcsázni videóhívás közben</string>
     <string name="can_not_dial_vt_while_voice_prompt">Nem lehet videóhívást létesíteni, amíg hanghívás van folyamatban</string>
     <string name="voice_dial_out">Hanghívás</string>
+    <string name="notification_missedCall_call_back_miui">Hívás</string>
     <string name="notification_AllMissedCallTitle">Összes nem fogadott hívás</string>
     <string name="close">Bezárás</string>
     <string name="callFailed_simError">SIM kártya hiba</string>
     <string name="incall_error_supp_service_unknown">Ez a szolgáltatás nem támogatott.</string>
     <string name="incall_error_power_off">Ha telefonálni akar, kapcsolja ki a repülőgép üzemmódot.</string>
+    <string name="userCallActivityLabel">Telefon</string>
     <string name="notification_missedWorkCallTitle">Nem fogadott munkahívás</string>
+    <string name="enable_account_preference_title">Hívás fiókok</string>
+    <string name="outgoing_call_not_allowed_user_restriction">Csak segélyhívások vannak engedélyezve.</string>
+    <string name="outgoing_call_not_allowed_no_permission">Az alkalmazás nem tud hívásokat kezdeményezni a szükséges engedélyek hiánya miatt.</string>
+    <string name="duplicate_video_call_not_allowed">Nem lehet több hívást hozzáadni</string>
+    <string name="change_default_dialer_dialog_title">%s használata alapértelmezett Tárcsázó alkalmazásként?</string>
     <string name="change_default_dialer_dialog_affirmative">Alapértelmezett Tárcsázó alkalmazás beállítása</string>
     <string name="change_default_dialer_dialog_negative">Mégse</string>
     <string name="change_default_dialer_warning_message">%s képes a hívások minden funkcióját átvenni és irányítani. Csak olyan alkalmazást állítson be alapértelmezett Tárcsázónak, amelyben megbízik.</string>
@@ -78,6 +79,4 @@
     <string name="blocked_numbers_number_already_blocked_message">%1$s már tiltva van.</string>
     <string name="toast_personal_call_msg">Egyéni Tárcsázó használata</string>
     <string name="toast_make_video_call_failed">Nem kezdeményezhet videóhívást. A megadott szám hibás.</string>
-    <string name="headset_plugin_view_text">Fülhallgató csatlakoztatva.</string>
-    <string name="headset_plugin_view_title">Fülhallgató</string>
 </resources>

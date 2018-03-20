@@ -202,7 +202,7 @@
     <string name="passport_get_innetdate_msg">&lt;font color=Red>נדמה כי&lt;/font> המספר %s מוחזר על ידי ספק הרשת שלך. לבדוק מתי המספר היה מקוון?</string>
     <string name="passport_get_innetdate_agree">בדיקה</string>
     <string name="passport_get_innetdate_disagree">לא</string>
-    <string name="passport_extra_gdpr_license">Creating your Mi Account means that you agree that Xiaomi will collect, process, and use your personal data, including verification data (e.g., verification codes), Second space data (e.g., information about the ways you use Second space, IDs used in First and Second spaces), and other data specified in our Privacy Policy. Refer to our Privacy Policy to learn how we process and use personal data.</string>
+    <string name="passport_extra_gdpr_license">"יצירת חשבון Mi שלך משמעותה שהינך מסכים לכך ש-Xiaomi תאסוף, תעבד ותשתמש בנתונים האישיים שלך, כולל נתוני אימות (לדוגמה: קודי אימות), נתוני 'שטח שני' (לדוגמה: פרטי השימוש שלך ב'שטח שני', מספרי זיהוי בהם נעשה שימוש ב'שטח ראשון' ו'שטח שני'), ונתונים אחרים המצויינים במדיניות הפרטיות שלנו. קרא את מדיניות הפרטיות שלנו על מנת להבין כיצד אנו מעבדים ומשתמשים בנתונים אישיים."</string>
     <string name="search_app_name">חשבון Mi</string>
     <string name="search_mi_account">חשבון Mi</string>
     <string name="search_mi_account_key_words">Mi Cloud,הגדרות חשבון,פרטי Mi Pay,צא</string>
@@ -416,10 +416,10 @@
     <string name="find_device_prompt_message">המכשיר נעול. הודעה: %1$s.</string>
     <string name="find_device_activate_account">הפעל חשבון</string>
     <string name="login_check_find_device">משיג את פרטי אבטחת המכשיר…</string>
-    <string name="unlock_help_notice">"Help:
-1. If you forgot your password, go to id.mi.com to reset it.
-2. If you can't unlock the device, go to i.mi.com to turn off Find device.
-3. Your unlock number: %s"</string>
+    <string name="unlock_help_notice">"עזרה:
+1. במידה ושכחת את סיסמתך, עבור אל id.mi.com על מנת לאפס אותה.
+2. אם אינך יכול לבטל את נעילת המכשיר, עבור אל i.mi.com על מנת לכבות את 'איתור המכשיר'.
+3. מספר ביטול הנעילה שלך הינו: %s"</string>
     <string name="login_find_device_bind">מכשיר זה מקושר למזהה חשבון Mi קיים (%s).</string>
     <string name="find_device_locked_account_phone" formatted="false">%s, מספר הטלפון המקושר: %s</string>
     <string name="find_device_locked_account_email" formatted="false">%s, כתובת הדואל המקושרת: %s</string>

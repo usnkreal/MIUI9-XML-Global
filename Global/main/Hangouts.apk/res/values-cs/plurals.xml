@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="notification_new_messages">
+        <item quantity="other">Nové zprávy</item>
+        <item quantity="one">Nová zpráva</item>
+    </plurals>
     <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
         <item quantity="other">Zve vás na Hangout s %1$d dalšími lidmi</item>
         <item quantity="one">Zve vás na Hangout s %1$d dalším člověkem</item>
@@ -12,24 +16,16 @@
         <item quantity="other">s %1$d dalšími lidmi</item>
         <item quantity="one">s %1$d dalším člověkem</item>
     </plurals>
-    <plurals name="gallery_picker_max_image_count_reached_message">
-        <item quantity="other">Maximální počet fotek, které můžete vybrat jako přílohu, je %d.</item>
-        <item quantity="one">Jako přílohu můžete vybrat nejvýše 1 fotku.</item>
-    </plurals>
-    <plurals name="gallery_picker_max_video_count_reached_message">
-        <item quantity="other">Maximální počet videí, která můžete vybrat jako přílohu, je %d.</item>
-        <item quantity="one">Jako přílohu můžete vybrat nejvýše 1 video.</item>
-    </plurals>
-    <plurals name="watermark_gallery_label">
-        <item quantity="other">Zobrazeno uživateli %s</item>
-        <item quantity="one">Zobrazeno uživatelem %s</item>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">Maximální počet příloh, které můžete vybrat, je %d.</item>
+        <item quantity="one">Můžete vybrat pouze jednu přílohu.</item>
     </plurals>
     <plurals name="num_minutes_in_the_past">
         <item quantity="other">%d min</item>
         <item quantity="one">%d min</item>
     </plurals>
     <plurals name="elapsed_minutes">
-        <item quantity="other">před %d minutami</item>
+        <item quantity="other">Před %d minutami</item>
         <item quantity="one">před %d min</item>
     </plurals>
     <plurals name="elapsed_minutes_announce">
@@ -37,7 +33,7 @@
         <item quantity="one">před %d min</item>
     </plurals>
     <plurals name="elapsed_hours">
-        <item quantity="other">před %d hodinami</item>
+        <item quantity="other">Před %d hodinami</item>
         <item quantity="one">před %d h</item>
     </plurals>
     <plurals name="elapsed_hours_announce">
@@ -45,7 +41,7 @@
         <item quantity="one">před %d h</item>
     </plurals>
     <plurals name="elapsed_days">
-        <item quantity="other">před %d dny</item>
+        <item quantity="other">Před %d dny</item>
         <item quantity="one">před %d d</item>
     </plurals>
     <plurals name="elapsed_days_announce">
@@ -53,7 +49,7 @@
         <item quantity="one">před %d d</item>
     </plurals>
     <plurals name="elapsed_weeks">
-        <item quantity="other">před %d týdny</item>
+        <item quantity="other">Před %d týdny</item>
         <item quantity="one">před %d týd.</item>
     </plurals>
     <plurals name="elapsed_weeks_announce">
@@ -61,7 +57,7 @@
         <item quantity="one">před %d týd.</item>
     </plurals>
     <plurals name="elapsed_months">
-        <item quantity="other">před %d měsíci</item>
+        <item quantity="other">Před %d měsíci</item>
         <item quantity="one">před %d měs.</item>
     </plurals>
     <plurals name="elapsed_months_announce">
@@ -163,6 +159,10 @@
     <plurals name="dnd_minutes">
         <item quantity="other">%d min</item>
         <item quantity="one">1 minuta</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">Zobrazeno uživateli %s</item>
+        <item quantity="one">Zobrazeno uživatelem %s</item>
     </plurals>
     <plurals name="focus_gallery_label">
         <item quantity="other">%s si přečetli všechny zprávy.</item>

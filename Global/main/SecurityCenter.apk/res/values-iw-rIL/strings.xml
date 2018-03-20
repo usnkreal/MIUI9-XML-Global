@@ -396,9 +396,9 @@
     <string name="firewall_system_title">שימוש בנתונים על ידי יישומי מערכת</string>
     <string name="firewall_temp_rule_reason">%2$s הגביל את החיבור לאינטרנט עבור %1$s​</string>
     <string name="dialog_restrict_all_wlan_title">הגבלת החיבור לרשת האלחוטית</string>
-    <string name="dialog_restrict_all_wlan_summary">Wi-Fi connection will be restricted for all apps after this.</string>
+    <string name="dialog_restrict_all_wlan_summary">החיבור לרשת האלחוטית יוגבל עבור כל היישומים.</string>
     <string name="dialog_restrict_all_mobile_title">הגבלת חיבור הנתונים הסלולריים של %s</string>
-    <string name="dialog_restrict_all_mobile_summary">%s Mobile data connection will be restricted for all apps after this.</string>
+    <string name="dialog_restrict_all_mobile_summary">חיבור הנתונים הסלולריים של %s יוגבל עבור כל היישומים.</string>
     <string name="dialog_restrict_positive">ביטול</string>
     <string name="dialog_restrict_negative">הגבלה</string>
     <string name="usage_sorted_activity_lable">שימוש בנתונים</string>
@@ -1933,7 +1933,7 @@ Rolled over extra data"</string>
     <string name="sponsored_sec_fb">ממומן</string>
     <string name="add_game_notification_summary">לחץ להתחלה והאצת המהירות</string>
     <string name="app_manager_title">ניהול יישומים</string>
-    <string name="app_manager_app_lock">נועל היישומים</string>
+    <string name="app_manager_uninstall">Uninstall</string>
     <string name="app_manager_bipartition">יישומים משוכפלים</string>
     <string name="app_manager_perm">הרשאות</string>
     <string name="app_manager_app_update">עדכונים</string>
@@ -2040,8 +2040,6 @@ Rolled over extra data"</string>
     <string name="app_manager_cache_size">מטמון</string>
     <string name="app_manager_clear_all_data">ניקוי כל הנתונים</string>
     <string name="app_manager_dlg_clear_cache_title">לנקות מטמון?</string>
-    <string name="app_manager_support_uninstall">באפשרותך להסיר את התקנת יישומים אלה</string>
-    <string name="app_manager_not_support_uninstall">לא ניתן להסיר יישומים אלה</string>
     <string name="app_manager_comuting_size">מחשב…</string>
     <string name="app_manager_show_all_apps_opened">מציג תוצאות מכל היישומים…</string>
     <string name="app_manager_search_prompt">לא מצאת דבר? נסה להציג תוצאות מכל היישומים.</string>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="notification_new_messages">
+        <item quantity="other">Nowe wiadomości</item>
+        <item quantity="one">Nowa wiadomość</item>
+    </plurals>
     <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
         <item quantity="other">Zaprasza Cię na Hangout z %1$d innymi osobami</item>
         <item quantity="one">Zaprasza Cię na Hangout z %1$d inną osobą</item>
@@ -12,17 +16,9 @@
         <item quantity="other">i inne osoby (%1$d)</item>
         <item quantity="one">i %1$d inna osoba</item>
     </plurals>
-    <plurals name="gallery_picker_max_image_count_reached_message">
-        <item quantity="other">Maksymalna liczba załączników graficznych, które możesz wybrać: %d.</item>
-        <item quantity="one">Maksymalna liczba załączników graficznych, które możesz wybrać: 1.</item>
-    </plurals>
-    <plurals name="gallery_picker_max_video_count_reached_message">
-        <item quantity="other">Maksymalna liczba załączników wideo, które możesz wybrać: %d.</item>
-        <item quantity="one">Maksymalna liczba załączników wideo, które możesz wybrać: 1.</item>
-    </plurals>
-    <plurals name="watermark_gallery_label">
-        <item quantity="other">Wyświetlone przez: %s</item>
-        <item quantity="one">Wyświetlone przez: %s</item>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">Możesz wybrać tylko tyle załączników naraz: %d.</item>
+        <item quantity="one">Możesz wybrać tylko 1 załącznik naraz.</item>
     </plurals>
     <plurals name="num_minutes_in_the_past">
         <item quantity="other">%d min</item>
@@ -163,6 +159,10 @@
     <plurals name="dnd_minutes">
         <item quantity="other">%d min</item>
         <item quantity="one">1 min</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">Wyświetlone przez: %s</item>
+        <item quantity="one">Wyświetlone przez: %s</item>
     </plurals>
     <plurals name="focus_gallery_label">
         <item quantity="other">%s przeczytali wszystkie wiadomości.</item>

@@ -27,42 +27,8 @@
     <string name="cert_too_large_error">Instalace se nezdařila, protože je soubor certifikátu příliš velký.</string>
     <string name="cert_missing_error">Instalace se nezdařila, protože se soubor certifikátu nepodařilo najít.</string>
     <string name="cert_read_error">Instalace se nezdařila, protože se soubor certifikátu nepodařilo přečíst.</string>
-    <string name="no_cert_file_found">Na kartě SD nebyl nalezen žádný certifikát.</string>
-    <string name="sdcard_not_present">Karta SD není k dispozici.</string>
+    <string name="no_cert_file_found">V úložišti USB nebyl nalezen žádný soubor certifikátu.</string>
+    <string name="sdcard_not_present">Úložiště USB není připojeno.</string>
     <string name="only_primary_user_allowed">Certifikáty může instalovat pouze majitel tohoto zařízení.</string>
     <string name="credential_usage_label">Použití pověření:</string>
-    <string name="wifi_title">Profil Wi-Fi</string>
-    <string name="wifi_detail_title">Podrobnosti pro %s</string>
-    <string name="wifi_detail_label">Podrobnosti</string>
-    <string name="wifi_install_label">Instalovat</string>
-    <string name="wifi_installing_label">Instalace</string>
-    <string name="wifi_cancel_label">Zrušit</string>
-    <string name="wifi_dismiss_label">Zavřít</string>
-    <string name="wifi_no_config">Žádná</string>
-    <string name="wifi_config_text">"Název: %1$s
-Plně kvalifikovaný název domény: %2$s
-Roamingová konsorcia: %3$s
-Sféra: %4$s
-Metoda ověření: EAP-%5$s
-"</string>
-    <string name="wifi_ttls_config_text">"Uživatelské jméno: %s
-"</string>
-    <string name="wifi_tls_config_text">"Klientský certifikát:
-%1$s
-Klíč: %2$s
-"</string>
-    <string name="wifi_sim_config_text">"SIM: %s
-"</string>
-    <string name="wifi_trust_config_text">"Certifikát důvěry:
-%s
-"</string>
-    <string name="install_done_title">Identifikační údaje byly nainstalovány</string>
-    <string name="install_done">Identifikační údaje uživatele %1$s byly přidány k uloženým sítím Wi-Fi.</string>
-    <string name="done_label">HOTOVO</string>
-    <string name="wifi_installer_detail">Nainstalujte identifikační údaje sítí Wi-Fi, abyste se k sítím mohli připojovat jako uživatel %1$s.</string>
-    <string name="wifi_installer_download_error">Ve staženém soubory byly zjištěny problémy a nelze jej nainstalovat. Zkontrolujte, zda jste soubor stáhli ze správného zdroje.</string>
-    <string name="wifi_installer_fail">Identifikační údaje k síti Wi-Fi nelze nainstalovat. Zkuste soubor stáhnout znovu.</string>
-    <string name="wifi_installer_fail_no_wifi_title">Instalace byla zrušena</string>
-    <string name="wifi_installer_fail_title">Nelze nainstalovat</string>
-    <string name="wifi_installer_fail_no_wifi">Zapněte Wi-Fi a zkuste to znovu.</string>
 </resources>

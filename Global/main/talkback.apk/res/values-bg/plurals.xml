@@ -16,10 +16,6 @@
         <item quantity="other">Показват се %2$d елемента от „%1$s“.</item>
         <item quantity="one">Показва се %2$d елемент от „%1$s“.</item>
     </plurals>
-    <plurals name="template_dump_event_count">
-        <item quantity="other">Избрани са %1$d събития</item>
-        <item quantity="one">Избрано е 1 събитие</item>
-    </plurals>
     <plurals name="template_list_column_count">
         <item quantity="other">%1$d колони</item>
         <item quantity="one">%1$d колона</item>
@@ -31,9 +27,5 @@
     <plurals name="template_list_total_count">
         <item quantity="other">%1$d елемента</item>
         <item quantity="one">%1$d елемент</item>
-    </plurals>
-    <plurals name="template_password_character_count">
-        <item quantity="other">%1$d знака</item>
-        <item quantity="one">%1$d знак</item>
     </plurals>
 </resources>

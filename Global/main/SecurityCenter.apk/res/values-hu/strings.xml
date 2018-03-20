@@ -1567,7 +1567,7 @@ a készülékét"</string>
     <string name="summary_realname_verify">Ellenőrizze a személyazonosságát, hogy még biztonságosabbá tegye a fizetést.</string>
     <string name="title_mifi_insurance">Kiterjesztett garancia</string>
     <string name="summary_mifi_insurance">Szerezzen 1 éves cseregaranciát ami hardveres meghibásodás esetén működik</string>
-    <string name="title_cloud_space_almost_full">A felhő tárhely hamarosan megtelik, néhány tétel lehet,hogy nem lesz szinkronizálva</string>
+    <string name="title_cloud_space_almost_full">A felhőtárhely hamarosan megtelik, néhány tétel lehet, hogy nem lesz szinkronizálva</string>
     <string name="summary_cloud_space_almost_full">Tárhely vásárlása</string>
     <string name="title_cloud_space_full">A felhő megtelt</string>
     <string name="summary_cloud_space_full">Nagyobb tárhely és további szolgáltatások igénylése</string>
@@ -1902,7 +1902,7 @@ a készülékét"</string>
     <string name="optimize_result_button_consume_power_analysis">Akku átvizsgálása</string>
     <string name="optimize_result_button_purchase_flow">Összes mutatása</string>
     <string name="optimize_result_button_purchase">Vásárlás</string>
-    <string name="optimize_result_button_cloudspace">Felhő tárhely hozzáadása</string>
+    <string name="optimize_result_button_cloudspace">Felhőtárhely hozzáadása</string>
     <string name="optimize_result_title_system_default_settings">Az alapértelmezett beállítások megváltoztak</string>
     <string name="optimize_result_summary_system_default_settings">Az alapértelmezett MIUI alkalmazások használata növeli a rendszer stabilitását és biztonságát.</string>
     <string name="optimize_result_toast_system_default_settings">Alapértelmezett beállítások visszaállítva</string>
@@ -1936,7 +1936,7 @@ a készülékét"</string>
     <string name="sponsored_sec_fb">Szponzorált</string>
     <string name="add_game_notification_summary">Érintse meg az indításhoz és a játékgyorsításhoz</string>
     <string name="app_manager_title">Alkalmazások kezelése</string>
-    <string name="app_manager_app_lock">Alkalmazások zárolása</string>
+    <string name="app_manager_uninstall">Eltávolítás</string>
     <string name="app_manager_bipartition">Klónozott alkalmazások</string>
     <string name="app_manager_perm">Engedélykezelő</string>
     <string name="app_manager_app_update">Frissítések</string>
@@ -2043,8 +2043,6 @@ a készülékét"</string>
     <string name="app_manager_cache_size">Gyorsítótár</string>
     <string name="app_manager_clear_all_data">Az összes adat törlése</string>
     <string name="app_manager_dlg_clear_cache_title">Törli a gyorsítótárat?</string>
-    <string name="app_manager_support_uninstall">Ön eltávolíthatja ezeket az alkalmazásokat</string>
-    <string name="app_manager_not_support_uninstall">Ezek az alkalmazások nem távolíthatók el</string>
     <string name="app_manager_comuting_size">Számítás…</string>
     <string name="app_manager_show_all_apps_opened">Az eredmény kijelzése minden alkalmazásból…</string>
     <string name="app_manager_search_prompt">Nincs találat? Próbálja meg az eredmény kijelzése minden alkalmazásból lehetőséget.</string>

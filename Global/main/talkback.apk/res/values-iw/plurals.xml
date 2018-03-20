@@ -24,12 +24,6 @@
         <item quantity="two">%1$s מציג %2$d פריטים.</item>
         <item quantity="many">%1$s מציג %2$d פריטים.</item>
     </plurals>
-    <plurals name="template_dump_event_count">
-        <item quantity="other">%1$d אירועים נבחרו</item>
-        <item quantity="one">אירוע אחד נבחר</item>
-        <item quantity="two">%1$d אירועים נבחרו</item>
-        <item quantity="many">%1$d אירועים נבחרו</item>
-    </plurals>
     <plurals name="template_list_column_count">
         <item quantity="other">%1$d עמודות</item>
         <item quantity="one">%1$d עמודה</item>
@@ -47,11 +41,5 @@
         <item quantity="one">%1$d פריט</item>
         <item quantity="two">%1$d פריטים</item>
         <item quantity="many">%1$d פריטים</item>
-    </plurals>
-    <plurals name="template_password_character_count">
-        <item quantity="other">%1$d תווים</item>
-        <item quantity="one">%1$d תו</item>
-        <item quantity="two">%1$d תווים</item>
-        <item quantity="many">%1$d תווים</item>
     </plurals>
 </resources>

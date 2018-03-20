@@ -19,8 +19,9 @@
     <string name="abc_shareactionprovider_share_with">Partager avec</string>
     <string name="abc_shareactionprovider_share_with_application">Partager avec %s</string>
     <string name="abc_toolbar_collapse_description">Réduire</string>
-    <string name="access_as_visitors_title">Tous les autres</string>
-    <string name="access_via_team_drive_title">Accès via %1$s</string>
+    <string name="access_request_accepted">Demande acceptée.</string>
+    <string name="access_request_give_access">"Accorder l'accès"</string>
+    <string name="access_request_reply">Répondre</string>
     <string name="accessbility_suggestion_dropdown_closed">Aucune suggestion disponible.</string>
     <string name="accessbility_suggestion_dropdown_opened">Suggestions de contacts ouvertes</string>
     <string name="account_item">Passer au compte \"%1$s\"</string>
@@ -39,8 +40,8 @@
     <string name="action_card_announce_untrash">"L'élément a été restauré."</string>
     <string name="action_card_download">Télécharger</string>
     <string name="action_card_download_content_desc">Télécharger une copie</string>
-    <string name="action_card_export">Envoyer une copie</string>
-    <string name="action_card_export_content_desc">Envoyer une copie</string>
+    <string name="action_card_export">Envoyer</string>
+    <string name="action_card_export_content_desc">Envoyer un fichier</string>
     <string name="action_card_folder_color">Autre couleur</string>
     <string name="action_card_get_link">Partager le lien</string>
     <string name="action_card_move">Déplacer</string>
@@ -53,7 +54,6 @@
     <string name="action_card_remove_content_desc">"Supprimer l'élément"</string>
     <string name="action_card_remove_permanently">Supprimer</string>
     <string name="action_card_remove_permanently_content_desc">"Supprimer définitivement l'élément"</string>
-    <string name="action_card_remove_td_item">Supprimer pour tous</string>
     <string name="action_card_rename">Renommer</string>
     <string name="action_card_rename_content_desc">"Renommer l'élément"</string>
     <string name="action_card_share">Ajouter des personnes</string>
@@ -82,19 +82,13 @@
     <string name="add">Ajouter</string>
     <string name="add_account">Ajouter un compte</string>
     <string name="add_collaborator_accept">Ajouter</string>
-    <string name="add_collaborators">Ajouter des personnes</string>
-    <string name="add_collaborators_acl_list_title">Qui a accès</string>
+    <string name="add_collaborators">Ajouter des contacts</string>
     <string name="add_collaborators_hint">Saisir un nom ou une adresse e-mail</string>
     <string name="add_collaborators_send_button_content_desc">Confirmer le partage et envoyer les documents aux collaborateurs</string>
     <string name="add_collaborators_textbox_title">Contacts</string>
-    <string name="add_members_acl_list_title">Membres de %1$s</string>
-    <string name="add_members_dialog_title">Ajouter des membres</string>
-    <string name="add_members_send_button_content_desc">"Confirmer l'ajout de membres et l'envoi de documents aux membres"</string>
-    <string name="add_members_textbox_title">Membres</string>
     <string name="alphabet_set">0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string name="announce_account_switch">Sélection du compte %1$s.</string>
     <string name="announce_account_using">Compte utilisé : %1$s</string>
-    <string name="announce_action_undone">Action annulée.</string>
     <string name="announce_collection_removed">Dossier supprimé.</string>
     <string name="announce_create_new">Créer un document</string>
     <string name="announce_document_removed">Fichier supprimé.</string>
@@ -104,10 +98,8 @@
     <string name="announce_refreshing_list">Actualisation…</string>
     <string name="announce_rename">"Nouveau nom de l'élément : %1$s."</string>
     <string name="announce_search_found_no_item">"Aucun résultat n'a été trouvé."</string>
-    <string name="announce_select_to_change">sélectionner pour modifier</string>
+    <string name="announce_select_to_change">Sélectionner pour modifier</string>
     <string name="announce_sort_order_and_direction">Ordre de tri : %1$s, %2$s</string>
-    <string name="announce_swatch_checked">Couleur %1$s sélectionnée</string>
-    <string name="announce_swatch_not_checked">Couleur %1$s non sélectionnée</string>
     <string name="app_installation_in_progress">Installation…</string>
     <string name="app_installation_in_progress_toast">Installation en cours. Voir les notifications pour plus de détails.</string>
     <string name="app_installed_dialog_drive_installed_title">Google Drive installé</string>
@@ -121,19 +113,27 @@
     <string name="app_name_drive">Drive</string>
     <string name="app_restrictions_description">"Utiliser la valeur \"false\" pour désactiver l'utilisation des API d'impression locale"</string>
     <string name="app_restrictions_title">"L'application peut utiliser les API d'impression locale"</string>
-    <string name="apps">Applications</string>
-    <string name="apps_footer_text">%s applications</string>
-    <string name="apps_predict_carousel_title">Accès rapide</string>
     <string name="apps_predict_doclist_suggestions_header">Éléments instantanés</string>
     <string name="apps_predict_open_error">"Impossible d'ouvrir l'élément."</string>
-    <string name="apps_predict_overlay_close_button">Fermer</string>
     <string name="apps_predict_overlay_introduction_header">Nouveaux éléments suggérés</string>
     <string name="apps_predict_overlay_introduction_text">"Drive suggère désormais les éléments que vous êtes le plus susceptible d'utiliser. Cela ne vous intéresse pas ? Balayez la suggestion pour l'ignorer."</string>
     <string name="apps_predict_overlay_title_assistant">Assistant</string>
     <string name="apps_predict_overlay_title_items_now">Éléments utiles</string>
     <string name="apps_predict_overlay_title_smart_items">Éléments intelligents</string>
+    <string name="apps_predict_reason_frequently_accessed">Fréquemment consulté</string>
+    <string name="apps_predict_reason_outstanding_comments">Commentaires à traiter</string>
+    <string name="apps_predict_reason_recent_activity">"Selon l'activité récente"</string>
+    <string name="apps_predict_reason_recently_accessed">Récemment consulté</string>
+    <string name="apps_predict_reason_recently_commented_on">Commentaires récents</string>
+    <string name="apps_predict_reason_recently_notified">Notification récente</string>
+    <string name="apps_predict_reason_recently_shared_with_you">Récemment partagé avec vous</string>
+    <string name="apps_predict_reason_recently_updated">Récemment modifié</string>
+    <string name="apps_predict_reason_related_to_recent_document">Lien avec un document récent</string>
+    <string name="apps_predict_reason_time_of_day">Consulté à cette heure</string>
     <string name="apps_predict_suggestions_dismissed_undo">Suggestions ignorées</string>
     <string name="apps_with_backup">Applications sauvegardées dans Google Drive</string>
+    <string name="ask_confirmation_for_document_deletion">Voulez-vous vraiment supprimer ce fichier ?</string>
+    <string name="ask_confirmation_for_folder_deletion">Voulez-vous vraiment supprimer ce dossier ?</string>
     <string name="audio_info_loading">Chargement…</string>
     <string name="authentication_error">"Erreur d'authentification."</string>
     <string name="auto_backup_open_settings_page_failure_toast">"Impossible d'ouvrir la page des param. de sauvegarde auto. Réessayez plus tard."</string>
@@ -143,10 +143,8 @@
     <string name="backup_app_footer_text" formatted="false">%s sauvegardés le %s</string>
     <string name="backup_banner_msg">"Démarrage de la sauvegarde de l'appareil dans Drive…"</string>
     <string name="backup_complete_msg">Sauvegarde terminée</string>
-    <string name="backup_data">Sauvegarder les données</string>
     <string name="backup_disabled_for_account">La sauvegarde de cet appareil est activée pour %s. Vous ne pouvez pas définir plusieurs comptes de sauvegarde pour un même appareil.</string>
     <string name="backup_disabled_for_device">Pas de données de sauvegarde disponibles. Activez la sauvegarde pour cet appareil, puis patientez 24 heures, le temps que les données soient sauvegardées.</string>
-    <string name="backup_entity_footer_text">Dernière sauvegarde : %s</string>
     <string name="backup_failed_msg">La sauvegarde a échoué.</string>
     <string name="backup_help_card_content">Les images, les fichiers et les paramètres des applications sont automatiquement sauvegardés de votre appareil vers %s.</string>
     <string name="backup_help_card_title">Sauvegarder les données dans Google Drive</string>
@@ -154,9 +152,7 @@
     <string name="backup_now">Sauvegarder immédiatement</string>
     <string name="backup_preferences">Sauvegarde automatique des applications</string>
     <string name="backup_retry_msg">Appuyez pour réessayer.</string>
-    <string name="backup_settings">Sauvegarder les paramètres</string>
-    <string name="backup_view_error">Impossible de répertorier les données sauvegardées. Veuillez vérifier la connexion réseau ou réessayer plus tard.</string>
-    <string name="basesearchsuggestion_date_modified_label">Modifié : %1$s</string>
+    <string name="basesearchsuggestion_date_modified_label">Modifié : %s</string>
     <string name="button_create_contact">Créer un contact</string>
     <string name="button_exit">Quitter</string>
     <string name="button_ok">OK</string>
@@ -166,42 +162,39 @@
     <string name="buy_content_description">Acheter %1$s pour %2$s</string>
     <string name="cakemix_device_offline">Aucune connexion</string>
     <string name="cakemix_problem_with_file">Le fichier présente un problème.</string>
-    <string name="cakemix_video_unprocessed">Vidéo en cours de traitement. Veuillez revenir plus tard.</string>
-    <string name="calendar">Agenda</string>
-    <string name="calendar_footer_text">Synchronisés avec Google Agenda</string>
-    <string name="calendar_message">Les événements de vos agendas sont synchronisés avec tous les appareils sur lesquels vous utilisez Google Agenda.</string>
-    <string name="call_history">Historique des appels</string>
-    <string name="call_history_message">La sauvegarde inclut la date et le destinataire des appels émis ou reçus.</string>
+    <string name="cakemix_video_unprocessed">Impossible de traiter cette vidéo.</string>
     <string name="camera_ocr_error_capture">"Une erreur s'est produite."</string>
     <string name="camera_ocr_no_sdcard">"Veuillez insérer une carte SD avant d'utiliser l'appareil photo."</string>
-    <string name="carbon_device_extra_delete_confirmation_message">"
-
-Les photos, les contacts et les événements d'agenda synchronisés à partir de cet appareil ne seront pas supprimés."</string>
+    <string name="check_connection_tap_to_retry">Vérifiez la connexion et appuyez pour réessayer.</string>
     <string name="chips_action_cancel">Annuler</string>
     <string name="chips_action_copy">Copier</string>
     <string name="chips_permission_text">Autoriser les suggestions de contacts</string>
     <string name="clear_cache">Vider le cache</string>
     <string name="clear_cache_cleared_message">Le cache des documents a été vidé.</string>
-    <string name="clear_cache_clearing_message">Effacement du cache…</string>
     <string name="clear_cache_message">Le cache des documents va être vidé.</string>
+    <string name="comment_quote">Citation : %1$s</string>
+    <string name="common_android_wear_notification_needs_update_text">"%1$s nécessite une mise à jour de l'application Android Wear."</string>
+    <string name="common_android_wear_update_text">"%1$s ne fonctionnera pas tant que vous n'aurez pas mis à jour l'application Android Wear."</string>
+    <string name="common_android_wear_update_title">Mettre à jour Android Wear</string>
     <string name="common_google_play_services_api_unavailable_text">"%1$s nécessite un ou plusieurs services Google Play qui ne sont pas disponibles actuellement. Veuillez contacter le développeur pour obtenir de l'aide."</string>
-    <string name="common_google_play_services_enable_button">Activer les services Google Play</string>
+    <string name="common_google_play_services_enable_button">Activer services Google Play</string>
     <string name="common_google_play_services_enable_text">"%1$s ne fonctionnera pas tant que vous n'aurez pas activé les services Google Play."</string>
     <string name="common_google_play_services_enable_title">Activer les services Google Play</string>
-    <string name="common_google_play_services_install_button">Installer les services Google Play</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">"Notification issue de l'application \"%1$s\""</string>
+    <string name="common_google_play_services_install_button">Installer services Google Play</string>
     <string name="common_google_play_services_install_text_phone">%1$s ne fonctionnera pas sans les services Google Play, qui ne sont pas installés sur votre téléphone.</string>
     <string name="common_google_play_services_install_text_tablet">%1$s ne fonctionnera pas sans les services Google Play, qui ne sont pas installés sur votre tablette.</string>
     <string name="common_google_play_services_install_title">Installer les services Google Play</string>
     <string name="common_google_play_services_invalid_account_text">"Le compte indiqué n'existe pas sur cet appareil. Veuillez sélectionner un autre compte."</string>
-    <string name="common_google_play_services_invalid_account_title">Compte non valide</string>
+    <string name="common_google_play_services_invalid_account_title">Compte erroné</string>
+    <string name="common_google_play_services_needs_enabling_title">"Une application demande l'activation des services Google Play."</string>
     <string name="common_google_play_services_network_error_text">"Vous devez disposer d'une connexion de données pour utiliser les services Google Play."</string>
     <string name="common_google_play_services_network_error_title">Erreur réseau</string>
+    <string name="common_google_play_services_notification_needs_update_title">Une application demande la mise à jour des services Google Play.</string>
     <string name="common_google_play_services_notification_ticker">Erreur liée aux services Google Play</string>
-    <string name="common_google_play_services_restricted_profile_text">"L'accès aux comptes à partir d'un profil limité n'est pas possible."</string>
-    <string name="common_google_play_services_restricted_profile_title">Profil limité</string>
     <string name="common_google_play_services_sign_in_failed_text">Erreur lors de la connexion au compte indiqué. Veuillez en sélectionner un autre.</string>
     <string name="common_google_play_services_sign_in_failed_title">Échec de la connexion</string>
-    <string name="common_google_play_services_unknown_issue">"L'application %1$s rencontre des problèmes avec les services Google Play. Si le problème persiste, veuillez contacter le développeur pour obtenir de l'aide."</string>
+    <string name="common_google_play_services_unknown_issue">Problème inconnu avec les services Google Play.</string>
     <string name="common_google_play_services_unsupported_text">"%1$s dépend des services Google Play, qui ne sont pas compatibles avec votre appareil. Veuillez contacter le fabricant pour obtenir de l'aide."</string>
     <string name="common_google_play_services_unsupported_title">Services Google Play</string>
     <string name="common_google_play_services_update_button">Mettre à jour</string>
@@ -209,21 +202,12 @@ Les photos, les contacts et les événements d'agenda synchronisés à partir de
     <string name="common_google_play_services_update_title">Mettre à jour les services Google Play</string>
     <string name="common_google_play_services_updating_text">%1$s ne fonctionnera pas sans les services Google Play, qui sont en cours de mise à jour.</string>
     <string name="common_google_play_services_updating_title">Mise à jour des services Google Play</string>
-    <string name="common_google_play_services_wear_update_text">La nouvelle version des services Google Play est nécessaire. Elle sera bientôt installée automatiquement.</string>
     <string name="common_open_on_phone">Ouvrir sur le téléphone</string>
-    <string name="common_signin_button_text">Se connecter</string>
-    <string name="common_signin_button_text_long">Se connecter avec Google</string>
     <string name="contact_sharing_commenter">Commentaire autorisé</string>
     <string name="contact_sharing_no_access">Aucun accès</string>
-    <string name="contact_sharing_reader">Consult. autorisée</string>
-    <string name="contact_sharing_td_organizer">Aucune restriction</string>
-    <string name="contact_sharing_td_remove">Supprimer</string>
-    <string name="contact_sharing_td_writer">Modification et importation autorisées</string>
-    <string name="contact_sharing_writer">Modif. autorisée</string>
-    <string name="contact_sharing_writer_folder">Organisation, ajout et modification autorisés</string>
-    <string name="contacts">Contacts</string>
-    <string name="contacts_footer_text">Synchronisés avec Google Contacts</string>
-    <string name="contacts_message">Vos contacts sont synchronisés avec tous vos appareils via Google Contacts.</string>
+    <string name="contact_sharing_reader">Affichage autorisé</string>
+    <string name="contact_sharing_writer">Modification autorisée</string>
+    <string name="contact_sharing_writer_folder">Peut organiser, ajouter et modifier</string>
     <string name="convert_conversion_failed">Désolé, impossible de traiter le document. Veuillez vérifier la connexion réseau, puis réessayer.</string>
     <string name="convert_document_too_big">Désolé, le document est trop volumineux pour être traité.</string>
     <string name="convert_loading_document_failed">Désolé, impossible de traiter votre document.</string>
@@ -246,7 +230,6 @@ Les photos, les contacts et les événements d'agenda synchronisés à partir de
     <string name="create_new_error_presentation">Erreur lors de la création de la présentation.</string>
     <string name="create_new_error_read_only_folder">"Vous n'êtes pas autorisé à ajouter des éléments à ce dossier."</string>
     <string name="create_new_error_spreadsheet">Erreur lors de la création de la feuille de calcul.</string>
-    <string name="create_new_error_team_drive">"Erreur lors de la création du Drive d'équipe."</string>
     <string name="create_new_folder">Dossier</string>
     <string name="create_new_from_scan">Numériser</string>
     <string name="create_new_ocr_doc">"À partir d'une photo"</string>
@@ -255,7 +238,6 @@ Les photos, les contacts et les événements d'agenda synchronisés à partir de
     <string name="create_new_offline_error_folder">Veuillez vous connecter à Internet pour créer un dossier.</string>
     <string name="create_new_offline_error_presentation">Veuillez vous connecter à Internet pour créer une présentation.</string>
     <string name="create_new_offline_error_spreadsheet">Veuillez vous connecter pour créer une feuille de calcul.</string>
-    <string name="create_new_offline_error_team_drive">"Veuillez vous connecter à Internet pour créer un Drive d'équipe."</string>
     <string name="create_shortcut_label">Raccourci Drive</string>
     <string name="create_shortcut_title">Créer un raccourci vers…</string>
     <string name="created_folder">Dossier %1$s créé.</string>
@@ -264,35 +246,16 @@ Les photos, les contacts et les événements d'agenda synchronisés à partir de
     <string name="creating_folder">Création du dossier…</string>
     <string name="creating_presentation">Création de la présentation…</string>
     <string name="creating_spreadsheet">Création de la feuille de calcul…</string>
-    <string name="creating_team_drive">"Création du Drive d'équipe…"</string>
     <string name="cross_app_promo_dismiss_button_text">Ignorer</string>
     <string name="cross_app_promo_install_button_text">Installer</string>
     <string name="cross_app_promo_view_only_button_text">Lecture seule</string>
-    <string name="current_device">Cet appareil</string>
     <string name="decrypting_progress_message">Déchiffrement en cours de %1$s</string>
     <string name="default_new_drawing_title">Dessin sans titre</string>
     <string name="default_new_folder_title">Dossier sans titre</string>
     <string name="default_new_kix_title">Document sans titre</string>
     <string name="default_new_punch_title">Présentation sans titre</string>
-    <string name="default_new_team_drive_title">"Nom de l'équipe"</string>
     <string name="default_new_trix_title">Feuille de calcul sans titre</string>
     <string name="default_scope_contact_name">Tout le monde</string>
-    <string name="delete_backup">Supprimer la sauvegarde</string>
-    <string name="delete_backup_confirm_button">Supprimer</string>
-    <string name="delete_backup_progress_message">Suppression de la sauvegarde…</string>
-    <string name="delete_device_backup_confirmation_message">"Les données de sauvegarde de cet appareil seront définitivement supprimées.
-
-De nouvelles données de sauvegarde seront créées si la sauvegarde est toujours activée pour %s."</string>
-    <string name="delete_device_backup_title">Supprimer la sauvegarde %s ?</string>
-    <string name="delete_multiple_backup_error_message">Impossible de supprimer certaines sauvegardes.</string>
-    <string name="delete_single_backup_error_message">Impossible de supprimer la sauvegarde.</string>
-    <string name="delete_whatsapp_backup_after_turnoff_confirmation_message">"Voulez-vous également supprimer définitivement la sauvegarde des chats et des médias WhatsApp pour les numéros suivants ?
-
-%s"</string>
-    <string name="delete_whatsapp_backup_confirmation_message">"La sauvegarde des chats et des médias WhatsApp sera définitivement supprimée pour le numéro %s.
-
-De nouvelles données de sauvegarde seront créées si la sauvegarde est toujours activée pour ce numéro."</string>
-    <string name="delete_whatsapp_backup_title">Effacer sauvegarde WhatsApp ?</string>
     <string name="desc_album_art">"Pochette de l'album"</string>
     <string name="desc_audio_forward">Avancer de 30 secondes</string>
     <string name="desc_audio_next">Suivant</string>
@@ -324,16 +287,15 @@ De nouvelles données de sauvegarde seront créées si la sauvegarde est toujour
     <string name="desc_promo_page">Conseil affiché en superposition : Enregistrez des fichiers PDF dans Google Drive\"</string>
     <string name="desc_selection_start">début de la sélection</string>
     <string name="desc_selection_stop">fin de la sélection</string>
-    <string name="desc_video_player">Lecteur vidéo</string>
     <string name="desc_web_link">Lien : %1$s</string>
     <string name="desc_web_link_shortened_to_domain">Lien : page Web sur %1$s</string>
     <string name="description_icon_stale_items">Certains de vos éléments sont obsolètes.</string>
-    <string name="detail_fragment_title">Affichage des propriétés du fichier %1$s</string>
+    <string name="detail_fragment_title">Affichage des propriétés du fichier %s</string>
     <string name="detail_preview_created_time">Création</string>
-    <string name="detail_preview_date_performed_by">%1$s par %2$s</string>
+    <string name="detail_preview_date_performed_by" formatted="false">%s par %s</string>
     <string name="detail_preview_folder_location">Emplacement</string>
     <string name="detail_preview_folder_restore_location">Supprimé de</string>
-    <string name="detail_preview_google_files_free">"Les fichiers %1$s ne sont pas comptabilisés dans l'espace de stockage occupé"</string>
+    <string name="detail_preview_google_files_free">"Les fichiers %s ne sont pas comptabilisés dans l'espace de stockage occupé"</string>
     <string name="detail_preview_information_content_description">Informations</string>
     <string name="detail_preview_kind">Type</string>
     <string name="detail_preview_last_modified_date">Modification</string>
@@ -342,15 +304,12 @@ De nouvelles données de sauvegarde seront créées si la sauvegarde est toujour
     <string name="detail_preview_quota">Stockage utilisé</string>
     <string name="detail_preview_size">Taille</string>
     <string name="device_offline">Aucune connexion.</string>
-    <string name="device_settings">"Paramètres de l'appareil"</string>
-    <string name="device_settings_message">"La sauvegarde inclut la configuration de l'appareil, comme le fond d'écran sélectionné, les mots de passe des réseaux Wi-Fi et les applications installées par défaut."</string>
     <string name="dialog_confirm_expiration">"Supprimer l'accès temporaire ?"</string>
     <string name="dialog_confirm_expiration_button">"Supprimer l'accès temporaire"</string>
     <string name="dialog_confirm_expiration_message">"Un délai de validité a précédemment été défini pour l'accès de cet utilisateur.
 
 La modification de son rôle provoquera le rétablissement d'un accès sans limite de durée."</string>
     <string name="dialog_confirm_sharing">Confirmer le partage</string>
-    <string name="dialog_confirm_sharing_button">Partager</string>
     <string name="dialog_confirm_sharing_message">"%1$s n'appartient pas au domaine de l'élément. Voulez-vous vraiment partager vos données ?"</string>
     <string name="dialog_confirm_sharing_message_multiple">"%1$d contacts n'appartiennent pas au domaine de cet élément. Voulez-vous vraiment partager vos données ?"</string>
     <string name="dialog_contact_sharing">Paramètres de partage</string>
@@ -384,8 +343,6 @@ La modification de son rôle provoquera le rétablissement d'un accès sans limi
     <string name="doclist_sortby_relevance">Pertinence</string>
     <string name="doclist_sortby_shared_title">Date de partage</string>
     <string name="doclist_starred_state">Suivi</string>
-    <string name="doclist_team_drive_state">"Drive d'équipe"</string>
-    <string name="doclist_unified_actions_more_actions_button">Autres actions</string>
     <string name="document_deleted_error_dialog_message">"Le document que vous essayez d'ouvrir a été supprimé. Pour supprimer le raccourci, appuyez dessus de façon prolongée, puis faites-le glisser vers l'icône \"Supprimer\" qui se trouve en haut de l'écran."</string>
     <string name="document_deleted_error_dialog_title">Ce document a été supprimé</string>
     <string name="document_preparing_to_open_progress">"Préparation de l'ouverture..."</string>
@@ -513,8 +470,6 @@ La modification de son rôle provoquera le rétablissement d'un accès sans limi
 
  IMPORTANT ! Une fois les commentaires envoyés, videz le cache de l'application (Paramètres -> Applications -> Drive -> Vider le cache), sinon d'autres applications malveillantes pourraient accéder aux données effacées. Continuer ?"</string>
     <string name="dump_database_dialog_title">Vos commentaires sur Dogfood nous sont précieux</string>
-    <string name="empty_backup_content">"Les sauvegardes de l'appareil et des données d'application s'affichent ici."</string>
-    <string name="empty_backup_title">Aucune sauvegarde</string>
     <string name="empty_doclist">Aucun élément.</string>
     <string name="empty_doclist_for_devices_view">Dossiers \"Appareil\" introuvables.</string>
     <string name="empty_doclist_for_devices_view_details">Pour créer des dossiers \"Appareil\", installez la dernière version de Drive sur votre ordinateur et configurez-la de sorte à synchroniser les dossiers locaux.</string>
@@ -528,15 +483,14 @@ Essayez d'importer un fichier."</string>
     <string name="empty_doclist_for_search_view">Aucun résultat.</string>
     <string name="empty_doclist_for_shared_with_me_view">"Les fichiers partagés avec vous s'afficheront ici."</string>
     <string name="empty_doclist_for_starred_view">Aucun fichier suivi.</string>
-    <string name="empty_doclist_for_starred_view_details">"Appuyez sur l'icône en forme d'étoile dans le menu des options du fichier pour l'ajouter à cette liste."</string>
+    <string name="empty_doclist_for_starred_view_details">"Appuyez sur l'icône en forme d'étoile dans le volet Détails pour ajouter le fichier à cette liste."</string>
+    <string name="empty_doclist_for_uploads_view">Aucune importation récente.</string>
+    <string name="empty_doclist_for_uploads_view_details">Gérer vos importations actives et afficher les fichiers que vous avez récemment importés depuis cet appareil</string>
     <string name="empty_recent_doclist_message_subtitle">"Tout ce que vous créerez ou modifierez s'affichera ici. Cliquez sur + pour créer un dessin."</string>
     <string name="empty_recent_doclist_message_title">Bienvenue dans Google Docs !</string>
     <string name="empty_sharing_list">Informations de partage non disponibles</string>
-    <string name="empty_team_drives_doclist">"Votre Drive d'équipe est vide. Pour commencer, ajoutez des fichiers et des utilisateurs."</string>
     <string name="enable_backup">ACTIVER LA SAUVEGARDE DE MES DONNÉES</string>
     <string name="enter_new_name">Saisir un nouveau nom :</string>
-    <string name="entity_backup_time">Dernière sauvegarde : %s</string>
-    <string name="entity_item_more_action_button">Autres actions</string>
     <string name="error_access_denied_html">"Impossible d'accéder au document. &lt;br>Motif : accès refusé.&lt;br>&lt;br> Veuillez vérifier que vous avez l'autorisation d'afficher ce document, puis réessayez."</string>
     <string name="error_app_intent">"L'autre application ne peut pas gérer ce fichier ( %1$s)."</string>
     <string name="error_app_open">"Erreur lors de l'ouverture du fichier."</string>
@@ -571,8 +525,6 @@ Essayez d'importer un fichier."</string>
     <string name="error_ssl_generic_template">Erreur SSL (code %1$d) lors de la connexion à %2$s.</string>
     <string name="error_ssl_idmismatch_template">"Erreur SSL (code %1$d) lors de la connexion à %2$s : le nom d'hôte ne correspond pas."</string>
     <string name="error_ssl_validity_template">"Erreur SSL (code %1$d) lors de la connexion à %2$s : le certificat a expiré ou n'est pas encore valide. La date de cet appareil est-elle réglée correctement ?"</string>
-    <string name="error_start_client">"Impossible de charger + de fichiers via  %1$s"</string>
-    <string name="error_title">Erreur</string>
     <string name="error_video_not_available">"La vidéo n'a pas été traitée. Veuillez réessayer ultérieurement."</string>
     <string name="expires_future">Expire dans %1$s</string>
     <string name="expires_today">"Expire aujourd'hui"</string>
@@ -618,7 +570,7 @@ Essayez d'importer un fichier."</string>
     <string name="folder_color_cyan_200">Islande</string>
     <string name="folder_color_cyan_500">Chenal des Caraïbes</string>
     <string name="folder_color_deep_orange_500">Mandarine</string>
-    <string name="folder_color_default">Par défaut</string>
+    <string name="folder_color_default">Gris souris</string>
     <string name="folder_color_google_blue_500">Bleu ciel</string>
     <string name="folder_color_google_green_400">Gris-vert</string>
     <string name="folder_color_google_green_500">Vert basilic</string>
@@ -630,27 +582,22 @@ Essayez d'importer un fichier."</string>
     <string name="folder_color_lime_500">Vert pomme</string>
     <string name="folder_color_orange_200">Duvet de pêche</string>
     <string name="folder_color_orange_500">Orange</string>
-    <string name="folder_color_orange_600">Jaune canari</string>
     <string name="folder_color_pink_200">Rose cochon</string>
     <string name="folder_color_pink_300">Rose clair</string>
     <string name="folder_color_pink_500">Framboise</string>
     <string name="folder_color_purple_100">Maison de poupées</string>
-    <string name="folder_color_purple_200">Lilas</string>
     <string name="folder_color_purple_300">Fuchsia</string>
-    <string name="folder_color_purple_400">Aubergine</string>
     <string name="folder_color_teal_100">"Salle d'attente"</string>
     <string name="gallery_select_error">"Erreur lors de la sélection de l'image à importer."</string>
     <string name="getting_authentication_information">Ouverture du document</string>
     <string name="gf_feedback">Commentaires</string>
+    <string name="give_access_failed">"Échec de l'attribution des droits d'accès à %1$s."</string>
+    <string name="give_access_failed_offline">"Impossible d'attribuer des droits d'accès hors connexion."</string>
+    <string name="give_access_success">"Droits d'accès attribués à %1$s."</string>
+    <string name="giving_access">"Attribution des droits d'accès à %1$s…"</string>
     <string name="google_account_missing">"Aucun compte Google n'a été trouvé, l'application va se fermer."</string>
     <string name="google_account_needed">Vous devez définir au moins un compte Google pour pouvoir utiliser cette application.</string>
-    <string name="google_docs_long">Google Docs</string>
-    <string name="google_docs_short">Docs</string>
     <string name="google_drive">Google Drive</string>
-    <string name="google_sheets_long">Google Sheets</string>
-    <string name="google_sheets_short">Sheets</string>
-    <string name="google_slides_long">Google Slides</string>
-    <string name="google_slides_short">Slides</string>
     <string name="grid_sync_download_label_format">"Téléchargement 
 %1$s/%2$s"</string>
     <string name="grid_sync_upload_label_format">"Importation 
@@ -687,35 +634,24 @@ Vous pouvez ainsi accéder à vos photos, vos vidéos, vos documents et autres f
     <string name="label_password_incorrect">Mot de passe incorrect</string>
     <string name="label_zoom" formatted="false">zoom : %1$d %</string>
     <string name="launch_drive">Lancer Drive pour afficher plus de fichiers</string>
-    <string name="launcher_scan_short">Numériser</string>
-    <string name="launcher_search_short">Recherche</string>
-    <string name="launcher_upload_short">Importer</string>
-    <string name="learn_more">EN SAVOIR PLUS</string>
-    <string name="libraries_material_featurehighlight_dismiss">Ignorer</string>
     <string name="linksharing_saved">Paramètres de partage enregistrés.</string>
     <string name="loading">Chargement en cours...</string>
     <string name="loading_document">Chargement du document…</string>
     <string name="loading_for_printing">Chargement du document…</string>
     <string name="loading_printers">Chargement des imprimantes...</string>
     <string name="location_entry_content_description">Emplacement %1$s. Appuyez deux fois pour ouvrir.</string>
-    <string name="location_entry_content_description_unclickable">Emplacement %1$s.</string>
-    <string name="location_removed_entry_content_description">Élément supprimé de %1$s. Appuyez deux fois pour ouvrir.</string>
-    <string name="location_removed_entry_content_description_unclickable">Élément supprimé de %1$s.</string>
     <string name="manage_accounts">Gérer les comptes</string>
-    <string name="manage_backup">Gérer les sauvegardes</string>
+    <string name="manage_backup">Gérer la sauvegarde</string>
+    <string name="manage_backup_page_title">Gérer les sauvegardes</string>
     <string name="manage_backup_summary">Liste des applications sauvegardées</string>
-    <string name="manage_members_default_members">"Par défaut, les membres peuvent modifier d'autres membres, les organiser et en ajouter de nouveaux."</string>
-    <string name="manage_members_dialog_title">Membres %s</string>
     <string name="manifest_app_pdfviewer">Lecteur PDF Google</string>
     <string name="manifest_app_projector">Projector</string>
     <string name="manifest_intent_view_pdf">Lecteur PDF</string>
     <string name="manifest_intent_view_pdf_drive">Lecteur PDF Drive</string>
     <string name="media_player_error">"Une erreur de lecture s'est produite."</string>
     <string name="menu_account_settings">Paramètres du compte</string>
-    <string name="menu_add_members">Ajouter des membres</string>
-    <string name="menu_backup">Sauvegardes</string>
     <string name="menu_create_new_doc">Nouveau</string>
-    <string name="menu_create_shortcut">Raccourci accueil</string>
+    <string name="menu_create_shortcut">Ajouter écr. acc.</string>
     <string name="menu_delete">Supprimer</string>
     <string name="menu_doc_view_grid_mode">Grille</string>
     <string name="menu_doc_view_list_mode">Liste</string>
@@ -730,10 +666,7 @@ Vous pouvez ainsi accéder à vos photos, vos vidéos, vos documents et autres f
     <string name="menu_google_photos">Google Photos</string>
     <string name="menu_help">Aide</string>
     <string name="menu_help_and_feedback">Aide et commentaires</string>
-    <string name="menu_item_manage_members">Gérer les membres</string>
-    <string name="menu_item_use_advanced_permission">Utiliser les autorisations avancées</string>
     <string name="menu_learn_more">En savoir plus</string>
-    <string name="menu_manage_members">Gérer les membres</string>
     <string name="menu_move_to">Déplacer</string>
     <string name="menu_my_drive">Mon Drive</string>
     <string name="menu_navigation_devices">Appareils</string>
@@ -769,6 +702,7 @@ Vous pouvez ainsi accéder à vos photos, vos vidéos, vos documents et autres f
     <string name="menu_show_team_drives">"Drive d'équipe"</string>
     <string name="menu_show_trash">Corbeille</string>
     <string name="menu_show_trix">Feuilles de calcul</string>
+    <string name="menu_show_upload">Importations</string>
     <string name="menu_sort_by">Trier par</string>
     <string name="menu_sort_creation_time">Date de création</string>
     <string name="menu_sort_direction">Ordre de tri</string>
@@ -782,36 +716,17 @@ Vous pouvez ainsi accéder à vos photos, vos vidéos, vos documents et autres f
     <string name="menu_trash_delete_forever">Supprimer</string>
     <string name="menu_trash_restore">Restaurer</string>
     <string name="menu_unpin">Désac. hors connex</string>
-    <string name="menu_view_members">Afficher la liste des membres</string>
     <string name="message_downloaded_file">Fichier %1$s téléchargé</string>
     <string name="message_match_status">%1$d sur %2$d</string>
     <string name="message_no_matches_found">"Aucun résultat n'a été trouvé."</string>
-    <string name="more_actions_content_description">Autres actions</string>
-    <string name="more_info">"Plus d'infos"</string>
     <string name="more_string">+ %1$d</string>
     <string name="move">Déplacer</string>
-    <string name="move_confirm_dialog_message_cannot_undo">"Vous n'êtes autorisé qu'à ajouter et modifier des éléments dans \"%1$s\". Par conséquent, vous ne pourrez pas annuler cette action."</string>
-    <string name="move_confirm_dialog_message_lose_access_shared_folders">"Vous êtes sur le point de déplacer des éléments à l'extérieur de plusieurs dossiers partagés. Par conséquent, les utilisateurs n'y auront plus accès."</string>
-    <string name="move_confirm_dialog_message_lose_access_team_drives">"Vous êtes sur le point de déplacer des éléments à l'extérieur de plusieurs Drive d'équipe. Par conséquent, les utilisateurs n'y auront plus accès."</string>
-    <string name="move_confirm_dialog_message_lose_access_team_drives_and_shared_folders">"Vous êtes sur le point de déplacer des éléments à l'extérieur de plusieurs Drive d'équipe et dossiers partagés. Par conséquent, les utilisateurs n'y auront plus accès."</string>
     <string name="move_confirm_dialog_title">Confirmer opération</string>
-    <string name="move_confirm_dialog_title_cannot_undo">"Impossible d'annuler cette action"</string>
-    <string name="move_confirm_dialog_title_lose_access">"Perte d'accès pour certains utilisateurs"</string>
-    <string name="move_confirm_dialog_title_lose_access_single_td">"Perte d'accès pour les utilisateurs de \"%1$s\""</string>
     <string name="move_confirm_dialog_title_unshare">Déplacer du dossier partagé ?</string>
     <string name="move_dialog_title">Dossier de destination</string>
-    <string name="move_error_cannot_move_in_folders">"Impossible de déplacer des dossiers dans des Drive d'équipe pour le moment."</string>
-    <string name="move_error_cannot_move_out_folders">"Impossible de placer des dossiers à l'extérieur des Drive d'équipe pour le moment."</string>
-    <string name="move_error_no_permission_dest">"Vous n'êtes pas autorisé à déplacer des éléments dans \"%1$s\"."</string>
     <string name="move_error_read_only_folder">"Vous n'êtes pas autorisé à déplacer des éléments dans ce dossier."</string>
-    <string name="move_error_target_folder_not_exist">"Le dossier cible n'existe pas."</string>
-    <string name="move_error_team_drive_items_not_supported_yet">"Le déplacement des Drive d'équipe est impossible pour le moment."</string>
     <string name="move_multi_parent_file">Vous essayez de déplacer un fichier qui se trouve dans plusieurs dossiers. Pour déplacer ce fichier, accédez à Drive sur votre ordinateur.</string>
     <string name="move_multi_parent_folder">Vous essayez de déplacer un dossier qui se trouve dans plusieurs dossiers. Pour déplacer ce dossier, accédez à Drive sur votre ordinateur.</string>
-    <string name="move_notice_lost_access_shared_folders">"Les éléments ont été placés à l'extérieur des dossiers partagés. Certaines personnes n'y ont donc plus accès."</string>
-    <string name="move_notice_lost_access_team_drive_single">"%1$s \"%2$s\" n'a plus accès à ce contenu."</string>
-    <string name="move_notice_lost_access_team_drives">"Les éléments ont été placés à l'extérieur des Drive d'équipe. Certaines personnes n'y ont donc plus accès."</string>
-    <string name="move_notice_lost_access_team_drives_and_shared_folders">"Les éléments ont été placés à l'extérieur des Drive d'équipe et des dossiers partagés. Certaines personnes n'y ont donc plus accès."</string>
     <string name="move_shared_to_shared">"Le déplacement du fichier %1$s du dossier partagé %2$s va en supprimer l'accès pour tous les collaborateurs.
 
 Il sera de nouveau partagé dans le dossier %3$s."</string>
@@ -831,14 +746,10 @@ Il sera de nouveau partagé dans le dossier %3$s."</string>
     <string name="new_folder_title">Nouveau dossier</string>
     <string name="new_kix_title">Titre du document</string>
     <string name="new_punch_title">Titre de la présentation</string>
-    <string name="new_team_drive_title">"Nouveau Drive d'équipe"</string>
     <string name="new_trix_title">Titre de la feuille de calcul</string>
     <string name="no_account_for_upload_message">Pour importer des fichiers dans Drive, connectez-vous ou créez un compte Google.</string>
     <string name="no_account_for_upload_setup_account">Configurer le compte</string>
     <string name="no_account_for_upload_title">Importer dans Drive</string>
-    <string name="no_backup_help_card_button">PARAMÈTRES DE SAUVEGARDE</string>
-    <string name="no_backup_help_card_content">Activez la fonctionnalité de sauvegarde automatique pour récupérer facilement vos données en cas de perte ou lorsque vous changez de téléphone.</string>
-    <string name="no_backup_help_card_title">Aucune sauvegarde des données de cet appareil</string>
     <string name="notification_extra_text_is_too_long">Importation impossible. Le texte est trop long.</string>
     <string name="notification_feedback">Commentaires</string>
     <string name="notification_help_card_content">"Drive affiche désormais des notifications lorsque des fichiers sont partagés avec vous, lorsque quelqu'un vous demande l'autorisation d'accéder à un fichier et lorsque d'autres événements importants surviennent."</string>
@@ -847,6 +758,7 @@ Il sera de nouveau partagé dans le dossier %3$s."</string>
     <string name="notification_home_empty_title">Aucune notification récente</string>
     <string name="notification_home_read">Lues</string>
     <string name="notification_home_unread">Non lues</string>
+    <string name="notification_message">Message : %1$s</string>
     <string name="notification_setting_access_request_title">"Notifications de demande d'accès"</string>
     <string name="notification_setting_comment_title">Notifications relatives aux commentaires</string>
     <string name="notification_setting_keep_on">Ne pas désactiver</string>
@@ -870,44 +782,36 @@ Il sera de nouveau partagé dans le dossier %3$s."</string>
     <string name="notify_access_request_description_num_items_one_user_icu">"{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_ITEMS_1,plural, =1{}one{A demandé l'accès à {NUM_ITEMS_2} élément}other{A demandé l'accès à {NUM_ITEMS_2} éléments}}}male{{NUM_ITEMS_1,plural, =1{}one{A demandé l'accès à {NUM_ITEMS_2} élément}other{A demandé l'accès à {NUM_ITEMS_2} éléments}}}other{{NUM_ITEMS_1,plural, =1{}one{A demandé l'accès à {NUM_ITEMS_2} élément}other{A demandé l'accès à {NUM_ITEMS_2} éléments}}}}}male{{SENDER_GENDER,select, female{{NUM_ITEMS_1,plural, =1{}one{A demandé l'accès à {NUM_ITEMS_2} élément}other{A demandé l'accès à {NUM_ITEMS_2} éléments}}}male{{NUM_ITEMS_1,plural, =1{}one{A demandé l'accès à {NUM_ITEMS_2} élément}other{A demandé l'accès à {NUM_ITEMS_2} éléments}}}other{{NUM_ITEMS_1,plural, =1{}one{A demandé l'accès à {NUM_ITEMS_2} élément}other{A demandé l'accès à {NUM_ITEMS_2} éléments}}}}}other{{SENDER_GENDER,select, female{{NUM_ITEMS_1,plural, =1{}one{A demandé l'accès à {NUM_ITEMS_2} élément}other{A demandé l'accès à {NUM_ITEMS_2} éléments}}}male{{NUM_ITEMS_1,plural, =1{}one{A demandé l'accès à {NUM_ITEMS_2} élément}other{A demandé l'accès à {NUM_ITEMS_2} éléments}}}other{{NUM_ITEMS_1,plural, =1{}one{A demandé l'accès à {NUM_ITEMS_2} élément}other{A demandé l'accès à {NUM_ITEMS_2} éléments}}}}}}"</string>
     <string name="notify_comment_text_quoted">\"%1$s\"</string>
     <string name="notify_comment_text_suggestion_with_content_type">%1$s : %2$s</string>
-    <string name="notify_comment_text_with_content_type">%1$s : \"%2$s\"</string>
+    <string name="notify_comment_text_with_content_type">%1$s \"%2$s\"</string>
     <string name="notify_comments_description_many_comments_many_users_icu">{RECIPIENT_GENDER,select, female{99 commentaires ou plus sur \"{ITEM_TITLE}\"}male{99 commentaires ou plus sur \"{ITEM_TITLE}\"}other{99 commentaires ou plus sur \"{ITEM_TITLE}\"}}</string>
     <string name="notify_comments_description_many_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{99 commentaires ou plus sur \"{ITEM_TITLE}\"}male{99 commentaires ou plus sur \"{ITEM_TITLE}\"}other{99 commentaires ou plus sur \"{ITEM_TITLE}\"}}}male{{SENDER_GENDER,select, female{99 commentaires ou plus sur \"{ITEM_TITLE}\"}male{99 commentaires ou plus sur \"{ITEM_TITLE}\"}other{99 commentaires ou plus sur \"{ITEM_TITLE}\"}}}other{{SENDER_GENDER,select, female{99 commentaires ou plus sur \"{ITEM_TITLE}\"}male{99 commentaires ou plus sur \"{ITEM_TITLE}\"}other{99 commentaires ou plus sur \"{ITEM_TITLE}\"}}}}</string>
+    <string name="notify_comments_description_many_items_many_users_icu">{RECIPIENT_GENDER,select, female{99 commentaires et suggestions ou plus dans \"{ITEM_TITLE}\"}male{99 commentaires et suggestions ou plus dans \"{ITEM_TITLE}\"}other{99 commentaires et suggestions ou plus dans \"{ITEM_TITLE}\"}}</string>
+    <string name="notify_comments_description_many_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{99 commentaires et suggestions ou plus dans \"{ITEM_TITLE}\"}male{99 commentaires et suggestions ou plus dans \"{ITEM_TITLE}\"}other{99 commentaires et suggestions ou plus dans \"{ITEM_TITLE}\"}}}male{{SENDER_GENDER,select, female{99 commentaires et suggestions ou plus dans \"{ITEM_TITLE}\"}male{99 commentaires et suggestions ou plus dans \"{ITEM_TITLE}\"}other{99 commentaires et suggestions ou plus dans \"{ITEM_TITLE}\"}}}other{{SENDER_GENDER,select, female{99 commentaires et suggestions ou plus dans \"{ITEM_TITLE}\"}male{99 commentaires et suggestions ou plus dans \"{ITEM_TITLE}\"}other{99 commentaires et suggestions ou plus dans \"{ITEM_TITLE}\"}}}}</string>
     <string name="notify_comments_description_many_suggestions_many_users_icu">{RECIPIENT_GENDER,select, female{99 suggestions ou plus dans \"{ITEM_TITLE}\"}male{99 suggestions ou plus dans \"{ITEM_TITLE}\"}other{99 suggestions ou plus dans \"{ITEM_TITLE}\"}}</string>
     <string name="notify_comments_description_many_suggestions_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{99 suggestions ou plus dans \"{ITEM_TITLE}\"}male{99 suggestions ou plus dans \"{ITEM_TITLE}\"}other{99 suggestions ou plus dans \"{ITEM_TITLE}\"}}}male{{SENDER_GENDER,select, female{99 suggestions ou plus dans \"{ITEM_TITLE}\"}male{99 suggestions ou plus dans \"{ITEM_TITLE}\"}other{99 suggestions ou plus dans \"{ITEM_TITLE}\"}}}other{{SENDER_GENDER,select, female{99 suggestions ou plus dans \"{ITEM_TITLE}\"}male{99 suggestions ou plus dans \"{ITEM_TITLE}\"}other{99 suggestions ou plus dans \"{ITEM_TITLE}\"}}}}</string>
-    <string name="notify_comments_description_many_todos_many_users_icu">{RECIPIENT_GENDER,select, female{> 99 tâches dans \"{ITEM_TITLE}\"}male{> 99 tâches dans \"{ITEM_TITLE}\"}other{> 99 tâches dans \"{ITEM_TITLE}\"}}</string>
-    <string name="notify_comments_description_many_todos_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{> 99 tâches dans \"{ITEM_TITLE}\"}male{> 99 tâches dans \"{ITEM_TITLE}\"}other{> 99 tâches dans \"{ITEM_TITLE}\"}}}male{{SENDER_GENDER,select, female{> 99 tâches dans \"{ITEM_TITLE}\"}male{> 99 tâches dans \"{ITEM_TITLE}\"}other{> 99 tâches dans \"{ITEM_TITLE}\"}}}other{{SENDER_GENDER,select, female{> 99 tâches dans \"{ITEM_TITLE}\"}male{> 99 tâches dans \"{ITEM_TITLE}\"}other{> 99 tâches dans \"{ITEM_TITLE}\"}}}}</string>
-    <string name="notify_comments_description_num_comments_many_users_icu">{RECIPIENT_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}one{Ont ajouté {TOTAL_ITEMS_2} commentaire à \"{ITEM_TITLE}\"}other{Ont ajouté {TOTAL_ITEMS_2} commentaires à \"{ITEM_TITLE}\"}}}male{{TOTAL_ITEMS_1,plural, =1{}one{Ont ajouté {TOTAL_ITEMS_2} commentaire à \"{ITEM_TITLE}\"}other{Ont ajouté {TOTAL_ITEMS_2} commentaires à \"{ITEM_TITLE}\"}}}other{{TOTAL_ITEMS_1,plural, =1{}one{Ont ajouté {TOTAL_ITEMS_2} commentaire à \"{ITEM_TITLE}\"}other{Ont ajouté {TOTAL_ITEMS_2} commentaires à \"{ITEM_TITLE}\"}}}}</string>
-    <string name="notify_comments_description_num_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}one{A ajouté {TOTAL_ITEMS_2} commentaire à \"{ITEM_TITLE}\"}other{A ajouté {TOTAL_ITEMS_2} commentaires à \"{ITEM_TITLE}\"}}}male{{TOTAL_ITEMS_1,plural, =1{}one{A ajouté {TOTAL_ITEMS_2} commentaire à \"{ITEM_TITLE}\"}other{A ajouté {TOTAL_ITEMS_2} commentaires à \"{ITEM_TITLE}\"}}}other{{TOTAL_ITEMS_1,plural, =1{}one{A ajouté {TOTAL_ITEMS_2} commentaire à \"{ITEM_TITLE}\"}other{A ajouté {TOTAL_ITEMS_2} commentaires à \"{ITEM_TITLE}\"}}}}}male{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}one{A ajouté {TOTAL_ITEMS_2} commentaire à \"{ITEM_TITLE}\"}other{A ajouté {TOTAL_ITEMS_2} commentaires à \"{ITEM_TITLE}\"}}}male{{TOTAL_ITEMS_1,plural, =1{}one{A ajouté {TOTAL_ITEMS_2} commentaire à \"{ITEM_TITLE}\"}other{A ajouté {TOTAL_ITEMS_2} commentaires à \"{ITEM_TITLE}\"}}}other{{TOTAL_ITEMS_1,plural, =1{}one{A ajouté {TOTAL_ITEMS_2} commentaire à \"{ITEM_TITLE}\"}other{A ajouté {TOTAL_ITEMS_2} commentaires à \"{ITEM_TITLE}\"}}}}}other{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}one{A ajouté {TOTAL_ITEMS_2} commentaire à \"{ITEM_TITLE}\"}other{A ajouté {TOTAL_ITEMS_2} commentaires à \"{ITEM_TITLE}\"}}}male{{TOTAL_ITEMS_1,plural, =1{}one{A ajouté {TOTAL_ITEMS_2} commentaire à \"{ITEM_TITLE}\"}other{A ajouté {TOTAL_ITEMS_2} commentaires à \"{ITEM_TITLE}\"}}}other{{TOTAL_ITEMS_1,plural, =1{}one{A ajouté {TOTAL_ITEMS_2} commentaire à \"{ITEM_TITLE}\"}other{A ajouté {TOTAL_ITEMS_2} commentaires à \"{ITEM_TITLE}\"}}}}}}</string>
+    <string name="notify_comments_description_num_comments_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}one{{NUM_COMMENTS_2} commentaire sur \"{ITEM_TITLE}\"}other{{NUM_COMMENTS_2} commentaires sur \"{ITEM_TITLE}\"}}}male{{NUM_COMMENTS_1,plural, =1{}one{{NUM_COMMENTS_2} commentaire sur \"{ITEM_TITLE}\"}other{{NUM_COMMENTS_2} commentaires sur \"{ITEM_TITLE}\"}}}other{{NUM_COMMENTS_1,plural, =1{}one{{NUM_COMMENTS_2} commentaire sur \"{ITEM_TITLE}\"}other{{NUM_COMMENTS_2} commentaires sur \"{ITEM_TITLE}\"}}}}</string>
+    <string name="notify_comments_description_num_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}one{{NUM_COMMENTS_2} commentaire sur \"{ITEM_TITLE}\"}other{{NUM_COMMENTS_2} commentaires sur \"{ITEM_TITLE}\"}}}male{{NUM_COMMENTS_1,plural, =1{}one{{NUM_COMMENTS_2} commentaire sur \"{ITEM_TITLE}\"}other{{NUM_COMMENTS_2} commentaires sur \"{ITEM_TITLE}\"}}}other{{NUM_COMMENTS_1,plural, =1{}one{{NUM_COMMENTS_2} commentaire sur \"{ITEM_TITLE}\"}other{{NUM_COMMENTS_2} commentaires sur \"{ITEM_TITLE}\"}}}}}male{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}one{{NUM_COMMENTS_2} commentaire sur \"{ITEM_TITLE}\"}other{{NUM_COMMENTS_2} commentaires sur \"{ITEM_TITLE}\"}}}male{{NUM_COMMENTS_1,plural, =1{}one{{NUM_COMMENTS_2} commentaire sur \"{ITEM_TITLE}\"}other{{NUM_COMMENTS_2} commentaires sur \"{ITEM_TITLE}\"}}}other{{NUM_COMMENTS_1,plural, =1{}one{{NUM_COMMENTS_2} commentaire sur \"{ITEM_TITLE}\"}other{{NUM_COMMENTS_2} commentaires sur \"{ITEM_TITLE}\"}}}}}other{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}one{{NUM_COMMENTS_2} commentaire sur \"{ITEM_TITLE}\"}other{{NUM_COMMENTS_2} commentaires sur \"{ITEM_TITLE}\"}}}male{{NUM_COMMENTS_1,plural, =1{}one{{NUM_COMMENTS_2} commentaire sur \"{ITEM_TITLE}\"}other{{NUM_COMMENTS_2} commentaires sur \"{ITEM_TITLE}\"}}}other{{NUM_COMMENTS_1,plural, =1{}one{{NUM_COMMENTS_2} commentaire sur \"{ITEM_TITLE}\"}other{{NUM_COMMENTS_2} commentaires sur \"{ITEM_TITLE}\"}}}}}}</string>
+    <string name="notify_comments_description_num_items_many_users_icu">{RECIPIENT_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}one{{TOTAL_ITEMS_2} commentaire ou suggestion dans \"{ITEM_TITLE}\"}other{{TOTAL_ITEMS_2} commentaires et suggestions dans \"{ITEM_TITLE}\"}}}male{{TOTAL_ITEMS_1,plural, =1{}one{{TOTAL_ITEMS_2} commentaire ou suggestion dans \"{ITEM_TITLE}\"}other{{TOTAL_ITEMS_2} commentaires et suggestions dans \"{ITEM_TITLE}\"}}}other{{TOTAL_ITEMS_1,plural, =1{}one{{TOTAL_ITEMS_2} commentaire ou suggestion dans \"{ITEM_TITLE}\"}other{{TOTAL_ITEMS_2} commentaires et suggestions dans \"{ITEM_TITLE}\"}}}}</string>
+    <string name="notify_comments_description_num_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}one{{TOTAL_ITEMS_2} commentaire ou suggestion dans \"{ITEM_TITLE}\"}other{{TOTAL_ITEMS_2} commentaires et suggestions dans \"{ITEM_TITLE}\"}}}male{{TOTAL_ITEMS_1,plural, =1{}one{{TOTAL_ITEMS_2} commentaire ou suggestion dans \"{ITEM_TITLE}\"}other{{TOTAL_ITEMS_2} commentaires et suggestions dans \"{ITEM_TITLE}\"}}}other{{TOTAL_ITEMS_1,plural, =1{}one{{TOTAL_ITEMS_2} commentaire ou suggestion dans \"{ITEM_TITLE}\"}other{{TOTAL_ITEMS_2} commentaires et suggestions dans \"{ITEM_TITLE}\"}}}}}male{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}one{{TOTAL_ITEMS_2} commentaire ou suggestion dans \"{ITEM_TITLE}\"}other{{TOTAL_ITEMS_2} commentaires et suggestions dans \"{ITEM_TITLE}\"}}}male{{TOTAL_ITEMS_1,plural, =1{}one{{TOTAL_ITEMS_2} commentaire ou suggestion dans \"{ITEM_TITLE}\"}other{{TOTAL_ITEMS_2} commentaires et suggestions dans \"{ITEM_TITLE}\"}}}other{{TOTAL_ITEMS_1,plural, =1{}one{{TOTAL_ITEMS_2} commentaire ou suggestion dans \"{ITEM_TITLE}\"}other{{TOTAL_ITEMS_2} commentaires et suggestions dans \"{ITEM_TITLE}\"}}}}}other{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}one{{TOTAL_ITEMS_2} commentaire ou suggestion dans \"{ITEM_TITLE}\"}other{{TOTAL_ITEMS_2} commentaires et suggestions dans \"{ITEM_TITLE}\"}}}male{{TOTAL_ITEMS_1,plural, =1{}one{{TOTAL_ITEMS_2} commentaire ou suggestion dans \"{ITEM_TITLE}\"}other{{TOTAL_ITEMS_2} commentaires et suggestions dans \"{ITEM_TITLE}\"}}}other{{TOTAL_ITEMS_1,plural, =1{}one{{TOTAL_ITEMS_2} commentaire ou suggestion dans \"{ITEM_TITLE}\"}other{{TOTAL_ITEMS_2} commentaires et suggestions dans \"{ITEM_TITLE}\"}}}}}}</string>
     <string name="notify_comments_description_num_suggestions_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}one{{NUM_SUGGESTIONS_2} suggestion dans \"{ITEM_TITLE}\"}other{{NUM_SUGGESTIONS_2} suggestions dans \"{ITEM_TITLE}\"}}}male{{NUM_SUGGESTIONS_1,plural, =1{}one{{NUM_SUGGESTIONS_2} suggestion dans \"{ITEM_TITLE}\"}other{{NUM_SUGGESTIONS_2} suggestions dans \"{ITEM_TITLE}\"}}}other{{NUM_SUGGESTIONS_1,plural, =1{}one{{NUM_SUGGESTIONS_2} suggestion dans \"{ITEM_TITLE}\"}other{{NUM_SUGGESTIONS_2} suggestions dans \"{ITEM_TITLE}\"}}}}</string>
     <string name="notify_comments_description_num_suggestions_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}one{{NUM_SUGGESTIONS_2} suggestion dans \"{ITEM_TITLE}\"}other{{NUM_SUGGESTIONS_2} suggestions dans \"{ITEM_TITLE}\"}}}male{{NUM_SUGGESTIONS_1,plural, =1{}one{{NUM_SUGGESTIONS_2} suggestion dans \"{ITEM_TITLE}\"}other{{NUM_SUGGESTIONS_2} suggestions dans \"{ITEM_TITLE}\"}}}other{{NUM_SUGGESTIONS_1,plural, =1{}one{{NUM_SUGGESTIONS_2} suggestion dans \"{ITEM_TITLE}\"}other{{NUM_SUGGESTIONS_2} suggestions dans \"{ITEM_TITLE}\"}}}}}male{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}one{{NUM_SUGGESTIONS_2} suggestion dans \"{ITEM_TITLE}\"}other{{NUM_SUGGESTIONS_2} suggestions dans \"{ITEM_TITLE}\"}}}male{{NUM_SUGGESTIONS_1,plural, =1{}one{{NUM_SUGGESTIONS_2} suggestion dans \"{ITEM_TITLE}\"}other{{NUM_SUGGESTIONS_2} suggestions dans \"{ITEM_TITLE}\"}}}other{{NUM_SUGGESTIONS_1,plural, =1{}one{{NUM_SUGGESTIONS_2} suggestion dans \"{ITEM_TITLE}\"}other{{NUM_SUGGESTIONS_2} suggestions dans \"{ITEM_TITLE}\"}}}}}other{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}one{{NUM_SUGGESTIONS_2} suggestion dans \"{ITEM_TITLE}\"}other{{NUM_SUGGESTIONS_2} suggestions dans \"{ITEM_TITLE}\"}}}male{{NUM_SUGGESTIONS_1,plural, =1{}one{{NUM_SUGGESTIONS_2} suggestion dans \"{ITEM_TITLE}\"}other{{NUM_SUGGESTIONS_2} suggestions dans \"{ITEM_TITLE}\"}}}other{{NUM_SUGGESTIONS_1,plural, =1{}one{{NUM_SUGGESTIONS_2} suggestion dans \"{ITEM_TITLE}\"}other{{NUM_SUGGESTIONS_2} suggestions dans \"{ITEM_TITLE}\"}}}}}}</string>
-    <string name="notify_comments_description_num_todos_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_TODOS_1,plural, =1{}one{{NUM_TODOS_2} tâche dans \"{ITEM_TITLE}\"}other{{NUM_TODOS_2} tâches dans \"{ITEM_TITLE}\"}}}male{{NUM_TODOS_1,plural, =1{}one{{NUM_TODOS_2} tâche dans \"{ITEM_TITLE}\"}other{{NUM_TODOS_2} tâches dans \"{ITEM_TITLE}\"}}}other{{NUM_TODOS_1,plural, =1{}one{{NUM_TODOS_2} tâche dans \"{ITEM_TITLE}\"}other{{NUM_TODOS_2} tâches dans \"{ITEM_TITLE}\"}}}}</string>
-    <string name="notify_comments_description_num_todos_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}one{{NUM_TODOS_2} tâche dans \"{ITEM_TITLE}\"}other{{NUM_TODOS_2} tâches dans \"{ITEM_TITLE}\"}}}male{{NUM_TODOS_1,plural, =1{}one{{NUM_TODOS_2} tâche dans \"{ITEM_TITLE}\"}other{{NUM_TODOS_2} tâches dans \"{ITEM_TITLE}\"}}}other{{NUM_TODOS_1,plural, =1{}one{{NUM_TODOS_2} tâche dans \"{ITEM_TITLE}\"}other{{NUM_TODOS_2} tâches dans \"{ITEM_TITLE}\"}}}}}male{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}one{{NUM_TODOS_2} tâche dans \"{ITEM_TITLE}\"}other{{NUM_TODOS_2} tâches dans \"{ITEM_TITLE}\"}}}male{{NUM_TODOS_1,plural, =1{}one{{NUM_TODOS_2} tâche dans \"{ITEM_TITLE}\"}other{{NUM_TODOS_2} tâches dans \"{ITEM_TITLE}\"}}}other{{NUM_TODOS_1,plural, =1{}one{{NUM_TODOS_2} tâche dans \"{ITEM_TITLE}\"}other{{NUM_TODOS_2} tâches dans \"{ITEM_TITLE}\"}}}}}other{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}one{{NUM_TODOS_2} tâche dans \"{ITEM_TITLE}\"}other{{NUM_TODOS_2} tâches dans \"{ITEM_TITLE}\"}}}male{{NUM_TODOS_1,plural, =1{}one{{NUM_TODOS_2} tâche dans \"{ITEM_TITLE}\"}other{{NUM_TODOS_2} tâches dans \"{ITEM_TITLE}\"}}}other{{NUM_TODOS_1,plural, =1{}one{{NUM_TODOS_2} tâche dans \"{ITEM_TITLE}\"}other{{NUM_TODOS_2} tâches dans \"{ITEM_TITLE}\"}}}}}}</string>
-    <string name="notify_comments_description_only_one_assign_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Attribuée à {ASSIGNEE} dans \"{ITEM_TITLE}\"}male{Attribuée à {ASSIGNEE} dans \"{ITEM_TITLE}\"}other{Attribuée à {ASSIGNEE} dans \"{ITEM_TITLE}\"}}}male{{SENDER_GENDER,select, female{Attribuée à {ASSIGNEE} dans \"{ITEM_TITLE}\"}male{Attribuée à {ASSIGNEE} dans \"{ITEM_TITLE}\"}other{Attribuée à {ASSIGNEE} dans \"{ITEM_TITLE}\"}}}other{{SENDER_GENDER,select, female{Attribuée à {ASSIGNEE} dans \"{ITEM_TITLE}\"}male{Attribuée à {ASSIGNEE} dans \"{ITEM_TITLE}\"}other{Attribuée à {ASSIGNEE} dans \"{ITEM_TITLE}\"}}}}</string>
-    <string name="notify_comments_description_only_one_assign_to_you_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Cette tâche vous est attribuée dans \"{ITEM_TITLE}\"}male{Cette tâche vous est attribuée dans \"{ITEM_TITLE}\"}other{Cette tâche vous est attribuée dans \"{ITEM_TITLE}\"}}}male{{SENDER_GENDER,select, female{Cette tâche vous est attribuée dans \"{ITEM_TITLE}\"}male{Cette tâche vous est attribuée dans \"{ITEM_TITLE}\"}other{Cette tâche vous est attribuée dans \"{ITEM_TITLE}\"}}}other{{SENDER_GENDER,select, female{Cette tâche vous est attribuée dans \"{ITEM_TITLE}\"}male{Cette tâche vous est attribuée dans \"{ITEM_TITLE}\"}other{Cette tâche vous est attribuée dans \"{ITEM_TITLE}\"}}}}</string>
     <string name="notify_comments_description_only_one_comment_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A commenté \"{ITEM_TITLE}\"}male{A commenté \"{ITEM_TITLE}\"}other{A commenté \"{ITEM_TITLE}\"}}}male{{SENDER_GENDER,select, female{A commenté \"{ITEM_TITLE}\"}male{A commenté \"{ITEM_TITLE}\"}other{A commenté \"{ITEM_TITLE}\"}}}other{{SENDER_GENDER,select, female{A commenté \"{ITEM_TITLE}\"}male{A commenté \"{ITEM_TITLE}\"}other{A commenté \"{ITEM_TITLE}\"}}}}</string>
     <string name="notify_comments_description_only_one_mention_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Vous a mentionnée dans \"{ITEM_TITLE}\"}male{Vous a mentionnée dans \"{ITEM_TITLE}\"}other{Vous a mentionnée dans \"{ITEM_TITLE}\"}}}male{{SENDER_GENDER,select, female{Vous a mentionné dans \"{ITEM_TITLE}\"}male{Vous a mentionné dans \"{ITEM_TITLE}\"}other{Vous a mentionné dans \"{ITEM_TITLE}\"}}}other{{SENDER_GENDER,select, female{Vous a mentionné dans \"{ITEM_TITLE}\"}male{Vous a mentionné dans \"{ITEM_TITLE}\"}other{Vous a mentionné dans \"{ITEM_TITLE}\"}}}}</string>
-    <string name="notify_comments_description_only_one_reassign_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Réattribuée à {ASSIGNEE} dans \"{ITEM_TITLE}\"}male{Réattribuée à {ASSIGNEE} dans \"{ITEM_TITLE}\"}other{Réattribuée à {ASSIGNEE} dans \"{ITEM_TITLE}\"}}}male{{SENDER_GENDER,select, female{Réattribuée à {ASSIGNEE} dans \"{ITEM_TITLE}\"}male{Réattribuée à {ASSIGNEE} dans \"{ITEM_TITLE}\"}other{Réattribuée à {ASSIGNEE} dans \"{ITEM_TITLE}\"}}}other{{SENDER_GENDER,select, female{Réattribuée à {ASSIGNEE} dans \"{ITEM_TITLE}\"}male{Réattribuée à {ASSIGNEE} dans \"{ITEM_TITLE}\"}other{Réattribuée à {ASSIGNEE} dans \"{ITEM_TITLE}\"}}}}</string>
-    <string name="notify_comments_description_only_one_reassign_to_you_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Cette tâche vous est réattribuée dans \"{ITEM_TITLE}\"}male{Cette tâche vous est réattribuée dans \"{ITEM_TITLE}\"}other{Cette tâche vous est réattribuée dans \"{ITEM_TITLE}\"}}}male{{SENDER_GENDER,select, female{Cette tâche vous est réattribuée dans \"{ITEM_TITLE}\"}male{Cette tâche vous est réattribuée dans \"{ITEM_TITLE}\"}other{Cette tâche vous est réattribuée dans \"{ITEM_TITLE}\"}}}other{{SENDER_GENDER,select, female{Cette tâche vous est réattribuée dans \"{ITEM_TITLE}\"}male{Cette tâche vous est réattribuée dans \"{ITEM_TITLE}\"}other{Cette tâche vous est réattribuée dans \"{ITEM_TITLE}\"}}}}</string>
     <string name="notify_comments_description_only_one_suggestion_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A suggéré une modification dans \"{ITEM_TITLE}\"}male{A suggéré une modification dans \"{ITEM_TITLE}\"}other{A suggéré une modification dans \"{ITEM_TITLE}\"}}}male{{SENDER_GENDER,select, female{A suggéré une modification dans \"{ITEM_TITLE}\"}male{A suggéré une modification dans \"{ITEM_TITLE}\"}other{A suggéré une modification dans \"{ITEM_TITLE}\"}}}other{{SENDER_GENDER,select, female{A suggéré une modification dans \"{ITEM_TITLE}\"}male{A suggéré une modification dans \"{ITEM_TITLE}\"}other{A suggéré une modification dans \"{ITEM_TITLE}\"}}}}</string>
     <string name="notify_comments_description_short_many_comments_many_users_icu">{RECIPIENT_GENDER,select, female{Ont ajouté 99 commentaires ou plus}male{Ont ajouté 99 commentaires ou plus}other{Ont ajouté 99 commentaires ou plus}}</string>
     <string name="notify_comments_description_short_many_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A ajouté 99 commentaires ou plus}male{A ajouté 99 commentaires ou plus}other{A ajouté 99 commentaires ou plus}}}male{{SENDER_GENDER,select, female{A ajouté 99 commentaires ou plus}male{A ajouté 99 commentaires ou plus}other{A ajouté 99 commentaires ou plus}}}other{{SENDER_GENDER,select, female{A ajouté 99 commentaires ou plus}male{A ajouté 99 commentaires ou plus}other{A ajouté 99 commentaires ou plus}}}}</string>
+    <string name="notify_comments_description_short_many_items_many_users_icu">{RECIPIENT_GENDER,select, female{Ont ajouté 99 suggestions ou plus}male{Ont ajouté 99 suggestions ou plus}other{Ont ajouté 99 suggestions ou plus}}</string>
+    <string name="notify_comments_description_short_many_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A ajouté 99 commentaires et suggestions ou plus}male{A ajouté 99 commentaires et suggestions ou plus}other{A ajouté 99 commentaires et suggestions ou plus}}}male{{SENDER_GENDER,select, female{A ajouté 99 commentaires et suggestions ou plus}male{A ajouté 99 commentaires et suggestions ou plus}other{A ajouté 99 commentaires et suggestions ou plus}}}other{{SENDER_GENDER,select, female{A ajouté 99 commentaires et suggestions ou plus}male{A ajouté 99 commentaires et suggestions ou plus}other{A ajouté 99 commentaires et suggestions ou plus}}}}</string>
     <string name="notify_comments_description_short_many_suggestions_many_users_icu">{RECIPIENT_GENDER,select, female{Ont ajouté 99 suggestions ou plus}male{Ont ajouté 99 suggestions ou plus}other{Ont ajouté 99 suggestions ou plus}}</string>
     <string name="notify_comments_description_short_many_suggestions_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A ajouté 99 suggestions ou plus}male{A ajouté 99 suggestions ou plus}other{A ajouté 99 suggestions ou plus}}}male{{SENDER_GENDER,select, female{A ajouté 99 suggestions ou plus}male{A ajouté 99 suggestions ou plus}other{A ajouté 99 suggestions ou plus}}}other{{SENDER_GENDER,select, female{A ajouté 99 suggestions ou plus}male{A ajouté 99 suggestions ou plus}other{A ajouté 99 suggestions ou plus}}}}</string>
-    <string name="notify_comments_description_short_many_todos_many_users_icu">{RECIPIENT_GENDER,select, female{Ont ajouté 99 tâches ou plus}male{Ont ajouté 99 tâches ou plus}other{Ont ajouté 99 tâches ou plus}}</string>
-    <string name="notify_comments_description_short_many_todos_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A ajouté 99 tâches ou plus}male{A ajouté 99 tâches ou plus}other{A ajouté 99 tâches ou plus}}}male{{SENDER_GENDER,select, female{A ajouté 99 tâches ou plus}male{A ajouté 99 tâches ou plus}other{A ajouté 99 tâches ou plus}}}other{{SENDER_GENDER,select, female{A ajouté 99 tâches ou plus}male{A ajouté 99 tâches ou plus}other{A ajouté 99 tâches ou plus}}}}</string>
-    <string name="notify_comments_description_short_num_comments_many_users_icu">{RECIPIENT_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}one{Ont ajouté {TOTAL_ITEMS_2} commentaire}other{Ont ajouté {TOTAL_ITEMS_2} commentaires}}}male{{TOTAL_ITEMS_1,plural, =1{}one{Ont ajouté {TOTAL_ITEMS_2} commentaire}other{Ont ajouté {TOTAL_ITEMS_2} commentaires}}}other{{TOTAL_ITEMS_1,plural, =1{}one{Ont ajouté {TOTAL_ITEMS_2} commentaire}other{Ont ajouté {TOTAL_ITEMS_2} commentaires}}}}</string>
-    <string name="notify_comments_description_short_num_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}one{A ajouté {TOTAL_ITEMS_2} commentaire}other{A ajouté {TOTAL_ITEMS_2} commentaires}}}male{{TOTAL_ITEMS_1,plural, =1{}one{A ajouté {TOTAL_ITEMS_2} commentaire}other{A ajouté {TOTAL_ITEMS_2} commentaires}}}other{{TOTAL_ITEMS_1,plural, =1{}one{A ajouté {TOTAL_ITEMS_2} commentaire}other{A ajouté {TOTAL_ITEMS_2} commentaires}}}}}male{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}one{A ajouté {TOTAL_ITEMS_2} commentaire}other{A ajouté {TOTAL_ITEMS_2} commentaires}}}male{{TOTAL_ITEMS_1,plural, =1{}one{A ajouté {TOTAL_ITEMS_2} commentaire}other{A ajouté {TOTAL_ITEMS_2} commentaires}}}other{{TOTAL_ITEMS_1,plural, =1{}one{A ajouté {TOTAL_ITEMS_2} commentaire}other{A ajouté {TOTAL_ITEMS_2} commentaires}}}}}other{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}one{A ajouté {TOTAL_ITEMS_2} commentaire}other{A ajouté {TOTAL_ITEMS_2} commentaires}}}male{{TOTAL_ITEMS_1,plural, =1{}one{A ajouté {TOTAL_ITEMS_2} commentaire}other{A ajouté {TOTAL_ITEMS_2} commentaires}}}other{{TOTAL_ITEMS_1,plural, =1{}one{A ajouté {TOTAL_ITEMS_2} commentaire}other{A ajouté {TOTAL_ITEMS_2} commentaires}}}}}}</string>
+    <string name="notify_comments_description_short_num_comments_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}one{A ajouté {NUM_COMMENTS_2} commentaire}other{A ajouté {NUM_COMMENTS_2} commentaires}}}male{{NUM_COMMENTS_1,plural, =1{}one{A ajouté {NUM_COMMENTS_2} commentaire}other{A ajouté {NUM_COMMENTS_2} commentaires}}}other{{NUM_COMMENTS_1,plural, =1{}one{A ajouté {NUM_COMMENTS_2} commentaire}other{A ajouté {NUM_COMMENTS_2} commentaires}}}}</string>
+    <string name="notify_comments_description_short_num_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}one{A ajouté {NUM_COMMENTS_2} commentaire}other{A ajouté {NUM_COMMENTS_2} commentaires}}}male{{NUM_COMMENTS_1,plural, =1{}one{A ajouté {NUM_COMMENTS_2} commentaire}other{A ajouté {NUM_COMMENTS_2} commentaires}}}other{{NUM_COMMENTS_1,plural, =1{}one{A ajouté {NUM_COMMENTS_2} commentaire}other{A ajouté {NUM_COMMENTS_2} commentaires}}}}}male{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}one{A ajouté {NUM_COMMENTS_2} commentaire}other{A ajouté {NUM_COMMENTS_2} commentaires}}}male{{NUM_COMMENTS_1,plural, =1{}one{A ajouté {NUM_COMMENTS_2} commentaire}other{A ajouté {NUM_COMMENTS_2} commentaires}}}other{{NUM_COMMENTS_1,plural, =1{}one{A ajouté {NUM_COMMENTS_2} commentaire}other{A ajouté {NUM_COMMENTS_2} commentaires}}}}}other{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}one{A ajouté {NUM_COMMENTS_2} commentaire}other{A ajouté {NUM_COMMENTS_2} commentaires}}}male{{NUM_COMMENTS_1,plural, =1{}one{A ajouté {NUM_COMMENTS_2} commentaire}other{A ajouté {NUM_COMMENTS_2} commentaires}}}other{{NUM_COMMENTS_1,plural, =1{}one{A ajouté {NUM_COMMENTS_2} commentaire}other{A ajouté {NUM_COMMENTS_2} commentaires}}}}}}</string>
+    <string name="notify_comments_description_short_num_items_many_users_icu">{RECIPIENT_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}one{Ont ajouté {TOTAL_ITEMS_2} commentaire ou suggestion}other{Ont ajouté {TOTAL_ITEMS_2} commentaires et suggestions}}}male{{TOTAL_ITEMS_1,plural, =1{}one{Ont ajouté {TOTAL_ITEMS_2} commentaire ou suggestion}other{Ont ajouté {TOTAL_ITEMS_2} commentaires et suggestions}}}other{{TOTAL_ITEMS_1,plural, =1{}one{Ont ajouté {TOTAL_ITEMS_2} commentaire ou suggestion}other{Ont ajouté {TOTAL_ITEMS_2} commentaires et suggestions}}}}</string>
+    <string name="notify_comments_description_short_num_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}one{A ajouté {TOTAL_ITEMS_2} commentaire ou suggestion}other{A ajouté {TOTAL_ITEMS_2} commentaires et suggestion}}}male{{TOTAL_ITEMS_1,plural, =1{}one{A ajouté {TOTAL_ITEMS_2} commentaire ou suggestion}other{A ajouté {TOTAL_ITEMS_2} commentaires et suggestions}}}other{{TOTAL_ITEMS_1,plural, =1{}one{A ajouté {TOTAL_ITEMS_2} commentaire ou suggestion}other{A ajouté {TOTAL_ITEMS_2} commentaires et suggestions}}}}}male{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}one{A ajouté {TOTAL_ITEMS_2} commentaire ou suggestion}other{A ajouté {TOTAL_ITEMS_2} commentaires et suggestions}}}male{{TOTAL_ITEMS_1,plural, =1{}one{A ajouté {TOTAL_ITEMS_2} commentaire ou suggestion}other{A ajouté {TOTAL_ITEMS_2} commentaires et suggestions}}}other{{TOTAL_ITEMS_1,plural, =1{}one{A ajouté {TOTAL_ITEMS_2} commentaire ou suggestion}other{A ajouté {TOTAL_ITEMS_2} commentaires et suggestions}}}}}other{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}one{A ajouté {TOTAL_ITEMS_2} commentaire ou suggestion}other{A ajouté {TOTAL_ITEMS_2} commentaires et suggestions}}}male{{TOTAL_ITEMS_1,plural, =1{}one{A ajouté {TOTAL_ITEMS_2} commentaire ou suggestion}other{A ajouté {TOTAL_ITEMS_2} commentaires et suggestions}}}other{{TOTAL_ITEMS_1,plural, =1{}one{A ajouté {TOTAL_ITEMS_2} commentaire ou suggestion}other{A ajouté {TOTAL_ITEMS_2} commentaires et suggestions}}}}}}</string>
     <string name="notify_comments_description_short_num_suggestions_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}one{Ont suggéré {NUM_SUGGESTIONS_2} modification}other{Ont suggéré {NUM_SUGGESTIONS_2} modifications}}}male{{NUM_SUGGESTIONS_1,plural, =1{}one{Ont suggéré {NUM_SUGGESTIONS_2} modification}other{Ont suggéré {NUM_SUGGESTIONS_2} modifications}}}other{{NUM_SUGGESTIONS_1,plural, =1{}one{Ont suggéré {NUM_SUGGESTIONS_2} modification}other{Ont suggéré {NUM_SUGGESTIONS_2} modifications}}}}</string>
     <string name="notify_comments_description_short_num_suggestions_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}one{A ajouté {NUM_SUGGESTIONS_2} suggestions}other{A ajouté {NUM_SUGGESTIONS_2} suggestions}}}male{{NUM_SUGGESTIONS_1,plural, =1{}one{A ajouté {NUM_SUGGESTIONS_2} suggestions}other{A ajouté {NUM_SUGGESTIONS_2} suggestions}}}other{{NUM_SUGGESTIONS_1,plural, =1{}one{A ajouté {NUM_SUGGESTIONS_2} suggestions}other{A ajouté {NUM_SUGGESTIONS_2} suggestions}}}}}male{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}one{A ajouté {NUM_SUGGESTIONS_2} suggestions}other{A ajouté {NUM_SUGGESTIONS_2} suggestions}}}male{{NUM_SUGGESTIONS_1,plural, =1{}one{A ajouté {NUM_SUGGESTIONS_2} suggestions}other{A ajouté {NUM_SUGGESTIONS_2} suggestions}}}other{{NUM_SUGGESTIONS_1,plural, =1{}one{A ajouté {NUM_SUGGESTIONS_2} suggestions}other{A ajouté {NUM_SUGGESTIONS_2} suggestions}}}}}other{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}one{A ajouté {NUM_SUGGESTIONS_2} suggestions}other{A ajouté {NUM_SUGGESTIONS_2} suggestions}}}male{{NUM_SUGGESTIONS_1,plural, =1{}one{A ajouté {NUM_SUGGESTIONS_2} suggestions}other{A ajouté {NUM_SUGGESTIONS_2} suggestions}}}other{{NUM_SUGGESTIONS_1,plural, =1{}one{A ajouté {NUM_SUGGESTIONS_2} suggestions}other{A ajouté {NUM_SUGGESTIONS_2} suggestions}}}}}}</string>
-    <string name="notify_comments_description_short_num_todos_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_TODOS_1,plural, =1{}one{Ont ajouté {NUM_TODOS_2} tâche}other{Ont ajouté {NUM_TODOS_2} tâches}}}male{{NUM_TODOS_1,plural, =1{}one{Ont ajouté {NUM_TODOS_2} tâche}other{Ont ajouté {NUM_TODOS_2} tâches}}}other{{NUM_TODOS_1,plural, =1{}one{Ont ajouté {NUM_TODOS_2} tâche}other{Ont ajouté {NUM_TODOS_2} tâches}}}}</string>
-    <string name="notify_comments_description_short_num_todos_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}one{A ajouté {NUM_TODOS_2} tâche}other{A ajouté {NUM_TODOS_2} tâches}}}male{{NUM_TODOS_1,plural, =1{}one{A ajouté {NUM_TODOS_2} tâche}other{A ajouté {NUM_TODOS_2} tâches}}}other{{NUM_TODOS_1,plural, =1{}one{A ajouté {NUM_TODOS_2} tâche}other{A ajouté {NUM_TODOS_2} tâches}}}}}male{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}one{A ajouté {NUM_TODOS_2} tâche}other{A ajouté {NUM_TODOS_2} tâches}}}male{{NUM_TODOS_1,plural, =1{}one{A ajouté {NUM_TODOS_2} tâche}other{A ajouté {NUM_TODOS_2} tâches}}}other{{NUM_TODOS_1,plural, =1{}one{A ajouté {NUM_TODOS_2} tâche}other{A ajouté {NUM_TODOS_2} tâches}}}}}other{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}one{A ajouté {NUM_TODOS_2} tâche}other{A ajouté {NUM_TODOS_2} tâches}}}male{{NUM_TODOS_1,plural, =1{}one{A ajouté {NUM_TODOS_2} tâche}other{A ajouté {NUM_TODOS_2} tâches}}}other{{NUM_TODOS_1,plural, =1{}one{A ajouté {NUM_TODOS_2} tâche}other{A ajouté {NUM_TODOS_2} tâches}}}}}}</string>
-    <string name="notify_comments_description_short_only_one_assign_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A attribué une tâche à {ASSIGNEE}}male{A attribué une tâche à {ASSIGNEE}}other{A attribué une tâche à {ASSIGNEE}}}}male{{SENDER_GENDER,select, female{A attribué une tâche à {ASSIGNEE}}male{A attribué une tâche à {ASSIGNEE}}other{A attribué une tâche à {ASSIGNEE}}}}other{{SENDER_GENDER,select, female{A attribué une tâche à {ASSIGNEE}}male{A attribué une tâche à {ASSIGNEE}}other{A attribué une tâche à {ASSIGNEE}}}}}</string>
-    <string name="notify_comments_description_short_only_one_assign_to_you_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Vous a attribué une tâche}male{Vous a attribué une tâche}other{Vous a attribué une tâche}}}male{{SENDER_GENDER,select, female{Vous a attribué une tâche}male{Vous a attribué une tâche}other{Vous a attribué une tâche}}}other{{SENDER_GENDER,select, female{Vous a attribué une tâche}male{Vous a attribué une tâche}other{Vous a attribué une tâche}}}}</string>
     <string name="notify_comments_description_short_only_one_comment_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A ajouté un commentaire}male{A ajouté un commentaire}other{A ajouté un commentaire}}}male{{SENDER_GENDER,select, female{A ajouté un commentaire}male{A ajouté un commentaire}other{A ajouté un commentaire}}}other{{SENDER_GENDER,select, female{A ajouté un commentaire}male{A ajouté un commentaire}other{A ajouté un commentaire}}}}</string>
     <string name="notify_comments_description_short_only_one_mention_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Vous a mentionnée}male{Vous a mentionnée}other{Vous a mentionnée}}}male{{SENDER_GENDER,select, female{Vous a mentionné}male{Vous a mentionné}other{Vous a mentionné}}}other{{SENDER_GENDER,select, female{Vous a mentionné}male{Vous a mentionné}other{Vous a mentionné}}}}</string>
-    <string name="notify_comments_description_short_only_one_reassign_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A réattribué une tâche à {ASSIGNEE}}male{A réattribué une tâche à {ASSIGNEE}}other{A réattribué une tâche à {ASSIGNEE}}}}male{{SENDER_GENDER,select, female{A réattribué une tâche à {ASSIGNEE}}male{A réattribué une tâche à {ASSIGNEE}}other{A réattribué une tâche à {ASSIGNEE}}}}other{{SENDER_GENDER,select, female{A réattribué une tâche à {ASSIGNEE}}male{A réattribué une tâche à {ASSIGNEE}}other{A réattribué une tâche à {ASSIGNEE}}}}}</string>
-    <string name="notify_comments_description_short_only_one_reassign_to_you_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Vous a réattribué une tâche}male{Vous a réattribué une tâche}other{Vous a réattribué une tâche}}}male{{SENDER_GENDER,select, female{Vous a réattribué une tâche}male{Vous a réattribué une tâche}other{Vous a réattribué une tâche}}}other{{SENDER_GENDER,select, female{Vous a réattribué une tâche}male{Vous a réattribué une tâche}other{Vous a réattribué une tâche}}}}</string>
     <string name="notify_comments_description_short_only_one_suggestion_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A suggéré une modification}male{A suggéré une modification}other{A suggéré une modification}}}male{{SENDER_GENDER,select, female{A suggéré une modification}male{A suggéré une modification}other{A suggéré une modification}}}other{{SENDER_GENDER,select, female{A suggéré une modification}male{A suggéré une modification}other{A suggéré une modification}}}}</string>
     <string name="notify_comments_reply_text_icu">{RECIPIENT_GENDER,select, female{{OTHER_POSTER_COUNT_1,plural, =0{En réponse à {POSTER_NAME}}=1{En réponse à {POSTER_NAME} et à une autre personne}one{En réponse à {POSTER_NAME} et à {OTHER_POSTER_COUNT_2} autre personne}other{En réponse à {POSTER_NAME} et à {OTHER_POSTER_COUNT_2} autres personnes}}}male{{OTHER_POSTER_COUNT_1,plural, =0{En réponse à {POSTER_NAME}}=1{En réponse à {POSTER_NAME} et à une autre personne}one{En réponse à {POSTER_NAME} et à {OTHER_POSTER_COUNT_2} autre personne}other{En réponse à {POSTER_NAME} et à {OTHER_POSTER_COUNT_2} autres personnes}}}other{{OTHER_POSTER_COUNT_1,plural, =0{En réponse à {POSTER_NAME}}=1{En réponse à {POSTER_NAME} et à une autre personne}one{En réponse à {POSTER_NAME} et à {OTHER_POSTER_COUNT_2} autre personne}other{En réponse à {POSTER_NAME} et à {OTHER_POSTER_COUNT_2} autres personnes}}}}</string>
     <string name="notify_description_role_comment_request_icu">"{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A demandé une autorisation d'ajout de commentaire}male{A demandé une autorisation d'ajout de commentaire}other{A demandé une autorisation d'ajout de commentaire}}}male{{SENDER_GENDER,select, female{A demandé une autorisation d'ajout de commentaire}male{A demandé une autorisation d'ajout de commentaire}other{A demandé une autorisation d'ajout de commentaire}}}other{{SENDER_GENDER,select, female{A demandé une autorisation d'ajout de commentaire}male{A demandé une autorisation d'ajout de commentaire}other{A demandé une autorisation d'ajout de commentaire}}}}"</string>
@@ -915,16 +819,6 @@ Il sera de nouveau partagé dans le dossier %3$s."</string>
     <string name="notify_description_role_generic_access_request_icu">"{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A demandé l'accès}male{A demandé l'accès}other{A demandé l'accès}}}male{{SENDER_GENDER,select, female{A demandé l'accès}male{A demandé l'accès}other{A demandé l'accès}}}other{{SENDER_GENDER,select, female{A demandé l'accès}male{A demandé l'accès}other{A demandé l'accès}}}}"</string>
     <string name="notify_description_role_own_request_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A demandé les droits de propriété}male{A demandé les droits de propriété}other{A demandé les droits de propriété}}}male{{SENDER_GENDER,select, female{A demandé les droits de propriété}male{A demandé les droits de propriété}other{A demandé les droits de propriété}}}other{{SENDER_GENDER,select, female{A demandé les droits de propriété}male{A demandé les droits de propriété}other{A demandé les droits de propriété}}}}</string>
     <string name="notify_description_role_view_request_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A demandé une autorisation de consultation}male{A demandé une autorisation de consultation}other{A demandé une autorisation de consultation}}}male{{SENDER_GENDER,select, female{A demandé une autorisation de consultation}male{A demandé une autorisation de consultation}other{A demandé une autorisation de consultation}}}other{{SENDER_GENDER,select, female{A demandé une autorisation de consultation}male{A demandé une autorisation de consultation}other{A demandé une autorisation de consultation}}}}</string>
-    <string name="notify_drive_storage_expired_icu">{RECIPIENT_GENDER,select, female{Espace de stockage Drive arrivé à expiration}male{Espace de stockage Drive arrivé à expiration}other{Espace de stockage Drive arrivé à expiration}}</string>
-    <string name="notify_drive_storage_expires_friday">"{RECIPIENT_GENDER,select, female{L'espace de stockage Drive expire vendredi}male{L'espace de stockage Drive expire vendredi}other{L'espace de stockage Drive expire vendredi}}"</string>
-    <string name="notify_drive_storage_expires_monday">"{RECIPIENT_GENDER,select, female{L'espace de stockage Drive expire lundi}male{L'espace de stockage Drive expire lundi}other{L'espace de stockage Drive expire lundi}}"</string>
-    <string name="notify_drive_storage_expires_saturday">"{RECIPIENT_GENDER,select, female{L'espace de stockage Drive expire samedi}male{L'espace de stockage Drive expire samedi}other{L'espace de stockage Drive expire samedi}}"</string>
-    <string name="notify_drive_storage_expires_soon">"{RECIPIENT_GENDER,select, female{L'espace de stockage Drive expire bientôt}male{L'espace de stockage Drive expire bientôt}other{L'espace de stockage Drive expire bientôt}}"</string>
-    <string name="notify_drive_storage_expires_sunday">"{RECIPIENT_GENDER,select, female{L'espace de stockage Drive expire dimanche}male{L'espace de stockage Drive expire dimanche}other{L'espace de stockage Drive expire dimanche}}"</string>
-    <string name="notify_drive_storage_expires_thursday">"{RECIPIENT_GENDER,select, female{L'espace de stockage Drive expire jeudi}male{L'espace de stockage Drive expire jeudi}other{L'espace de stockage Drive expire jeudi}}"</string>
-    <string name="notify_drive_storage_expires_tuesday">"{RECIPIENT_GENDER,select, female{L'espace de stockage Drive expire mardi}male{L'espace de stockage Drive expire mardi}other{L'espace de stockage Drive expire mardi}}"</string>
-    <string name="notify_drive_storage_expires_wednesday">"{RECIPIENT_GENDER,select, female{L'espace de stockage Drive expire mercredi}male{L'espace de stockage Drive expire mercredi}other{L'espace de stockage Drive expire mercredi}}"</string>
-    <string name="notify_drive_storage_expiring_today_icu">"{RECIPIENT_GENDER,select, female{L'espace de stockage Drive expire aujourd'hui}male{L'espace de stockage Drive expire aujourd'hui}other{L'espace de stockage Drive expire aujourd'hui}}"</string>
     <string name="notify_heading_anonymous_user">Anonyme</string>
     <string name="notify_heading_icu">{NUM_SENDERS,plural,offset:1 =1{{FIRST_SENDER_DISPLAY_NAME}}=2{{FIRST_SENDER_DISPLAY_NAME} et {SECOND_SENDER}}one{{FIRST_SENDER_DISPLAY_NAME} et {XXX} autre personne}other{{FIRST_SENDER_DISPLAY_NAME} et {XXX} autres personnes}}</string>
     <string name="notify_heading_many_people">"%1$s et beaucoup d'autres personnes"</string>
@@ -967,15 +861,10 @@ Il sera de nouveau partagé dans le dossier %3$s."</string>
     <string name="notify_sharing_description_one_folder_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A partagé un dossier avec vous}male{A partagé un dossier avec vous}other{A partagé un dossier avec vous}}}male{{SENDER_GENDER,select, female{A partagé un dossier avec vous}male{A partagé un dossier avec vous}other{A partagé un dossier avec vous}}}other{{SENDER_GENDER,select, female{A partagé un dossier avec vous}male{A partagé un dossier avec vous}other{A partagé un dossier avec vous}}}}</string>
     <string name="notify_sharing_description_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{A partagé \"{ITEM_TITLE}\" avec vous}male{A partagé \"{ITEM_TITLE}\" avec vous}other{A partagé \"{ITEM_TITLE}\" avec vous}}}male{{SENDER_GENDER,select, female{A partagé \"{ITEM_TITLE}\" avec vous}male{A partagé \"{ITEM_TITLE}\" avec vous}other{A partagé \"{ITEM_TITLE}\" avec vous}}}other{{SENDER_GENDER,select, female{A partagé \"{ITEM_TITLE}\" avec vous}male{A partagé \"{ITEM_TITLE}\" avec vous}other{A partagé \"{ITEM_TITLE}\" avec vous}}}}</string>
     <string name="notify_unknown_document_title">Document inconnu</string>
-    <string name="open_calendar">OUVRIR GOOGLE AGENDA</string>
-    <string name="open_contacts">OUVRIR GOOGLE CONTACTS</string>
     <string name="open_document_error_item_cannot_be_exported">Téléchargement impossible, ouverture en mode Web…</string>
     <string name="open_document_error_no_viewer_app_found">"Aucune des applications installées ne permet d'afficher le fichier. Ouverture en mode Web…"</string>
     <string name="open_document_in_browser">Ouvrir ds navigateur</string>
-    <string name="open_folder_removed">Impossible de consulter dossier ouvert.</string>
-    <string name="open_folder_trashed">%1$s a été placé dans la corbeille.</string>
     <string name="open_online_button">ouvrir en ligne</string>
-    <string name="open_photos">OUVRIR GOOGLE PHOTOS</string>
     <string name="open_pinned_version">Ouvrir sur appareil</string>
     <string name="open_url_authentication_error">"Impossible d'accéder au document. Erreur lors de l'authentification."</string>
     <string name="open_url_error_access_denied">"Impossible d'ouvrir cet élément : il n'est plus disponible ou vos autorisations sont insuffisantes."</string>
@@ -993,7 +882,6 @@ Il sera de nouveau partagé dans le dossier %3$s."</string>
     <string name="operation_sync_network_error">Erreur réseau. Veuillez réessayer ultérieurement.</string>
     <string name="organize_introduction_header">Faites glisser les éléments pour les déplacer.</string>
     <string name="organize_introduction_text">"Faites glisser la collection d'éléments sélectionnés ci-dessous vers le dossier souhaité afin de déplacer les éléments. Balayez la collection pour désélectionner les éléments."</string>
-    <string name="other_backups">Autres appareils</string>
     <string name="ouch_button_close">Fermer</string>
     <string name="ouch_button_report">Signaler</string>
     <string name="ouch_msg_sync_error">"Erreur Google Drive : certaines données risquent de ne pas être synchronisées. En signalant l'erreur, vous nous aidez à améliorer le produit."</string>
@@ -1021,9 +909,6 @@ tous vos fichiers"</string>
     <string name="phonesky_installation_failure_alert_dialog_title">"Échec de l'installation"</string>
     <string name="phonesky_no_internet_connection_alert_dialog_message">"Votre appareil n'est pas connecté à Internet. Veuillez réessayer ultérieurement."</string>
     <string name="phonesky_no_internet_connection_alert_dialog_title">Non connecté</string>
-    <string name="photos_and_videos">Photos et vidéos</string>
-    <string name="photos_and_videos_footer_text">Synchronisées avec Google Photos</string>
-    <string name="photos_and_videos_message">Les photos et les vidéos sont synchronisées entre tous les appareils via Google Photos.</string>
     <string name="pick_entry_create_new_folder">Créer un dossier</string>
     <string name="pick_entry_current_folder">Dossier actuel : %1s</string>
     <string name="pick_entry_dialog_title">Choisir un élément</string>
@@ -1053,21 +938,20 @@ tous vos fichiers"</string>
     <string name="pin_warning_external_storage_not_ready">Le document est marqué pour le mode hors connexion, mais ne sera pas téléchargé tant que le support de stockage externe ne sera pas prêt.</string>
     <string name="pin_warning_external_storage_not_ready_ok">OK</string>
     <string name="pinned_item_unavailable_dialog_message">Le fichier deviendra disponible hors connexion la prochaine fois que vous vous connecterez à Internet.</string>
-    <string name="pinned_item_unavailable_dialog_title">"Impossible d'accéder à %1$s"</string>
+    <string name="pinned_item_unavailable_dialog_title">"Impossible d'accéder à %s"</string>
     <string name="plus_photo_all_set">Tout est prêt ! Vos photos et vos vidéos sont en cours de sauvegarde.</string>
     <string name="plus_photo_item_remove_dialog_confirm_button">Supprimer partout</string>
     <string name="plus_photo_item_remove_dialog_title">Supprimer</string>
-    <string name="plus_photo_item_remove_items_dialog_text_single">%1$s sera placé dans la corbeille. Il sera également supprimé de Google Photos.</string>
+    <string name="plus_photo_item_remove_items_dialog_text_single">%s sera placé dans la corbeille. Il sera également supprimé de Google Photos.</string>
     <string name="policy_privacy">Confidentialité</string>
+    <string name="policy_privacy_local_url_format_string">http://www.google.com/intl/%1$s/policies/privacy/</string>
     <string name="policy_terms">"Cond. d'utilis."</string>
+    <string name="policy_terms_local_url_format_string">http://www.google.com/intl/%1$s/policies/terms/</string>
     <string name="pref_auto_backup_referral">Pour activer la sauvegarde automatique, installez Google Photos.</string>
     <string name="preferences_license_summary">Informations sur les licences des logiciels Open Source</string>
     <string name="preferences_license_title">Licences Open Source</string>
     <string name="prefs_about_category_title">À propos</string>
     <string name="prefs_abuse_program_policies">Règlement du programme</string>
-    <string name="prefs_apps_predict_carousel_category">Accès rapide</string>
-    <string name="prefs_apps_predict_carousel_enabled_setting">"Activer l'accès rapide"</string>
-    <string name="prefs_apps_predict_carousel_enabled_summary">Obtenez des suggestions pour les fichiers que vous souhaitez ouvrir. Ajoute une section en haut de Mon Drive.</string>
     <string name="prefs_apps_predict_category">Suggestions contenu</string>
     <string name="prefs_apps_predict_show_suggestions">Afficher les suggestions de contenu</string>
     <string name="prefs_apps_predict_show_suggestions_summary">Suggérer automatiquement les contenus pertinents disponibles</string>
@@ -1081,7 +965,6 @@ tous vos fichiers"</string>
     <string name="prefs_cache_size">Taille du cache</string>
     <string name="prefs_cache_size_choice_format_string">%1$d Mo</string>
     <string name="prefs_cache_size_summary_format_string">La taille du cache est de %1$s Mo.</string>
-    <string name="prefs_category_content_description">Section, %1$s</string>
     <string name="prefs_change_error">Impossible de modifier le paramètre. Réessayez ultérieurement.</string>
     <string name="prefs_clear_cache_summary">Supprimer tous les documents du cache</string>
     <string name="prefs_data_usage_category">Consommation des données</string>
@@ -1101,7 +984,6 @@ tous vos fichiers"</string>
     <string name="prefs_notification_email_notification">Envoyer les notifications par e-mail</string>
     <string name="prefs_notification_email_notification_offline">Non disponible hors connexion</string>
     <string name="prefs_notification_email_notification_save_error">"Échec de l'enregistrement du paramètre"</string>
-    <string name="prefs_notification_email_notification_summary">Les messages relatifs au compte continueront à être envoyés.</string>
     <string name="prefs_notification_enable">Afficher les notifications</string>
     <string name="prefs_notification_enable_summary">"Afficher les notifications relatives à Google Drive, Docs, Sheets, et Slides pour l'adresse %1$s"</string>
     <string name="prefs_notification_other_settings_subheading">Autres paramètres</string>
@@ -1118,37 +1000,29 @@ tous vos fichiers"</string>
     <string name="prefs_sync_over_wifi_only_summary">"L'importation et la mise à jour des fichiers seront suspendues si la connexion Wi-Fi est perdue."</string>
     <string name="prefs_sync_over_wifi_only_title">Transferts uniquement en Wi-Fi</string>
     <string name="prefs_title">Paramètres</string>
-    <string name="preselection_reason">Récemment consulté par vous</string>
-    <string name="preselection_reason_recently_modified">Modifié récemment</string>
-    <string name="preselection_reason_recently_modified_by_me">Modifié récemment par moi</string>
-    <string name="preselection_reason_recently_opened_by_me">Ouvert récemment par moi</string>
-    <string name="preselection_reason_recently_uploaded_by_me">Importé récemment par moi</string>
     <string name="preview_click_to_open">Appuyer ici pour ouvrir</string>
     <string name="preview_document_available_in_docs_app">"Ce fichier est disponible dans l'application Docs."</string>
     <string name="preview_document_available_in_sheets_app">Ce fichier est disponible dans Sheets.</string>
     <string name="preview_open_in_docs_app_description">"Appuyer ici pour ouvrir ce fichier dans l'application Docs"</string>
     <string name="preview_open_in_sheets_app_description">"Appuyer ici pour ouvrir ce fichier dans l'application Sheets"</string>
-    <string name="pride_query_toast_message">Fêtez la marche des fiertés et de la diversité avec Google. Utilisez #prideforeveryone sur les réseaux sociaux.</string>
     <string name="print_cancelled">"Tâche d'impression annulée."</string>
     <string name="print_error">"Impossible d'accéder à Google Cloud Print pour le moment. Veuillez réessayer ultérieurement."</string>
     <string name="print_failure">"Échec de l'impression du document."</string>
-    <string name="prioritydocs_entrypoint_label">Suivi</string>
-    <string name="prioritydocs_promo_bodycopy">"Pour voir les éléments à suivre, installez l'application %1$s."</string>
-    <string name="prioritydocs_promo_headline">"Installer l'application %1$s ?"</string>
-    <string name="prioritydocs_promo_negative">NON, MERCI</string>
-    <string name="prioritydocs_promo_positive">INSTALLER</string>
+    <string name="prioritydocs_entrypoint_label">À faire</string>
     <string name="problem_with_file">Problème de fichier.</string>
     <string name="promo_button">OK</string>
-    <string name="promo_text1">"Enregistrez ce contenu dans Google Drive, l'espace sécurisé dans lequel vous pouvez stocker gratuitement 15 Go de documents et de photos pour y accéder sur tous vos appareils."</string>
-    <string name="promo_title">Conserver une copie de ce fichier</string>
+    <string name="promo_text1">"Sauvegardez tous vos fichiers PDF dans Google Drive. Vous pouvez y accéder partout, sur n'importe quel appareil."</string>
+    <string name="promo_title">Enregistrez des fichiers PDF dans Google Drive</string>
     <string name="punctuation_period">.</string>
     <string name="purchase_dialog_how_storage_used">"L'espace de stockage est partagé entre Gmail, Google Photos et Google Drive."</string>
-    <string name="purchase_dialog_manage">"Gérer l'espace de stockage"</string>
-    <string name="purchase_dialog_terms_service">En choisissant un forfait de stockage, vous acceptez les %1$s.</string>
+    <string name="purchase_dialog_learn_more">En savoir plus</string>
+    <string name="purchase_dialog_more">Autres forfaits de stockage</string>
+    <string name="purchase_dialog_terms_service">En choisissant un forfait de stockage et en cliquant sur \"Acheter\", vous acceptez les %1$s.</string>
     <string name="purchase_dialog_title">Forfaits de stockage Google Drive</string>
     <string name="purchase_error">Un problème est survenu.</string>
     <string name="purchase_error_connect">Connexion impossible</string>
     <string name="purchase_per_month">%1$s par mois</string>
+    <string name="purchase_success">Le forfait a bien été souscrit.</string>
     <string name="quota_cannot_determine">impossible à déterminer</string>
     <string name="quota_range_large">De 10 Mo à 100 Mo</string>
     <string name="quota_range_larger">De 100 Mo à 1 Go</string>
@@ -1161,26 +1035,26 @@ tous vos fichiers"</string>
     <string name="recent_activity_button_show_more_files">Voir plus…</string>
     <string name="recent_activity_card_title">Activité</string>
     <string name="recent_activity_empty">Aucune activité enregistrée</string>
-    <string name="recent_activity_end">Aucune activité enregistrée avant le %1$s</string>
+    <string name="recent_activity_end">Aucune activité enregistrée avant le %s</string>
     <string name="recent_activity_failed">"L'activité n'a pas pu être chargée. Veuillez réessayer plus tard."</string>
     <string name="recent_activity_rename_titles_accessibility">Fichier renommé. Ancien nom : %1$s. Nouveau nom : %2$s</string>
-    <string name="recent_activity_users_two">%1$s et %2$s</string>
+    <string name="recent_activity_users_two" formatted="false">%s et %s</string>
+    <string name="remove_button_confirm">Supprimer</string>
+    <string name="remove_collection">Supprimer le dossier</string>
     <string name="remove_dialog_confirm_delete_button">Supprimer</string>
-    <string name="remove_dialog_confirm_delete_for_everyone_button">Supprimer pour tous</string>
-    <string name="remove_dialog_delete_different_permissions_files">"Vous ne disposez pas des mêmes autorisations pour tous ces fichiers. Certains seront placés dans la corbeille et supprimés au bout de 30 jours, tandis que d'autres seront supprimés directement."</string>
-    <string name="remove_dialog_delete_different_permissions_folders">"Vous ne disposez pas des mêmes autorisations pour tous ces dossiers. Certains seront placés dans la corbeille et supprimés au bout de 30 jours, tandis que d'autres seront supprimés directement."</string>
-    <string name="remove_dialog_delete_different_permissions_items">"Vous ne disposez pas des mêmes autorisations pour tous ces éléments. Certains seront placés dans la corbeille et supprimés au bout de 30 jours, tandis que d'autres seront supprimés directement."</string>
-    <string name="remove_dialog_delete_different_permissions_title">Seuls certains éléments seront supprimés</string>
-    <string name="remove_dialog_delete_for_everyone_title">Supprimer pour tous les utilisateurs ?</string>
-    <string name="remove_parent_confirmation">Les autres ne verront plus %1$s dans le dossier partagé %2$s.</string>
-    <string name="remove_parent_not_allowed">"Vous n'êtes pas autorisé à supprimer %1$s du dossier partagé %2$s."</string>
-    <string name="removed_parent_message">%1$s a été supprimé de %2$s.</string>
+    <string name="remove_dialog_delete_permanently_text_single">Voulez-vous vraiment supprimer définitivement %s ? Vous ne pourrez pas annuler cette action.</string>
+    <string name="remove_dialog_delete_permanently_title">Supprimer définitivement</string>
+    <string name="remove_document">Supprimer le fichier</string>
+    <string name="remove_parent_confirmation" formatted="false">Les autres ne verront plus %s dans le dossier partagé %s.</string>
+    <string name="remove_parent_not_allowed" formatted="false">"Vous n'êtes pas autorisé à supprimer %s du dossier partagé %s."</string>
+    <string name="removed_parent_message" formatted="false">%s a été supprimé de %s.</string>
     <string name="rename_collection">Renommer le dossier</string>
     <string name="rename_document">Renommer le document</string>
     <string name="rename_drawing">Renommer le dessin</string>
     <string name="rename_file">Renommer le fichier</string>
     <string name="rename_presentation">Renommer la présentation</string>
     <string name="rename_spreadsheet">Renommer la feuille de calcul</string>
+    <string name="reply_email_subject">"Re : Votre demande d'accès"</string>
     <string name="report_abuse_title">"Rapport d'utilisation abusive"</string>
     <string name="request_access">"Demander l'accès"</string>
     <string name="request_access_message">"Le propriétaire recevra une notification par e-mail au sujet de la demande d'accès."</string>
@@ -1190,21 +1064,16 @@ tous vos fichiers"</string>
     <string name="retry_button_text">réessayer</string>
     <string name="scan_shortcut_failed_folder_deleted">Dossier : %1$s a été supprimé.</string>
     <string name="scan_shortcut_failed_folder_trashed">Le dossier \"%1$s\" se trouve dans la corbeille. Avant de numériser le document, restaurez le dossier.</string>
-    <string name="scan_task_title">Numérisation dans Drive</string>
     <string name="search_description">Google Drive</string>
     <string name="search_hint">Rechercher dans Mon Drive</string>
     <string name="search_hint_short">Rechercher</string>
-    <string name="search_menu_title">Rechercher</string>
     <string name="search_showing_local_results_only">Recherche impossible. Seuls les titres figurent dans les résultats.</string>
     <string name="search_showing_local_results_only_offline">Seuls les titres figurent dans les résultats. Pour en voir plus, connectez-vous.</string>
     <string name="select_account">Sélectionner un compte</string>
     <string name="select_folder_color">Couleur du dossier</string>
-    <string name="select_team_drive_desc">"Sélectionner un Drive d'équipe"</string>
-    <string name="select_team_drive_title">"Sélectionner un Drive d'équipe"</string>
     <string name="selected_account">Connecté au compte \"%1$s\"</string>
     <string name="selection_action_bar_drop_to_current_folder_header">Déplacer dans</string>
     <string name="selection_action_bar_drop_to_current_folder_header_as_add">Ajouter à</string>
-    <string name="selection_cannot_move_into_self">"Impossible de déplacer l'élément vers lui-même."</string>
     <string name="selection_item_select_button">Sélectionner %1$s %2$s</string>
     <string name="selection_item_unselect_button">Désélectionner %1$s %2$s</string>
     <string name="selection_limit_reached">"Certains éléments n'ont pas été sélectionnés. Le nombre maximal d'éléments sélectionnés a été atteint."</string>
@@ -1274,10 +1143,8 @@ tous vos fichiers"</string>
     <string name="sharing_list_updated">Les paramètres de partage ont bien été mis à jour.</string>
     <string name="sharing_message_add_users_one">%1$s a été partagé avec %2$s.</string>
     <string name="sharing_message_add_users_two">%1$s a été partagé avec %2$s et %3$s.</string>
-    <string name="sharing_message_remove">%s retiré du fichier</string>
-    <string name="sharing_message_remove_td">"%s retiré du Drive d'équipe"</string>
+    <string name="sharing_message_remove">%s a été retiré du fichier.</string>
     <string name="sharing_message_saved">Paramètres de partage enregistrés. Actualisation de la liste de partage.</string>
-    <string name="sharing_message_saved_td">Liste des membres de %s modifiée</string>
     <string name="sharing_message_title">Envoyer un message</string>
     <string name="sharing_message_unable_to_change">Impossible de modifier les paramètres de partage.</string>
     <string name="sharing_offline">Partage impossible en mode hors connexion.</string>
@@ -1286,16 +1153,16 @@ tous vos fichiers"</string>
     <string name="sharing_option_anyone_can_contribute">Tout le monde : organiser, ajouter et modifier</string>
     <string name="sharing_option_anyone_can_edit">Modifications autorisées pour tous</string>
     <string name="sharing_option_anyone_can_view">Consultation autorisée pour tous</string>
-    <string name="sharing_option_anyone_from">Recherche et accès autorisés pour les utilisateurs de %1$s</string>
-    <string name="sharing_option_anyone_from_can_comment">Recherche/commentaires autorisés pour les utilisateurs de %1$s</string>
-    <string name="sharing_option_anyone_from_can_contribute">Tous les utilisateurs de %1$s peuvent chercher et contribuer</string>
-    <string name="sharing_option_anyone_from_can_edit">Recherche/modification autorisées pour les utilisateurs de %1$s</string>
-    <string name="sharing_option_anyone_from_can_view">Recherche et affichage autorisés pour les utilisateurs de %1$s</string>
-    <string name="sharing_option_anyone_from_with_link">Utilisateurs de %1$s disposant du lien</string>
-    <string name="sharing_option_anyone_from_with_link_can_comment">Utilisateurs de %1$s ayant le lien : commentaires autorisés</string>
-    <string name="sharing_option_anyone_from_with_link_can_contribute">Utilisateurs de %1$s avec le lien : organiser, ajouter, modifier</string>
-    <string name="sharing_option_anyone_from_with_link_can_edit">Utilisateurs de %1$s ayant le lien : modification autorisée</string>
-    <string name="sharing_option_anyone_from_with_link_can_view">Utilisateurs de %1$s ayant le lien : affichage autorisé</string>
+    <string name="sharing_option_anyone_from">Recherche et accès autorisés pour les utilisateurs de %s</string>
+    <string name="sharing_option_anyone_from_can_comment">Recherche/commentaires autorisés pour les utilisateurs de %s</string>
+    <string name="sharing_option_anyone_from_can_contribute">Tous les utilisateurs de %s peuvent chercher et contribuer</string>
+    <string name="sharing_option_anyone_from_can_edit">Recherche/modification autorisées pour les utilisateurs de %s</string>
+    <string name="sharing_option_anyone_from_can_view">Recherche et affichage autorisés pour les utilisateurs de %s</string>
+    <string name="sharing_option_anyone_from_with_link">Utilisateurs de %s disposant du lien</string>
+    <string name="sharing_option_anyone_from_with_link_can_comment">Utilisateurs de %s ayant le lien : commentaires autorisés</string>
+    <string name="sharing_option_anyone_from_with_link_can_contribute">Utilisateurs de %s avec le lien : organiser, ajouter, modifier</string>
+    <string name="sharing_option_anyone_from_with_link_can_edit">Utilisateurs de %s ayant le lien : modification autorisée</string>
+    <string name="sharing_option_anyone_from_with_link_can_view">Utilisateurs de %s ayant le lien : affichage autorisé</string>
     <string name="sharing_option_anyone_with_link">Tous les utilisateurs disposant du lien</string>
     <string name="sharing_option_anyone_with_link_can_comment">Commentaires autorisés pour toute personne disposant du lien</string>
     <string name="sharing_option_anyone_with_link_can_contribute">Utilisateurs ayant le lien : organiser, ajouter, modifier</string>
@@ -1306,7 +1173,7 @@ tous vos fichiers"</string>
     <string name="sharing_option_private_no_collaborators">Privé (vous seul pouvez y accéder)</string>
     <string name="sharing_option_specific_people">Partagé avec certaines personnes</string>
     <string name="sharing_option_unknown">Mode de partage inconnu</string>
-    <string name="sharing_progress_loading_message">Chargement des informations de partage.</string>
+    <string name="sharing_progress_loading_message">Chargement des informations de partage</string>
     <string name="sharing_progress_saving_message">Enregistrement des informations de partage</string>
     <string name="sharing_role_commenter">Commentaire autorisé</string>
     <string name="sharing_role_content_description">Bouton %1$s pour %2$s</string>
@@ -1316,38 +1183,13 @@ tous vos fichiers"</string>
     <string name="sharing_role_reader">Consultation autorisée</string>
     <string name="sharing_role_unknown">Accès inconnu</string>
     <string name="sharing_role_writer">Modification autorisée</string>
-    <string name="sharing_server_error_generic_all">Impossible de partager cet élément.</string>
-    <string name="sharing_server_error_more">Impossible de partager cet élément avec %1$s.</string>
-    <string name="sharing_server_error_one">Impossible de partager cet élément avec %1$s.</string>
-    <string name="sharing_server_error_partial_summary">Non partagé avec tous les utilisateurs</string>
-    <string name="sharing_server_error_restricted_all">Impossible de partager cet élément, car il comporte des contenus soumis à des restrictions.</string>
-    <string name="sharing_server_error_restricted_more">Cet élément comporte des contenus soumis à des restrictions et ne peut pas être partagé avec %1$s, car ils ne font pas partie de votre organisation.</string>
-    <string name="sharing_server_error_restricted_one">Cet élément comporte des contenus soumis à des restrictions et ne peut pas être partagé avec %1$s, car il ne fait pas partie de votre organisation.</string>
-    <string name="sharing_server_error_restricted_three">Cet élément comporte des contenus soumis à des restrictions et ne peut pas être partagé avec %1$s, %2$s et %3$s, car ils ne font pas partie de votre organisation.</string>
-    <string name="sharing_server_error_restricted_two">Cet élément comporte des contenus soumis à des restrictions et ne peut pas être partagé avec %1$s et %2$s, car ils ne font pas partie de votre organisation.</string>
-    <string name="sharing_server_error_summary">Vous ne pouvez pas partager cet élément</string>
-    <string name="sharing_server_error_three">Impossible de partager cet élément avec %1$s, %2$s et %3$s.</string>
-    <string name="sharing_server_error_two">Impossible de partager cet élément avec %1$s et %2$s.</string>
-    <string name="sharing_server_success_more">%1$s a été partagé avec %2$s, car ces personnes font partie de votre organisation.</string>
-    <string name="sharing_server_success_one">%1$s a été partagé avec %2$s, car cette personne fait partie de votre organisation.</string>
-    <string name="sharing_server_success_three">%1$s a été partagé avec %2$s, %3$s et %4$s, car ces personnes font partie de votre organisation.</string>
-    <string name="sharing_server_success_two">%1$s a été partagé avec %2$s et %3$s, car ces personnes font partie de votre organisation.</string>
-    <string name="sharing_server_warning_more">"Voulez-vous vraiment partager l'élément avec %1$s ?"</string>
-    <string name="sharing_server_warning_one">"Voulez-vous vraiment partager l'élément avec %1$s ?"</string>
-    <string name="sharing_server_warning_summary">"Partager à l'extérieur de l'organisation ?"</string>
-    <string name="sharing_server_warning_three">"Voulez-vous vraiment partager l'élément avec %1$s, %2$s et %3$s ?"</string>
-    <string name="sharing_server_warning_two">"Voulez-vous vraiment partager l'élément avec %1$s et %2$s ?"</string>
     <string name="sharing_show_smartprofile_content_description">Ouvrir le profil Smart de %s</string>
     <string name="sharing_show_who_has_access">Qui a accès ? Appuyez ici pour gérer les collaborateurs.</string>
-    <string name="sharing_undo_role_failure">"Erreur. Échec de l'annulation."</string>
-    <string name="sharing_undo_role_success">Paramètres de partage rétablis.</string>
     <string name="shortcut_created">"Raccourci ajouté à l'écran d'accueil."</string>
     <string name="shortcut_creation_failed">Impossible de créer le raccourci</string>
     <string name="show_account_list">Afficher les comptes</string>
     <string name="sign_in">Se connecter</string>
     <string name="slider_title_all_items">Ts les éléments</string>
-    <string name="sms">SMS</string>
-    <string name="sms_message">Les sauvegardes incluent les messages (reçus et envoyés).</string>
     <string name="sorting_label_for_creation_time_shorten">Date de création</string>
     <string name="sorting_label_for_last_modified_shorten">Dernière modif.</string>
     <string name="sorting_label_for_modified_by_me_shorten">Modifié par moi</string>
@@ -1357,32 +1199,25 @@ tous vos fichiers"</string>
     <string name="sorting_order_ascending">Croissant</string>
     <string name="sorting_order_descending">Décroissant</string>
     <string name="status_bar_notification_info_overflow">>999</string>
-    <string name="storage_info">"Cette sauvegarde n'est pas comptée sur votre espace de stockage Drive."</string>
     <string name="storage_upgrade">"Acheter plus d'espace de stockage"</string>
-    <string name="storage_upgraded_help_card_content">"Vous serez facturé %1$s chaque mois pour %2$s d'espace de stockage, à partager entre Gmail, Google Drive et Google Photos. Vous pouvez à tout moment résilier ou modifier votre forfait. Vous devrez peut-être attendre jusqu'à 24 heures pour pouvoir bénéficier de votre nouvel espace de stockage."</string>
-    <string name="storage_upgraded_help_card_help_button">Aide</string>
-    <string name="storage_upgraded_help_card_title">Merci</string>
+    <string name="storage_upgraded_help_card_contact_button">Nous contacter</string>
+    <string name="storage_upgraded_help_card_content">"Vous disposez désormais de %1$s d'espace de stockage Google Drive. Grâce à cet achat, vous bénéficiez aussi d'un accès prioritaire à l'assistance par téléphone, e-mail et chat. En cas de question, vous pouvez nous contacter à tout moment."</string>
+    <string name="storage_upgraded_help_card_title">Profitez bien de tout cet espace !</string>
     <string name="storage_used">%1$s sur %2$s utilisés</string>
     <string name="storage_used_unlimited">%1$s utilisés</string>
     <string name="suggest_pin_dialog_message">"Ce fichier n'est pas disponible en mode hors connexion. Voulez-vous qu'il le devienne ?"</string>
     <string name="suggest_pin_dialog_negative_button">Non merci</string>
     <string name="suggest_pin_dialog_positive_button">Rendre dispo hors connexion</string>
     <string name="suggest_pin_dialog_title">Aucune connexion</string>
-    <string name="switch_account_help_card_button">CHANGER DE COMPTE</string>
-    <string name="switch_account_help_card_content">Les données de cet appareil sont sauvegardées dans un autre compte : %s</string>
-    <string name="switch_account_help_card_title">Sauvegarde dans un autre compte</string>
     <string name="switch_backup_account">CHANGER DE COMPTE DANS LES PARAMÈTRES DE SAUVEGARDE</string>
     <string name="sync_failed">Erreur de synchronisation Google Drive.</string>
     <string name="sync_more">Afficher plus de résultats...</string>
     <string name="sync_more_error">"Erreur lors de la récupération d'éléments supplémentaires."</string>
     <string name="sync_more_error_offline">"Des documents peuvent ne pas être visibles si l'appareil est hors connexion."</string>
+    <string name="tap_to_retry">Appuyez ici pour réessayer.</string>
+    <string name="tap_to_view_who_has_access">Appuyez ici pour voir qui a accès à ce fichier.</string>
     <string name="targetviewintro_close_button">OK</string>
     <string name="td_downgrade_not_allowed">"Vous pouvez uniquement augmenter le niveau d'accès des membres d'une équipe Drive."</string>
-    <string name="td_members_access">%1$d membres</string>
-    <string name="td_sharing_message_add_users_one">%2$s ajouté(e) à %1$s</string>
-    <string name="td_sharing_message_add_users_two">%2$s et %3$s ajouté(e)s à %1$s</string>
-    <string name="team_drive_empty_list_message_can_create">"Un Drive d'équipe est un espace partagé qui vous permet de collaborer avec votre équipe. Personnalisez-le pour l'adapter aux besoins de votre équipe."</string>
-    <string name="team_drive_empty_list_message_cannot_create">"Un Drive d'équipe est un espace partagé qui vous permet de collaborer avec votre équipe. Les Drive d'équipe auxquels vous participez apparaissent ici."</string>
     <string name="thumbnail_open">Ouvrir</string>
     <string name="time_range_1_day">1 jour</string>
     <string name="time_range_days">%1$d jours</string>
@@ -1394,27 +1229,16 @@ tous vos fichiers"</string>
     <string name="title_send_intent">Envoyer le fichier %1$s via</string>
     <string name="title_show_files">%1$d sur %2$d</string>
     <string name="transfer_notification_waiting_content">En attente de connexion Wi-Fi</string>
+    <string name="trash_delete_forever_confirm">Supprimer définitiv.</string>
+    <string name="trash_delete_forever_question">Supprimer définitivement</string>
     <string name="trash_delete_forever_success">1 élément a été supprimé.</string>
-    <string name="turnoff_backup">Désactiver la sauvegarde</string>
-    <string name="turnoff_backup_confirm_button">Désactiver</string>
-    <string name="turnoff_backup_error_message">Impossible de désactiver la sauvegarde.</string>
-    <string name="turnoff_backup_progress_message">Désactivation de la sauvegarde</string>
-    <string name="turnoff_whatsapp_backup_confirmation_message">"Cela entraîne l'arrêt de la sauvegarde des discussions et des médias WhatsApp sur tous les appareils :
-
-%s
-Pour réactiver la sauvegarde, sélectionnez Paramètres > Discussions > Sauvegarde discussions dans WhatsApp."</string>
-    <string name="turnoff_whatsapp_backup_title">Désact. la sauveg. WhatsApp ?</string>
-    <string name="tutorial_upload_complete_body">Accédez-y où que vous soyez en vous connectant à Drive.</string>
-    <string name="tutorial_upload_complete_header">Vous avez ajouté un fichier à Drive.</string>
-    <string name="tutorial_upload_fab_hint_text">"Appuyez sur l'icône Plus pour importer dans Drive des fichiers stockés sur cet appareil et y accéder où que vous soyez."</string>
-    <string name="unable_to_preview">Impossible de prévisualiser le fichier.</string>
+    <string name="trash_delete_forever_warning">Cet élément sera définitivement supprimé de Drive. Cette action ne peut être annulée.</string>
     <string name="unified_actions_add_to_drive">Ajouter à Mon Drive</string>
     <string name="unified_link_sharing_is_off">Partage par lien désactivé</string>
     <string name="unified_link_sharing_is_on">Partage par lien activé</string>
     <string name="unknown_album">Album inconnu</string>
     <string name="unknown_artist">Artiste inconnu</string>
     <string name="unsupported_file">"Ce type de fichier n'est pas accepté."</string>
-    <string name="untitled_audio">Fichier audio sans titre</string>
     <string name="untrash_and_open_message">Pour accéder à %1$s, sortez cet élément de la corbeille.</string>
     <string name="untrash_and_open_not_allowed_message">"Le propriétaire de %1$s l'a mis à la corbeille."</string>
     <string name="untrash_and_open_positive_button">Ôter de la corbeille</string>
@@ -1433,7 +1257,6 @@ Pour réactiver la sauvegarde, sélectionnez Paramètres > Discussions > Sauvega
     <string name="upload_incomplete">Importation incomplète</string>
     <string name="upload_multiple_document_titles">Titre des documents</string>
     <string name="upload_notification_cancel_title">Importation annulée</string>
-    <string name="upload_notification_failure_folder">"Impossible d'importer un dossier"</string>
     <string name="upload_notification_failure_no_retry_title">"Échec de l'importation"</string>
     <string name="upload_notification_failure_ticker">Échec importation</string>
     <string name="upload_notification_more_files">+%1$d autres</string>
@@ -1478,14 +1301,6 @@ Pour réactiver la sauvegarde, sélectionnez Paramètres > Discussions > Sauvega
     <string name="welcome_title">Panneau de bienvenue Google Drive</string>
     <string name="welcome_title_announce">"Panneau d'annonce Google Drive"</string>
     <string name="welcome_title_highlights">"Panneau d'annonce Google Drive"</string>
-    <string name="whatsapp">WhatsApp</string>
-    <string name="whatsapp_message">"Vos discussions et vos médias (photos, vidéos, fichiers audio, documents, etc.) sont sauvegardés dans Google Drive. Si vous changez d'appareil, vous pouvez les restaurer lors de la réinstallation de WhatsApp."</string>
-    <string name="whatsapp_turned_off_message">"La sauvegarde est désactivée.
-Dernière sauvegarde : %s
-
-Vos discussions et vos médias (photos, vidéos, fichiers audio, documents, etc.) sont sauvegardés dans Google Drive. Si vous changez d'appareil, vous pouvez les restaurer lors de la réinstallation de WhatsApp.
-
-Pour réactiver la sauvegarde, appuyez sur Réglages > Discussions dans WhatsApp."</string>
     <string name="widget_account_missing">Compte introuvable. Vérifiez les paramètres du compte %1$s.</string>
     <string name="widget_configuration_missing">Erreur : configuration perdue. Veuillez retirer ce widget, puis le rajouter.</string>
     <string name="widget_initializing">Initialisation en cours…</string>
@@ -1508,7 +1323,6 @@ Pour réactiver la sauvegarde, appuyez sur Réglages > Discussions dans WhatsAp
     <string name="zss_remove_all_filters_button_content_description">Supprimer tous les filtres</string>
     <string name="zss_remove_filter_button_content_description">Supprimer le filtre : %1$s</string>
     <string name="zss_showing_list_of_filters">La liste des filtres disponibles est affichée.</string>
-    <string name="zss_team_drive">Rechercher dans %1$s</string>
     <string name="zss_type_archive">Archive</string>
     <string name="zss_type_audio">Fichiers audio</string>
     <string name="zss_type_documents">Documents texte</string>

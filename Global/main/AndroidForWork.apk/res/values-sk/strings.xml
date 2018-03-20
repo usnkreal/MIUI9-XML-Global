@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setup_wizard_next_button_label">Ďalej</string>
+    <string name="setup_wizard_back_button_label">Späť</string>
+    <string name="app_name">Android Work Assistant</string>
+    <string name="android_for_work_title">Nastavenie zariadenia</string>
+    <string name="corp_owned_explanation">Vaša organizácia ovláda vaše zariadenie a udržuje ho v bezpečí.</string>
+    <string name="set_up">Nastaviť</string>
+    <string name="email_hint">E-mailová adresa</string>
+    <string name="code_hint">Aktivačný kód</string>
+    <string name="dialog_activation_code_title">Aktivačný kód</string>
+    <string name="dialog_activation_code_main_text">Ak chcete nastaviť účet Android Work, musíte nainštalovať aplikáciu na správu schválenú vašou organizáciou. Na inštaláciu tejto aplikácie budete potrebovať aktivačný kód. Obráťte sa na oddelenie IT, ktoré vám kód poskytne.</string>
+    <string name="dialog_close">Zavrieť</string>
+    <string name="dialog_cancel">Zrušiť</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_try_again">Skúsiť znova</string>
+    <string name="error_dialog_mdm_lookup_failed">Informácie o vašej organizácii sa nepodarilo sa načítať. Skontrolujte internetové pripojenie a skúste to znova.</string>
+    <string name="error_dialog_cert_hash_mismatch">Aplikácia %1$ je už nainštalovaná. Odstráňte ju a skúste to znova.</string>
+    <string name="error_dialog_input_error">Vaša e-mailová adresa a aktivačný kód sa nezhodujú.Skontrolujte, či ste nespravili preklep, a skúste to znova.</string>
+    <string name="lookup_progress_text">Hľadá sa aplikácia na správu zariadenia...</string>
+</resources>

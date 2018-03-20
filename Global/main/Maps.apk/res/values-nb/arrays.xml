@@ -24,7 +24,13 @@
         <item>Dyrt</item>
         <item>Veldig dyrt</item>
     </string-array>
-    <array name="RESTRICTION_ALLOWED_PRICE_LEVEL_SHORT" />
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_SHORT">
+        <item>Alle priser</item>
+        <item>$</item>
+        <item>$$</item>
+        <item>$$$</item>
+        <item>$$$$</item>
+    </string-array>
     <string-array name="RESTRICTION_ALLOWED_STARS">
         <item>Alle</item>
         <item>2,0</item>
@@ -37,7 +43,12 @@
         <item>Tre eller flere stjerner</item>
         <item>Fire eller flere stjerner</item>
     </string-array>
-    <array name="RESTRICTION_ALLOWED_STARS_SHORT" />
+    <string-array name="RESTRICTION_ALLOWED_STARS_SHORT">
+        <item>Alle vurderinger</item>
+        <item>Vurdering 2+</item>
+        <item>Vurdering 3+</item>
+        <item>Vurdering 4+</item>
+    </string-array>
     <string-array name="RESTRICTION_HOTEL_CLASSES">
         <item>Alle</item>
         <item>3 stjerner</item>

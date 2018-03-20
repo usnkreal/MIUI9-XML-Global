@@ -111,10 +111,10 @@
         <item quantity="many">נמצאו %d יישומים</item>
     </plurals>
     <plurals name="network_restrict_count">
-        <item quantity="other">"הגישה לרשת מוגבלת עבור &lt;font color='#ff0000'>%d&lt;/font> יישומים"</item>
-        <item quantity="one">"הגישה לרשת מוגבלת עבור יישום &lt;font color='#ff0000'>%d&lt;/font>"</item>
-        <item quantity="two">"הגישה לרשת מוגבלת עבור &lt;font color='#ff0000'>%d&lt;/font> יישומים"</item>
-        <item quantity="many">"הגישה לרשת מוגבלת עבור &lt;font color='#ff0000'>%d&lt;/font> יישומים"</item>
+        <item quantity="other">"הגישה לרשת מוגבלת עבור &amp;lt;font color='#ff0000'>%d&amp;lt;/font> יישומים"</item>
+        <item quantity="one">"הגישה לרשת מוגבלת עבור יישום &amp;lt;font color='#ff0000'>%d&amp;lt;/font>"</item>
+        <item quantity="two">"הגישה לרשת מוגבלת עבור &amp;lt;font color='#ff0000'>%d&amp;lt;/font> יישומים"</item>
+        <item quantity="many">"הגישה לרשת מוגבלת עבור &amp;lt;font color='#ff0000'>%d&amp;lt;/font> יישומים"</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
         <item quantity="other">%d יישומים אינם עובדים באופן תקין וזוללים את הסוללה</item>

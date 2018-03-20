@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setup_wizard_next_button_label">Neste</string>
+    <string name="setup_wizard_back_button_label">Tilbake</string>
+    <string name="app_name">Android Work Assistant</string>
+    <string name="android_for_work_title">Konfigurer enheten din</string>
+    <string name="corp_owned_explanation">Organisasjonen kontrollerer enheten din og holder den sikker.</string>
+    <string name="set_up">Konfigurer</string>
+    <string name="email_hint">E-postadresse</string>
+    <string name="code_hint">Aktiveringskode</string>
+    <string name="dialog_activation_code_title">Aktiveringskode</string>
+    <string name="dialog_activation_code_main_text">Hvis du vil konfigurere Android Work-kontoen din, må du installere en administrasjonsapp som er godkjent av organisasjonen din. Du trenger en aktiveringskode for å installere appen. Kontakt IT-avdelingen din for å få koden.</string>
+    <string name="dialog_close">Lukk</string>
+    <string name="dialog_cancel">Avbryt</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_try_again">Prøv på nytt</string>
+    <string name="error_dialog_mdm_lookup_failed">Kunne ikke hente organisasjonens informasjon. Sjekk nettilkoblingen og prøv på nytt.</string>
+    <string name="error_dialog_cert_hash_mismatch">Appen %1$ er allerede installert. Fjern appen og prøv på nytt.</string>
+    <string name="error_dialog_input_error">E-postadressen og aktiveringskoden samsvarer ikke. Se etter skrivefeil og prøv igjen.</string>
+    <string name="lookup_progress_text">Finner administrasjonsappen for enheten ...</string>
+</resources>

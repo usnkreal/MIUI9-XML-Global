@@ -8,7 +8,6 @@
     <string name="label_paper_size">Papirstørrelse</string>
     <string name="label_paper_size_summary">Papirstørrelse:</string>
     <string name="label_color">Farge</string>
-    <string name="label_duplex">Tosidig</string>
     <string name="label_orientation">Retning</string>
     <string name="label_pages">Sider</string>
     <string name="template_all_pages">Alle %1$s</string>

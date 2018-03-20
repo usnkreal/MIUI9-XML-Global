@@ -65,7 +65,6 @@
         <item>Használat gyakorisága</item>
         <item>Felhasznált tárhely</item>
         <item>Telepítés ideje</item>
-        <item>Alkalmazások, amelyek eltávolíthatók</item>
     </string-array>
     <string-array name="sort_title">
         <item>Állapot szerinti rendezés</item>
@@ -73,7 +72,6 @@
         <item>Használat gyakorisága szerinti rendezés</item>
         <item>Felhasznált tárhely szerinti rendezés</item>
         <item>Telepítés ideje szerinti rendezés</item>
-        <item>Elsőként az eltávolítható alkalmazásokat jelenítse meg</item>
     </string-array>
     <string-array name="key_app_info">
         <item>install_source</item>

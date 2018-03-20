@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="notification_new_messages">
+        <item quantity="other">Nové správy</item>
+        <item quantity="one">Nová správa</item>
+    </plurals>
     <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
         <item quantity="other">Pozýva vás na hangout s niekoľkými ďalšími účastníkmi (%1$d)</item>
         <item quantity="one">Pozýva vás na hangout s %1$d ďalším účastníkom</item>
@@ -12,17 +16,9 @@
         <item quantity="other">s niekoľkými (%1$d) ďalšími</item>
         <item quantity="one">s %1$d ďalším</item>
     </plurals>
-    <plurals name="gallery_picker_max_image_count_reached_message">
-        <item quantity="other">Maximálny počet obrázkov, ktoré môžete vybrať ako prílohy, je %d.</item>
-        <item quantity="one">Môžete vybrať najviac 1 obrázok ako prílohu.</item>
-    </plurals>
-    <plurals name="gallery_picker_max_video_count_reached_message">
-        <item quantity="other">Maximálny počet videí, ktoré môžete vybrať ako prílohy, je %d.</item>
-        <item quantity="one">Môžete vybrať najviac 1 video ako prílohu.</item>
-    </plurals>
-    <plurals name="watermark_gallery_label">
-        <item quantity="other">Videli to %s</item>
-        <item quantity="one">Videl(a) to %s</item>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">Maximálny počet príloh, ktoré môžete vybrať, je %d</item>
+        <item quantity="one">Môžete vybrať najviac 1 prílohu.</item>
     </plurals>
     <plurals name="num_minutes_in_the_past">
         <item quantity="other">%d min</item>
@@ -163,6 +159,10 @@
     <plurals name="dnd_minutes">
         <item quantity="other">%d min.</item>
         <item quantity="one">1 minúta</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">Videli to %s</item>
+        <item quantity="one">Videl(a) to %s</item>
     </plurals>
     <plurals name="focus_gallery_label">
         <item quantity="other">%s si prečítali všetky správy.</item>

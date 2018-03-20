@@ -13,14 +13,12 @@
     <string name="menu_save">Zapisz</string>
     <string name="menu_share">Udostępnij</string>
     <string name="menu_delete">Usuń</string>
-    <string name="menu_select_all">Zaznacz wszystko</string>
-    <string name="menu_copy">Kopiuj do…</string>
-    <string name="menu_advanced_show">Pokaż kartę SD</string>
-    <string name="menu_advanced_hide">Ukryj kartę SD</string>
+    <string name="menu_select">Zaznacz „^1”</string>
+    <string name="menu_advanced_show">Pokaż pamięć wewnętrzną</string>
+    <string name="menu_advanced_hide">Ukryj pamięć wewnętrzną</string>
     <string name="menu_file_size_show">Pokaż rozmiar pliku</string>
     <string name="menu_file_size_hide">Ukryj rozmiar pliku</string>
-    <string name="button_select">Wybierz</string>
-    <string name="button_copy">Kopiuj</string>
+    <string name="mode_selected_count">Wybrano: %1$d</string>
     <string name="sort_name">Według nazwy</string>
     <string name="sort_date">Według daty edycji</string>
     <string name="sort_size">Według rozmiaru</string>
@@ -38,11 +36,5 @@
     <string name="empty">Brak elementów</string>
     <string name="toast_no_application">Nie można otworzyć pliku</string>
     <string name="toast_failed_delete">Nie można usunąć niektórych dokumentów</string>
-    <string name="share_via">Udostępnij przez:</string>
-    <string name="copy_notification_title">Kopiowanie plików</string>
-    <string name="copy_remaining">Pozostało: %s</string>
-    <string name="copy_preparing">Przygotowuję do kopiowania…</string>
-    <string name="notification_touch_for_details">Kliknij, by zobaczyć szczegóły</string>
-    <string name="retry">Ponów</string>
-    <string name="copy_failure_alert_content">Te pliki nie zostały skopiowane: %1$s</string>
+    <string name="share_via">Udostępnij przez</string>
 </resources>

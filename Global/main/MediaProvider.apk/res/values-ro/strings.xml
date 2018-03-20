@@ -2,6 +2,7 @@
 <resources>
     <string name="uid_label">Media</string>
     <string name="app_label">Mediu de stocare</string>
+    <string name="upgrade_msg">Se actualizează baza de date media.</string>
     <string name="artist_label">Artist</string>
     <string name="ringtone_default">Ton de sonerie prestabilit</string>
     <string name="notification_sound_default">Sunet de notificare prestabilit</string>

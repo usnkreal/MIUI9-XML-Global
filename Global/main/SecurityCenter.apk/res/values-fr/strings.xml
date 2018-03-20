@@ -396,9 +396,9 @@ de l'opérateur"</string>
     <string name="firewall_system_title">Utilisation des données pour les applications système</string>
     <string name="firewall_temp_rule_reason">%2$s ont restreint la connexion Internet pour %1$s</string>
     <string name="dialog_restrict_all_wlan_title">Restreindre la connexion Wi-Fi</string>
-    <string name="dialog_restrict_all_wlan_summary">Wi-Fi connection will be restricted for all apps after this.</string>
+    <string name="dialog_restrict_all_wlan_summary">La connexion Wi-Fi sera restreinte pour toutes les applications une fois cela activé.</string>
     <string name="dialog_restrict_all_mobile_title">Restreindre la connexion aux données mobiles de %s</string>
-    <string name="dialog_restrict_all_mobile_summary">%s Mobile data connection will be restricted for all apps after this.</string>
+    <string name="dialog_restrict_all_mobile_summary">La connexion aux données mobiles de %s sera restreinte pour toutes les applications une fois cela activé.</string>
     <string name="dialog_restrict_positive">Annuler</string>
     <string name="dialog_restrict_negative">Restreindre</string>
     <string name="usage_sorted_activity_lable">Utilisation de données</string>
@@ -640,7 +640,7 @@ Le volume de données restant inclut l'excédent du mois précédent."</string>
     <string name="tc_sms_report_type">Type de rapport</string>
     <string name="privacy_declare_dialog_title">"Conditions générales d'utilisation"</string>
     <string name="sc_allow_network_dialog_tiltle">"Impossible d'utiliser cette fonctionnalité"</string>
-    <string name="sc_allow_network_dialog_message">"Vous avez limité la connexion réseau et l'accès à votre localisation pour l'application Sécurité. Donnez à l'application Sécurité les autorisations requises pour utiliser cette fonctionnalité."</string>
+    <string name="sc_allow_network_dialog_message">"Vous avez limité la connexion réseau et l'accès à votre localisation pour l'application Sécurité. Accordez à l'application Sécurité les autorisations requises pour utiliser cette fonctionnalité."</string>
     <string name="privacy_prompt_upload">Envoyer</string>
     <string name="privacy_prompt_traffic_adjust_message">"Après que vous ayez lancé l'étalonnage, MIUI se connectera au réseau, cryptera les infos de votre opérateur, votre numéro de téléphone, votre IMEI et votre compte Mi, puis enverra ces éléments vers les serveurs Mi. Ceci se fera dans le but d'acquérir le modèle d'étalonnage et apprenez si possible à acheter des données dans votre localité.
 
@@ -694,7 +694,7 @@ Lors de l'étalonnage, MIUI vous enverra un message à votre opérateur de recev
     <string name="traffic_warning_purchase_title">"Avertissement de l'utilisation de données mobiles"</string>
     <string name="traffic_purchase_body">Appuyez pour recharger votre solde.</string>
     <string name="traffic_over_purchase_link">"Vous avez atteint la limite d'utilisation de données de votre forfait.&lt;br/>Si vous dépassez la limite d'utilisation de données de votre forfait, votre opérateur peut vous facturer des frais supplémentaires.&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>Appuyez pour recharger votre solde.&lt;/U>&lt;/font>"</string>
-    <string name="more_settings">PlusPlus</string>
+    <string name="more_settings">Plus</string>
     <string name="repair_loading_text">Un instant…</string>
     <string name="network_diagnostics">Tester le réseau</string>
     <string name="btn_start_diagnostic">Tester le réseau</string>
@@ -1740,7 +1740,7 @@ votre appareil"</string>
     <string name="back_app_name">Retourner à Verr. App</string>
     <string name="ac_notification_contentTitle">"Protéger les applications sélectionnées avec Verrouillage d'application"</string>
     <string name="ac_pre_notification_contentTitle">"Essayer Verrouillage d'application"</string>
-    <string name="ac_post_notification_contentTitle">"Activer le Verrouillage d'application"</string>
+    <string name="ac_post_notification_contentTitle">"Activer le verrouillage d'application"</string>
     <string name="notification_masked_item">Masquer les notifications</string>
     <string name="lock_mode_title">Paramètres de verrouillage</string>
     <string name="after_the_lock_screen">"Verrouillez les applications en même temps que l'écran"</string>
@@ -1803,17 +1803,17 @@ votre appareil"</string>
     <string name="numeric_pattern_entered_header">Code PIN défini avec succès</string>
     <string name="mixed_pattern_entered_header">Mot de passe défini avec succès</string>
     <string name="lockpattern_need_to_confirm">Redessinez le schéma pour confirmer :</string>
-    <string name="numeric_need_to_confirm">Entrer une fois de plus pour confirmer</string>
-    <string name="mixed_need_to_confirm">Entrer une fois de plus pour confirmer</string>
+    <string name="numeric_need_to_confirm">Saisir une fois de plus pour confirmer</string>
+    <string name="mixed_need_to_confirm">Saisir une fois de plus pour confirmer</string>
     <string name="unlock_pattern_to_bind_fingerprint">"Saisir un mot de passe pour activer l'empreinte digitale"</string>
     <string name="lockpattern_access_need_to_unlock_wrong_fingerprint">"Impossible de reconnaître l'empreinte digitale, réessayez."</string>
     <string name="lockpattern_access_need_to_unlock_wrong_pattern">Le mot de passe est incorrect, réessayez.</string>
     <string name="lockpattern_need_to_unlock_wrong">Les mots de passe ne correspondent pas, réessayez.</string>
     <string name="lockpattern_recording_inprogress">Soulevez votre doigt pour terminer</string>
     <string name="lockpattern_pattern_confirmed_header">Définir un nouveau schéma de déverrouillage</string>
-    <string name="numeric_password_confirmed_header_continue">Défini avec succès. Appuyer sur \"Suivant\".</string>
+    <string name="numeric_password_confirmed_header_continue">Défini avec succès. Appuyez sur \"Suivant\".</string>
     <string name="numeric_password_confirmed_header_confirm">Défini avec succès. Appuyez sur \"Confirmer\".</string>
-    <string name="mixed_password_confirmed_header_continue">Défini avec succès. Appuyer sur \"Suivant\".</string>
+    <string name="mixed_password_confirmed_header_continue">Défini avec succès. Appuyez sur \"Suivant\".</string>
     <string name="mixed_password_confirmed_header_confirm">Défini avec succès. Appuyez sur \"Confirmer\".</string>
     <string name="forget_pattern"><u>Mot de passe oublié</u></string>
     <string name="unlock_pattern"><u>Schéma</u></string>
@@ -1933,7 +1933,7 @@ votre appareil"</string>
     <string name="sponsored_sec_fb">Sponsorisé</string>
     <string name="add_game_notification_summary">Appuyez pour lancer &amp; augmenter la vitesse</string>
     <string name="app_manager_title">Gérer les applications</string>
-    <string name="app_manager_app_lock">"Verrouillage d'application"</string>
+    <string name="app_manager_uninstall">Uninstall</string>
     <string name="app_manager_bipartition">Applications clônées</string>
     <string name="app_manager_perm">Autorisations</string>
     <string name="app_manager_app_update">Mises à jour</string>
@@ -2036,12 +2036,10 @@ votre appareil"</string>
     <string name="app_manager_advanced_setting">Paramètres avancés</string>
     <string name="app_manager_total_size">Total</string>
     <string name="app_manager_code_size">"Taille de l'appli"</string>
-    <string name="app_manager_data_size">Données utilisateurs</string>
+    <string name="app_manager_data_size">Données utilisateur</string>
     <string name="app_manager_cache_size">Cache</string>
     <string name="app_manager_clear_all_data">Effacer toutes les données</string>
     <string name="app_manager_dlg_clear_cache_title">Vider le cache?</string>
-    <string name="app_manager_support_uninstall">Vous pouvez désinstaller ces applications</string>
-    <string name="app_manager_not_support_uninstall">Impossible de désinstaller ces applications</string>
     <string name="app_manager_comuting_size">Calcul…</string>
     <string name="app_manager_show_all_apps_opened">Affichage des résultats depuis toutes les applications…</string>
     <string name="app_manager_search_prompt">"Impossible de trouver des résultats ? Essayer d'afficher les résultats depuis toutes les applications."</string>
@@ -2121,7 +2119,7 @@ votre appareil"</string>
     <string name="sys_title_gamebooster_unit_gb">Go</string>
     <string name="sys_title_gamebooster_unit_mb">Mo</string>
     <string name="gmscore_support_service">Services Google</string>
-    <string name="gmscore_support_remind">"Activer cette fonctionnalité si vous rencontrez des problèmes avec Gmail, Google Maps et d'autres applications Google. Cela réduira légèrement la durée de vie de la batterie."</string>
+    <string name="gmscore_support_remind">"Activez cette fonctionnalité si vous rencontrez des problèmes avec Gmail, Google Maps et d'autres applications Google. Cela réduira légèrement la durée de vie de la batterie."</string>
     <string name="google_base_app_install_choice">"\"%s\" nécessite un framework des services Google pour fonctionner normalement, voulez-vous le télécharger et l'installer maintenant ?"</string>
     <string name="application_item_disable">Limité</string>
     <string name="application_item_already_permission">Autorisé</string>
@@ -2169,7 +2167,7 @@ votre appareil"</string>
     <string name="wifi_optizition_tip">"Activer l'augmentation de la vitesse du Wi-Fi afin de stabiliser davantage la connexion Wi-Fi. Un petit montant de données mobiles sera utilisé."</string>
     <string name="wifi_optizition_loading">"Activation de l'augmentation de la vitesse du réseau via Xunyou…"</string>
     <string name="free_send_net_booster">Augmentation de la vitesse du réseau gratuite</string>
-    <string name="free_send_net_booster_tip">"Profiter d'une expérience de jeux fluide avec une augmentation gratuite de la vitesse du réseau."</string>
+    <string name="free_send_net_booster_tip">"Profitez d'une expérience de jeux fluide avec une augmentation gratuite de la vitesse du réseau."</string>
     <string name="free_send_net_booster_busniess">Obtenir un accélérateur de vitesse Xunlei gratuit</string>
     <string name="free_send_net_booster_busniess_tip">Appuyez pour recevoir</string>
     <string name="net_booster_overdue_notification">"La session d'augmentation de la vitesse du réseau prendra bientôt fin"</string>
@@ -2185,7 +2183,7 @@ votre appareil"</string>
     <string name="thermal_tips_title">Attention</string>
     <string name="thermal_tips_message">Jouer à des jeux en mode Performance peut entraîner des problèmes de surchauffe.</string>
     <string name="forbid_autobright_title">Ajuster la luminosité de lcran</string>
-    <string name="forbid_autobright_summary">"Luminosité de l'écran restera identique lorsque vous jouerez des jeux"</string>
+    <string name="forbid_autobright_summary">"Luminosité de l'écran restera identique lorsque vous jouerez à des jeux"</string>
     <string name="gamebooster_lowbattery_notification_title">La batterie est inférieure à 5%%</string>
     <string name="gamebooster_lowbattery_notification_summary">"Chargez votre appareil avant qu'il ne s'éteigne."</string>
     <string name="game_ad_recommendation">Tout le monde joue</string>

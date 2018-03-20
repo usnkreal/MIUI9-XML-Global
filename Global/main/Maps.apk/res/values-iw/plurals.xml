@@ -4,577 +4,783 @@
         <item quantity="other">התאמות קרובות אפשריות</item>
         <item quantity="one">התאמה קרובה אפשרית</item>
         <item quantity="two">התאמות קרובות אפשריות</item>
+        <item quantity="few">התאמות קרובות אפשריות</item>
         <item quantity="many">התאמות קרובות אפשריות</item>
     </plurals>
     <plurals name="ACCESSIBILITY_DECIMAL_STARS">
         <item quantity="other">%.1f כוכבים</item>
+        <item quantity="zero">%.1f כוכבים</item>
         <item quantity="one">כוכב %.1f</item>
         <item quantity="two">%.1f כוכבים</item>
+        <item quantity="few">%.1f כוכבים</item>
         <item quantity="many">%.1f כוכבים</item>
     </plurals>
     <plurals name="ACCESSIBILITY_STARS">
         <item quantity="other">%d כוכבים</item>
+        <item quantity="zero">%d כוכבים</item>
         <item quantity="one">כוכב %d</item>
         <item quantity="two">%d כוכבים</item>
+        <item quantity="few">%d כוכבים</item>
         <item quantity="many">%d כוכבים</item>
     </plurals>
     <plurals name="ADD_PHOTOS_MORE_PHOTOS_COUNT">
         <item quantity="other">+ %d תמונות</item>
-        <item quantity="one">+ תמונה %d</item>
+        <item quantity="zero">+ %d תמונות</item>
+        <item quantity="one">+ %d תמונה</item>
         <item quantity="two">+ %d תמונות</item>
+        <item quantity="few">+ %d תמונות</item>
         <item quantity="many">+ %d תמונות</item>
     </plurals>
     <plurals name="CAR_BUSINESS_ATTRIBUTION">
         <item quantity="other">מקורות: %s</item>
         <item quantity="one">מקור: %s</item>
-        <item quantity="two">מקורות: %s</item>
-        <item quantity="many">מקורות: %s</item>
     </plurals>
     <plurals name="DA_DAYS">
         <item quantity="other">%d ימים</item>
+        <item quantity="zero">%d ימים</item>
         <item quantity="one">יום %d</item>
         <item quantity="two">%d ימים</item>
+        <item quantity="few">%d ימים</item>
         <item quantity="many">%d ימים</item>
     </plurals>
     <plurals name="DA_DAYS_ABBREVIATED">
-        <item quantity="other">%s י‘</item>
-        <item quantity="one">י‘ %s</item>
-        <item quantity="two">%s י‘</item>
-        <item quantity="many">%s י‘</item>
+        <item quantity="other">%s י</item>
+        <item quantity="zero">%s י</item>
+        <item quantity="one">%s י</item>
+        <item quantity="two">%s י</item>
+        <item quantity="few">%s י</item>
+        <item quantity="many">%s י</item>
     </plurals>
     <plurals name="DA_DAYS_SHORT">
         <item quantity="other">%d ימים</item>
+        <item quantity="zero">%d ימים</item>
         <item quantity="one">יום %d</item>
         <item quantity="two">%d ימים</item>
+        <item quantity="few">%d ימים</item>
         <item quantity="many">%d ימים</item>
     </plurals>
     <plurals name="DA_HOURS">
         <item quantity="other">%d שעות</item>
+        <item quantity="zero">%d שעות</item>
         <item quantity="one">שעה %d</item>
         <item quantity="two">%d שעות</item>
+        <item quantity="few">%d שעות</item>
         <item quantity="many">%d שעות</item>
     </plurals>
     <plurals name="DA_HOURS_ABBREVIATED">
-        <item quantity="other">%s שע‘</item>
-        <item quantity="one">%s שע‘</item>
-        <item quantity="two">%s שע‘</item>
-        <item quantity="many">%s שע‘</item>
+        <item quantity="other">"%s שע'"</item>
+        <item quantity="zero">"%s שע'"</item>
+        <item quantity="one">"%s שע'"</item>
+        <item quantity="two">"%s שע'"</item>
+        <item quantity="few">"%s שע'"</item>
+        <item quantity="many">"%s שע'"</item>
     </plurals>
     <plurals name="DA_MINUTES">
         <item quantity="other">%d דקות</item>
+        <item quantity="zero">%d דקות</item>
         <item quantity="one">דקה %d</item>
         <item quantity="two">%d דקות</item>
+        <item quantity="few">%d דקות</item>
         <item quantity="many">%d דקות</item>
     </plurals>
     <plurals name="DA_MINUTES_ABBREVIATED">
-        <item quantity="other">%s דק‘</item>
-        <item quantity="one">דק‘ %s</item>
-        <item quantity="two">%s דק‘</item>
-        <item quantity="many">%s דק‘</item>
-    </plurals>
-    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
-        <item quantity="other">%s</item>
-        <item quantity="one">%s</item>
-        <item quantity="two">%s</item>
-        <item quantity="many">%s</item>
+        <item quantity="other">%s דק׳</item>
+        <item quantity="zero">%s דק׳</item>
+        <item quantity="one">%s דק׳</item>
+        <item quantity="two">%s דק׳</item>
+        <item quantity="few">%s דק׳</item>
+        <item quantity="many">%s דק׳</item>
     </plurals>
     <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
-        <item quantity="other">המשך %1$s רגל</item>
-        <item quantity="one">המשך רגל %1$s</item>
-        <item quantity="two">המשך %1$s רגל</item>
-        <item quantity="many">המשך %1$s רגל</item>
+        <item quantity="other">המשך עוד %1$s רגל</item>
+        <item quantity="zero">המשך עוד %1$s רגל</item>
+        <item quantity="one">המשך עוד רגל %1$s</item>
+        <item quantity="two">המשך עוד %1$s רגל</item>
+        <item quantity="few">המשך עוד %1$s רגל</item>
+        <item quantity="many">המשך עוד %1$s רגל</item>
     </plurals>
     <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
-        <item quantity="other">המשך %1$s קילומטרים</item>
-        <item quantity="one">המשך קילומטר %1$s</item>
-        <item quantity="two">המשך %1$s קילומטרים</item>
-        <item quantity="many">המשך %1$s קילומטרים</item>
+        <item quantity="other">המשך %1$s ק\"מ</item>
+        <item quantity="zero">המשך עוד %1$s ק\"מ</item>
+        <item quantity="one">המשך %1$s ק\"מ</item>
+        <item quantity="two">המשך %1$s ק\"מ</item>
+        <item quantity="few">המשך %1$s ק\"מ</item>
+        <item quantity="many">המשך %1$s ק\"מ</item>
     </plurals>
     <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
         <item quantity="other">המשך %1$s מטרים</item>
+        <item quantity="zero">המשך עוד %1$s מטרים</item>
         <item quantity="one">המשך מטר %1$s</item>
         <item quantity="two">המשך %1$s מטרים</item>
+        <item quantity="few">המשך %1$s מטרים</item>
         <item quantity="many">המשך %1$s מטרים</item>
     </plurals>
     <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
         <item quantity="other">המשך %1$s מייל</item>
-        <item quantity="one">המשך מייל %1$s</item>
+        <item quantity="zero">המשך עוד %1$s מייל</item>
+        <item quantity="one">המשך %1$s מייל</item>
         <item quantity="two">המשך %1$s מייל</item>
+        <item quantity="few">המשך %1$s מייל</item>
         <item quantity="many">המשך %1$s מייל</item>
     </plurals>
     <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
         <item quantity="other">המשך %1$s יארד</item>
+        <item quantity="zero">המשך עוד %1$s יארד</item>
         <item quantity="one">המשך יארד %1$s</item>
         <item quantity="two">המשך %1$s יארד</item>
+        <item quantity="few">המשך %1$s יארד</item>
         <item quantity="many">המשך %1$s יארד</item>
     </plurals>
     <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
-        <item quantity="other">המשך עוד %1$s רגל ב-%2$s</item>
-        <item quantity="one">המשך עוד רגל %1$s ב-%2$s</item>
-        <item quantity="two">המשך עוד %1$s רגל ב-%2$s</item>
-        <item quantity="many">המשך עוד %1$s רגל ב-%2$s</item>
+        <item quantity="other">המשך ב-%2$s עוד %1$s רגל</item>
+        <item quantity="zero">המשך ב-%2$s עוד %1$s רגל</item>
+        <item quantity="one">המשך ב-%2$s עוד רגל %1$s</item>
+        <item quantity="two">המשך ב-%2$s עוד %1$s רגל</item>
+        <item quantity="few">המשך ב-%2$s עוד %1$s רגל</item>
+        <item quantity="many">המשך ב-%2$s עוד %1$s רגל</item>
     </plurals>
     <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
-        <item quantity="other">המשך עוד %1$s קילומטרים ב-%2$s</item>
-        <item quantity="one">המשך עוד קילומטר %1$s ב-%2$s</item>
-        <item quantity="two">המשך עוד %1$s קילומטרים ב-%2$s</item>
-        <item quantity="many">המשך עוד %1$s קילומטרים ב-%2$s</item>
+        <item quantity="other">המשך על %2$s %1$s ק\"מ</item>
+        <item quantity="zero">המשך ב-%2$s עוד %1$s ק\"מ</item>
+        <item quantity="one">המשך על %2$s %1$s ק\"מ</item>
+        <item quantity="two">המשך על %2$s %1$s ק\"מ</item>
+        <item quantity="few">המשך על %2$s %1$s ק\"מ</item>
+        <item quantity="many">המשך על %2$s %1$s ק\"מ</item>
     </plurals>
     <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
-        <item quantity="other">המשך עוד %1$s מטרים ב-%2$s</item>
-        <item quantity="one">המשך עוד מטר %1$s ב-%2$s</item>
-        <item quantity="two">המשך עוד %1$s מטרים ב-%2$s</item>
-        <item quantity="many">המשך עוד %1$s מטרים ב-%2$s</item>
+        <item quantity="other">המשך ב-%2$s עוד %1$s מטרים</item>
+        <item quantity="zero">המשך ב-%2$s עוד %1$s מטרים</item>
+        <item quantity="one">המשך ב-%2$s עוד מטר %1$s</item>
+        <item quantity="two">המשך ב-%2$s עוד %1$s מטרים</item>
+        <item quantity="few">המשך ב-%2$s עוד %1$s מטרים</item>
+        <item quantity="many">המשך ב-%2$s עוד %1$s מטרים</item>
     </plurals>
     <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
-        <item quantity="other">המשך עוד %1$s מייל ב-%2$s</item>
-        <item quantity="one">המשך עוד מייל %1$s ב-%2$s</item>
-        <item quantity="two">המשך עוד %1$s מייל ב-%2$s</item>
-        <item quantity="many">המשך עוד %1$s מייל ב-%2$s</item>
+        <item quantity="other">המשך על %2$s %1$s מייל</item>
+        <item quantity="zero">המשך ב-%2$s עוד %1$s מייל</item>
+        <item quantity="one">המשך על %2$s %1$s מייל</item>
+        <item quantity="two">המשך על %2$s %1$s מייל</item>
+        <item quantity="few">המשך על %2$s %1$s מייל</item>
+        <item quantity="many">המשך על %2$s %1$s מייל</item>
     </plurals>
     <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
-        <item quantity="other">המשך עוד %1$s יארד ב-%2$s</item>
-        <item quantity="one">המשך עוד יארד %1$s ב-%2$s</item>
-        <item quantity="two">המשך עוד %1$s יארד ב-%2$s</item>
-        <item quantity="many">המשך עוד %1$s יארד ב-%2$s</item>
+        <item quantity="other">המשך ב-%2$s עוד %1$s יארד</item>
+        <item quantity="zero">המשך ב-%2$s עוד %1$s יארד</item>
+        <item quantity="one">המשך ב-%2$s עוד יארד %1$s</item>
+        <item quantity="two">המשך ב-%2$s עוד %1$s יארד</item>
+        <item quantity="few">המשך ב-%2$s עוד %1$s יארד</item>
+        <item quantity="many">המשך ב-%2$s עוד %1$s יארד</item>
     </plurals>
-    <plurals name="DA_SPEECH_DAYS" />
-    <plurals name="DA_SPEECH_HOURS" />
+    <plurals name="DA_SPEECH_DAYS">
+        <item quantity="other">%s ימים</item>
+        <item quantity="zero">%s ימים</item>
+        <item quantity="one">יום %s</item>
+        <item quantity="two">%s ימים</item>
+        <item quantity="few">%s ימים</item>
+        <item quantity="many">%s ימים</item>
+    </plurals>
+    <plurals name="DA_SPEECH_HOURS">
+        <item quantity="other">%s שעות</item>
+        <item quantity="zero">%s שעות</item>
+        <item quantity="one">שעה %s</item>
+        <item quantity="two">%s שעות</item>
+        <item quantity="few">%s שעות</item>
+        <item quantity="many">%s שעות</item>
+    </plurals>
     <plurals name="DA_SPEECH_IN_X_FEET">
         <item quantity="other">בעוד %1$s רגל</item>
+        <item quantity="zero">בעוד %1$s רגל</item>
         <item quantity="one">בעוד רגל %1$s</item>
         <item quantity="two">בעוד %1$s רגל</item>
+        <item quantity="few">בעוד %1$s רגל</item>
         <item quantity="many">בעוד %1$s רגל</item>
     </plurals>
     <plurals name="DA_SPEECH_IN_X_KILOMETERS">
-        <item quantity="other">בעוד %1$s קילומטרים</item>
-        <item quantity="one">בעוד קילומטר %1$s</item>
-        <item quantity="two">בעוד %1$s קילומטרים</item>
-        <item quantity="many">בעוד %1$s קילומטרים</item>
+        <item quantity="other">בעוד %1$s ק\"מ</item>
+        <item quantity="zero">בעוד %1$s ק\"מ</item>
+        <item quantity="one">בעוד %1$s ק\"מ</item>
+        <item quantity="two">בעוד %1$s ק\"מ</item>
+        <item quantity="few">בעוד %1$s ק\"מ</item>
+        <item quantity="many">בעוד %1$s ק\"מ</item>
     </plurals>
     <plurals name="DA_SPEECH_IN_X_METERS">
         <item quantity="other">בעוד %1$s מטרים</item>
+        <item quantity="zero">בעוד %1$s מטרים</item>
         <item quantity="one">בעוד מטר %1$s</item>
         <item quantity="two">בעוד %1$s מטרים</item>
+        <item quantity="few">בעוד %1$s מטרים</item>
         <item quantity="many">בעוד %1$s מטרים</item>
     </plurals>
     <plurals name="DA_SPEECH_IN_X_MILES">
         <item quantity="other">בעוד %1$s מייל</item>
-        <item quantity="one">בעוד מייל %1$s</item>
+        <item quantity="zero">בעוד %1$s מייל</item>
+        <item quantity="one">בעוד %1$s מייל</item>
         <item quantity="two">בעוד %1$s מייל</item>
+        <item quantity="few">בעוד %1$s מייל</item>
         <item quantity="many">בעוד %1$s מייל</item>
     </plurals>
     <plurals name="DA_SPEECH_IN_X_YARDS">
         <item quantity="other">בעוד %1$s יארד</item>
+        <item quantity="zero">בעוד %1$s יארד</item>
         <item quantity="one">בעוד יארד %1$s</item>
         <item quantity="two">בעוד %1$s יארד</item>
+        <item quantity="few">בעוד %1$s יארד</item>
         <item quantity="many">בעוד %1$s יארד</item>
     </plurals>
-    <plurals name="DA_SPEECH_MINUTES" />
-    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
-        <item quantity="other">%s קילומטרים לשעה</item>
-        <item quantity="one"> קילומטר %s לשעה</item>
-        <item quantity="two">%s קילומטרים לשעה</item>
-        <item quantity="many">%s קילומטרים לשעה</item>
-    </plurals>
-    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
-        <item quantity="other">%s מייל לשעה</item>
-        <item quantity="one"> מייל %s לשעה</item>
-        <item quantity="two">%s מייל לשעה</item>
-        <item quantity="many">%s מייל לשעה</item>
+    <plurals name="DA_SPEECH_MINUTES">
+        <item quantity="other">%s דקות</item>
+        <item quantity="zero">%s דקות</item>
+        <item quantity="one">דקה %s</item>
+        <item quantity="two">%s דקות</item>
+        <item quantity="few">%s דקות</item>
+        <item quantity="many">%s דקות</item>
     </plurals>
     <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
         <item quantity="other">אתה נמצא במרחק של %1$s רגל מהיעד שלך</item>
+        <item quantity="zero">אתה נמצא במרחק של %1$s רגל מהיעד שלך</item>
         <item quantity="one">אתה נמצא במרחק של רגל %1$s מהיעד שלך</item>
         <item quantity="two">אתה נמצא במרחק של %1$s רגל מהיעד שלך</item>
+        <item quantity="few">אתה נמצא במרחק של %1$s רגל מהיעד שלך</item>
         <item quantity="many">אתה נמצא במרחק של %1$s רגל מהיעד שלך</item>
     </plurals>
     <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
-        <item quantity="other">אתה נמצא במרחק של %1$s קילומטרים מהיעד</item>
-        <item quantity="one">אתה נמצא במרחק של קילומטר %1$s מהיעד</item>
-        <item quantity="two">אתה נמצא במרחק של %1$s קילומטרים מהיעד</item>
-        <item quantity="many">אתה נמצא במרחק של %1$s קילומטרים מהיעד</item>
+        <item quantity="other">אתה נמצא במרחק של %1$s קילומטרים מהיעד שלך</item>
+        <item quantity="zero">אתה נמצא במרחק של %1$s ק\"מ מהיעד שלך</item>
+        <item quantity="one">אתה נמצא במרחק של קילומטר %1$s מהיעד שלך</item>
+        <item quantity="two">אתה נמצא במרחק של %1$s קילומטרים מהיעד שלך</item>
+        <item quantity="few">אתה נמצא במרחק של %1$s קילומטרים מהיעד שלך</item>
+        <item quantity="many">אתה נמצא במרחק של %1$s קילומטרים מהיעד שלך</item>
     </plurals>
     <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
-        <item quantity="other">אתה נמצא במרחק של %1$s מטרים מהיעד</item>
-        <item quantity="one">אתה נמצא במרחק של מטר %1$s מהיעד</item>
-        <item quantity="two">אתה נמצא במרחק של %1$s מטרים מהיעד</item>
-        <item quantity="many">אתה נמצא במרחק של %1$s מטרים מהיעד</item>
+        <item quantity="other">אתה נמצא במרחק של %1$s מטרים מהיעד שלך</item>
+        <item quantity="zero">אתה נמצא במרחק של %1$s מטרים מהיעד שלך</item>
+        <item quantity="one">אתה נמצא במרחק של מטר %1$s מהיעד שלך</item>
+        <item quantity="two">אתה נמצא במרחק של %1$s מטרים מהיעד שלך</item>
+        <item quantity="few">אתה נמצא במרחק של %1$s מטרים מהיעד שלך</item>
+        <item quantity="many">אתה נמצא במרחק של %1$s מטרים מהיעד שלך</item>
     </plurals>
     <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
-        <item quantity="other">אתה נמצא במרחק של %1$s מייל מהיעד</item>
-        <item quantity="one">אתה נמצא במרחק של מייל %1$s מהיעד</item>
-        <item quantity="two">אתה נמצא במרחק של %1$s מייל מהיעד</item>
-        <item quantity="many">אתה נמצא במרחק של %1$s מייל מהיעד</item>
+        <item quantity="other">אתה נמצא במרחק של %1$s מייל מהיעד שלך</item>
+        <item quantity="zero">אתה נמצא במרחק של %1$s מייל מהיעד שלך</item>
+        <item quantity="one">אתה נמצא במרחק של מייל %1$s מהיעד שלך</item>
+        <item quantity="two">אתה נמצא במרחק של %1$s מייל מהיעד שלך</item>
+        <item quantity="few">אתה נמצא במרחק של %1$s מייל מהיעד שלך</item>
+        <item quantity="many">אתה נמצא במרחק של %1$s מייל מהיעד שלך</item>
     </plurals>
     <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
-        <item quantity="other">אתה נמצא במרחק של %1$s יארד מהיעד</item>
-        <item quantity="one">אתה נמצא במרחק של יארד %1$s מהיעד</item>
-        <item quantity="two">אתה נמצא במרחק של %1$s יארד מהיעד</item>
-        <item quantity="many">אתה נמצא במרחק של %1$s יארד מהיעד</item>
-    </plurals>
-    <plurals name="DIRECTIONS_COUNT_STOPS">
-        <item quantity="other">%d תחנות</item>
-        <item quantity="one">תחנה %d</item>
-        <item quantity="two">%d תחנות</item>
-        <item quantity="many">%d תחנות</item>
+        <item quantity="other">אתה נמצא במרחק של %1$s יארד מהיעד שלך</item>
+        <item quantity="zero">אתה נמצא במרחק של %1$s יארד מהיעד שלך</item>
+        <item quantity="one">אתה נמצא במרחק של יארד %1$s מהיעד שלך</item>
+        <item quantity="two">אתה נמצא במרחק של %1$s יארד מהיעד שלך</item>
+        <item quantity="few">אתה נמצא במרחק של %1$s יארד מהיעד שלך</item>
+        <item quantity="many">אתה נמצא במרחק של %1$s יארד מהיעד שלך</item>
     </plurals>
     <plurals name="DIRECTIONS_MORE_TRAFFIC_DISRUPTIONS">
-        <item quantity="other">עוד %1$s שיבושי תנועה</item>
-        <item quantity="one">עוד שיבוש תנועה %1$s</item>
-        <item quantity="two">עוד %1$s שיבושי תנועה</item>
-        <item quantity="many">עוד %1$s שיבושי תנועה</item>
+        <item quantity="other">עוד %1$s שיבושים בתנועה</item>
+        <item quantity="zero">עוד %1$s שיבושים בתנועה</item>
+        <item quantity="one">עוד %1$s שיבושי תנועה</item>
+        <item quantity="two">עוד %1$s שיבושים בתנועה</item>
+        <item quantity="few">עוד %1$s שיבושים בתנועה</item>
+        <item quantity="many">עוד %1$s שיבושים בתנועה</item>
     </plurals>
     <plurals name="EDIT_PUBLISHED_NOTIFICATION_TITLE">
-        <item quantity="other">%d מהעריכות שלך פורסמו.</item>
+        <item quantity="other">%d מהעריכות שלך פורסמו!</item>
+        <item quantity="zero">%d מהעריכות שלך פורסמו!</item>
         <item quantity="one">העריכה שלך פורסמה.</item>
-        <item quantity="two">%d מהעריכות שלך פורסמו.</item>
-        <item quantity="many">%d מהעריכות שלך פורסמו.</item>
+        <item quantity="two">%d מהעריכות שלך פורסמו!</item>
+        <item quantity="few">%d מהעריכות שלך פורסמו!</item>
+        <item quantity="many">%d מהעריכות שלך פורסמו!</item>
     </plurals>
-    <plurals name="FIVESTAR_HISTOGRAM_BAR_LABEL" />
-    <plurals name="HOTEL_RESERVATION_NUMBER_OF_NIGHTS_TEXT">
-        <item quantity="other">%d לילות</item>
-        <item quantity="one">לילה %d</item>
-        <item quantity="two">%d לילות</item>
-        <item quantity="many">%d לילות</item>
+    <plurals name="FIVESTAR_HISTOGRAM_BAR_LABEL">
+        <item quantity="other">%d כוכבים</item>
+        <item quantity="zero">%d כוכבים</item>
+        <item quantity="one">%d כוכבים</item>
+        <item quantity="two">%d כוכבים</item>
+        <item quantity="few">%d כוכבים</item>
+        <item quantity="many">%d כוכבים</item>
     </plurals>
     <plurals name="HOTEL_STAR_CLASS">
         <item quantity="other">מלון %d כוכבים</item>
-        <item quantity="one">מלון כוכב %d</item>
+        <item quantity="zero">מלון %d כוכבים</item>
+        <item quantity="one">מלון %d כוכבים</item>
         <item quantity="two">מלון %d כוכבים</item>
+        <item quantity="few">מלון %d כוכבים</item>
         <item quantity="many">מלון %d כוכבים</item>
     </plurals>
-    <plurals name="IAMHERE_YOUVE_TAKEN_PHOTO_HERE" />
+    <plurals name="IAMHERE_YOUVE_TAKEN_PHOTO_HERE">
+        <item quantity="other">צילמת כאן %d תמונות</item>
+        <item quantity="zero">צילמת כאן %d תמונות</item>
+        <item quantity="one">צילמת כאן %d תמונה</item>
+        <item quantity="two">צילמת כאן %d תמונות</item>
+        <item quantity="few">צילמת כאן %d תמונות</item>
+        <item quantity="many">צילמת כאן %d תמונות</item>
+    </plurals>
     <plurals name="LAST_HERE_DAYS_AGO">
-        <item quantity="other">ביקרת כאן לפני %d ימים</item>
-        <item quantity="one">ביקרת כאן לפני יום %d</item>
-        <item quantity="two">ביקרת כאן לפני %d ימים</item>
-        <item quantity="many">ביקרת כאן לפני %d ימים</item>
+        <item quantity="other">ביקרת פה לפני %d ימים</item>
+        <item quantity="two">ביקרת פה לפני %d ימים</item>
+        <item quantity="few">ביקרת פה לפני %d ימים</item>
+        <item quantity="many">ביקרת פה לפני %d ימים</item>
     </plurals>
     <plurals name="LAST_HERE_MONTHS_AGO">
-        <item quantity="other">ביקרת פה לפני %d חודשים</item>
+        <item quantity="other">ביקרת כאן לפני %d חודשים</item>
         <item quantity="one">ביקרת פה לפני חודש %d</item>
-        <item quantity="two">ביקרת פה לפני %d חודשים</item>
-        <item quantity="many">ביקרת פה לפני %d חודשים</item>
+        <item quantity="two">ביקרת כאן לפני %d חודשים</item>
+        <item quantity="few">ביקרת כאן לפני %d חודשים</item>
+        <item quantity="many">ביקרת כאן לפני %d חודשים</item>
     </plurals>
     <plurals name="LAST_HERE_WEEKS_AGO">
         <item quantity="other">ביקרת פה לפני %d שבועות</item>
         <item quantity="one">ביקרת פה לפני שבוע %d</item>
         <item quantity="two">ביקרת פה לפני %d שבועות</item>
-        <item quantity="many">ביקרת פה לפני %d שבועות</item>
+        <item quantity="few">ביקרת פה לפני %d שבועות</item>
     </plurals>
     <plurals name="LAST_HERE_YEARS_AGO">
-        <item quantity="other">ביקרת פה לפני %d שנים</item>
+        <item quantity="other">ביקרת כאן לפני %d שנים</item>
         <item quantity="one">ביקרת פה לפני שנה %d</item>
-        <item quantity="two">ביקרת פה לפני %d שנים</item>
-        <item quantity="many">ביקרת פה לפני %d שנים</item>
-    </plurals>
-    <plurals name="LIST_COUNT_PLACES">
-        <item quantity="other">%d מקומות</item>
-        <item quantity="one">מקום %d</item>
-        <item quantity="two">%d מקומות</item>
-        <item quantity="many">%d מקומות</item>
+        <item quantity="two">ביקרת כאן לפני %d שנים</item>
+        <item quantity="few">ביקרת כאן לפני %d שנים</item>
+        <item quantity="many">ביקרת כאן לפני %d שנים</item>
     </plurals>
     <plurals name="LOCAL_GUIDE_CURRENT_LEVEL">
         <item quantity="other">רמה %d</item>
         <item quantity="one">רמה %d</item>
-        <item quantity="two">רמה %d</item>
-        <item quantity="many">רמה %d</item>
     </plurals>
     <plurals name="MAPS_ACTIVITY_PHOTOS_REMOVED">
         <item quantity="other">התמונות הוסרו</item>
+        <item quantity="zero">התמונות הוסרו</item>
         <item quantity="one">התמונה הוסרה</item>
         <item quantity="two">התמונות הוסרו</item>
+        <item quantity="few">התמונות הוסרו</item>
         <item quantity="many">התמונות הוסרו</item>
     </plurals>
-    <plurals name="MENU_REMOVE_STOPS" />
+    <plurals name="MENU_REMOVE_STOPS">
+        <item quantity="other">הסר עצירות ביניים</item>
+        <item quantity="zero">הסר עצירות ביניים</item>
+        <item quantity="one">הסר עצירת ביניים</item>
+        <item quantity="two">הסר עצירות ביניים</item>
+        <item quantity="few">הסר עצירות ביניים</item>
+        <item quantity="many">הסר עצירות ביניים</item>
+    </plurals>
     <plurals name="MONTHS_AGO">
         <item quantity="other">לפני %d חודשים</item>
         <item quantity="one">לפני חודש %d</item>
         <item quantity="two">לפני %d חודשים</item>
+        <item quantity="few">לפני %d חודשים</item>
         <item quantity="many">לפני %d חודשים</item>
     </plurals>
     <plurals name="MY_MAPS_PHOTO_VIDEO_COUNT">
         <item quantity="other">%d תמונות/סרטונים</item>
-        <item quantity="one">תמונה/סרטון %d</item>
-        <item quantity="two">%d תמונות/סרטונים</item>
-        <item quantity="many">%d תמונות/סרטונים</item>
+        <item quantity="one">%d תמונה/סרטון</item>
     </plurals>
     <plurals name="MY_MAPS_VIDEO_COUNT">
         <item quantity="other">%d סרטונים</item>
         <item quantity="one">סרטון %d</item>
-        <item quantity="two">%d סרטונים</item>
-        <item quantity="many">%d סרטונים</item>
-    </plurals>
-    <plurals name="NUMBER_OF_AFFECTED_LINES">
-        <item quantity="other">השיבוש משפיע על %1$s קווים</item>
-        <item quantity="one">השיבוש משפיע על קו %1$s</item>
-        <item quantity="two">השיבוש משפיע על %1$s קווים</item>
-        <item quantity="many">השיבוש משפיע על %1$s קווים</item>
     </plurals>
     <plurals name="NUMBER_OF_CONTRIBUTIONS">
-        <item quantity="other">%d הוספות תוכן</item>
-        <item quantity="one">הוספת תוכן %d</item>
-        <item quantity="two">%d הוספות תוכן</item>
-        <item quantity="many">%d הוספות תוכן</item>
+        <item quantity="other">%d משוב</item>
+        <item quantity="zero">%d משוב</item>
+        <item quantity="one">%d משובים</item>
+        <item quantity="two">%d משוב</item>
+        <item quantity="few">%d משוב</item>
+        <item quantity="many">%d משוב</item>
     </plurals>
     <plurals name="NUMBER_OF_LOCAL_GUIDE_POINTS">
         <item quantity="other">%d נקודות</item>
+        <item quantity="zero">%d נקודות</item>
         <item quantity="one">נקודה %d</item>
         <item quantity="two">%d נקודות</item>
+        <item quantity="few">%d נקודות</item>
         <item quantity="many">%d נקודות</item>
     </plurals>
-    <plurals name="NUMBER_OF_PLACES">
-        <item quantity="other">%d מקומות</item>
-        <item quantity="one">מקום %d</item>
-        <item quantity="two">%d מקומות</item>
-        <item quantity="many">%d מקומות</item>
+    <plurals name="OFFLINE_AREA_EXPIRES_IN_DAYS">
+        <item quantity="other">התוקף יפוג בעוד %d ימים</item>
+        <item quantity="zero">התוקף יפוג בעוד %d ימים</item>
+        <item quantity="one">התוקף יפוג בעוד יום %d</item>
+        <item quantity="two">התוקף יפוג בעוד %d ימים</item>
+        <item quantity="few">התוקף יפוג בעוד %d ימים</item>
+        <item quantity="many">התוקף יפוג בעוד %d ימים</item>
+    </plurals>
+    <plurals name="OFFLINE_AREA_EXPIRES_IN_LESS_THAN_DAYS">
+        <item quantity="other">התוקף יפוג בעוד פחות מ-%d ימים</item>
+        <item quantity="zero">התוקף יפוג בעוד פחות מ-%d ימים</item>
+        <item quantity="one">התוקף יפוג בעוד פחות מ-%d יום</item>
+        <item quantity="two">התוקף יפוג בעוד פחות מ-%d ימים</item>
+        <item quantity="few">התוקף יפוג בעוד פחות מ-%d ימים</item>
+        <item quantity="many">התוקף יפוג בעוד פחות מ-%d ימים</item>
+    </plurals>
+    <plurals name="OFFLINE_CACHE_ESTIMATED_SIZE_NUM">
+        <item quantity="other">MB %d</item>
+        <item quantity="zero">‏MB‏ %d</item>
+        <item quantity="one">MB %d</item>
+        <item quantity="two">MB %d</item>
+        <item quantity="few">MB %d</item>
+        <item quantity="many">MB %d</item>
     </plurals>
     <plurals name="OFFLINE_MAPS_CARD_TITLE">
         <item quantity="other">%d אזורים לא מקוונים</item>
+        <item quantity="zero">%d אזורים לא מקוונים</item>
         <item quantity="one">אזור לא מקוון %d</item>
         <item quantity="two">%d אזורים לא מקוונים</item>
+        <item quantity="few">%d אזורים לא מקוונים</item>
         <item quantity="many">%d אזורים לא מקוונים</item>
     </plurals>
-    <plurals name="OFFLINE_RESULTS_FOUND" />
-    <plurals name="OFFLINE_RESULTS_FOUND_TITLE" />
+    <plurals name="OFFLINE_RESULTS_FOUND">
+        <item quantity="other">על אף שהחיבור שלך גרוע, הצלחנו למצוא תוצאות מהאזורים הלא מקוונים שלך.</item>
+        <item quantity="one">על אף שהחיבור שלך גרוע, הצלחנו למצוא תוצאה מהאזורים הלא מקוונים שלך.</item>
+        <item quantity="two">על אף שהחיבור שלך גרוע, הצלחנו למצוא תוצאות מהאזורים הלא מקוונים שלך.</item>
+        <item quantity="few">על אף שהחיבור שלך גרוע, הצלחנו למצוא תוצאות מהאזורים הלא מקוונים שלך.</item>
+        <item quantity="many">על אף שהחיבור שלך גרוע, הצלחנו למצוא תוצאות מהאזורים הלא מקוונים שלך.</item>
+    </plurals>
+    <plurals name="OFFLINE_RESULTS_FOUND_TITLE">
+        <item quantity="other">תוצאות לא מקוונות</item>
+        <item quantity="one">תוצאה לא מקוונת</item>
+        <item quantity="two">תוצאות לא מקוונות</item>
+        <item quantity="few">תוצאות לא מקוונות</item>
+        <item quantity="many">תוצאות לא מקוונות</item>
+    </plurals>
     <plurals name="PERSONAL_CALENDAR_EVENTS_TITLE">
         <item quantity="other">‏אירועים קרובים מיומן Google</item>
+        <item quantity="zero">‏אירועים קרובים מיומן Google</item>
         <item quantity="one">‏אירוע קרוב מיומן Google</item>
         <item quantity="two">‏אירועים קרובים מיומן Google</item>
+        <item quantity="few">‏אירועים קרובים מיומן Google</item>
         <item quantity="many">‏אירועים קרובים מיומן Google</item>
-    </plurals>
-    <plurals name="PERSONAL_CALENDAR_OTHER_PARTICIPANTS_COUNT">
-        <item quantity="other">%d נוספים</item>
-        <item quantity="one">%d נוסף</item>
-        <item quantity="two">%d נוספים</item>
-        <item quantity="many">%d נוספים</item>
     </plurals>
     <plurals name="PERSONAL_GMAIL_RESERVATIONS_AND_CALENDAR_EVENTS_TITLE">
         <item quantity="other">‏אירועים קרובים מ-Gmail ומיומן Google</item>
-        <item quantity="one">‏אירוע קרוב מ-Gmail ומיומן Google</item>
+        <item quantity="zero">‏אירועים קרובים מ-Gmail ומיומן Google</item>
+        <item quantity="one">‏אירועים קרובים מ-Gmail ומיומן Google</item>
         <item quantity="two">‏אירועים קרובים מ-Gmail ומיומן Google</item>
+        <item quantity="few">‏אירועים קרובים מ-Gmail ומיומן Google</item>
         <item quantity="many">‏אירועים קרובים מ-Gmail ומיומן Google</item>
     </plurals>
     <plurals name="PERSONAL_GMAIL_RESERVATIONS_TITLE">
         <item quantity="other">‏הזמנות קרובות מ-Gmail</item>
-        <item quantity="one">‏הזמנה קרובה מ-Gmail</item>
+        <item quantity="zero">‏הזמנות קרובות מ-Gmail</item>
+        <item quantity="one">‏הזמנות קרובות מ-Gmail</item>
         <item quantity="two">‏הזמנות קרובות מ-Gmail</item>
+        <item quantity="few">‏הזמנות קרובות מ-Gmail</item>
         <item quantity="many">‏הזמנות קרובות מ-Gmail</item>
     </plurals>
     <plurals name="PERSONAL_RESERVATIONS_SUBTITLE">
-        <item quantity="other">רק אתה יכול לראות את אלה</item>
+        <item quantity="other">רק אתה יכול לראות מידע זה</item>
         <item quantity="one">רק אתה יכול לראות את זה</item>
-        <item quantity="two">רק אתה יכול לראות את אלה</item>
-        <item quantity="many">רק אתה יכול לראות את אלה</item>
+        <item quantity="two">רק אתה יכול לראות מידע זה</item>
+        <item quantity="few">רק אתה יכול לראות מידע זה</item>
+        <item quantity="many">רק אתה יכול לראות מידע זה</item>
     </plurals>
     <plurals name="PHOTOS">
         <item quantity="other">%d תמונות</item>
+        <item quantity="zero">%d תמונות</item>
         <item quantity="one">תמונה %d</item>
         <item quantity="two">%d תמונות</item>
+        <item quantity="few">%d תמונות</item>
         <item quantity="many">%d תמונות</item>
     </plurals>
     <plurals name="PHOTOS_UPLOADING_PHOTOS">
         <item quantity="other">מעלה %d תמונות</item>
+        <item quantity="zero">מעלה %d תמונות</item>
         <item quantity="one">מעלה תמונה %d</item>
         <item quantity="two">מעלה %d תמונות</item>
+        <item quantity="few">מעלה %d תמונות</item>
         <item quantity="many">מעלה %d תמונות</item>
     </plurals>
     <plurals name="PHOTO_TAKEN_NOTIFICATION_TAP_TO_ADD_PHOTO_MULTIPLE">
-        <item quantity="other">הוסף %1$d תמונות של %2$s</item>
-        <item quantity="one">הוסף תמונה %1$d של %2$s</item>
-        <item quantity="two">הוסף %1$d תמונות של %2$s</item>
-        <item quantity="many">הוסף %1$d תמונות של %2$s</item>
+        <item quantity="other">הוסף %1$d תמונות אל %2$s</item>
+        <item quantity="two">הוסף %1$d תמונות אל %2$s</item>
+        <item quantity="few">הוסף %1$d תמונות אל %2$s</item>
+        <item quantity="many">הוסף %1$d תמונות אל %2$s</item>
     </plurals>
-    <plurals name="PHOTO_UPLOADED_MSG" />
+    <plurals name="PHOTO_UPLOADED_MSG">
+        <item quantity="other">התמונות שלך יוצגו באופן ציבורי מיד לאחר בדיקתם.</item>
+        <item quantity="one">התמונה שלך תוצג באופן ציבורי מיד לאחר בדיקתה.</item>
+        <item quantity="two">התמונות שלך יוצגו באופן ציבורי מיד לאחר בדיקתם.</item>
+        <item quantity="few">התמונות שלך יוצגו באופן ציבורי מיד לאחר בדיקתם.</item>
+        <item quantity="many">התמונות שלך יוצגו באופן ציבורי מיד לאחר בדיקתם.</item>
+    </plurals>
     <plurals name="PLACE_PAGE_EXPANDED_NUMBER_OF_REVIEWS">
         <item quantity="other">%d ביקורות</item>
+        <item quantity="zero">%d ביקורות</item>
         <item quantity="one">ביקורת %d</item>
         <item quantity="two">%d ביקורות</item>
+        <item quantity="few">%d ביקורות</item>
         <item quantity="many">%d ביקורות</item>
     </plurals>
     <plurals name="PLACE_PENDING_EDIT_MORE_EDITS">
         <item quantity="other">+ %d עריכות</item>
+        <item quantity="zero">+ %d עריכות</item>
         <item quantity="one">+ עריכה %d</item>
         <item quantity="two">+ %d עריכות</item>
+        <item quantity="few">+ %d עריכות</item>
         <item quantity="many">+ %d עריכות</item>
     </plurals>
     <plurals name="POI_PROMPT_REPLACE_STOP">
         <item quantity="other">החלף תחנות</item>
+        <item quantity="zero">החלף תחנות</item>
         <item quantity="one">החלף תחנה</item>
         <item quantity="two">החלף תחנות</item>
+        <item quantity="few">החלף תחנות</item>
         <item quantity="many">החלף תחנות</item>
     </plurals>
-    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTOS" />
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTOS">
+        <item quantity="other">%d תמונות</item>
+        <item quantity="zero">%d תמונות</item>
+        <item quantity="one">תמונה %d</item>
+        <item quantity="two">%d תמונות</item>
+        <item quantity="few">%d תמונות</item>
+        <item quantity="many">%d תמונות</item>
+    </plurals>
     <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTO_VIEWS">
         <item quantity="other">%,d צפיות</item>
+        <item quantity="zero">%,d צפיות</item>
         <item quantity="one">צפייה %,d</item>
         <item quantity="two">%,d צפיות</item>
+        <item quantity="few">%,d צפיות</item>
         <item quantity="many">%,d צפיות</item>
     </plurals>
     <plurals name="PROFILE_ACTIVITY_NUMBER_OF_RATINGS">
         <item quantity="other">%d דירוגים</item>
+        <item quantity="zero">%d דירוגים</item>
         <item quantity="one">דירוג %d</item>
         <item quantity="two">%d דירוגים</item>
+        <item quantity="few">%d דירוגים</item>
         <item quantity="many">%d דירוגים</item>
     </plurals>
     <plurals name="PROFILE_ACTIVITY_NUMBER_OF_REVIEWS">
         <item quantity="other">%d ביקורות</item>
+        <item quantity="zero">%d ביקורות</item>
         <item quantity="one">ביקורת %d</item>
         <item quantity="two">%d ביקורות</item>
+        <item quantity="few">%d ביקורות</item>
         <item quantity="many">%d ביקורות</item>
     </plurals>
     <plurals name="PROFILE_ACTIVITY_PHOTOS">
         <item quantity="other">תמונות</item>
+        <item quantity="zero">תמונות</item>
         <item quantity="one">תמונה</item>
         <item quantity="two">תמונות</item>
+        <item quantity="few">תמונות</item>
         <item quantity="many">תמונות</item>
     </plurals>
     <plurals name="PROFILE_ACTIVITY_REVIEWS">
         <item quantity="other">ביקורות</item>
+        <item quantity="zero">ביקורות</item>
         <item quantity="one">ביקורת</item>
         <item quantity="two">ביקורות</item>
+        <item quantity="few">ביקורות</item>
         <item quantity="many">ביקורות</item>
     </plurals>
     <plurals name="QUESTIONS_REMAINING">
         <item quantity="other">+%d שאלות.</item>
-        <item quantity="one">+שאלה %d.</item>
+        <item quantity="one">+%d שאלה.</item>
         <item quantity="two">+%d שאלות.</item>
+        <item quantity="few">+%d שאלות.</item>
         <item quantity="many">+%d שאלות.</item>
     </plurals>
     <plurals name="RELATED_PLACES_MORE">
         <item quantity="other">+%d נוספים</item>
-        <item quantity="one">+%d נוספים</item>
+        <item quantity="one">+%d נוסף</item>
         <item quantity="two">+%d נוספים</item>
+        <item quantity="few">+%d נוספים</item>
         <item quantity="many">+%d נוספים</item>
     </plurals>
     <plurals name="RESERVATION_PARTY_SIZE">
         <item quantity="other">%d אנשים</item>
+        <item quantity="zero">%d אנשים</item>
         <item quantity="one">אדם %d</item>
         <item quantity="two">%d אנשים</item>
+        <item quantity="few">%d אנשים</item>
         <item quantity="many">%d אנשים</item>
     </plurals>
     <plurals name="REVIEW_SNIPPET_AUTHOR_WITH_SIMILAR_STATEMENTS">
-        <item quantity="other">%1$s ו-%2$d כותבי ביקורות</item>
-        <item quantity="one">%1$s וכותב ביקורת %2$d</item>
-        <item quantity="two">%1$s ו-%2$d כותבי ביקורות</item>
-        <item quantity="many">%1$s ו-%2$d כותבי ביקורות</item>
+        <item quantity="other">%1$s ו-%2$d מבקרים</item>
+        <item quantity="zero">%1$s ו-%2$d סוקרים</item>
+        <item quantity="one">%1$s ו-%2$d מבקרים</item>
+        <item quantity="two">%1$s ו-%2$d מבקרים</item>
+        <item quantity="few">%1$s ו-%2$d מבקרים</item>
+        <item quantity="many">%1$s ו-%2$d מבקרים</item>
     </plurals>
     <plurals name="REVIEW_SNIPPET_TOTAL_STATEMENTS">
-        <item quantity="other">%d כותבי ביקורות</item>
-        <item quantity="one">כותב ביקורת %d</item>
-        <item quantity="two">%d כותבי ביקורות</item>
-        <item quantity="many">%d כותבי ביקורות</item>
+        <item quantity="other">%d מבקרים</item>
+        <item quantity="zero">%d סוקרים</item>
+        <item quantity="one">מבקר %d</item>
+        <item quantity="two">%d מבקרים</item>
+        <item quantity="few">%d מבקרים</item>
+        <item quantity="many">%d מבקרים</item>
     </plurals>
-    <plurals name="REVIEW_THUMBS_UP_PEOPLE_COUNT">
-        <item quantity="other">%d אנשים</item>
-        <item quantity="one">אדם %d</item>
-        <item quantity="two">%d אנשים</item>
-        <item quantity="many">%d אנשים</item>
+    <plurals name="SAVE_VISIT_DAYS_AGO">
+        <item quantity="other">האם לשמור את הביקור שלך מלפני %d ימים?</item>
+        <item quantity="zero">האם לשמור את הביקור שלך מהיום?</item>
+        <item quantity="one">האם לשמור את הביקור שלך מאתמול?</item>
+        <item quantity="few">האם לשמור את הביקור שלך מלפני %d ימים?</item>
+        <item quantity="many">האם לשמור את הביקור שלך מלפני %d ימים?</item>
     </plurals>
-    <plurals name="SAVE_VISIT_N_DAYS_AGO">
-        <item quantity="other">לשמור את הביקור מלפני %d ימים?</item>
-        <item quantity="one">לשמור את הביקור מלפני יום %d?</item>
-        <item quantity="two">לשמור את הביקור מלפני %d ימים?</item>
-        <item quantity="many">לשמור את הביקור מלפני %d ימים?</item>
+    <plurals name="SEARCH_OFFLINE_RESULTS">
+        <item quantity="other">החיבור אבד. מציג תוצאות באופן לא מקוון.</item>
+        <item quantity="zero">החיבור אבד. מציג תוצאות באופן לא מקוון.</item>
+        <item quantity="one">החיבור אבד. מציג תוצאה באופן לא מקוון.</item>
+        <item quantity="two">החיבור אבד. מציג תוצאות באופן לא מקוון.</item>
+        <item quantity="few">החיבור אבד. מציג תוצאות באופן לא מקוון.</item>
+        <item quantity="many">החיבור אבד. מציג תוצאות באופן לא מקוון.</item>
     </plurals>
-    <plurals name="SEARCH_OFFLINE_RESULTS" />
-    <plurals name="STATION_NEARBY_STATIONS" />
+    <plurals name="STATION_NEARBY_STATIONS">
+        <item quantity="other">תחנות קרובות</item>
+        <item quantity="zero">תחנות קרובות</item>
+        <item quantity="one">תחנה קרובה</item>
+        <item quantity="two">תחנות קרובות</item>
+        <item quantity="few">תחנות קרובות</item>
+        <item quantity="many">תחנות קרובות</item>
+    </plurals>
     <plurals name="SWIPE_MILESTONE_MESSAGE">
         <item quantity="other">‏טיילתי %,d קילומטרים ב-Google Street View!</item>
+        <item quantity="zero">‏טיילתי %,d קילומטרים ב-Google Street View!</item>
         <item quantity="one">‏טיילתי קילומטר %,d ב-Google Street View!</item>
         <item quantity="two">‏טיילתי %,d קילומטרים ב-Google Street View!</item>
+        <item quantity="few">‏טיילתי %,d קילומטרים ב-Google Street View!</item>
         <item quantity="many">‏טיילתי %,d קילומטרים ב-Google Street View!</item>
     </plurals>
     <plurals name="TODO_PHOTO_MORE_PHOTOS">
-        <item quantity="other">+ %d נוספות</item>
-        <item quantity="one">+ %d נוספת</item>
-        <item quantity="two">+ %d נוספות</item>
-        <item quantity="many">+ %d נוספות</item>
+        <item quantity="other">+ %d תמונות</item>
+        <item quantity="zero">+ %d תמונות</item>
+        <item quantity="one">+ %d תמונה</item>
+        <item quantity="two">+ %d תמונות</item>
+        <item quantity="few">+ %d תמונות</item>
+        <item quantity="many">+ %d תמונות</item>
     </plurals>
     <plurals name="TRANSIT_DETAILS_FREQUENT_DEPARTURE">
         <item quantity="other">יציאה בעוד %1$s דקות</item>
-        <item quantity="one">יציאה בעוד דקה %1$s</item>
+        <item quantity="zero">יציאה כעת</item>
+        <item quantity="one">יציאה בעוד %1$s דקה</item>
         <item quantity="two">יציאה בעוד %1$s דקות</item>
+        <item quantity="few">יציאה בעוד %1$s דקות</item>
         <item quantity="many">יציאה בעוד %1$s דקות</item>
     </plurals>
     <plurals name="TRANSIT_DETAILS_FREQUENT_TWO_DEPARTURES">
-        <item quantity="other">יציאה בעוד %1$s דקות ובעוד %2$s דקות</item>
-        <item quantity="one">יציאה בעוד דקה %1$s ובעוד %2$s דקות</item>
-        <item quantity="two">יציאה בעוד %1$s דקות ובעוד %2$s דקות</item>
-        <item quantity="many">יציאה בעוד %1$s דקות ובעוד %2$s דקות</item>
+        <item quantity="other">יציאה בעוד %1$s, %2$s דקות</item>
+        <item quantity="zero">יציאה כעת</item>
+        <item quantity="one">יציאה בעוד %1$s, %2$s דקות</item>
+        <item quantity="two">יציאה בעוד %1$s, %2$s דקות</item>
+        <item quantity="few">יציאה בעוד %1$s, %2$s דקות</item>
+        <item quantity="many">יציאה בעוד %1$s, %2$s דקות</item>
     </plurals>
-    <plurals name="TRANSIT_MORE_DEPARTURES_WITH_NUMBER" />
+    <plurals name="TRANSIT_MORE_DEPARTURES_WITH_NUMBER">
+        <item quantity="other">וכן %d נוספות</item>
+        <item quantity="zero">וכן %d נוספות</item>
+        <item quantity="one">וכן %d נוספות</item>
+        <item quantity="two">וכן %d נוספות</item>
+        <item quantity="few">וכן %d נוספות</item>
+        <item quantity="many">וכן %d נוספות</item>
+    </plurals>
     <plurals name="TRANSIT_NUM_STOPS">
-        <item quantity="other">%d תחנות</item>
-        <item quantity="one">תחנה %d</item>
-        <item quantity="two">%d תחנות</item>
-        <item quantity="many">%d תחנות</item>
+        <item quantity="other">%d עצירות</item>
+        <item quantity="zero">%d עצירות</item>
+        <item quantity="one">עצירה %d</item>
+        <item quantity="two">%d עצירות</item>
+        <item quantity="few">%d עצירות</item>
+        <item quantity="many">%d עצירות</item>
     </plurals>
     <plurals name="TRANSIT_RADAR_MORE_ALERTS_HIDDEN">
-        <item quantity="other">ועוד %d התראות</item>
-        <item quantity="one">ועוד התראה %d</item>
-        <item quantity="two">ועוד %d התראות</item>
-        <item quantity="many">ועוד %d התראות</item>
+        <item quantity="other">%d התראות נוספות</item>
+        <item quantity="one">והתראה %d נוספת</item>
     </plurals>
-    <plurals name="TRANSIT_SCHEMATIC_MAP_DEFAULT_BUTTON_TITLE" />
+    <plurals name="TRANSIT_SCHEMATIC_MAP_DEFAULT_BUTTON_TITLE">
+        <item quantity="other">מפות תחבורה ציבורית</item>
+        <item quantity="one">מפת תחבורה ציבורית</item>
+        <item quantity="two">מפות תחבורה ציבורית</item>
+        <item quantity="few">מפות תחבורה ציבורית</item>
+        <item quantity="many">מפות תחבורה ציבורית</item>
+    </plurals>
     <plurals name="TRIP_LEVEL_NOTICES_MORE_BUTTON">
-        <item quantity="other">עוד %1$s אזהרות</item>
-        <item quantity="one">עוד אזהרה %1$s</item>
-        <item quantity="two">עוד %1$s אזהרות</item>
-        <item quantity="many">עוד %1$s אזהרות</item>
+        <item quantity="other">%1$s אזהרות נוספות</item>
+        <item quantity="zero">%1$s אזהרות נוספות</item>
+        <item quantity="one">אזהרה %1$s נוספת</item>
+        <item quantity="two">%1$s אזהרות נוספות</item>
+        <item quantity="few">%1$s אזהרות נוספות</item>
+        <item quantity="many">%1$s אזהרות נוספות</item>
     </plurals>
-    <plurals name="UGC_TASKS_POST_SUBMIT_DIALOG_TITLE">
-        <item quantity="other">גילית %d פריטי מידע!</item>
-        <item quantity="one">גילית פריט מידע %d!</item>
-        <item quantity="two">גילית %d פריטי מידע!</item>
-        <item quantity="many">גילית %d פריטי מידע!</item>
+    <plurals name="UPDATE_ALL_SUCCESS_TITLE">
+        <item quantity="other">Updated %d photos</item>
+        <item quantity="zero">Updated %d photos</item>
+        <item quantity="one">Updated %d photos</item>
+        <item quantity="two">Updated %d photos</item>
+        <item quantity="few">Updated %d photos</item>
+        <item quantity="many">Updated %d photos</item>
     </plurals>
-    <plurals name="UGC_TASK_N_CONTRIBUTIONS_TEXT" />
-    <plurals name="UGC_TASK_N_ITEMS_TEXT" />
-    <plurals name="UPDATE_ALL_SUCCESS_TITLE" />
-    <plurals name="UPDATE_FAILED_TITLE" />
+    <plurals name="UPDATE_FAILED_TITLE">
+        <item quantity="other">"Couldn't update %d photos"</item>
+        <item quantity="zero">"Couldn't update %d photos"</item>
+        <item quantity="one">"Couldn't update %d photo"</item>
+        <item quantity="two">"Couldn't update %d photos"</item>
+        <item quantity="few">"Couldn't update %d photos"</item>
+        <item quantity="many">"Couldn't update %d photos"</item>
+    </plurals>
     <plurals name="UPLOAD_ALL_SUCCESS_TITLE">
         <item quantity="other">%d תמונות נוספו למפות</item>
-        <item quantity="one">תמונה %d נוספה למפות</item>
+        <item quantity="zero">%d תמונות נוספו למפות</item>
+        <item quantity="one">%d photo added to Maps</item>
         <item quantity="two">%d תמונות נוספו למפות</item>
+        <item quantity="few">%d תמונות נוספו למפות</item>
         <item quantity="many">%d תמונות נוספו למפות</item>
+    </plurals>
+    <plurals name="UPLOAD_FAILED_TITLE">
+        <item quantity="other">לא ניתן להוסיף %d תמונות למפות</item>
+        <item quantity="zero">לא ניתן להוסיף %d תמונות למפות</item>
+        <item quantity="one">"Couldn't add %d photo to Maps"</item>
+        <item quantity="two">לא ניתן להוסיף %d תמונות למפות</item>
+        <item quantity="few">לא ניתן להוסיף %d תמונות למפות</item>
+        <item quantity="many">לא ניתן להוסיף %d תמונות למפות</item>
     </plurals>
     <plurals name="UPLOAD_IN_PROGRESS_TEXT">
         <item quantity="other">%1$d מתוך %2$d</item>
+        <item quantity="zero">%1$d מתוך %2$d</item>
         <item quantity="one">%1$d מתוך %2$d</item>
         <item quantity="two">%1$d מתוך %2$d</item>
+        <item quantity="few">%1$d מתוך %2$d</item>
         <item quantity="many">%1$d מתוך %2$d</item>
     </plurals>
     <plurals name="UPLOAD_IN_PROGRESS_TITLE">
         <item quantity="other">מוסיף %d תמונות למפות</item>
-        <item quantity="one">מוסיף תמונה %d למפות</item>
+        <item quantity="zero">מוסיף %d תמונות למפות</item>
+        <item quantity="one">Adding %d photo to Maps</item>
         <item quantity="two">מוסיף %d תמונות למפות</item>
+        <item quantity="few">מוסיף %d תמונות למפות</item>
         <item quantity="many">מוסיף %d תמונות למפות</item>
     </plurals>
     <plurals name="UPLOAD_PHOTO_DISCLAIMER_TITLEBAR">
-        <item quantity="other">מפרסם (%d) באופן ציבורי</item>
+        <item quantity="other">מפרסם באופן ציבורי (%d)</item>
+        <item quantity="zero">מפרסם באופן ציבורי</item>
         <item quantity="one">מפרסם באופן ציבורי</item>
-        <item quantity="two">מפרסם (%d) באופן ציבורי</item>
-        <item quantity="many">מפרסם (%d) באופן ציבורי</item>
+        <item quantity="two">מפרסם באופן ציבורי (%d)</item>
+        <item quantity="few">מפרסם באופן ציבורי (%d)</item>
+        <item quantity="many">מפרסם באופן ציבורי (%d)</item>
     </plurals>
     <plurals name="UPLOAD_PHOTO_DISCLAIMER_TITLEBAR_NO_COUNT">
-        <item quantity="other">מפרסם באופן ציבורי</item>
-        <item quantity="one">מפרסם באופן ציבורי</item>
-        <item quantity="two">מפרסם באופן ציבורי</item>
-        <item quantity="many">מפרסם באופן ציבורי</item>
+        <item quantity="other">בפרסום ציבורי</item>
+        <item quantity="zero">בפרסום ציבורי</item>
+        <item quantity="one">בפרסום ציבורי</item>
+        <item quantity="two">בפרסום ציבורי</item>
+        <item quantity="few">בפרסום ציבורי</item>
+        <item quantity="many">בפרסום ציבורי</item>
     </plurals>
-    <plurals name="UPLOAD_PHOTO_PHOTOS_SELECTED" />
+    <plurals name="UPLOAD_PHOTO_PHOTOS_SELECTED">
+        <item quantity="other">נבחרו %d תמונות</item>
+        <item quantity="zero">נבחרו %d תמונות</item>
+        <item quantity="one">נבחרה תמונה %d</item>
+        <item quantity="two">נבחרו %d תמונות</item>
+        <item quantity="few">נבחרו %d תמונות</item>
+        <item quantity="many">נבחרו %d תמונות</item>
+    </plurals>
     <plurals name="WEEKS_AGO">
         <item quantity="other">לפני %d שבועות</item>
         <item quantity="one">לפני שבוע %d</item>
         <item quantity="two">לפני %d שבועות</item>
-        <item quantity="many">לפני %d שבועות</item>
+        <item quantity="few">לפני %d שבועות</item>
     </plurals>
     <plurals name="YEARS_AGO">
         <item quantity="other">לפני %d שנים</item>
         <item quantity="one">לפני שנה %d</item>
         <item quantity="two">לפני %d שנים</item>
+        <item quantity="few">לפני %d שנים</item>
         <item quantity="many">לפני %d שנים</item>
     </plurals>
 </resources>

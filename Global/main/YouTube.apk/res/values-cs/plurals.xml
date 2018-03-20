@@ -95,25 +95,9 @@
         <item quantity="few">%1$d z %2$d videí</item>
         <item quantity="many">%1$d z %2$d videa</item>
     </plurals>
-    <plurals name="offline_pending_time_window_plural">
-        <item quantity="other">A dalších %1$d. Nastaveno uložení: od %2$s do %3$s.</item>
-        <item quantity="zero"></item>
-        <item quantity="one">Nastaveno uložení: od %2$s do %3$s.</item>
-        <item quantity="two">A další %1$d. Nastaveno uložení: od %2$s do %3$s.</item>
-        <item quantity="few">A další %1$d. Nastaveno uložení: od %2$s do %3$s.</item>
-        <item quantity="many">A další (%1$d). Nastaveno uložení: od %2$s do %3$s.</item>
-    </plurals>
     <plurals name="playlist_size">
         <item quantity="other">Počet videí: %1$,d</item>
         <item quantity="one">1 video</item>
-    </plurals>
-    <plurals name="transcoding_progress">
-        <item quantity="other">Příprava %1$,d%%</item>
-        <item quantity="zero">Příprava %1$,d%%</item>
-        <item quantity="one">Příprava %1$,d%%</item>
-        <item quantity="two">Příprava %1$,d%%</item>
-        <item quantity="few">Příprava %1$,d%%</item>
-        <item quantity="many">Příprava %1$,d%%</item>
     </plurals>
     <plurals name="upload_hours_remaing">
         <item quantity="other">Zbývá asi %1$,d hodin</item>

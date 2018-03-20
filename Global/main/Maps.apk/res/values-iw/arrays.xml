@@ -24,7 +24,13 @@
         <item>יקר</item>
         <item>יקר מאוד</item>
     </string-array>
-    <array name="RESTRICTION_ALLOWED_PRICE_LEVEL_SHORT" />
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_SHORT">
+        <item>כל מחיר</item>
+        <item>$</item>
+        <item>$$</item>
+        <item>$$$</item>
+        <item>$$$$</item>
+    </string-array>
     <string-array name="RESTRICTION_ALLOWED_STARS">
         <item>הכל</item>
         <item>2.0</item>
@@ -37,7 +43,12 @@
         <item>שלושה כוכבים ומעלה</item>
         <item>ארבעה כוכבים ומעלה</item>
     </string-array>
-    <array name="RESTRICTION_ALLOWED_STARS_SHORT" />
+    <string-array name="RESTRICTION_ALLOWED_STARS_SHORT">
+        <item>כל דירוג</item>
+        <item>דירוג 2+</item>
+        <item>דירוג 3+</item>
+        <item>דירוג 4+</item>
+    </string-array>
     <string-array name="RESTRICTION_HOTEL_CLASSES">
         <item>הכל</item>
         <item>3 כוכבים</item>

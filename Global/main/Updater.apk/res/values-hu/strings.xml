@@ -199,6 +199,9 @@ http://zhushou.xiaomi.com"</string>
     <string name="confirm_local_package_wipe_title">Törli az adatokat?</string>
     <string name="confirm_local_package_wipe_msg">A személyes adatok törlésre kerülnek. Mielőtt elindítja a folyamatot, ellenőrizze, hogy minden fontos adat mentésre került.</string>
     <string name="confirm_local_package_wipe_btn">Törlés és frissítés</string>
+    <string name="file_path_error_title">Helytelen elérési út</string>
+    <string name="file_path_error_msg">Győződjön meg róla, hogy a frissítőcsomag elérési útvonala csak betűket és számokat tartalmaz.</string>
+    <string name="file_path_error_btn">Rendben</string>
     <string name="delay_update_text">Frissítés éjjel</string>
     <string name="dialog_delay_update_title">Frissítés később</string>
     <string name="dialog_delay_update_msg">A frissítések hajnali 2:00 és 5:00 között telepítve lesznek, ha az akkutöltöttség magasabb, mint 30%.</string>

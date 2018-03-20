@@ -63,7 +63,7 @@
     <string name="permdesc_downloadManagerAdvanced">Umožňuje prístup aplikácie k rozšíreným funkciám Stiahnutí. Škodlivé aplikácie môžu tento stav využiť na rušenie sťahovania a získanie prístupu k súkromným údajom.</string>
     <string name="permlab_downloadCompletedIntent">Odoslať upozornenia o sťahovaní.</string>
     <string name="permdesc_downloadCompletedIntent">Umožňuje aplikácii odoslať upozornenia o ukončených sťahovaniach. Škodlivé aplikácie môžu tento stav využiť na rušenie sťahovania a získanie prístupu k súkromným údajom.</string>
-    <string name="permlab_seeAllExternal">Zobraziť súbory stiahnuté na SD kartu</string>
+    <string name="permlab_seeAllExternal">Zobraziť súbory stiahnuté na USB ukladací priestor</string>
     <string name="permdesc_seeAllExternal">Umožňuje prístup aplikácie ku všetkým stiahnutiam na SD karte bez ohľadu na aplikáciu, cez ktorú boli stiahnuté.</string>
     <string name="permlab_downloadCacheNonPurgeable">Rezervovať miesto vo vyrovnávacej pamäti</string>
     <string name="permdesc_downloadCacheNonPurgeable">Povoliť aplikácii sťahovať súbory do vyrovnávacej pamäte, ktorá nebude automaticky vymazaná, ak Správca sťahovania potrebuje viac miesta.</string>

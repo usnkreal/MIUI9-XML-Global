@@ -37,10 +37,6 @@
         <item>Iné</item>
         <item>Vlastné</item>
     </string-array>
-    <array name="wfcOperatorErrorAlertMessages" />
-    <array name="wfcOperatorErrorNotificationMessages" />
-    <array name="fingerprint_acquired_vendor" />
-    <array name="fingerprint_error_vendor" />
     <string-array name="imAddressTypes">
         <item>Domov</item>
         <item>Práca</item>

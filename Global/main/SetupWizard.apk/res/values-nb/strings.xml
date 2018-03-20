@@ -28,12 +28,9 @@
     <string name="common_signin_button_text">Logg på</string>
     <string name="common_signin_button_text_long">Logg inn med Google</string>
     <string name="common_open_on_phone">Åpne på telefonen</string>
-    <string name="suw_next_button_label">Neste</string>
-    <string name="suw_back_button_label">Tilbake</string>
-    <string name="suw_more_button_label">Mer</string>
-    <string name="setup_wizard_title">Konfigurasjonsveiviser</string>
     <string name="setup_wizard_next_button_label">Neste</string>
     <string name="setup_wizard_back_button_label">Tilbake</string>
+    <string name="setup_wizard_title">Konfigurasjonsveiviser</string>
     <string name="setup_wizard_services_activity_title">Google-tjenester</string>
     <string name="setup_wizard_services_description">Med disse tjenestene jobber Google for deg, og du kan slå dem på eller av når som helst. Data brukes i samsvar med Googles <annotation id="google_privacy">personvernregler</annotation>.</string>
     <string name="setup_wizard_services_backup_restore_heading">Sikkerhetskopiering og gjenoppretting</string>
@@ -44,7 +41,7 @@
     <string name="setup_wizard_services_backup_restore_footnote">Dataene inkluderer apper, appinnstillinger, systeminnstillinger og Wi-Fi-passord.</string>
     <string name="setup_wizard_services_backup_restore_dialog_text">Når du slår på automatisk sikkerhetskopiering, lagres enhetsdataene jevnlig i Google-kontoen din. Sikkerhetskopier kan inneholde informasjon i appdata-mappene dine, f.eks. preferanser, innstillinger, meldinger, bilder og andre filer.</string>
     <string name="setup_wizard_services_location_sharing"><b>Bruk Googles posisjonstjenester</b> slik at apper kan fastslå posisjoner. Dette innebærer at du sender anonymiserte posisjonsdata til Google, selv når du ikke kjører noen apper. <annotation id="location_details">Finn ut mer</annotation>.</string>
-    <string name="setup_wizard_services_location_sharing_dialog_text">Googles posisjonstjenester bruker kilder som Wi-Fi og mobilnettverk for kjappere og mer presist å fastslå posisjonen til enheten din. Når du slår på Googles posisjonstjenester, brukes både Wi-Fi- og mobilnettverk for å levere posisjonsinformasjon. Du kan slå av denne funksjonen i posisjonsinnstillingene ved å velge en modus der bare GPS brukes. Denne modusen kalles ofte for «Bare bruk enheten».</string>
+    <string name="setup_wizard_services_location_sharing_dialog_text">Googles posisjonstjenester bruker kilder som Wi-Fi og mobilnettverk for kjappere og mer presist å fastslå posisjonen til enheten din. Når du slår på Googles posisjonstjenester, blir enheten din satt i en modus der det blir brukt Wi-Fi- og mobilnettverk for å levere posisjonsinformasjon. Du kan slå av denne funksjonen i posisjonsinnstillingene ved å velge en modus der bare GPS brukes. Denne modusen kalles ofte for «Bare enheten».</string>
     <string name="setup_wizard_services_location_wifi_scan"><b>Du kan bidra til å forbedre posisjonstjenestene</b> ved å tillate at apper og tjenester kan skanne etter Wi‑Fi-nettverk selv når Wi‑Fi er slått av.</string>
     <string name="setup_wizard_services_location_footnote">Googles posisjonstjeneste bruker Wi-Fi og andre signaler for å finne posisjoner raskere og mer presist, ofte med lavere strømforbruk enn GPS. Noen data kan lagres på enheten din. Data kan samles inn selv når ingen apper kjører.</string>
     <string name="setup_wizard_services_play"><b>Hold meg oppdatert</b> med nyheter og tilbud fra Google Play.</string>
@@ -54,9 +51,33 @@
 Du kan når som helst slå denne funksjonen på eller av, og den påvirker ikke enhetens evne til å sende informasjonen den trenger for å motta nødvendige tjenester, som for eksempel system- og sikkerhetsoppdateringer."</string>
     <string name="setup_wizard_services_agreement">Denne telefonen kan også motta og installere apper og oppdateringer fra Google, operatøren din og telefonprodusenten. Hvis du fortsetter, kan det hende at det blir lastet ned og installert noen apper. Du kan når som helst fjerne disse.</string>
     <string name="default_device_name">Android</string>
+    <string name="welcome_message">Velkommen</string>
+    <string name="welcome_secondary_user_added_text">%s har lagt deg til på denne telefonen.</string>
+    <string name="welcome_secondary_user_added_no_owner_name_text">Du er lagt til på denne telefonen.</string>
+    <string name="welcome_secondary_user_info_text">"Når du er ferdig med konfigurasjonen, kan du bruke eller installere nye apper akkurat som før.
+
+"<b>Viktig:</b>"
+
+"<li><ul>Telefonens eier kan avinstallere appene dine eller fjerne lagringsplassen din.</ul></li>"
+
+"<li><ul>Andre brukere kan godta oppdaterte apptillatelser på dine vegne.</ul></li>"
+
+"<li><ul>Som med alle datamaskiner bør du bare dele denne telefonen med folk du stoler på.</ul></li></string>
+    <string name="welcome_limited_user_info_text">" 
+"<b>Viktig:</b>"
+
+ "<li><ul>Eieren av telefonen kan installere og avinstallere apper, angi grenser, eller fjerne plassen din fullstendig.</ul></li>"
+
+ "<li><ul>Andre brukere kan godta oppdaterte apptillatelser på dine vegne.</ul></li>"
+
+ "<li><ul>Som med alle andre datamaskiner bør du bare dele denne telefonen med folk du stoler på. </ul></li></string>
+    <string name="welcome_text_edu">Konfigurer enheten din for bruk med Google Play for Education</string>
+    <string name="welcome_secondary_user_text_edu">Fullfør konfigureringen av kontoen din på dette nettbrettet.</string>
+    <string name="welcome_secondary_user_additional_info_header_edu">Viktig</string>
+    <string name="welcome_secondary_user_additional_info_edu">Du deler dette nettbrettet med andre studenter. Når du har konfigurert kontoen din, bør du legge til en PIN-kode for å beskytte arbeidet ditt.</string>
     <string name="finish_button_label">Fullfør</string>
     <string name="skip_button_label">Hopp over</string>
-    <string name="skip_anyway_button_label">Hopp over</string>
+    <string name="skip_anyway_button_label">Hopp over uansett</string>
     <string name="dont_skip_button_label">Ikke hopp over</string>
     <string name="down_button_label">Mer</string>
     <string name="cancel_button_label">Avbryt</string>
@@ -64,7 +85,6 @@ Du kan når som helst slå denne funksjonen på eller av, og den påvirker ikke 
     <string name="try_again_button_label">Prøv igjen</string>
     <string name="close_button_label">Lukk</string>
     <string name="got_it_button_label">Skjønner</string>
-    <string name="ok_button_label">OK</string>
     <string name="google_legal_title">Juridisk informasjon fra Google</string>
     <string name="url_load_unsuccessful_message">Telefonen din er ikke koblet til en mobildatatjeneste. Gå til %s i en nettleser for å se denne informasjonen nå.</string>
     <string name="start">Start</string>
@@ -133,7 +153,13 @@ Når telefonen er slått av, trykker du på strømknappen for å slå den på ig
     <string name="date_time_message">Juster hvis nødvendig.</string>
     <string name="date_time_current_date">Dato</string>
     <string name="date_time_current_time">Tid</string>
-    <string name="date_time_time_zone_full" formatted="false">%s (%s)</string>
+    <string name="location_sharing_title">Google og posisjonen din</string>
+    <string name="tos_title">Google-tjenester</string>
+    <string name="tos_agreement_text">Denne telefonen kan også motta og installere oppdateringer fra Google. Ved å fortsette samtykker du i <annotation id="tos">Googles Vilkår for bruk</annotation> samt <annotation id="google_privacy">personvernreglene</annotation>.</string>
+    <string name="tos_agreement_text_germany">Du godtar også at enheten kan motta og installere oppdateringer fra Google. Når du bruker denne enheten gjelder <annotation id="google_privacy">personvernreglene</annotation> og <annotation id="tos">ekstravilkårene</annotation>.</string>
+    <string name="setup_complete_title">Konfigureringen er fullført</string>
+    <string name="setup_complete_message">Telefonen din er konfigurert og klar til bruk.</string>
+    <string name="backup_assistant_prompt">Start Verizon Backup Assistant for å gjenopprette kontakter fra en annen Verizon-telefon.</string>
     <string name="sim_missing_title">Sett inn SIM-kortet</string>
     <string name="sim_setup_title">Konfigurer SIM-kortene</string>
     <string name="sim_setup_select_data">Velg et SIM-kort for mobildata</string>
@@ -144,13 +170,13 @@ Når telefonen er slått av, trykker du på strømknappen for å slå den på ig
     <string name="walled_garden_check_indefinite_text">Dette kan ta en stund</string>
     <string name="walled_garden_skipped_message">"Hvis du hopper over dette:
 
-Telefonen kommer ikke til å ha Internett-tilkobling.
+Telefonen vil ikke ha Internett-tilkobling.
 
 Du får ikke programvareoppdateringer før du er koblet til Internett.
 
 Du kan ikke aktivere funksjonene for enhetsbeskyttelse nå."</string>
     <string name="walled_garden_connection_failed">Tar det for lang tid? Prøv å gå tilbake og koble til et annet nettverk.</string>
-    <string name="walled_garden_connection_unsuccessful">Kunne ikke koble til Internett</string>
+    <string name="walled_garden_connection_unsuccessful">Kan ikke koble til Internett</string>
     <string name="ota_update_title">Oppdater telefonen</string>
     <string name="ota_info">Telefonen din må laste ned en oppdatering og starte på nytt.</string>
     <string name="ota_size">Størrelse: %s</string>
@@ -172,27 +198,19 @@ Du kan ikke aktivere funksjonene for enhetsbeskyttelse nå."</string>
     <string name="continue_for_a11y">Trykk og hold inne på skjermen til du hører en pipelyd for å aktivere Tilgjengelighetsmodusen.</string>
     <string name="canceled_a11y">Tilgjengelighetsmodus er avbrutt.</string>
     <string name="enabled_a11y">Tilgjengelighetsmodus er aktivert.</string>
-    <string name="welcome_message">Velkommen</string>
-    <string name="emergency_dial">Nødsituasjon</string>
-    <string name="welcome_language_picker_dialog_title">Velg språk</string>
-    <string name="welcome_language_picker_section_suggested">Foreslått</string>
-    <string name="welcome_language_picker_section_all">Alle språk</string>
+    <string name="emergency_dial">Nødanrop</string>
     <string name="welcome_language_picker_content_description">Språk: %s</string>
     <string name="lock_screen_intro_title">Beskytt telefonen</string>
-    <string name="lock_screen_intro_text">Hindre at andre bruker denne telefonen uten din tillatelse, ved å aktivere funksjoner for enhetsbeskyttelse. <annotation id="learn_more">Finn ut mer</annotation></string>
-    <string name="lock_screen_intro_text_secondary">Du får veiledning til å konfigurere skjermlåsen din hvis du velger ja.</string>
+    <string name="lock_screen_intro_text">"Hindre andre i å bruke denne telefonen uten din tillatelse ved å aktivere funksjonene for enhetsbeskyttelse.
+"<annotation id="learn_more">Les mer</annotation></string>
+    <string name="lock_screen_intro_text_secondary">Du blir veiledet gjennom konfigurasjonen av låseskjermen hvis du velger ja.</string>
     <string name="lock_screen_intro_check_box"><b>Beskytt denne enheten</b> og krev PIN-kode, mønster eller passord for å låse opp skjermen</string>
-    <string name="lock_screen_intro_radio_fingerprint">Konfigurer fingeravtrykk</string>
-    <string name="lock_screen_intro_radio_generic">Konfigurer PIN-kode, mønster eller passord</string>
-    <string name="lock_screen_intro_radio_no">Nei takk</string>
-    <string name="lock_screen_intro_success">"Konfigurering av skjermlåsen din var vellykket.
-"<annotation id="learn_more">Finn ut mer</annotation></string>
-    <string name="lock_screen_intro_dialog_text_frp">"Enhetsbeskyttelsen aktiveres automatisk når du legger til en Google-konto og angir en skjermlås. Sammen med Android Enhetsbehandling kan du lokalisere og slette telefonen din hvis du mister den eller den blir stjålet.
+    <string name="lock_screen_intro_button">Angi skjermlås nå</string>
+    <string name="lock_screen_intro_success">Låseskjermen er angitt.</string>
+    <string name="lock_screen_intro_dialog_text">"Enhetsbeskyttelsen aktiveres automatisk når du legger til en Google-konto og angir en skjermlås. Sammen med Android Enhetsbehandling kan du lokalisere og slette telefonen din, og beskytte den fra å bli brukt hvis den blir mistet eller stjålet.
 
-Selv om innholdet på telefonen slettes, kan ingen andre bruke den uten passordet for Google-kontoen din."</string>
-    <string name="lock_screen_intro_dialog_text">Enhetsbeskyttelsen aktiveres automatisk når du legger til en Google-konto og angir en skjermlås. Sammen med Android Enhetsbehandling kan du lokalisere og slette telefonen din hvis du mister den eller den blir stjålet.</string>
-    <string name="lock_screen_intro_skip_dialog_text_frp">Funksjoner for enhetsbeskyttelse blir ikke aktivert. Du kommer ikke til å kunne hindre andre i å bruke telefonen hvis du mister den eller den blir stjålet eller slettet.</string>
-    <string name="lock_screen_intro_skip_dialog_text">Funksjoner for enhetsbeskyttelse blir ikke aktivert. Du kommer ikke til å kunne hindre andre fra å bruke denne telefonen hvis du mister den eller den blir stjålet.</string>
+Selv om telefonen din slettes, vil passordet til Google-kontoen din være påkrevd for å bruke denne telefonen."</string>
+    <string name="lock_screen_intro_skip_dialog_text">Funksjonene for enhetsbeskyttelse blir ikke aktivert. Du kan ikke hindre andre i å bruke denne telefonen hvis den blir mistet, stjålet eller slettet.</string>
     <string name="services_activity_title">Google-tjenester</string>
     <string name="services_backup_heading">Sikkerhetskopiering</string>
     <string name="services_location_heading">Posisjon</string>
@@ -204,45 +222,21 @@ Selv om innholdet på telefonen slettes, kan ingen andre bruke den uten passorde
     <string name="restore_wallpaper_title">Bakgrunnen gjenopprettes …</string>
     <string name="restore_device_settings_title">Enhetsinnstillingene gjenopprettes …</string>
     <string name="restore_launcher_title">Appoversikten gjenopprettes …</string>
-    <string name="restore_failed_message">Kunne ikke gjenopprette fra sikkerhetskopi.</string>
-    <string name="restore_no_backup_message">Ingen sikkerhetskopier er tilgjengelig for kildeenheten.</string>
-    <string name="restore_stopped_message">Dessverre stoppet enheten å gjenopprette data fra sikkerhetskopien.</string>
+    <string name="restore_failed_message">Kunne ikke gjenopprette fra sikkerhetskopi</string>
     <string name="name_title">Navn</string>
     <string name="name_text">Hvis du legger til navnet ditt, kan telefonen tilpasse enkelte apper.</string>
     <string name="first_name">Fornavn</string>
     <string name="last_name">Etternavn</string>
     <string name="cant_be_blank">Feltet må fylles ut.</string>
-    <string name="device_owner_warning_title">Telefonen kan overvåkes</string>
-    <string name="device_owner_warning">Denne telefonen administreres av «%1$s», hvilket betyr at noe av informasjonen din kan være synlig for andre folk. For å forhindre overvåking må du tilbakestille telefonen.</string>
-    <string name="device_owner_continue">Fortsett</string>
-    <string name="device_owner_reset">Tilbakestill telefonen</string>
-    <string name="factory_reset_title">Tilbakestill telefonen</string>
-    <string name="factory_reset_instructions">Advarsel: Tilbakestilling sletter alle kontoer og data i telefonens interne lagring.</string>
-    <string name="factory_reset_confirmation_title">Vil du tilbakestille?</string>
-    <string name="factory_reset_confirmation">Vil du slette alle kontoer og data på denne telefonen? Du kan ikke angre denne handlingen.</string>
-    <string name="factory_reset_button">Slett og tilbakestill</string>
-    <string name="restart_setup_wizard_dialog_title">Ikke pålogget</string>
-    <string name="restart_setup_wizard_dialog_text">"For å bruke denne telefonen må du først logge deg på den siste Google-kontoen som var i bruk før telefonen ble tilbakestilt.
-
-Fordi du ikke har gjort dette, må du konfigurere telefonen på nytt."</string>
-    <string name="restart_setup_wizard_button_label">Konfigurer telefonen</string>
-    <string name="sec_user_continue">Fortsett</string>
-    <string name="sec_user_quit">Avslutt</string>
-    <string name="user_warning_title">Konfigurer nye brukere</string>
-    <string name="welcome_secondary_user_added_text">%s har lagt deg til på denne telefonen.</string>
-    <string name="welcome_secondary_user_added_no_owner_name_text">Du er lagt til på denne telefonen.</string>
-    <string name="welcome_secondary_user_info_text"><b>Viktig:</b>"
-
-"<li><ul>Eieren av telefonen kan avinstallere appene dine eller fjerne lagringsplassen din fullstendig.</ul></li>"
-
-"<li><ul>Alle andre brukere kan godta oppdaterte apptillatelser på dine vegne.</ul></li>"
-
-"<li><ul>Som med alle andre datamaskiner, bør du bare dele denne telefonen med folk du stoler på.</ul></li></string>
-    <string name="welcome_limited_user_info_text">" "<b>Viktig:</b>"
-
- "<li><ul>Eieren av telefonen kan installere og avinstallere apper, angi grenser og fjerne lagringsplassen din fullstendig.</ul></li>"
-
- "<li><ul>Alle andre brukere kan godta oppdaterte apptillatelser på dine vegne.</ul></li>"
-
- "<li><ul>Som med alle andre datamaskiner, bør du bare dele denne telefonen med folk du stoler på. </ul></li></string>
+    <string name="lock_pin_confirm_your_pin_header">Bekreft PIN-koden</string>
+    <string name="lock_pin_choose_your_pin_header">Velg PIN-kode</string>
+    <string name="lock_pin_ok_label">OK</string>
+    <string name="lock_pin_cancel_label">Avbryt</string>
+    <string name="lock_pin_press_continue">Trykk på Fortsett når du er ferdig</string>
+    <string name="lock_pin_too_short">PIN-koden må inneholde minst %d sifre</string>
+    <string name="lock_pin_too_long">PIN-koden må inneholde færre enn %d sifre.</string>
+    <string name="lock_pin_illegal_character">Passordet inneholder et ugyldig tegn.</string>
+    <string name="lock_pin_contains_non_digits">PIN-koden kan bare inneholde tall fra 0 til 9.</string>
+    <string name="lock_pin_confirm_pins_dont_match">PIN-kodene samsvarer ikke</string>
+    <string name="lock_pin_continue_label">Fortsett</string>
 </resources>

@@ -1933,7 +1933,7 @@
     <string name="sponsored_sec_fb">Спонсорирани</string>
     <string name="add_game_notification_summary">Докоснете за стартиране и ускорение</string>
     <string name="app_manager_title">Управление на приложенията</string>
-    <string name="app_manager_app_lock">Заключване на приложения</string>
+    <string name="app_manager_uninstall">Деинсталиране</string>
     <string name="app_manager_bipartition">Клонирани приложения</string>
     <string name="app_manager_perm">Разрешения</string>
     <string name="app_manager_app_update">Актуализации</string>
@@ -2040,8 +2040,6 @@
     <string name="app_manager_cache_size">Кеш</string>
     <string name="app_manager_clear_all_data">Изчисти всички данни</string>
     <string name="app_manager_dlg_clear_cache_title">Изчисти кеша?</string>
-    <string name="app_manager_support_uninstall">Вие можете да деинсталирате тези приложения</string>
-    <string name="app_manager_not_support_uninstall">Не може да се деинсталират тези приложения</string>
     <string name="app_manager_comuting_size">Изчислява се…</string>
     <string name="app_manager_show_all_apps_opened">Покажи резултатите от всички приложения…</string>
     <string name="app_manager_search_prompt">Не може да намерите резултати? Опитайте показване на резултати от всички приложения.</string>

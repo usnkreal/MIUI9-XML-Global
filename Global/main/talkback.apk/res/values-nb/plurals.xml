@@ -16,10 +16,6 @@
         <item quantity="other">%1$s med %2$d elementer.</item>
         <item quantity="one">%1$s med %2$d element.</item>
     </plurals>
-    <plurals name="template_dump_event_count">
-        <item quantity="other">hendelser er valgt</item>
-        <item quantity="one">1 hendelse er valgt</item>
-    </plurals>
     <plurals name="template_list_column_count">
         <item quantity="other">%1$d kolonner</item>
         <item quantity="one">%1$d kolonne</item>
@@ -31,9 +27,5 @@
     <plurals name="template_list_total_count">
         <item quantity="other">%1$d elementer</item>
         <item quantity="one">%1$d element</item>
-    </plurals>
-    <plurals name="template_password_character_count">
-        <item quantity="other">%1$d tegn</item>
-        <item quantity="one">%1$d tegn</item>
     </plurals>
 </resources>

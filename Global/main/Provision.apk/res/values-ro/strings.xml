@@ -19,9 +19,10 @@ Vezi Politica de confidențialitate a tastaturii selectate."</string>
     <string name="other_settings_location">Locaţie</string>
     <string name="other_settings_location_summary">Permiteți aplicațiilor să acceseze locația dvs.</string>
     <string name="other_settings_user_experience">Programul de experiență al utilizatorului</string>
-    <string name="other_settings_user_experience_summary">Ajută la îmbunătățirea produselor și serviciilor noastre prin trimiterea de date anonime de utilizare.</string>
+    <string name="other_settings_user_experience_summary">Ajutați-ne să îmbunătățim produsele și serviciile noastre prin împărtășirea statisticilor de utilizare a dvs. Detalii</string>
+    <string name="other_settings_user_experience_summary_index">Detalii</string>
     <string name="other_settings_upload_debug_log_title">Trimite automat date de diagnosticare</string>
-    <string name="other_settings_upload_debug_log_summary">Informațiile pe care le colectăm vor fi folosite pentru a localiza și de a analiza problemele din sistem și poate conține informații cu caracter personal. Nu există date care vor fi folosite pentru a vă identifica personal.</string>
+    <string name="other_settings_upload_debug_log_summary">Statisticile de utilizare care ne ajută să găsim și să rezolvăm problemele pot conține informații personale</string>
     <string name="other_settings_auto_update">Instalați automat</string>
     <string name="other_settings_auto_update_summary">MIUI va selecta cel mai bun moment pentru a instala actualizări.</string>
     <string name="other_settings_ad_enable">Recomandare personalizată a anunțului</string>

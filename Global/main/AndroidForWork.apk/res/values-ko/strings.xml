@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setup_wizard_next_button_label">다음</string>
+    <string name="setup_wizard_back_button_label">뒤로</string>
+    <string name="app_name">Android Work 도우미</string>
+    <string name="android_for_work_title">기기 설정</string>
+    <string name="corp_owned_explanation">조직에서 내 기기를 제어하여 보안을 유지합니다.</string>
+    <string name="set_up">설정</string>
+    <string name="email_hint">이메일 주소</string>
+    <string name="code_hint">활성화 코드</string>
+    <string name="dialog_activation_code_title">활성화 코드</string>
+    <string name="dialog_activation_code_main_text">Android Work 계정을 설정하려면 조직에서 승인한 관리 앱을 설치해야 합니다. 이 앱을 설치하려면 활성화 코드가 필요합니다. IT 부서에 문의하여 코드를 받으세요.</string>
+    <string name="dialog_close">닫기</string>
+    <string name="dialog_cancel">취소</string>
+    <string name="dialog_ok">확인</string>
+    <string name="dialog_try_again">다시 시도</string>
+    <string name="error_dialog_mdm_lookup_failed">조직의 정보를 조회할 수 없습니다. 인터넷 연결을 확인한 후 다시 시도해 주세요.</string>
+    <string name="error_dialog_cert_hash_mismatch">앱 %1$이(가) 이미 설치되어 있습니다. 앱을 제거하고 다시 시도해 주세요.</string>
+    <string name="error_dialog_input_error">이메일 주소와 활성화 코드가 일치하지 않습니다. 오타가 없는지 확인한 다음 다시 시도하세요.</string>
+    <string name="lookup_progress_text">기기 관리 앱을 찾는 중...</string>
+</resources>

@@ -151,4 +151,5 @@
     <string name="head_set_tip_dialog_msg">Odpojte vaše slúchadlá pre možnosť nahrávania zvuku v rôzných režimoch (napr., Hudba, Hlas).</string>
     <string name="head_set_tip_dialog_ok">Rozumiem</string>
     <string name="rename_fail_tip">Súbor s týmto názvom už existuje.</string>
+    <string name="dialog_privacy_revoke_tips">Po zrušení autorizácie, aplikácia viac nebude zbierať dáta a všetky súvisiace dáta budú zmazané zo serverov. Aplikácia môže byť prakticky nepoužiteľná. Zrušiť autorizáciu napriek tomu? Pre zaručenie bezpečnosti účtu sa pred zrušením autorizácie pre Mi Cloud služby prihláste na i.mi.com.</string>
 </resources>

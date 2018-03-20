@@ -2,6 +2,7 @@
 <resources>
     <string name="uid_label">Медия</string>
     <string name="app_label">Хранилище на медии</string>
+    <string name="upgrade_msg">Базата от данни на носителите се надстройва.</string>
     <string name="artist_label">Изпълнител</string>
     <string name="ringtone_default">Стандартна мелодия</string>
     <string name="notification_sound_default">Стандартен звук за известяване</string>

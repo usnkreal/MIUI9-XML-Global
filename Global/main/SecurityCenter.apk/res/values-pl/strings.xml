@@ -1935,7 +1935,7 @@ Dodanie aplikacji do Autostartu pomaga w sytuacjach gdy widżet się nie aktuali
     <string name="sponsored_sec_fb">Sponsorowane</string>
     <string name="add_game_notification_summary">Dotknij aby uruchomić i przyspieszyć prędkość</string>
     <string name="app_manager_title">Zarządzanie aplikacjami</string>
-    <string name="app_manager_app_lock">Blokowanie aplikacji</string>
+    <string name="app_manager_uninstall">Odinstaluj</string>
     <string name="app_manager_bipartition">Sklonowane aplikacje</string>
     <string name="app_manager_perm">Uprawnienia</string>
     <string name="app_manager_app_update">Aktualizacje</string>
@@ -2042,8 +2042,6 @@ Dodanie aplikacji do Autostartu pomaga w sytuacjach gdy widżet się nie aktuali
     <string name="app_manager_cache_size">Pamięć podręczna</string>
     <string name="app_manager_clear_all_data">Wyczyść wszystkie dane</string>
     <string name="app_manager_dlg_clear_cache_title">Wyczyścić pamięć podręczną?</string>
-    <string name="app_manager_support_uninstall">Możesz odinstalować te aplikacje</string>
-    <string name="app_manager_not_support_uninstall">Nie można odinstalować tych aplikacji</string>
     <string name="app_manager_comuting_size">Obliczanie…</string>
     <string name="app_manager_show_all_apps_opened">Wyświetlanie wyników dla wszystkich aplikacji…</string>
     <string name="app_manager_search_prompt">Nie udało się niczego znaleźć? Spróbuj wyświetlić wyniki dla wszystkich aplikacji.</string>

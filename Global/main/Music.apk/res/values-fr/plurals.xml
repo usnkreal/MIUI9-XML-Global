@@ -73,16 +73,16 @@
         <item quantity="one">Supprimer %d chanson de Mi Cloud ? Elle sera supprimée des playlists locales également.</item>
     </plurals>
     <plurals name="download_finished">
-        <item quantity="other">&lt;font color==\"red\">%d chansons&lt;/font> téléchargées</item>
-        <item quantity="one">&lt;font color==\"red\">%d chanson&lt;/font> téléchargée</item>
+        <item quantity="other">&amp;lt;font color==\"red\">%d chansons&amp;lt;/font> téléchargées</item>
+        <item quantity="one">&amp;lt;font color==\"red\">%d chanson&amp;lt;/font> téléchargée</item>
     </plurals>
     <plurals name="download_info_count_deleted_tasks">
         <item quantity="other">%d téléchargements retirés</item>
         <item quantity="one">%d téléchargement retiré</item>
     </plurals>
     <plurals name="download_running">
-        <item quantity="other">&lt;font color==\"red\">%d chansons&lt;/font> en téléchargement</item>
-        <item quantity="one">&lt;font color==\"red\">%d chanson&lt;/font> en téléchargement</item>
+        <item quantity="other">&amp;lt;font color==\"red\">%d chansons&amp;lt;/font> en téléchargement</item>
+        <item quantity="one">&amp;lt;font color==\"red\">%d chanson&amp;lt;/font> en téléchargement</item>
     </plurals>
     <plurals name="multichoice_title">
         <item quantity="other">%d éléments sélectionnés</item>

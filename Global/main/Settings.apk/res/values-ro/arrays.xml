@@ -24,34 +24,6 @@
         <item>Notificările vor apărea în Panoul de notificări</item>
         <item>Notificările vor apărea într-un dosar separat</item>
     </string-array>
-    <string-array name="wifi_status">
-        <item></item>
-        <item>Se scanează…</item>
-        <item>Se conectează…</item>
-        <item>Autentificare…</item>
-        <item>Se obține adresă IP…</item>
-        <item>Conectat</item>
-        <item>Suspendat</item>
-        <item>Se deconectează…</item>
-        <item>Deconectat</item>
-        <item>Fără succes</item>
-        <item>Blocat</item>
-        <item>Evitați temporar conexiunea slabă</item>
-    </string-array>
-    <string-array name="wifi_status_with_ssid">
-        <item></item>
-        <item>Se scanează…</item>
-        <item>Se conectează la %1$s…</item>
-        <item>Autentificare cu %1$s…</item>
-        <item>Se obține adresă IP de la %1$s…</item>
-        <item>Conectat la %1$s</item>
-        <item>Suspendat</item>
-        <item>Se deconectează de la %1$s…</item>
-        <item>Deconectat</item>
-        <item>Fără succes</item>
-        <item>Blocat</item>
-        <item>Evitați temporar conexiunea slabă</item>
-    </string-array>
     <string-array name="timezone_filters">
         <item>America</item>
         <item>Europa</item>
@@ -98,7 +70,7 @@
         <item>Foarte mare</item>
     </string-array>
     <string-array name="tts_rate_entries">
-        <item>Foarte incet</item>
+        <item>Foarte încet</item>
         <item>Încet</item>
         <item>Normal</item>
         <item>Rapid</item>
@@ -106,18 +78,7 @@
         <item>Foarte repede</item>
         <item>Rapid</item>
         <item>Foarte rapid</item>
-        <item>Cel mai rapid</item>
-    </string-array>
-    <string-array name="tts_rate_values">
-        <item>60</item>
-        <item>80</item>
-        <item>100</item>
-        <item>150</item>
-        <item>200</item>
-        <item>250</item>
-        <item>300</item>
-        <item>350</item>
-        <item>400</item>
+        <item>Cel mai repede</item>
     </string-array>
     <string-array name="tts_pitch_entries">
         <item>Foarte scăzut</item>
@@ -126,16 +87,35 @@
         <item>Ridicată</item>
         <item>Foarte ridicat</item>
     </string-array>
-    <string-array name="wifi_eap_method">
-        <item>PEAP</item>
-        <item>TLS</item>
-        <item>TTLS</item>
-        <item>PWD</item>
-        <item>SIM</item>
-        <item>AKA</item>
-        <item>"AKA'"</item>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>În curs de scanare...</item>
+        <item>Se conectează...</item>
+        <item>În curs de autentificare…</item>
+        <item>Se obţine adresa IP...</item>
+        <item>Conectată</item>
+        <item>Suspendată</item>
+        <item>În curs de deconectare...</item>
+        <item>Deconectată</item>
+        <item>Nereuşit</item>
+        <item>Blocat</item>
+        <item>Evitarea temporară a conexiunii slabe</item>
     </string-array>
-    <string-array name="eap_method_without_sim_auth">
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>În curs de scanare...</item>
+        <item>Se conectează la %1$s...</item>
+        <item>Se autentifică cu %1$s…</item>
+        <item>Se obţine adresa IP de la %1$s…</item>
+        <item>Conectat la %1$s</item>
+        <item>Suspendată</item>
+        <item>În curs de deconectare de la %1$s...</item>
+        <item>Deconectată</item>
+        <item>Nereuşit</item>
+        <item>Blocat</item>
+        <item>Evitarea temporară a conexiunii slabe</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
         <item>PEAP</item>
         <item>TLS</item>
         <item>TTLS</item>
@@ -161,7 +141,7 @@
     </string-array>
     <string-array name="wifi_signal">
         <item>Slab</item>
-        <item>Acceptabil</item>
+        <item>Corect</item>
         <item>Bun</item>
         <item>Excelent</item>
     </string-array>
@@ -179,6 +159,10 @@
         <item>Ultimele 30 de zile</item>
         <item>Setați ciclu utilizare...</item>
     </string-array>
+    <string-array name="sim_card_data_range">
+        <item>Ultimele 4 cifre</item>
+        <item>Primele 4 cifre</item>
+    </string-array>
     <string-array name="wifi_frequency_band_entries">
         <item>Automat</item>
         <item>Numai pe 5 GHz</item>
@@ -187,7 +171,7 @@
     <string-array name="usage_stats_display_order_types">
         <item>Durată de utilizare</item>
         <item>Ultima utilizare</item>
-        <item>Numele aplicației</item>
+        <item>Numele aplicaţiei</item>
     </string-array>
     <string-array name="wifi_eap_entries">
         <item>PEAP</item>
@@ -228,22 +212,9 @@
         <item>IPv4/IPv6</item>
     </string-array>
     <string-array name="bearer_entries">
-        <item>Nespecificat</item>
         <item>LTE</item>
-        <item>HSPAP</item>
-        <item>HSPA</item>
-        <item>HSUPA</item>
-        <item>HSDPA</item>
-        <item>UMTS</item>
-        <item>EDGE</item>
-        <item>GPRS</item>
         <item>eHRPD</item>
-        <item>EVDO_B</item>
-        <item>EVDO_A</item>
-        <item>EVDO_0</item>
-        <item>1xRTT</item>
-        <item>IS95B</item>
-        <item>IS95A</item>
+        <item>Nespecificat</item>
     </string-array>
     <string-array name="mvno_type_entries">
         <item>Niciuna</item>
@@ -311,9 +282,6 @@
         <item>activați/dezactivați microfonul</item>
         <item>proiectați conținutul media</item>
         <item>activați serviciul VPN</item>
-        <item>scrie imaginea de fundal</item>
-        <item>structură de asistență</item>
-        <item>captură de ecran de asistență</item>
     </string-array>
     <string-array name="app_ops_labels">
         <item>Locație</item>
@@ -363,9 +331,6 @@
         <item>Activați/dezactivați microfonul</item>
         <item>Proiectați conținutul media</item>
         <item>Activați serviciul VPN</item>
-        <item>Scrie imaginea de fundal</item>
-        <item>Structură de asistență</item>
-        <item>Captură de ecran de asistență</item>
     </string-array>
     <string-array name="long_press_timeout_selector_titles">
         <item>Scurtă</item>
@@ -405,7 +370,7 @@
         <item>100%</item>
     </string-array>
     <string-array name="captioning_preset_selector_titles">
-        <item>Setările prestabilite</item>
+        <item>Util. setările prest. ale aplic.</item>
         <item>Alb pe negru</item>
         <item>Negru pe alb</item>
         <item>Galben pe negru</item>
@@ -413,88 +378,81 @@
         <item>Personalizată</item>
     </string-array>
     <string-array name="select_logd_size_titles">
-        <item>Dezactivat</item>
-        <item>64KB</item>
-        <item>256KB</item>
-        <item>1MB</item>
-        <item>4MB</item>
-        <item>16MB</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
-        <item>Dezactivat</item>
-        <item>64KB</item>
-        <item>256KB</item>
-        <item>1MB</item>
+        <item>64 K</item>
+        <item>256 K</item>
+        <item>1 M</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
-        <item>Dezactivat</item>
-        <item>64KB pe tampon de jurnal</item>
-        <item>256KB pe tampon de jurnal</item>
-        <item>1MB pe tampon de jurnal</item>
-        <item>4MB pe tampon de jurnal</item>
-        <item>16MB pe tampon de jurnal</item>
+        <item>64K/tampon jurnal</item>
+        <item>256K/tampon jurnal</item>
+        <item>1M/tampon jurnal</item>
+        <item>4M/tampon jurnal</item>
+        <item>16M/tampon jurnal</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
-        <item>Nu verificați niciodată</item>
-        <item>Verificați numai conținutul DRM</item>
-        <item>Întotdeauna verificați</item>
+        <item>Nu verifica niciodată</item>
+        <item>Verifică doar pentru conţinut DRM</item>
+        <item>Verifică întotdeauna</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
-        <item>Nu utilizați niciodată verificarea HDCP</item>
-        <item>Utilizați verificarea HDCP numai pentru conținutul DRM</item>
-        <item>Utilizați întotdeauna verificarea HDCP</item>
+        <item>Nu utiliza niciodată verificarea HDCP</item>
+        <item>Utilizează verificarea HDCP numai pentru conținut DRM</item>
+        <item>Utilizează întotdeauna verificarea HDCP</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
-        <item>Animație dezactivată</item>
-        <item>Scală de animație 0.5x</item>
-        <item>Scală de animație 1x</item>
-        <item>Scală de animație 1.5x</item>
-        <item>Scală de animație 2x</item>
-        <item>Scală de animație 5x</item>
-        <item>Scală de animație 10x</item>
+        <item>Animaţie dezactivată</item>
+        <item>Animaţie la scara 0,5x</item>
+        <item>Animaţie la scara 1x</item>
+        <item>Animaţie la scara 1,5x</item>
+        <item>Animaţie la scara 2x</item>
+        <item>Animaţie la scara 5x</item>
+        <item>Animaţie la scara 10x</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
-        <item>Animație dezactivată</item>
-        <item>Scală de animație 0.5x</item>
-        <item>Scală de animație 1x</item>
-        <item>Scală de animație 1.5x</item>
-        <item>Scală de animație 2x</item>
-        <item>Scală de animație 5x</item>
-        <item>Scală de animație 10x</item>
+        <item>Animaţie dezactivată</item>
+        <item>Animaţie la scara 0,5x</item>
+        <item>Animaţie la scara 1x</item>
+        <item>Animaţie la scara 1,5x</item>
+        <item>Animaţie la scara 2x</item>
+        <item>Animaţie la scara 5x</item>
+        <item>Animaţie la scara 10x</item>
     </string-array>
     <string-array name="animator_duration_scale_entries">
-        <item>Animație dezactivată</item>
-        <item>Scală de animație 0.5x</item>
-        <item>Scală de animație 1x</item>
-        <item>Scală de animație 1.5x</item>
-        <item>Scală de animație 2x</item>
-        <item>Scală de animație 5x</item>
-        <item>Scală de animație 10x</item>
+        <item>Animaţie dezactivată</item>
+        <item>Animaţie la scara 0,5x</item>
+        <item>Animaţie la scara 1x</item>
+        <item>Animaţie la scara 1,5x</item>
+        <item>Animaţie la scara 2x</item>
+        <item>Animaţie la scara 5x</item>
+        <item>Animaţie la scara 10x</item>
     </string-array>
     <string-array name="overlay_display_devices_entries">
-        <item>Niciunul</item>
-        <item>480p</item>
-        <item>480p (sigur)</item>
-        <item>720p</item>
-        <item>720p (sigur)</item>
-        <item>1080p</item>
-        <item>1080p (sigur)</item>
-        <item>4K</item>
-        <item>4K (sigur)</item>
-        <item>4K (pe o scară mai mare)</item>
-        <item>4k (pe o scară mai mare, sigur)</item>
-        <item>720p, 1080p (ecran dublu)</item>
+        <item>Niciuna</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (securizat)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (securizat)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (securizat)</item>
+        <item>1280x720 tvdpi şi 1920x1080 xhdpi</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
-        <item>Niciunul</item>
+        <item>Niciuna</item>
         <item>Logcat</item>
-        <item>Systrace (Grafică)</item>
-        <item>Stivă de apel pe glGetError</item>
+        <item>Systrace (imagini)</item>
+        <item>Apelaţi stiva pentru glGetError</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
         <item>Dezactivat</item>
-        <item>Desenați o regiune clip nerectangulare în albastru</item>
-        <item>Evidențiați comenzile de desen testate în verde</item>
+        <item>Zonă decupare non-rectangulară albastră</item>
+        <item>Controale de desenare testate, cu verde</item>
     </string-array>
     <string-array name="track_frame_time_entries">
         <item>Dezactivat</item>
@@ -502,9 +460,9 @@
         <item>În adb shell dumpsys gfxinfo</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
-        <item>Dezactivat</item>
-        <item>Afișați zonele de descărcare în exces</item>
-        <item>Afișați zone pentru Deuteranomalie</item>
+        <item>Dezactivată</item>
+        <item>Afișați zonele cu suprapunere</item>
+        <item>Afișați zonele de deuteranomalie</item>
     </string-array>
     <string-array name="app_process_limit_entries">
         <item>Limita standard</item>
@@ -518,9 +476,9 @@
         <item>PPTP VPN</item>
         <item>L2TP/IPSec VPN cu chei predistribuite</item>
         <item>L2TP/IPSec VPN cu certificate</item>
-        <item>IPSec VPN cu chei predistribuite și autentificare Xauth</item>
-        <item>IPSec VPN cu certificate și autentificare Xauth</item>
-        <item>IPSec VPN cu certificate și autentificare hibridă</item>
+        <item>IPSec VPN cu chei predistribuite şi autentificare Xauth</item>
+        <item>IPSec VPN cu certificate şi autentificare Xauth</item>
+        <item>IPSec VPN cu certificate şi autentificare hibridă</item>
     </string-array>
     <string-array name="vpn_states">
         <item>Deconectată</item>
@@ -536,11 +494,15 @@
         <item>Permiteţi întotdeauna</item>
     </string-array>
     <string-array name="ram_states">
-        <item>Normală</item>
-        <item>Moderată</item>
-        <item>Scăzută</item>
-        <item>Critică</item>
-        <item>\?</item>
+        <item>normală</item>
+        <item>medie</item>
+        <item>redusă</item>
+        <item>critică</item>
+    </string-array>
+    <string-array name="entries_zen_mode">
+        <item>Dezactivat</item>
+        <item>Întreruperi limitate</item>
+        <item>Zero întreruperi</item>
     </string-array>
     <string-array name="proc_stats_memory_states">
         <item>Normală</item>
@@ -563,30 +525,6 @@
         <item>În cache (activitate)</item>
         <item>În cache (client de activitate)</item>
         <item>În cache (gol)</item>
-    </string-array>
-    <string-array name="color_picker">
-        <item>Turcoaz</item>
-        <item>Albastru</item>
-        <item>Indigo</item>
-        <item>Violet</item>
-        <item>Roz</item>
-        <item>Roșu</item>
-    </string-array>
-    <string-array name="usb_configuration_titles">
-        <item>@string/usb_use_charging_only</item>
-        <item>MTP (Media Transfer Protocol)</item>
-        <item>PTP (Protocol de transfer poze)</item>
-        <item>RNDIS (USB Ethernet)</item>
-        <item>Sursă audio</item>
-        <item>MIDI</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_choices">
-        <item>Se preferă conexiunea Wi-Fi</item>
-        <item>Se preferă conexiunea mobilă</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_values">
-        <item>2</item>
-        <item>1</item>
     </string-array>
     <string-array name="haptic_feedback_level_texts">
         <item>Oprit</item>
@@ -639,10 +577,6 @@
         <item>Cyan</item>
         <item>Alb</item>
         <item>Violet</item>
-    </string-array>
-    <string-array name="screen_key_position_action">
-        <item>Butonul de meniu în stânga, butonul Înapoi în dreapta</item>
-        <item>Butonul înapoi în stânga, butonul de meniu în dreapta</item>
     </string-array>
     <string-array name="screen_key_press_action">
         <item>Arată ultimile aplicaţii accesate</item>
@@ -721,7 +655,7 @@
     </string-array>
     <string-array name="msd_pc_system_retry_linux">
         <item>Instalați instrumentul: sudo aptitude install mtpfs libfuse-dev libmad0-dev</item>
-        <item>Creați un director: mkdir /media/mtp</item>
+        <item>Creați un dosar: mkdir /media/mtp</item>
         <item>Confirmați permisiunile grupului de utilizatori din grupul de utilizatori de siguranțe</item>
         <item>Conectați-vă din nou</item>
         <item>Accesați dispozitivul montat: mtpfs /media/mtp prin intermediul programului de explorare a fișierelor; la fel ca directorul local</item>
@@ -774,16 +708,6 @@
     <string-array name="wifi_ssid_type_entries">
         <item>Conectare automată</item>
         <item>Conectare manuală</item>
-    </string-array>
-    <string-array name="traffic_balance_entries">
-        <item>Dezactivat</item>
-        <item>Regular</item>
-        <item>Extrem</item>
-    </string-array>
-    <string-array name="traffic_balance_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
     <string-array name="preferred_app_entries">
         <item>Lansator</item>
@@ -958,18 +882,34 @@
         <item>Parola de confidențialitate</item>
         <item>Mod copil</item>
         <item>Fişier Explorer</item>
-        <item>Blocare aplicație</item>
+        <item>Al doilea spațiu</item>
         <item>Al doilea spațiu</item>
     </string-array>
-    <string-array name="screen_button_style">
-        <item>Stilul de mână stângă</item>
-        <item>Stilul de mână dreaptă</item>
-    </string-array>
     <string-array name="city_name">
+        <item>Midway</item>
+        <item>Regina</item>
+        <item>Manaus</item>
+        <item>Recife</item>
+        <item>Godthab</item>
+        <item>South_Georgia</item>
+        <item>Azores</item>
+        <item>Windhoek</item>
+        <item>Tbilisi</item>
+        <item>Yerevan</item>
+        <item>Oral</item>
+        <item>Yekaterinburg</item>
+        <item>Katmandu</item>
+        <item>Krasnoyarsk</item>
+        <item>Irkutsk</item>
+        <item>Yakutsk</item>
+        <item>Hobart</item>
+        <item>Vladivostok</item>
+        <item>Magadan</item>
+        <item>Majuro</item>
         <item>Abidjan</item>
         <item>Accra</item>
         <item>Addis Ababa</item>
-        <item>Alger</item>
+        <item>Algiers</item>
         <item>Blantyre</item>
         <item>Brazzaville</item>
         <item>Cairo</item>
@@ -1004,14 +944,14 @@
         <item>Buenos Aires</item>
         <item>Cancun</item>
         <item>Caracas</item>
-        <item>Insulele Cayman</item>
+        <item>Cayman Islands</item>
         <item>Chicago</item>
         <item>Costa Rica</item>
         <item>Curaçao</item>
         <item>Dawson Creek</item>
         <item>Denver</item>
         <item>Detroit</item>
-        <item>Republica Dominicană</item>
+        <item>Dominica</item>
         <item>Edmonton</item>
         <item>El Salvador</item>
         <item>Fortaleza</item>
@@ -1065,7 +1005,7 @@
         <item>Amman</item>
         <item>Anadyr</item>
         <item>Aqtau</item>
-        <item>Bagdad</item>
+        <item>Baghdad</item>
         <item>Bahrain</item>
         <item>Baku</item>
         <item>Bangkok</item>
@@ -1091,7 +1031,7 @@
         <item>Phnom Penh</item>
         <item>Pyongyang</item>
         <item>Qatar</item>
-        <item>Rangoon</item>
+        <item>Yangon</item>
         <item>Riyadh</item>
         <item>Seul</item>
         <item>Shanghai</item>
@@ -1244,7 +1184,7 @@
         <item>Chihuahua</item>
         <item>Gurugram</item>
         <item>Manchester</item>
-        <item>Kyiv</item>
+        <item>Kiev</item>
         <item>St. Petersburg</item>
         <item>Cracovia</item>
         <item>Wroclaw</item>
@@ -1409,16 +1349,16 @@
         <item>Zilele săptămânii</item>
         <item>Personalizat</item>
     </string-array>
+    <string-array name="standard_configuration_version">
+        <item>3.00GB</item>
+        <item>16GB</item>
+        <item>Quad-core Max 2.5GHz</item>
+    </string-array>
     <string-array name="privacy_password_function_specfication_names">
         <item>Mesaje</item>
         <item>Fotografii</item>
         <item>Fişiere</item>
         <item>Note</item>
-    </string-array>
-    <string-array name="standard_configuration_version">
-        <item>3.00GB</item>
-        <item>16GB</item>
-        <item>Quad-core Max 2.5GHz</item>
     </string-array>
     <string-array name="install_non_market_app_entries">
         <item>Pornește ( recomandat)</item>
@@ -1427,21 +1367,6 @@
     <string-array name="install_non_market_app_contents">
         <item>Porniţi</item>
         <item>Nu utiliza</item>
-    </string-array>
-    <string-array name="color_mode_names">
-        <item>Vibrant (implicit)</item>
-        <item>Natural</item>
-        <item>Standard</item>
-    </string-array>
-    <string-array name="color_mode_descriptions">
-        <item>Culori intensificate</item>
-        <item>Culorile naturale văzute de ochi</item>
-        <item>Culori optimizate pentru conținut digital</item>
-    </string-array>
-    <string-array name="battery_labels">
-        <item>0%</item>
-        <item>50%</item>
-        <item>100%</item>
     </string-array>
     <string-array name="standard_configuration_version_description_primary">
         <item>CPU</item>
@@ -1452,7 +1377,7 @@
         <item>Versiune Android</item>
     </string-array>
     <string-array name="standard_configuration_version_description_secondary">
-        <item>Snapdragon 430</item>
+        <item>Snapdragon 616</item>
         <item>4000mAh(typ)</item>
         <item>13MP</item>
         <item>5 inches</item>

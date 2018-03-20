@@ -199,6 +199,9 @@ http://zhushou.xiaomi.com"</string>
     <string name="confirm_local_package_wipe_title">Wymazać dane?</string>
     <string name="confirm_local_package_wipe_msg">Osobiste dane użytkownika zostaną wymazane. Upewnij się, że wykonałeś kopię swoich danych.</string>
     <string name="confirm_local_package_wipe_btn">Wymaż dane i zaktualizuj</string>
+    <string name="file_path_error_title">Nieprawidłowa ścieżka</string>
+    <string name="file_path_error_msg">Upewnij się, że ścieżka do pakietu aktualizacyjnego zawiera tylko litery i cyfry.</string>
+    <string name="file_path_error_btn">Rozumiem</string>
     <string name="delay_update_text">Aktualizuj dziś w nocy</string>
     <string name="dialog_delay_update_title">Aktualizacja jest dostępna</string>
     <string name="dialog_delay_update_msg">Aktualizacje zostaną zainstalowane pomiędzy 2:00, a 5:00 rano, jeśli poziom baterii wyniesie co najmniej 30%.</string>

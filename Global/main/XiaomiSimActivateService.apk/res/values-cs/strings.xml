@@ -115,6 +115,6 @@ Zadejte telefonní číslo nové SIM karty pro opětovnou aktivaci %s"</string>
     <string name="phone_get_text">Povolit %1$s získání vašeho telefonního čísla (%2$s) pro kontrolu shody?</string>
     <string name="phone_get_processing">Získávání…</string>
     <string name="agree">Povolit</string>
-    <string name="privacy_revoke_tips">After you revoke authorization, Messaging will stop collecting your data and delete all your data from its servers. Sync with Mi Cloud, Mi Message, and other Messaging features will no longer be available. Revoke authorization anyway?</string>
-    <string name="privacy_revoke_failed_msg">Activation requires granting authorization so that Messaging could get your phone number.</string>
+    <string name="privacy_revoke_tips">Po odebrání oprávnění, aplikace Zprávy přestane shromažďovat vaše údaje a smaže veškerá data ze serverů. Synchronizace s Mi Cloudem, Mi Zprávami a další funkce aplikace Zprávy nebudou již nadále dostupné. Chcete oprávnění přesto odebrat?</string>
+    <string name="privacy_revoke_failed_msg">Aktivace vyžaduje udělení oprávnění aplikaci Zprávy pro získání vašeho telefonního čísla.</string>
 </resources>

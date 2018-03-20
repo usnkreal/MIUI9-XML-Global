@@ -19,8 +19,9 @@
     <string name="abc_shareactionprovider_share_with">Sdílet pomocí</string>
     <string name="abc_shareactionprovider_share_with_application">Sdílet pomocí %s</string>
     <string name="abc_toolbar_collapse_description">Sbalit</string>
-    <string name="access_as_visitors_title">Všichni ostatní</string>
-    <string name="access_via_team_drive_title">Přístup přes: %1$s</string>
+    <string name="access_request_accepted">Přijato</string>
+    <string name="access_request_give_access">Umožnit přístup</string>
+    <string name="access_request_reply">Odpovědět</string>
     <string name="accessbility_suggestion_dropdown_closed">Nejsou k dispozici žádné návrhy</string>
     <string name="accessbility_suggestion_dropdown_opened">Otevřené návrhy kontaktů</string>
     <string name="account_item">Přepnout na účet %1$s</string>
@@ -39,8 +40,8 @@
     <string name="action_card_announce_untrash">Položka byla obnovena</string>
     <string name="action_card_download">Stáhnout</string>
     <string name="action_card_download_content_desc">Stáhnout kopii</string>
-    <string name="action_card_export">Odeslat kopii</string>
-    <string name="action_card_export_content_desc">Odeslat kopii</string>
+    <string name="action_card_export">Odeslat soubor</string>
+    <string name="action_card_export_content_desc">Odeslat soubor</string>
     <string name="action_card_folder_color">Změnit barvu</string>
     <string name="action_card_get_link">Sdílet odkaz</string>
     <string name="action_card_move">Přesunout</string>
@@ -53,7 +54,6 @@
     <string name="action_card_remove_content_desc">Odstranit položku</string>
     <string name="action_card_remove_permanently">Trvale smazat</string>
     <string name="action_card_remove_permanently_content_desc">Trvale smazat položku</string>
-    <string name="action_card_remove_td_item">Smazat všem</string>
     <string name="action_card_rename">Přejmenovat</string>
     <string name="action_card_rename_content_desc">Přejmenovat položku</string>
     <string name="action_card_share">Přidat uživatele</string>
@@ -83,18 +83,12 @@
     <string name="add_account">Přidat účet</string>
     <string name="add_collaborator_accept">Přidat</string>
     <string name="add_collaborators">Přidat uživatele</string>
-    <string name="add_collaborators_acl_list_title">Kdo má přístup</string>
     <string name="add_collaborators_hint">Zadejte jméno nebo e-mail</string>
-    <string name="add_collaborators_send_button_content_desc">Potvrdit sdílení a odeslat spolupracovníkům</string>
+    <string name="add_collaborators_send_button_content_desc">Potvrdit sdílení a odeslat spolupracovníkům</string>
     <string name="add_collaborators_textbox_title">Lidé</string>
-    <string name="add_members_acl_list_title">Členové disku %1$s</string>
-    <string name="add_members_dialog_title">Přidat členy</string>
-    <string name="add_members_send_button_content_desc">Potvrdit přidání členů a odeslat členům</string>
-    <string name="add_members_textbox_title">Členové</string>
     <string name="alphabet_set">0123456789AÁBCČDĎEÉĚFGHCHIÍJKLMNŇOÓPQRŘSŠTŤUÚVWXYÝZŽ</string>
     <string name="announce_account_switch">Účet byl přepnut na %1$s.</string>
     <string name="announce_account_using">Používáte účet: %1$s.</string>
-    <string name="announce_action_undone">Akce byla vrácena.</string>
     <string name="announce_collection_removed">Složka byla odstraněna.</string>
     <string name="announce_create_new">Vytvořit nový</string>
     <string name="announce_document_removed">Soubor byl odstraněn.</string>
@@ -106,8 +100,6 @@
     <string name="announce_search_found_no_item">Nebyly nalezeny žádné výsledky.</string>
     <string name="announce_select_to_change">chcete-li položku změnit, vyberte ji</string>
     <string name="announce_sort_order_and_direction">Řazeno podle: %1$s, %2$s</string>
-    <string name="announce_swatch_checked">Barva %1$s je zaškrtnuta</string>
-    <string name="announce_swatch_not_checked">Barva %1$s není zaškrtnuta</string>
     <string name="app_installation_in_progress">Probíhá instalace…</string>
     <string name="app_installation_in_progress_toast">Probíhá instalace. Podrobnosti najdete v oznámeních.</string>
     <string name="app_installed_dialog_drive_installed_title">Disk Google nainstalován</string>
@@ -121,19 +113,27 @@
     <string name="app_name_drive">Disk</string>
     <string name="app_restrictions_description">Pokud chcete používání místních rozhraní API pro tisk zakázat, nastavte tuto možnost na hodnotu „false“</string>
     <string name="app_restrictions_title">Aplikace může používat místní rozhraní API pro tisk</string>
-    <string name="apps">Aplikace</string>
-    <string name="apps_footer_text">Počet aplikací: %s</string>
-    <string name="apps_predict_carousel_title">Rychlý přístup</string>
     <string name="apps_predict_doclist_suggestions_header">Instatní položky</string>
     <string name="apps_predict_open_error">Položku se nepodařilo otevřít.</string>
-    <string name="apps_predict_overlay_close_button">Zavřít</string>
     <string name="apps_predict_overlay_introduction_header">Nové navrhované položky</string>
     <string name="apps_predict_overlay_introduction_text">Disk nyní automaticky navrhuje položky, které byste mohli chtít použít. Pokud se v návrzích netrefí, můžete je přejetím prstem jednoduše odmítnout.</string>
     <string name="apps_predict_overlay_title_assistant">Našeptávač</string>
     <string name="apps_predict_overlay_title_items_now">Položky, které byste mohli chtít</string>
     <string name="apps_predict_overlay_title_smart_items">Chytré položky</string>
+    <string name="apps_predict_reason_frequently_accessed">Často používáno</string>
+    <string name="apps_predict_reason_outstanding_comments">Obsahuje nevyřízené komentáře</string>
+    <string name="apps_predict_reason_recent_activity">Na základě nedávné aktivity</string>
+    <string name="apps_predict_reason_recently_accessed">Nedávno používáno</string>
+    <string name="apps_predict_reason_recently_commented_on">Nedávno okomentováno</string>
+    <string name="apps_predict_reason_recently_notified">Nedávno předmětem oznámení</string>
+    <string name="apps_predict_reason_recently_shared_with_you">Nedávno s vámi sdíleno</string>
+    <string name="apps_predict_reason_recently_updated">Nedávno aktualizováno</string>
+    <string name="apps_predict_reason_related_to_recent_document">Souvisí s nedávným dokumentem</string>
+    <string name="apps_predict_reason_time_of_day">Obvykle používáno v tuto dobu</string>
     <string name="apps_predict_suggestions_dismissed_undo">Návrhy odmítnuty</string>
     <string name="apps_with_backup">Aplikace zálohované na Disku Google</string>
+    <string name="ask_confirmation_for_document_deletion">Opravdu chcete tento soubor odstranit?</string>
+    <string name="ask_confirmation_for_folder_deletion">Opravdu chcete tuto složku odstranit?</string>
     <string name="audio_info_loading">Načítání</string>
     <string name="authentication_error">Chyba při ověřování</string>
     <string name="auto_backup_open_settings_page_failure_toast">Stránku nastavení automatického zálohování se nepodařilo otevřít. Zkuste to znovu později.</string>
@@ -143,10 +143,8 @@
     <string name="backup_app_footer_text" formatted="false">%s zálohováno %s</string>
     <string name="backup_banner_msg">Začíná zálohování vašeho zařízení na Disk</string>
     <string name="backup_complete_msg">Zálohování dokončeno</string>
-    <string name="backup_data">Zálohovat data</string>
     <string name="backup_disabled_for_account">Zálohování tohoto zařízení je aktivováno pro uživatele %s. V každém zařízení můžete zálohovat jen jeden účet.</string>
     <string name="backup_disabled_for_device">K dispozici nejsou žádná zálohovaná data. Aktivujte zálohování tohoto zařízení a počkejte 24 hodin, až se data uloží.</string>
-    <string name="backup_entity_footer_text">Naposledy zálohováno: %s</string>
     <string name="backup_failed_msg">Zálohování nebylo úspěšné</string>
     <string name="backup_help_card_content">Obrázky, soubory a nastavení aplikací se z vašeho zařízení automaticky zálohují do aplikace %s</string>
     <string name="backup_help_card_title">Zálohování dat na Disk Google</string>
@@ -154,9 +152,7 @@
     <string name="backup_now">Zálohovat</string>
     <string name="backup_preferences">Automatické zálohování pro aplikace</string>
     <string name="backup_retry_msg">Klepnutím to zkuste znovu</string>
-    <string name="backup_settings">Nastavení zálohování</string>
-    <string name="backup_view_error">Nepodařilo se vypsat zálohovaná data. Zkontrolujte síťové připojení nebo to zkuste znovu za chvíli.</string>
-    <string name="basesearchsuggestion_date_modified_label">Změněno: %1$s</string>
+    <string name="basesearchsuggestion_date_modified_label">Změněno: %s</string>
     <string name="button_create_contact">Vytvořit nový kontakt</string>
     <string name="button_exit">Ukončit</string>
     <string name="button_ok">OK</string>
@@ -166,64 +162,52 @@
     <string name="buy_content_description">Koupit %1$s za %2$s</string>
     <string name="cakemix_device_offline">Chybí připojení</string>
     <string name="cakemix_problem_with_file">Problém se souborem</string>
-    <string name="cakemix_video_unprocessed">Toto video zpracováváme. Zkuste to prosím později.</string>
-    <string name="calendar">Kalendář</string>
-    <string name="calendar_footer_text">Synchronizováno s Kalendářem Google</string>
-    <string name="calendar_message">Události kalendáře jsou v zařízeních synchronizovány pomocí Kalendáře Google.</string>
-    <string name="call_history">Historie hovorů</string>
-    <string name="call_history_message">Záloha zahrnuje datum a jméno volajícího u příchozích i odchozích hovorů.</string>
+    <string name="cakemix_video_unprocessed">Toto video nelze zpracovat.</string>
     <string name="camera_ocr_error_capture">Chyba při pořizování fotografie</string>
     <string name="camera_ocr_no_sdcard">Před použitím fotoaparátu prosím vložte SD kartu.</string>
-    <string name="carbon_device_extra_delete_confirmation_message">"
-
-Fotky, kontakty a události kalendáře synchronizované z tohoto zařízení nebudou smazány."</string>
+    <string name="check_connection_tap_to_retry">Zkontrolujte připojení a klepnutím to zkuste znovu</string>
     <string name="chips_action_cancel">Zrušit</string>
     <string name="chips_action_copy">Kopírovat</string>
     <string name="chips_permission_text">Povolit návrhy kontaktů</string>
     <string name="clear_cache">Vymazat mezipaměť</string>
     <string name="clear_cache_cleared_message">Mezipaměť dokumentů byla vymazána.</string>
-    <string name="clear_cache_clearing_message">Vymazávání mezipaměti</string>
     <string name="clear_cache_message">Mezipaměť dokumentů bude vymazána.</string>
-    <string name="common_google_play_services_api_unavailable_text">Aplikace %1$s vyžaduje jednu nebo více služeb Google Play, které aktuálně nejsou k dispozici. S žádostí o pomoc se obraťte na vývojáře.</string>
+    <string name="comment_quote">Citace: %1$s</string>
+    <string name="common_android_wear_notification_needs_update_text">Aplikace %1$s vyžaduje aktualizaci aplikace Android Wear.</string>
+    <string name="common_android_wear_update_text">Aplikace %1$s bude fungovat po aktualizaci aplikace Android Wear.</string>
+    <string name="common_android_wear_update_title">Aktualizujte aplikaci Android Wear</string>
+    <string name="common_google_play_services_api_unavailable_text">Aplikace %1$s vyžaduje jednu nebo více služeb Google Play, které aktuálně nejsou k dispozici. S žádostí o pomoc se obraťte na vývojáře.</string>
     <string name="common_google_play_services_enable_button">Aktivovat služby Google Play</string>
     <string name="common_google_play_services_enable_text">Ke spuštění aplikace %1$s je třeba aktivovat služby Google Play.</string>
-    <string name="common_google_play_services_enable_title">Aktivace služeb Google Play</string>
-    <string name="common_google_play_services_install_button">Instalace služeb Google Play</string>
-    <string name="common_google_play_services_install_text_phone">Ke spuštění aplikace %1$s jsou potřeba služby Google Play, které v telefonu nemáte.</string>
-    <string name="common_google_play_services_install_text_tablet">Ke spuštění aplikace %1$s jsou potřeba služby Google Play, které v tabletu nemáte.</string>
-    <string name="common_google_play_services_install_title">Instalace služeb Google Play</string>
-    <string name="common_google_play_services_invalid_account_text">Uvedený účet v tomto zařízení není k dispozici. Vyberte jiný účet.</string>
+    <string name="common_google_play_services_enable_title">Aktivovat služby Google Play</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Požadováno aplikací %1$s</string>
+    <string name="common_google_play_services_install_button">Instalovat služby Google Play</string>
+    <string name="common_google_play_services_install_text_phone">Ke spuštění aplikace %1$s jsou potřeba služby Google Play, které v telefonu nemáte.</string>
+    <string name="common_google_play_services_install_text_tablet">Ke spuštění aplikace %1$s jsou potřeba služby Google Play, které v tabletu nemáte.</string>
+    <string name="common_google_play_services_install_title">Instalovat služby Google Play</string>
+    <string name="common_google_play_services_invalid_account_text">Zadaný účet v tomto zařízení neexistuje. Zvolte prosím jiný účet.</string>
     <string name="common_google_play_services_invalid_account_title">Neplatný účet</string>
+    <string name="common_google_play_services_needs_enabling_title">Aplikace vyžaduje aktivaci služeb Google Play.</string>
     <string name="common_google_play_services_network_error_text">Připojení ke službám Google Play vyžaduje datové připojení.</string>
     <string name="common_google_play_services_network_error_title">Chyba sítě</string>
+    <string name="common_google_play_services_notification_needs_update_title">Aplikace vyžaduje aktualizaci služeb Google Play.</string>
     <string name="common_google_play_services_notification_ticker">Chyba služeb Google Play</string>
-    <string name="common_google_play_services_restricted_profile_text">Přístup k účtům z omezeného profilu není podporován.</string>
-    <string name="common_google_play_services_restricted_profile_title">Omezený profil</string>
-    <string name="common_google_play_services_sign_in_failed_text">Při přihlašování k uvedenému účtu došlo k chybě. Vyberte jiný účet.</string>
+    <string name="common_google_play_services_sign_in_failed_text">Při přihlašování k uvedenému účtu došlo k chybě. Zvolte prosím jiný účet.</string>
     <string name="common_google_play_services_sign_in_failed_title">Přihlášení se nezdařilo</string>
-    <string name="common_google_play_services_unknown_issue">Aplikace %1$s má potíže se službami Google Play. Pokud problém přetrvává, obraťte se na vývojáře s žádostí o pomoc.</string>
-    <string name="common_google_play_services_unsupported_text">Aplikace %1$s vyžaduje služby Google Play, které ve vašem zařízení nejsou podporovány. S žádostí o pomoc kontaktujte výrobce zařízení.</string>
+    <string name="common_google_play_services_unknown_issue">Nastal neznámý problém se službami Google Play.</string>
+    <string name="common_google_play_services_unsupported_text">Aplikace %1$s vyžaduje služby Google Play, které ve vašem zařízení nejsou podporovány. Kontaktujte výrobce zařízení.</string>
     <string name="common_google_play_services_unsupported_title">Služby Google Play</string>
     <string name="common_google_play_services_update_button">Aktualizovat</string>
     <string name="common_google_play_services_update_text">Ke spuštění aplikace %1$s je třeba aktualizovat služby Google Play.</string>
     <string name="common_google_play_services_update_title">Aktualizace služeb Google Play</string>
     <string name="common_google_play_services_updating_text">Ke spuštění aplikace %1$s jsou potřeba služby Google Play, které jsou právě aktualizovány.</string>
     <string name="common_google_play_services_updating_title">Probíhá aktualizace služeb Google Play</string>
-    <string name="common_google_play_services_wear_update_text">Je vyžadována nová verze služeb Google Play. Nová verze se brzy sama nainstaluje.</string>
-    <string name="common_open_on_phone">Otevřít v telefonu</string>
-    <string name="common_signin_button_text">Přihlásit se</string>
-    <string name="common_signin_button_text_long">Přihlásit se k účtu Google</string>
+    <string name="common_open_on_phone">Otevřít v telefonu</string>
     <string name="contact_sharing_commenter">Může komentovat</string>
-    <string name="contact_sharing_no_access">Nemá přístup</string>
+    <string name="contact_sharing_no_access">Bez přístupu</string>
     <string name="contact_sharing_reader">Může prohlížet</string>
-    <string name="contact_sharing_td_organizer">Žádná omezení</string>
-    <string name="contact_sharing_td_remove">Odstranit</string>
-    <string name="contact_sharing_td_writer">Může upravovat a nahrávat</string>
     <string name="contact_sharing_writer">Může upravovat</string>
-    <string name="contact_sharing_writer_folder">Může organizovat, přidávat a upravovat</string>
-    <string name="contacts">Kontakty</string>
-    <string name="contacts_footer_text">Synchronizováno s Kontakty Google</string>
-    <string name="contacts_message">Kontakty jsou v zařízeních synchronizovány pomocí Kontaktů Google.</string>
+    <string name="contact_sharing_writer_folder">Může uspořádávat, přidávat a upravovat</string>
     <string name="convert_conversion_failed">Litujeme, ale dokument se nepodařilo zpracovat. Zkontrolujte prosím připojení k síti a zkuste to znovu.</string>
     <string name="convert_document_too_big">Litujeme, ale dokument je na zpracování příliš velký.</string>
     <string name="convert_loading_document_failed">Litujeme, ale dokument se nepodařilo zpracovat.</string>
@@ -246,7 +230,6 @@ Fotky, kontakty a události kalendáře synchronizované z tohoto zařízení 
     <string name="create_new_error_presentation">Chyba při vytváření prezentace</string>
     <string name="create_new_error_read_only_folder">Do této složky nemáte oprávnění přidávat položky.</string>
     <string name="create_new_error_spreadsheet">Chyba při vytváření tabulky</string>
-    <string name="create_new_error_team_drive">Chyba při vytváření týmového disku</string>
     <string name="create_new_folder">Složka</string>
     <string name="create_new_from_scan">Skenovat</string>
     <string name="create_new_ocr_doc">Dokument z fotky</string>
@@ -255,7 +238,6 @@ Fotky, kontakty a události kalendáře synchronizované z tohoto zařízení 
     <string name="create_new_offline_error_folder">Chcete-li vytvořit novou složku, musíte být online</string>
     <string name="create_new_offline_error_presentation">Chcete-li vytvořit novou prezentaci, musíte být online</string>
     <string name="create_new_offline_error_spreadsheet">Chcete-li vytvořit novou tabulku, musíte být online</string>
-    <string name="create_new_offline_error_team_drive">Pokud chcete vytvořit nový týmový disk, přejděte do režimu online</string>
     <string name="create_shortcut_label">Zástupce pro Disk</string>
     <string name="create_shortcut_title">Vytvořit zástupce pro…</string>
     <string name="created_folder">Vytvořena složka %1$s</string>
@@ -264,35 +246,16 @@ Fotky, kontakty a události kalendáře synchronizované z tohoto zařízení 
     <string name="creating_folder">Vytváření složky…</string>
     <string name="creating_presentation">Vytváření prezentace…</string>
     <string name="creating_spreadsheet">Vytváření tabulky…</string>
-    <string name="creating_team_drive">Vytváření týmového disku…</string>
     <string name="cross_app_promo_dismiss_button_text">Zavřít</string>
     <string name="cross_app_promo_install_button_text">Instalovat</string>
     <string name="cross_app_promo_view_only_button_text">Pouze zobrazení</string>
-    <string name="current_device">Toto zařízení</string>
     <string name="decrypting_progress_message">Dešifrování %1$s</string>
     <string name="default_new_drawing_title">Nákres bez názvu</string>
     <string name="default_new_folder_title">Složka bez názvu</string>
     <string name="default_new_kix_title">Dokument bez názvu</string>
     <string name="default_new_punch_title">Prezentace bez názvu</string>
-    <string name="default_new_team_drive_title">Název týmu</string>
     <string name="default_new_trix_title">Tabulka bez názvu</string>
     <string name="default_scope_contact_name">Všichni</string>
-    <string name="delete_backup">Smazat zálohu</string>
-    <string name="delete_backup_confirm_button">Smazat</string>
-    <string name="delete_backup_progress_message">Mazání zálohy</string>
-    <string name="delete_device_backup_confirmation_message">"Data zálohy tohoto zařízení budou trvale smazána.
-
-Pokud je zálohování zařízení %s stále zapnuto, vytvoří se nová data zálohy."</string>
-    <string name="delete_device_backup_title">Smazat zálohu zařízení %s?</string>
-    <string name="delete_multiple_backup_error_message">Některé zálohy se nepodařilo smazat.</string>
-    <string name="delete_single_backup_error_message">Zálohu se nepodařilo smazat.</string>
-    <string name="delete_whatsapp_backup_after_turnoff_confirmation_message">"Chcete také trvale smazat zálohu chatu a médií WhatsApp pro následující čísla?
-
-%s"</string>
-    <string name="delete_whatsapp_backup_confirmation_message">"Záloha chatu a médií WhatsApp pro číslo %s bude trvale smazána.
-
-Pokud je zálohování pro toto číslo stále zapnuté, vytvoří se nová data zálohy."</string>
-    <string name="delete_whatsapp_backup_title">Smazat zálohu WhatsApp?</string>
     <string name="desc_album_art">Obal alba</string>
     <string name="desc_audio_forward">O 30 sekund vpřed</string>
     <string name="desc_audio_next">Další</string>
@@ -324,16 +287,15 @@ Pokud je zálohování pro toto číslo stále zapnuté, vytvoří se nová data
     <string name="desc_promo_page">Panel s tipem: Ukládejte si soubory PDF na Disk Google</string>
     <string name="desc_selection_start">začátek výběru</string>
     <string name="desc_selection_stop">konec výběru</string>
-    <string name="desc_video_player">Přehrávač videa</string>
     <string name="desc_web_link">Odkaz: %1$s</string>
     <string name="desc_web_link_shortened_to_domain">Odkaz: stránka na webu %1$s</string>
     <string name="description_icon_stale_items">Máte zastaralé položky.</string>
-    <string name="detail_fragment_title">Jsou zobrazeny vlastnosti položky pro soubor %1$s</string>
+    <string name="detail_fragment_title">Jsou zobrazeny vlastnosti položky pro soubor %s</string>
     <string name="detail_preview_created_time">Vytvořeno</string>
-    <string name="detail_preview_date_performed_by">%1$s, autor: %2$s</string>
+    <string name="detail_preview_date_performed_by" formatted="false">%s, autor: %s</string>
     <string name="detail_preview_folder_location">Umístění</string>
     <string name="detail_preview_folder_restore_location">Odstraněno z</string>
-    <string name="detail_preview_google_files_free">Soubory %1$s jsou zdarma</string>
+    <string name="detail_preview_google_files_free">Soubory %s jsou zdarma</string>
     <string name="detail_preview_information_content_description">Informace</string>
     <string name="detail_preview_kind">Typ</string>
     <string name="detail_preview_last_modified_date">Změněno</string>
@@ -342,15 +304,12 @@ Pokud je zálohování pro toto číslo stále zapnuté, vytvoří se nová data
     <string name="detail_preview_quota">Obsazený prostor</string>
     <string name="detail_preview_size">Velikost</string>
     <string name="device_offline">Chybí připojení</string>
-    <string name="device_settings">Nastavení zařízení</string>
-    <string name="device_settings_message">Záloha zahrnuje konfiguraci zařízení, jako je tapeta, hesla k sítím Wi-Fi a výchozí aplikace.</string>
     <string name="dialog_confirm_expiration">Odstranit vypršení platnosti?</string>
     <string name="dialog_confirm_expiration_button">Odstranit vypršení platnosti</string>
     <string name="dialog_confirm_expiration_message">"Přístup tohoto uživatele měl dříve nastaveno vypršení platnosti.
 
 Když jeho roli změníte, obnoví se trvalý přístup."</string>
     <string name="dialog_confirm_sharing">Potvrzení sdílení</string>
-    <string name="dialog_confirm_sharing_button">Sdílet</string>
     <string name="dialog_confirm_sharing_message">%1$s se nachází mimo doménu dokumentu. Opravdu chcete s tímto uživatelem sdílet?</string>
     <string name="dialog_confirm_sharing_message_multiple">Někteří uživatelé (%1$d) jsou mimo doménu dokumentu. Opravdu s nimi chcete sdílet?</string>
     <string name="dialog_contact_sharing">Nast. sdílení uživ.</string>
@@ -384,8 +343,6 @@ Když jeho roli změníte, obnoví se trvalý přístup."</string>
     <string name="doclist_sortby_relevance">Relevance</string>
     <string name="doclist_sortby_shared_title">Datum sdílení</string>
     <string name="doclist_starred_state">S hvězdičkou</string>
-    <string name="doclist_team_drive_state">Týmový disk</string>
-    <string name="doclist_unified_actions_more_actions_button">Další akce</string>
     <string name="document_deleted_error_dialog_message">Dokument, který se snažíte otevřít, byl smazán. Zástupce odstraníte takto: klepněte, podržte a přetáhněte jej na ikonu Odstranit v horní části obrazovky.</string>
     <string name="document_deleted_error_dialog_title">Tento dokument byl smazán</string>
     <string name="document_preparing_to_open_progress">Připravuje se otevření…</string>
@@ -513,8 +470,6 @@ Když jeho roli změníte, obnoví se trvalý přístup."</string>
 
  DŮLEŽITÉ! Po odeslání zpětné vazby nezapomeňte vymazat mezipaměť aplikace (Nastavení -> Aplikace -> Disk -> Vymazat MEZIPAMĚŤ), jinak mohou mít k datům z výpisu přístup jiné škodlivé aplikace. Opravdu chcete pokračovat?"</string>
     <string name="dump_database_dialog_title">Interní zpětná vazba. Pomozte nám zlepšit aplikaci</string>
-    <string name="empty_backup_content">Zde se zobrazí zálohy zařízení a dat aplikací</string>
-    <string name="empty_backup_title">Žádné zálohy</string>
     <string name="empty_doclist">Žádné položky</string>
     <string name="empty_doclist_for_devices_view">Nebyly nalezeny žádné složky zařízení.</string>
     <string name="empty_doclist_for_devices_view_details">Pokud chcete vytvořit složky zařízení, nainstalujte do počítače nejnovější verzi Disku a nakonfigurujte synchronizaci místních složek.</string>
@@ -528,15 +483,14 @@ Zkuste nahrát soubor."</string>
     <string name="empty_doclist_for_search_view">Žádné výsledky.</string>
     <string name="empty_doclist_for_shared_with_me_view">Zde se zobrazí soubory, které s vámi někdo sdílí.</string>
     <string name="empty_doclist_for_starred_view">Nemáte žádné soubory označené hvězdičkou.</string>
-    <string name="empty_doclist_for_starred_view_details">Soubor na tento seznam přidáte klepnutím na ikonu hvězdičky v nabídce možností souboru.</string>
+    <string name="empty_doclist_for_starred_view_details">Chcete-li přidat soubor na tento seznam, klepněte na ikonu hvězdičky na panelu s podrobnostmi.</string>
+    <string name="empty_doclist_for_uploads_view">Žádné nedávno nahrané soubory.</string>
+    <string name="empty_doclist_for_uploads_view_details">Spravujte svá aktivní nahrávání a zobrazte soubory, které jste z tohoto zařízení nedávno nahráli.</string>
     <string name="empty_recent_doclist_message_subtitle">Zde se zobrazí vše, co vytvoříte nebo upravíte. Kliknutím na + vytvoříte nový nákres.</string>
     <string name="empty_recent_doclist_message_title">Vítejte v Dokumentech Google</string>
     <string name="empty_sharing_list">Informace o sdílení nedostupné</string>
-    <string name="empty_team_drives_doclist">Váš týmový disk je prázdný. Začněte tím, že přidáte soubory a uživatele.</string>
     <string name="enable_backup">ZAPNOUT ZÁLOHOVÁNÍ MÝCH DAT</string>
     <string name="enter_new_name">Zadejte nový název:</string>
-    <string name="entity_backup_time">Naposledy zálohováno: %s</string>
-    <string name="entity_item_more_action_button">Další akce</string>
     <string name="error_access_denied_html">Nelze získat přístup k dokumentu. &lt;br> Důvod: Přístup k dokumentu byl odepřen.&lt;br>&lt;br> Zkontrolujte, zda máte oprávnění k zobrazení dokumentu, a zkuste to znovu.</string>
     <string name="error_app_intent">Jiná aplikace tento soubor nemůže zpracovat ( %1$s)</string>
     <string name="error_app_open">Chyba při otevírání souboru</string>
@@ -571,8 +525,6 @@ Zkuste nahrát soubor."</string>
     <string name="error_ssl_generic_template">Při připojování k hostiteli %2$s došlo k chybě SSL (kód %1$d).</string>
     <string name="error_ssl_idmismatch_template">Při připojování k hostiteli %2$s došlo k chybě SSL (kód %1$d): Neshoduje se název hostitele.</string>
     <string name="error_ssl_validity_template">Při připojování k hostit. %2$s došlo k chybě SSL (kód %1$d): Platnost certifikátu vypršela nebo certifikát ještě nezačal platit. Je v zařízení správně nastavené datum?</string>
-    <string name="error_start_client">"Další soubory z aplikace  %1$s nelze načíst"</string>
-    <string name="error_title">Chyba</string>
     <string name="error_video_not_available">Video nebylo zpracováno. Zkuste to prosím znovu později.</string>
     <string name="expires_future">Platnost vyprší za %1$s</string>
     <string name="expires_today">Platnost vyprší dnes</string>
@@ -618,7 +570,7 @@ Zkuste nahrát soubor."</string>
     <string name="folder_color_cyan_200">Island</string>
     <string name="folder_color_cyan_500">Karibská trhlina</string>
     <string name="folder_color_deep_orange_500">Mandarinka</string>
-    <string name="folder_color_default">Výchozí</string>
+    <string name="folder_color_default">Myší šedivá</string>
     <string name="folder_color_google_blue_500">Modrá obloha</string>
     <string name="folder_color_google_green_400">Šalvěj</string>
     <string name="folder_color_google_green_500">Bazalka</string>
@@ -626,31 +578,26 @@ Zkuste nahrát soubor."</string>
     <string name="folder_color_google_yellow_100">Zimolez</string>
     <string name="folder_color_light_blue_500">Páv</string>
     <string name="folder_color_light_green_500">Čerstvý chřest</string>
-    <string name="folder_color_lime_200">Citron a limetka</string>
+    <string name="folder_color_lime_200">Citron a limetka</string>
     <string name="folder_color_lime_500">Fosforově zelená</string>
     <string name="folder_color_orange_200">Broskvové chmýří</string>
     <string name="folder_color_orange_500">Oranžová</string>
-    <string name="folder_color_orange_600">Oranžovožlutá</string>
     <string name="folder_color_pink_200">Prasátkově růžová</string>
     <string name="folder_color_pink_300">Plameňák</string>
     <string name="folder_color_pink_500">Malina</string>
     <string name="folder_color_purple_100">Domeček pro panenky</string>
-    <string name="folder_color_purple_200">Dino</string>
     <string name="folder_color_purple_300">Fuchsie</string>
-    <string name="folder_color_purple_400">Lilek</string>
     <string name="folder_color_teal_100">Čekárna</string>
     <string name="gallery_select_error">Chyba při výběru obrázku k nahrání.</string>
     <string name="getting_authentication_information">Otevírání dokumentu</string>
     <string name="gf_feedback">Zpětná vazba</string>
+    <string name="give_access_failed">Nepodařilo se poskytnout přístup uživateli %1$s</string>
+    <string name="give_access_failed_offline">V režimu offline nelze přístup poskytnout</string>
+    <string name="give_access_success">Poskytnut přístup uživateli %1$s</string>
+    <string name="giving_access">Poskytování přístupu uživateli %1$s</string>
     <string name="google_account_missing">Nebyl nalezen žádný účet Google, probíhá ukončování aplikace.</string>
     <string name="google_account_needed">Chcete-li používat tuto aplikaci, musíte mít založený alespoň jeden účet Google.</string>
-    <string name="google_docs_long">Dokumenty Google</string>
-    <string name="google_docs_short">Dokumenty</string>
     <string name="google_drive">Disk Google</string>
-    <string name="google_sheets_long">Tabulky Google</string>
-    <string name="google_sheets_short">Tabulky</string>
-    <string name="google_slides_long">Prezentace Google</string>
-    <string name="google_slides_short">Prezentace</string>
     <string name="grid_sync_download_label_format">"Stahování
 %1$s / %2$s"</string>
     <string name="grid_sync_upload_label_format">"Nahrávání
@@ -687,33 +634,22 @@ Všechny fotky, videa, dokumenty a další soubory tak můžete mít na dosah, a
     <string name="label_password_incorrect">Nesprávné heslo</string>
     <string name="label_zoom" formatted="false">lupa %1$d %</string>
     <string name="launch_drive">Spusťte Disk a načtěte další soubory.</string>
-    <string name="launcher_scan_short">Skenovat</string>
-    <string name="launcher_search_short">Vyhledat</string>
-    <string name="launcher_upload_short">Nahrát</string>
-    <string name="learn_more">DALŠÍ INFORMACE</string>
-    <string name="libraries_material_featurehighlight_dismiss">Zavřít</string>
     <string name="linksharing_saved">Nastavení sdílení bylo uloženo</string>
     <string name="loading">Načítá se…</string>
     <string name="loading_document">Načítání dokumentu…</string>
     <string name="loading_for_printing">Načítání dokumentu…</string>
     <string name="loading_printers">Načítání tiskáren…</string>
     <string name="location_entry_content_description">Umístění %1$s. Dvojitým klepnutím otevřete.</string>
-    <string name="location_entry_content_description_unclickable">Umístění: %1$s.</string>
-    <string name="location_removed_entry_content_description">Odstraněno ze složky %1$s. Otevřete dvojitým klepnutím.</string>
-    <string name="location_removed_entry_content_description_unclickable">Odstraněno ze složky %1$s.</string>
     <string name="manage_accounts">Správa účtů</string>
-    <string name="manage_backup">Spravovat zálohy</string>
+    <string name="manage_backup">Spravovat zálohování</string>
+    <string name="manage_backup_page_title">Spravovat zálohy</string>
     <string name="manage_backup_summary">Seznam aplikací, které jsou zálohovány</string>
-    <string name="manage_members_default_members">Ve výchozím nastavení mohou členové upravovat, organizovat a přidávat další členy.</string>
-    <string name="manage_members_dialog_title">Členové tým. disku %s</string>
     <string name="manifest_app_pdfviewer">Prohlížeč PDF Google</string>
     <string name="manifest_app_projector">Projector</string>
     <string name="manifest_intent_view_pdf">Prohlížeč PDF</string>
     <string name="manifest_intent_view_pdf_drive">Prohlížeč PDF na Disku</string>
     <string name="media_player_error">Došlo k chybě přehrávání</string>
     <string name="menu_account_settings">Nastavení účtu</string>
-    <string name="menu_add_members">Přidat členy</string>
-    <string name="menu_backup">Zálohy</string>
     <string name="menu_create_new_doc">Nový</string>
     <string name="menu_create_shortcut">Přidat na plochu</string>
     <string name="menu_delete">Odstranit</string>
@@ -730,10 +666,7 @@ Všechny fotky, videa, dokumenty a další soubory tak můžete mít na dosah, a
     <string name="menu_google_photos">Fotky Google</string>
     <string name="menu_help">Nápověda</string>
     <string name="menu_help_and_feedback">Nápověda a zpětná vazba</string>
-    <string name="menu_item_manage_members">Spravovat členy</string>
-    <string name="menu_item_use_advanced_permission">Použít pokročilé oprávnění</string>
     <string name="menu_learn_more">Další informace</string>
-    <string name="menu_manage_members">Spravovat členy</string>
     <string name="menu_move_to">Přesunout</string>
     <string name="menu_my_drive">Můj disk</string>
     <string name="menu_navigation_devices">Zařízení</string>
@@ -769,6 +702,7 @@ Všechny fotky, videa, dokumenty a další soubory tak můžete mít na dosah, a
     <string name="menu_show_team_drives">Týmové disky</string>
     <string name="menu_show_trash">Koš</string>
     <string name="menu_show_trix">Tabulky</string>
+    <string name="menu_show_upload">Nahrávání</string>
     <string name="menu_sort_by">Řadit podle</string>
     <string name="menu_sort_creation_time">Datum vytvoření</string>
     <string name="menu_sort_direction">Směr řazení</string>
@@ -782,36 +716,17 @@ Všechny fotky, videa, dokumenty a další soubory tak můžete mít na dosah, a
     <string name="menu_trash_delete_forever">Smazat</string>
     <string name="menu_trash_restore">Obnovit</string>
     <string name="menu_unpin">Odstranit ze zař.</string>
-    <string name="menu_view_members">Zobrazit členy</string>
     <string name="message_downloaded_file">Stažen soubor %1$s</string>
     <string name="message_match_status">%1$d z %2$d</string>
     <string name="message_no_matches_found">Nenalezeny žádné shody.</string>
-    <string name="more_actions_content_description">Další akce</string>
-    <string name="more_info">Další informace</string>
     <string name="more_string">+%1$d</string>
     <string name="move">Přesunout</string>
-    <string name="move_confirm_dialog_message_cannot_undo">Máte oprávnění položky ve složce „%1$s“ pouze přidávat a upravovat, proto tuto akci nebude možné vrátit zpět.</string>
-    <string name="move_confirm_dialog_message_lose_access_shared_folders">Přesouváte některé položky ze sdílených složek, proto k nim lidé ztratí přístup.</string>
-    <string name="move_confirm_dialog_message_lose_access_team_drives">Přesouváte některé položky z týmových disků, proto k nim lidé ztratí přístup.</string>
-    <string name="move_confirm_dialog_message_lose_access_team_drives_and_shared_folders">Přesouváte některé položky z týmových disků a sdílených složek, proto k nim lidé ztratí přístup.</string>
     <string name="move_confirm_dialog_title">Potvrdit přesunutí</string>
-    <string name="move_confirm_dialog_title_cannot_undo">Tuto akci nelze vrátit zpět.</string>
-    <string name="move_confirm_dialog_title_lose_access">Někteří lidé ztratí přístup</string>
-    <string name="move_confirm_dialog_title_lose_access_single_td">„%1$s“ ztratí přístup</string>
     <string name="move_confirm_dialog_title_unshare">Přesunout ze sdílené složky?</string>
     <string name="move_dialog_title">Vyberte cílovou složku</string>
-    <string name="move_error_cannot_move_in_folders">Složky zatím na týmové disky nelze přesouvat.</string>
-    <string name="move_error_cannot_move_out_folders">Složky zatím z týmových disků nelze přesouvat.</string>
-    <string name="move_error_no_permission_dest">Nemáte oprávnění k přesouvání položek do složky „%1$s“</string>
     <string name="move_error_read_only_folder">Do této složky nemáte oprávnění přesouvat položky.</string>
-    <string name="move_error_target_folder_not_exist">Cílová složka neexistuje.</string>
-    <string name="move_error_team_drive_items_not_supported_yet">Přesouvání zatím u týmových disků není podporováno.</string>
     <string name="move_multi_parent_file">Pokoušíte se uspořádat soubor, který se nachází v několika složkách. Chcete-li soubor uspořádat, přejděte na Disk Google ve svém počítači.</string>
     <string name="move_multi_parent_folder">Pokoušíte se uspořádat složku, která se nachází v několika složkách. Chcete-li složku uspořádat, přejděte na Disk ve svém počítači.</string>
-    <string name="move_notice_lost_access_shared_folders">Položky byly přesunuty ze sdílených složek. Někteří lidé ztratili přístup.</string>
-    <string name="move_notice_lost_access_team_drive_single">%1$s Týmový disk „%2$s“ ztratil přístup.</string>
-    <string name="move_notice_lost_access_team_drives">Položky byly přesunuty z týmových disků. Někteří lidé ztratili přístup.</string>
-    <string name="move_notice_lost_access_team_drives_and_shared_folders">Položky byly přesunuty z týmových disků a sdílených složek. Někteří lidé ztratili přístup.</string>
     <string name="move_shared_to_shared">"Pokud přesunete „%1$s“ ze sdílené složky %2$s, odeberete přístup všem spolupracovníkům.
 
 Obsah bude sdílen ve složce %3$s."</string>
@@ -831,14 +746,10 @@ Obsah bude sdílen ve složce %3$s."</string>
     <string name="new_folder_title">Nová složka</string>
     <string name="new_kix_title">Název dokumentu</string>
     <string name="new_punch_title">Název prezentace</string>
-    <string name="new_team_drive_title">Nový týmový disk</string>
     <string name="new_trix_title">Název tabulky</string>
     <string name="no_account_for_upload_message">Chcete-li nahrávat na Disk, přihlaste se k účtu Google nebo si jej vytvořte.</string>
     <string name="no_account_for_upload_setup_account">Nastavit účet</string>
     <string name="no_account_for_upload_title">Nahrát na Disk</string>
-    <string name="no_backup_help_card_button">NASTAVENÍ ZÁLOHOVÁNÍ</string>
-    <string name="no_backup_help_card_content">Zapněte automatické zálohování, abyste svá data mohli v budoucnu obnovit nebo je měli k dispozici na novém telefonu.</string>
-    <string name="no_backup_help_card_title">Toto zařízení nemá žádnou zálohu</string>
     <string name="notification_extra_text_is_too_long">Nelze nahrát. Text je příliš dlouhý.</string>
     <string name="notification_feedback">Zpětná vazba</string>
     <string name="notification_help_card_content">Disk vám nyní bude oznamovat, že s vámi někdo sdílí soubory, někdo žádá o přístup k souboru a další důležité události.</string>
@@ -847,6 +758,7 @@ Obsah bude sdílen ve složce %3$s."</string>
     <string name="notification_home_empty_title">Žádná nedávná oznámení</string>
     <string name="notification_home_read">Přečtené</string>
     <string name="notification_home_unread">Nepřečtené</string>
+    <string name="notification_message">Zpráva: %1$s</string>
     <string name="notification_setting_access_request_title">Oznámení o žádostech o přístup</string>
     <string name="notification_setting_comment_title">Oznámení o komentářích</string>
     <string name="notification_setting_keep_on">Nechat zapnuté</string>
@@ -870,44 +782,36 @@ Obsah bude sdílen ve složce %3$s."</string>
     <string name="notify_access_request_description_num_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_ITEMS_1,plural, =1{}few{Žádá o přístup ke {NUM_ITEMS_2} položkám}many{Žádá o přístup k {NUM_ITEMS_2} položkám}other{Žádá o přístup k {NUM_ITEMS_2} položkám}}}male{{NUM_ITEMS_1,plural, =1{}few{Žádá o přístup ke {NUM_ITEMS_2} položkám}many{Žádá o přístup k {NUM_ITEMS_2} položkám}other{Žádá o přístup k {NUM_ITEMS_2} položkám}}}other{{NUM_ITEMS_1,plural, =1{}few{Žádá o přístup ke {NUM_ITEMS_2} položkám}many{Žádá o přístup k {NUM_ITEMS_2} položkám}other{Žádá o přístup k {NUM_ITEMS_2} položkám}}}}}male{{SENDER_GENDER,select, female{{NUM_ITEMS_1,plural, =1{}few{Žádá o přístup ke {NUM_ITEMS_2} položkám}many{Žádá o přístup k {NUM_ITEMS_2} položkám}other{Žádá o přístup k {NUM_ITEMS_2} položkám}}}male{{NUM_ITEMS_1,plural, =1{}few{Žádá o přístup ke {NUM_ITEMS_2} položkám}many{Žádá o přístup k {NUM_ITEMS_2} položkám}other{Žádá o přístup k {NUM_ITEMS_2} položkám}}}other{{NUM_ITEMS_1,plural, =1{}few{Žádá o přístup ke {NUM_ITEMS_2} položkám}many{Žádá o přístup k {NUM_ITEMS_2} položkám}other{Žádá o přístup k {NUM_ITEMS_2} položkám}}}}}other{{SENDER_GENDER,select, female{{NUM_ITEMS_1,plural, =1{}few{Žádá o přístup ke {NUM_ITEMS_2} položkám}many{Žádá o přístup k {NUM_ITEMS_2} položkám}other{Žádá o přístup k {NUM_ITEMS_2} položkám}}}male{{NUM_ITEMS_1,plural, =1{}few{Žádá o přístup ke {NUM_ITEMS_2} položkám}many{Žádá o přístup k {NUM_ITEMS_2} položkám}other{Žádá o přístup k {NUM_ITEMS_2} položkám}}}other{{NUM_ITEMS_1,plural, =1{}few{Žádá o přístup ke {NUM_ITEMS_2} položkám}many{Žádá o přístup k {NUM_ITEMS_2} položkám}other{Žádá o přístup k {NUM_ITEMS_2} položkám}}}}}}</string>
     <string name="notify_comment_text_quoted">„%1$s“</string>
     <string name="notify_comment_text_suggestion_with_content_type">%1$s: %2$s</string>
-    <string name="notify_comment_text_with_content_type">%1$s: „%2$s“</string>
+    <string name="notify_comment_text_with_content_type">%1$s „%2$s“</string>
     <string name="notify_comments_description_many_comments_many_users_icu">{RECIPIENT_GENDER,select, female{99 nebo více komentářů k „{ITEM_TITLE}“}male{99 nebo více komentářů k „{ITEM_TITLE}“}other{99 nebo více komentářů k „{ITEM_TITLE}“}}</string>
     <string name="notify_comments_description_many_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{99 nebo více komentářů k „{ITEM_TITLE}“}male{99 nebo více komentářů k „{ITEM_TITLE}“}other{99 nebo více komentářů k „{ITEM_TITLE}“}}}male{{SENDER_GENDER,select, female{99 nebo více komentářů k „{ITEM_TITLE}“}male{99 nebo více komentářů k „{ITEM_TITLE}“}other{99 nebo více komentářů k „{ITEM_TITLE}“}}}other{{SENDER_GENDER,select, female{99 nebo více komentářů k „{ITEM_TITLE}“}male{99 nebo více komentářů k „{ITEM_TITLE}“}other{99 nebo více komentářů k „{ITEM_TITLE}“}}}}</string>
+    <string name="notify_comments_description_many_items_many_users_icu">{RECIPIENT_GENDER,select, female{99 nebo více komentářů a návrhů v „{ITEM_TITLE}“}male{99 nebo více komentářů a návrhů v „{ITEM_TITLE}“}other{99 nebo více komentářů a návrhů v „{ITEM_TITLE}“}}</string>
+    <string name="notify_comments_description_many_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{99 nebo více komentářů a návrhů v „{ITEM_TITLE}“}male{99 nebo více komentářů a návrhů v „{ITEM_TITLE}“}other{99 nebo více komentářů a návrhů v „{ITEM_TITLE}“}}}male{{SENDER_GENDER,select, female{99 nebo více komentářů a návrhů v „{ITEM_TITLE}“}male{99 nebo více komentářů a návrhů v „{ITEM_TITLE}“}other{99 nebo více komentářů a návrhů v „{ITEM_TITLE}“}}}other{{SENDER_GENDER,select, female{99 nebo více komentářů a návrhů v „{ITEM_TITLE}“}male{99 nebo více komentářů a návrhů v „{ITEM_TITLE}“}other{99 nebo více komentářů a návrhů v „{ITEM_TITLE}“}}}}</string>
     <string name="notify_comments_description_many_suggestions_many_users_icu">{RECIPIENT_GENDER,select, female{99 nebo více návrhů v „{ITEM_TITLE}“}male{99 nebo více návrhů v „{ITEM_TITLE}“}other{99 nebo více návrhů v „{ITEM_TITLE}“}}</string>
     <string name="notify_comments_description_many_suggestions_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{99 nebo více návrhů v „{ITEM_TITLE}“}male{99 nebo více návrhů v „{ITEM_TITLE}“}other{99 nebo více návrhů v „{ITEM_TITLE}“}}}male{{SENDER_GENDER,select, female{99 nebo více návrhů v „{ITEM_TITLE}“}male{99 nebo více návrhů v „{ITEM_TITLE}“}other{99 nebo více návrhů v „{ITEM_TITLE}“}}}other{{SENDER_GENDER,select, female{99 nebo více návrhů v „{ITEM_TITLE}“}male{99 nebo více návrhů v „{ITEM_TITLE}“}other{99 nebo více návrhů v „{ITEM_TITLE}“}}}}</string>
-    <string name="notify_comments_description_many_todos_many_users_icu">{RECIPIENT_GENDER,select, female{ 99 nebo více úkolů v „{ITEM_TITLE}“}male{ 99 nebo více úkolů v „{ITEM_TITLE}“}other{ 99 nebo více úkolů v „{ITEM_TITLE}“}}</string>
-    <string name="notify_comments_description_many_todos_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{ 99 nebo více úkolů v „{ITEM_TITLE}“}male{ 99 nebo více úkolů v „{ITEM_TITLE}“}other{ 99 nebo více úkolů v „{ITEM_TITLE}“}}}male{{SENDER_GENDER,select, female{ 99 nebo více úkolů v „{ITEM_TITLE}“}male{ 99 nebo více úkolů v „{ITEM_TITLE}“}other{ 99 nebo více úkolů v „{ITEM_TITLE}“}}}other{{SENDER_GENDER,select, female{ 99 nebo více úkolů v „{ITEM_TITLE}“}male{ 99 nebo více úkolů v „{ITEM_TITLE}“}other{ 99 nebo více úkolů v „{ITEM_TITLE}“}}}}</string>
-    <string name="notify_comments_description_num_comments_many_users_icu">{RECIPIENT_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáře k „{ITEM_TITLE}“}many{{TOTAL_ITEMS_2} komentáře k „{ITEM_TITLE}“}other{{TOTAL_ITEMS_2} komentářů k „{ITEM_TITLE}“}}}male{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáře k „{ITEM_TITLE}“}many{{TOTAL_ITEMS_2} komentáře k „{ITEM_TITLE}“}other{{TOTAL_ITEMS_2} komentářů k „{ITEM_TITLE}“}}}other{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáře k „{ITEM_TITLE}“}many{{TOTAL_ITEMS_2} komentáře k „{ITEM_TITLE}“}other{{TOTAL_ITEMS_2} komentářů k „{ITEM_TITLE}“}}}}</string>
-    <string name="notify_comments_description_num_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáře k „{ITEM_TITLE}“}many{{TOTAL_ITEMS_2} komentáře k „{ITEM_TITLE}“}other{{TOTAL_ITEMS_2} komentářů k „{ITEM_TITLE}“}}}male{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáře k „{ITEM_TITLE}“}many{{TOTAL_ITEMS_2} komentáře k „{ITEM_TITLE}“}other{{TOTAL_ITEMS_2} komentářů k „{ITEM_TITLE}“}}}other{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáře k „{ITEM_TITLE}“}many{{TOTAL_ITEMS_2} komentáře k „{ITEM_TITLE}“}other{{TOTAL_ITEMS_2} komentářů k „{ITEM_TITLE}“}}}}}male{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáře k „{ITEM_TITLE}“}many{{TOTAL_ITEMS_2} komentáře k „{ITEM_TITLE}“}other{{TOTAL_ITEMS_2} komentářů k „{ITEM_TITLE}“}}}male{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáře k „{ITEM_TITLE}“}many{{TOTAL_ITEMS_2} komentáře k „{ITEM_TITLE}“}other{{TOTAL_ITEMS_2} komentářů k „{ITEM_TITLE}“}}}other{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáře k „{ITEM_TITLE}“}many{{TOTAL_ITEMS_2} komentáře k „{ITEM_TITLE}“}other{{TOTAL_ITEMS_2} komentářů k „{ITEM_TITLE}“}}}}}other{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáře k „{ITEM_TITLE}“}many{{TOTAL_ITEMS_2} komentáře k „{ITEM_TITLE}“}other{{TOTAL_ITEMS_2} komentářů k „{ITEM_TITLE}“}}}male{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáře k „{ITEM_TITLE}“}many{{TOTAL_ITEMS_2} komentáře k „{ITEM_TITLE}“}other{{TOTAL_ITEMS_2} komentářů k „{ITEM_TITLE}“}}}other{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáře k „{ITEM_TITLE}“}many{{TOTAL_ITEMS_2} komentáře k „{ITEM_TITLE}“}other{{TOTAL_ITEMS_2} komentářů k „{ITEM_TITLE}“}}}}}}</string>
+    <string name="notify_comments_description_num_comments_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} komentáře k „{ITEM_TITLE}“}many{{NUM_COMMENTS_2} komentáře k „{ITEM_TITLE}“}other{{NUM_COMMENTS_2} komentářů k „{ITEM_TITLE}“}}}male{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} komentáře k „{ITEM_TITLE}“}many{{NUM_COMMENTS_2} komentáře k „{ITEM_TITLE}“}other{{NUM_COMMENTS_2} komentářů k „{ITEM_TITLE}“}}}other{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} komentáře k „{ITEM_TITLE}“}many{{NUM_COMMENTS_2} komentáře k „{ITEM_TITLE}“}other{{NUM_COMMENTS_2} komentářů k „{ITEM_TITLE}“}}}}</string>
+    <string name="notify_comments_description_num_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} komentáře k „{ITEM_TITLE}“}many{{NUM_COMMENTS_2} komentáře k „{ITEM_TITLE}“}other{{NUM_COMMENTS_2} komentářů k „{ITEM_TITLE}“}}}male{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} komentáře k „{ITEM_TITLE}“}many{{NUM_COMMENTS_2} komentáře k „{ITEM_TITLE}“}other{{NUM_COMMENTS_2} komentářů k „{ITEM_TITLE}“}}}other{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} komentáře k „{ITEM_TITLE}“}many{{NUM_COMMENTS_2} komentáře k „{ITEM_TITLE}“}other{{NUM_COMMENTS_2} komentářů k „{ITEM_TITLE}“}}}}}male{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} komentáře k „{ITEM_TITLE}“}many{{NUM_COMMENTS_2} komentáře k „{ITEM_TITLE}“}other{{NUM_COMMENTS_2} komentářů k „{ITEM_TITLE}“}}}male{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} komentáře k „{ITEM_TITLE}“}many{{NUM_COMMENTS_2} komentáře k „{ITEM_TITLE}“}other{{NUM_COMMENTS_2} komentářů k „{ITEM_TITLE}“}}}other{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} komentáře k „{ITEM_TITLE}“}many{{NUM_COMMENTS_2} komentáře k „{ITEM_TITLE}“}other{{NUM_COMMENTS_2} komentářů k „{ITEM_TITLE}“}}}}}other{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} komentáře k „{ITEM_TITLE}“}many{{NUM_COMMENTS_2} komentáře k „{ITEM_TITLE}“}other{{NUM_COMMENTS_2} komentářů k „{ITEM_TITLE}“}}}male{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} komentáře k „{ITEM_TITLE}“}many{{NUM_COMMENTS_2} komentáře k „{ITEM_TITLE}“}other{{NUM_COMMENTS_2} komentářů k „{ITEM_TITLE}“}}}other{{NUM_COMMENTS_1,plural, =1{}few{{NUM_COMMENTS_2} komentáře k „{ITEM_TITLE}“}many{{NUM_COMMENTS_2} komentáře k „{ITEM_TITLE}“}other{{NUM_COMMENTS_2} komentářů k „{ITEM_TITLE}“}}}}}}</string>
+    <string name="notify_comments_description_num_items_many_users_icu">{RECIPIENT_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáře a návrhy v „{ITEM_TITLE}“}many{{TOTAL_ITEMS_2} komentáře a návrhu v „{ITEM_TITLE}“}other{{TOTAL_ITEMS_2} komentářů a návrhů v „{ITEM_TITLE}“}}}male{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáře a návrhy v „{ITEM_TITLE}“}many{{TOTAL_ITEMS_2} komentáře a návrhu v „{ITEM_TITLE}“}other{{TOTAL_ITEMS_2} komentářů a návrhů v „{ITEM_TITLE}“}}}other{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáře a návrhy v „{ITEM_TITLE}“}many{{TOTAL_ITEMS_2} komentáře a návrhu v „{ITEM_TITLE}“}other{{TOTAL_ITEMS_2} komentářů a návrhů v „{ITEM_TITLE}“}}}}</string>
+    <string name="notify_comments_description_num_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáře a návrhy v „{ITEM_TITLE}“}many{{TOTAL_ITEMS_2} komentáře a návrhu v „{ITEM_TITLE}“}other{{TOTAL_ITEMS_2} komentářů a návrhů v „{ITEM_TITLE}“}}}male{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáře a návrhy v „{ITEM_TITLE}“}many{{TOTAL_ITEMS_2} komentáře a návrhu v „{ITEM_TITLE}“}other{{TOTAL_ITEMS_2} komentářů a návrhů v „{ITEM_TITLE}“}}}other{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáře a návrhy v „{ITEM_TITLE}“}many{{TOTAL_ITEMS_2} komentáře a návrhu v „{ITEM_TITLE}“}other{{TOTAL_ITEMS_2} komentářů a návrhů v „{ITEM_TITLE}“}}}}}male{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáře a návrhy v „{ITEM_TITLE}“}many{{TOTAL_ITEMS_2} komentáře a návrhu v „{ITEM_TITLE}“}other{{TOTAL_ITEMS_2} komentářů a návrhů v „{ITEM_TITLE}“}}}male{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáře a návrhy v „{ITEM_TITLE}“}many{{TOTAL_ITEMS_2} komentáře a návrhu v „{ITEM_TITLE}“}other{{TOTAL_ITEMS_2} komentářů a návrhů v „{ITEM_TITLE}“}}}other{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáře a návrhy v „{ITEM_TITLE}“}many{{TOTAL_ITEMS_2} komentáře a návrhu v „{ITEM_TITLE}“}other{{TOTAL_ITEMS_2} komentářů a návrhů v „{ITEM_TITLE}“}}}}}other{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáře a návrhy v „{ITEM_TITLE}“}many{{TOTAL_ITEMS_2} komentáře a návrhu v „{ITEM_TITLE}“}other{{TOTAL_ITEMS_2} komentářů a návrhů v „{ITEM_TITLE}“}}}male{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáře a návrhy v „{ITEM_TITLE}“}many{{TOTAL_ITEMS_2} komentáře a návrhu v „{ITEM_TITLE}“}other{{TOTAL_ITEMS_2} komentářů a návrhů v „{ITEM_TITLE}“}}}other{{TOTAL_ITEMS_1,plural, =1{}few{{TOTAL_ITEMS_2} komentáře a návrhy v „{ITEM_TITLE}“}many{{TOTAL_ITEMS_2} komentáře a návrhu v „{ITEM_TITLE}“}other{{TOTAL_ITEMS_2} komentářů a návrhů v „{ITEM_TITLE}“}}}}}}</string>
     <string name="notify_comments_description_num_suggestions_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} návrhy v „{ITEM_TITLE}“}many{{NUM_SUGGESTIONS_2} návrhu v „{ITEM_TITLE}“}other{{NUM_SUGGESTIONS_2} návrhů v „{ITEM_TITLE}“}}}male{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} návrhy v „{ITEM_TITLE}“}many{{NUM_SUGGESTIONS_2} návrhu v „{ITEM_TITLE}“}other{{NUM_SUGGESTIONS_2} návrhů v „{ITEM_TITLE}“}}}other{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} návrhy v „{ITEM_TITLE}“}many{{NUM_SUGGESTIONS_2} návrhu v „{ITEM_TITLE}“}other{{NUM_SUGGESTIONS_2} návrhů v „{ITEM_TITLE}“}}}}</string>
     <string name="notify_comments_description_num_suggestions_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} návrhy v „{ITEM_TITLE}“}many{{NUM_SUGGESTIONS_2} návrhu v „{ITEM_TITLE}“}other{{NUM_SUGGESTIONS_2} návrhů v „{ITEM_TITLE}“}}}male{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} návrhy v „{ITEM_TITLE}“}many{{NUM_SUGGESTIONS_2} návrhu v „{ITEM_TITLE}“}other{{NUM_SUGGESTIONS_2} návrhů v „{ITEM_TITLE}“}}}other{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} návrhy v „{ITEM_TITLE}“}many{{NUM_SUGGESTIONS_2} návrhu v „{ITEM_TITLE}“}other{{NUM_SUGGESTIONS_2} návrhů v „{ITEM_TITLE}“}}}}}male{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} návrhy v „{ITEM_TITLE}“}many{{NUM_SUGGESTIONS_2} návrhu v „{ITEM_TITLE}“}other{{NUM_SUGGESTIONS_2} návrhů v „{ITEM_TITLE}“}}}male{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} návrhy v „{ITEM_TITLE}“}many{{NUM_SUGGESTIONS_2} návrhu v „{ITEM_TITLE}“}other{{NUM_SUGGESTIONS_2} návrhů v „{ITEM_TITLE}“}}}other{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} návrhy v „{ITEM_TITLE}“}many{{NUM_SUGGESTIONS_2} návrhu v „{ITEM_TITLE}“}other{{NUM_SUGGESTIONS_2} návrhů v „{ITEM_TITLE}“}}}}}other{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} návrhy v „{ITEM_TITLE}“}many{{NUM_SUGGESTIONS_2} návrhu v „{ITEM_TITLE}“}other{{NUM_SUGGESTIONS_2} návrhů v „{ITEM_TITLE}“}}}male{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} návrhy v „{ITEM_TITLE}“}many{{NUM_SUGGESTIONS_2} návrhu v „{ITEM_TITLE}“}other{{NUM_SUGGESTIONS_2} návrhů v „{ITEM_TITLE}“}}}other{{NUM_SUGGESTIONS_1,plural, =1{}few{{NUM_SUGGESTIONS_2} návrhy v „{ITEM_TITLE}“}many{{NUM_SUGGESTIONS_2} návrhu v „{ITEM_TITLE}“}other{{NUM_SUGGESTIONS_2} návrhů v „{ITEM_TITLE}“}}}}}}</string>
-    <string name="notify_comments_description_num_todos_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} úkoly v „{ITEM_TITLE}“}many{{NUM_TODOS_2} úkolu v „{ITEM_TITLE}“}other{{NUM_TODOS_2} úkolů v „{ITEM_TITLE}“}}}male{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} úkoly v „{ITEM_TITLE}“}many{{NUM_TODOS_2} úkolu v „{ITEM_TITLE}“}other{{NUM_TODOS_2} úkolů v „{ITEM_TITLE}“}}}other{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} úkoly v „{ITEM_TITLE}“}many{{NUM_TODOS_2} úkolu v „{ITEM_TITLE}“}other{{NUM_TODOS_2} úkolů v „{ITEM_TITLE}“}}}}</string>
-    <string name="notify_comments_description_num_todos_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} úkoly v „{ITEM_TITLE}“}many{{NUM_TODOS_2} úkolu v „{ITEM_TITLE}“}other{{NUM_TODOS_2} úkolů v „{ITEM_TITLE}“}}}male{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} úkoly v „{ITEM_TITLE}“}many{{NUM_TODOS_2} úkolu v „{ITEM_TITLE}“}other{{NUM_TODOS_2} úkolů v „{ITEM_TITLE}“}}}other{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} úkoly v „{ITEM_TITLE}“}many{{NUM_TODOS_2} úkolu v „{ITEM_TITLE}“}other{{NUM_TODOS_2} úkolů v „{ITEM_TITLE}“}}}}}male{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} úkoly v „{ITEM_TITLE}“}many{{NUM_TODOS_2} úkolu v „{ITEM_TITLE}“}other{{NUM_TODOS_2} úkolů v „{ITEM_TITLE}“}}}male{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} úkoly v „{ITEM_TITLE}“}many{{NUM_TODOS_2} úkolu v „{ITEM_TITLE}“}other{{NUM_TODOS_2} úkolů v „{ITEM_TITLE}“}}}other{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} úkoly v „{ITEM_TITLE}“}many{{NUM_TODOS_2} úkolu v „{ITEM_TITLE}“}other{{NUM_TODOS_2} úkolů v „{ITEM_TITLE}“}}}}}other{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} úkoly v „{ITEM_TITLE}“}many{{NUM_TODOS_2} úkolu v „{ITEM_TITLE}“}other{{NUM_TODOS_2} úkolů v „{ITEM_TITLE}“}}}male{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} úkoly v „{ITEM_TITLE}“}many{{NUM_TODOS_2} úkolu v „{ITEM_TITLE}“}other{{NUM_TODOS_2} úkolů v „{ITEM_TITLE}“}}}other{{NUM_TODOS_1,plural, =1{}few{{NUM_TODOS_2} úkoly v „{ITEM_TITLE}“}many{{NUM_TODOS_2} úkolu v „{ITEM_TITLE}“}other{{NUM_TODOS_2} úkolů v „{ITEM_TITLE}“}}}}}}</string>
-    <string name="notify_comments_description_only_one_assign_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Přiděleno uživateli {ASSIGNEE} v „{ITEM_TITLE}“}male{Přiděleno uživateli {ASSIGNEE} v „{ITEM_TITLE}“}other{Přiděleno uživateli {ASSIGNEE} v „{ITEM_TITLE}“}}}male{{SENDER_GENDER,select, female{Přiděleno uživateli {ASSIGNEE} v „{ITEM_TITLE}“}male{Přiděleno uživateli {ASSIGNEE} v „{ITEM_TITLE}“}other{Přiděleno uživateli {ASSIGNEE} v „{ITEM_TITLE}“}}}other{{SENDER_GENDER,select, female{Přiděleno uživateli {ASSIGNEE} v „{ITEM_TITLE}“}male{Přiděleno uživateli {ASSIGNEE} v „{ITEM_TITLE}“}other{Přiděleno uživateli {ASSIGNEE} v „{ITEM_TITLE}“}}}}</string>
-    <string name="notify_comments_description_only_one_assign_to_you_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Přiděleno vám v „{ITEM_TITLE}“}male{Přiděleno vám v „{ITEM_TITLE}“}other{Přiděleno vám v „{ITEM_TITLE}“}}}male{{SENDER_GENDER,select, female{Přiděleno vám v „{ITEM_TITLE}“}male{Přiděleno vám v „{ITEM_TITLE}“}other{Přiděleno vám v „{ITEM_TITLE}“}}}other{{SENDER_GENDER,select, female{Přiděleno vám v „{ITEM_TITLE}“}male{Přiděleno vám v „{ITEM_TITLE}“}other{Přiděleno vám v „{ITEM_TITLE}“}}}}</string>
     <string name="notify_comments_description_only_one_comment_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Okomentovala položku „{ITEM_TITLE}“}male{Okomentoval položku „{ITEM_TITLE}“}other{Komentuje položku „{ITEM_TITLE}“}}}male{{SENDER_GENDER,select, female{Okomentovala položku „{ITEM_TITLE}“}male{Okomentoval položku „{ITEM_TITLE}“}other{Komentuje položku „{ITEM_TITLE}“}}}other{{SENDER_GENDER,select, female{Okomentovala položku „{ITEM_TITLE}“}male{Okomentoval položku „{ITEM_TITLE}“}other{Komentuje položku „{ITEM_TITLE}“}}}}</string>
     <string name="notify_comments_description_only_one_mention_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Zmínila vás v položce „{ITEM_TITLE}“}male{Zmínil vás v položce „{ITEM_TITLE}“}other{Zmiňuje vás v položce „{ITEM_TITLE}“}}}male{{SENDER_GENDER,select, female{Zmínila vás v položce „{ITEM_TITLE}“}male{Zmínil vás v položce „{ITEM_TITLE}“}other{Zmiňuje vás v položce „{ITEM_TITLE}“}}}other{{SENDER_GENDER,select, female{Zmínila vás v položce „{ITEM_TITLE}“}male{Zmínil vás v položce „{ITEM_TITLE}“}other{Zmiňuje vás v položce „{ITEM_TITLE}“}}}}</string>
-    <string name="notify_comments_description_only_one_reassign_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Nově přiděleno uživateli {ASSIGNEE} v „{ITEM_TITLE}“}male{Nově přiděleno uživateli {ASSIGNEE} v „{ITEM_TITLE}“}other{Nově přiděleno uživateli {ASSIGNEE} v „{ITEM_TITLE}“}}}male{{SENDER_GENDER,select, female{Nově přiděleno uživateli {ASSIGNEE} v „{ITEM_TITLE}“}male{Nově přiděleno uživateli {ASSIGNEE} v „{ITEM_TITLE}“}other{Nově přiděleno uživateli {ASSIGNEE} v „{ITEM_TITLE}“}}}other{{SENDER_GENDER,select, female{Nově přiděleno uživateli {ASSIGNEE} v „{ITEM_TITLE}“}male{Nově přiděleno uživateli {ASSIGNEE} v „{ITEM_TITLE}“}other{Nově přiděleno uživateli {ASSIGNEE} v „{ITEM_TITLE}“}}}}</string>
-    <string name="notify_comments_description_only_one_reassign_to_you_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Nově přiděleno vám v „{ITEM_TITLE}“}male{Nově přiděleno vám v „{ITEM_TITLE}“}other{Nově přiděleno vám v „{ITEM_TITLE}“}}}male{{SENDER_GENDER,select, female{Nově přiděleno vám v „{ITEM_TITLE}“}male{Nově přiděleno vám v „{ITEM_TITLE}“}other{Nově přiděleno vám v „{ITEM_TITLE}“}}}other{{SENDER_GENDER,select, female{Nově přiděleno vám v „{ITEM_TITLE}“}male{Nově přiděleno vám v „{ITEM_TITLE}“}other{Nově přiděleno vám v „{ITEM_TITLE}“}}}}</string>
     <string name="notify_comments_description_only_one_suggestion_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Navrhla změnu v „{ITEM_TITLE}“}male{Navrhl změnu v „{ITEM_TITLE}“}other{Navrhl(a) změnu v „{ITEM_TITLE}“}}}male{{SENDER_GENDER,select, female{Navrhla změnu v „{ITEM_TITLE}“}male{Navrhl změnu v „{ITEM_TITLE}“}other{Navrhl(a) změnu v „{ITEM_TITLE}“}}}other{{SENDER_GENDER,select, female{Navrhla změnu v „{ITEM_TITLE}“}male{Navrhl změnu v „{ITEM_TITLE}“}other{Navrhl(a) změnu v „{ITEM_TITLE}“}}}}</string>
     <string name="notify_comments_description_short_many_comments_many_users_icu">{RECIPIENT_GENDER,select, female{Tito uživatelé přidali 99 nebo více komentářů}male{Tito uživatelé přidali 99 nebo více komentářů}other{Tito uživatelé přidali 99 nebo více komentářů}}</string>
     <string name="notify_comments_description_short_many_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Přidala 99 nebo více komentářů}male{Přidal 99 nebo více komentářů}other{Přidal(a) 99 nebo více komentářů}}}male{{SENDER_GENDER,select, female{Přidala 99 nebo více komentářů}male{Přidal 99 nebo více komentářů}other{Přidal(a) 99 nebo více komentářů}}}other{{SENDER_GENDER,select, female{Přidala 99 nebo více komentářů}male{Přidal 99 nebo více komentářů}other{Přidal(a) 99 nebo více komentářů}}}}</string>
+    <string name="notify_comments_description_short_many_items_many_users_icu">{RECIPIENT_GENDER,select, female{Tito uživatelé přidali 99 nebo více komentářů a návrhů}male{Tito uživatelé přidali 99 nebo více komentářů a návrhů}other{Tito uživatelé přidali 99 nebo více komentářů a návrhů}}</string>
+    <string name="notify_comments_description_short_many_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Přidala 99 nebo více komentářů a návrhů}male{Přidal 99 nebo více komentářů a návrhů}other{Přidal(a) 99 nebo více komentářů a návrhů}}}male{{SENDER_GENDER,select, female{Přidala 99 nebo více komentářů a návrhů}male{Přidal 99 nebo více komentářů a návrhů}other{Přidal(a) 99 nebo více komentářů a návrhů}}}other{{SENDER_GENDER,select, female{Přidala 99 nebo více komentářů a návrhů}male{Přidal 99 nebo více komentářů a návrhů}other{Přidal(a) 99 nebo více komentářů a návrhů}}}}</string>
     <string name="notify_comments_description_short_many_suggestions_many_users_icu">{RECIPIENT_GENDER,select, female{Tito uživatelé přidali 99 nebo více návrhů}male{Tito uživatelé přidali 99 nebo více návrhů}other{Tito uživatelé přidali 99 nebo více návrhů}}</string>
     <string name="notify_comments_description_short_many_suggestions_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Přidala 99 nebo více návrhů}male{Přidal 99 nebo více návrhů}other{Přidal(a) 99 nebo více návrhů}}}male{{SENDER_GENDER,select, female{Přidala 99 nebo více návrhů}male{Přidal 99 nebo více návrhů}other{Přidal(a) 99 nebo více návrhů}}}other{{SENDER_GENDER,select, female{Přidala 99 nebo více návrhů}male{Přidal 99 nebo více návrhů}other{Přidal(a) 99 nebo více návrhů}}}}</string>
-    <string name="notify_comments_description_short_many_todos_many_users_icu">{RECIPIENT_GENDER,select, female{Tito uživatelé přidali 99 a více úkolů}male{Tito uživatelé přidali 99 a více úkolů}other{Tito uživatelé přidali 99 a více úkolů}}</string>
-    <string name="notify_comments_description_short_many_todos_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Přidala 99 a více úkolů}male{Přidal 99 a více úkolů}other{Přidal(a) 99 a více úkolů}}}male{{SENDER_GENDER,select, female{Přidala 99 a více úkolů}male{Přidal 99 a více úkolů}other{Přidal(a) 99 a více úkolů}}}other{{SENDER_GENDER,select, female{Přidala 99 a více úkolů}male{Přidal 99 a více úkolů}other{Přidal(a) 99 a více úkolů}}}}</string>
-    <string name="notify_comments_description_short_num_comments_many_users_icu">{RECIPIENT_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{Tito uživatelé přidali {TOTAL_ITEMS_2} komentáře}many{Tito uživatelé přidali {TOTAL_ITEMS_2} komentáře}other{Tito uživatelé přidali {TOTAL_ITEMS_2} komentářů}}}male{{TOTAL_ITEMS_1,plural, =1{}few{Tito uživatelé přidali {TOTAL_ITEMS_2} komentáře}many{Tito uživatelé přidali {TOTAL_ITEMS_2} komentáře}other{Tito uživatelé přidali {TOTAL_ITEMS_2} komentářů}}}other{{TOTAL_ITEMS_1,plural, =1{}few{Tito uživatelé přidali {TOTAL_ITEMS_2} komentáře}many{Tito uživatelé přidali {TOTAL_ITEMS_2} komentáře}other{Tito uživatelé přidali {TOTAL_ITEMS_2} komentářů}}}}</string>
-    <string name="notify_comments_description_short_num_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{Přidala {TOTAL_ITEMS_2} komentáře}many{Přidala {TOTAL_ITEMS_2} komentáře}other{Přidala {TOTAL_ITEMS_2} komentářů}}}male{{TOTAL_ITEMS_1,plural, =1{}few{Přidal {TOTAL_ITEMS_2} komentáře}many{Přidal {TOTAL_ITEMS_2} komentáře}other{Přidal {TOTAL_ITEMS_2} komentářů}}}other{{TOTAL_ITEMS_1,plural, =1{}few{Přidal(a) {TOTAL_ITEMS_2} komentáře}many{Přidal(a) {TOTAL_ITEMS_2} komentáře}other{Přidal(a) {TOTAL_ITEMS_2} komentářů}}}}}male{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{Přidala {TOTAL_ITEMS_2} komentáře}many{Přidala {TOTAL_ITEMS_2} komentáře}other{Přidala {TOTAL_ITEMS_2} komentářů}}}male{{TOTAL_ITEMS_1,plural, =1{}few{Přidal {TOTAL_ITEMS_2} komentáře}many{Přidal {TOTAL_ITEMS_2} komentáře}other{Přidal {TOTAL_ITEMS_2} komentářů}}}other{{TOTAL_ITEMS_1,plural, =1{}few{Přidal(a) {TOTAL_ITEMS_2} komentáře}many{Přidal(a) {TOTAL_ITEMS_2} komentáře}other{Přidal(a) {TOTAL_ITEMS_2} komentářů}}}}}other{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{Přidala {TOTAL_ITEMS_2} komentáře}many{Přidala {TOTAL_ITEMS_2} komentáře}other{Přidala {TOTAL_ITEMS_2} komentářů}}}male{{TOTAL_ITEMS_1,plural, =1{}few{Přidal {TOTAL_ITEMS_2} komentáře}many{Přidal {TOTAL_ITEMS_2} komentáře}other{Přidal {TOTAL_ITEMS_2} komentářů}}}other{{TOTAL_ITEMS_1,plural, =1{}few{Přidal(a) {TOTAL_ITEMS_2} komentáře}many{Přidal(a) {TOTAL_ITEMS_2} komentáře}other{Přidal(a) {TOTAL_ITEMS_2} komentářů}}}}}}</string>
+    <string name="notify_comments_description_short_num_comments_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}few{Přidala {NUM_COMMENTS_2} komentáře}many{Přidala {NUM_COMMENTS_2} komentáře}other{Přidala {NUM_COMMENTS_2} komentářů}}}male{{NUM_COMMENTS_1,plural, =1{}few{Přidal {NUM_COMMENTS_2} komentáře}many{Přidal {NUM_COMMENTS_2} komentáře}other{Přidal {NUM_COMMENTS_2} komentářů}}}other{{NUM_COMMENTS_1,plural, =1{}few{Přidal {NUM_COMMENTS_2} komentáře}many{Přidal {NUM_COMMENTS_2} komentáře}other{Přidal {NUM_COMMENTS_2} komentářů}}}}</string>
+    <string name="notify_comments_description_short_num_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}few{Přidala {NUM_COMMENTS_2} komentáře}many{Přidala {NUM_COMMENTS_2} komentáře}other{Přidala {NUM_COMMENTS_2} komentářů}}}male{{NUM_COMMENTS_1,plural, =1{}few{Přidal {NUM_COMMENTS_2} komentáře}many{Přidal {NUM_COMMENTS_2} komentáře}other{Přidal {NUM_COMMENTS_2} komentářů}}}other{{NUM_COMMENTS_1,plural, =1{}few{Přidal {NUM_COMMENTS_2} komentáře}many{Přidal {NUM_COMMENTS_2} komentáře}other{Přidal {NUM_COMMENTS_2} komentářů}}}}}male{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}few{Přidala {NUM_COMMENTS_2} komentáře}many{Přidala {NUM_COMMENTS_2} komentáře}other{Přidala {NUM_COMMENTS_2} komentářů}}}male{{NUM_COMMENTS_1,plural, =1{}few{Přidal {NUM_COMMENTS_2} komentáře}many{Přidal {NUM_COMMENTS_2} komentáře}other{Přidal {NUM_COMMENTS_2} komentářů}}}other{{NUM_COMMENTS_1,plural, =1{}few{Přidal {NUM_COMMENTS_2} komentáře}many{Přidal {NUM_COMMENTS_2} komentáře}other{Přidal {NUM_COMMENTS_2} komentářů}}}}}other{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}few{Přidala {NUM_COMMENTS_2} komentáře}many{Přidala {NUM_COMMENTS_2} komentáře}other{Přidala {NUM_COMMENTS_2} komentářů}}}male{{NUM_COMMENTS_1,plural, =1{}few{Přidal {NUM_COMMENTS_2} komentáře}many{Přidal {NUM_COMMENTS_2} komentáře}other{Přidal {NUM_COMMENTS_2} komentářů}}}other{{NUM_COMMENTS_1,plural, =1{}few{Přidal {NUM_COMMENTS_2} komentáře}many{Přidal {NUM_COMMENTS_2} komentáře}other{Přidal {NUM_COMMENTS_2} komentářů}}}}}}</string>
+    <string name="notify_comments_description_short_num_items_many_users_icu">{RECIPIENT_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{Tito uživatelé přidali {TOTAL_ITEMS_2} komentáře a návrhy}many{Tito uživatelé přidali {TOTAL_ITEMS_2} komentáře a návrhu}other{Tito uživatelé přidali {TOTAL_ITEMS_2} komentářů a návrhů}}}male{{TOTAL_ITEMS_1,plural, =1{}few{Tito uživatelé přidali {TOTAL_ITEMS_2} komentáře a návrhy}many{Tito uživatelé přidali {TOTAL_ITEMS_2} komentáře a návrhu}other{Tito uživatelé přidali {TOTAL_ITEMS_2} komentářů a návrhů}}}other{{TOTAL_ITEMS_1,plural, =1{}few{Tito uživatelé přidali {TOTAL_ITEMS_2} komentáře a návrhy}many{Tito uživatelé přidali {TOTAL_ITEMS_2} komentáře a návrhu}other{Tito uživatelé přidali {TOTAL_ITEMS_2} komentářů a návrhů}}}}</string>
+    <string name="notify_comments_description_short_num_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{Přidala {TOTAL_ITEMS_2} komentáře a návrhy}many{Přidala {TOTAL_ITEMS_2} komentáře a návrhu}other{Přidala {TOTAL_ITEMS_2} komentářů a návrhů}}}male{{TOTAL_ITEMS_1,plural, =1{}few{Přidal {TOTAL_ITEMS_2} komentáře a návrhy}many{Přidal {TOTAL_ITEMS_2} komentáře a návrhu}other{Přidal {TOTAL_ITEMS_2} komentářů a návrhů}}}other{{TOTAL_ITEMS_1,plural, =1{}few{Přidal(a) {TOTAL_ITEMS_2} komentáře a návrhy}many{Přidal(a) {TOTAL_ITEMS_2} komentáře a návrhu}other{Přidal(a) {TOTAL_ITEMS_2} komentářů a návrhů}}}}}male{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{Přidala {TOTAL_ITEMS_2} komentáře a návrhy}many{Přidala {TOTAL_ITEMS_2} komentáře a návrhu}other{Přidala {TOTAL_ITEMS_2} komentářů a návrhů}}}male{{TOTAL_ITEMS_1,plural, =1{}few{Přidal {TOTAL_ITEMS_2} komentáře a návrhy}many{Přidal {TOTAL_ITEMS_2} komentáře a návrhu}other{Přidala {TOTAL_ITEMS_2} komentářů a návrhů}}}other{{TOTAL_ITEMS_1,plural, =1{}few{Přidal(a) {TOTAL_ITEMS_2} komentáře a návrhy}many{Přidal(a) {TOTAL_ITEMS_2} komentáře a návrhu}other{Přidal(a) {TOTAL_ITEMS_2} komentářů a návrhů}}}}}other{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}few{Přidala {TOTAL_ITEMS_2} komentáře a návrhy}many{Přidala {TOTAL_ITEMS_2} komentáře a návrhu}other{Přidala {TOTAL_ITEMS_2} komentářů a návrhů}}}male{{TOTAL_ITEMS_1,plural, =1{}few{Přidal {TOTAL_ITEMS_2} komentáře a návrhy}many{Přidal {TOTAL_ITEMS_2} komentáře a návrhu}other{Přidal {TOTAL_ITEMS_2} komentářů a návrhů}}}other{{TOTAL_ITEMS_1,plural, =1{}few{Přidal(a) {TOTAL_ITEMS_2} komentáře a návrhy}many{Přidal(a) {TOTAL_ITEMS_2} komentáře a návrhu}other{Přidal(a) {TOTAL_ITEMS_2} komentářů a návrhů}}}}}}</string>
     <string name="notify_comments_description_short_num_suggestions_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}few{Navrhují {NUM_SUGGESTIONS_2} změny}many{Navrhují {NUM_SUGGESTIONS_2} změny}other{Navrhují {NUM_SUGGESTIONS_2} změn}}}male{{NUM_SUGGESTIONS_1,plural, =1{}few{Navrhují {NUM_SUGGESTIONS_2} změny}many{Navrhují {NUM_SUGGESTIONS_2} změny}other{Navrhují {NUM_SUGGESTIONS_2} změn}}}other{{NUM_SUGGESTIONS_1,plural, =1{}few{Navrhují {NUM_SUGGESTIONS_2} změny}many{Navrhují {NUM_SUGGESTIONS_2} změny}other{Navrhují {NUM_SUGGESTIONS_2} změn}}}}</string>
     <string name="notify_comments_description_short_num_suggestions_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}few{Přidala {NUM_SUGGESTIONS_2} návrhy}many{Přidala {NUM_SUGGESTIONS_2} návrhu}other{Přidala {NUM_SUGGESTIONS_2} návrhů}}}male{{NUM_SUGGESTIONS_1,plural, =1{}few{Přidal {NUM_SUGGESTIONS_2} návrhy}many{Přidal {NUM_SUGGESTIONS_2} návrhu}other{Přidal {NUM_SUGGESTIONS_2} návrhů}}}other{{NUM_SUGGESTIONS_1,plural, =1{}few{Přidal(a) {NUM_SUGGESTIONS_2} návrhy}many{Přidal(a) {NUM_SUGGESTIONS_2} návrhu}other{Přidal(a) {NUM_SUGGESTIONS_2} návrhů}}}}}male{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}few{Přidala {NUM_SUGGESTIONS_2} návrhy}many{Přidala {NUM_SUGGESTIONS_2} návrhu}other{Přidala {NUM_SUGGESTIONS_2} návrhů}}}male{{NUM_SUGGESTIONS_1,plural, =1{}few{Přidal {NUM_SUGGESTIONS_2} návrhy}many{Přidal {NUM_SUGGESTIONS_2} návrhu}other{Přidal {NUM_SUGGESTIONS_2} návrhů}}}other{{NUM_SUGGESTIONS_1,plural, =1{}few{Přidal(a) {NUM_SUGGESTIONS_2} návrhy}many{Přidal(a) {NUM_SUGGESTIONS_2} návrhu}other{Přidal(a) {NUM_SUGGESTIONS_2} návrhů}}}}}other{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}few{Přidala {NUM_SUGGESTIONS_2} návrhy}many{Přidala {NUM_SUGGESTIONS_2} návrhu}other{Přidala {NUM_SUGGESTIONS_2} návrhů}}}male{{NUM_SUGGESTIONS_1,plural, =1{}few{Přidal {NUM_SUGGESTIONS_2} návrhy}many{Přidal {NUM_SUGGESTIONS_2} návrhu}other{Přidal {NUM_SUGGESTIONS_2} návrhů}}}other{{NUM_SUGGESTIONS_1,plural, =1{}few{Přidal(a) {NUM_SUGGESTIONS_2} návrhy}many{Přidal(a) {NUM_SUGGESTIONS_2} návrhu}other{Přidal(a) {NUM_SUGGESTIONS_2} návrhů}}}}}}</string>
-    <string name="notify_comments_description_short_num_todos_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_TODOS_1,plural, =1{}few{Tito uživatelé přidali {NUM_TODOS_2} úkoly}many{Tito uživatelé přidali {NUM_TODOS_2} úkolu}other{Tito uživatelé přidali {NUM_TODOS_2} úkolů}}}male{{NUM_TODOS_1,plural, =1{}few{Tito uživatelé přidali {NUM_TODOS_2} úkoly}many{Tito uživatelé přidali {NUM_TODOS_2} úkolu}other{Tito uživatelé přidali {NUM_TODOS_2} úkolů}}}other{{NUM_TODOS_1,plural, =1{}few{Tito uživatelé přidali {NUM_TODOS_2} úkoly}many{Tito uživatelé přidali {NUM_TODOS_2} úkolu}other{Tito uživatelé přidali {NUM_TODOS_2} úkolů}}}}</string>
-    <string name="notify_comments_description_short_num_todos_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}few{Přidala {NUM_TODOS_2} úkoly}many{Přidala {NUM_TODOS_2} úkolu}other{Přidala {NUM_TODOS_2} úkolů}}}male{{NUM_TODOS_1,plural, =1{}few{Přidal {NUM_TODOS_2} úkoly}many{Přidal {NUM_TODOS_2} úkolu}other{Přidal {NUM_TODOS_2} úkolů}}}other{{NUM_TODOS_1,plural, =1{}few{Přidal(a) {NUM_TODOS_2} úkoly}many{Přidal(a) {NUM_TODOS_2} úkolu}other{Přidal(a) {NUM_TODOS_2} úkolů}}}}}male{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}few{Přidala {NUM_TODOS_2} úkoly}many{Přidala {NUM_TODOS_2} úkolu}other{Přidala {NUM_TODOS_2} úkolů}}}male{{NUM_TODOS_1,plural, =1{}few{Přidal {NUM_TODOS_2} úkoly}many{Přidal {NUM_TODOS_2} úkolu}other{Přidal {NUM_TODOS_2} úkolů}}}other{{NUM_TODOS_1,plural, =1{}few{Přidal(a) {NUM_TODOS_2} úkoly}many{Přidal(a) {NUM_TODOS_2} úkolu}other{Přidal(a) {NUM_TODOS_2} úkolů}}}}}other{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}few{Přidala {NUM_TODOS_2} úkoly}many{Přidala {NUM_TODOS_2} úkolu}other{Přidala {NUM_TODOS_2} úkolů}}}male{{NUM_TODOS_1,plural, =1{}few{Přidal {NUM_TODOS_2} úkoly}many{Přidal {NUM_TODOS_2} úkolu}other{Přidal {NUM_TODOS_2} úkolů}}}other{{NUM_TODOS_1,plural, =1{}few{Přidal(a) {NUM_TODOS_2} úkoly}many{Přidal(a) {NUM_TODOS_2} úkolu}other{Přidal(a) {NUM_TODOS_2} úkolů}}}}}}</string>
-    <string name="notify_comments_description_short_only_one_assign_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Přiděleno uživateli {ASSIGNEE}}male{Přiděleno uživateli {ASSIGNEE}}other{Přiděleno uživateli {ASSIGNEE}}}}male{{SENDER_GENDER,select, female{Přiděleno uživateli {ASSIGNEE}}male{Přiděleno uživateli {ASSIGNEE}}other{Přiděleno uživateli {ASSIGNEE}}}}other{{SENDER_GENDER,select, female{Přiděleno uživateli {ASSIGNEE}}male{Přiděleno uživateli {ASSIGNEE}}other{Přiděleno uživateli {ASSIGNEE}}}}}</string>
-    <string name="notify_comments_description_short_only_one_assign_to_you_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Přiděleno vám}male{Přiděleno vám}other{Přiděleno vám}}}male{{SENDER_GENDER,select, female{Přiděleno vám}male{Přiděleno vám}other{Přiděleno vám}}}other{{SENDER_GENDER,select, female{Přiděleno vám}male{Přiděleno vám}other{Přiděleno vám}}}}</string>
     <string name="notify_comments_description_short_only_one_comment_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Přidala komentář}male{Přidal komentář}other{Přidal komentář}}}male{{SENDER_GENDER,select, female{Přidala komentář}male{Přidal komentář}other{Přidal komentář}}}other{{SENDER_GENDER,select, female{Přidala komentář}male{Přidal komentář}other{Přidal komentář}}}}</string>
     <string name="notify_comments_description_short_only_one_mention_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Zmínila vás}male{Zmínil vás}other{Zmiňuje vás}}}male{{SENDER_GENDER,select, female{Zmínila vás}male{Zmínil vás}other{Zmiňuje vás}}}other{{SENDER_GENDER,select, female{Zmínila vás}male{Zmínil vás}other{Zmiňuje vás}}}}</string>
-    <string name="notify_comments_description_short_only_one_reassign_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Nově přiděleno uživateli {ASSIGNEE}}male{Nově přiděleno uživateli {ASSIGNEE}}other{Nově přiděleno uživateli {ASSIGNEE}}}}male{{SENDER_GENDER,select, female{Nově přiděleno uživateli {ASSIGNEE}}male{Nově přiděleno uživateli {ASSIGNEE}}other{Nově přiděleno uživateli {ASSIGNEE}}}}other{{SENDER_GENDER,select, female{Nově přiděleno uživateli {ASSIGNEE}}male{Nově přiděleno uživateli {ASSIGNEE}}other{Nově přiděleno uživateli {ASSIGNEE}}}}}</string>
-    <string name="notify_comments_description_short_only_one_reassign_to_you_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Nově přiděleno vám}male{Nově přiděleno vám}other{Nově přiděleno vám}}}male{{SENDER_GENDER,select, female{Nově přiděleno vám}male{Nově přiděleno vám}other{Nově přiděleno vám}}}other{{SENDER_GENDER,select, female{Nově přiděleno vám}male{Nově přiděleno vám}other{Nově přiděleno vám}}}}</string>
     <string name="notify_comments_description_short_only_one_suggestion_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Navrhla změnu}male{Navrhl změnu}other{Navrhuje změnu}}}male{{SENDER_GENDER,select, female{Navrhla změnu}male{Navrhl změnu}other{Navrhuje změnu}}}other{{SENDER_GENDER,select, female{Navrhla změnu}male{Navrhl změnu}other{Navrhuje změnu}}}}</string>
     <string name="notify_comments_reply_text_icu">{RECIPIENT_GENDER,select, female{{OTHER_POSTER_COUNT_1,plural, =0{Odpověď uživateli {POSTER_NAME}}=1{Odpověď uživateli {POSTER_NAME} a 1 dalšímu}few{Odpověď uživateli {POSTER_NAME} a {OTHER_POSTER_COUNT_2} dalším}many{Odpověď uživateli {POSTER_NAME} a {OTHER_POSTER_COUNT_2} dalších}other{Odpověď uživateli {POSTER_NAME} a {OTHER_POSTER_COUNT_2} dalším}}}male{{OTHER_POSTER_COUNT_1,plural, =0{Odpověď uživateli {POSTER_NAME}}=1{Odpověď uživateli {POSTER_NAME} a 1 dalšímu}few{Odpověď uživateli {POSTER_NAME} a {OTHER_POSTER_COUNT_2} dalším}many{Odpověď uživateli {POSTER_NAME} a {OTHER_POSTER_COUNT_2} dalších}other{Odpověď uživateli {POSTER_NAME} a {OTHER_POSTER_COUNT_2} dalším}}}other{{OTHER_POSTER_COUNT_1,plural, =0{Odpověď uživateli {POSTER_NAME}}=1{Odpověď uživateli {POSTER_NAME} a 1 dalšímu}few{Odpověď uživateli {POSTER_NAME} a {OTHER_POSTER_COUNT_2} dalším}many{Odpověď uživateli {POSTER_NAME} a {OTHER_POSTER_COUNT_2} dalších}other{Odpověď uživateli {POSTER_NAME} a {OTHER_POSTER_COUNT_2} dalším}}}}</string>
     <string name="notify_description_role_comment_request_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Žádá o přístup s oprávněním komentovat}male{Žádá o přístup s oprávněním komentovat}other{Žádá o přístup s oprávněním komentovat}}}male{{SENDER_GENDER,select, female{Žádá o přístup s oprávněním komentovat}male{Žádá o přístup s oprávněním komentovat}other{Žádá o přístup s oprávněním komentovat}}}other{{SENDER_GENDER,select, female{Žádá o přístup s oprávněním komentovat}male{Žádá o přístup s oprávněním komentovat}other{Žádá o přístup s oprávněním komentovat}}}}</string>
@@ -915,16 +819,6 @@ Obsah bude sdílen ve složce %3$s."</string>
     <string name="notify_description_role_generic_access_request_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Žádá o přístup}male{Žádá o přístup}other{Žádá o přístup}}}male{{SENDER_GENDER,select, female{Žádá o přístup}male{Žádá o přístup}other{Žádá o přístup}}}other{{SENDER_GENDER,select, female{Žádá o přístup}male{Žádá o přístup}other{Žádá o přístup}}}}</string>
     <string name="notify_description_role_own_request_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Žádá o vlastnictví}male{Žádá o vlastnictví}other{Žádá o vlastnictví}}}male{{SENDER_GENDER,select, female{Žádá o vlastnictví}male{Žádá o vlastnictví}other{Žádá o vlastnictví}}}other{{SENDER_GENDER,select, female{Žádá o vlastnictví}male{Žádá o vlastnictví}other{Žádá o vlastnictví}}}}</string>
     <string name="notify_description_role_view_request_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Žádá o přístup s oprávněním zobrazit}male{Žádá o přístup s oprávněním zobrazit}other{Žádá o přístup s oprávněním zobrazit}}}male{{SENDER_GENDER,select, female{Žádá o přístup s oprávněním zobrazit}male{Žádá o přístup s oprávněním zobrazit}other{Žádá o přístup s oprávněním zobrazit}}}other{{SENDER_GENDER,select, female{Žádá o přístup s oprávněním zobrazit}male{Žádá o přístup s oprávněním zobrazit}other{Žádá o přístup s oprávněním zobrazit}}}}</string>
-    <string name="notify_drive_storage_expired_icu">{RECIPIENT_GENDER,select, female{Platnost úložiště Disku vypršela}male{Platnost úložiště Disku vypršela}other{Platnost úložiště Disku vypršela}}</string>
-    <string name="notify_drive_storage_expires_friday">{RECIPIENT_GENDER,select, female{Platnost úložiště Disku vyprší v pátek}male{Platnost úložiště Disku vyprší v pátek}other{Platnost úložiště Disku vyprší v pátek}}</string>
-    <string name="notify_drive_storage_expires_monday">{RECIPIENT_GENDER,select, female{Platnost úložiště Disku vyprší v pondělí}male{Platnost úložiště Disku vyprší v pondělí}other{Platnost úložiště Disku vyprší v pondělí}}</string>
-    <string name="notify_drive_storage_expires_saturday">{RECIPIENT_GENDER,select, female{Platnost úložiště Disku vyprší v sobotu}male{Platnost úložiště Disku vyprší v sobotu}other{Platnost úložiště Disku vyprší v sobotu}}</string>
-    <string name="notify_drive_storage_expires_soon">{RECIPIENT_GENDER,select, female{Platnost úložiště Disku brzy vyprší}male{Platnost úložiště Disku brzy vyprší}other{Platnost úložiště Disku brzy vyprší}}</string>
-    <string name="notify_drive_storage_expires_sunday">{RECIPIENT_GENDER,select, female{Platnost úložiště Disku vyprší v neděli}male{Platnost úložiště Disku vyprší v neděli}other{Platnost úložiště Disku vyprší v neděli}}</string>
-    <string name="notify_drive_storage_expires_thursday">{RECIPIENT_GENDER,select, female{Platnost úložiště Disku vyprší ve čtvrtek}male{Platnost úložiště Disku vyprší ve čtvrtek}other{Platnost úložiště Disku vyprší ve čtvrtek}}</string>
-    <string name="notify_drive_storage_expires_tuesday">{RECIPIENT_GENDER,select, female{Platnost úložiště Disku vyprší v úterý}male{Platnost úložiště Disku vyprší v úterý}other{Platnost úložiště Disku vyprší v úterý}}</string>
-    <string name="notify_drive_storage_expires_wednesday">{RECIPIENT_GENDER,select, female{Platnost úložiště Disku vyprší ve středu}male{Platnost úložiště Disku vyprší ve středu}other{Platnost úložiště Disku vyprší ve středu}}</string>
-    <string name="notify_drive_storage_expiring_today_icu">{RECIPIENT_GENDER,select, female{Dnes vyprší platnost úložiště Disku}male{Dnes vyprší platnost úložiště Disku}other{Dnes vyprší platnost úložiště Disku}}</string>
     <string name="notify_heading_anonymous_user">Anonymní</string>
     <string name="notify_heading_icu">{NUM_SENDERS,plural,offset:1 =1{{FIRST_SENDER_DISPLAY_NAME}}=2{{FIRST_SENDER_DISPLAY_NAME} a {SECOND_SENDER}}few{{FIRST_SENDER_DISPLAY_NAME} a {XXX} další}many{{FIRST_SENDER_DISPLAY_NAME} a {XXX} dalšího}other{{FIRST_SENDER_DISPLAY_NAME} a {XXX} dalších}}</string>
     <string name="notify_heading_many_people">%1$s a mnoho dalších</string>
@@ -967,15 +861,10 @@ Obsah bude sdílen ve složce %3$s."</string>
     <string name="notify_sharing_description_one_folder_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Sdílí s vámi složku}male{Sdílí s vámi složku}other{Sdílí s vámi složku}}}male{{SENDER_GENDER,select, female{Sdílí s vámi složku}male{Sdílí s vámi složku}other{Sdílí s vámi složku}}}other{{SENDER_GENDER,select, female{Sdílí s vámi složku}male{Sdílí s vámi složku}other{Sdílí s vámi složku}}}}</string>
     <string name="notify_sharing_description_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{Sdílí s vámi „{ITEM_TITLE}“}male{Sdílí s vámi „{ITEM_TITLE}“}other{Sdílí s vámi „{ITEM_TITLE}“}}}male{{SENDER_GENDER,select, female{Sdílí s vámi „{ITEM_TITLE}“}male{Sdílí s vámi „{ITEM_TITLE}“}other{Sdílí s vámi „{ITEM_TITLE}“}}}other{{SENDER_GENDER,select, female{Sdílí s vámi „{ITEM_TITLE}“}male{Sdílí s vámi „{ITEM_TITLE}“}other{Sdílí s vámi „{ITEM_TITLE}“}}}}</string>
     <string name="notify_unknown_document_title">Neznámý dokument</string>
-    <string name="open_calendar">OTEVŘÍT KALENDÁŘ GOOGLE</string>
-    <string name="open_contacts">OTEVŘÍT KONTAKTY GOOGLE</string>
     <string name="open_document_error_item_cannot_be_exported">Soubor nelze stáhnout. Otevírá se ve webovém režimu…</string>
     <string name="open_document_error_no_viewer_app_found">Soubor nelze zobrazit v žádné aplikaci, otevírá se na webu…</string>
     <string name="open_document_in_browser">Otevřít v prohlížeči</string>
-    <string name="open_folder_removed">Otevřenou složku už nelze zobrazit.</string>
-    <string name="open_folder_trashed">Složka %1$s byla vyhozena do koše.</string>
     <string name="open_online_button">otevřít online</string>
-    <string name="open_photos">OTEVŘÍT FOTKY GOOGLE</string>
     <string name="open_pinned_version">Otevřít ze zařízení</string>
     <string name="open_url_authentication_error">Nelze získat přístup k dokumentu. Chyba při získávání ověření.</string>
     <string name="open_url_error_access_denied">Dokument nelze otevřít. Buď nemáte potřebná oprávnění, nebo již není dostupný.</string>
@@ -993,7 +882,6 @@ Obsah bude sdílen ve složce %3$s."</string>
     <string name="operation_sync_network_error">Došlo k chybě sítě. Zkuste to prosím znovu později.</string>
     <string name="organize_introduction_header">Položky přesunete přetažením</string>
     <string name="organize_introduction_text">Skupinu vybraných položek níže můžete přetažením přesunout do vybrané složky. Pokud chcete výběr zrušit, přejeďte po skupině prstem směrem pryč.</string>
-    <string name="other_backups">Ostatní zařízení</string>
     <string name="ouch_button_close">Zavřít</string>
     <string name="ouch_button_report">Nahlásit</string>
     <string name="ouch_msg_sync_error">Došlo k chybě synchronizace Disku Google. Některá data nemusela být synchronizována. Tuto chybu prosím nahlaste, abychom mohli službu vylepšit.</string>
@@ -1021,9 +909,6 @@ všechny vaše soubory"</string>
     <string name="phonesky_installation_failure_alert_dialog_title">Instalace se nezdařila</string>
     <string name="phonesky_no_internet_connection_alert_dialog_message">Vaše zařízení není připojeno k internetu. Zkuste to znovu později.</string>
     <string name="phonesky_no_internet_connection_alert_dialog_title">Nepřipojeno</string>
-    <string name="photos_and_videos">Fotky a videa</string>
-    <string name="photos_and_videos_footer_text">Synchronizováno s Fotkami Google</string>
-    <string name="photos_and_videos_message">Fotky jsou v zařízeních synchronizovány pomocí Fotek Google.</string>
     <string name="pick_entry_create_new_folder">Vytvořit novou složku</string>
     <string name="pick_entry_current_folder">Aktuální složka: %1s</string>
     <string name="pick_entry_dialog_title">Vybrat položku</string>
@@ -1053,21 +938,20 @@ všechny vaše soubory"</string>
     <string name="pin_warning_external_storage_not_ready">Dokument byl připnut, ale nebude stažen, dokud nebude dostupné externí úložiště.</string>
     <string name="pin_warning_external_storage_not_ready_ok">OK</string>
     <string name="pinned_item_unavailable_dialog_message">Soubor bude zpřístupněn offline, až se příště připojíte k internetu.</string>
-    <string name="pinned_item_unavailable_dialog_title">K souboru %1$s nelze získat přístup.</string>
+    <string name="pinned_item_unavailable_dialog_title">K souboru %s nelze získat přístup.</string>
     <string name="plus_photo_all_set">Všechno je nastaveno. Vaše fotky a videa se zálohují.</string>
     <string name="plus_photo_item_remove_dialog_confirm_button">Odstranit všude</string>
     <string name="plus_photo_item_remove_dialog_title">Odstranit</string>
-    <string name="plus_photo_item_remove_items_dialog_text_single">Soubor %1$s se přesune do koše. Odstraní se tak i z Fotek Google.</string>
+    <string name="plus_photo_item_remove_items_dialog_text_single">Soubor %s se přesune do koše. Odstraní se tak i z Fotek Google.</string>
     <string name="policy_privacy">Ochrana soukromí</string>
+    <string name="policy_privacy_local_url_format_string">http://www.google.com/intl/%1$s/policies/privacy/</string>
     <string name="policy_terms">Smluvní podmínky</string>
+    <string name="policy_terms_local_url_format_string">http://www.google.com/intl/%1$s/policies/terms/</string>
     <string name="pref_auto_backup_referral">Instalujte Fotky Google, které umožňují automatické zálohování.</string>
     <string name="preferences_license_summary">Podrobnosti o licenci pro software s otevřeným zdrojovým kódem</string>
     <string name="preferences_license_title">Licence open source</string>
     <string name="prefs_about_category_title">O aplikaci</string>
     <string name="prefs_abuse_program_policies">Programové zásady</string>
-    <string name="prefs_apps_predict_carousel_category">Rychlý přístup</string>
-    <string name="prefs_apps_predict_carousel_enabled_setting">Aktivovat rychlý přístup</string>
-    <string name="prefs_apps_predict_carousel_enabled_summary">Získejte návrhy časově relevantních souborů, které byste mohli chtít otevřít. Přidá sekci do horní části Mého disku.</string>
     <string name="prefs_apps_predict_category">Návrhy obsahu</string>
     <string name="prefs_apps_predict_show_suggestions">Zobrazovat návrhy obsahu</string>
     <string name="prefs_apps_predict_show_suggestions_summary">Automaticky navrhovat obsah relevantní pro mně, je-li k dispozici</string>
@@ -1081,7 +965,6 @@ všechny vaše soubory"</string>
     <string name="prefs_cache_size">Velikost mezipaměti</string>
     <string name="prefs_cache_size_choice_format_string">%1$d MB</string>
     <string name="prefs_cache_size_summary_format_string">Velikost mezipaměti je nastavena na %1$s MB.</string>
-    <string name="prefs_category_content_description">Sekce, %1$s</string>
     <string name="prefs_change_error">Nastavení se nepodařilo změnit. Zkuste to znovu později.</string>
     <string name="prefs_clear_cache_summary">Odstranit všechny dokumenty v mezipaměti.</string>
     <string name="prefs_data_usage_category">Využití dat</string>
@@ -1101,7 +984,6 @@ všechny vaše soubory"</string>
     <string name="prefs_notification_email_notification">Posílat mi oznámení na e-mail</string>
     <string name="prefs_notification_email_notification_offline">Není k dispozici offline</string>
     <string name="prefs_notification_email_notification_save_error">Nastavení se nepodařilo uložit</string>
-    <string name="prefs_notification_email_notification_summary">Zprávy související s účtem budou odeslány</string>
     <string name="prefs_notification_enable">Zobrazovat oznámení</string>
     <string name="prefs_notification_enable_summary">Zobrazovat oznámení Disku, Dokumentů, Tabulek a Prezentací pro %1$s</string>
     <string name="prefs_notification_other_settings_subheading">Další nastavení</string>
@@ -1118,37 +1000,29 @@ všechny vaše soubory"</string>
     <string name="prefs_sync_over_wifi_only_summary">Není-li připojení Wi-Fi k dispozici, budou nahrávání a aktualizace souborů pozastaveny.</string>
     <string name="prefs_sync_over_wifi_only_title">Přenášet soubory pouze přes Wi-Fi</string>
     <string name="prefs_title">Nastavení</string>
-    <string name="preselection_reason">Nedávno jste otevřeli</string>
-    <string name="preselection_reason_recently_modified">Nedávno změněno</string>
-    <string name="preselection_reason_recently_modified_by_me">Nedávno změněno mnou</string>
-    <string name="preselection_reason_recently_opened_by_me">Nedávno otevřeno mnou</string>
-    <string name="preselection_reason_recently_uploaded_by_me">Nedávno nahráno mnou</string>
     <string name="preview_click_to_open">Klepnutím sem otevřete dokument</string>
     <string name="preview_document_available_in_docs_app">Tento soubor je dostupný v aplikaci Dokumenty</string>
     <string name="preview_document_available_in_sheets_app">Tento soubor je dostupný v aplikaci Tabulky</string>
     <string name="preview_open_in_docs_app_description">Klepnutím sem otevřete soubor v aplikaci Dokumenty</string>
     <string name="preview_open_in_sheets_app_description">Klepnutím sem otevřete soubor v aplikaci Tabulky</string>
-    <string name="pride_query_toast_message">Oslavte rozmanitost a hrdost komunity LGBT s Googlem. Použijte na sociálních médiích hashtag #prideforeveryone.</string>
     <string name="print_cancelled">Tisk byl zrušen.</string>
     <string name="print_error">Služba Google Cloud Print není momentálně dostupná. Zkuste to za chvíli znovu.</string>
     <string name="print_failure">Tisk dokumentu se nezdařil.</string>
-    <string name="prioritydocs_entrypoint_label">Reagovat</string>
-    <string name="prioritydocs_promo_bodycopy">Pokud chcete zobrazit reakce, nainstalujte aplikaci %1$s.</string>
-    <string name="prioritydocs_promo_headline">Nainstalovat aplikaci %1$s?</string>
-    <string name="prioritydocs_promo_negative">NE, DĚKUJI</string>
-    <string name="prioritydocs_promo_positive">INSTALOVAT</string>
+    <string name="prioritydocs_entrypoint_label">Úkoly</string>
     <string name="problem_with_file">Problém se souborem</string>
     <string name="promo_button">Rozumím</string>
-    <string name="promo_text1">Uložte si to na Disk Google, vaše bezpečné místo s 15 GB úložného prostoru zdarma pro dokumenty a fotky, ke kterým pak budete mít přístup z libovolného zařízení.</string>
-    <string name="promo_title">Zachovat kopii tohoto souboru</string>
+    <string name="promo_text1">Soubory PDF si můžete uložit na Disk Google, takže je neztratíte a budete je moci otevřít kdekoli, na jakémkoli zařízení.</string>
+    <string name="promo_title">Ukládejte si soubory PDF na Disk Google</string>
     <string name="punctuation_period">.</string>
     <string name="purchase_dialog_how_storage_used">Úložiště je sdíleno mezi službami Gmail, Fotky Google a Disk Google</string>
-    <string name="purchase_dialog_manage">Spravovat úložiště</string>
-    <string name="purchase_dialog_terms_service">Výběrem tarifu úložiště souhlasíte s dokumentem %1$s.</string>
+    <string name="purchase_dialog_learn_more">Další informace</string>
+    <string name="purchase_dialog_more">Další tarify úložiště</string>
+    <string name="purchase_dialog_terms_service">Výběrem tarifu úložiště a kliknutím na „Koupit“ souhlasíte s: %1$s.</string>
     <string name="purchase_dialog_title">Tarify úložiště na Disku Google</string>
     <string name="purchase_error">Vyskytl se problém</string>
     <string name="purchase_error_connect">Nelze se připojit</string>
     <string name="purchase_per_month">%1$s za měsíc</string>
+    <string name="purchase_success">Tarif byl úspěšně zakoupen</string>
     <string name="quota_cannot_determine">nelze zjistit</string>
     <string name="quota_range_large">Od 10 MB do 100 MB</string>
     <string name="quota_range_larger">Od 100 MB do 1 GB</string>
@@ -1161,26 +1035,26 @@ všechny vaše soubory"</string>
     <string name="recent_activity_button_show_more_files">Zobrazit další…</string>
     <string name="recent_activity_card_title">Aktivita</string>
     <string name="recent_activity_empty">Žádná zaznamenaná aktivita</string>
-    <string name="recent_activity_end">Žádná zaznamenaná aktivita před datem %1$s</string>
+    <string name="recent_activity_end">Žádná zaznamenaná aktivita před datem %s</string>
     <string name="recent_activity_failed">Jejda, aktivitu se nepodařilo načíst. Zkuste to znovu později.</string>
     <string name="recent_activity_rename_titles_accessibility">Přejmenováno z %1$s na %2$s</string>
-    <string name="recent_activity_users_two">%1$s a %2$s</string>
+    <string name="recent_activity_users_two" formatted="false">%s a %s</string>
+    <string name="remove_button_confirm">Odstranit</string>
+    <string name="remove_collection">Odstranit složku</string>
     <string name="remove_dialog_confirm_delete_button">Trvale smazat</string>
-    <string name="remove_dialog_confirm_delete_for_everyone_button">Smazat všem</string>
-    <string name="remove_dialog_delete_different_permissions_files">U těchto souborů máte různá oprávnění. Některé budou přesunuty do koše a po 30 dnech trvale smazány. Ostatní budou odstraněny.</string>
-    <string name="remove_dialog_delete_different_permissions_folders">U těchto složek máte různá oprávnění. Některé budou přesunuty do koše a po 30 dnech trvale smazány. Ostatní budou odstraněny.</string>
-    <string name="remove_dialog_delete_different_permissions_items">U těchto položek máte různá oprávnění. Některé budou přesunuty do koše a po 30 dnech trvale smazány. Ostatní budou odstraněny.</string>
-    <string name="remove_dialog_delete_different_permissions_title">Smazány budou pouze některé položky</string>
-    <string name="remove_dialog_delete_for_everyone_title">Smazat všem?</string>
-    <string name="remove_parent_confirmation">Ostatní lidé už položku %1$s ve sdíl. složce %2$s neuvidí</string>
-    <string name="remove_parent_not_allowed">Pro odebrání souboru %1$s ze sdílené složky %2$s nemáte oprávnění</string>
-    <string name="removed_parent_message">Soubor %1$s byl odebrán ze složky %2$s</string>
+    <string name="remove_dialog_delete_permanently_text_single">Opravdu chcete soubor %s trvale smazat? Tuto akci nelze vrátit zpět.</string>
+    <string name="remove_dialog_delete_permanently_title">Trvale smazat</string>
+    <string name="remove_document">Odstranit soubor</string>
+    <string name="remove_parent_confirmation" formatted="false">Ostatní lidé už položku %s ve sdíl. složce %s neuvidí</string>
+    <string name="remove_parent_not_allowed" formatted="false">Pro odebrání souboru %s ze sdílené složky %s nemáte oprávnění</string>
+    <string name="removed_parent_message" formatted="false">Soubor %s byl odebrán ze složky %s</string>
     <string name="rename_collection">Přejmenovat složku</string>
     <string name="rename_document">Přejmenovat dokument</string>
     <string name="rename_drawing">Přejmenovat nákres</string>
     <string name="rename_file">Přejmenovat soubor</string>
     <string name="rename_presentation">Přejmenovat prezentaci</string>
     <string name="rename_spreadsheet">Přejmenovat tabulku</string>
+    <string name="reply_email_subject">Re: Vaše žádost o přístup</string>
     <string name="report_abuse_title">Hlášení o zneužití</string>
     <string name="request_access">Požádat o přístup</string>
     <string name="request_access_message">Vlastník obdrží e-mailové oznámení o uživateli žádajícím přístup.</string>
@@ -1190,21 +1064,16 @@ všechny vaše soubory"</string>
     <string name="retry_button_text">opakovat</string>
     <string name="scan_shortcut_failed_folder_deleted">Složka %1$s je smazaná.</string>
     <string name="scan_shortcut_failed_folder_trashed">Složka %1$s je v koši. Před skenováním dokumentu složku obnovte.</string>
-    <string name="scan_task_title">Skenování na Disk</string>
     <string name="search_description">Disk Google</string>
     <string name="search_hint">Vyhledat na Disku</string>
     <string name="search_hint_short">Vyhledat</string>
-    <string name="search_menu_title">Hledat</string>
     <string name="search_showing_local_results_only">Nelze vyhledávat, zobrazují se jen shody názvů.</string>
     <string name="search_showing_local_results_only_offline">Výsledky vyhledávání obsahují jen nalezené názvy. Další výsledky najdete online.</string>
     <string name="select_account">Zvolte účet</string>
     <string name="select_folder_color">Barva složky</string>
-    <string name="select_team_drive_desc">Vybrat týmový disk</string>
-    <string name="select_team_drive_title">Vybrat týmový disk</string>
     <string name="selected_account">Přihlášený účet: %1$s</string>
     <string name="selection_action_bar_drop_to_current_folder_header">Přesunout do</string>
     <string name="selection_action_bar_drop_to_current_folder_header_as_add">Přidat do</string>
-    <string name="selection_cannot_move_into_self">Položku nelze přesunout do ní samotné</string>
     <string name="selection_item_select_button">Vybrat: %1$s %2$s</string>
     <string name="selection_item_unselect_button">Zrušit výběr: %1$s %2$s</string>
     <string name="selection_limit_reached">Některé položky nebyly vybrány. Byl dosažen maximální počet vybraných položek.</string>
@@ -1252,7 +1121,7 @@ všechny vaše soubory"</string>
     <string name="selection_mode_started">Režim výběru zahájen</string>
     <string name="selection_suffix_checked">Zaškrtnuto</string>
     <string name="selection_suffix_not_checked">Nezaškrtnuto</string>
-    <string name="selection_undo_button">Zpět</string>
+    <string name="selection_undo_button">Vrátit zpět</string>
     <string name="send_to_clipboard_activity_title">Zkopírovat do schránky</string>
     <string name="send_to_clipboard_success">Zkopírováno do schránky</string>
     <string name="share_card_enabled_link_sharing_toast">Sdílení odkazů je nyní povoleno.</string>
@@ -1272,30 +1141,28 @@ všechny vaše soubory"</string>
     <string name="sharing_info_loading">Informace o sdílení se stále načítají…</string>
     <string name="sharing_list_offline">Seznam sdílení není v režimu offline dostupný.</string>
     <string name="sharing_list_updated">Nastavení sdílení bylo úspěšně aktualizováno.</string>
-    <string name="sharing_message_add_users_one">Položka %1$s byla sdílena s uživatelem %2$s</string>
-    <string name="sharing_message_add_users_two">Položka %1$s byla sdílena s uživateli %2$s a %3$s</string>
+    <string name="sharing_message_add_users_one">Položka %1$s byla sdílena s uživatelem %2$s</string>
+    <string name="sharing_message_add_users_two">Položka %1$s byla sdílena s uživateli %2$s a %3$s</string>
     <string name="sharing_message_remove">Uživatel %s byl odstraněn ze souboru</string>
-    <string name="sharing_message_remove_td">Uživatel %s byl odstraněn z týmového disku</string>
     <string name="sharing_message_saved">Nastavení sdílení uloženo, probíhá aktualizace seznamu sdílení.</string>
-    <string name="sharing_message_saved_td">Členství uživatele %s změněno</string>
     <string name="sharing_message_title">Zpráva</string>
     <string name="sharing_message_unable_to_change">Nastavení sdílení nelze změnit</string>
     <string name="sharing_offline">V režimu offline nelze sdílet.</string>
-    <string name="sharing_option_anyone">Veřejné na webu</string>
+    <string name="sharing_option_anyone">Veřejně dostupné na webu</string>
     <string name="sharing_option_anyone_can_comment">Všichni mohou komentovat</string>
     <string name="sharing_option_anyone_can_contribute">Všichni mohou uspořádávat, přidávat a upravovat</string>
     <string name="sharing_option_anyone_can_edit">Všichni mohou upravovat</string>
     <string name="sharing_option_anyone_can_view">Všichni mohou prohlížet</string>
-    <string name="sharing_option_anyone_from">Všichni v doméně %1$s mohou vyhledat a mají přístup</string>
-    <string name="sharing_option_anyone_from_can_comment">Všichni v doméně %1$s mohou vyhledat a komentovat</string>
-    <string name="sharing_option_anyone_from_can_contribute">Všichni v doméně %1$s mohou vyhledat a přispívat</string>
-    <string name="sharing_option_anyone_from_can_edit">Všichni v doméně %1$s mohou vyhledat a upravovat</string>
-    <string name="sharing_option_anyone_from_can_view">Všichni v doméně %1$s mohou vyhledat a zobrazit</string>
-    <string name="sharing_option_anyone_from_with_link">Kdokoli v doméně %1$s, kdo má odkaz</string>
-    <string name="sharing_option_anyone_from_with_link_can_comment">Všichni v doméně %1$s, kteří mají odkaz, mohou komentovat</string>
-    <string name="sharing_option_anyone_from_with_link_can_contribute">Všichni v %1$s s odkazem mohou uspořádávat, přidávat a upravovat</string>
-    <string name="sharing_option_anyone_from_with_link_can_edit">Všichni v doméně %1$s, kteří mají odkaz, mohou upravovat</string>
-    <string name="sharing_option_anyone_from_with_link_can_view">Všichni v doméně %1$s, kteří mají odkaz, mohou zobrazit</string>
+    <string name="sharing_option_anyone_from">Všichni v doméně %s mohou vyhledat a mají přístup</string>
+    <string name="sharing_option_anyone_from_can_comment">Všichni v doméně %s mohou vyhledat a komentovat</string>
+    <string name="sharing_option_anyone_from_can_contribute">Všichni v doméně %s mohou vyhledat a přispívat</string>
+    <string name="sharing_option_anyone_from_can_edit">Všichni v doméně %s mohou vyhledat a upravovat</string>
+    <string name="sharing_option_anyone_from_can_view">Všichni v doméně %s mohou vyhledat a zobrazit</string>
+    <string name="sharing_option_anyone_from_with_link">Kdokoli v doméně %s, kdo má odkaz</string>
+    <string name="sharing_option_anyone_from_with_link_can_comment">Všichni v doméně %s, kteří mají odkaz, mohou komentovat</string>
+    <string name="sharing_option_anyone_from_with_link_can_contribute">Všichni v %s s odkazem mohou uspořádávat, přidávat a upravovat</string>
+    <string name="sharing_option_anyone_from_with_link_can_edit">Všichni v doméně %s, kteří mají odkaz, mohou upravovat</string>
+    <string name="sharing_option_anyone_from_with_link_can_view">Všichni v doméně %s, kteří mají odkaz, mohou zobrazit</string>
     <string name="sharing_option_anyone_with_link">Všichni, kdo mají odkaz</string>
     <string name="sharing_option_anyone_with_link_can_comment">Všichni s odkazem mohou komentovat</string>
     <string name="sharing_option_anyone_with_link_can_contribute">Všichni s odkazem mohou uspořádávat, přidávat a upravovat</string>
@@ -1304,10 +1171,10 @@ všechny vaše soubory"</string>
     <string name="sharing_option_private">Soukromé</string>
     <string name="sharing_option_private_acl_message">Nesdíleno</string>
     <string name="sharing_option_private_no_collaborators">Soukromé – přístup máte pouze vy</string>
-    <string name="sharing_option_specific_people">Sdíleno s konkrétními uživateli</string>
+    <string name="sharing_option_specific_people">Sdíleno s konkrétními uživateli</string>
     <string name="sharing_option_unknown">Neznámý režim sdílení</string>
-    <string name="sharing_progress_loading_message">Načítají se informace o sdílení.</string>
-    <string name="sharing_progress_saving_message">Ukládají se informace o sdílení.</string>
+    <string name="sharing_progress_loading_message">Načítají se informace o sdílení.</string>
+    <string name="sharing_progress_saving_message">Ukládají se informace o sdílení.</string>
     <string name="sharing_role_commenter">Může komentovat</string>
     <string name="sharing_role_content_description">Tlačítko %1$s pro uživatele %2$s</string>
     <string name="sharing_role_contributor">Může uspoř., přid. a upravovat</string>
@@ -1316,38 +1183,13 @@ všechny vaše soubory"</string>
     <string name="sharing_role_reader">Může prohlížet</string>
     <string name="sharing_role_unknown">Neznámý přístup</string>
     <string name="sharing_role_writer">Může upravovat</string>
-    <string name="sharing_server_error_generic_all">Tuto položku nelze sdílet.</string>
-    <string name="sharing_server_error_more">Tuto položku nelze sdílet s uživateli %1$s.</string>
-    <string name="sharing_server_error_one">Tuto položku nelze sdílet s uživatelem %1$s.</string>
-    <string name="sharing_server_error_partial_summary">Nesdíleno se všemi uživateli</string>
-    <string name="sharing_server_error_restricted_all">Tato položka má omezený obsah a nelze ji sdílet.</string>
-    <string name="sharing_server_error_restricted_more">Tato položka má omezený obsah a nelze ji sdílet s uživateli %1$s, protože jsou mimo vaši organizaci.</string>
-    <string name="sharing_server_error_restricted_one">Tato položka má omezený obsah a nelze ji sdílet s uživatelem %1$s, protože je mimo vaši organizaci.</string>
-    <string name="sharing_server_error_restricted_three">Tato položka má omezený obsah a nelze ji sdílet s uživateli %1$s, %2$s a %3$s, protože jsou mimo vaši organizaci.</string>
-    <string name="sharing_server_error_restricted_two">Tato položka má omezený obsah a nelze ji sdílet s uživateli %1$s a %2$s, protože jsou mimo vaši organizaci.</string>
-    <string name="sharing_server_error_summary">Tuto položku nemůžete sdílet</string>
-    <string name="sharing_server_error_three">Tuto položku nelze sdílet s uživateli %1$s, %2$s a %3$s.</string>
-    <string name="sharing_server_error_two">Tuto položku nelze sdílet s uživateli %1$s a %2$s.</string>
-    <string name="sharing_server_success_more">Položka %1$s byla sdílena s uživateli %2$s, protože jsou ve vaší organizaci.</string>
-    <string name="sharing_server_success_one">Položka %1$s byla sdílena s uživatelem %2$s, protože je ve vaší organizaci.</string>
-    <string name="sharing_server_success_three">Položka %1$s byla sdílena s uživateli %2$s, %3$s a %4$s, protože jsou ve vaší organizaci.</string>
-    <string name="sharing_server_success_two">Položka %1$s byla sdílena s uživateli %2$s a %3$s, protože jsou ve vaší organizaci.</string>
-    <string name="sharing_server_warning_more">Opravdu chcete obsah sdílet s uživateli %1$s?</string>
-    <string name="sharing_server_warning_one">Opravdu chcete obsah sdílet s uživatelem %1$s?</string>
-    <string name="sharing_server_warning_summary">Sdílet externě?</string>
-    <string name="sharing_server_warning_three">Opravdu chcete obsah sdílet s uživateli %1$s, %2$s a %3$s?</string>
-    <string name="sharing_server_warning_two">Opravdu chcete obsah sdílet s uživateli %1$s a %2$s?</string>
     <string name="sharing_show_smartprofile_content_description">Otevřít chytrý profil uživ. %s</string>
     <string name="sharing_show_who_has_access">Kdo má přístup – klepnutím můžete spravovat spolupracovníky.</string>
-    <string name="sharing_undo_role_failure">Chyba. Vrácení se nezdařilo.</string>
-    <string name="sharing_undo_role_success">Nastavení sdílení vrácena.</string>
     <string name="shortcut_created">Na plochu byl přidán zástupce</string>
     <string name="shortcut_creation_failed">Nelze vytvořit zástupce</string>
     <string name="show_account_list">Zobrazit účty</string>
     <string name="sign_in">Přihlásit se</string>
     <string name="slider_title_all_items">Všechny položky</string>
-    <string name="sms">Zprávy SMS</string>
-    <string name="sms_message">Záloha zahrnuje přijaté i odeslané zprávy.</string>
     <string name="sorting_label_for_creation_time_shorten">Datum vytvoření</string>
     <string name="sorting_label_for_last_modified_shorten">Naposledy změněno</string>
     <string name="sorting_label_for_modified_by_me_shorten">Změněno mnou</string>
@@ -1357,32 +1199,25 @@ všechny vaše soubory"</string>
     <string name="sorting_order_ascending">Vzestupně</string>
     <string name="sorting_order_descending">Sestupně</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="storage_info">Tato záloha nevyužívá žádné místo v úložišti Disku</string>
     <string name="storage_upgrade">Přejít na vyšší verzi úložiště</string>
-    <string name="storage_upgraded_help_card_content">Každý měsíc vám bude naúčtováno %1$s za úložiště o velikosti %2$s, které je sdíleno službami Gmail, Disk Google a Fotky Google. Tarif můžete kdykoli zrušit nebo změnit. Může trvat až 24 hodin, než bude vaše nové úložiště k dispozici.</string>
-    <string name="storage_upgraded_help_card_help_button">Nápověda</string>
-    <string name="storage_upgraded_help_card_title">Děkujeme</string>
+    <string name="storage_upgraded_help_card_contact_button">Kontaktujte nás</string>
+    <string name="storage_upgraded_help_card_content">Upgradovali jste na úložiště Disku Google o velikosti %1$s. Díky tomu také získáváte prioritní přístup k telefonní, e-mailové a chatové podpoře. Pokud máte nějaké otázky, můžete nás kdykoli kontaktovat.</string>
+    <string name="storage_upgraded_help_card_title">Teď se můžete roztahovat!</string>
     <string name="storage_used">Využito %1$s z %2$s</string>
     <string name="storage_used_unlimited">Využito %1$s</string>
     <string name="suggest_pin_dialog_message">Tento soubor není v režimu offline dostupný. Chcete jej zpřístupnit pro příště, až budete v režimu offline?</string>
     <string name="suggest_pin_dialog_negative_button">Ne, děkuji</string>
     <string name="suggest_pin_dialog_positive_button">Zpřístupnit offline</string>
     <string name="suggest_pin_dialog_title">Chybí připojení</string>
-    <string name="switch_account_help_card_button">ZMĚNIT ÚČET</string>
-    <string name="switch_account_help_card_content">Toto zařízení je zálohováno na jiný účet. %s</string>
-    <string name="switch_account_help_card_title">Zálohování na jiný účet</string>
     <string name="switch_backup_account">PŘEPNOUT ÚČET V NASTAVENÍ ZÁLOHOVÁNÍ</string>
     <string name="sync_failed">Chyba synchronizace Disku Google</string>
     <string name="sync_more">Načíst další…</string>
     <string name="sync_more_error">Chyba při načítání dalších položek</string>
     <string name="sync_more_error_offline">Některé dokumenty nemusí být v režimu offline viditelné.</string>
+    <string name="tap_to_retry">Klepnutím to zkuste znovu</string>
+    <string name="tap_to_view_who_has_access">Klepnutím zobrazíte, kdo má přístup</string>
     <string name="targetviewintro_close_button">Rozumím</string>
     <string name="td_downgrade_not_allowed">Přístup můžete upgradovat pouze pro členy týmového disku.</string>
-    <string name="td_members_access">Počet členů: %1$d</string>
-    <string name="td_sharing_message_add_users_one">Na disk %1$s byl přidán uživatel %2$s</string>
-    <string name="td_sharing_message_add_users_two">Na disk %1$s byli přidáni uživatelé %2$s a %3$s</string>
-    <string name="team_drive_empty_list_message_can_create">Týmový disk je sdílený prostor pro spolupráci s týmem. Přizpůsobte jej povaze svého týmu.</string>
-    <string name="team_drive_empty_list_message_cannot_create">Týmový disk je sdílený prostor pro spolupráci s týmem. Až budete k týmovému disku přidáni, zobrazí se zde.</string>
     <string name="thumbnail_open">Otevřít</string>
     <string name="time_range_1_day">1 den</string>
     <string name="time_range_days">%1$d d</string>
@@ -1394,27 +1229,16 @@ všechny vaše soubory"</string>
     <string name="title_send_intent">Odeslat soubor %1$s přes</string>
     <string name="title_show_files">%1$d z %2$d</string>
     <string name="transfer_notification_waiting_content">Čekání na síť Wi-Fi</string>
+    <string name="trash_delete_forever_confirm">Trvale smazat</string>
+    <string name="trash_delete_forever_question">Trvale smazat</string>
     <string name="trash_delete_forever_success">1 položka byla smazána.</string>
-    <string name="turnoff_backup">Vypnout zálohování</string>
-    <string name="turnoff_backup_confirm_button">Vypnout</string>
-    <string name="turnoff_backup_error_message">Zálohování se nepodařilo vypnout.</string>
-    <string name="turnoff_backup_progress_message">Vypnutí zálohování</string>
-    <string name="turnoff_whatsapp_backup_confirmation_message">"Tím se zastaví zálohování chatů a médií WhatsApp na všech zařízeních:
-
-%s
-Zálohování můžete znovu zapnout, když v aplikaci WhatsApp přejdete do Nastavení > Chaty > Zálohování chatu."</string>
-    <string name="turnoff_whatsapp_backup_title">Vypnout zálohování WhatsApp?</string>
-    <string name="tutorial_upload_complete_body">Používejte jej odkudkoli, kde se přihlásíte k Disku</string>
-    <string name="tutorial_upload_complete_header">Přidali jste soubor na Disk</string>
-    <string name="tutorial_upload_fab_hint_text">Klepnutím na ikonu plus přidáte soubory z tohoto zařízení na Disk a budete je moci používat odkudkoli.</string>
-    <string name="unable_to_preview">Nelze zobrazit náhled souboru.</string>
+    <string name="trash_delete_forever_warning">Tato položka bude trvale smazána z Disku. Tuto akci nelze vrátit zpět.</string>
     <string name="unified_actions_add_to_drive">Přidat na Můj disk</string>
     <string name="unified_link_sharing_is_off">Sdílení odkazů je vypnuté</string>
     <string name="unified_link_sharing_is_on">Sdílení odkazů je zapnuté</string>
     <string name="unknown_album">Neznámé album</string>
     <string name="unknown_artist">Neznámý interpret</string>
     <string name="unsupported_file">Tento typ souboru není podporován.</string>
-    <string name="untitled_audio">Zvukový soubor bez názvu</string>
     <string name="untrash_and_open_message">Pokud chcete soubor %1$s použít, vyjměte jej z koše.</string>
     <string name="untrash_and_open_not_allowed_message">Soubor %1$s vyhodil vlastník do koše.</string>
     <string name="untrash_and_open_positive_button">Vyjmout z koše</string>
@@ -1433,7 +1257,6 @@ Zálohování můžete znovu zapnout, když v aplikaci WhatsApp přejdete do Na
     <string name="upload_incomplete">Neúplné nahrání</string>
     <string name="upload_multiple_document_titles">Názvy dokumentů</string>
     <string name="upload_notification_cancel_title">Nahrávání bylo zrušeno</string>
-    <string name="upload_notification_failure_folder">Složku nelze nahrát</string>
     <string name="upload_notification_failure_no_retry_title">Nahrávání se nezdařilo</string>
     <string name="upload_notification_failure_ticker">Nahrání se nezdařilo</string>
     <string name="upload_notification_more_files">+další (%1$d)</string>
@@ -1478,14 +1301,6 @@ Zálohování můžete znovu zapnout, když v aplikaci WhatsApp přejdete do Na
     <string name="welcome_title">Uvítací panel Disku Google.</string>
     <string name="welcome_title_announce">Oznamovací panel Disku Google.</string>
     <string name="welcome_title_highlights">Oznamovací panel Disku Google.</string>
-    <string name="whatsapp">WhatsApp</string>
-    <string name="whatsapp_message">Vaše konverzace a média (včetně fotek, videí, zvukových souborů a dokumentů) se zálohují na Disk Google. Pokud změníte zařízení, můžete je po opětovné instalaci aplikace WhatsApp obnovit.</string>
-    <string name="whatsapp_turned_off_message">"Zálohování je vypnuté.
-Naposledy zálohováno %s
-
-Vaše konverzace a média (včetně fotek, videí, zvukových souborů a dokumentů) se zálohují na Disk Google. Pokud změníte zařízení, můžete je po opětovné instalaci aplikace WhatsApp obnovit.
-
-Pokud chcete zálohování opět zapnout, přejděte v aplikaci WhatsApp do Nastavení > Chaty."</string>
     <string name="widget_account_missing">Chyba: Účet nenalezen, zkontrolujte nastavení účtu: %1$s.</string>
     <string name="widget_configuration_missing">Chyba: Došlo ke ztrátě konfigurace, odeberte tento widget a znovu jej přidejte.</string>
     <string name="widget_initializing">Inicializace…</string>
@@ -1508,7 +1323,6 @@ Pokud chcete zálohování opět zapnout, přejděte v aplikaci WhatsApp do Nas
     <string name="zss_remove_all_filters_button_content_description">Odstranit všechny filtry</string>
     <string name="zss_remove_filter_button_content_description">Odstranit filtr: %1$s</string>
     <string name="zss_showing_list_of_filters">Je zobrazen seznam dostupných filtrů.</string>
-    <string name="zss_team_drive">Vyhledat na disku %1$s</string>
     <string name="zss_type_archive">Archiv</string>
     <string name="zss_type_audio">Zvukové soubory</string>
     <string name="zss_type_documents">Textové dokumenty</string>

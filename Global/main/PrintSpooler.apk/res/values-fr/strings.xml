@@ -8,7 +8,6 @@
     <string name="label_paper_size">Taille du papier</string>
     <string name="label_paper_size_summary">Taille du papier :</string>
     <string name="label_color">Couleur</string>
-    <string name="label_duplex">Recto verso</string>
     <string name="label_orientation">Orientation</string>
     <string name="label_pages">Pages</string>
     <string name="template_all_pages">Toutes (%1$s)</string>
@@ -18,7 +17,7 @@
     <string name="install_for_print_preview">"Installer un lecteur PDF pour afficher l'aperçu"</string>
     <string name="printing_app_crashed">"L'application à l'origine de l'impression a planté"</string>
     <string name="generating_print_job">Génération tâche impression…</string>
-    <string name="save_as_pdf">Enregistrer au format PDF</string>
+    <string name="save_as_pdf">Enregistrer au format .PDF</string>
     <string name="all_printers">Toutes les imprim.</string>
     <string name="print_dialog">"Boîte de dialogue d'impression"</string>
     <string name="current_page_template">%1$d/%2$d</string>

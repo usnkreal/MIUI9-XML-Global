@@ -92,9 +92,9 @@ Dacă activați din nou datele mobile, operatorul dvs. vă poate taxa pentru dat
         <item quantity="few">%d aplicații găsite</item>
     </plurals>
     <plurals name="network_restrict_count">
-        <item quantity="other">"Accesul la rețea este restricționat pentru &lt;font color='#ff0000'>%d&lt;/font> aplicații"</item>
-        <item quantity="one">"Accesul la rețea este restricționat pentru &lt;font color='#ff0000'>%d&lt;/font> aplicație"</item>
-        <item quantity="few">"Accesul la rețea este restricționat pentru &lt;font color='#ff0000'>%d&lt;/font> aplicații"</item>
+        <item quantity="other">"Accesul la rețea este restricționat pentru &amp;lt;font color='#ff0000'>%d&amp;lt;/font> aplicații"</item>
+        <item quantity="one">"Accesul la rețea este restricționat pentru &amp;lt;font color='#ff0000'>%d&amp;lt;/font> aplicație"</item>
+        <item quantity="few">"Accesul la rețea este restricționat pentru &amp;lt;font color='#ff0000'>%d&amp;lt;/font> aplicații"</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
         <item quantity="other">%d aplicații nu funcționează corespunzător și utilizează bateria</item>

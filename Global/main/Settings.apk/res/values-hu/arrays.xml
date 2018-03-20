@@ -24,34 +24,6 @@
         <item>Az értesítések az Értesítési felületen fognak megjelenni</item>
         <item>Az értesítések egy külön mappában fognak megjelenni</item>
     </string-array>
-    <string-array name="wifi_status">
-        <item></item>
-        <item>Keresés…</item>
-        <item>Csatlakozás…</item>
-        <item>Hitelesítés…</item>
-        <item>IP cím megszerzése…</item>
-        <item>Csatlakozva</item>
-        <item>Felfüggesztve</item>
-        <item>Leválasztás…</item>
-        <item>Leválasztva</item>
-        <item>Sikertelen</item>
-        <item>Letiltott</item>
-        <item>Gyenge hálózat ideiglenes kikerülése</item>
-    </string-array>
-    <string-array name="wifi_status_with_ssid">
-        <item></item>
-        <item>Keresés…</item>
-        <item>Csatlakozás ide: %1$s…</item>
-        <item>%1$s hitelesítése…</item>
-        <item>IP cím megszerzése innen: %1$s…</item>
-        <item>Csatlakozva ide: %1$s</item>
-        <item>Felfüggesztve</item>
-        <item>Leválasztás innen: %1$s…</item>
-        <item>Leválasztva</item>
-        <item>Sikertelen</item>
-        <item>Letiltott</item>
-        <item>Gyenge hálózat ideiglenes kikerülése</item>
-    </string-array>
     <string-array name="timezone_filters">
         <item>Amerika</item>
         <item>Európa</item>
@@ -100,24 +72,13 @@
     <string-array name="tts_rate_entries">
         <item>Nagyon lassú</item>
         <item>Lassú</item>
-        <item>Normális</item>
+        <item>Normál</item>
         <item>Gyors</item>
         <item>Gyorsabb</item>
         <item>Nagyon gyors</item>
-        <item>Sebes</item>
-        <item>Nagyon sebes</item>
+        <item>Gyors</item>
+        <item>Rendkívül gyors</item>
         <item>Leggyorsabb</item>
-    </string-array>
-    <string-array name="tts_rate_values">
-        <item>60</item>
-        <item>80</item>
-        <item>100</item>
-        <item>150</item>
-        <item>200</item>
-        <item>250</item>
-        <item>300</item>
-        <item>350</item>
-        <item>400</item>
     </string-array>
     <string-array name="tts_pitch_entries">
         <item>Nagyon alacsony</item>
@@ -126,20 +87,39 @@
         <item>Magas</item>
         <item>Nagyon magas</item>
     </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Keresés...</item>
+        <item>Kapcsolódás…</item>
+        <item>Hitelesítés...</item>
+        <item>IP-cím lekérése...</item>
+        <item>Csatlakozva</item>
+        <item>Felfüggesztve</item>
+        <item>Kapcsolat bontása...</item>
+        <item>Nincs kapcsolat</item>
+        <item>Sikertelen</item>
+        <item>Letiltva</item>
+        <item>A rossz minőségű kapcsolatok átmeneti elkerülése</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Keresés...</item>
+        <item>Csatlakozás a(z) %1$s hálózathoz...</item>
+        <item>Hitelesítés a(z) %1$s hálózaton...</item>
+        <item>IP-cím lekérése a(z) %1$s hálózattól...</item>
+        <item>Kapcsolódva a(z) %1$s hálózathoz</item>
+        <item>Felfüggesztve</item>
+        <item>Kapcsolat bontása %1$s hálózattal...</item>
+        <item>Nincs kapcsolat</item>
+        <item>Sikertelen</item>
+        <item>Letiltva</item>
+        <item>A rossz minőségű kapcsolatok átmeneti elkerülése</item>
+    </string-array>
     <string-array name="wifi_eap_method">
         <item>PEAP</item>
         <item>TLS</item>
         <item>TTLS</item>
         <item>Nyilvános webes meghajtó</item>
-        <item>SIM</item>
-        <item>AKA</item>
-        <item>"AKA'"</item>
-    </string-array>
-    <string-array name="eap_method_without_sim_auth">
-        <item>PEAP</item>
-        <item>TLS</item>
-        <item>TTLS</item>
-        <item>PWD</item>
     </string-array>
     <string-array name="wifi_p2p_wps_setup">
         <item>Nyomógomb</item>
@@ -178,6 +158,10 @@
     <string-array name="data_usage_data_range">
         <item>Legutóbbi 30 nap</item>
         <item>Ciklus beállítása…</item>
+    </string-array>
+    <string-array name="sim_card_data_range">
+        <item>Utolsó négy számjegy</item>
+        <item>Első négy számjegy</item>
     </string-array>
     <string-array name="wifi_frequency_band_entries">
         <item>Automatikus</item>
@@ -228,22 +212,9 @@
         <item>IPv4/IPv6</item>
     </string-array>
     <string-array name="bearer_entries">
-        <item>Nem meghatározott</item>
         <item>LTE</item>
-        <item>HSPAP</item>
-        <item>HSPA</item>
-        <item>HSUPA</item>
-        <item>HSDPA</item>
-        <item>UMTS</item>
-        <item>EDGE</item>
-        <item>GPRS</item>
         <item>eHRPD</item>
-        <item>EVDO_B</item>
-        <item>EVDO_A</item>
-        <item>EVDO_0</item>
-        <item>1xRTT</item>
-        <item>IS95B</item>
-        <item>IS95A</item>
+        <item>Nem meghatározott</item>
     </string-array>
     <string-array name="mvno_type_entries">
         <item>Nincs</item>
@@ -311,9 +282,6 @@
         <item>mikrofon némítása és a némítás feloldása</item>
         <item>médiatartalom kivetítése</item>
         <item>VPN aktiválása</item>
-        <item>háttérkép írása</item>
-        <item>segédlet a szerkezethez</item>
-        <item>segédlet a képernyőképhez</item>
     </string-array>
     <string-array name="app_ops_labels">
         <item>Hely</item>
@@ -363,9 +331,6 @@
         <item>Mikrofon némítása és a némítás feloldása</item>
         <item>Médiatartalom kivetítése</item>
         <item>VPN aktiválása</item>
-        <item>Háttérkép írása</item>
-        <item>Segédlet a szerkezethez</item>
-        <item>Segédlet a képernyőképhez</item>
     </string-array>
     <string-array name="long_press_timeout_selector_titles">
         <item>Rövid</item>
@@ -413,98 +378,91 @@
         <item>Egyedi</item>
     </string-array>
     <string-array name="select_logd_size_titles">
-        <item>Ki</item>
-        <item>64KB</item>
-        <item>256KB</item>
-        <item>1MB</item>
-        <item>4MB</item>
-        <item>16MB</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>16 MB</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
-        <item>Ki</item>
-        <item>64KB</item>
-        <item>256KB</item>
-        <item>1MB</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
-        <item>Ki</item>
-        <item>64KB naplópufferenként</item>
-        <item>256KB naplópufferenként</item>
-        <item>1MB naplópufferenként</item>
-        <item>4MB naplópufferenként</item>
-        <item>16MB naplópufferenként</item>
+        <item>64 KB/naplópuffer</item>
+        <item>256 KB/naplópuffer</item>
+        <item>1 MB/naplópuffer</item>
+        <item>4 MB/naplópuffer</item>
+        <item>16 MB/naplópuffer</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
-        <item>Ne ellenőrizze</item>
-        <item>Csak DRM tartalom ellenőrzése</item>
-        <item>Mindig ellenőrizze</item>
+        <item>Ellenőrzés soha</item>
+        <item>Csak DRM-tartalom ellenőrzése</item>
+        <item>Ellenőrzés mindig</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
-        <item>Sose használjon HDCP ellenőrzést</item>
-        <item>HDCP ellenőrzés használata csak DRM tartalomhoz</item>
+        <item>Soha ne használjon HDCP ellenőrzést</item>
+        <item>Csak DRM-tartalomhoz használjon HDCP ellenőrzést</item>
         <item>Mindig használjon HDCP ellenőrzést</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
-        <item>Animáció kikapcsolva</item>
-        <item>Animáció tempója: 0.5x</item>
-        <item>Animáció tempója: 1x</item>
-        <item>Animáció tempója: 1.5x</item>
-        <item>Animáció tempója: 2x</item>
-        <item>Animáció tempója: 5x</item>
-        <item>Animáció tempója: 10x</item>
+        <item>Animáció ki</item>
+        <item>Animáció mérete: 0,5x</item>
+        <item>Animáció mérete: 1x</item>
+        <item>Animáció mérete: 1,5x</item>
+        <item>Animáció mérete: 2x</item>
+        <item>Animáció mérete: 5x</item>
+        <item>Animáció mérete: 10x</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
-        <item>Animáció kikapcsolva</item>
-        <item>Animáció tempója: 0.5x</item>
-        <item>Animáció tempója: 1x</item>
-        <item>Animáció tempója: 1.5x</item>
-        <item>Animáció tempója: 2x</item>
-        <item>Animáció tempója: 5x</item>
-        <item>Animáció tempója: 10x</item>
+        <item>Animáció ki</item>
+        <item>Animáció mérete: 0,5x</item>
+        <item>Animáció mérete: 1x</item>
+        <item>Animáció mérete: 1,5x</item>
+        <item>Animáció mérete: 2x</item>
+        <item>Animáció mérete: 5x</item>
+        <item>Animáció mérete: 10x</item>
     </string-array>
     <string-array name="animator_duration_scale_entries">
-        <item>Animáció kikapcsolva</item>
-        <item>Animáció tempója: 0.5x</item>
-        <item>Animáció tempója: 1x</item>
-        <item>Animáció tempója: 1.5x</item>
-        <item>Animáció tempója: 2x</item>
-        <item>Animáció tempója: 5x</item>
-        <item>Animáció tempója: 10x</item>
+        <item>Animáció ki</item>
+        <item>Animáció léptéke: 0,5x</item>
+        <item>Animáció léptéke: 1x</item>
+        <item>Animáció léptéke: 1,5x</item>
+        <item>Animáció léptéke: 2x</item>
+        <item>Animáció léptéke: 5x</item>
+        <item>Animáció léptéke: 10x</item>
     </string-array>
     <string-array name="overlay_display_devices_entries">
-        <item>Nincs</item>
-        <item>480p</item>
-        <item>480p (biztonságos)</item>
-        <item>720p</item>
-        <item>720p (biztonságos)</item>
-        <item>1080p</item>
-        <item>1080p (biztonságos)</item>
-        <item>4K</item>
-        <item>4K (biztonságos)</item>
-        <item>4K (felskálázott)</item>
-        <item>4K (felskálázott, biztonságos)</item>
-        <item>720p, 1080p (dupla képernyő)</item>
+        <item>Egyik sem</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (biztonságos)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (biztonságos)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (biztonságos)</item>
+        <item>1280x720 tvdpi és 1920x1080 xhdpi</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
-        <item>Nincs</item>
+        <item>Semelyik</item>
         <item>Logcat</item>
-        <item>Systrace (Grafikus)</item>
-        <item>glGetError esetén verem hívása</item>
+        <item>Systrace (grafika)</item>
+        <item>Verem meghívása glGetError esetén</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
-        <item>Ki</item>
-        <item>Rajzolja ki a nem négyzetes klip területet kékkel</item>
-        <item>Tesztelt kirajzolási parancsok kiemelése zölddel</item>
+        <item>Kikapcsolva</item>
+        <item>Nem négyzetes kivágás kékkel</item>
+        <item>Tesztelt rajzolási parancsok kiemelése zölddel</item>
     </string-array>
     <string-array name="track_frame_time_entries">
         <item>Ki</item>
-        <item>Képernyőn sávként</item>
+        <item>A képernyőn sávként</item>
         <item>adb shell dumpsys gfxinfo elemben</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
         <item>Ki</item>
         <item>Tartalom-felülírási területek mutatása</item>
-        <item>A deuteranomália területeinek mutatása</item>
+        <item>A deuteranomália területeinek megjelenítése</item>
     </string-array>
     <string-array name="app_process_limit_entries">
         <item>Normál korlátozás</item>
@@ -536,11 +494,15 @@
         <item>Engedélyezés mindig</item>
     </string-array>
     <string-array name="ram_states">
-        <item>Normál</item>
-        <item>Közepes</item>
-        <item>Alacsony</item>
-        <item>Kritikus</item>
-        <item>\?</item>
+        <item>normál</item>
+        <item>közepes</item>
+        <item>alacsony</item>
+        <item>kritikus</item>
+    </string-array>
+    <string-array name="entries_zen_mode">
+        <item>Ki</item>
+        <item>Korlátozott megszakítások</item>
+        <item>Nincs megszakítás</item>
     </string-array>
     <string-array name="proc_stats_memory_states">
         <item>Normál</item>
@@ -563,30 +525,6 @@
         <item>Gyorsítótárazott (tevékenység)</item>
         <item>Gyorsítótárazott (tevékenységkliens)</item>
         <item>Gyorsítótárazott (üres)</item>
-    </string-array>
-    <string-array name="color_picker">
-        <item>Pávakék</item>
-        <item>Kék</item>
-        <item>Indigókék</item>
-        <item>Lila</item>
-        <item>Rózsaszín</item>
-        <item>Piros</item>
-    </string-array>
-    <string-array name="usb_configuration_titles">
-        <item>@string/usb_use_charging_only</item>
-        <item>MTP (Médiaátviteli Protokoll)</item>
-        <item>PTP (Képátviteli Protokoll)</item>
-        <item>RNDIS (USB Ethernet)</item>
-        <item>Hangforrás</item>
-        <item>MIDI</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_choices">
-        <item>Wi-Fi előnyben részesítve</item>
-        <item>Mobiladat-kapcsolat előnyben részesítve</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_values">
-        <item>2</item>
-        <item>1</item>
     </string-array>
     <string-array name="haptic_feedback_level_texts">
         <item>Kikapcsolva</item>
@@ -640,10 +578,6 @@
         <item>Fehér</item>
         <item>Ibolya</item>
     </string-array>
-    <string-array name="screen_key_position_action">
-        <item>Az Előzmények gomb a bal, a Vissza gomb a jobb oldalon</item>
-        <item>A Vissza gomb a bal, az Előzmények gomb a jobb oldalon</item>
-    </string-array>
     <string-array name="screen_key_press_action">
         <item>Alkalmazáselőzmények megnyitása</item>
         <item>Menü megjelenítése</item>
@@ -666,7 +600,7 @@
     <string-array name="long_press_volume_down_action">
         <item>Nincs</item>
         <item>Gyorsfénykép készítés</item>
-        <item>Gyorsfelvétel mód (videó)</item>
+        <item>Gyorsvideó készítés</item>
         <item>Tömegközlekedési parancsikonok</item>
     </string-array>
     <string-array name="button_light_timeout_entries">
@@ -675,7 +609,7 @@
         <item>5 másodperc</item>
         <item>10 másodperc</item>
         <item>20 másodperc</item>
-        <item>Mindig</item>
+        <item>Állandóan bekapcsolva</item>
     </string-array>
     <string-array name="wfd_status">
         <item>Folyamat indítása…</item>
@@ -774,16 +708,6 @@ Figyelmeztetés: Csak Ubuntu 8.04-en!"</item>
     <string-array name="wifi_ssid_type_entries">
         <item>Automatikus csatlakozás</item>
         <item>Manuális csatlakozás</item>
-    </string-array>
-    <string-array name="traffic_balance_entries">
-        <item>Ki</item>
-        <item>Normál mód</item>
-        <item>Egyszerű mód</item>
-    </string-array>
-    <string-array name="traffic_balance_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
     <string-array name="preferred_app_entries">
         <item>Kezdőképernyő</item>
@@ -961,11 +885,27 @@ Figyelmeztetés: Csak Ubuntu 8.04-en!"</item>
         <item>Alkalmazások zárolása</item>
         <item>Második asztal</item>
     </string-array>
-    <string-array name="screen_button_style">
-        <item>Balkezes mód</item>
-        <item>Jobbkezes mód</item>
-    </string-array>
     <string-array name="city_name">
+        <item>Midway</item>
+        <item>Regina</item>
+        <item>Manaus</item>
+        <item>Recife</item>
+        <item>Nuuk</item>
+        <item>Déli-Georgia</item>
+        <item>Azori-szigetek</item>
+        <item>Windhoek</item>
+        <item>Tbiliszi</item>
+        <item>Jereván</item>
+        <item>Oral</item>
+        <item>Jekatyerinburg</item>
+        <item>Katmandu</item>
+        <item>Krasznojarszk</item>
+        <item>Irkutszk</item>
+        <item>Jakutszk</item>
+        <item>Hobart</item>
+        <item>Vlagyivosztok</item>
+        <item>Magadan</item>
+        <item>Majuro</item>
         <item>Abidjan</item>
         <item>Accra</item>
         <item>Addisz-Abeba</item>
@@ -1013,7 +953,7 @@ Figyelmeztetés: Csak Ubuntu 8.04-en!"</item>
         <item>Detroit</item>
         <item>Dominika</item>
         <item>Edmonton</item>
-        <item>El Salvador</item>
+        <item>San Salvador</item>
         <item>Fortaleza</item>
         <item>Turks- és Caicos-szigetek</item>
         <item>Grenada</item>
@@ -1409,16 +1349,16 @@ Figyelmeztetés: Csak Ubuntu 8.04-en!"</item>
         <item>Hétköznapokon</item>
         <item>Egyéni</item>
     </string-array>
+    <string-array name="standard_configuration_version">
+        <item>3.00GB</item>
+        <item>16GB</item>
+        <item>Négymagos, max 2.5GHz</item>
+    </string-array>
     <string-array name="privacy_password_function_specfication_names">
         <item>Üzenetek</item>
         <item>Fényképek</item>
         <item>Fájlok</item>
         <item>Jegyzetek</item>
-    </string-array>
-    <string-array name="standard_configuration_version">
-        <item>3.00GB</item>
-        <item>16GB</item>
-        <item>Négymagos, max 2.5GHz</item>
     </string-array>
     <string-array name="install_non_market_app_entries">
         <item>Bekapcsolás (ajánlott)</item>
@@ -1427,21 +1367,6 @@ Figyelmeztetés: Csak Ubuntu 8.04-en!"</item>
     <string-array name="install_non_market_app_contents">
         <item>Bekapcsolás</item>
         <item>Ne használja</item>
-    </string-array>
-    <string-array name="color_mode_names">
-        <item>Élénk (alapértelmezett)</item>
-        <item>Természetes</item>
-        <item>Szokásos</item>
-    </string-array>
-    <string-array name="color_mode_descriptions">
-        <item>Színek fokozása</item>
-        <item>Természetes színek, ahogy a szem látja</item>
-        <item>Digitális tartalomhoz optimalizált színek</item>
-    </string-array>
-    <string-array name="battery_labels">
-        <item>0%</item>
-        <item>50%</item>
-        <item>100%</item>
     </string-array>
     <string-array name="standard_configuration_version_description_primary">
         <item>CPU</item>
@@ -1452,7 +1377,7 @@ Figyelmeztetés: Csak Ubuntu 8.04-en!"</item>
         <item>Android verzió</item>
     </string-array>
     <string-array name="standard_configuration_version_description_secondary">
-        <item>Snapdragon 430</item>
+        <item>Snapdragon 616</item>
         <item>4000mAh(typ)</item>
         <item>13MP</item>
         <item>5 hüvelyk</item>

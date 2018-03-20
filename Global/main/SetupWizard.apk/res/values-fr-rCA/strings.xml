@@ -28,12 +28,9 @@
     <string name="common_signin_button_text">Connexion</string>
     <string name="common_signin_button_text_long">Se connecter via Google</string>
     <string name="common_open_on_phone">Ouvrir sur le téléphone</string>
-    <string name="suw_next_button_label">Suivant</string>
-    <string name="suw_back_button_label">Précédent</string>
-    <string name="suw_more_button_label">Plus</string>
-    <string name="setup_wizard_title">"Assistant d'installation"</string>
     <string name="setup_wizard_next_button_label">Suivant</string>
     <string name="setup_wizard_back_button_label">Précédent</string>
+    <string name="setup_wizard_title">"Assistant d'installation"</string>
     <string name="setup_wizard_services_activity_title">Services Google</string>
     <string name="setup_wizard_services_description">"Ces services permettent à Google d'agir en votre nom. Vous pouvez les activer ou les désactiver à tout moment. Les données sont utilisées conformément à la "<annotation id="google_privacy">politique de confidentialité</annotation> de Google.</string>
     <string name="setup_wizard_services_backup_restore_heading">Sauvegarde et restauration</string>
@@ -54,6 +51,30 @@
 Vous pouvez activer ou désactiver ce paramètre à tout moment. Cela ne change pas la capacité de votre appareil à envoyer des données nécessaires pour bénéficier de services essentiels tels que les mises à jour système ou de sécurité."</string>
     <string name="setup_wizard_services_agreement">"Ce téléphone peut également recevoir et installer des mises à jour et des applications de Google, de votre fournisseur de services et de son fabricant. Si vous continuez, certaines applications sont susceptibles d'être téléchargées et installées. Sachez toutefois que vous pouvez les supprimer à tout moment."</string>
     <string name="default_device_name">Android</string>
+    <string name="welcome_message">Bienvenue</string>
+    <string name="welcome_secondary_user_added_text">%s vous a ajouté à ce téléphone.</string>
+    <string name="welcome_secondary_user_added_no_owner_name_text">Vous avez été ajouté à ce téléphone.</string>
+    <string name="welcome_secondary_user_info_text">"Une fois la configuration terminée, vous pouvez utiliser les applications ou en installer de nouvelles comme d'habitude.
+
+"<b>Important</b>" :
+
+"<li><ul>"Le propriétaire du téléphone peut désinstaller vos applications ou supprimer l'intégralité de l'espace qui vous est dédié."</ul></li>"
+
+"<li><ul>"N'importe quel autre utilisateur peut autoriser la mise à jour d'applications en votre nom."</ul></li>"
+
+"<li><ul>"Comme lors de tout partage d'ordinateur, nous vous conseillons de ne partager ce téléphone qu'avec des personnes de confiance."</ul></li></string>
+    <string name="welcome_limited_user_info_text">" 
+"<b>Important</b>" :
+
+ "<li><ul>Le propriétaire du téléphone peut installer ou désinstaller des applications, imposer des restrictions ou complètement supprimer votre espace.</ul></li>"
+
+ "<li><ul>"N'importe quel autre utilisateur peut accepter les mises à jour d'autorisations des applications à votre place."</ul></li>"
+
+ "<li><ul>"Il est conseillé de ne partager ce téléphone qu'avec des personnes en qui vous avez confiance, comme vous le feriez pour un ordinateur. "</ul></li></string>
+    <string name="welcome_text_edu">"Configurez votre appareil pour l'utiliser avec Google Play pour le secteur de l'éducation."</string>
+    <string name="welcome_secondary_user_text_edu">Finalisons la configuration de votre compte sur cette tablette.</string>
+    <string name="welcome_secondary_user_additional_info_header_edu">Important</string>
+    <string name="welcome_secondary_user_additional_info_edu">"Vous partagez cette tablette avec d'autres étudiants. Une fois que vous avez configuré votre compte, ajoutez un NIP pour protéger votre travail."</string>
     <string name="finish_button_label">Terminer</string>
     <string name="skip_button_label">Passer</string>
     <string name="skip_anyway_button_label">Ignorer quand même</string>
@@ -64,7 +85,6 @@ Vous pouvez activer ou désactiver ce paramètre à tout moment. Cela ne change 
     <string name="try_again_button_label">Réessayer</string>
     <string name="close_button_label">Fermer</string>
     <string name="got_it_button_label">OK</string>
-    <string name="ok_button_label">Ok</string>
     <string name="google_legal_title">Infos légales Google</string>
     <string name="url_load_unsuccessful_message">"Votre téléphone n'est connecté à aucun service de données mobiles. Pour afficher ces informations maintenant, accédez à la page %s dans un navigateur Web."</string>
     <string name="start">Démarrer</string>
@@ -133,7 +153,13 @@ Vous pourrez activer votre service de données cellulaires plus tard en accédan
     <string name="date_time_message">Ajustez si nécessaire.</string>
     <string name="date_time_current_date">Date</string>
     <string name="date_time_current_time">Heure</string>
-    <string name="date_time_time_zone_full" formatted="false">%s (%s)</string>
+    <string name="location_sharing_title">Google et la géolocalisation</string>
+    <string name="tos_title">Services Google</string>
+    <string name="tos_agreement_text">Ce téléphone peut également recevoir et installer des mises à jour de Google. En continuant, vous acceptez les <annotation id="tos">"conditions d'utilisation"</annotation> et la <annotation id="google_privacy">politique de confidentialité</annotation> de Google.</string>
+    <string name="tos_agreement_text_germany">Vous reconnaissez en outre que votre appareil peut recevoir et installer les mises à jour de Google. Lorsque vous utilisez cet appareil, nous respectons notre <annotation id="google_privacy">politique de confidentialité</annotation>, et certaines <annotation id="tos">conditions supplémentaires</annotation>" s'appliquent."</string>
+    <string name="setup_complete_title">Configuration terminée</string>
+    <string name="setup_complete_message">Votre téléphone est configuré et prêt à être utilisé.</string>
+    <string name="backup_assistant_prompt">"Lancez l'assistant de sauvegarde Verizon pour restaurer des contacts depuis un autre téléphone Verizon"</string>
     <string name="sim_missing_title">Insérer une carte SIM</string>
     <string name="sim_setup_title">Configurer les cartes SIM</string>
     <string name="sim_setup_select_data">Sélectionnez une carte SIM pour les données cellulaire</string>
@@ -142,11 +168,11 @@ Vous pourrez activer votre service de données cellulaires plus tard en accédan
     <string name="sim_setup_ask_every_time">Toujours demander</string>
     <string name="walled_garden_title">Vérification de la connexion en cours...</string>
     <string name="walled_garden_check_indefinite_text">Cela peut prendre un certain temps</string>
-    <string name="walled_garden_skipped_message">"Si vous ignorez le Wi‑Fi : 
+    <string name="walled_garden_skipped_message">"Si vous l'ignorez :
 
 Votre téléphone ne sera pas connecté à Internet.
 
-Vous ne recevrez pas les mises à jour logicielles jusqu'à ce que vous vous connectiez à Internet.
+Vous ne recevrez pas les mises à jour logicielles jusqu'à ce que vous vous connectiez à l'Internet.
 
 Vous ne pouvez pas activer les fonctions de protection de l'appareil en ce moment."</string>
     <string name="walled_garden_connection_failed">Cela prend trop de temps? Essayez de revenir et de vous connecter à un réseau différent.</string>
@@ -172,27 +198,19 @@ Vous ne pouvez pas activer les fonctions de protection de l'appareil en ce momen
     <string name="continue_for_a11y">"Pour activer le mode d'accessibilité, continuez à appuyer sur l'écran jusqu'à ce que vous entendiez un bip."</string>
     <string name="canceled_a11y">"Mode d'accessibilité annulé"</string>
     <string name="enabled_a11y">"Mode d'accessibilité activé"</string>
-    <string name="welcome_message">Bienvenue</string>
-    <string name="emergency_dial">Urgence</string>
-    <string name="welcome_language_picker_dialog_title">Choix de la langue</string>
-    <string name="welcome_language_picker_section_suggested">Suggestions</string>
-    <string name="welcome_language_picker_section_all">Toutes les langues</string>
+    <string name="emergency_dial">"Appel d'urgence"</string>
     <string name="welcome_language_picker_content_description">Langue : %s</string>
     <string name="lock_screen_intro_title">Protégez votre téléphone</string>
-    <string name="lock_screen_intro_text">"Empêchez les autres d'utiliser ce téléphone sans votre permission en activant les fonctions de protection de l'appareil. "<annotation id="learn_more">En savoir plus</annotation></string>
+    <string name="lock_screen_intro_text">"Empêchez les autres d'utiliser ce téléphone sans votre permission en activant les fonctions de protection de l'appareil.
+"<annotation id="learn_more">En savoir plus</annotation></string>
     <string name="lock_screen_intro_text_secondary">Si vous sélectionnez « Oui », votre appareil vous aidera à configurer votre écran de verrouillage.</string>
     <string name="lock_screen_intro_check_box"><b>Protéger cet appareil</b>" et exiger un NIP, un motif ou un mot de passe pour déverrouiller l'écran"</string>
-    <string name="lock_screen_intro_radio_fingerprint">Configurer les empreintes digitales</string>
-    <string name="lock_screen_intro_radio_generic">Configurer un NIP, un motif ou un mot de passe</string>
-    <string name="lock_screen_intro_radio_no">Non, merci</string>
-    <string name="lock_screen_intro_success">"Votre écran de verrouillage a été configuré.
-"<annotation id="learn_more">En savoir plus</annotation></string>
-    <string name="lock_screen_intro_dialog_text_frp">"La protection de l'appareil est activée automatiquement lorsque vous ajoutez un compte Google et que vous configurez une méthode de verrouillage de l'écran. Avec le Gestionnaire d'appareils Android, vous pouvez géolocaliser votre téléphone et en effacer les données si jamais vous l'égarez ou vous le faites voler.
+    <string name="lock_screen_intro_button">"Définir le verrouillage d'écran maintenant"</string>
+    <string name="lock_screen_intro_success">Votre écran de verrouillage a été configuré.</string>
+    <string name="lock_screen_intro_dialog_text">"La protection de l'appareil est activée automatiquement lorsque vous ajoutez un compte Google et définissez un verrouillage d'écran. En utilisant ces éléments de concert avec le Gestionnaire d'appareils Android, vous pouvez localiser et effacer le contenu de votre téléphone, de même que le protéger contre la réutilisation en cas de perte ou de vol.
 
-Même si le contenu de votre téléphone est effacé, le mot de passe de votre compte Google sera nécessaire avant que quiconque ne puisse l'utiliser."</string>
-    <string name="lock_screen_intro_dialog_text">"La protection de l'appareil est activée automatiquement lorsque vous ajoutez un compte Google et que vous configurez une méthode de verrouillage de l'écran. Avec le Gestionnaire d'appareils Android, vous pouvez géolocaliser votre téléphone et en effacer les données si jamais vous l'égarez ou vous le faites voler."</string>
-    <string name="lock_screen_intro_skip_dialog_text_frp">"Les fonctions de protection de l'appareil ne seront pas activées. Vous ne serez pas en mesure d'empêcher les autres d'utiliser ce téléphone si celui-ci est perdu ou volé, ou si son contenu est effacé."</string>
-    <string name="lock_screen_intro_skip_dialog_text">"Les fonctions de protection de l'appareil ne seront pas activées. Vous ne serez pas en mesure d'empêcher les autres d'utiliser ce téléphone si celui-ci est perdu ou volé."</string>
+Même si le contenu de votre téléphone est effacé, le mot de passe de votre compte Google sera nécessaire avant que quiconque ne puisse utiliser ce téléphone."</string>
+    <string name="lock_screen_intro_skip_dialog_text">"Les fonctions de protection de l'appareil ne seront pas activées. Vous ne serez pas en mesure d'empêcher les autres d'utiliser ce téléphone si celui-ci est perdu ou volé, ou si son contenu est effacé."</string>
     <string name="services_activity_title">Services Google</string>
     <string name="services_backup_heading">Sauvegarde</string>
     <string name="services_location_heading">Lieu</string>
@@ -204,45 +222,21 @@ Même si le contenu de votre téléphone est effacé, le mot de passe de votre c
     <string name="restore_wallpaper_title">"Restauration du fond d'écran en cours..."</string>
     <string name="restore_device_settings_title">"Restauration des paramètres de l'appareil"</string>
     <string name="restore_launcher_title">"Restauration du Lanceur d'applications"</string>
-    <string name="restore_failed_message">Impossible de restaurer les données à partir de la sauvegarde.</string>
-    <string name="restore_no_backup_message">"Aucune sauvegarde disponible pour l'appareil source."</string>
-    <string name="restore_stopped_message">"Malheureusement, l'appareil a cessé de restaurer les données à partir de la sauvegarde."</string>
+    <string name="restore_failed_message">Impossible de restaurer les données à partir de la sauvegarde</string>
     <string name="name_title">Nom</string>
     <string name="name_text">"L'ajout de votre nom permet à votre téléphone de personnaliser certaines applications."</string>
     <string name="first_name">Prénom</string>
     <string name="last_name">Nom</string>
     <string name="cant_be_blank">Champ obligatoire.</string>
-    <string name="device_owner_warning_title">Le téléphone peut être observé</string>
-    <string name="device_owner_warning">"Ce téléphone est géré par « %1$s », ce qui signifie que certains de vos renseignements peuvent être visibles pour d'autres personnes. Pour éviter le suivi de vos données, réinitialisez votre appareil."</string>
-    <string name="device_owner_continue">Continuer</string>
-    <string name="device_owner_reset">Réinitialiser le téléphone</string>
-    <string name="factory_reset_title">Réinitialiser le téléphone</string>
-    <string name="factory_reset_instructions">Avertissement : La réinitialisation efface tous les comptes et les données de la mémoire interne du téléphone.</string>
-    <string name="factory_reset_confirmation_title">Réinitialiser?</string>
-    <string name="factory_reset_confirmation">Voulez-vous effacer tous les comptes et les données sur ce téléphone? Cette action est irréversible.</string>
-    <string name="factory_reset_button">Effacer et réinitialiser</string>
-    <string name="restart_setup_wizard_dialog_title">Non connecté</string>
-    <string name="restart_setup_wizard_dialog_text">"Pour utiliser ce téléphone, vous devez d'abord vous connecter au compte Google d'un propriétaire qui était en utilisation lors de la réinitialisation. 
-
-Comme vous ne l'avez pas fait, vous devez configurer le téléphone à nouveau."</string>
-    <string name="restart_setup_wizard_button_label">Configurer téléphone</string>
-    <string name="sec_user_continue">Continuer</string>
-    <string name="sec_user_quit">Quitter</string>
-    <string name="user_warning_title">Configurer un nouvel utilisateur</string>
-    <string name="welcome_secondary_user_added_text">%s vous a ajouté à ce téléphone.</string>
-    <string name="welcome_secondary_user_added_no_owner_name_text">Vous avez été ajouté à ce téléphone.</string>
-    <string name="welcome_secondary_user_info_text"><b>Important :</b>"
-
-"<li><ul>Le propriétaire du téléphone peut désinstaller vos applications ou supprimer entièrement votre espace.</ul></li>"
-
-"<li><ul>Les autres utilisateurs peuvent accepter à votre place des autorisations mises à jour relatives à des applications.</ul></li>"
-
-"<li><ul>"Tout comme pour les ordinateurs, nous vous conseillons de ne partager ce téléphone qu'avec des personnes en qui vous avez confiance."</ul></li></string>
-    <string name="welcome_limited_user_info_text">" "<b>Important :</b>"
-
- "<li><ul>Le propriétaire du téléphone peut installer ou désinstaller des applications, définir des limites ou supprimer entièrement votre espace.</ul></li>"
-
- "<li><ul>Les autres utilisateurs peuvent accepter à votre place des autorisations mises à jour relatives à des applications.</ul></li>"
-
- "<li><ul>"Tout comme pour les ordinateurs, nous vous conseillons de ne partager ce téléphone qu'avec des personnes en qui vous avez confiance."</ul></li></string>
+    <string name="lock_pin_confirm_your_pin_header">Confirmez votre NIP</string>
+    <string name="lock_pin_choose_your_pin_header">Choisissez votre NIP</string>
+    <string name="lock_pin_ok_label">OK</string>
+    <string name="lock_pin_cancel_label">Annuler</string>
+    <string name="lock_pin_press_continue">Touchez « Continuer » une fois opérat. terminée.</string>
+    <string name="lock_pin_too_short">Le NIP doit comporter au moins %d chiffres</string>
+    <string name="lock_pin_too_long">Le NIP doit comporter moins de %d chiffres.</string>
+    <string name="lock_pin_illegal_character">Le mot de passe contient un caractère non autorisé.</string>
+    <string name="lock_pin_contains_non_digits">Le NIP ne doit contenir que chiff. entre 0 et 9.</string>
+    <string name="lock_pin_confirm_pins_dont_match">Les NIP ne correspondent pas.</string>
+    <string name="lock_pin_continue_label">Continuer</string>
 </resources>

@@ -13,7 +13,6 @@
     <string name="alphabet">אלפבית</string>
     <string name="digits">ספרות (0-9, *, #, +)</string>
     <string name="default_call_setup_msg">שיחה מתבצעת...</string>
-    <string name="default_setup_call_msg">הכנת השיחה מתבצעת</string>
     <string name="stk_app_state">מצב אפליקציה</string>
     <string name="enable_app">מופעל</string>
     <string name="disable_app">מושבת</string>
@@ -24,5 +23,4 @@
     <string name="default_close_channel_msg">הערוץ סגור</string>
     <string name="stk_dialog_accept">כן</string>
     <string name="stk_dialog_reject">לא</string>
-    <string name="no_sim_card_inserted">‏הכנס כרטיס SIM כדי להפעיל את Toolkit SIM.</string>
 </resources>

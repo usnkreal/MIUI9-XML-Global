@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpaper_vis1">Visualizer</string>
+    <string name="wallpaper_vis2">Waveform</string>
+    <string name="wallpaper_vis3">Spectrum</string>
+    <string name="wallpaper_vis4">VU meter</string>
+    <string name="wallpaper_vis5">Multe</string>
+    <string name="wallpapers">Vizualizare muzică imagini de fundal</string>
+    <string name="author">Google</string>
+    <string name="vis2_desc">Atrage unda sonoră al oricărei piese muzicale care se redă în prezent.</string>
+    <string name="vis3_desc">Afișează spectrul de frecventă al oricărei piese muzicale care se redă în prezent.</string>
+    <string name="vis4_desc">Simulează un contor de sunet analog.</string>
+    <string name="vis5_desc">Toate vizualizările de muzică împreună, încet se succede în 3D.</string>
+</resources>

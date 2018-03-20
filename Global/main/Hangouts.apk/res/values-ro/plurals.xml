@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="notification_new_messages">
+        <item quantity="other">Mesaje noi</item>
+        <item quantity="one">Mesaj nou</item>
+    </plurals>
     <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
         <item quantity="other">Te-a invitat la un Hangout cu încă %1$d persoane</item>
         <item quantity="one">Te-a invitat la un Hangout cu încă %1$d persoană</item>
@@ -12,24 +16,16 @@
         <item quantity="other">cu încă %1$d (de) persoane</item>
         <item quantity="one">cu încă %1$d persoană</item>
     </plurals>
-    <plurals name="gallery_picker_max_image_count_reached_message">
-        <item quantity="other">Poți să selectezi maximum %d (de) atașamente imagini.</item>
-        <item quantity="one">Poți să selectezi maximum un atașament imagine.</item>
-    </plurals>
-    <plurals name="gallery_picker_max_video_count_reached_message">
-        <item quantity="other">Poți să selectezi maximum %d (de) atașamente video.</item>
-        <item quantity="one">Poți să selectezi maximum un atașament video.</item>
-    </plurals>
-    <plurals name="watermark_gallery_label">
-        <item quantity="other">Văzută de %s</item>
-        <item quantity="one">Văzută de %s</item>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">Poți să selectezi maximum %d (de) atașamente.</item>
+        <item quantity="one">Poți să selectezi maximum un atașament.</item>
     </plurals>
     <plurals name="num_minutes_in_the_past">
         <item quantity="other">%d min.</item>
         <item quantity="one">%d min.</item>
     </plurals>
     <plurals name="elapsed_minutes">
-        <item quantity="other">acum %d min.</item>
+        <item quantity="other">Acum %d min.</item>
         <item quantity="one">acum %d min.</item>
     </plurals>
     <plurals name="elapsed_minutes_announce">
@@ -37,7 +33,7 @@
         <item quantity="one">acum %d minut</item>
     </plurals>
     <plurals name="elapsed_hours">
-        <item quantity="other">acum %d ore</item>
+        <item quantity="other">Acum %d ore</item>
         <item quantity="one">acum %d oră</item>
     </plurals>
     <plurals name="elapsed_hours_announce">
@@ -45,7 +41,7 @@
         <item quantity="one">acum %d oră</item>
     </plurals>
     <plurals name="elapsed_days">
-        <item quantity="other">acum %d zile</item>
+        <item quantity="other">Acum %d zile</item>
         <item quantity="one">acum %d zi</item>
     </plurals>
     <plurals name="elapsed_days_announce">
@@ -53,7 +49,7 @@
         <item quantity="one">acum %d zi</item>
     </plurals>
     <plurals name="elapsed_weeks">
-        <item quantity="other">acum %d săpt.</item>
+        <item quantity="other">Acum %d săpt.</item>
         <item quantity="one">acum %d săpt.</item>
     </plurals>
     <plurals name="elapsed_weeks_announce">
@@ -61,7 +57,7 @@
         <item quantity="one">acum %d săptămână</item>
     </plurals>
     <plurals name="elapsed_months">
-        <item quantity="other">acum %d luni</item>
+        <item quantity="other">Acum %d luni</item>
         <item quantity="one">acum %d lună</item>
     </plurals>
     <plurals name="elapsed_months_announce">
@@ -123,7 +119,7 @@
         <item quantity="one">Te-a invitat la un Hangout împreună cu încă o persoană</item>
     </plurals>
     <plurals name="realtimechat_notification_new_messages">
-        <item quantity="other">%d mesaje noi</item>
+        <item quantity="other">%d (de) mesaje noi</item>
         <item quantity="one">%d mesaj nou</item>
     </plurals>
     <plurals name="redacted_multi_convo_text">
@@ -161,6 +157,10 @@
     <plurals name="dnd_minutes">
         <item quantity="other">%d (de) minute</item>
         <item quantity="one">Un minut</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">Văzută de %s</item>
+        <item quantity="one">Văzută de %s</item>
     </plurals>
     <plurals name="focus_gallery_label">
         <item quantity="other">%s au citit toate mesajele.</item>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="notification_new_messages">
+        <item quantity="other">הודעות חדשות</item>
+        <item quantity="one">הודעה חדשה</item>
+    </plurals>
     <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
         <item quantity="other">‏הזמין/ה אותך ל-Hangout עם %1$d אחרים</item>
         <item quantity="one">‏הזמין/ה אותך ל-Hangout עם %1$d אחר</item>
@@ -12,17 +16,9 @@
         <item quantity="other">עם %1$d אחרים</item>
         <item quantity="one">עם %1$d אחר</item>
     </plurals>
-    <plurals name="gallery_picker_max_image_count_reached_message">
-        <item quantity="other">ניתן לבחור %d תמונות מצורפות לכל היותר.</item>
-        <item quantity="one">ניתן לבחור רק תמונה מצורפת אחת.</item>
-    </plurals>
-    <plurals name="gallery_picker_max_video_count_reached_message">
-        <item quantity="other">ניתן לבחור %d סרטונים מצורפים לכל היותר.</item>
-        <item quantity="one">ניתן לבחור רק סרטון מצורף אחד.</item>
-    </plurals>
-    <plurals name="watermark_gallery_label">
-        <item quantity="other">נראה על ידי %s</item>
-        <item quantity="one">נראה על ידי %s</item>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">ניתן לבחור %d מסמכים מצורפים בלבד לכל היותר.</item>
+        <item quantity="one">ניתן לבחור מסמך מצורף אחד בלבד לכל היותר.</item>
     </plurals>
     <plurals name="num_minutes_in_the_past">
         <item quantity="other">%d דקות</item>
@@ -163,6 +159,10 @@
     <plurals name="dnd_minutes">
         <item quantity="other">%d דקות</item>
         <item quantity="one">דקה אחת</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">נראה על ידי %s</item>
+        <item quantity="one">נראה על ידי %s</item>
     </plurals>
     <plurals name="focus_gallery_label">
         <item quantity="other">%s קראו את כל ההודעות.</item>

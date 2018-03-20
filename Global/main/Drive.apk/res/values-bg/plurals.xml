@@ -42,10 +42,6 @@
         <item quantity="other">%1$d приложения бяха актуализирани</item>
         <item quantity="one">%1$d приложение бе актуализирано</item>
     </plurals>
-    <plurals name="delete_backup_success_message">
-        <item quantity="other">Резервните копия бяха изтрити.</item>
-        <item quantity="one">Резервното копие бе изтрито.</item>
-    </plurals>
     <plurals name="download_message_all_failed">
         <item quantity="other">Елементите не можаха да бъдат изтеглени</item>
         <item quantity="one">Елементът не можа да бъде изтеглен</item>
@@ -123,22 +119,6 @@
         <item quantity="other">Споделяне на тези папки?</item>
         <item quantity="one">Споделяне на тази папка?</item>
     </plurals>
-    <plurals name="move_error_cannot_move_in_not_owned">
-        <item quantity="other">Не притежавате някои елементи. Не можете да ги преместите в екипния диск.</item>
-        <item quantity="one">Не притежавате този елемент. Не можете да го преместите в екипния диск.</item>
-    </plurals>
-    <plurals name="move_error_no_permission_src">
-        <item quantity="other">Нямате разрешение да преместите някои елементи извън папката им.</item>
-        <item quantity="one">Нямате разрешение да преместите този елемент извън папката му.</item>
-    </plurals>
-    <plurals name="pdocs_action_items">
-        <item quantity="other">%1$s елемента за действие</item>
-        <item quantity="one">%1$s елемент за действие</item>
-    </plurals>
-    <plurals name="pdocs_comments">
-        <item quantity="other">%1$s споменавания без отговор</item>
-        <item quantity="one">%1$s споменаване без отговор</item>
-    </plurals>
     <plurals name="pdocs_suggestions">
         <item quantity="other">%1$s предложения</item>
         <item quantity="one">%1$s предложение</item>
@@ -163,51 +143,39 @@
         <item quantity="other">%1$d файла</item>
         <item quantity="one">%1$d файл</item>
     </plurals>
-    <plurals name="pin_notification_waiting_ticker">
-        <item quantity="other">Изтеглянето е на пауза, изчаква се Wi-Fi...</item>
-        <item quantity="one">Изтеглянето е на пауза, изчаква се Wi-Fi...</item>
-    </plurals>
     <plurals name="pin_notification_waiting_title">
         <item quantity="other">Изтеглянето на %1$d файла е на пауза.</item>
         <item quantity="one">Изтеглянето на %1$d файл е на пауза.</item>
     </plurals>
     <plurals name="plus_photo_item_remove_items_dialog_text_multiple">
-        <item quantity="other">%1$d елемента ще бъдат преместени в кошчето. Това ще доведе и до премахването им от Google Фото.</item>
+        <item quantity="other">%d елемента ще бъдат преместени в кошчето. Това ще доведе и до премахването им от Google Фото.</item>
         <item quantity="one">Един елемент ще бъде преместен в кошчето. Това ще доведе и до премахването му от Google Фото.</item>
     </plurals>
-    <plurals name="prioritydocs_badge_a11y_text">
-        <item quantity="other">%1$s елемента за последващо действие</item>
-        <item quantity="one">%1$s елемент за последващо действие</item>
-    </plurals>
-    <plurals name="prioritydocs_menu_item_a11y_text">
-        <item quantity="other">%1$s елемента за последващо действие</item>
-        <item quantity="one">%1$s елемент за последващо действие</item>
-    </plurals>
     <plurals name="recent_activity_type_commented_many_users">
-        <item quantity="other">Коментира %1$d файла</item>
+        <item quantity="other">Коментира %d файла</item>
         <item quantity="one">Коментира файл</item>
     </plurals>
     <plurals name="recent_activity_type_commented_one_user">
-        <item quantity="other">Коментира %1$d файла</item>
+        <item quantity="other">Коментира %d файла</item>
         <item quantity="one">Коментира файл</item>
     </plurals>
     <plurals name="recent_activity_type_commented_this_file">
         <item quantity="other">Коментира този файл</item>
     </plurals>
     <plurals name="recent_activity_type_created_extra_many_users">
-        <item quantity="other">Създаде %1$d елемента във:</item>
+        <item quantity="other">Създаде %d елемента във:</item>
         <item quantity="one">Създаде елемент във:</item>
     </plurals>
     <plurals name="recent_activity_type_created_extra_one_user">
-        <item quantity="other">Създаде %1$d елемента във:</item>
+        <item quantity="other">Създаде %d елемента във:</item>
         <item quantity="one">Създаде елемент във:</item>
     </plurals>
     <plurals name="recent_activity_type_created_many_users">
-        <item quantity="other">Създаде %1$d елемента</item>
+        <item quantity="other">Създаде %d елемента</item>
         <item quantity="one">Създаде елемент</item>
     </plurals>
     <plurals name="recent_activity_type_created_one_user">
-        <item quantity="other">Създаде %1$d елемента</item>
+        <item quantity="other">Създаде %d елемента</item>
         <item quantity="one">Създаде елемент</item>
     </plurals>
     <plurals name="recent_activity_type_created_this_file">
@@ -217,26 +185,26 @@
         <item quantity="other">Създаде тази папка</item>
     </plurals>
     <plurals name="recent_activity_type_edited_many_users">
-        <item quantity="other">Редактира %1$d елемента</item>
+        <item quantity="other">Редактира %d елемента</item>
         <item quantity="one">Редактира елемент</item>
     </plurals>
     <plurals name="recent_activity_type_edited_one_user">
-        <item quantity="other">Редактира %1$d елемента</item>
+        <item quantity="other">Редактира %d елемента</item>
         <item quantity="one">Редактира елемент</item>
     </plurals>
     <plurals name="recent_activity_type_edited_this_file">
         <item quantity="other">Направи редакции в този файл</item>
     </plurals>
     <plurals name="recent_activity_type_empty_trash">
-        <item quantity="other">Окончателно изтри %1$d елемента</item>
+        <item quantity="other">Окончателно изтри %d елемента</item>
         <item quantity="one">Окончателно изтри елемент</item>
     </plurals>
     <plurals name="recent_activity_type_link_many_users">
-        <item quantity="other">Промени достъпа чрез връзка за %1$d елемента</item>
+        <item quantity="other">Промени достъпа чрез връзка за %d елемента</item>
         <item quantity="one">Промени достъпа чрез връзка за 1 елемент</item>
     </plurals>
     <plurals name="recent_activity_type_link_one_user">
-        <item quantity="other">Промени достъпа чрез връзка за %1$d елемента</item>
+        <item quantity="other">Промени достъпа чрез връзка за %d елемента</item>
         <item quantity="one">Промени достъпа чрез връзка за 1 елемент</item>
     </plurals>
     <plurals name="recent_activity_type_link_this_file">
@@ -246,19 +214,19 @@
         <item quantity="other">Промени достъпа чрез връзка към тази папка</item>
     </plurals>
     <plurals name="recent_activity_type_moved_extra_many_users">
-        <item quantity="other">Премести %1$d елемента във:</item>
+        <item quantity="other">Премести %d елемента във:</item>
         <item quantity="one">Премести елемент във:</item>
     </plurals>
     <plurals name="recent_activity_type_moved_extra_one_user">
-        <item quantity="other">Премести %1$d елемента във:</item>
+        <item quantity="other">Премести %d елемента във:</item>
         <item quantity="one">Премести елемент във:</item>
     </plurals>
     <plurals name="recent_activity_type_moved_many_users">
-        <item quantity="other">Премести %1$d елемента</item>
+        <item quantity="other">Премести %d елемента</item>
         <item quantity="one">Премести елемент</item>
     </plurals>
     <plurals name="recent_activity_type_moved_one_user">
-        <item quantity="other">Премести %1$d елемента</item>
+        <item quantity="other">Премести %d елемента</item>
         <item quantity="one">Премести елемент</item>
     </plurals>
     <plurals name="recent_activity_type_moved_this_file">
@@ -274,11 +242,11 @@
         <item quantity="other">Премести тази папка във:</item>
     </plurals>
     <plurals name="recent_activity_type_renamed_many_users">
-        <item quantity="other">Преименуваха %1$d елемента</item>
+        <item quantity="other">Преименува %d елемента</item>
         <item quantity="one">Преименува елемент</item>
     </plurals>
     <plurals name="recent_activity_type_renamed_one_user">
-        <item quantity="other">Преименува %1$d елемента</item>
+        <item quantity="other">Преименува %d елемента</item>
         <item quantity="one">Преименува елемент</item>
     </plurals>
     <plurals name="recent_activity_type_renamed_this_file">
@@ -288,19 +256,19 @@
         <item quantity="other">Преименува тази папка</item>
     </plurals>
     <plurals name="recent_activity_type_shared_extra_many_users">
-        <item quantity="other">Сподели %1$d елемента със:</item>
+        <item quantity="other">Сподели %d елемента със:</item>
         <item quantity="one">Сподели елемент със:</item>
     </plurals>
     <plurals name="recent_activity_type_shared_extra_one_user">
-        <item quantity="other">Сподели %1$d елемента със:</item>
+        <item quantity="other">Сподели %d елемента със:</item>
         <item quantity="one">Сподели елемент със:</item>
     </plurals>
     <plurals name="recent_activity_type_shared_many_users">
-        <item quantity="other">Сподели %1$d елемента</item>
+        <item quantity="other">Сподели %d елемента</item>
         <item quantity="one">Сподели елемент</item>
     </plurals>
     <plurals name="recent_activity_type_shared_one_user">
-        <item quantity="other">Сподели %1$d елемента</item>
+        <item quantity="other">Сподели %d елемента</item>
         <item quantity="one">Сподели елемент</item>
     </plurals>
     <plurals name="recent_activity_type_shared_this_file">
@@ -316,11 +284,11 @@
         <item quantity="other">Сподели тази папка със:</item>
     </plurals>
     <plurals name="recent_activity_type_trashed_many_users">
-        <item quantity="other">Премести %1$d елемента в кошчето</item>
+        <item quantity="other">Премести %d елемента в кошчето</item>
         <item quantity="one">Премести елемент в кошчето</item>
     </plurals>
     <plurals name="recent_activity_type_trashed_one_user">
-        <item quantity="other">Премести %1$d елемента в кошчето</item>
+        <item quantity="other">Премести %d елемента в кошчето</item>
         <item quantity="one">Премести елемент в кошчето</item>
     </plurals>
     <plurals name="recent_activity_type_trashed_this_file">
@@ -330,11 +298,11 @@
         <item quantity="other">Премахна тази папка</item>
     </plurals>
     <plurals name="recent_activity_type_unshared_many_users">
-        <item quantity="other">Ограничи достъпа до %1$d елемента</item>
+        <item quantity="other">Ограничи достъпа до %d елемента</item>
         <item quantity="one">Ограничи достъпа до 1 елемент</item>
     </plurals>
     <plurals name="recent_activity_type_unshared_one_user">
-        <item quantity="other">Ограничи достъпа до %1$d елемента</item>
+        <item quantity="other">Ограничи достъпа до %d елемента</item>
         <item quantity="one">Ограничи достъпа до 1 елемент</item>
     </plurals>
     <plurals name="recent_activity_type_unshared_this_file">
@@ -344,11 +312,11 @@
         <item quantity="other">Ограничи достъпа до тази папка</item>
     </plurals>
     <plurals name="recent_activity_type_uploaded_many_users">
-        <item quantity="other">Качи %1$d елемента</item>
+        <item quantity="other">Качи %d елемента</item>
         <item quantity="one">Качи елемент</item>
     </plurals>
     <plurals name="recent_activity_type_uploaded_one_user">
-        <item quantity="other">Качи %1$d елемента</item>
+        <item quantity="other">Качи %d елемента</item>
         <item quantity="one">Качи елемент</item>
     </plurals>
     <plurals name="recent_activity_type_uploaded_this_file">
@@ -360,17 +328,9 @@
     <plurals name="recent_activity_users_more">
         <item quantity="other">%1$s и %2$d други</item>
     </plurals>
-    <plurals name="remove_dialog_delete_for_everyone_files_text">
-        <item quantity="other">%1$d файла ще бъдат преместени в кошчето на „%2$s“ и след 30 дни ще бъдат изтрити завинаги.</item>
-        <item quantity="one">Файлът ще бъде преместен в кошчето на „%2$s“ и след 30 дни ще бъде изтрит завинаги</item>
-    </plurals>
-    <plurals name="remove_dialog_delete_for_everyone_folders_text">
-        <item quantity="other">%1$d папки ще бъдат преместени в кошчето на „%2$s“ и след 30 дни ще бъдат изтрити завинаги.</item>
-        <item quantity="one">Папката ще бъде преместена в кошчето на „%2$s“ и след 30 дни ще бъде изтрита завинаги</item>
-    </plurals>
-    <plurals name="remove_dialog_delete_for_everyone_items_text">
-        <item quantity="other">%1$d елемента ще бъдат преместени в кошчето на „%2$s“ и след 30 дни ще бъдат изтрити завинаги.</item>
-        <item quantity="one">Елементът ще бъде преместен в кошчето на „%2$s“ и след 30 дни ще бъде изтрит завинаги</item>
+    <plurals name="remove_dialog_delete_permanently_text_multiple">
+        <item quantity="other">Наистина ли искате да изтриете %d елемента за постоянно? Не можете да отмените това действие.</item>
+        <item quantity="one">Наистина ли искате да изтриете един елемент за постоянно? Не можете да отмените това действие.</item>
     </plurals>
     <plurals name="selection_floating_handle_count">
         <item quantity="other">%1$d елемента</item>
@@ -384,49 +344,45 @@
         <item quantity="other">Избирането бе премахнато за %1$d елемента</item>
         <item quantity="one">Избирането бе премахнато за %1$d елемент</item>
     </plurals>
-    <plurals name="selection_message_pin_num_items">
-        <item quantity="other">%d елемента ще бъдат налице офлайн</item>
-        <item quantity="one">1 елемент ще бъде налице офлайн</item>
-    </plurals>
     <plurals name="selection_message_star_num_items">
-        <item quantity="other">%1$d елемента бяха означени със звезда</item>
+        <item quantity="other">%d елемента бяха означени със звезда</item>
         <item quantity="one">1 елемент бе означен със звезда</item>
     </plurals>
     <plurals name="selection_message_unpin_num_items">
-        <item quantity="other">%1$d елемента няма да са налице офлайн</item>
-        <item quantity="one">1 елемент няма да е налице офлайн</item>
+        <item quantity="other">%d елемента бяха премахнати</item>
+        <item quantity="one">1 елемент бе премахнат</item>
     </plurals>
     <plurals name="selection_message_unstar_num_items">
-        <item quantity="other">Звездата бе премахната от %1$d елемента</item>
+        <item quantity="other">Звездата бе премахната от %d елемента</item>
         <item quantity="one">Звездата бе премахната от 1 елемент</item>
     </plurals>
     <plurals name="selection_message_untrash_num_items">
-        <item quantity="other">%1$d елемента бяха възстановени</item>
+        <item quantity="other">%d елемента бяха възстановени</item>
         <item quantity="one">1 елемент бе възстановен</item>
-    </plurals>
-    <plurals name="selection_undo_complete_message_remove_num_items">
-        <item quantity="other">%1$d елемента бяха възстановени</item>
-        <item quantity="one">1 елемент бе възстановен</item>
-    </plurals>
-    <plurals name="selection_undo_complete_num_items_add_trashed_message">
-        <item quantity="other">%1$d елемента бяха премахнати</item>
-        <item quantity="one">Премахнат е 1 елемент</item>
-    </plurals>
-    <plurals name="selection_undo_complete_num_items_move_message">
-        <item quantity="other">%1$d елемента бяха върнати обратно</item>
-        <item quantity="one">1 елемент бе върнат обратно</item>
-    </plurals>
-    <plurals name="selection_undo_complete_num_items_move_trashed_message">
-        <item quantity="other">%1$d елемента бяха върнати обратно в кошчето</item>
-        <item quantity="one">1 елемент бе върнат обратно в кошчето</item>
-    </plurals>
-    <plurals name="selection_undo_complete_num_items_restore_trashed_message">
-        <item quantity="other">%1$d елемента бяха поставени обратно в кошчето</item>
-        <item quantity="one">1 елемент бе поставен обратно в кошчето</item>
     </plurals>
     <plurals name="selection_undo_message_remove_num_items">
-        <item quantity="other">Премахнати са %1$d елемента</item>
+        <item quantity="other">Премахнати са %d елемента</item>
         <item quantity="one">Премахнат е 1 елемент</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_add_message">
+        <item quantity="other">%1$d елемента бяха добавени към „%2$s“</item>
+        <item quantity="one">1 елемент бе добавен към „%2$s“</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_add_trashed_message">
+        <item quantity="other">%1$d елемента бяха възстановени и добавени в/ъв „%2$s“</item>
+        <item quantity="one">1 елемент бе възстановен и добавен в/ъв „%2$s“</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_move_message">
+        <item quantity="other">%1$d елемента са преместени в/ъв %2$s</item>
+        <item quantity="one">1 елемент е преместен в/ъв %2$s</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_move_trashed_message">
+        <item quantity="other">%1$d елемента бяха възстановени и преместени в/ъв „%2$s“</item>
+        <item quantity="one">1 елемент бе възстановен и преместен в/ъв „%2$s“</item>
+    </plurals>
+    <plurals name="selection_undo_num_items_restore_trashed_message">
+        <item quantity="other">%1$d елемента бяха възстановени в/ъв „%2$s“</item>
+        <item quantity="one">1 елемент бе възстановен в/ъв „%2$s“</item>
     </plurals>
     <plurals name="send_files">
         <item quantity="other">Изпращане на файлове чрез</item>
@@ -435,20 +391,13 @@
     <plurals name="sharing_message_add_users_more">
         <item quantity="other">„%1$s“ е споделено с/ъс %2$s и още %3$d души</item>
     </plurals>
-    <plurals name="td_sharing_message_add_users_more">
-        <item quantity="other">%2$s и още %3$d души добавиха към „%1$s“</item>
-    </plurals>
-    <plurals name="teamdrive_acl_info_summary">
-        <item quantity="other">%d членове</item>
-        <item quantity="zero">Няма членове</item>
-        <item quantity="one">1 член</item>
-    </plurals>
-    <plurals name="teamdrive_plus_others_text">
-        <item quantity="other">+%d</item>
-    </plurals>
     <plurals name="transfer_notification_waiting_resume">
         <item quantity="other">Възобновяване на всички сега</item>
         <item quantity="one">Възобновяване сега</item>
+    </plurals>
+    <plurals name="transfer_notification_waiting_ticker">
+        <item quantity="other">Качванията са на пауза, изчаква се Wi-Fi...</item>
+        <item quantity="one">Качването е на пауза, изчаква се Wi-Fi...</item>
     </plurals>
     <plurals name="upload_notification_prepare_upload_canceled">
         <item quantity="other">Насрочването на %1$d файла за качване бе анулирано.</item>
@@ -469,10 +418,6 @@
     <plurals name="upload_notification_sync_progress">
         <item quantity="other">Качват се %1$d файла.</item>
         <item quantity="one">Качва се %1$d файл.</item>
-    </plurals>
-    <plurals name="upload_notification_waiting_ticker">
-        <item quantity="other">Качванията са на пауза, изчаква се Wi-Fi...</item>
-        <item quantity="one">Качването е на пауза, изчаква се Wi-Fi...</item>
     </plurals>
     <plurals name="upload_notification_waiting_title">
         <item quantity="other">%1$d качвания са на пауза.</item>

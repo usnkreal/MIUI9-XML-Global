@@ -7,63 +7,63 @@
         <item quantity="many">%d recent apps</item>
     </plurals>
     <plurals name="accessibility_recent_task_enter">
-        <item quantity="other">Otvorené nedávne položky, dostupné aplikácie: %d.</item>
-        <item quantity="one">Otvorené nedávne položky, dostupné aplikácie: %d.</item>
-        <item quantity="few">Otvorené nedávne položky, dostupné aplikácie: %d.</item>
-        <item quantity="many">Opened Recents, available apps: %d.</item>
+        <item quantity="other">Otvorené Nedávne, dostupných aplikácií: %d.</item>
+        <item quantity="one">Otvorené Nedávne, dostupná aplikácia: %d.</item>
+        <item quantity="few">Otvorené Nedávne, dostupné aplikácie: %d.</item>
+        <item quantity="many">Otvorené Nedávne, dostupných aplikácií: %d.</item>
     </plurals>
     <plurals name="accessibility_recent_task_first_enter_tips">
-        <item quantity="other">Nedávno otvorené aplikácie, dostupné aplikácie: %d. Odstráňte potiahnutím nahor, zamknite potiahnutím nadol.</item>
-        <item quantity="one">Nedávno otvorené aplikácie, dostupné aplikácie: %d. Odstráňte potiahnutím nahor, zamknite potiahnutím nadol.</item>
-        <item quantity="few">Nedávno otvorené aplikácie, dostupné aplikácie: %d. Odstráňte potiahnutím nahor, zamknite potiahnutím nadol.</item>
-        <item quantity="many">Opened Recents, available apps: %d. Swipe up to remove, swipe down to lock.</item>
+        <item quantity="other">Otvorené Nedávne, dostupných aplikácií: %d. Odstráňte potiahnutím nahor, zamknite potiahnutím nadol.</item>
+        <item quantity="one">Otvorené Nedávne, dostupná aplikácia: %d. Odstráňte potiahnutím nahor, zamknite potiahnutím nadol.</item>
+        <item quantity="few">Otvorené Nedávne, dostupné aplikácie: %d. Odstráňte potiahnutím nahor, zamknite potiahnutím nadol.</item>
+        <item quantity="many">Otvorené Nedávne, dostupnej aplikácie: %d. Odstráňte potiahnutím nahor, zamknite potiahnutím nadol.</item>
     </plurals>
     <plurals name="settings_toggle_position_divider_page">
         <item quantity="other">%1$d prepínačov bude zobrazených v Notifikačnej roletke</item>
         <item quantity="one">%1$d prepínač bude zobrazený v Notifikačnej roletke</item>
         <item quantity="few">%1$d prepínače budú zobrazené v Notifikačnej roletke</item>
-        <item quantity="many">%1$d toggles will be shown in the Notification shade</item>
+        <item quantity="many">%1$d prepínača bude zobrazeného v Notifikačnej roletke</item>
     </plurals>
     <plurals name="disable_notification_confirm_title">
-        <item quantity="other">Chcete skryť notifikácie týchto (%d) aplikácií?</item>
+        <item quantity="other">Skryť notifikácie týchto %d aplikácií?</item>
         <item quantity="one">Chcete skryť notifikácie tejto aplikácie?</item>
-        <item quantity="few">Chcete skryť notifikácie týchto (%d) aplikácií?</item>
-        <item quantity="many">"Hide %d apps' notifications?"</item>
+        <item quantity="few">Skryť notifikácie týchto %d aplikácií?</item>
+        <item quantity="many">Skryť notifikácie tejto %d aplikácie?</item>
     </plurals>
     <plurals name="block_record_notification_more_text">
-        <item quantity="other">Skryté upozornenia od %1$s a %2$d apl.</item>
-        <item quantity="one">Skryté upozornenia od %1$s a %2$d apl.</item>
-        <item quantity="few">Skryté upozornenia od %1$s a %2$d apl.</item>
-        <item quantity="many">Hiding notifications from %1$s &amp; %2$d apps.</item>
+        <item quantity="other">Skrývajú sa upozornenia aplikácie %1$s &amp;amp; ďalších %2$d aplikácií.</item>
+        <item quantity="one">Skrývajú sa upozornenia aplikácie %1$s &amp;amp; ďalšej %2$d aplikácie.</item>
+        <item quantity="few">Skrývajú sa upozornenia aplikácie %1$s &amp;amp; ďalších %2$d aplikácií.</item>
+        <item quantity="many">Skrývajú sa upozornenia aplikácie %1$s &amp;amp; ďalšej %2$d aplikácie.</item>
     </plurals>
     <plurals name="view_realtime_clear">
-        <item quantity="other">Jasno</item>
+        <item quantity="other">Slnečno</item>
         <item quantity="one">Slnečno</item>
         <item quantity="few">Slnečno</item>
-        <item quantity="many">Clear</item>
+        <item quantity="many">Slnečno</item>
     </plurals>
     <plurals name="accessibility_desc_weather_temperature">
         <item quantity="other">Počasie %d stupňov</item>
         <item quantity="one">Počasie %d stupeň</item>
         <item quantity="few">Počasie %d stupne</item>
-        <item quantity="many">Weather %d degrees</item>
+        <item quantity="many">Počasie %d stupňa</item>
     </plurals>
     <plurals name="fold_tips_title">
         <item quantity="other">%d nepodstatných oznámení</item>
         <item quantity="one">%d nepodstatné oznámenie</item>
         <item quantity="few">%d nepodstatné oznámenia</item>
-        <item quantity="many">%d unimportant notifications</item>
+        <item quantity="many">%d nepodstatného oznámenia</item>
     </plurals>
     <plurals name="notification_group_child_count">
         <item quantity="other">%1$d upozornení</item>
         <item quantity="one">%1$d upozornenie</item>
         <item quantity="few">%1$d upozornenia</item>
-        <item quantity="many">%1$d notifications</item>
+        <item quantity="many">%1$d upozornenia</item>
     </plurals>
     <plurals name="notification_group_overflow_description">
         <item quantity="other">%s ďalších upozornení vo vnútri.</item>
         <item quantity="one">%s ďalšie upozornenie vo vnútri.</item>
         <item quantity="few">%s ďalšie upozornenia vo vnútri.</item>
-        <item quantity="many">%s more notifications inside.</item>
+        <item quantity="many">%s ďalšieho upozornenia vo vnútri.</item>
     </plurals>
 </resources>

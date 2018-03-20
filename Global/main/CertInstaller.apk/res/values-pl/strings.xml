@@ -27,42 +27,8 @@
     <string name="cert_too_large_error">Nie można zainstalować, ponieważ rozmiar certyfikatu jest zbyt duży.</string>
     <string name="cert_missing_error">Nie można zainstalować, ponieważ nie można znaleźć pliku certyfikatu.</string>
     <string name="cert_read_error">Nie można zainstalować, ponieważ nie można odczytać pliku certyfikatu.</string>
-    <string name="no_cert_file_found">Na karcie SD nie znaleziono pliku certyfikatu.</string>
-    <string name="sdcard_not_present">Brak karty SD.</string>
+    <string name="no_cert_file_found">Nie znaleziono pliku certyfikatu na nośniku USB.</string>
+    <string name="sdcard_not_present">Nośnik USB jest niedostępny.</string>
     <string name="only_primary_user_allowed">Certyfikaty może instalować tylko właściciel tego urządzenia.</string>
     <string name="credential_usage_label">Przeznaczenie tych danych logowania:</string>
-    <string name="wifi_title">Profil Wi-Fi</string>
-    <string name="wifi_detail_title">Szczegóły: %s</string>
-    <string name="wifi_detail_label">Szczegóły</string>
-    <string name="wifi_install_label">Zainstaluj</string>
-    <string name="wifi_installing_label">Instalowanie</string>
-    <string name="wifi_cancel_label">Anuluj</string>
-    <string name="wifi_dismiss_label">Zamknij</string>
-    <string name="wifi_no_config">Brak</string>
-    <string name="wifi_config_text">"Nazwa: %1$s
-Pełna nazwa domenowa: %2$s
-Konsorcja roamingowe: %3$s
-Obszar: %4$s
-Metoda uwierzytelniania: EAP-%5$s
-"</string>
-    <string name="wifi_ttls_config_text">"Nazwa użytkownika: %s
-"</string>
-    <string name="wifi_tls_config_text">"Certyfikat klienta:
-%1$s
-Klucz: %2$s
-"</string>
-    <string name="wifi_sim_config_text">"SIM: %s
-"</string>
-    <string name="wifi_trust_config_text">"Certyfikat zaufania:
-%s
-"</string>
-    <string name="install_done_title">Zainstalowano dane logowania</string>
-    <string name="install_done">Dane logowania do %1$s zostały dodane do zapisanych sieci Wi-Fi.</string>
-    <string name="done_label">GOTOWE</string>
-    <string name="wifi_installer_detail">Zainstaluj dane logowania do sieci Wi-Fi, by łączyć się z sieciami dostępnymi przez %1$s.</string>
-    <string name="wifi_installer_download_error">W pobranym pliku występują błędy i nie można go zainstalować. Upewnij się, że został on pobrany z właściwego źródła.</string>
-    <string name="wifi_installer_fail">Nie można zainstalować danych logowania do sieci Wi-Fi. Pobierz plik ponownie.</string>
-    <string name="wifi_installer_fail_no_wifi_title">Instalacja została anulowana</string>
-    <string name="wifi_installer_fail_title">Nie można zainstalować</string>
-    <string name="wifi_installer_fail_no_wifi">Włącz Wi-Fi i spróbuj ponownie.</string>
 </resources>

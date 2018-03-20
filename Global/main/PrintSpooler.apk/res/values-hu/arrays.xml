@@ -4,11 +4,6 @@
         <item>Fekete-fehér</item>
         <item>Szín</item>
     </string-array>
-    <string-array name="duplex_mode_labels">
-        <item>Nincs</item>
-        <item>Hosszabb él</item>
-        <item>Rövidebb él</item>
-    </string-array>
     <string-array name="orientation_labels">
         <item>Álló</item>
         <item>Fekvő</item>

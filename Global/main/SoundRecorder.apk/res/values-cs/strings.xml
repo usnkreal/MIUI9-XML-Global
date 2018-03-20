@@ -151,4 +151,5 @@
     <string name="head_set_tip_dialog_msg">Odpojte sluchátka pro nahrávání zvuku se specifickými přednastaveními (např. hudba, hlas).</string>
     <string name="head_set_tip_dialog_ok">Rozumím</string>
     <string name="rename_fail_tip">Přejmenování se nezdařilo. Položka se stejným názvem již existuje.</string>
+    <string name="dialog_privacy_revoke_tips">Po odebrání oprávnění, aplikace přestane shromažďovat data a všechny údaje ze serverů budou odstraněny. Aplikace poté nemusí být nadále použitelná. Chcete oprávnění přesto odebrat? Pro zajištění bezpečnosti vašeho účtu, se před odebráním oprávnění Mi Cloud službám přihlaste na i.mi.com.</string>
 </resources>

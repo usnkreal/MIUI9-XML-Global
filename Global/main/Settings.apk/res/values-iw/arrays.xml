@@ -1,33 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="wifi_status">
-        <item></item>
-        <item>סורק...</item>
-        <item>מתחבר ...</item>
-        <item>מאמת…</item>
-        <item>‏משיג כתובת IP…</item>
-        <item>מחובר</item>
-        <item>בהשעיה</item>
-        <item>מתנתק...</item>
-        <item>מנותק</item>
-        <item>נכשל</item>
-        <item>חסומה</item>
-        <item>נמנע זמנית מחיבור חלש</item>
-    </string-array>
-    <string-array name="wifi_status_with_ssid">
-        <item></item>
-        <item>סורק...</item>
-        <item>מתחבר אל %1$s…</item>
-        <item>מאמת עם %1$s...</item>
-        <item>‏משיג כתובת IP מ-%1$s…</item>
-        <item>מחובר אל %1$s</item>
-        <item>בהשעיה</item>
-        <item>מתנתק מרשת %1$s...</item>
-        <item>מנותק</item>
-        <item>נכשל</item>
-        <item>חסומה</item>
-        <item>נמנע זמנית מחיבור חלש</item>
-    </string-array>
     <string-array name="timezone_filters">
         <item>אמריקה</item>
         <item>אירופה</item>
@@ -91,16 +63,35 @@
         <item>גבוה</item>
         <item>גבוה מאוד</item>
     </string-array>
-    <string-array name="wifi_eap_method">
-        <item>PEAP</item>
-        <item>TLS</item>
-        <item>TTLS</item>
-        <item>PWD</item>
-        <item>SIM</item>
-        <item>AKA</item>
-        <item>"AKA'"</item>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>סורק...</item>
+        <item>מתחבר ...</item>
+        <item>מאמת…</item>
+        <item>‏משיג כתובת IP…</item>
+        <item>מחובר</item>
+        <item>בהשעיה</item>
+        <item>מתנתק...</item>
+        <item>מנותק</item>
+        <item>נכשל</item>
+        <item>חסומה</item>
+        <item>נמנע זמנית מחיבור חלש</item>
     </string-array>
-    <string-array name="eap_method_without_sim_auth">
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>סורק...</item>
+        <item>מתחבר אל %1$s…</item>
+        <item>מאמת עם %1$s...</item>
+        <item>‏משיג כתובת IP מ-%1$s…</item>
+        <item>מחובר אל %1$s</item>
+        <item>בהשעיה</item>
+        <item>מתנתק מרשת %1$s...</item>
+        <item>מנותק</item>
+        <item>נכשל</item>
+        <item>חסומה</item>
+        <item>נמנע זמנית מחיבור חלש</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
         <item>PEAP</item>
         <item>TLS</item>
         <item>TTLS</item>
@@ -144,6 +135,10 @@
         <item>30 הימים האחרונים</item>
         <item>הגדר מחזור שימוש...</item>
     </string-array>
+    <string-array name="sim_card_data_range">
+        <item>4 הספרות האחרונות</item>
+        <item>4 הספרות הראשונות</item>
+    </string-array>
     <string-array name="wifi_frequency_band_entries">
         <item>אוטומטי</item>
         <item>‏‎5 GHz בלבד</item>
@@ -179,7 +174,7 @@
     <string-array name="wifi_proxy_settings">
         <item>ללא</item>
         <item>ידני</item>
-        <item>"‏הגדרה אוט' לשרת proxy"</item>
+        <item>‏הגדרה אוטומטית לשרת proxy</item>
     </string-array>
     <string-array name="apn_auth_entries">
         <item>ללא</item>
@@ -193,22 +188,9 @@
         <item>IPv4/IPv6</item>
     </string-array>
     <string-array name="bearer_entries">
-        <item>לא צוין</item>
         <item>LTE</item>
-        <item>HSPAP</item>
-        <item>HSPA</item>
-        <item>HSUPA</item>
-        <item>HSDPA</item>
-        <item>UMTS</item>
-        <item>EDGE</item>
-        <item>GPRS</item>
         <item>eHRPD</item>
-        <item>EVDO_B</item>
-        <item>EVDO_A</item>
-        <item>EVDO_0</item>
-        <item>1xRTT</item>
-        <item>IS95B</item>
-        <item>IS95A</item>
+        <item>לא צוין</item>
     </string-array>
     <string-array name="mvno_type_entries">
         <item>ללא</item>
@@ -276,9 +258,6 @@
         <item>השתק/בטל השתקה של המיקרופון</item>
         <item>הקרן מדיה</item>
         <item>‏הפעל VPN</item>
-        <item>כתיבת טפט</item>
-        <item>מבנה של מסייע</item>
-        <item>צילום מסך של מסייע</item>
     </string-array>
     <string-array name="app_ops_labels">
         <item>מיקום</item>
@@ -328,9 +307,6 @@
         <item>השתק/בטל השתקה של המיקרופון</item>
         <item>הקרן מדיה</item>
         <item>‏הפעל VPN</item>
-        <item>כתיבת טפט</item>
-        <item>מבנה של מסייע</item>
-        <item>צילום מסך של מסייע</item>
     </string-array>
     <string-array name="long_press_timeout_selector_titles">
         <item>קצר</item>
@@ -344,7 +320,7 @@
         <item>‏Sans-serif עם רווח יחיד</item>
         <item>Serif</item>
         <item>‏Serif עם רווח יחיד</item>
-        <item>Casual</item>
+        <item>רגיל</item>
         <item>כתב-יד</item>
         <item>רישיות קטנות</item>
     </string-array>
@@ -370,7 +346,7 @@
         <item>100%</item>
     </string-array>
     <string-array name="captioning_preset_selector_titles">
-        <item>ברירות המחדל של האפליקציה</item>
+        <item>השתמש בברירות המחדל של האפליקציה</item>
         <item>לבן על גבי שחור</item>
         <item>שחור על גבי לבן</item>
         <item>צהוב על גבי שחור</item>
@@ -407,45 +383,41 @@
         <item>‏תמיד השתמש בבדיקת HDCP</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
-        <item>אנימציה כבויה</item>
-        <item>‏קנה מידה לאנימציה 5x.</item>
-        <item>‏קנה מידה לאנימציה 1x</item>
-        <item>‏קנה מידה לאנימציה 1.5x</item>
-        <item>‏קנה מידה לאנימציה 2x</item>
-        <item>‏קנה מידה לאנימציה 5x</item>
-        <item>‏קנה מידה לאנימציה 10x</item>
+        <item>הנפשה כבויה</item>
+        <item>‏קנה מידה להנפשה 5x.</item>
+        <item>‏קנה מידה להנפשה 1x</item>
+        <item>‏קנה מידה להנפשה 1.5x</item>
+        <item>‏קנה מידה להנפשה 2x</item>
+        <item>‏קנה מידה להנפשה 5x</item>
+        <item>‏קנה מידה להנפשה 10x</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
-        <item>אנימציה כבויה</item>
-        <item>‏קנה מידה לאנימציה 5x.</item>
-        <item>‏קנה מידה לאנימציה 1x</item>
-        <item>‏קנה מידה לאנימציה 1.5x</item>
-        <item>‏קנה מידה לאנימציה 2x</item>
-        <item>‏קנה מידה לאנימציה 5x</item>
-        <item>‏קנה מידה לאנימציה 10x</item>
+        <item>הנפשה כבויה</item>
+        <item>‏קנה מידה להנפשה 5x.</item>
+        <item>‏קנה מידה להנפשה 1x</item>
+        <item>‏קנה מידה להנפשה 1.5x</item>
+        <item>‏קנה מידה להנפשה 2x</item>
+        <item>‏קנה מידה להנפשה 5x</item>
+        <item>‏קנה מידה להנפשה 10x</item>
     </string-array>
     <string-array name="animator_duration_scale_entries">
-        <item>אנימציה כבויה</item>
-        <item>‏קנה מידה לאנימציה 5x.</item>
-        <item>‏קנה מידה לאנימציה 1x</item>
-        <item>‏קנה מידה לאנימציה 1.5x</item>
-        <item>‏קנה מידה לאנימציה 2x</item>
-        <item>‏קנה מידה לאנימציה 5x</item>
-        <item>‏קנה מידה לאנימציה 10x</item>
+        <item>הנפשה כבויה</item>
+        <item>‏קנה מידה להנפשה 5x.</item>
+        <item>‏קנה מידה להנפשה 1x</item>
+        <item>‏קנה מידה להנפשה 1.5x</item>
+        <item>‏קנה מידה להנפשה 2x</item>
+        <item>‏קנה מידה להנפשה 5x</item>
+        <item>‏קנה מידה להנפשה 10x</item>
     </string-array>
     <string-array name="overlay_display_devices_entries">
         <item>אין</item>
-        <item>‎480p</item>
-        <item>‏480p (מאובטח)</item>
-        <item>‎720p</item>
-        <item>‏720p (מאובטח)</item>
-        <item>‎1080p</item>
-        <item>‏1080p (מאובטח)</item>
-        <item>4K</item>
-        <item>‏4K (מאובטח)</item>
-        <item>‏4K (משופר)</item>
-        <item>‏4K (משופר, מאובטח)</item>
-        <item>‏720p‏, 1080p (מסך כפול)</item>
+        <item>720x480 mdpi</item>
+        <item>‏720x480 mdpi (מאובטח)</item>
+        <item>1280x720 tvdpi</item>
+        <item>‏1280x720 tvdpi (מאובטח)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>‏1920x1080 xhdpi (מאובטח)</item>
+        <item>‏1280x720 tvdpi ו-1920x1080 xhdpi</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>ללא</item>
@@ -469,7 +441,7 @@
         <item>הצגת אזורים לעיוורון צבעים</item>
     </string-array>
     <string-array name="app_process_limit_entries">
-        <item>הגבלה סטנדרטית</item>
+        <item>הגבלת תקן</item>
         <item>אין תהליכים ברקע</item>
         <item>תהליך אחד לכל היותר</item>
         <item>2 תהליכים לכל היותר</item>
@@ -502,7 +474,11 @@
         <item>בינוני</item>
         <item>נמוך</item>
         <item>קריטי</item>
-        <item>\?</item>
+    </string-array>
+    <string-array name="entries_zen_mode">
+        <item>כבוי</item>
+        <item>הפרעות מוגבלות</item>
+        <item>אפס הפרעות</item>
     </string-array>
     <string-array name="proc_stats_memory_states">
         <item>רגיל</item>
@@ -525,21 +501,5 @@
         <item>בקובץ שמור (פעילות)</item>
         <item>בקובץ שמור (לקוח פעילות)</item>
         <item>בקובץ שמור (ריק)</item>
-    </string-array>
-    <string-array name="color_picker">
-        <item>כחול-ירקרק</item>
-        <item>כחול</item>
-        <item>כחול כהה</item>
-        <item>סגול</item>
-        <item>ורוד</item>
-        <item>אדום</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_choices">
-        <item>‏Wi-Fi מועדף</item>
-        <item>סלולרי מועדף</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_values">
-        <item>2</item>
-        <item>1</item>
     </string-array>
 </resources>

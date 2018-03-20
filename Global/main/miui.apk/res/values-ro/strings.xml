@@ -25,6 +25,7 @@
     <string name="deselect_all">Deselectează</string>
     <string name="instruction">Instrucțiuni</string>
     <string name="sar">Informații privind expunerea la RF</string>
+    <string name="user_experience_program">Programul de experiență a utilizatorului</string>
     <string name="abc_action_bar_up_description">Navigare sus</string>
     <string name="abc_action_bar_home_description">Navigați acasă</string>
     <string name="time_picker_label_hour">H</string>

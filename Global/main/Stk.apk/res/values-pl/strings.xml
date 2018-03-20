@@ -25,8 +25,8 @@
     <string name="default_close_channel_msg">Kanał zamknięty</string>
     <string name="stk_dialog_accept">TAK</string>
     <string name="stk_dialog_reject">NIE</string>
-    <string name="no_sim_card_inserted">Włóż kartę SIM, aby uruchomić Narzędzia SIM.</string>
     <string name="stk_intent_permission">Wymagane uprawnienia</string>
+    <string name="no_sim_card_inserted">Włóż kartę SIM, aby uruchomić Narzędzia SIM.</string>
     <string name="sim_type_sim_name">Narzędzia SIM</string>
     <string name="sim_type_usim_name">Narzędzia USIM</string>
     <string name="sim_type_uim_name">Narzędzia UIM</string>

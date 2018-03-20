@@ -19,8 +19,9 @@
     <string name="abc_shareactionprovider_share_with">שתף עם</string>
     <string name="abc_shareactionprovider_share_with_application">‏שתף עם %s</string>
     <string name="abc_toolbar_collapse_description">כווץ</string>
-    <string name="access_as_visitors_title">כל האחרים</string>
-    <string name="access_via_team_drive_title">גישה באמצעות %1$s</string>
+    <string name="access_request_accepted">אושרה</string>
+    <string name="access_request_give_access">הענק גישה</string>
+    <string name="access_request_reply">השב</string>
     <string name="accessbility_suggestion_dropdown_closed">אין הצעות זמינות</string>
     <string name="accessbility_suggestion_dropdown_opened">הצעות אנשי קשר פתוחות</string>
     <string name="account_item">עבור אל %1$s</string>
@@ -39,8 +40,8 @@
     <string name="action_card_announce_untrash">פריט שוחזר</string>
     <string name="action_card_download">הורדה</string>
     <string name="action_card_download_content_desc">הורד עותק</string>
-    <string name="action_card_export">שליחת עותק</string>
-    <string name="action_card_export_content_desc">שליחת עותק</string>
+    <string name="action_card_export">שליחת קובץ</string>
+    <string name="action_card_export_content_desc">שלח את הקובץ</string>
     <string name="action_card_folder_color">שינוי צבע</string>
     <string name="action_card_get_link">שיתוף קישור</string>
     <string name="action_card_move">העברה</string>
@@ -53,7 +54,6 @@
     <string name="action_card_remove_content_desc">הסר את הפריט</string>
     <string name="action_card_remove_permanently">מחיקה לנצח</string>
     <string name="action_card_remove_permanently_content_desc">מחיקת פריט לצמיתות</string>
-    <string name="action_card_remove_td_item">מחק לכולם</string>
     <string name="action_card_rename">שינוי שם</string>
     <string name="action_card_rename_content_desc">שנה את שם הפריט</string>
     <string name="action_card_share">הוסף אנשים</string>
@@ -82,19 +82,13 @@
     <string name="add">הוספה</string>
     <string name="add_account">הוסף חשבון</string>
     <string name="add_collaborator_accept">הוסף</string>
-    <string name="add_collaborators">הוסף אנשים</string>
-    <string name="add_collaborators_acl_list_title">למי יש גישה</string>
+    <string name="add_collaborators">הוספת אנשים</string>
     <string name="add_collaborators_hint">הזן שם או כתובת אימייל</string>
     <string name="add_collaborators_send_button_content_desc">אשר את השיתוף ושלח לשותפי עריכה</string>
     <string name="add_collaborators_textbox_title">אנשים</string>
-    <string name="add_members_acl_list_title">חברים באחסון הקבוצתי %1$s</string>
-    <string name="add_members_dialog_title">הוסף חברים</string>
-    <string name="add_members_send_button_content_desc">אשר הוספה של חברים ושלח לחברים</string>
-    <string name="add_members_textbox_title">חברים</string>
     <string name="alphabet_set">0123456789אבגדהוזחטיכלמנסעפצקרשת</string>
     <string name="announce_account_switch">בוצע מעבר לחשבון %1$s.</string>
     <string name="announce_account_using">באמצעות חשבון: %1$s.</string>
-    <string name="announce_action_undone">הפעולה בוטלה.</string>
     <string name="announce_collection_removed">התיקיה הוסרה.</string>
     <string name="announce_create_new">צור חדש</string>
     <string name="announce_document_removed">הקובץ הוסר.</string>
@@ -106,8 +100,6 @@
     <string name="announce_search_found_no_item">לא נמצאו תוצאות</string>
     <string name="announce_select_to_change">בחר כדי לשנות</string>
     <string name="announce_sort_order_and_direction">ממוין לפי: %1$s, %2$s</string>
-    <string name="announce_swatch_checked">%1$s מסומן</string>
-    <string name="announce_swatch_not_checked">%1$s לא מסומן</string>
     <string name="app_installation_in_progress">התקנה מתבצעת...</string>
     <string name="app_installation_in_progress_toast">התקנה מתבצעת. ראה הודעות לקבלת פרטים.</string>
     <string name="app_installed_dialog_drive_installed_title">‏Google Drive הותקן</string>
@@ -121,19 +113,27 @@
     <string name="app_name_drive">Drive</string>
     <string name="app_restrictions_description">‏מוגדר ל-false כדי להשבית את השימוש בממשקי API להדפסה מקומית</string>
     <string name="app_restrictions_title">‏היישום מורשה להשתמש בממשקי API להדפסה מקומית</string>
-    <string name="apps">אפליקציות</string>
-    <string name="apps_footer_text">%s אפליקציות</string>
-    <string name="apps_predict_carousel_title">גישה מהירה</string>
     <string name="apps_predict_doclist_suggestions_header">פריטים מיידיים</string>
     <string name="apps_predict_open_error">לא ניתן לפתוח את הפריט.</string>
-    <string name="apps_predict_overlay_close_button">סגור</string>
     <string name="apps_predict_overlay_introduction_header">הצעות לפריטים חדשים</string>
     <string name="apps_predict_overlay_introduction_text">‏Drive מציע עכשיו באופן אוטומטי פריטים שעשויים להועיל לך. הם לא מה שאתה מחפש? החלק הצידה כדי למחוק.</string>
     <string name="apps_predict_overlay_title_assistant">האסיסטנט</string>
     <string name="apps_predict_overlay_title_items_now">פריטים שעשויים להיות רלוונטיים לך</string>
     <string name="apps_predict_overlay_title_smart_items">בחירה חכמה של פריטים</string>
+    <string name="apps_predict_reason_frequently_accessed">בשימוש נפוץ</string>
+    <string name="apps_predict_reason_outstanding_comments">מכיל תגובות ללא מענה</string>
+    <string name="apps_predict_reason_recent_activity">לפי פעילות אחרונה שלך</string>
+    <string name="apps_predict_reason_recently_accessed">היה בשימוש לאחרונה</string>
+    <string name="apps_predict_reason_recently_commented_on">הוזכר לאחרונה בתגובה</string>
+    <string name="apps_predict_reason_recently_notified">הוזכר לאחרונה בהודעה שקיבלת</string>
+    <string name="apps_predict_reason_recently_shared_with_you">שותף איתך לאחרונה</string>
+    <string name="apps_predict_reason_recently_updated">עודכן לאחרונה</string>
+    <string name="apps_predict_reason_related_to_recent_document">קשור למסמך שנפתח לאחרונה</string>
+    <string name="apps_predict_reason_time_of_day">בשימוש נפוץ בשעה הזו</string>
     <string name="apps_predict_suggestions_dismissed_undo">ההצעות נדחו</string>
     <string name="apps_with_backup">‏אפליקציות עם גיבוי ב-Google Drive</string>
+    <string name="ask_confirmation_for_document_deletion">האם אתה בטוח שברצונך להסיר את הקובץ הזה?</string>
+    <string name="ask_confirmation_for_folder_deletion">האם אתה בטוח שברצונך להסיר את התיקיה הזו?</string>
     <string name="audio_info_loading">טעינה</string>
     <string name="authentication_error">שגיאה בקבלת אימות</string>
     <string name="auto_backup_open_settings_page_failure_toast">לא ניתן לפתוח את דף ההגדרות של גיבוי אוטומטי. נסה שוב מאוחר יותר.</string>
@@ -143,10 +143,8 @@
     <string name="backup_app_footer_text" formatted="false">גיבוי אחרון בנפח של %s בוצע ב-%s</string>
     <string name="backup_banner_msg">‏מתחיל גיבוי של המכשיר שלך ב-Drive</string>
     <string name="backup_complete_msg">הגיבוי הסתיים</string>
-    <string name="backup_data">גבה נתונים</string>
     <string name="backup_disabled_for_account">במכשיר הזה מופעל גיבוי ל-%s. ניתן לגבות חשבון אחד בלבד בכל מכשיר.</string>
     <string name="backup_disabled_for_device">לא קיימים נתוני גיבוי. ודא שהפעלת גיבוי במכשיר זה והמתן 24 שעות עד לשמירת הנתונים.</string>
-    <string name="backup_entity_footer_text">תאריך הגיבוי האחרון: %s</string>
     <string name="backup_failed_msg">הגיבוי נכשל</string>
     <string name="backup_help_card_content">תמונות, קבצים והגדרות אפליקציה מהמכשיר שלך מגובים באופן אוטומטי ב-%s</string>
     <string name="backup_help_card_title">‏גיבוי נתונים ב-Google Drive</string>
@@ -154,9 +152,7 @@
     <string name="backup_now">גבה עכשיו</string>
     <string name="backup_preferences">גיבוי אוטומטי ליישומים</string>
     <string name="backup_retry_msg">הקש כדי לנסות שוב</string>
-    <string name="backup_settings">הגדרות גיבוי</string>
-    <string name="backup_view_error">לא ניתן להציג פירוט של הנתונים שגובו. בדוק את קישוריות הרשת או נסה שוב בעוד מספר דקות.</string>
-    <string name="basesearchsuggestion_date_modified_label">שינוי: %1$s</string>
+    <string name="basesearchsuggestion_date_modified_label">שינוי: %s</string>
     <string name="button_create_contact">צור איש קשר חדש</string>
     <string name="button_exit">יציאה</string>
     <string name="button_ok">אישור</string>
@@ -166,64 +162,52 @@
     <string name="buy_content_description">קנה %1$s תמורת %2$s</string>
     <string name="cakemix_device_offline">אין חיבור</string>
     <string name="cakemix_problem_with_file">בעיה בקובץ</string>
-    <string name="cakemix_video_unprocessed">הסרטון נמצא עכשיו בעיבוד. בדוק שוב מאוחר יותר.</string>
-    <string name="calendar">יומן</string>
-    <string name="calendar_footer_text">‏סונכרן עם יומן Google</string>
-    <string name="calendar_message">‏אירועים ביומן מסונכרנים בכל המכשירים באמצעות יומן Google.</string>
-    <string name="call_history">היסטוריית שיחות</string>
-    <string name="call_history_message">הגיבוי כולל תאריך ומקבל של שיחות שבוצעו והתקבלו.</string>
+    <string name="cakemix_video_unprocessed">לא ניתן לעבד את הסרטון.</string>
     <string name="camera_ocr_error_capture">שגיאה בצילום תמונה</string>
     <string name="camera_ocr_no_sdcard">‏הכנס כרטיס SD לפני שתשתמש במצלמה.</string>
-    <string name="carbon_device_extra_delete_confirmation_message">"
-
-תמונות, אנשי קשר ואירועים ביומן שסונכרנו מהמכשיר הזה לא יימחקו."</string>
+    <string name="check_connection_tap_to_retry">בדוק את החיבור והקש כדי לנסות שוב</string>
     <string name="chips_action_cancel">בטל</string>
     <string name="chips_action_copy">העתק</string>
     <string name="chips_permission_text">התר הצעות לאנשי קשר</string>
     <string name="clear_cache">הסר קובץ שמור</string>
     <string name="clear_cache_cleared_message">המסמך השמור הוסר</string>
-    <string name="clear_cache_clearing_message">ניקוי קובץ שמור</string>
     <string name="clear_cache_message">המסמך השמור יוסר.</string>
-    <string name="common_google_play_services_api_unavailable_text">‏ל-%1$s נדרש שירות אחד או מספר שירותים של Google Play, שאינם זמינים כעת. צור קשר עם המפתח לקבלת סיוע.</string>
+    <string name="comment_quote">ציטוט: %1$s</string>
+    <string name="common_android_wear_notification_needs_update_text">‏%1$s דורש עדכון לאפליקציה Android Wear.</string>
+    <string name="common_android_wear_update_text">‏%1$s לא יפעל עד שתעדכן את האפליקציה Android Wear.</string>
+    <string name="common_android_wear_update_title">‏עדכון Android Wear</string>
+    <string name="common_google_play_services_api_unavailable_text">‏ל-%1$s נדרש שירות אחד או יותר של Google Play שאינו זמין כעת. צור קשר עם המפתח לקבלת סיוע.</string>
     <string name="common_google_play_services_enable_button">‏הפעל את שירותי Google Play</string>
-    <string name="common_google_play_services_enable_text">‏האפליקציה %1$s לא תפעל אם לא תפעיל את שירותי Google Play.</string>
-    <string name="common_google_play_services_enable_title">‏הפעל את שירותי Google Play</string>
+    <string name="common_google_play_services_enable_text">‏%1$s לא יפעל אם לא תפעיל את שירותי Google Play.</string>
+    <string name="common_google_play_services_enable_title">‏הפעלת שירותי Google Play</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">התבקשה על ידי %1$s</string>
     <string name="common_google_play_services_install_button">‏קבל את שירותי Google Play</string>
-    <string name="common_google_play_services_install_text_phone">‏האפליקציה %1$s לא תפעל ללא שירותי Google Play, שאינם מותקנים בטלפון שלך.</string>
-    <string name="common_google_play_services_install_text_tablet">‏האפליקציה %1$s לא תפעל ללא שירותי Google Play, שאינם מותקנים בטאבלט שלך.</string>
+    <string name="common_google_play_services_install_text_phone">‏%1$s לא יפעל ללא שירותי Google Play, שחסרים בטלפון שלך.</string>
+    <string name="common_google_play_services_install_text_tablet">‏%1$s לא יפעל ללא שירותי Google Play, שחסרים בטאבלט שלך.</string>
     <string name="common_google_play_services_install_title">‏קבל את שירותי Google Play</string>
     <string name="common_google_play_services_invalid_account_text">החשבון שצוין לא קיים במכשיר זה. בחר חשבון אחר.</string>
     <string name="common_google_play_services_invalid_account_title">חשבון לא חוקי</string>
+    <string name="common_google_play_services_needs_enabling_title">‏קיימת אפליקציה המחייבת הפעלה של שירותי Google Play.</string>
     <string name="common_google_play_services_network_error_text">‏דרוש חיבור נתונים כדי להתחבר לשירותי Google Play.</string>
-    <string name="common_google_play_services_network_error_title">שגיאת רשת</string>
+    <string name="common_google_play_services_network_error_title">שגיאת רשת.</string>
+    <string name="common_google_play_services_notification_needs_update_title">‏קיימת אפליקציה המחייבת עדכון עבור שירותי Google Play.</string>
     <string name="common_google_play_services_notification_ticker">‏שגיאה בשירותי Google Play</string>
-    <string name="common_google_play_services_restricted_profile_text">הגישה לחשבונות מפרופיל מוגבל אינה נתמכת.</string>
-    <string name="common_google_play_services_restricted_profile_title">פרופיל מוגבל</string>
-    <string name="common_google_play_services_sign_in_failed_text">אירעה שגיאה בעת הכניסה אל החשבון שצוין. בחר חשבון אחר.</string>
+    <string name="common_google_play_services_sign_in_failed_text">אירעה שגיאה בעת הכניסה אל החשבון המצוין. בחר חשבון אחר.</string>
     <string name="common_google_play_services_sign_in_failed_title">הכניסה נכשלה</string>
-    <string name="common_google_play_services_unknown_issue">‏%1$s נתקלה בבעיה עם שירותי Google Play. אם הבעיה נמשכת, צור קשר עם המפתחים לקבלת סיוע.</string>
-    <string name="common_google_play_services_unsupported_text">‏האפליקציה %1$s תלויה בשירותי Google Play, שאינם נתמכים במכשיר שלך. צור קשר עם היצרן לקבלת סיוע.</string>
+    <string name="common_google_play_services_unknown_issue">‏בעיה לא ידועה בשירותי Google Play.</string>
+    <string name="common_google_play_services_unsupported_text">‏%1$s מתבסס על שירותי Google Play, שאינם נתמכים במכשיר שלך. צור קשר עם היצרן לקבלת סיוע.</string>
     <string name="common_google_play_services_unsupported_title">‏שירותי Google Play</string>
     <string name="common_google_play_services_update_button">עדכן</string>
-    <string name="common_google_play_services_update_text">‏האפליקציה %1$s לא תפעל אם לא תעדכן את שירותי Google Play.</string>
+    <string name="common_google_play_services_update_text">‏%1$s לא יפעל אם לא תעדכן את שירותי Google Play.</string>
     <string name="common_google_play_services_update_title">‏עדכון שירותי Google Play</string>
-    <string name="common_google_play_services_updating_text">‏האפליקציה %1$s לא תפעל ללא שירותי Google Play, שמתעדכנים כרגע.</string>
+    <string name="common_google_play_services_updating_text">‏%1$s לא יפעל ללא שירותי Google Play, שמתעדכנים כרגע.</string>
     <string name="common_google_play_services_updating_title">‏שירותי Google Play מתעדכנים</string>
-    <string name="common_google_play_services_wear_update_text">‏דרושה גרסה חדשה של שירותי Google Play. הגרסה תתעדכן בעצמה תוך זמן קצר.</string>
     <string name="common_open_on_phone">פתח בטלפון</string>
-    <string name="common_signin_button_text">היכנס</string>
-    <string name="common_signin_button_text_long">‏היכנס באמצעות Google</string>
-    <string name="contact_sharing_commenter">יכול/ה להגיב</string>
-    <string name="contact_sharing_no_access">ללא גישה</string>
-    <string name="contact_sharing_reader">יכול/ה להציג</string>
-    <string name="contact_sharing_td_organizer">ללא הגבלות</string>
-    <string name="contact_sharing_td_remove">הסר</string>
-    <string name="contact_sharing_td_writer">יכול/ה לערוך ולהעלות</string>
-    <string name="contact_sharing_writer">יכול/ה לערוך</string>
-    <string name="contact_sharing_writer_folder">יכול/ה לארגן, להוסיף ולערוך</string>
-    <string name="contacts">אנשי קשר</string>
-    <string name="contacts_footer_text">"‏סונכרן עם 'אנשי קשר מחשבון Google'"</string>
-    <string name="contacts_message">"‏אנשי קשר מסונכרנים בכל המכשירים באמצעות 'אנשי קשר מחשבון Google'."</string>
+    <string name="contact_sharing_commenter">יכול להגיב</string>
+    <string name="contact_sharing_no_access">אין גישה</string>
+    <string name="contact_sharing_reader">יכול להציג</string>
+    <string name="contact_sharing_writer">יכול לערוך</string>
+    <string name="contact_sharing_writer_folder">יכול לארגן, להוסיף ולערוך</string>
     <string name="convert_conversion_failed">מצטערים, לא ניתן היה לעבד את המסמך שלך. בדוק את חיבור הרשת ונסה שוב.</string>
     <string name="convert_document_too_big">מצטערים, המסמך שלך גדול מדי ולא ניתן לעבד אותו.</string>
     <string name="convert_loading_document_failed">מצטערים, לא ניתן לעבד את המסמך שלך.</string>
@@ -246,7 +230,6 @@
     <string name="create_new_error_presentation">שגיאה ביצירת מצגת</string>
     <string name="create_new_error_read_only_folder">אין לך הרשאה להוסיף פריטים לתיקיה הזו.</string>
     <string name="create_new_error_spreadsheet">שגיאה ביצירת גיליון אלקטרוני</string>
-    <string name="create_new_error_team_drive">שגיאה ביצירת אחסון קבוצתי</string>
     <string name="create_new_folder">תיקיה</string>
     <string name="create_new_from_scan">סריקה</string>
     <string name="create_new_ocr_doc">מסמך מתמונה</string>
@@ -255,7 +238,6 @@
     <string name="create_new_offline_error_folder">התחבר לאינטרנט כדי ליצור תיקיה חדשה</string>
     <string name="create_new_offline_error_presentation">התחבר לאינטרנט כדי ליצור מצגת חדשה</string>
     <string name="create_new_offline_error_spreadsheet">התחבר לאינטרנט כדי ליצור גיליון אלקטרוני חדש</string>
-    <string name="create_new_offline_error_team_drive">התחבר לאינטרנט כדי ליצור אחסון קבוצתי חדש</string>
     <string name="create_shortcut_label">‏קיצור דרך אל Drive</string>
     <string name="create_shortcut_title">צור קיצור דרך אל...</string>
     <string name="created_folder">נוצרה התיקיה %1$s</string>
@@ -264,35 +246,16 @@
     <string name="creating_folder">יוצר תיקיה...</string>
     <string name="creating_presentation">יוצר מצגת...</string>
     <string name="creating_spreadsheet">יוצר גיליון אלקטרוני...</string>
-    <string name="creating_team_drive">יוצר אחסון קבוצתי...</string>
     <string name="cross_app_promo_dismiss_button_text">סגור</string>
     <string name="cross_app_promo_install_button_text">התקנה</string>
     <string name="cross_app_promo_view_only_button_text">תצוגה בלבד</string>
-    <string name="current_device">המכשיר הזה</string>
     <string name="decrypting_progress_message">מפענח %1$s</string>
     <string name="default_new_drawing_title">שרטוט ללא שם</string>
     <string name="default_new_folder_title">תיקיה ללא שם</string>
     <string name="default_new_kix_title">מסמך ללא שם</string>
     <string name="default_new_punch_title">מצגת ללא שם</string>
-    <string name="default_new_team_drive_title">שם האחסון הקבוצתי</string>
     <string name="default_new_trix_title">גיליון אלקטרוני ללא שם</string>
     <string name="default_scope_contact_name">כולם</string>
-    <string name="delete_backup">מחק גיבוי</string>
-    <string name="delete_backup_confirm_button">מחק</string>
-    <string name="delete_backup_progress_message">מוחק גיבוי</string>
-    <string name="delete_device_backup_confirmation_message">"נתוני הגיבוי של המכשיר הזה יימחקו לצמיתות.
-
-אם הגיבוי של %s עדיין מופעל, ייווצרו נתוני גיבוי חדשים."</string>
-    <string name="delete_device_backup_title">"למחוק את הגיבוי של '%s'?"</string>
-    <string name="delete_multiple_backup_error_message">לא ניתן למחוק חלק מהגיבויים.</string>
-    <string name="delete_single_backup_error_message">לא ניתן למחוק את הגיבוי.</string>
-    <string name="delete_whatsapp_backup_after_turnoff_confirmation_message">"‏האם ברצונך למחוק לצמיתות את הגיבוי של צ'אטים ומדיה מ-WhatsApp במספרי הטלפון הבאים:
-
-%s"</string>
-    <string name="delete_whatsapp_backup_confirmation_message">"‏הגיבוי של צ'אטים ומדיה מ-WhatsApp יימחק לצמיתות במספר הטלפון %s.
-
-אם הגיבוי עדיין מופעל במספר הזה, ייווצרו נתוני גיבוי חדשים."</string>
-    <string name="delete_whatsapp_backup_title">‏למחוק את הגיבוי של WhatsApp?</string>
     <string name="desc_album_art">עטיפת אלבום</string>
     <string name="desc_audio_forward">העבר 30 שניות קדימה</string>
     <string name="desc_audio_next">הבא</string>
@@ -324,17 +287,16 @@
     <string name="desc_promo_page">‏שכבת-על לטיפ: שמור קובצי PDF ב-Google Drive</string>
     <string name="desc_selection_start">התחלת בחירה</string>
     <string name="desc_selection_stop">סיום בחירה</string>
-    <string name="desc_video_player">נגן סרטונים</string>
     <string name="desc_web_link">קישור: %1$s</string>
     <string name="desc_web_link_shortened_to_domain">קישור: דף אינטרנט ב-%1$s</string>
     <string name="desc_zoom">שנה את מרחק התצוגה ב-%1$d אחוזים</string>
     <string name="description_icon_stale_items">יש לך פריטים מיושנים.</string>
-    <string name="detail_fragment_title">מציג מאפייני פריט עבור %1$s</string>
+    <string name="detail_fragment_title">מציג מאפייני פריט עבור %s</string>
     <string name="detail_preview_created_time">תאריך יצירה</string>
-    <string name="detail_preview_date_performed_by">%1$s על ידי %2$s</string>
+    <string name="detail_preview_date_performed_by" formatted="false">%s על ידי %s</string>
     <string name="detail_preview_folder_location">מיקום</string>
     <string name="detail_preview_folder_restore_location">הוסר מ:</string>
-    <string name="detail_preview_google_files_free">קובצי %1$s אינם נכללים במכסת האחסון</string>
+    <string name="detail_preview_google_files_free">קובצי %s אינם נכללים במכסת האחסון</string>
     <string name="detail_preview_information_content_description">מידע</string>
     <string name="detail_preview_kind">סוג</string>
     <string name="detail_preview_last_modified_date">תאריך שינוי אחרון</string>
@@ -343,15 +305,12 @@
     <string name="detail_preview_quota">שטח אחסון מנוצל</string>
     <string name="detail_preview_size">גודל</string>
     <string name="device_offline">אין חיבור</string>
-    <string name="device_settings">הגדרות מכשיר</string>
-    <string name="device_settings_message">‏הגיבוי כולל את תצורת המכשיר, כגון טפט, סיסמאות Wi-Fi ואפליקציות המוגדרות כברירת מחדל.</string>
     <string name="dialog_confirm_expiration">האם להסיר את התפוגה?</string>
     <string name="dialog_confirm_expiration_button">הסר תפוגה</string>
     <string name="dialog_confirm_expiration_message">"הגישה של המשתמש הזה הוגדרה בעבר עם הגבלת זמן.
 
 אם תשנה את התפקיד שלו, תהיה לו גישה ללא הגבלת זמן."</string>
     <string name="dialog_confirm_sharing">אשר שיתוף</string>
-    <string name="dialog_confirm_sharing_button">שתף</string>
     <string name="dialog_confirm_sharing_message">%1$s נמצא מחוץ לדומיין של הפריט. האם אתה בטוח שברצונך לשתף איתו?</string>
     <string name="dialog_confirm_sharing_message_multiple">%1$d אנשי קשר נמצאים מחוץ לדומיין של הפריט. האם אתה בטוח שברצונך לשתף איתם?</string>
     <string name="dialog_contact_sharing">הגדרות שיתוף של משתמש</string>
@@ -385,8 +344,6 @@
     <string name="doclist_sortby_relevance">רלוונטיות</string>
     <string name="doclist_sortby_shared_title">תאריך שיתוף</string>
     <string name="doclist_starred_state">מסומן בכוכב</string>
-    <string name="doclist_team_drive_state">אחסון קבוצתי</string>
-    <string name="doclist_unified_actions_more_actions_button">פעולות נוספות</string>
     <string name="document_deleted_error_dialog_message">"המסמך שאתה מנסה לפתוח נמחק. כדי למחוק את קיצור הדרך: הקש והחזק את קיצור הדרך וגרור אותו לסמל 'הסר' שבחלק העליון של המסך."</string>
     <string name="document_deleted_error_dialog_title">המסמך הזה נמחק</string>
     <string name="document_preparing_to_open_progress">מכין לפתיחה…</string>
@@ -514,12 +471,10 @@
 
 חשוב! לאחר שליחת המשוב, הקפד לנקות את הקובץ השמור של היישום (הגדרות -> יישומים -> Drive -> נקה קובץ שמור), כדי שהנתונים שהושלכו לא יהיו נגישים ליישומים זדוניים אחרים. האם אתה בטוח שברצונך להמשיך?"</string>
     <string name="dump_database_dialog_title">משוב בבדיקת מוצר לפני הפצה. עזור לשפר את היישום</string>
-    <string name="empty_backup_content">גיבויים של המכשיר ונתוני אפליקציות מוצגים כאן</string>
-    <string name="empty_backup_title">אין גיבויים</string>
     <string name="empty_doclist">אין פריטים.</string>
     <string name="empty_doclist_for_devices_view">לא נמצאו תיקיות במכשירים.</string>
     <string name="empty_doclist_for_devices_view_details">‏כדי ליצור תיקיות במכשירים, התקן את הגירסה האחרונה של Drive במחשב והגדר סנכרון של התיקיות המקומיות.</string>
-    <string name="empty_doclist_for_google_photos_view">‏תמונות Google שלך יופיעו כאן.</string>
+    <string name="empty_doclist_for_google_photos_view">‏אלבומי Google שלך יופיעו כאן.</string>
     <string name="empty_doclist_for_my_drive_view">"‏ברוך הבא! ה-Drive שלך מוכן.
 נסה להעלות קובץ."</string>
     <string name="empty_doclist_for_my_drive_view_details">‏היכנס לכתובת http://drive.google.com כדי לגשת לקבצים שלך דרך האינטרנט.</string>
@@ -529,15 +484,14 @@
     <string name="empty_doclist_for_search_view">אין תוצאות.</string>
     <string name="empty_doclist_for_shared_with_me_view">קבצים שמשותפים איתך יופיעו כאן.</string>
     <string name="empty_doclist_for_starred_view">אין לך קבצים שמסומנים בכוכב.</string>
-    <string name="empty_doclist_for_starred_view_details">הקש על סמל הכוכב בתפריט האפשרויות של הקובץ כדי להוסיף אותו לרשימה הזו.</string>
+    <string name="empty_doclist_for_starred_view_details">הקש על סמל הכוכב בחלונית הפרטים כדי להוסיף את הקובץ לרשימה הזו.</string>
+    <string name="empty_doclist_for_uploads_view">אין העלאות שבוצעו לאחרונה.</string>
+    <string name="empty_doclist_for_uploads_view_details">נהל את ההעלאות הפעילות שלך והצג קבצים שהעלית לאחרונה מהמכשיר הזה.</string>
     <string name="empty_recent_doclist_message_subtitle">כל פריט שאתה יוצר או עורך יופיע כאן. לחץ על סימן החיבור (+) כדי ליצור שרטוט חדש.</string>
     <string name="empty_recent_doclist_message_title">‏ברוכים הבאים אל Google Docs!</string>
     <string name="empty_sharing_list">פרטי השיתוף אינם זמינים</string>
-    <string name="empty_team_drives_doclist">האחסון הקבוצתי שלך ריק. כדי להתחיל, הוסף קבצים ואנשים.</string>
     <string name="enable_backup">הפעלת גיבוי הנתונים שלי</string>
     <string name="enter_new_name">הזן שם חדש:</string>
-    <string name="entity_backup_time">תאריך הגיבוי האחרון: %s</string>
-    <string name="entity_item_more_action_button">פעולות נוספות</string>
     <string name="error_access_denied_html">לא ניתן לגשת למסמך. &lt;br> הסיבה: הגישה למסמך נדחתה. &lt;br>&lt;br> ודא שיש לך הרשאה להציג את המסמך הזה ונסה שוב.</string>
     <string name="error_app_intent">יישום אחר לא יכול לטפל בקובץ הזה ( %1$s)</string>
     <string name="error_app_open">אירעה שגיאה בפתיחת קובץ</string>
@@ -572,8 +526,6 @@
     <string name="error_ssl_generic_template">"‏שגיאת SSL (קוד %1$d) בעת התחברות אל '%2$s'."</string>
     <string name="error_ssl_idmismatch_template">"‏שגיאת SSL (קוד %1$d) בעת התחברות אל '%2$s': אי-התאמה בשם המארח."</string>
     <string name="error_ssl_validity_template">"‏שגיאת SSL (קוד %1$d) בעת התחברות אל '%2$s': פג תוקפו של האישור או שהוא עדיין לא תקף; האם הגדרת התאריך במכשיר הזה מדויקת?"</string>
-    <string name="error_start_client">לא ניתן לטעון עוד קבצים מ- %1$s</string>
-    <string name="error_title">שגיאה</string>
     <string name="error_video_not_available">עיבוד הסרטון נכשל. נסה שוב מאוחר יותר.</string>
     <string name="expires_future">יפוג בעוד %1$s</string>
     <string name="expires_today">פג היום</string>
@@ -619,7 +571,7 @@
     <string name="folder_color_cyan_200">איסלנד</string>
     <string name="folder_color_cyan_500">בקע הקאריביים</string>
     <string name="folder_color_deep_orange_500">קלמנטינה</string>
-    <string name="folder_color_default">ברירת מחדל</string>
+    <string name="folder_color_default">עכבר</string>
     <string name="folder_color_google_blue_500">שמיים כחולים</string>
     <string name="folder_color_google_green_400">מרווה</string>
     <string name="folder_color_google_green_500">בזיליקום</string>
@@ -631,27 +583,22 @@
     <string name="folder_color_lime_500">ירוק אצות</string>
     <string name="folder_color_orange_200">פלומת אפרסק</string>
     <string name="folder_color_orange_500">כתום</string>
-    <string name="folder_color_orange_600">מונית צהובה</string>
     <string name="folder_color_pink_200">ורוד חזרזיר</string>
     <string name="folder_color_pink_300">פלמינגו</string>
     <string name="folder_color_pink_500">פטל</string>
     <string name="folder_color_purple_100">בית בובות</string>
-    <string name="folder_color_purple_200">דינוזאור</string>
     <string name="folder_color_purple_300">פוקסיה</string>
-    <string name="folder_color_purple_400">חציל</string>
     <string name="folder_color_teal_100">חדר המתנה</string>
     <string name="gallery_select_error">שגיאה בבחירת תמונה להעלאה.</string>
     <string name="getting_authentication_information">פותח מסמך</string>
     <string name="gf_feedback">משוב</string>
+    <string name="give_access_failed">נכשל הניסיון להעניק גישה ל-%1$s</string>
+    <string name="give_access_failed_offline">לא ניתן להעניק גישה במצב לא מקוון</string>
+    <string name="give_access_success">הענק גישה ל-%1$s</string>
+    <string name="giving_access">מעניק גישה ל-%1$s</string>
     <string name="google_account_missing">‏לא נמצאו חשבונות Google, יוצא מהיישום</string>
     <string name="google_account_needed">‏עליך להגדיר חשבון Google אחד לפחות לפני שתוכל להשתמש ביישום הזה.</string>
-    <string name="google_docs_long">Google Docs</string>
-    <string name="google_docs_short">Docs</string>
     <string name="google_drive">Google Drive</string>
-    <string name="google_sheets_long">Google Sheets</string>
-    <string name="google_sheets_short">Sheets</string>
-    <string name="google_slides_long">Google Slides</string>
-    <string name="google_slides_short">Slides</string>
     <string name="grid_sync_download_label_format">"מוריד
 %1$s / %2$s"</string>
     <string name="grid_sync_upload_label_format">"מעלה
@@ -688,35 +635,24 @@
     <string name="label_password_incorrect">סיסמה שגויה</string>
     <string name="label_zoom">מ. %%1$d</string>
     <string name="launch_drive">‏הפעל את Drive כדי להביא קבצים נוספים.</string>
-    <string name="launcher_scan_short">סרוק</string>
-    <string name="launcher_search_short">חיפוש</string>
-    <string name="launcher_upload_short">העלה</string>
-    <string name="learn_more">למידע נוסף</string>
-    <string name="libraries_material_featurehighlight_dismiss">סגור</string>
     <string name="linksharing_saved">הגדרות השיתוף נשמרו</string>
     <string name="loading">טוען…</string>
     <string name="loading_document">טוען מסמך</string>
     <string name="loading_for_printing">טוען מסמך</string>
     <string name="loading_printers">טוען מדפסות...</string>
     <string name="location_entry_content_description">מיקום %1$s. הקש פעמיים כדי לפתוח.</string>
-    <string name="location_entry_content_description_unclickable">מיקום: %1$s.</string>
-    <string name="location_removed_entry_content_description">הוסר מהתיקיה %1$s. הקש פעמיים כדי לפתוח.</string>
-    <string name="location_removed_entry_content_description_unclickable">הוסר מהתיקיה %1$s.</string>
     <string name="manage_accounts">נהל חשבונות</string>
-    <string name="manage_backup">ניהול הגיבויים</string>
+    <string name="manage_backup">ניהול גיבוי</string>
+    <string name="manage_backup_page_title">ניהול גיבויים</string>
     <string name="manage_backup_summary">רשימת יישומים שנכללים בגיבוי</string>
-    <string name="manage_members_default_members">כברירת מחדל, חברים יכולים לערוך חברים אחרים, לארגן אותם ולהוסיף חברים חדשים</string>
-    <string name="manage_members_dialog_title">חברים ב-%s</string>
     <string name="manifest_app_pdfviewer">Google PDF Viewer</string>
     <string name="manifest_app_projector">Projector</string>
     <string name="manifest_intent_view_pdf">PDF Viewer</string>
     <string name="manifest_intent_view_pdf_drive">Drive PDF Viewer</string>
     <string name="media_player_error">אירעה שגיאת הפעלה</string>
     <string name="menu_account_settings">הגדרות חשבון</string>
-    <string name="menu_add_members">הוסף חברים</string>
-    <string name="menu_backup">גיבויים</string>
     <string name="menu_create_new_doc">הוסף חדש</string>
-    <string name="menu_create_shortcut">הוספה למסך דף הבית</string>
+    <string name="menu_create_shortcut">הוסף למסך דף הבית</string>
     <string name="menu_delete">הסרה</string>
     <string name="menu_doc_view_grid_mode">הצג כרשת</string>
     <string name="menu_doc_view_list_mode">הצג כרשימה</string>
@@ -728,13 +664,10 @@
     <string name="menu_empty_trash_too_many_items">קיימים פריטים רבים מדי באשפה וחלק מהם לא הוסרו.</string>
     <string name="menu_filter_by">סינון לפי</string>
     <string name="menu_full_screen">עבור למסך מלא</string>
-    <string name="menu_google_photos">‏תמונות Google</string>
+    <string name="menu_google_photos">‏אלבומי Google</string>
     <string name="menu_help">עזרה</string>
     <string name="menu_help_and_feedback">עזרה ומשוב</string>
-    <string name="menu_item_manage_members">ניהול חברים</string>
-    <string name="menu_item_use_advanced_permission">שימוש בהרשאה מתקדמת</string>
     <string name="menu_learn_more">למידע נוסף</string>
-    <string name="menu_manage_members">נהל חברים</string>
     <string name="menu_move_to">העבר</string>
     <string name="menu_my_drive">האחסון שלי</string>
     <string name="menu_navigation_devices">מכשירים</string>
@@ -770,6 +703,7 @@
     <string name="menu_show_team_drives">אחסונים קבוצתיים</string>
     <string name="menu_show_trash">אשפה</string>
     <string name="menu_show_trix">גיליונות אלקטרוניים</string>
+    <string name="menu_show_upload">העלאות</string>
     <string name="menu_sort_by">מיון לפי</string>
     <string name="menu_sort_creation_time">תאריך יצירה</string>
     <string name="menu_sort_direction">כיוון המיון</string>
@@ -783,36 +717,17 @@
     <string name="menu_trash_delete_forever">מחיקה</string>
     <string name="menu_trash_restore">שחזור</string>
     <string name="menu_unpin">הסר מהמכשיר</string>
-    <string name="menu_view_members">הצגת חברים</string>
     <string name="message_downloaded_file">בוצעה הורדה של %1$s</string>
     <string name="message_match_status">%1$d מתוך %2$d</string>
     <string name="message_no_matches_found">לא נמצאו התאמות.</string>
-    <string name="more_actions_content_description">פעולות נוספות</string>
-    <string name="more_info">מידע נוסף</string>
     <string name="more_string">+%1$d</string>
     <string name="move">העברה</string>
-    <string name="move_confirm_dialog_message_cannot_undo">יש לך הרשאה רק להוסיף ולערוך פריטים בתיקייה \"%1$s\", ולא תוכל לבטל את הפעולה הזו.</string>
-    <string name="move_confirm_dialog_message_lose_access_shared_folders">אתה מעביר מספר פריטים מתיקיות משותפות, והגישה המשותפת לפריטים האלה תאבד.</string>
-    <string name="move_confirm_dialog_message_lose_access_team_drives">אתה מעביר מספר פריטים מאחסונים קבוצתיים, והגישה המשותפת לפריטים האלה תאבד.</string>
-    <string name="move_confirm_dialog_message_lose_access_team_drives_and_shared_folders">אתה מעביר מספר פריטים מאחסונים קבוצתיים ומתיקיות משותפות, והגישה המשותפת לפריטים האלה תאבד.</string>
     <string name="move_confirm_dialog_title">אשר העברה</string>
-    <string name="move_confirm_dialog_title_cannot_undo">לא תוכל לבטל את הפעולה הזו</string>
-    <string name="move_confirm_dialog_title_lose_access">הגישה המשותפת תאבד</string>
-    <string name="move_confirm_dialog_title_lose_access_single_td">לאחסון הקבוצתי \"%1$s\" לא תהיה יותר גישה</string>
     <string name="move_confirm_dialog_title_unshare">האם להעביר מהתיקיה המשותפת?</string>
     <string name="move_dialog_title">בחר תיקיית יעד</string>
-    <string name="move_error_cannot_move_in_folders">עדיין לא ניתן להעביר תיקיות לאחסונים קבוצתיים.</string>
-    <string name="move_error_cannot_move_out_folders">עדיין לא ניתן להוציא תיקיות מאחסונים קבוצתיים.</string>
-    <string name="move_error_no_permission_dest">אין לך הרשאה להעביר פריטים אל \"%1$s\"</string>
     <string name="move_error_read_only_folder">אין לך הרשאה להעביר פריטים לתיקיה הזו.</string>
-    <string name="move_error_target_folder_not_exist">תיקיית היעד אינה קיימת.</string>
-    <string name="move_error_team_drive_items_not_supported_yet">עדיין לא ניתן להעביר לאחסונים קבוצתיים.</string>
     <string name="move_multi_parent_file">‏אתה מנסה לארגן קובץ שנמצא בתיקיות מרובות. עבור אל Drive במחשב שלך כדי לארגן את הקובץ הזה.</string>
     <string name="move_multi_parent_folder">‏אתה מנסה לארגן תיקיה שנמצאת בתיקיות מרובות. עבור אל Drive במחשב שלך כדי לארגן את התיקיה הזו.</string>
-    <string name="move_notice_lost_access_shared_folders">פריטים הועברו מתיקיות משותפות והגישה המשותפת אליהם אבדה.</string>
-    <string name="move_notice_lost_access_team_drive_single">%1$s לאחסון הקבוצתי \"%2$s\" אין יותר גישה.</string>
-    <string name="move_notice_lost_access_team_drives">פריטים הועברו מאחסונים קבוצתיים והגישה המשותפת אליהם אבדה.</string>
-    <string name="move_notice_lost_access_team_drives_and_shared_folders">פריטים הועברו מאחסונים קבוצתיים ומתיקיות משותפות והגישה המשותפת אליהם אבדה.</string>
     <string name="move_shared_to_shared">"העברת %1$s מהתיקיה המשותפת %2$s תסיר את הגישה של כל שותפי העריכה.
 
 הפריט ישותף בתיקיה %3$s."</string>
@@ -832,14 +747,10 @@
     <string name="new_folder_title">תיקיה חדשה</string>
     <string name="new_kix_title">שם מסמך</string>
     <string name="new_punch_title">שם מצגת</string>
-    <string name="new_team_drive_title">אחסון קבוצתי חדש</string>
     <string name="new_trix_title">שם גיליון אלקטרוני</string>
     <string name="no_account_for_upload_message">‏כדי להעלות אל Drive, היכנס לחשבון Google קיים או צור חשבון חדש.</string>
     <string name="no_account_for_upload_setup_account">הגדרת חשבון</string>
     <string name="no_account_for_upload_title">‏העלאה אל Drive</string>
-    <string name="no_backup_help_card_button">הגדרות גיבוי</string>
-    <string name="no_backup_help_card_content">הפעל את הגיבוי האוטומטי כדי שתוכל לשחזר את התכנים שלך או להשתמש בהם בטלפון חדש.</string>
-    <string name="no_backup_help_card_title">אין גיבוי למכשיר הזה</string>
     <string name="notification_extra_text_is_too_long">לא ניתן להעלות. הטקסט ארוך מדי.</string>
     <string name="notification_feedback">משוב</string>
     <string name="notification_help_card_content">‏כעת תקבל הודעה מ-Drive לגבי קבצים ששותפו איתך, בקשות גישה שהתקבלו לקובץ ואירועים חשובים אחרים.</string>
@@ -848,6 +759,7 @@
     <string name="notification_home_empty_title">אין הודעות אחרונות</string>
     <string name="notification_home_read">נקראו</string>
     <string name="notification_home_unread">לא נקראו</string>
+    <string name="notification_message">הודעה: %1$s</string>
     <string name="notification_setting_access_request_title">הודעות לגבי בקשות גישה</string>
     <string name="notification_setting_comment_title">הודעות לגבי תגובות</string>
     <string name="notification_setting_keep_on">שמור ב:</string>
@@ -871,44 +783,36 @@
     <string name="notify_access_request_description_num_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_ITEMS_1,plural, =1{}two{ביקשה גישה אל {NUM_ITEMS_2} פריטים}many{ביקשה גישה אל {NUM_ITEMS_2} פריטים}other{ביקשה גישה אל {NUM_ITEMS_2} פריטים}}}male{{NUM_ITEMS_1,plural, =1{}two{ביקש גישה אל {NUM_ITEMS_2} פריטים}many{ביקש גישה אל {NUM_ITEMS_2} פריטים}other{ביקש גישה אל {NUM_ITEMS_2} פריטים}}}other{{NUM_ITEMS_1,plural, =1{}two{ביקש גישה אל {NUM_ITEMS_2} פריטים}many{ביקש גישה אל {NUM_ITEMS_2} פריטים}other{ביקש גישה אל {NUM_ITEMS_2} פריטים}}}}}male{{SENDER_GENDER,select, female{{NUM_ITEMS_1,plural, =1{}two{ביקשה גישה אל {NUM_ITEMS_2} פריטים}many{ביקשה גישה אל {NUM_ITEMS_2} פריטים}other{ביקשה גישה אל {NUM_ITEMS_2} פריטים}}}male{{NUM_ITEMS_1,plural, =1{}two{ביקש גישה אל {NUM_ITEMS_2} פריטים}many{ביקש גישה אל {NUM_ITEMS_2} פריטים}other{ביקש גישה אל {NUM_ITEMS_2} פריטים}}}other{{NUM_ITEMS_1,plural, =1{}two{ביקש גישה אל {NUM_ITEMS_2} פריטים}many{ביקש גישה אל {NUM_ITEMS_2} פריטים}other{ביקש גישה אל {NUM_ITEMS_2} פריטים}}}}}other{{SENDER_GENDER,select, female{{NUM_ITEMS_1,plural, =1{}two{ביקשה גישה אל {NUM_ITEMS_2} פריטים}many{ביקשה גישה אל {NUM_ITEMS_2} פריטים}other{ביקשה גישה אל {NUM_ITEMS_2} פריטים}}}male{{NUM_ITEMS_1,plural, =1{}two{ביקש גישה אל {NUM_ITEMS_2} פריטים}many{ביקש גישה אל {NUM_ITEMS_2} פריטים}other{ביקש גישה אל {NUM_ITEMS_2} פריטים}}}other{{NUM_ITEMS_1,plural, =1{}two{ביקש גישה אל {NUM_ITEMS_2} פריטים}many{ביקש גישה אל {NUM_ITEMS_2} פריטים}other{ביקש גישה אל {NUM_ITEMS_2} פריטים}}}}}}</string>
     <string name="notify_comment_text_quoted">“%1$s”</string>
     <string name="notify_comment_text_suggestion_with_content_type">%1$s: %2$s</string>
-    <string name="notify_comment_text_with_content_type">%1$s: “%2$s”</string>
+    <string name="notify_comment_text_with_content_type">%1$s “%2$s”</string>
     <string name="notify_comments_description_many_comments_many_users_icu">{RECIPIENT_GENDER,select, female{99 תגובות או יותר על ‘{ITEM_TITLE}‘}male{99 תגובות או יותר על ‘{ITEM_TITLE}‘}other{99 תגובות או יותר על ‘{ITEM_TITLE}‘}}</string>
     <string name="notify_comments_description_many_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{99 תגובות או יותר על ‘{ITEM_TITLE}‘}male{99 תגובות או יותר על ‘{ITEM_TITLE}‘}other{99 תגובות או יותר על ‘{ITEM_TITLE}‘}}}male{{SENDER_GENDER,select, female{99 תגובות או יותר על ‘{ITEM_TITLE}‘}male{99 תגובות או יותר על ‘{ITEM_TITLE}‘}other{99 תגובות או יותר על ‘{ITEM_TITLE}‘}}}other{{SENDER_GENDER,select, female{99 תגובות או יותר על ‘{ITEM_TITLE}‘}male{99 תגובות או יותר על ‘{ITEM_TITLE}‘}other{99 תגובות או יותר על ‘{ITEM_TITLE}‘}}}}</string>
+    <string name="notify_comments_description_many_items_many_users_icu">{RECIPIENT_GENDER,select, female{99 תגובות והצעות או יותר בפריט ‘{ITEM_TITLE}‘}male{99 תגובות והצעות או יותר בפריט ‘{ITEM_TITLE}‘}other{99 תגובות והצעות או יותר בפריט ‘{ITEM_TITLE}‘}}</string>
+    <string name="notify_comments_description_many_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{99 תגובות והצעות או יותר בפריט ‘{ITEM_TITLE}‘}male{99 תגובות והצעות או יותר בפריט ‘{ITEM_TITLE}‘}other{99 תגובות והצעות או יותר בפריט ‘{ITEM_TITLE}‘}}}male{{SENDER_GENDER,select, female{99 תגובות והצעות או יותר בפריט ‘{ITEM_TITLE}‘}male{99 תגובות והצעות או יותר בפריט ‘{ITEM_TITLE}‘}other{99 תגובות והצעות או יותר בפריט ‘{ITEM_TITLE}‘}}}other{{SENDER_GENDER,select, female{99 תגובות והצעות או יותר בפריט ‘{ITEM_TITLE}‘}male{99 תגובות והצעות או יותר בפריט ‘{ITEM_TITLE}‘}other{99 תגובות והצעות או יותר בפריט ‘{ITEM_TITLE}‘}}}}</string>
     <string name="notify_comments_description_many_suggestions_many_users_icu">{RECIPIENT_GENDER,select, female{99 הצעות או יותר בפריט ‘{ITEM_TITLE}‘}male{99 הצעות או יותר בפריט ‘{ITEM_TITLE}‘}other{99 הצעות או יותר בפריט ‘{ITEM_TITLE}‘}}</string>
     <string name="notify_comments_description_many_suggestions_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{99 הצעות או יותר בפריט ‘{ITEM_TITLE}‘}male{99 הצעות או יותר בפריט ‘{ITEM_TITLE}‘}other{99 הצעות או יותר בפריט ‘{ITEM_TITLE}‘}}}male{{SENDER_GENDER,select, female{99 הצעות או יותר בפריט ‘{ITEM_TITLE}‘}male{99 הצעות או יותר בפריט ‘{ITEM_TITLE}‘}other{99 הצעות או יותר בפריט ‘{ITEM_TITLE}‘}}}other{{SENDER_GENDER,select, female{99 הצעות או יותר בפריט ‘{ITEM_TITLE}‘}male{99 הצעות או יותר בפריט ‘{ITEM_TITLE}‘}other{99 הצעות או יותר בפריט ‘{ITEM_TITLE}‘}}}}</string>
-    <string name="notify_comments_description_many_todos_many_users_icu">{RECIPIENT_GENDER,select, female{99 פריטי פעולה או יותר לפריט ‘{ITEM_TITLE}’}male{99 פריטי פעולה או יותר לפריט ‘{ITEM_TITLE}’}other{99 פריטי פעולה או יותר לפריט ‘{ITEM_TITLE}’}}</string>
-    <string name="notify_comments_description_many_todos_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{99 פריטי פעולה או יותר לפריט ‘{ITEM_TITLE}’}male{99 פריטי פעולה או יותר לפריט ‘{ITEM_TITLE}’}other{99 פריטי פעולה או יותר לפריט ‘{ITEM_TITLE}’}}}male{{SENDER_GENDER,select, female{99 פריטי פעולה או יותר לפריט ‘{ITEM_TITLE}’}male{99 פריטי פעולה או יותר לפריט ‘{ITEM_TITLE}’}other{99 פריטי פעולה או יותר לפריט ‘{ITEM_TITLE}’}}}other{{SENDER_GENDER,select, female{99 פריטי פעולה או יותר לפריט ‘{ITEM_TITLE}’}male{99 פריטי פעולה או יותר לפריט ‘{ITEM_TITLE}’}other{99 פריטי פעולה או יותר לפריט ‘{ITEM_TITLE}’}}}}</string>
-    <string name="notify_comments_description_num_comments_many_users_icu">{RECIPIENT_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}two{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}many{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}}}male{{TOTAL_ITEMS_1,plural, =1{}two{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}many{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}}}other{{TOTAL_ITEMS_1,plural, =1{}two{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}many{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}}}}</string>
-    <string name="notify_comments_description_num_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}two{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}many{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}}}male{{TOTAL_ITEMS_1,plural, =1{}two{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}many{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}}}other{{TOTAL_ITEMS_1,plural, =1{}two{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}many{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}}}}}male{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}two{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}many{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}}}male{{TOTAL_ITEMS_1,plural, =1{}two{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}many{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}}}other{{TOTAL_ITEMS_1,plural, =1{}two{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}many{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}}}}}other{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}two{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}many{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}}}male{{TOTAL_ITEMS_1,plural, =1{}two{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}many{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}}}other{{TOTAL_ITEMS_1,plural, =1{}two{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}many{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}other{{TOTAL_ITEMS_2} תגובות על ‘{ITEM_TITLE}’}}}}}}</string>
+    <string name="notify_comments_description_num_comments_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}two{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}many{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}other{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}}}male{{NUM_COMMENTS_1,plural, =1{}two{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}many{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}other{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}}}other{{NUM_COMMENTS_1,plural, =1{}two{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}many{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}other{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}}}}</string>
+    <string name="notify_comments_description_num_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}two{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}many{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}other{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}}}male{{NUM_COMMENTS_1,plural, =1{}two{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}many{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}other{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}}}other{{NUM_COMMENTS_1,plural, =1{}two{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}many{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}other{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}}}}}male{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}two{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}many{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}other{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}}}male{{NUM_COMMENTS_1,plural, =1{}two{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}many{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}other{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}}}other{{NUM_COMMENTS_1,plural, =1{}two{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}many{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}other{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}}}}}other{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}two{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}many{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}other{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}}}male{{NUM_COMMENTS_1,plural, =1{}two{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}many{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}other{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}}}other{{NUM_COMMENTS_1,plural, =1{}two{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}many{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}other{{NUM_COMMENTS_2} תגובות על ‘{ITEM_TITLE}’}}}}}}</string>
+    <string name="notify_comments_description_num_items_many_users_icu">{RECIPIENT_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}two{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}many{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}other{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}}}male{{TOTAL_ITEMS_1,plural, =1{}two{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}many{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}other{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}}}other{{TOTAL_ITEMS_1,plural, =1{}two{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}many{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}other{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}}}}</string>
+    <string name="notify_comments_description_num_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}two{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}many{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}other{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}}}male{{TOTAL_ITEMS_1,plural, =1{}two{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}many{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}other{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}}}other{{TOTAL_ITEMS_1,plural, =1{}two{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}many{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}other{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}}}}}male{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}two{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}many{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}other{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}}}male{{TOTAL_ITEMS_1,plural, =1{}two{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}many{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}other{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}}}other{{TOTAL_ITEMS_1,plural, =1{}two{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}many{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}other{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}}}}}other{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}two{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}many{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}other{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}}}male{{TOTAL_ITEMS_1,plural, =1{}two{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}many{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}other{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}}}other{{TOTAL_ITEMS_1,plural, =1{}two{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}many{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}other{{TOTAL_ITEMS_2} תגובות והצעות בפריט ‘{ITEM_TITLE}‘}}}}}}</string>
     <string name="notify_comments_description_num_suggestions_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}two{{NUM_SUGGESTIONS_2} הצעות בפריט ’{ITEM_TITLE}‘}many{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}other{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}}}male{{NUM_SUGGESTIONS_1,plural, =1{}two{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}many{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}other{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}}}other{{NUM_SUGGESTIONS_1,plural, =1{}two{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}many{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}other{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}}}}</string>
     <string name="notify_comments_description_num_suggestions_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}two{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}many{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}other{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}}}male{{NUM_SUGGESTIONS_1,plural, =1{}two{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}many{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}other{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}}}other{{NUM_SUGGESTIONS_1,plural, =1{}two{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}many{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}other{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}}}}}male{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}two{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}many{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}other{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}}}male{{NUM_SUGGESTIONS_1,plural, =1{}two{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}many{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}other{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}}}other{{NUM_SUGGESTIONS_1,plural, =1{}two{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}many{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}other{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}}}}}other{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}two{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}many{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}other{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}}}male{{NUM_SUGGESTIONS_1,plural, =1{}two{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}many{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}other{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}}}other{{NUM_SUGGESTIONS_1,plural, =1{}two{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}many{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}other{{NUM_SUGGESTIONS_2} הצעות בפריט ‘{ITEM_TITLE}‘}}}}}}</string>
-    <string name="notify_comments_description_num_todos_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_TODOS_1,plural, =1{}two{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}many{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}other{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}}}male{{NUM_TODOS_1,plural, =1{}two{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}many{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}other{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}}}other{{NUM_TODOS_1,plural, =1{}two{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}many{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}other{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}}}}</string>
-    <string name="notify_comments_description_num_todos_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}two{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}many{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}other{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}}}male{{NUM_TODOS_1,plural, =1{}two{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}many{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}other{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}}}other{{NUM_TODOS_1,plural, =1{}two{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}many{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}other{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}}}}}male{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}two{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}many{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}other{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}}}male{{NUM_TODOS_1,plural, =1{}two{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}many{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}other{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}}}other{{NUM_TODOS_1,plural, =1{}two{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}many{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}other{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}}}}}other{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}two{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}many{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}other{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}}}male{{NUM_TODOS_1,plural, =1{}two{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}many{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}other{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}}}other{{NUM_TODOS_1,plural, =1{}two{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}many{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}other{{NUM_TODOS_2} פריטי פעולה לפריט ‘{ITEM_TITLE}’}}}}}}</string>
-    <string name="notify_comments_description_only_one_assign_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{הקצתה ל-{ASSIGNEE} את הפריט ‘{ITEM_TITLE}’}male{הקצתה ל-{ASSIGNEE} את הפריט ‘{ITEM_TITLE}’}other{הקצתה ל-{ASSIGNEE} את הפריט ‘{ITEM_TITLE}’}}}male{{SENDER_GENDER,select, female{הקצה ל-{ASSIGNEE} את הפריט ‘{ITEM_TITLE}’}male{הקצה ל-{ASSIGNEE} את הפריט ‘{ITEM_TITLE}’}other{הקצה ל-{ASSIGNEE} את הפריט ‘{ITEM_TITLE}’}}}other{{SENDER_GENDER,select, female{הקצה ל-{ASSIGNEE} את הפריט ‘{ITEM_TITLE}’}male{הקצה ל-{ASSIGNEE} את הפריט ‘{ITEM_TITLE}’}other{הקצה ל-{ASSIGNEE} את הפריט ‘{ITEM_TITLE}’}}}}</string>
-    <string name="notify_comments_description_only_one_assign_to_you_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{הקצתה לך את הפריט ‘{ITEM_TITLE}’}male{הקצתה לך את הפריט ‘{ITEM_TITLE}’}other{הקצתה לך את הפריט ‘{ITEM_TITLE}’}}}male{{SENDER_GENDER,select, female{הקצה לך את הפריט ‘{ITEM_TITLE}’}male{הקצה לך את הפריט ‘{ITEM_TITLE}’}other{הקצה לך את הפריט ‘{ITEM_TITLE}’}}}other{{SENDER_GENDER,select, female{הקצה לך את הפריט ‘{ITEM_TITLE}’}male{הקצה לך את הפריט ‘{ITEM_TITLE}’}other{הקצה לך את הפריט ‘{ITEM_TITLE}’}}}}</string>
     <string name="notify_comments_description_only_one_comment_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{הגיבה על ‘{ITEM_TITLE}’}male{הגיב על ‘{ITEM_TITLE}’}other{הגיב על ‘{ITEM_TITLE}’}}}male{{SENDER_GENDER,select, female{הגיבה על ‘{ITEM_TITLE}’}male{הגיב על ‘{ITEM_TITLE}’}other{הגיב על ‘{ITEM_TITLE}’}}}other{{SENDER_GENDER,select, female{הגיבה על ‘{ITEM_TITLE}’}male{הגיב על ‘{ITEM_TITLE}’}other{הגיב על ‘{ITEM_TITLE}’}}}}</string>
     <string name="notify_comments_description_only_one_mention_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{הזכירה אותך בפריט ‘{ITEM_TITLE}’}male{הזכיר אותך בפריט ‘{ITEM_TITLE}’}other{הזכיר אותך בפריט ‘{ITEM_TITLE}’}}}male{{SENDER_GENDER,select, female{הזכירה אותך בפריט ‘{ITEM_TITLE}’}male{הזכיר אותך בפריט ‘{ITEM_TITLE}’}other{הזכיר אותך בפריט ‘{ITEM_TITLE}’}}}other{{SENDER_GENDER,select, female{הזכירה אותך בפריט ‘{ITEM_TITLE}’}male{הזכיר אותך בפריט ‘{ITEM_TITLE}’}other{הזכיר אותך בפריט ‘{ITEM_TITLE}’}}}}</string>
-    <string name="notify_comments_description_only_one_reassign_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{הקצתה מחדש ל-{ASSIGNEE} את הפריט ‘{ITEM_TITLE}’}male{הקצתה מחדש ל-{ASSIGNEE} את הפריט ‘{ITEM_TITLE}’}other{הקצתה מחדש ל-{ASSIGNEE} את הפריט ‘{ITEM_TITLE}’}}}male{{SENDER_GENDER,select, female{הקצה מחדש ל-{ASSIGNEE} את הפריט ‘{ITEM_TITLE}’}male{הקצה מחדש ל-{ASSIGNEE} את הפריט ‘{ITEM_TITLE}’}other{הקצה מחדש ל-{ASSIGNEE} את הפריט ‘{ITEM_TITLE}’}}}other{{SENDER_GENDER,select, female{הקצה מחדש ל-{ASSIGNEE} את הפריט ‘{ITEM_TITLE}’}male{הקצה מחדש ל-{ASSIGNEE} את הפריט ‘{ITEM_TITLE}’}other{הקצה מחדש ל-{ASSIGNEE} את הפריט ‘{ITEM_TITLE}’}}}}</string>
-    <string name="notify_comments_description_only_one_reassign_to_you_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{הקצתה לך מחדש את הפריט ‘{ITEM_TITLE}’}male{הקצתה לך מחדש את הפריט ‘{ITEM_TITLE}’}other{הקצתה לך מחדש את הפריט ‘{ITEM_TITLE}’}}}male{{SENDER_GENDER,select, female{הקצה לך מחדש את הפריט ‘{ITEM_TITLE}’}male{הקצה לך מחדש את הפריט ‘{ITEM_TITLE}’}other{הקצה לך מחדש את הפריט ‘{ITEM_TITLE}’}}}other{{SENDER_GENDER,select, female{הקצה לך מחדש את הפריט ‘{ITEM_TITLE}’}male{הקצה לך מחדש את הפריט ‘{ITEM_TITLE}’}other{הקצה לך מחדש את הפריט ‘{ITEM_TITLE}’}}}}</string>
     <string name="notify_comments_description_only_one_suggestion_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{הציעה שינוי בפריט ‘{ITEM_TITLE}‘}male{הציע שינוי בפריט ‘{ITEM_TITLE}‘}other{הציע שינוי בפריט ‘{ITEM_TITLE}‘}}}male{{SENDER_GENDER,select, female{הציעה שינוי בפריט ‘{ITEM_TITLE}‘}male{הציע שינוי בפריט ‘{ITEM_TITLE}‘}other{הציע שינוי בפריט ‘{ITEM_TITLE}‘}}}other{{SENDER_GENDER,select, female{הציעה שינוי בפריט ‘{ITEM_TITLE}‘}male{הציע שינוי בפריט ‘{ITEM_TITLE}‘}other{הציע שינוי בפריט ‘{ITEM_TITLE}‘}}}}</string>
     <string name="notify_comments_description_short_many_comments_many_users_icu">{RECIPIENT_GENDER,select, female{הוסיפו 99 תגובות או יותר}male{הוסיפו 99 תגובות או יותר}other{הוסיפו 99 תגובות או יותר}}</string>
     <string name="notify_comments_description_short_many_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{הוסיפה 99 תגובות או יותר}male{הוסיף 99 תגובות או יותר}other{הוסיף 99 תגובות או יותר}}}male{{SENDER_GENDER,select, female{הוסיפה 99 תגובות או יותר}male{הוסיף 99 תגובות או יותר}other{הוסיף 99 תגובות או יותר}}}other{{SENDER_GENDER,select, female{הוסיפה 99 תגובות או יותר}male{הוסיף 99 תגובות או יותר}other{הוסיף 99 תגובות או יותר}}}}</string>
+    <string name="notify_comments_description_short_many_items_many_users_icu">"{RECIPIENT_GENDER,select, female{הוסיפו 99 הצעות או יותר}male{הוסיפו  99 הצעות או יותר}other{הוסיפו 99 הצעות או יותר}}"</string>
+    <string name="notify_comments_description_short_many_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{הוסיפה 99 תגובות והצעות או יותר}male{הוסיף 99 תגובות והצעות או יותר}other{הוסיף 99 תגובות והצעות או יותר}}}male{{SENDER_GENDER,select, female{הוסיפה 99 תגובות והצעות או יותר}male{הוסיף 99 תגובות והצעות או יותר}other{הוסיף 99 תגובות והצעות או יותר}}}other{{SENDER_GENDER,select, female{הוסיפה 99 תגובות והצעות או יותר}male{הוסיף 99 תגובות והצעות או יותר}other{הוסיף 99 תגובות והצעות או יותר}}}}</string>
     <string name="notify_comments_description_short_many_suggestions_many_users_icu">{RECIPIENT_GENDER,select, female{הוסיפו 99 הצעות או יותר}male{הוסיפו 99 הצעות או יותר}other{הוסיפו 99 הצעות או יותר}}</string>
     <string name="notify_comments_description_short_many_suggestions_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{הוסיפה 99 הצעות או יותר}male{הוסיף 99 הצעות או יותר}other{הוסיף 99 הצעות או יותר}}}male{{SENDER_GENDER,select, female{הוסיפה 99 הצעות או יותר}male{הוסיף 99 הצעות או יותר}other{הוסיף 99 הצעות או יותר}}}other{{SENDER_GENDER,select, female{הוסיפה 99 הצעות או יותר}male{הוסיף 99 הצעות או יותר}other{הוסיף 99 הצעות או יותר}}}}</string>
-    <string name="notify_comments_description_short_many_todos_many_users_icu">{RECIPIENT_GENDER,select, female{הוסיפו 99 פריטי פעולה או יותר}male{הוסיפו 99 פריטי פעולה או יותר}other{הוסיפו 99 פריטי פעולה או יותר}}</string>
-    <string name="notify_comments_description_short_many_todos_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{הוסיפה 99 פריטי פעולה או יותר}male{הוסיפה 99 פריטי פעולה או יותר}other{הוסיפה 99 פריטי פעולה או יותר}}}male{{SENDER_GENDER,select, female{הוסיף 99 פריטי פעולה או יותר}male{הוסיף 99 פריטי פעולה או יותר}other{הוסיף 99 פריטי פעולה או יותר}}}other{{SENDER_GENDER,select, female{הוסיף 99 פריטי פעולה או יותר}male{הוסיף 99 פריטי פעולה או יותר}other{הוסיף 99 פריטי פעולה או יותר}}}}</string>
-    <string name="notify_comments_description_short_num_comments_many_users_icu">{RECIPIENT_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}two{הוסיפו {TOTAL_ITEMS_2} תגובות}many{הוסיפו {TOTAL_ITEMS_2} תגובות}other{הוסיפו {TOTAL_ITEMS_2} תגובות}}}male{{TOTAL_ITEMS_1,plural, =1{}two{הוסיפו {TOTAL_ITEMS_2} תגובות}many{הוסיפו {TOTAL_ITEMS_2} תגובות}other{הוסיפו {TOTAL_ITEMS_2} תגובות}}}other{{TOTAL_ITEMS_1,plural, =1{}two{הוסיפו {TOTAL_ITEMS_2} תגובות}many{הוסיפו {TOTAL_ITEMS_2} תגובות}other{הוסיפו {TOTAL_ITEMS_2} תגובות}}}}</string>
-    <string name="notify_comments_description_short_num_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}two{הוסיפה {TOTAL_ITEMS_2} תגובות}many{הוסיפה {TOTAL_ITEMS_2} תגובות}other{הוסיפה {TOTAL_ITEMS_2} תגובות}}}male{{TOTAL_ITEMS_1,plural, =1{}two{הוסיף {TOTAL_ITEMS_2} תגובות}many{הוסיף {TOTAL_ITEMS_2} תגובות}other{הוסיף {TOTAL_ITEMS_2} תגובות}}}other{{TOTAL_ITEMS_1,plural, =1{}two{הוסיף {TOTAL_ITEMS_2} תגובות}many{הוסיף {TOTAL_ITEMS_2} תגובות}other{הוסיף {TOTAL_ITEMS_2} תגובות}}}}}male{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}two{הוסיפה {TOTAL_ITEMS_2} תגובות}many{הוסיפה {TOTAL_ITEMS_2} תגובות}other{הוסיפה {TOTAL_ITEMS_2} תגובות}}}male{{TOTAL_ITEMS_1,plural, =1{}two{הוסיף {TOTAL_ITEMS_2} תגובות}many{הוסיף {TOTAL_ITEMS_2} תגובות}other{הוסיף {TOTAL_ITEMS_2} תגובות}}}other{{TOTAL_ITEMS_1,plural, =1{}two{הוסיף {TOTAL_ITEMS_2} תגובות}many{הוסיף {TOTAL_ITEMS_2} תגובות}other{הוסיף {TOTAL_ITEMS_2} תגובות}}}}}other{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}two{הוסיפה {TOTAL_ITEMS_2} תגובות}many{הוסיפה {TOTAL_ITEMS_2} תגובות}other{הוסיפה {TOTAL_ITEMS_2} תגובות}}}male{{TOTAL_ITEMS_1,plural, =1{}two{הוסיף {TOTAL_ITEMS_2} תגובות}many{הוסיף {TOTAL_ITEMS_2} תגובות}other{הוסיף {TOTAL_ITEMS_2} תגובות}}}other{{TOTAL_ITEMS_1,plural, =1{}two{הוסיף {TOTAL_ITEMS_2} תגובות}many{הוסיף {TOTAL_ITEMS_2} תגובות}other{הוסיף {TOTAL_ITEMS_2} תגובות}}}}}}</string>
+    <string name="notify_comments_description_short_num_comments_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}two{הוסיפה {NUM_COMMENTS_2} תגובות}many{הוסיפה {NUM_COMMENTS_2} תגובות}other{הוסיפה {NUM_COMMENTS_2} תגובות}}}male{{NUM_COMMENTS_1,plural, =1{}two{הוסיף {NUM_COMMENTS_2} תגובות}many{הוסיף {NUM_COMMENTS_2} תגובות}other{הוסיף {NUM_COMMENTS_2} תגובות}}}other{{NUM_COMMENTS_1,plural, =1{}two{הוסיף {NUM_COMMENTS_2} תגובות}many{הוסיף {NUM_COMMENTS_2} תגובות}other{הוסיף {NUM_COMMENTS_2} תגובות}}}}</string>
+    <string name="notify_comments_description_short_num_comments_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}two{הוסיפה {NUM_COMMENTS_2} תגובות}many{הוסיפה {NUM_COMMENTS_2} תגובות}other{הוסיפה {NUM_COMMENTS_2} תגובות}}}male{{NUM_COMMENTS_1,plural, =1{}two{הוסיף {NUM_COMMENTS_2} תגובות}many{הוסיף {NUM_COMMENTS_2} תגובות}other{הוסיף {NUM_COMMENTS_2} תגובות}}}other{{NUM_COMMENTS_1,plural, =1{}two{הוסיף {NUM_COMMENTS_2} תגובות}many{הוסיף {NUM_COMMENTS_2} תגובות}other{הוסיף {NUM_COMMENTS_2} תגובות}}}}}male{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}two{הוסיפה {NUM_COMMENTS_2} תגובות}many{הוסיפה {NUM_COMMENTS_2} תגובות}other{הוסיפה {NUM_COMMENTS_2} תגובות}}}male{{NUM_COMMENTS_1,plural, =1{}two{הוסיף {NUM_COMMENTS_2} תגובות}many{הוסיף {NUM_COMMENTS_2} תגובות}other{הוסיף {NUM_COMMENTS_2} תגובות}}}other{{NUM_COMMENTS_1,plural, =1{}two{הוסיף {NUM_COMMENTS_2} תגובות}many{הוסיף {NUM_COMMENTS_2} תגובות}other{הוסיף {NUM_COMMENTS_2} תגובות}}}}}other{{SENDER_GENDER,select, female{{NUM_COMMENTS_1,plural, =1{}two{הוסיפה {NUM_COMMENTS_2} תגובות}many{הוסיפה {NUM_COMMENTS_2} תגובות}other{הוסיפה {NUM_COMMENTS_2} תגובות}}}male{{NUM_COMMENTS_1,plural, =1{}two{הוסיף {NUM_COMMENTS_2} תגובות}many{הוסיף {NUM_COMMENTS_2} תגובות}other{הוסיף {NUM_COMMENTS_2} תגובות}}}other{{NUM_COMMENTS_1,plural, =1{}two{הוסיף {NUM_COMMENTS_2} תגובות}many{הוסיף {NUM_COMMENTS_2} תגובות}other{הוסיף {NUM_COMMENTS_2} תגובות}}}}}}</string>
+    <string name="notify_comments_description_short_num_items_many_users_icu">{RECIPIENT_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}two{הוסיפו {TOTAL_ITEMS_2} תגובות והצעות}many{הוסיפו {TOTAL_ITEMS_2} תגובות והצעות}other{הוסיפו {TOTAL_ITEMS_2} תגובות והצעות}}}male{{TOTAL_ITEMS_1,plural, =1{}two{הוסיפו {TOTAL_ITEMS_2} תגובות והצעות}many{הוסיפו {TOTAL_ITEMS_2} תגובות והצעות}other{הוסיפו {TOTAL_ITEMS_2} תגובות והצעות}}}other{{TOTAL_ITEMS_1,plural, =1{}two{הוסיפו {TOTAL_ITEMS_2} תגובות והצעות}many{הוסיפו {TOTAL_ITEMS_2} תגובות והצעות}other{הוסיפו {TOTAL_ITEMS_2} תגובות והצעות}}}}</string>
+    <string name="notify_comments_description_short_num_items_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}two{הוסיפה {TOTAL_ITEMS_2} תגובות והצעות}many{הוסיפה {TOTAL_ITEMS_2} תגובות והצעות}other{הוסיפה {TOTAL_ITEMS_2} תגובות והצעות}}}male{{TOTAL_ITEMS_1,plural, =1{}two{הוסיף {TOTAL_ITEMS_2} תגובות והצעות}many{הוסיף {TOTAL_ITEMS_2} תגובות והצעות}other{הוסיף {TOTAL_ITEMS_2} תגובות והצעות}}}other{{TOTAL_ITEMS_1,plural, =1{}two{הוסיף {TOTAL_ITEMS_2} תגובות והצעות}many{הוסיף {TOTAL_ITEMS_2} תגובות והצעות}other{הוסיף {TOTAL_ITEMS_2} תגובות והצעות}}}}}male{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}two{הוסיפה {TOTAL_ITEMS_2} תגובות והצעות}many{הוסיפה {TOTAL_ITEMS_2} תגובות והצעות}other{הוסיפה {TOTAL_ITEMS_2} תגובות והצעות}}}male{{TOTAL_ITEMS_1,plural, =1{}two{הוסיף {TOTAL_ITEMS_2} תגובות והצעות}many{הוסיף {TOTAL_ITEMS_2} תגובות והצעות}other{הוסיף {TOTAL_ITEMS_2} תגובות והצעות}}}other{{TOTAL_ITEMS_1,plural, =1{}two{הוסיף {TOTAL_ITEMS_2} תגובות והצעות}many{הוסיף {TOTAL_ITEMS_2} תגובות והצעות}other{הוסיף {TOTAL_ITEMS_2} תגובות והצעות}}}}}other{{SENDER_GENDER,select, female{{TOTAL_ITEMS_1,plural, =1{}two{הוסיפה {TOTAL_ITEMS_2} תגובות והצעות}many{הוסיפה {TOTAL_ITEMS_2} תגובות והצעות}other{הוסיפה {TOTAL_ITEMS_2} תגובות והצעות}}}male{{TOTAL_ITEMS_1,plural, =1{}two{הוסיף {TOTAL_ITEMS_2} תגובות והצעות}many{הוסיף {TOTAL_ITEMS_2} תגובות והצעות}other{הוסיף {TOTAL_ITEMS_2} תגובות והצעות}}}other{{TOTAL_ITEMS_1,plural, =1{}two{הוסיף {TOTAL_ITEMS_2} תגובות והצעות}many{הוסיף {TOTAL_ITEMS_2} תגובות והצעות}other{הוסיף {TOTAL_ITEMS_2} תגובות והצעות}}}}}}</string>
     <string name="notify_comments_description_short_num_suggestions_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}two{הציעו {NUM_SUGGESTIONS_2} שינויים}many{הציעו {NUM_SUGGESTIONS_2} שינויים}other{הציעו {NUM_SUGGESTIONS_2} שינויים}}}male{{NUM_SUGGESTIONS_1,plural, =1{}two{הציעו {NUM_SUGGESTIONS_2} שינויים}many{הציעו {NUM_SUGGESTIONS_2} שינויים}other{הציעו {NUM_SUGGESTIONS_2} שינויים}}}other{{NUM_SUGGESTIONS_1,plural, =1{}two{הציעו {NUM_SUGGESTIONS_2} שינויים}many{הציעו {NUM_SUGGESTIONS_2} שינויים}other{הציעו {NUM_SUGGESTIONS_2} שינויים}}}}</string>
     <string name="notify_comments_description_short_num_suggestions_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}two{הוסיפה {NUM_SUGGESTIONS_2} הצעות}many{הוסיפה {NUM_SUGGESTIONS_2} הצעות}other{הוסיפה {NUM_SUGGESTIONS_2} הצעות}}}male{{NUM_SUGGESTIONS_1,plural, =1{}two{הוסיף {NUM_SUGGESTIONS_2} הצעות}many{הוסיף {NUM_SUGGESTIONS_2} הצעות}other{הוסיף {NUM_SUGGESTIONS_2} הצעות}}}other{{NUM_SUGGESTIONS_1,plural, =1{}two{הוסיף {NUM_SUGGESTIONS_2} הצעות}many{הוסיף {NUM_SUGGESTIONS_2} הצעות}other{הוסיף {NUM_SUGGESTIONS_2} הצעות}}}}}male{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}two{הוסיפה {NUM_SUGGESTIONS_2} הצעות}many{הוסיפה {NUM_SUGGESTIONS_2} הצעות}other{הוסיפה {NUM_SUGGESTIONS_2} הצעות}}}male{{NUM_SUGGESTIONS_1,plural, =1{}two{הוסיף {NUM_SUGGESTIONS_2} הצעות}many{הוסיף {NUM_SUGGESTIONS_2} הצעות}other{הוסיף {NUM_SUGGESTIONS_2} הצעות}}}other{{NUM_SUGGESTIONS_1,plural, =1{}two{הוסיף {NUM_SUGGESTIONS_2} הצעות}many{הוסיף {NUM_SUGGESTIONS_2} הצעות}other{הוסיף {NUM_SUGGESTIONS_2} הצעות}}}}}other{{SENDER_GENDER,select, female{{NUM_SUGGESTIONS_1,plural, =1{}two{הוסיפה {NUM_SUGGESTIONS_2} הצעות}many{הוסיפה {NUM_SUGGESTIONS_2} הצעות}other{הוסיפה {NUM_SUGGESTIONS_2} הצעות}}}male{{NUM_SUGGESTIONS_1,plural, =1{}two{הוסיף {NUM_SUGGESTIONS_2} הצעות}many{הוסיף {NUM_SUGGESTIONS_2} הצעות}other{הוסיף {NUM_SUGGESTIONS_2} הצעות}}}other{{NUM_SUGGESTIONS_1,plural, =1{}two{הוסיף {NUM_SUGGESTIONS_2} הצעות}many{הוסיף {NUM_SUGGESTIONS_2} הצעות}other{הוסיף {NUM_SUGGESTIONS_2} הצעות}}}}}}</string>
-    <string name="notify_comments_description_short_num_todos_many_users_icu">{RECIPIENT_GENDER,select, female{{NUM_TODOS_1,plural, =1{}two{הוסיפו {NUM_TODOS_2} פריטי פעולה}many{הוסיפו {NUM_TODOS_2} פריטי פעולה}other{הוסיפו {NUM_TODOS_2} פריטי פעולה}}}male{{NUM_TODOS_1,plural, =1{}two{הוסיפו {NUM_TODOS_2} פריטי פעולה}many{הוסיפו {NUM_TODOS_2} פריטי פעולה}other{הוסיפו {NUM_TODOS_2} פריטי פעולה}}}other{{NUM_TODOS_1,plural, =1{}two{הוסיפו {NUM_TODOS_2} פריטי פעולה}many{הוסיפו {NUM_TODOS_2} פריטי פעולה}other{הוסיפו {NUM_TODOS_2} פריטי פעולה}}}}</string>
-    <string name="notify_comments_description_short_num_todos_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}two{הוסיפה {NUM_TODOS_2} פריטי פעולה}many{הוסיפה {NUM_TODOS_2} פריטי פעולה}other{הוסיפה {NUM_TODOS_2} פריטי פעולה}}}male{{NUM_TODOS_1,plural, =1{}two{הוסיף {NUM_TODOS_2} פריטי פעולה}many{הוסיף {NUM_TODOS_2} פריטי פעולה}other{הוסיף {NUM_TODOS_2} פריטי פעולה}}}other{{NUM_TODOS_1,plural, =1{}two{הוסיף {NUM_TODOS_2} פריטי פעולה}many{הוסיף {NUM_TODOS_2} פריטי פעולה}other{הוסיף {NUM_TODOS_2} פריטי פעולה}}}}}male{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}two{הוסיפה {NUM_TODOS_2} פריטי פעולה}many{הוסיפה {NUM_TODOS_2} פריטי פעולה}other{הוסיפה {NUM_TODOS_2} פריטי פעולה}}}male{{NUM_TODOS_1,plural, =1{}two{הוסיף {NUM_TODOS_2} פריטי פעולה}many{הוסיף {NUM_TODOS_2} פריטי פעולה}other{הוסיף {NUM_TODOS_2} פריטי פעולה}}}other{{NUM_TODOS_1,plural, =1{}two{הוסיף {NUM_TODOS_2} פריטי פעולה}many{הוסיף {NUM_TODOS_2} פריטי פעולה}other{הוסיף {NUM_TODOS_2} פריטי פעולה}}}}}other{{SENDER_GENDER,select, female{{NUM_TODOS_1,plural, =1{}two{הוסיפה {NUM_TODOS_2} פריטי פעולה}many{הוסיפה {NUM_TODOS_2} פריטי פעולה}other{הוסיפה {NUM_TODOS_2} פריטי פעולה}}}male{{NUM_TODOS_1,plural, =1{}two{הוסיף {NUM_TODOS_2} פריטי פעולה}many{הוסיף {NUM_TODOS_2} פריטי פעולה}other{הוסיף {NUM_TODOS_2} פריטי פעולה}}}other{{NUM_TODOS_1,plural, =1{}two{הוסיף {NUM_TODOS_2} פריטי פעולה}many{הוסיף {NUM_TODOS_2} פריטי פעולה}other{הוסיף {NUM_TODOS_2} פריטי פעולה}}}}}}</string>
-    <string name="notify_comments_description_short_only_one_assign_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{הקצתה ל{ASSIGNEE}}male{הקצתה ל{ASSIGNEE}}other{הקצתה ל{ASSIGNEE}}}}male{{SENDER_GENDER,select, female{הקצה ל{ASSIGNEE}}male{הקצה ל{ASSIGNEE}}other{הקצה ל{ASSIGNEE}}}}other{{SENDER_GENDER,select, female{הקצה ל{ASSIGNEE}}male{הקצה ל{ASSIGNEE}}other{הקצה ל{ASSIGNEE}}}}}</string>
-    <string name="notify_comments_description_short_only_one_assign_to_you_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{הקצתה לך}male{הקצה לך}other{הקצה לך}}}male{{SENDER_GENDER,select, female{הקצתה לך}male{הקצה לך}other{הקצה לך}}}other{{SENDER_GENDER,select, female{הקצתה לך}male{הקצה לך}other{הקצה לך}}}}</string>
     <string name="notify_comments_description_short_only_one_comment_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{הוסיפה תגובה}male{הוסיף תגובה}other{הוסיף תגובה}}}male{{SENDER_GENDER,select, female{הוסיפה תגובה}male{הוסיף תגובה}other{הוסיף תגובה}}}other{{SENDER_GENDER,select, female{הוסיפה תגובה}male{הוסיף תגובה}other{הוסיף תגובה}}}}</string>
     <string name="notify_comments_description_short_only_one_mention_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{הזכירה אותך}male{הזכיר אותך}other{הזכיר אותך}}}male{{SENDER_GENDER,select, female{הזכירה אותך}male{הזכיר אותך}other{הזכיר אותך}}}other{{SENDER_GENDER,select, female{הזכירה אותך}male{הזכיר אותך}other{הזכיר אותך}}}}</string>
-    <string name="notify_comments_description_short_only_one_reassign_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{הקצתה מחדש ל{ASSIGNEE}}male{הקצתה מחדש ל{ASSIGNEE}}other{הקצתה מחדש ל{ASSIGNEE}}}}male{{SENDER_GENDER,select, female{הקצה מחדש ל{ASSIGNEE}}male{הקצה מחדש ל{ASSIGNEE}}other{הקצה מחדש ל{ASSIGNEE}}}}other{{SENDER_GENDER,select, female{הקצה מחדש ל{ASSIGNEE}}male{הקצה מחדש ל{ASSIGNEE}}other{הקצה מחדש ל{ASSIGNEE}}}}}</string>
-    <string name="notify_comments_description_short_only_one_reassign_to_you_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{הקצתה לך מחדש}male{הקצתה לך מחדש}other{הקצתה לך מחדש}}}male{{SENDER_GENDER,select, female{הקצה לך מחדש}male{הקצה לך מחדש}other{הקצה לך מחדש}}}other{{SENDER_GENDER,select, female{הקצה לך מחדש}male{הקצה לך מחדש}other{הקצה לך מחדש}}}}</string>
     <string name="notify_comments_description_short_only_one_suggestion_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{הציעה שינוי}male{הציע שינוי}other{הציע שינוי}}}male{{SENDER_GENDER,select, female{הציעה שינוי}male{הציע שינוי}other{הציע שינוי}}}other{{SENDER_GENDER,select, female{הציעה שינוי}male{הציע שינוי}other{הציע שינוי}}}}</string>
     <string name="notify_comments_reply_text_icu">{RECIPIENT_GENDER,select, female{{OTHER_POSTER_COUNT_1,plural, =0{בתשובה לפוסט של {POSTER_NAME}}=1{בתשובה לפוסט של {POSTER_NAME} ואדם נוסף}two{בתשובה לפוסט של {POSTER_NAME} ו-{OTHER_POSTER_COUNT_2} נוספים}many{בתשובה לפוסט של {POSTER_NAME} ו-{OTHER_POSTER_COUNT_2} נוספים}other{בתשובה לפוסט של {POSTER_NAME} ו-{OTHER_POSTER_COUNT_2} נוספים}}}male{{OTHER_POSTER_COUNT_1,plural, =0{בתשובה לפוסט של {POSTER_NAME}}=1{בתשובה לפוסט של {POSTER_NAME} ואדם נוסף}two{בתשובה לפוסט של {POSTER_NAME} ו-{OTHER_POSTER_COUNT_2} נוספים}many{בתשובה לפוסט של {POSTER_NAME} ו-{OTHER_POSTER_COUNT_2} נוספים}other{בתשובה לפוסט של {POSTER_NAME} ו-{OTHER_POSTER_COUNT_2} נוספים}}}other{{OTHER_POSTER_COUNT_1,plural, =0{בתשובה לפוסט של {POSTER_NAME}}=1{בתשובה לפוסט של {POSTER_NAME} ואדם נוסף}two{בתשובה לפוסט של {POSTER_NAME} ו-{OTHER_POSTER_COUNT_2} נוספים}many{בתשובה לפוסט של {POSTER_NAME} ו-{OTHER_POSTER_COUNT_2} נוספים}other{בתשובה לפוסט של {POSTER_NAME} ו-{OTHER_POSTER_COUNT_2} נוספים}}}}</string>
     <string name="notify_description_role_comment_request_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{ביקשה גישת תגובה}male{ביקש גישת תגובה}other{ביקש גישת תגובה}}}male{{SENDER_GENDER,select, female{ביקשה גישת תגובה}male{ביקש גישת תגובה}other{ביקש גישת תגובה}}}other{{SENDER_GENDER,select, female{ביקשה גישת תגובה}male{ביקש גישת תגובה}other{ביקש גישת תגובה}}}}</string>
@@ -916,16 +820,6 @@
     <string name="notify_description_role_generic_access_request_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{ביקשה גישה}male{ביקש גישה}other{ביקש גישה}}}male{{SENDER_GENDER,select, female{ביקשה גישה}male{ביקש גישה}other{ביקש גישה}}}other{{SENDER_GENDER,select, female{ביקשה גישה}male{ביקש גישה}other{ביקש גישה}}}}</string>
     <string name="notify_description_role_own_request_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{ביקשה בעלות}male{ביקש בעלות}other{ביקש בעלות}}}male{{SENDER_GENDER,select, female{ביקשה בעלות}male{ביקש בעלות}other{ביקש בעלות}}}other{{SENDER_GENDER,select, female{ביקשה בעלות}male{ביקש בעלות}other{ביקש בעלות}}}}</string>
     <string name="notify_description_role_view_request_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{ביקשה גישת תצוגה}male{ביקש גישת תצוגה}other{ביקש גישת תצוגה}}}male{{SENDER_GENDER,select, female{ביקשה גישת תצוגה}male{ביקש גישת תצוגה}other{ביקש גישת תצוגה}}}other{{SENDER_GENDER,select, female{ביקשה גישת תצוגה}male{ביקש גישת תצוגה}other{ביקש גישת תצוגה}}}}</string>
-    <string name="notify_drive_storage_expired_icu">{RECIPIENT_GENDER,select, female{פג תוקף האחסון ב-Drive}male{פג תוקף האחסון ב-Drive}other{פג תוקף האחסון ב-Drive}}</string>
-    <string name="notify_drive_storage_expires_friday">{RECIPIENT_GENDER,select, female{תוקף האחסון ב-Drive יפוג ביום שישי}male{תוקף האחסון ב-Drive יפוג ביום שישי}other{תוקף האחסון ב-Drive יפוג ביום שישי}}</string>
-    <string name="notify_drive_storage_expires_monday">{RECIPIENT_GENDER,select, female{תוקף האחסון ב-Drive יפוג ביום שני}male{תוקף האחסון ב-Drive יפוג ביום שני}other{תוקף האחסון ב-Drive יפוג ביום שני}}</string>
-    <string name="notify_drive_storage_expires_saturday">{RECIPIENT_GENDER,select, female{תוקף האחסון ב-Drive יפוג ביום שבת}male{תוקף האחסון ב-Drive יפוג ביום שבת}other{תוקף האחסון ב-Drive יפוג ביום שבת}}</string>
-    <string name="notify_drive_storage_expires_soon">{RECIPIENT_GENDER,select, female{תוקף האחסון ב-Drive יפוג בקרוב}male{תוקף האחסון ב-Drive יפוג בקרוב}other{תוקף האחסון ב-Drive יפוג בקרוב}}</string>
-    <string name="notify_drive_storage_expires_sunday">{RECIPIENT_GENDER,select, female{תוקף האחסון ב-Drive יפוג ביום ראשון}male{תוקף האחסון ב-Drive יפוג ביום ראשון}other{תוקף האחסון ב-Drive יפוג ביום ראשון}}</string>
-    <string name="notify_drive_storage_expires_thursday">{RECIPIENT_GENDER,select, female{תוקף האחסון ב-Drive יפוג ביום חמישי}male{תוקף האחסון ב-Drive יפוג ביום חמישי}other{תוקף האחסון ב-Drive יפוג ביום חמישי}}</string>
-    <string name="notify_drive_storage_expires_tuesday">{RECIPIENT_GENDER,select, female{תוקף האחסון ב-Drive יפוג ביום שלישי}male{תוקף האחסון ב-Drive יפוג ביום שלישי}other{תוקף האחסון ב-Drive יפוג ביום שלישי}}</string>
-    <string name="notify_drive_storage_expires_wednesday">{RECIPIENT_GENDER,select, female{תוקף האחסון ב-Drive יפוג ביום רביעי}male{תוקף האחסון ב-Drive יפוג ביום רביעי}other{תוקף האחסון ב-Drive יפוג ביום רביעי}}</string>
-    <string name="notify_drive_storage_expiring_today_icu">{RECIPIENT_GENDER,select, female{תוקף האחסון ב-Drive יפוג היום}male{תוקף האחסון ב-Drive יפוג היום}other{תוקף האחסון ב-Drive יפוג היום}}</string>
     <string name="notify_heading_anonymous_user">אנונימי</string>
     <string name="notify_heading_icu">{NUM_SENDERS,plural,offset:1 =1{{FIRST_SENDER_DISPLAY_NAME}}=2{{FIRST_SENDER_DISPLAY_NAME} ו-{SECOND_SENDER}}many{{FIRST_SENDER_DISPLAY_NAME} ו-{XXX} אחרים}other{{FIRST_SENDER_DISPLAY_NAME} ו-{XXX} אחרים}}</string>
     <string name="notify_heading_many_people">%1$s ורבים אחרים</string>
@@ -968,15 +862,10 @@
     <string name="notify_sharing_description_one_folder_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{שיתפה איתך תיקיה}male{שיתף איתך תיקיה}other{שיתף איתך תיקיה}}}male{{SENDER_GENDER,select, female{שיתפה איתך תיקיה}male{שיתף איתך תיקיה}other{שיתף איתך תיקיה}}}other{{SENDER_GENDER,select, female{שיתפה איתך תיקיה}male{שיתף איתך תיקיה}other{שיתף איתך תיקיה}}}}</string>
     <string name="notify_sharing_description_one_user_icu">{RECIPIENT_GENDER,select, female{{SENDER_GENDER,select, female{שיתפה איתך את ‘{ITEM_TITLE}’}male{שיתף איתך את ‘{ITEM_TITLE}’}other{שיתף איתך את ‘{ITEM_TITLE}’}}}male{{SENDER_GENDER,select, female{שיתפה איתך את ‘{ITEM_TITLE}’}male{שיתף איתך את ‘{ITEM_TITLE}’}other{שיתף איתך את ‘{ITEM_TITLE}’}}}other{{SENDER_GENDER,select, female{שיתפה איתך את ‘{ITEM_TITLE}’}male{שיתף איתך את ‘{ITEM_TITLE}’}other{שיתף איתך את ‘{ITEM_TITLE}’}}}}</string>
     <string name="notify_unknown_document_title">מסמך לא ידוע</string>
-    <string name="open_calendar">‏פתח את יומן Google</string>
-    <string name="open_contacts">"‏פתח את 'אנשי קשר מחשבון Google'"</string>
     <string name="open_document_error_item_cannot_be_exported">לא ניתן להוריד. פותח במצב אינטרנט...</string>
     <string name="open_document_error_no_viewer_app_found">הקובץ לא ניתן להצגה באף אפליקציה מותקנת; פותח במצב אינטרנט…</string>
     <string name="open_document_in_browser">פתח בדפדפן</string>
-    <string name="open_folder_removed">לא ניתן יותר להציג את התיקיה הפתוחה.</string>
-    <string name="open_folder_trashed">התיקיה %1$s הועברה לאשפה.</string>
     <string name="open_online_button">פתח באינטרנט</string>
-    <string name="open_photos">‏פתח את תמונות Google</string>
     <string name="open_pinned_version">פתח מהמכשיר</string>
     <string name="open_url_authentication_error">לא ניתן לגשת למסמך. שגיאה בקבלת אימות.</string>
     <string name="open_url_error_access_denied">לא ניתן לפתוח את הפריט הזה. ייתכן שאין לך הרשאה, או שהוא כבר לא זמין.</string>
@@ -994,7 +883,6 @@
     <string name="operation_sync_network_error">שגיאת רשת, נסה שוב מאוחר יותר.</string>
     <string name="organize_introduction_header">גרור כדי להעביר פריטים</string>
     <string name="organize_introduction_text">גרור את אוסף הפריטים שנבחרו למטה לתיקייה הרצויה כדי להעביר אותם. החלק את האוסף הצידה כדי לבטל את הבחירה בו.</string>
-    <string name="other_backups">מכשירים אחרים</string>
     <string name="ouch_button_close">סגור</string>
     <string name="ouch_button_report">דיווח</string>
     <string name="ouch_msg_sync_error">‏אירעה שגיאה בסנכרון של Google Drive. ייתכן שלא כל הנתונים סונכרנו בהצלחה. דווח על השגיאה הזו כדי לעזור לנו בשיפור המוצר.</string>
@@ -1022,9 +910,6 @@
     <string name="phonesky_installation_failure_alert_dialog_title">ההתקנה נכשלה</string>
     <string name="phonesky_no_internet_connection_alert_dialog_message">המכשיר שלך אינו מחובר לאינטרנט. נסה שוב מאוחר יותר.</string>
     <string name="phonesky_no_internet_connection_alert_dialog_title">אין חיבור לאינטרנט</string>
-    <string name="photos_and_videos">תמונות וסרטונים</string>
-    <string name="photos_and_videos_footer_text">‏סונכרן עם תמונות Google</string>
-    <string name="photos_and_videos_message">‏תמונות וסרטונים מסונכרנים בכל המכשירים באמצעות תמונות Google.</string>
     <string name="pick_entry_create_new_folder">צור תיקיה חדשה</string>
     <string name="pick_entry_current_folder">תיקיה נוכחית: %1s</string>
     <string name="pick_entry_dialog_title">בחר פריט</string>
@@ -1054,35 +939,33 @@
     <string name="pin_warning_external_storage_not_ready">המסמך הוצמד אך ההורדה לא תתחיל לפני שהאחסון החיצוני יהיה מוכן.</string>
     <string name="pin_warning_external_storage_not_ready_ok">אישור</string>
     <string name="pinned_item_unavailable_dialog_message">הקובץ יהיה זמין במצב לא מקוון בפעם הבאה שתתחבר לאינטרנט.</string>
-    <string name="pinned_item_unavailable_dialog_title">לא ניתן לגשת אל %1$s.</string>
+    <string name="pinned_item_unavailable_dialog_title">לא ניתן לגשת אל %s.</string>
     <string name="plus_photo_all_set">הכל מוכן. מתבצע כעת גיבוי של התמונות והסרטונים שלך.</string>
     <string name="plus_photo_item_remove_dialog_confirm_button">הסר מכל מקום</string>
     <string name="plus_photo_item_remove_dialog_title">הסר</string>
-    <string name="plus_photo_item_remove_items_dialog_text_single">‏%1$s יועבר לאשפה וכתוצאה מכך גם יוסר מתמונות Google‎.</string>
+    <string name="plus_photo_item_remove_items_dialog_text_single">‏%s יועבר לאשפה וכתוצאה מכך גם יוסר מאלבומי Google.</string>
     <string name="policy_privacy">פרטיות</string>
+    <string name="policy_privacy_local_url_format_string">http://www.google.com/intl/%1$s/policies/privacy/‎</string>
     <string name="policy_terms">תנאים</string>
-    <string name="pref_auto_backup_referral">‏התקן את תמונות Google כדי להפעיל גיבוי אוטומטי.</string>
+    <string name="policy_terms_local_url_format_string">http://www.google.com/intl/%1$s/policies/terms/‎</string>
+    <string name="pref_auto_backup_referral">‏התקן את אלבומי Google כדי להפעיל גיבוי אוטומטי.</string>
     <string name="preferences_license_summary">פרטי רישיון עבור תוכנות של קוד פתוח</string>
     <string name="preferences_license_title">רישיונות קוד פתוח</string>
     <string name="prefs_about_category_title">מידע כללי</string>
     <string name="prefs_abuse_program_policies">תקנון התכנית</string>
-    <string name="prefs_apps_predict_carousel_category">גישה מהירה</string>
-    <string name="prefs_apps_predict_carousel_enabled_setting">הפעל גישה מהירה</string>
-    <string name="prefs_apps_predict_carousel_enabled_summary">"קבלת הצעות לקבצים שרלוונטיים מבחינת הזמן, שאולי יעניינו אותך. מתבצעת הוספה של קטע בחלק העליון של 'האחסון שלי'."</string>
     <string name="prefs_apps_predict_category">הצעות תוכן</string>
     <string name="prefs_apps_predict_show_suggestions">הצגת הצעות תוכן</string>
     <string name="prefs_apps_predict_show_suggestions_summary">הצעה אוטומטית של תוכן רלוונטי זמין</string>
     <string name="prefs_auto_add">הוספה אוטומטית</string>
-    <string name="prefs_auto_add_disabled_message">"‏תמונות חדשות לא יתווספו עוד לתיקיה 'תמונות Google'."</string>
-    <string name="prefs_auto_add_summary_template">"‏הוסף באופן אוטומטי תמונות מתמונות Google‎ לתיקיה ב'אחסון שלי'.
+    <string name="prefs_auto_add_disabled_message">"‏תמונות חדשות לא יתווספו עוד לתיקיה 'אלבומי Google'."</string>
+    <string name="prefs_auto_add_summary_template">"‏הוסף באופן אוטומטי תמונות מאלבומי Google לתיקיה ב'אחסון שלי'.
 %1$s"</string>
     <string name="prefs_auto_backup">גיבוי אוטומטי</string>
-    <string name="prefs_auto_backup_summary">‏גבה באופן אוטומטי תמונות וסרטונים חדשים בתמונות Google.</string>
+    <string name="prefs_auto_backup_summary">‏גבה באופן אוטומטי תמונות וסרטונים חדשים באלבומי Google.</string>
     <string name="prefs_cache_category_title">קובץ שמור של מסמכים</string>
     <string name="prefs_cache_size">גודל הקובץ השמור</string>
     <string name="prefs_cache_size_choice_format_string">MB %1$d</string>
     <string name="prefs_cache_size_summary_format_string">‏גודל קובץ שמור: MB %1$s.</string>
-    <string name="prefs_category_content_description">קטע, %1$s</string>
     <string name="prefs_change_error">לא ניתן היה לשנות את ההגדרה. נסה שוב מאוחר יותר.</string>
     <string name="prefs_clear_cache_summary">הסר את כל המסמכים השמורים.</string>
     <string name="prefs_data_usage_category">שימוש בנתונים</string>
@@ -1094,7 +977,7 @@
     <string name="prefs_enable_pin_encryption_summary">הצפן מסמכים במכשיר הזה.</string>
     <string name="prefs_enable_pin_encryption_title">הפעל הצפנה</string>
     <string name="prefs_encryption_category">הצפנה</string>
-    <string name="prefs_google_photos_category_title">‏תמונות Google</string>
+    <string name="prefs_google_photos_category_title">‏אלבומי Google</string>
     <string name="prefs_legal">רשיונות קוד פתוח</string>
     <string name="prefs_notification_access_request">בקשות לקבלת גישה</string>
     <string name="prefs_notification_category">הודעות</string>
@@ -1102,7 +985,6 @@
     <string name="prefs_notification_email_notification">שליחת הודעות לאימייל שלי</string>
     <string name="prefs_notification_email_notification_offline">לא זמין במצב לא מקוון</string>
     <string name="prefs_notification_email_notification_save_error">שמירת ההגדרה נכשלה</string>
-    <string name="prefs_notification_email_notification_summary">עדיין תקבל הודעות הקשורות לחשבון</string>
     <string name="prefs_notification_enable">הצגת הודעות</string>
     <string name="prefs_notification_enable_summary">‏הצגת הודעות של Drive‏,‏ Docs‏,‏ Sheets ו-Slides עבור %1$s</string>
     <string name="prefs_notification_other_settings_subheading">הגדרות אחרות</string>
@@ -1119,37 +1001,29 @@
     <string name="prefs_sync_over_wifi_only_summary">‏העלאה ועדכון של קבצים יושהו כאשר חיבור Wi-Fi אינו זמין.</string>
     <string name="prefs_sync_over_wifi_only_title">‏העבר קבצים בחיבור Wi-Fi בלבד</string>
     <string name="prefs_title">הגדרות</string>
-    <string name="preselection_reason">פתחת לאחרונה</string>
-    <string name="preselection_reason_recently_modified">השתנה לאחרונה</string>
-    <string name="preselection_reason_recently_modified_by_me">שיניתי לאחרונה</string>
-    <string name="preselection_reason_recently_opened_by_me">פתחתי לאחרונה</string>
-    <string name="preselection_reason_recently_uploaded_by_me">העליתי לאחרונה</string>
     <string name="preview_click_to_open">הקש כאן כדי לפתוח</string>
     <string name="preview_document_available_in_docs_app">‏הקובץ הזה זמין ביישום Docs</string>
     <string name="preview_document_available_in_sheets_app">‏הקובץ הזה זמין ביישום Sheets</string>
     <string name="preview_open_in_docs_app_description">‏הקש כאן כדי לפתוח את הקובץ הזה ביישום Docs</string>
     <string name="preview_open_in_sheets_app_description">‏הקש כאן כדי לפתוח את הקובץ הזה ביישום Sheets</string>
-    <string name="pride_query_toast_message">‏כדי להשתתף בחגיגות הגאווה של קהילת הלהט\"ב עם Google, יש להשתמש בביטוי ‎#prideforeveryone במדיה החברתית.</string>
     <string name="print_cancelled">משימת ההדפסה בוטלה.</string>
     <string name="print_error">‏איננו יכולים לגשת אל Google Cloud Print בשלב זה. נסה שוב מאוחר יותר.</string>
     <string name="print_failure">הדפסת המסמך נכשלה.</string>
-    <string name="prioritydocs_entrypoint_label">מעקב</string>
-    <string name="prioritydocs_promo_bodycopy">כדי להציג מעקבים, התקן את האפליקציה %1$s.</string>
-    <string name="prioritydocs_promo_headline">להוריד את אפליקציית %1$s?</string>
-    <string name="prioritydocs_promo_negative">לא, תודה</string>
-    <string name="prioritydocs_promo_positive">התקן</string>
+    <string name="prioritydocs_entrypoint_label">פריטי פעולה</string>
     <string name="problem_with_file">בעיה בקובץ</string>
     <string name="promo_button">הבנתי</string>
-    <string name="promo_text1">‏שמור את הפריט ב-Google Drive - האזור הבטוח שלך לאחסון מסמכים ותמונות בחינם בנפח של עד ‎15 GB‎. תוכל לגשת לפריטים שלך מכל המכשירים שברשותך.</string>
-    <string name="promo_title">שמירת עותק של הקובץ</string>
+    <string name="promo_text1">‏שמור כל קובץ PDF בבטחה ב-Google Drive, כדי שתוכל להשתמש בו בכל מקום ובכל מכשיר!</string>
+    <string name="promo_title">‏שמירת קובצי PDF ב-Google Drive</string>
     <string name="punctuation_period">.</string>
-    <string name="purchase_dialog_how_storage_used">‏האחסון משותף ל-Gmail,‏ תמונות Google ו-Google Drive‏</string>
-    <string name="purchase_dialog_manage">נהל אחסון</string>
-    <string name="purchase_dialog_terms_service">בבחירה בתוכנית אחסון, אתה מאשר את הסכמתך ל%1$s.</string>
+    <string name="purchase_dialog_how_storage_used">‏האחסון משותף ל-Gmail,‏ אלבומי Google ו-Google Drive‏</string>
+    <string name="purchase_dialog_learn_more">למידע נוסף</string>
+    <string name="purchase_dialog_more">תוכניות אחסון נוספות</string>
+    <string name="purchase_dialog_terms_service">בבחירה בתוכנית אחסון ובלחיצה על \"קנייה\", אתה מאשר את הסכמתך ל%1$s.</string>
     <string name="purchase_dialog_title">‏תוכניות אחסון ב-Google Drive</string>
     <string name="purchase_error">הייתה בעיה</string>
     <string name="purchase_error_connect">לא ניתן להתחבר</string>
     <string name="purchase_per_month">%1$s לחודש</string>
+    <string name="purchase_success">רכשת בהצלחה את התוכנית</string>
     <string name="quota_cannot_determine">לא ניתן לקבוע</string>
     <string name="quota_range_large">‏מ-‎10 MB‎ עד ‎100 MB‎</string>
     <string name="quota_range_larger">‏מ-‎100 MB‎ עד ‎1 GB‎</string>
@@ -1162,26 +1036,26 @@
     <string name="recent_activity_button_show_more_files">הצג עוד...</string>
     <string name="recent_activity_card_title">פעילות</string>
     <string name="recent_activity_empty">לא תועדה כל פעילות</string>
-    <string name="recent_activity_end">לא תועדה כל פעילות לפני %1$s</string>
+    <string name="recent_activity_end">לא תועדה כל פעילות לפני %s</string>
     <string name="recent_activity_failed">אופס, לא הצלחנו לטעון את הפעילות. נסה שוב מאוחר יותר</string>
     <string name="recent_activity_rename_titles_accessibility">השם של %1$s השתנה ל-%2$s</string>
-    <string name="recent_activity_users_two">%1$s ו-%2$s</string>
+    <string name="recent_activity_users_two" formatted="false">%s ו-%s</string>
+    <string name="remove_button_confirm">הסרה</string>
+    <string name="remove_collection">הסר תיקיה</string>
     <string name="remove_dialog_confirm_delete_button">מחק לנצח</string>
-    <string name="remove_dialog_confirm_delete_for_everyone_button">מחק לכולם</string>
-    <string name="remove_dialog_delete_different_permissions_files">יש לך הרשאות שונות בקבצים האלו. חלק מהם יועברו לאשפה ויימחקו לנצח לאחר 30 יום, ואחרים יוסרו.</string>
-    <string name="remove_dialog_delete_different_permissions_folders">יש לך הרשאות שונות בתיקיות האלה. חלק מהן יועברו לאשפה ויימחקו לנצח לאחר 30 יום, ואחרות יוסרו.</string>
-    <string name="remove_dialog_delete_different_permissions_items">יש לך הרשאות שונות בפריטים האלו. חלק מהם יועברו לאשפה ויימחקו לנצח לאחר 30 יום, ואחרים יוסרו.</string>
-    <string name="remove_dialog_delete_different_permissions_title">רק חלק מהפריטים יימחקו</string>
-    <string name="remove_dialog_delete_for_everyone_title">האם למחוק לכולם?</string>
-    <string name="remove_parent_confirmation">משתמשים אחרים לא יוכלו לראות יותר את %1$s בתיקיה המשותפת %2$s</string>
-    <string name="remove_parent_not_allowed">אין לך הרשאה להסיר את %1$s מהתיקיה המשותפת %2$s</string>
-    <string name="removed_parent_message">%1$s הוסר מ-%2$s</string>
+    <string name="remove_dialog_delete_permanently_text_single">האם אתה בטוח שאתה רוצה למחוק לנצח את %s? לא ניתן לבטל את הפעולה.</string>
+    <string name="remove_dialog_delete_permanently_title">מחיקה לנצח</string>
+    <string name="remove_document">הסר קובץ</string>
+    <string name="remove_parent_confirmation" formatted="false">משתמשים אחרים לא יוכלו לראות יותר את %s בתיקיה המשותפת %s</string>
+    <string name="remove_parent_not_allowed" formatted="false">אין לך הרשאה להסיר את %s מהתיקיה המשותפת %s</string>
+    <string name="removed_parent_message" formatted="false">%s הוסר מ-%s</string>
     <string name="rename_collection">שנה שם של תיקיה</string>
     <string name="rename_document">שנה שם של מסמך</string>
     <string name="rename_drawing">שנה שם של שרטוט</string>
     <string name="rename_file">שנה שם של קובץ</string>
     <string name="rename_presentation">שנה שם של מצגת</string>
     <string name="rename_spreadsheet">שנה שם של גיליון אלקטרוני</string>
+    <string name="reply_email_subject">נושא: בקשת הגישה ששלחת</string>
     <string name="report_abuse_title">דיווח על התנהלות פוגעת</string>
     <string name="request_access">בקש גישה</string>
     <string name="request_access_message">הבעלים יקבל הודעת אימייל לגבי האדם שמבקש גישה.</string>
@@ -1191,23 +1065,16 @@
     <string name="retry_button_text">נסה שוב</string>
     <string name="scan_shortcut_failed_folder_deleted">התיקייה %1$s נמחקה.</string>
     <string name="scan_shortcut_failed_folder_trashed">התיקייה %1$s באשפה. שחזר את התיקייה לפני שתסרוק את המסמך.</string>
-    <string name="scan_task_title">‏סריקה ל-Drive</string>
     <string name="search_description">Google Drive</string>
     <string name="search_hint">‏חיפוש ב-Drive שלי</string>
     <string name="search_hint_short">חיפוש</string>
-    <string name="search_menu_title">חפש</string>
-    <string name="search_results_may_be_incomplete">לא ניתן לחפש בכל האחסונים הקבוצתיים. נסה לצמצם את החיפוש לאחסון קבוצתי ספציפי.</string>
-    <string name="search_select_td">בחר אחסון קבוצתי</string>
     <string name="search_showing_local_results_only">לא ניתן לבצע חיפוש. מציג התאמות של כותרות בלבד.</string>
     <string name="search_showing_local_results_only_offline">תוצאות החיפוש כוללות התאמות לכותרת בלבד. כדי לקבל יותר תוצאות, חפש באופן מקוון.</string>
     <string name="select_account">בחר חשבון</string>
     <string name="select_folder_color">צבע התיקייה</string>
-    <string name="select_team_drive_desc">בחר אחסון קבוצתי</string>
-    <string name="select_team_drive_title">בחירת אחסון קבוצתי</string>
     <string name="selected_account">נכנס אל %1$s</string>
     <string name="selection_action_bar_drop_to_current_folder_header">העבר אל</string>
     <string name="selection_action_bar_drop_to_current_folder_header_as_add">הוספה אל</string>
-    <string name="selection_cannot_move_into_self">לא ניתן להעביר פריט אל תוך עצמו</string>
     <string name="selection_item_select_button">בחר את %1$s %2$s</string>
     <string name="selection_item_unselect_button">בטל בחירה של %1$s %2$s</string>
     <string name="selection_limit_reached">חלק מהפריטים לא נבחרו מפני שמיצית את מספר הפריטים המקסימלי שניתן לבחור.</string>
@@ -1255,7 +1122,7 @@
     <string name="selection_mode_started">מצב הבחירה התחיל</string>
     <string name="selection_suffix_checked">מסומנות</string>
     <string name="selection_suffix_not_checked">לא מסומנות</string>
-    <string name="selection_undo_button">בטל</string>
+    <string name="selection_undo_button">בטל פעולה</string>
     <string name="send_to_clipboard_activity_title">העתק ללוח</string>
     <string name="send_to_clipboard_success">הועתק ללוח</string>
     <string name="share_card_enabled_link_sharing_toast">שיתוף הקישורים מופעל כעת</string>
@@ -1265,7 +1132,7 @@
     <string name="share_card_link_unshared">שיתוף הקישור מושבת כעת</string>
     <string name="share_card_title">למי יש גישה</string>
     <string name="share_card_turn_link_sharing_off">השבת את שיתוף הקישורים</string>
-    <string name="share_psyncho_warning_description">‏אנשים שאיתם אתה משתף את התיקיה הזו יוכלו לראות תמונות וסרטונים קיימים וחדשים שלך מתמונות Google‎. אם הפעלת גיבוי אוטומטי, הם יוכלו לראות תמונות וסרטונים השמורים כעת בנייד שלך וכאלו שתצלם בעתיד.</string>
+    <string name="share_psyncho_warning_description">‏אנשים שאיתם אתה משתף את התיקיה הזו יוכלו לראות תמונות וסרטונים קיימים וחדשים שלך מאלבומי Google. אם הפעלת גיבוי אוטומטי, הם יוכלו לראות תמונות וסרטונים השמורים כעת בנייד שלך וכאלו שתצלם בעתיד.</string>
     <string name="share_psyncho_warning_header">האם לשתף את התיקיה %1$s?</string>
     <string name="share_psyncho_warning_learnmore">למידע נוסף</string>
     <string name="shared_status">משותף</string>
@@ -1275,12 +1142,10 @@
     <string name="sharing_info_loading">מידע לשיתוף עדיין נטען...</string>
     <string name="sharing_list_offline">רשימת השיתוף לא זמינה במצב לא מקוון.</string>
     <string name="sharing_list_updated">הגדרות השיתוף עודכנו בהצלחה.</string>
-    <string name="sharing_message_add_users_one">הפריט %1$s שותף עם %2$s</string>
-    <string name="sharing_message_add_users_two">הפריט %1$s שותף עם %2$s ועם %3$s</string>
-    <string name="sharing_message_remove">%s הוסר/ה מהקובץ</string>
-    <string name="sharing_message_remove_td">תתבצע הסרה של %s מהאחסון הקבוצתי</string>
+    <string name="sharing_message_add_users_one">%1$s שותף עם %2$s</string>
+    <string name="sharing_message_add_users_two">%1$s שותף עם %2$s ו-%3$s</string>
+    <string name="sharing_message_remove">%s הוסר מהקובץ</string>
     <string name="sharing_message_saved">הגדרות השיתוף נשמרו. מרענן את רשימת השיתוף.</string>
-    <string name="sharing_message_saved_td">החברות של %s השתנתה</string>
     <string name="sharing_message_title">הודעה</string>
     <string name="sharing_message_unable_to_change">לא ניתן לשנות את הגדרות השיתוף</string>
     <string name="sharing_offline">לא ניתן לשתף במצב לא מקוון.</string>
@@ -1289,16 +1154,16 @@
     <string name="sharing_option_anyone_can_contribute">כל אחד יכול לארגן, להוסיף ולערוך</string>
     <string name="sharing_option_anyone_can_edit">כל אחד יכול לערוך</string>
     <string name="sharing_option_anyone_can_view">כל אחד יכול להציג</string>
-    <string name="sharing_option_anyone_from">אנשים ב-%1$s יכולים למצוא ולגשת</string>
-    <string name="sharing_option_anyone_from_can_comment">אנשים ב-%1$s יכולים למצוא ולהגיב</string>
-    <string name="sharing_option_anyone_from_can_contribute">אנשים ב-%1$s יכולים למצוא ולתרום</string>
-    <string name="sharing_option_anyone_from_can_edit">אנשים ב-%1$s יכולים למצוא ולערוך</string>
-    <string name="sharing_option_anyone_from_can_view">אנשים ב-%1$s יכולים למצוא ולהציג</string>
-    <string name="sharing_option_anyone_from_with_link">אנשים ב-%1$s שיש להם את הקישור</string>
-    <string name="sharing_option_anyone_from_with_link_can_comment">אנשים ב-%1$s שיש להם את הקישור יכולים להגיב</string>
-    <string name="sharing_option_anyone_from_with_link_can_contribute">אנשים ב-%1$s שיש להם את הקישור יכולים לארגן, להוסיף ולערוך</string>
-    <string name="sharing_option_anyone_from_with_link_can_edit">אנשים ב-%1$s שיש להם את הקישור יכולים לערוך</string>
-    <string name="sharing_option_anyone_from_with_link_can_view">אנשים ב-%1$s שיש להם את הקישור יכולים להציג</string>
+    <string name="sharing_option_anyone_from">אנשים ב-%s יכולים למצוא ולגשת</string>
+    <string name="sharing_option_anyone_from_can_comment">אנשים ב-%s יכולים למצוא ולהגיב</string>
+    <string name="sharing_option_anyone_from_can_contribute">אנשים ב-%s יכולים למצוא ולתרום</string>
+    <string name="sharing_option_anyone_from_can_edit">אנשים ב-%s יכולים למצוא ולערוך</string>
+    <string name="sharing_option_anyone_from_can_view">אנשים ב-%s יכולים למצוא ולהציג</string>
+    <string name="sharing_option_anyone_from_with_link">אנשים ב-%s שיש להם את הקישור</string>
+    <string name="sharing_option_anyone_from_with_link_can_comment">אנשים ב-%s שיש להם את הקישור יכולים להגיב</string>
+    <string name="sharing_option_anyone_from_with_link_can_contribute">אנשים ב-%s שיש להם את הקישור יכולים לארגן, להוסיף ולערוך</string>
+    <string name="sharing_option_anyone_from_with_link_can_edit">אנשים ב-%s שיש להם את הקישור יכולים לערוך</string>
+    <string name="sharing_option_anyone_from_with_link_can_view">אנשים ב-%s שיש להם את הקישור יכולים להציג</string>
     <string name="sharing_option_anyone_with_link">אנשים שיש להם את הקישור</string>
     <string name="sharing_option_anyone_with_link_can_comment">אנשים שיש להם את הקישור יכולים להגיב</string>
     <string name="sharing_option_anyone_with_link_can_contribute">אנשים שיש להם את הקישור יכולים לארגן, להוסיף ולערוך</string>
@@ -1319,38 +1184,13 @@
     <string name="sharing_role_reader">יכול להציג</string>
     <string name="sharing_role_unknown">גישה לא ידועה</string>
     <string name="sharing_role_writer">יכול לערוך</string>
-    <string name="sharing_server_error_generic_all">לא ניתן לשתף את הפריט.</string>
-    <string name="sharing_server_error_more">לא ניתן לשתף את הפריט עם %1$s.</string>
-    <string name="sharing_server_error_one">לא ניתן לשתף את הפריט עם %1$s.</string>
-    <string name="sharing_server_error_partial_summary">לא משותף עם כל המשתמשים</string>
-    <string name="sharing_server_error_restricted_all">פריט זה מכיל תוכן מוגבל ולא ניתן לשתף אותו.</string>
-    <string name="sharing_server_error_restricted_more">הפריט מכיל תוכן מוגבל ולא ניתן לשתף אותו עם %1$s, מפני שהכתובת הזו מחוץ לארגון שלך.</string>
-    <string name="sharing_server_error_restricted_one">הפריט מכיל תוכן מוגבל ולא ניתן לשתף אותו עם %1$s, מפני שהכתובת הזו מחוץ לארגון שלך.</string>
-    <string name="sharing_server_error_restricted_three">הפריט מכיל תוכן מוגבל ולא ניתן לשתף אותו עם %1$s, %2$s ו-%3$s, מפני שהכתובות האלו מחוץ לארגון שלך.</string>
-    <string name="sharing_server_error_restricted_two">הפריט מכיל תוכן מוגבל ולא ניתן לשתף אותו עם %1$s ועם %2$s, מפני שהכתובות האלו מחוץ לארגון שלך.</string>
-    <string name="sharing_server_error_summary">אינך יכול לשתף פריט זה</string>
-    <string name="sharing_server_error_three">לא ניתן לשתף את הפריט עם %1$s, %2$s ו-%3$s.</string>
-    <string name="sharing_server_error_two">לא ניתן לשתף את הפריט עם %1$s ועם %2$s.</string>
-    <string name="sharing_server_success_more">הפריט %1$s שותף עם %2$s מפני שהכתובת הזו בארגון שלך.</string>
-    <string name="sharing_server_success_one">הפריט %1$s שותף עם %2$s מפני שהכתובת הזו בארגון שלך.</string>
-    <string name="sharing_server_success_three">הפריט %1$s שותף עם %2$s, %3$s ו-%4$s מפני שהכתובות האלו בארגון שלך.</string>
-    <string name="sharing_server_success_two">הפריט %1$s שותף עם %2$s ועם %3$s מפני שהכתובות האלו בארגון שלך.</string>
-    <string name="sharing_server_warning_more">האם אתה בטוח שברצונך לשתף את הפריט עם %1$s?</string>
-    <string name="sharing_server_warning_one">האם אתה בטוח שברצונך לשתף את הפריט עם %1$s?</string>
-    <string name="sharing_server_warning_summary">לשתף עם משתמשים חיצוניים?</string>
-    <string name="sharing_server_warning_three">האם אתה בטוח שברצונך לשתף את הפריט עם %1$s, %2$s ו-%3$s?</string>
-    <string name="sharing_server_warning_two">האם אתה בטוח שברצונך לשתף את הפריט עם %1$s ועם %2$s?</string>
     <string name="sharing_show_smartprofile_content_description">‏פתח Smart Profile של %s</string>
     <string name="sharing_show_who_has_access">מי יכול לגשת - הקש כדי לנהל את שותפי העריכה.</string>
-    <string name="sharing_undo_role_failure">שגיאה. הביטול נכשל.</string>
-    <string name="sharing_undo_role_success">עדכון הגדרות השיתוף בוטל.</string>
     <string name="shortcut_created">קיצור הדרך נוסף למסך דף הבית</string>
     <string name="shortcut_creation_failed">אין אפשרות ליצור קיצור דרך</string>
     <string name="show_account_list">הצג חשבונות</string>
     <string name="sign_in">היכנס</string>
     <string name="slider_title_all_items">כל הפריטים</string>
-    <string name="sms">‏הודעות SMS</string>
-    <string name="sms_message">הגיבוי כולל הודעות שנשלחו והודעות שהתקבלו.</string>
     <string name="sorting_label_for_creation_time_shorten">תאריך יצירה</string>
     <string name="sorting_label_for_last_modified_shorten">שינוי אחרון</string>
     <string name="sorting_label_for_modified_by_me_shorten">אני שיניתי</string>
@@ -1360,32 +1200,25 @@
     <string name="sorting_order_ascending">סדר עולה</string>
     <string name="sorting_order_descending">סדר יורד</string>
     <string name="status_bar_notification_info_overflow">‎999+‎</string>
-    <string name="storage_info">‏הגיבוי לא נכלל במכסת אחסון כלשהי ב-Drive</string>
     <string name="storage_upgrade">שדרוג האחסון</string>
-    <string name="storage_upgraded_help_card_content">‏בכל חודש תחויב ב-%1$s עבור נפח אחסון של %2$s המשותף ל-Gmail‏,‏ Google Drive ותמונות Google. תמיד תוכל לבטל את התוכנית או לשנות אותה. ייתכן שיחלפו 24 שעות עד שתוכנית האחסון החדשה שלך תהיה זמינה.</string>
-    <string name="storage_upgraded_help_card_help_button">עזרה</string>
-    <string name="storage_upgraded_help_card_title">תודה</string>
+    <string name="storage_upgraded_help_card_contact_button">צור קשר</string>
+    <string name="storage_upgraded_help_card_content">‏שדרגת לנפח אחסון של %1$s ב-Google Drive. עם רכישה זו תקבל גם גישה מועדפת לתמיכה בטלפון, באימייל ובצ‘אט. תוכל תמיד לפנות אלינו אם יש לך שאלות.</string>
+    <string name="storage_upgraded_help_card_title">קדימה, יש לך עוד מקום!</string>
     <string name="storage_used">%1$s מתוך %2$s בשימוש</string>
     <string name="storage_used_unlimited">%1$s בשימוש</string>
     <string name="suggest_pin_dialog_message">הקובץ אינו זמין במצב לא מקוון. האם להגדיר אותו כזמין בפעם הבאה שתעבור למצב לא מקוון?</string>
     <string name="suggest_pin_dialog_negative_button">לא, תודה</string>
     <string name="suggest_pin_dialog_positive_button">הגדר כזמין במצב לא מקוון</string>
     <string name="suggest_pin_dialog_title">אין חיבור</string>
-    <string name="switch_account_help_card_button">החלף חשבון</string>
-    <string name="switch_account_help_card_content">המכשיר הזה מגובה בחשבון אחר. %s</string>
-    <string name="switch_account_help_card_title">גיבוי בחשבון אחר</string>
     <string name="switch_backup_account">החלפת חשבון בהגדרות גיבוי</string>
     <string name="sync_failed">‏שגיאה בסנכרון של Google Drive</string>
     <string name="sync_more">טען עוד...</string>
     <string name="sync_more_error">שגיאה באחזור פריטים נוספים</string>
     <string name="sync_more_error_offline">ייתכן שחלק מהמסמכים לא יוצגו במצב לא מקוון.</string>
+    <string name="tap_to_retry">הקש כדי לנסות שוב</string>
+    <string name="tap_to_view_who_has_access">הקש כדי לראות למי יש גישה</string>
     <string name="targetviewintro_close_button">הבנתי</string>
     <string name="td_downgrade_not_allowed">ניתן לשדרג גישה רק לחברים הכלולים באחסון קבוצתי מסוים.</string>
-    <string name="td_members_access">%1$d חברים</string>
-    <string name="td_sharing_message_add_users_one">%2$s נוסף/ה אל %1$s</string>
-    <string name="td_sharing_message_add_users_two">%2$s וגם %3$s נוספו אל %1$s</string>
-    <string name="team_drive_empty_list_message_can_create">אחסון קבוצתי הוא שטח המשותף לכל חברי הצוות לשיתוף פעולה, ואפשר להתאים אותו לאופי של הצוות.</string>
-    <string name="team_drive_empty_list_message_cannot_create">אחסון קבוצתי הוא שטח המשותף לכל חברי הצוות לשיתוף פעולה. כשתצטרף לאחסון קבוצתי, הוא יופיע כאן.</string>
     <string name="thumbnail_open">פתיחה</string>
     <string name="time_range_1_day">יום אחד</string>
     <string name="time_range_days">%1$d ימים</string>
@@ -1397,27 +1230,16 @@
     <string name="title_send_intent">שלח קובץ: %1$s באמצעות</string>
     <string name="title_show_files">%1$d מתוך %2$d</string>
     <string name="transfer_notification_waiting_content">‏ממתין לרשת Wi-Fi.</string>
+    <string name="trash_delete_forever_confirm">מחק לצמיתות</string>
+    <string name="trash_delete_forever_question">מחק לצמיתות</string>
     <string name="trash_delete_forever_success">פריט אחד נמחק.</string>
-    <string name="turnoff_backup">השבתת גיבוי</string>
-    <string name="turnoff_backup_confirm_button">השבת</string>
-    <string name="turnoff_backup_error_message">לא ניתן להשבית את הגיבוי.</string>
-    <string name="turnoff_backup_progress_message">משבית את הגיבוי</string>
-    <string name="turnoff_whatsapp_backup_confirmation_message">"‏הפעולה הזו תפסיק את הגיבוי של צ'אטים ומדיה ב-WhatsApp בכל המכשירים:
-
-%s
-כדי להפעיל שוב את הגיבוי, עבור אל הגדרות > צ'אטים > גיבוי צ'אטים ב-WhatsApp."</string>
-    <string name="turnoff_whatsapp_backup_title">‏להשבית את הגיבוי של WhatsApp?</string>
-    <string name="tutorial_upload_complete_body">‏גישה לקובץ מכל מכשיר שממנו אתה מתחבר אל Drive</string>
-    <string name="tutorial_upload_complete_header">‏הוספת את הקובץ ל-Drive</string>
-    <string name="tutorial_upload_fab_hint_text">‏הקש על סימן החיבור כדי להוסיף קבצים מהמכשיר הזה ל-Drive כדי שתוכל לגשת אליהם מכל מקום.</string>
-    <string name="unable_to_preview">לא ניתן להציג קובץ בתצוגה מקדימה.</string>
+    <string name="trash_delete_forever_warning">‏הפריט הזה יימחק לצמיתות מ-Drive. לא ניתן לבטל את הפעולה הזו.</string>
     <string name="unified_actions_add_to_drive">"הוספה אל 'האחסון שלי'"</string>
-    <string name="unified_link_sharing_is_off">השיתוף באמצעות קישור מושבת</string>
-    <string name="unified_link_sharing_is_on">השיתוף באמצעות קישור מופעל</string>
+    <string name="unified_link_sharing_is_off">השיתוף של קישורים מושבת</string>
+    <string name="unified_link_sharing_is_on">השיתוף של קישורים מופעל</string>
     <string name="unknown_album">אלבום לא ידוע</string>
     <string name="unknown_artist">אמן לא ידוע</string>
     <string name="unsupported_file">אין תמיכה בסוג הקובץ הזה.</string>
-    <string name="untitled_audio">אודיו ללא שם</string>
     <string name="untrash_and_open_message">עליך לשחזר את הקובץ מהאשפה כדי שתוכל לגשת אל %1$s.</string>
     <string name="untrash_and_open_not_allowed_message">הבעלים העביר את %1$s לאשפה.</string>
     <string name="untrash_and_open_positive_button">שחזר מהאשפה</string>
@@ -1436,7 +1258,6 @@
     <string name="upload_incomplete">העלאה חלקית</string>
     <string name="upload_multiple_document_titles">שמות מסמכים</string>
     <string name="upload_notification_cancel_title">ההעלאה בוטלה</string>
-    <string name="upload_notification_failure_folder">לא ניתן להעלות תיקייה</string>
     <string name="upload_notification_failure_no_retry_title">ההעלאה נכשלה</string>
     <string name="upload_notification_failure_ticker">ההעלאה נכשלה</string>
     <string name="upload_notification_more_files">+%1$d נוספים</string>
@@ -1481,14 +1302,6 @@
     <string name="welcome_title">"‏חלונית 'ברוכים הבאים' של Google Drive."</string>
     <string name="welcome_title_announce">"‏חלונית 'הודעות' של Google Drive."</string>
     <string name="welcome_title_highlights">"‏חלונית 'הודעות' של Google Drive."</string>
-    <string name="whatsapp">WhatsApp</string>
-    <string name="whatsapp_message">"‏הצ'אטים והמדיה שלך (כולל תמונות, סרטונים, אודיו ומסמכים) מגובים ב-Google Drive. אם תחליף מכשיר, תוכל לשחזר אותם אחרי שתתקין מחדש את WhatsApps."</string>
-    <string name="whatsapp_turned_off_message">"‏הגיבוי מושבת.
-הגיבוי האחרון בוצע ב-%s
-
-הצ'אטים והמדיה שלך (כולל תמונות, סרטונים, אודיו ומסמכים) מגובים ב-Google Drive. אם תחליף מכשיר, תוכל לשחזר אותם אחרי שתתקין מחדש את WhatsApp.
-
-כדי להפעיל שוב את הגיבוי, עבור אל הגדרות > צ'אטים ב-WhatsApp."</string>
     <string name="widget_account_missing">שגיאה: החשבון לא נמצא. בדוק את הגדרות החשבון שלך: %1$s.</string>
     <string name="widget_configuration_missing">"שגיאה: התצורה אבדה. הסר את הווידג'ט הזה ולאחר מכן הוסף אותו שוב."</string>
     <string name="widget_initializing">מאתחל...</string>
@@ -1511,7 +1324,6 @@
     <string name="zss_remove_all_filters_button_content_description">הסר את כל המסננים</string>
     <string name="zss_remove_filter_button_content_description">הסר את המסנן: %1$s</string>
     <string name="zss_showing_list_of_filters">מציג רשימה של מסננים זמינים.</string>
-    <string name="zss_team_drive">חיפוש באחסון הקבוצתי %1$s</string>
     <string name="zss_type_archive">ארכיון</string>
     <string name="zss_type_audio">אודיו</string>
     <string name="zss_type_documents">מסמכי טקסט</string>

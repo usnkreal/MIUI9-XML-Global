@@ -18,28 +18,4 @@
         <item quantity="two">לפני יומיים</item>
         <item quantity="many">לפני %d ימים</item>
     </plurals>
-    <plurals name="accessibility_toolbar_btn_tabswitcher_toggle">
-        <item quantity="other">‏%1$d כרטיסיות פתוחות</item>
-        <item quantity="one">כרטיסייה פתוחה אחת</item>
-        <item quantity="two">שתי כרטיסיות פתוחות</item>
-        <item quantity="many">‏%1$d כרטיסיות פתוחות</item>
-    </plurals>
-    <plurals name="accessibility_selected_items">
-        <item quantity="other">נבחרו %d פריטים</item>
-        <item quantity="one">נבחר פריט אחד</item>
-        <item quantity="two">נבחרו %d פריטים</item>
-        <item quantity="many">נבחרו %d פריטים</item>
-    </plurals>
-    <plurals name="accessibility_share_selected_items">
-        <item quantity="other">שתף %d פריטים שנבחרו</item>
-        <item quantity="one">שתף פריט אחד שנבחר</item>
-        <item quantity="two">שתף %d פריטים שנבחרו</item>
-        <item quantity="many">שתף %d פריטים שנבחרו</item>
-    </plurals>
-    <plurals name="accessibility_remove_selected_items">
-        <item quantity="other">הסר %d פריטים שנבחרו</item>
-        <item quantity="one">הסר פריט אחד שנבחר</item>
-        <item quantity="two">הסר %d פריטים שנבחרו</item>
-        <item quantity="many">הסר %d פריטים שנבחרו</item>
-    </plurals>
 </resources>

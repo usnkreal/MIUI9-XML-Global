@@ -24,34 +24,6 @@
         <item>Varsler vises i meldingsskyggen</item>
         <item>Varsler vises i en egen mappe</item>
     </string-array>
-    <string-array name="wifi_status">
-        <item></item>
-        <item>Skanner…</item>
-        <item>Kobler til…</item>
-        <item>Autentiserer…</item>
-        <item>Henter IP-adresse…</item>
-        <item>Tilkoblet</item>
-        <item>Suspendert</item>
-        <item>Kobler fra…</item>
-        <item>Frakoblet</item>
-        <item>Mislykket</item>
-        <item>Blokkert</item>
-        <item>Unngår dårlig forbindelse midlertidig</item>
-    </string-array>
-    <string-array name="wifi_status_with_ssid">
-        <item></item>
-        <item>Skanner…</item>
-        <item>Kobler til %1$s…</item>
-        <item>Autentiserer med %1$s…</item>
-        <item>Henter IP-adresse fra %1$s…</item>
-        <item>Tilkoblet til %1$s</item>
-        <item>Suspendert</item>
-        <item>Kobler fra %1$s…</item>
-        <item>Frakoblet</item>
-        <item>Mislykket</item>
-        <item>Blokkert</item>
-        <item>Unngår dårlig forbindelse midlertidig</item>
-    </string-array>
     <string-array name="timezone_filters">
         <item>Amerika</item>
         <item>Europa</item>
@@ -95,29 +67,18 @@
         <item>Liten</item>
         <item>Normal</item>
         <item>Stor</item>
-        <item>Kjempestor</item>
+        <item>Diger</item>
     </string-array>
     <string-array name="tts_rate_entries">
-        <item>Veldig sakte</item>
-        <item>Sakte</item>
-        <item>Normal</item>
+        <item>Svært langsom</item>
+        <item>Langsom</item>
+        <item>Vanlig</item>
         <item>Rask</item>
         <item>Raskere</item>
         <item>Veldig rask</item>
         <item>Rask</item>
         <item>Veldig rask</item>
         <item>Raskest</item>
-    </string-array>
-    <string-array name="tts_rate_values">
-        <item>60</item>
-        <item>80</item>
-        <item>100</item>
-        <item>150</item>
-        <item>200</item>
-        <item>250</item>
-        <item>300</item>
-        <item>350</item>
-        <item>400</item>
     </string-array>
     <string-array name="tts_pitch_entries">
         <item>Svært lav</item>
@@ -126,20 +87,39 @@
         <item>Høy</item>
         <item>Svært høy</item>
     </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Skanner ...</item>
+        <item>Kobler til …</item>
+        <item>Autentiserer ...</item>
+        <item>Henter IP-adresse …</item>
+        <item>Tilkoblet</item>
+        <item>Avsluttet</item>
+        <item>Kobler fra ...</item>
+        <item>Frakoblet</item>
+        <item>Mislyktes</item>
+        <item>Blokkert</item>
+        <item>Unngår dårlig tilkobling midlertidig</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Skanner ...</item>
+        <item>Kobler til %1$s …</item>
+        <item>Autentiserer med %1$s …</item>
+        <item>Henter IP-adresse fra %1$s …</item>
+        <item>Koblet til %1$s</item>
+        <item>Avsluttet</item>
+        <item>Kobler fra %1$s …</item>
+        <item>Frakoblet</item>
+        <item>Mislyktes</item>
+        <item>Blokkert</item>
+        <item>Unngår dårlig tilkobling midlertidig</item>
+    </string-array>
     <string-array name="wifi_eap_method">
         <item>PEAP</item>
         <item>TLS</item>
         <item>TTLS</item>
         <item>Passord</item>
-        <item>SIM-kort</item>
-        <item>AKA</item>
-        <item>"AKA'"</item>
-    </string-array>
-    <string-array name="eap_method_without_sim_auth">
-        <item>PEAP</item>
-        <item>TLS</item>
-        <item>TTLS</item>
-        <item>PWD</item>
     </string-array>
     <string-array name="wifi_p2p_wps_setup">
         <item>Trykk på knappen</item>
@@ -179,6 +159,10 @@
         <item>De siste 30 dagene</item>
         <item>Angi brukssyklus</item>
     </string-array>
+    <string-array name="sim_card_data_range">
+        <item>De siste fire sifrene</item>
+        <item>De første fire sifrene</item>
+    </string-array>
     <string-array name="wifi_frequency_band_entries">
         <item>Automatisk</item>
         <item>Kun 5 GHz</item>
@@ -213,7 +197,7 @@
     </string-array>
     <string-array name="wifi_proxy_settings">
         <item>Ingen</item>
-        <item>Manuell</item>
+        <item>Manuelt</item>
         <item>Auto-konfig. av proxy</item>
     </string-array>
     <string-array name="apn_auth_entries">
@@ -228,22 +212,9 @@
         <item>IPv4/IPv6</item>
     </string-array>
     <string-array name="bearer_entries">
-        <item>Ikke spesifisert</item>
         <item>LTE</item>
-        <item>HSPAP</item>
-        <item>HSPA</item>
-        <item>HSUPA</item>
-        <item>HSDPA</item>
-        <item>UMTS</item>
-        <item>EDGE</item>
-        <item>GPRS</item>
         <item>eHRPD</item>
-        <item>EVDO_B</item>
-        <item>EVDO_A</item>
-        <item>EVDO_0</item>
-        <item>1xRTT</item>
-        <item>IS95B</item>
-        <item>IS95A</item>
+        <item>Uspesifisert</item>
     </string-array>
     <string-array name="mvno_type_entries">
         <item>Ingen</item>
@@ -311,9 +282,6 @@
         <item>slå mikrofonen av eller på</item>
         <item>projiser media</item>
         <item>aktivér VPN</item>
-        <item>angi bakgrunn</item>
-        <item>assistansestruktur</item>
-        <item>assistanseskjermdump</item>
     </string-array>
     <string-array name="app_ops_labels">
         <item>Sted</item>
@@ -363,9 +331,6 @@
         <item>Slå mikrofonen av eller på</item>
         <item>Projiser media</item>
         <item>Aktivér VPN</item>
-        <item>Angi bakgrunn</item>
-        <item>Assistansestruktur</item>
-        <item>Assistanseskjermdump</item>
     </string-array>
     <string-array name="long_press_timeout_selector_titles">
         <item>Kort</item>
@@ -405,7 +370,7 @@
         <item>100 %</item>
     </string-array>
     <string-array name="captioning_preset_selector_titles">
-        <item>Bruk appens standardvalg</item>
+        <item>Bruk standardinnstillingene i appen</item>
         <item>Hvitt på svart</item>
         <item>Svart på hvitt</item>
         <item>Gult på svart</item>
@@ -413,106 +378,99 @@
         <item>Egendefinert</item>
     </string-array>
     <string-array name="select_logd_size_titles">
-        <item>Av</item>
-        <item>64 KB</item>
-        <item>256 KB</item>
+        <item>64 kB</item>
+        <item>256 kB</item>
         <item>1 MB</item>
         <item>4 MB</item>
         <item>16 MB</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
-        <item>Av</item>
-        <item>64 KB</item>
-        <item>256 KB</item>
-        <item>1 MB</item>
+        <item>64 000</item>
+        <item>256 000</item>
+        <item>1 million</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
-        <item>Av</item>
-        <item>64 KB per loggbuffer</item>
-        <item>256 KB per loggbuffer</item>
-        <item>1 MB per loggbuffer</item>
-        <item>4 MB per loggbuffer</item>
-        <item>16 MB per loggbuffer</item>
+        <item>64 kB pr loggbuffer</item>
+        <item>256 kB pr buffer</item>
+        <item>1 MB pr loggbuffer</item>
+        <item>4 MB pr loggbuffer</item>
+        <item>16 MB pr loggbuffer</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
-        <item>Aldri sjekk</item>
+        <item>Kontrollér aldri</item>
         <item>Se kun etter DRM-innhold</item>
-        <item>Sjekk alltid</item>
+        <item>Kontrollér alltid</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
-        <item>Alri bruk HDCP-sjekk</item>
-        <item>Bruk kun HDCP-sjekk etter DRM-innhold</item>
-        <item>Bruk alltid HDCP-sjekk</item>
+        <item>Bruk aldri HDCP-kontroll</item>
+        <item>Bruk HDCP-kontroll kun for DRM-innhold</item>
+        <item>Bruk alltid HDCP-kontroll</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
-        <item>Animasjon av</item>
-        <item>Animasjonsskala 0,5x</item>
-        <item>Animasjonsskala 1x</item>
-        <item>Animasjonsskala 1,5x</item>
-        <item>Animasjonsskala 2x</item>
-        <item>Animasjonsskala 5x</item>
-        <item>Animasjonsskala 10x</item>
+        <item>Animasjon deaktivert</item>
+        <item>Animasjonsskala 0,5 x</item>
+        <item>Animasjonsskala 1 x</item>
+        <item>Animasjonsskala 1,5 x</item>
+        <item>Animasjonsskala 2 x</item>
+        <item>Animasjonsskala 5 x</item>
+        <item>Animasjonsskala 10 x</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
-        <item>Animasjon av</item>
-        <item>Animasjonsskala 0,5x</item>
-        <item>Animasjonsskala 1x</item>
-        <item>Animasjonsskala 1,5x</item>
-        <item>Animasjonsskala 2x</item>
-        <item>Animasjonsskala 5x</item>
-        <item>Animasjonsskala 10x</item>
+        <item>Animasjon deaktivert</item>
+        <item>Animasjonsskala 0,5 x</item>
+        <item>Animasjonsskala 1 x</item>
+        <item>Animasjonsskala 1,5 x</item>
+        <item>Animasjonsskala 2 x</item>
+        <item>Animasjonsskala 5 x</item>
+        <item>Animasjonsskala 10 x</item>
     </string-array>
     <string-array name="animator_duration_scale_entries">
-        <item>Animasjon av</item>
-        <item>Animasjonsskala 0,5x</item>
-        <item>Animasjonsskala 1x</item>
-        <item>Animasjonsskala 1,5x</item>
-        <item>Animasjonsskala 2x</item>
-        <item>Animasjonsskala 5x</item>
-        <item>Animasjonsskala 10x</item>
+        <item>Animasjon deaktivert</item>
+        <item>Animasjonsskala 0,5 x</item>
+        <item>Animasjonsskala 1 x</item>
+        <item>Animasjonsskala 1,5 x</item>
+        <item>Animasjonsskala 2 x</item>
+        <item>Animasjonsskala 5 x</item>
+        <item>Animasjonsskala 10 x</item>
     </string-array>
     <string-array name="overlay_display_devices_entries">
         <item>Ingen</item>
-        <item>480p</item>
-        <item>480p (sikker)</item>
-        <item>720p</item>
-        <item>720p (sikker)</item>
-        <item>1080p</item>
-        <item>1080p (sikker)</item>
-        <item>4K</item>
-        <item>4K (sikker)</item>
-        <item>4K (oppskalert)</item>
-        <item>4K (oppskalert, sikker)</item>
-        <item>720p, 1080p (dobbel skjerm)</item>
+        <item>720 x 480 mdpi</item>
+        <item>720 x 480 mdpi (sikker)</item>
+        <item>1280 x 720 tvdpi</item>
+        <item>1280 x 720 tvdpi (sikker)</item>
+        <item>1920 x 1080 xhdpi</item>
+        <item>1920 x 1080 xhdpi (sikker)</item>
+        <item>1280 x 720 tvdpi og 1920 x 1080 xhdpi</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>Ingen</item>
         <item>Logcat</item>
         <item>Systrace (grafikk)</item>
-        <item>Kallstakk på glGetError</item>
+        <item>Kall-stack ved glGetError</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
         <item>Av</item>
-        <item>Tegn ikke-rektangulært klippeområde i blått</item>
-        <item>Fremhev testede tegningskommandoer i grønt</item>
+        <item>Merk område for ikke-rektangulær klipping blått</item>
+        <item>Uthev testede tegnekommandoer grønt</item>
     </string-array>
     <string-array name="track_frame_time_entries">
         <item>Av</item>
-        <item>På skjermen som linjer</item>
-        <item>In adb shell dumpsys gfxinfo</item>
+        <item>Viser på skjermen som stolper</item>
+        <item>I adb shell dumpsys gfxinfo</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
         <item>Av</item>
         <item>Vis overtrekksområder</item>
-        <item>Vis områder for grønnblindhet</item>
+        <item>Vis områder for deuteranomali</item>
     </string-array>
     <string-array name="app_process_limit_entries">
-        <item>Standardgrense</item>
+        <item>Standard grense</item>
         <item>Ingen bakgrunnsprosesser</item>
-        <item>Én prosess på det meste</item>
-        <item>To prosesser på det meste</item>
-        <item>Tre prosesser på det meste</item>
-        <item>Fire prosesser på det meste</item>
+        <item>Maksimalt én prosess</item>
+        <item>Maksimalt to prosesser</item>
+        <item>Maksimalt tre prosesser</item>
+        <item>Maksimalt fire prosesser</item>
     </string-array>
     <string-array name="vpn_types_long">
         <item>PPTP VPN</item>
@@ -536,11 +494,15 @@
         <item>Alltid tillat</item>
     </string-array>
     <string-array name="ram_states">
-        <item>Vanlig</item>
-        <item>Moderat</item>
-        <item>Lav</item>
-        <item>Kritisk</item>
-        <item>\?</item>
+        <item>normalt</item>
+        <item>moderat</item>
+        <item>lav</item>
+        <item>svært viktig</item>
+    </string-array>
+    <string-array name="entries_zen_mode">
+        <item>Av</item>
+        <item>Begrensede forstyrrelser</item>
+        <item>Ingen forstyrrelser</item>
     </string-array>
     <string-array name="proc_stats_memory_states">
         <item>Normal</item>
@@ -563,30 +525,6 @@
         <item>Bufret (aktivitet)</item>
         <item>Bufret (aktivitetsklient)</item>
         <item>Bufret (tom)</item>
-    </string-array>
-    <string-array name="color_picker">
-        <item>Blågrønn</item>
-        <item>Blå</item>
-        <item>Indigo</item>
-        <item>Lilla</item>
-        <item>Rosa</item>
-        <item>Rød</item>
-    </string-array>
-    <string-array name="usb_configuration_titles">
-        <item>@string/usb_use_charging_only</item>
-        <item>MTP (Media Transfer Protocol)</item>
-        <item>PTP (Picture Transfer Protocol)</item>
-        <item>RNDIS (USB Ethernet)</item>
-        <item>Lydkilde</item>
-        <item>MIDI</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_choices">
-        <item>Wi-Fi er foretrukket</item>
-        <item>Mobil er foretrukket</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_values">
-        <item>2</item>
-        <item>1</item>
     </string-array>
     <string-array name="haptic_feedback_level_texts">
         <item>Av</item>
@@ -640,10 +578,6 @@
         <item>Hvit</item>
         <item>Fiolett</item>
     </string-array>
-    <string-array name="screen_key_position_action">
-        <item>Oversikt-knappen til venstre, Tilbake-knappen til høyre</item>
-        <item>Tilbake-knappen til venstre, Oversikt-knappen til høyre</item>
-    </string-array>
     <string-array name="screen_key_press_action">
         <item>Vis nylige app-skuffer</item>
         <item>Vis meny</item>
@@ -666,7 +600,7 @@
     <string-array name="long_press_volume_down_action">
         <item>Ingen</item>
         <item>Quick snap-modus (foto)</item>
-        <item>Quick snap mode (video)</item>
+        <item>Quick snap-modus (video)</item>
         <item>Offentlig transport snarveier</item>
     </string-array>
     <string-array name="button_light_timeout_entries">
@@ -675,12 +609,12 @@
         <item>5 sekunder</item>
         <item>10 sekunder</item>
         <item>20 sekunder</item>
-        <item>Alltid</item>
+        <item>Alltid på</item>
     </string-array>
     <string-array name="wfd_status">
         <item>Starter sesjon…</item>
         <item>Sesjon startet</item>
-        <item>Skrur av tjeneste…</item>
+        <item>Skru av tjeneste…</item>
         <item>Kunne ikke starte sesjon</item>
         <item>Tidsavbrudd. Prøv igjen…</item>
         <item>Enhet tilkoblet</item>
@@ -774,16 +708,6 @@ Note: Kun for Ubuntu 8.04!"</item>
     <string-array name="wifi_ssid_type_entries">
         <item>Koble til automatisk</item>
         <item>Koble til manuelt</item>
-    </string-array>
-    <string-array name="traffic_balance_entries">
-        <item>Av</item>
-        <item>Regular mode</item>
-        <item>Lite-modus</item>
-    </string-array>
-    <string-array name="traffic_balance_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
     <string-array name="preferred_app_entries">
         <item>Starter</item>
@@ -889,7 +813,7 @@ Note: Kun for Ubuntu 8.04!"</item>
         <item>Normal (720p)</item>
     </string-array>
     <string-array name="miui_entries_font_size">
-        <item>L</item>
+        <item>S</item>
         <item>M</item>
         <item>L</item>
         <item>XL</item>
@@ -961,11 +885,27 @@ Note: Kun for Ubuntu 8.04!"</item>
         <item>App-lås</item>
         <item>Andre område</item>
     </string-array>
-    <string-array name="screen_button_style">
-        <item>Venstrehendt</item>
-        <item>Høyrehendt</item>
-    </string-array>
     <string-array name="city_name">
+        <item>Midway</item>
+        <item>Regina</item>
+        <item>Manaus</item>
+        <item>Recife</item>
+        <item>Godthab</item>
+        <item>South_Georgia</item>
+        <item>Azorene</item>
+        <item>Windhoek</item>
+        <item>Tblisi</item>
+        <item>Jerevan</item>
+        <item>Oral</item>
+        <item>Jekaterinburg</item>
+        <item>Katmandu</item>
+        <item>Krasnoyarsk</item>
+        <item>Irkutsk</item>
+        <item>Jakutsk</item>
+        <item>Hobart</item>
+        <item>Vladivostok</item>
+        <item>Magadan</item>
+        <item>Majuro</item>
         <item>Abidjan</item>
         <item>Accra</item>
         <item>Addis Ababa</item>
@@ -1409,16 +1349,16 @@ Note: Kun for Ubuntu 8.04!"</item>
         <item>Ukedager</item>
         <item>Tilpasset</item>
     </string-array>
+    <string-array name="standard_configuration_version">
+        <item>3,00 GB</item>
+        <item>16 GB</item>
+        <item>Quad-core Max 2,5 GHz</item>
+    </string-array>
     <string-array name="privacy_password_function_specfication_names">
         <item>Meldinger</item>
         <item>Bilder</item>
         <item>Filer</item>
         <item>Notater</item>
-    </string-array>
-    <string-array name="standard_configuration_version">
-        <item>3,00 GB</item>
-        <item>16 GB</item>
-        <item>Quad-core Max 2,5 GHz</item>
     </string-array>
     <string-array name="install_non_market_app_entries">
         <item>Aktiver (anbefalt)</item>
@@ -1427,21 +1367,6 @@ Note: Kun for Ubuntu 8.04!"</item>
     <string-array name="install_non_market_app_contents">
         <item>Slå på</item>
         <item>Ikke bruk</item>
-    </string-array>
-    <string-array name="color_mode_names">
-        <item>Levende (standard)</item>
-        <item>Naturlig</item>
-        <item>Standard</item>
-    </string-array>
-    <string-array name="color_mode_descriptions">
-        <item>Forbedrede farger</item>
-        <item>Naturlige farger som øyet ser dem</item>
-        <item>Farger optimalisert for digitalt innhold</item>
-    </string-array>
-    <string-array name="battery_labels">
-        <item>0 %</item>
-        <item>50 %</item>
-        <item>100 %</item>
     </string-array>
     <string-array name="standard_configuration_version_description_primary">
         <item>CPU</item>
@@ -1452,7 +1377,7 @@ Note: Kun for Ubuntu 8.04!"</item>
         <item>Android-versjon</item>
     </string-array>
     <string-array name="standard_configuration_version_description_secondary">
-        <item>Snapdragon 430</item>
+        <item>Snapdragon 616</item>
         <item>4000 mAh (typ)</item>
         <item>13 MP</item>
         <item>5 tommer</item>

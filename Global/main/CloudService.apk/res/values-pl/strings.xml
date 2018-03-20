@@ -173,8 +173,7 @@ W przypadku zmiany kart SIM zostanie wysłany SMS w celu reaktywacji usługi."</
     <string name="micloud_user_space_usage">Użycie miejsca na dysku</string>
     <string name="micloud_web_discription_01">Zaloguj się na i.mi.com</string>
     <string name="micloud_web_discription_02">by zapisywać i uzyskać dostęp do plików gdziekolwiek jesteś</string>
-    <string name="micloud_web_discription">Odwiedź i.mi.com</string>
-    <string name="micloud_web_discription_international">Odwiedź www.mi.com/micloud</string>
+    <string name="micloud_web_discription_place_holder">Odwiedź %1$s</string>
     <string name="micloud_full_influence_title">Gdy zabraknie miejsca na dysku w Chmurze…</string>
     <string name="micloud_warn_low_title">Prawie skończyło się miejsce</string>
     <string name="micloud_warn_low_sum">Przestrzeń na dysku użyta w 90%</string>
@@ -513,7 +512,7 @@ podczas połączenia z Wi-Fi Ostatnia kopia: %2$s"</string>
     <string name="micloud_find_device_close_alert_positive">Utrzymuj</string>
     <string name="micloud_find_device_close_alert_negtive">Wyłącz</string>
     <string name="find_device_gdpr_prompt">Włączając funkcję Znajdź urządzenie, zgadzasz się z naszą Polityką prywatności. Jeśli chcesz unieważnić autoryzację, wyłącz tą funkcję.</string>
-    <string name="find_device_gdpr_prompt_policy_doc_name">Privacy Policy</string>
+    <string name="find_device_gdpr_prompt_policy_doc_name">Polityka prywatności</string>
     <string name="activate_finddevice">Połącz z siecią w celu aktywacji urządzenia</string>
     <string name="account_related">To urządzenie jest już powiązane z istniejącym kontem Xiaomi (%s). Połącz z siecią, aby zweryfikować urządzenie.</string>
     <string name="connect_network">Połącz z Wi-Fi lub włóż kartę SIM</string>

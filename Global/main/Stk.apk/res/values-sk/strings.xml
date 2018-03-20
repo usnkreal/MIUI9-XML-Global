@@ -25,8 +25,8 @@
     <string name="default_close_channel_msg">Kanál zatvorený</string>
     <string name="stk_dialog_accept">ÁNO</string>
     <string name="stk_dialog_reject">NIE</string>
-    <string name="no_sim_card_inserted">Pre spustenie súpravy SIM vložte SIM kartu.</string>
     <string name="stk_intent_permission">Vyžadujú sa povolenia</string>
+    <string name="no_sim_card_inserted">Pre spustenie súpravy SIM vložte SIM kartu.</string>
     <string name="sim_type_sim_name">Súprava SIM</string>
     <string name="sim_type_usim_name">Súprava USIM</string>
     <string name="sim_type_uim_name">Súprava UIM</string>

@@ -89,7 +89,7 @@
         <item quantity="one">Не е използвано от %d година</item>
     </plurals>
     <plurals name="resutl_function_install_app_summary">
-        <item quantity="other">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> приложения не са използвани от много време. Вижте кои са.;&lt;/Data></item>
-        <item quantity="one">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> приложение не е използвано от много време. Вижте кое е.;&lt;/Data></item>
+        <item quantity="other">&lt;Data>&amp;lt;font color=#ff0000 >%d&amp;lt;/font> приложения не са използвани от много време. Вижте кои са.;&lt;/Data></item>
+        <item quantity="one">&lt;Data>&amp;lt;font color=#ff0000 >%d&amp;lt;/font> приложение не е използвано от много време. Вижте кое е.;&lt;/Data></item>
     </plurals>
 </resources>

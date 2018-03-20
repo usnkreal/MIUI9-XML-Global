@@ -25,6 +25,7 @@
     <string name="deselect_all">Zrušit výběr</string>
     <string name="instruction">Instrukce</string>
     <string name="sar">Informace o vystavení RF</string>
+    <string name="user_experience_program">Optimalizace na základě uživatelské zkušenosti</string>
     <string name="abc_action_bar_up_description">Nahoru</string>
     <string name="abc_action_bar_home_description">Domů</string>
     <string name="time_picker_label_hour">H</string>

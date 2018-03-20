@@ -24,7 +24,13 @@
         <item>Cher</item>
         <item>Très cher</item>
     </string-array>
-    <array name="RESTRICTION_ALLOWED_PRICE_LEVEL_SHORT" />
+    <string-array name="RESTRICTION_ALLOWED_PRICE_LEVEL_SHORT">
+        <item>Tous les prix</item>
+        <item>$</item>
+        <item>$$</item>
+        <item>$$$</item>
+        <item>$$$$</item>
+    </string-array>
     <string-array name="RESTRICTION_ALLOWED_STARS">
         <item>Tous</item>
         <item>2.0</item>
@@ -37,7 +43,12 @@
         <item>Trois étoiles ou plus</item>
         <item>Quatre étoiles ou plus</item>
     </string-array>
-    <array name="RESTRICTION_ALLOWED_STARS_SHORT" />
+    <string-array name="RESTRICTION_ALLOWED_STARS_SHORT">
+        <item>Toutes les notes</item>
+        <item>2 étoiles et plus</item>
+        <item>3 étoiles et plus</item>
+        <item>4 étoiles et plus</item>
+    </string-array>
     <string-array name="RESTRICTION_HOTEL_CLASSES">
         <item>Tous</item>
         <item>3 étoiles</item>
