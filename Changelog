@@ -1,0 +1,61 @@
+8.x
+-
+-
+
+8.3.9
+- RAM status (translated to another language: GB, MB)
+- Fix crash Wallpaper Carousel
+
+8.3.1
+- Downgrade modem version, add from firmware 6.5.12 (MPSS.DI.4.0-63d722f)
+- Fix MiFit
+- Displaying avatars in Email
+- Fix DND mod
+- Turn off noise reduction
+- Fix size icon in Setting - Sound
+- Change Root icon in Settings
+
+8.2.1
+- Settings - Lock screen - Advanced - Activate the widget's vertical clock
+- Weather - Disabled chinese 2hours weather forecast8.1.25(updated 03.02.17)
+- Fixed Permissions
+- New Bootanimation
+- Fixed dark status bar in SecurityCenter
+- The Mi Space workspace is an alternative desktop - an additional component of some themes. It is not mandatory and, in particular, is not in the standard topic. The essence of MiSpace is to connect the shell interface, theme and widgets into one. Ability to place application shortcuts, widgets. Due to the absence of "desktop" borders, you can place shortcuts and widgets anywhere in the workspace
+- Added Languages
+8.1.4
+- Fixed notification counter on the application icon
+- Phone - Call - More - SIM auto-select time
+- Settings - Notifications - Off / On. graphic battery indicator
+- Changed the diameter of the photo for an outgoing call
+- Settings - Wireless networks - FTP (item added)
+- Settings - Lock Screen - Daily Wallpaper - Enable daily wallpaper
+- Grid of the working table (4х6,5х6)
+- Mi Service - Fix activation of the SIM card (instant activation after 2 failed attempts)
+- Advanced volume control of sounds - redrawing icons by DriffeX
+- Update item - Settings - Notifications - Change the position of the switches For one page & For two tabs
+- Settings - All applications - Documents (click include) in the future documents will not be disabled after reboot
+- The sound of connecting the charger ("Settings - Sound and Vibration")
+- Added item in Settings - "Resources - (Lock Screen, Wallpaper Lock, Icons, Wallpaper, Ringtone, Notifications, Font, etc.)"
+- The interface of the item has not been significantly changed - "Advanced"
+- Elements of the system interface
+- Settings - ROOT access (implemented as a quick access to the management of root rights)
+- Advanced Lock Screen (Settings - Advanced - For Developers: Lock Screen)
+- Extended lock screen (Calendar - select the beginning of the week in the "Monday or Sunday" calendar)
+- Extended lock screen (Calendar - Sunday days are marked in red)
+- Lock screen (Translation (Russian, Ukrainian, English), adaptation of graphics & background remaking and also its complete replacement, (deleted Chinese inscriptions), change of swype for the camera and phone ie. "horizontally as in a standard locksrine." A clock widget with a floating point. Increasing transparency when unlocking the screen. "Settings - Advanced - For Developers - Lock Screen".
+- Changing the switch grid for the 3x / 4x / 5x curtain (Settings - Notifications - Change the position of the switches)
+
+7.12.14
+- Update advanced geo-definition of numbers (not for all countries)7.12.7
+- Add Install Cpu IdlePureV3 - (Fixed stops 2 and 3 core)7.11.30
+- Restored standard MIUI Root (Supersu removed)
+- Security - Applications - Permissions - ROOT access
+- Unneeded arcs are removed (NFC, Radio)
+- Built-in firmware Google Play Market
+- Built-in Driffex Icon Pack
+- Removed ads from services
+- Delete chinese app (except Mi Services and programs necessary for the correct operation of services and firmware)
+- This port work on MI4 code firmware
+- Deodexed ROM
+- The firmware is handled by the porter, so there may be some differences from the rest of the official firmware
