@@ -137,51 +137,51 @@
         <item quantity="one">분</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day">
-        <item quantity="other">구독을 취소할 때까지 &amp;lt;start_time>%3$s&amp;lt;/start_time>부터 %2$d일&amp;lt;/price>마다 &amp;lt;price>%1$s의 요금이 자동으로 청구됩니다.</item>
-        <item quantity="one">구독을 취소할 때까지 &amp;lt;start_time>%3$s&amp;lt;/start_time>부터 매일 &amp;lt;price>%1$s&amp;lt;/price>의 요금이 자동으로 청구됩니다.</item>
+        <item quantity="other">구독을 취소할 때까지 &lt;start_time>%3$s&lt;/start_time>부터 %2$d일&lt;/price>마다 &lt;price>%1$s의 요금이 자동으로 청구됩니다.</item>
+        <item quantity="one">구독을 취소할 때까지 &lt;start_time>%3$s&lt;/start_time>부터 매일 &lt;price>%1$s&lt;/price>의 요금이 자동으로 청구됩니다.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day_limited">
-        <item quantity="other">&amp;lt;start_time>%4$s&amp;lt;/start_time>부터 이후 &amp;lt;duration>%3$d일&amp;lt;/duration> 동안 %2$d일&amp;lt;/price>마다 &amp;lt;price>%1$s의 요금이 자동으로 청구됩니다.</item>
-        <item quantity="one">&amp;lt;start_time>%4$s&amp;lt;/start_time>부터 이후 &amp;lt;duration>%3$d일&amp;lt;/duration> 동안 &amp;lt;price>매일 %1$s&amp;lt;/price>의 요금이 자동으로 청구됩니다.</item>
+        <item quantity="other">&lt;start_time>%4$s&lt;/start_time>부터 이후 &lt;duration>%3$d일&lt;/duration> 동안 %2$d일&lt;/price>마다 &lt;price>%1$s의 요금이 자동으로 청구됩니다.</item>
+        <item quantity="one">&lt;start_time>%4$s&lt;/start_time>부터 이후 &lt;duration>%3$d일&lt;/duration> 동안 &lt;price>매일 %1$s&lt;/price>의 요금이 자동으로 청구됩니다.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day_tax">
-        <item quantity="other">구독을 취소할 때까지 &amp;lt;start_time>%3$s&amp;lt;/start_time>부터 &amp;lt;/price>일마다 &amp;lt;price>%1$s의 요금과 관련 세금%2$d이 자동으로 청구됩니다.</item>
-        <item quantity="one">구독을 취소할 때까지 &amp;lt;start_time>%3$s&amp;lt;/start_time>부터 매일 &amp;lt;price>%1$s의 요금과 관련 세금&amp;lt;/price>이 자동으로 청구됩니다.</item>
+        <item quantity="other">구독을 취소할 때까지 &lt;start_time>%3$s&lt;/start_time>부터 &lt;/price>일마다 &lt;price>%1$s의 요금과 관련 세금%2$d이 자동으로 청구됩니다.</item>
+        <item quantity="one">구독을 취소할 때까지 &lt;start_time>%3$s&lt;/start_time>부터 매일 &lt;price>%1$s의 요금과 관련 세금&lt;/price>이 자동으로 청구됩니다.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day_tax_limited">
-        <item quantity="other">&amp;lt;start_time>%4$s&amp;lt;/start_time>부터 이후 &amp;lt;duration>%3$d일&amp;lt;/duration> 동안 %2$d일마다 &amp;lt;price>%1$s의 요금과 관련 세금&amp;lt;/price>이 자동으로 청구됩니다.</item>
-        <item quantity="one">&amp;lt;start_time>%4$s&amp;lt;/start_time>부터 이후 &amp;lt;duration>%3$d일&amp;lt;/duration> 동안 매일 &amp;lt;price>%1$s의 요금과 관련 세금&amp;lt;/price>이 자동으로 청구됩니다.</item>
+        <item quantity="other">&lt;start_time>%4$s&lt;/start_time>부터 이후 &lt;duration>%3$d일&lt;/duration> 동안 %2$d일마다 &lt;price>%1$s의 요금과 관련 세금&lt;/price>이 자동으로 청구됩니다.</item>
+        <item quantity="one">&lt;start_time>%4$s&lt;/start_time>부터 이후 &lt;duration>%3$d일&lt;/duration> 동안 매일 &lt;price>%1$s의 요금과 관련 세금&lt;/price>이 자동으로 청구됩니다.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month">
-        <item quantity="other">구독을 취소할 때까지 &amp;lt;start_time>%3$s&amp;lt;/start_time>부터 %2$d달마다 &amp;lt;price>%1$s의 요금&amp;lt;/price>이 자동으로 청구됩니다.</item>
-        <item quantity="one">구독을 취소할 때까지 &amp;lt;start_time>%3$s&amp;lt;/start_time>부터 매달 &amp;lt;price>%1$s의 요금&amp;lt;/price>이 자동으로 청구됩니다.</item>
+        <item quantity="other">구독을 취소할 때까지 &lt;start_time>%3$s&lt;/start_time>부터 %2$d달마다 &lt;price>%1$s의 요금&lt;/price>이 자동으로 청구됩니다.</item>
+        <item quantity="one">구독을 취소할 때까지 &lt;start_time>%3$s&lt;/start_time>부터 매달 &lt;price>%1$s의 요금&lt;/price>이 자동으로 청구됩니다.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month_limited">
-        <item quantity="other">&amp;lt;start_time>%4$s&amp;lt;/start_time>부터 이후 &amp;lt;duration>%3$d달&amp;lt;/duration> 동안 %2$d달마다 &amp;lt;price>%1$s의 요금&amp;lt;/price>이 자동으로 청구됩니다.</item>
-        <item quantity="one">&amp;lt;start_time>%4$s&amp;lt;/start_time>부터 이후 &amp;lt;duration>%3$d달&amp;lt;/duration> 동안 매달 &amp;lt;price>%1$s의 요금&amp;lt;/price>이 자동으로 청구됩니다.</item>
+        <item quantity="other">&lt;start_time>%4$s&lt;/start_time>부터 이후 &lt;duration>%3$d달&lt;/duration> 동안 %2$d달마다 &lt;price>%1$s의 요금&lt;/price>이 자동으로 청구됩니다.</item>
+        <item quantity="one">&lt;start_time>%4$s&lt;/start_time>부터 이후 &lt;duration>%3$d달&lt;/duration> 동안 매달 &lt;price>%1$s의 요금&lt;/price>이 자동으로 청구됩니다.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month_tax">
-        <item quantity="other">구독을 취소할 때까지 &amp;lt;start_time>%3$s&amp;lt;/start_time>부터 %2$d달마다 &amp;lt;price>%1$s의 요금과 관련 세금&amp;lt;/price>이 자동으로 청구됩니다.</item>
-        <item quantity="one">구독을 취소할 때까지 &amp;lt;start_time>%3$s&amp;lt;/start_time>부터 매달 &amp;lt;price>%1$s의 요금과 관련 세금&amp;lt;/price>이 자동으로 청구됩니다.</item>
+        <item quantity="other">구독을 취소할 때까지 &lt;start_time>%3$s&lt;/start_time>부터 %2$d달마다 &lt;price>%1$s의 요금과 관련 세금&lt;/price>이 자동으로 청구됩니다.</item>
+        <item quantity="one">구독을 취소할 때까지 &lt;start_time>%3$s&lt;/start_time>부터 매달 &lt;price>%1$s의 요금과 관련 세금&lt;/price>이 자동으로 청구됩니다.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month_tax_limited">
-        <item quantity="other">&amp;lt;start_time>%4$s&amp;lt;/start_time>부터 이후 &amp;lt;duration>%3$d달&amp;lt;/duration> 동안 %2$d달마다 &amp;lt;price>%1$s의 요금과 관련 세금&amp;lt;/price>이 자동으로 청구됩니다.</item>
-        <item quantity="one">&amp;lt;start_time>%4$s&amp;lt;/start_time>부터 이후 &amp;lt;duration>%3$d달&amp;lt;/duration> 동안 매달 &amp;lt;price>%1$s의 요금과 관련 세금&amp;lt;/price>이 자동으로 청구됩니다.</item>
+        <item quantity="other">&lt;start_time>%4$s&lt;/start_time>부터 이후 &lt;duration>%3$d달&lt;/duration> 동안 %2$d달마다 &lt;price>%1$s의 요금과 관련 세금&lt;/price>이 자동으로 청구됩니다.</item>
+        <item quantity="one">&lt;start_time>%4$s&lt;/start_time>부터 이후 &lt;duration>%3$d달&lt;/duration> 동안 매달 &lt;price>%1$s의 요금과 관련 세금&lt;/price>이 자동으로 청구됩니다.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year">
-        <item quantity="other">구독을 취소할 때까지 &amp;lt;start_time>%3$s&amp;lt;/start_time>부터 %2$d년마다 &amp;lt;price>%1$s의 요금&amp;lt;/price>이 자동으로 청구됩니다.</item>
-        <item quantity="one">구독을 취소할 때까지 &amp;lt;start_time>%3$s&amp;lt;/start_time>부터 매년 &amp;lt;price>%1$s의 요금&amp;lt;/price>이 자동으로 청구됩니다.</item>
+        <item quantity="other">구독을 취소할 때까지 &lt;start_time>%3$s&lt;/start_time>부터 %2$d년마다 &lt;price>%1$s의 요금&lt;/price>이 자동으로 청구됩니다.</item>
+        <item quantity="one">구독을 취소할 때까지 &lt;start_time>%3$s&lt;/start_time>부터 매년 &lt;price>%1$s의 요금&lt;/price>이 자동으로 청구됩니다.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year_limited">
-        <item quantity="other">&amp;lt;start_time>%4$s&amp;lt;/start_time>부터 이후 &amp;lt;duration>%3$d년&amp;lt;/duration> 동안 %2$d년마다 &amp;lt;price>%1$s의 요금&amp;lt;/price>이 자동으로 청구됩니다.</item>
-        <item quantity="one">&amp;lt;start_time>%4$s&amp;lt;/start_time>부터 이후 &amp;lt;duration>%3$d년&amp;lt;/duration> 동안 매년 &amp;lt;price>%1$s의 요금&amp;lt;/price>이 자동으로 청구됩니다.</item>
+        <item quantity="other">&lt;start_time>%4$s&lt;/start_time>부터 이후 &lt;duration>%3$d년&lt;/duration> 동안 %2$d년마다 &lt;price>%1$s의 요금&lt;/price>이 자동으로 청구됩니다.</item>
+        <item quantity="one">&lt;start_time>%4$s&lt;/start_time>부터 이후 &lt;duration>%3$d년&lt;/duration> 동안 매년 &lt;price>%1$s의 요금&lt;/price>이 자동으로 청구됩니다.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year_tax">
-        <item quantity="other">구독을 취소할 때까지 &amp;lt;start_time>%3$s&amp;lt;/start_time>부터 %2$d년마다 &amp;lt;price>%1$s의 요금과 관련 세금&amp;lt;/price>이 자동으로 청구됩니다.</item>
-        <item quantity="one">구독을 취소할 때까지 &amp;lt;start_time>%3$s&amp;lt;/start_time>부터 매년 &amp;lt;price>%1$s의 요금과 관련 세금&amp;lt;/price>이 자동으로 청구됩니다.</item>
+        <item quantity="other">구독을 취소할 때까지 &lt;start_time>%3$s&lt;/start_time>부터 %2$d년마다 &lt;price>%1$s의 요금과 관련 세금&lt;/price>이 자동으로 청구됩니다.</item>
+        <item quantity="one">구독을 취소할 때까지 &lt;start_time>%3$s&lt;/start_time>부터 매년 &lt;price>%1$s의 요금과 관련 세금&lt;/price>이 자동으로 청구됩니다.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year_tax_limited">
-        <item quantity="other">&amp;lt;start_time>%4$s&amp;lt;/start_time>부터 이후 &amp;lt;duration>%3$d년&amp;lt;/duration> 동안 %2$d년마다 &amp;lt;price>%1$s의 요금과 관련 세금&amp;lt;/price>이 자동으로 청구됩니다.</item>
-        <item quantity="one">&amp;lt;start_time>%4$s&amp;lt;/start_time>부터 이후 &amp;lt;duration>%3$d년&amp;lt;/duration> 동안 매년 &amp;lt;price>%1$s의 요금과 관련 세금&amp;lt;/price>이 자동으로 청구됩니다.</item>
+        <item quantity="other">&lt;start_time>%4$s&lt;/start_time>부터 이후 &lt;duration>%3$d년&lt;/duration> 동안 %2$d년마다 &lt;price>%1$s의 요금과 관련 세금&lt;/price>이 자동으로 청구됩니다.</item>
+        <item quantity="one">&lt;start_time>%4$s&lt;/start_time>부터 이후 &lt;duration>%3$d년&lt;/duration> 동안 매년 &lt;price>%1$s의 요금과 관련 세금&lt;/price>이 자동으로 청구됩니다.</item>
     </plurals>
 </resources>

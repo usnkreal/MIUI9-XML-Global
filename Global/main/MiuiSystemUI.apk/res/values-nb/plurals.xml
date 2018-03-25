@@ -9,7 +9,7 @@
         <item quantity="one">Åpnet Nylige, tilgjengelige apper: %d.</item>
     </plurals>
     <plurals name="accessibility_recent_task_first_enter_tips">
-        <item quantity="other">Opened Recents, available apps: %d. Swipe up to remove, swipe down to lock.</item>
+        <item quantity="other">Åpnet Nylige, tilgjengelige app: %d. Sveip opp for å fjerne, sveip ned for å låse.</item>
         <item quantity="one">Åpnet Nylige, tilgjengelige apper: %d. Sveip opp for å fjerne, sveip ned for å låse.</item>
     </plurals>
     <plurals name="settings_toggle_position_divider_page">
@@ -21,12 +21,12 @@
         <item quantity="one">"Hide this app's notifications?"</item>
     </plurals>
     <plurals name="block_record_notification_more_text">
-        <item quantity="other">Hiding notifications from %1$s &amp;amp; %2$d apps.</item>
-        <item quantity="one">Skjule varsler fra %1$s &amp;amp; %2$d apper.</item>
+        <item quantity="other">Hiding notifications from %1$s &amp; %2$d apps.</item>
+        <item quantity="one">Skjule varsler fra %1$s &amp; %2$d apper.</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Clear</item>
-        <item quantity="one">Fjern</item>
+        <item quantity="one">Clear</item>
     </plurals>
     <plurals name="accessibility_desc_weather_temperature">
         <item quantity="other">Weather %d degrees</item>

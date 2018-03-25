@@ -2777,7 +2777,7 @@ Cette fonctionnalité permet de protéger les données en cas de perte ou de vol
     <string name="networks_title">Réseaux Mobiles</string>
     <string name="user_experience_program">"Programme d'expérience utilisateur"</string>
     <string name="user_experience_program_title">"Programme d'expérience utilisateur"</string>
-    <string name="user_experience_program_summary">Help us improve our products and services by sharing your usage stats with us</string>
+    <string name="user_experience_program_summary">"Aidez-nous à améliorer nos produits et services en partageant vos statistiques d'utilisation avec nous"</string>
     <string name="upload_debug_log_title">Envoyer automatiquement les données de diagnostic</string>
     <string name="upload_debug_log_summary">Les informations que nous collectons peuvent contenir vos données personnelles. Elles seront utilisées pour localiser et analyser les problèmes dans le système et ne seront jamais utilisées pour vous identifier personnellement.</string>
     <string name="sound_vibrate_settings">Sons &amp; vibrations</string>
@@ -2955,6 +2955,7 @@ Cette fonctionnalité permet de protéger les données en cas de perte ou de vol
     <string name="key_gesture_function_shortcut">Raccourcis fonctionnels</string>
     <string name="key_system_control">Contrôle du système</string>
     <string name="key_gesture_function_preview">Aperçus des boutons et gestes</string>
+    <string name="key_operation_diagram">"Diagramme d'opérations"</string>
     <string name="key_gesture_function_optional">Boutons et gestes facultatifs</string>
     <string name="key_gesture_function_dialog_message">%1$s est un raccourcis pour %2$s. Le remplacer par %3$s ?</string>
     <string name="key_gesture_function_dialog_positive">Remplacer</string>
@@ -3940,6 +3941,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="bt_rarely_used_device_title">Appareils rarement utilisés (%d)</string>
     <string name="search_input_hint">Paramètres de recherche</string>
     <string name="back_button">Retour</string>
+    <string name="launcher_title">"Écran d'accueil &amp; Récents"</string>
     <string name="music_audio_effect_optimize">Paramètres audio</string>
     <string name="music_audio_effect_optimize_summary">Dirac, écouteurs et autres paramètres audio</string>
     <string name="music_audio_effect_optimize_summary_with_hifi">Dirac, Hi-Fi, écouteurs et autres paramètres audio</string>
@@ -4135,7 +4137,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="delete_fingerprint_text">Supprimer une empreinte digitale</string>
     <string name="fingerprint_removal_failed">"Impossible de retirer l'empreinte digitale, réessayez plus tard"</string>
     <string name="delete_fingerprint_confirm_msg">Supprimer une empreinte digitale ?</string>
-    <string name="add_fingerprint_text">Ajouter une empreinte dgigitale</string>
+    <string name="add_fingerprint_text">Ajouter une empreinte digitale</string>
     <string name="add_fingerprint_instruction_title">Ajouter votre empreinte digitale</string>
     <string name="add_back_fingerprint_instruction_msg">Placez votre doigt sur le capteur</string>
     <string name="add_front_fingerprint_instruction_msg">"Le capteur d'empreinte digitale est sur le bouton Accueil de votre appareil."</string>
@@ -4145,7 +4147,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="add_fingerprint_toast_text">Placez votre doigt sur le capteur</string>
     <string name="add_fingerprint_similar_fingerprint_input_error_msg">"Déplacez votre doigt légèrement et posez le sur le capteur à nouveau afin d'ajouter toutes les parties de votre empreinte digitale."</string>
     <string name="add_fingerprint_failed_retry_text">"Impossible d'ajouter l'empreinte digitale, réessayez"</string>
-    <string name="add_fingerprint_put_finger_title">Ajouter une empreinte dgigitale</string>
+    <string name="add_fingerprint_put_finger_title">Ajouter une empreinte digitale</string>
     <string name="add_fingerprint_put_finger_msg">Mettez votre doigt sur le capteur et retirez le lorsque vous sentez une vibration.</string>
     <string name="add_fingerprint_put_finger_edge_msg">"Déplacez votre doigt légèrement et posez le sur le capteur à nouveau afin d'jouter toutes les parties de votre empreinte digitale."</string>
     <string name="add_fingerprint_name_suggest_text">"Nom de l'empreinte digitale"</string>
@@ -4210,8 +4212,8 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="force_immersive_compatibility_dont_hide">Ne pas masquer</string>
     <string name="infinity_display_settings">Affichage complet</string>
     <string name="infinity_display_slogan">"Innovation sur l'affichage complet"</string>
-    <string name="carrier_show_in_lock_screen">Only show in lock screen</string>
-    <string name="carrier_show_none">Never show carrier name</string>
+    <string name="carrier_show_in_lock_screen">"Afficher uniquement sur l'écran de verrouillage"</string>
+    <string name="carrier_show_none">"Ne jamais afficher le nom de l'opérateur"</string>
     <string name="navigation_type_settings">Navigation du système</string>
     <string name="navigation_type_radio_text_virtual_key">Boutons</string>
     <string name="navigation_type_radio_text_full_screen">Gestes en plein écran</string>

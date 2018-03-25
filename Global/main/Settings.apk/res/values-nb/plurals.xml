@@ -61,7 +61,7 @@
         <item quantity="one">PIN-koden må være på %d siffer</item>
     </plurals>
     <plurals name="wifi_share_count">
-        <item quantity="other">Shared %d networks</item>
+        <item quantity="other">Delte %d nettverk</item>
         <item quantity="one">Delte %d nettverk</item>
     </plurals>
     <plurals name="connected_devices_number">
@@ -101,12 +101,12 @@
         <item quantity="one">PIN-koden kan inneholde opptil %d sifre</item>
     </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
-        <item quantity="other">Connect at least %d dots. Try again.</item>
-        <item quantity="one">Koble minst %d prikker. Prøv igjen.</item>
+        <item quantity="other">Koble minst %d prikker. Prøv igjen.</item>
+        <item quantity="one">Koble minst %d prikk. Prøv igjen.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts">
-        <item quantity="other">Too many incorrect attempts. Try again in %d seconds.</item>
-        <item quantity="one">For mange feilaktige forsøk. Prøv igjen om %d sekunder.</item>
+        <item quantity="other">For mange feilaktige forsøk. Prøv igjen om %d sekunder.</item>
+        <item quantity="one">For mange feilaktige forsøk. Prøv igjen om %d sekund.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
         <item quantity="other">Wait for %d seconds and try again.</item>

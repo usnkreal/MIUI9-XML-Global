@@ -192,7 +192,7 @@ http://zhushou.xiaomi.com"</string>
     <string name="check_local_package_update_btn">Omstart og oppdater</string>
     <string name="check_local_package_update_btn_ab">Oppdater</string>
     <string name="check_local_package_update_msg">Enheten din vil omstarte automatisk for å oppdatere til MIUI-versjon %s.</string>
-    <string name="check_local_package_update_msg_ab">Your device will update to MIUI version %s.</string>
+    <string name="check_local_package_update_msg_ab">Enheten vil oppdateres til MIUI-versjon %s.</string>
     <string name="check_local_package_wipe_title">Slett data</string>
     <string name="check_local_package_wipe_btn">Slett og oppdater</string>
     <string name="check_local_package_wipe_msg">Du kommer til å gå tilbake til MIUI-versjon %s. Dine personlige data blir slettet. Sørg for å sikkerhetskopiere alt du vil beholde før du starter prosessen.</string>
@@ -264,7 +264,7 @@ Prøvå logge den in på Mi-kontoen din igjen."</string>
     <string name="vote_error4">Du har allerede gitt din tilbakemelding</string>
     <string name="vote_error5">"Noe gikk galt
 Kunne ikke sende inn tilbakemelding"</string>
-    <string name="miui_BBS">" "<a href="http://bbs.miui.com">Gå til MIUI-forum</a>" "</string>
+    <string name="miui_BBS">" "<a href="http://bbs.miui.com">Go to MIUI forum</a>" "</string>
     <string name="alpha_cancel">Meld deg av Beta-testprogrammet</string>
     <string name="alpha_cancel_ok">OK</string>
     <string name="alpha_cancel_cancel">Avbryt</string>
@@ -292,7 +292,7 @@ Kunne ikke sende inn tilbakemelding"</string>
     <string name="provision_check_sim">Ser etter SIM-kort</string>
     <string name="provision_have_sim">SIM-kort satt inn</string>
     <string name="provision_no_network_title">Koble til nettverk</string>
-    <string name="provision_no_network_extra">"Looks like this device isn't connected to the network. Connect to Wi-Fi or insert a SIM card to activate this device. Activation makes your device eligible for warranty services. You won't be able to use this device unless it's activated."</string>
+    <string name="provision_no_network_extra">Det ser ikke ut som denne enheten er koblet til nettverket. Koble til Wi-Fi eller sett inn et SIM-kort for å aktivere enheten. Aktivering gjør enheten egnet for garantitjenester. Du vil ikke kunne bruke denne enheten så lenge den ikke er aktivert.</string>
     <string name="provision_toast_timeout">Tilkoblingstiden er ute. Sjekk nettverksinnstillingene dine.</string>
     <string name="provision_toast_server_error">Kunne ikke koble til serveren. Vent et minutt eller to, og prøv igjen.</string>
     <string name="provision_toast_no_network">Koble til nettverket først</string>
@@ -318,6 +318,7 @@ Kunne ikke sende inn tilbakemelding"</string>
     <string name="home_delay_cancel">Avbryt</string>
     <string name="accessibility_video">Video</string>
     <string name="accessibility_image">Bilde</string>
+    <string name="accessibility_play">Play</string>
     <string name="security_space_title">Viktig oppdatering</string>
     <string name="security_space_msg">MIUI 9 har et nytt filsystem. Hvis du starter enheten på nytt, kan du kanskje ikke bruke Second space. Flytt alle elementer fra Second space til First place før du starter på nytt.</string>
     <string name="security_space_button_pos">Ikke omstart</string>

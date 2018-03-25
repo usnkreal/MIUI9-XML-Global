@@ -44,7 +44,6 @@
     <string name="all_fileter">전체</string>
     <string name="all_share_files_content">선택하신 파일은 이미 삭제되었습니다.</string>
     <string name="apk_filter">APK</string>
-    <string name="app_downloads">%s 다운로드</string>
     <string name="auth_fail">인증 정보 가져올 수 없음</string>
     <string name="bt_path_not_exit">이 경로는 존재하지 않습니다.</string>
     <string name="bt_restart_dialog_message">BT 폴더의 모든 다운로드를 재시작할까요?</string>
@@ -63,7 +62,6 @@
     <string name="dialog_btn_ok">확인</string>
     <string name="dialog_btn_ok_disabled_net">네트워크 설정</string>
     <string name="dialog_confirm_delete_checkbox_message">로컬 파일도 함께 삭제하기</string>
-    <string name="dialog_confirm_delete_downloads_message">선택된 작업을 삭제하시겠습니까?</string>
     <string name="dialog_confirm_delete_the_download_item_message">이 작업들 삭제</string>
     <string name="dialog_file_missing_title">파일을 열 수 없습니다</string>
     <string name="dialog_msg_disabled_net">현재 네트워크에서 %1$s의 다운로드가 제한되었습니다. 보안 앱으로 가려면 네트워크 설정을 탭하십시오.</string>
@@ -206,6 +204,7 @@
     <string name="add_flow_fail_haveget_msg">체험 기간이 만료되었습니다.</string>
     <string name="add_flow_fail_vip_msg">Xunlei 다운로드 가속기 켜짐</string>
     <string name="all_the_internet">전체 네트워크</string>
+    <string name="app_downloads">%s 다운로드</string>
     <string name="app_size">%1$s</string>
     <string name="auth_activity_title">Xunlei 계정</string>
     <string name="bind_xunlei_account">Xunlei 계정 추가</string>
@@ -218,6 +217,7 @@
     <string name="delete">삭제</string>
     <string name="deselect_subfile_all">전체 선택 해제</string>
     <string name="determine">확인</string>
+    <string name="dialog_confirm_delete_downloads_message">선택된 작업을 삭제하시겠습니까?</string>
     <string name="disable">꺼짐</string>
     <string name="display_expire_netiv1">이번 달</string>
     <string name="do_not_support_url">이 형식의 URL은 지원되지 않습니다.</string>

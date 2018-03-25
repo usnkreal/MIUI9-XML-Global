@@ -367,4 +367,14 @@ Jeśli nie wykonasz aktualizacji, sklonowane aplikacje mogą nie działać prawi
     <string name="second_space_desktop_tips_dialog_title">Ważna aktualizacja</string>
     <string name="second_space_desktop_tips_dialog_positive_text">Rozumiem</string>
     <string name="second_space_desktop_tips_dialog_message">Po tej aktualizacji, ikony przenoszenia danych i zarządzania Drugą przestrzenią nie będą wyświetlane na Ekranie głównym. Dostęp do ich funkcji będzie możliwy z poziomu Ustawień.</string>
+    <string name="green_guard">Kontrola rodzicielska</string>
+    <string name="bind_device">Dodaj urządzenia</string>
+    <string name="green_guard_des1">Dodaj urządzenia, aby zarządzać nimi zdalnie</string>
+    <string name="green_guard_title2">Wyświetl informacje o lokalizacji</string>
+    <string name="green_guard_des2">Wiadomo gdzie znajdują się aktualnie wszystkie urządzenia</string>
+    <string name="green_guard_title3">Zarządzanie aplikacjami</string>
+    <string name="green_guard_des3">Kontroluj zainstalowane aplikacje i ogranicz wykorzystanie</string>
+    <string name="experience_more_features">Dodaj urządzenie, aby zobaczyć wszystkie możliwości</string>
+    <string name="can_not_switch_when_green_kid_active">Przełączenie do Drugiej przestrzeni jest ograniczone przez kontrolę rodzicielską</string>
+    <string name="need_network_when_bind">Połącz z siecią przed dodaniem urządzeń</string>
 </resources>

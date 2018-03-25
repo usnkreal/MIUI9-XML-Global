@@ -303,14 +303,14 @@ Bruk en annen konto."</string>
     <string name="micloud_detail_battery_low">Lavt batteri</string>
     <string name="micloud_privacy_cloud_off">Sync is off</string>
     <string name="micloud_privacy_licence_agreed">Agree to Mi Cloud Privacy Policy.</string>
-    <string name="micloud_privacy_licence_privacy_policy">Privacy Policy</string>
+    <string name="micloud_privacy_licence_privacy_policy">Personvernerklæring</string>
     <string name="micloud_privacy_explanation">Grant authorization to turn on Mi Cloud services</string>
     <string name="micloud_privacy_cloud_sync">Turn on Mi Cloud services</string>
     <string name="micloud_privacy_warning_title">Attention</string>
     <string name="micloud_privacy_warning_content">"Can't turn on Mi Cloud services. Wait a minute or two and try again."</string>
     <string name="micloud_privacy_warning_button">Tilbake</string>
     <string name="micloud_privacy_progress_content">Granting authorization…</string>
-    <string name="micloud_privacy_more">More</string>
+    <string name="micloud_privacy_more">Mer</string>
     <string name="micloud_check_sim_title">"Det ser ut som du har byttet SIM-kort. Logg inn
 til din Mi Account for å aktivere Mi Cloud på nytt."</string>
     <string name="micloud_check_sim_notify_title">Aktiver Mi Cloud på nytt</string>
@@ -512,7 +512,7 @@ Siste sikkerhetskopi var %2$s"</string>
     <string name="micloud_find_device_close_alert_positive">Ha den slått på</string>
     <string name="micloud_find_device_close_alert_negtive">Skru av uansett</string>
     <string name="find_device_gdpr_prompt">By turning on Find device, you agree to our Privacy Policy. If you need to revoke authorization, turn this feature off.</string>
-    <string name="find_device_gdpr_prompt_policy_doc_name">Privacy Policy</string>
+    <string name="find_device_gdpr_prompt_policy_doc_name">Personvernerklæring</string>
     <string name="activate_finddevice">Koble til et nettverk for å aktivere enheten</string>
     <string name="account_related">Enheten din er tilknyttet en eksisterende Mi Account(%s). Koble til nettverket for å bekrefte enheten.</string>
     <string name="connect_network">Koble til Wi-Fi eller sett inn et SIM-kort</string>

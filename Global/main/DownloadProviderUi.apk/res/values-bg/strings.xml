@@ -44,7 +44,6 @@
     <string name="all_fileter">Всичко</string>
     <string name="all_share_files_content">Избраните файлове вече са изтрити.</string>
     <string name="apk_filter">APK</string>
-    <string name="app_downloads">%s изтегляния</string>
     <string name="auth_fail">Не може да се получи разрешение</string>
     <string name="bt_path_not_exit">Избраният път не съществува</string>
     <string name="bt_restart_dialog_message">Рестартиране на всички изтегляния във BT папка?</string>
@@ -63,7 +62,6 @@
     <string name="dialog_btn_ok">OК</string>
     <string name="dialog_btn_ok_disabled_net">Мрежови настройки</string>
     <string name="dialog_confirm_delete_checkbox_message">Изтрий също и локалните файлове</string>
-    <string name="dialog_confirm_delete_downloads_message">Да се изтрият ли избраните задачи?</string>
     <string name="dialog_confirm_delete_the_download_item_message">Изтрий тези задачи</string>
     <string name="dialog_file_missing_title">Не мога да отворя файла</string>
     <string name="dialog_msg_disabled_net">%1$s изтегляния са ограничени в тази мрежа. Влезте в Мрежови настройки и настройте приложението за сигурността.</string>
@@ -206,6 +204,7 @@
     <string name="add_flow_fail_haveget_msg">Пробният период е изтекъл.</string>
     <string name="add_flow_fail_vip_msg">Xunlei ускорител за изтегляне е вкл</string>
     <string name="all_the_internet">Всички мрежи</string>
+    <string name="app_downloads">%s изтегляния</string>
     <string name="app_size">%1$s</string>
     <string name="auth_activity_title">Xunlei профил</string>
     <string name="bind_xunlei_account">Добавяне на Xunlei профил</string>
@@ -218,6 +217,7 @@
     <string name="delete">Изтрий</string>
     <string name="deselect_subfile_all">Размаркирай всички</string>
     <string name="determine">OК</string>
+    <string name="dialog_confirm_delete_downloads_message">Да се изтрият ли избраните задачи?</string>
     <string name="disable">Изкл</string>
     <string name="display_expire_netiv1">Този месец</string>
     <string name="do_not_support_url">Този вид URL адреси не се поддържа</string>

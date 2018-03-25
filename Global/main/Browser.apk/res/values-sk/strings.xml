@@ -111,9 +111,9 @@
     <string name="bookmark_group_lable">Skupina</string>
     <string name="bookmark_needs_title">Záložka musí mať názov.</string>
     <string name="bookmark_needs_url">Záložka musí mať URL adresu.</string>
-    <string name="bookmark_not_saved">Záložku nemožno uložiť.</string>
+    <string name="bookmark_not_saved">Nepodarilo sa pridať medzi záložky</string>
     <string name="bookmark_rename_group">Premenovať skupinu</string>
-    <string name="bookmark_saved">Uložené medzi záložky.</string>
+    <string name="bookmark_saved">Pridané do záložiek</string>
     <string name="bookmark_title">Názov záložky</string>
     <string name="bookmark_title_lable">Názov</string>
     <string name="bookmark_url">Url</string>
@@ -520,7 +520,7 @@ Chcete opustiť túto web stránku?"</string>
     <string name="nav_screen_incognito_message">"História prehliadania stránok a vyhľadávania sa nebude ukladať v režime Inkognito.
 Pamätajte nato, že súbory, ktoré stiahnete a záložky, ktoré pridáte ostanú uložené."</string>
     <string name="nav_screen_incognito_title">Režim Inkognito</string>
-    <string name="navigation_delete_all">pre zatvorenie všetkých kariet potiahnite doľava a doprava</string>
+    <string name="navigation_delete_all">Potiahnite doľava alebo doprava pre zatvorenie všetkých kariet</string>
     <string name="navigationbar_rightbutton_actiontext_cancle">Zrušiť</string>
     <string name="navigationbar_rightbutton_actiontext_go">Povoliť</string>
     <string name="navigationbar_rightbutton_actiontext_search">Hľadať</string>

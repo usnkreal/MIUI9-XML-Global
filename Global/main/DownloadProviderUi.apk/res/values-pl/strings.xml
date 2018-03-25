@@ -44,7 +44,6 @@
     <string name="all_fileter">Wszystko</string>
     <string name="all_share_files_content">Wybrane pliki zostały już usunięte.</string>
     <string name="apk_filter">APK</string>
-    <string name="app_downloads">Pobieranie: %s</string>
     <string name="auth_fail">Nie udało się uzyskać autoryzacji</string>
     <string name="bt_path_not_exit">Ścieżka nie istnieje</string>
     <string name="bt_restart_dialog_message">Wznowić wszystkie pobierania z folderu BT?</string>
@@ -63,7 +62,6 @@
     <string name="dialog_btn_ok">OK</string>
     <string name="dialog_btn_ok_disabled_net">Ustawienia sieci</string>
     <string name="dialog_confirm_delete_checkbox_message">Usuń także pliki lokalne</string>
-    <string name="dialog_confirm_delete_downloads_message">Usunąć wybrane zadania?</string>
     <string name="dialog_confirm_delete_the_download_item_message">Usuń te zadania</string>
     <string name="dialog_file_missing_title">Nie można otworzyć pliku</string>
     <string name="dialog_msg_disabled_net">%1$s ograniczył pobieranie dla aktualnej sieci. Dotknij Ustawienia sieci, aby przejść do Panelu sterowania.</string>
@@ -206,6 +204,7 @@
     <string name="add_flow_fail_haveget_msg">Okres próbny się zakończył.</string>
     <string name="add_flow_fail_vip_msg">Szybkie pobieranie Xunlei jest włączone</string>
     <string name="all_the_internet">Wszystkie sieci</string>
+    <string name="app_downloads">Pobieranie: %s</string>
     <string name="app_size">%1$s</string>
     <string name="auth_activity_title">Konto Xunlei</string>
     <string name="bind_xunlei_account">Dodaj konto Xunlei</string>
@@ -218,6 +217,7 @@
     <string name="delete">Usuń</string>
     <string name="deselect_subfile_all">Odznacz wszystko</string>
     <string name="determine">OK</string>
+    <string name="dialog_confirm_delete_downloads_message">Usunąć wybrane zadania?</string>
     <string name="disable">Wyłącz</string>
     <string name="display_expire_netiv1">W tym miesiącu</string>
     <string name="do_not_support_url">Ten typ URL nie jest obsługiwany</string>

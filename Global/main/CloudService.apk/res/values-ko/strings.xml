@@ -173,7 +173,7 @@
     <string name="micloud_user_space_usage">저장 공간</string>
     <string name="micloud_web_discription_01">I.mi.com에 로그인</string>
     <string name="micloud_web_discription_02">어디서나 파일에 접근하고 저장</string>
-    <string name="micloud_web_discription_place_holder">Visit %1$s</string>
+    <string name="micloud_web_discription_place_holder">%1$s 방문</string>
     <string name="micloud_full_influence_title">Mi 클라우드가 가득찬 경우…</string>
     <string name="micloud_warn_low_title">공간이 거의 다 찼습니다.</string>
     <string name="micloud_warn_low_sum">Mi 클라우드 사용량이 90%입니다.</string>

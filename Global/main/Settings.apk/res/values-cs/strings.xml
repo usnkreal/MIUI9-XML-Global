@@ -2955,6 +2955,7 @@ Tato funkce pomáhá chránit data ve ztracených nebo ukradených zařízeních
     <string name="key_gesture_function_shortcut">Funkční zkratky</string>
     <string name="key_system_control">Systémová kontrola</string>
     <string name="key_gesture_function_preview">Náhledy klávesových zkratek a gest</string>
+    <string name="key_operation_diagram">Provozní diagram</string>
     <string name="key_gesture_function_optional">Volitelná gesta a tlačítka</string>
     <string name="key_gesture_function_dialog_message">%1$s je zkratkou pro %2$s. Nahradit %3$s?</string>
     <string name="key_gesture_function_dialog_positive">Nahradit</string>
@@ -3941,6 +3942,7 @@ Zvolte váš operační systém:"</string>
     <string name="bt_rarely_used_device_title">Málo používaná zařízení (%d)</string>
     <string name="search_input_hint">Nastavení hledání</string>
     <string name="back_button">Zpět</string>
+    <string name="launcher_title">Domovská obrazovka a Nedávné</string>
     <string name="music_audio_effect_optimize">Nastavení zvuku</string>
     <string name="music_audio_effect_optimize_summary">Dirac, sluchátka a ostatní audio nastavení</string>
     <string name="music_audio_effect_optimize_summary_with_hifi">Dirac, Hi-Fi, sluchátka a ostatní audio nastavení</string>

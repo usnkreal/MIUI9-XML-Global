@@ -368,4 +368,14 @@ Dacă nu actualizați, aplicațiile duale s-ar putea să nu lucreze în mod norm
     <string name="second_space_desktop_tips_dialog_title">Actualizare importantă</string>
     <string name="second_space_desktop_tips_dialog_positive_text">Am înțeles</string>
     <string name="second_space_desktop_tips_dialog_message">După această actualizare, pictogramele pentru a muta date și gestionarea pentru Al doilea spațiu nu vor mai fi afișate pe Ecranul principal. Veți putea accesa funcțiile corespunzătoare din Setări.</string>
+    <string name="green_guard">Parental controls</string>
+    <string name="bind_device">Add devices</string>
+    <string name="green_guard_des1">Add devices to manage them remotely</string>
+    <string name="green_guard_title2">View location info</string>
+    <string name="green_guard_des2">Know where exactly all managed devices are</string>
+    <string name="green_guard_title3">Manage apps</string>
+    <string name="green_guard_des3">Control installed apps and restrict usage</string>
+    <string name="experience_more_features">Add a device to view all features</string>
+    <string name="can_not_switch_when_green_kid_active">Switching to Second space is restricted by parental controls</string>
+    <string name="need_network_when_bind">Connect to the network before Adding devices</string>
 </resources>

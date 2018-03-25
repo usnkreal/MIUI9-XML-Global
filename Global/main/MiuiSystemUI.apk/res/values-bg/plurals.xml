@@ -21,12 +21,12 @@
         <item quantity="one">Скрий известията от това прил.?\"</item>
     </plurals>
     <plurals name="block_record_notification_more_text">
-        <item quantity="other">Скрити известия от %1$s &amp;amp; %2$d приложения.</item>
-        <item quantity="one">Скрити известия от %1$s &amp;amp; %2$d приложение.</item>
+        <item quantity="other">Скрити известия от %1$s &amp; %2$d приложения.</item>
+        <item quantity="one">Скрити известия от %1$s &amp; %2$d приложение.</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Ясно</item>
-        <item quantity="one">Слънчево</item>
+        <item quantity="one">Ясно</item>
     </plurals>
     <plurals name="accessibility_desc_weather_temperature">
         <item quantity="other">Времето %d градуса</item>

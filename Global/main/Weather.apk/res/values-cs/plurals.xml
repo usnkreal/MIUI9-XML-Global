@@ -37,10 +37,10 @@
         <item quantity="many">%1$s people | </item>
     </plurals>
     <plurals name="total_voted_num_text">
-        <item quantity="other">"Hlasovalo &amp;lt;font color='#20a7ff'>%1$s&amp;lt;/font> lidí"</item>
-        <item quantity="one">"Hlasoval &amp;lt;font color='#20a7ff'>%1$s&amp;lt;/font> uživatel"</item>
-        <item quantity="few">"Hlasovali &amp;lt;font color='#20a7ff'>%1$s&amp;lt;/font> lidé"</item>
-        <item quantity="many">"&amp;lt;font color='#20a7ff'>%1$s&amp;lt;/font> people have voted"</item>
+        <item quantity="other">"Hlasovalo &lt;font color='#20a7ff'>%1$s&lt;/font> lidí"</item>
+        <item quantity="one">"Hlasoval &lt;font color='#20a7ff'>%1$s&lt;/font> uživatel"</item>
+        <item quantity="few">"Hlasovali &lt;font color='#20a7ff'>%1$s&lt;/font> lidé"</item>
+        <item quantity="many">"&lt;font color='#20a7ff'>%1$s&lt;/font> people have voted"</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Jasno</item>

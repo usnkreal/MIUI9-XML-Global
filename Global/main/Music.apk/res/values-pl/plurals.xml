@@ -91,9 +91,9 @@
         <item quantity="few">Usunąć %d utwory z Chmury Xiaomi? Zostaną usunięte także z lokalnej listy odtwarzania.</item>
     </plurals>
     <plurals name="download_finished">
-        <item quantity="other">&amp;lt;font color==\"red\">%d utworów&amp;lt;/font> pobranych</item>
-        <item quantity="one">&amp;lt;font color==\"red\">%d utwór&amp;lt;/font> pobrany</item>
-        <item quantity="few">&amp;lt;font color==\"red\">%d utwory&amp;lt;/font> pobrane</item>
+        <item quantity="other">&lt;font color==\"red\">%d utworów&lt;/font> pobranych</item>
+        <item quantity="one">&lt;font color==\"red\">%d utwór&lt;/font> pobrany</item>
+        <item quantity="few">&lt;font color==\"red\">%d utwory&lt;/font> pobrane</item>
     </plurals>
     <plurals name="download_info_count_deleted_tasks">
         <item quantity="other">Usunięto %d pobrań</item>
@@ -101,9 +101,9 @@
         <item quantity="few">Usunięto %d pobrania</item>
     </plurals>
     <plurals name="download_running">
-        <item quantity="other">&amp;lt;font color==\"red\">%d utworów&amp;lt;/font> pobieranych</item>
-        <item quantity="one">&amp;lt;font color==\"red\">%d utwór&amp;lt;/font> pobierany</item>
-        <item quantity="few">&amp;lt;font color==\"red\">%d utwory&amp;lt;/font> pobierane</item>
+        <item quantity="other">&lt;font color==\"red\">%d utworów&lt;/font> pobieranych</item>
+        <item quantity="one">&lt;font color==\"red\">%d utwór&lt;/font> pobierany</item>
+        <item quantity="few">&lt;font color==\"red\">%d utwory&lt;/font> pobierane</item>
     </plurals>
     <plurals name="multichoice_title">
         <item quantity="other">Wybrano %d elementów</item>

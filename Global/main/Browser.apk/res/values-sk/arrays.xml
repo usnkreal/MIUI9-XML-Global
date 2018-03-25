@@ -74,7 +74,7 @@
         <item>Sledujte olympiádu s Mi</item>
     </string-array>
     <string-array name="weather_type">
-        <item>Slnečno</item>
+        <item>Jasno</item>
         <item>Oblačno</item>
         <item>Zatiahnuté</item>
         <item>Hmlisto</item>

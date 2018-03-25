@@ -448,8 +448,8 @@
     <string name="pref_camera_beauty">ייפוי</string>
     <string name="pref_camera_beauty_deep">ייפוי מקצועי</string>
     <string name="bokeh_use_hint">אפקט עומק</string>
-    <string name="pref_camera_zoom_mode_entry_standard">סטנדרטית</string>
-    <string name="pref_camera_zoom_mode_entry_high_pixel">פיקסליזציה גבוהה</string>
+    <string name="pref_camera_zoom_mode_entry_standard">REGULAR</string>
+    <string name="pref_camera_zoom_mode_entry_high_pixel">LOW LIGHT</string>
     <string name="pref_camera_zoom_value_title">זום</string>
     <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_beautify_entry_auto">כיבוי</string>

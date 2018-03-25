@@ -44,7 +44,6 @@
     <string name="all_fileter">Tous</string>
     <string name="all_share_files_content">Les fichiers que vous avez sélectionnés ont été déjà supprimés.</string>
     <string name="apk_filter">APK</string>
-    <string name="app_downloads">%s téléchargements</string>
     <string name="auth_fail">"Impossible d'obtenir l'autorisation"</string>
     <string name="bt_path_not_exit">"Le chemin n'existe pas"</string>
     <string name="bt_restart_dialog_message">Redémarrez tous les téléchargements dans le dossier BT ?</string>
@@ -63,7 +62,6 @@
     <string name="dialog_btn_ok">OK </string>
     <string name="dialog_btn_ok_disabled_net">Paramètres réseau</string>
     <string name="dialog_confirm_delete_checkbox_message">Supprimer aussi les fichiers locaux</string>
-    <string name="dialog_confirm_delete_downloads_message">Supprimer les tâches sélectionnées ?</string>
     <string name="dialog_confirm_delete_the_download_item_message">Supprimer ces tâches</string>
     <string name="dialog_file_missing_title">"Impossible d'ouvrir le fichier"</string>
     <string name="dialog_msg_disabled_net">"%1$s a restreint les téléchargements pour le réseau actuel. Appuyer sur les paramètres de réseaux pour ouvrir l'application Sécurité."</string>
@@ -206,6 +204,7 @@
     <string name="add_flow_fail_haveget_msg">"La période d'essai a expiré."</string>
     <string name="add_flow_fail_vip_msg">Accélérateur de téléchargement Xunlei est activé</string>
     <string name="all_the_internet">Tous les réseaux</string>
+    <string name="app_downloads">%s téléchargements</string>
     <string name="app_size">%1$s</string>
     <string name="auth_activity_title">Compte Xunlei</string>
     <string name="bind_xunlei_account">Ajouter un compte Xunlei</string>
@@ -218,6 +217,7 @@
     <string name="delete">Supprimer</string>
     <string name="deselect_subfile_all">Tout déselectionner</string>
     <string name="determine">OK </string>
+    <string name="dialog_confirm_delete_downloads_message">Supprimer les tâches sélectionnées ?</string>
     <string name="disable">Désactivé</string>
     <string name="display_expire_netiv1">Ce mois</string>
     <string name="do_not_support_url">"Ce type d'URL n'est pas pris en charge"</string>

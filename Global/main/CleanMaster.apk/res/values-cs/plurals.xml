@@ -133,9 +133,9 @@
         <item quantity="many">"Haven't used for %d years"</item>
     </plurals>
     <plurals name="resutl_function_install_app_summary">
-        <item quantity="other">&lt;Data>&amp;lt;font color=#ff0000 >%d&amp;lt;/font> aplikací již nebylo dlouho použito, mrkněte na to.&lt;/Data></item>
-        <item quantity="one">&lt;Data>&amp;lt;font color=#ff0000 >%d&amp;lt;/font> aplikace již nebyla dlouho použita, mrkněte na to.&lt;/Data></item>
-        <item quantity="few">&lt;Data>&amp;lt;font color=#ff0000 >%d&amp;lt;/font> aplikace již nebyly dlouho použity, mrkněte na to.&lt;/Data></item>
-        <item quantity="many">&lt;Data>"&amp;lt;font color=#ff0000 >%d&amp;lt;/font> apps haven't been used for a long time, take a look."&lt;/Data></item>
+        <item quantity="other">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> aplikací již nebylo dlouho použito, mrkněte na to.&lt;/Data></item>
+        <item quantity="one">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> aplikace již nebyla dlouho použita, mrkněte na to.&lt;/Data></item>
+        <item quantity="few">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> aplikace již nebyly dlouho použity, mrkněte na to.&lt;/Data></item>
+        <item quantity="many">&lt;Data>"&lt;font color=#ff0000 >%d&lt;/font> apps haven't been used for a long time, take a look."&lt;/Data></item>
     </plurals>
 </resources>

@@ -152,7 +152,7 @@ EEEE"</string>
     <string name="settings_toggle_position_reset">Alapértelmezett visszaállítása</string>
     <string name="list_delimeter">", "</string>
     <string name="camera_key_action_setting_title">MI Gomb</string>
-    <string name="camera_key_action_category_title">Használja ha a kamera app nem fut</string>
+    <string name="camera_key_action_category_title">Használja, ha a kamera nincs bekapcsolva</string>
     <string name="camera_key_action_none_title">Nincs művelet</string>
     <string name="camera_key_action_shortcut_title">Parancsikon</string>
     <string name="camera_key_action_toggle_title">Exponálógomb váltása</string>
@@ -249,8 +249,8 @@ EEEE"</string>
     <string name="notification_low_battery_open_save_mode">Kapcsolja be az akkumulátorkímélőt</string>
     <string name="notification_low_battery_action_btn">Bekapcsolás</string>
     <string name="notification_low_battery_need_charge">Az akkumulátor lemerült. Csatlakoztassa töltőre.</string>
-    <string name="low_temperature_warning_title">Rendszerkikapcsolási figyelmeztetés</string>
-    <string name="low_temperature_warning_message">A hőmérséklet túl alacsony, a telefon bármikor kikapcsolhat. Kérjük, mentse el az adatait.</string>
+    <string name="low_temperature_warning_title">Alacsonyhőmérséklet-figyelmeztetés</string>
+    <string name="low_temperature_warning_message">A hőmérséklet túl alacsony. Telefonja bármelyik pillanatban kikapcsolhat. Győződjön meg róla, hogy minden fontosat elmentett.</string>
     <string name="low_temperature_button_ok">Rendben</string>
     <string name="oldman_airplane_mode_text">Repülőgép-üzemmód</string>
     <string name="oldman_incall_text">Vissza a híváshoz</string>
@@ -466,6 +466,7 @@ További információkért keresse fel rendszergazdáját."</string>
     <string name="quick_settings_disclosure_managed_profile_named_vpn">A munkahelyi profil csatlakoztatva ide: %1$s</string>
     <string name="quick_settings_disclosure_personal_profile_named_vpn">A személyes profil csatlakoztatva ide: %1$s</string>
     <string name="quick_settings_disclosure_named_vpn">A készülék csatlakoztatva ide: %1$s</string>
+    <string name="notch_status_bar_date_format_12">MMMM d., EEEE</string>
     <string name="accessibility_recent_task_locked_state">Zárt</string>
     <string name="accessibility_recent_task_unlocked_state">Nyitott</string>
     <string name="accessibility_drag_hint_message">Húzzon elemeket a képernyő tetejére</string>
@@ -473,7 +474,7 @@ További információkért keresse fel rendszergazdáját."</string>
     <string name="notification_group_overflow_indicator">+%s</string>
     <string name="click_to_return_multi_window">Kattintson ide az osztott képernyőre való visszatéréshez</string>
     <string name="recent_dock_tip">Érintse meg a választott alkalmazást</string>
-    <string name="recent_cannot_dock">A Második asztalon nem léphet osztott képernyős módba</string>
+    <string name="recent_cannot_dock">A Második asztalon nem használhatja az Osztott képernyőt</string>
     <string name="dock_keyguard_locked_failed_to_dock_text">Az osztott képernyő nem támogatott a képernyőzáron.</string>
     <string name="click_expand">Érintse meg a kibontáshoz</string>
     <string name="please_slide_agian">Csúsztassa újra</string>
@@ -495,4 +496,11 @@ További információkért keresse fel rendszergazdáját."</string>
     <string name="fs_gesture_final_summary">A Beállítások > Teljes képernyős megjelenítés menüpontban vissza tud térni a Gombok használatához</string>
     <string name="fs_gesture_final_restart">Még egyszer</string>
     <string name="fs_gesture_final_over">Készen állok</string>
+    <string name="no_sim_card">Nincs SIM kártya</string>
+    <string name="prompt_detecting">Érzékelés</string>
+    <string name="prompt_danger">Kockázat</string>
+    <string name="prompt_failure">Hiba</string>
+    <string name="prompt_safe">Biztonságos</string>
+    <string name="prompt_unknown">Ismeretlen</string>
+    <string name="prompt_return_to_split">Osztott képernyő</string>
 </resources>

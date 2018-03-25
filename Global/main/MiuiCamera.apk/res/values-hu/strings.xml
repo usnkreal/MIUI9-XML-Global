@@ -448,8 +448,8 @@
     <string name="pref_camera_beauty">Szépítés</string>
     <string name="pref_camera_beauty_deep">Profi szépítés</string>
     <string name="bokeh_use_hint">Mélységhatás</string>
-    <string name="pref_camera_zoom_mode_entry_standard">STANDARD</string>
-    <string name="pref_camera_zoom_mode_entry_high_pixel">NAGY FELBONTÁSÚ</string>
+    <string name="pref_camera_zoom_mode_entry_standard">ALAP</string>
+    <string name="pref_camera_zoom_mode_entry_high_pixel">ELÉGTELEN FÉNYVISZONY</string>
     <string name="pref_camera_zoom_value_title">Nagyítás</string>
     <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_beautify_entry_auto">Ki</string>

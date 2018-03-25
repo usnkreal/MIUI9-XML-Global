@@ -225,7 +225,7 @@ For å aktivere kontoen må du følge
     <string name="no_response_retry">Svarer ikke, prøv igjen.</string>
     <string name="removing_account">Logger av…</string>
     <string name="delete_bank_card_title">Merk</string>
-    <string name="delete_bank_card_message">Mi Pay bank cards and NFC cards will be deleted after you sign out.</string>
+    <string name="delete_bank_card_message">Mi Pay-bankkort og NFC-kort vil bli slettet når du logger av.</string>
     <string name="bind_settings">Kontoer</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="bind_sina_weibo">Koble til Sina Weibo-konto</string>
@@ -363,7 +363,7 @@ For å aktivere kontoen må du følge
     <string name="device_delete_success_title">Logget ut</string>
     <string name="device_delete_success_message">Hvis du ikke logget på denne enheten, endre passordet ditt umiddelbart.</string>
     <string name="change_password">Endre passord</string>
-    <string name="completed">All set!</string>
+    <string name="completed">Alt klart!</string>
     <string name="no_network_title">Kan ikke koble til nettverket.</string>
     <string name="no_network_btn">Oppdater</string>
     <string name="get_device_list_failed">Kan ikke få enheter</string>
@@ -416,10 +416,10 @@ For å aktivere kontoen må du følge
     <string name="find_device_prompt_message">Enheten er sperret. Melding: %1$s.</string>
     <string name="find_device_activate_account">Aktiver konto</string>
     <string name="login_check_find_device">Henter enhetens sikkerhetsinformasjon…</string>
-    <string name="unlock_help_notice">"Help:
-1. If you forgot your password, go to id.mi.com to reset it.
-2. If you can't unlock the device, go to i.mi.com to turn off Find device.
-3. Your unlock number: %s"</string>
+    <string name="unlock_help_notice">"Hjelp:
+· Hvis du har glemt passordet ditt, gå til id.mi.com for å tilbakestille det.
+· Hvis du ikke kan låse opp enheten, gå til i.mi.com for å slå av Finn enhet.
+· Oppgi dette opplåsningsnummeret til kundeservice: %s"</string>
     <string name="login_find_device_bind">Denne enheten er knyttet til eksisterende Mi-konto-ID (%s).</string>
     <string name="find_device_locked_account_phone" formatted="false">%s, tilknyttet telefonnummer: %s</string>
     <string name="find_device_locked_account_email" formatted="false">%s, tilknyttet e-postadresse: %s</string>

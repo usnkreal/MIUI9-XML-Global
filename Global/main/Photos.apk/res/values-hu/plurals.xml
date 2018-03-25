@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="album_subtitle">
+        <item quantity="other">%1$s  •  %2$d elem</item>
+        <item quantity="one">%1$s  •  1 elem</item>
+    </plurals>
+    <plurals name="audience_hidden_user_count">
+        <item quantity="other">+%d személy</item>
+        <item quantity="one">+1 személy</item>
+    </plurals>
+    <plurals name="delete_everywhere_message_text">
+        <item quantity="other">Ha ezeket az elemeket a kukába helyezed, azzal a következőből is eltávolítod őket:</item>
+        <item quantity="one">Ha ezt az elemet a kukába helyezed, azzal a következőből is eltávolítod:</item>
+    </plurals>
+    <plurals name="delete_on_device_title">
+        <item quantity="other">Törlöd az eszközön lévő példányokat?</item>
+        <item quantity="one">Törlöd az eszközön lévő példányt?</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%1$d perc</item>
+        <item quantity="zero">0 perc</item>
+        <item quantity="one">1 perc</item>
+        <item quantity="two">2 perc</item>
+        <item quantity="few">%1$d perc</item>
+        <item quantity="many">%1$d perc</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%1$d másodperc</item>
+        <item quantity="zero">0 másodperc</item>
+        <item quantity="one">1 másodperc</item>
+        <item quantity="two">2 másodperc</item>
+        <item quantity="few">%1$d másodperc</item>
+        <item quantity="many">%1$d másodperc</item>
+    </plurals>
+    <plurals name="file_too_big_for_trash_message">
+        <item quantity="other">Az elemek túl nagyok az eszköz kukájában való elhelyezéshez. Ha a törlést választod, a rendszer véglegesen eltávolítja őket az eszközről és a fiókból.</item>
+        <item quantity="one">Az elem túl nagy az eszköz kukájában való elhelyezéshez. Ha törlöd, a rendszer véglegesen eltávolítja azt az eszközről és a fiókból.</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_scanned">
+        <item quantity="other">%1$d elem átvizsgálva</item>
+        <item quantity="one">%1$d elem átvizsgálva</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="other">%1$d elem kijelölve</item>
+        <item quantity="one">%1$d elem kijelölve</item>
+    </plurals>
+    <plurals name="mm_analysis_warning_dialog_message">
+        <item quantity="other">A videók közül %1$d nem olvasható be.</item>
+        <item quantity="zero">A videók közül %1$d nem olvasható be.</item>
+        <item quantity="one">A videók közül %1$d nem olvasható be.</item>
+        <item quantity="two">A videók közül %1$d nem olvasható be.</item>
+        <item quantity="few">A videók közül %1$d nem olvasható be.</item>
+        <item quantity="many">A videók közül %1$d nem olvasható be.</item>
+    </plurals>
+    <plurals name="mm_minutes_word">
+        <item quantity="other">%1$d perc</item>
+        <item quantity="zero">%1$d perc</item>
+        <item quantity="one">%1$d perc</item>
+        <item quantity="two">%1$d perc</item>
+        <item quantity="few">%1$d perc</item>
+        <item quantity="many">%1$d perc</item>
+    </plurals>
+    <plurals name="mm_picker_selected">
+        <item quantity="other">%1$d kiválasztva</item>
+        <item quantity="zero">%1$d kiválasztva</item>
+        <item quantity="one">%1$d kiválasztva</item>
+        <item quantity="two">%1$d kiválasztva</item>
+        <item quantity="few">%1$d kiválasztva</item>
+        <item quantity="many">%1$d kiválasztva</item>
+    </plurals>
+    <plurals name="mm_seconds_word">
+        <item quantity="other">%1$d másodperc</item>
+        <item quantity="zero">%1$d másodperc</item>
+        <item quantity="one">%1$d másodperc</item>
+        <item quantity="two">%1$d másodperc</item>
+        <item quantity="few">%1$d másodperc</item>
+        <item quantity="many">%1$d másodperc</item>
+    </plurals>
+    <plurals name="mm_unsuitable_warning_dialog_message">
+        <item quantity="other">Egyik videó sem használható. Vagy túl rövidek, vagy a formátumuk nem támogatott.</item>
+        <item quantity="zero">Egyik videó sem használható. Vagy túl rövidek, vagy a formátumuk nem támogatott.</item>
+        <item quantity="one">A videó nem használható. Vagy túl rövid, vagy a formátum nem támogatott.</item>
+        <item quantity="two">Egyik videó sem használható. Vagy túl rövidek, vagy a formátumuk nem támogatott.</item>
+        <item quantity="few">Egyik videó sem használható. Vagy túl rövidek, vagy a formátumuk nem támogatott.</item>
+        <item quantity="many">Egyik videó sem használható. Vagy túl rövidek, vagy a formátumuk nem támogatott.</item>
+    </plurals>
+    <plurals name="moved_to_trash_undo_text">
+        <item quantity="other">%d elem áthelyezve a kukába</item>
+        <item quantity="one">Az elem áthelyezve a kukába</item>
+    </plurals>
+    <plurals name="one_up_comment_count">
+        <item quantity="other">%d megjegyzés</item>
+        <item quantity="one">%d megjegyzés</item>
+    </plurals>
+    <plurals name="photos_album_editalbumphotos_remove_from_album">
+        <item quantity="other">%d elem eltávolítása az albumból…</item>
+        <item quantity="one">Egy elem eltávolítása az albumból…</item>
+    </plurals>
+    <plurals name="photos_album_enrichment_ui_locations_added">
+        <item quantity="other">%d hely hozzáadva</item>
+        <item quantity="one">%d hely hozzáadva</item>
+    </plurals>
+    <plurals name="photos_album_enrichment_ui_locations_and_maps_added_location_subsentence">
+        <item quantity="other">%d hely</item>
+        <item quantity="one">%d hely</item>
+    </plurals>
+    <plurals name="photos_album_enrichment_ui_locations_and_maps_added_maps_subsentence">
+        <item quantity="other">%d térkép</item>
+        <item quantity="one">%d térkép</item>
+    </plurals>
+    <plurals name="photos_album_enrichment_ui_maps_added">
+        <item quantity="other">%d térkép hozzáadva</item>
+        <item quantity="one">%d térkép hozzáadva</item>
+    </plurals>
+    <plurals name="photos_album_removefromalbum_item_pending">
+        <item quantity="other">Elemek eltávolítása az albumból…</item>
+        <item quantity="one">Elem eltávolítása az albumból…</item>
+    </plurals>
+    <plurals name="photos_album_removefromalbum_items_removed">
+        <item quantity="other">%d elem eltávolítva az albumból</item>
+        <item quantity="one">Az elem eltávolítva az albumból</item>
+    </plurals>
+    <plurals name="photos_album_removefromalbum_photo_pending">
+        <item quantity="other">Fotók eltávolítása az albumból…</item>
+        <item quantity="one">Fotó eltávolítása az albumból…</item>
+    </plurals>
+    <plurals name="photos_album_removefromalbum_video_pending">
+        <item quantity="other">Videók eltávolítása az albumból…</item>
+        <item quantity="one">Videó eltávolítása az albumból…</item>
+    </plurals>
+    <plurals name="photos_allphotos_ui_actionconfirmation_delete_error">
+        <item quantity="other">Nem sikerült törölni az elemeket.</item>
+        <item quantity="one">Nem sikerült törölni az elemet.</item>
+    </plurals>
+    <plurals name="photos_allphotos_ui_actionconfirmation_local_delete_title">
+        <item quantity="other">Törlöd az eszközön lévő példányokat?</item>
+        <item quantity="one">Törlöd az eszközön lévő példányt?</item>
+    </plurals>
+    <plurals name="photos_allphotos_ui_actionconfirmation_local_only_delete_message">
+        <item quantity="other">Az elemek nincsenek mentve a Fotók könyvtáradban, ezért törlésükkel véglegesen eltávolítod őket a Fotókból</item>
+        <item quantity="one">Az elem nincs mentve a Fotók könyvtáradban, ezért törlésével véglegesen eltávolítod a Fotókból</item>
+    </plurals>
+    <plurals name="photos_assistant_autobackup_items_left">
+        <item quantity="other">%d elem van hátra</item>
+        <item quantity="one">1 elem van hátra</item>
+    </plurals>
+    <plurals name="photos_assistant_autobackup_photos_to_back_up">
+        <item quantity="other">%d automatikusan menthető elem</item>
+        <item quantity="one">1 automatikusan menthető elem</item>
+    </plurals>
+    <plurals name="photos_burst_actionsheet_trash_all">
+        <item quantity="other">Az összes (%d) fotó</item>
+        <item quantity="one">Egy fotó</item>
+    </plurals>
+    <plurals name="photos_collectionlist_album_items_count">
+        <item quantity="other">%1$d elem</item>
+        <item quantity="one">1 elem</item>
+    </plurals>
+    <plurals name="photos_collectionlist_story_moments_count">
+        <item quantity="other">%1$d mozzanat</item>
+        <item quantity="one">1 mozzanat</item>
+    </plurals>
+    <plurals name="photos_comments_ui_album_comment_badge_content_desc">
+        <item quantity="other">%d megjegyzés tartozik az albumhoz</item>
+        <item quantity="one">1 megjegyzés tartozik az albumhoz</item>
+    </plurals>
+    <plurals name="photos_create_mediabundle_validation_error_add_to_album">
+        <item quantity="other">Az albumok legfeljebb %d elemet tartalmazhatnak.</item>
+        <item quantity="one">Az albumok legfeljebb egy elemet tartalmazhatnak.</item>
+    </plurals>
+    <plurals name="photos_create_mediabundle_validation_error_max">
+        <item quantity="other">Legfeljebb %d elemet jelölj ki.</item>
+        <item quantity="one">Legfeljebb egy elemet jelölj ki.</item>
+    </plurals>
+    <plurals name="photos_create_mediabundle_validation_error_min">
+        <item quantity="other">Jelöljön ki legalább %d elemet.</item>
+        <item quantity="one">Jelöljön ki legalább egy elemet.</item>
+    </plurals>
+    <plurals name="photos_create_uploadhandlers_existing_album">
+        <item quantity="other">%d elem hozzáadása az albumhoz…</item>
+        <item quantity="one">1 elem hozzáadása az albumhoz…</item>
+    </plurals>
+    <plurals name="photos_create_uploadhandlers_success_existing_album">
+        <item quantity="other">%d elem az albumhoz adva.</item>
+        <item quantity="one">Egy elem az albumhoz adva.</item>
+    </plurals>
+    <plurals name="photos_dateformat_within_24_hours">
+        <item quantity="other">%d ó</item>
+        <item quantity="one">%d ó</item>
+    </plurals>
+    <plurals name="photos_dateformat_within_31_days">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+    </plurals>
+    <plurals name="photos_dateformat_within_hour">
+        <item quantity="other">%d p</item>
+        <item quantity="one">%d p</item>
+    </plurals>
+    <plurals name="photos_dateformat_within_seven_days">
+        <item quantity="other">%d n</item>
+        <item quantity="one">%d n</item>
+    </plurals>
+    <plurals name="photos_devicemanagement_assistant_dialog_title_text">
+        <item quantity="other">Törölsz %1$d elemet?</item>
+        <item quantity="one">Törölsz %1$d elemet?</item>
+    </plurals>
+    <plurals name="photos_devicemanagement_assistant_freeing_up_space_subtitle">
+        <item quantity="other">%1$d eredeti fotó vagy videó törlése</item>
+        <item quantity="one">1 eredeti fotó vagy videó törlése</item>
+    </plurals>
+    <plurals name="photos_drawermenu_unread_assistant_card">
+        <item quantity="other">%d új kártya</item>
+        <item quantity="one">1 új kártya</item>
+    </plurals>
+    <plurals name="photos_envelope_add_success_toast_text">
+        <item quantity="other">%d elem hozzáadva az albumhoz</item>
+        <item quantity="one">%d elem hozzáadva az albumhoz</item>
+    </plurals>
+    <plurals name="photos_envelope_savetolibrary_pending">
+        <item quantity="other">Elemek mentése a könyvtárba…</item>
+        <item quantity="one">Elem mentése a könyvtárba…</item>
+    </plurals>
+    <plurals name="photos_envelope_suggest_banner_related_photos_found">
+        <item quantity="other">%d kapcsolódó fotó található. Hozzáadod őket?</item>
+        <item quantity="one">%d kapcsolódó fotó található. Hozzáadod?</item>
+    </plurals>
+    <plurals name="photos_localmedia_ui_delete_folder_on_device">
+        <item quantity="other">A mappa és a benne lévő %d elem törlése</item>
+        <item quantity="one">A mappa és a benne lévő egy elem törlése</item>
+    </plurals>
+    <plurals name="photos_localmedia_ui_filemanagement_copy_to_folder_error">
+        <item quantity="other">Hiba történt %d elem másolásakor</item>
+        <item quantity="one">Hiba történt egy elem másolásakor</item>
+    </plurals>
+    <plurals name="photos_localmedia_ui_filemanagement_copy_to_folder_success">
+        <item quantity="other">%d elem átmásolva</item>
+        <item quantity="one">Egy elem átmásolva</item>
+    </plurals>
+    <plurals name="photos_localmedia_ui_filemanagement_move_to_folder_error">
+        <item quantity="other">Hiba történt %d elem áthelyezésekor</item>
+        <item quantity="one">Hiba történt egy elem áthelyezésekor</item>
+    </plurals>
+    <plurals name="photos_localmedia_ui_filemanagement_move_to_folder_success">
+        <item quantity="other">%d elem áthelyezve</item>
+        <item quantity="one">Egy elem áthelyezve</item>
+    </plurals>
+    <plurals name="photos_selected_description">
+        <item quantity="other">%1$d elem kijelölve</item>
+        <item quantity="one">%1$d elem kijelölve</item>
+    </plurals>
+    <plurals name="photos_settings_deleting_error_title">
+        <item quantity="other">Nem sikerült törölni %1$d fotót és videót.</item>
+        <item quantity="one">Nem sikerült törölni egy fotót vagy videót.</item>
+    </plurals>
+    <plurals name="photos_settings_deleting_progress_title">
+        <item quantity="other">%1$d fotó vagy videó törlése…</item>
+        <item quantity="one">1 fotó vagy videó törlése…</item>
+    </plurals>
+    <plurals name="photos_sharedlinks_subtitle_recipient_list">
+        <item quantity="other">%1$s és további %2$d személy</item>
+        <item quantity="one">%1$s és további 1 személy</item>
+    </plurals>
+    <plurals name="photos_sharedmedia_envelope_title">
+        <item quantity="other">%d elem</item>
+        <item quantity="one">1 elem</item>
+    </plurals>
+    <plurals name="photos_syncdevicedeletes_assistant_description">
+        <item quantity="other">Eltávolítod őket a Google Fotókból is?</item>
+        <item quantity="one">Eltávolítod a Google Fotókból is?</item>
+    </plurals>
+    <plurals name="photos_syncdevicedeletes_assistant_sync_deletes">
+        <item quantity="other">TÖRÖLT ELEMEK SZINKRONIZÁLÁSA</item>
+        <item quantity="one">TÖRLÉS SZINKRONIZÁLÁSA</item>
+    </plurals>
+    <plurals name="photos_syncdevicedeletes_assistant_title">
+        <item quantity="other">Törölt %d fotót az eszközről</item>
+        <item quantity="one">Törölt %d fotót az eszközről</item>
+    </plurals>
+    <plurals name="photos_syncdevicedeletes_title">
+        <item quantity="other">%d fotó</item>
+        <item quantity="one">%d fotó</item>
+    </plurals>
+    <plurals name="photos_trash_delete_local_only_delete_error">
+        <item quantity="other">Nem sikerült törölni az eszközpéldányokat</item>
+        <item quantity="one">Nem sikerült törölni az eszközpéldányt</item>
+    </plurals>
+    <plurals name="photos_trash_delete_local_only_delete_item_pending">
+        <item quantity="other">Eszközpéldányok törlése…</item>
+        <item quantity="one">Eszközpéldány törlése…</item>
+    </plurals>
+    <plurals name="photos_trash_delete_local_only_delete_toast_text">
+        <item quantity="other">Eszközpéldányok törlése</item>
+        <item quantity="one">Eszközpéldány törlése</item>
+    </plurals>
+    <plurals name="photos_trash_delete_on_sd_card_message">
+        <item quantity="other">A Fotók alkalmazás nem tudja törölni az SD-kártyán található elemeket. A törlés folytatásához nyisd meg a Galéria alkalmazást.</item>
+        <item quantity="one">A Fotók alkalmazás nem tudja törölni az SD-kártyán található elemet. A törlés folytatásához nyisd meg a Galéria alkalmazást.</item>
+    </plurals>
+    <plurals name="photos_trash_delete_on_sd_card_title">
+        <item quantity="other">Nem sikerült törölni %d elemet</item>
+        <item quantity="one">Nem sikerült törölni az elemet</item>
+    </plurals>
+    <plurals name="photos_trash_delete_permanent_delete_error">
+        <item quantity="other">Nem sikerült véglegesen törölni %d elemet</item>
+        <item quantity="one">Nem sikerült véglegesen törölni az elemet</item>
+    </plurals>
+    <plurals name="photos_trash_delete_permanent_delete_item_pending">
+        <item quantity="other">Elemek végleges törlése…</item>
+        <item quantity="one">Elem végleges törlése…</item>
+    </plurals>
+    <plurals name="photos_trash_delete_permanent_delete_toast_text">
+        <item quantity="other">%d elem véglegesen törölve</item>
+        <item quantity="one">Az elem véglegesen törölve</item>
+    </plurals>
+    <plurals name="photos_trash_restore_restore_item_pending">
+        <item quantity="other">Elemek visszaállítása…</item>
+        <item quantity="one">Elem visszaállítása…</item>
+    </plurals>
+    <plurals name="photos_trash_restore_restore_photo_error">
+        <item quantity="other">Nem sikerült visszaállítani %d az elemet</item>
+        <item quantity="one">Nem sikerült visszaállítani az elemet</item>
+    </plurals>
+    <plurals name="photos_trash_restore_restored_from_trash_toast_text">
+        <item quantity="other">%d elem visszaállítva a kukából</item>
+        <item quantity="one">Elem visszaállítva a kukából</item>
+    </plurals>
+    <plurals name="photos_trash_skip_trash_title">
+        <item quantity="other">Véglegesen törli az elemeket?</item>
+        <item quantity="one">Véglegesen törli az elemet?</item>
+    </plurals>
+    <plurals name="photos_trash_ui_delete_dialog_message">
+        <item quantity="other">Az elemeknek a kukából való törlése végleges</item>
+        <item quantity="one">Az elemnek a kukából való törlése végleges</item>
+    </plurals>
+    <plurals name="photos_trash_ui_delete_dialog_title">
+        <item quantity="other">Törlöd az elemeket?</item>
+        <item quantity="one">Törlöd az elemet?</item>
+    </plurals>
+    <plurals name="photos_trash_ui_empty_trash_dialog_text_with_count">
+        <item quantity="other">%d elem végleges törlése</item>
+        <item quantity="one">Egy elem végleges törlése</item>
+    </plurals>
+    <plurals name="photos_update_x_days_left">
+        <item quantity="other">%d nap van hátra a verzió lejártáig. A Google Fotók használatának folytatásához frissíts most.</item>
+        <item quantity="one">1 nap van hátra a verzió lejártáig. A Google Fotók használatának folytatásához frissíts most.</item>
+    </plurals>
+    <plurals name="photos_upload_manual_data_dialog_description">
+        <item quantity="other">Az elemek automatikus mentéséhez körülbelül %s adatforgalom szükséges. Csatlakozz egy Wi-Fi-hálózathoz az adathasználat elkerüléséhez.</item>
+        <item quantity="one">Az elem automatikus mentéséhez körülbelül %s adatforgalom szükséges. Csatlakozz egy Wi-Fi-hálózathoz az adathasználat elkerüléséhez.</item>
+    </plurals>
+    <plurals name="photos_upload_manual_data_dialog_description_unknown">
+        <item quantity="other">Az elemek automatikus mentése jelentős adatforgalmat eredményez. Csatlakozz egy Wi-Fi-hálózathoz az adathasználat elkerüléséhez.</item>
+        <item quantity="one">Az elem automatikus mentése jelentős adatforgalmat eredményez. Csatlakozz egy Wi-Fi-hálózathoz az adathasználat elkerüléséhez.</item>
+    </plurals>
+    <plurals name="photos_uploadtoalbum_upload_media_num_files">
+        <item quantity="other">%d fájl</item>
+        <item quantity="one">1 fájl</item>
+    </plurals>
+    <plurals name="picker_external_folder_subtitle_photos">
+        <item quantity="other">%s fotó</item>
+        <item quantity="one">%s fotó</item>
+    </plurals>
+    <plurals name="picker_external_folder_subtitle_photos_or_videos">
+        <item quantity="other">%s elem</item>
+        <item quantity="one">%s elem</item>
+    </plurals>
+    <plurals name="picker_external_folder_subtitle_videos">
+        <item quantity="other">%s videó</item>
+        <item quantity="one">%s videó</item>
+    </plurals>
+    <plurals name="picker_external_title_photos">
+        <item quantity="other">Fotók kiválasztása</item>
+        <item quantity="one">Fotó kiválasztása</item>
+    </plurals>
+    <plurals name="picker_external_title_photos_or_videos">
+        <item quantity="other">Elemek kiválasztása</item>
+        <item quantity="one">Elem kiválasztása</item>
+    </plurals>
+    <plurals name="picker_external_title_videos">
+        <item quantity="other">Videók kiválasztása</item>
+        <item quantity="one">Videó kiválasztása</item>
+    </plurals>
+    <plurals name="story_element_picker_tooltip">
+        <item quantity="other">Mozzanatok kiválasztása (%d)</item>
+        <item quantity="one"></item>
+    </plurals>
+    <plurals name="story_warning_hit_min_photos">
+        <item quantity="other">A történeteknek legalább %1$d fotóból kell állniuk.</item>
+        <item quantity="one">A történeteknek legalább %1$d fotóból kell állniuk.</item>
+    </plurals>
+    <plurals name="story_warning_too_few_photos">
+        <item quantity="other">Válassz ki legalább %1$d fotót a történethez.</item>
+        <item quantity="one">Válassz ki legalább %1$d fotót a történethez.</item>
+    </plurals>
+    <plurals name="trash_full_message">
+        <item quantity="other">Az eszköz kukája tele van. Ha törli ezeket az elemeket, a rendszer véglegesen eltávolítja azt az eszközről és a fiókból.</item>
+        <item quantity="one">Az eszköz kukája tele van. Ha törli ezt az elemet, a rendszer véglegesen eltávolítja azt az eszközről és a fiókból.</item>
+    </plurals>
+</resources>

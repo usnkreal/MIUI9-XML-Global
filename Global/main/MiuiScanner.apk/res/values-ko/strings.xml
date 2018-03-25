@@ -10,6 +10,7 @@
     <string name="app_description_title">스캐너 정보</string>
     <string name="app_details">앱:</string>
     <string name="app_name">스캐너</string>
+    <string name="ar_unsupport_for_kk">This feature does not support 4.4</string>
     <string name="back">뒤로</string>
     <string name="barcode_into_rectangle">코드를 프레임 안으로 넣어주십시오.</string>
     <string name="birthday">생일:</string>
@@ -93,7 +94,15 @@
     <string name="language_entry_russian">러시아어</string>
     <string name="language_entry_spanish">스페인어</string>
     <string name="language_entry_swedish">스웨덴어</string>
-    <string name="low_version_tip">MIUI 버전이 너무 오래되었습니다. 스캐너를 사용하시려면 MIUI를 업데이트하십시오.</string>
+    <string name="low_version_tip">현재 시스템에서 스캐너를 실행할 수 없습니다. 최신 MIUI로 업데이트하십시오.</string>
+    <string name="miracast_connect">캐스트</string>
+    <string name="miracast_connect_fail">"Couldn't cast, try again"</string>
+    <string name="miracast_connect_success">캐스트 성공</string>
+    <string name="miracast_connecting">Casting…</string>
+    <string name="miracast_details">QR 코드를 스캔하여 캐스트</string>
+    <string name="miracast_message">Cast to Mi TV?</string>
+    <string name="miracast_switch_off">Wireless display is off</string>
+    <string name="miracast_switch_tip">Turn on wireless display to use this feature</string>
     <string name="module_title_code">QR 코드</string>
     <string name="module_title_document">문서</string>
     <string name="module_title_namecard">명함</string>
@@ -120,6 +129,9 @@
     <string name="preparing_sd">내부 저장소 준비 중…</string>
     <string name="previous">뒤로</string>
     <string name="qr_code_details">QR 코드 세부사항:</string>
+    <string name="recognition_ar_download_data_msg">Download AR recognition engine. Its size is about 13MB. Use mobile data to download?</string>
+    <string name="recognition_ar_download_msg">Download AR recognition engine. Its size is about 13MB.</string>
+    <string name="recognition_download_title">잠시 기다려주십시오</string>
     <string name="recognition_error_download_cancel">나중에</string>
     <string name="recognition_error_download_data_msg">식별 엔진을 다운로드하여 카드를 스캔하십시오. 크기가 대략 15MB 입니다. 모바일 데이터를 사용하여 다운로드 하시겠습니까?</string>
     <string name="recognition_error_download_fail">식별 엔진을 다운로드할 수 없음</string>
@@ -147,6 +159,7 @@
     <string name="study_searching">결과 검색 중</string>
     <string name="study_title">문제점을 찍어주십시오.</string>
     <string name="study_vendor_info">Master Learner 제공</string>
+    <string name="switch_open">켜기</string>
     <string name="tips_message">방문하려는 웹사이트가 안전한지 확인하려면 인터넷에 연결하십시오.</string>
     <string name="title">제목:</string>
     <string name="translation_language_chinese">중국어</string>

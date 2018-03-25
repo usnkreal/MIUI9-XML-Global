@@ -28,19 +28,19 @@
         <item quantity="other">%d dní</item>
         <item quantity="one">%d deň</item>
         <item quantity="few">%d dní</item>
-        <item quantity="many">%d days</item>
+        <item quantity="many">%d dňa</item>
     </plurals>
     <plurals name="age_month">
         <item quantity="other">%d mesiacov</item>
         <item quantity="one">%d mesiac</item>
         <item quantity="few">%d mesiacov</item>
-        <item quantity="many">%d months</item>
+        <item quantity="many">%d mesiaca</item>
     </plurals>
     <plurals name="age_year">
         <item quantity="other">%d rokov</item>
         <item quantity="one">%d rok</item>
         <item quantity="few">%d rokov</item>
-        <item quantity="many">%d years</item>
+        <item quantity="many">%d roka</item>
     </plurals>
     <plurals name="album_already_share_user_count">
         <item quantity="other">Zdieľané s %d osobami</item>
@@ -103,16 +103,16 @@
         <item quantity="many">%1$d photos and videos</item>
     </plurals>
     <plurals name="cloud_storage_photo_num">
-        <item quantity="other">%d fotiek</item>
-        <item quantity="one">%d fotka</item>
-        <item quantity="few">%d fotky</item>
-        <item quantity="many">%d photos</item>
+        <item quantity="other">%d fotografií</item>
+        <item quantity="one">%d fotografia</item>
+        <item quantity="few">%d fotografie</item>
+        <item quantity="many">%d fotografie</item>
     </plurals>
     <plurals name="cloud_storage_video_num">
         <item quantity="other">%d videí</item>
         <item quantity="one">%d video</item>
         <item quantity="few">%d videá</item>
-        <item quantity="many">%d videos</item>
+        <item quantity="many">%d videa</item>
     </plurals>
     <plurals name="custom_select_title_items_selected">
         <item quantity="other">%d vybraných položiek</item>
@@ -190,7 +190,7 @@
         <item quantity="other">Spolu %d fotiek</item>
         <item quantity="one">Spolu %d fotka</item>
         <item quantity="few">Spolu %d fotky</item>
-        <item quantity="many">Total %d photos</item>
+        <item quantity="many">Spolu %d fotky</item>
     </plurals>
     <plurals name="fail_reason_processing_file">
         <item quantity="other">Spracovávanie fotografií…</item>
@@ -220,13 +220,13 @@
         <item quantity="other">%1$d fotiek</item>
         <item quantity="one">1 fotka</item>
         <item quantity="few">%1$d fotky</item>
-        <item quantity="many">%1$d photos</item>
+        <item quantity="many">%1$d fotky</item>
     </plurals>
     <plurals name="number_of_images_to_upload">
-        <item quantity="other">%1$d Fotky čakajúce na zálohovanie</item>
-        <item quantity="one">Fotka čakajúca na zálohovanie</item>
-        <item quantity="few">%1$d Fotky čakajúce na zálohovanie</item>
-        <item quantity="many">%1$d photos waiting to back up</item>
+        <item quantity="other">%1$d fotografií čaká na zálohovanie</item>
+        <item quantity="one">1 fotografia čakajúca na zálohovanie</item>
+        <item quantity="few">%1$d fotografie čakajú na zálohovanie</item>
+        <item quantity="many">%1$d fotografie čaká na zálohovanie</item>
     </plurals>
     <plurals name="number_of_uploading_images">
         <item quantity="other">Zálohovanie %1$d fotiek…</item>
@@ -250,7 +250,7 @@
         <item quantity="other">%1$d videí</item>
         <item quantity="one">1 video</item>
         <item quantity="few">%1$d videá</item>
-        <item quantity="many">%1$d videos</item>
+        <item quantity="many">%1$d videa</item>
     </plurals>
     <plurals name="number_of_videos_to_upload">
         <item quantity="other">%1$d Videá čakajúce na zálohovanie</item>
@@ -322,7 +322,7 @@
         <item quantity="other">Spolu %d fotiek</item>
         <item quantity="one">Spolu %d fotka</item>
         <item quantity="few">Spolu %d fotky</item>
-        <item quantity="many">Total %d photos</item>
+        <item quantity="many">Spolu %d fotky</item>
     </plurals>
     <plurals name="remove_from_secret_failed_with_reason_and_count">
         <item quantity="other">%2$d položiek sa nedá odstrániť zo skrytého albumu. %1$s.</item>
@@ -388,6 +388,6 @@
         <item quantity="other">%d položiek</item>
         <item quantity="one">%d položka</item>
         <item quantity="few">%d položky</item>
-        <item quantity="many">%d items</item>
+        <item quantity="many">%d položky</item>
     </plurals>
 </resources>

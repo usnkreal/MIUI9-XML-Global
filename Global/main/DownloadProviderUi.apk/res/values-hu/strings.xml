@@ -44,7 +44,6 @@
     <string name="all_fileter">Összes</string>
     <string name="all_share_files_content">Az ön által kiválasztott fájlok már törölve lettek.</string>
     <string name="apk_filter">Alkalmazás</string>
-    <string name="app_downloads">%s letöltései</string>
     <string name="auth_fail">Nem sikerült az azonosítás</string>
     <string name="bt_path_not_exit">Az elérési út nem létezik</string>
     <string name="bt_restart_dialog_message">Újraindítja az összes letöltést a BT mappában?</string>
@@ -63,7 +62,6 @@
     <string name="dialog_btn_ok">OK</string>
     <string name="dialog_btn_ok_disabled_net">Hálózati beállítások</string>
     <string name="dialog_confirm_delete_checkbox_message">A helyi fájlokat is törölje</string>
-    <string name="dialog_confirm_delete_downloads_message">Törli a kiválasztott letöltéseket?</string>
     <string name="dialog_confirm_delete_the_download_item_message">Letöltés törlése</string>
     <string name="dialog_file_missing_title">A fájl nem nyitható meg</string>
     <string name="dialog_msg_disabled_net">%1$s letöltése korlátozva van a jelenlegi hálózaton. Bökjön a Hálózati beállításokra a Biztonság alkalmazás megnyitásához.</string>
@@ -206,6 +204,7 @@
     <string name="add_flow_fail_haveget_msg">A próbaidőszak lejárt.</string>
     <string name="add_flow_fail_vip_msg">A Xunlei letöltőmotor be van kapcsolva</string>
     <string name="all_the_internet">Minden hálózat</string>
+    <string name="app_downloads">%s letöltései</string>
     <string name="app_size">%1$s</string>
     <string name="auth_activity_title">Xunlei fiók</string>
     <string name="bind_xunlei_account">Xunlei fiók hozzáadása</string>
@@ -218,6 +217,7 @@
     <string name="delete">Törlés</string>
     <string name="deselect_subfile_all">Kijelölések törlése</string>
     <string name="determine">OK</string>
+    <string name="dialog_confirm_delete_downloads_message">Törli a kiválasztott letöltéseket?</string>
     <string name="disable">Ki</string>
     <string name="display_expire_netiv1">Ebben a hónapban</string>
     <string name="do_not_support_url">Ez az URL típus nem támogatott</string>

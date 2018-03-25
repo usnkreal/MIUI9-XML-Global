@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compose_modes">
+        <item>Răspundeți</item>
+        <item>Răspundeți tuturor</item>
+        <item>Redirecționați</item>
+    </string-array>
+    <string-array name="sync_status">
+        <item>Finalizat</item>
+        <item>Fără conexiune</item>
+        <item>Nu s-a putut conecta.</item>
+        <item>Eroare de securitate</item>
+        <item>Nu s-a putut sincroniza.</item>
+        <item>Eroare de server</item>
+        <item>Eroare internă</item>
+    </string-array>
+    <string-array name="prefEntries_autoAdvance">
+        <item>Mai noi</item>
+        <item>Mai vechi</item>
+        <item>Lista de conversații</item>
+    </string-array>
+    <string-array name="prefSummaries_autoAdvance">
+        <item>Afișați conversația mai nouă după arhivare sau ștergere</item>
+        <item>Afișați conversația mai veche după ce arhivați sau ștergeți</item>
+        <item>Afișați lista de conversații după ce arhivați sau ștergeți.</item>
+    </string-array>
+    <string-array name="prefEntries_removal_action">
+        <item>Arhivați</item>
+        <item>Ștergeți</item>
+    </string-array>
+    <string-array name="prefSummaries_removal_action_summary">
+        <item>Arhivați</item>
+        <item>Ștergeți</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>Ridicată</item>
+        <item>Normală</item>
+        <item>Redusă</item>
+    </string-array>
+    <string-array name="promote_calendar_flight_title">
+        <item>Nu veți mai pierde niciun zbor.</item>
+        <item>Nu veți mai pierde niciun zbor.</item>
+        <item>Adăugați acest zbor la calendar?</item>
+        <item>Adăugați-vă rezervările în Google Calendar.</item>
+    </string-array>
+    <string-array name="promote_calendar_flight_text">
+        <item>Google Calendar adaugă automat, ca prin magie, zborurile și alte rezervări în calendarul dvs.</item>
+        <item>Google Calendar adaugă automat rezervările la zboruri și alte rezervări în calendarul dvs.</item>
+        <item>Evenimentele din Gmail pot fi adăugate automat folosind aplicația Google Calendar.</item>
+        <item>Beneficiați de adăugarea automată a rezervărilor la zboruri, hoteluri și restaurante.</item>
+    </string-array>
+    <string-array name="promote_calendar_hotel_title">
+        <item>Adăugați această rezervare în Google Calendar?</item>
+        <item>Vreți ca rezervările să apară automat în Calendar?</item>
+    </string-array>
+    <string-array name="promote_calendar_hotel_text">
+        <item>Dacă folosiți aplicația Google Calendar, evenimentele din Gmail sunt adăugate automat la calendarul dvs.</item>
+        <item>Google Calendar adaugă automat rezervările la hotel și alte rezervări din e-mailurile dvs.</item>
+    </string-array>
+    <string-array name="promote_calendar_restaurant_title">
+        <item>Primiți la timp notificări pentru a lua masa.</item>
+        <item>Adăugați această rezervare în Google Calendar?</item>
+        <item>Primiți automat rezervările în Google Calendar.</item>
+    </string-array>
+    <string-array name="promote_calendar_restaurant_text">
+        <item>Google Calendar adaugă automat rezervările la restaurante și alte rezervări în calendarul dvs.</item>
+        <item>Evenimentele din Gmail pot fi adăugate automat în calendarul dvs.</item>
+        <item>Beneficiați de adăugarea automată a rezervărilor la zboruri, hoteluri și restaurante.</item>
+    </string-array>
+    <string-array name="promote_calendar_event_title">
+        <item>Primiți la timp notificări înainte de acest eveniment.</item>
+        <item>Adăugați acest eveniment în Google Calendar?</item>
+        <item>Nu ratați evenimentul.</item>
+    </string-array>
+    <string-array name="promote_calendar_event_text">
+        <item>Google Calendar adaugă automat în calendarul dvs. evenimente și rezervări precum cea din acest e-mail.</item>
+        <item>Evenimentele din Gmail pot fi adăugate automat în calendarul dvs.</item>
+        <item>Beneficiați de adăugarea automată în Google Calendar a rezervărilor la evenimentelor și a altor rezervări.</item>
+    </string-array>
+    <string-array name="promote_calendar_mixed_title">
+        <item>Urmăriți-vă rezervările într-un singur loc.</item>
+        <item>Adăugați aceste rezervări în Google Calendar?</item>
+    </string-array>
+    <string-array name="promote_calendar_mixed_text">
+        <item>Beneficiați de adăugarea automată în Google Calendar a rezervărilor la zboruri, hoteluri și restaurante.</item>
+        <item>Evenimentele din Gmail pot fi adăugate automat în calendarul dvs.</item>
+    </string-array>
+    <string-array name="prefEntries_messageTextSizeName">
+        <item>Minusculă</item>
+        <item>Mică</item>
+        <item>Normală</item>
+        <item>Mare</item>
+        <item>Imensă</item>
+    </string-array>
+    <string-array name="prefEntries_messageTextSizeSummary">
+        <item>Afișați conținutul mesajelor cu text minuscul</item>
+        <item>Afișați conținutul mesajelor cu text de dimensiune mică</item>
+        <item>Afișați conținutul mesajelor cu text de dimensiune normală</item>
+        <item>Afișați conținutul mesajelor cu text de dimensiune mare</item>
+        <item>Afișați conținutul mesajelor cu text foarte mare</item>
+    </string-array>
+</resources>

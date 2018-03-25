@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="recurrence_freq">
+        <item>매일 반복</item>
+        <item>매주 반복</item>
+        <item>매월 반복</item>
+        <item>매년 반복</item>
+    </string-array>
+    <string-array name="edit_recurrence">
+        <item>반복 안 함</item>
+        <item>매일</item>
+        <item>매주</item>
+        <item>매월</item>
+        <item>매년</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>매월 첫째 일요일</item>
+        <item>매월 둘째 일요일</item>
+        <item>매월 셋째 일요일</item>
+        <item>매월 넷째 일요일</item>
+        <item>매월 마지막 일요일</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>매월 첫째 월요일</item>
+        <item>매월 둘째 월요일</item>
+        <item>매월 셋째 월요일</item>
+        <item>매월 넷째 월요일</item>
+        <item>매월 마지막 월요일</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>매월 첫째 화요일</item>
+        <item>매월 둘째 화요일</item>
+        <item>매월 셋째 화요일</item>
+        <item>매월 넷째 화요일</item>
+        <item>매월 마지막 화요일</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>매월 첫째 수요일</item>
+        <item>매월 둘째 수요일</item>
+        <item>매월 셋째 수요일</item>
+        <item>매월 넷째 수요일</item>
+        <item>매월 마지막 수요일</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>매월 첫째 목요일</item>
+        <item>매월 둘째 목요일</item>
+        <item>매월 셋째 목요일</item>
+        <item>매월 넷째 목요일</item>
+        <item>매월 마지막 목요일</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>매월 첫째 금요일</item>
+        <item>매월 둘째 금요일</item>
+        <item>매월 셋째 금요일</item>
+        <item>매월 넷째 금요일</item>
+        <item>매월 마지막 금요일</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>매월 첫째 토요일</item>
+        <item>매월 둘째 토요일</item>
+        <item>매월 셋째 토요일</item>
+        <item>매월 넷째 토요일</item>
+        <item>매월 마지막 토요일</item>
+    </string-array>
+    <string-array name="offline_options_telephony">
+        <item>Make a call</item>
+        <item>Send a text</item>
+        <item>Send an email</item>
+    </string-array>
+    <string-array name="offline_options_none_telephony">
+        <item>Play some music</item>
+        <item>Open Gmail</item>
+    </string-array>
+    <string-array name="offline_options_none_telephony_m_or_later">
+        <item>Turn on Wi-Fi</item>
+        <item>Turn on the flashlight</item>
+        <item>Turn off airplane mode</item>
+        <item>Turn on Bluetooth</item>
+    </string-array>
+    <string-array name="offline_options_none_telephony_not_launched">
+        <item>Turn up the volume</item>
+        <item>Dim the screen</item>
+    </string-array>
+    <string-array name="baseball_innings">
+        <item>1회</item>
+        <item>2회</item>
+        <item>3회</item>
+        <item>4회</item>
+        <item>5회</item>
+        <item>6회</item>
+        <item>7회</item>
+        <item>8회</item>
+        <item>9회</item>
+        <item>10회</item>
+        <item>11회</item>
+        <item>12회</item>
+    </string-array>
+    <string-array name="qp_top_baseball_innings">
+        <item>1회초</item>
+        <item>2회초</item>
+        <item>3회초</item>
+        <item>4회초</item>
+        <item>5회초</item>
+        <item>6회초</item>
+        <item>7회초</item>
+        <item>8회초</item>
+        <item>9회초</item>
+        <item>10회초</item>
+        <item>11회초</item>
+        <item>12회초</item>
+    </string-array>
+    <string-array name="qp_bottom_baseball_innings">
+        <item>1회말</item>
+        <item>2회말</item>
+        <item>3회말</item>
+        <item>4회말</item>
+        <item>5회말</item>
+        <item>6회말</item>
+        <item>7회말</item>
+        <item>8회말</item>
+        <item>9회말</item>
+        <item>10회말</item>
+        <item>11회말</item>
+        <item>12회말</item>
+    </string-array>
+    <string-array name="local_results_markers">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>패</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>경기</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>무</item>
+        <item>U</item>
+        <item>V</item>
+        <item>승</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+    <string-array name="edit_reminder_day">
+        <item>오늘</item>
+        <item>내일</item>
+        <item>가끔</item>
+        <item>날짜 설정...</item>
+    </string-array>
+    <string-array name="edit_reminder_time">
+        <item>오전</item>
+        <item>오후</item>
+        <item>저녁</item>
+        <item>밤</item>
+        <item>종일</item>
+        <item>시간 설정...</item>
+    </string-array>
+    <string-array name="edit_reminder_location">
+        <item>집</item>
+        <item>직장</item>
+        <item>위치 설정...</item>
+    </string-array>
+    <string-array name="network_error_tts_messages">
+        <item>현재 인터넷 연결이 안정적이지 않습니다.</item>
+        <item>현재 인터넷 연결이 불안정합니다.</item>
+        <item>현재 인터넷 연결 속도가 빠르지 않습니다.</item>
+        <item>현재 인터넷 연결 신호가 약합니다.</item>
+        <item>현재 인터넷 연결 신호가 강하지 않습니다.</item>
+        <item>현재 인터넷 연결 속도가 충분하지 않습니다.</item>
+    </string-array>
+</resources>

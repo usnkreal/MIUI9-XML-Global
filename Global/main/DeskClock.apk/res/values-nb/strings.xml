@@ -72,7 +72,7 @@
     <string name="force_touch_enter_stopwatch">Stoppeklokke</string>
     <string name="force_touch_enter_timer">Tidtaker</string>
     <string name="go_back">Tilbake</string>
-    <string name="hour_unit">Hr +</string>
+    <string name="hour_unit">Time +</string>
     <string name="install_weather_app_error">Kunne ikke laste inn app</string>
     <string name="install_weather_app_loading">Et øyeblikk…</string>
     <string name="invalid_time">Ugyldig tid: %3$s %1$d: %2$d</string>
@@ -112,7 +112,7 @@
     <string name="more_setting">Flere innstillinger</string>
     <string name="more_settings">Innstillinger</string>
     <string name="oneshot_alarm">Slett etter den går av</string>
-    <string name="pause">Sett på pause</string>
+    <string name="pause">Pause</string>
     <string name="percentage_sign">%</string>
     <string name="remind_ringtone">Ringetone</string>
     <string name="reset">Tilbakestill</string>
@@ -142,7 +142,7 @@
     <string name="timer_got_it">OK</string>
     <string name="timer_item_duration_display">%1$d min %2$d sek</string>
     <string name="timer_item_label_hint">Navn på tidsur</string>
-    <string name="timer_item_picker_hour">H</string>
+    <string name="timer_item_picker_hour">T</string>
     <string name="timer_item_picker_minute">M</string>
     <string name="timer_item_picker_second">L</string>
     <string name="timer_new_item">Legg til tidsur</string>

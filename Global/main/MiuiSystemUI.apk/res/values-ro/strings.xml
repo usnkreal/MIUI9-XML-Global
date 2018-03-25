@@ -150,7 +150,7 @@ MMMM d"</string>
     <string name="settings_toggle_position_reset">Resetează comutări</string>
     <string name="list_delimeter">", "</string>
     <string name="camera_key_action_setting_title">Butonul Mi</string>
-    <string name="camera_key_action_category_title">Foloseşte dacă Aparatul foto nu este deschis</string>
+    <string name="camera_key_action_category_title">Utilizați dacă aplicația Aparat foto nu este deschisă</string>
     <string name="camera_key_action_none_title">Nici o acțiune</string>
     <string name="camera_key_action_shortcut_title">Comandă rapidă</string>
     <string name="camera_key_action_toggle_title">Comutator Trigger</string>
@@ -247,8 +247,8 @@ MMMM d"</string>
     <string name="notification_low_battery_open_save_mode">Activați Economizor baterie</string>
     <string name="notification_low_battery_action_btn">Activați</string>
     <string name="notification_low_battery_need_charge">Bateria este descărcată. Încărcați dispozitivul.</string>
-    <string name="low_temperature_warning_title">Avertizare de oprire</string>
-    <string name="low_temperature_warning_message">Temperatura este prea scăzută, telefonul poate să se închidă în orice moment, salvați datele.</string>
+    <string name="low_temperature_warning_title">Avertisment de temperatura scăzută</string>
+    <string name="low_temperature_warning_message">Temperatura este prea scăzută. Telefonul tău se poate opri oricând. Asigurați-vă că salvați toate modificările importante.</string>
     <string name="low_temperature_button_ok">Am înțeles</string>
     <string name="oldman_airplane_mode_text">Avion</string>
     <string name="oldman_incall_text">Sună înapoi</string>
@@ -464,6 +464,7 @@ Pentru mai multe informații, contactați administratorul dvs."</string>
     <string name="quick_settings_disclosure_managed_profile_named_vpn">Profilul de lucru este conectat la %1$s</string>
     <string name="quick_settings_disclosure_personal_profile_named_vpn">Profilul personal este conectat la %1$s</string>
     <string name="quick_settings_disclosure_named_vpn">Dispozitivul este conectat la %1$s</string>
+    <string name="notch_status_bar_date_format_12">EEEE, d MMMM</string>
     <string name="accessibility_recent_task_locked_state">Blocat</string>
     <string name="accessibility_recent_task_unlocked_state">Deblocat</string>
     <string name="accessibility_drag_hint_message">Trage elementele în partea de sus a ecranului</string>
@@ -471,7 +472,7 @@ Pentru mai multe informații, contactați administratorul dvs."</string>
     <string name="notification_group_overflow_indicator">+%s</string>
     <string name="click_to_return_multi_window">Atingeți pentru a reveni la Ecranul împărțit</string>
     <string name="recent_dock_tip">Atinge pentru a selecta aplicații</string>
-    <string name="recent_cannot_dock">nu se poate intra în modul Ferestre Multiple în Al doilea spațiu</string>
+    <string name="recent_cannot_dock">Nu se poate utiliza Ecranul împărțit în Al doilea spațiu</string>
     <string name="dock_keyguard_locked_failed_to_dock_text">Ecranul separat nu este acceptat pe Ecranul de blocare.</string>
     <string name="click_expand">Atinge pentru a extinde</string>
     <string name="please_slide_agian">Glisează din nou</string>
@@ -493,4 +494,11 @@ Pentru mai multe informații, contactați administratorul dvs."</string>
     <string name="fs_gesture_final_summary">Poți comuta înapoi pentru a folosi butoanele în Setări > Afișaj ecran complet</string>
     <string name="fs_gesture_final_restart">Încă o dată</string>
     <string name="fs_gesture_final_over">Gata</string>
+    <string name="no_sim_card">Nicio cartelă SIM</string>
+    <string name="prompt_detecting">Se detectează</string>
+    <string name="prompt_danger">Risc</string>
+    <string name="prompt_failure">Eroare</string>
+    <string name="prompt_safe">Securizat</string>
+    <string name="prompt_unknown">Necunoscut</string>
+    <string name="prompt_return_to_split">Ecran împărțit</string>
 </resources>

@@ -44,7 +44,6 @@
     <string name="all_fileter">Toate</string>
     <string name="all_share_files_content">Fișierele pe care le-ați selectat au fost deja șterse.</string>
     <string name="apk_filter">APK</string>
-    <string name="app_downloads">%s descărcări</string>
     <string name="auth_fail">Nu se poate obține autorizație</string>
     <string name="bt_path_not_exit">Această cale nu există</string>
     <string name="bt_restart_dialog_message">Repornește toate descărcările în dosarul BT?</string>
@@ -63,7 +62,6 @@
     <string name="dialog_btn_ok">OK</string>
     <string name="dialog_btn_ok_disabled_net">Setări rețea</string>
     <string name="dialog_confirm_delete_checkbox_message">Șterge de asemenea și fișierele locale</string>
-    <string name="dialog_confirm_delete_downloads_message">Ștergeți sarcinile selectate?</string>
     <string name="dialog_confirm_delete_the_download_item_message">Ștergeți aceste sarcini</string>
     <string name="dialog_file_missing_title">Fişierul nu poate fi deschis</string>
     <string name="dialog_msg_disabled_net">%1$s Descărcări restricționate în rețeaua curentă. Atingeți ușor Setări rețea pentru a merge la aplicația de Securitate.</string>
@@ -206,6 +204,7 @@
     <string name="add_flow_fail_haveget_msg">Perioada de probă a expirat.</string>
     <string name="add_flow_fail_vip_msg">Acceleratorul de descărcare Xunlei este pornit</string>
     <string name="all_the_internet">Toate rețelele</string>
+    <string name="app_downloads">%s descărcări</string>
     <string name="app_size">%1$s</string>
     <string name="auth_activity_title">Cont Xunlei</string>
     <string name="bind_xunlei_account">Adaugă cont Xunlei</string>
@@ -218,6 +217,7 @@
     <string name="delete">Șterge</string>
     <string name="deselect_subfile_all">Deselectați tot</string>
     <string name="determine">OK</string>
+    <string name="dialog_confirm_delete_downloads_message">Ștergeți sarcinile selectate?</string>
     <string name="disable">Dezactivat</string>
     <string name="display_expire_netiv1">Această lună</string>
     <string name="do_not_support_url">Acest tip de URL nu este suportat</string>

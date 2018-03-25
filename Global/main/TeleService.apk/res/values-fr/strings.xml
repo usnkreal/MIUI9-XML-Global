@@ -1274,12 +1274,12 @@ Votre carte SIM sera effacée en cas de nouvel échec."</string>
     <string name="cfnry_time_thirty_sec">30 sec</string>
     <string name="cfnry_time_setting_title">"Définir la durée d'attente"</string>
     <string name="prompt_when_turnon_volte_without_lte">"Les réseaux LTE ne sont pas disponibles actuellement. Activer VoLTE peut vous empêcher d'effectuer des appels réguliers."</string>
-    <string name="prompt_when_turnon_volte_on_3g_prefered">Select LTE as your preferred network type before turning on VoLTE.</string>
+    <string name="prompt_when_turnon_volte_on_3g_prefered">"Sélectionnez LTE comme votre type de réseau préféré avant d'activer VoLTE."</string>
     <string name="prompt_to_turnoff_volte_when_failed">Les services VoLTE ne sont pas disponibles. Désactivez VoLTE pour passer un appel.</string>
     <string name="volte_tips_when_turn_on">Les services VoLTE de China Telecom sont uniquement fournis dans les zones couvertes par le réseau LTE.</string>
     <string name="prompt_to_turnoff_volte_when_supp_service">"Le service n'est pas disponible. Désactivez VoLTE dans les paramètres."</string>
-    <string name="prefered_network_type_3g_promp">You should turn off VoLTE before seleсting 3G as your preferred network type. Turn off now?</string>
-    <string name="close_volte">Turn off VoLTE</string>
+    <string name="prefered_network_type_3g_promp">Vous devez désactiver VoLTE avant de choisir la 3G comme type de réseau préféré. Désactiver maintenant ?</string>
+    <string name="close_volte">Désactiver VoLTE</string>
     <string name="pick_outgoing_call_phone_type">Passer un appel</string>
     <string name="pick_outgoing_sip_phone">"Utiliser un compte d'appel Internet "</string>
     <string name="remember_my_choice">Toujours utiliser pour passer des appels VOIP</string>

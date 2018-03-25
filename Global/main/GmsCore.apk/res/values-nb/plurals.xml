@@ -137,51 +137,51 @@
         <item quantity="one">minutt</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day">
-        <item quantity="other">Du belastes automatisk &amp;lt;price>%1$s hver %2$d. dag&amp;lt;/price> fra og med &amp;lt;start_time>%3$s&amp;lt;/start_time> og frem til du avslutter abonnementet.</item>
-        <item quantity="one">Du belastes automatisk &amp;lt;price>%1$s hver dag&amp;lt;/price> fra og med &amp;lt;start_time>%3$s&amp;lt;/start_time> og frem til du avslutter abonnementet.</item>
+        <item quantity="other">Du belastes automatisk &lt;price>%1$s hver %2$d. dag&lt;/price> fra og med &lt;start_time>%3$s&lt;/start_time> og frem til du avslutter abonnementet.</item>
+        <item quantity="one">Du belastes automatisk &lt;price>%1$s hver dag&lt;/price> fra og med &lt;start_time>%3$s&lt;/start_time> og frem til du avslutter abonnementet.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day_limited">
-        <item quantity="other">Du belastes automatisk &amp;lt;price>%1$s hver %2$d. dag&amp;lt;/price> de neste &amp;lt;duration>%3$d dagene&amp;lt;/duration> fra og med &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
-        <item quantity="one">Du belastes automatisk &amp;lt;price>%1$s hver dag&amp;lt;/price> de neste &amp;lt;duration>%3$d dagene&amp;lt;/duration> fra og med &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="other">Du belastes automatisk &lt;price>%1$s hver %2$d. dag&lt;/price> de neste &lt;duration>%3$d dagene&lt;/duration> fra og med &lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="one">Du belastes automatisk &lt;price>%1$s hver dag&lt;/price> de neste &lt;duration>%3$d dagene&lt;/duration> fra og med &lt;start_time>%4$s&lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day_tax">
-        <item quantity="other">Du belastes automatisk &amp;lt;price>%1$s pluss eventuelle avgifter hver %2$d. dag&amp;lt;/price> fra og med &amp;lt;start_time>%3$s&amp;lt;/start_time> og frem til du avslutter abonnementet.</item>
-        <item quantity="one">Du belastes automatisk &amp;lt;price>%1$s pluss eventuelle avgifter hver dag&amp;lt;/price> fra og med &amp;lt;start_time>%3$s&amp;lt;/start_time> og frem til du avslutter abonnementet.</item>
+        <item quantity="other">Du belastes automatisk &lt;price>%1$s pluss eventuelle avgifter hver %2$d. dag&lt;/price> fra og med &lt;start_time>%3$s&lt;/start_time> og frem til du avslutter abonnementet.</item>
+        <item quantity="one">Du belastes automatisk &lt;price>%1$s pluss eventuelle avgifter hver dag&lt;/price> fra og med &lt;start_time>%3$s&lt;/start_time> og frem til du avslutter abonnementet.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day_tax_limited">
-        <item quantity="other">Du belastes automatisk &amp;lt;price>%1$s pluss eventuelle avgifter hver %2$d. dag&amp;lt;/price> de neste &amp;lt;duration>%3$d dagene&amp;lt;/duration> fra og med &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
-        <item quantity="one">Du belastes automatisk &amp;lt;price>%1$s pluss eventuelle avgifter hver dag&amp;lt;/price> de neste &amp;lt;duration>%3$d dagene&amp;lt;/duration> fra og med &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="other">Du belastes automatisk &lt;price>%1$s pluss eventuelle avgifter hver %2$d. dag&lt;/price> de neste &lt;duration>%3$d dagene&lt;/duration> fra og med &lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="one">Du belastes automatisk &lt;price>%1$s pluss eventuelle avgifter hver dag&lt;/price> de neste &lt;duration>%3$d dagene&lt;/duration> fra og med &lt;start_time>%4$s&lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month">
-        <item quantity="other">Du belastes automatisk &amp;lt;price>%1$s hver %2$d. måned&amp;lt;/price> fra og med &amp;lt;start_time>%3$s&amp;lt;/start_time> og frem til du avslutter abonnementet.</item>
-        <item quantity="one">Du belastes automatisk &amp;lt;price>%1$s hver måned&amp;lt;/price> fra og med &amp;lt;start_time>%3$s&amp;lt;/start_time> og frem til du avslutter abonnementet.</item>
+        <item quantity="other">Du belastes automatisk &lt;price>%1$s hver %2$d. måned&lt;/price> fra og med &lt;start_time>%3$s&lt;/start_time> og frem til du avslutter abonnementet.</item>
+        <item quantity="one">Du belastes automatisk &lt;price>%1$s hver måned&lt;/price> fra og med &lt;start_time>%3$s&lt;/start_time> og frem til du avslutter abonnementet.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month_limited">
-        <item quantity="other">Du belastes automatisk &amp;lt;price>%1$s hver %2$d. måned&amp;lt;/price> de neste &amp;lt;duration>%3$d månedene&amp;lt;/duration> fra og med &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
-        <item quantity="one">Du belastes automatisk &amp;lt;price>%1$s hver måned&amp;lt;/price> de neste &amp;lt;duration>%3$d månedene&amp;lt;/duration> fra og med &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="other">Du belastes automatisk &lt;price>%1$s hver %2$d. måned&lt;/price> de neste &lt;duration>%3$d månedene&lt;/duration> fra og med &lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="one">Du belastes automatisk &lt;price>%1$s hver måned&lt;/price> de neste &lt;duration>%3$d månedene&lt;/duration> fra og med &lt;start_time>%4$s&lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month_tax">
-        <item quantity="other">Du belastes automatisk &amp;lt;price>%1$s pluss eventuelle avgifter hver %2$d. måned&amp;lt;/price> fra og med &amp;lt;start_time>%3$s&amp;lt;/start_time> og frem til du avslutter abonnementet.</item>
-        <item quantity="one">Du belastes automatisk &amp;lt;price>%1$s pluss eventuelle avgifter hver måned&amp;lt;/price> fra og med &amp;lt;start_time>%3$s&amp;lt;/start_time> og frem til du avslutter abonnementet.</item>
+        <item quantity="other">Du belastes automatisk &lt;price>%1$s pluss eventuelle avgifter hver %2$d. måned&lt;/price> fra og med &lt;start_time>%3$s&lt;/start_time> og frem til du avslutter abonnementet.</item>
+        <item quantity="one">Du belastes automatisk &lt;price>%1$s pluss eventuelle avgifter hver måned&lt;/price> fra og med &lt;start_time>%3$s&lt;/start_time> og frem til du avslutter abonnementet.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month_tax_limited">
-        <item quantity="other">Du belastes automatisk &amp;lt;price>%1$s pluss eventuelle avgifter hver %2$d. måned&amp;lt;/price> de neste &amp;lt;duration>%3$d månedene&amp;lt;/duration> fra og med &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
-        <item quantity="one">Du belastes automatisk &amp;lt;price>%1$s pluss eventuelle avgifter hver måned&amp;lt;/price> de neste &amp;lt;duration>%3$d månedene&amp;lt;/duration> fra og med &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="other">Du belastes automatisk &lt;price>%1$s pluss eventuelle avgifter hver %2$d. måned&lt;/price> de neste &lt;duration>%3$d månedene&lt;/duration> fra og med &lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="one">Du belastes automatisk &lt;price>%1$s pluss eventuelle avgifter hver måned&lt;/price> de neste &lt;duration>%3$d månedene&lt;/duration> fra og med &lt;start_time>%4$s&lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year">
-        <item quantity="other">Du belastes automatisk &amp;lt;price>%1$s hvert %2$d. år&amp;lt;/price> fra og med &amp;lt;start_time>%3$s&amp;lt;/start_time> og frem til du avslutter abonnementet.</item>
-        <item quantity="one">Du belastes automatisk &amp;lt;price>%1$s hvert år&amp;lt;/price> fra og med &amp;lt;start_time>%3$s&amp;lt;/start_time> og frem til du avslutter abonnementet.</item>
+        <item quantity="other">Du belastes automatisk &lt;price>%1$s hvert %2$d. år&lt;/price> fra og med &lt;start_time>%3$s&lt;/start_time> og frem til du avslutter abonnementet.</item>
+        <item quantity="one">Du belastes automatisk &lt;price>%1$s hvert år&lt;/price> fra og med &lt;start_time>%3$s&lt;/start_time> og frem til du avslutter abonnementet.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year_limited">
-        <item quantity="other">Du belastes automatisk &amp;lt;price>%1$s hvert %2$d. år&amp;lt;/price> de neste &amp;lt;duration>%3$d årene&amp;lt;/duration> fra og med &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
-        <item quantity="one">Du belastes automatisk &amp;lt;price>%1$s hvert år&amp;lt;/price> de neste &amp;lt;duration>%3$d årene&amp;lt;/duration> fra og med &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="other">Du belastes automatisk &lt;price>%1$s hvert %2$d. år&lt;/price> de neste &lt;duration>%3$d årene&lt;/duration> fra og med &lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="one">Du belastes automatisk &lt;price>%1$s hvert år&lt;/price> de neste &lt;duration>%3$d årene&lt;/duration> fra og med &lt;start_time>%4$s&lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year_tax">
-        <item quantity="other">s Du belastes automatisk &amp;lt;price>%1$s pluss eventuelle avgifter hvert %2$d. år&amp;lt;/price> fra og med &amp;lt;start_time>%3$s&amp;lt;/start_time> og frem til du avslutter abonnementet.</item>
-        <item quantity="one">Du belastes automatisk &amp;lt;price>%1$s pluss eventuelle avgifter hvert år&amp;lt;/price> fra og med &amp;lt;start_time>%3$s&amp;lt;/start_time> og frem til du avslutter abonnementet.</item>
+        <item quantity="other">s Du belastes automatisk &lt;price>%1$s pluss eventuelle avgifter hvert %2$d. år&lt;/price> fra og med &lt;start_time>%3$s&lt;/start_time> og frem til du avslutter abonnementet.</item>
+        <item quantity="one">Du belastes automatisk &lt;price>%1$s pluss eventuelle avgifter hvert år&lt;/price> fra og med &lt;start_time>%3$s&lt;/start_time> og frem til du avslutter abonnementet.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year_tax_limited">
-        <item quantity="other">Du belastes automatisk &amp;lt;price>%1$s pluss eventuelle avgifter hvert %2$d. år&amp;lt;/price> de neste &amp;lt;duration>%3$d årene&amp;lt;/duration> fra og med &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
-        <item quantity="one">Du belastes automatisk &amp;lt;price>%1$s pluss eventuelle avgifter hvert år&amp;lt;/price> de neste &amp;lt;duration>%3$d årene&amp;lt;/duration> fra og med &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="other">Du belastes automatisk &lt;price>%1$s pluss eventuelle avgifter hvert %2$d. år&lt;/price> de neste &lt;duration>%3$d årene&lt;/duration> fra og med &lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="one">Du belastes automatisk &lt;price>%1$s pluss eventuelle avgifter hvert år&lt;/price> de neste &lt;duration>%3$d årene&lt;/duration> fra og med &lt;start_time>%4$s&lt;/start_time>.</item>
     </plurals>
 </resources>

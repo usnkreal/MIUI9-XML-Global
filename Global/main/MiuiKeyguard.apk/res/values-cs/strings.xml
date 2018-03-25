@@ -65,6 +65,7 @@
     <string name="input_password_after_boot_msg">K odemčení zařízení zadejte heslo</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">Po restartu zařízení musíte nejprve přejít do Prvního prostoru</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Během hovoru nelze přepnout mezi prostory</string>
+    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Nelze přepnout mezi prostory, pokud je Rodičovská kontrola aktivní</string>
     <string name="input_password_handle_sdcard_fs">Do Druhého prostoru nelze přejít ze Zamykací obrazovky. Přejděte nejprve do Prvního prostoru.</string>
     <string name="accessibility_enter_lock_wallpaper">Klepnutím otevřete Tapetu Kolotoč</string>
     <string name="wallpaper_global_des_drop_down_notify_text">Uvolněte pro zobrazení podrobností</string>

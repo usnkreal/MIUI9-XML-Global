@@ -111,8 +111,8 @@
         <item quantity="few">Nu ați folosit pentru %d ani</item>
     </plurals>
     <plurals name="resutl_function_install_app_summary">
-        <item quantity="other">&lt;Data>&amp;lt;font color=#ff0000 >%d&amp;lt;/font> aplicații nu au fost folosite pentru o lungă perioadă de timp, aruncați o privire.;&lt;/Data></item>
-        <item quantity="one">&lt;Data>&amp;lt;font color=#ff0000 >%d&amp;lt;/font> aplicație nu a fost folosită pentru o lungă perioadă de timp, aruncați o privire.;&lt;/Data></item>
-        <item quantity="few">&lt;Data>&amp;lt;font color=#ff0000 >%d&amp;lt;/font> aplicații nu au fost folosite pentru o lungă perioadă de timp, aruncați o privire.;&lt;/Data></item>
+        <item quantity="other">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> aplicații nu au fost folosite pentru o lungă perioadă de timp, aruncați o privire.;&lt;/Data></item>
+        <item quantity="one">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> aplicație nu a fost folosită pentru o lungă perioadă de timp, aruncați o privire.;&lt;/Data></item>
+        <item quantity="few">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> aplicații nu au fost folosite pentru o lungă perioadă de timp, aruncați o privire.;&lt;/Data></item>
     </plurals>
 </resources>

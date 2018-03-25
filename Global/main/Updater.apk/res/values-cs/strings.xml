@@ -265,7 +265,7 @@ Zkuste to znovu pomocí svého Xiaomi účtu."</string>
     <string name="vote_error4">Váš názor již byl odeslán</string>
     <string name="vote_error5">"Něco se pokazilo
 Váš názor se nepodařilo odeslat"</string>
-    <string name="miui_BBS">" "<a href="http://bbs.miui.com">Přejděte na MIUI fórum</a>" "</string>
+    <string name="miui_BBS">" "<a href="http://bbs.miui.com">Přejít do MIUI fóra</a>" "</string>
     <string name="alpha_cancel">Odhlásit se z testovacího programu Beta</string>
     <string name="alpha_cancel_ok">OK</string>
     <string name="alpha_cancel_cancel">Zrušit</string>
@@ -319,6 +319,7 @@ Váš názor se nepodařilo odeslat"</string>
     <string name="home_delay_cancel">Zrušit</string>
     <string name="accessibility_video">Video</string>
     <string name="accessibility_image">Obrázek</string>
+    <string name="accessibility_play">Přehrát</string>
     <string name="security_space_title">Důležitá aktualizace</string>
     <string name="security_space_msg">MIUI 9 má nový systémový soubor. Pokud restartujete zařízení nyní, nebudete již moci využít Druhý prostor. Před restartováním proto přesuňte všechny položky z Druhého prostoru do Prvního.</string>
     <string name="security_space_button_pos">Nerestartovat</string>

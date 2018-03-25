@@ -367,4 +367,14 @@ Pokud zařízení neaktualizujete, duální aplikace nemusejí fungovat správn�
     <string name="second_space_desktop_tips_dialog_title">Důležitá aktualizace</string>
     <string name="second_space_desktop_tips_dialog_positive_text">Rozumím</string>
     <string name="second_space_desktop_tips_dialog_message">Po této aktualizaci již ikony pro přesun dat a správu Druhého prostoru nebudou zobrazeny na Domovské obrazovce. Tyto funkce budete moci najít v Nastavení.</string>
+    <string name="green_guard">Rodičovská kontrola</string>
+    <string name="bind_device">Přidat zařízení</string>
+    <string name="green_guard_des1">Add devices to manage them remotely</string>
+    <string name="green_guard_title2">View location info</string>
+    <string name="green_guard_des2">Know where exactly all managed devices are</string>
+    <string name="green_guard_title3">Manage apps</string>
+    <string name="green_guard_des3">Control installed apps and restrict usage</string>
+    <string name="experience_more_features">Add a device to view all features</string>
+    <string name="can_not_switch_when_green_kid_active">Switching to Second space is restricted by parental controls</string>
+    <string name="need_network_when_bind">Connect to the network before Adding devices</string>
 </resources>

@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="AAP_SUGGEST_LABEL">
+        <item quantity="other">일치하는 가까운 위치</item>
+        <item quantity="one">일치하는 가까운 위치</item>
+        <item quantity="two">일치하는 가까운 위치</item>
+        <item quantity="few">일치하는 가까운 위치</item>
+        <item quantity="many">일치하는 가까운 위치</item>
+    </plurals>
+    <plurals name="ACCESSIBILITY_DECIMAL_STARS">
+        <item quantity="other">별표 %.1f개</item>
+        <item quantity="zero">별표 %.1f개</item>
+        <item quantity="one">별표 %.1f개</item>
+        <item quantity="two">별표 %.1f개</item>
+        <item quantity="few">별표 %.1f개</item>
+        <item quantity="many">별표 %.1f개</item>
+    </plurals>
+    <plurals name="ACCESSIBILITY_STARS">
+        <item quantity="other">별표 %d개</item>
+        <item quantity="zero">별표 %d개</item>
+        <item quantity="one">별표 %d개</item>
+        <item quantity="two">별표 %d개</item>
+        <item quantity="few">별표 %d개</item>
+        <item quantity="many">별표 %d개</item>
+    </plurals>
+    <plurals name="ADD_PHOTOS_MORE_PHOTOS_COUNT">
+        <item quantity="other">+ 사진 %d장</item>
+        <item quantity="zero">+ 사진 %d장</item>
+        <item quantity="one">+ 사진 %d장</item>
+        <item quantity="two">+ 사진 %d장</item>
+        <item quantity="few">+ 사진 %d장</item>
+        <item quantity="many">+ 사진 %d장</item>
+    </plurals>
+    <plurals name="CAR_BUSINESS_ATTRIBUTION">
+        <item quantity="other">출처: %s</item>
+        <item quantity="one">출처: %s</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="other">%d일</item>
+        <item quantity="zero">%d일</item>
+        <item quantity="one">%d일</item>
+        <item quantity="two">%d일</item>
+        <item quantity="few">%d일</item>
+        <item quantity="many">%d일</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="other">%s일</item>
+        <item quantity="zero">%s일</item>
+        <item quantity="one">%s일</item>
+        <item quantity="two">%s일</item>
+        <item quantity="few">%s일</item>
+        <item quantity="many">%s일</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="other">%d일</item>
+        <item quantity="zero">%d일</item>
+        <item quantity="one">%d일</item>
+        <item quantity="two">%d일</item>
+        <item quantity="few">%d일</item>
+        <item quantity="many">%d일</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="other">%d시간</item>
+        <item quantity="zero">%d시간</item>
+        <item quantity="one">%d시간</item>
+        <item quantity="two">%d시간</item>
+        <item quantity="few">%d시간</item>
+        <item quantity="many">%d시간</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="other">%s시간</item>
+        <item quantity="zero">%s시간</item>
+        <item quantity="one">%s시간</item>
+        <item quantity="two">%s시간</item>
+        <item quantity="few">%s시간</item>
+        <item quantity="many">%s시간</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="other">%d분</item>
+        <item quantity="zero">%d분</item>
+        <item quantity="one">%d분</item>
+        <item quantity="two">%d분</item>
+        <item quantity="few">%d분</item>
+        <item quantity="many">%d분</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="other">%s분</item>
+        <item quantity="zero">%s분</item>
+        <item quantity="one">%s분</item>
+        <item quantity="two">%s분</item>
+        <item quantity="few">%s분</item>
+        <item quantity="many">%s분</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="other">%1$s피트 직진</item>
+        <item quantity="zero">%1$s피트 직진</item>
+        <item quantity="one">%1$s피트 직진</item>
+        <item quantity="two">%1$s피트 직진</item>
+        <item quantity="few">%1$s피트 직진</item>
+        <item quantity="many">%1$s피트 직진</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="other">%1$s킬로미터 직진</item>
+        <item quantity="zero">%1$s킬로미터 직진</item>
+        <item quantity="one">%1$s킬로미터 직진</item>
+        <item quantity="two">%1$s킬로미터 직진</item>
+        <item quantity="few">%1$s킬로미터 직진</item>
+        <item quantity="many">%1$s킬로미터 직진</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="other">%1$s미터 직진</item>
+        <item quantity="zero">%1$s미터 직진</item>
+        <item quantity="one">%1$s미터 직진</item>
+        <item quantity="two">%1$s미터 직진</item>
+        <item quantity="few">%1$s미터 직진</item>
+        <item quantity="many">%1$s미터 직진</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="other">%1$s마일 직진</item>
+        <item quantity="zero">%1$s마일 직진</item>
+        <item quantity="one">%1$s마일 직진</item>
+        <item quantity="two">%1$s마일 직진</item>
+        <item quantity="few">%1$s마일 직진</item>
+        <item quantity="many">%1$s마일 직진</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="other">%1$s야드 직진</item>
+        <item quantity="zero">%1$s야드 직진</item>
+        <item quantity="one">%1$s야드 직진</item>
+        <item quantity="two">%1$s야드 직진</item>
+        <item quantity="few">%1$s야드 직진</item>
+        <item quantity="many">%1$s야드 직진</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="other">%2$s에서 %1$s피트 직진</item>
+        <item quantity="zero">%2$s에서 %1$s피트 직진</item>
+        <item quantity="one">%2$s에서 %1$s피트 직진</item>
+        <item quantity="two">%2$s에서 %1$s피트 직진</item>
+        <item quantity="few">%2$s에서 %1$s피트 직진</item>
+        <item quantity="many">%2$s에서 %1$s피트 직진</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="other">%2$s에서 %1$s킬로미터 직진</item>
+        <item quantity="zero">%2$s에서 %1$s킬로미터 직진</item>
+        <item quantity="one">%2$s에서 %1$s킬로미터 직진</item>
+        <item quantity="two">%2$s에서 %1$s킬로미터 직진</item>
+        <item quantity="few">%2$s에서 %1$s킬로미터 직진</item>
+        <item quantity="many">%2$s에서 %1$s킬로미터 직진</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="other">%2$s에서 %1$s미터 직진</item>
+        <item quantity="zero">%2$s에서 %1$s미터 직진</item>
+        <item quantity="one">%2$s에서 %1$s미터 직진</item>
+        <item quantity="two">%2$s에서 %1$s미터 직진</item>
+        <item quantity="few">%2$s에서 %1$s미터 직진</item>
+        <item quantity="many">%2$s에서 %1$s미터 직진</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="other">%2$s에서 %1$s마일 직진</item>
+        <item quantity="zero">%2$s에서 %1$s마일 직진</item>
+        <item quantity="one">%2$s에서 %1$s마일 직진</item>
+        <item quantity="two">%2$s에서 %1$s마일 직진</item>
+        <item quantity="few">%2$s에서 %1$s마일 직진</item>
+        <item quantity="many">%2$s에서 %1$s마일 직진</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="other">%2$s에서 %1$s야드 직진</item>
+        <item quantity="zero">%2$s에서 %1$s야드 직진</item>
+        <item quantity="one">%2$s에서 %1$s야드 직진</item>
+        <item quantity="two">%2$s에서 %1$s야드 직진</item>
+        <item quantity="few">%2$s에서 %1$s야드 직진</item>
+        <item quantity="many">%2$s에서 %1$s야드 직진</item>
+    </plurals>
+    <plurals name="DA_SPEECH_DAYS">
+        <item quantity="other">%s일</item>
+        <item quantity="zero">%s일</item>
+        <item quantity="one">%s일</item>
+        <item quantity="two">%s일</item>
+        <item quantity="few">%s일</item>
+        <item quantity="many">%s일</item>
+    </plurals>
+    <plurals name="DA_SPEECH_HOURS">
+        <item quantity="other">%s시간</item>
+        <item quantity="zero">%s시간</item>
+        <item quantity="one">%s시간</item>
+        <item quantity="two">%s시간</item>
+        <item quantity="few">%s시간</item>
+        <item quantity="many">%s시간</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="other">%1$s피트 후</item>
+        <item quantity="zero">%1$s피트 후</item>
+        <item quantity="one">%1$s피트 후</item>
+        <item quantity="two">%1$s피트 후</item>
+        <item quantity="few">%1$s피트 후</item>
+        <item quantity="many">%1$s피트 후</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="other">%1$s킬로미터 후</item>
+        <item quantity="zero">%1$s킬로미터 후</item>
+        <item quantity="one">%1$s킬로미터 후</item>
+        <item quantity="two">%1$s킬로미터 후</item>
+        <item quantity="few">%1$s킬로미터 후</item>
+        <item quantity="many">%1$s킬로미터 후</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="other">%1$s미터 후</item>
+        <item quantity="zero">%1$s미터 후</item>
+        <item quantity="one">%1$s미터 후</item>
+        <item quantity="two">%1$s미터 후</item>
+        <item quantity="few">%1$s미터 후</item>
+        <item quantity="many">%1$s미터 후</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="other">%1$s마일 후</item>
+        <item quantity="zero">%1$s마일 후</item>
+        <item quantity="one">%1$s마일 후</item>
+        <item quantity="two">%1$s마일 후</item>
+        <item quantity="few">%1$s마일 후</item>
+        <item quantity="many">%1$s마일 후</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="other">%1$s야드 후</item>
+        <item quantity="zero">%1$s야드 후</item>
+        <item quantity="one">%1$s야드 후</item>
+        <item quantity="two">%1$s야드 후</item>
+        <item quantity="few">%1$s야드 후</item>
+        <item quantity="many">%1$s야드 후</item>
+    </plurals>
+    <plurals name="DA_SPEECH_MINUTES">
+        <item quantity="other">%s분</item>
+        <item quantity="zero">%s분</item>
+        <item quantity="one">%s분</item>
+        <item quantity="two">%s분</item>
+        <item quantity="few">%s분</item>
+        <item quantity="many">%s분</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="other">목적지가 %1$s피트 앞에 있습니다.</item>
+        <item quantity="zero">목적지가 %1$s피트 앞에 있습니다.</item>
+        <item quantity="one">목적지가 %1$s피트 앞에 있습니다.</item>
+        <item quantity="two">목적지가 %1$s피트 앞에 있습니다.</item>
+        <item quantity="few">목적지가 %1$s피트 앞에 있습니다.</item>
+        <item quantity="many">목적지가 %1$s피트 앞에 있습니다.</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="other">목적지가 %1$s킬로미터 앞에 있습니다.</item>
+        <item quantity="zero">목적지가 %1$s킬로미터 앞에 있습니다.</item>
+        <item quantity="one">목적지가 %1$s킬로미터 앞에 있습니다.</item>
+        <item quantity="two">목적지가 %1$s킬로미터 앞에 있습니다.</item>
+        <item quantity="few">목적지가 %1$s킬로미터 앞에 있습니다.</item>
+        <item quantity="many">목적지가 %1$s킬로미터 앞에 있습니다.</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="other">목적지가 %1$s미터 앞에 있습니다.</item>
+        <item quantity="zero">목적지가 %1$s미터 앞에 있습니다.</item>
+        <item quantity="one">목적지가 %1$s미터 앞에 있습니다.</item>
+        <item quantity="two">목적지가 %1$s미터 앞에 있습니다.</item>
+        <item quantity="few">목적지가 %1$s미터 앞에 있습니다.</item>
+        <item quantity="many">목적지가 %1$s미터 앞에 있습니다.</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="other">목적지가 %1$s마일 앞에 있습니다.</item>
+        <item quantity="zero">목적지가 %1$s마일 앞에 있습니다.</item>
+        <item quantity="one">목적지가 %1$s마일 앞에 있습니다.</item>
+        <item quantity="two">목적지가 %1$s마일 앞에 있습니다.</item>
+        <item quantity="few">목적지가 %1$s마일 앞에 있습니다.</item>
+        <item quantity="many">목적지가 %1$s마일 앞에 있습니다.</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="other">목적지가 %1$s야드 앞에 있습니다.</item>
+        <item quantity="zero">목적지가 %1$s야드 앞에 있습니다.</item>
+        <item quantity="one">목적지가 %1$s야드 앞에 있습니다.</item>
+        <item quantity="two">목적지가 %1$s야드 앞에 있습니다.</item>
+        <item quantity="few">목적지가 %1$s야드 앞에 있습니다.</item>
+        <item quantity="many">목적지가 %1$s야드 앞에 있습니다.</item>
+    </plurals>
+    <plurals name="DIRECTIONS_MORE_TRAFFIC_DISRUPTIONS">
+        <item quantity="other">교통 상황 %1$s건 더보기</item>
+        <item quantity="zero">교통 상황 %1$s건 더보기</item>
+        <item quantity="one">교통 상황 %1$s건 더보기</item>
+        <item quantity="two">교통 상황 %1$s건 더보기</item>
+        <item quantity="few">교통 상황 %1$s건 더보기</item>
+        <item quantity="many">교통 상황 %1$s건 더보기</item>
+    </plurals>
+    <plurals name="EDIT_PUBLISHED_NOTIFICATION_TITLE">
+        <item quantity="other">%d건의 수정사항이 게시되었습니다.</item>
+        <item quantity="zero">%d건의 수정사항이 게시되었습니다.</item>
+        <item quantity="one">수정사항이 이제 게시되었습니다.</item>
+        <item quantity="two">%d건의 수정사항이 게시되었습니다.</item>
+        <item quantity="few">%d건의 수정사항이 게시되었습니다.</item>
+        <item quantity="many">%d건의 수정사항이 게시되었습니다.</item>
+    </plurals>
+    <plurals name="FIVESTAR_HISTOGRAM_BAR_LABEL">
+        <item quantity="other">별표 %d개</item>
+        <item quantity="zero">별표 %d개</item>
+        <item quantity="one">별표 %d개</item>
+        <item quantity="two">별표 %d개</item>
+        <item quantity="few">별표 %d개</item>
+        <item quantity="many">별표 %d개</item>
+    </plurals>
+    <plurals name="HOTEL_STAR_CLASS">
+        <item quantity="other">%d성급 호텔</item>
+        <item quantity="zero">%d성급 호텔</item>
+        <item quantity="one">%d성급 호텔</item>
+        <item quantity="two">%d성급 호텔</item>
+        <item quantity="few">%d성급 호텔</item>
+        <item quantity="many">%d성급 호텔</item>
+    </plurals>
+    <plurals name="IAMHERE_YOUVE_TAKEN_PHOTO_HERE">
+        <item quantity="other">이 곳에서 찍은 사진이 %d장 있습니다.</item>
+        <item quantity="zero">이 곳에서 찍은 사진이 %d장 있습니다.</item>
+        <item quantity="one">이 곳에서 찍은 사진이 %d장 있습니다.</item>
+        <item quantity="two">이 곳에서 찍은 사진이 %d장 있습니다.</item>
+        <item quantity="few">이 곳에서 찍은 사진이 %d장 있습니다.</item>
+        <item quantity="many">이 곳에서 찍은 사진이 %d장 있습니다.</item>
+    </plurals>
+    <plurals name="LAST_HERE_DAYS_AGO">
+        <item quantity="other">%d일 전에 방문한 장소입니다.</item>
+        <item quantity="two">%d일 전에 방문한 장소입니다.</item>
+        <item quantity="few">%d일 전에 방문한 장소입니다.</item>
+        <item quantity="many">%d일 전에 방문한 장소입니다.</item>
+    </plurals>
+    <plurals name="LAST_HERE_MONTHS_AGO">
+        <item quantity="other">%d개월 전에 방문한 장소입니다.</item>
+        <item quantity="one">%d개월 전에 방문한 장소입니다.</item>
+        <item quantity="two">%d개월 전에 방문한 장소입니다.</item>
+        <item quantity="few">%d개월 전에 방문한 장소입니다.</item>
+        <item quantity="many">%d개월 전에 방문한 장소입니다.</item>
+    </plurals>
+    <plurals name="LAST_HERE_WEEKS_AGO">
+        <item quantity="other">%d주 전에 방문한 장소입니다.</item>
+        <item quantity="one">%d주 전에 방문한 장소입니다.</item>
+        <item quantity="two">%d주 전에 방문한 장소입니다.</item>
+        <item quantity="few">%d주 전에 방문한 장소입니다.</item>
+    </plurals>
+    <plurals name="LAST_HERE_YEARS_AGO">
+        <item quantity="other">%d년 전에 방문한 장소입니다.</item>
+        <item quantity="one">%d년 전에 방문한 장소입니다.</item>
+        <item quantity="two">%d년 전에 방문한 장소입니다.</item>
+        <item quantity="few">%d년 전에 방문한 장소입니다.</item>
+        <item quantity="many">%d년 전에 방문한 장소입니다.</item>
+    </plurals>
+    <plurals name="LOCAL_GUIDE_CURRENT_LEVEL">
+        <item quantity="other">레벨 %d</item>
+        <item quantity="one">레벨 %d</item>
+    </plurals>
+    <plurals name="MAPS_ACTIVITY_PHOTOS_REMOVED">
+        <item quantity="other">사진이 삭제되었습니다.</item>
+        <item quantity="zero">사진이 삭제되었습니다.</item>
+        <item quantity="one">사진이 삭제되었습니다.</item>
+        <item quantity="two">사진이 삭제되었습니다.</item>
+        <item quantity="few">사진이 삭제되었습니다.</item>
+        <item quantity="many">사진이 삭제되었습니다.</item>
+    </plurals>
+    <plurals name="MENU_REMOVE_STOPS">
+        <item quantity="other">경유지 삭제</item>
+        <item quantity="zero">경유지 삭제</item>
+        <item quantity="one">경유지 삭제</item>
+        <item quantity="two">경유지 삭제</item>
+        <item quantity="few">경유지 삭제</item>
+        <item quantity="many">경유지 삭제</item>
+    </plurals>
+    <plurals name="MONTHS_AGO">
+        <item quantity="other">%d개월 전</item>
+        <item quantity="one">%d개월 전</item>
+        <item quantity="two">%d개월 전</item>
+        <item quantity="few">%d개월 전</item>
+        <item quantity="many">%d개월 전</item>
+    </plurals>
+    <plurals name="MY_MAPS_PHOTO_VIDEO_COUNT">
+        <item quantity="other">사진/동영상 %d개</item>
+        <item quantity="one">사진/동영상 %d개</item>
+    </plurals>
+    <plurals name="MY_MAPS_VIDEO_COUNT">
+        <item quantity="other">%d개의 동영상</item>
+        <item quantity="one">%d개의 동영상</item>
+    </plurals>
+    <plurals name="NUMBER_OF_CONTRIBUTIONS">
+        <item quantity="other">%d회 참여</item>
+        <item quantity="zero">%d회 참여</item>
+        <item quantity="one">%d회 참여</item>
+        <item quantity="two">%d회 참여</item>
+        <item quantity="few">%d회 참여</item>
+        <item quantity="many">%d회 참여</item>
+    </plurals>
+    <plurals name="NUMBER_OF_LOCAL_GUIDE_POINTS">
+        <item quantity="other">%d포인트</item>
+        <item quantity="zero">%d포인트</item>
+        <item quantity="one">%d포인트</item>
+        <item quantity="two">%d포인트</item>
+        <item quantity="few">%d포인트</item>
+        <item quantity="many">%d포인트</item>
+    </plurals>
+    <plurals name="OFFLINE_AREA_EXPIRES_IN_DAYS">
+        <item quantity="other">%d일 후 만료</item>
+        <item quantity="zero">%d일 후 만료</item>
+        <item quantity="one">%d일 후 만료</item>
+        <item quantity="two">%d일 후 만료</item>
+        <item quantity="few">%d일 후 만료</item>
+        <item quantity="many">%d일 후 만료</item>
+    </plurals>
+    <plurals name="OFFLINE_AREA_EXPIRES_IN_LESS_THAN_DAYS">
+        <item quantity="other">%d일 내로 만료됨</item>
+        <item quantity="zero">%d일 내로 만료됨</item>
+        <item quantity="one">%d일 내로 만료됨</item>
+        <item quantity="two">%d일 내로 만료됨</item>
+        <item quantity="few">%d일 내로 만료됨</item>
+        <item quantity="many">%d일 내로 만료됨</item>
+    </plurals>
+    <plurals name="OFFLINE_CACHE_ESTIMATED_SIZE_NUM">
+        <item quantity="other">%dMB</item>
+        <item quantity="zero">%dMB</item>
+        <item quantity="one">%dMB</item>
+        <item quantity="two">%dMB</item>
+        <item quantity="few">%dMB</item>
+        <item quantity="many">%dMB</item>
+    </plurals>
+    <plurals name="OFFLINE_MAPS_CARD_TITLE">
+        <item quantity="other">%d개의 오프라인 지역</item>
+        <item quantity="zero">%d개의 오프라인 지역</item>
+        <item quantity="one">%d개의 오프라인 지역</item>
+        <item quantity="two">%d개의 오프라인 지역</item>
+        <item quantity="few">%d개의 오프라인 지역</item>
+        <item quantity="many">%d개의 오프라인 지역</item>
+    </plurals>
+    <plurals name="OFFLINE_RESULTS_FOUND">
+        <item quantity="other">연결 상태가 좋지 않지만 오프라인 지역에서 결과를 찾을 수 있었습니다.</item>
+        <item quantity="one">연결 상태가 좋지 않지만 오프라인 지역에서 결과를 찾을 수 있었습니다.</item>
+        <item quantity="two">연결 상태가 좋지 않지만 오프라인 지역에서 결과를 찾을 수 있었습니다.</item>
+        <item quantity="few">연결 상태가 좋지 않지만 오프라인 지역에서 결과를 찾을 수 있었습니다.</item>
+        <item quantity="many">연결 상태가 좋지 않지만 오프라인 지역에서 결과를 찾을 수 있었습니다.</item>
+    </plurals>
+    <plurals name="OFFLINE_RESULTS_FOUND_TITLE">
+        <item quantity="other">오프라인 결과</item>
+        <item quantity="one">오프라인 결과</item>
+        <item quantity="two">오프라인 결과</item>
+        <item quantity="few">오프라인 결과</item>
+        <item quantity="many">오프라인 결과</item>
+    </plurals>
+    <plurals name="PERSONAL_CALENDAR_EVENTS_TITLE">
+        <item quantity="other">Google 캘린더에 예정된 이벤트</item>
+        <item quantity="zero">Google 캘린더에 예정된 이벤트</item>
+        <item quantity="one">Google 캘린더에 예정된 이벤트</item>
+        <item quantity="two">Google 캘린더에 예정된 이벤트</item>
+        <item quantity="few">Google 캘린더에 예정된 이벤트</item>
+        <item quantity="many">Google 캘린더에 예정된 이벤트</item>
+    </plurals>
+    <plurals name="PERSONAL_GMAIL_RESERVATIONS_AND_CALENDAR_EVENTS_TITLE">
+        <item quantity="other">Gmail과 캘린더에 예정된 이벤트</item>
+        <item quantity="zero">Gmail과 캘린더에 예정된 이벤트</item>
+        <item quantity="one">Gmail과 캘린더에 예정된 이벤트</item>
+        <item quantity="two">Gmail과 캘린더에 예정된 이벤트</item>
+        <item quantity="few">Gmail과 캘린더에 예정된 이벤트</item>
+        <item quantity="many">Gmail과 캘린더에 예정된 이벤트</item>
+    </plurals>
+    <plurals name="PERSONAL_GMAIL_RESERVATIONS_TITLE">
+        <item quantity="other">Gmail에 예정된 예약</item>
+        <item quantity="zero">Gmail에 예정된 예약</item>
+        <item quantity="one">Gmail에 예정된 예약</item>
+        <item quantity="two">Gmail에 예정된 예약</item>
+        <item quantity="few">Gmail에 예정된 예약</item>
+        <item quantity="many">Gmail에 예정된 예약</item>
+    </plurals>
+    <plurals name="PERSONAL_RESERVATIONS_SUBTITLE">
+        <item quantity="other">나에게만 표시됩니다.</item>
+        <item quantity="one">나에게만 표시됩니다.</item>
+        <item quantity="two">나에게만 표시됩니다.</item>
+        <item quantity="few">나에게만 표시됩니다.</item>
+        <item quantity="many">나에게만 표시됩니다.</item>
+    </plurals>
+    <plurals name="PHOTOS">
+        <item quantity="other">사진 %d개</item>
+        <item quantity="zero">사진 %d개</item>
+        <item quantity="one">사진 %d개</item>
+        <item quantity="two">사진 %d개</item>
+        <item quantity="few">사진 %d개</item>
+        <item quantity="many">사진 %d개</item>
+    </plurals>
+    <plurals name="PHOTOS_UPLOADING_PHOTOS">
+        <item quantity="other">사진 %d장을 업로드하는 중</item>
+        <item quantity="zero">사진 %d장을 업로드하는 중</item>
+        <item quantity="one">사진 %d장을 업로드하는 중</item>
+        <item quantity="two">사진 %d장을 업로드하는 중</item>
+        <item quantity="few">사진 %d장을 업로드하는 중</item>
+        <item quantity="many">사진 %d장을 업로드하는 중</item>
+    </plurals>
+    <plurals name="PHOTO_TAKEN_NOTIFICATION_TAP_TO_ADD_PHOTO_MULTIPLE">
+        <item quantity="other">%2$s에 %1$d장의 사진 추가</item>
+        <item quantity="two">%2$s에 %1$d장의 사진 추가</item>
+        <item quantity="few">%2$s에 %1$d장의 사진 추가</item>
+        <item quantity="many">%2$s에 %1$d장의 사진 추가</item>
+    </plurals>
+    <plurals name="PHOTO_UPLOADED_MSG">
+        <item quantity="other">사진 검토가 완료되면 바로 사진이 공개됩니다.</item>
+        <item quantity="one">사진 검토가 완료되면 바로 사진이 공개됩니다.</item>
+        <item quantity="two">사진 검토가 완료되면 바로 사진이 공개됩니다.</item>
+        <item quantity="few">사진 검토가 완료되면 바로 사진이 공개됩니다.</item>
+        <item quantity="many">사진 검토가 완료되면 바로 사진이 공개됩니다.</item>
+    </plurals>
+    <plurals name="PLACE_PAGE_EXPANDED_NUMBER_OF_REVIEWS">
+        <item quantity="other">리뷰 %d개</item>
+        <item quantity="zero">리뷰 %d개</item>
+        <item quantity="one">리뷰 %d개</item>
+        <item quantity="two">리뷰 %d개</item>
+        <item quantity="few">리뷰 %d개</item>
+        <item quantity="many">리뷰 %d개</item>
+    </plurals>
+    <plurals name="PLACE_PENDING_EDIT_MORE_EDITS">
+        <item quantity="other">+ %d가지 수정사항</item>
+        <item quantity="zero">+ %d가지 수정사항</item>
+        <item quantity="one">+ %d가지 수정사항</item>
+        <item quantity="two">+ %d가지 수정사항</item>
+        <item quantity="few">+ %d가지 수정사항</item>
+        <item quantity="many">+ %d가지 수정사항</item>
+    </plurals>
+    <plurals name="POI_PROMPT_REPLACE_STOP">
+        <item quantity="other">경유지 변경</item>
+        <item quantity="zero">경유지 변경</item>
+        <item quantity="one">경유지 변경</item>
+        <item quantity="two">경유지 변경</item>
+        <item quantity="few">경유지 변경</item>
+        <item quantity="many">경유지 변경</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTOS">
+        <item quantity="other">사진 %d장</item>
+        <item quantity="zero">사진 %d장</item>
+        <item quantity="one">사진 %d장</item>
+        <item quantity="two">사진 %d장</item>
+        <item quantity="few">사진 %d장</item>
+        <item quantity="many">사진 %d장</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_PHOTO_VIEWS">
+        <item quantity="other">조회수 %,d회</item>
+        <item quantity="zero">조회수 %,d회</item>
+        <item quantity="one">조회수 %,d회</item>
+        <item quantity="two">조회수 %,d회</item>
+        <item quantity="few">조회수 %,d회</item>
+        <item quantity="many">조회수 %,d회</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_RATINGS">
+        <item quantity="other">평점 %d개</item>
+        <item quantity="zero">평점 %d개</item>
+        <item quantity="one">평점 %d개</item>
+        <item quantity="two">평점 %d개</item>
+        <item quantity="few">평점 %d개</item>
+        <item quantity="many">평점 %d개</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_NUMBER_OF_REVIEWS">
+        <item quantity="other">리뷰 %d개</item>
+        <item quantity="zero">리뷰 %d개</item>
+        <item quantity="one">리뷰 %d개</item>
+        <item quantity="two">리뷰 %d개</item>
+        <item quantity="few">리뷰 %d개</item>
+        <item quantity="many">리뷰 %d개</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_PHOTOS">
+        <item quantity="other">장의 사진</item>
+        <item quantity="zero">장의 사진</item>
+        <item quantity="one">장의 사진</item>
+        <item quantity="two">장의 사진</item>
+        <item quantity="few">장의 사진</item>
+        <item quantity="many">장의 사진</item>
+    </plurals>
+    <plurals name="PROFILE_ACTIVITY_REVIEWS">
+        <item quantity="other">개의 리뷰</item>
+        <item quantity="zero">개의 리뷰</item>
+        <item quantity="one">개의 리뷰</item>
+        <item quantity="two">개의 리뷰</item>
+        <item quantity="few">개의 리뷰</item>
+        <item quantity="many">개의 리뷰</item>
+    </plurals>
+    <plurals name="QUESTIONS_REMAINING">
+        <item quantity="other">+%d개의 질문</item>
+        <item quantity="one">+%d개의 질문</item>
+        <item quantity="two">+%d개의 질문</item>
+        <item quantity="few">+%d개의 질문</item>
+        <item quantity="many">+%d개의 질문</item>
+    </plurals>
+    <plurals name="RELATED_PLACES_MORE">
+        <item quantity="other">%d개 더 보기</item>
+        <item quantity="one">%d개 더 보기</item>
+        <item quantity="two">%d개 더 보기</item>
+        <item quantity="few">%d개 더 보기</item>
+        <item quantity="many">%d개 더 보기</item>
+    </plurals>
+    <plurals name="RESERVATION_PARTY_SIZE">
+        <item quantity="other">%d명</item>
+        <item quantity="zero">%d명</item>
+        <item quantity="one">%d명</item>
+        <item quantity="two">%d명</item>
+        <item quantity="few">%d명</item>
+        <item quantity="many">%d명</item>
+    </plurals>
+    <plurals name="REVIEW_SNIPPET_AUTHOR_WITH_SIMILAR_STATEMENTS">
+        <item quantity="other">%1$s님 외 리뷰어 %2$d명</item>
+        <item quantity="zero">%1$s님 외 리뷰어 %2$d명</item>
+        <item quantity="one">%1$s님 외 리뷰어 %2$d명</item>
+        <item quantity="two">%1$s님 외 리뷰어 %2$d명</item>
+        <item quantity="few">%1$s님 외 리뷰어 %2$d명</item>
+        <item quantity="many">%1$s님 외 리뷰어 %2$d명</item>
+    </plurals>
+    <plurals name="REVIEW_SNIPPET_TOTAL_STATEMENTS">
+        <item quantity="other">리뷰어 %d명</item>
+        <item quantity="zero">리뷰어 %d명</item>
+        <item quantity="one">리뷰어 %d명</item>
+        <item quantity="two">리뷰어 %d명</item>
+        <item quantity="few">리뷰어 %d명</item>
+        <item quantity="many">리뷰어 %d명</item>
+    </plurals>
+    <plurals name="SAVE_VISIT_DAYS_AGO">
+        <item quantity="other">%d일 전부터 방문한 장소를 저장하시겠습니까?</item>
+        <item quantity="zero">오늘 방문한 장소를 저장하시겠습니까?</item>
+        <item quantity="one">어제부터 방문한 장소를 저장하시겠습니까?</item>
+        <item quantity="few">%d일 전부터 방문한 장소를 저장하시겠습니까?</item>
+        <item quantity="many">%d일 전부터 방문한 장소를 저장하시겠습니까?</item>
+    </plurals>
+    <plurals name="SEARCH_OFFLINE_RESULTS">
+        <item quantity="other">연결이 끊어졌습니다. 오프라인 결과를 표시합니다.</item>
+        <item quantity="zero">연결이 끊어졌습니다. 오프라인 결과를 표시합니다.</item>
+        <item quantity="one">연결이 끊어졌습니다. 오프라인 결과를 표시합니다.</item>
+        <item quantity="two">연결이 끊어졌습니다. 오프라인 결과를 표시합니다.</item>
+        <item quantity="few">연결이 끊어졌습니다. 오프라인 결과를 표시합니다.</item>
+        <item quantity="many">연결이 끊어졌습니다. 오프라인 결과를 표시합니다.</item>
+    </plurals>
+    <plurals name="STATION_NEARBY_STATIONS">
+        <item quantity="other">주변 역/정류장</item>
+        <item quantity="zero">주변 역/정류장</item>
+        <item quantity="one">주변 역/정류장</item>
+        <item quantity="two">주변 역/정류장</item>
+        <item quantity="few">주변 역/정류장</item>
+        <item quantity="many">주변 역/정류장</item>
+    </plurals>
+    <plurals name="SWIPE_MILESTONE_MESSAGE">
+        <item quantity="other">Google 스트리트 뷰에서 %,d킬로미터를 여행했습니다.</item>
+        <item quantity="zero">Google 스트리트 뷰에서 %,d킬로미터를 여행했습니다.</item>
+        <item quantity="one">Google 스트리트 뷰에서 %,d킬로미터를 여행했습니다.</item>
+        <item quantity="two">Google 스트리트 뷰에서 %,d킬로미터를 여행했습니다.</item>
+        <item quantity="few">Google 스트리트 뷰에서 %,d킬로미터를 여행했습니다.</item>
+        <item quantity="many">Google 스트리트 뷰에서 %,d킬로미터를 여행했습니다.</item>
+    </plurals>
+    <plurals name="TODO_PHOTO_MORE_PHOTOS">
+        <item quantity="other">외 %d개</item>
+        <item quantity="zero">외 %d개</item>
+        <item quantity="one">외 %d개</item>
+        <item quantity="two">외 %d개</item>
+        <item quantity="few">외 %d개</item>
+        <item quantity="many">외 %d개</item>
+    </plurals>
+    <plurals name="TRANSIT_DETAILS_FREQUENT_DEPARTURE">
+        <item quantity="other">%1$s분 후 출발</item>
+        <item quantity="zero">지금 출발</item>
+        <item quantity="one">%1$s분 후 출발</item>
+        <item quantity="two">%1$s분 후 출발</item>
+        <item quantity="few">%1$s분 후 출발</item>
+        <item quantity="many">%1$s분 후 출발</item>
+    </plurals>
+    <plurals name="TRANSIT_DETAILS_FREQUENT_TWO_DEPARTURES">
+        <item quantity="other">%1$s/%2$s분 후 출발</item>
+        <item quantity="zero">지금 출발</item>
+        <item quantity="one">%1$s/%2$s분 후 출발</item>
+        <item quantity="two">%1$s/%2$s분 후 출발</item>
+        <item quantity="few">%1$s/%2$s분 후 출발</item>
+        <item quantity="many">%1$s/%2$s분 후 출발</item>
+    </plurals>
+    <plurals name="TRANSIT_MORE_DEPARTURES_WITH_NUMBER">
+        <item quantity="other">외 %d개</item>
+        <item quantity="zero">외 %d개</item>
+        <item quantity="one">외 %d개</item>
+        <item quantity="two">외 %d개</item>
+        <item quantity="few">외 %d개</item>
+        <item quantity="many">외 %d개</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="other">정류장 %d개</item>
+        <item quantity="zero">정류장 %d개</item>
+        <item quantity="one">정류장 %d개</item>
+        <item quantity="two">정류장 %d개</item>
+        <item quantity="few">정류장 %d개</item>
+        <item quantity="many">정류장 %d개</item>
+    </plurals>
+    <plurals name="TRANSIT_RADAR_MORE_ALERTS_HIDDEN">
+        <item quantity="other">알림이 %d개 더 있음</item>
+        <item quantity="one">알림이 %d개 더 있음</item>
+    </plurals>
+    <plurals name="TRANSIT_SCHEMATIC_MAP_DEFAULT_BUTTON_TITLE">
+        <item quantity="other">대중교통 지도</item>
+        <item quantity="one">대중교통 지도</item>
+        <item quantity="two">대중교통 지도</item>
+        <item quantity="few">대중교통 지도</item>
+        <item quantity="many">대중교통 지도</item>
+    </plurals>
+    <plurals name="TRIP_LEVEL_NOTICES_MORE_BUTTON">
+        <item quantity="other">%1$s개의 추가 경고가 있습니다.</item>
+        <item quantity="zero">%1$s개의 추가 경고가 있습니다.</item>
+        <item quantity="one">%1$s개의 추가 경고가 있습니다.</item>
+        <item quantity="two">%1$s개의 추가 경고가 있습니다.</item>
+        <item quantity="few">%1$s개의 추가 경고가 있습니다.</item>
+        <item quantity="many">%1$s개의 추가 경고가 있습니다.</item>
+    </plurals>
+    <plurals name="UPDATE_ALL_SUCCESS_TITLE">
+        <item quantity="other">Updated %d photos</item>
+        <item quantity="zero">Updated %d photos</item>
+        <item quantity="one">Updated %d photos</item>
+        <item quantity="two">Updated %d photos</item>
+        <item quantity="few">Updated %d photos</item>
+        <item quantity="many">Updated %d photos</item>
+    </plurals>
+    <plurals name="UPDATE_FAILED_TITLE">
+        <item quantity="other">"Couldn't update %d photos"</item>
+        <item quantity="zero">"Couldn't update %d photos"</item>
+        <item quantity="one">"Couldn't update %d photo"</item>
+        <item quantity="two">"Couldn't update %d photos"</item>
+        <item quantity="few">"Couldn't update %d photos"</item>
+        <item quantity="many">"Couldn't update %d photos"</item>
+    </plurals>
+    <plurals name="UPLOAD_ALL_SUCCESS_TITLE">
+        <item quantity="other">지도에 %d장의 사진을 추가함</item>
+        <item quantity="zero">지도에 %d장의 사진을 추가함</item>
+        <item quantity="one">%d photo added to Maps</item>
+        <item quantity="two">지도에 %d장의 사진을 추가함</item>
+        <item quantity="few">지도에 %d장의 사진을 추가함</item>
+        <item quantity="many">지도에 %d장의 사진을 추가함</item>
+    </plurals>
+    <plurals name="UPLOAD_FAILED_TITLE">
+        <item quantity="other">지도에 %d장의 사진을 추가할 수 없습니다.</item>
+        <item quantity="zero">지도에 %d장의 사진을 추가할 수 없습니다.</item>
+        <item quantity="one">"Couldn't add %d photo to Maps"</item>
+        <item quantity="two">지도에 %d장의 사진을 추가할 수 없습니다.</item>
+        <item quantity="few">지도에 %d장의 사진을 추가할 수 없습니다.</item>
+        <item quantity="many">지도에 %d장의 사진을 추가할 수 없습니다.</item>
+    </plurals>
+    <plurals name="UPLOAD_IN_PROGRESS_TEXT">
+        <item quantity="other">%1$d/%2$d</item>
+        <item quantity="zero">%1$d/%2$d</item>
+        <item quantity="one">%1$d/%2$d</item>
+        <item quantity="two">%1$d/%2$d</item>
+        <item quantity="few">%1$d/%2$d</item>
+        <item quantity="many">%1$d/%2$d</item>
+    </plurals>
+    <plurals name="UPLOAD_IN_PROGRESS_TITLE">
+        <item quantity="other">지도에 %d장의 사진을 추가하는 중</item>
+        <item quantity="zero">지도에 %d장의 사진을 추가하는 중</item>
+        <item quantity="one">Adding %d photo to Maps</item>
+        <item quantity="two">지도에 %d장의 사진을 추가하는 중</item>
+        <item quantity="few">지도에 %d장의 사진을 추가하는 중</item>
+        <item quantity="many">지도에 %d장의 사진을 추가하는 중</item>
+    </plurals>
+    <plurals name="UPLOAD_PHOTO_DISCLAIMER_TITLEBAR">
+        <item quantity="other">(%d)장 공개 게시</item>
+        <item quantity="zero">공개 게시</item>
+        <item quantity="one">공개 게시</item>
+        <item quantity="two">(%d)장 공개 게시</item>
+        <item quantity="few">(%d)장 공개 게시</item>
+        <item quantity="many">(%d)장 공개 게시</item>
+    </plurals>
+    <plurals name="UPLOAD_PHOTO_DISCLAIMER_TITLEBAR_NO_COUNT">
+        <item quantity="other">공개 게시</item>
+        <item quantity="zero">공개 게시</item>
+        <item quantity="one">공개 게시</item>
+        <item quantity="two">공개 게시</item>
+        <item quantity="few">공개 게시</item>
+        <item quantity="many">공개 게시</item>
+    </plurals>
+    <plurals name="UPLOAD_PHOTO_PHOTOS_SELECTED">
+        <item quantity="other">사진 %d장을 선택했습니다.</item>
+        <item quantity="zero">사진 %d장을 선택했습니다.</item>
+        <item quantity="one">사진 %d장을 선택했습니다.</item>
+        <item quantity="two">사진 %d장을 선택했습니다.</item>
+        <item quantity="few">사진 %d장을 선택했습니다.</item>
+        <item quantity="many">사진 %d장을 선택했습니다.</item>
+    </plurals>
+    <plurals name="WEEKS_AGO">
+        <item quantity="other">%d주 전</item>
+        <item quantity="one">%d주 전</item>
+        <item quantity="two">%d주 전</item>
+        <item quantity="few">%d주 전</item>
+    </plurals>
+    <plurals name="YEARS_AGO">
+        <item quantity="other">%d년 전</item>
+        <item quantity="one">%d년 전</item>
+        <item quantity="two">%d년 전</item>
+        <item quantity="few">%d년 전</item>
+        <item quantity="many">%d년 전</item>
+    </plurals>
+</resources>

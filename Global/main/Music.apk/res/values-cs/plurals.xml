@@ -91,9 +91,9 @@
         <item quantity="few">Odstranit %d skladby z Mi Cloudu? Skladby budou také smazány z místního playlistu.</item>
     </plurals>
     <plurals name="download_finished">
-        <item quantity="other">Staženo &amp;lt;font color=\"red\">%d skladeb&amp;lt;/font></item>
-        <item quantity="one">Stažena &amp;lt;font color==\"red\">%d skladba&amp;lt;/font></item>
-        <item quantity="few">Staženy &amp;lt;font color=\"red\">%d skladby&amp;lt;/font></item>
+        <item quantity="other">Staženo &lt;font color=\"red\">%d skladeb&lt;/font></item>
+        <item quantity="one">Stažena &lt;font color==\"red\">%d skladba&lt;/font></item>
+        <item quantity="few">Staženy &lt;font color=\"red\">%d skladby&lt;/font></item>
     </plurals>
     <plurals name="download_info_count_deleted_tasks">
         <item quantity="other">%d stahování bylo odebráno</item>
@@ -101,9 +101,9 @@
         <item quantity="few">%d stahování byla odebrána</item>
     </plurals>
     <plurals name="download_running">
-        <item quantity="other">Stahování: &amp;lt;font color=\"red\">%d songs&amp;lt;/font></item>
-        <item quantity="one">Stahování: &amp;lt;font color==\"red\">%d song&amp;lt;/font></item>
-        <item quantity="few">Stahování: &amp;lt;font color=\"red\">%d songs&amp;lt;/font></item>
+        <item quantity="other">Stahování: &lt;font color=\"red\">%d songs&lt;/font></item>
+        <item quantity="one">Stahování: &lt;font color==\"red\">%d song&lt;/font></item>
+        <item quantity="few">Stahování: &lt;font color=\"red\">%d songs&lt;/font></item>
     </plurals>
     <plurals name="multichoice_title">
         <item quantity="other">Vybráno %d položek</item>

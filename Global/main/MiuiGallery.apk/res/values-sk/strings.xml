@@ -999,6 +999,9 @@ Spravte viac fotografií svojich priateľov!"</string>
     <string name="sticker_spring">Jar</string>
     <string name="sticker_summer">Leto</string>
     <string name="sticker_words">Slová</string>
+    <string name="storage_description_primary">Interné úložisko</string>
+    <string name="storage_description_sdcard">SD karta</string>
+    <string name="storage_description_xspace">Údaje duálnych aplikácií</string>
     <string name="storage_no_space">Nie je voľné miesto na úložisku.</string>
     <string name="sub_discard_confirm_message">Uložiť úpravy?</string>
     <string name="sub_discard_negative_btn">Zrušiť</string>

@@ -111,9 +111,9 @@
     <string name="bookmark_group_lable">Csoport</string>
     <string name="bookmark_needs_title">Nevet kell adni a könyvjelzőnek</string>
     <string name="bookmark_needs_url">A könyvjelzőnek tartalmaznia kell egy webcímet</string>
-    <string name="bookmark_not_saved">Könyvjelző mentése sikertelen</string>
+    <string name="bookmark_not_saved">Nem sikerült a könyvjelzőkhöz adni</string>
     <string name="bookmark_rename_group">Csoport átnevezése</string>
-    <string name="bookmark_saved">Mentve a könyvjelzők közé</string>
+    <string name="bookmark_saved">Hozzáadva a könyvjelzőkhöz</string>
     <string name="bookmark_title">Könyvjelző neve</string>
     <string name="bookmark_title_lable">Elnevezés</string>
     <string name="bookmark_url">Weboldal http://</string>
@@ -518,8 +518,8 @@ Elhagyja ezt az oldalt?"</string>
     <string name="nav_screen_container_tab_normal">Normál lap</string>
     <string name="nav_screen_incognito_message">"A böngészési és keresési előzményei nem kerülnek mentésre inkognitó módban.
 Ne felejtse el, hogy a letöltött fájlok és a könyvjelzők így is mentésre kerülnek."</string>
-    <string name="nav_screen_incognito_title">Inkognitó mód</string>
-    <string name="navigation_delete_all">csúsztasson jobbra és balra az összes lap bezárásához</string>
+    <string name="nav_screen_incognito_title">Inkognitómód</string>
+    <string name="navigation_delete_all">Csúsztasson jobbra vagy balra az összes lap bezárásához</string>
     <string name="navigationbar_rightbutton_actiontext_cancle">Mégse</string>
     <string name="navigationbar_rightbutton_actiontext_go">Gyerünk</string>
     <string name="navigationbar_rightbutton_actiontext_search">Keresés</string>

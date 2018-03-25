@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="privacy_authorize_revoke_title">Оторизация &amp; отменяне</string>
+    <string name="privacy_authorize_revoke_title">Разрешение за нулиране на настройките</string>
     <string name="enabled_authorised_apps_title">Предоставено разрешение</string>
     <string name="enabled_authorised_apps_summary">Вашето разрешение ще бъде отменено, след като натиснете превключвателите на отделни приложения.</string>
     <string name="disabled_authorised_apps_title">Отменено разрешение</string>
@@ -2949,6 +2949,7 @@
     <string name="key_gesture_function_shortcut">Функции на преки пътища</string>
     <string name="key_system_control">Контрол на системата</string>
     <string name="key_gesture_function_preview">Преглед на бутони и жестове</string>
+    <string name="key_operation_diagram">Диаграма на използването</string>
     <string name="key_gesture_function_optional">Опционално жестове и бутони</string>
     <string name="key_gesture_function_dialog_message">%1$s е пряк път за %2$s. Замяна с %3$s?</string>
     <string name="key_gesture_function_dialog_positive">Замяна</string>
@@ -3934,6 +3935,7 @@
     <string name="bt_rarely_used_device_title">Рядко използвани устройства (%d)</string>
     <string name="search_input_hint">Настройки за търсене</string>
     <string name="back_button">Назад</string>
+    <string name="launcher_title">Начален екран &amp; Последни</string>
     <string name="music_audio_effect_optimize">Аудио настройки</string>
     <string name="music_audio_effect_optimize_summary">Dirac, слушалки и други аудио настройки</string>
     <string name="music_audio_effect_optimize_summary_with_hifi">Dirac, Hi-Fi, слушалки и други аудио настройки</string>

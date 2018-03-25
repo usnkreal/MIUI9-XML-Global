@@ -137,51 +137,51 @@
         <item quantity="one">minute</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day">
-        <item quantity="other">"La somme de &amp;lt;price>%1$s vous sera automatiquement facturée tous les %2$d jours &amp;lt;/price> à partir du &amp;lt;start_time>%3$s&amp;lt;/start_time> jusqu'à ce que vous annuliez votre abonnement."</item>
-        <item quantity="one">"La somme de &amp;lt;price>%1$s vous sera automatiquement facturée tous les %2$d jours&amp;lt;/price> à partir du &amp;lt;start_time>%3$s&amp;lt;/start_time> jusqu'à ce que vous annuliez votre abonnement."</item>
+        <item quantity="other">"La somme de &lt;price>%1$s vous sera automatiquement facturée tous les %2$d jours &lt;/price> à partir du &lt;start_time>%3$s&lt;/start_time> jusqu'à ce que vous annuliez votre abonnement."</item>
+        <item quantity="one">"La somme de &lt;price>%1$s vous sera automatiquement facturée tous les %2$d jours&lt;/price> à partir du &lt;start_time>%3$s&lt;/start_time> jusqu'à ce que vous annuliez votre abonnement."</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day_limited">
-        <item quantity="other">La somme de &amp;lt;price>%1$s vous sera automatiquement facturée tous les %2$d jours&amp;lt;/price> lors des &amp;lt;duration>%3$d prochains jours&amp;lt;/duration> à partir du &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
-        <item quantity="one">La somme de &amp;lt;price>%1$s vous sera automatiquement facturée tous les %2$d jours&amp;lt;/price> lors des &amp;lt;duration>%3$d prochains jours&amp;lt;/duration> à partir du &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="other">La somme de &lt;price>%1$s vous sera automatiquement facturée tous les %2$d jours&lt;/price> lors des &lt;duration>%3$d prochains jours&lt;/duration> à partir du &lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="one">La somme de &lt;price>%1$s vous sera automatiquement facturée tous les %2$d jours&lt;/price> lors des &lt;duration>%3$d prochains jours&lt;/duration> à partir du &lt;start_time>%4$s&lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day_tax">
-        <item quantity="other">"La somme de &amp;lt;price>%1$s et les éventuelles taxes applicables vous seront automatiquement facturées tous les %2$d jours&amp;lt;/price> à partir du &amp;lt;start_time>%3$s&amp;lt;/start_time> jusqu'à ce que vous annuliez votre abonnement."</item>
-        <item quantity="one">"La somme de &amp;lt;price>%1$s et les éventuelles taxes applicables vous seront automatiquement facturées tous les %2$d jours&amp;lt;/price> à partir du &amp;lt;start_time>%3$s&amp;lt;/start_time> jusqu'à ce que vous annuliez votre abonnement."</item>
+        <item quantity="other">"La somme de &lt;price>%1$s et les éventuelles taxes applicables vous seront automatiquement facturées tous les %2$d jours&lt;/price> à partir du &lt;start_time>%3$s&lt;/start_time> jusqu'à ce que vous annuliez votre abonnement."</item>
+        <item quantity="one">"La somme de &lt;price>%1$s et les éventuelles taxes applicables vous seront automatiquement facturées tous les %2$d jours&lt;/price> à partir du &lt;start_time>%3$s&lt;/start_time> jusqu'à ce que vous annuliez votre abonnement."</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day_tax_limited">
-        <item quantity="other">La somme de &amp;lt;price>%1$s et les éventuelles taxes applicables vous seront automatiquement facturées tous les %2$d jours&amp;lt;/price> lors des &amp;lt;duration>%3$d prochains jours&amp;lt;/duration> à partir du &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
-        <item quantity="one">La somme de &amp;lt;price>%1$s et les éventuelles taxes applicables vous seront automatiquement facturées tous les %2$d jours&amp;lt;/price> lors des &amp;lt;duration>%3$d prochains jours&amp;lt;/duration> à partir du &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="other">La somme de &lt;price>%1$s et les éventuelles taxes applicables vous seront automatiquement facturées tous les %2$d jours&lt;/price> lors des &lt;duration>%3$d prochains jours&lt;/duration> à partir du &lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="one">La somme de &lt;price>%1$s et les éventuelles taxes applicables vous seront automatiquement facturées tous les %2$d jours&lt;/price> lors des &lt;duration>%3$d prochains jours&lt;/duration> à partir du &lt;start_time>%4$s&lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month">
-        <item quantity="other">"La somme de &amp;lt;price>%1$s vous sera automatiquement facturée tous les %2$d mois&amp;lt;/price> à partir du &amp;lt;start_time>%3$s&amp;lt;/start_time> jusqu'à ce que vous annuliez votre abonnement."</item>
-        <item quantity="one">"La somme de &amp;lt;price>%1$s vous sera automatiquement facturée tous les %2$d mois&amp;lt;/price> à partir du &amp;lt;start_time>%3$s&amp;lt;/start_time> jusqu'à ce que vous annuliez votre abonnement."</item>
+        <item quantity="other">"La somme de &lt;price>%1$s vous sera automatiquement facturée tous les %2$d mois&lt;/price> à partir du &lt;start_time>%3$s&lt;/start_time> jusqu'à ce que vous annuliez votre abonnement."</item>
+        <item quantity="one">"La somme de &lt;price>%1$s vous sera automatiquement facturée tous les %2$d mois&lt;/price> à partir du &lt;start_time>%3$s&lt;/start_time> jusqu'à ce que vous annuliez votre abonnement."</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month_limited">
-        <item quantity="other">La somme de &amp;lt;price>%1$s vous sera automatiquement facturée tous les %2$d mois&amp;lt;/price> lors des &amp;lt;duration>%3$d prochains mois&amp;lt;/duration> à partir du &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
-        <item quantity="one">La somme de &amp;lt;price>%1$s vous sera automatiquement facturée tous les %2$d mois&amp;lt;/price> lors des &amp;lt;duration>%3$d prochains mois&amp;lt;/duration> à partir du &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="other">La somme de &lt;price>%1$s vous sera automatiquement facturée tous les %2$d mois&lt;/price> lors des &lt;duration>%3$d prochains mois&lt;/duration> à partir du &lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="one">La somme de &lt;price>%1$s vous sera automatiquement facturée tous les %2$d mois&lt;/price> lors des &lt;duration>%3$d prochains mois&lt;/duration> à partir du &lt;start_time>%4$s&lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month_tax">
-        <item quantity="other">"La somme de &amp;lt;price>%1$s et les éventuelles taxes applicables vous seront automatiquement facturées tous les %2$d mois&amp;lt;/price> à partir du &amp;lt;start_time>%3$s&amp;lt;/start_time> jusqu'à ce que vous annuliez votre abonnement."</item>
-        <item quantity="one">"La somme de &amp;lt;price>%1$s et les éventuelles taxes applicables vous seront automatiquement facturées tous les %2$d mois&amp;lt;/price> à partir du &amp;lt;start_time>%3$s&amp;lt;/start_time> jusqu'à ce que vous annuliez votre abonnement."</item>
+        <item quantity="other">"La somme de &lt;price>%1$s et les éventuelles taxes applicables vous seront automatiquement facturées tous les %2$d mois&lt;/price> à partir du &lt;start_time>%3$s&lt;/start_time> jusqu'à ce que vous annuliez votre abonnement."</item>
+        <item quantity="one">"La somme de &lt;price>%1$s et les éventuelles taxes applicables vous seront automatiquement facturées tous les %2$d mois&lt;/price> à partir du &lt;start_time>%3$s&lt;/start_time> jusqu'à ce que vous annuliez votre abonnement."</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month_tax_limited">
-        <item quantity="other">La somme de &amp;lt;price>%1$s et les éventuelles taxes applicables vous seront automatiquement facturées tous les %2$d mois&amp;lt;/price> lors des &amp;lt;duration>%3$d prochains mois&amp;lt;/duration> à partir du &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
-        <item quantity="one">La somme de &amp;lt;price>%1$s et les éventuelles taxes applicables vous seront automatiquement facturées tous les %2$d mois&amp;lt;/price> lors des &amp;lt;duration>%3$d prochains mois&amp;lt;/duration> à partir du &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="other">La somme de &lt;price>%1$s et les éventuelles taxes applicables vous seront automatiquement facturées tous les %2$d mois&lt;/price> lors des &lt;duration>%3$d prochains mois&lt;/duration> à partir du &lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="one">La somme de &lt;price>%1$s et les éventuelles taxes applicables vous seront automatiquement facturées tous les %2$d mois&lt;/price> lors des &lt;duration>%3$d prochains mois&lt;/duration> à partir du &lt;start_time>%4$s&lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year">
-        <item quantity="other">"La somme de &amp;lt;price>%1$s vous sera automatiquement facturée tous les %2$d ans&amp;lt;/price> à partir du &amp;lt;start_time>%3$s&amp;lt;/start_time> jusqu'à ce que vous annuliez votre abonnement."</item>
-        <item quantity="one">"La somme de &amp;lt;price>%1$s vous sera automatiquement facturée tous les %2$d ans&amp;lt;/price> à partir du &amp;lt;start_time>%3$s&amp;lt;/start_time> jusqu'à ce que vous annuliez votre abonnement."</item>
+        <item quantity="other">"La somme de &lt;price>%1$s vous sera automatiquement facturée tous les %2$d ans&lt;/price> à partir du &lt;start_time>%3$s&lt;/start_time> jusqu'à ce que vous annuliez votre abonnement."</item>
+        <item quantity="one">"La somme de &lt;price>%1$s vous sera automatiquement facturée tous les %2$d ans&lt;/price> à partir du &lt;start_time>%3$s&lt;/start_time> jusqu'à ce que vous annuliez votre abonnement."</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year_limited">
-        <item quantity="other">La somme de &amp;lt;price>%1$s vous sera automatiquement facturée tous les %2$d ans&amp;lt;/price> lors des &amp;lt;duration>%3$d prochaines années&amp;lt;/duration> à partir du &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
-        <item quantity="one">La somme de &amp;lt;price>%1$s vous sera automatiquement facturée tous les %2$d ans&amp;lt;/price> lors des &amp;lt;duration>%3$d prochaines années&amp;lt;/duration> à partir du &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="other">La somme de &lt;price>%1$s vous sera automatiquement facturée tous les %2$d ans&lt;/price> lors des &lt;duration>%3$d prochaines années&lt;/duration> à partir du &lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="one">La somme de &lt;price>%1$s vous sera automatiquement facturée tous les %2$d ans&lt;/price> lors des &lt;duration>%3$d prochaines années&lt;/duration> à partir du &lt;start_time>%4$s&lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year_tax">
-        <item quantity="other">"La somme de &amp;lt;price>%1$s et les éventuelles taxes applicables vous seront automatiquement facturées tous les %2$d ans&amp;lt;/price> à partir du &amp;lt;start_time>%3$s&amp;lt;/start_time> jusqu'à ce que vous annuliez votre abonnement."</item>
-        <item quantity="one">"La somme de &amp;lt;price>%1$s et les éventuelles taxes applicables vous seront automatiquement facturées tous les %2$d ans&amp;lt;/price> à partir du &amp;lt;start_time>%3$s&amp;lt;/start_time> jusqu'à ce que vous annuliez votre abonnement."</item>
+        <item quantity="other">"La somme de &lt;price>%1$s et les éventuelles taxes applicables vous seront automatiquement facturées tous les %2$d ans&lt;/price> à partir du &lt;start_time>%3$s&lt;/start_time> jusqu'à ce que vous annuliez votre abonnement."</item>
+        <item quantity="one">"La somme de &lt;price>%1$s et les éventuelles taxes applicables vous seront automatiquement facturées tous les %2$d ans&lt;/price> à partir du &lt;start_time>%3$s&lt;/start_time> jusqu'à ce que vous annuliez votre abonnement."</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year_tax_limited">
-        <item quantity="other">La somme de &amp;lt;price>%1$s et les éventuelles taxes applicables vous seront automatiquement facturées tous les %2$d ans&amp;lt;/price> lors des &amp;lt;duration>%3$d prochaines années&amp;lt;/duration> à partir du &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
-        <item quantity="one">La somme de &amp;lt;price>%1$s et les éventuelles taxes applicables vous seront automatiquement facturées tous les %2$d ans&amp;lt;/price> lors des &amp;lt;duration>%3$d prochaines années&amp;lt;/duration> à partir du &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="other">La somme de &lt;price>%1$s et les éventuelles taxes applicables vous seront automatiquement facturées tous les %2$d ans&lt;/price> lors des &lt;duration>%3$d prochaines années&lt;/duration> à partir du &lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="one">La somme de &lt;price>%1$s et les éventuelles taxes applicables vous seront automatiquement facturées tous les %2$d ans&lt;/price> lors des &lt;duration>%3$d prochaines années&lt;/duration> à partir du &lt;start_time>%4$s&lt;/start_time>.</item>
     </plurals>
 </resources>

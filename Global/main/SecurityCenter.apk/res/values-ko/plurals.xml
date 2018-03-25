@@ -54,7 +54,7 @@
         <item quantity="other">%d개 앱 발견됨</item>
     </plurals>
     <plurals name="network_restrict_count">
-        <item quantity="other">"&amp;lt;font color='#ff0000'>%d:&amp;lt;/font>개 앱의 네트워크 접근이 제한되었습니다."</item>
+        <item quantity="other">"&lt;font color='#ff0000'>%d:&lt;/font>개 앱의 네트워크 접근이 제한되었습니다."</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
         <item quantity="other">%d개 앱이 제대로 작동하지 않으며 배터리를 소모합니다.</item>
@@ -229,5 +229,8 @@
     </plurals>
     <plurals name="net_booster_expire_notification_tip">
         <item quantity="other">네트워크 스피드 부스트 사용 만료까지 %d일 남았습니다. 네트워크 속도 문제가 발생하지 않도록 만료 전 갱신을 권장합니다.</item>
+    </plurals>
+    <plurals name="gb_signed_days_sum">
+        <item quantity="other">%d 일 연속 출석체크됨</item>
     </plurals>
 </resources>

@@ -150,7 +150,7 @@ d. MMMM"</string>
     <string name="settings_toggle_position_reset">Obnovit výchozí nastavení</string>
     <string name="list_delimeter">", "</string>
     <string name="camera_key_action_setting_title">Mi Tlačítko</string>
-    <string name="camera_key_action_category_title">Použijte, pokud není zapnutý fotoaparát</string>
+    <string name="camera_key_action_category_title">Použít, pokud není zapnutý fotoaparát</string>
     <string name="camera_key_action_none_title">Bez akce</string>
     <string name="camera_key_action_shortcut_title">Zástupce</string>
     <string name="camera_key_action_toggle_title">Aktivovat přepínač</string>
@@ -247,8 +247,8 @@ d. MMMM"</string>
     <string name="notification_low_battery_open_save_mode">Zapnout Spořič baterie</string>
     <string name="notification_low_battery_action_btn">Zapnout</string>
     <string name="notification_low_battery_need_charge">Baterie je slabá. Připojte nabíječku.</string>
-    <string name="low_temperature_warning_title">Výstraha při vypnutí</string>
-    <string name="low_temperature_warning_message">Okolní teplota je příliš nízká, telefon se může kdykoli nečekaně vypnout. Uložte svá data.</string>
+    <string name="low_temperature_warning_title">Varování při nízké teplotě</string>
+    <string name="low_temperature_warning_message">Teplota je příliš nízká. Telefon se může kdykoli nepředvídatelně vypnout. Ujistěte se, že jste uložili všechny důležité změny.</string>
     <string name="low_temperature_button_ok">Rozumím</string>
     <string name="oldman_airplane_mode_text">Letadlo</string>
     <string name="oldman_incall_text">Zpět na hovor</string>
@@ -464,6 +464,7 @@ Pro více informací kontaktujte svého administrátora."</string>
     <string name="quick_settings_disclosure_managed_profile_named_vpn">Pracovní profil je připojen k %1$s</string>
     <string name="quick_settings_disclosure_personal_profile_named_vpn">Osobní profil je připojen k %1$s</string>
     <string name="quick_settings_disclosure_named_vpn">Zařízení je připojeno k %1$s</string>
+    <string name="notch_status_bar_date_format_12">EEEE, d. MMMM</string>
     <string name="accessibility_recent_task_locked_state">Uzamknuto</string>
     <string name="accessibility_recent_task_unlocked_state">Odemknuto</string>
     <string name="accessibility_drag_hint_message">Přetáhněte položky do vrchní části obrazovky</string>
@@ -471,7 +472,7 @@ Pro více informací kontaktujte svého administrátora."</string>
     <string name="notification_group_overflow_indicator">+%s</string>
     <string name="click_to_return_multi_window">Klepněte pro návrat do Rozdělení obrazovky</string>
     <string name="recent_dock_tip">Klepnutím vyberte aplikace</string>
-    <string name="recent_cannot_dock">"can't enter MultiWindow Mode in Second Space"</string>
+    <string name="recent_cannot_dock">V Druhém prostoru nelze Rozdělení obrazovky využít</string>
     <string name="dock_keyguard_locked_failed_to_dock_text">Rozdělení obrazovky není podporováno na Zamykací obrazovce.</string>
     <string name="click_expand">Klepněte pro rozbalení</string>
     <string name="please_slide_agian">Potáhněte znovu</string>
@@ -493,4 +494,11 @@ Pro více informací kontaktujte svého administrátora."</string>
     <string name="fs_gesture_final_summary">Pro návrat k používání tlačítek přejděte do Nastavení > Zobrazení na celou obrazovku</string>
     <string name="fs_gesture_final_restart">Ještě jednou</string>
     <string name="fs_gesture_final_over">Jsem připraven(a)</string>
+    <string name="no_sim_card">Žádná SIM karta</string>
+    <string name="prompt_detecting">Hledání</string>
+    <string name="prompt_danger">Riziko</string>
+    <string name="prompt_failure">Chyba</string>
+    <string name="prompt_safe">Bezpečné</string>
+    <string name="prompt_unknown">Neznámé</string>
+    <string name="prompt_return_to_split">Rozdělení obrazovky</string>
 </resources>

@@ -265,7 +265,7 @@ http://zhushou.xiaomi.com"</string>
     <string name="vote_error4">כבר שלחת משוב</string>
     <string name="vote_error5">"משהו השתבש
 לא ניתן היה לשלוח משוב"</string>
-    <string name="miui_BBS">" "<a href="http://bbs.miui.com">עבור לפורום MIUI</a>" "</string>
+    <string name="miui_BBS">" "<a href="http://bbs.miui.com">Go to MIUI forum</a>" "</string>
     <string name="alpha_cancel">"בטל הרשמתך מתכנית 'בדיקות בטא'"</string>
     <string name="alpha_cancel_ok">אישור</string>
     <string name="alpha_cancel_cancel">ביטול</string>
@@ -319,6 +319,7 @@ http://zhushou.xiaomi.com"</string>
     <string name="home_delay_cancel">ביטול</string>
     <string name="accessibility_video">סרטון</string>
     <string name="accessibility_image">תמונה</string>
+    <string name="accessibility_play">Play</string>
     <string name="security_space_title">עדכון חשוב</string>
     <string name="security_space_msg">"למערכת MIUI 9 יש קובץ מערכת חדש. במידה ותאתחל את מכשירך כעת, יתכן ולא תוכל להשתמש ב'שטח שני'. העבר את כל הפריטים מ'שטח שני' אל 'שטח ראשון' לפני ביצוע האתחול."</string>
     <string name="security_space_button_pos">אל תאתחל</string>

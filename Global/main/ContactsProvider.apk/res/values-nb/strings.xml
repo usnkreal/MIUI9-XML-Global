@@ -22,7 +22,7 @@
     <string name="pound_search_tip">Enter a number after # to search for contacts</string>
     <string name="create_contact">Ny kontakt</string>
     <string name="video_call">Videosamtale</string>
-    <string name="send_sms">Send a message</string>
+    <string name="send_sms">Send en melding</string>
     <string name="search_the_yellowpage">Søk Gule sider</string>
     <string name="edit_contact">Legg til kontakt</string>
     <string name="call_log_provider_label">Anropshistorikk</string>

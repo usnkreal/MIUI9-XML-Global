@@ -180,7 +180,7 @@
     <string name="bugreport_dialog_not_show_again">Ikke vis igjen</string>
     <string name="bugreport_dialog_submit_content">"You're saving software logs on this device now. Logs may contain personal info and your location data. Don't share logs with anyone else if you don't want this info to be exposed."</string>
     <string name="bugreport_dump_start_notification_title">Oppretter feilrapport…</string>
-    <string name="bugreport_dump_start_notification_summary">This might take several minutes.</string>
+    <string name="bugreport_dump_start_notification_summary">Dette kan ta flere minutter.</string>
     <string name="bugreport_dump_complete_notification_title">Feilrapport er opprettet</string>
     <string name="bugreport_dump_complete_notification_summary">Trykk for å se.</string>
     <string name="plus_one_submit_dialog_content">Tilbakemeldingen din, i tillegg til feillogger, vil bli sendt til Mis servere.</string>

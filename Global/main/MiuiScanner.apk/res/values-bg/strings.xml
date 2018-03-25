@@ -10,6 +10,7 @@
     <string name="app_description_title">За Скенер</string>
     <string name="app_details">Приложения:</string>
     <string name="app_name">Скенер</string>
+    <string name="ar_unsupport_for_kk">Тази услуга не се достъпна 4.4</string>
     <string name="back">Назад</string>
     <string name="barcode_into_rectangle">Поставете кода вътре в рамката</string>
     <string name="birthday">Рожден ден:</string>
@@ -93,7 +94,15 @@
     <string name="language_entry_russian">Руски</string>
     <string name="language_entry_spanish">Испански</string>
     <string name="language_entry_swedish">Шведски</string>
-    <string name="low_version_tip">Версията на MIUI е прекалено стара. Актуализирайте MIUI, за да използвате Скенер.</string>
+    <string name="low_version_tip">Скенера не може да работи на тази версия, актуализирайте до последната версия на MIUI</string>
+    <string name="miracast_connect">Проекция</string>
+    <string name="miracast_connect_fail">Неуспешно излъчване, опитайте отново</string>
+    <string name="miracast_connect_success">Излъчването е успешно</string>
+    <string name="miracast_connecting">Излъчване…</string>
+    <string name="miracast_details">Сканирайте QR кода за излъчване</string>
+    <string name="miracast_message">Излъчване към Mi ТВ?</string>
+    <string name="miracast_switch_off">Безжичният дисплей е изключен</string>
+    <string name="miracast_switch_tip">Включете Безжичния дисплей за да използвате тази услуга</string>
     <string name="module_title_code">QR код</string>
     <string name="module_title_document">Документ</string>
     <string name="module_title_namecard">Визитна картичка</string>
@@ -120,6 +129,9 @@
     <string name="preparing_sd">Подготовка на карта с памет…</string>
     <string name="previous">Обратно</string>
     <string name="qr_code_details">Детайли за QR код:</string>
+    <string name="recognition_ar_download_data_msg">Изтеглете услугата за разпознаване. Размерът ѝ е около 13 MB. Да се използва ли мобилен интернет за изтеглянето?</string>
+    <string name="recognition_ar_download_msg">Изтеглете услугата за разпознаване. Размерът ѝ е около 13 MB.</string>
+    <string name="recognition_download_title">Моля, изчакайте малко</string>
     <string name="recognition_error_download_cancel">По-късно</string>
     <string name="recognition_error_download_data_msg">Изтеглете услугата за разпознаване, за да сканирате карти. Размерът ѝ е около 15 MB. Да се използва ли мобилен интернет за изтеглянето?</string>
     <string name="recognition_error_download_fail">Услугата за разпознаване не беше изтеглена</string>
@@ -147,6 +159,7 @@
     <string name="study_searching">Търсене на резултати</string>
     <string name="study_title">Направете снимка на проблема</string>
     <string name="study_vendor_info">Техническа поддръжка от Master Learner</string>
+    <string name="switch_open">Включи</string>
     <string name="tips_message">Свържете се с интернет, за да проверите дали уеб страницата с която се свързвате, е сигурна</string>
     <string name="title">Заглавие:</string>
     <string name="translation_language_chinese">Китайски</string>

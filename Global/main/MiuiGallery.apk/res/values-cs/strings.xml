@@ -1001,6 +1001,9 @@ vyberte fotografie s vaší tváří"</string>
     <string name="sticker_spring">Jaro</string>
     <string name="sticker_summer">Léto</string>
     <string name="sticker_words">Slova</string>
+    <string name="storage_description_primary">Vnitřní úložiště</string>
+    <string name="storage_description_sdcard">SD karta</string>
+    <string name="storage_description_xspace">Data duálních aplikací</string>
     <string name="storage_no_space">Nedostatek volného místa</string>
     <string name="sub_discard_confirm_message">Uložit změny?</string>
     <string name="sub_discard_negative_btn">Zahodit</string>

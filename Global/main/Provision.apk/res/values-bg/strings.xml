@@ -58,7 +58,7 @@
     <string name="miui_terms_no_network">Няма връзка с интернет. Вижте условията за ползване на %s</string>
     <string name="miui_privacy_policy_no_network">Няма връзка с интернет. Вижте правилата за поверителност на %s</string>
     <string name="locale_picker_title">Изберете регион</string>
-    <string name="install_preinstall_app">Зареждат се прил-я……</string>
+    <string name="install_preinstall_app">Зареждат се приложенията…</string>
     <string name="title_fingerprint">Задай парола</string>
     <string name="item_fingerprint">Пръстов отпечатък</string>
     <string name="item_lock_screen_password">Само заключен екран</string>

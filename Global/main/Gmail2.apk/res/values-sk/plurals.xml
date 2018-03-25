@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pntg_find_a_time_all_calendars_not_shared">
+        <item quantity="other">Kalendáre nie sú zdieľané</item>
+        <item quantity="one">Kalendár nie je zdieľaný</item>
+        <item quantity="few">Kalendáre nie sú zdieľané</item>
+        <item quantity="many">Kalendáre nie sú zdieľané</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">Koncepty</item>
+        <item quantity="one">Koncept</item>
+        <item quantity="few">Koncepty</item>
+        <item quantity="many">Koncepty</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Odstrániť týchto %1$d konverzácií?</item>
+        <item quantity="one">Odstrániť túto konverzáciu?</item>
+        <item quantity="few">Odstrániť tieto %1$d konverzácie?</item>
+        <item quantity="many">Odstrániť týchto %1$d konverzácií?</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">Archivovať týchto %1$d konverzácií?</item>
+        <item quantity="one">Archivovať túto konverzáciu?</item>
+        <item quantity="few">Archivovať tieto %1$d konverzácie?</item>
+        <item quantity="many">Archivovať týchto %1$d konverzácií?</item>
+    </plurals>
+    <plurals name="confirm_discard_drafts_conversation">
+        <item quantity="other">Zahodiť koncepty z týchto %1$d konverzácií?</item>
+        <item quantity="one">Zahodiť koncepty z tejto konverzácie?</item>
+        <item quantity="few">Zahodiť koncepty z týchto %1$d konverzácií?</item>
+        <item quantity="many">Zahodiť koncepty z týchto %1$d konverzácií?</item>
+    </plurals>
+    <plurals name="conversation_unstarred">
+        <item quantity="other">Ruší sa označenie %1$d konverzácií hviezdičkou</item>
+        <item quantity="one">Ruší sa označenie %1$d konverzácie hviezdičkou</item>
+        <item quantity="few">Ruší sa označenie %1$d konverzácií hviezdičkou</item>
+        <item quantity="many">Ruší sa označenie %1$d konverzácií hviezdičkou</item>
+    </plurals>
+    <plurals name="conversation_spammed_and_unsubscribed">
+        <item quantity="other">%1$d správ bolo nahlásených ako spam a odber bol zrušený</item>
+        <item quantity="one">%1$d správa bola nahlásená ako spam a odber bol zrušený</item>
+        <item quantity="few">%1$d správy boli nahlásené ako spam a odber bol zrušený</item>
+        <item quantity="many">Niekoľko správ (%1$d) bolo nahlásených ako spam a odber bol zrušený</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">&lt;b>%1$d&lt;/b> ignorovaných</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> ignorovaná</item>
+        <item quantity="few">&lt;b>%1$d&lt;/b> ignorované</item>
+        <item quantity="many">&lt;b>%1$d&lt;/b> ignorovaných</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">&lt;b>%1$d&lt;/b> nahlásených ako spam</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> nahlásená ako spam</item>
+        <item quantity="few">&lt;b>%1$d&lt;/b> nahlásené ako spam</item>
+        <item quantity="many">&lt;b>%1$d&lt;/b> nahlásených ako spam</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">&lt;b>%1$d&lt;/b> nahlásených, že nie sú spam</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> nahlásená, že nie je spam</item>
+        <item quantity="few">&lt;b>%1$d&lt;/b> nahlásené, že nie sú spam</item>
+        <item quantity="many">&lt;b>%1$d&lt;/b> nahlásených, že nie sú spam</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="other">&lt;b>%1$d&lt;/b> označených ako nedôležité</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> označená ako nedôležitá</item>
+        <item quantity="few">&lt;b>%1$d&lt;/b> označené ako nedôležité</item>
+        <item quantity="many">&lt;b>%1$d&lt;/b> označených ako nedôležité</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">&lt;b>%1$d&lt;/b> archivovaných</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> archivovaná</item>
+        <item quantity="few">&lt;b>%1$d&lt;/b> archivované</item>
+        <item quantity="many">&lt;b>%1$d&lt;/b> archivovaných</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">&lt;b>%1$d&lt;/b> konverzácií bolo odstránených</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> konverzácia bola odstránená</item>
+        <item quantity="few">&lt;b>%1$d&lt;/b> konverzácie boli odstránené</item>
+        <item quantity="many">&lt;b>%1$d&lt;/b> deleted</item>
+    </plurals>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">Štítky sa zmenili</item>
+        <item quantity="one">Štítok sa zmenil</item>
+        <item quantity="few">Štítky sa zmenili</item>
+        <item quantity="many">Štítky sa zmenili</item>
+    </plurals>
+    <plurals name="new_incoming_messages">
+        <item quantity="other">%1$d nových správ</item>
+        <item quantity="one">%1$d nová správa</item>
+        <item quantity="few">%1$d nové správy</item>
+        <item quantity="many">%1$d nových správ</item>
+    </plurals>
+    <plurals name="show_messages_read">
+        <item quantity="other">Rozbaliť %1$d starších správ</item>
+        <item quantity="one">Rozbaliť staršiu správu</item>
+        <item quantity="few">Rozbaliť %1$d staršie správy</item>
+        <item quantity="many">Rozbaliť %1$d starších správ</item>
+    </plurals>
+    <plurals name="super_collapsed_block_accessibility_announcement">
+        <item quantity="other">Rozbalilo sa %1$d starších správ</item>
+        <item quantity="one">Rozbalila sa jedna staršia správa</item>
+        <item quantity="few">Rozbalili sa %1$d staršie správy</item>
+        <item quantity="many">Rozbalilo sa %1$d starších správ</item>
+    </plurals>
+    <plurals name="new_messages">
+        <item quantity="other">%1$d nových správ</item>
+        <item quantity="one">%1$d nová správa</item>
+        <item quantity="few">%1$d nové správy</item>
+        <item quantity="many">%1$d nových správ</item>
+    </plurals>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">%1$d konverzácií sa natrvalo odstráni</item>
+        <item quantity="one">%1$d konverzácia sa natrvalo odstráni</item>
+        <item quantity="few">%1$d konverzácie sa natrvalo odstránia</item>
+        <item quantity="many">%1$d konverzácií sa natrvalo odstráni</item>
+    </plurals>
+    <plurals name="num_messages">
+        <item quantity="other">%1$d správ</item>
+        <item quantity="one">%1$d správa</item>
+        <item quantity="few">%1$d správy</item>
+        <item quantity="many">%1$d správ</item>
+    </plurals>
+    <plurals name="num_attachments">
+        <item quantity="other">%1$d príloh</item>
+        <item quantity="one">%1$d príloha</item>
+        <item quantity="few">%1$d prílohy</item>
+        <item quantity="many">%1$d príloh</item>
+    </plurals>
+    <plurals name="dialog_report_spam_unsubscribe_text">
+        <item quantity="other">Okrem označenia tejto správy ako spam môže Gmail automaticky zrušiť váš odber od týchto &lt;b>%2$d odosielateľov&lt;/b>:%1$s</item>
+        <item quantity="one">Okrem označenia tejto správy ako spam môže Gmail automaticky zrušiť váš odber od odosielateľa %1$s.</item>
+        <item quantity="few">Okrem označenia tejto správy ako spam môže Gmail automaticky zrušiť váš odber od týchto &lt;b>%2$d odosielateľov&lt;/b>:%1$s</item>
+        <item quantity="many">Okrem označenia tejto správy ako spam môže Gmail automaticky zrušiť váš odber od týchto &lt;b>odosielateľov (%2$d)&lt;/b>:%1$s</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">Synchronizovať posledných %1$d dní</item>
+        <item quantity="one">Synchronizovať posledný %1$d deň</item>
+        <item quantity="few">Synchronizovať posledné %1$d dni</item>
+        <item quantity="many">Synchronizovať posledných %1$d dní</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d dní</item>
+        <item quantity="one">Jeden deň</item>
+        <item quantity="few">%d dni</item>
+        <item quantity="many">%d dňa</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">dní</item>
+        <item quantity="one">deň</item>
+        <item quantity="few">dni</item>
+        <item quantity="many">dňa</item>
+    </plurals>
+    <plurals name="sync_messages_partial_description">
+        <item quantity="other">Po pripojení sa stiahnu správy z posledných %1$d dní</item>
+        <item quantity="one">Po pripojení sa stiahnu správy z posledného dňa</item>
+        <item quantity="few">Po pripojení sa stiahnu správy z posledných %1$d dní</item>
+        <item quantity="many">Po pripojení sa stiahnu správy z posledných %1$d dní</item>
+    </plurals>
+    <plurals name="fix_permissions_does_not_fix_everything_warning">
+        <item quantity="other">Poznámka: Niektorí príjemcovia stále nemusia mať prístup k týmto súborom. Je možné, že súbory budete musieť zdieľať z Disku Google.</item>
+        <item quantity="one">Poznámka: Niektorí príjemcovia stále nemusia mať prístup k tomuto súboru. Je možné, že súbor budete musieť zdieľať z Disku Google.</item>
+        <item quantity="few">Poznámka: Niektorí príjemcovia stále nemusia mať prístup k týmto súborom. Je možné, že súbory budete musieť zdieľať z Disku Google.</item>
+        <item quantity="many">Poznámka: Niektorí príjemcovia stále nemusia mať prístup k týmto súborom. Je možné, že súbory budete musieť zdieľať z Disku Google.</item>
+    </plurals>
+    <plurals name="fix_permissions_outside_domain_warning">
+        <item quantity="other">"Zdieľate s príjemcami:&lt;br>&lt;b>%1$s
+&lt;/b>&lt;br>ktorí nie sú členmi organizácie so službou Google Apps, ktorej patria tieto súbory."</item>
+        <item quantity="one">Zdieľate s príjemcami:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>, ktorí nie sú členmi organizácie so službou Google Apps, ktorej patrí tento súbor.</item>
+        <item quantity="few">"Zdieľate s príjemcami:&lt;br>&lt;b>%1$s
+&lt;/b>&lt;br>ktorí nie sú členmi organizácie so službou Google Apps, ktorej patria tieto súbory."</item>
+        <item quantity="many">"Zdieľate s príjemcami:&lt;br>&lt;b>%1$s
+&lt;/b>&lt;br>ktorí nie sú členmi organizácie so službou Google Apps, ktorej patria tieto súbory."</item>
+    </plurals>
+    <plurals name="files_not_shared_dialog_body">
+        <item quantity="other">Vaši príjemcovia nemusia mať prístup k súborom, ktoré ste vložili z Disku. Je možné, že súbory budete musieť zdieľať z Disku Google.</item>
+        <item quantity="one">Vaši príjemcovia nemusia mať prístup k súboru, ktorý ste vložili z Disku. Je možné, že súbor budete musieť zdieľať z Disku Google.</item>
+        <item quantity="few">Vaši príjemcovia nemusia mať prístup k súborom, ktoré ste vložili z Disku. Je možné, že súbory budete musieť zdieľať z Disku Google.</item>
+        <item quantity="many">Vaši príjemcovia nemusia mať prístup k súborom, ktoré ste vložili z Disku. Je možné, že súbory budete musieť zdieľať z Disku Google.</item>
+    </plurals>
+    <plurals name="welcome_tour_other_addresses_list_label">
+        <item quantity="other">Vaše aktuálne e-mailové adresy:</item>
+        <item quantity="one">Vaša aktuálna e-mailová adresa:</item>
+        <item quantity="few">Vaše aktuálne e-mailové adresy:</item>
+        <item quantity="many">Vaše aktuálne e-mailové adresy:</item>
+    </plurals>
+</resources>

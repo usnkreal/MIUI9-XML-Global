@@ -73,16 +73,16 @@
         <item quantity="one">Töröl %d zenét a Mi Cloudból? A helyi lejátszási listáról is törlődik.</item>
     </plurals>
     <plurals name="download_finished">
-        <item quantity="other">&amp;lt;font color==\"red\">%d dal&amp;lt;/font> letöltve</item>
-        <item quantity="one">&amp;lt;font color==\"red\">%d dal&amp;lt;/font> letöltve</item>
+        <item quantity="other">&lt;font color==\"red\">%d dal&lt;/font> letöltve</item>
+        <item quantity="one">&lt;font color==\"red\">%d dal&lt;/font> letöltve</item>
     </plurals>
     <plurals name="download_info_count_deleted_tasks">
         <item quantity="other">%d letöltés törölve</item>
         <item quantity="one">%d letöltés törölve</item>
     </plurals>
     <plurals name="download_running">
-        <item quantity="other">&amp;lt;font color==\"red\">%d dal&amp;lt;/font> letöltése</item>
-        <item quantity="one">&amp;lt;font color==\"red\">%d dal&amp;lt;/font> letöltése</item>
+        <item quantity="other">&lt;font color==\"red\">%d dal&lt;/font> letöltése</item>
+        <item quantity="one">&lt;font color==\"red\">%d dal&lt;/font> letöltése</item>
     </plurals>
     <plurals name="multichoice_title">
         <item quantity="other">%d elem kiválasztva</item>

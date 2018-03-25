@@ -10,6 +10,7 @@
     <string name="app_description_title">Despre Scaner</string>
     <string name="app_details">Aplicaţie:</string>
     <string name="app_name">Scaner</string>
+    <string name="ar_unsupport_for_kk">Această caracteristică nu acceptă 4.4</string>
     <string name="back">Înapoi</string>
     <string name="barcode_into_rectangle">Plasați codul în interiorul cadrului</string>
     <string name="birthday">Ziua de naștere:</string>
@@ -93,7 +94,15 @@
     <string name="language_entry_russian">Rusă</string>
     <string name="language_entry_spanish">Spaniolă</string>
     <string name="language_entry_swedish">Suedeză</string>
-    <string name="low_version_tip">Versiunea MIUI este prea veche. Actualizați MIUI pentru a utiliza Scaner.</string>
+    <string name="low_version_tip">Scanerul nu poate rula pe sistemul actual, vă rugăm să actualizați la cea mai recentă versiune a MIUI</string>
+    <string name="miracast_connect">Difuza</string>
+    <string name="miracast_connect_fail">Nu s-a putut difuza, încercați din nou</string>
+    <string name="miracast_connect_success">Difuzat cu succes</string>
+    <string name="miracast_connecting">Se difuzează…</string>
+    <string name="miracast_details">Scanați codul QR pentru a difuza</string>
+    <string name="miracast_message">Difuzați la Mi TV?</string>
+    <string name="miracast_switch_off">Afișajul wireless este oprit</string>
+    <string name="miracast_switch_tip">Porniți afișajul wireless pentru a utiliza această funcție</string>
     <string name="module_title_code">Cod QR</string>
     <string name="module_title_document">Document</string>
     <string name="module_title_namecard">Carte de vizită</string>
@@ -120,6 +129,9 @@
     <string name="preparing_sd">Se pregătește stocarea internă…</string>
     <string name="previous">Înapoi</string>
     <string name="qr_code_details">Detalii Cod QR:</string>
+    <string name="recognition_ar_download_data_msg">Descărcați motorul de recunoaștere AR. Dimensiunea sa este de aproximativ 13MB. Utilizați datele mobile pentru descărcare?</string>
+    <string name="recognition_ar_download_msg">Descărcați motorul de recunoaștere AR. Dimensiunea sa este de aproximativ 13MB.</string>
+    <string name="recognition_download_title">Te rog asteaptă un moment</string>
     <string name="recognition_error_download_cancel">Mai târziu</string>
     <string name="recognition_error_download_data_msg">Descarcă motor de recunoaștere pentru a scana cărți. Dimensiunea este de aproximativ 15 Mb. Utilizați datele mobile pentru a descărca?</string>
     <string name="recognition_error_download_fail">Nu s-a putut descărca motorul de recunoaştere</string>
@@ -147,6 +159,7 @@
     <string name="study_searching">Se caută rezultate</string>
     <string name="study_title">Faceți o fotografie la problemă</string>
     <string name="study_vendor_info">Realizat de Master Learner</string>
+    <string name="switch_open">Pornește</string>
     <string name="tips_message">Conectați-vă la Internet pentru a verifica dacă site-ul pe care sunteți pe cale să vizitați este securizat.</string>
     <string name="title">Titlu:</string>
     <string name="translation_language_chinese">Chineză</string>

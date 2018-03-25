@@ -43,7 +43,6 @@
     <string name="all_fileter">הכל</string>
     <string name="all_share_files_content">הקבצים שבחרת נמחקו כבר.</string>
     <string name="apk_filter">APK</string>
-    <string name="app_downloads">%s הורדות</string>
     <string name="auth_fail">לא ניתן היה לקבל אישור</string>
     <string name="bt_path_not_exit">נתיב זה אינו קיים</string>
     <string name="bt_restart_dialog_message">להתחיל מחדש את כל ההורדות בתיקית BT?</string>
@@ -62,7 +61,6 @@
     <string name="dialog_btn_ok">אישור</string>
     <string name="dialog_btn_ok_disabled_net">הגדרות רשת</string>
     <string name="dialog_confirm_delete_checkbox_message">מחק גם קבצים מקומיים</string>
-    <string name="dialog_confirm_delete_downloads_message">למחוק את המשימות שנבחרו?</string>
     <string name="dialog_confirm_delete_the_download_item_message">מחק משימות אלו</string>
     <string name="dialog_file_missing_title">לא ניתן לפתוח את הקובץ</string>
     <string name="dialog_msg_disabled_net">"%1$s אסר על הורדות ברשת הנוכחית. לחץ על 'הגדרות רשת' על מנת לעבור ליישום ה'אבטחה'."</string>
@@ -205,6 +203,7 @@
     <string name="add_flow_fail_haveget_msg">תקופת הנסיון תמה.</string>
     <string name="add_flow_fail_vip_msg">מאיץ ההורדות של Xunlei מופעל</string>
     <string name="all_the_internet">כל הרשתות</string>
+    <string name="app_downloads">%s הורדות</string>
     <string name="app_size">%1$s</string>
     <string name="auth_activity_title">חשבון Xunlei</string>
     <string name="bind_xunlei_account">הוספת חשבון Xunlei</string>
@@ -217,6 +216,7 @@
     <string name="delete">מחיקה</string>
     <string name="deselect_subfile_all">הסרת בחירה מהכל</string>
     <string name="determine">אישור</string>
+    <string name="dialog_confirm_delete_downloads_message">למחוק את המשימות שנבחרו?</string>
     <string name="disable">כבוי</string>
     <string name="display_expire_netiv1">החודש</string>
     <string name="do_not_support_url">סוג קישור זה אינו נתמך</string>

@@ -4,25 +4,25 @@
         <item quantity="other">%d reklám blokovaných</item>
         <item quantity="one">%d reklama blokovaná</item>
         <item quantity="few">%d reklamy blokované</item>
-        <item quantity="many">%d ads blocked</item>
+        <item quantity="many">%d reklamy blokovanej</item>
     </plurals>
     <plurals name="adblock_rules_number_text">
-        <item quantity="other">Blokovaných: %d</item>
-        <item quantity="one">Blokovaných: %d</item>
-        <item quantity="few">Blokovaných: %d</item>
-        <item quantity="many">%d items blocked</item>
+        <item quantity="other">%d položiek blokovaných</item>
+        <item quantity="one">%d položka blokovaná</item>
+        <item quantity="few">%d položky blokované</item>
+        <item quantity="many">%d položky blokovanej</item>
     </plurals>
     <plurals name="dialog_confirm_delete_downloads_message">
         <item quantity="other">Odstrániť %d úloh?</item>
         <item quantity="one">Odstrániť %d úlohu?</item>
         <item quantity="few">Odstrániť %d úlohy?</item>
-        <item quantity="many">Delete %d tasks?</item>
+        <item quantity="many">Odstrániť %d úlohy?</item>
     </plurals>
     <plurals name="find_on_page_matches">
-        <item quantity="other">Zhody: %d</item>
-        <item quantity="one">Zhody: %d</item>
-        <item quantity="few">Zhody: %d</item>
-        <item quantity="many">%d matches</item>
+        <item quantity="other">%d zhôd</item>
+        <item quantity="one">%d zhoda</item>
+        <item quantity="few">%d zhody</item>
+        <item quantity="many">%d zhody</item>
     </plurals>
     <plurals name="last_num_days">
         <item quantity="other">Posledných %d dní</item>
@@ -40,37 +40,37 @@
         <item quantity="other">Po %d sekundách sa automaticky vytvorí stránka</item>
         <item quantity="one">Po %d sekunde sa automaticky vytvorí stránka</item>
         <item quantity="few">Po %d sekundách sa automaticky vytvorí stránka</item>
-        <item quantity="many">After %d seconds will automatically create a new page</item>
+        <item quantity="many">Po %d sekunde sa automaticky vytvorí stránka</item>
     </plurals>
     <plurals name="pref_adblock_counts">
         <item quantity="other">%d zablokovaných</item>
         <item quantity="one">%d zablokovaná</item>
         <item quantity="few">%d zablokované</item>
-        <item quantity="many">%d blocked</item>
+        <item quantity="many">%d zablokovanej</item>
     </plurals>
     <plurals name="suggest_access_item_album_songs">
         <item quantity="other">%d piesní</item>
         <item quantity="one">%d pieseň</item>
         <item quantity="few">%d piesne</item>
-        <item quantity="many">%d songs</item>
+        <item quantity="many">%d piesne</item>
     </plurals>
     <plurals name="suggest_access_item_singer_albums">
         <item quantity="other">%d albumov</item>
         <item quantity="one">%d album</item>
         <item quantity="few">%d albumy</item>
-        <item quantity="many">%d albums</item>
+        <item quantity="many">%d albumu</item>
     </plurals>
     <plurals name="suggest_access_item_singer_pop">
         <item quantity="other">%d populárnych piesní</item>
         <item quantity="one">%d populárna pieseň</item>
         <item quantity="few">%d populárne piesne</item>
-        <item quantity="many">%d popular songs</item>
+        <item quantity="many">%d populárnej piesne</item>
     </plurals>
     <plurals name="v5_edit_mode_title">
         <item quantity="other">Zhody: %1$d</item>
         <item quantity="one">Vybrané: %1$d</item>
         <item quantity="few">Vybrané: %1$d</item>
-        <item quantity="many">%1$d selected</item>
+        <item quantity="many">Vybrané: %1$d</item>
     </plurals>
     <plurals name="video_download_clear_info">
         <item quantity="other">%1$d videí bolo úspešne odstránených.</item>
@@ -110,8 +110,8 @@
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Jasno</item>
-        <item quantity="one">Slnečno</item>
+        <item quantity="one">Jasno</item>
         <item quantity="few">Jasno</item>
-        <item quantity="many">Clear</item>
+        <item quantity="many">Jasno</item>
     </plurals>
 </resources>

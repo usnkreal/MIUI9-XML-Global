@@ -288,8 +288,8 @@ for å gå inn i Andre område fra Låseskjermen"</string>
     <string name="xspace_default_app_summary">Angi standardapp for betalinger, deling, favoritter og mer.</string>
     <string name="xspace_default_setting_dialog_title">Standard</string>
     <string name="xspace_default_guide_notification_content">Trykk for å endre</string>
-    <string name="xspace_default_guide_notification_main_title">Using default app</string>
-    <string name="xspace_default_guide_notification_xspace_title">Using dual app</string>
+    <string name="xspace_default_guide_notification_main_title">Bruker standard-app</string>
+    <string name="xspace_default_guide_notification_xspace_title">Bruker dual-app</string>
     <string name="space_name_default">Arbeidsområde</string>
     <string name="space_des_default">Isolert område med krypterte data</string>
     <string name="create_work_space">Opprett Arbeidsområde</string>
@@ -366,6 +366,16 @@ Hvis du ikke oppdaterer, kan det hende at dobbeltapper ikke fungerer som de skal
     <string name="space_create_guide_desc_3">"Second space doesn't affect other items on your device"</string>
     <string name="space_create_guide_switchmode_title">Switch between spaces</string>
     <string name="second_space_desktop_tips_dialog_title">Important update</string>
-    <string name="second_space_desktop_tips_dialog_positive_text">Got it</string>
+    <string name="second_space_desktop_tips_dialog_positive_text">Skjønner</string>
     <string name="second_space_desktop_tips_dialog_message">After this update, the icons for moving data and managing Second space will no longer be displayed on the Home screen. You will be able to access their corresponding features in the Settings.</string>
+    <string name="green_guard">Parental controls</string>
+    <string name="bind_device">Add devices</string>
+    <string name="green_guard_des1">Add devices to manage them remotely</string>
+    <string name="green_guard_title2">View location info</string>
+    <string name="green_guard_des2">Know where exactly all managed devices are</string>
+    <string name="green_guard_title3">Manage apps</string>
+    <string name="green_guard_des3">Control installed apps and restrict usage</string>
+    <string name="experience_more_features">Add a device to view all features</string>
+    <string name="can_not_switch_when_green_kid_active">Switching to Second space is restricted by parental controls</string>
+    <string name="need_network_when_bind">Connect to the network before Adding devices</string>
 </resources>

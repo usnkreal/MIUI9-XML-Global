@@ -200,7 +200,7 @@ Navštívte www.miuios.cz/rom (MIUIv6) pre viac informácií.\""</string>
     <string name="confirm_local_package_wipe_msg">Vaše užívateľské dáta budú vymazané. Uistite sa, že máte zálohované všetky dôležité dáta predtým ako spustite inštaláciu.</string>
     <string name="confirm_local_package_wipe_btn">Vymazať a aktualizovať</string>
     <string name="file_path_error_title">Nesprávna cesta</string>
-    <string name="file_path_error_msg">Make sure the path to the update package contains only letters and numbers.</string>
+    <string name="file_path_error_msg">Uistite sa, že cesta k aktualizačnému balíku obsahuje len písmená a číslice.</string>
     <string name="file_path_error_btn">Rozumiem</string>
     <string name="delay_update_text">Aktualizovať dnes v noci</string>
     <string name="dialog_delay_update_title">Dostupná aktualizácia</string>
@@ -261,7 +261,7 @@ BETA Feedback Programu\""</string>
     <string name="vote_error3">\"Nie je možné sa prihlásiť. Skúste sa znova prihlásiť vašim Xiaomi účtom.\"</string>
     <string name="vote_error4">Váš názor už bol odoslaný</string>
     <string name="vote_error5">\"Nastala chyba, Nie je možné odoslať váš názor\"</string>
-    <string name="miui_BBS">" "<a href="http://bbs.miui.com">MIUI fórum</a>" "</string>
+    <string name="miui_BBS"><a href="http://bbs.miui.com">Prejsť do MIUI fórumu</a>" "</string>
     <string name="alpha_cancel">Odhlásiť sa z BETA testovania</string>
     <string name="alpha_cancel_ok">OK</string>
     <string name="alpha_cancel_cancel">Zrušiť</string>
@@ -315,6 +315,7 @@ BETA Feedback Programu\""</string>
     <string name="home_delay_cancel">Zrušiť</string>
     <string name="accessibility_video">Video</string>
     <string name="accessibility_image">Obrázok</string>
+    <string name="accessibility_play">Prehrať</string>
     <string name="security_space_title">Dôležitá aktualizácia</string>
     <string name="security_space_msg">MIUI 9 má nový systém súborov. Pokiaľ teraz reštartujete zariadenie, nebudete už môcť ďalej používať Druhý priestor. Pred reštartovaním preto presuňte všetky položky z Druhého priestoru do Prvého.</string>
     <string name="security_space_button_pos">Nereštartovať</string>

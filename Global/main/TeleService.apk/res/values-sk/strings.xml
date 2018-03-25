@@ -1258,11 +1258,11 @@ Počet zostávajúcich pokusov: %d."</string>
     <string name="cfnry_time_thirty_sec">30 sek</string>
     <string name="cfnry_time_setting_title">Nastavte dobu čakania</string>
     <string name="prompt_when_turnon_volte_without_lte">LTE siete nie sú momentálne dostupné. Zapnutie VoLTE môže spôsobiť, že bežné hovory nebudú dostupné.</string>
-    <string name="prompt_when_turnon_volte_on_3g_prefered">Select LTE as your preferred network type before turning on VoLTE.</string>
+    <string name="prompt_when_turnon_volte_on_3g_prefered">Pred zapnutím VoLTE zvoľte LTE ako vašu preferovanú sieť.</string>
     <string name="prompt_to_turnoff_volte_when_failed">VoLTE služby nie sú dostupné. Vypnite VoLTE pre uskutočňovanie hovorov.</string>
     <string name="volte_tips_when_turn_on">Služby VoLTE operátora China Telecom sú poskytované len na miestach pokrytých LTE sieťou.</string>
     <string name="prompt_to_turnoff_volte_when_supp_service">Služba je nedostupná. Vypnite VoLTE v Nastaveniach.</string>
-    <string name="prefered_network_type_3g_promp">You should turn off VoLTE before seleсting 3G as your preferred network type. Turn off now?</string>
+    <string name="prefered_network_type_3g_promp">Pred zvolením 3G ako preferovanej siete by ste mali vypnúť VoLTE. Vypnúť teraz?</string>
     <string name="close_volte">Vypnúť VoLTE</string>
     <string name="pick_outgoing_call_phone_type">Uskutočniť hovor</string>
     <string name="pick_outgoing_sip_phone">Účet hovoru cez internet:</string>

@@ -448,8 +448,8 @@
     <string name="pref_camera_beauty">Разкраси</string>
     <string name="pref_camera_beauty_deep">Разкрасяване</string>
     <string name="bokeh_use_hint">Ефект дълбочина</string>
-    <string name="pref_camera_zoom_mode_entry_standard">СТАНДАРТНО</string>
-    <string name="pref_camera_zoom_mode_entry_high_pixel">ВИСОКИ ПИКСЕЛИ</string>
+    <string name="pref_camera_zoom_mode_entry_standard">СТАНДАРТЕН</string>
+    <string name="pref_camera_zoom_mode_entry_high_pixel">НОЩЕН</string>
     <string name="pref_camera_zoom_value_title">Зуум</string>
     <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_beautify_entry_auto">Изкл</string>

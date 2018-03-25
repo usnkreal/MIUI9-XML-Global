@@ -248,8 +248,8 @@ d MMMM"</string>
     <string name="notification_low_battery_open_save_mode">Включване Икономия на батерията</string>
     <string name="notification_low_battery_action_btn">Включи</string>
     <string name="notification_low_battery_need_charge">Батерията е слаба. Заредете устройството си.</string>
-    <string name="low_temperature_warning_title">Предупреждение за изключване</string>
-    <string name="low_temperature_warning_message">Температурата е твърде ниска, телефонът може да се изключи по всяко време, моля, запазете вашите данни.</string>
+    <string name="low_temperature_warning_title">Предупреждение за ниска температура</string>
+    <string name="low_temperature_warning_message">Температурата е твърде ниска. Вашият телефон може да се изключи по всяко време. Уверете се, че сте запазили всички важни промени.</string>
     <string name="low_temperature_button_ok">Разбрах</string>
     <string name="oldman_airplane_mode_text">Самолет</string>
     <string name="oldman_incall_text">Обратно към обаждането</string>
@@ -465,6 +465,7 @@ d MMMM"</string>
     <string name="quick_settings_disclosure_managed_profile_named_vpn">Служебният профил е свързан с %1$s</string>
     <string name="quick_settings_disclosure_personal_profile_named_vpn">Личният профил е свързан с %1$s</string>
     <string name="quick_settings_disclosure_named_vpn">Устройството е свързано с %1$s</string>
+    <string name="notch_status_bar_date_format_12">EEEE, d MMMM</string>
     <string name="accessibility_recent_task_locked_state">Заключено</string>
     <string name="accessibility_recent_task_unlocked_state">Отключено</string>
     <string name="accessibility_drag_hint_message">Плъзнете елементи към горната част на екрана</string>
@@ -472,7 +473,7 @@ d MMMM"</string>
     <string name="notification_group_overflow_indicator">+%s</string>
     <string name="click_to_return_multi_window">Чукнете за да се върнете в Разделен екран</string>
     <string name="recent_dock_tip">Чукнете за избор на приложения</string>
-    <string name="recent_cannot_dock">не може да се използва режим Разделен екран във Второ работно място</string>
+    <string name="recent_cannot_dock">Не може да се използва разделен екран във Второ работно място</string>
     <string name="dock_keyguard_locked_failed_to_dock_text">Разделен екран не се поддържа върху Заключен екран.</string>
     <string name="click_expand">Чукнете за разширяване</string>
     <string name="please_slide_agian">Плъзнете отново</string>
@@ -494,4 +495,11 @@ d MMMM"</string>
     <string name="fs_gesture_final_summary">Вие можете да се върнете обратно към използване на бутоните в Настройки > Показване на цял екран</string>
     <string name="fs_gesture_final_restart">Още веднъж</string>
     <string name="fs_gesture_final_over">Готово</string>
+    <string name="no_sim_card">Няма SIM карта</string>
+    <string name="prompt_detecting">Откриване</string>
+    <string name="prompt_danger">Риск</string>
+    <string name="prompt_failure">Грешка</string>
+    <string name="prompt_safe">Безопасно</string>
+    <string name="prompt_unknown">Неизвестно</string>
+    <string name="prompt_return_to_split">Разделен екран</string>
 </resources>

@@ -92,7 +92,7 @@
     <string name="network_errortip_login">Влезте първо</string>
     <string name="network_errorbtntip_login">Влизане</string>
     <string name="request_empty_data">Няма информация</string>
-    <string name="app_label">Отзиви</string>
+    <string name="app_label">Отзив</string>
     <string name="app_name">Обратна връзка</string>
     <string name="logo_title">Обратна връзка</string>
     <string name="report_miui">Докладвай грешка</string>

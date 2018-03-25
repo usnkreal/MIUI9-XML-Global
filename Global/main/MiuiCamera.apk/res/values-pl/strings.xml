@@ -448,8 +448,8 @@ i optymalizując obraz na podstawie scenerii"</string>
     <string name="pref_camera_beauty">Upiększanie</string>
     <string name="pref_camera_beauty_deep">Upiększanie Pro</string>
     <string name="bokeh_use_hint">Efekt głębokości</string>
-    <string name="pref_camera_zoom_mode_entry_standard">STANDARD</string>
-    <string name="pref_camera_zoom_mode_entry_high_pixel">HIGH PIXEL</string>
+    <string name="pref_camera_zoom_mode_entry_standard">STANDARDOWE</string>
+    <string name="pref_camera_zoom_mode_entry_high_pixel">SŁABE OŚWIETLENIE</string>
     <string name="pref_camera_zoom_value_title">Powiększenie</string>
     <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_beautify_entry_auto">Wyłączone</string>

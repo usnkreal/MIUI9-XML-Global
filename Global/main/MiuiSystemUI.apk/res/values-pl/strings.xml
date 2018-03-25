@@ -150,7 +150,7 @@ d MMMM"</string>
     <string name="settings_toggle_position_reset">Resetuj przełączniki</string>
     <string name="list_delimeter">", "</string>
     <string name="camera_key_action_setting_title">Przycisk Mi</string>
-    <string name="camera_key_action_category_title">Użyj jeśli aplikacja aparatu nie jest włączona</string>
+    <string name="camera_key_action_category_title">Użyj, jeśli aplikacja Aparat nie jest otwarta</string>
     <string name="camera_key_action_none_title">Bez funkcji</string>
     <string name="camera_key_action_shortcut_title">Skrót</string>
     <string name="camera_key_action_toggle_title">Aktywacja przełącznika</string>
@@ -247,8 +247,8 @@ d MMMM"</string>
     <string name="notification_low_battery_open_save_mode">Włącz oszczędzanie baterii</string>
     <string name="notification_low_battery_action_btn">Włącz</string>
     <string name="notification_low_battery_need_charge">Niski poziom baterii. Doładuj swoje urządzenie.</string>
-    <string name="low_temperature_warning_title">Ostrzeżenie o wyłączeniu</string>
-    <string name="low_temperature_warning_message">Temperatura jest zbyt niska, telefon może wyłączyć się samoczynnie w każdej chwili, zapisz dane.</string>
+    <string name="low_temperature_warning_title">Ostrzeżenie o niskiej temperaturze</string>
+    <string name="low_temperature_warning_message">Temperatura jest zbyt niska. Twój telefon może się wyłączyć w każdej chwili. Upewnij się, że masz zapisane wszystkie swoje ważne zmiany.</string>
     <string name="low_temperature_button_ok">Rozumiem</string>
     <string name="oldman_airplane_mode_text">Tryb samolotowy</string>
     <string name="oldman_incall_text">Wróć do połączenia</string>
@@ -464,6 +464,7 @@ W celu uzyskania informacji, skontaktuj się z administratorem."</string>
     <string name="quick_settings_disclosure_managed_profile_named_vpn">Profil sieciowym połączony przez %1$s</string>
     <string name="quick_settings_disclosure_personal_profile_named_vpn">Profil osobisty połączony przez %1$s</string>
     <string name="quick_settings_disclosure_named_vpn">Urządzenie połączone przez %1$s</string>
+    <string name="notch_status_bar_date_format_12">EEEE, d MMMM</string>
     <string name="accessibility_recent_task_locked_state">Zablokowana</string>
     <string name="accessibility_recent_task_unlocked_state">Odblokowana</string>
     <string name="accessibility_drag_hint_message">Przeciągnij elementy na górę ekranu</string>
@@ -471,7 +472,7 @@ W celu uzyskania informacji, skontaktuj się z administratorem."</string>
     <string name="notification_group_overflow_indicator">+%s</string>
     <string name="click_to_return_multi_window">Dotknij aby powrócić do podzielonego ekranu</string>
     <string name="recent_dock_tip">Dotknij, aby wybrać aplikacje</string>
-    <string name="recent_cannot_dock">Nie można przejść do trybu podzielonego ekranu w Drugiej przestrzeni</string>
+    <string name="recent_cannot_dock">Nie można skorzystać z Dzielenia ekranu w Drugiej przestrzeni</string>
     <string name="dock_keyguard_locked_failed_to_dock_text">Podzielony ekran nie jest obsługiwany na ekranie blokady.</string>
     <string name="click_expand">Dotknij aby rozwinąć</string>
     <string name="please_slide_agian">Przesuń ponownie</string>
@@ -493,4 +494,11 @@ W celu uzyskania informacji, skontaktuj się z administratorem."</string>
     <string name="fs_gesture_final_summary">Możesz przywrócić korzystanie z przycisków w Ustawienia > Wyświetlacz pełnoekranowy</string>
     <string name="fs_gesture_final_restart">Jeszcze raz</string>
     <string name="fs_gesture_final_over">Gotowe</string>
+    <string name="no_sim_card">Brak karty SIM</string>
+    <string name="prompt_detecting">Wykrywanie</string>
+    <string name="prompt_danger">Zagrożenie</string>
+    <string name="prompt_failure">Błąd</string>
+    <string name="prompt_safe">Bezpiecznie</string>
+    <string name="prompt_unknown">Nieznany</string>
+    <string name="prompt_return_to_split">Podziel ekran</string>
 </resources>

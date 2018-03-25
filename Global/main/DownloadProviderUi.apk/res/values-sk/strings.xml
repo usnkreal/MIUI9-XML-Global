@@ -44,7 +44,6 @@
     <string name="all_fileter">Všetko</string>
     <string name="all_share_files_content">Súbory, ktoré ste vybrali, už boli odstránené.</string>
     <string name="apk_filter">APK</string>
-    <string name="app_downloads">%s stiahnuté</string>
     <string name="auth_fail">Nepodarilo sa získať autorizáciu</string>
     <string name="bt_path_not_exit">Táto cesta neexistuje</string>
     <string name="bt_restart_dialog_message">Reštartovať všetky sťahovania v priečinku BT?</string>
@@ -63,7 +62,6 @@
     <string name="dialog_btn_ok">OK </string>
     <string name="dialog_btn_ok_disabled_net">Nastavenia siete</string>
     <string name="dialog_confirm_delete_checkbox_message">Odstrániť aj miestne súbory</string>
-    <string name="dialog_confirm_delete_downloads_message">Vymazať vybraté úlohy?</string>
     <string name="dialog_confirm_delete_the_download_item_message">Odstrániť tieto úlohy</string>
     <string name="dialog_file_missing_title">Súbor nie je možné otvoriť</string>
     <string name="dialog_msg_disabled_net">Aplikácia %1$s obmedzila sťahovania v aktuálnej sieti. Klepnite na Nastavenia siete a prejdite do aplikácie Zabezpečenie.</string>
@@ -206,6 +204,7 @@
     <string name="add_flow_fail_haveget_msg">Obdobie skúšobnej verzie vypršalo.</string>
     <string name="add_flow_fail_vip_msg">Zrýchľovač sťahovania Xunlei je zapnutý</string>
     <string name="all_the_internet">Všetky siete</string>
+    <string name="app_downloads">%s stiahnuté</string>
     <string name="app_size">%1$s</string>
     <string name="auth_activity_title">Účet Xunlei</string>
     <string name="bind_xunlei_account">Pridať účet Xunlei</string>
@@ -218,6 +217,7 @@
     <string name="delete">Odstrániť</string>
     <string name="deselect_subfile_all">Zrušiť označenie všetkého</string>
     <string name="determine">OK </string>
+    <string name="dialog_confirm_delete_downloads_message">Vymazať vybraté úlohy?</string>
     <string name="disable">Vypnuté</string>
     <string name="display_expire_netiv1">Tento mesiac</string>
     <string name="do_not_support_url">Tento typ webovej adresy nie je podporovaný</string>

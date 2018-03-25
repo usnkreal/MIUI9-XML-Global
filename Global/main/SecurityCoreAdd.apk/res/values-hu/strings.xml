@@ -368,4 +368,14 @@ Ha nem végzi el a frissítést, néhány alkalmazás nem fog rendeltetésszerű
     <string name="second_space_desktop_tips_dialog_title">Fontos frissítés</string>
     <string name="second_space_desktop_tips_dialog_positive_text">Rendben</string>
     <string name="second_space_desktop_tips_dialog_message">Ezután a frissítés után a Második asztal kezeléséhez és adatmozgatáshoz használt ikonok többé nem jelennek meg a Kezdőképernyőn. A Beállítások menüben férhet hozzá a megfelelő szolgáltatásokhoz.</string>
+    <string name="green_guard">Parental controls</string>
+    <string name="bind_device">Add devices</string>
+    <string name="green_guard_des1">Add devices to manage them remotely</string>
+    <string name="green_guard_title2">View location info</string>
+    <string name="green_guard_des2">Know where exactly all managed devices are</string>
+    <string name="green_guard_title3">Manage apps</string>
+    <string name="green_guard_des3">Control installed apps and restrict usage</string>
+    <string name="experience_more_features">Add a device to view all features</string>
+    <string name="can_not_switch_when_green_kid_active">Switching to Second space is restricted by parental controls</string>
+    <string name="need_network_when_bind">Connect to the network before Adding devices</string>
 </resources>

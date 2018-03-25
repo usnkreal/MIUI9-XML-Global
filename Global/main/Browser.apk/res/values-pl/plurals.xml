@@ -109,9 +109,9 @@
         <item quantity="many">Pozostało %d minut</item>
     </plurals>
     <plurals name="view_realtime_clear">
-        <item quantity="other">Bezchmurnie</item>
-        <item quantity="one">Słonecznie</item>
+        <item quantity="other">Pogodnie</item>
+        <item quantity="one">Pogodnie</item>
         <item quantity="few">Pogodnie</item>
-        <item quantity="many">Słonecznie</item>
+        <item quantity="many">Pogodnie</item>
     </plurals>
 </resources>

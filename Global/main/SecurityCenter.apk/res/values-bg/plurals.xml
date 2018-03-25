@@ -73,8 +73,8 @@
         <item quantity="one">%d открито прил.</item>
     </plurals>
     <plurals name="network_restrict_count">
-        <item quantity="other">"Мрежовият достъп е ограничен за &amp;lt;font color='#ff0000'>%d&amp;lt;/font> приложения"</item>
-        <item quantity="one">"Мрежовият достъп е ограничен за &amp;lt;font color='#ff0000'>%d&amp;lt;/font> приложение"</item>
+        <item quantity="other">"Мрежовият достъп е ограничен за &lt;font color='#ff0000'>%d&lt;/font> приложения"</item>
+        <item quantity="one">"Мрежовият достъп е ограничен за &lt;font color='#ff0000'>%d&lt;/font> приложение"</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
         <item quantity="other">%d приложения не работят правилно и изразходват много батерия</item>
@@ -307,5 +307,9 @@
     <plurals name="net_booster_expire_notification_tip">
         <item quantity="other">%d дни остават, преди Мрежов ускорител да приключи своята сесия. Подновете я сега, за да се предпазите от проблеми със скоростта.</item>
         <item quantity="one">%d ден остава, преди Мрежов ускорител да приключи своята сесия. Подновете я сега, за да се предпазите от проблеми със скоростта.</item>
+    </plurals>
+    <plurals name="gb_signed_days_sum">
+        <item quantity="other">Регистриран %d дни подред</item>
+        <item quantity="one">Регистриран %d път</item>
     </plurals>
 </resources>

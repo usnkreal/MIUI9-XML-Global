@@ -2778,7 +2778,7 @@ Google 동기화는 사용자가 어디에서든지 연락처, 일정 등에 액
     <string name="networks_title">모바일 네트워크</string>
     <string name="user_experience_program">사용자 환경 개선 프로그램</string>
     <string name="user_experience_program_title">사용자 환경 개선 프로그램</string>
-    <string name="user_experience_program_summary">Help us improve our products and services by sharing your usage stats with us</string>
+    <string name="user_experience_program_summary">사용 데이터를 저희에게 공유하여 제품 및 서비스 개선을 도와주십시오.</string>
     <string name="upload_debug_log_title">자동으로 데이터 진단 전송</string>
     <string name="upload_debug_log_summary">저희가 수집하는 정보에 귀하의 개인 정보 데이터가 포함될 수 있습니다. 위치 정보 또는 시스템의 문제 분석에 사용될 수 있으며 절대로 신분 확인 등에 사용되지 않을 것입니다.</string>
     <string name="sound_vibrate_settings">소리 &amp; 진동</string>
@@ -2956,6 +2956,7 @@ Google 동기화는 사용자가 어디에서든지 연락처, 일정 등에 액
     <string name="key_gesture_function_shortcut">기능 바로가기</string>
     <string name="key_system_control">시스템 제어</string>
     <string name="key_gesture_function_preview">버튼 및 제스쳐 미리보기</string>
+    <string name="key_operation_diagram">조작 다이아그램</string>
     <string name="key_gesture_function_optional">선택적인 제스쳐 및 버튼</string>
     <string name="key_gesture_function_dialog_message">%1$s은(는) %2$s의 바로가기 입니다. %3$s로 교체하시겠습니까?</string>
     <string name="key_gesture_function_dialog_positive">교체</string>
@@ -3942,6 +3943,7 @@ PIN 설정"</string>
     <string name="bt_rarely_used_device_title">거의 이용하지 않는 기기 (%d)</string>
     <string name="search_input_hint">검색 설정</string>
     <string name="back_button">뒤로</string>
+    <string name="launcher_title">홈 화면 &amp; 최근</string>
     <string name="music_audio_effect_optimize">오디오 설정</string>
     <string name="music_audio_effect_optimize_summary">Dirac, 헤드폰, 기타 오디오 설정</string>
     <string name="music_audio_effect_optimize_summary_with_hifi">Dirac, Hi-Fi, 헤드폰, 기타 오디오 설정</string>
@@ -4212,8 +4214,8 @@ PIN 설정"</string>
     <string name="force_immersive_compatibility_dont_hide">숨기지 않음</string>
     <string name="infinity_display_settings">풀디스플레이</string>
     <string name="infinity_display_slogan">풀디스플레이의 혁신</string>
-    <string name="carrier_show_in_lock_screen">Only show in lock screen</string>
-    <string name="carrier_show_none">Never show carrier name</string>
+    <string name="carrier_show_in_lock_screen">잠금 화면에만 표시</string>
+    <string name="carrier_show_none">통신사 이름 표시하지 않음</string>
     <string name="navigation_type_settings">시스템 네비게이션</string>
     <string name="navigation_type_radio_text_virtual_key">버튼</string>
     <string name="navigation_type_radio_text_full_screen">전체화면 제스쳐</string>

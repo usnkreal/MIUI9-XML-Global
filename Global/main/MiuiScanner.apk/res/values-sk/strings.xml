@@ -10,6 +10,7 @@
     <string name="app_description_title">O skeneri</string>
     <string name="app_details">Apl.:</string>
     <string name="app_name">Skener</string>
+    <string name="ar_unsupport_for_kk">Táto funkcia nepodporuje 4.4</string>
     <string name="back">Späť</string>
     <string name="barcode_into_rectangle">Zamerajte kód do rámčeka</string>
     <string name="birthday">Narodeniny:</string>
@@ -93,7 +94,15 @@
     <string name="language_entry_russian">Ruština</string>
     <string name="language_entry_spanish">Španielčina</string>
     <string name="language_entry_swedish">Švédčina</string>
-    <string name="low_version_tip">Skener nemôže byť spustený na tejto verzii MIUI. Aktualizujte na najnovšiu verziu systému.</string>
+    <string name="low_version_tip">Skener nemôže fungovať na tejto verzii systému, prosím aktualizujte na najnovšiu verziu MIUI</string>
+    <string name="miracast_connect">Preniesť</string>
+    <string name="miracast_connect_fail">Prenos sa nepodaril, skúste to znova</string>
+    <string name="miracast_connect_success">Úspešne prenesené</string>
+    <string name="miracast_connecting">Prenáša sa…</string>
+    <string name="miracast_details">Pre prenos naskenovať QR kód</string>
+    <string name="miracast_message">Preniesť do Mi TV?</string>
+    <string name="miracast_switch_off">Bezdrôtový displej je vypnutý</string>
+    <string name="miracast_switch_tip">Pre použitie tejto funkcie vypnite displej</string>
     <string name="module_title_code">QR kód</string>
     <string name="module_title_document">Dokument</string>
     <string name="module_title_namecard">Vizitka</string>
@@ -120,6 +129,9 @@
     <string name="preparing_sd">Príprava úložiska...</string>
     <string name="previous">Naspäť</string>
     <string name="qr_code_details">QR kód:</string>
+    <string name="recognition_ar_download_data_msg">Stiahnite si program na rozoznávanie AR. Veľkosť je približne 13MB. Použiť mobilné dáta?</string>
+    <string name="recognition_ar_download_msg">Stiahnite si program na rozoznávanie AR. Veľkosť je približne 13MB.</string>
+    <string name="recognition_download_title">Chvíľu počkajte</string>
     <string name="recognition_error_download_cancel">Neskôr</string>
     <string name="recognition_error_download_data_msg">Rozpoznávanie vizitiek potrebuje stiahnúť doplnok s veľkosťou okolo 15MB.</string>
     <string name="recognition_error_download_fail">Sťahovanie doplnku zlyhalo</string>
@@ -147,6 +159,7 @@
     <string name="study_searching">Vyhľadávanie...</string>
     <string name="study_title">Odfoťte problém</string>
     <string name="study_vendor_info">Poskytuje Master Learner</string>
+    <string name="switch_open">Zapnúť</string>
     <string name="tips_message">Pripojte sa na internet pre kontrolu bezpečnosti webstránok.</string>
     <string name="title">Titul:</string>
     <string name="translation_language_chinese">Čínština</string>

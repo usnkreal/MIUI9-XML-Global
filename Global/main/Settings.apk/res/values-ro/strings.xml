@@ -2952,6 +2952,7 @@ Astfel vă puteți proteja datele de pe dispozitivele pierdute sau furate."</str
     <string name="key_gesture_function_shortcut">Comenzi rapide funcționale</string>
     <string name="key_system_control">Sistemul de control</string>
     <string name="key_gesture_function_preview">Buton de previzualizare și gesturi</string>
+    <string name="key_operation_diagram">Diagrama de funcționare</string>
     <string name="key_gesture_function_optional">Gesturi și butoane opționale</string>
     <string name="key_gesture_function_dialog_message">%1$s este o scurtătură pentru %2$s. Înlocuiți cu %3$s?</string>
     <string name="key_gesture_function_dialog_positive">Înlocuieşte</string>
@@ -3938,6 +3939,7 @@ Selectați sistemul de operare:"</string>
     <string name="bt_rarely_used_device_title">Dispozitive rar utilizate (%d)</string>
     <string name="search_input_hint">Setări căutare</string>
     <string name="back_button">Înapoi</string>
+    <string name="launcher_title">Ecranul de start &amp; Recente</string>
     <string name="music_audio_effect_optimize">Setări audio</string>
     <string name="music_audio_effect_optimize_summary">Dirac, căști și alte setări audio</string>
     <string name="music_audio_effect_optimize_summary_with_hifi">Dirac, Hi-Fi, căști și alte setări audio</string>

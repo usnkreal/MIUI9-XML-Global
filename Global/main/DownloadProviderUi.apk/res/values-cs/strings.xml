@@ -44,7 +44,6 @@
     <string name="all_fileter">Vše</string>
     <string name="all_share_files_content">Vybrané soubory již byly smazány.</string>
     <string name="apk_filter">APK</string>
-    <string name="app_downloads">%s stahování</string>
     <string name="auth_fail">Nebylo možné autorizovat</string>
     <string name="bt_path_not_exit">Tato cesta neexistuje</string>
     <string name="bt_restart_dialog_message">Restartovat všechna stahování ve složce BT?</string>
@@ -63,7 +62,6 @@
     <string name="dialog_btn_ok">OK</string>
     <string name="dialog_btn_ok_disabled_net">Nastavení sítě</string>
     <string name="dialog_confirm_delete_checkbox_message">Vymazat i místní soubory</string>
-    <string name="dialog_confirm_delete_downloads_message">Odstranit vybrané úlohy?</string>
     <string name="dialog_confirm_delete_the_download_item_message">Vymazat tyto úlohy</string>
     <string name="dialog_file_missing_title">Soubor nelze otevřít</string>
     <string name="dialog_msg_disabled_net">Aplikace %1$s omezila přístup ke stahování v aktuální síti. Klepnutím na Nastavení sítě přejdete do aplikace Optimalizace.</string>
@@ -206,6 +204,7 @@
     <string name="add_flow_fail_haveget_msg">Zkušební doba vypršela.</string>
     <string name="add_flow_fail_vip_msg">Urychlovač stahování Xunlei je zapnutý</string>
     <string name="all_the_internet">Všechny sítě</string>
+    <string name="app_downloads">%s stahování</string>
     <string name="app_size">%1$s</string>
     <string name="auth_activity_title">Účet Xunlei</string>
     <string name="bind_xunlei_account">Přidat účet Xunlei</string>
@@ -218,6 +217,7 @@
     <string name="delete">Smazat</string>
     <string name="deselect_subfile_all">Zrušit výběr</string>
     <string name="determine">OK</string>
+    <string name="dialog_confirm_delete_downloads_message">Odstranit vybrané úlohy?</string>
     <string name="disable">Vyp.</string>
     <string name="display_expire_netiv1">Tento měsíc</string>
     <string name="do_not_support_url">Tento typ URL není podporován</string>

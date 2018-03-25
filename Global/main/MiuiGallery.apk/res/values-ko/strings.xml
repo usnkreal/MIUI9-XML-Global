@@ -1001,6 +1001,9 @@
     <string name="sticker_spring">봄</string>
     <string name="sticker_summer">여름</string>
     <string name="sticker_words">문자</string>
+    <string name="storage_description_primary">내부 저장소</string>
+    <string name="storage_description_sdcard">SD 카드</string>
+    <string name="storage_description_xspace">듀얼 앱 데이터</string>
     <string name="storage_no_space">저장 공간 부족</string>
     <string name="sub_discard_confirm_message">변경 사항을 저장하시겠습니까?</string>
     <string name="sub_discard_negative_btn">변경 취소</string>

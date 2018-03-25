@@ -247,9 +247,9 @@ d MMMM"</string>
     <string name="notification_low_battery_open_save_mode">"Activer l'économiseur de batterie"</string>
     <string name="notification_low_battery_action_btn">Activer</string>
     <string name="notification_low_battery_need_charge">La batterie est faible. Chargez votre appareil.</string>
-    <string name="low_temperature_warning_title">Shutdown warning</string>
-    <string name="low_temperature_warning_message">The temperature is too low,the phone may shut down at any time, please save the data.</string>
-    <string name="low_temperature_button_ok">Got it</string>
+    <string name="low_temperature_warning_title">Alerte de basse température</string>
+    <string name="low_temperature_warning_message">"La température est trop basse. Votre téléphone peut s'éteindre à tout moment. Assurez-vous que vous enregistrez toutes les modifications importantes."</string>
+    <string name="low_temperature_button_ok">"L'obtenir"</string>
     <string name="oldman_airplane_mode_text">Avion</string>
     <string name="oldman_incall_text">"Retour à l'appel"</string>
     <string name="demo_mode">Mode démo</string>
@@ -464,6 +464,7 @@ Pour plus d'informations, contactez votre administrateur."</string>
     <string name="quick_settings_disclosure_managed_profile_named_vpn">Le profil travail est connecté à %1$s</string>
     <string name="quick_settings_disclosure_personal_profile_named_vpn">Le profil personnel est connecté à %1$s</string>
     <string name="quick_settings_disclosure_named_vpn">"L'appareil est connecté à %1$s"</string>
+    <string name="notch_status_bar_date_format_12">EEEE, MMMM d</string>
     <string name="accessibility_recent_task_locked_state">Verrouillé</string>
     <string name="accessibility_recent_task_unlocked_state">Déverrouillé</string>
     <string name="accessibility_drag_hint_message">"Déplacez les éléments dans la partie supérieure de l'écran"</string>
@@ -471,7 +472,7 @@ Pour plus d'informations, contactez votre administrateur."</string>
     <string name="notification_group_overflow_indicator">"+%s "</string>
     <string name="click_to_return_multi_window">"Appuyer pour retourner à l'écran divisé"</string>
     <string name="recent_dock_tip">Appuyez pour sélectionner les applications</string>
-    <string name="recent_cannot_dock">impossible de basculer vers le mode Écran divisé dans le second espace</string>
+    <string name="recent_cannot_dock">"Impossible de diviser l'écran dans le second espace"</string>
     <string name="dock_keyguard_locked_failed_to_dock_text">"Écran divisé n'est pas pris en charge à l'écran de verrouillage."</string>
     <string name="click_expand">Appuyer pour étendre</string>
     <string name="please_slide_agian">Faire glisser encore</string>
@@ -493,4 +494,11 @@ Pour plus d'informations, contactez votre administrateur."</string>
     <string name="fs_gesture_final_summary">Vous pouvez basculer en utilisant les boutons dans Paramètres > Affichage en plein écran</string>
     <string name="fs_gesture_final_restart">Une fois de plus</string>
     <string name="fs_gesture_final_over">"J'ai terminé"</string>
+    <string name="no_sim_card">Pas de carte SIM</string>
+    <string name="prompt_detecting">Détection</string>
+    <string name="prompt_danger">Risque</string>
+    <string name="prompt_failure">Erreur</string>
+    <string name="prompt_safe">Sûr</string>
+    <string name="prompt_unknown">Inconnu</string>
+    <string name="prompt_return_to_split">Écran divisé</string>
 </resources>

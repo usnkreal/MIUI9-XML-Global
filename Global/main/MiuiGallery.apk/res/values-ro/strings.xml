@@ -1001,6 +1001,9 @@ pentru a le personaliza în Galerie"</string>
     <string name="sticker_spring">Primăvară</string>
     <string name="sticker_summer">Vară</string>
     <string name="sticker_words">Cuvinte</string>
+    <string name="storage_description_primary">Stocare internă</string>
+    <string name="storage_description_sdcard">Card SD</string>
+    <string name="storage_description_xspace">Date aplicații duale</string>
     <string name="storage_no_space">Spațiu insuficient</string>
     <string name="sub_discard_confirm_message">Salvaţi schimbările?</string>
     <string name="sub_discard_negative_btn">Renunţă</string>

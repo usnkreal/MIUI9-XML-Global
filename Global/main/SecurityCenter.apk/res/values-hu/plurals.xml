@@ -73,8 +73,8 @@ Ha újra bekapcsolja a mobiladat-kapcsolatot, a szolgáltatója további díjaka
         <item quantity="one">%d alkalmazás megtalálva</item>
     </plurals>
     <plurals name="network_restrict_count">
-        <item quantity="other">"A hálózat elérése &amp;lt;font color='#ff0000'>%d&amp;lt;/font> alkalmazás részére korlátozva van"</item>
-        <item quantity="one">"A hálózat elérése &amp;lt;font color='#ff0000'>%d&amp;lt;/font> alkalmazás részére korlátozva van"</item>
+        <item quantity="other">"A hálózat elérése &lt;font color='#ff0000'>%d&lt;/font> alkalmazás részére korlátozva van"</item>
+        <item quantity="one">"A hálózat elérése &lt;font color='#ff0000'>%d&lt;/font> alkalmazás részére korlátozva van"</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
         <item quantity="other">%d alkalmazás nem működik rendesen és fogyasztja az akkumulátort</item>
@@ -307,5 +307,9 @@ Ha újra bekapcsolja a mobiladat-kapcsolatot, a szolgáltatója további díjaka
     <plurals name="net_booster_expire_notification_tip">
         <item quantity="other">A Hálózati sebesség gyorsítás időszakából %d nap van hátra. Újítsa meg a hálózat sebességproblémáinak elkerüléséért.</item>
         <item quantity="one">A Hálózati sebesség gyorsítás időszakából %d nap van hátra. Újítsa meg a hálózat sebességproblémáinak elkerüléséért.</item>
+    </plurals>
+    <plurals name="gb_signed_days_sum">
+        <item quantity="other">%d napja folyamatosan bejelentkezve</item>
+        <item quantity="one">%d alkalommal bejelentkezve</item>
     </plurals>
 </resources>

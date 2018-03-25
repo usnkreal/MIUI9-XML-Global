@@ -261,7 +261,7 @@ Beta Feedback Program\""</string>
     <string name="vote_error3">\"Не можете да влезете. Опитайте да се впишете отново с вашия Mi профил.\"</string>
     <string name="vote_error4">Вече сте изпратили отзив</string>
     <string name="vote_error5">\"Нещо се обърка Отзивът не може да се изпрати\"</string>
-    <string name="miui_BBS">" "<a href="http://bbs.miui.com">MIUI Форум</a>" "</string>
+    <string name="miui_BBS">" "<a href="http://bbs.miui.com">Посетете MIUI форум</a>" "</string>
     <string name="alpha_cancel">Отпишете се от програмата за Бета тестери</string>
     <string name="alpha_cancel_ok">ОК</string>
     <string name="alpha_cancel_cancel">Отмяна</string>
@@ -315,6 +315,7 @@ Beta Feedback Program\""</string>
     <string name="home_delay_cancel">Отказ</string>
     <string name="accessibility_video">Видеозапис</string>
     <string name="accessibility_image">Изображение</string>
+    <string name="accessibility_play">Пусни</string>
     <string name="security_space_title">Важна актуализация</string>
     <string name="security_space_msg">MIUI 9 има нова файлова система. Ако рестартирате устройството си сега, вие няма да можете да използвате Второ работно място. Преместете всички елементи от Второ работно място в Основно работно място, преди да рестартирате.</string>
     <string name="security_space_button_pos">Не рестартирай</string>

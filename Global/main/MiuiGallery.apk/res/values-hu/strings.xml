@@ -1001,6 +1001,9 @@ válassza ki a fényképeket, ahol Ön látható"</string>
     <string name="sticker_spring">Tavasz</string>
     <string name="sticker_summer">Nyár</string>
     <string name="sticker_words">Szavak</string>
+    <string name="storage_description_primary">Belső tárhely</string>
+    <string name="storage_description_sdcard">SD kártya</string>
+    <string name="storage_description_xspace">Klónozott alkalmazások adatai</string>
     <string name="storage_no_space">A tároló nem elérhető.</string>
     <string name="sub_discard_confirm_message">Elmenti a változásokat?</string>
     <string name="sub_discard_negative_btn">Elvetés</string>

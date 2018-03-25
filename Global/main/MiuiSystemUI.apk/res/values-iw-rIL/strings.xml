@@ -150,7 +150,7 @@ d MMMM"</string>
     <string name="settings_toggle_position_reset">איפוס מתגים</string>
     <string name="list_delimeter">", "</string>
     <string name="camera_key_action_setting_title">כפתור Mi</string>
-    <string name="camera_key_action_category_title">השתמש אם יישום המצלמה אינו פתוח</string>
+    <string name="camera_key_action_category_title">"Use if the Camera app isn't open"</string>
     <string name="camera_key_action_none_title">אין פעולה</string>
     <string name="camera_key_action_shortcut_title">קיצור דרך</string>
     <string name="camera_key_action_toggle_title">מתג טריגר</string>
@@ -247,8 +247,8 @@ d MMMM"</string>
     <string name="notification_low_battery_open_save_mode">"הפעל את מצב 'חיסכון בסוללה'"</string>
     <string name="notification_low_battery_action_btn">הפעל</string>
     <string name="notification_low_battery_need_charge">הסוללה חלשה. טען את המכשיר.</string>
-    <string name="low_temperature_warning_title">Shutdown warning</string>
-    <string name="low_temperature_warning_message">The temperature is too low,the phone may shut down at any time, please save the data.</string>
+    <string name="low_temperature_warning_title">Low temperature warning</string>
+    <string name="low_temperature_warning_message">The temperature is too low. Your phone may shut down anytime now. Make sure you save all the important changes.</string>
     <string name="low_temperature_button_ok">Got it</string>
     <string name="oldman_airplane_mode_text">מצב טיסה</string>
     <string name="oldman_incall_text">חזרה לשיחה</string>
@@ -464,6 +464,7 @@ d MMMM"</string>
     <string name="quick_settings_disclosure_managed_profile_named_vpn">פרופיל העבודה מחובר אל %1$s</string>
     <string name="quick_settings_disclosure_personal_profile_named_vpn">הפרופיל האישי מחובר אל %1$s</string>
     <string name="quick_settings_disclosure_named_vpn">המכשיר מחובר אל %1$s</string>
+    <string name="notch_status_bar_date_format_12">EEEE, MMMM d</string>
     <string name="accessibility_recent_task_locked_state">נעול</string>
     <string name="accessibility_recent_task_unlocked_state">לא נעול</string>
     <string name="accessibility_drag_hint_message">גרור פריטים לחלקו העליון של המסך</string>
@@ -471,7 +472,7 @@ d MMMM"</string>
     <string name="notification_group_overflow_indicator">+%s</string>
     <string name="click_to_return_multi_window">"לחץ על מנת לחזור ל'מסך מפוצל'"</string>
     <string name="recent_dock_tip">לחץ לבחירת יישומים</string>
-    <string name="recent_cannot_dock">"לא ניתן להיכנס למצב 'מסך מפוצל' ב'שטח שני'"</string>
+    <string name="recent_cannot_dock">"Can't use Split screen in Second Space"</string>
     <string name="dock_keyguard_locked_failed_to_dock_text">"'מסך מפוצל' אינו נתמך ב'מסך הנעילה'."</string>
     <string name="click_expand">לחץ להרחבה</string>
     <string name="please_slide_agian">החלק שוב</string>
@@ -493,4 +494,11 @@ d MMMM"</string>
     <string name="fs_gesture_final_summary">"באפשרותך לחזור לשימוש בלחצנים ב'הגדרות' > 'תצוגת מסך מלא'"</string>
     <string name="fs_gesture_final_restart">עוד פעם אחת</string>
     <string name="fs_gesture_final_over">סיימתי</string>
+    <string name="no_sim_card">No SIM card</string>
+    <string name="prompt_detecting">Detecting</string>
+    <string name="prompt_danger">Risk</string>
+    <string name="prompt_failure">Error</string>
+    <string name="prompt_safe">Safe</string>
+    <string name="prompt_unknown">Unknown</string>
+    <string name="prompt_return_to_split">Split screen</string>
 </resources>

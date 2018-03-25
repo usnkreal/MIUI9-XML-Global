@@ -263,7 +263,7 @@ Jelentkezzen be újra a Mi Fiókba."</string>
     <string name="vote_error4">Már küldött visszajelzést</string>
     <string name="vote_error5">"Valami hiba történt.
 Nem sikerült elküldeni a visszajelzését"</string>
-    <string name="miui_BBS">" \""<a href="http://forum.miui.hu">MIUIHU fórum felkeresése</a>"\" "</string>
+    <string name="miui_BBS">" "<a href="http://bbs.miui.com">A MIUI fórum megnyitása</a>" "</string>
     <string name="alpha_cancel">Béta teszt program elhagyása</string>
     <string name="alpha_cancel_ok">Rendben</string>
     <string name="alpha_cancel_cancel">Mégse</string>
@@ -317,6 +317,7 @@ Nem sikerült elküldeni a visszajelzését"</string>
     <string name="home_delay_cancel">Mégse</string>
     <string name="accessibility_video">Videó</string>
     <string name="accessibility_image">Kép</string>
+    <string name="accessibility_play">Lejátszás</string>
     <string name="security_space_title">Fontos frissítés</string>
     <string name="security_space_msg">A MIUI 9 új fájlrendszerrel rendelkezik. Ha most újraindítja a készüléket, előfordulhat, hogy nem tudja használni a Második asztalt. Újraindítás előtt vigye át az összes fontosnak tartott elemet az Első asztalra.</string>
     <string name="security_space_button_pos">Ne indítsa újra</string>

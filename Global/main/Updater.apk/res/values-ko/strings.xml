@@ -200,9 +200,9 @@ http://zhushou.xiaomi.com 를 사용하여 시도해 보십시오."</string>
     <string name="confirm_local_package_wipe_title">데이터를 지우시겠습니까?</string>
     <string name="confirm_local_package_wipe_msg">개인 데이터는 삭제될 것입니다. 유지하기를 원하시는 항목을 백업해두셨는지 확인해 주십시오.</string>
     <string name="confirm_local_package_wipe_btn">지우고 업데이트</string>
-    <string name="file_path_error_title">Incorrect path</string>
-    <string name="file_path_error_msg">Make sure the path to the update package contains only letters and numbers.</string>
-    <string name="file_path_error_btn">Got it</string>
+    <string name="file_path_error_title">잘못된 경로</string>
+    <string name="file_path_error_msg">업데이트 패키지 경로가 문자와 숫자만 포함되어 있는지 확인하십시오.</string>
+    <string name="file_path_error_btn">알겠습니다</string>
     <string name="delay_update_text">오늘 밤 업데이트</string>
     <string name="dialog_delay_update_title">업데이트 사용가능</string>
     <string name="dialog_delay_update_msg">새벽 2:00에서 5:00 사이에 배터리가 최소 30% 이상일 경우 업데이트가 설치 될 것입니다.</string>
@@ -320,6 +320,7 @@ Mi 계정에 로그인을 다시 시도하십시오."</string>
     <string name="home_delay_cancel">취소</string>
     <string name="accessibility_video">동영상</string>
     <string name="accessibility_image">이미지</string>
+    <string name="accessibility_play">재생</string>
     <string name="security_space_title">중요한 업데이트</string>
     <string name="security_space_msg">MIUI 9는 새로운 파일 시스템을 갖췄습니다. 지금 기기를 재부팅하시면 이전의 보조 공간을 사용하지 못하게 됩니다. 재부팅하시기 전 보조 공간의 모든 항목을 기본 공간으로 이동해 주십시오.</string>
     <string name="security_space_button_pos">재부팅 안함</string>

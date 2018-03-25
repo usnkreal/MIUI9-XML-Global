@@ -37,10 +37,10 @@
         <item quantity="many">%1$s אנשים |</item>
     </plurals>
     <plurals name="total_voted_num_text">
-        <item quantity="other">"&amp;lt;font color='#20a7ff'>%1$s&amp;lt;/font> אנשים הצביעו"</item>
-        <item quantity="one">"אדם &amp;lt;font color='#20a7ff'>%1$s&amp;lt;/font> הצביע"</item>
-        <item quantity="two">"&amp;lt;font color='#20a7ff'>%1$s&amp;lt;/font> אנשים הצביעו"</item>
-        <item quantity="many">"&amp;lt;font color='#20a7ff'>%1$s&amp;lt;/font> אנשים הצביעו"</item>
+        <item quantity="other">"&lt;font color='#20a7ff'>%1$s&lt;/font> אנשים הצביעו"</item>
+        <item quantity="one">"אדם &lt;font color='#20a7ff'>%1$s&lt;/font> הצביע"</item>
+        <item quantity="two">"&lt;font color='#20a7ff'>%1$s&lt;/font> אנשים הצביעו"</item>
+        <item quantity="many">"&lt;font color='#20a7ff'>%1$s&lt;/font> אנשים הצביעו"</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">בהיר</item>

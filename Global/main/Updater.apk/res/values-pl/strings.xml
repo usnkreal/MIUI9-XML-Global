@@ -319,6 +319,7 @@ Nie udało się wysłać opinii"</string>
     <string name="home_delay_cancel">Anuluj</string>
     <string name="accessibility_video">Wideo</string>
     <string name="accessibility_image">Obraz</string>
+    <string name="accessibility_play">Odtwórz</string>
     <string name="security_space_title">Ważna aktualizacja</string>
     <string name="security_space_msg">MIUI 9 posiada nowy system plików. Jeśli uruchomisz ponownie urządzenie teraz, możesz nie być w stanie korzystać z Drugiej przestrzeni. Przenieś wszystkie elementy z Drugiej przestrzeni do Pierwszej przed ponownym uruchomieniem.</string>
     <string name="security_space_button_pos">Nie uruchamiaj ponownie</string>

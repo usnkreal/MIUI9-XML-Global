@@ -199,9 +199,9 @@ http://zhushou.xiaomi.com"</string>
     <string name="confirm_local_package_wipe_title">Şterge date?</string>
     <string name="confirm_local_package_wipe_msg">Datele personale vor fi șterse. Asigurați-vă că ați salvat tot ce doriți să păstrați înainte să porniți procesul.</string>
     <string name="confirm_local_package_wipe_btn">Șterge și actualizează</string>
-    <string name="file_path_error_title">Incorrect path</string>
-    <string name="file_path_error_msg">Make sure the path to the update package contains only letters and numbers.</string>
-    <string name="file_path_error_btn">Got it</string>
+    <string name="file_path_error_title">Traseu incorect</string>
+    <string name="file_path_error_msg">Asigurați-vă că ruta spre pachetul de actualizare conține doar litere și numere.</string>
+    <string name="file_path_error_btn">Am înțeles</string>
     <string name="delay_update_text">Actualizează în această seară</string>
     <string name="dialog_delay_update_title">Este disponibilă o actualizare</string>
     <string name="dialog_delay_update_msg">Actualizările vor fi instalate între orele 2:00 și 5:00 AM dacă bateria este plină cu cel puțin 30%.</string>
@@ -265,7 +265,7 @@ Actualizați dispozitivul și încercați din nou"</string>
     <string name="vote_error4">Ați trimis deja feedback</string>
     <string name="vote_error5">"Ceva nu a mers bine
 Nu s-a putut trimite feedback"</string>
-    <string name="miui_BBS">" "<a href="http://bbs.miui.com">Mergi la MIUI forum</a>" "</string>
+    <string name="miui_BBS">" "<a href="http://bbs.miui.com">Du-te la forumul MIUI</a>" "</string>
     <string name="alpha_cancel">Anulați înscrierea în programul de testare Beta</string>
     <string name="alpha_cancel_ok">OK</string>
     <string name="alpha_cancel_cancel">Anulează</string>
@@ -319,6 +319,7 @@ Nu s-a putut trimite feedback"</string>
     <string name="home_delay_cancel">Anulează</string>
     <string name="accessibility_video">Video</string>
     <string name="accessibility_image">Imagine</string>
+    <string name="accessibility_play">Redă</string>
     <string name="security_space_title">Actualizare importantă</string>
     <string name="security_space_msg">MIUI 9 are un nou sistem de fișiere. Dacă reporniți dispozitivul acum, este posibil să nu puteți utiliza Al doilea spațiu. Mutați toate elementele din Al doilea spațiu în Primul spațiu înainte de a reporni.</string>
     <string name="security_space_button_pos">Nu reporniți</string>

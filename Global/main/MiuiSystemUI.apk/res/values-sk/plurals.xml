@@ -31,16 +31,16 @@
         <item quantity="many">Skryť notifikácie tejto %d aplikácie?</item>
     </plurals>
     <plurals name="block_record_notification_more_text">
-        <item quantity="other">Skrývajú sa upozornenia aplikácie %1$s &amp;amp; ďalších %2$d aplikácií.</item>
-        <item quantity="one">Skrývajú sa upozornenia aplikácie %1$s &amp;amp; ďalšej %2$d aplikácie.</item>
-        <item quantity="few">Skrývajú sa upozornenia aplikácie %1$s &amp;amp; ďalších %2$d aplikácií.</item>
-        <item quantity="many">Skrývajú sa upozornenia aplikácie %1$s &amp;amp; ďalšej %2$d aplikácie.</item>
+        <item quantity="other">Skrývajú sa upozornenia aplikácie %1$s &amp; ďalších %2$d aplikácií.</item>
+        <item quantity="one">Skrývajú sa upozornenia aplikácie %1$s &amp; ďalšej %2$d aplikácie.</item>
+        <item quantity="few">Skrývajú sa upozornenia aplikácie %1$s &amp; ďalších %2$d aplikácií.</item>
+        <item quantity="many">Skrývajú sa upozornenia aplikácie %1$s &amp; ďalšej %2$d aplikácie.</item>
     </plurals>
     <plurals name="view_realtime_clear">
-        <item quantity="other">Slnečno</item>
-        <item quantity="one">Slnečno</item>
-        <item quantity="few">Slnečno</item>
-        <item quantity="many">Slnečno</item>
+        <item quantity="other">Jasno</item>
+        <item quantity="one">Jasno</item>
+        <item quantity="few">Jasno</item>
+        <item quantity="many">Jasno</item>
     </plurals>
     <plurals name="accessibility_desc_weather_temperature">
         <item quantity="other">Počasie %d stupňov</item>

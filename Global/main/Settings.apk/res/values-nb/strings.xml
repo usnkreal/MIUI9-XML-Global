@@ -2534,7 +2534,7 @@ Dette beskytter informasjonen på enheter som er mistet eller stjålet."</string
     <string name="usb_charging_summary">Slå av alle USB-tilkoblingsfunksjoner for å øke ladehastigheten.</string>
     <string name="wifi_display_settings_empty_list_wifi_display_disabled">Kan ikke bruke trådløs skjerm når Wi-Fi er avslått</string>
     <string name="ad_service">Annonsetjenester</string>
-    <string name="use_personalized_ad_service">Personalized Ad Recommendation</string>
+    <string name="use_personalized_ad_service">Tilpasset annonseanbefaling</string>
     <string name="use_personalized_ad_service_summary">When the recommendation feature is switched off, you will still see the same quantity of ads as when it’s on, but not based on your behavior data or your personal information.</string>
     <string name="reset_aaid">Tilbakestill annonseringsidentifikator</string>
     <string name="confirm_reset_aaid">OK</string>
@@ -2599,7 +2599,7 @@ Dette beskytter informasjonen på enheter som er mistet eller stjålet."</string
     <string name="quiet">Ikke forstyrr</string>
     <string name="quiet_group">Ikke forstyrr</string>
     <string name="search_sim_management_title">Mobilnettverk;Mobildata;Mobildata;Data;Roaming i utlandet;Roaming;Motta MMS;Mobilnettverk;</string>
-    <string name="search_apn_settings">APN;Access Point Names</string>
+    <string name="search_apn_settings">APN;Navn på tilgangspunkt</string>
     <string name="search_preferred_network_type_title">Foretrukket nettverkstype;Foretrukket nettverk;Nettverkstype</string>
     <string name="search_networks_title">Mobilnettverk;Forhandler;Mobilforhandler</string>
     <string name="search_wifi_settings_title">Wifi;Wi-Fi;Avanserte innstillinger;WLAN;Trådløst nettverk;Trådløs</string>
@@ -2611,7 +2611,7 @@ Dette beskytter informasjonen på enheter som er mistet eller stjålet."</string
     <string name="search_wifi_install_credentials">Installer sertifikater;Sertifikater</string>
     <string name="search_wifi_advanced_mac_address_title">Wi-Fi MAC-adresse;WLAN MAC-adresse</string>
     <string name="search_wifi_advanced_ip_address_title">IP-adresse;IP</string>
-    <string name="search_wifi_menu_p2p">Wi-Fi Direct;WLAN Direct</string>
+    <string name="search_wifi_menu_p2p">Wi-Fi direkte;WLAN direkte</string>
     <string name="search_wifi_wapi_cert_install">Installer WAPI sertifikat;WAPI sertifikater;WAPI</string>
     <string name="search_wifi_wapi_cert_uninstall">Avinstaller WAPI sertifikat;WAPI sertifikater;WAPI</string>
     <string name="search_wps_connect_title">WPS trykk på knapp;Koble til WPS;WPS</string>
@@ -2668,7 +2668,7 @@ Dette beskytter informasjonen på enheter som er mistet eller stjålet."</string
     <string name="search_music_headset_mode_settings">Hodetelefonknapper;fjernkontroller</string>
     <string name="search_music_headset_calibrate">Tilegne knapper;knapper</string>
     <string name="search_music_equalizer">Utligner</string>
-    <string name="search_music_mi_effect_title">Mi Sound Enhancer;forbedre lyd</string>
+    <string name="search_music_mi_effect_title">Mi Sound Enhancer;Mi Lydforbedrer;forbedre lyd;forbedre lyden</string>
     <string name="search_silent_mode_title">Lydløs modus;lydløs;stille;stille</string>
     <string name="search_vibrate_when_ringing_title">Vibrer også ved samtaler;vibrer;vibrering</string>
     <string name="search_vibrate_in_silent_title">Vibrer i stillemodus;vibrer;vibrering</string>
@@ -2954,6 +2954,7 @@ Dette beskytter informasjonen på enheter som er mistet eller stjålet."</string
     <string name="key_gesture_function_shortcut">Funksjonelle snarveier</string>
     <string name="key_system_control">Systemkontroll</string>
     <string name="key_gesture_function_preview">Knappe- og bevegelsesforhåndsvisninger</string>
+    <string name="key_operation_diagram">Operation diagram</string>
     <string name="key_gesture_function_optional">Alternative bevegelser og knapper</string>
     <string name="key_gesture_function_dialog_message">%1$s er en snarvei for %2$s. Erstatt med %3$s?</string>
     <string name="key_gesture_function_dialog_positive">Erstatt</string>
@@ -3577,7 +3578,7 @@ Velg ditt operativsystem:"</string>
     <string name="local_backup_section_summary">Sikkerhetskopier systeminnstillinger, kontoinformasjon og apper</string>
     <string name="cloud_backup_section_title">Mi Cloud sikkerhetskopi</string>
     <string name="cloud_restore_section_title">Gjenopprett fra Mi Cloud</string>
-    <string name="cloud_restore_section_summary">Restore system settings, Home screen layout, and apps</string>
+    <string name="cloud_restore_section_summary">Gjenopprett systeminnstillinger, oppsett av startskjermbilde og apper</string>
     <string name="cloud_backup_settings_section_title">Sikkerhetskopier innstillinger</string>
     <string name="other_personal_settings">Tilleggsinnstillinger</string>
     <string name="local_auto_backup_section_title">Automatiske sikkerhetskopier</string>
@@ -3932,7 +3933,7 @@ Velg ditt operativsystem:"</string>
     <string name="demo_mode_summary">Vis spesifikk statuslinje-ikoner for demo</string>
     <string name="demo_mode">Demomodus</string>
     <string name="open_demo_mode_warning_message">Når demomodus er på, vil klokken på statuslinjen stoppe, og batteri- og signalikoner vil bli vist som fulle. Du kan slå av demomodus eller starte enheten på nytt for å endre dette.</string>
-    <string name="open_demo_mode">Turn on</string>
+    <string name="open_demo_mode">Slå på</string>
     <string name="close_demo_mode">Avbryt</string>
     <string name="bluetooth_filter_device_display">Vis alt</string>
     <string name="bluetooth_filter_device_filter">Vis anbefalinger</string>
@@ -3940,6 +3941,7 @@ Velg ditt operativsystem:"</string>
     <string name="bt_rarely_used_device_title">Sjeldent brukte enheter (%d)</string>
     <string name="search_input_hint">Søkeinnstillinger</string>
     <string name="back_button">Tilbake</string>
+    <string name="launcher_title">Home screen &amp; Recents</string>
     <string name="music_audio_effect_optimize">Lydinnstillinger</string>
     <string name="music_audio_effect_optimize_summary">Dirac, hodetelefoner og andre lydinnstillinger</string>
     <string name="music_audio_effect_optimize_summary_with_hifi">Dirac, Hi-Fi, hodetelefoner og andre lydinnstillinger</string>
@@ -4194,7 +4196,7 @@ Velg ditt operativsystem:"</string>
     <string name="recommend_item_2">Mi Band</string>
     <string name="recommend_item_3">Strømbank</string>
     <string name="recommend_item_4">Hodetelefoner</string>
-    <string name="status_bar_screen_button_key_force_immersive">Hide screen buttons</string>
+    <string name="status_bar_screen_button_key_force_immersive">Skjul skjermknapper</string>
     <string name="status_bar_screen_button_force_immersive_desc">Swipe up from the bottom of the screen to show screen buttons</string>
     <string name="screen_max_aspect_ratio_title">Fullskjerm-modus</string>
     <string name="screen_max_aspect_ratio_desc">Tillat valgte apper å fungere i fullskjermmodus</string>
@@ -4210,7 +4212,7 @@ Velg ditt operativsystem:"</string>
     <string name="force_immersive_compatibility_dont_hide">Ikke skjul</string>
     <string name="infinity_display_settings">Fullskjerm</string>
     <string name="infinity_display_slogan">Innovasjon på fullskjerm</string>
-    <string name="carrier_show_in_lock_screen">Only show in lock screen</string>
+    <string name="carrier_show_in_lock_screen">Vis kun i låseskjermen</string>
     <string name="carrier_show_none">Never show carrier name</string>
     <string name="navigation_type_settings">Systemnavigasjon</string>
     <string name="navigation_type_radio_text_virtual_key">Knapper</string>

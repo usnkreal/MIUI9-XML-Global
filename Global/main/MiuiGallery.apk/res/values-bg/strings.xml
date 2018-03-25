@@ -1000,6 +1000,9 @@
     <string name="sticker_spring">Пролет</string>
     <string name="sticker_summer">Лято</string>
     <string name="sticker_words">Думи</string>
+    <string name="storage_description_primary">Вътрешно хранилище</string>
+    <string name="storage_description_sdcard">SD карта</string>
+    <string name="storage_description_xspace">Данни клонирани приложения</string>
     <string name="storage_no_space">Няма място в хранилището.</string>
     <string name="sub_discard_confirm_message">Запази промените?</string>
     <string name="sub_discard_negative_btn">Отмени</string>

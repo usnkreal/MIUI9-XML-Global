@@ -2772,7 +2772,7 @@ Pomáha to chrániť údaje na stratených alebo ukradnutých zariadeniach."</st
     <string name="networks_title">Mobilné siete</string>
     <string name="user_experience_program">Zasielanie štatistík</string>
     <string name="user_experience_program_title">Zasielanie štatistík</string>
-    <string name="user_experience_program_summary">Help us improve our products and services by sharing your usage stats with us</string>
+    <string name="user_experience_program_summary">Pomôžte nám vylepšovať naše produkty a služby zdieľaním vašich štatistík o využívaní dát</string>
     <string name="upload_debug_log_title">Odoslať záznam o chybe</string>
     <string name="upload_debug_log_summary">The information we collect may contain your personal data. It will be used to locate and analyze the problems in the system and will never be used to identify you personally.</string>
     <string name="sound_vibrate_settings">Zvuky a vibrácie</string>
@@ -2950,6 +2950,7 @@ Pomáha to chrániť údaje na stratených alebo ukradnutých zariadeniach."</st
     <string name="key_gesture_function_shortcut">Funkčné skratky</string>
     <string name="key_system_control">Ovládanie systému</string>
     <string name="key_gesture_function_preview">Ukážky tlačidiel a gest</string>
+    <string name="key_operation_diagram">Operačný diagram</string>
     <string name="key_gesture_function_optional">Voliteľné gestá a tlačidlá</string>
     <string name="key_gesture_function_dialog_message">%1$s je skratka pre %2$s. Nahradiť ju %3$s?</string>
     <string name="key_gesture_function_dialog_positive">Nahradiť</string>
@@ -3931,6 +3932,7 @@ Pomáha to chrániť údaje na stratených alebo ukradnutých zariadeniach."</st
     <string name="bt_rarely_used_device_title">Ojedinele používané zariadenia (%d)</string>
     <string name="search_input_hint">Nastavenia vyhľadávania</string>
     <string name="back_button">Späť</string>
+    <string name="launcher_title">Domovská obrazovka &amp; Nedávne</string>
     <string name="music_audio_effect_optimize">Nastavenie zvuku</string>
     <string name="music_audio_effect_optimize_summary">Dirac, slúchadlá a ostatné nastavenia zvuku</string>
     <string name="music_audio_effect_optimize_summary_with_hifi">Dirac, Hi-Fi, slúchadlá a ostatné nastavenia zvuku</string>

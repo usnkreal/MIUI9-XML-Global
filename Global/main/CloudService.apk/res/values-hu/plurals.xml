@@ -13,8 +13,8 @@
         <item quantity="one">%d elem vár szinkronizálásra</item>
     </plurals>
     <plurals name="dirty_contacts_count">
-        <item quantity="other">%d kapcsolat</item>
-        <item quantity="one">%d kapcsolat</item>
+        <item quantity="other">%d névjegy</item>
+        <item quantity="one">%d névjegy</item>
     </plurals>
     <plurals name="dirty_mms_count">
         <item quantity="other">%d üzenet</item>
@@ -29,8 +29,8 @@
         <item quantity="one">%d fénykép</item>
     </plurals>
     <plurals name="dirty_callog_count">
-        <item quantity="other">%d híváslista bejegyzés</item>
-        <item quantity="one">%d híváslista bejegyzés</item>
+        <item quantity="other">%d hívásnapló bejegyzés</item>
+        <item quantity="one">%d hívásnapló bejegyzés</item>
     </plurals>
     <plurals name="dirty_wlan_count">
         <item quantity="other">%d Wi-Fi hálózat</item>
@@ -65,11 +65,11 @@
         <item quantity="one">%d rejtett fénykép nincs szinkronizálva. Megőrzésük érdekében, szinkronizálásuk után jelentkezzen ki, ellenkező esetben az elemek törlésre kerülnek.</item>
     </plurals>
     <plurals name="micloud_main_resume_sync_hour">
-        <item quantity="other">Folytatódjon a szinkronizálás %d óra múlva</item>
-        <item quantity="one">Folytatódjon a szinkronizálás %d óra múlva</item>
+        <item quantity="other">Szinkronizálás folytatása %d óra múlva</item>
+        <item quantity="one">Szinkronizálás folytatása %d óra múlva</item>
     </plurals>
     <plurals name="micloud_main_resume_sync_min">
-        <item quantity="other">Folytatódjon a szinkronizálás %d perc múlva</item>
-        <item quantity="one">Folytatódjon a szinkronizálás %d perc múlva</item>
+        <item quantity="other">Szinkronizálás folytatása %d perc múlva</item>
+        <item quantity="one">Szinkronizálás folytatása %d perc múlva</item>
     </plurals>
 </resources>

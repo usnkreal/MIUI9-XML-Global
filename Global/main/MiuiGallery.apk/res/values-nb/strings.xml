@@ -1001,6 +1001,9 @@ to personalize Gallery"</string>
     <string name="sticker_spring">Vår</string>
     <string name="sticker_summer">Sommer</string>
     <string name="sticker_words">Ord</string>
+    <string name="storage_description_primary">Intern lagring</string>
+    <string name="storage_description_sdcard">SD-kort</string>
+    <string name="storage_description_xspace">Dual-app data</string>
     <string name="storage_no_space">Ikke nok plass</string>
     <string name="sub_discard_confirm_message">Lagre endringer?</string>
     <string name="sub_discard_negative_btn">Forkast</string>

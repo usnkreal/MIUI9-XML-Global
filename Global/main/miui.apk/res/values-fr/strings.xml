@@ -25,7 +25,7 @@
     <string name="deselect_all">Désélectionner</string>
     <string name="instruction">Instructions</string>
     <string name="sar">"Information sur l'exposition aux RF"</string>
-    <string name="user_experience_program">User Experience Program</string>
+    <string name="user_experience_program">"Programme d'expérience utilisateur"</string>
     <string name="abc_action_bar_up_description">Naviguer vers le haut</string>
     <string name="abc_action_bar_home_description">"Aller à l'accueil"</string>
     <string name="time_picker_label_hour">H</string>

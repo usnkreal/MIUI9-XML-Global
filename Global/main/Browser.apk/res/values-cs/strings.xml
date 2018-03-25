@@ -111,7 +111,7 @@
     <string name="bookmark_group_lable">Skupina</string>
     <string name="bookmark_needs_title">Záložka musí mít název</string>
     <string name="bookmark_needs_url">Záložka musí obsahovat URL adresu</string>
-    <string name="bookmark_not_saved">Záložku se nepodařilo uložit</string>
+    <string name="bookmark_not_saved">Přidání do záložek se nezdařilo</string>
     <string name="bookmark_rename_group">Přejmenovat skupinu</string>
     <string name="bookmark_saved">Přidáno do záložek</string>
     <string name="bookmark_title">Název záložky</string>
@@ -519,7 +519,7 @@ Chcete opustit tuto stránku?"</string>
     <string name="nav_screen_incognito_message">"Navštívené stránky a historie vyhledávání nebudou v režimu Inkognito ukládány.
 Stahované soubory a vytvořené záložky však uloženy budou."</string>
     <string name="nav_screen_incognito_title">Inkognito režim</string>
-    <string name="navigation_delete_all">potáhněte doleva a doprava pro zavření všech panelů</string>
+    <string name="navigation_delete_all">Potáhněte doleva nebo doprava pro zavření všech panelů</string>
     <string name="navigationbar_rightbutton_actiontext_cancle">Zrušit</string>
     <string name="navigationbar_rightbutton_actiontext_go">Přejít</string>
     <string name="navigationbar_rightbutton_actiontext_search">Hledat</string>

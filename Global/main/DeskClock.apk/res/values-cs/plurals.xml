@@ -4,50 +4,60 @@
         <item quantity="other">Odloženo o %d minut</item>
         <item quantity="one">Odloženo o %d minutu</item>
         <item quantity="few">Odloženo o %d minuty</item>
+        <item quantity="many">Snoozing for %d minutes.</item>
     </plurals>
     <plurals name="auto_silence_summary">
         <item quantity="other">Budík bude ztišen po %d minutách</item>
         <item quantity="one">Budík bude ztišen po %d minutě</item>
         <item quantity="few">Budík bude ztišen po %d minutách</item>
+        <item quantity="many">Alarms will silence after %d minutes</item>
     </plurals>
     <plurals name="delete_alarm_confirm">
         <item quantity="other">Smazat vybrané budíky?</item>
         <item quantity="one">Smazat tento budík?</item>
         <item quantity="few">Smazat vybrané budíky?</item>
+        <item quantity="many">Delete the selected alarms?</item>
     </plurals>
     <plurals name="delete_timezone_confirm">
         <item quantity="other">Smazat tato časová pásma?</item>
         <item quantity="one">Smazat toto časové pásmo?</item>
         <item quantity="few">Smazat tato časová pásma?</item>
+        <item quantity="many">Delete the selected timezone?</item>
     </plurals>
     <plurals name="snooze_message">
         <item quantity="other">Odložit o %d minut</item>
         <item quantity="one">Odložit o %d minutu</item>
         <item quantity="few">Odložit o %d minuty</item>
+        <item quantity="many">Snooze for %d mins</item>
     </plurals>
     <plurals name="timer_item_duration_display_minutes">
         <item quantity="other">%1$d minut</item>
         <item quantity="one">1 minuta</item>
         <item quantity="few">%1$d minuty</item>
+        <item quantity="many">%1$d minutes</item>
     </plurals>
     <plurals name="timer_item_duration_display_seconds">
         <item quantity="other">%1$d sekund</item>
         <item quantity="one">1 sekunda</item>
         <item quantity="few">%1$d sekundy</item>
+        <item quantity="many">%1$d seconds</item>
     </plurals>
     <plurals name="timer_message_hour">
         <item quantity="other">"%1$d hodin "</item>
         <item quantity="one">"%1$d hodina "</item>
         <item quantity="few">"%1$d hodiny "</item>
+        <item quantity="many">"%1$d hours "</item>
     </plurals>
     <plurals name="timer_message_minute">
         <item quantity="other">"%1$d minut "</item>
         <item quantity="one">"%1$d minuta "</item>
         <item quantity="few">"%1$d minuty "</item>
+        <item quantity="many">"%1$d minutes "</item>
     </plurals>
     <plurals name="timer_message_second">
         <item quantity="other">%1$d sekund</item>
         <item quantity="one">%1$d sekunda</item>
         <item quantity="few">%1$d sekundy</item>
+        <item quantity="many">%1$d seconds</item>
     </plurals>
 </resources>

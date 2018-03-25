@@ -1001,6 +1001,9 @@
     <string name="sticker_spring">אביב</string>
     <string name="sticker_summer">קיץ</string>
     <string name="sticker_words">מילים</string>
+    <string name="storage_description_primary">אחסון פנימי</string>
+    <string name="storage_description_sdcard">כרטיס זכרון</string>
+    <string name="storage_description_xspace">"נתוני 'יישומים משוכפלים'"</string>
     <string name="storage_no_space">אין מספיק מקום</string>
     <string name="sub_discard_confirm_message">לשמור את השינויים?</string>
     <string name="sub_discard_negative_btn">ביטול</string>

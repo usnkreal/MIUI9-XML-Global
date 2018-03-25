@@ -1001,6 +1001,9 @@ pour personnaliser Galerie"</string>
     <string name="sticker_spring">Printemps</string>
     <string name="sticker_summer">Été</string>
     <string name="sticker_words">Mots</string>
+    <string name="storage_description_primary">Stockage interne</string>
+    <string name="storage_description_sdcard">Carte SD</string>
+    <string name="storage_description_xspace">Données des applications clonées</string>
     <string name="storage_no_space">Espace libre insuffisant</string>
     <string name="sub_discard_confirm_message">Enregistrer les modifications ?</string>
     <string name="sub_discard_negative_btn">Annuler</string>

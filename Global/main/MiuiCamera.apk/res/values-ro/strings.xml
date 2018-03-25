@@ -448,8 +448,8 @@
     <string name="pref_camera_beauty">Înfrumusețare</string>
     <string name="pref_camera_beauty_deep">Înfrumusețare Pro</string>
     <string name="bokeh_use_hint">Efect de profunzime</string>
-    <string name="pref_camera_zoom_mode_entry_standard">STANDARD</string>
-    <string name="pref_camera_zoom_mode_entry_high_pixel">PIXEL MARI</string>
+    <string name="pref_camera_zoom_mode_entry_standard">REGULAR</string>
+    <string name="pref_camera_zoom_mode_entry_high_pixel">LUMINĂ SLABĂ</string>
     <string name="pref_camera_zoom_value_title">Zoom</string>
     <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_beautify_entry_auto">Oprit</string>

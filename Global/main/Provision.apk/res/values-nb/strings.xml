@@ -2,7 +2,7 @@
 <resources>
     <string name="welcome">Velkommen</string>
     <string name="app_name">Provisjoner</string>
-    <string name="system_navigation_mode">System navigation mode</string>
+    <string name="system_navigation_mode">Systemnavigeringsmodus</string>
     <string name="input_method_setting">Velg tastatur</string>
     <string name="input_method_category">Velg det standardtastaturet du kommer til å bruke for å skrive meldinger, notater og stort sett alt annet også. Merk at du kan installere andre, tredjepartstastaturer senere.</string>
     <string name="provision_inputmethod_policy_description">"
@@ -14,7 +14,7 @@ Se det valgte tastaturets personverninnstillinger."</string>
     <string name="sim_card_detecting_title">Ser etter SIM-kort</string>
     <string name="sim_card_detection_info">Les instruksjonene som ble levert sammen med enheten din for å finne ut hvordan du setter inn SIM-kort.</string>
     <string name="sim_card_detecting">Ser etter SIM-kort…</string>
-    <string name="sim_card_detecting_check">"Couldn't find SIM card. Make sure SIM card is properly installed and you have sufficient funds on your balance."</string>
+    <string name="sim_card_detecting_check">Finner ikke SIM-kortet. Kontroller at SIM-kortet er riktig installert og at du har dekning på saldoen.</string>
     <string name="other_settings">Ekstra innstillinger</string>
     <string name="other_settings_location">Sted</string>
     <string name="other_settings_location_summary">Tillat apper å få tilgang til posisjonen din.</string>
@@ -73,8 +73,8 @@ Du må akseptere våre vilkår for bruke og personvernerklæring før du kan bru
     <string name="language_picker_other_languages_title">Flere språk</string>
     <string name="language_settings">Velg språk</string>
     <string name="navigation_picker_radio_text_full_screen">Full screen gestures</string>
-    <string name="navigation_picker_radio_text_virtual_key">Buttons</string>
-    <string name="congratulation_swipe">Swipe up to enter the system</string>
+    <string name="navigation_picker_radio_text_virtual_key">Knapper</string>
+    <string name="congratulation_swipe">Dra opp for å åpne systemet</string>
     <string name="enable_accessibility_dialog_message">Du har slått på TalkBack ved å trykke på skjermen med 2 fingre i mer enn 10 sekunder. TalkBack gir tilbakemeldinger til personer med synshemming. Hvis du har skrudd den på, kan du klikke på avbrytknappen, og deretter dobbeltklikke på skjermen.</string>
     <string name="enable_accessibility_dialog_positive_btn">OK</string>
     <string name="enable_accessibility_dialog_negative_btn">Avbryt</string>
@@ -83,6 +83,6 @@ Du må akseptere våre vilkår for bruke og personvernerklæring før du kan bru
     <string name="enable_accessibility_canceled">Tilgjengelighet kansellert.</string>
     <string name="accessibility_enabled">Tilgjengelighet tillatt</string>
     <string name="continue_to_enable_accessibility">Hold to fingre nede for å tillate tilgjengelighet.</string>
-    <string name="voice_assist_title">Wake with voice</string>
-    <string name="voice_assist_desp">Say \"Mi AI\" into your phone. Mi AI will recognize your voice and will be able to control your device.</string>
+    <string name="voice_assist_title">Vekk med stemme</string>
+    <string name="voice_assist_desp">Si \"Mi AI\" til telefonen. Mi AI vil gjenkjenne stemmen din og vil kunne styre enheten.</string>
 </resources>

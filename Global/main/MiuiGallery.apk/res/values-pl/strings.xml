@@ -1001,6 +1001,9 @@ aby spersonalizować Galerię"</string>
     <string name="sticker_spring">Wiosna</string>
     <string name="sticker_summer">Lato</string>
     <string name="sticker_words">Słowa</string>
+    <string name="storage_description_primary">Pamięć wewnętrzna</string>
+    <string name="storage_description_sdcard">Karta SD</string>
+    <string name="storage_description_xspace">Dane aplikacji sklonowanych</string>
     <string name="storage_no_space">Brak miejsca w pamięci urządzenia</string>
     <string name="sub_discard_confirm_message">Zapisać zmiany?</string>
     <string name="sub_discard_negative_btn">Odrzuć</string>

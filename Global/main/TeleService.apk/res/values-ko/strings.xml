@@ -1274,11 +1274,11 @@
     <string name="cfnry_time_thirty_sec">30초</string>
     <string name="cfnry_time_setting_title">대기 시간 설정</string>
     <string name="prompt_when_turnon_volte_without_lte">현재 LTE 네트워크를 사용할 수 없습니다. VoLTE를 켜시면 일반 통화를 걸지못할 수 있습니다.</string>
-    <string name="prompt_when_turnon_volte_on_3g_prefered">Select LTE as your preferred network type before turning on VoLTE.</string>
+    <string name="prompt_when_turnon_volte_on_3g_prefered">VoLTE를 켜시기 전, LTE를 우선 네트워크 유형으로 선택하십시오.</string>
     <string name="prompt_to_turnoff_volte_when_failed">VoLTE 서비스를 사용할 수 없습니다. VoLTE를 끄고 통화를 걸어주십시오.</string>
     <string name="volte_tips_when_turn_on">China Telecom VoLTE 서비스는 지정된 LTE 네트워크 구역에서만 지원됩니다.</string>
     <string name="prompt_to_turnoff_volte_when_supp_service">서비스를 사용할 수 없습니다. 설정에서 VoLTE를 꺼주십시오.</string>
-    <string name="prefered_network_type_3g_promp">You should turn off VoLTE before seleсting 3G as your preferred network type. Turn off now?</string>
+    <string name="prefered_network_type_3g_promp">3G를 선호 네트워크 유형으로 선택하시려면 먼저 VoLTE를 끄셔야 합니다. 지금 끄시겠습니까?</string>
     <string name="close_volte">VoLTE 끄기</string>
     <string name="pick_outgoing_call_phone_type">전화걸기</string>
     <string name="pick_outgoing_sip_phone">"인터넷 전화 계정 사용 "</string>

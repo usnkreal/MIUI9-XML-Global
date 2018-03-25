@@ -28,7 +28,7 @@
         <item>%1$s</item>
     </string-array>
     <string-array name="weather_type">
-        <item>בהיר</item>
+        <item>Clear</item>
         <item>מעונן</item>
         <item>קודר</item>
         <item>ערפילי</item>

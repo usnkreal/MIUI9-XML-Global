@@ -10,6 +10,7 @@
     <string name="app_description_title">A Szkennerről</string>
     <string name="app_details">Alkalmazás:</string>
     <string name="app_name">Szkenner</string>
+    <string name="ar_unsupport_for_kk">Android 4.4-en nem támogatott ez a funkció</string>
     <string name="back">Vissza</string>
     <string name="barcode_into_rectangle">Helyezze a kódot a keretbe</string>
     <string name="birthday">Születésnap:</string>
@@ -93,7 +94,15 @@
     <string name="language_entry_russian">Orosz</string>
     <string name="language_entry_spanish">Spanyol</string>
     <string name="language_entry_swedish">Svéd</string>
-    <string name="low_version_tip">Túl régi MIUI verzió. A Szkenner használatához frissítse a MIUI rendszert.</string>
+    <string name="low_version_tip">A szkenner a jelenlegi rendszeren nem futtatható, kérjük, frissítsen a legújabb MIUI-ra</string>
+    <string name="miracast_connect">Kivetítés</string>
+    <string name="miracast_connect_fail">Nem sikerült kivetíteni, próbálja újra</string>
+    <string name="miracast_connect_success">Sikeres kivetítés</string>
+    <string name="miracast_connecting">Kivetítés…</string>
+    <string name="miracast_details">A kivetítéshez olvassa be a QR kódot</string>
+    <string name="miracast_message">Kivetíti a Mi TV-re?</string>
+    <string name="miracast_switch_off">A vezeték nélküli kijelző ki van kapcsolva</string>
+    <string name="miracast_switch_tip">A funkció használatához kapcsolja be a vezeték nélküli kijelzőt</string>
     <string name="module_title_code">QR kód</string>
     <string name="module_title_document">Dokumentum</string>
     <string name="module_title_namecard">Névjegykártya</string>
@@ -120,6 +129,9 @@
     <string name="preparing_sd">Belső tárhely előkészítése…</string>
     <string name="previous">Vissza</string>
     <string name="qr_code_details">QR kód részletek:</string>
+    <string name="recognition_ar_download_data_msg">Töltse le az AR felismerőmotort. A mérete megközelítőleg 13MB. Letölti mobiladat-használattal?</string>
+    <string name="recognition_ar_download_msg">Töltse le az AR felismerőmotort. A mérete megközelítőleg 13MB.</string>
+    <string name="recognition_download_title">Kérjük, várjon egy percet</string>
     <string name="recognition_error_download_cancel">Később</string>
     <string name="recognition_error_download_data_msg">Töltsön le felismerőmotort a kártyák szkenneléséhez. A mérete 15MB. Letöltés mobilhálózaton?</string>
     <string name="recognition_error_download_fail">A felismerőmotor letöltése nem lehetséges</string>
@@ -147,6 +159,7 @@
     <string name="study_searching">Eredmény keresése</string>
     <string name="study_title">Készítsen egy képet a problémáról</string>
     <string name="study_vendor_info">Master Learner alapokon</string>
+    <string name="switch_open">Bekapcsolás</string>
     <string name="tips_message">Csatlakozás az internethez a honlap biztonságának ellenőrzéséhez.</string>
     <string name="title">Cím:</string>
     <string name="translation_language_chinese">Kínai</string>

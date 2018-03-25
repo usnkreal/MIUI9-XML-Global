@@ -17,7 +17,7 @@
         <item quantity="other">%d개 앱의 알림을 숨기시겠습니까?</item>
     </plurals>
     <plurals name="block_record_notification_more_text">
-        <item quantity="other">%1$s &amp;amp; %2$d개 앱의 알림을 숨기는 중</item>
+        <item quantity="other">%1$s &amp; %2$d개 앱의 알림을 숨기는 중</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">맑음</item>

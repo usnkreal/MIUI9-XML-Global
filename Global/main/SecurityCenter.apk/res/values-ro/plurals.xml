@@ -92,9 +92,9 @@ Dacă activați din nou datele mobile, operatorul dvs. vă poate taxa pentru dat
         <item quantity="few">%d aplicații găsite</item>
     </plurals>
     <plurals name="network_restrict_count">
-        <item quantity="other">"Accesul la rețea este restricționat pentru &amp;lt;font color='#ff0000'>%d&amp;lt;/font> aplicații"</item>
-        <item quantity="one">"Accesul la rețea este restricționat pentru &amp;lt;font color='#ff0000'>%d&amp;lt;/font> aplicație"</item>
-        <item quantity="few">"Accesul la rețea este restricționat pentru &amp;lt;font color='#ff0000'>%d&amp;lt;/font> aplicații"</item>
+        <item quantity="other">"Accesul la rețea este restricționat pentru &lt;font color='#ff0000'>%d&lt;/font> aplicații"</item>
+        <item quantity="one">"Accesul la rețea este restricționat pentru &lt;font color='#ff0000'>%d&lt;/font> aplicație"</item>
+        <item quantity="few">"Accesul la rețea este restricționat pentru &lt;font color='#ff0000'>%d&lt;/font> aplicații"</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
         <item quantity="other">%d aplicații nu funcționează corespunzător și utilizează bateria</item>
@@ -385,5 +385,10 @@ Dacă activați din nou datele mobile, operatorul dvs. vă poate taxa pentru dat
         <item quantity="other">%d ziel rămase ca sesiunea de intensificare a vitezei de rețea să se încheie. Reînnoiți sesiunea pentru a evita problemele legate de viteza rețelei.</item>
         <item quantity="one">%d zi rămasă ca sesiunea de intensificare a vitezei de rețea să se încheie. Reînnoiți sesiunea pentru a evita problemele legate de viteza rețelei.</item>
         <item quantity="few">%d ziel rămase ca sesiunea de intensificare a vitezei de rețea să se încheie. Reînnoiți sesiunea pentru a evita problemele legate de viteza rețelei.</item>
+    </plurals>
+    <plurals name="gb_signed_days_sum">
+        <item quantity="other">Te-ai conectat %d zile la rând</item>
+        <item quantity="one">Te-ai conectat %d dată</item>
+        <item quantity="few">Te-ai conectat %d zile la rând</item>
     </plurals>
 </resources>

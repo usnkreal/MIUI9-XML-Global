@@ -376,8 +376,8 @@ a zvýrazní osoby v popředí."</string>
     <string name="pref_camera_ai_scene_title">AI Fotoaparát</string>
     <string name="pref_camera_front_ai_scene_entry_on">AI fotoaparát</string>
     <string name="pref_camera_front_ai_scene_entry_off">AI fotoaparát je vypnutý</string>
-    <string name="ai_scene_mode_use_hint_text">"Open the Ai-Scene Camera, identify the picture scene for you 
- and optimize the picture based on the scene"</string>
+    <string name="ai_scene_mode_use_hint_text">"Otevřte Fotoaparát v režimu AI-scény, fotoaparát sám nastaví nejlepší typ scény 
+ a na jejím základě optimalizuje obrázek"</string>
     <string name="color_effect_entry_vivid">Živý</string>
     <string name="color_effect_entry_film">Film</string>
     <string name="color_effect_entry_koizora">Láska</string>
@@ -448,8 +448,8 @@ a zvýrazní osoby v popředí."</string>
     <string name="pref_camera_beauty">Zkrášlení</string>
     <string name="pref_camera_beauty_deep">Profi Zkrášlení</string>
     <string name="bokeh_use_hint">Hloubkový efekt</string>
-    <string name="pref_camera_zoom_mode_entry_standard">STANDARTNÍ</string>
-    <string name="pref_camera_zoom_mode_entry_high_pixel">VYSOCE PIXELOVÝ</string>
+    <string name="pref_camera_zoom_mode_entry_standard">BĚŽNÉ</string>
+    <string name="pref_camera_zoom_mode_entry_high_pixel">SLABÉ OSVĚTLENÍ</string>
     <string name="pref_camera_zoom_value_title">Přiblížení</string>
     <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_beautify_entry_auto">Vyp.</string>

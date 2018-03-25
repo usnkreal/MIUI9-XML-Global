@@ -750,6 +750,7 @@
     <string name="key_gesture_function_shortcut">קיצורי דרך פונקציונליים</string>
     <string name="key_system_control">בקרת המערכת</string>
     <string name="key_gesture_function_preview">תצוגות מקדימות של לחצנים ומחוות</string>
+    <string name="key_operation_diagram">Operation diagram</string>
     <string name="key_gesture_function_optional">מחוות ולחצנים אפשריים</string>
     <string name="key_gesture_function_dialog_message">%1$s הינו קיצור דרך עבור %2$s. להחליף ב-%3$s?</string>
     <string name="key_gesture_function_dialog_positive">החלפה</string>
@@ -1736,6 +1737,7 @@
     <string name="bt_rarely_used_device_title">התקנים בשימוש נדיר (%d)</string>
     <string name="search_input_hint">חיפוש הגדרות</string>
     <string name="back_button">חזרה</string>
+    <string name="launcher_title">Home screen &amp; Recents</string>
     <string name="music_audio_effect_optimize">הגדרות שמע</string>
     <string name="music_audio_effect_optimize_summary">הגדרות שמע אחרות (כולל Dirac ואוזניות)</string>
     <string name="music_audio_effect_optimize_summary_with_hifi">הגדרות שמע אחרות (כולל Dirac ו-Hi-Fi)</string>

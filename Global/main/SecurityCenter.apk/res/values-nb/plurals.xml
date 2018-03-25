@@ -73,8 +73,8 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
         <item quantity="one">%d apper funnet</item>
     </plurals>
     <plurals name="network_restrict_count">
-        <item quantity="other">"Nettverkstilgangen er begrenset for &amp;lt;font color='#ff0000'>%d:&amp;lt;/font> apper"</item>
-        <item quantity="one">"Nettverkstilgangen er begrenset for &amp;lt;font color='#ff0000'>%d:&amp;lt;/font> app"</item>
+        <item quantity="other">"Nettverkstilgangen er begrenset for &lt;font color='#ff0000'>%d:&lt;/font> apper"</item>
+        <item quantity="one">"Nettverkstilgangen er begrenset for &lt;font color='#ff0000'>%d:&lt;/font> app"</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
         <item quantity="other">%d apper fungerer ikke ordentlig og tømmer batteri</item>
@@ -121,12 +121,12 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
         <item quantity="one">Lastet ned av %1$d personer</item>
     </plurals>
     <plurals name="gb_ad_people_play">
-        <item quantity="other">%1$d people are playing</item>
-        <item quantity="one">%1$d person is playing</item>
+        <item quantity="other">%1$d personer spiller</item>
+        <item quantity="one">%1$d person spiller</item>
     </plurals>
     <plurals name="gb_ad_ten_thousand_people_play">
-        <item quantity="other">%1$d people are playing</item>
-        <item quantity="one">%1$d person is playing</item>
+        <item quantity="other">%1$d personer spiller</item>
+        <item quantity="one">%1$d person spiller</item>
     </plurals>
     <plurals name="view_num">
         <item quantity="other">%1$d visninger</item>
@@ -307,5 +307,9 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
     <plurals name="net_booster_expire_notification_tip">
         <item quantity="other">%d dager som gjenstår før den økte nettverkshastighets-økten avsluttes. Forny økten for å unngå problemer med nettverkshastigheten.</item>
         <item quantity="one">%d dager som gjenstår før den økte nettverkshastighets-økten avsluttes. Forny økten for å unngå problemer med nettverkshastigheten.</item>
+    </plurals>
+    <plurals name="gb_signed_days_sum">
+        <item quantity="other">Checked in %d days in a row</item>
+        <item quantity="one">Checked in %d time</item>
     </plurals>
 </resources>

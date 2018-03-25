@@ -37,10 +37,10 @@
         <item quantity="many">Ukrywanie powiadomień dla %1$s i %2$d aplikacji.</item>
     </plurals>
     <plurals name="view_realtime_clear">
-        <item quantity="other">Bezchmurnie</item>
-        <item quantity="one">Słonecznie</item>
-        <item quantity="few">Bezchmurnie</item>
-        <item quantity="many">Bezchmurnie</item>
+        <item quantity="other">Pogodnie</item>
+        <item quantity="one">Pogodnie</item>
+        <item quantity="few">Pogodnie</item>
+        <item quantity="many">Pogodnie</item>
     </plurals>
     <plurals name="accessibility_desc_weather_temperature">
         <item quantity="other">Pogoda %d stopni</item>

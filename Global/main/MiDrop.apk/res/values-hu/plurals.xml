@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notif_receive_cancel">
+        <item quantity="other">%1$s átvitel megszakítva</item>
+        <item quantity="one">%1$s átvitel megszakítva</item>
+    </plurals>
+    <plurals name="notif_receive_progress">
+        <item quantity="other">%1$s fájl fogadása…</item>
+        <item quantity="one">%1$s fájl fogadása…</item>
+    </plurals>
+    <plurals name="notif_receive_success">
+        <item quantity="other">Sikeresen fogadott fájl: %1$s</item>
+        <item quantity="one">Sikeresen fogadott fájl: %1$s</item>
+    </plurals>
+    <plurals name="receiver_file_num">
+        <item quantity="other">%2$d fájl innen: %1$s</item>
+        <item quantity="one">%2$d fájl innen: %1$s</item>
+    </plurals>
+    <plurals name="sender_file_num">
+        <item quantity="other">%1$d elem</item>
+        <item quantity="one">%1$d elem</item>
+    </plurals>
+</resources>

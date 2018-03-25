@@ -27,10 +27,10 @@
         <item>I dag (data)</item>
         <item>Last month (data)</item>
         <item>This month (data)</item>
-        <item>Yesterday Wi-Fi</item>
-        <item>Today Wi-Fi</item>
+        <item>I går Wi-Fi</item>
+        <item>I dag Wi-Fi</item>
         <item>Last month Wi-Fi</item>
-        <item>This month Wi-Fi</item>
+        <item>Denne måneden Wi-Fi</item>
     </string-array>
     <string-array name="traffic_type">
         <item>Mobilbruk</item>

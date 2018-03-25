@@ -167,63 +167,63 @@
         <item quantity="few">minute</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day">
-        <item quantity="other">Începând cu &amp;lt;start_time>%3$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s la fiecare %2$d de zile&amp;lt;/price>, până când anulați abonamentul.</item>
-        <item quantity="one">Începând cu &amp;lt;start_time>%3$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s în fiecare zi&amp;lt;/price>, până când anulați abonamentul.</item>
-        <item quantity="few">Începând cu &amp;lt;start_time>%3$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s la fiecare %2$d zile&amp;lt;/price>, până când anulați abonamentul.</item>
+        <item quantity="other">Începând cu &lt;start_time>%3$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s la fiecare %2$d de zile&lt;/price>, până când anulați abonamentul.</item>
+        <item quantity="one">Începând cu &lt;start_time>%3$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s în fiecare zi&lt;/price>, până când anulați abonamentul.</item>
+        <item quantity="few">Începând cu &lt;start_time>%3$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s la fiecare %2$d zile&lt;/price>, până când anulați abonamentul.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day_limited">
-        <item quantity="other">Începând cu &amp;lt;start_time>%4$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s la fiecare %2$d de zile&amp;lt;/price>, timp de &amp;lt;duration>%3$d (de) zile&amp;lt;/duration>.</item>
-        <item quantity="one">Începând cu &amp;lt;start_time>%4$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s în fiecare zi&amp;lt;/price>, timp de &amp;lt;duration>%3$d (de) zile&amp;lt;/duration>.</item>
-        <item quantity="few">Începând cu &amp;lt;start_time>%4$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s la fiecare %2$d zile&amp;lt;/price>, timp de &amp;lt;duration>%3$d (de) zile&amp;lt;/duration>.</item>
+        <item quantity="other">Începând cu &lt;start_time>%4$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s la fiecare %2$d de zile&lt;/price>, timp de &lt;duration>%3$d (de) zile&lt;/duration>.</item>
+        <item quantity="one">Începând cu &lt;start_time>%4$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s în fiecare zi&lt;/price>, timp de &lt;duration>%3$d (de) zile&lt;/duration>.</item>
+        <item quantity="few">Începând cu &lt;start_time>%4$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s la fiecare %2$d zile&lt;/price>, timp de &lt;duration>%3$d (de) zile&lt;/duration>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day_tax">
-        <item quantity="other">Începând cu &amp;lt;start_time>%3$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s plus orice taxe aplicabile la fiecare %2$d de zile&amp;lt;/price>, până când anulați abonamentul.</item>
-        <item quantity="one">Începând cu &amp;lt;start_time>%3$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s plus orice taxe aplicabile în fiecare zi&amp;lt;/price>, până când anulați abonamentul.</item>
-        <item quantity="few">Începând cu &amp;lt;start_time>%3$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s plus orice taxe aplicabile la fiecare %2$d zile&amp;lt;/price>, până când anulați abonamentul.</item>
+        <item quantity="other">Începând cu &lt;start_time>%3$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s plus orice taxe aplicabile la fiecare %2$d de zile&lt;/price>, până când anulați abonamentul.</item>
+        <item quantity="one">Începând cu &lt;start_time>%3$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s plus orice taxe aplicabile în fiecare zi&lt;/price>, până când anulați abonamentul.</item>
+        <item quantity="few">Începând cu &lt;start_time>%3$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s plus orice taxe aplicabile la fiecare %2$d zile&lt;/price>, până când anulați abonamentul.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day_tax_limited">
-        <item quantity="other">Începând cu &amp;lt;start_time>%4$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s plus orice taxe aplicabile la fiecare %2$d de zile&amp;lt;/price>, timp de &amp;lt;duration>%3$d (de) zile&amp;lt;/duration>.</item>
-        <item quantity="one">Începând cu &amp;lt;start_time>%4$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s plus orice taxe aplicabile în fiecare zi&amp;lt;/price>, timp de &amp;lt;duration>%3$d (de) zile&amp;lt;/duration>.</item>
-        <item quantity="few">Începând cu &amp;lt;start_time>%4$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s plus orice taxe aplicabile la fiecare %2$d zile&amp;lt;/price>, timp de &amp;lt;duration>%3$d (de) zile&amp;lt;/duration>.</item>
+        <item quantity="other">Începând cu &lt;start_time>%4$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s plus orice taxe aplicabile la fiecare %2$d de zile&lt;/price>, timp de &lt;duration>%3$d (de) zile&lt;/duration>.</item>
+        <item quantity="one">Începând cu &lt;start_time>%4$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s plus orice taxe aplicabile în fiecare zi&lt;/price>, timp de &lt;duration>%3$d (de) zile&lt;/duration>.</item>
+        <item quantity="few">Începând cu &lt;start_time>%4$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s plus orice taxe aplicabile la fiecare %2$d zile&lt;/price>, timp de &lt;duration>%3$d (de) zile&lt;/duration>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month">
-        <item quantity="other">Începând cu &amp;lt;start_time>%3$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s la fiecare %2$d de luni&amp;lt;/price>, până când anulați abonamentul.</item>
-        <item quantity="one">Începând cu &amp;lt;start_time>%3$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s în fiecare lună&amp;lt;/price>, până când anulați abonamentul.</item>
-        <item quantity="few">Începând cu &amp;lt;start_time>%3$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s la fiecare %2$d luni&amp;lt;/price>, până când anulați abonamentul.</item>
+        <item quantity="other">Începând cu &lt;start_time>%3$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s la fiecare %2$d de luni&lt;/price>, până când anulați abonamentul.</item>
+        <item quantity="one">Începând cu &lt;start_time>%3$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s în fiecare lună&lt;/price>, până când anulați abonamentul.</item>
+        <item quantity="few">Începând cu &lt;start_time>%3$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s la fiecare %2$d luni&lt;/price>, până când anulați abonamentul.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month_limited">
-        <item quantity="other">Începând cu &amp;lt;start_time>%4$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s la fiecare %2$d de luni&amp;lt;/price>, timp de &amp;lt;duration>%3$d (de) luni&amp;lt;/duration>.</item>
-        <item quantity="one">Începând cu &amp;lt;start_time>%4$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s în fiecare lună&amp;lt;/price>, timp de &amp;lt;duration>%3$d (de) luni&amp;lt;/duration>.</item>
-        <item quantity="few">Începând cu &amp;lt;start_time>%4$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s la fiecare %2$d luni&amp;lt;/price>, timp de &amp;lt;duration>%3$d (de) luni&amp;lt;/duration>.</item>
+        <item quantity="other">Începând cu &lt;start_time>%4$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s la fiecare %2$d de luni&lt;/price>, timp de &lt;duration>%3$d (de) luni&lt;/duration>.</item>
+        <item quantity="one">Începând cu &lt;start_time>%4$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s în fiecare lună&lt;/price>, timp de &lt;duration>%3$d (de) luni&lt;/duration>.</item>
+        <item quantity="few">Începând cu &lt;start_time>%4$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s la fiecare %2$d luni&lt;/price>, timp de &lt;duration>%3$d (de) luni&lt;/duration>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month_tax">
-        <item quantity="other">Începând cu &amp;lt;start_time>%3$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s plus orice taxe aplicabile la fiecare %2$d de luni&amp;lt;/price>, până când anulați abonamentul.</item>
-        <item quantity="one">Începând cu &amp;lt;start_time>%3$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s plus orice taxe aplicabile în fiecare lună&amp;lt;/price>, până când anulați abonamentul.</item>
-        <item quantity="few">Începând cu &amp;lt;start_time>%3$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s plus orice taxe aplicabile la fiecare %2$d luni&amp;lt;/price>, până când anulați abonamentul.</item>
+        <item quantity="other">Începând cu &lt;start_time>%3$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s plus orice taxe aplicabile la fiecare %2$d de luni&lt;/price>, până când anulați abonamentul.</item>
+        <item quantity="one">Începând cu &lt;start_time>%3$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s plus orice taxe aplicabile în fiecare lună&lt;/price>, până când anulați abonamentul.</item>
+        <item quantity="few">Începând cu &lt;start_time>%3$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s plus orice taxe aplicabile la fiecare %2$d luni&lt;/price>, până când anulați abonamentul.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month_tax_limited">
-        <item quantity="other">Începând cu &amp;lt;start_time>%4$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s plus orice taxe aplicabile la fiecare %2$d de luni&amp;lt;/price>, timp de &amp;lt;duration>%3$d (de) luni&amp;lt;/duration>.</item>
-        <item quantity="one">Începând cu &amp;lt;start_time>%4$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s plus orice taxe aplicabile în fiecare lună&amp;lt;/price>, timp de &amp;lt;duration>%3$d (de) luni&amp;lt;/duration>.</item>
-        <item quantity="few">Începând cu &amp;lt;start_time>%4$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s plus orice taxe aplicabile la fiecare %2$d luni&amp;lt;/price>, timp de &amp;lt;duration>%3$d (de) luni&amp;lt;/duration>.</item>
+        <item quantity="other">Începând cu &lt;start_time>%4$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s plus orice taxe aplicabile la fiecare %2$d de luni&lt;/price>, timp de &lt;duration>%3$d (de) luni&lt;/duration>.</item>
+        <item quantity="one">Începând cu &lt;start_time>%4$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s plus orice taxe aplicabile în fiecare lună&lt;/price>, timp de &lt;duration>%3$d (de) luni&lt;/duration>.</item>
+        <item quantity="few">Începând cu &lt;start_time>%4$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s plus orice taxe aplicabile la fiecare %2$d luni&lt;/price>, timp de &lt;duration>%3$d (de) luni&lt;/duration>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year">
-        <item quantity="other">Începând cu &amp;lt;start_time>%3$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s la fiecare %2$d de ani&amp;lt;/price>, până când anulați abonamentul.</item>
-        <item quantity="one">Începând cu &amp;lt;start_time>%3$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s în fiecare an&amp;lt;/price>, până când anulați abonamentul.</item>
-        <item quantity="few">Începând cu &amp;lt;start_time>%3$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s la fiecare %2$d ani&amp;lt;/price>, până când anulați abonamentul.</item>
+        <item quantity="other">Începând cu &lt;start_time>%3$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s la fiecare %2$d de ani&lt;/price>, până când anulați abonamentul.</item>
+        <item quantity="one">Începând cu &lt;start_time>%3$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s în fiecare an&lt;/price>, până când anulați abonamentul.</item>
+        <item quantity="few">Începând cu &lt;start_time>%3$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s la fiecare %2$d ani&lt;/price>, până când anulați abonamentul.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year_limited">
-        <item quantity="other">Începând cu &amp;lt;start_time>%4$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s la fiecare %2$d de ani&amp;lt;/price>, timp de &amp;lt;duration>%3$d (de) ani&amp;lt;/duration>.</item>
-        <item quantity="one">Începând cu &amp;lt;start_time>%4$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s în fiecare an&amp;lt;/price>, timp de &amp;lt;duration>%3$d (de) ani&amp;lt;/duration>.</item>
-        <item quantity="few">Începând cu &amp;lt;start_time>%4$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s la fiecare %2$d ani&amp;lt;/price>, timp de &amp;lt;duration>%3$d (de) ani&amp;lt;/duration>.</item>
+        <item quantity="other">Începând cu &lt;start_time>%4$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s la fiecare %2$d de ani&lt;/price>, timp de &lt;duration>%3$d (de) ani&lt;/duration>.</item>
+        <item quantity="one">Începând cu &lt;start_time>%4$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s în fiecare an&lt;/price>, timp de &lt;duration>%3$d (de) ani&lt;/duration>.</item>
+        <item quantity="few">Începând cu &lt;start_time>%4$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s la fiecare %2$d ani&lt;/price>, timp de &lt;duration>%3$d (de) ani&lt;/duration>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year_tax">
-        <item quantity="other">Începând cu &amp;lt;start_time>%3$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s plus orice taxe aplicabile la fiecare %2$d de ani&amp;lt;/price>, până când anulați abonamentul.</item>
-        <item quantity="one">Începând cu &amp;lt;start_time>%3$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s plus orice taxe aplicabile în fiecare an&amp;lt;/price>, până când anulați abonamentul.</item>
-        <item quantity="few">Începând cu &amp;lt;start_time>%3$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s plus orice taxe aplicabile la fiecare %2$d ani&amp;lt;/price>, până când anulați abonamentul.</item>
+        <item quantity="other">Începând cu &lt;start_time>%3$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s plus orice taxe aplicabile la fiecare %2$d de ani&lt;/price>, până când anulați abonamentul.</item>
+        <item quantity="one">Începând cu &lt;start_time>%3$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s plus orice taxe aplicabile în fiecare an&lt;/price>, până când anulați abonamentul.</item>
+        <item quantity="few">Începând cu &lt;start_time>%3$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s plus orice taxe aplicabile la fiecare %2$d ani&lt;/price>, până când anulați abonamentul.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year_tax_limited">
-        <item quantity="other">Începând cu &amp;lt;start_time>%4$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s plus orice taxe aplicabile la fiecare %2$d de ani&amp;lt;/price>, timp de &amp;lt;duration>%3$d (de) ani&amp;lt;/duration>.</item>
-        <item quantity="one">Începând cu &amp;lt;start_time>%4$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s plus orice taxe aplicabile în fiecare an&amp;lt;/price>, timp de &amp;lt;duration>%3$d (de) ani&amp;lt;/duration>.</item>
-        <item quantity="few">Începând cu &amp;lt;start_time>%4$s&amp;lt;/start_time>, veți fi taxat(ă) automat cu &amp;lt;price>%1$s plus orice taxe aplicabile la fiecare %2$d ani&amp;lt;/price>, timp de &amp;lt;duration>%3$d (de) ani&amp;lt;/duration>.</item>
+        <item quantity="other">Începând cu &lt;start_time>%4$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s plus orice taxe aplicabile la fiecare %2$d de ani&lt;/price>, timp de &lt;duration>%3$d (de) ani&lt;/duration>.</item>
+        <item quantity="one">Începând cu &lt;start_time>%4$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s plus orice taxe aplicabile în fiecare an&lt;/price>, timp de &lt;duration>%3$d (de) ani&lt;/duration>.</item>
+        <item quantity="few">Începând cu &lt;start_time>%4$s&lt;/start_time>, veți fi taxat(ă) automat cu &lt;price>%1$s plus orice taxe aplicabile la fiecare %2$d ani&lt;/price>, timp de &lt;duration>%3$d (de) ani&lt;/duration>.</item>
     </plurals>
 </resources>

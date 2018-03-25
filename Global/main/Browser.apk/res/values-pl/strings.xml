@@ -111,9 +111,9 @@
     <string name="bookmark_group_lable">Grupa</string>
     <string name="bookmark_needs_title">Zakładka musi mieć nazwę</string>
     <string name="bookmark_needs_url">Zakładka musi zawierać adres URL</string>
-    <string name="bookmark_not_saved">Nie udało się zapisać zakładki</string>
+    <string name="bookmark_not_saved">Nie udało się dodać do zakładek</string>
     <string name="bookmark_rename_group">Zmień nazwę grupy</string>
-    <string name="bookmark_saved">Zapisano w zakładkach</string>
+    <string name="bookmark_saved">Dodano do zakładek</string>
     <string name="bookmark_title">Nazwa zakładki</string>
     <string name="bookmark_title_lable">Tytuł</string>
     <string name="bookmark_url">URL http://</string>
@@ -519,7 +519,7 @@ Opuścić stronę?"</string>
     <string name="nav_screen_incognito_message">"Twoja historia przeglądania i wyszukiwania nie zostanie zapisana w trybie incognito.
 Pamiętaj, że pobrane pliki i dodane zakładki będą zapisane."</string>
     <string name="nav_screen_incognito_title">Tryb incognito</string>
-    <string name="navigation_delete_all">Przesuń w lewo i prawo, aby zamknąć wszystkie karty</string>
+    <string name="navigation_delete_all">Przesuń w lewo lub w prawo, aby zamknąć wszystkie karty</string>
     <string name="navigationbar_rightbutton_actiontext_cancle">Anuluj</string>
     <string name="navigationbar_rightbutton_actiontext_go">Dalej</string>
     <string name="navigationbar_rightbutton_actiontext_search">Szukaj</string>

@@ -25,8 +25,8 @@
         <item quantity="one">%1$s person | </item>
     </plurals>
     <plurals name="total_voted_num_text">
-        <item quantity="other">"&amp;lt;font color='#20a7ff'>%1$s&amp;lt;/font> personer har stemt"</item>
-        <item quantity="one">"&amp;lt;font color='#20a7ff'>%1$s&amp;lt;/font> person har stemt"</item>
+        <item quantity="other">"&lt;font color='#20a7ff'>%1$s&lt;/font> personer har stemt"</item>
+        <item quantity="one">"&lt;font color='#20a7ff'>%1$s&lt;/font> person har stemt"</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Klart</item>

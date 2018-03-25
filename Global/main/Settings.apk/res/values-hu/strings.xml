@@ -2956,6 +2956,7 @@ hogy Ön az ütemezett bekapcsolási idő előtt egy órával már alszik"</stri
     <string name="key_gesture_function_shortcut">Gombfunkciók beállítása</string>
     <string name="key_system_control">Rendszerfelügyelet</string>
     <string name="key_gesture_function_preview">Gombok és kézmozdulatok bemutatása</string>
+    <string name="key_operation_diagram">Működési ábra</string>
     <string name="key_gesture_function_optional">Választható mozdulatok és gombok</string>
     <string name="key_gesture_function_dialog_message">Jelenleg %2$s indul el %1$s kombinációval. Lecseréli erre: %3$s?</string>
     <string name="key_gesture_function_dialog_positive">Lecserélés</string>
@@ -3483,7 +3484,7 @@ USB háttértárként fog megjelenni a számítógépén."</string>
     <string name="hdmi_color_calibration_none">Természetes</string>
     <string name="hdmi_3d_display_enable_title">3D Megjelenítő</string>
     <string name="hdmi_3d_display_enable_summary">3D játékok támogatása</string>
-    <string name="noise_suppression">Zajcsökkentés</string>
+    <string name="noise_suppression">Környezeti zaj csökkentése</string>
     <string name="phone_call_noise_suppression">Telefonhívás zajcsökkentése</string>
     <string name="lock_settings_common_title">Zárolási beállítások</string>
     <string name="turn_off_security_lock">Képernyőzár letiltása</string>
@@ -3943,6 +3944,7 @@ USB háttértárként fog megjelenni a számítógépén."</string>
     <string name="bt_rarely_used_device_title">Ritkán használt eszközök (%d)</string>
     <string name="search_input_hint">Beállítások keresése</string>
     <string name="back_button">Vissza</string>
+    <string name="launcher_title">Kezdőképernyő és előzmények</string>
     <string name="music_audio_effect_optimize">Hangbeállítások</string>
     <string name="music_audio_effect_optimize_summary">Dirac, fejhallgató és egyéb hangbeállítások</string>
     <string name="music_audio_effect_optimize_summary_with_hifi">Dirac, Hi-Fi, fejhallgató és egyéb hangbeállítások</string>

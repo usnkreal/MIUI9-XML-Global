@@ -63,6 +63,7 @@
     <string name="input_password_after_boot_msg">Pre odblokovanie vášho zariadenia zadajte heslo</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">Musíte otvoriť Prvý profil po reštartovaní zariadenia</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Nie je možné prepínať medzi profilmi počas hovoru</string>
+    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Nie je možné prepínať medzi priestormi, pokiaľ je aktívna Rodičovská kontrola</string>
     <string name="input_password_handle_sdcard_fs">Nie je možné vstúpiť do druhého profilu z uzamknutej obrazovky. Vstúpte z prvého profilu.</string>
     <string name="accessibility_enter_lock_wallpaper">Dotykom otvoríte Galériu tapiet</string>
     <string name="wallpaper_global_des_drop_down_notify_text">Po uvoľnení sa zobrazia podrobnosti</string>

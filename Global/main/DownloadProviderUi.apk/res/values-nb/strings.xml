@@ -44,7 +44,6 @@
     <string name="all_fileter">Alle</string>
     <string name="all_share_files_content">Filene du valgte er allerede slettet.</string>
     <string name="apk_filter">APK</string>
-    <string name="app_downloads">%s nedlastinger</string>
     <string name="auth_fail">Kunne ikke få autorisasjon</string>
     <string name="bt_path_not_exit">Denne banen eksisterer ikke</string>
     <string name="bt_restart_dialog_message">Starte alle nedlastingene i BT-mappen på nytt?</string>
@@ -63,7 +62,6 @@
     <string name="dialog_btn_ok">OK</string>
     <string name="dialog_btn_ok_disabled_net">Nettverksinnstillinger</string>
     <string name="dialog_confirm_delete_checkbox_message">Slett lokale filer også</string>
-    <string name="dialog_confirm_delete_downloads_message">Delete selected tasks?</string>
     <string name="dialog_confirm_delete_the_download_item_message">Slett disse oppgavene</string>
     <string name="dialog_file_missing_title">Kan ikke åpne fil</string>
     <string name="dialog_msg_disabled_net">%1$s begrensede nedlastinger i nåværende nettverk. Trykk på Nettverksinnstillinger for å gå til Sikkerhetsappen.</string>
@@ -206,6 +204,7 @@
     <string name="add_flow_fail_haveget_msg">Prøveperioden er utløpt.</string>
     <string name="add_flow_fail_vip_msg">Xunlei nedlastingsakselerator er på</string>
     <string name="all_the_internet">Alle nettverk</string>
+    <string name="app_downloads">%s nedlastinger</string>
     <string name="app_size">%1$s</string>
     <string name="auth_activity_title">Xunlei-konto</string>
     <string name="bind_xunlei_account">Legg til Xunlei-konto</string>
@@ -218,6 +217,7 @@
     <string name="delete">Slett</string>
     <string name="deselect_subfile_all">Fjern alle valg</string>
     <string name="determine">OK</string>
+    <string name="dialog_confirm_delete_downloads_message">Delete selected tasks?</string>
     <string name="disable">Av</string>
     <string name="display_expire_netiv1">Denne måneden</string>
     <string name="do_not_support_url">Denne typen nettadresse støttes ikke</string>

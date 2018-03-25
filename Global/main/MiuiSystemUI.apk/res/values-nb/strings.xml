@@ -150,7 +150,7 @@ MMMM d"</string>
     <string name="settings_toggle_position_reset">Tilbakestill skiftknapper</string>
     <string name="list_delimeter">", "</string>
     <string name="camera_key_action_setting_title">Mi-knapp</string>
-    <string name="camera_key_action_category_title">Bruk hvis Kamera-appen ikke er åpen</string>
+    <string name="camera_key_action_category_title">"Use if the Camera app isn't open"</string>
     <string name="camera_key_action_none_title">Ingen handling</string>
     <string name="camera_key_action_shortcut_title">Snarvei</string>
     <string name="camera_key_action_toggle_title">Utløs veksling</string>
@@ -247,8 +247,8 @@ MMMM d"</string>
     <string name="notification_low_battery_open_save_mode">Slå på batterisparer</string>
     <string name="notification_low_battery_action_btn">Slå på</string>
     <string name="notification_low_battery_need_charge">Batteriet er lavt. Lad opp enheten din.</string>
-    <string name="low_temperature_warning_title">Shutdown warning</string>
-    <string name="low_temperature_warning_message">The temperature is too low,the phone may shut down at any time, please save the data.</string>
+    <string name="low_temperature_warning_title">Low temperature warning</string>
+    <string name="low_temperature_warning_message">The temperature is too low. Your phone may shut down anytime now. Make sure you save all the important changes.</string>
     <string name="low_temperature_button_ok">Got it</string>
     <string name="oldman_airplane_mode_text">Fly</string>
     <string name="oldman_incall_text">Tilbake til anrop</string>
@@ -464,6 +464,7 @@ Kontakt administratoren for ytterligere informasjon."</string>
     <string name="quick_settings_disclosure_managed_profile_named_vpn">Arbeidsprofilen knyttet til %1$s</string>
     <string name="quick_settings_disclosure_personal_profile_named_vpn">Personlig profil knyttet til %1$s</string>
     <string name="quick_settings_disclosure_named_vpn">Enhet knyttet til %1$s</string>
+    <string name="notch_status_bar_date_format_12">EEEE, MMMM d</string>
     <string name="accessibility_recent_task_locked_state">Locked</string>
     <string name="accessibility_recent_task_unlocked_state">Unlocked</string>
     <string name="accessibility_drag_hint_message">Drag items to top of the screen</string>
@@ -471,7 +472,7 @@ Kontakt administratoren for ytterligere informasjon."</string>
     <string name="notification_group_overflow_indicator">+%s</string>
     <string name="click_to_return_multi_window">Trykk for å gå tilbake til Delt skjermbilde</string>
     <string name="recent_dock_tip">Trykk for å velge apper</string>
-    <string name="recent_cannot_dock">"can't enter MultiWindow Mode in Second Space"</string>
+    <string name="recent_cannot_dock">"Can't use Split screen in Second Space"</string>
     <string name="dock_keyguard_locked_failed_to_dock_text">Delt skjerm støttes ikke på Låseskjermen.</string>
     <string name="click_expand">Trykk for å utvide</string>
     <string name="please_slide_agian">Slide again</string>
@@ -493,4 +494,11 @@ Kontakt administratoren for ytterligere informasjon."</string>
     <string name="fs_gesture_final_summary">Du kan skifte tilbake til å bruke knapper i Innstillinger > Fullskjermvisning</string>
     <string name="fs_gesture_final_restart">En gang til</string>
     <string name="fs_gesture_final_over">Jeg er ferdig</string>
+    <string name="no_sim_card">No SIM card</string>
+    <string name="prompt_detecting">Detecting</string>
+    <string name="prompt_danger">Risk</string>
+    <string name="prompt_failure">Error</string>
+    <string name="prompt_safe">Safe</string>
+    <string name="prompt_unknown">Unknown</string>
+    <string name="prompt_return_to_split">Split screen</string>
 </resources>
