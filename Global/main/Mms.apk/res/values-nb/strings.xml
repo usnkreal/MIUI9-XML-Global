@@ -33,7 +33,7 @@
     <string name="attach_sound">Lyd</string>
     <string name="attach_subject">Emne</string>
     <string name="attach_take_photo">Ta bilde</string>
-    <string name="attach_transaction">Send money</string>
+    <string name="attach_transaction">Overfør penger</string>
     <string name="attach_video">Video</string>
     <string name="audio_download_failed">Kunne ikke laste ned lyd</string>
     <string name="audio_message_expired">Denne talemeldinger har utløpt.</string>
@@ -84,8 +84,8 @@
     <string name="confirm_export_dialog_description">Tidligere samtaler med denne kontakten vil ikke lenger være skjulte.</string>
     <string name="confirm_export_dialog_title">Fjern fra private kontakter</string>
     <string name="confirm_no_block_positive">Fjern blokkering</string>
-    <string name="confirm_no_block_title">"Unblock and restore all messages sent from this number?
-(The number will be added to exceptions.)"</string>
+    <string name="confirm_no_block_title">"Fjerne blokkering og gjenopprette alle meldinger som er sendt fra dette nummeret?
+(Nummeret vil legges til unntak.)"</string>
     <string name="confirm_rate_limit">Et stort antall multimediemeldinger blir sendt.</string>
     <string name="confirm_restore_all_title">Gjenopprette alle meldinger sendt fra dette nummeret?</string>
     <string name="confirm_restore_checkbox">Gjenopprett blokkerte meldinger</string>
@@ -152,7 +152,7 @@
     <string name="enter_edit_mode">Rediger meldinger</string>
     <string name="error_code_label">"Feilkode: "</string>
     <string name="error_state">Inkonsekvent status</string>
-    <string name="error_state_text">Status på tråder og mottakere er inkonsekvent. Vennligst registrer en feilrapport, og rapporter det via http://go/droidanizer</string>
+    <string name="error_state_text">Status på tråder og mottakere er inkonsekvent. Vennligst registrer en feilrapport, og rapporter den via http://go/droidanizer</string>
     <string name="error_timed_msg">Ugyldig tid.</string>
     <string name="ex_type_guide">Informasjon</string>
     <string name="ex_type_mx">Mi Message</string>
@@ -370,7 +370,7 @@
     <string name="pref_cell_broadcast">Cell Broadcast</string>
     <string name="pref_collapse_sp_messages_summary">Grupper automatisk SMS-varslinger sammen</string>
     <string name="pref_delivery_ringtone">Leveringslyd</string>
-    <string name="pref_edit_smsc_address">Short Message service center (SMSC)</string>
+    <string name="pref_edit_smsc_address">SMS-senternummer (SMSC)</string>
     <string name="pref_forward_title">Videresend</string>
     <string name="pref_hide_verification_code_summary">Skjul automatisk engangspassord i meldingsvarslinger på sikret låseskjerm</string>
     <string name="pref_messages_to_save">Velg antall meldinger som skal lagres</string>
@@ -513,7 +513,7 @@
     <string name="select_local_audio">Velg lyd</string>
     <string name="select_local_video">Velg video</string>
     <string name="select_message_send_sim">Velg SIM-kort</string>
-    <string name="select_phone_number">Select phone number</string>
+    <string name="select_phone_number">Velg telefonnummer</string>
     <string name="select_recipient">Velg mottakere</string>
     <string name="select_sim">Velg SIM-kort</string>
     <string name="select_top_text">Tekst øverst</string>

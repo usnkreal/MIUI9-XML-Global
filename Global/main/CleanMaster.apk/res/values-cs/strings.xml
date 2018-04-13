@@ -497,4 +497,17 @@
     <string name="auto_clean_time_three_day">Každé 3 dny</string>
     <string name="auto_clean_time_seven_day">Každých 7 dní</string>
     <string name="auto_clean_time_fifteen_day">Každých 15 dní</string>
+    <string name="pref_category_title_auto_clean_config_settings">Automatické vyčištění</string>
+    <string name="pref_title_auto_clean">Vyčistit automaticky</string>
+    <string name="pref_title_auto_clean_operation">Způsob čištění</string>
+    <string name="pref_title_auto_clean_trigger">Vyčistit úložiště</string>
+    <string name="auto_clean_operation_dialog_title">Způsob čištění</string>
+    <string name="auto_clean_operation_clean_and_alert">Připomenout a vyčistit</string>
+    <string name="auto_clean_operation_just_clean">Pouze vyčistit</string>
+    <string name="auto_clean_trigger_dialog_title">Vyčistit úložiště</string>
+    <string name="auto_clean_trigger_percent_ninety">Pokud je zaplněno 90%</string>
+    <string name="auto_clean_trigger_percent_eighty">Pokud je zaplněno 80%</string>
+    <string name="auto_clean_trigger_percent_sixty">Pokud je zaplněno 60%</string>
+    <string name="auto_clean_notification_title">Připomenout čištění</string>
+    <string name="auto_clean_notification_content">Vyčištěno %s odpadu</string>
 </resources>

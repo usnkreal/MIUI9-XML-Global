@@ -260,7 +260,7 @@ Sok szerver nem támogatja a szóközöket tartalmazó  jelszavakat."</string>
     <string name="clear_display_images_whitelist_dialog_message">Állítsa le a korábban engedélyezett feladók beágyazott képeinek megjelenítését.</string>
     <string name="clear_display_images_whitelist_dialog_title">Törli a kép jóváhagyásokat?</string>
     <string name="clear_display_images_whitelist_title">Kép jóváhagyások törlése</string>
-    <string name="click_download_all_content">[Bökje meg a tartalom letöltéséhez]</string>
+    <string name="click_download_all_content">[ Érintse meg a tartalom letöltéséhez ]</string>
     <string name="click_to_reload">Érintse meg a képernyőt az újratöltéshez</string>
     <string name="collapse_recipient_details">Címzett adatainak elrejtése</string>
     <string name="colon">:</string>
@@ -886,6 +886,7 @@ hogy kaphasson értesítéseket a kifizetésekről és utazásokról"</string>
          irányelvekkel"</string>
     <string name="security_notification_content_update_title">Biztonsági frissítés szükséges</string>
     <string name="security_unsupported_ticker_fmt">\"%s \" fiók biztonsági követelmények miatt nem szinkronizálható.</string>
+    <string name="see_more_content">Még több</string>
     <string name="select_attachment_type">Melléklet kiválasztása innen</string>
     <string name="select_no_file">Nincs melléklet kijelölve</string>
     <string name="select_path">Elérési út kiválasztása</string>

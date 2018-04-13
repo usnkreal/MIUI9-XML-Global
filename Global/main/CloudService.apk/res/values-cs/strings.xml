@@ -93,9 +93,8 @@ Tato funkce zašifruje a zašle identifikační číslo vašeho zařízení na M
 Tato funkce zašifruje a zašle identifikační číslo vašeho zařízení na Mi server."</string>
     <string name="user_agreement_p5">"
 "</string>
-    <string name="user_agreement_p6">"Používáním této služby souhlasíte s "</string>
-    <string name="user_agreement_p7">Smluvními podmínkami Mi Cloud</string>
-    <string name="user_agreement_p8">.</string>
+    <string name="user_agreement_link">Smluvními podmínkami Mi Cloud</string>
+    <string name="user_agreement_content">Používáním této služby souhlasíte se %s.</string>
     <string name="user_agreement_title">Smluvní podmínky MiCloud</string>
     <string name="privacy_policy">Ochrana osobních údajů</string>
     <string name="loading">Chvilku strpení…</string>
@@ -173,7 +172,7 @@ Při změně SIM karty bude automaticky odeslána SMS zpráva pro znovu aktivov�
     <string name="micloud_user_space_usage">Kapacita úložiště</string>
     <string name="micloud_web_discription_01">Přihlaste se na i.mi.com</string>
     <string name="micloud_web_discription_02">pro ukládání a přístup k vašim souborům odkudkoli</string>
-    <string name="micloud_web_discription_place_holder">Navštivte %1$s</string>
+    <string name="micloud_web_discription_place_holder">Pro správu dat otevřte na vašem počítači %1$s.</string>
     <string name="micloud_full_influence_title">Když je Mi Cloud plný…</string>
     <string name="micloud_warn_low_title">Dochází volné místo</string>
     <string name="micloud_warn_low_sum">Je využito 90% úložiště.</string>
@@ -366,9 +365,6 @@ K zakoupení dalšího místa v úložišti je zapotřebí vlastnit bankovní ka
     <string name="buy_more_space_c_class">"Tato funkce vyžaduje bankovní kartu registrovanou na pevninské Číně.
 Pro získání více místa v úložišti navštivte mi.com/micloud."</string>
     <string name="micloud_member_buy_title">Potvrdit</string>
-    <string name="micloud_member_buy_content" formatted="false">"Platné do %s-%s-%s
-
-%s Mi Kreditů"</string>
     <string name="micloud_member_net_error_alert_title">Nelze se připojit k síti</string>
     <string name="micloud_member_net_error_alert_message">Žádné internetové připojení.</string>
     <string name="micloud_member_pay_fail_toast">Platba nebyla dokončena</string>

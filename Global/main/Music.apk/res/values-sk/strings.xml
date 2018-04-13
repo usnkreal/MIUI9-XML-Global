@@ -27,10 +27,10 @@
     <string name="s7">Testovacia reklama</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="account_and_cloud">Účet</string>
-    <string name="action_item_add">Pridať</string>
+    <string name="action_item_add">Pridať do</string>
     <string name="action_item_add_song">Pridať</string>
-    <string name="action_item_add_to_current_playlist">Súčasný playlist</string>
-    <string name="action_item_add_to_favorite_playlist">Obľúbený playlist</string>
+    <string name="action_item_add_to_current_playlist">Do fronty</string>
+    <string name="action_item_add_to_favorite_playlist">Obľúbené</string>
     <string name="action_item_add_to_new_playlist">Nový</string>
     <string name="action_item_delete">Vymazať</string>
     <string name="action_item_download">Stiahnúť</string>
@@ -39,14 +39,15 @@
     <string name="action_item_hide">Skryť</string>
     <string name="action_item_hifi">Slúchadlá a efekty</string>
     <string name="action_item_play_all">Prehrať všetko</string>
+    <string name="action_item_play_next">Prehrať neskôr</string>
     <string name="action_item_remove">Odstrániť</string>
     <string name="action_item_remove_from_favorite">Odstrániť z obľúbených</string>
     <string name="action_item_share">Zdieľať</string>
     <string name="action_settings">Nastavenia</string>
     <string name="ad_close">Zavrieť</string>
     <string name="ad_data_exception">Chyba reklamných údajov</string>
-    <string name="ad_recommend">Odporúčania</string>
-    <string name="ad_setting">Nastavenia reklamy</string>
+    <string name="ad_recommend">Dostávať odporúčania</string>
+    <string name="ad_setting">Ďalšie nastavenia</string>
     <string name="add_music">Pridať skladby</string>
     <string name="add_to_last_of_playlist">Pridať na koniec playlistu.</string>
     <string name="add_to_playlist_successful">Pridané</string>
@@ -54,6 +55,8 @@
     <string name="alaka_required">Ak chcete počúvať túto pieseň, musíte zaplatiť</string>
     <string name="album_label">Obaly albumov</string>
     <string name="album_name">Album</string>
+    <string name="all_album_count">Všetky albumy (%d)</string>
+    <string name="all_playlist_count">Všetky zoznamy skladieb (%d)</string>
     <string name="all_tracks">Všetko</string>
     <string name="already_download">Sťahovanie...</string>
     <string name="already_download_btn">Sťahovanie…</string>
@@ -87,7 +90,6 @@
     <string name="audio_recognition_setting_title">Nájsť obaly albumov a texty piesní</string>
     <string name="auto_payment">Automaticky obnoviť</string>
     <string name="auto_payment_date">Budúca platba %s</string>
-    <string name="auto_upgrade">Autom. aktualizácia</string>
     <string name="available_playlist_name_format">Nový playlist %d</string>
     <string name="avoid_to_use_traffic_summary">Upozorniť na spotrebu dát</string>
     <string name="avoid_to_use_traffic_title">Použiť len Wi-Fi pre stream</string>
@@ -170,12 +172,11 @@ is poskytuje predovšetkým spoločnosť Ultimate Inc."</string>
     <string name="dialog_file_already_exists">Nie je možné stiahnuť. Tento súbor už existuje.</string>
     <string name="dialog_file_missing_body">Nie je možné nájsť stiahnutý súbor.</string>
     <string name="dialog_file_missing_title">Súbor sa nedá otvoriť</string>
-    <string name="dialog_insufficient_space_on_cache">Nedostatok miesta na vnútornom úložisku</string>
-    <string name="dialog_insufficient_space_on_external">Nie je dostatok voľného miesta na externom úložisku</string>
+    <string name="dialog_insufficient_space_on_cache">Sťahovanie nie je možné dokončiť, nedostatok interného úložiska.</string>
+    <string name="dialog_insufficient_space_on_external">"Sťahovanie nie je možné dokončiť. Nedostatok
+        miesta na SD karte."</string>
     <string name="dialog_media_not_found">Nie je možné stiahnuť. Karta SD nie je k dispozícii.</string>
     <string name="dialog_queued_body">Tento súbor je v rade pre budúce sťahovania.</string>
-    <string name="dialog_show_more_backup">Zálohovať lokálne skladby</string>
-    <string name="dialog_show_more_optimize_all">Optimalizovať informácie o skladbe</string>
     <string name="dialog_song_sort_type">Zoradiť podľa</string>
     <string name="dialog_song_sort_type_name">Názvu</string>
     <string name="dialog_song_sort_type_playing_times">Počet prehratí</string>
@@ -185,7 +186,7 @@ is poskytuje predovšetkým spoločnosť Ultimate Inc."</string>
     <string name="dialog_song_view_type_artist">Interpréta</string>
     <string name="dialog_song_view_type_folder">Zložky</string>
     <string name="dialog_song_view_type_song">Skladby</string>
-    <string name="dialog_title_clearlist_tracks">Vymazať zoznam prehrávaných skladieb</string>
+    <string name="dialog_title_clearlist_tracks">Odstrániť z frontu</string>
     <string name="dialog_title_delete_tracks">Vymazať</string>
     <string name="dialog_title_name_playlist">Názov</string>
     <string name="dialog_title_not_available">Stiahnutie sa nepodarilo</string>
@@ -220,7 +221,7 @@ is poskytuje predovšetkým spoločnosť Ultimate Inc."</string>
     <string name="download_confirm_button_text">Inštalovať</string>
     <string name="download_confirm_text">MiMusic stiahne a nainštaluje \"%s\"</string>
     <string name="download_done_btn">Stiahnuté</string>
-    <string name="download_error">Neúspešne</string>
+    <string name="download_error">Neúspešné</string>
     <string name="download_error_insufficient_space">Nie je dostatok miesta</string>
     <string name="download_fail_to_fetch_info">Sťahovanie zlyhalo, skúste to znova</string>
     <string name="download_filesize_unknown">Neznáma</string>
@@ -267,6 +268,7 @@ is poskytuje predovšetkým spoločnosť Ultimate Inc."</string>
     <string name="downloading_apk">Sťahuje sa… Zobraziť proces v Notifikačnej roletke.</string>
     <string name="downloading_empty">Prázdne</string>
     <string name="downloading_pause_apk">Pozastavené. Obnoviť v Notifikačnej roletke.</string>
+    <string name="edit_playlist_info">Upraviť informácie zoznamu skladieb</string>
     <string name="empty_page_no_album">Žiadne albumy.</string>
     <string name="empty_page_no_artist">Žiadni umelci.</string>
     <string name="enable_auto_payment_fail">Nemôžem zapnúť</string>
@@ -298,6 +300,7 @@ is poskytuje predovšetkým spoločnosť Ultimate Inc."</string>
     <string name="error_title">Nie je možné synchronizovať</string>
     <string name="error_unauthorized">Synchr. bola deaktivovaná kvôli problémom s prihlásením sa.</string>
     <string name="expired">Ukončené</string>
+    <string name="facebook_not_installed">Najskôr nainštalujte Facebook.</string>
     <string name="fail_to_fetch_payment_page_url">Nepodarilo sa získať informácie o platbe</string>
     <string name="fail_to_play">Prehrávanie zlyhalo</string>
     <string name="fav_login_msg">Pre stiahnutie skladieb sa prihláste do svojho Xiaomi účtu</string>
@@ -408,6 +411,7 @@ is poskytuje predovšetkým spoločnosť Ultimate Inc."</string>
     <string name="local_page_custom_title">Pre vás</string>
     <string name="local_page_playlist">Moje playlisty</string>
     <string name="local_page_song_download_history">Stiahnuté</string>
+    <string name="long_press_to_select_lyric">Press &amp; hold to select local lyrics file</string>
     <string name="lrc_search_failed">Nie je možné nájsť texty</string>
     <string name="lrc_searching">Vyhľadávanie textov...</string>
     <string name="lyric_is_empty">Text nie je dostupný!</string>
@@ -445,12 +449,13 @@ is poskytuje predovšetkým spoločnosť Ultimate Inc."</string>
     <string name="mobile_recommended_title">Spotreba mobilných údajov</string>
     <string name="modify_info_disable_note">Ak chcete upraviť informácie manuálne, najskôr vypnite funkciu \"Hľadať obaly albumov a texty piesní\".</string>
     <string name="modify_lyric">Upraviť Text</string>
+    <string name="modify_pic">Zmeniť obal</string>
     <string name="modify_progress">Upraviť posun Textu</string>
     <string name="modify_progress_helper">Posuňte nahor alebo nadol pre nastavenie posunu Textu</string>
     <string name="modify_song_info">Upraviť informácie o skladbe</string>
     <string name="modify_song_info_success">Informácie o piesni boli aktualizované</string>
     <string name="more">Viac</string>
-    <string name="more_add_song_list">Pridať do aktuálneho zoznamu skladieb</string>
+    <string name="more_add_song_list">Pridať skladby do fronty</string>
     <string name="more_settings">Viac nastavení</string>
     <string name="more_settings_summary">Nastavenie sťahovania, spánku, mobilných dát atď.</string>
     <string name="more_share">Zdieľať</string>
@@ -479,12 +484,14 @@ is poskytuje predovšetkým spoločnosť Ultimate Inc."</string>
     <string name="no_online_song_selected">Žiadne vybrané skladby</string>
     <string name="no_results_return">Nič sa nenašlo</string>
     <string name="no_scanned_songs">Prázdne</string>
-    <string name="no_song">Žiadne skladby</string>
     <string name="no_song_downloaded">Nie je možné sa pripojiť na server</string>
+    <string name="no_song_subtitle">Ponorte sa do zvuku</string>
+    <string name="no_song_title">Mi Hudba</string>
     <string name="no_system_cropper_find">Systém nemá žiadny nástroj na orezanie obrázku</string>
     <string name="normal_quality">Dobrá</string>
     <string name="not_login">Neprihlásený</string>
     <string name="not_selected">Zvoľte skladbu</string>
+    <string name="nothing_changed_toast">Zatiaľ ste nič nezmenili.</string>
     <string name="notif_title_file_size">Celkom: %1$d</string>
     <string name="notif_title_multiple_downloading">Sťahovanie %1$d súborov</string>
     <string name="notif_title_single_downloading">Sťahovanie %1$s</string>
@@ -501,12 +508,10 @@ is poskytuje predovšetkým spoločnosť Ultimate Inc."</string>
     <string name="nowplaying_circle_style">Štýl tlačidla Prehrať</string>
     <string name="nowplaying_circle_style_rainbow">Dúha</string>
     <string name="nowplaying_circle_style_wave">Vlna</string>
-    <string name="nowplaying_dialog_title_delete_tracks">Vymazať playlist?</string>
-    <string name="nowplaying_menu_item_delete">Vymazať</string>
+    <string name="nowplaying_dialog_title_delete_tracks">Odstrániť túto skladbu z frontu?</string>
+    <string name="nowplaying_menu_item_delete">Odstrániť z frontu</string>
     <string name="ok">OK</string>
     <string name="online_list_delete_message">Všetky stiahnuté skladby v tomto zozname skladieb budú vymazané z vnútornej pamäte.</string>
-    <string name="online_music_enabled_summary">Počúvajte a sťahujte vaše obľúbené skladby.</string>
-    <string name="online_music_enabled_title">Streamovanie zdarma</string>
     <string name="online_recommend">Zoznamy skladieb</string>
     <string name="online_service_open_tip">Online hudobné služby sú zapnuté</string>
     <string name="online_service_title">Online služby</string>
@@ -526,6 +531,8 @@ is poskytuje predovšetkým spoločnosť Ultimate Inc."</string>
     <string name="paused_waiting_for_network">Čakanie na pripojenie</string>
     <string name="paused_waiting_to_retry">Čakanie na opakovanie</string>
     <string name="pay_now">Zaplatiť teraz</string>
+    <string name="payment_success_message">Thank you! Your payment was processed successfully. Enjoy PRO services.</string>
+    <string name="payment_success_title">Gratulujeme!</string>
     <string name="pending_apk">Čakanie…</string>
     <string name="permission_declaration_message">Povoľte prístup k úložisku v aplikácií Optimazlizácia > Povolenia > Správa povolení > Úložisko > Hudba pre správne fungovanie aplikácie.</string>
     <string name="permission_declaration_negative_text">Neskôr</string>
@@ -535,12 +542,16 @@ is poskytuje predovšetkým spoločnosť Ultimate Inc."</string>
     <string name="pick_local_song">Lokálne piesne</string>
     <string name="pick_recent_song">Nedávno prehrané</string>
     <string name="play_all_song">Prehrať všetko</string>
+    <string name="play_empty_playlist">Skladby sa nedajú prehrať. Zoznam skladieb je prázdny.</string>
     <string name="play_mode_all_loop">Opakovať všetko</string>
     <string name="play_mode_one_loop">Slučka</string>
     <string name="play_mode_play_all">Prehrať všetko</string>
     <string name="play_mode_shuffle_all">Náhodný výber</string>
     <string name="play_next">Prehrať ďalšiu.</string>
     <string name="playlist_empty">Žiaden playlist</string>
+    <string name="playlist_title">Názov zoznamu skladieb</string>
+    <string name="playlist_title_is_empty">Názov zoznamu skladieb nemôže byť prázdny</string>
+    <string name="playlist_title_is_invalid">Zoznam skladieb už existuje</string>
     <string name="playlist_type_album">Albumy</string>
     <string name="playlist_type_artist">Interprét</string>
     <string name="playlist_type_billboard">Rebríčky</string>
@@ -560,6 +571,7 @@ is poskytuje predovšetkým spoločnosť Ultimate Inc."</string>
     <string name="pulluprefreshrecyclerview_loading_error">Nepodarilo sa načítať</string>
     <string name="pulluprefreshrecyclerview_loading_finished">Úspěšne načítané</string>
     <string name="pulluprefreshrecyclerview_loading_running">Načítavanie…</string>
+    <string name="queue_is_empty">Fronta prehrávania je prázdna.</string>
     <string name="radar">ACRCloud</string>
     <string name="radar_click_to_retry">Poklepte a skúste to znovu</string>
     <string name="radar_fail">Žiadne výsledky</string>
@@ -607,22 +619,19 @@ is poskytuje predovšetkým spoločnosť Ultimate Inc."</string>
     <string name="search_hint">Umelec.Skladba.Album</string>
     <string name="search_history_clear_all">Vyčistiť</string>
     <string name="search_instant_online_music">Online</string>
+    <string name="search_songs_count">Skladby: %d</string>
     <string name="search_title">Vyhľadať</string>
     <string name="select_all">Vybrať všetko</string>
     <string name="select_device">Vyberte zariadenie</string>
     <string name="select_displayed_folders">Vybrať zložky na zobrazenie</string>
-    <string name="select_local_album">Vyberte Lokálny Album</string>
-    <string name="select_local_lyric">Vyberte lokálny Text</string>
+    <string name="select_local_cover">Select local cover</string>
+    <string name="select_local_lyric_file">Select local lyrics file</string>
     <string name="select_none">Zrušiť vybrať všetko</string>
     <string name="selected_count">Vybraných %1$d z %2$d</string>
     <string name="send_to_title">Odoslať (%1$s)</string>
     <string name="server_error">Vyskytla sa chyba. Počkajte chvíľu a skúste to znova.</string>
     <string name="service_and_settings">Nástroje a nastavenia</string>
     <string name="set_as_ring">Nastaviť ako zvonenie</string>
-    <string name="set_id3_failed">Nastavenie skladby zlyhalo</string>
-    <string name="set_id3_not_have_read_or_write_permission">Nemáte povolenie upraviť tento súbor</string>
-    <string name="set_id3_not_support_format">Tento formát súboru nie je možné upraviť</string>
-    <string name="set_id3_successful">Informácie o skladbe uložené</string>
     <string name="set_ringtones_failed">Nastavenie zvonenia zlyhalo.</string>
     <string name="set_ringtones_successful">%s nastavené ako zvonenie.</string>
     <string name="setting_feature_setting">Nastavenie funkcie</string>
@@ -659,7 +668,7 @@ is poskytuje predovšetkým spoločnosť Ultimate Inc."</string>
     <string name="sleep_mode_canceled">Režim spánku zrušený</string>
     <string name="sleep_mode_summary">Posuvníkom nastavte čas</string>
     <string name="sleep_mode_title">Zastaviť prehrávanie po uplynutí času</string>
-    <string name="song_exist_in_playlist">Táto skladba je tiež v zozname skladieb</string>
+    <string name="song_exist_in_playlist">Táto skladba je už vo fronte</string>
     <string name="song_info">Podrobnosti o skladbe</string>
     <string name="song_is_empty">Názov skladby nemôže byť prázdny.</string>
     <string name="song_name">Skladba</string>
@@ -745,4 +754,11 @@ is poskytuje predovšetkým spoločnosť Ultimate Inc."</string>
 
 %Ťuknite na  %s  pre začiatok sťahovania pri novom pripojení k Wi-Fi sieti."</string>
     <string name="wifi_required_title">Tento súbor by ste mali stiahnuť cez sieť Wi-Fi</string>
+    <string name="auto_upgrade">Autom. aktualizácia</string>
+    <string name="dialog_show_more_backup">Zálohovať lokálne skladby</string>
+    <string name="dialog_show_more_optimize_all">Optimalizovať informácie o skladbe</string>
+    <string name="set_id3_failed">Nastavenie skladby zlyhalo</string>
+    <string name="set_id3_not_have_read_or_write_permission">Nemáte povolenie upraviť tento súbor</string>
+    <string name="set_id3_not_support_format">Tento formát súboru nie je možné upraviť</string>
+    <string name="set_id3_successful">Informácie o skladbe uložené</string>
 </resources>

@@ -67,6 +67,10 @@
     <string name="button_confirm">Elfogadás</string>
     <string name="button_exit">Elutasítás</string>
     <string name="button_not_allow">Mégse</string>
+    <string name="button_settings_cancel">Mégse</string>
+    <string name="button_settings_confirm">Visszavonás</string>
+    <string name="button_settings_confirm_to_revoke_msg">Az engedély visszavonása után nem fogja tudni használni az Időjárás alkalmazást.</string>
+    <string name="button_settings_confirm_to_revoke_title">Visszavonja az engedélyt?</string>
     <string name="button_sure_abandon">Elveti a módosításokat?</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Ellenőrizze a hálózati kapcsolatot és próbálja újra</string>
@@ -98,6 +102,7 @@ Húzza lefelé a frissítéshez, vagy ellenőrize a hálózati beállításokat"
     <string name="edit_alert_city_title">Riasztások kezelése</string>
     <string name="edit_city">Városok kezelése</string>
     <string name="empty">" "</string>
+    <string name="eu_region_version_first_start_network_msg">"A termék használatával Ön hozzájárul, hogy a Xiaomi összegyűjtse, feldolgozza és felhasználja az Ön személyes adatait, beleértve a keresett város földrajzi kordinátáit, és az Adatvédelmi irányelvekben megadott adatfajtákat. Az Adatvédelmi irányelvekben megtalálhatja, hogyan kezeljük adatait. Az \"Elfogadás\"-ra kattintva, Ön elfogadja a Xiaomi's%1$s-ét és %2$s-ről szóló nyilatkozatát."</string>
     <string name="feedback_heavy_rain">Kiadós eső</string>
     <string name="feedback_heavy_snow">Hó</string>
     <string name="feedback_light_rain">Szemerkélő eső</string>
@@ -182,12 +187,19 @@ Húzza lefelé a frissítéshez, vagy ellenőrize a hálózati beállításokat"
     <string name="particulate_matter_exceeded">Magas</string>
     <string name="particulate_matter_not_exceeded">Normális</string>
     <string name="particulate_matter_serious_exceeded">Túl magas</string>
+    <string name="policy_settings">Felhasználási feltételek</string>
     <string name="precipitation_degree_five">Kiadós</string>
     <string name="precipitation_degree_four">Erős</string>
     <string name="precipitation_degree_one">Nincs</string>
     <string name="precipitation_degree_three">Közepes</string>
     <string name="precipitation_degree_two">Enyhe</string>
     <string name="pressure_connect">%1$s hPa</string>
+    <string name="privacy_grant_failed">Nem sikerült az engedélyt megadni. Egy-két perc múlva próbálja újra.</string>
+    <string name="privacy_grant_or_revoke_settings">Engedély megadása és visszavonása</string>
+    <string name="privacy_grant_success">Az engedély sikeresen megadva</string>
+    <string name="privacy_revoke_failed">Nem sikerült az engedélyt visszavonni. Egy-két perc múlva próbálja újra.</string>
+    <string name="privacy_revoke_success">Az engedély sikeresen visszavonva</string>
+    <string name="privacy_settings">Adatvédelmi Irányelvek</string>
     <string name="pull_fresh_updated">Sikeresen frissítve</string>
     <string name="pull_fresh_updating">Frissítés…</string>
     <string name="radar_cloud_image_title">Radartérkép</string>
@@ -269,16 +281,4 @@ Húzza lefelé a frissítéshez, vagy ellenőrize a hálózati beállításokat"
     <string name="xiaomi_weather_description_title">Az Időjárásról</string>
     <string name="yes_vote_ratio">Vele: %1$s%%</string>
     <string name="your_location">Saját hely</string>
-    <string name="button_settings_cancel">Mégse</string>
-    <string name="button_settings_confirm">Visszavonás</string>
-    <string name="button_settings_confirm_to_revoke_msg">Az engedély visszavonása után nem fogja tudni használni az Időjárás alkalmazást.</string>
-    <string name="button_settings_confirm_to_revoke_title">Visszavonja az engedélyt?</string>
-    <string name="eu_region_version_first_start_network_msg">"A termék használatával Ön hozzájárul, hogy a Xiaomi összegyűjtse, feldolgozza és felhasználja az Ön személyes adatait, beleértve a keresett város földrajzi kordinátáit, és az Adatvédelmi irányelvekben megadott adatfajtákat. Az Adatvédelmi irányelvekben megtalálhatja, hogyan kezeljük adatait. Az \"Elfogadás\"-ra kattintva, Ön elfogadja a Xiaomi's%1$s-ét és %2$s-ről szóló nyilatkozatát."</string>
-    <string name="policy_settings">Felhasználási feltételek</string>
-    <string name="privacy_grant_failed">Nem sikerült az engedélyt megadni. Egy-két perc múlva próbálja újra.</string>
-    <string name="privacy_grant_or_revoke_settings">Engedély megadása és visszavonása</string>
-    <string name="privacy_grant_success">Az engedély sikeresen megadva</string>
-    <string name="privacy_revoke_failed">Nem sikerült az engedélyt visszavonni. Egy-két perc múlva próbálja újra.</string>
-    <string name="privacy_revoke_success">Az engedély sikeresen visszavonva</string>
-    <string name="privacy_settings">Adatvédelmi Irányelvek</string>
 </resources>

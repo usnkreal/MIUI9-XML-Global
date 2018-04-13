@@ -64,7 +64,7 @@ A szám a kivételek közé kerül, de a korábban letiltott számok nem látsza
     <string name="dlg_antispam_using_mode_delete_message">Törli a jelenleg használatban lévő szabályzást és átvált a tiltólista alapértelmezett szabályaira?</string>
     <string name="dlg_antispam_using_mode_international_delete_message">Törli a jelenleg használatban lévő szabályzást és átvált a tiltólista alapértelmezett szabályaira?</string>
     <string name="back_sound_success">Sikeresen beállítva</string>
-    <string name="back_sound_fail">Nem sikerült beállítani. A szolgáltatói beállítások megváltoztak. Állítsa be az aktuális SIM kártyát adatkártyaként, csatlakozzon a hálózathoz, majd próbálja újra.</string>
+    <string name="back_sound_fail">Nem sikerült beállítani. A szolgáltatói beállítások megváltoztak. Állítsa be az aktuális SIM-kártyát adatkártyaként, csatlakozzon a hálózathoz, majd próbálja újra.</string>
     <string name="back_sound_support">Az Ön szolgáltatói hálózata nem támogatja ezt a beállítást.</string>
     <string name="back_sound_data">Kapcsolja be a mobiladat-forgalmat, majd próbálja újra.</string>
     <string name="dlg_move_to_white">Hozzáadás a kivételekhez</string>
@@ -129,7 +129,7 @@ A számok a kivételek közé kerülnek, de a korábban letiltott számok nem l�
     <string name="st_title_sim_card">%1$s - SIM %2$s</string>
     <string name="st_title_not_sim">Nincs SIM</string>
     <string name="st_sum_call_wait">Ez a foglalt jelzés lesz használatban beérkező hívásokhoz is.</string>
-    <string name="sim_not_ready_toast">A SIM kártya nem áll készen</string>
+    <string name="sim_not_ready_toast">A SIM-kártya nem áll készen</string>
     <string name="st_antispam_bw_man_add">Telefonszám hozzáadása</string>
     <string name="st_antispam_bw_head_add">Előtag hozzáadása</string>
     <string name="st_antispam_bw_pick_add">Névjegyek hozzáadása</string>
@@ -178,7 +178,7 @@ A számok a kivételek közé kerülnek, de a korábban letiltott számok nem l�
     <string name="report_success">Üzenet bejelentve</string>
     <string name="report_error">Bejelentés sikertelen</string>
     <string name="report_warning">Bejelenti %1$s üzenetét? Ezek az üzenetek és telefonszámok ellenőrzés és felülvizsgálat céljából a MI kiszolgálóira kerülnek. Az Ön személyes információi ezekkel az üzenetekkel kapcsolatban mindig titokban maradnak.</string>
-    <string name="report_warning_title">SMS bejelentés</string>
+    <string name="report_warning_title">Figyelmeztetés</string>
     <string name="st_sub_title_customize_mode_name">Név</string>
     <string name="read_all_sms">Összes elolvasása</string>
     <string name="loding">Adatok betöltése</string>
@@ -194,7 +194,7 @@ A számok a kivételek közé kerülnek, de a korábban letiltott számok nem l�
     <string name="st_title_backsound_group">Az elutasítás üzenete</string>
     <string name="st_title_anticomintcall_backsound_setting">Az üzenet használata letiltott számokhoz</string>
     <string name="st_title_settings_other_group">További beállítások</string>
-    <string name="st_title_show_antispam_notification">Tiltólista értesítések</string>
+    <string name="st_title_show_antispam_notification">Tiltólista-értesítések</string>
     <string name="st_title_mode_choose_group">Profilválasztás</string>
     <string name="st_antispam_mode_smart">Bejelentett számok</string>
     <string name="st_antispam_mode_blacklist">Letiltott számok</string>
@@ -336,7 +336,7 @@ A számok a kivételek közé kerülnek, de a korábban letiltott számok nem l�
     <string name="main_button_usage_adjusting_bill">Változtatás…</string>
     <string name="main_button_usage_adjust_manual">Adatforgalom beállítása</string>
     <string name="main_button_usage_package_setting">Adatforgalmi korlát beállítása</string>
-    <string name="main_alert_message_no_imsi">Nincs SIM kártya</string>
+    <string name="main_alert_message_no_imsi">Nem észlelhető SIM-kártya</string>
     <string name="main_primary_message_traffic_remain">Mobiladat</string>
     <string name="main_primary_message_traffic_warning">Mobiladat-forgalmi figyelmeztetés</string>
     <string name="main_primary_message_traffic_overlimit">Mobiladat-kapcsolat limit túllépve</string>
@@ -437,7 +437,7 @@ hogy válaszoljon"</string>
     <string name="pref_bg_network_title">Csatlakozás a háttérben</string>
     <string name="pref_mi_sim_settings">Mi SIM Beállítások</string>
     <string name="pref_title_upload_data_usage">Adatforgalmi statisztika küldése</string>
-    <string name="pref_summary_upload_data_usage">Küldjön adatforgalmi statisztikát, segítsen tökéletesíteni a MIUI rendszert. A jelentés küldése az Adatvédelmi szabályzat szerint zajlik.</string>
+    <string name="pref_summary_upload_data_usage">Küldjön adatforgalmi statisztikát, segítsen tökéletesíteni a MIUI rendszert. A jelentés küldése az Adatvédelmi irányelvek szerint zajlik.</string>
     <string name="pref_manual_adjust">Adatforgalmi adatok kézi beállítása</string>
     <string name="pref_daily_adjust">Adatforgalom beállítása csúcsidőben</string>
     <string name="pref_free_adjust">Adatforgalom beállítása csúcsidőn kívül</string>
@@ -560,9 +560,9 @@ Szolgáltatója különdíjakat számolhat fel, ha visszakapcsolja a mobiladatok
     <string name="traffic_correction_success">Adatforgalom frissítve</string>
     <string name="traffic_correction_failed">Adatforgalmi adatok fogadása nem sikerült</string>
     <string name="traffic_correction_success_notify_message">Érintse meg a megtekintéshez.</string>
-    <string name="sim_location_error_notify_title">SIM kártya hiba</string>
-    <string name="sim_location_error_notify_message">Érintse meg a SIM kártya helyének megváltoztatásához.</string>
-    <string name="sim_location_error_dialog_message">A SIM kártya használati helye: %1$s. Ez más, mint ami kézileg be van állítva (%2$s). Megváltoztatja a SIM kártya helyét erre: %3$s?</string>
+    <string name="sim_location_error_notify_title">SIM-kártya hiba</string>
+    <string name="sim_location_error_notify_message">Érintse meg a SIM-kártya helyének megváltoztatásához.</string>
+    <string name="sim_location_error_dialog_message">A SIM-kártya használati helye: %1$s. Ez más, mint ami kézileg be van állítva (%2$s). Megváltoztatja a SIM-kártya helyét erre: %3$s?</string>
     <string name="package_change_notification_title">Adatkorlátozás automatikus beállítása</string>
     <string name="package_change_notification_summary">további információ.</string>
     <string name="package_setted_error_notification_titile">Nem lehet beállítani a havi adatforgalmat</string>
@@ -600,7 +600,7 @@ A hátralévő adat tartalmazza az előző hónapból áthozott adat mennyisége
     <string name="operator_number_unicom">10010</string>
     <string name="operator_number_telcom">10000</string>
     <string name="operator_mi_sim">Mi SIM</string>
-    <string name="dual_setting_simcard1">1.SIM</string>
+    <string name="dual_setting_simcard1">SIM 1</string>
     <string name="dual_setting_simcard2">SIM 2</string>
     <string name="mi_service_app_detail">Adatforgalmi részletek</string>
     <string name="mi_service_traffic_detail">Framework részletek</string>
@@ -640,7 +640,7 @@ A hátralévő adat tartalmazza az előző hónapból áthozott adat mennyisége
     <string name="tc_sms_report_get_default">A szolgáltatója nem számol fel különdíjat az adatforgalmi adatok lekéréséhez használt üzenetekért.</string>
     <string name="tc_sms_report_toast_text">Adatok lekérése…</string>
     <string name="tc_sms_report_type">Jelentés típusa</string>
-    <string name="privacy_declare_dialog_title">Felhasználási feltételek</string>
+    <string name="privacy_declare_dialog_title">Szolgáltatási feltételek</string>
     <string name="sc_allow_network_dialog_tiltle">Nem használható az adattömörítés</string>
     <string name="sc_allow_network_dialog_message">Ön korlátozta a Biztonság alkalmazás hálózati kapcsolatát és a helymeghatározás hozzáférését. A szolgáltatás használatához adja meg ezeket a jogokat a Biztonság alkalmazásnak.</string>
     <string name="privacy_prompt_upload">Feltöltés</string>
@@ -723,8 +723,8 @@ A hitelesítéskor a MIUI szöveges üzenetet fog küldeni a szolgáltatójának
     <string name="signal_exception_title">Gyenge a hálózati jel</string>
     <string name="signal_exception_summary">Ebben a körzetben nem lehet csatlakozni az internethez.</string>
     <string name="usbsharenet_exception_title">USB-n megosztott internet ellenőrzése</string>
-    <string name="usbsharenet_exception_summary">Nem sikerült kapcsolódni az internethez USB-n keresztül. Ellenőrizze a készülék USB csatlakozását és indítsa újra a Mi PC Suite alkalmazást.</string>
-    <string name="usbsharenet_pc_exception_summary">Nem sikerült a megosztott USB kapcsolattal való internetelérés. Ellenőrizze a számítógép internetkapcsolatát.</string>
+    <string name="usbsharenet_exception_summary">Nem sikerült kapcsolódni az internethez USB-n keresztül. Ellenőrizze a készülék USB-kapcsolatát és indítsa újra a Mi PC Suite alkalmazást.</string>
+    <string name="usbsharenet_pc_exception_summary">Nem sikerült a megosztott USB-kapcsolattal való internetelérés. Ellenőrizze a számítógép internetkapcsolatát.</string>
     <string name="gateway_exception_title">Router ellenőrzése</string>
     <string name="gateway_exception_summary">Ellenőrizze a routert és próbálja újra.</string>
     <string name="gateway_exception_summary2">Nem sikerült kapcsolódni a szerverhez</string>
@@ -741,14 +741,14 @@ A hitelesítéskor a MIUI szöveges üzenetet fog küldeni a szolgáltatójának
     <string name="notify_month_traffic_title_for_slotnum">Ebben a hónapban %1$s felhasznált %2$s</string>
     <string name="notify_month_traffic_body">Adatforgalmi korlát beállítása a havi csomag túllépésének elkerülése érdekében.</string>
     <string name="notify_daily_limit_title">Ma %s felhasználva</string>
-    <string name="notify_daily_limit_title_for_slotnum">A mai napon %1$s felhasznált %2$s</string>
+    <string name="notify_daily_limit_title_for_slotnum">%1$s %2$s adatot használt ma</string>
     <string name="notify_daily_limit_body">Adatforgalmi limit beállítása.</string>
     <string name="network_blocked_notification_summary">Hálózat tesztelése.</string>
     <string name="network_blocked_switch_wifi">Hálózatváltás</string>
     <string name="wifi_network_blocked_notification_title">Nincs internetkapcsolat</string>
     <string name="data_network_blocked_notification_title">Nincs internetkapcsolat</string>
-    <string name="sim_state_exception_summary">SIM állapot SIM kártyahibát jelez.</string>
-    <string name="network_operator_exception_summary">Nem sikerült aktiválni a SIM kártyát. ellenőrizze, hogy a SIM kártya megfelelően lett behelyezve és az előfizetése tartalmazza a mobiladat-kapcsolatot.</string>
+    <string name="sim_state_exception_summary">A SIM állapot jelzi, hogy valami gond lehet az Ön SIM-kártyájával.</string>
+    <string name="network_operator_exception_summary">Nem sikerült aktiválni a SIM-kártyát. Ellenőrizze, hogy a SIM-kártya megfelelően lett behelyezve és a szolgáltatója aktiválta a mobiladat-kapcsolatot.</string>
     <string name="network_blocked_connected_open_wifi">Nyilvános hálózathoz csatlakozva</string>
     <string name="network_connected_exception_title">Hálózati teszt</string>
     <string name="protocol_exception_title">Hálózati protokoll diagnosztika</string>
@@ -766,13 +766,13 @@ A hitelesítéskor a MIUI szöveges üzenetet fog küldeni a szolgáltatójának
  2. Ha most töltötte fel egyenlegét, indítsa újra a készülékét majd próbálja újra.
 
  3. A szolgáltató térereje gyenge jelenlegi tartózkodási helyén."</string>
-    <string name="network_sim_exception_detail">"Lehetséges, hogy probléma van a SIM kártyával:
+    <string name="network_sim_exception_detail">"Lehetséges, hogy probléma van a SIM-kártyával:
 
-1. Győződjön meg arról, hogy SIM beállításai megfelelnek a szolgáltató előírásainak. Próbálja egy ismerős SIM kártyáját nézze meg, hogy azzal tud-e normálisan csatlakozni.
+1. Győződjön meg arról, hogy SIM beállításai megfelelnek a szolgáltató előírásainak. Próbálja egy ismerős SIM-kártyáját nézze meg, hogy azzal tud-e normálisan csatlakozni.
 
-2. Ha Ön 2 SIM kártyát használ, próbáljon átváltani a másik kártyára, hogy meglássa tud-e csatlakozni normálisan.
+2. Ha Ön 2 SIM-kártyát használ, próbáljon átváltani a másik kártyára, hogy meglássa tud-e csatlakozni normálisan.
 
-3. Győződjön meg róla, hogy a SIM kártya és a foglalata nem sérült-e. Bizonyosodjon meg róla, hogy a SIM, amit használ tökéletesen illeszkedik a készülék SIM foglalatába."</string>
+3. Győződjön meg róla, hogy a SIM-kártya és a foglalata nem sérült-e. Bizonyosodjon meg róla, hogy a SIM, amit használ tökéletesen illeszkedik a készülék SIM foglalatába."</string>
     <string name="network_route_exception_detail">"Hiba lehet a csatlakozott routerrel:
 
  "<b>1. Nyilvános Wi-Fi hálózati hiba</b>"
@@ -871,7 +871,7 @@ Próbálja ki másik Ethernet kábellel csatlakoztatni a routert. Ha úgy gondol
     <string name="status_bar_network_flow_setup_data_plan">"   Adatterv állítása >"</string>
     <string name="status_bar_network_flow_phone_balance">"   Telefon egyenlege:%1$s "</string>
     <string name="status_bar_network_flow_exceed_content">Ma: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Terv túllépve: &lt;font color=%2$s>%3$s&lt;/font></string>
-    <string name="status_bar_network_flow_content">Ma: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;;Hátralévő: %2$s</string>
+    <string name="status_bar_network_flow_content">Ma: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Hátralévő: %2$s</string>
     <string name="status_bar_network_flow_content_not_setting">Ma: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;A hónapban: %2$s</string>
     <string name="status_bar_network_flow_today">Ma: %1$s</string>
     <string name="pref_key_tethering_setting">Egyszeri adatkorlát</string>
@@ -1024,7 +1024,7 @@ a készülékét"</string>
     <string name="battery_history_minutes">%1$dp %2$dmp</string>
     <string name="battery_history_seconds">%1$dmp</string>
     <string name="delete">Törlés</string>
-    <string name="every_day">Mindennap</string>
+    <string name="every_day">Minden nap</string>
     <string name="legal_workday">Hivatalos munkanapokon</string>
     <string name="never">1 alkalommal</string>
     <string name="power_20s_shutdown">%d mp múlva kikapcsolás</string>
@@ -1095,7 +1095,7 @@ a készülékét"</string>
     <string name="deep_save_memory_clean_summary">Alkalmazások bezárása a képernyő lezárása után (nem ajánlott)</string>
     <string name="btn_text_open_now">Bekapcsol</string>
     <string name="btn_text_already_opened">Be</string>
-    <string name="deep_save_ontime_boot_shutdown_summary">Készülék ki- bekapcsolásának ideje</string>
+    <string name="deep_save_ontime_boot_shutdown_summary">Készülék be- és kikapcsolásának időzítése</string>
     <string name="btn_text_quick_save_power">Lehűtés</string>
     <string name="notification_battery_consume_abnormal_title">Az akku túl gyorsan merül</string>
     <string name="notification_battery_consume_abnormal_summary">%2$s-kal merült az elmúlt %1$d percben</string>
@@ -1342,7 +1342,7 @@ a készülékét"</string>
     <string name="cancel">Mégse</string>
     <string name="score_pts">%</string>
     <string name="btn_text_quick_cleanup">Tisztítás</string>
-    <string name="btn_text_power_cleanup">Alapos tisztítás</string>
+    <string name="btn_text_power_cleanup">Mély tisztítás</string>
     <string name="btn_text_network_speed_detail">Kapcsolat</string>
     <string name="btn_text_quick_scan">Keresés</string>
     <string name="menu_text_antivirus">Biztonsági vizsgálat</string>
@@ -1397,8 +1397,8 @@ a készülékét"</string>
     <string name="title_mms_yes">Üzenetek szűrése bekapcsolva</string>
     <string name="summary_mms">Kéretlen üzenetek szűrése (ügynökök, reklámok, stb.)</string>
     <string name="title_chain_start">Láncindulás korlátozása</string>
-    <string name="title_usb_no">USB hibakeresés bekapcsolva</string>
-    <string name="title_usb_yes">USB hibakeresés kikapcsolása</string>
+    <string name="title_usb_no">USB-hibakeresés bekapcsolva</string>
+    <string name="title_usb_yes">USB-hibakeresés kikapcsolva</string>
     <string name="summary_usb">Vírusok USB-n keresztüli terjedésének megakadályozása</string>
     <string name="title_virus_update_no">Vírusadatbázis automatikus frissítés kikapcsolása</string>
     <string name="title_virus_update_yes">Vírusadatbázis automatikus frissítés bekapcsolása</string>
@@ -1411,7 +1411,7 @@ a készülékét"</string>
     <string name="title_dev_yes">Fejlesztői beállítások kikapcsolva</string>
     <string name="title_dev_no">Fejlesztői beállítások bekapcsolva</string>
     <string name="summary_dev">Felhasználói adatok védelme</string>
-    <string name="item_usb_debug">USB hibakeresés</string>
+    <string name="item_usb_debug">USB-hibakeresés</string>
     <string name="item_virus_lib">Vírus adatbázis frissítése automatikusan</string>
     <string name="item_system_auto_download">Automatikusan töltse le a frissítéseket</string>
     <string name="item_install_monitor">Telepítés ellenőrzése</string>
@@ -1604,6 +1604,20 @@ a készülékét"</string>
     <string name="title_garbage_clean">Alkalmazás gyorsítótár elérte a %s-ot</string>
     <string name="summary_garbage_clean">Gyorsítótár törlése hely felszabadításához</string>
     <string name="summary_consume_power">Túlmelegedés problémák észlelve, ez hatással lehet az akku élettartamára</string>
+    <string name="title_restrict_data_usage">%s nem tud az internetre kapcsolódni?</string>
+    <string name="summary_restrict_data_usage">Ön korlátozta ennek az alkalmazásnak az adatfelhasználását. Érintse meg a javításhoz.</string>
+    <string name="title_background_connection">%s nem képes a háttérben működni?</string>
+    <string name="summary_background_connection">Ön korlátozta ennek az alkalmazásnak a háttérbeli kapcsolódását. Érintse meg a javításhoz.</string>
+    <string name="title_block_calls_from_cantacts">Elmulasztott hívásokat a névjegyeiből ismert számokról?</string>
+    <string name="summary_block_calls_from_cantacts">Ön tiltólistát használ. Érintse meg a javításhoz.</string>
+    <string name="title_block_calls_from_strangers">Fontos hívásokat mulasztott el?</string>
+    <string name="summary_block_calls_from_strangers">Ön csak a névjegyzékben szereplő számokról érkező hívásokat engedélyezte. Érintse meg a javításhoz.</string>
+    <string name="title_do_not_disturb">Nem hallja a csengőhangot?</string>
+    <string name="summary_do_not_disturb">Ne zavarjanak módot használ. Érintse meg a javításhoz.</string>
+    <string name="title_eye_shield">A képernyő színei nem látszanak helyesnek?</string>
+    <string name="summary_eye_shield">Ön Olvasómódot használ. Érintse meg a javításhoz.</string>
+    <string name="dialog_button_ignore">Kihagyás</string>
+    <string name="dialog_button_yes">Igen</string>
     <string name="summary_default_app">%s nincs beállítva alapértelmezett rendszer alkalmazásnak</string>
     <string name="notification_summary_cmcc_app_check">Kattintson a részletek megtekintéséhez.</string>
     <string name="title_cmcc_app_check">Az ellenőrzés még nem fejeződött be</string>
@@ -1619,11 +1633,11 @@ a készülékét"</string>
     <string name="antivirus_choose_engine">%s</string>
     <string name="antivirus_monitor_clean_tips">Törölt elemek: %s</string>
     <string name="antivirus_none_engine_dialog_ok">OK</string>
-    <string name="antivirus_privacy_dialog_title">Adatvédelmi Nyilatkozat</string>
+    <string name="antivirus_privacy_dialog_title">Adatvédelmi irányelvek</string>
     <string name="antivirus_privacy_dialog_summary">Ez a funkció titkosítja és feltölti készülékének azonosítóját az Avast, AVL és a Tencent szerverére (%s).</string>
-    <string name="antivirus_privacy_dialog_summary_link">Adatvédelmi Nyilatkozat megtekintése</string>
-    <string name="antivirus_privacy_dialog_cloudscan">Alkalmazás neveinek és adatainak feltöltése</string>
-    <string name="antivirus_privacy_dialog_cloudscan_description">Alkalmazás neveinek és adatatok keresése és feltöltése az online adatbázis használatával.</string>
+    <string name="antivirus_privacy_dialog_summary_link">adatvédelmi irányelvek megtekintése</string>
+    <string name="antivirus_privacy_dialog_cloudscan">Alkalmazások neveinek és adatainak feltöltése</string>
+    <string name="antivirus_privacy_dialog_cloudscan_description">Alkalmazások neveinek és adatainak feltöltése és átvizsgálása online adatbázisok használatával.</string>
     <string name="antivirus_privacy_dialog_ok">OK</string>
     <string name="pref_title_manual_check_virus_db_update">Frissítések keresése</string>
     <string name="virus_update_tips_title">Figyelmeztetés</string>
@@ -1685,7 +1699,7 @@ a készülékét"</string>
     <string name="title_of_auto_launch_manage">Automatikus indítás</string>
     <string name="tips_of_auto_launch_manage">Ritkán használt alkalmazások automatikus indításának megakadályozása</string>
     <string name="close">Bezárás</string>
-    <string name="clear_garbage">Lomtár törlése hely felszabadításához</string>
+    <string name="clear_garbage">Felesleges fájlok törlése hely felszabadításához</string>
     <string name="booster_immediately">Gyorsítás</string>
     <string name="antivirus_monitor_btn_text_clean_virus">Vírusok törlése</string>
     <string name="antivirus_monitor_btn_text_clean_risk">Kockázatos alkalmazások törlése</string>
@@ -1733,6 +1747,15 @@ a készülékét"</string>
     <string name="card_main_xspace_action">Létrehozás</string>
     <string name="card_main_overscroll_tips">Biztonság a legjobb formájában</string>
     <string name="card_main_gamebooster_title">Játékteljesítmény-növelő</string>
+    <string name="exit_dialog_scan_title">Teljesítmény optimalizálása</string>
+    <string name="exit_dialog_scan_message">Készülékének teljesítményeredménye 75 pont alatt van. Optimalizálja most?</string>
+    <string name="exit_dialog_scan_positive_button">Optimalizálás</string>
+    <string name="exit_dialog_garbage_clean_title">Felesleges fájlok törlése</string>
+    <string name="exit_dialog_garbage_clean_message">A felesleges fájlok mennyisége a készülékén több, mint %s. Törli a fájlokat?</string>
+    <string name="exit_dialog_garbage_clean_positive_button">Törlés</string>
+    <string name="exit_dialog_release_storage_title">Tárhely felszabadítása</string>
+    <string name="exit_dialog_release_storage_message">Készüléke tárhelyének több, mint 80 százaléka foglalt. Szabadítson fel helyet olyan alkalmazások törlésével, amiket sosem használ.</string>
+    <string name="exit_dialog_release_storage_positive_button">Tárhely felszabadítása</string>
     <string name="skin_change_close_toast">A változások életbe lépnek, mikor legközelebb elindítja a Biztonság alkalmazást</string>
     <string name="password_type">Jelszó módosítása</string>
     <string name="password_type_underline"><u>Jelszó módosítása</u></string>
@@ -1951,7 +1974,7 @@ a készülékét"</string>
     <string name="app_manager_default_open_title">Alapértelmezések törlése</string>
     <string name="app_manager_default_close_summary">Nincs alapértelmezett beállítva.</string>
     <string name="app_manager_default_open_summary">Ön kijelölte ezt az alkalmazást alapértelemzettként néhány művelethez.</string>
-    <string name="app_manager_app_version_name">Verzió:</string>
+    <string name="app_manager_app_version_name">"Verzió: "</string>
     <string name="app_manager_unstall_application">Eltávolítás</string>
     <string name="app_manager_force_stop_dlg_title">Kényszeríti a leállítást?</string>
     <string name="app_manager_force_stop_dlg_text">Ha egy alkalmazást leállásra kényszerít, az rendellenes működést okozhat.</string>
@@ -2192,7 +2215,7 @@ a készülékét"</string>
     <string name="game_ad_recommendation">Mindenki játszik!</string>
     <string name="game_booster_close">Játékteljesítmény-növelő kikapcsolva</string>
     <string name="databooster_tips_title">Figyelem</string>
-    <string name="databooster_tips_message">Engedélyezze az összes SIM kártya korlátozásához az adatkapcsolatra használt kártyát kivéve. Kapcsolja ki, ha problémák adódnak a választott játékánál.</string>
+    <string name="databooster_tips_message">Engedélyezze az összes SIM-kártya korlátozásához az adatkapcsolatra használt kártyát kivéve. Kapcsolja ki, ha problémák adódnak a választott játékánál.</string>
     <string name="gb_description_image_button_answer">Fogadás</string>
     <string name="gb_description_image_button_video_answer">Videohívás</string>
     <string name="gb_description_image_button_reject">Elutasítás</string>
@@ -2222,6 +2245,13 @@ a készülékét"</string>
     <string name="gs_open_game_booster_summary">Hálózatsebesség növelése játékokhoz</string>
     <string name="gb_signed_gift_loading_summary">Egy pillanat…</string>
     <string name="gb_signed_gift_loading_fail">Nem sikerült betölteni</string>
+    <string name="gb_msg_completely_shielded">Üzenetek elrejtése</string>
+    <string name="gb_msg_quickly_answer">Gyorsválasz engedélyezése</string>
+    <string name="gb_msg_transparent_dispaly">Értesítések átlátszó háttérrel</string>
+    <string name="gb_msg_completely_shielded_summary">Elrejtés</string>
+    <string name="gb_msg_quickly_answer_summary">Gyorsválaszok</string>
+    <string name="gb_msg_transparent_dispaly_summary">Átlátszó</string>
+    <string name="exit_dialog_homepage_optimise_message">Készülékének teljesítményeredménye 80 pont alatt van. Optimalizálja most?</string>
     <string name="power_center_consume_rank">Akkumulátor használat</string>
     <string name="power_center_custom_title">Energiatakarékosság</string>
     <string name="power_center_auto_shutdown_summary_default">Be- és kikapcsolás előre beállított időben</string>

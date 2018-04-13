@@ -980,7 +980,7 @@ Pour commencer, appuyez sur l'icône Fusionner en bas de votre écran."</string>
     <string name="search_contacts_display">Contacts;Afficher</string>
     <string name="search_contacts_more">Organiser;Contacts</string>
     <string name="search_contacts_recovery">Contacts</string>
-    <string name="search_contacts_setting">"Paramètres des Contacts;Afficher les photos et infos;Assigner des photos de contact;Importer et exporter;Partager; Importer de la carte SD;Importer de la carte SIM;Importer à partir d'un autre téléphone;Exporter de la carte SD;Exporter depuis la carte SIM;Partager des contacts; Afficher les préférences;Masquer les numéros incomplets;Afficher les contacts de la SIM;Configurer les listes de contacts;Groupes intelligents;Organiser les contacts; Fusionner les contacts en double;Supprimer le lot;Effacer les données;Recréer les index de données;t9;Stockage de la carte SIM;Introduction de la récupération des contacts;Photos de contact"</string>
+    <string name="search_contacts_setting">"Paramètres des Contacts;Afficher les photos et infos;Assigner des photos de contact;Importer et exporter;Partager; Importer de la stockage;Importer de la carte SIM;Importer à partir d'un autre téléphone;Exporter vers le stockage;Exporter vers la carte SIM;Partager des contacts; Afficher les préférences;Masquer les numéros incomplets;Afficher les contacts de la SIM;Configurer les listes de contacts;Groupes intelligents;Organiser les contacts; Fusionner les contacts en double;Supprimer le lot;Effacer les données;Recréer les index de données;t9;Stockage de la carte SIM;Introduction de la récupération des contacts;Photos de contact"</string>
     <string name="search_display_only_phones">Contacts;Afficher</string>
     <string name="search_display_sim_contacts">Contacts;Afficher</string>
     <string name="search_export_to_sdcard">Contacts;Importer;stockage</string>
@@ -1003,7 +1003,7 @@ Pour commencer, appuyez sur l'icône Fusionner en bas de votre écran."</string>
     <string name="search_simple_mode">Afficher;informations;photos;Contacts</string>
     <string name="search_smart_group_title">Contacts;Afficher</string>
     <string name="search_wipe_data">Organiser;Contacts</string>
-    <string name="searching_vcard_message">Recherche de données vCard sur le stockage...</string>
+    <string name="searching_vcard_message">"Recherche de données vCard depuis l'appareil…"</string>
     <string name="select_all">Tout sélectionner</string>
     <string name="select_all_exceed">Sélectionner au plus %1$d, impossible de sélectionner plus</string>
     <string name="select_exceed">Sélectionner au plus %1$d</string>

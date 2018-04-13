@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="folder_operations">
-        <item>Premenovať</item>
-        <item>Vymazať</item>
-    </string-array>
     <string-array name="attachment_chooser">
         <item>Fotoaparát</item>
         <item>Galéria</item>
-    </string-array>
-    <string-array name="note_sort_way">
-        <item>Podľa dátumu vytvorenia</item>
-        <item>Podľa dátumu úpravy</item>
     </string-array>
     <string-array name="contact_entries">
         <item>Meno</item>
@@ -25,11 +17,19 @@
         <item>Adresa</item>
         <item>Poznámka</item>
     </string-array>
+    <string-array name="folder_operations">
+        <item>Premenovať</item>
+        <item>Vymazať</item>
+    </string-array>
     <string-array name="font_size_names">
         <item>Malé</item>
         <item>Stredné</item>
         <item>Veľké</item>
         <item>Obrovské</item>
+    </string-array>
+    <string-array name="note_sort_way">
+        <item>Podľa dátumu vytvorenia</item>
+        <item>Podľa dátumu úpravy</item>
     </string-array>
     <string-array name="welcome_notes_content">
         <item>\"Teraz môžete ľahko zapisovať vaše poznámky, myšlienky a nápady \"</item>

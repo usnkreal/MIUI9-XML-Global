@@ -18,7 +18,7 @@
     <string name="date_day" />
     <string name="date_month">/</string>
     <string name="date_year">/</string>
-    <string name="description_content">"מקליט המסך מספק יכולות הקלטה ברמת המערכת. לא תוכל להשתמש ב'מקליט המסך' במידה ותמשיך. אשר על מנת להמשיך."</string>
+    <string name="description_content">"'מקליט המסך' מספק יכולות הקלטה ברמת המערכת. לא תוכל להשתמש ב'מקליט המסך' במידה ותמשיך. אשר על מנת להמשיך."</string>
     <string name="description_title">"אודות 'מקליט המסך'"</string>
     <string name="deselect_all">הסר בחירה מהכל</string>
     <string name="error_open_file_failed_no_app_found">לא ניתן היה למצוא יישום לפתיחת קובץ זה</string>
@@ -47,7 +47,7 @@
     <string name="no_sound">השתק</string>
     <string name="operation_delete">מחיקה</string>
     <string name="operation_send">שליחה</string>
-    <string name="quit_recording">"יצא מ'מקליט המסך'"</string>
+    <string name="quit_recording">"יציאה מ'מקליט המסך'"</string>
     <string name="recording_failure">לא ניתן היה להקליט, התחל מחדש</string>
     <string name="recording_max_size">ההקלטה נעצרה ונשמרה כיוון שקובץ הוידאו הגיע לתקרת מגבלת הגודל שלו. התחל להקליט מהמקום בו היא נעצרה במידה ועדיין לא סיימת.</string>
     <string name="recording_without_mic">המיקרופון נמצא בשימוש, אינך יכול להקליט שמע.</string>

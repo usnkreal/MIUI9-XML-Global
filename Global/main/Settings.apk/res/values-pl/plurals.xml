@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="firewall_item_summary">
+        <item quantity="other">Ograniczono połączenia dla %s aplikacji</item>
+        <item quantity="one">Ograniczono połączenia dla %s aplikacji</item>
+        <item quantity="few">Ograniczono połączenia dla %s aplikacji</item>
+        <item quantity="many">Ograniczono połączenia dla %s aplikacji</item>
+    </plurals>
+    <plurals name="bg_network_allow_count">
+        <item quantity="other">%d aplikacji może łączyć się z siecią</item>
+        <item quantity="one">%d aplikacja może łączyć się z siecią</item>
+        <item quantity="few">%d aplikacje mogą łączyć się z siecią</item>
+        <item quantity="many">%d aplikacji może łączyć się z siecią</item>
+    </plurals>
+    <plurals name="bg_network_restrict_count">
+        <item quantity="other">%d aplikacji nie może łączyć się z siecią</item>
+        <item quantity="one">%d aplikacja nie może łączyć się z siecią</item>
+        <item quantity="few">%d aplikacje nie mogą łączyć się z siecią</item>
+        <item quantity="many">%d aplikacji nie może łączyć się z siecią</item>
+    </plurals>
     <plurals name="status_bar_settings_disabled_header_title">
         <item quantity="other">%d aplikacji nie może pokazywać powiadomień</item>
         <item quantity="one">%d aplikacja nie może pokazywać powiadomień</item>

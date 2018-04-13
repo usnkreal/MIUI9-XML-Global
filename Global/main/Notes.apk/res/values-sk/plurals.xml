@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="note_terms">
-        <item quantity="other">(%1$s)</item>
-        <item quantity="one">(%1$s)</item>
-        <item quantity="few">(%1$s)</item>
-        <item quantity="many">%1$s notes</item>
+    <plurals name="cloud_state_unsynced_count">
+        <item quantity="other">Nebolo synchr.: %1$s</item>
+        <item quantity="one">Nebolo synchr.: %1$s</item>
+        <item quantity="few">Nebolo synchr.: %1$s</item>
+        <item quantity="many">"%1$s haven't been synced"</item>
     </plurals>
     <plurals name="folder_terms">
         <item quantity="other">(%1$s)</item>
@@ -12,10 +12,10 @@
         <item quantity="few">(%1$s)</item>
         <item quantity="many">%1$s folders</item>
     </plurals>
-    <plurals name="cloud_state_unsynced_count">
-        <item quantity="other">Nebolo synchr.: %1$s</item>
-        <item quantity="one">Nebolo synchr.: %1$s</item>
-        <item quantity="few">Nebolo synchr.: %1$s</item>
-        <item quantity="many">"%1$s haven't been synced"</item>
+    <plurals name="note_terms">
+        <item quantity="other">(%1$s)</item>
+        <item quantity="one">(%1$s)</item>
+        <item quantity="few">(%1$s)</item>
+        <item quantity="many">%1$s notes</item>
     </plurals>
 </resources>

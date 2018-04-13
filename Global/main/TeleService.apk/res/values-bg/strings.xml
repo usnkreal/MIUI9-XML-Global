@@ -1092,7 +1092,6 @@
     <string name="network_unlock">Отключване</string>
     <string name="roaming_notification_title">Изглежда, че сте активирали роуминг.</string>
     <string name="roaming_notification_content">Може да добавите кода на страната автоматично, за ваше удобство.</string>
-    <string name="livetalk_setting">Top-up пакет</string>
     <string name="description_image_button_one">едно</string>
     <string name="description_image_button_two">две</string>
     <string name="description_image_button_three">три</string>
@@ -1187,6 +1186,7 @@
     <string name="sum_cfu_enabled_indicator_by_sim">Всички обаждания към SIM %s ще бъдат пренасочени</string>
     <string name="preference_dial_pad_touch_tone_off">Изкл</string>
     <string name="msim_disable_sim_card_summary_telecom_vice_card_inEcm">Не ограничавайте втората SIM карта за обаждания при извънредни ситуации.</string>
+    <string name="msim_cmcc_dds_switch_not_support">Не може да се превключи между SIM картите поради ограничения от оператора.</string>
     <string name="simFdnContacts_empty">Няма контакти за фиксирано набиране.</string>
     <string name="bad_pin2_old">Въведеният от вас стар PIN2 е неправилен.</string>
     <string name="dtmf_tone_entries_normal">Нормално</string>
@@ -1195,6 +1195,7 @@
     <string name="network_type_3g_preferred_cmcc">3G/2G</string>
     <string name="change_default_data_card">SIM карта по подр. за мобилни данни</string>
     <string name="change_default_data_card_summary">Изглежда сте сменили SIM картите. Да се зададе ли тази СИМ за мобилни данни по подразбиране?</string>
+    <string name="volte_switch_title_ct">VoLTE активирано</string>
     <string name="volte_switch_summary2">Потвърдете, че вашият оператор поддържа тази услуга, преди да я включите. В противен случай обикновените обаждания могат да бъдат засегнати.</string>
     <string name="volte_switch_not_support_summary">VoLTE обажданията не се поддържат за SIM карти, които са само за мобилни данни.</string>
     <string name="volte_switch_not_support_summary2">VoLTE обажданията не се поддържат от оператора.</string>
@@ -1259,13 +1260,15 @@
     <string name="cfnry_time_twenty_five_sec">25 сек</string>
     <string name="cfnry_time_thirty_sec">30 сек</string>
     <string name="cfnry_time_setting_title">Задайте време за изчакване</string>
-    <string name="prompt_when_turnon_volte_without_lte">Няма налични LTE мрежи. Включването на VoLTE може да попречи да извършите обикновени обаждания.</string>
+    <string name="prompt_when_turnon_volte_without_lte">Няма налични VoLTE мрежи. Включването на VoLTE може да попречи да извършите обикновени обаждания.</string>
     <string name="prompt_when_turnon_volte_on_3g_prefered">Изберете LTE за предпочитана мрежа, преди да включите VoLTE.</string>
     <string name="prompt_to_turnoff_volte_when_failed">VoLTE услугите не са налични. Изключете VoLTE, за да извършите обаждане.</string>
-    <string name="volte_tips_when_turn_on">VoLTE услугите на China Telecom се предоставят само в зони с LTE покритие на мрежата.</string>
+    <string name="volte_tips_when_turn_on">Услугите VoLTE на Телеком Китай се предоставят единствено в райони с необходимото покритие. VoLTE услугите се предоставят от оператора.</string>
     <string name="prompt_to_turnoff_volte_when_supp_service">Услугата не е налична. Изключете VoLTE от Настройки.</string>
     <string name="prefered_network_type_3g_promp">Вие трябва да изключите VoLTE преди да изберете 3G за предпочитана мрежа. Да се изключи ли сега?</string>
     <string name="close_volte">Изкл на VoLTE</string>
+    <string name="vice_card_data_in_use_alert">Може да се генерират допълнителни разходи.</string>
+    <string name="switch_dds_to_sub_alert">Задайте тази карта като карта за данни по подразбиране.</string>
     <string name="pick_outgoing_call_phone_type">Провеждане на обаждане</string>
     <string name="pick_outgoing_sip_phone">Използване на профил за интернет обаждания:</string>
     <string name="remember_my_choice">Да се използва винаги за провеждане на интернет обаждания</string>
@@ -1414,6 +1417,7 @@
     <string name="can_not_use">Не може да се използва</string>
     <string name="incall_error_no_active_sim">Няма активна SIM карта.</string>
     <string name="incall_error_sim_deactive">SIM картата не е активна</string>
+    <string name="livetalk_setting">Top-up пакет</string>
     <string name="select_one_sim_title">Да се използва само SIM %1$d</string>
     <string name="select_sim_hint">Не може да използвате SIM %2$d, докато SIM %1$d е в употреба.</string>
 </resources>

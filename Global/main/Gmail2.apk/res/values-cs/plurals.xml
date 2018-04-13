@@ -43,40 +43,40 @@
         <item quantity="many">%1$d konverzace bylo nahlášeno jako spam a byli jste odhlášeni z odběru</item>
     </plurals>
     <plurals name="conversation_muted">
-        <item quantity="other">&lt;b>%1$d&lt;/b> konverzací bylo ignorováno</item>
-        <item quantity="one">&lt;b>%1$d&lt;/b> konverzace byla ignorována</item>
-        <item quantity="few">&lt;b>%1$d&lt;/b> konverzace byly ignorovány</item>
-        <item quantity="many">&lt;b>%1$d&lt;/b> konverzace bylo ignorováno</item>
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> konverzací bylo ignorováno</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> konverzace byla ignorována</item>
+        <item quantity="few">&amp;lt;b>%1$d&amp;lt;/b> konverzace byly ignorovány</item>
+        <item quantity="many">&amp;lt;b>%1$d&amp;lt;/b> konverzace bylo ignorováno</item>
     </plurals>
     <plurals name="conversation_spammed">
-        <item quantity="other">&lt;b>%1$d&lt;/b> konverzací bylo nahlášeno jako spam</item>
-        <item quantity="one">&lt;b>%1$d&lt;/b> konverzace byla nahlášena jako spam</item>
-        <item quantity="few">&lt;b>%1$d&lt;/b> konverzace byly nahlášeny jako spam</item>
-        <item quantity="many">&lt;b>%1$d&lt;/b> konverzace bylo nahlášeno jako spam</item>
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> konverzací bylo nahlášeno jako spam</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> konverzace byla nahlášena jako spam</item>
+        <item quantity="few">&amp;lt;b>%1$d&amp;lt;/b> konverzace byly nahlášeny jako spam</item>
+        <item quantity="many">&amp;lt;b>%1$d&amp;lt;/b> konverzace bylo nahlášeno jako spam</item>
     </plurals>
     <plurals name="conversation_not_spam">
-        <item quantity="other">U &lt;b>%1$d&lt;/b> konverzací bylo nahlášeno, že nejsou spam</item>
-        <item quantity="one">U &lt;b>%1$d&lt;/b> konverzace bylo nahlášeno, že není spam</item>
-        <item quantity="few">U &lt;b>%1$d&lt;/b> konverzací bylo nahlášeno, že nejsou spam</item>
-        <item quantity="many">U &lt;b>%1$d&lt;/b> konverzace bylo nahlášeno, že není spam</item>
+        <item quantity="other">U &amp;lt;b>%1$d&amp;lt;/b> konverzací bylo nahlášeno, že nejsou spam</item>
+        <item quantity="one">U &amp;lt;b>%1$d&amp;lt;/b> konverzace bylo nahlášeno, že není spam</item>
+        <item quantity="few">U &amp;lt;b>%1$d&amp;lt;/b> konverzací bylo nahlášeno, že nejsou spam</item>
+        <item quantity="many">U &amp;lt;b>%1$d&amp;lt;/b> konverzace bylo nahlášeno, že není spam</item>
     </plurals>
     <plurals name="conversation_not_important">
-        <item quantity="other">&lt;b>%1$d&lt;/b> konverzací bylo označeno jako nedůležité</item>
-        <item quantity="one">&lt;b>%1$d&lt;/b> konverzace byla označena jako nedůležitá</item>
-        <item quantity="few">&lt;b>%1$d&lt;/b> konverzace byly označeny jako nedůležité</item>
-        <item quantity="many">&lt;b>%1$d&lt;/b> konverzace bylo označeno jako nedůležité</item>
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> konverzací bylo označeno jako nedůležité</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> konverzace byla označena jako nedůležitá</item>
+        <item quantity="few">&amp;lt;b>%1$d&amp;lt;/b> konverzace byly označeny jako nedůležité</item>
+        <item quantity="many">&amp;lt;b>%1$d&amp;lt;/b> konverzace bylo označeno jako nedůležité</item>
     </plurals>
     <plurals name="conversation_archived">
-        <item quantity="other">&lt;b>%1$d&lt;/b> konverzací bylo archivováno</item>
-        <item quantity="one">&lt;b>%1$d&lt;/b> konverzace byla archivována</item>
-        <item quantity="few">&lt;b>%1$d&lt;/b> konverzace byly archivovány</item>
-        <item quantity="many">&lt;b>%1$d&lt;/b> konverzace bylo archivováno</item>
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> konverzací bylo archivováno</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> konverzace byla archivována</item>
+        <item quantity="few">&amp;lt;b>%1$d&amp;lt;/b> konverzace byly archivovány</item>
+        <item quantity="many">&amp;lt;b>%1$d&amp;lt;/b> konverzace bylo archivováno</item>
     </plurals>
     <plurals name="conversation_deleted">
-        <item quantity="other">&lt;b>%1$d&lt;/b> konverzací bylo smazáno</item>
-        <item quantity="one">&lt;b>%1$d&lt;/b> konverzace byla smazána</item>
-        <item quantity="few">&lt;b>%1$d&lt;/b> konverzace byly smazány</item>
-        <item quantity="many">&lt;b>%1$d&lt;/b> konverzace bylo smazáno</item>
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> konverzací bylo smazáno</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> konverzace byla smazána</item>
+        <item quantity="few">&amp;lt;b>%1$d&amp;lt;/b> konverzace byly smazány</item>
+        <item quantity="many">&amp;lt;b>%1$d&amp;lt;/b> konverzace bylo smazáno</item>
     </plurals>
     <plurals name="conversation_folder_changed">
         <item quantity="other">Štítků bylo změněno.</item>
@@ -127,10 +127,10 @@
         <item quantity="many">%1$d přílohy</item>
     </plurals>
     <plurals name="dialog_report_spam_unsubscribe_text">
-        <item quantity="other">Kromě označení této zprávy jako spamu vás Gmail může automaticky odhlásit z odběru od těchto &lt;b>%2$d odesílatelů&lt;/b>: %1$s</item>
+        <item quantity="other">Kromě označení této zprávy jako spamu vás Gmail může automaticky odhlásit z odběru od těchto &amp;lt;b>%2$d odesílatelů&amp;lt;/b>: %1$s</item>
         <item quantity="one">Kromě označení této zprávy jako spamu vás Gmail může automaticky odhlásit z odběru od odesílatele %1$s.</item>
-        <item quantity="few">Kromě označení této zprávy jako spamu vás Gmail může automaticky odhlásit z odběru od těchto &lt;b>%2$d odesílatelů&lt;/b>: %1$s</item>
-        <item quantity="many">Kromě označení této zprávy jako spamu vás Gmail může automaticky odhlásit z odběru od &lt;b>%2$d odesílatele&lt;/b>: %1$s</item>
+        <item quantity="few">Kromě označení této zprávy jako spamu vás Gmail může automaticky odhlásit z odběru od těchto &amp;lt;b>%2$d odesílatelů&amp;lt;/b>: %1$s</item>
+        <item quantity="many">Kromě označení této zprávy jako spamu vás Gmail může automaticky odhlásit z odběru od &amp;lt;b>%2$d odesílatele&amp;lt;/b>: %1$s</item>
     </plurals>
     <plurals name="sync_recent">
         <item quantity="other">Synchronizovat: %1$d dní</item>
@@ -163,13 +163,13 @@
         <item quantity="many">Poznámka: Někteří příjemci možná stále nemají přístup k těmto souborům. Je možné, že s nimi tyto soubory budete muset sdílet přímo z Disku Google.</item>
     </plurals>
     <plurals name="fix_permissions_outside_domain_warning">
-        <item quantity="other">"Chystáte se sdílet soubory s uživateli, kteří nejsou v rámci Google Apps členy organizace, jež tyto soubory vlastní:&lt;br>&lt;b>
-%1$s&lt;/b>&lt;br>."</item>
-        <item quantity="one">Chystáte se sdílet soubor s uživateli, kteří nejsou v rámci Google Apps členy organizace, jež tento soubor vlastní:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>.</item>
-        <item quantity="few">"Chystáte se sdílet soubory s uživateli, kteří nejsou v rámci Google Apps členy organizace, jež tyto soubory vlastní:&lt;br>&lt;b>
-%1$s&lt;/b>&lt;br>."</item>
-        <item quantity="many">"Chystáte se sdílet soubory s uživateli, kteří nejsou v rámci Google Apps členy organizace, jež tyto soubory vlastní:&lt;br>&lt;b>
-%1$s&lt;/b>&lt;br>."</item>
+        <item quantity="other">"Chystáte se sdílet soubory s uživateli, kteří nejsou v rámci Google Apps členy organizace, jež tyto soubory vlastní:&amp;lt;br>&amp;lt;b>
+%1$s&amp;lt;/b>&amp;lt;br>."</item>
+        <item quantity="one">Chystáte se sdílet soubor s uživateli, kteří nejsou v rámci Google Apps členy organizace, jež tento soubor vlastní:&amp;lt;br>&amp;lt;b>%1$s&amp;lt;/b>&amp;lt;br>.</item>
+        <item quantity="few">"Chystáte se sdílet soubory s uživateli, kteří nejsou v rámci Google Apps členy organizace, jež tyto soubory vlastní:&amp;lt;br>&amp;lt;b>
+%1$s&amp;lt;/b>&amp;lt;br>."</item>
+        <item quantity="many">"Chystáte se sdílet soubory s uživateli, kteří nejsou v rámci Google Apps členy organizace, jež tyto soubory vlastní:&amp;lt;br>&amp;lt;b>
+%1$s&amp;lt;/b>&amp;lt;br>."</item>
     </plurals>
     <plurals name="files_not_shared_dialog_body">
         <item quantity="other">K souborům, které jste vložili z Disku, možná příjemci nebudou mít přístup. Je možné, že s nimi soubory budete muset sdílet přímo z Disku Google.</item>

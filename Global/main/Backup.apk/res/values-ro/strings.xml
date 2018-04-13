@@ -250,7 +250,7 @@ Delta Dimensiune actualizare: %2$s"</string>
     <string name="err_filesystem_mount">Nu se poate accesa stocarea routerului</string>
     <string name="err_router_disconnected">Verificați conexiunea routerului și încercați din nou.</string>
     <string name="err_router_files_delete">Nu se pot şterge fişierele de rezervă de pe router</string>
-    <string name="err_not_allow">Nu sunt acceptate</string>
+    <string name="err_not_allow">Nu este suportat</string>
     <string name="backup_is_running">Se realizează copie de rezervă a dispozitivului</string>
     <string name="restore_is_running">Restabilre dispozitiv</string>
     <string name="notif_backup_title">Crează copie de rezervă a datelor</string>

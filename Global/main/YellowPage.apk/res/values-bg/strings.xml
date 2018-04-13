@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">Придвижване към „Начало“</string>
+    <string name="abc_action_bar_home_description_format">„%1$s“ – %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">„%1$s“, „%2$s“ – %3$s</string>
+    <string name="abc_action_bar_up_description">Придвижване нагоре</string>
+    <string name="abc_action_menu_overflow_description">Още опции</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_activity_chooser_view_see_all">Вижте всички</string>
+    <string name="abc_activitychooserview_choose_application">Изберете приложение</string>
+    <string name="abc_search_hint">Търсете…</string>
+    <string name="abc_searchview_description_clear">Изчистване на заявката</string>
+    <string name="abc_searchview_description_query">Заявка за търсене</string>
+    <string name="abc_searchview_description_search">Търсене</string>
+    <string name="abc_searchview_description_submit">Изпращане на заявката</string>
+    <string name="abc_searchview_description_voice">Гласово търсене</string>
+    <string name="abc_shareactionprovider_share_with">Споделяне със:</string>
+    <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
+    <string name="abc_toolbar_collapse_description">Свиване</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="about_smart_antispam_summary">Относно тази функция</string>
     <string name="about_telephone_fraud">Защитете се от измами</string>
     <string name="account_address">Адреси</string>
@@ -115,16 +133,15 @@
     <string name="mark_number_check_dialog_title">Отбележете номера</string>
     <string name="mark_number_check_most_choice">(Избор на повечето потребители)</string>
     <string name="mark_number_custom_mark_deleted">Информацията за отбелязването е изтрита</string>
-    <string name="mark_number_delete_confirm_message">Преместване на информацията за отбелязване %s?</string>
+    <string name="mark_number_delete_confirm_message">Да се премести ли инф. за флага %s?</string>
     <string name="mark_number_delete_confirm_title">Преместване на информацията за отбелязване</string>
     <string name="mark_number_dialog_maintitle">Отбележете този номер</string>
     <string name="mark_number_dialog_subtitle">%1$s (отбелязани от %2$d хора)</string>
     <string name="mark_number_feedback">Отбелязване</string>
-    <string name="mark_number_feedback_hint">Въведете Отзив</string>
+    <string name="mark_number_feedback_hint">Убедете се, че сте въвели вярна информация.</string>
     <string name="mark_number_feedback_invalid_hint">Въведете вашия отзив</string>
-    <string name="mark_number_feedback_not_number">Това не е %s номер</string>
-    <string name="mark_number_feedback_personal_number">Личен номер</string>
-    <string name="mark_number_feedback_success">Информацията за отбелязването е изпратена успешно</string>
+    <string name="mark_number_feedback_success">Получена е информация за флага</string>
+    <string name="mark_number_feedback_title_hint">Този номер:</string>
     <string name="mark_number_marked_maintitle">Променете информацията за отбелязването</string>
     <string name="mark_number_marked_subtitle">%s (настоящо отбелязване)</string>
     <string name="mark_number_notification_title">Докладвай като подозрителен номер</string>
@@ -260,6 +277,7 @@
     <string name="turn_on_smart_antispam_summary">Качване на разпознати нежелани номера от историята на обажданията и съобщенията</string>
     <string name="turn_on_smart_antispam_title">Идентификация на обаждането</string>
     <string name="turn_on_yellowpage_service_title">Използване на Идентификатор на обажданията</string>
+    <string name="unicom_yellow_page_operator_provided">Доставя се от оператора</string>
     <string name="uploads_disabled">Качването на файлове е забранено</string>
     <string name="user_agreement2">" Обезпечаване"</string>
     <string name="user_agreement4">Правилата за поверителност</string>

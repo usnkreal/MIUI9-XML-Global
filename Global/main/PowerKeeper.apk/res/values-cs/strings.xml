@@ -27,6 +27,9 @@
     <string name="power_usage">Spotřeba energie</string>
     <string name="power_mode">Nastavení napájení</string>
     <string name="performance_category">Výkon</string>
+    <string name="pref_config_title">Optimalizace výkonu</string>
+    <string name="app_preload_policies_title">AI přednačítání</string>
+    <string name="app_preload_policies_summary">Využít automatické učení pro předvídání vámi nejčastěji využívaných aplikací a načítat tak jejich zdroje v předstihu.</string>
     <string name="scenario_policies_warmcontrol">Kontrola teploty</string>
     <string name="warm_configure">Nastavení kontroly teploty</string>
     <string name="important_warning">Upozornění</string>
@@ -72,11 +75,18 @@ Spořič baterie rozpoznává každou aplikaci individuálně."</string>
     <string name="update_profile_sucess">Aktualizace ze serveru byla úspěšná</string>
     <string name="update_profile_failture_not_connect_wifi">Nelze aktualizovat. Připojte se k síti Wi-Fi a zkuste to znovu.</string>
     <string name="sucess">Dokončeno</string>
-    <string name="failure">Neúspěšné</string>
+    <string name="failure">Chyba</string>
     <string name="cloud_addr_info">Informace o Cloudu</string>
     <string name="lasttime_feature_cloud">Aktualizované funkce:</string>
     <string name="lasttime_applist_cloud">Aktualizované aplikace:</string>
     <string name="base_info">Základní informace</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_result_text">Nenalezeny žádné aplikace</string>
+    <string name="power_consume_abnormal_night">Baterie je v noci vybitá</string>
+    <string name="enable_sleep_mode">Pro optimalizaci využití baterie během noci zapněte Režim spánku</string>
+    <string name="sleepmode_privacy_title">Režim spánku</string>
+    <string name="sleepmode_privacy_content">Tato funkce bude využívat systém vašeho telefonu a informace o zařízení. Tato data nebudou na servery nahrána.</string>
+    <string name="sleepmode_privacy_link">Zjistěte více o ochraně soukromí a bezpečnosti</string>
+    <string name="sleepmode_disclaimer_cancel">Zrušit</string>
+    <string name="sleepmode_disclaimer_agree">Souhlasím</string>
 </resources>

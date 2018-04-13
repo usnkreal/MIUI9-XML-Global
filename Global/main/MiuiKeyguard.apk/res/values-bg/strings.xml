@@ -19,6 +19,7 @@
     <string name="input_pin_code">Въведи PIN</string>
     <string name="incorrect_pukcode">Неправилен PUK код</string>
     <string name="incorrect_pincode">Неправилен PIN код</string>
+    <string name="kg_password_pin_failed">SIM PIN операцията е неуспешна!</string>
     <string name="lock_screen_date">EEEE, dd MMMM</string>
     <string name="lock_screen_date_12">EEEE, d MMMM</string>
     <string name="phone_locked_string">Устройството е заключено</string>
@@ -65,7 +66,7 @@
     <string name="input_password_after_boot_msg">За да отключите вашето устройство, въведете паролата си</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">Трябва да влезете в Основно работно място след рестарт на устройството</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Не може да се превключва между пространства по време на обаждане</string>
-    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Не можете да превключвате между пространства, когато зелената защита е активна</string>
+    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Не може да се превключи между работните места, когато услугата Родителски контрол е включена</string>
     <string name="input_password_handle_sdcard_fs">Не може да влезете във Второ работно място от заключен екран. Направете го от Основно работно място.</string>
     <string name="accessibility_enter_lock_wallpaper">Чукнете, за да отворите Wallpaper Carousel</string>
     <string name="wallpaper_global_des_drop_down_notify_text">Пуснете за да видите детайли</string>

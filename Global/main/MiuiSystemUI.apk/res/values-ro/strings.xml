@@ -471,6 +471,7 @@ Pentru mai multe informații, contactați administratorul dvs."</string>
     <string name="notification_group_title_text">%1$s (%2$s)</string>
     <string name="notification_group_overflow_indicator">+%s</string>
     <string name="click_to_return_multi_window">Atingeți pentru a reveni la Ecranul împărțit</string>
+    <string name="click_to_return_multi_window_of_notch">Înapoi la Ecranul împărțit</string>
     <string name="recent_dock_tip">Atinge pentru a selecta aplicații</string>
     <string name="recent_cannot_dock">Nu se poate utiliza Ecranul împărțit în Al doilea spațiu</string>
     <string name="dock_keyguard_locked_failed_to_dock_text">Ecranul separat nu este acceptat pe Ecranul de blocare.</string>
@@ -496,7 +497,7 @@ Pentru mai multe informații, contactați administratorul dvs."</string>
     <string name="fs_gesture_final_over">Gata</string>
     <string name="no_sim_card">Nicio cartelă SIM</string>
     <string name="prompt_detecting">Se detectează</string>
-    <string name="prompt_danger">Risc</string>
+    <string name="prompt_danger">Pericol</string>
     <string name="prompt_failure">Eroare</string>
     <string name="prompt_safe">Securizat</string>
     <string name="prompt_unknown">Necunoscut</string>

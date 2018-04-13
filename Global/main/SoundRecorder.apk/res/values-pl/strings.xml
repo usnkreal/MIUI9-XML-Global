@@ -73,7 +73,7 @@
     <string name="pause">Wstrzymaj</string>
     <string name="back">Wstecz</string>
     <string name="menu">Menu</string>
-    <string name="toast_uninstall_fileexplorer">Brak zainstalowanego Eksplorera</string>
+    <string name="toast_uninstall_fileexplorer">Menadżer plików nie jest zainstalowany</string>
     <string name="record_download">Pobierz z chmury Xiaomi</string>
     <string name="record_download_msg">Nagrania mogą zostać odtworzone po pobraniu na urządzenie</string>
     <string name="record_download_msg_reload">Nagranie nie istnieje</string>

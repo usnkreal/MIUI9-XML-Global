@@ -67,6 +67,10 @@
     <string name="button_confirm">Приемам</string>
     <string name="button_exit">Не приемам</string>
     <string name="button_not_allow">Забрани</string>
+    <string name="button_settings_cancel">Отказ</string>
+    <string name="button_settings_confirm">Отмяна</string>
+    <string name="button_settings_confirm_to_revoke_msg">Вие няма да можете да използвате приложението Време след като отмените разрешението си.</string>
+    <string name="button_settings_confirm_to_revoke_title">Отмяна на разрешението?</string>
     <string name="button_sure_abandon">Отмени промените?</string>
     <string name="card_vote_item_vs">За/Пр</string>
     <string name="change_alert">Проверете мрежовата връзка и опитайте отново</string>
@@ -98,6 +102,7 @@
     <string name="edit_alert_city_title">Упр. на предупрежденията</string>
     <string name="edit_city">Редакция на град</string>
     <string name="empty">" "</string>
+    <string name="eu_region_version_first_start_network_msg">С използването на този продукт, вие се съгласявате с това, че Xiaomi ще събира, обработва и използва вашите лични данни, включително и вашето местоположение или координатите на търсеното от вас, както е според нашата Политика на поверителност. Запознайте се с нашата Политика на поверителност, за да разберете как използваме вашите лични данни и информация за местоположението. С натискане на \"Съгласен\" вие приемате Xiaomi %1$s и %2$s.</string>
     <string name="feedback_heavy_rain">Силен дъжд</string>
     <string name="feedback_heavy_snow">Сняг</string>
     <string name="feedback_light_rain">Лек дъждец</string>
@@ -182,12 +187,19 @@
     <string name="particulate_matter_exceeded">Високо</string>
     <string name="particulate_matter_not_exceeded">Нормално</string>
     <string name="particulate_matter_serious_exceeded">Прекалено високо</string>
+    <string name="policy_settings">Условия за ползване</string>
     <string name="precipitation_degree_five">Мн. силно</string>
     <string name="precipitation_degree_four">Силно</string>
     <string name="precipitation_degree_one">Няма</string>
     <string name="precipitation_degree_three">Средно</string>
     <string name="precipitation_degree_two">Слабо</string>
     <string name="pressure_connect">%1$s мбар</string>
+    <string name="privacy_grant_failed">Не може да се предостави разрешението. Изчакайте минута-две и опитайте отново.</string>
+    <string name="privacy_grant_or_revoke_settings">Предоставя се &amp; отмяна на разрешението</string>
+    <string name="privacy_grant_success">Успешно придобито разрешение</string>
+    <string name="privacy_revoke_failed">Не може да се отмени разрешението. Изчакайте минута-две и опитайте отново.</string>
+    <string name="privacy_revoke_success">Разрешението е успешно отменено</string>
+    <string name="privacy_settings">Политика на поверителност</string>
     <string name="pull_fresh_updated">Успешно актуализиране</string>
     <string name="pull_fresh_updating">Актуализиране…</string>
     <string name="radar_cloud_image_title">Радарна карта</string>
@@ -269,16 +281,4 @@
     <string name="xiaomi_weather_description_title">За Прогноза за Времето</string>
     <string name="yes_vote_ratio">За %1$s%%</string>
     <string name="your_location">Вашето местоположение</string>
-    <string name="button_settings_cancel">Отказ</string>
-    <string name="button_settings_confirm">Отмяна</string>
-    <string name="button_settings_confirm_to_revoke_msg">Вие няма да можете да използвате приложението Време след като отмените разрешението си.</string>
-    <string name="button_settings_confirm_to_revoke_title">Отмяна на разрешението?</string>
-    <string name="eu_region_version_first_start_network_msg">С използването на този продукт, вие се съгласявате с това, че Xiaomi ще събира, обработва и използва вашите лични данни, включително и вашето местоположение или координатите на търсеното от вас, както е според нашата Политика на поверителност. Запознайте се с нашата Политика на поверителност, за да разберете как използваме вашите лични данни и информация за местоположението. С натискане на \"Съгласен\" вие приемате Xiaomi %1$s и %2$s.</string>
-    <string name="policy_settings">Условия за ползване</string>
-    <string name="privacy_grant_failed">Не може да се предостави разрешението. Изчакайте минута-две и опитайте отново.</string>
-    <string name="privacy_grant_or_revoke_settings">Предоставя се &amp; отмяна на разрешението</string>
-    <string name="privacy_grant_success">Успешно придобито разрешение</string>
-    <string name="privacy_revoke_failed">Не може да се отмени разрешението. Изчакайте минута-две и опитайте отново.</string>
-    <string name="privacy_revoke_success">Разрешението е успешно отменено</string>
-    <string name="privacy_settings">Политика на поверителност</string>
 </resources>

@@ -142,6 +142,10 @@ http://zhushou.xiaomi.com"</string>
     <string name="notification_express_available">Vaše aktualizace (%1$s) je připravena ke stažení</string>
     <string name="notification_express_ready">Vaše aktualizace (%1$s) je připravena k instalaci</string>
     <string name="express_update_reserve_content">Momentálně nelze provést přímou aktualizaci. Chcete o aktualizaci (%1$s) zažádat? Upozorníme vás, jakmile bude %1$s dostupná pro vaše zařízení. Do té doby budete dostávat pravidelné aktualizace.</string>
+    <string name="express_update_reserve_content2">"Některé věci se po aktualizaci na stabilní ROM změní. Bude se jednat o následující:
+1. Přístup k ROOTování bude zakázán, i když jste jej předtím povolili.
+ 2. Množství funkcí z Beta ROM nebudou ve stabilní verzi dostupné."</string>
+    <string name="express_update_reserve_check_text">Rozumím rozdílům mezi oběma ROM verzemi</string>
     <string name="express_update_reserve_positive">Zažádat o aktualizaci (%s)</string>
     <string name="express_update_reserve_negative">Není třeba</string>
     <string name="express_update_switch_content_no_erase">MIUI bude aktualizováno na novou verzi (%s). Tato aktualizace neovlivní vaše data v zařízení.</string>

@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="firewall_item_summary">
+        <item quantity="other">Pripojenie obmedzené pre %s aplikácií</item>
+        <item quantity="one">Pripojenie obmedzené pre %s aplikáciu</item>
+        <item quantity="few">Pripojenie obmedzené pre %s aplikácie</item>
+        <item quantity="many">Pripojenie obmedzené pre %s aplikácie</item>
+    </plurals>
+    <plurals name="bg_network_allow_count">
+        <item quantity="other">%d aplikácií sa môže pripojiť k sieti</item>
+        <item quantity="one">%d aplikácia sa môže pripojiť k sieti</item>
+        <item quantity="few">%d aplikácie sa môžu pripojiť k sieti</item>
+        <item quantity="many">%d aplikácie sa môže pripojiť k sieti</item>
+    </plurals>
+    <plurals name="bg_network_restrict_count">
+        <item quantity="other">%d aplikácií sa nemôže pripojiť k sieti</item>
+        <item quantity="one">%d aplikácia sa nemôže pripojiť k sieti</item>
+        <item quantity="few">%d aplikácie sa nemôžu pripojiť k sieti</item>
+        <item quantity="many">%d aplikácie sa nemôže pripojiť k sieti</item>
+    </plurals>
     <plurals name="status_bar_settings_disabled_header_title">
         <item quantity="other">%d aplikácií nemôže zobrazovať upozornenia</item>
         <item quantity="one">%d aplikácia nemôže zobrazovať upozornenia</item>
@@ -122,30 +140,30 @@
         <item quantity="other">Kód PIN musí obsahovať %d čísiel</item>
         <item quantity="one">Kód PIN musí obsahovať %d číslo</item>
         <item quantity="few">Kód PIN musí obsahovať %d čísla</item>
-        <item quantity="many">PIN must be %d digits long</item>
+        <item quantity="many">Kód PIN musí obsahovať %d čísla</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long">
         <item quantity="other">Kód PIN môže obsahovať až %d čísiel</item>
         <item quantity="one">Kód PIN môže obsahovať %d číslo</item>
         <item quantity="few">Kód PIN môže obsahovať až %d čísla</item>
-        <item quantity="many">PIN can contain up to %d digits</item>
+        <item quantity="many">Kód PIN môže obsahovať %d čísel</item>
     </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
         <item quantity="other">Pospájajte aspoň %d bodiek. Skúste to znovu.</item>
         <item quantity="one">Pospájajte aspoň %d bodku. Skúste to znovu.</item>
         <item quantity="few">Pospájajte aspoň %d bodky. Skúste to znovu.</item>
-        <item quantity="many">Connect at least %d dots. Try again.</item>
+        <item quantity="many">Pospájajte aspoň %d bodky. Skúste to znovu.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts">
         <item quantity="other">Príliš mnoho nesprávnych pokusov. Skúste to znova za %d sekúnd.</item>
         <item quantity="one">Príliš mnoho nesprávnych pokusov. Skúste to znova za %d sekundu.</item>
         <item quantity="few">Príliš mnoho nesprávnych pokusov. Skúste to znova za %d sekundy.</item>
-        <item quantity="many">Too many incorrect attempts. Try again in %d seconds.</item>
+        <item quantity="many">Príliš mnoho nesprávnych pokusov. Skúste to znova za %d sekundy.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
         <item quantity="other">Počkajte %d sekúnd a skúste to znova.</item>
         <item quantity="one">Počkajte %d sekundu a skúste to znova.</item>
         <item quantity="few">Počkajte %d sekundy a skúste to znova.</item>
-        <item quantity="many">Wait for %d seconds and try again.</item>
+        <item quantity="many">Počkajte %d sekundy a skúste to znova.</item>
     </plurals>
 </resources>

@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">Přejít na plochu</string>
+    <string name="abc_action_bar_home_description_format">%1$s – %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s – %3$s</string>
+    <string name="abc_action_bar_up_description">Přejít nahoru</string>
+    <string name="abc_action_menu_overflow_description">Více možností</string>
+    <string name="abc_action_mode_done">Hotovo</string>
+    <string name="abc_activity_chooser_view_see_all">Zobrazit vše</string>
+    <string name="abc_activitychooserview_choose_application">Vybrat aplikaci</string>
+    <string name="abc_search_hint">Vyhledat…</string>
+    <string name="abc_searchview_description_clear">Smazat dotaz</string>
+    <string name="abc_searchview_description_query">Vyhledávací dotaz</string>
+    <string name="abc_searchview_description_search">Hledat</string>
+    <string name="abc_searchview_description_submit">Odeslat dotaz</string>
+    <string name="abc_searchview_description_voice">Hlasové vyhledávání</string>
+    <string name="abc_shareactionprovider_share_with">Sdílet pomocí</string>
+    <string name="abc_shareactionprovider_share_with_application">Sdílet pomocí %s</string>
+    <string name="abc_toolbar_collapse_description">Sbalit</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="about_smart_antispam_summary">Informace o této funkci</string>
     <string name="about_telephone_fraud">Vyvarujte se podvodům a obtěžování</string>
     <string name="account_address">Adresy</string>
@@ -120,11 +138,10 @@
     <string name="mark_number_dialog_maintitle">Označit toto telefonní číslo příznakem</string>
     <string name="mark_number_dialog_subtitle">%1$s (označilo %2$d lidí)</string>
     <string name="mark_number_feedback">Příznak</string>
-    <string name="mark_number_feedback_hint">Napište svůj názor</string>
+    <string name="mark_number_feedback_hint">Ujistěte se, že zadané informace jsou správné.</string>
     <string name="mark_number_feedback_invalid_hint">Napište svůj názor</string>
-    <string name="mark_number_feedback_not_number">Toto není číslo %s</string>
-    <string name="mark_number_feedback_personal_number">Toto je osobní číslo</string>
-    <string name="mark_number_feedback_success">Informace o příznaku odeslány</string>
+    <string name="mark_number_feedback_success">Získali jste informace o příznaku</string>
+    <string name="mark_number_feedback_title_hint">Toto číslo:</string>
     <string name="mark_number_marked_maintitle">Změnit informace o příznaku</string>
     <string name="mark_number_marked_subtitle">%s (současný příznak)</string>
     <string name="mark_number_notification_title">Nahlásit podezřelé číslo</string>
@@ -260,6 +277,7 @@ Celkem: %3$s RMB"</string>
     <string name="turn_on_smart_antispam_summary">Nahrát a identifikovat neznámá telefonní čísla z historie volání a textových zpráv</string>
     <string name="turn_on_smart_antispam_title">ID volajícího</string>
     <string name="turn_on_yellowpage_service_title">Použít ID volajícího</string>
+    <string name="unicom_yellow_page_operator_provided">Poskytováno operátorem</string>
     <string name="uploads_disabled">Nahrávání souborů je vypnuto</string>
     <string name="user_agreement2">" Smluvní podmínky"</string>
     <string name="user_agreement4">Ochrana osobních údajů</string>

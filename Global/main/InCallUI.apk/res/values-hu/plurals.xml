@@ -4,8 +4,4 @@
         <item quantity="other">%d hívás rögzítve.</item>
         <item quantity="one">%d hívás rögzítve.</item>
     </plurals>
-    <plurals name="livetalk_left_minute">
-        <item quantity="other">%d perc van hátra</item>
-        <item quantity="one">%d perc van hátra</item>
-    </plurals>
 </resources>

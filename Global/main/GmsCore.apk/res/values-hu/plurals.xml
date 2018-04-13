@@ -137,51 +137,51 @@
         <item quantity="one">perc</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day">
-        <item quantity="other">Előfizetése lemondásáig a rendszer automatikusan megterheli a számláját &lt;price> %1$s összeggel minden %2$d. napon&lt;/price>, a következő dátumtól kezdődően: &lt;start_time>%3$s&lt;/start_time>.</item>
-        <item quantity="one">Előfizetése lemondásáig a rendszer automatikusan megterheli a számláját &lt;price> %1$s összeggel minden napon&lt;/price>, a következő dátumtól kezdődően: &lt;start_time>%3$s&lt;/start_time>.</item>
+        <item quantity="other">Előfizetése lemondásáig a rendszer automatikusan megterheli a számláját &amp;lt;price> %1$s összeggel minden %2$d. napon&amp;lt;/price>, a következő dátumtól kezdődően: &amp;lt;start_time>%3$s&amp;lt;/start_time>.</item>
+        <item quantity="one">Előfizetése lemondásáig a rendszer automatikusan megterheli a számláját &amp;lt;price> %1$s összeggel minden napon&amp;lt;/price>, a következő dátumtól kezdődően: &amp;lt;start_time>%3$s&amp;lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day_limited">
-        <item quantity="other">A rendszer automatikusan megterheli a számláját &lt;price>%1$s összeggel %2$d&lt;/price> a következő &lt;duration>%3$d nap mindegyikén&lt;/duration>, kezdve a következő dátummal: &lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="one">A rendszer automatikusan megterheli a számláját &lt;price>%1$s összeggel&lt;/price> a következő &lt;duration>%3$d nap mindegyikén&lt;/duration>, kezdve a következő dátummal: &lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="other">A rendszer automatikusan megterheli a számláját &amp;lt;price>%1$s összeggel %2$d&amp;lt;/price> a következő &amp;lt;duration>%3$d nap mindegyikén&amp;lt;/duration>, kezdve a következő dátummal: &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="one">A rendszer automatikusan megterheli a számláját &amp;lt;price>%1$s összeggel&amp;lt;/price> a következő &amp;lt;duration>%3$d nap mindegyikén&amp;lt;/duration>, kezdve a következő dátummal: &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day_tax">
-        <item quantity="other">Előfizetése lemondásáig a rendszer automatikusan megterheli a számláját &lt;price>%1$s összeggel, valamint a vonatkozó adókkal, minden %2$d. napon&lt;/price>, kezdve a következő dátummal: &lt;start_time>%3$s&lt;/start_time>.</item>
-        <item quantity="one">Előfizetése lemondásáig a rendszer automatikusan megterheli a számláját &lt;price>%1$s összeggel, valamint a vonatkozó adókkal, minden napon&lt;/price>, kezdve a következő dátummal: &lt;start_time>%3$s&lt;/start_time>.</item>
+        <item quantity="other">Előfizetése lemondásáig a rendszer automatikusan megterheli a számláját &amp;lt;price>%1$s összeggel, valamint a vonatkozó adókkal, minden %2$d. napon&amp;lt;/price>, kezdve a következő dátummal: &amp;lt;start_time>%3$s&amp;lt;/start_time>.</item>
+        <item quantity="one">Előfizetése lemondásáig a rendszer automatikusan megterheli a számláját &amp;lt;price>%1$s összeggel, valamint a vonatkozó adókkal, minden napon&amp;lt;/price>, kezdve a következő dátummal: &amp;lt;start_time>%3$s&amp;lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day_tax_limited">
-        <item quantity="other">A rendszer automatikusan megterheli a számláját &lt;price>%1$s összeggel és a vonatkozó adókkal%2$d &lt;/price> a következő &lt;duration>%3$d nap mindegyikén&lt;/duration>, kezdve a következő dátummal: &lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="one">A rendszer automatikusan megterheli a számláját &lt;price>%1$s összeggel és a vonatkozó adókkal&lt;/price> a következő &lt;duration>%3$d nap mindegyikén,&lt;/duration> kezdve a következő dátummal: &lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="other">A rendszer automatikusan megterheli a számláját &amp;lt;price>%1$s összeggel és a vonatkozó adókkal%2$d &amp;lt;/price> a következő &amp;lt;duration>%3$d nap mindegyikén&amp;lt;/duration>, kezdve a következő dátummal: &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="one">A rendszer automatikusan megterheli a számláját &amp;lt;price>%1$s összeggel és a vonatkozó adókkal&amp;lt;/price> a következő &amp;lt;duration>%3$d nap mindegyikén,&amp;lt;/duration> kezdve a következő dátummal: &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month">
-        <item quantity="other">Előfizetése lemondásáig a rendszer automatikusan megterheli a számláját &lt;price> %1$s összeggel minden %2$d. hónapban&lt;/price>, kezdve a következő dátummal: &lt;start_time>%3$s&lt;/start_time>.</item>
-        <item quantity="one">Előfizetése lemondásáig a rendszer automatikusan megterheli a számláját &lt;price>%1$s összeggel havonta&lt;/price>, kezdve a következő dátummal: &lt;start_time>%3$s&lt;/start_time>.</item>
+        <item quantity="other">Előfizetése lemondásáig a rendszer automatikusan megterheli a számláját &amp;lt;price> %1$s összeggel minden %2$d. hónapban&amp;lt;/price>, kezdve a következő dátummal: &amp;lt;start_time>%3$s&amp;lt;/start_time>.</item>
+        <item quantity="one">Előfizetése lemondásáig a rendszer automatikusan megterheli a számláját &amp;lt;price>%1$s összeggel havonta&amp;lt;/price>, kezdve a következő dátummal: &amp;lt;start_time>%3$s&amp;lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month_limited">
-        <item quantity="other">A rendszer automatikusan megterheli a számláját &lt;price>%1$s %2$d összeggel havonta&lt;/price>, a következő &lt;duration>%3$d hónapban,&lt;/duration> a következő dátumtól kezdődően: &lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="one">A rendszer automatikusan megterheli a számláját &lt;price> %1$s összeggel havonta&lt;/price>, a következő &lt;duration>%3$d hónapban&lt;/duration>, a következő dátummal kezdődően: &lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="other">A rendszer automatikusan megterheli a számláját &amp;lt;price>%1$s %2$d összeggel havonta&amp;lt;/price>, a következő &amp;lt;duration>%3$d hónapban,&amp;lt;/duration> a következő dátumtól kezdődően: &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="one">A rendszer automatikusan megterheli a számláját &amp;lt;price> %1$s összeggel havonta&amp;lt;/price>, a következő &amp;lt;duration>%3$d hónapban&amp;lt;/duration>, a következő dátummal kezdődően: &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month_tax">
-        <item quantity="other">Előfizetése lemondásáig a rendszer automatikusan megterheli a számláját &lt;price>%1$s összeggel, valamint a vonatkozó adókkal, minden %2$d. hónapban&lt;/price>, kezdve a következő dátummal: &lt;start_time>%3$s&lt;/start_time>.</item>
-        <item quantity="one">Előfizetése lemondásáig a rendszer automatikusan megterheli a számláját &lt;price>%1$s összeggel, valamint a vonatkozó adókkal, minden hónapban&lt;/price>, kezdve a következő dátummal: &lt;start_time>%3$s&lt;/start_time>.</item>
+        <item quantity="other">Előfizetése lemondásáig a rendszer automatikusan megterheli a számláját &amp;lt;price>%1$s összeggel, valamint a vonatkozó adókkal, minden %2$d. hónapban&amp;lt;/price>, kezdve a következő dátummal: &amp;lt;start_time>%3$s&amp;lt;/start_time>.</item>
+        <item quantity="one">Előfizetése lemondásáig a rendszer automatikusan megterheli a számláját &amp;lt;price>%1$s összeggel, valamint a vonatkozó adókkal, minden hónapban&amp;lt;/price>, kezdve a következő dátummal: &amp;lt;start_time>%3$s&amp;lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month_tax_limited">
-        <item quantity="other">A rendszer automatikusan megterheli a számláját &lt;price>%1$s összeggel és a vonatkozó adókkal, minden %2$d. hónapban&lt;/price>, a következő &lt;duration>%3$d hónapra nézve&lt;/duration>, kezdve a következő dátummal: &lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="one">A rendszer automatikusan megterheli a számláját &lt;price>%1$s összeggel és a vonatkozó adókkal havonta&lt;/price>, a következő &lt;duration>%3$d hónapban&lt;/duration>, kezdve a következő dátummal: &lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="other">A rendszer automatikusan megterheli a számláját &amp;lt;price>%1$s összeggel és a vonatkozó adókkal, minden %2$d. hónapban&amp;lt;/price>, a következő &amp;lt;duration>%3$d hónapra nézve&amp;lt;/duration>, kezdve a következő dátummal: &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="one">A rendszer automatikusan megterheli a számláját &amp;lt;price>%1$s összeggel és a vonatkozó adókkal havonta&amp;lt;/price>, a következő &amp;lt;duration>%3$d hónapban&amp;lt;/duration>, kezdve a következő dátummal: &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year">
-        <item quantity="other">Előfizetése lemondásáig a rendszer automatikusan megterheli a számláját &lt;price>%1$s összeggel minden %2$d évben&lt;/price>, kezdve a következő dátummal: &lt;start_time>%3$s&lt;/start_time>.</item>
-        <item quantity="one">Előfizetése lemondásáig a rendszer automatikusan megterheli a számláját &lt;price>%1$s évente&lt;/price>, kezdve a következő dátummal: &lt;start_time>%3$s&lt;/start_time>.</item>
+        <item quantity="other">Előfizetése lemondásáig a rendszer automatikusan megterheli a számláját &amp;lt;price>%1$s összeggel minden %2$d évben&amp;lt;/price>, kezdve a következő dátummal: &amp;lt;start_time>%3$s&amp;lt;/start_time>.</item>
+        <item quantity="one">Előfizetése lemondásáig a rendszer automatikusan megterheli a számláját &amp;lt;price>%1$s évente&amp;lt;/price>, kezdve a következő dátummal: &amp;lt;start_time>%3$s&amp;lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year_limited">
-        <item quantity="other">A rendszer automatikusan megterheli a számláját &lt;price>%1$s összeggel minden %2$d évben&lt;/price>, a következő &lt;duration>%3$d évre nézve&lt;/duration>, kezdve a következő dátummal: &lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="one">A rendszer automatikusan megterheli a számláját &lt;price>%1$s összeggel évente&lt;/price>, a következő &lt;duration>%3$d évben&lt;/duration>, a következő dátummal kezdődően: &lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="other">A rendszer automatikusan megterheli a számláját &amp;lt;price>%1$s összeggel minden %2$d évben&amp;lt;/price>, a következő &amp;lt;duration>%3$d évre nézve&amp;lt;/duration>, kezdve a következő dátummal: &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="one">A rendszer automatikusan megterheli a számláját &amp;lt;price>%1$s összeggel évente&amp;lt;/price>, a következő &amp;lt;duration>%3$d évben&amp;lt;/duration>, a következő dátummal kezdődően: &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year_tax">
-        <item quantity="other">Előfizetése lemondásáig a rendszer automatikusan megterheli a számláját &lt;price>%1$s összeggel, valamint a vonatkozó adókkal, minden %2$d évben&lt;/price>, kezdve a következő dátummal: &lt;start_time>%3$s&lt;/start_time>.</item>
-        <item quantity="one">Előfizetése lemondásáig a rendszer automatikusan megterheli a számláját &lt;price>%1$s összeggel, valamint a vonatkozó adókkal, minden évben&lt;/price>, kezdve a következő dátummal: &lt;start_time>%3$s&lt;/start_time>.</item>
+        <item quantity="other">Előfizetése lemondásáig a rendszer automatikusan megterheli a számláját &amp;lt;price>%1$s összeggel, valamint a vonatkozó adókkal, minden %2$d évben&amp;lt;/price>, kezdve a következő dátummal: &amp;lt;start_time>%3$s&amp;lt;/start_time>.</item>
+        <item quantity="one">Előfizetése lemondásáig a rendszer automatikusan megterheli a számláját &amp;lt;price>%1$s összeggel, valamint a vonatkozó adókkal, minden évben&amp;lt;/price>, kezdve a következő dátummal: &amp;lt;start_time>%3$s&amp;lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year_tax_limited">
-        <item quantity="other">A rendszer automatikusan megterheli a számláját &lt;price>%1$s összeggel és a vonatkozó adókkal, minden %2$d évben&lt;/price>, a következő &lt;duration>%3$d évre nézve&lt;/duration>, kezdve a következő dátummal: &lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="one">A rendszer automatikusan megterheli a számláját &lt;price>%1$s összeggel és a vonatkozó adókkal évente&lt;/price>, a következő &lt;duration>%3$d évre nézve&lt;/duration>, kezdve a következő dátummal: &lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="other">A rendszer automatikusan megterheli a számláját &amp;lt;price>%1$s összeggel és a vonatkozó adókkal, minden %2$d évben&amp;lt;/price>, a következő &amp;lt;duration>%3$d évre nézve&amp;lt;/duration>, kezdve a következő dátummal: &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="one">A rendszer automatikusan megterheli a számláját &amp;lt;price>%1$s összeggel és a vonatkozó adókkal évente&amp;lt;/price>, a következő &amp;lt;duration>%3$d évre nézve&amp;lt;/duration>, kezdve a következő dátummal: &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
     </plurals>
 </resources>

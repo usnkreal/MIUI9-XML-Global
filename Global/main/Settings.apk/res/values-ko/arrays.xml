@@ -658,7 +658,7 @@
         <item>디렉토리 만들기: mkdir /media/mtp</item>
         <item>현재 결합된 사용자 그룹에서 사용자 그룹 권한 확인</item>
         <item>다시 로그인</item>
-        <item>마운트된 기기 접근: mtpfs /media/mtp via file explorer; 로컬 디렉토리와 동일</item>
+        <item>마운트된 기기 접근: 파일탐색기로 mtpfs /media/mtp; 로컬 폴더와 같게</item>
         <item>"기기 설치 제거: fusermount -u /media/mtp
 주의: Ubuntu 8.04만 가능!"</item>
     </string-array>
@@ -794,7 +794,7 @@
         <item>1분 후</item>
         <item>2분 후</item>
         <item>5분 후</item>
-        <item>아니오</item>
+        <item>안함</item>
     </string-array>
     <string-array name="fluency_mode_entries">
         <item>시스템 애니메이션 숨기기</item>
@@ -879,9 +879,9 @@
     </string-array>
     <string-array name="common_password_business_names">
         <item>잠금화면</item>
-        <item>정보 보호 비밀번호</item>
-        <item>어린이 모드</item>
-        <item>파일 탐색기</item>
+        <item>개인 정보 비밀번호</item>
+        <item>자녀보호 모드</item>
+        <item>파일탐색기</item>
         <item>앱 잠금</item>
         <item>보조 공간</item>
     </string-array>
@@ -1359,6 +1359,29 @@
         <item>사진</item>
         <item>파일</item>
         <item>메모</item>
+    </string-array>
+    <string-array name="region_support_face">
+        <item>IN</item>
+        <item>ID</item>
+        <item>RU</item>
+        <item>HK</item>
+        <item>TW</item>
+    </string-array>
+    <string-array name="device_support_face">
+        <item>jason</item>
+        <item>polaris</item>
+        <item>sagit</item>
+        <item>chiron</item>
+        <item>whyred</item>
+        <item>nitrogen</item>
+        <item>wayne</item>
+        <item>ysl</item>
+        <item>sakura</item>
+    </string-array>
+    <string-array name="device_global_support_face">
+        <item>whyred</item>
+        <item>polaris</item>
+        <item>ysl</item>
     </string-array>
     <string-array name="install_non_market_app_entries">
         <item>켜기(권장됨)</item>

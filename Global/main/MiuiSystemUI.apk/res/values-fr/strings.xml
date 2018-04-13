@@ -471,6 +471,7 @@ Pour plus d'informations, contactez votre administrateur."</string>
     <string name="notification_group_title_text">%1$s (%2$s)</string>
     <string name="notification_group_overflow_indicator">"+%s "</string>
     <string name="click_to_return_multi_window">"Appuyer pour retourner à l'écran divisé"</string>
+    <string name="click_to_return_multi_window_of_notch">"Retourner à l'écran divisé"</string>
     <string name="recent_dock_tip">Appuyez pour sélectionner les applications</string>
     <string name="recent_cannot_dock">"Impossible de diviser l'écran dans le second espace"</string>
     <string name="dock_keyguard_locked_failed_to_dock_text">"Écran divisé n'est pas pris en charge à l'écran de verrouillage."</string>
@@ -496,7 +497,7 @@ Pour plus d'informations, contactez votre administrateur."</string>
     <string name="fs_gesture_final_over">"J'ai terminé"</string>
     <string name="no_sim_card">Pas de carte SIM</string>
     <string name="prompt_detecting">Détection</string>
-    <string name="prompt_danger">Risque</string>
+    <string name="prompt_danger">Danger</string>
     <string name="prompt_failure">Erreur</string>
     <string name="prompt_safe">Sûr</string>
     <string name="prompt_unknown">Inconnu</string>

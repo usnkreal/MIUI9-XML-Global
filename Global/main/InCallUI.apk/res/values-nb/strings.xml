@@ -123,7 +123,7 @@
     <string name="unlock_phone">Lås opp enhet</string>
     <string name="remind_unlock_message">Enheten din er låst. \"%s\" il være tilgjengelig når du låser opp enheten din. Lås opp nå?</string>
     <string name="user_locked_prompt">Lås opp enheten for å få tilgang til kontakter.</string>
-    <string name="package_not_available">"\"%s\" isn't available"</string>
+    <string name="package_not_available">\"%s\" er ikke tilgjengelig</string>
     <string name="select_voice_call_sim">Velg SIM-kort</string>
     <string name="msim_select_default_time_left">(%d s)</string>
     <string name="select_sim_hint">Kan ikke bruke SIM %2$d, mens SIM %1$d er i bruk.</string>
@@ -148,25 +148,6 @@
     <string name="antispam_provider">Identifisert av %s</string>
     <string name="antispam_notification_title">Ukjent nummer</string>
     <string name="suspect_info">Vær forsiktig med din personlige informasjon.</string>
-    <string name="livetalk_dial">Bruker Top-up-pakke</string>
-    <string name="areacode_set_default">Sett som standard</string>
-    <string name="default_area_code_setting">Standard retningsnummer</string>
-    <string name="not_activate_sim_card_content_title">Telefonnummer er ikke verifisert</string>
-    <string name="not_activate_sim_card_content">Bekreft telefonnummeret ditt for å begynne å bruke Top-up-pakke. Du kan fortsatt foreta vanlige anrop som du belastes for av leverandøren.</string>
-    <string name="not_activate_sim_card_content_with_operator">Verifiser SIM %1$s (%2$s) for å ringe ved å bruke Top-up-pakke. Du kan fortsatt foreta vanlig anrop som du belastes for av leverandøren.</string>
-    <string name="dialog_call_ordinary_telephone">Vanlig anrop</string>
-    <string name="dialog_activate_livetalk">Verifiser nummer</string>
-    <string name="not_support_title">Nummeret støttes ikke</string>
-    <string name="not_support_message">Påfyllingspakken støtter foreløpig ikke slike numre. Du kan prøve å foreta en vanlig samtale i stedet.</string>
-    <string name="livetalk_hangup">Legg på</string>
-    <string name="no_call_back_title">Merk</string>
-    <string name="no_call_back_message">Det tar for lang tid å koble til. Skift til vanlig anrop som du kanskje belastes for av leverandøren.</string>
-    <string name="keep_wait_call_back">Fortsett å vente</string>
-    <string name="network_error_title">Nettverksfeil</string>
-    <string name="network_error_message">Prøv å foreta en vanlig samtale. Samtalen vil bli belastet av operatøren.</string>
-    <string name="do_not_ask">Ikke vis igjen</string>
-    <string name="time_left_livetalk">(%ds)</string>
-    <string name="can_not_call_oneself">Kan ikke ringe dette nummeret</string>
     <string name="card_title_video_call_paused">Video satt på pause</string>
     <string name="card_title_incoming_conference_call">Inkommende konferanseanrop</string>
     <string name="onscreen_change_to_voice">Taleanrop</string>
@@ -191,6 +172,9 @@
     <string name="close_camera_failed">Kunne ikke slå av kamera…</string>
     <string name="change_to_voice_tips_when_background">Den andre parten har skifet til taleanrop</string>
     <string name="video_crbt_title">%s video tilbakeringingstone</string>
+    <string name="crbt_second_hold_prompt">%s er på vent…</string>
+    <string name="crbt_second_hold_prompt_no_name">Tidligere samtale er på vent…</string>
+    <string name="crbt_second_hold_prompt_conference">Konferansesamtale er på vent…</string>
     <string name="call_button_tools_text">Funksjoner</string>
     <string name="call_button_dialer_text">Tastatur</string>
     <string name="call_button_mute_text">Demp</string>
@@ -212,6 +196,7 @@
     <string name="dialpad_seven">7</string>
     <string name="dialpad_eight">8</string>
     <string name="dialpad_nine">9</string>
+    <string name="prompt_no_volte_when_failed">VoLTE-tjenestene er ikke tilgjengelige.</string>
     <string name="no_vm_number">Talepostnummer mangler</string>
     <string name="no_vm_number_msg">Ingen talepostnummre lagret på SIM-kortet.</string>
     <string name="add_vm_number_str">Legg til nummer</string>
@@ -225,6 +210,10 @@
     <string name="dial_with_gsm_phone">Vanlig anrop</string>
     <string name="livetalk_left_minute">%s min gjenstår</string>
     <string name="miprofile_stranger_card">Fremmed-kort</string>
+    <string name="network_error_message">Prøv å foreta en vanlig samtale. Samtalen vil bli belastet av operatøren.</string>
+    <string name="network_error_title">Nettverksfeil</string>
     <string name="no_balance_message">Ikke nok penger igjen i påfyllingspakken din. Du kan prøve å foreta en vanlig samtale i stedet.</string>
+    <string name="not_support_message">Påfyllingspakken støtter foreløpig ikke slike numre. Du kan prøve å foreta en vanlig samtale i stedet.</string>
+    <string name="not_support_title">Nummeret støttes ikke</string>
     <string name="purchase_now">Fyll på</string>
 </resources>

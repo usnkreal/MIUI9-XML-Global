@@ -417,9 +417,9 @@ podany w wiadomości e-mail wysłanej na podany adres."</string>
     <string name="find_device_activate_account">Aktywuj konto</string>
     <string name="login_check_find_device">Pobieranie danych bezpieczeństwa urządzenia…</string>
     <string name="unlock_help_notice">"Pomoc:
-1. Jeśli zapomniałeś swojego hasła, przejdź na id.mi.com, aby zresetować.
-2. Jeśli nie możesz odblokować urządzenia przejdź na i.mi.com, aby wyłączyć Znajdź urządzenie.
-3. Twój numer odblokowujący: %s"</string>
+1. Jeśli zapomniałeś hasła, przejdź na id.mi.com, aby je zresetować.
+2. Jeśli nie możesz zresetować hasła, lub ktoś zablokował twoje urządzenie, przejdź na i.mi.com, aby je odblokować.
+3. Twój numer odblokowania: %s"</string>
     <string name="login_find_device_bind">Urządzenie jest powiązane z istniejącym kontem Xiaomi (%s).</string>
     <string name="find_device_locked_account_phone" formatted="false">%s, powiązany numer telefonu: %s</string>
     <string name="find_device_locked_account_email" formatted="false">%s, powiązany adres e-mail: %s</string>
@@ -451,7 +451,7 @@ podany w wiadomości e-mail wysłanej na podany adres."</string>
     <string name="mipay_identity">Weryfikacja ID</string>
     <string name="mipay_indentity_done">Zweryfikowana</string>
     <string name="mipay_identitiy_no">Nie zweryfikowano</string>
-    <string name="account_token_expired_title">Autoryzacja nieudana</string>
+    <string name="account_token_expired_title">Nie udało się autoryzować</string>
     <string name="account_token_expired_msg">"Kod weryfikacyjny wygasł, rozpocznij ponownie lub wyloguj się
  Identyfikator konta: %s"</string>
     <string name="bind_safe_phone_msg">Dodaj swój numer telefonu, aby móc zalogować się na swoje konto Xiaomi następnym razem.</string>

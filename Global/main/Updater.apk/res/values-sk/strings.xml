@@ -40,7 +40,7 @@
     <string name="menu_title_current_version_log">Informácie o aktualizácií</string>
     <string name="menu_title_apply_for_alpha">Odhlásiť sa z BETA testovania</string>
     <string name="menu_title_feedback">Spätná väzba</string>
-    <string name="install_file_explorer">Prosím nainštalujte správcu súborov</string>
+    <string name="install_file_explorer">Najskôr nainštalujte Správcu súborov</string>
     <string name="boot_recovery">Reštart do Recovery</string>
     <string name="cancel_download">Zastaviť sťahovanie aktualizácie?</string>
     <string name="continue_update_positive_btn">Zastaviť</string>
@@ -142,6 +142,10 @@ Navštívte www.miuios.cz/rom (MIUIv6) pre viac informácií.\""</string>
     <string name="notification_express_available">Aktualizácia (%1$s) je pripravená na stiahnutie</string>
     <string name="notification_express_ready">Aktualizácia (%1$s) je pripravená na inštaláciu</string>
     <string name="express_update_reserve_content">Aktualizácia na túto verziu nie je momentálne možná. Požiadať o aktualizáciu (%1$s)? Upovedomíme vás hneď ako bude %1$s dostupná pre vaše zariadenie. Dovtedy budete dostávať riadne aktualizácie.</string>
+    <string name="express_update_reserve_content2">"Some things will change after you upgrade to stable ROM. Here's what:
+1. Root access will be restricted even if you allowed it previously.
+2. Various features of the Beta ROM won't be available in its stable versions."</string>
+    <string name="express_update_reserve_check_text">I understand the difference between ROM versions</string>
     <string name="express_update_reserve_positive">Požiadať o aktualizáciu (%s)</string>
     <string name="express_update_reserve_negative">Nepoužiť</string>
     <string name="express_update_switch_content_no_erase">MIUI sa aktualizuje na novú verziu (%s). Táto aktualizácia neodstráni vaše dáta.</string>

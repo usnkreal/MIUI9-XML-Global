@@ -33,7 +33,7 @@
     <string name="attach_sound">Fichier audio</string>
     <string name="attach_subject">Sujet</string>
     <string name="attach_take_photo">Prendre une photo</string>
-    <string name="attach_transaction">"Envoyer de l'argent"</string>
+    <string name="attach_transaction">"Transférer de l'argent"</string>
     <string name="attach_video">Vidéo</string>
     <string name="audio_download_failed">"impossible de télécharger l'audio"</string>
     <string name="audio_message_expired">Ce message vocal a expiré.</string>
@@ -152,7 +152,7 @@
     <string name="enter_edit_mode">Éditer les messages</string>
     <string name="error_code_label">"Code d'erreur :"</string>
     <string name="error_state">Etat incohérent</string>
-    <string name="error_state_text">"L'état des fils de discussion et des destinataires n'est pas cohérent. Générez un rapport de bugs et envoyez-le à http://go/droidanizer"</string>
+    <string name="error_state_text">"L'état des fils de discussions et des destinataires est incohérent. Capturez un rapport de bug et signalez-le via http://go/droidanizer"</string>
     <string name="error_timed_msg">Heure non valide</string>
     <string name="ex_type_guide">Information</string>
     <string name="ex_type_mx">Messages Mi</string>

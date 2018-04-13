@@ -5,6 +5,11 @@
         <item quantity="one">%d descărcare va fi ştearsă.</item>
         <item quantity="few">%d descărcări vor fi şterse.</item>
     </plurals>
+    <plurals name="dialog_confirm_delete_downloads_message">
+        <item quantity="other">Ștergeți %d sarcini?</item>
+        <item quantity="one">Ștergeți %d sarcină?</item>
+        <item quantity="few">Ștergeți %d sarcini?</item>
+    </plurals>
     <plurals name="download_info_count_deleted_tasks">
         <item quantity="other">%1$d descărcări eliminate</item>
         <item quantity="one">%1$d descărcare eliminată</item>

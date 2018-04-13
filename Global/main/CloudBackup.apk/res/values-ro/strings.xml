@@ -44,10 +44,11 @@
     <string name="cloud_app_no_network">Nu se poate conecta la reţea</string>
     <string name="button_delete">Șterge</string>
     <string name="customization"><u>Personalizare</u></string>
+    <string name="home_hint_global_launcher">Ecran principal Poco</string>
     <string name="self_phone">Acest telefon</string>
+    <string name="self_phone_home">Acest telefon: %s</string>
     <string name="process_whole_recovery">Restabilirea \"%s\"</string>
     <string name="device_xiaomi">Mi Telefon</string>
-    <string name="device_corrupt">Telefon Mi (Date corupte)</string>
     <string name="size_unknown">Dimensiune necunoscută</string>
     <string name="recovering">Restabilirea \"%s\"</string>
     <string name="start_recover">Restabiliți %s</string>
@@ -69,7 +70,7 @@
     <string name="desktop_downloading">Se descarcă</string>
     <string name="desktop_installing">Se instalează</string>
     <string name="desktop_wait_wifi">Așteptare</string>
-    <string name="desktop_failed">Eșuat</string>
+    <string name="desktop_failed">Eroare</string>
     <string name="recover_from_micloud">Restabilire de la copie de rezervă Mi Cloud</string>
     <string name="click_try_to_restore_again">Atingeți pentru a încerca din nou</string>
     <string name="open_wifi">Porniți Wi-Fi acum</string>
@@ -132,6 +133,8 @@
     <string name="no_account">Nu sunteți conectat/ă la Contul Mi.</string>
     <string name="no_backup">Nu există copii de rezervă în Mi Cloud.</string>
     <string name="download_meta_failed">Nu s-au putut încărca date.</string>
+    <string name="home_restore_error">Ecranul principal nu a putut fi restabilit</string>
+    <string name="get_device_id_error">Nu s-a putut obține ID-ul dispozitivului</string>
     <string name="download_home_data">Se descarcă aspect pentru Ecranul principal…</string>
     <string name="restore_home_failed">Ecranul principal nu a putut fi restabilit.</string>
     <string name="arrange_restore_order">Rearanjarea aplicațiilor…</string>

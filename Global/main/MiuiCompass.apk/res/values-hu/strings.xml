@@ -30,6 +30,7 @@
     <string name="direction_north_west">Ény</string>
     <string name="direction_south_east">Dk</string>
     <string name="direction_south_west">Dny</string>
+    <string name="unit_degree">Fok</string>
     <string name="guide_toast">Kalibráláshoz mozgassa a telefont az animáción látható módon.</string>
     <string name="mobiledata_alert_dialog_title">Adathasználati figyelmeztetés</string>
     <string name="mobiledata_alert_dialog_message">Csatlakozik az internetre a kalibrálás tökéletesítéséhez?</string>

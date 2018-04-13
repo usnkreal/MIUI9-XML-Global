@@ -142,6 +142,10 @@ http://zhushou.xiaomi.com"</string>
     <string name="notification_express_available">A frissítés (%1$s) készen áll a letöltésre</string>
     <string name="notification_express_ready">A frissítés (%1$s) készen áll a telepítésre</string>
     <string name="express_update_reserve_content">Most nem frissítheti közvetlenül ezt a verziót. Jelentkezik egy frissítésre (%1$s)? Értesíteni fogjuk Önt, ha a %1$s frissítés elérhetővé válik a készülékére. A szokásos frissítéseket addig is meg fogja kapni.</string>
+    <string name="express_update_reserve_content2">"Néhány dolog változni fog miután stabil ROM-ra váltott. Ezek pedig:
+1. Ha a root jogosultság engedélyezve volt, a váltás után a jog korlátozásra kerül.
+2. A Beta ROM különböző funkciói nem lesznek elérhetőek ebben a stabil verzióban."</string>
+    <string name="express_update_reserve_check_text">Megértettem a ROM verziók közötti különbséget</string>
     <string name="express_update_reserve_positive">Jelentkezés egy frissítésre (%s)</string>
     <string name="express_update_reserve_negative">Nem kíván jelentkezni</string>
     <string name="express_update_switch_content_no_erase">A készülékén található MIUI új verzióra (%s) fog frissülni. A frissítés nem törli az adatait.</string>
@@ -288,10 +292,10 @@ Nem sikerült elküldeni a visszajelzését"</string>
     <string name="provision_activate_device">Készülék aktiválása…</string>
     <string name="provision_connect_wifi">Csatlakozás Wi-Fi hálózathoz</string>
     <string name="provision_retry">Próbálja újra</string>
-    <string name="provision_check_sim">SIM kártya újraellenőrzése</string>
-    <string name="provision_have_sim">SIM kártya a helyén</string>
+    <string name="provision_check_sim">SIM-kártya újraellenőrzése</string>
+    <string name="provision_have_sim">SIM-kártya a helyén</string>
     <string name="provision_no_network_title">Csatlakozás a hálózathoz</string>
-    <string name="provision_no_network_extra">Úgy tűnik készüléke nem csatlakozik hálózathoz. Aktiváláshoz csatlakozzon Wi-Fi hálózathoz vagy tegyen be SIM kártyát. Az aktiválás után a készülék jogosult a jótállási szolgáltatásokra. Ezt a készüléket nem tudja használni, ha nincs aktiválva.</string>
+    <string name="provision_no_network_extra">Úgy tűnik készüléke nem csatlakozik hálózathoz. Aktiváláshoz csatlakozzon Wi-Fi hálózathoz vagy tegyen be SIM-kártyát. Az aktiválás után a készülék jogosult a jótállási szolgáltatásokra. Ezt a készüléket nem tudja használni, ha nincs aktiválva.</string>
     <string name="provision_toast_timeout">Kapcsolat időtúllépés. Ellenőrizze hálózati beállításait.</string>
     <string name="provision_toast_server_error">Nem sikerült a kiszolgálóhoz kapcsolódni. Egy-két perc múlva próbálja újra.</string>
     <string name="provision_toast_no_network">Előbb csatlakozzon a hálózathoz</string>

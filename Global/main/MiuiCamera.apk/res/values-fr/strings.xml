@@ -376,8 +376,8 @@ et fait ressortir les personnes à l'avant."</string>
     <string name="pref_camera_ai_scene_title">Caméra AI</string>
     <string name="pref_camera_front_ai_scene_entry_on">Caméra AI</string>
     <string name="pref_camera_front_ai_scene_entry_off">Caméra AI est désactivée</string>
-    <string name="ai_scene_mode_use_hint_text">"Ouvrez l'appareil photo en mode Scène Ai, identifiez la scène de l'image pour vous
- et optimisez l'image basée sur la scène"</string>
+    <string name="ai_scene_mode_use_hint_text">"La caméra AI détecte les scènes automatiquement
+et optimise vos photos basées cette information"</string>
     <string name="color_effect_entry_vivid">Vif</string>
     <string name="color_effect_entry_film">Film</string>
     <string name="color_effect_entry_koizora">Amour</string>
@@ -406,6 +406,9 @@ et fait ressortir les personnes à l'avant."</string>
     <string name="portait_effect_entry_maze">Labyrinthe</string>
     <string name="portait_effect_entry_cool">Mint</string>
     <string name="portait_effect_entry_blackwhite">N&amp;B</string>
+    <string name="portait_effect_entry_story">Histoire</string>
+    <string name="portait_effect_entry_riddle">Énigme</string>
+    <string name="portait_effect_entry_movie">Film</string>
     <string name="pano_how_to_use_prompt_start">Appuyez sur la flèche pour changer de direction et commencez lentement la panoramique.</string>
     <string name="accessibility_intent_done_apply">Terminé</string>
     <string name="accessibility_flash_on">Flash allumé</string>
@@ -449,7 +452,7 @@ et fait ressortir les personnes à l'avant."</string>
     <string name="pref_camera_beauty_deep">Embellir Pro</string>
     <string name="bokeh_use_hint">Effet de profondeur</string>
     <string name="pref_camera_zoom_mode_entry_standard">STANDARD</string>
-    <string name="pref_camera_zoom_mode_entry_high_pixel">LOW LIGHT</string>
+    <string name="pref_camera_zoom_mode_entry_high_pixel">FAIBLE LUMINOSITÉ</string>
     <string name="pref_camera_zoom_value_title">Zoom</string>
     <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_beautify_entry_auto">Désactivé</string>

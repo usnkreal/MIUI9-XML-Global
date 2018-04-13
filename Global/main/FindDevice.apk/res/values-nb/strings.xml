@@ -39,7 +39,7 @@ Hvis du bytter SIM-kort, vil en melding automatisk sendes som aktiverer denne fu
     <string name="unlock_error_rpc">RPC-feil</string>
     <string name="unlock_error_abort">Kansellert av bruker</string>
     <string name="unlock_error_passport_sdk_timeout">Mi Account SDK svarer ikke</string>
-    <string name="open_wifi_settings">Open Wi-Fi settings</string>
+    <string name="open_wifi_settings">Åpne Wi-Fi-innstillinger</string>
     <string name="activate_xiaomi_account">Aktiver denne enheten</string>
     <string name="login_extra_steps">Innloggingsverifikasjon</string>
     <string name="phone_locked">Denne enheten kan kobles til en eksisterende Mi Account (%s). Logg inn for å aktivere denne enheten.</string>
@@ -79,6 +79,8 @@ Logg inn på i.mi.com og prøv å låse opp enheten derfra"</string>
     <string name="default_lock_msg_words_with_phone">Hei! Jeg mistet telefonen min. Kan du vennligst ta kontakt med meg? Takk!</string>
     <string name="default_lock_msg_words">Denne enheten er tilknyttet en eksisterende Mi Account. For sikkerhetsgrunner, du må skrive inn passordet for å verifisere denne enheten.</string>
     <string name="lock_msg_phone">Kontaktinformasjon: %s</string>
+    <string name="emergency_call">Nødanrop</string>
+    <string name="return_to_call">Gå tilbake til anrop</string>
     <string name="default_debt_msg_words">"Denne enheten er låst på grunn av en installerings-betaling som er forfalt.
 Kontakt din salgsagent for detaljer."</string>
     <string name="sys_notification_async_verify_title">"Aktivere 'Finn enheten' på nytt"</string>

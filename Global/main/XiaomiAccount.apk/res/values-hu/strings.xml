@@ -132,11 +132,11 @@ a megadott e-mail címre küldött üzenetben leírtakat."</string>
     <string name="passport_area_code_title">Ország hívószám</string>
     <string name="passport_area_code_hot">GYAKRAN HASZNÁLT</string>
     <string name="passport_user_agreement_p1">Elfogadom a </string>
-    <string name="passport_user_agreement_p2">Felhasználási feltételeket</string>
+    <string name="passport_user_agreement_p2">Felhasználói szerződés</string>
     <string name="passport_user_agreement_p3"> és az </string>
     <string name="passport_user_agreement_p4">Adatvédelmi irányelveket.</string>
-    <string name="passport_privacy_policy">Adatvédelem</string>
-    <string name="passport_user_agreement">A bejelentkezéssel</string>
+    <string name="passport_privacy_policy">Adatvédelmi irányelvek</string>
+    <string name="passport_user_agreement">Felhasználói szerződés</string>
     <string name="passport_license_host_unreachable">Nem sikerült csatlakozni a hálózathoz. A megtekintéshez látogasson el a %s.</string>
     <string name="passport_login_failed">A bejelentkezés nem sikerült</string>
     <string name="passport_reg_failed">Nem állítható be a fiók</string>
@@ -166,7 +166,7 @@ a megadott e-mail címre küldött üzenetben leírtakat."</string>
     <string name="passport_copy_message_vcode">Kód másolása</string>
     <string name="passport_message_dialog_title">SMS az ellenőrző kódokkal</string>
     <string name="passport_trust_device">A készülék hozzáadása az ellenőrzött eszközökhöz</string>
-    <string name="passport_barcode_add_account_prompt">Fiók hozzáadásához olvassa be újra a QR kódot.</string>
+    <string name="passport_barcode_add_account_prompt">Ahhoz, hogy csatlakozzon egy fiókhoz olvassa be a QR-kódot a bejelentkezés után.</string>
     <string name="passport_quick_register_notice"><u>Nincs Mi Fiókja? Készítsen magának egyet.</u></string>
     <string name="passport_password_phone_login">Bejelentkezés Mi Fiókkal</string>
     <string name="passport_sms_verification_code_login">Bejelentkezés SMS segítségével</string>
@@ -225,7 +225,7 @@ a megadott e-mail címre küldött üzenetben leírtakat."</string>
     <string name="no_response_retry">Nincs válasz, próbálja újra.</string>
     <string name="removing_account">Kijelentkezés…</string>
     <string name="delete_bank_card_title">Figyelem</string>
-    <string name="delete_bank_card_message">Ha kijelentkezik Mi Pay bankkártyái és NFC kártyái törlésre kerülnek.</string>
+    <string name="delete_bank_card_message">Ha kijelentkezik Mi Pay bankkártyái és NFC-kártyái törlésre kerülnek.</string>
     <string name="bind_settings">Összekapcsolás</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="bind_sina_weibo">Sina WeiBo összekapcsolása</string>
@@ -344,7 +344,7 @@ a megadott e-mail címre küldött üzenetben leírtakat."</string>
     <string name="loading_micloud_sync_data">Egy pillanat…</string>
     <string name="activity_not_found_notice">Nem található az alkalmazás</string>
     <string name="scan_barcode_title">A Mi Fiókba való bejelentkezéshez olvassa be a QR kódot</string>
-    <string name="talkback_scan_barcode">QR kód beolvasása</string>
+    <string name="talkback_scan_barcode">QR-kód beolvasása</string>
     <string name="authorize_title">Engedélyezés</string>
     <string name="my_device_title">Jelenlegi készülék</string>
     <string name="device_list_title">Készülékeim</string>
@@ -417,8 +417,8 @@ a megadott e-mail címre küldött üzenetben leírtakat."</string>
     <string name="find_device_activate_account">Fiók aktiválása</string>
     <string name="login_check_find_device">Készülék biztonsági adatainak ellenőrzése…</string>
     <string name="unlock_help_notice">"Segítség:
-1. Ha elfelejtette a jelszavát, keresse fel az id.mi.com-ot a visszaállításához.
-2. Ha nem tudja feloldani a készüléket, nyissa meg az i.mi.com-ot a Készülékkeresés kikapcsolásához
+1. Ha elfelejtette a jelszavát, keresse fel az id.mi.com-ot a visszaállításhoz.
+2. Ha nem tudja visszaállítani a jelszót vagy bárki zárolta az Ön készüléket, nyissa meg az i.mi.com-ot a feloldáshoz
 · Az Ön feloldókódja: %s"</string>
     <string name="login_find_device_bind">Ez a készülék már társítva van egy másik Mi Fiókhoz (%s).</string>
     <string name="find_device_locked_account_phone" formatted="false">%s fiókhoz tartozó telefonszám:%s</string>
@@ -451,7 +451,7 @@ a megadott e-mail címre küldött üzenetben leírtakat."</string>
     <string name="mipay_identity">Azonosító-ellenőrzés</string>
     <string name="mipay_indentity_done">Hitelesített</string>
     <string name="mipay_identitiy_no">Nem hitelesített</string>
-    <string name="account_token_expired_title">A hitelesítés sikertelen</string>
+    <string name="account_token_expired_title">Az azonosítás sikertelen</string>
     <string name="account_token_expired_msg">"Ellenőrző kód lejárt, kezdje újra vagy jelentkezzen ki
  Az Ön fiókazonosítója: %s"</string>
     <string name="bind_safe_phone_msg">Adja hozzá a telefonszámát, hogy legközelebb be tudjon lépni vele a Mi Fiókjába.</string>

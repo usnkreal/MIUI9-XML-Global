@@ -989,7 +989,7 @@ Chyba: \"%s\""</string>
     <string name="search_contacts_display">Kontakty;Zobrazení</string>
     <string name="search_contacts_more">Uspořádat;Kontakty</string>
     <string name="search_contacts_recovery">Kontakty</string>
-    <string name="search_contacts_setting">Nastavení kontaktu;Zobrazit fotografie a informace;Přiřadit fotografie kontaktu;Importování a exportování;Sdílet; Importovat z SD karty;Importovat ze SIM karty;Importovat z jiného telefonu;Exportovat z SD karty;Exportovat ze SIM karty;Sdílet kontakty; Předvolby zobrazení;Skrýt neúplná čísla;Zobrazit kontakty ze SIM;Konfigurovat seznamy kontaktů;Chytré skupiny;Uspořádat kontakty; Sloučit duplicitní kontakty;Vymazat dávku;Smazat data;Obnovit data indexu;t9;SIM karty;Úložiště SIM karty;Úvod do obnovení kontaktů;Fotografie kontaktů</string>
+    <string name="search_contacts_setting">Nastavení kontaktu;Zobrazit fotografie a informace;Přiřadit fotografie kontaktu;Importování a exportování;Sdílet; Importovat z úložiště;Importovat ze SIM karty;Importovat z jiného telefonu;Exportovat do úložiště;Exportovat na SIM kartu;Sdílet kontakty; Předvolby zobrazení;Skrýt neúplná čísla;Zobrazit kontakty ze SIM;Konfigurovat seznamy kontaktů;Chytré skupiny;Uspořádat kontakty; Sloučit duplicitní kontakty;Vymazat dávku;Smazat data;Obnovit data indexu;t9;SIM karty;Úložiště SIM karty;Úvod do obnovení kontaktů;Fotografie kontaktů</string>
     <string name="search_display_only_phones">Kontakty;Zobrazení</string>
     <string name="search_display_sim_contacts">Kontakty;Zobrazení</string>
     <string name="search_export_to_sdcard">Kontakty;Exportovat;úložiště</string>
@@ -1012,7 +1012,7 @@ Chyba: \"%s\""</string>
     <string name="search_simple_mode">Zobrazit;informace;fotografie;Kontakty</string>
     <string name="search_smart_group_title">Kontakty;Zobrazení</string>
     <string name="search_wipe_data">Uspořádat;Kontakty</string>
-    <string name="searching_vcard_message">Vyhledávání dat karty vCard na kartě SD…</string>
+    <string name="searching_vcard_message">Vyhledávání vCard dat na zařízení…</string>
     <string name="select_all">Vybrat vše</string>
     <string name="select_all_exceed">Můžete vybrat maximálně %1$d, nelze vybrat vše</string>
     <string name="select_exceed">Můžete vybrat maximálně %1$d</string>

@@ -4,37 +4,37 @@
         <item quantity="other">Titulky sa zobrazia o %.1f sekúnd skôr</item>
         <item quantity="one">Titulky sa zobrazia o %.1f sekundu skôr</item>
         <item quantity="few">Titulky sa zobrazia o %.1f sekundy skôr</item>
-        <item quantity="many">Subtitles will be shown %.1f seconds earlier</item>
+        <item quantity="many">Titulky sa zobrazia o %.1f sekundy skôr</item>
     </plurals>
     <plurals name="lv_subtitle_offset_delay_times">
         <item quantity="other">Titulky sa zobrazia o %.1f sekúnd neskôr</item>
         <item quantity="one">Titulky sa zobrazia o %.1f sekundu neskôr</item>
         <item quantity="few">Titulky sa zobrazia o %.1f sekundy neskôr</item>
-        <item quantity="many">Subtitles will be shown %.1f seconds later</item>
+        <item quantity="many">Titulky sa zobrazia o %.1f sekundy neskôr</item>
     </plurals>
     <plurals name="lv_subtitle_onlinesub_size_float_kb">
         <item quantity="other">Veľkosť: %.2f KB</item>
         <item quantity="one">Veľkosť: %.2f KB</item>
         <item quantity="few">Veľkosť: %.2f KB</item>
-        <item quantity="many">Size: %.2fKB</item>
+        <item quantity="many">Veľkosť: %.2f KB</item>
     </plurals>
     <plurals name="lv_video_count">
         <item quantity="other">%d videí</item>
         <item quantity="one">%d video</item>
         <item quantity="few">%d videá</item>
-        <item quantity="many">%d videos</item>
+        <item quantity="many">%d videa</item>
     </plurals>
     <plurals name="ovp_detail_v_video_count">
         <item quantity="other">%d videí</item>
         <item quantity="one">%d video</item>
         <item quantity="few">%d videá</item>
-        <item quantity="many">%d videos</item>
+        <item quantity="many">%d videa</item>
     </plurals>
     <plurals name="ovp_home_item_unit">
         <item quantity="other">%d videí</item>
         <item quantity="one">%d video</item>
         <item quantity="few">%d videá</item>
-        <item quantity="many">%d videos</item>
+        <item quantity="many">%d videa</item>
     </plurals>
     <plurals name="pw_comment_count">
         <item quantity="other">%d komentárov</item>

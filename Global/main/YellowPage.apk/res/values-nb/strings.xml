@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">Gå til startsiden</string>
+    <string name="abc_action_bar_home_description_format">%1$s – %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s – %2$s – %3$s</string>
+    <string name="abc_action_bar_up_description">Gå opp</string>
+    <string name="abc_action_menu_overflow_description">Flere alternativer</string>
+    <string name="abc_action_mode_done">Ferdig</string>
+    <string name="abc_activity_chooser_view_see_all">Se alle</string>
+    <string name="abc_activitychooserview_choose_application">Velg en app</string>
+    <string name="abc_search_hint">Søk …</string>
+    <string name="abc_searchview_description_clear">Slett søket</string>
+    <string name="abc_searchview_description_query">Søkeord</string>
+    <string name="abc_searchview_description_search">Søk</string>
+    <string name="abc_searchview_description_submit">Utfør søket</string>
+    <string name="abc_searchview_description_voice">Talesøk</string>
+    <string name="abc_shareactionprovider_share_with">Del med</string>
+    <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
+    <string name="abc_toolbar_collapse_description">Skjul</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="about_smart_antispam_summary">Om denne funksjonen</string>
     <string name="about_telephone_fraud">Beskytt deg mot svindel</string>
     <string name="account_address">Adresser</string>
@@ -86,7 +104,7 @@
     <string name="general_favorite_ok">Favoritt lagt til</string>
     <string name="general_favorite_title">Favoritter</string>
     <string name="general_follow_hint">Følg %1$s for å få relevante oppdateringer</string>
-    <string name="general_follow_hint_title">Hint</string>
+    <string name="general_follow_hint_title">Oppmerksomhet</string>
     <string name="general_menu_delete_recent">Slett nye</string>
     <string name="general_menu_unfavorite">Fjern fra favoritter</string>
     <string name="general_menu_unfollow">Avslutt følging</string>
@@ -96,7 +114,7 @@
     <string name="general_yellow_page_title">Generelt</string>
     <string name="group_name_banner" />
     <string name="group_name_basic" />
-    <string name="group_name_data_source">Source</string>
+    <string name="group_name_data_source">Kilde</string>
     <string name="group_name_enroll" />
     <string name="group_name_gallery">Galleri</string>
     <string name="group_name_management">Administrer</string>
@@ -115,16 +133,15 @@
     <string name="mark_number_check_dialog_title">Merkenummer</string>
     <string name="mark_number_check_most_choice">(De fleste brukeres valg)</string>
     <string name="mark_number_custom_mark_deleted">Merknadeinformasjon fjernet</string>
-    <string name="mark_number_delete_confirm_message">Fjerne merknadsinfo %s ?</string>
+    <string name="mark_number_delete_confirm_message">Fjerne flagginformasjon, %s?</string>
     <string name="mark_number_delete_confirm_title">Fjern merknadsinfo</string>
     <string name="mark_number_dialog_maintitle">Merk dette nummeret</string>
     <string name="mark_number_dialog_subtitle">%1$s (merket av %2$d personer)</string>
     <string name="mark_number_feedback">Flagg</string>
-    <string name="mark_number_feedback_hint">Angi tilbakemdelding</string>
+    <string name="mark_number_feedback_hint">Pass på at informasjonen du oppga er riktig.</string>
     <string name="mark_number_feedback_invalid_hint">Skriv inn tilbakemeldingen din</string>
-    <string name="mark_number_feedback_not_number">Det er ikke et %s-nummer</string>
-    <string name="mark_number_feedback_personal_number">Det er et personlig nummer</string>
-    <string name="mark_number_feedback_success">Merknadsinformasjon sendt</string>
+    <string name="mark_number_feedback_success">Flagginformasjonen har blitt mottatt</string>
+    <string name="mark_number_feedback_title_hint">Dette nummeret:</string>
     <string name="mark_number_marked_maintitle">Endre merknadsinformasjon</string>
     <string name="mark_number_marked_subtitle">%s (aktuelle merkander)</string>
     <string name="mark_number_notification_title">Rapporter mistenkelig nummer</string>
@@ -190,7 +207,7 @@
     <string name="payment_unknown_status_title">Kunne ikke bekrefte betalingsstatus</string>
     <string name="phone_event_setting_notice_text">Ved å bruke denne funksjonen samtykker du i våre %1$s og %2$s.</string>
     <string name="phone_event_setting_notice_text_with_contacts_permission">Ved å bruke denne funksjonen samtykker du i våre %1$s og %2$s. Det kreves ilgang til dine kontakter.</string>
-    <string name="photo_count">%d total</string>
+    <string name="photo_count">%d totalt</string>
     <string name="pull_to_refresh_pull_label">Trekk for å oppdatere …</string>
     <string name="pull_to_refresh_refreshing_label">Bare et øyeblikk…</string>
     <string name="pull_to_refresh_release_label">Slipp for å oppdatere …</string>
@@ -260,6 +277,7 @@ Totalt: RMB %3$s"</string>
     <string name="turn_on_smart_antispam_summary">Last opp og identifiser ukjente telefonnumre fra anropshistorikk og tekstmeldinger</string>
     <string name="turn_on_smart_antispam_title">Innringer-ID</string>
     <string name="turn_on_yellowpage_service_title">Bruk nummervisning</string>
+    <string name="unicom_yellow_page_operator_provided">Levert av tjenesteleverandøren</string>
     <string name="uploads_disabled">Filoppladning er deaktivert</string>
     <string name="user_agreement2">Vilkår for bruk</string>
     <string name="user_agreement4">Personvernerklæring</string>

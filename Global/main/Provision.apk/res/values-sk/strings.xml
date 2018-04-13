@@ -18,12 +18,12 @@
     <string name="other_settings_location">Prístup k polohe</string>
     <string name="other_settings_location_summary">Povoliť aplikáciam prístup k vašej polohe</string>
     <string name="other_settings_user_experience">Spätná väzba</string>
-    <string name="other_settings_user_experience_summary">Pomôžte nám vylepšovať naše produkty a služby zdieľaním vašich štatistík o využívaní dát. Detaily</string>
-    <string name="other_settings_user_experience_summary_index">Podrobnosti</string>
+    <string name="other_settings_user_experience_summary">Pomôžte nám vylepšovať naše produkty a služby zdieľaním vašich štatistík o využívaní dát. Zobraziť detaily</string>
+    <string name="other_settings_user_experience_summary_index">Zobraziť podrobnosti</string>
     <string name="other_settings_upload_debug_log_title">Odoslať diagnostické dáta</string>
     <string name="other_settings_upload_debug_log_summary">Štatistiky o využívaní dát, ktoré nám pomáhajú nájsť a vyriešiť problém, môžu obsahovať vaše osobné informácie</string>
-    <string name="other_settings_auto_update">Inštalovať automaticky</string>
-    <string name="other_settings_auto_update_summary">MIUI automaticky zvolí najlepší čas na inštaláciu aktualizácií.</string>
+    <string name="other_settings_auto_update">Automatická aktualizácia</string>
+    <string name="other_settings_auto_update_summary">MIUI automaticky zvolí najlepší čas na inštaláciu aktualizácií</string>
     <string name="other_settings_ad_enable">Odporúčané reklamy pre vás</string>
     <string name="other_settings_ad_enable_summary">Odporúčané reklamy pre vás na základe dát z vašej činnosti</string>
     <string name="back">Späť</string>

@@ -44,10 +44,11 @@ Poznámka: Data doinstalovaných aplikací nebudou zálohována na Mi Cloud"</st
     <string name="cloud_app_no_network">Nelze se připojit k síti</string>
     <string name="button_delete">Vymazat</string>
     <string name="customization"><u>Upravit</u></string>
+    <string name="home_hint_global_launcher">Domovská obrazovka Poco</string>
     <string name="self_phone">Tento telefon</string>
+    <string name="self_phone_home">Tento telefon: %s</string>
     <string name="process_whole_recovery">Obnova \"%s\"</string>
     <string name="device_xiaomi">Mi Phone</string>
-    <string name="device_corrupt">Mi Telefon (Data jsou poškozena)</string>
     <string name="size_unknown">Neznámá velikost</string>
     <string name="recovering">Obnovení %s</string>
     <string name="start_recover">Obnovit %s</string>
@@ -69,7 +70,7 @@ Poznámka: Data doinstalovaných aplikací nebudou zálohována na Mi Cloud"</st
     <string name="desktop_downloading">Stahování</string>
     <string name="desktop_installing">Instalování</string>
     <string name="desktop_wait_wifi">Čekání</string>
-    <string name="desktop_failed">Neúspěšné</string>
+    <string name="desktop_failed">Chyba</string>
     <string name="recover_from_micloud">Obnovit pomocí zálohy z Mi Cloudu</string>
     <string name="click_try_to_restore_again">Zkuste to znovu</string>
     <string name="open_wifi">Zapnout Wi-Fi</string>
@@ -132,6 +133,8 @@ Poznámka: Data doinstalovaných aplikací nebudou zálohována na Mi Cloud"</st
     <string name="no_account">Nejste přihlášeni ke Xiaomi účtu.</string>
     <string name="no_backup">Žádné zálohy v Mi Cloudu.</string>
     <string name="download_meta_failed">Data nelze načíst.</string>
+    <string name="home_restore_error">Domovskou obrazovku se nepodařilo obnovit</string>
+    <string name="get_device_id_error">Nelze získat ID zařízení</string>
     <string name="download_home_data">Stahování rozložení Domovské obrazovky…</string>
     <string name="restore_home_failed">Domovskou obrazovku se nepodařilo obnovit.</string>
     <string name="arrange_restore_order">Měnění uspořádání aplikací…</string>

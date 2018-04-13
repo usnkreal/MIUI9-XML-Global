@@ -148,25 +148,6 @@
     <string name="antispam_provider">זוהה על ידי %s</string>
     <string name="antispam_notification_title">מספר לא מזוהה</string>
     <string name="suspect_info">היזהר בעת מסירה של פרטיך האישיים.</string>
-    <string name="livetalk_dial">משתמש בחבילת Top-up</string>
-    <string name="areacode_set_default">הגדר כברירת מחדל</string>
-    <string name="default_area_code_setting">אזור חיוג ברירת מחדל</string>
-    <string name="not_activate_sim_card_content_title">מספר הטלפון לא מאומת</string>
-    <string name="not_activate_sim_card_content">אמת את מספר הטלפון שלך על מנת להתחיל להשתמש בחבילת Top-up. עדיין תוכל לבצע שיחות רגילות בחיוב על ידי ספק השירות שלך.</string>
-    <string name="not_activate_sim_card_content_with_operator">אמת SIM %1$s (%2$s) על מנת לבצע שיחה באמצעות חבילת Top-up. עדיין תוכל לבצע שיחות רגילות בחיוב על ידי ספק השירות שלך.</string>
-    <string name="dialog_call_ordinary_telephone">שיחה רגילה</string>
-    <string name="dialog_activate_livetalk">אמת מספר</string>
-    <string name="not_support_title">המספר אינו נתמך</string>
-    <string name="not_support_message">חבילת ה-Top-up אינה תומכת במספרים מסוג זה כרגע. באפשרותך לנסות לבצע שיחה רגילה במקום.</string>
-    <string name="livetalk_hangup">נתק</string>
-    <string name="no_call_back_title">שים לב</string>
-    <string name="no_call_back_message">זמן חיבור ארוך מידי. עובר לחיוג רגיל, יתכנו חיובים על ידי ספק הרשת.</string>
-    <string name="keep_wait_call_back">המשך להמתין</string>
-    <string name="network_error_title">שגיאת רשת</string>
-    <string name="network_error_message">נסה לבצע שיחה רגילה. יתבצע חיוב על ידי המפעיל.</string>
-    <string name="do_not_ask">אל תציג שוב</string>
-    <string name="time_left_livetalk">(%dש)</string>
-    <string name="can_not_call_oneself">לא ניתן לחייג למספר זה</string>
     <string name="card_title_video_call_paused">וידאו מושהה</string>
     <string name="card_title_incoming_conference_call">שיחת ועידה נכנסת</string>
     <string name="onscreen_change_to_voice">שיחה קולית</string>
@@ -191,6 +172,9 @@
     <string name="close_camera_failed">לא ניתן היה לכבות את המצלמה…</string>
     <string name="change_to_voice_tips_when_background">הצד השני החליף לשיחה קולית</string>
     <string name="video_crbt_title">%s צליל חיוג וידאו</string>
+    <string name="crbt_second_hold_prompt">%s נמצא בהחזק…</string>
+    <string name="crbt_second_hold_prompt_no_name">השיחה הקודמת נמצאת בהחזק…</string>
+    <string name="crbt_second_hold_prompt_conference">שיחת הועידה נמצאת בהחזק…</string>
     <string name="call_button_tools_text">מאפיינים</string>
     <string name="call_button_dialer_text">לוח מקשים</string>
     <string name="call_button_mute_text">השתק</string>
@@ -212,6 +196,7 @@
     <string name="dialpad_seven">7</string>
     <string name="dialpad_eight">8</string>
     <string name="dialpad_nine">9</string>
+    <string name="prompt_no_volte_when_failed">שירותי VoLTE אינם זמינים.</string>
     <string name="no_vm_number">מספר תא קולי חסר</string>
     <string name="no_vm_number_msg">לא קיימים מספרי תא קולי בכרטיס ה-SIM.</string>
     <string name="add_vm_number_str">הוספת מספר</string>
@@ -225,6 +210,10 @@
     <string name="dial_with_gsm_phone">שיחה רגילה</string>
     <string name="livetalk_left_minute">%s דקות נותרו</string>
     <string name="miprofile_stranger_card">כרטיס של אדם זר</string>
+    <string name="network_error_message">נסה לבצע שיחה רגילה. יתבצע חיוב על ידי המפעיל.</string>
+    <string name="network_error_title">שגיאת רשת</string>
     <string name="no_balance_message">יתרת חבילת ה-Top-up שלך נמוכה מידי. באפשרותך לנסות לבצע שיחה רגילה במקום.</string>
+    <string name="not_support_message">חבילת ה-Top-up אינה תומכת במספרים מסוג זה כרגע. באפשרותך לנסות לבצע שיחה רגילה במקום.</string>
+    <string name="not_support_title">המספר אינו נתמך</string>
     <string name="purchase_now">Top up</string>
 </resources>

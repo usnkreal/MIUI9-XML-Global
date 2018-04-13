@@ -49,7 +49,7 @@ Veľkosť aktualizácie delta: %2$s"</string>
     <string name="restore_launcher_layout_hit">Obnoviť nastavenia launcheru</string>
     <string name="settings_summary">Nastavenia telefónu a správ</string>
     <string name="camera_summary">Nastavenia Fotoaparátu (bez fotografií)</string>
-    <string name="account_summary">Zálohovanie účtu Google, Mi účtu a ostatných užívateľských dát</string>
+    <string name="account_summary">Zálohujte si Google účet, Mi Konto a ostatné užívateľské dáta</string>
     <string name="cloud_app_name">Záloha Mi Cloud</string>
     <string name="cloud_home_title">Mi Cloud</string>
     <string name="prompt_reading">Čítanie…</string>
@@ -250,7 +250,7 @@ Veľkosť aktualizácie delta: %2$s"</string>
     <string name="err_filesystem_mount">Nebolo možné získať prístup k úložisku routra</string>
     <string name="err_router_disconnected">Skontrolujte pripojenie routra a skúste to znova.</string>
     <string name="err_router_files_delete">Nebolo možné vymazať záložné súbory na routri</string>
-    <string name="err_not_allow">Žiadna podpora</string>
+    <string name="err_not_allow">Nie je podporované</string>
     <string name="backup_is_running">Zálohovanie zariadenia</string>
     <string name="restore_is_running">Obnovenie zariadenia</string>
     <string name="notif_backup_title">Zálohovať dáta</string>

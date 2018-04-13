@@ -27,10 +27,10 @@
     <string name="s7">Teszthirdetés</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="account_and_cloud">Fiók</string>
-    <string name="action_item_add">Hozzáadás</string>
+    <string name="action_item_add">Hozzáadás:</string>
     <string name="action_item_add_song">Hozzáadás</string>
-    <string name="action_item_add_to_current_playlist">Jelenlegi lista</string>
-    <string name="action_item_add_to_favorite_playlist">Kedvenc lejátszási lista</string>
+    <string name="action_item_add_to_current_playlist">Várólista</string>
+    <string name="action_item_add_to_favorite_playlist">Kedvencek</string>
     <string name="action_item_add_to_new_playlist">Új</string>
     <string name="action_item_delete">Törlés</string>
     <string name="action_item_download">Letöltés…</string>
@@ -39,14 +39,15 @@
     <string name="action_item_hide">Elrejtés</string>
     <string name="action_item_hifi">Fejhallgatók és hanghatások</string>
     <string name="action_item_play_all">Összes lejátszása</string>
+    <string name="action_item_play_next">Lejátszás később</string>
     <string name="action_item_remove">Eltávolítás</string>
     <string name="action_item_remove_from_favorite">Eltávolítás a kedvencekből</string>
     <string name="action_item_share">Megosztás</string>
     <string name="action_settings">Beállítások</string>
     <string name="ad_close">Bezárás</string>
     <string name="ad_data_exception">Hirdetésadat-hiba</string>
-    <string name="ad_recommend">Ajánlások</string>
-    <string name="ad_setting">Hirdetési beállítások</string>
+    <string name="ad_recommend">Ajánlások fogadása</string>
+    <string name="ad_setting">További beállítások</string>
     <string name="add_music">Dalok hozzáadása</string>
     <string name="add_to_last_of_playlist">Hozzáadás a lejátszási lista végéhez</string>
     <string name="add_to_playlist_successful">Sikeresen hozzáadva</string>
@@ -54,6 +55,8 @@
     <string name="alaka_required">Ezért a dalért fizetnie kell, hogy meghallgathassa</string>
     <string name="album_label">Albumborítók</string>
     <string name="album_name">Lemezborító</string>
+    <string name="all_album_count">Összes album (%d)</string>
+    <string name="all_playlist_count">Összes lejátszási lista (%d)</string>
     <string name="all_tracks">Minden dal</string>
     <string name="already_download">Letöltés...</string>
     <string name="already_download_btn">Letöltés…</string>
@@ -87,7 +90,6 @@
     <string name="audio_recognition_setting_title">Albumborítók és dalszövegek keresése</string>
     <string name="auto_payment">Automatikus megújítás</string>
     <string name="auto_payment_date">Következő fizetés: %s</string>
-    <string name="auto_upgrade">Frissítés automatikusan</string>
     <string name="available_playlist_name_format">Új lejátszási lista %d</string>
     <string name="avoid_to_use_traffic_summary">Ne használjon mobiladatot a zenehallgatáshoz</string>
     <string name="avoid_to_use_traffic_title">Figyelmeztessen, mikor mobiladat-kapcsolatot használ zenehallgatáshoz</string>
@@ -170,12 +172,11 @@ elsősorban az Ultimate Inc. biztosítja."</string>
     <string name="dialog_file_already_exists">Nem lehet letölteni. A fájl már nem elérhető.</string>
     <string name="dialog_file_missing_body">A letöltött fájl nem található.</string>
     <string name="dialog_file_missing_title">A fájl nem nyitható meg</string>
-    <string name="dialog_insufficient_space_on_cache">Nincs elég szabad hely a belső tárolón</string>
-    <string name="dialog_insufficient_space_on_external">Nincs elég szabad hely a külső tárhelyen</string>
+    <string name="dialog_insufficient_space_on_cache">A letöltés nem sikerült, nem maradt elég belső tárhely.</string>
+    <string name="dialog_insufficient_space_on_external">"Letöltést nem lehet befejezni. Nincs
+        elég hely az SD-kártyán."</string>
     <string name="dialog_media_not_found">Nem lehet letölteni. SD kártya nem elérhető.</string>
     <string name="dialog_queued_body">Ez a fájl a letöltési sorban van a későbbi letöltésre.</string>
-    <string name="dialog_show_more_backup">Helyi dalok biztonsági mentése</string>
-    <string name="dialog_show_more_optimize_all">A dalok információinak optimalizálása</string>
     <string name="dialog_song_sort_type">Dalok rendezése</string>
     <string name="dialog_song_sort_type_name">Név szerint</string>
     <string name="dialog_song_sort_type_playing_times">Lejátszások száma szerint</string>
@@ -185,7 +186,7 @@ elsősorban az Ultimate Inc. biztosítja."</string>
     <string name="dialog_song_view_type_artist">Előadó szerint</string>
     <string name="dialog_song_view_type_folder">Mappa szerint</string>
     <string name="dialog_song_view_type_song">Szám szerint</string>
-    <string name="dialog_title_clearlist_tracks">Lejátszási lista törlése</string>
+    <string name="dialog_title_clearlist_tracks">Eltávolítás a várólistáról</string>
     <string name="dialog_title_delete_tracks">Törlés</string>
     <string name="dialog_title_name_playlist">Lejátszási lista neve</string>
     <string name="dialog_title_not_available">Nem lehet letölteni</string>
@@ -229,7 +230,7 @@ elsősorban az Ultimate Inc. biztosítja."</string>
     <string name="download_manage">Letöltések</string>
     <string name="download_manage_item_complete">KÉSZ</string>
     <string name="download_method">Letöltés</string>
-    <string name="download_no_application_title">A fájl nem nyitható meg</string>
+    <string name="download_no_application_title">Nem lehet megnyitni a fájlt</string>
     <string name="download_paused_in_power_save_mode">A letöltések megállítva, amíg az akkukímélő engedélyezve van</string>
     <string name="download_percent">%d%%</string>
     <string name="download_processing">Letöltés…</string>
@@ -267,6 +268,7 @@ elsősorban az Ultimate Inc. biztosítja."</string>
     <string name="downloading_apk">Letöltés… Az előrehaladás megtekintése az Értesítési panelen.</string>
     <string name="downloading_empty">Üres</string>
     <string name="downloading_pause_apk">Szüneteltetve. Letöltés folytatása az Értesítési panelen.</string>
+    <string name="edit_playlist_info">Lejátszási lista leírás szerkesztése</string>
     <string name="empty_page_no_album">Nincs album.</string>
     <string name="empty_page_no_artist">Nincs előadó.</string>
     <string name="enable_auto_payment_fail">Nem lehet bekapcsolni</string>
@@ -298,6 +300,7 @@ elsősorban az Ultimate Inc. biztosítja."</string>
     <string name="error_title">Nem szinkronizálható</string>
     <string name="error_unauthorized">A szinkronizálás le van a túl sok belépési kísérlet miatt.</string>
     <string name="expired">Lejárt</string>
+    <string name="facebook_not_installed">Először telepítse a Facebook alkalmazást.</string>
     <string name="fail_to_fetch_payment_page_url">Nem sikerült lekérdezni a fizetési információt</string>
     <string name="fail_to_play">Nem játszható le</string>
     <string name="fav_login_msg">Jelentkezzen be a Mi fiókjába a dalok letöltéséhez</string>
@@ -379,7 +382,7 @@ elsősorban az Ultimate Inc. biztosítja."</string>
     <string name="in_searching_please_wait">Keresés, várjon…</string>
     <string name="individuation_recommend_message">Kapcsolja be az ajánlásokat, hogy személyre szabott javaslatokat kapjon a preferenciái alapján.</string>
     <string name="individuation_recommend_switch_message">A funkció kikapcsolása hatással lesz a személyre szabott Mi Zene szolgáltatásokra. Mégis kikapcsolja?</string>
-    <string name="individuation_recommend_title">Ajánlások</string>
+    <string name="individuation_recommend_title">Hirdetések</string>
     <string name="input_hint_prefix">Mi legyen a %1$s?</string>
     <string name="installing_apk">Telepítés…</string>
     <string name="insufficient_space">Nincs elég szabad hely a belső tárolón</string>
@@ -408,6 +411,7 @@ elsősorban az Ultimate Inc. biztosítja."</string>
     <string name="local_page_custom_title">Önnek</string>
     <string name="local_page_playlist">Saját lejátszási listák</string>
     <string name="local_page_song_download_history">Letöltések</string>
+    <string name="long_press_to_select_lyric">Érintse meg és tartsa nyomva a helyi dalszöveg fájl kiválasztásához</string>
     <string name="lrc_search_failed">Nem található dalszöveg</string>
     <string name="lrc_searching">Keresés…</string>
     <string name="lyric_is_empty">A dalszöveg nem elérhető</string>
@@ -445,12 +449,13 @@ elsősorban az Ultimate Inc. biztosítja."</string>
     <string name="mobile_recommended_title">Mobiladat-használat</string>
     <string name="modify_info_disable_note">Ha manuálisan szeretné szerkeszteni az adatokat, kapcsolja ki az \"Albumborítók és dalszövegek beazonosítása\" funkciót.</string>
     <string name="modify_lyric">Dalszöveg szerkesztése</string>
+    <string name="modify_pic">Borító módosítása</string>
     <string name="modify_progress">Dalszöveg görgetési sebességének módosítása</string>
     <string name="modify_progress_helper">Húzza le vagy fel a dalszöveg beállításához</string>
     <string name="modify_song_info">Dal adatainak módosítása</string>
     <string name="modify_song_info_success">A dal információi frissítve</string>
     <string name="more">Egyebek</string>
-    <string name="more_add_song_list">Hozzáadás az aktuális lejátszási listához</string>
+    <string name="more_add_song_list">Dalok hozzáadása a várólistához</string>
     <string name="more_settings">További beállítások</string>
     <string name="more_settings_summary">Értesítések, elalvásidőzítő, fájlok szűrése, stb.</string>
     <string name="more_share">Megosztás</string>
@@ -479,12 +484,14 @@ elsősorban az Ultimate Inc. biztosítja."</string>
     <string name="no_online_song_selected">Nincs kiválasztott dal</string>
     <string name="no_results_return">Nincs találat</string>
     <string name="no_scanned_songs">Üres</string>
-    <string name="no_song">Nincs dal</string>
     <string name="no_song_downloaded">Nem sikerült csatlakozni a szerverhez</string>
+    <string name="no_song_subtitle">Merüljön el a zenében</string>
+    <string name="no_song_title">Mi Zene</string>
     <string name="no_system_cropper_find">A rendszer nem rendelkezik képek vágásához eszközzel</string>
     <string name="normal_quality">Jó</string>
     <string name="not_login">Nincs bejelentkezve</string>
     <string name="not_selected">Válasszon zeneszámot</string>
+    <string name="nothing_changed_toast">Még nem módosított semmit.</string>
     <string name="notif_title_file_size">%1$d összesen</string>
     <string name="notif_title_multiple_downloading">%1$d fájl letöltése</string>
     <string name="notif_title_single_downloading">%1$s letöltése</string>
@@ -501,12 +508,10 @@ elsősorban az Ultimate Inc. biztosítja."</string>
     <string name="nowplaying_circle_style">Lejátszás gomb stílusa</string>
     <string name="nowplaying_circle_style_rainbow">Szivárvány</string>
     <string name="nowplaying_circle_style_wave">Hullám</string>
-    <string name="nowplaying_dialog_title_delete_tracks">Eltávolítja a jelenlegi listát?</string>
-    <string name="nowplaying_menu_item_delete">Eltávolítás</string>
+    <string name="nowplaying_dialog_title_delete_tracks">Eltávolítja ezt a dalt a várólistáról?</string>
+    <string name="nowplaying_menu_item_delete">Eltávolítás a várólistáról</string>
     <string name="ok">OK</string>
     <string name="online_list_delete_message">Az lejátszási lista összes letöltött dala törölve lesz a belső tárhelyről.</string>
-    <string name="online_music_enabled_summary">Kedvenc és legjobb dalok meghallgatása és letöltése.</string>
-    <string name="online_music_enabled_title">Ingyenes Online zenehallgatás</string>
     <string name="online_recommend">Lejátszási lista</string>
     <string name="online_service_open_tip">Online zeneszolgáltatás már be van kapcsolva</string>
     <string name="online_service_title">Online szolgáltatások</string>
@@ -526,6 +531,8 @@ elsősorban az Ultimate Inc. biztosítja."</string>
     <string name="paused_waiting_for_network">Kapcsolódásra várva</string>
     <string name="paused_waiting_to_retry">Újrapróbálkozásig szünetel</string>
     <string name="pay_now">Jelenlegi szolgáltatás</string>
+    <string name="payment_success_message">Köszönjük! Fizetése sikeresen megtörtént. Élvezze a PRO szolgáltatásokat.</string>
+    <string name="payment_success_title">Gratulálunk!</string>
     <string name="pending_apk">Függőben…</string>
     <string name="permission_declaration_message">Tárhelyhez hozzáférést adhat a Biztonság > Engedélyek > Engedélyek > Tárhely > Zene hogy képes legyen használni Zenét rendesen.</string>
     <string name="permission_declaration_negative_text">Később</string>
@@ -535,12 +542,16 @@ elsősorban az Ultimate Inc. biztosítja."</string>
     <string name="pick_local_song">Helyi dalok</string>
     <string name="pick_recent_song">Legutóbb játszott</string>
     <string name="play_all_song">Összes lejátszása</string>
+    <string name="play_empty_playlist">A dalok lejátszása sikertelen. A lejátszási lista üres.</string>
     <string name="play_mode_all_loop">Összes ismétlése</string>
     <string name="play_mode_one_loop">Folyamatos lejátszás</string>
     <string name="play_mode_play_all">Összes lejátszása</string>
     <string name="play_mode_shuffle_all">Keverés</string>
     <string name="play_next">Következő lejátszása</string>
     <string name="playlist_empty">Nem található lejátszási lista.</string>
+    <string name="playlist_title">Lejátszási lista neve</string>
+    <string name="playlist_title_is_empty">Lejátszási lista neve nem lehet üres</string>
+    <string name="playlist_title_is_invalid">A lejátszási lista már létezik</string>
     <string name="playlist_type_album">Albumok</string>
     <string name="playlist_type_artist">Előadó</string>
     <string name="playlist_type_billboard">Listák</string>
@@ -553,13 +564,14 @@ elsősorban az Ultimate Inc. biztosítja."</string>
     <string name="preset_music_playlist">Mi Zene lejátszási lista</string>
     <string name="priority_storage">Mentés az SD kártyára</string>
     <string name="priority_storage_summary">Fájlok automatikus mentése az SD kártyára.</string>
-    <string name="privacy_policy">Adatvédelmi nyilatkozat</string>
+    <string name="privacy_policy">Adatvédelmi Irányelvek</string>
     <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=en</string>
     <string name="project_device">Mi Telefon</string>
     <string name="prompt_grant_write_settings_permission">Rendszerbeállítások módosításának engedélyezése</string>
     <string name="pulluprefreshrecyclerview_loading_error">Nem tölthető be</string>
     <string name="pulluprefreshrecyclerview_loading_finished">Sikeresen betöltve</string>
     <string name="pulluprefreshrecyclerview_loading_running">Betöltés…</string>
+    <string name="queue_is_empty">A lejátszási sor üres.</string>
     <string name="radar">ACRCloud</string>
     <string name="radar_click_to_retry">Próbálja újra</string>
     <string name="radar_fail">Nincs találat</string>
@@ -607,22 +619,19 @@ elsősorban az Ultimate Inc. biztosítja."</string>
     <string name="search_hint">Keressen előadókat, dalokat, albumokat és ajánlásokat</string>
     <string name="search_history_clear_all">Törlés</string>
     <string name="search_instant_online_music">Online</string>
+    <string name="search_songs_count">Dal: %d</string>
     <string name="search_title">Keresés</string>
     <string name="select_all">Az összes kiválasztása</string>
     <string name="select_device">Válasszon eszközt</string>
     <string name="select_displayed_folders">Megjelenítendő mappa</string>
-    <string name="select_local_album">Helyi Album választása</string>
-    <string name="select_local_lyric">Helyi dalszöveg választása</string>
+    <string name="select_local_cover">Válassza ki a helyi borítót</string>
+    <string name="select_local_lyric_file">Válassza ki a helyi dalszöveg fájlt</string>
     <string name="select_none">Kijelölések törlése</string>
     <string name="selected_count">%1$d/%2$d kiválasztva</string>
     <string name="send_to_title">Küldés (%1$s)</string>
     <string name="server_error">Hiba történt. Várjon egy-két percet, majd próbálja újra.</string>
     <string name="service_and_settings">Beállítások</string>
     <string name="set_as_ring">Csengőhang</string>
-    <string name="set_id3_failed">A dal adatainak beállítása nem sikerült</string>
-    <string name="set_id3_not_have_read_or_write_permission">Nincs jogosultsága ezt a fájlt módosítani</string>
-    <string name="set_id3_not_support_format">Nem szerkeszthető ez a fájlformátum</string>
-    <string name="set_id3_successful">A dal adatai beállítva</string>
     <string name="set_ringtones_failed">Nem sikerült beállítani csengőhangnak.</string>
     <string name="set_ringtones_successful">%s beállítva csengőhangnak.</string>
     <string name="setting_feature_setting">Funkció beállítások</string>
@@ -659,7 +668,7 @@ elsősorban az Ultimate Inc. biztosítja."</string>
     <string name="sleep_mode_canceled">Alvó mód megszakítva</string>
     <string name="sleep_mode_summary">Használja a csúszkát a kikapcsolási idő beállításához</string>
     <string name="sleep_mode_title">A zene kikapcsolása a beállított idő után</string>
-    <string name="song_exist_in_playlist">Ez a dal már a lejátszási listában van</string>
+    <string name="song_exist_in_playlist">Ez a dal már szerepel a várólistán</string>
     <string name="song_info">Dal részletei</string>
     <string name="song_is_empty">A dal neve nem lehet üres.</string>
     <string name="song_name">Dal</string>
@@ -745,4 +754,11 @@ elsősorban az Ultimate Inc. biztosítja."</string>
 
 Érintse meg a %s-t, hogy a letöltés akkor kezdődjön el, amikor legközelebb Wi-Fi hálózathoz csatlakozik."</string>
     <string name="wifi_required_title">Wi-Fi kapcsolat szükséges a fájl letöltéséhez</string>
+    <string name="auto_upgrade">Frissítés automatikusan</string>
+    <string name="dialog_show_more_backup">Helyi dalok biztonsági mentése</string>
+    <string name="dialog_show_more_optimize_all">A dalok információinak optimalizálása</string>
+    <string name="set_id3_failed">A dal adatainak beállítása nem sikerült</string>
+    <string name="set_id3_not_have_read_or_write_permission">Nincs jogosultsága ezt a fájlt módosítani</string>
+    <string name="set_id3_not_support_format">Nem szerkeszthető ez a fájlformátum</string>
+    <string name="set_id3_successful">A dal adatai beállítva</string>
 </resources>

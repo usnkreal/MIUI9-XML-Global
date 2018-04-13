@@ -67,6 +67,10 @@
     <string name="button_confirm">Accepter</string>
     <string name="button_exit">Refuser</string>
     <string name="button_not_allow">Annuler</string>
+    <string name="button_settings_cancel">Annuler</string>
+    <string name="button_settings_confirm">Révoquer</string>
+    <string name="button_settings_confirm_to_revoke_msg">Vous ne pourrez plus utiliser Météo après avoir révoqué une autorisation.</string>
+    <string name="button_settings_confirm_to_revoke_title">"Révoquer l'autorisation ?"</string>
     <string name="button_sure_abandon">Annuler les modifications ?</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Vérifiez votre connexion réseau et réessayez</string>
@@ -98,6 +102,7 @@ Faites glisser vers le bas pour actualiser ou vérifier les paramètres réseau"
     <string name="edit_alert_city_title">Gérer les alertes</string>
     <string name="edit_city">Modifier la ville</string>
     <string name="empty">" "</string>
+    <string name="eu_region_version_first_start_network_msg">"En utilisant ce produit, vous acceptez que Xiaomi collecte, traite et utilise vos informations personnelles, y compris les coordonnées des villes que vous recherchez ainsi que d'autres types de données spécifiés dans notre Politique de confidentialité. Reférez-vous à notre politique de confidentialité pour savoir comment nous collectons et traitons les informations. En appuyant sur \"Accepter\", vous acceptez le %1$s et la %2$s de Xiaomi."</string>
     <string name="feedback_heavy_rain">Fortes pluies</string>
     <string name="feedback_heavy_snow">Neige</string>
     <string name="feedback_light_rain">Pluie fine</string>
@@ -182,12 +187,19 @@ Appuyer sur l'écran pour ajouter manuellement ou repositionner une ville"</stri
     <string name="particulate_matter_exceeded">Elevé</string>
     <string name="particulate_matter_not_exceeded">Normal</string>
     <string name="particulate_matter_serious_exceeded">Trop élevé</string>
+    <string name="policy_settings">"Conditions générales d'utilisation"</string>
     <string name="precipitation_degree_five">Fort</string>
     <string name="precipitation_degree_four">Elevé</string>
     <string name="precipitation_degree_one">Aucun</string>
     <string name="precipitation_degree_three">Modéré</string>
     <string name="precipitation_degree_two">Faible</string>
     <string name="pressure_connect">%1$s mb</string>
+    <string name="privacy_grant_failed">"Impossible d'accorder l'autorisation. Patientez une minute ou deux puis réessayez."</string>
+    <string name="privacy_grant_or_revoke_settings">"Accord &amp; révocation d'autorisation"</string>
+    <string name="privacy_grant_success">Autorisation accordée avec succès</string>
+    <string name="privacy_revoke_failed">"Impossible de révoquer l'autorisation. Patientez une minute ou deux puis réessayez."</string>
+    <string name="privacy_revoke_success">Autorisation révoquée avec succès</string>
+    <string name="privacy_settings">Politique de Confidentialité</string>
     <string name="pull_fresh_updated">Mis à jour avec succès</string>
     <string name="pull_fresh_updating">Mise à jour…</string>
     <string name="radar_cloud_image_title">Carte radar</string>
@@ -269,16 +281,4 @@ Appuyer sur l'écran pour ajouter manuellement ou repositionner une ville"</stri
     <string name="xiaomi_weather_description_title">À propos de Météo</string>
     <string name="yes_vote_ratio">Pour %1$s%%</string>
     <string name="your_location">Votre localisation</string>
-    <string name="button_settings_cancel">Annuler</string>
-    <string name="button_settings_confirm">Révoquer</string>
-    <string name="button_settings_confirm_to_revoke_msg">Vous ne pourrez plus utiliser Météo après avoir révoqué une autorisation.</string>
-    <string name="button_settings_confirm_to_revoke_title">"Révoquer l'autorisation ?"</string>
-    <string name="eu_region_version_first_start_network_msg">"En utilisant ce produit, vous acceptez que Xiaomi collecte, traite et utilise vos informations personnelles, y compris les coordonnées des villes que vous recherchez ainsi que d'autres types de données spécifiés dans notre Politique de confidentialité. Reférez-vous à notre politique de confidentialité pour savoir comment nous collectons et traitons les informations. En appuyant sur \"Accepter\", vous acceptez le %1$s et la %2$s de Xiaomi."</string>
-    <string name="policy_settings">"Conditions générales d'utilisation"</string>
-    <string name="privacy_grant_failed">"Impossible d'accorder l'autorisation. Patientez une minute ou deux puis réessayez."</string>
-    <string name="privacy_grant_or_revoke_settings">"Accord &amp; révocation d'autorisation"</string>
-    <string name="privacy_grant_success">Autorisation accordée avec succès</string>
-    <string name="privacy_revoke_failed">"Impossible de révoquer l'autorisation. Patientez une minute ou deux puis réessayez."</string>
-    <string name="privacy_revoke_success">Autorisation révoquée avec succès</string>
-    <string name="privacy_settings">Politique de Confidentialité</string>
 </resources>

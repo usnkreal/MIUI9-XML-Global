@@ -472,6 +472,7 @@ d MMMM"</string>
     <string name="notification_group_title_text">%1$s (%2$s)</string>
     <string name="notification_group_overflow_indicator">+%s</string>
     <string name="click_to_return_multi_window">Чукнете за да се върнете в Разделен екран</string>
+    <string name="click_to_return_multi_window_of_notch">Обратно към Разделен екран</string>
     <string name="recent_dock_tip">Чукнете за избор на приложения</string>
     <string name="recent_cannot_dock">Не може да се използва разделен екран във Второ работно място</string>
     <string name="dock_keyguard_locked_failed_to_dock_text">Разделен екран не се поддържа върху Заключен екран.</string>
@@ -497,7 +498,7 @@ d MMMM"</string>
     <string name="fs_gesture_final_over">Готово</string>
     <string name="no_sim_card">Няма SIM карта</string>
     <string name="prompt_detecting">Откриване</string>
-    <string name="prompt_danger">Риск</string>
+    <string name="prompt_danger">Опасно</string>
     <string name="prompt_failure">Грешка</string>
     <string name="prompt_safe">Безопасно</string>
     <string name="prompt_unknown">Неизвестно</string>

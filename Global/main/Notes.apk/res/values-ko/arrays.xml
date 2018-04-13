@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="folder_operations">
-        <item>이름 변경</item>
-        <item>삭제</item>
-    </string-array>
     <string-array name="attachment_chooser">
         <item>카메라</item>
         <item>갤러리</item>
-    </string-array>
-    <string-array name="note_sort_way">
-        <item>생성 날짜순</item>
-        <item>수정 날짜순</item>
     </string-array>
     <string-array name="contact_entries">
         <item>이름</item>
@@ -25,11 +17,19 @@
         <item>주소</item>
         <item>메모</item>
     </string-array>
+    <string-array name="folder_operations">
+        <item>이름 변경</item>
+        <item>삭제</item>
+    </string-array>
     <string-array name="font_size_names">
         <item>소</item>
         <item>중</item>
         <item>대</item>
         <item>특대</item>
+    </string-array>
+    <string-array name="note_sort_way">
+        <item>생성 날짜순</item>
+        <item>수정 날짜순</item>
     </string-array>
     <string-array name="welcome_notes_content">
         <item>"메모장에 오신 것을 환영합니다!

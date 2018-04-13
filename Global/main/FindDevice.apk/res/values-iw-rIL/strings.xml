@@ -79,6 +79,8 @@
     <string name="default_lock_msg_words_with_phone">היי! איבדתי את הטלפון שלי. תוכלו בבקשה ליצור עימי קשר? תודה!</string>
     <string name="default_lock_msg_words">מכשיר זה מקושר לחשבון Mi קיים. מטעמי אבטחה, עליך להזין סיסמה על מנת לאמת את המכשיר.</string>
     <string name="lock_msg_phone">פרטי איש קשר: %s</string>
+    <string name="emergency_call">שיחת חירום</string>
+    <string name="return_to_call">חזרה לשיחה</string>
     <string name="default_debt_msg_words">"מכשיר זה ננעל עקב איחור בתשלום.
 צור קשר עם סוכן המכירות שלך לקבלת פרטים."</string>
     <string name="sys_notification_async_verify_title">"הפעל מחדש את 'איתור המכשיר'"</string>

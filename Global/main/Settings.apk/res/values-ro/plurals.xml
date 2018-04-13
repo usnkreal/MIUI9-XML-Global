@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="firewall_item_summary">
+        <item quantity="other">Conexiune restricționată pentru %s aplicații</item>
+        <item quantity="one">Conexiune restricționată pentru %s aplicație</item>
+        <item quantity="few">Conexiune restricționată pentru %s aplicații</item>
+    </plurals>
+    <plurals name="bg_network_allow_count">
+        <item quantity="other">%d aplicații se pot conecta la rețea</item>
+        <item quantity="one">%d aplicație se poate conecta la rețea</item>
+        <item quantity="few">%d aplicații se pot conecta la rețea</item>
+    </plurals>
+    <plurals name="bg_network_restrict_count">
+        <item quantity="other">%d aplicații nu se pot conecta la rețea</item>
+        <item quantity="one">%d aplicație nu se poate conecta la rețea</item>
+        <item quantity="few">%d aplicații nu se pot conecta la rețea</item>
+    </plurals>
     <plurals name="status_bar_settings_disabled_header_title">
         <item quantity="other">%d aplicații nu pot afișa notificări</item>
         <item quantity="one">%d aplicație nu poate afișa notificări</item>

@@ -58,6 +58,8 @@
     <string name="wating">רק רגע…</string>
     <string name="Active">מופעל</string>
     <string name="ok_button">אישור</string>
+    <string name="remove_button">Remove and reboot</string>
+    <string name="remove_button_time">Remove and reboot (%ds)</string>
     <string name="cancel_button">ביטול</string>
     <string name="list_empty_text">ריק</string>
     <string name="list_empty_text_xspace">התקן את WeChat/QQ/Weibo, צור יישומים משוכפלים ונסה שוב.</string>
@@ -65,6 +67,8 @@
     <string name="xspace_setting_label">הגדרות יישומים משוכפלים</string>
     <string name="xspace_account">חשבונות יישומים משוכפלים</string>
     <string name="declare_dialog_title">אודות יישומים משוכפלים</string>
+    <string name="stop_xspace_alert_title">Deleting dual app accounts</string>
+    <string name="stop_xspace_alert_content">"You deleted all dual apps. Delete dual app accounts and app data as well? After this, you'll have to create dual apps again when you need them."</string>
     <string name="xspace_loading_msg">טוען יישומים…</string>
     <string name="xspace_header">יישומים משוכפלים</string>
     <string name="xspace_introduce">מומלץ</string>
@@ -77,6 +81,7 @@
     <string name="xspace_install_failed">לא ניתן היה ליצור</string>
     <string name="xspace_uninstalling">מסיר התקנה…</string>
     <string name="xspace_install_completed">האייקון נוסף למסך הבית</string>
+    <string name="xspace_install_completed_global">האייקון נוסף למגירה</string>
     <string name="xspace_uninstall_completed">הסרת ההתקנה של היישום המשוכפל בוצעה בהצלחה</string>
     <string name="xspace_uninstall_dialog_title">הסר התקנה של היישום המשוכפל</string>
     <string name="xspace_uninstall_dialog_content">הסרת היישום המשוכפל תסיר את כל נתוני היישום.</string>
@@ -177,6 +182,10 @@
     <string name="notification_from_second_user">"הצג התראות מ'שטח שני'"</string>
     <string name="radio_button_icon_switch_title">באמצעות קיצור דרך</string>
     <string name="radio_button_password_switch_title">באמצעות סיסמה</string>
+    <string name="reset_password_dialog_title">"לא ניתן להסתיר את קיצור הדרך ל'שטח שני'"</string>
+    <string name="reset_password_dialog_message">"הינך משתמש בסוגי סיסמה שונים עבור 'שטח ראשון' ו'שטח שני'. על סיסמת 'שטח שני' להיות מסוג זהה לזו של 'שטח ראשון' על מנת שקיצור הדרך יוכל להיות מוסתר."</string>
+    <string name="reset_password_dialog_positve_btn_title">שינוי</string>
+    <string name="entrance_reopen_toast_msg">"מציג את קיצור הדרך עבור 'שטח שני' עקב סוגי סיסמה שונים"</string>
     <string name="settings_cross_notification_title">התראות</string>
     <string name="settings_cross_notification_summary">קבל התראות מהשטח האחר</string>
     <string name="settings_switch_shortcut_summary">"הצג את קיצור הדרך של 'מסך הבית' ב'שטח שני'"</string>
@@ -358,6 +367,13 @@
     <string name="sdcradfs_dialog_in_sec_message">"על מנת לבצע עדכון, עליך למחוק את 'שטח שני' שלך ואז ליצור אותו שוב. העבר את הנתונים מ'שטח שני' אל 'שטח ראשון' ואתחל את מכשירך על מנת להשלים את העדכון.
 במידה ולא תבצע עדכון, יישומים משוכפלים עשויים שלא לעבוד כראוי גם כן."</string>
     <string name="space_created_success">"'שטח שני' נוצר בהצלחה"</string>
+    <string name="encrypt_space_delete_dialog_title">שים לב</string>
+    <string name="encrypt_space_delete_dialog_message">"הינך עומד לעדכן את מערכת אנדרואיד. לאחר העדכון, נתוני 'שטח שני' יהפכו ללא תואמים. על מנת להימנע מכך, העבר את כל הנתונים ל'שטח ראשון', מחק את 'שטח שני' וצור אותו שוב."</string>
+    <string name="encrypt_space_delete_dialog_click_message">*במידה ואינך צריך להעביר נתונים, %s</string>
+    <string name="encrypt_space_delete_dialog_click_message_action">"מחק וצור את 'שטח שני' כעת."</string>
+    <string name="encrypt_space_delete_dialog_positive_text">העברת נתונים</string>
+    <string name="encrypt_space_delete_notification_title">שטח שני</string>
+    <string name="encrypt_space_delete_notification_message">"מחק את 'שטח שני' שלך וצור אחד חדש על מנת לעדכן את מכשירך בהצלחה."</string>
     <string name="space_create_guide_title_1">הגנה על הפרטיות שלך</string>
     <string name="space_create_guide_desc_1">אחסון יישומים ותמונות באופן בטוח</string>
     <string name="space_create_guide_title_2">יצירה בכל עת</string>
@@ -368,14 +384,14 @@
     <string name="second_space_desktop_tips_dialog_title">עדכון חשוב</string>
     <string name="second_space_desktop_tips_dialog_positive_text">הבנתי</string>
     <string name="second_space_desktop_tips_dialog_message">"לאחר העדכון הנוכחי, האייקונים עבור העברת נתונים וניהול 'שטח שני' לא יוצגו עוד ב'מסך הבית'. תוכל לגשת לתכונות אלה ב'הגדרות'."</string>
-    <string name="green_guard">Parental controls</string>
-    <string name="bind_device">Add devices</string>
-    <string name="green_guard_des1">Add devices to manage them remotely</string>
-    <string name="green_guard_title2">View location info</string>
-    <string name="green_guard_des2">Know where exactly all managed devices are</string>
-    <string name="green_guard_title3">Manage apps</string>
-    <string name="green_guard_des3">Control installed apps and restrict usage</string>
-    <string name="experience_more_features">Add a device to view all features</string>
-    <string name="can_not_switch_when_green_kid_active">Switching to Second space is restricted by parental controls</string>
-    <string name="need_network_when_bind">Connect to the network before Adding devices</string>
+    <string name="green_guard">בקרת הורים</string>
+    <string name="bind_device">הוספת מכשירים</string>
+    <string name="green_guard_des1">הוסף מכשירים על מנת לנהל אותם מרחוק</string>
+    <string name="green_guard_title2">הצגת פרטי המיקום</string>
+    <string name="green_guard_des2">דע תמיד היכן בדיוק נמצאים כל המכשירים המנוהלים</string>
+    <string name="green_guard_title3">ניהול יישומים</string>
+    <string name="green_guard_des3">שלוט ביישומים המותקנים והגבל את השימוש</string>
+    <string name="experience_more_features">הוסף מכשיר לצפיה בכל התמונות</string>
+    <string name="can_not_switch_when_green_kid_active">"מעבר ל'שטח שני' מוגבלת על ידי בקרת ההורים"</string>
+    <string name="need_network_when_bind">התחבר לרשת לפני הוספת מכשירים</string>
 </resources>

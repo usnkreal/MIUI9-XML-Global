@@ -27,6 +27,9 @@
     <string name="power_usage">Spotreba energie</string>
     <string name="power_mode">Nastavenie výkonu</string>
     <string name="performance_category">Výkon</string>
+    <string name="pref_config_title">Optimalizácia výkonu</string>
+    <string name="app_preload_policies_title">AI pred načítavanie</string>
+    <string name="app_preload_policies_summary">Využiť automatické učenie pre predvídanie vami najčastejšie používaných aplikácií a načítať tak ich zdroje v predstihu.</string>
     <string name="scenario_policies_warmcontrol">Kontrola teploty</string>
     <string name="warm_configure">Nastavenia kontroly teploty</string>
     <string name="important_warning">Pozor</string>
@@ -71,11 +74,18 @@
     <string name="update_profile_sucess">Úspešne aktualizované zo servera</string>
     <string name="update_profile_failture_not_connect_wifi">Nepodarilo sa aktualizovať. Pripojte sa na Wi-Fi a skúste to znova.</string>
     <string name="sucess">Hotovo</string>
-    <string name="failure">Neúspešné</string>
+    <string name="failure">Chyba</string>
     <string name="cloud_addr_info">Cloudové informácie</string>
     <string name="lasttime_feature_cloud">Aktualizované funkcie:</string>
     <string name="lasttime_applist_cloud">Aktualizované aplikácie:</string>
     <string name="base_info">Základné informácie</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_result_text">Nenašli sa žiadne aplikácie</string>
+    <string name="power_consume_abnormal_night">Batéria je v noci vybitá</string>
+    <string name="enable_sleep_mode">Pre optimalizáciu využitia batérie počas noci zapnite režim spánku</string>
+    <string name="sleepmode_privacy_title">Režim spánku</string>
+    <string name="sleepmode_privacy_content">Táto funkcia bude využívať systém vášho telefónu a informácie o zariadení. Dáta nebudú nahrané na naše servery.</string>
+    <string name="sleepmode_privacy_link">Zistite viac o ochrane súkromia a bezpečnosti</string>
+    <string name="sleepmode_disclaimer_cancel">Zrušiť</string>
+    <string name="sleepmode_disclaimer_agree">Súhlasím</string>
 </resources>

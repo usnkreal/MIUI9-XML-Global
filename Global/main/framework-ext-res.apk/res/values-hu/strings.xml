@@ -75,7 +75,7 @@ Engedélyezés a Beállítások > További beállítások > Gombok menüpontban"
     <string name="screen_button_notification_title">Képernyőgombok letiltva</string>
     <string name="screen_button_notification_text">A bekapcsoláshoz nyomja meg egyszerre a home és bekapcsoló gombokat.</string>
     <string name="screen_paper_mode_enter_toast">Az olvasómód be van kapcsolva. A funkció kikapcsolható a Beállítások > Megjelenítés > Olvasómód menüpontban.</string>
-    <string name="sim_added_reboot_title">A SIM kártya az újraindítás után fog aktiválódni.</string>
+    <string name="sim_added_reboot_title">A SIM-kártya az újraindítás után fog aktiválódni.</string>
     <string name="sim_added_reboot_confirm">Újraindítás</string>
     <string name="softap_notifif_title">\"%s\" hotspot bekapcsolva</string>
     <string name="softap_notifif_summary">%d csatlakozva</string>

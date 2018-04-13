@@ -19,6 +19,7 @@
     <string name="input_pin_code">PIN</string>
     <string name="incorrect_pukcode">Nesprávny PUK</string>
     <string name="incorrect_pincode">Nesprávny PIN</string>
+    <string name="kg_password_pin_failed">SIM PIN operation failed!</string>
     <string name="lock_screen_date">EEEE, d. MMMM</string>
     <string name="lock_screen_date_12">EEEE, d. MMMM</string>
     <string name="phone_locked_string">Zariadenie je zablokované</string>
@@ -63,7 +64,7 @@
     <string name="input_password_after_boot_msg">Pre odblokovanie vášho zariadenia zadajte heslo</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">Musíte otvoriť Prvý profil po reštartovaní zariadenia</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Nie je možné prepínať medzi profilmi počas hovoru</string>
-    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Nie je možné prepínať medzi priestormi, pokiaľ je aktívna Rodičovská kontrola</string>
+    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Keď je zapnutá rodičovská ochrana, nie je možné prepínanie medzi priestormi</string>
     <string name="input_password_handle_sdcard_fs">Nie je možné vstúpiť do druhého profilu z uzamknutej obrazovky. Vstúpte z prvého profilu.</string>
     <string name="accessibility_enter_lock_wallpaper">Dotykom otvoríte Galériu tapiet</string>
     <string name="wallpaper_global_des_drop_down_notify_text">Po uvoľnení sa zobrazia podrobnosti</string>

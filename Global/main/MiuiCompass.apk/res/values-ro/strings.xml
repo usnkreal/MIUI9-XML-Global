@@ -30,6 +30,7 @@
     <string name="direction_north_west">NV</string>
     <string name="direction_south_east">SE</string>
     <string name="direction_south_west">SV</string>
+    <string name="unit_degree">Grade</string>
     <string name="guide_toast">Pentru a calibra, deplasează telefonul în mişcarea de mai jos.</string>
     <string name="mobiledata_alert_dialog_title">Avertisment de utilizare a datelor</string>
     <string name="mobiledata_alert_dialog_message">Vă conectați la Internet pentru a calibra altitudinea?</string>

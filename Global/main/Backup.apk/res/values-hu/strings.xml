@@ -5,7 +5,7 @@
 Méret: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Bemutatkozik az %1$s
 Delta frissítés mérete: %2$s"</string>
-    <string name="xiaomi_external_storage_unavailable">Az adattároló eszköz nem elérhető, ellenőrizze az SD kártyát.</string>
+    <string name="xiaomi_external_storage_unavailable">Az adattároló eszköz nem elérhető, ellenőrizze az SD-kártyát.</string>
     <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_kilobytes_unit">%1$sKB</string>
     <string name="xiaomi_megabytes_unit">%1$sMB</string>
@@ -21,7 +21,7 @@ Delta frissítés mérete: %2$s"</string>
     <string name="data_detail_description">Részletek</string>
     <string name="comma_seperator">", "</string>
     <string name="backup_failed">A mentés sikertelen</string>
-    <string name="sdcard_unmounted">Most helyezze be az SD kártyát</string>
+    <string name="sdcard_unmounted">Most helyezze be az SD-kártyát</string>
     <string name="backup_progress">Mentés folyamatban...</string>
     <string name="button_ok">OK</string>
     <string name="button_continue">Folytatás</string>
@@ -49,7 +49,7 @@ Delta frissítés mérete: %2$s"</string>
     <string name="restore_launcher_layout_hit">Kezdőképernyő-elrendezés visszaállítása</string>
     <string name="settings_summary">Telefon- és üzenetbeállítások</string>
     <string name="camera_summary">Kamerabeállítások (nem tartalmazza a fényképeket)</string>
-    <string name="account_summary">Gmail, Mi Fiók és más felhasználói adat mentése</string>
+    <string name="account_summary">Mi Fiók, Google Fiók és más felhasználói adatok mentése</string>
     <string name="cloud_app_name">Mi Cloud mentés</string>
     <string name="cloud_home_title">Mi Cloud</string>
     <string name="prompt_reading">Beolvasás...</string>
@@ -95,8 +95,8 @@ Delta frissítés mérete: %2$s"</string>
     <string name="task_restore_finished_local">"A visszaállítás befejeződött "</string>
     <string name="task_restore_none">Nincs szükség visszaállításra</string>
     <string name="task_stopped_exception">Feladat megszakítva</string>
-    <string name="sdcard_no_enough_space">Nincs elég szabad hely az SD kártyán</string>
-    <string name="sdcard_no_enough_space_message">Nincs elég szabad tárhely az SD kártyáján.</string>
+    <string name="sdcard_no_enough_space">Nincs elég szabad hely</string>
+    <string name="sdcard_no_enough_space_message">Nincs elég szabad tárhely az SD-kártyáján.</string>
     <string name="data_no_enough_space_message">Nincs elég szabad tárhely a készülékén.</string>
     <string name="task_running_hint">Az ütemezett folyamatok a háttérben futnak</string>
     <string name="task_running_dialog">A mentés a háttérben fut, nyomjon az OK gombra a folyamat megtekintéséhez</string>
@@ -137,7 +137,7 @@ Delta frissítés mérete: %2$s"</string>
     <string name="local_select_sysdata">Rendszer adatai</string>
     <string name="local_select_userapp">Alkalmazások</string>
     <string name="local_select_account_contact">Fiókok és névjegyzék</string>
-    <string name="local_select_files">SD kártya</string>
+    <string name="local_select_files">SD-kártya</string>
     <string name="local_select_image">Képek</string>
     <string name="local_select_audio">Hangfájlok</string>
     <string name="local_select_video">Videók</string>
@@ -165,7 +165,7 @@ Delta frissítés mérete: %2$s"</string>
     <string name="cloud_search">Online keresés...</string>
     <string name="cloud_no_backup">Online mentés nem található</string>
     <string name="current_account">Szia %s</string>
-    <string name="current_sim">Jelenlegi SIM kártya</string>
+    <string name="current_sim">Jelenlegi SIM-kártya</string>
     <string name="date_format">HH:mm:ss MM-dd-yyyy</string>
     <string name="dir_date_format">yyyyMMdd_HHmmss</string>
     <string name="no_network">Hálózati hiba. Kérjük, ellenőrizze a hálózati kapcsolatot majd próbálja újra</string>
@@ -184,9 +184,9 @@ Delta frissítés mérete: %2$s"</string>
     <string name="import_from_xiaomi_account_hint_title">Használja a Mi Talkot névjegyek mentéséhez.</string>
     <string name="guarded_mode_dialog_title">Ön Vendégmódban van</string>
     <string name="guarded_mode_dialog_backup_message">Biztonsági mentés nem engedélyezett Vendégmódban.</string>
-    <string name="guarded_mode_dialog_transfer_message">Az Átköltözés funkció nem használható Vendég üzemmódban.</string>
+    <string name="guarded_mode_dialog_transfer_message">A Mi Átköltözés funkció nem használható Vendég üzemmódban.</string>
     <string name="multi_user_mode_dialog_title">Ön többfelhasználós üzemmódban van</string>
-    <string name="multi_user_mode_dialog_message">Nem használhatja az Átköltözés funkciót többfelhasználós üzemmódban. Kapcsolja ki.</string>
+    <string name="multi_user_mode_dialog_message">Nem használhatja a Mi Átköltözés funkciót többfelhasználós üzemmódban. Kapcsolja ki.</string>
     <string name="multi_user_mode_backup_message">Nem lehet használni a biztonsági mentést többfelhasználós módban. Kapcsolja ki.</string>
     <string name="multi_select_title">%1$s kiválasztva</string>
     <string name="enable_encrypt_title">Titkosítás engedélyezése</string>
@@ -208,13 +208,13 @@ Delta frissítés mérete: %2$s"</string>
     <string name="system_backup_info">Rendszerbeállítások és Kezdőképernyő-elrendezés</string>
     <string name="software_backup_info">Alkalmazások és alkalmazásadatok mentése</string>
     <string name="account_contact_backup_info">Gmail, Mi Fiók és Névjegyek adatai</string>
-    <string name="files_backup_info">Minden fájl az SD kártyán (tartalmazza a fényképeket, dalokat, videókat, alkalmazás adatokat, stb.)</string>
+    <string name="files_backup_info">Minden fájl az SD-kártyán (tartalmazza a fényképeket, zenéket, videókat, alkalmazásadatokat, stb.)</string>
     <string name="select_backup_item">Elemek kiválasztása</string>
     <string name="restore_data">Visszaállítandó elemek kijelölése</string>
     <string name="backup_data">Menteni kívánt elemek kiválasztása</string>
-    <string name="sd_not_available">Az SD kártya nem elérhető</string>
+    <string name="sd_not_available">Helyezzen be SD-kártyát</string>
     <string name="never">Soha</string>
-    <string name="every_day">Mindennap</string>
+    <string name="every_day">Minden nap</string>
     <string name="select_storage_location">Mentés helyének kiválasztása</string>
     <string name="current_phone_location">Telefon</string>
     <string name="current_pad_location">Tablet</string>
@@ -268,13 +268,13 @@ Delta frissítés mérete: %2$s"</string>
     <string name="notif_trans_auto_reconnecting_content">Ha szükséges, megszakíthatja a jelenlegi feladatot.</string>
     <string name="remote_receive">Fogadás</string>
     <string name="click_to_view">Megtekintés</string>
-    <string name="trans_one_key_migrate">Átköltözés</string>
+    <string name="trans_one_key_migrate">Mi Átköltözés</string>
     <string name="trans_main_tutor">Névjegyek, hívásnapló, üzenetek, képernyő elrendezés, alkalmazások, beállítások, stb. átköltöztetése új készülékre</string>
     <string name="trans_sender">Én vagyok a küldő</string>
     <string name="trans_receiver">Én vagyok a fogadó</string>
     <string name="trans_waiting_for_sender">Várakozás a régi készülék csatlakozására…</string>
     <string name="trans_waiting_ensurance">"Ellenőrizze, hogy a régi készülék be van-e kapcsolva
-és az Átköltözés engedélyezve van-e"</string>
+és a Mi Átköltözés engedélyezve van-e"</string>
     <string name="trans_my_device">Készülékem</string>
     <string name="trans_sender_searching">Új készülékek keresése</string>
     <string name="trans_sender_searching_ensurance">"Ellenőrizze, hogy a régi készülék be van-e kapcsolva
@@ -326,7 +326,7 @@ Eltöltött idő: %s"</string>
     <string name="trans_progress_subdescript_transingsd_sender">Fájlok küldése, %s kész</string>
     <string name="trans_progress_subdescript_transingsd_receiver">Fájlok fogadása, %s kész</string>
     <string name="trans_progress_subdescript_transingsddata_sender">%1$s SD kártya adatának küldése, %2$s befejezve</string>
-    <string name="trans_progress_subdescript_transingsddata_receiver">%1$s SD kártya adatának fogadása, %2$s befejezve</string>
+    <string name="trans_progress_subdescript_transingsddata_receiver">%1$s SD-kártya adatának fogadása, %2$s befejezve</string>
     <string name="trans_progress_subdescript_br_sender">%1$s mentése, %2$s kész</string>
     <string name="trans_progress_subdescript_br_receiver">%1$s visszaállítása, %2$s kész</string>
     <string name="trans_progress_subdescript_waiting">Várakozás %s fogadására</string>
@@ -341,21 +341,22 @@ Eltöltött idő: %s"</string>
     <string name="trans_connecting_toast">Csatlakozás…</string>
     <string name="trans_switching_5g">Váltás 5GHz Wi-Fi kapcsolatra/u2026</string>
     <string name="trans_connect_failed_toast">Nem sikerült a kapcsolódás</string>
-    <string name="trans_generate_qr_code_failed">A QR kód generálása sikertelen</string>
-    <string name="trans_scan_invalid_qrcode">Hibás QR kód</string>
-    <string name="trans_scan_qr_code_tips">QR kód olvasás az új készüléken</string>
+    <string name="trans_generate_qr_code_failed">A QR-kód generálása sikertelen</string>
+    <string name="trans_scan_invalid_qrcode">Hibás QR-kód</string>
+    <string name="trans_scan_qr_code_tips">QR-kód olvasás az új készüléken</string>
     <string name="trans_show_qr_code_label">Régi készülék csatlakoztatása</string>
-    <string name="trans_show_qr_code_tips">QR kód olvasás a régi készülékkel</string>
-    <string name="trans_operate_new_phone_tips">"\"Lépjen be a Beállítások > Rendszer > Átköltözés menüpontba\u000d
-QR kód generálásához érintse meg az [Én vagyok a fogadó] gombot\""</string>
+    <string name="trans_show_qr_code_tips">QR-kód olvasás a régi készülékkel</string>
+    <string name="trans_operate_new_phone_tips">"\"Lépjen be a Beállítások > Rendszer > Mi Átköltözés menüpontba
+
+QR-kód generálásához érintse meg az [Én vagyok a fogadó] gombot\""</string>
     <string name="trans_operate_func_one">A módszer</string>
     <string name="trans_operate_func_two">B módszer</string>
-    <string name="trans_operate_old_phone_tips1">"1. Telepítse az Átköltözés alkalmazást a régi készülékre
+    <string name="trans_operate_old_phone_tips1">"1. Telepítse a Mi Átköltözés alkalmazást a régi készülékre
 
 2. Nyissa meg az alkalmazást és érintse meg a Start gombot
 
-3. Olvassa be a QR kódot a régi készülékével"</string>
-    <string name="trans_operate_old_phone_tips2">Lépjen be a Beállítások > Rendszer > Átköltözés menüpontba, Érintse meg az [Én vagyok a küldő] gombot</string>
+3. Olvassa be a QR-kódot a régi készülékével"</string>
+    <string name="trans_operate_old_phone_tips2">Lépjen be a Beállítások > Rendszer > Mi Mi Átköltözés menüpontba, Érintse meg az [Én vagyok a küldő] gombot</string>
     <string name="trans_operate_reconnect_new_tips">"Várja meg míg az új készülék kiírja \"A csatlakozás megszakadt\".
 Aztán érintse meg a \"Csatlakoztassa újra\" gombot QR-kód készítéséhez."</string>
     <string name="trans_operate_reconnect_old_tips">"Várja meg míg a régi készülék kiírja \"A csatlakozás megszakadt\".
@@ -380,7 +381,7 @@ Csak a fontos elemeket jelölje ki, hogy felgyorsuljon a fájlátvitel."</string
     <string name="size_mega_byte">MB</string>
     <string name="size_giga_byte">GB</string>
     <string name="trans_connect_failed_title">Csatlakozás sikertelen</string>
-    <string name="trans_connect_failed_message">Csatlakozás sikertelen, indítsa újra a készüléket, majd indítsa el az Átköltözést vagy lépjen be a Beállítások > További beállítások > Átköltözés menübe, érintse meg az [Én vagyok a küldő] gombot, vagy újraindítás után futtassa újra az Átköltözést.</string>
+    <string name="trans_connect_failed_message">Csatlakozás sikertelen, indítsa újra a készüléket, majd indítsa el a Mi Átköltözést vagy lépjen be a Beállítások > További beállítások > Mi Mi Átköltözés menübe, érintse meg az [Én vagyok a küldő] gombot, vagy újraindítás után futtassa újra a Mi Átköltözést.</string>
     <string name="trans_retry">Próbálja újra</string>
     <string name="trans_start_failed_title">Indítás sikertelen</string>
     <string name="trans_start_failed_message">Indítás sikertelen, próbálja újra vagy indítsa újra a készüléket</string>
@@ -391,41 +392,41 @@ Csak a fontos elemeket jelölje ki, hogy felgyorsuljon a fájlátvitel."</string
     <string name="user_notice_declaration_ignore">Ne jelenjen meg újra</string>
     <string name="total_size">, %s</string>
     <string name="trans_intro_title">GYIK</string>
-    <string name="trans_intro_question_1">%d. Hogyan használjam az Átköltözést iOS rendszerű készülékről való adatátvitelhez?</string>
-    <string name="trans_intro_desc_1">A Xiaomi készüléket csatlakoztassa Wi-Fi hálózatra, majd indítsa el az Átköltözést és érintse meg a \"Én vagyok a fogadó\" gombot. Válassza ki az iOS készülékét, csatlakozzon az iCloudra és importálja az adatait.</string>
-    <string name="trans_intro_question_2">%d. Hogyan használjam az Átköltözést Android készülékről való adatátvitelhez?</string>
+    <string name="trans_intro_question_1">%d. Hogyan használjam a Mi Átköltözést iOS rendszerű készülékről való adatátvitelhez?</string>
+    <string name="trans_intro_desc_1">A Xiaomi készüléket csatlakoztassa Wi-Fi hálózatra, majd indítsa el a Mi Átköltözést és érintse meg a \"Én vagyok a fogadó\" gombot. Válassza ki az iOS készülékét, csatlakozzon az iCloudra és importálja az adatait.</string>
+    <string name="trans_intro_question_2">%d. Hogyan használjam a Mi Átköltözést Android készülékről való adatátvitelhez?</string>
     <string name="trans_intro_title_new">Az új készüléken:</string>
-    <string name="trans_intro_desc_new">Érintse meg a \"Én vagyok a fogadó\" gombot. Egy QR-kód fog generálódni.</string>
+    <string name="trans_intro_desc_new">Érintse meg a \"Én vagyok a fogadó\" gombot. Generálásra kerül egy QR-kód.</string>
     <string name="trans_intro_title_old">A régi készüléken:</string>
-    <string name="trans_intro_desc_old">Érintse meg az \"Én vagyok a küldő\" gombot. Olvassa be az új készüléken látható QR-kódot, várjon, míg az Átköltözés meghatározza a fájlokat, majd érintse meg a \"Küldés\" gombot.</string>
-    <string name="trans_intro_question_3">%d. Mit tegyek, ha az Átköltözés megakadt valamelyik lépésnél?</string>
-    <string name="trans_intro_desc_3">Törölje az átvitelt, lépjen ki az Átköltözésből, majd kezdje újra. Nem lesznek duplikált fájljai, mert az új átvitel törli a régieket.</string>
+    <string name="trans_intro_desc_old">Érintse meg az \"Én vagyok a küldő\" gombot. Olvassa be az új készüléken látható QR-kódot, várjon, míg a Mi Átköltözés meghatározza a fájlokat, majd érintse meg a \"Küldés\" gombot.</string>
+    <string name="trans_intro_question_3">%d. Mit tegyek, ha a Mi Átköltözés megakadt valamelyik lépésnél?</string>
+    <string name="trans_intro_desc_3">Törölje az átvitelt, lépjen ki a Mi Átköltözésből, majd kezdje újra. Nem lesznek duplikált fájljai, mert az új átvitel törli a régieket.</string>
     <string name="trans_intro_question_4">%d. Miért nem használhatom a Wi-Fi-t az átvitel alatt?</string>
-    <string name="trans_intro_desc_4">Az Átköltözés Wi-Fi-t használ. Ezért nem érheti el az Internetet az átvitel alatt Wi-Fi használatával egyik eszközön sem. Mobiladatot használhat. Azonban az újabb készülékek (pl. Mi 6) már képesek az átvitel során is internetkapcsolatot biztosítani Wi-Fi-n.</string>
-    <string name="trans_intro_question_5">%d. Miért jelzi az Átköltözés, hogy nincs elegendő tárhely a régi telefonomon?</string>
+    <string name="trans_intro_desc_4">A Mi Átköltözés Wi-Fi-t használ. Ezért nem érheti el az Internetet az átvitel alatt Wi-Fi használatával egyik eszközön sem. Mobiladatot használhat. Azonban az újabb készülékek (pl. Mi 6) már képesek az átvitel során is internetkapcsolatot biztosítani Wi-Fi-n.</string>
+    <string name="trans_intro_question_5">%d. Miért jelzi a Mi Átköltözés, hogy nincs elegendő tárhely a régi telefonomon?</string>
     <string name="trans_intro_desc_5">Az átköltözési csomagok létrehozásához szükség van tárhelyre. Legyen biztos benne, hogy van 500MB - 1GB elérhető szabad tárhely a régi készülékén, mielőtt elkezdené az átvitelt.</string>
     <string name="trans_intro_question_6">%d. Miért nem sikerült néhány alkalmazás átvitele?</string>
     <string name="trans_intro_desc_6">Sokféle oka lehet annak, hogy miért történik ez: rendszer- vagy alkalmazás-összeférhetetlenségi problémák, hálózati problémák, egyes készülékekkel kapcsolatos kompatibilitási problémák, stb.</string>
     <string name="trans_intro_question_7">%d. Miért nem indul el néhány alkalmazás az új eszközön?</string>
     <string name="trans_intro_desc_7">Néhány alkalmazás profilja (e-bank, pénzügyi, stb.) biztonsági okok miatt speciálisan készülékhez társított. Próbálja meg törölni az alkalmazásadatokat, vagy újratelepíteni az alkalmazást új készülékre.</string>
     <string name="trans_intro_question_8">%d. A WeChat előzmények miért nem kerültek át teljesen?</string>
-    <string name="trans_intro_desc_8">WeChat alkalmazásadatai és csevegési előzményei nem költöztethetőek át teljes mértékben. Lépjen be a WeChat beállításaiba, és jelentkezzen ki fiókjából, hogy nagyobb esélye legyen a sikeres átvitelnek.</string>
+    <string name="trans_intro_desc_8">WeChat alkalmazásadatai és csevegési előzményei nem költöztethetőek át teljes mértékben a Mi Átköltözéssel. Lépjen be a WeChat beállításaiba, és jelentkezzen ki fiókjából, hogy nagyobb esélye legyen a sikeres átvitelnek.</string>
     <string name="trans_intro_question_9">%d. Mely elemeket nem lehet átköltöztetni?</string>
     <string name="trans_intro_title_account">Fiókok és jelszavak:</string>
     <string name="trans_intro_desc_account">Biztonsági okokból az új készüléken újra be kell lépnie a fiókjaiba (pl. Mi Fiók, Google, Exchange, stb.).</string>
     <string name="trans_intro_title_private">Rejtett album:</string>
-    <string name="trans_intro_desc_private">Az Átköltözés nem adhat hozzáférést a Rejtett albumokhoz, mivel azok titkosítottak. Ezeket a Mi Cloudból állíthatja helyre az új készüléken.</string>
+    <string name="trans_intro_desc_private">A Mi Átköltözés nem adhat hozzáférést a Rejtett albumokhoz, mivel azok titkosítottak. Ezeket a Mi Cloudból állíthatja helyre az új készüléken.</string>
     <string name="trans_intro_title_multiuser">A Második asztal adatai:</string>
-    <string name="trans_intro_desc_multiuser">Az Átköltözés nem adhat hozzáférést a Második asztal elemeihez. Átköltözés előtt helyezze át őket az Első asztalra.</string>
+    <string name="trans_intro_desc_multiuser">A Mi Átköltözés nem adhat hozzáférést a Második asztal elemeihez. Átköltözés előtt helyezze át őket az Első asztalra.</string>
     <string name="trans_intro_title_multiapp">Klónozott alkalmazások adatai:</string>
-    <string name="trans_intro_desc_multiapp">A fájlok közötti összeütközések elkerülése érdekében az Átvitel nem másolja a Klónozott alkalmazások adatait.</string>
+    <string name="trans_intro_desc_multiapp">A fájlok közötti összeütközések elkerülése érdekében a Mi Átköltözés nem másolja a Klónozott alkalmazások adatait.</string>
     <string name="btn_got_it">Rendben</string>
     <string name="backup_security_tips_title">Lehetséges, hogy a mentés nem működik</string>
     <string name="backup_security_tips_message">Lehet, hogy néhány alkalmazás nem menthető el vagy nem állítható vissza.</string>
-    <string name="trans_security_tips_title">Az Átköltözés összeegyeztethetősége</string>
-    <string name="trans_security_tips_message">Néhány alkalmazás nem támogatja az Átköltözést.</string>
+    <string name="trans_security_tips_title">A Mi Átköltözés összeegyeztethetősége</string>
+    <string name="trans_security_tips_message">Néhány alkalmazás nem támogatja a Mi Átköltözést.</string>
     <string name="trans_wlan_tips_title">Ne kapcsolja ki a Wi-Fi-t</string>
-    <string name="trans_wlan_tips_message">Ne kapcsolja ki a Wi-Fi-t, illetve ne váltson másik Wi-Fi hálózatra az átvitel során. Különben az Átköltözés nem tudja áttenni az adatait.</string>
+    <string name="trans_wlan_tips_message">Ne kapcsolja ki a Wi-Fi-t, illetve ne váltson másik Wi-Fi hálózatra az átvitel során. Különben a Mi Átköltözés nem tudja áttenni az adatait.</string>
     <string name="trans_disconnected_tips_title">Fogadóoldali készülék nincs csatlakoztatva</string>
     <string name="trans_disconnected_tips_message">Fogadóoldali készülék nincs csatlakoztatva. Csatlakoztassa újra manuálisan vagy törölje az átvitelt.</string>
     <string name="trans_button_cancel">Törlés</string>
@@ -494,7 +495,7 @@ https://appleid.apple.com/#!&amp;page=signin weboldalra"</string>
     <string name="icloud_need_sync">"Adatok importálása előtt az iOS rendszeren
 készítenie kell egy iCloud mentést."</string>
     <string name="list_footer_tip_title">Tippek:</string>
-    <string name="import_tip_summary">Kompatibilitási problémák miatt adatainak csak egy részét importálhatja iOS készülékéről. Mielőtt elkezdené az Átköltözést, győződjön meg róla, hogy készített iCloud mentést.</string>
+    <string name="import_tip_summary">Kompatibilitási problémák miatt adatainak csak egy részét importálhatja iOS készülékéről. Mielőtt elkezdené a Mi Átköltözést, győződjön meg róla, hogy készített iCloud mentést.</string>
     <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Importálás</string>
     <string name="select_empty">Elemek kiválasztása importáláshoz</string>

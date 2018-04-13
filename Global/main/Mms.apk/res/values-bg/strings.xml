@@ -33,7 +33,7 @@
     <string name="attach_sound">Аудио</string>
     <string name="attach_subject">Тема</string>
     <string name="attach_take_photo">Направи снимка</string>
-    <string name="attach_transaction">Изпрати пари</string>
+    <string name="attach_transaction">Прехвърляне на пари</string>
     <string name="attach_video">Видеоклипове</string>
     <string name="audio_download_failed">изтеглянето на записа е неуспешно</string>
     <string name="audio_message_expired">Това гласово съобщение е с изтекъл срок.</string>
@@ -152,7 +152,7 @@
     <string name="enter_edit_mode">Редактирай</string>
     <string name="error_code_label">Код за грешки:</string>
     <string name="error_state">Непоследователно състояние</string>
-    <string name="error_state_text">Кореспонденцията не съответства на получателите. Направете скриншот и изпратете съобщение за грешка чрез уебсайта http://go/droidanizer</string>
+    <string name="error_state_text">Състоянието на последователността на нишките е неправилно. Създайте доклад и го изпратете чрез http://go/droidanizer</string>
     <string name="error_timed_msg">Не може да се насрочи време преди настоящото</string>
     <string name="ex_type_guide">Информация</string>
     <string name="ex_type_mx">Mi Message</string>

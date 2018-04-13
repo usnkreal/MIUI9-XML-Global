@@ -58,6 +58,8 @@
     <string name="wating">Un instant…</string>
     <string name="Active">Actif</string>
     <string name="ok_button">OK </string>
+    <string name="remove_button">Supprimer et redémarrer</string>
+    <string name="remove_button_time">Supprimer et redémarrer (%ds)</string>
     <string name="cancel_button">Annuler</string>
     <string name="list_empty_text">Vide</string>
     <string name="list_empty_text_xspace">Installez WeChat/QQ/Weibo, créez des applications clônées et réessayez.</string>
@@ -65,6 +67,8 @@
     <string name="xspace_setting_label">Paramètres des applications clônées</string>
     <string name="xspace_account">Comptes des applications clônées</string>
     <string name="declare_dialog_title">À propos des applications clônées</string>
+    <string name="stop_xspace_alert_title">Suppression des comptes des applications clonées</string>
+    <string name="stop_xspace_alert_content">"Vous avez supprimé toutes les applications clonées. Supprimer les comptes des applications clonées et les données de l'application également ? Après cela, vous devrez créer à nouveau des applications clonées lorsque vous en aurez besoin."</string>
     <string name="xspace_loading_msg">Chargement des applications…</string>
     <string name="xspace_header">Applications clônées</string>
     <string name="xspace_introduce">Recommandé</string>
@@ -77,6 +81,7 @@ Certaines applications clônées nécessitent la prise en charge des Framework d
     <string name="xspace_install_failed">Impossible de créer</string>
     <string name="xspace_uninstalling">Désinstallation…</string>
     <string name="xspace_install_completed">"Icône ajoutée à l'Écran d'accueil"</string>
+    <string name="xspace_install_completed_global">Icône ajouté dans au tiroir</string>
     <string name="xspace_uninstall_completed">"L'application clônée a été désintallée avec succès"</string>
     <string name="xspace_uninstall_dialog_title">"Désinstaller l'application clônée"</string>
     <string name="xspace_uninstall_dialog_content">"Désinstaller une application clonée supprimera toutes les données de l'application."</string>
@@ -177,6 +182,10 @@ cette fonctionnalité sera automatiquement ajoutée dans le Second espace."</str
     <string name="notification_from_second_user">Afficher les notifications du second espace</string>
     <string name="radio_button_icon_switch_title">Supprimer un raccourcis</string>
     <string name="radio_button_password_switch_title">Utiliser un mot de passe</string>
+    <string name="reset_password_dialog_title">Impossible de masquer le raccourci du second espace</string>
+    <string name="reset_password_dialog_message">Vous utilisez différents types de mot de passe pour le premier et le deuxième espaces. Le deuxième espace doit utiliser le même type de mot de passe que le premier espace pour que le raccourci soit masqué.</string>
+    <string name="reset_password_dialog_positve_btn_title">Modifier</string>
+    <string name="entrance_reopen_toast_msg">Lffichage du raccourci du second espace dépend des différents types de mots de passe</string>
     <string name="settings_cross_notification_title">Notifications</string>
     <string name="settings_cross_notification_summary">"Recevoir des notifications à partir de l'autre espace"</string>
     <string name="settings_switch_shortcut_summary">"Afficher le raccourci de l'Écran d'accueil dans le Premier espace"</string>
@@ -358,6 +367,13 @@ Si vous n'effectuez pas la mise à jour, les applications clônées peuvent ne p
     <string name="sdcradfs_dialog_in_sec_message">"Pour mettre à jour, vous devez supprimer votre second espace, puis le créer à nouveau. Déplacez les données depuis le Second espace vers le premier et redémarrez votre appareil pour terminer la mise à jour.
 Si vous n'effectuez pas la mise à jour, les applications clônées peuvent ne pas fonctionner correctement également."</string>
     <string name="space_created_success">Second espace créé avec succès</string>
+    <string name="encrypt_space_delete_dialog_title">Attention</string>
+    <string name="encrypt_space_delete_dialog_message">Vous êtes sur le point de mettre à jour Android. Après la mise à jour, les données du second espace deviendront incompatibles. Pour éviter cela, placez toutes les données dans le premier espace, supprimez le second espace et créez-le à nouveau.</string>
+    <string name="encrypt_space_delete_dialog_click_message">"*Si vous n'avez pas besoin de déplacer des données, %s"</string>
+    <string name="encrypt_space_delete_dialog_click_message_action">supprimer et créer un second espace maintenant.</string>
+    <string name="encrypt_space_delete_dialog_positive_text">Déplacer les données</string>
+    <string name="encrypt_space_delete_notification_title">Second espace</string>
+    <string name="encrypt_space_delete_notification_message">Supprimez votre second espace et créez en un nouveau afin de mettre à jour votre appareil avec succès.</string>
     <string name="space_create_guide_title_1">Protégez votre confidentialité</string>
     <string name="space_create_guide_desc_1">Stocker applications et photos en toute sécurité</string>
     <string name="space_create_guide_title_2">Créer à tout moment</string>
@@ -368,14 +384,14 @@ Si vous n'effectuez pas la mise à jour, les applications clônées peuvent ne p
     <string name="second_space_desktop_tips_dialog_title">Mise à jour importante</string>
     <string name="second_space_desktop_tips_dialog_positive_text">"C'est compris"</string>
     <string name="second_space_desktop_tips_dialog_message">"Après cette mise à jour, les icônes pour déplacer les données et gérer le second espace ne seront plus affiché à l'écran d'accueil. Vous serez en mesure d'accéder à leurs fonctionnalités correspondantes dans Paramètres."</string>
-    <string name="green_guard">Parental controls</string>
-    <string name="bind_device">Add devices</string>
-    <string name="green_guard_des1">Add devices to manage them remotely</string>
-    <string name="green_guard_title2">View location info</string>
-    <string name="green_guard_des2">Know where exactly all managed devices are</string>
-    <string name="green_guard_title3">Manage apps</string>
-    <string name="green_guard_des3">Control installed apps and restrict usage</string>
-    <string name="experience_more_features">Add a device to view all features</string>
-    <string name="can_not_switch_when_green_kid_active">Switching to Second space is restricted by parental controls</string>
-    <string name="need_network_when_bind">Connect to the network before Adding devices</string>
+    <string name="green_guard">Contrôle parental</string>
+    <string name="bind_device">Ajouter des appareils</string>
+    <string name="green_guard_des1">Ajoutez des appareils afin de les gérer à distance</string>
+    <string name="green_guard_title2">Voir les infos de localisation</string>
+    <string name="green_guard_des2">Savoir où exactement se trouvent tous les appareils gérés</string>
+    <string name="green_guard_title3">Gérer les applications</string>
+    <string name="green_guard_des3">Contrôle les applications installées et restreint leur utilisation</string>
+    <string name="experience_more_features">Ajouter un appareil afin de voir toutes les fonctionnalités</string>
+    <string name="can_not_switch_when_green_kid_active">Basculer vers le second espace est restreint par le contrôle parental</string>
+    <string name="need_network_when_bind">"Connectez-vous au réseau avant d'ajouter des appareils"</string>
 </resources>

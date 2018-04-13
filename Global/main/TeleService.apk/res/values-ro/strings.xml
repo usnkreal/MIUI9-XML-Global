@@ -1106,7 +1106,6 @@ Cartela SIM va fi ștearsă după o altă încercare eșuată."</string>
     <string name="network_unlock">Deblochează</string>
     <string name="roaming_notification_title">Se pare că roamingul este activat</string>
     <string name="roaming_notification_content">Aveți posibilitatea să adăugați coduri de țară în mod automat pentru a face apelarea mai convenabil.</string>
-    <string name="livetalk_setting">Pachet de reîncărcare</string>
     <string name="description_image_button_one">unu</string>
     <string name="description_image_button_two">doi</string>
     <string name="description_image_button_three">trei</string>
@@ -1201,6 +1200,7 @@ Cartela SIM va fi ștearsă după o altă încercare eșuată."</string>
     <string name="sum_cfu_enabled_indicator_by_sim">Toate apelurile de la SIM %s vor fi redirecționate</string>
     <string name="preference_dial_pad_touch_tone_off">Oprit</string>
     <string name="msim_disable_sim_card_summary_telecom_vice_card_inEcm">Nu restricționați cartela SIM secundară în modul de apelare inversă de urgență.</string>
+    <string name="msim_cmcc_dds_switch_not_support">Nu se pot schimba cartele SIM datorită resticțiilor operatorului.</string>
     <string name="simFdnContacts_empty">Nu există contacte de apelare fixă.</string>
     <string name="bad_pin2_old">Vechiul PIN2 introdus nu este corect.</string>
     <string name="dtmf_tone_entries_normal">Normal</string>
@@ -1209,6 +1209,7 @@ Cartela SIM va fi ștearsă după o altă încercare eșuată."</string>
     <string name="network_type_3g_preferred_cmcc">3G/2G</string>
     <string name="change_default_data_card">SIM date mobile implicit</string>
     <string name="change_default_data_card_summary">Se pare că ați schimbat cardul SIM. Setați acest card ca SIM implicit pentru conexiunea de date mobile?</string>
+    <string name="volte_switch_title_ct">VoLTE activat</string>
     <string name="volte_switch_summary2">Confirmați că operatorul dvs. acceptă această caracteristică înainte de a porni. În caz contrar, pot fi afectate apelurile regulate.</string>
     <string name="volte_switch_not_support_summary">Apelurile VoLTE nu sunt acceptate pentru cartela SIM de date mobile.</string>
     <string name="volte_switch_not_support_summary2">Apelurile VoLTE nu sunt suportate de operator.</string>
@@ -1273,13 +1274,15 @@ Cartela SIM va fi ștearsă după o altă încercare eșuată."</string>
     <string name="cfnry_time_twenty_five_sec">25 sec</string>
     <string name="cfnry_time_thirty_sec">30 sec</string>
     <string name="cfnry_time_setting_title">Setați timpul de așteptare</string>
-    <string name="prompt_when_turnon_volte_without_lte">Rețelele LTE nu sunt disponibile acum. Activarea serviciului VoLTE vă poate împiedica să efectuați apeluri regulate.</string>
+    <string name="prompt_when_turnon_volte_without_lte">Rețelele VoLTE nu sunt disponibile acum. Activarea serviciului VoLTE vă poate împiedica să efectuați apeluri regulate.</string>
     <string name="prompt_when_turnon_volte_on_3g_prefered">Selectați LTE ca tip de rețea preferat înainte de a activa VoLTE.</string>
     <string name="prompt_to_turnoff_volte_when_failed">Serviciile VoLTE nu sunt disponibile. Opriți VoLTE pentru a efectua un apel.</string>
-    <string name="volte_tips_when_turn_on">Serviciile China Telecom VoLTE sunt furnizate numai în zonele cu acoperire în rețeaua LTE.</string>
+    <string name="volte_tips_when_turn_on">Serviciile China Telecom VoLTE sunt furnizate numai în zonele acoperite de rețeaua VoLTE. Serviciile VoLTE sunt furnizate de operator.</string>
     <string name="prompt_to_turnoff_volte_when_supp_service">Serviciul nu este disponibil. Opriți VoLTE în Setări.</string>
     <string name="prefered_network_type_3g_promp">Ar trebui să dezactivați VoLTE înainte de a selecta 3G ca tip de rețea preferat. Opriți acum?</string>
     <string name="close_volte">Opreți VoLTE</string>
+    <string name="vice_card_data_in_use_alert">Se pot genera taxe suplimentare de date.</string>
+    <string name="switch_dds_to_sub_alert">Setați acest card ca și carte de date prestabilită.</string>
     <string name="pick_outgoing_call_phone_type">Locul de apel</string>
     <string name="pick_outgoing_sip_phone">"Utilizează cont apel internet "</string>
     <string name="remember_my_choice">Utilizați întotdeauna pentru a efectua apeluri prin Internet</string>
@@ -1428,6 +1431,7 @@ Cartela SIM va fi ștearsă după o altă încercare eșuată."</string>
     <string name="can_not_use">Nu se poate utiliza</string>
     <string name="incall_error_no_active_sim">Cartela SIM nu a fost activată</string>
     <string name="incall_error_sim_deactive">Cartela SIM inactivă</string>
+    <string name="livetalk_setting">Pachet de reîncărcare</string>
     <string name="select_one_sim_title">Se poate utiliza numai SIM %1$d</string>
     <string name="select_sim_hint">Nu se poate folosi SIM %2$d în timp ce SIM %1$d este în uz.</string>
 </resources>

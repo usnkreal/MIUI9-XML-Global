@@ -987,7 +987,7 @@
     <string name="search_contacts_display">אנשי קשר;תצוגה</string>
     <string name="search_contacts_more">ארגן;אנשי קשר</string>
     <string name="search_contacts_recovery">אנשי קשר</string>
-    <string name="search_contacts_setting">הגדרות אנשי קשר;הצג תמונות ומידע;הקצה תמונות איש קשר;ייבוא וייצוא;שיתוף; ייבא מכרטיס הזכרון;ייבא מכרטיס SIM;ייבא מטלפון אחר;ייצא מכרטיס הזכרון;ייצא מכרטיס SIM;שתף אנשי קשר; העדפות תצוגה;הסתר מספרים חלקיים;הצג אנשי קשר ב-SIM;קבע תצורת רשימות אנשי קשר;קבוצות חכמות;ארגן אנשי קשר; אחד כפילויות של אנשי קשר;מחיקה מרובה;נקה נתונים;בנה מחדש נתוני אינדקס;t9;כרטיסי SIM;אחסון כרטיס SIM;מבוא לשחזור אנשי קשר;תמונות אנשי קשר</string>
+    <string name="search_contacts_setting">הגדרות אנשי קשר;הצג תמונות ומידע;הקצה תמונות איש קשר;ייבוא וייצוא;שיתוף; ייבא מהאחסון הפנימי;ייבא מכרטיס SIM;ייבא מטלפון אחר;ייצא אל האחסון הפנימי;ייצא אל כרטיס SIM;שתף אנשי קשר; העדפות תצוגה;הסתר מספרים חלקיים;הצג אנשי קשר ב-SIM;קבע תצורת רשימות אנשי קשר;קבוצות חכמות;ארגן אנשי קשר; אחד כפילויות של אנשי קשר;מחיקה מרובה;נקה נתונים;בנה מחדש נתוני אינדקס;t9;כרטיסי SIM;אחסון כרטיס SIM;מבוא לשחזור אנשי קשר;תמונות אנשי קשר</string>
     <string name="search_display_only_phones">אנשי קשר;תצוגה</string>
     <string name="search_display_sim_contacts">אנשי קשר;תצוגה</string>
     <string name="search_export_to_sdcard">אנשי קשר;ייצוא;אחסון</string>
@@ -1010,7 +1010,7 @@
     <string name="search_simple_mode">תצוגה;מידע;תמונות;אנשי קשר</string>
     <string name="search_smart_group_title">אנשי קשר;תצוגה</string>
     <string name="search_wipe_data">ארגן;אנשי קשר</string>
-    <string name="searching_vcard_message">מחפש נתוני vCard בכרטיס הזכרון…</string>
+    <string name="searching_vcard_message">מחפש נתוני vCard במכשיר…</string>
     <string name="select_all">בחר הכל</string>
     <string name="select_all_exceed">בחר לא יותר מ-%1$d, לא ניתן לבחור הכל</string>
     <string name="select_exceed">בחר לא יותר מ-%1$d</string>

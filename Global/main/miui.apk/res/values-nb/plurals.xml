@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="items_selected">
-        <item quantity="other">%d items selected</item>
-        <item quantity="one">%d elementer valgt</item>
+        <item quantity="other">%d elementer valgt</item>
+        <item quantity="one">%d element valgt</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Just now</item>
@@ -25,7 +25,7 @@
         <item quantity="one">1 time siden</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
-        <item quantity="other">Half an hour ago</item>
+        <item quantity="other">En halvtime siden</item>
         <item quantity="one">En halvtime siden</item>
     </plurals>
     <plurals name="a_hour_ago">
@@ -33,23 +33,23 @@
         <item quantity="one">1 time siden</item>
     </plurals>
     <plurals name="half_hour_ago">
-        <item quantity="other">Half an hour ago</item>
+        <item quantity="other">En halvtime siden</item>
         <item quantity="one">En halvtime siden</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">In 1 hour</item>
+        <item quantity="other">Om 1 time</item>
         <item quantity="one">Om 1 time</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
-        <item quantity="other">In half an hour</item>
+        <item quantity="other">Om en halvtime</item>
         <item quantity="one">Om en halvtime</item>
     </plurals>
     <plurals name="in_a_hour">
-        <item quantity="other">In 1 hour</item>
+        <item quantity="other">Om 1 time</item>
         <item quantity="one">Om 1 time</item>
     </plurals>
     <plurals name="in_half_hour">
-        <item quantity="other">In half an hour</item>
+        <item quantity="other">Om en halvtime</item>
         <item quantity="one">Om en halvtime</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">

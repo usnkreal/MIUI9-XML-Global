@@ -79,6 +79,8 @@ Przejdź do i.mi.com i spróbuj odblokować telefon."</string>
     <string name="default_lock_msg_words_with_phone">Cześć! Zgubiłem/am telefon. Możesz się ze mną skontaktować? Dzięki!</string>
     <string name="default_lock_msg_words">To urządzenie jest powiązane z istniejącym kontem Xiaomi. Ze względów bezpieczeństwa wprowadź hasło, aby zweryfikować to urządzenie.</string>
     <string name="lock_msg_phone">Dane do kontaktu: %s</string>
+    <string name="emergency_call">Połączenie alarmowe</string>
+    <string name="return_to_call">Powróć do połączenia</string>
     <string name="default_debt_msg_words">"To urządzenie jest zablokowane z powodu zaległej płatności ratalnej.
 Skontaktuj się z agentem sprzedaży, aby uzyskać szczegółowe informacje."</string>
     <string name="sys_notification_async_verify_title">Reaktywuj funkcję Znajdź urządzenie</string>

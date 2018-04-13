@@ -34,7 +34,7 @@
         <item>Nem</item>
     </string-array>
     <string-array name="timezone_labels">
-        <item>Marshall szigetek</item>
+        <item>Marshall-szigetek</item>
         <item>Midway-szigetek</item>
         <item>Hawaii</item>
         <item>Alaszka</item>
@@ -43,15 +43,15 @@
         <item>Arizona</item>
         <item>Chihuahua</item>
         <item>Hegyvidéki idő (USA)</item>
-        <item>Közép Amerika</item>
-        <item>Középső Idő (USA)</item>
+        <item>Közép-Amerika</item>
+        <item>Központi standard idő (USA)</item>
         <item>Mexikóváros</item>
         <item>Saskatchewan</item>
         <item>Bogota</item>
-        <item>Északi Idő</item>
+        <item>Keleti parti idő</item>
         <item>Venezuela</item>
-        <item>Atlanti Idő (Barbados)</item>
-        <item>Atlanti Idő (Kanada)</item>
+        <item>Atlanti-óceáni idő (Barbados)</item>
+        <item>Atlanti-óceáni idő (Kanada)</item>
         <item>Manaus</item>
         <item>Santiago</item>
         <item>Új-Fundland</item>
@@ -69,7 +69,7 @@
         <item>Brüsszel</item>
         <item>Szarajevó</item>
         <item>Windhoek</item>
-        <item>Nyugat-Afrikai Idő</item>
+        <item>Nyugat-afrikai idő</item>
         <item>Ammán, Jordánia</item>
         <item>Athén, Isztambul</item>
         <item>Bejrút, Libanon</item>
@@ -256,7 +256,7 @@
     </string-array>
     <string-array name="repeat_choose_weekday">
         <item>Hét</item>
-        <item>Ked</item>
+        <item>Kedd</item>
         <item>Sze</item>
         <item>Csü</item>
         <item>Pén</item>
@@ -316,6 +316,6 @@
     </string-array>
     <string-array name="widget_style_list">
         <item>Átlátszó</item>
-        <item>Fehér hátterű</item>
+        <item>Fehér háttér</item>
     </string-array>
 </resources>

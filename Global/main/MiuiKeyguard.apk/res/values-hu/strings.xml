@@ -14,17 +14,18 @@
     <string name="wireless_current_charge">Jelenlegi töltés</string>
     <string name="emergency_call_string">Segélyhívás</string>
     <string name="forget_password_string">Elfelejtett jelszó</string>
-    <string name="input_puk_code">Írja be a PUK kódot</string>
-    <string name="unlocking_sim_card">SIM kártya feloldása</string>
-    <string name="input_pin_code">PIN kód</string>
-    <string name="incorrect_pukcode">Hibás PUK kód</string>
-    <string name="incorrect_pincode">Hibás PIN kód</string>
+    <string name="input_puk_code">Írja be a PUK-kódot</string>
+    <string name="unlocking_sim_card">SIM-kártya feloldása</string>
+    <string name="input_pin_code">Írja be a PIN-kódot</string>
+    <string name="incorrect_pukcode">Helytelen PUK-kód</string>
+    <string name="incorrect_pincode">Helytelen PIN-kód</string>
+    <string name="kg_password_pin_failed">SIM-kártya PIN-művelet meghiúsult!</string>
     <string name="lock_screen_date">MMMM d., EEEE</string>
     <string name="lock_screen_date_12">MMMM d., EEEE</string>
     <string name="phone_locked_string">A telefon lezárva</string>
     <string name="phone_locked_foget_password">Elfelejtette a jelszavát?</string>
     <string name="phone_locked_foget_password_method">Elfelejtette a jelszavát?</string>
-    <string name="phone_locked_foget_password_method_content"><Data>Törölnie kell &lt;font color=#a5220e>a telefonon lévő összes adatot &lt;/font> , beleértve a fényképeket, névjegyeket is, majd beállítania egy új Képernyőzár jelszót.;</Data></string>
+    <string name="phone_locked_foget_password_method_content"><Data>Törölnie kell &lt;font color=#a5220e>a telefonon lévő összes adatot &lt;/font> , beleértve a fényképeket és a névjegyeket is, majd beállítania egy új Képernyőzár jelszót.</Data></string>
     <string name="phone_locked_foget_password_mehod_back">Vissza</string>
     <string name="phone_locked_foget_password_method_next">Tovább</string>
     <string name="phone_locked_forget_password_suggesstions_title">Hogyan törölheti az adatokat?</string>
@@ -44,8 +45,8 @@
     <string name="miui_keyguard_ble_unlock_succeed_msg">Bluetooth eszközzel feloldva</string>
     <string name="wrong_password">Hibás jelszó</string>
     <string name="keyguard_torch_cover_text">A lámpa világításához nyomja meg a bekapcsológombot</string>
-    <string name="confirm_pin_msg">Írja be újra a PIN kódot</string>
-    <string name="invalid_confirm_pin_hint">A PIN kódot nem egyeznek</string>
+    <string name="confirm_pin_msg">Írja be újra a PIN-kódot</string>
+    <string name="invalid_confirm_pin_hint">A PIN-kódok nem egyeznek</string>
     <string name="unlock_string">OK</string>
     <string name="open_camera_hint_text">Húzza balra a kamera megnyitásához</string>
     <string name="open_remote_center_hint_text">Húzza jobbra a Mi Távirányító megnyitásához</string>
@@ -58,14 +59,14 @@
     <string name="fingerprint_again_identified_msg">Ujjlenyomata most már aktív. Használja a készülék feloldásához, vagy írjon be jelszót.</string>
     <string name="fingerprint_add_title">Ujjlenyomat hozzáadása</string>
     <string name="fingerprint_add_text">Az ujjlenyomat felület frissült. Rögzítse ujjlenyomatát újra.</string>
-    <string name="invalid_sim_pin_hint">A PIN kódnak 4 - 8 számjegyet kell tartalmaznia</string>
-    <string name="invalid_sim_puk_hint">A PUK kódnak min. 8 számjegyből kell állnia.</string>
+    <string name="invalid_sim_pin_hint">A PIN-kódnak 4-8 számjegyet kell tartalmaznia</string>
+    <string name="invalid_sim_puk_hint">A PUK-kódnak legalább 8 számjegyből kell állnia</string>
     <string name="input_password_hint_text">Jelszó megadása</string>
     <string name="input_pattern_hint_text">Rajzolja le a feloldási mintát</string>
     <string name="input_password_after_boot_msg">A készülék újraindítása után meg kell adnia a jelszavát.</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">A készülék újraindítása után az Első asztalra kell belépnie</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Hívás közben nem válthat az Asztalok között</string>
-    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Nem tud az asztalok között váltani, amíg a szülői felügyelet aktív</string>
+    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Nem válthat az asztalok között, ha a szülői felügyelet be van kapcsolva</string>
     <string name="input_password_handle_sdcard_fs">A képernyőzárról nem tud a Második asztalra lépni. Lépjen be az Első asztalról.</string>
     <string name="accessibility_enter_lock_wallpaper">Koppintson a Váltakozó háttérképek megnyitásához</string>
     <string name="wallpaper_global_des_drop_down_notify_text">Engedje el a részletek megtekintéséhez</string>
@@ -103,7 +104,7 @@
     <string name="face_data_introduction_next">Tovább</string>
     <string name="face_data_siggesstion_next">Következő</string>
     <string name="face_data_siggesstion_next_time">Következő (%dmp)</string>
-    <string name="face_data_suggesstion_first">Biztonsági problémák: A feloldás arcfelismeréssel kevésbé biztonságos, mint a PIN kód, a jelszó vagy a feloldóminta. Telefonja esetleg feloldható egy fényképével vagy egy önhöz hasonló személy arcával.</string>
+    <string name="face_data_suggesstion_first">Biztonsági problémák: A feloldás arcfelismeréssel kevésbé biztonságos, mint a PIN-kód, a jelszó vagy a feloldóminta. Telefonja esetleg feloldható egy fényképével vagy egy önhöz hasonló személy arcával.</string>
     <string name="face_data_suggesstion_second">Biztosítsa, hogy az arcának egyetlen részét se takarja el semmi, és minden tisztán látható. Az arca legyen jól megvilágított.</string>
     <string name="face_data_input_camera_fail">Nem lehet elindítani a kamerát</string>
     <string name="face_data_input_camera_ok">Kamera indítása…</string>
@@ -148,7 +149,7 @@
     <string name="face_unlock_rise">Döntse lejjebb a fejét</string>
     <string name="face_unlock_down">Emelje feljebb a fejét</string>
     <string name="face_unlock_quality">Nem látható tisztán az arca</string>
-    <string name="lock_screen_no_sim_card">Nincs SIM kártya</string>
+    <string name="lock_screen_no_sim_card">Nincs SIM-kártya</string>
     <string name="do_disclosure_generic">Ezt a készüléket az Ön cége kezeli</string>
     <string name="do_disclosure_with_name">Ez a készülék a %s kezelésében van</string>
     <string name="face_unlock_reenter_title">Rögzítse arcadatait újból.</string>

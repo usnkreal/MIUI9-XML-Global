@@ -79,6 +79,8 @@ Connectez-vous sur i.mi.com et essayez de débloquer votre appareil"</string>
     <string name="default_lock_msg_words_with_phone">"Salut ! J'ai perdu mon téléphone. Pourriez-vous me contacter s'il vous plait ? Merci !"</string>
     <string name="default_lock_msg_words">"Cet appareil est associé avec un compte Mi existant. Pour des raisons de sécurité, vous devez entrer votre mot de passe pour vérifier l'appareil."</string>
     <string name="lock_msg_phone">Information de contact : %s</string>
+    <string name="emergency_call">"Appel d'urgence"</string>
+    <string name="return_to_call">"Retourner à l'appel"</string>
     <string name="default_debt_msg_words">"Cet appareil est verrouillé en raison d'un retard de versement.
 Contactez votre agent de vente pour plus de détails."</string>
     <string name="sys_notification_async_verify_title">"Réactiver Localiser l'appareil"</string>

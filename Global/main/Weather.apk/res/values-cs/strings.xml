@@ -67,6 +67,10 @@
     <string name="button_confirm">Souhlasím</string>
     <string name="button_exit">Nesouhlasím</string>
     <string name="button_not_allow">Zrušit</string>
+    <string name="button_settings_cancel">Zrušit</string>
+    <string name="button_settings_confirm">Odebrat</string>
+    <string name="button_settings_confirm_to_revoke_msg">Po odebrání oprávnění nebudete moci apl. Počasí využívat.</string>
+    <string name="button_settings_confirm_to_revoke_title">Odebrat oprávnění?</string>
     <string name="button_sure_abandon">Zahodit změny?</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Zkontrolujte síťové připojení a zkuste to znovu</string>
@@ -98,6 +102,7 @@ Potáhněte dolů pro obnovení nebo zkontrolujte síťové připojení"</string
     <string name="edit_alert_city_title">Spravovat výstrahy</string>
     <string name="edit_city">Spravovat město</string>
     <string name="empty">" "</string>
+    <string name="eu_region_version_first_start_network_msg">Používáním tohoto produktu souhlasíte s tím, že Xiaomi může shromažďovat, zpracovávat a využívat vaše osobní údaje, včetně souřadnic o vámi vyhledávaných městech a dalších informací, které jsou upřesněny v našich Zásadách ochrany osobních údajů. Více informací o tom, jakým způsobem data shromažďujeme a využíváme, se dočtete v našich Zásadách ochrany osobních údajů. Klepnutím na \"Souhlasím\" souhlasíte se %1$s a %2$s Xiaomi.</string>
     <string name="feedback_heavy_rain">Silný déšť</string>
     <string name="feedback_heavy_snow">Sněžení</string>
     <string name="feedback_light_rain">Slabý déšť</string>
@@ -182,12 +187,19 @@ Klepněte na obrazovku a ručně přidejte město nebo změňte jeho polohu"</st
     <string name="particulate_matter_exceeded">Vysoká</string>
     <string name="particulate_matter_not_exceeded">Normální</string>
     <string name="particulate_matter_serious_exceeded">Velmi vysoká</string>
+    <string name="policy_settings">Smluvními podmínkami</string>
     <string name="precipitation_degree_five">Velmi silné</string>
     <string name="precipitation_degree_four">Silné</string>
     <string name="precipitation_degree_one">Žádné</string>
     <string name="precipitation_degree_three">Střední</string>
     <string name="precipitation_degree_two">Slabé</string>
     <string name="pressure_connect">%1$s mb</string>
+    <string name="privacy_grant_failed">Udělení oprávnění se nezdařilo. Počkejte chvíli a zkuste to znovu.</string>
+    <string name="privacy_grant_or_revoke_settings">Udělování a odebírání oprávnění</string>
+    <string name="privacy_grant_success">Oprávnění bylo uděleno</string>
+    <string name="privacy_revoke_failed">Odebrání oprávnění se nezdařilo. Počkejte chvíli a zkuste to znovu.</string>
+    <string name="privacy_revoke_success">Oprávnění bylo odebráno</string>
+    <string name="privacy_settings">Zásadami ochrany osobních údajů</string>
     <string name="pull_fresh_updated">Úspěšně aktualizováno</string>
     <string name="pull_fresh_updating">Aktualizuji…</string>
     <string name="radar_cloud_image_title">Radarová mapa</string>
@@ -269,16 +281,4 @@ Klepněte na obrazovku a ručně přidejte město nebo změňte jeho polohu"</st
     <string name="xiaomi_weather_description_title">O Počasí</string>
     <string name="yes_vote_ratio">Pro %1$s%%</string>
     <string name="your_location">Vaše poloha</string>
-    <string name="button_settings_cancel">Zrušit</string>
-    <string name="button_settings_confirm">Odebrat</string>
-    <string name="button_settings_confirm_to_revoke_msg">Po odebrání oprávnění nebudete moci apl. Počasí využívat.</string>
-    <string name="button_settings_confirm_to_revoke_title">Odebrat oprávnění?</string>
-    <string name="eu_region_version_first_start_network_msg">Používáním tohoto produktu souhlasíte s tím, že Xiaomi může shromažďovat, zpracovávat a využívat vaše osobní údaje, včetně souřadnic o vámi vyhledávaných městech a dalších informací, které jsou upřesněny v našich Zásadách ochrany osobních údajů. Více informací o tom, jakým způsobem data shromažďujeme a využíváme, se dočtete v našich Zásadách ochrany osobních údajů. Klepnutím na \"Souhlasím\" souhlasíte se %1$s a %2$s Xiaomi.</string>
-    <string name="policy_settings">Smluvními podmínkami</string>
-    <string name="privacy_grant_failed">Udělení oprávnění se nezdařilo. Počkejte chvíli a zkuste to znovu.</string>
-    <string name="privacy_grant_or_revoke_settings">Udělování a odebírání oprávnění</string>
-    <string name="privacy_grant_success">Oprávnění bylo uděleno</string>
-    <string name="privacy_revoke_failed">Odebrání oprávnění se nezdařilo. Počkejte chvíli a zkuste to znovu.</string>
-    <string name="privacy_revoke_success">Oprávnění bylo odebráno</string>
-    <string name="privacy_settings">Zásadami ochrany osobních údajů</string>
 </resources>

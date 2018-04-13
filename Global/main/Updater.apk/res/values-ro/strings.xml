@@ -40,7 +40,7 @@
     <string name="menu_title_current_version_log">Ce este nou</string>
     <string name="menu_title_apply_for_alpha">Înscrie-te în programul de testare beta</string>
     <string name="menu_title_feedback">Părere</string>
-    <string name="install_file_explorer">Instalează mai întâi Explorerul de fișiere</string>
+    <string name="install_file_explorer">Instalați mai întâi Gestionare Fișiere</string>
     <string name="boot_recovery">Reporneşte la modul de recuperare?</string>
     <string name="cancel_download">Opreşte descărcarea actualizării?</string>
     <string name="continue_update_positive_btn">Stop</string>
@@ -142,6 +142,10 @@ http://zhushou.xiaomi.com"</string>
     <string name="notification_express_available">Actualizarea dvs. (%1$s) este gata de descărcare</string>
     <string name="notification_express_ready">Actualizarea dvs. (%1$s) este gata de instalare</string>
     <string name="express_update_reserve_content">Nu puteți actualiza direct această versiune acum. Solicitați o actualizare (%1$s)? Vă vom anunța când %1$s este disponibil pentru dispozitivul dvs. Până atunci, veți primi în continuare actualizări regulate.</string>
+    <string name="express_update_reserve_content2">"Unele lucruri se vor schimba după ce actualizați la ROM stabil. Iată ce:
+1. Accesul la sursă va fi restricționat chiar dacă ați permis mai devreme.
+2. Diverse caracteristici ale Beta ROM-ului nu vor fi disponibile în versiunile sale stabile."</string>
+    <string name="express_update_reserve_check_text">Înțeleg diferența dintre versiunile ROM</string>
     <string name="express_update_reserve_positive">Aplicați pentru o actualizare (%s)</string>
     <string name="express_update_reserve_negative">Nu aplicați</string>
     <string name="express_update_switch_content_no_erase">MIUI va fi actualizat la o nouă versiune (%s). Această actualizare nu vă va șterge datele.</string>

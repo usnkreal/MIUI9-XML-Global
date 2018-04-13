@@ -418,7 +418,7 @@ Pro aktivaci vašeho účtu, klikněte na
     <string name="login_check_find_device">Získávám informace o zabezpečení zařízení…</string>
     <string name="unlock_help_notice">"Nápověda:
 1. Pokud jste zapomněli své heslo, na stránce id.mi.com jej můžete resetovat.
-2. Pokud nejde zařízení odemknout, na stránce i.mi.com vypněte funkci Najít zařízení.
+2. Pokud heslo nemůžete resetovat nebo vaše zařízení někdo uzamknul, na stránce i.mi.com jej můžete odemknout.
 3. Číslo pro odemknutí: %s"</string>
     <string name="login_find_device_bind">Toto zařízení je spojeno s existujícím ID Xiaomi účtu (%s).</string>
     <string name="find_device_locked_account_phone" formatted="false">%s, spojené s číslem: %s</string>
@@ -451,7 +451,7 @@ Pro aktivaci vašeho účtu, klikněte na
     <string name="mipay_identity">Ověření totožnosti</string>
     <string name="mipay_indentity_done">Ověřeno</string>
     <string name="mipay_identitiy_no">Neověřeno</string>
-    <string name="account_token_expired_title">Chyba ověření</string>
+    <string name="account_token_expired_title">Ověření se nezdařilo</string>
     <string name="account_token_expired_msg">"Platnost ověřovacího kódu vypršela, začněte prosím znovu nebo se odhlaste.
  ID vašeho účtu: %s"</string>
     <string name="bind_safe_phone_msg">Přidejte své telefonní číslo pro další přihlášení ke Xiaomi účtu.</string>

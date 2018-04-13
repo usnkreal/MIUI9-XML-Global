@@ -211,8 +211,8 @@
     <string name="contact_detail_calllog_call_note_tips">Note</string>
     <string name="contact_detail_calllog_call_record_tips">Apel înregistrat</string>
     <string name="contact_detail_calllog_empty">Nu există istoric</string>
-    <string name="contact_detail_entry_pay">Pay</string>
-    <string name="contact_detail_entry_pay_dialog_title">Select phone number</string>
+    <string name="contact_detail_entry_pay">Plătește</string>
+    <string name="contact_detail_entry_pay_dialog_title">Selectează numărul de telefon</string>
     <string name="contact_detail_menu_delete_miprofile">Șterge card</string>
     <string name="contact_detail_miprofile_accept">Schimbă carduri de contact</string>
     <string name="contact_detail_miprofile_accept_fail_toast">Nu s-a putut schimba carduri de contact</string>
@@ -875,7 +875,7 @@ u2022 Accesează de pe orice browser web.
     <string name="preference_contacts_display">Preferințele de afișare</string>
     <string name="preference_contacts_filter">Configurare listelor de contacte</string>
     <string name="preference_contacts_more">Organizare contacte</string>
-    <string name="preference_contacts_moresetting">More</string>
+    <string name="preference_contacts_moresetting">Mai mult</string>
     <string name="preference_dial_pad_touch_tone_default">Implicit</string>
     <string name="preference_dial_pad_touch_tone_human">Voce</string>
     <string name="preference_dial_pad_touch_tone_piano">Clape de pian</string>
@@ -883,7 +883,7 @@ u2022 Accesează de pe orice browser web.
     <string name="preference_dial_pad_touch_tone_title">Tonuri atingere apel</string>
     <string name="preference_display">Afișajul</string>
     <string name="preference_displayOptions">Opțiuni de afișare</string>
-    <string name="preference_display_contact">Display options</string>
+    <string name="preference_display_contact">Opțiuni de afișare</string>
     <string name="preference_export">Exportă</string>
     <string name="preference_import">Import</string>
     <string name="preference_import_export">Import / Export</string>
@@ -988,7 +988,7 @@ u2022 Accesează de pe orice browser web.
     <string name="search_contacts_display">Contacte;Afișaj</string>
     <string name="search_contacts_more">Organizează;Contacte</string>
     <string name="search_contacts_recovery">Contacte</string>
-    <string name="search_contacts_setting">Setări contact;Afișează fotografii și informații;Atribuie fotografii de contact;Import și export;Partajează; Import din cardul SD;Import din cartela SIM;Import din alt telefon;Export din cardul SD;Export din cartela SIM;Partajează contacte; Afișează preferințe;Ascunde numere incomplete;Arată contacte SIM;Configurează listele de contacte;Grupuri inteligente;Organizează contacte; Contopiați contactele duplicate;Șterge lot;Șterge date;; Reconstruieste date index;t9;Cartele SIM;Stocare cartelă SIM;Introducere recuperare contacte;Poze contacte</string>
+    <string name="search_contacts_setting">Setări contact;Afișează fotografii și informații;Atribuie fotografii de contact;Import și export;Partajează; Import din stocare;Import din cartela SIM;Import din alt telefon;Export din stocare;Export din cartela SIM;Partajează contacte; Afișează preferințe;Ascunde numere incomplete;Arată contacte SIM;Configurează listele de contacte;Grupuri inteligente;Organizează contacte; Copiați contactele duplicate;Șterge tot;Șterge date;; Reconstruiește date index;t9;Cartele SIM;Stocare cartelă SIM;Introducere recuperare contacte;Poze contacte</string>
     <string name="search_display_only_phones">Contacte;Afișaj</string>
     <string name="search_display_sim_contacts">Contacte;Afișaj</string>
     <string name="search_export_to_sdcard">Contacte;Export;memorie</string>
@@ -1011,7 +1011,7 @@ u2022 Accesează de pe orice browser web.
     <string name="search_simple_mode">Afișaj;informații;fotografii;Contacte</string>
     <string name="search_smart_group_title">Contacte;Afișaj</string>
     <string name="search_wipe_data">Organizează;Contacte</string>
-    <string name="searching_vcard_message">Căutare date vCard pe cardul SD…</string>
+    <string name="searching_vcard_message">Se caută date vCard în dispozitiv…</string>
     <string name="select_all">Selectează tot</string>
     <string name="select_all_exceed">Selectați nu mai mult de %1$d, nu se poate selecta tot</string>
     <string name="select_exceed">Selectați nu mai mult de %1$d</string>

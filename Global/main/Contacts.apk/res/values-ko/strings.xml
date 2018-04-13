@@ -989,7 +989,7 @@
     <string name="search_contacts_display">연락처;디스플레이</string>
     <string name="search_contacts_more">조직;연락처</string>
     <string name="search_contacts_recovery">연락처</string>
-    <string name="search_contacts_setting">연락처 설정;사진 및 정보 표시;연락처 사진 지정;가져오기 및 내보내기;공유; SD 카드에서 가져오기;SIM 카드에서 가져오기;다른 휴대전화에서 가져오기;SD 카드에서 내보내기;SIM 카드에서 내보내기;연락처 공유; 디스플레이 선호설정;미완성 번호 숨기기;SIM 연락처 표시;연락처 목록 구성;스마트 그룹;연락처 조직; 중복 연락처 합치기;일괄 삭제;데이터 지우기;색인 데이터 리빌드;t9;SIM 카드;SIM 카드 저장소;연락처 복구 소개;연락처 사진</string>
+    <string name="search_contacts_setting">연락처 설정;사진 및 정보 표시;연락처 사진 지정;가져오기 및 내보내기;공유; 저장소에서 가져오기;SIM 카드에서 가져오기;다른 휴대전화에서 가져오기;저장소로 내보내기;SIM 카드로 내보내기;연락처 공유; 디스플레이 선호설정;미완성 번호 숨기기;SIM 연락처 표시;연락처 목록 구성;스마트 그룹;연락처 조직; 중복 연락처 합치기;일괄 삭제;데이터 지우기;색인 데이터 리빌드;t9;SIM 카드;SIM 카드 저장소;연락처 복구 소개;연락처 사진</string>
     <string name="search_display_only_phones">연락처;디스플레이</string>
     <string name="search_display_sim_contacts">연락처;디스플레이</string>
     <string name="search_export_to_sdcard">연락처;내보내기;저장소</string>
@@ -1012,7 +1012,7 @@
     <string name="search_simple_mode">디스플레이;정보;사진;연락처</string>
     <string name="search_smart_group_title">연락처;디스플레이</string>
     <string name="search_wipe_data">조직;연락처</string>
-    <string name="searching_vcard_message">"SD Card에서 vCard 데이터를 검색하는 중
+    <string name="searching_vcard_message">"기기에서 vCard 데이터를 검색하는 중
 2026"</string>
     <string name="select_all">모두 선택</string>
     <string name="select_all_exceed">최대 %1$d개 항목 선택 가능, 모두 선택할 수 없습니다.</string>

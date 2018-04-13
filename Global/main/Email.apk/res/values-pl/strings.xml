@@ -132,13 +132,13 @@
     <string name="account_setup_options_mail_check_frequency_imap_push">Automatycznie (tryb Push)</string>
     <string name="account_setup_options_mail_check_frequency_never">Nigdy</string>
     <string name="account_setup_options_mail_check_frequency_push">Automatycznie (tryb Push)</string>
-    <string name="account_setup_options_mail_window_1day">Wczoraj</string>
+    <string name="account_setup_options_mail_window_1day">Jeden dzień</string>
     <string name="account_setup_options_mail_window_1month">Ostatni miesiąc</string>
     <string name="account_setup_options_mail_window_1quarter">Kwartał</string>
     <string name="account_setup_options_mail_window_1week">Ostatni tydzień</string>
     <string name="account_setup_options_mail_window_2weeks">Ostatnie dwa tygodnie</string>
     <string name="account_setup_options_mail_window_3days">Ostatnie trzy dni</string>
-    <string name="account_setup_options_mail_window_all">Wszystkie</string>
+    <string name="account_setup_options_mail_window_all">Bez ograniczeń</string>
     <string name="account_setup_options_mail_window_auto">Automatycznie</string>
     <string name="account_setup_options_mail_window_default">Użyj wartości domyślnej konta</string>
     <string name="account_setup_options_mail_window_label">Okres synchronizacji</string>
@@ -895,6 +895,7 @@ Spróbuj inną skrzynkę odbiorczą."</string>
          zabezpieczeń"</string>
     <string name="security_notification_content_update_title">Wymagana aktualizacja zabezp.</string>
     <string name="security_unsupported_ticker_fmt">Nie można zsynchronizować konta \"%s\" ze względu na wymogi bezpieczeństwa.</string>
+    <string name="see_more_content">Pokaż więcej</string>
     <string name="select_attachment_type">Wybierz typ załącznika z:</string>
     <string name="select_no_file">Nie zaznaczono załącznika</string>
     <string name="select_path">Wybierz ścieżkę</string>

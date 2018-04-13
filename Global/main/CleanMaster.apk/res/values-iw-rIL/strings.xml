@@ -497,4 +497,17 @@
     <string name="auto_clean_time_three_day">כל 3 ימים</string>
     <string name="auto_clean_time_seven_day">כל 7 ימים</string>
     <string name="auto_clean_time_fifteen_day">כל 15 ימים</string>
+    <string name="pref_category_title_auto_clean_config_settings">ניקויים אוטומטיים</string>
+    <string name="pref_title_auto_clean">ניקוי אוטומטי</string>
+    <string name="pref_title_auto_clean_operation">שיטת ניקוי</string>
+    <string name="pref_title_auto_clean_trigger">ניקוי שטח האחסון</string>
+    <string name="auto_clean_operation_dialog_title">שיטת ניקוי</string>
+    <string name="auto_clean_operation_clean_and_alert">תזכורת וניקוי</string>
+    <string name="auto_clean_operation_just_clean">ניקוי בלבד</string>
+    <string name="auto_clean_trigger_dialog_title">ניקוי שטח האחסון</string>
+    <string name="auto_clean_trigger_percent_ninety">בתפוסה של 90%</string>
+    <string name="auto_clean_trigger_percent_eighty">בתפוסה של 80%</string>
+    <string name="auto_clean_trigger_percent_sixty">בתפוסה של 60%</string>
+    <string name="auto_clean_notification_title">הזכר לי לבצע ניקוי</string>
+    <string name="auto_clean_notification_content">ניקוי %s אשפה</string>
 </resources>

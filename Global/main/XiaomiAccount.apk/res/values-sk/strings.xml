@@ -414,9 +414,9 @@
     <string name="find_device_activate_account">Aktivovať účet</string>
     <string name="login_check_find_device">Získavanie info o zabezpečení...</string>
     <string name="unlock_help_notice">"Pomoc:
-1. Ak ste zabudli vaše heslo, prejdite na id.mi.com pre jeho obnovu. 
-2. Ak nemôžete odomknúť zariadenie, prejdite na i.mi.com a vypnite funkciu Nájsť zariadenie. 
-3. Vaše číslo pre odomknutie: %s"</string>
+1. Ak ste zabudli heslo, prejdite na id.mi.com a resetujte ho.
+2. Ak nemôžete resetovať heslo alebo niekto zamkol vaše zariadenie, prejdite na i.mi.com a odomknite ho.
+3. Vaše číslo na odomknutie: %s"</string>
     <string name="login_find_device_bind">Toto zariadenie je spojené s existujúcim Mi účtom (%s).</string>
     <string name="find_device_locked_account_phone" formatted="false">%s, prepojené telefónne číslo: %s</string>
     <string name="find_device_locked_account_email" formatted="false">%s, prepojená e-mailová adresa: %s</string>
@@ -448,7 +448,7 @@
     <string name="mipay_identity">Overenie ID</string>
     <string name="mipay_indentity_done">Overené</string>
     <string name="mipay_identitiy_no">Neoverené</string>
-    <string name="account_token_expired_title">Chyba overenia</string>
+    <string name="account_token_expired_title">Autorizácia zlyhala</string>
     <string name="account_token_expired_msg">\"Platnosť overovacieho kódu vypršala. Začnite znova alebo sa odhláste ID účtu: %s\"</string>
     <string name="bind_safe_phone_msg">Pridajte svoje telefónne číslo, aby ste sa nabudúce mohli prihlásiť do svojho účtu Xiaomi.</string>
     <string name="account_notification_message">>Relácia vypršala. Prihláste sa znova.</string>

@@ -148,25 +148,6 @@
     <string name="antispam_provider">Označeno %s</string>
     <string name="antispam_notification_title">Neznámé číslo</string>
     <string name="suspect_info">Dávejte pozor na své osobní informace.</string>
-    <string name="livetalk_dial">Využívání Dodatečného balíčku</string>
-    <string name="areacode_set_default">Nastavit jako výchozí</string>
-    <string name="default_area_code_setting">Výchozí kod země</string>
-    <string name="not_activate_sim_card_content_title">Telefonní číslo není ověřeno</string>
-    <string name="not_activate_sim_card_content">Pro zahájení využívání Dodatečného balíčku ověřte vaše telefonní číslo. Stále můžete uskutečňovat klasické tel. hovory, které budou účtovány dle tarifu vašeho operátora.</string>
-    <string name="not_activate_sim_card_content_with_operator">Pro zahájení využívání Dodatečného balíčku ověřte vaši SIM kartu %1$s (%2$s). Stále můžete uskutečňovat klasické tel. hovory, které budou účtovány dle tarifu vašeho operátora.</string>
-    <string name="dialog_call_ordinary_telephone">Běžný hovor</string>
-    <string name="dialog_activate_livetalk">Ověřit číslo</string>
-    <string name="not_support_title">Číslo není podporováno</string>
-    <string name="not_support_message">Dodatkový balíček momentálně nepodporuje tato čísla. Můžete se pokusit provést klasický tel. hovor.</string>
-    <string name="livetalk_hangup">Zavěsit</string>
-    <string name="no_call_back_title">Upozornění</string>
-    <string name="no_call_back_message">Pokus o připojení trvá příliš dlouho. Využijte klasický tel. hovor, který bude účtován dle tarifu vašeho operátora.</string>
-    <string name="keep_wait_call_back">Čekejte</string>
-    <string name="network_error_title">Chyba sítě</string>
-    <string name="network_error_message">Pokuste se uskutečnit běžný tel. hovor. Hovor bude zpoplatněn vašim operátorem.</string>
-    <string name="do_not_ask">Znovu nezobrazovat</string>
-    <string name="time_left_livetalk">(%ds)</string>
-    <string name="can_not_call_oneself">Na toto číslo nelze volat</string>
     <string name="card_title_video_call_paused">Video pozastaveno</string>
     <string name="card_title_incoming_conference_call">Příchozí konferenční hovor</string>
     <string name="onscreen_change_to_voice">Hlasový hovor</string>
@@ -191,6 +172,9 @@
     <string name="close_camera_failed">Fotoaparát se nepodařilo vypnout…</string>
     <string name="change_to_voice_tips_when_background">Druhá strana přepnula na hlasový hovor</string>
     <string name="video_crbt_title">%s VRBT</string>
+    <string name="crbt_second_hold_prompt">Hovor s %s je přidržen…</string>
+    <string name="crbt_second_hold_prompt_no_name">Předchozí hovor je přidržen…</string>
+    <string name="crbt_second_hold_prompt_conference">Konferenční hovor je přidržen…</string>
     <string name="call_button_tools_text">Funkce</string>
     <string name="call_button_dialer_text">Klávesnice</string>
     <string name="call_button_mute_text">Ztišit</string>
@@ -212,6 +196,7 @@
     <string name="dialpad_seven">7</string>
     <string name="dialpad_eight">8</string>
     <string name="dialpad_nine">9</string>
+    <string name="prompt_no_volte_when_failed">Služby VoLTE nejsou k dispozici.</string>
     <string name="no_vm_number">Chybí číslo hlasové schránky</string>
     <string name="no_vm_number_msg">Na kartě SIM není uloženo žádné číslo hlasové schránky.</string>
     <string name="add_vm_number_str">Přidat číslo</string>
@@ -225,6 +210,10 @@
     <string name="dial_with_gsm_phone">Běžný hovor</string>
     <string name="livetalk_left_minute">Zbývá %s minut</string>
     <string name="miprofile_stranger_card">Karta návštěvníka</string>
+    <string name="network_error_message">Pokuste se uskutečnit běžný tel. hovor. Hovor bude zpoplatněn vašim operátorem.</string>
+    <string name="network_error_title">Chyba sítě</string>
     <string name="no_balance_message">Nedostatek fin. prostředků v dodatkovém balíčku. Můžete se pokusit provést klasický tel. hovor.</string>
+    <string name="not_support_message">Dodatkový balíček momentálně nepodporuje tato čísla. Můžete se pokusit provést klasický tel. hovor.</string>
+    <string name="not_support_title">Číslo není podporováno</string>
     <string name="purchase_now">Dodatečný balíček</string>
 </resources>

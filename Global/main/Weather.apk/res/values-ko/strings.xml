@@ -67,6 +67,10 @@
     <string name="button_confirm">동의</string>
     <string name="button_exit">동의하지 않음</string>
     <string name="button_not_allow">취소</string>
+    <string name="button_settings_cancel">취소</string>
+    <string name="button_settings_confirm">철회</string>
+    <string name="button_settings_confirm_to_revoke_msg">권한 철회 후 날씨를 사용하실 수 없습니다.</string>
+    <string name="button_settings_confirm_to_revoke_title">권한을 철회하시겠습니까?</string>
     <string name="button_sure_abandon">변경 사항을 취소하시겠습니까?</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">네트워크 연결을 확인한 후 다시 시도하십시오.</string>
@@ -98,6 +102,7 @@
     <string name="edit_alert_city_title">경고 관리</string>
     <string name="edit_city">도시 관리</string>
     <string name="empty">" "</string>
+    <string name="eu_region_version_first_start_network_msg">이 제품을 사용하시려면, Xiaomi의 검색한 도시 정보 및 개인 정보 보호 정책에 명시된 기타 유형의 데이터를 포함하는 개인 정보의 수집과 처리에 동의하셔야 합지다. 개인 정보 보호 정책을 참고하시면 저희의 정보 수집과 처리에 대해 알아보실 수 있습니다. \"동의\"를 탭하시면 Xiaomi의 %1$s 및 %2$s에 동의하시는 것입니다.</string>
     <string name="feedback_heavy_rain">집중 호우</string>
     <string name="feedback_heavy_snow">눈</string>
     <string name="feedback_light_rain">이슬비</string>
@@ -182,12 +187,19 @@
     <string name="particulate_matter_exceeded">높음</string>
     <string name="particulate_matter_not_exceeded">보통</string>
     <string name="particulate_matter_serious_exceeded">아주 높음</string>
+    <string name="policy_settings">이용 약관</string>
     <string name="precipitation_degree_five">태풍</string>
     <string name="precipitation_degree_four">강한 비</string>
     <string name="precipitation_degree_one">없음</string>
     <string name="precipitation_degree_three">보통</string>
     <string name="precipitation_degree_two">약한 비</string>
     <string name="pressure_connect">%1$s mb</string>
+    <string name="privacy_grant_failed">권한 부여 실패, 1-2분 정도 기다리신 후 다시 시도하십시오.</string>
+    <string name="privacy_grant_or_revoke_settings">권한 부여 &amp; 철회</string>
+    <string name="privacy_grant_success">권한 부여 성공</string>
+    <string name="privacy_revoke_failed">권한 철회 실패, 1-2분 정도 기다리신 후 다시 시도하십시오.</string>
+    <string name="privacy_revoke_success">권한 철회 성공</string>
+    <string name="privacy_settings">개인 정보 보호 정책</string>
     <string name="pull_fresh_updated">업데이트 성공</string>
     <string name="pull_fresh_updating">업데이트 중…</string>
     <string name="radar_cloud_image_title">레이더 지도</string>
@@ -269,16 +281,4 @@
     <string name="xiaomi_weather_description_title">날씨 정보</string>
     <string name="yes_vote_ratio">%1$s%%</string>
     <string name="your_location">당신의 위치</string>
-    <string name="button_settings_cancel">취소</string>
-    <string name="button_settings_confirm">철회</string>
-    <string name="button_settings_confirm_to_revoke_msg">권한 철회 후 날씨를 사용하실 수 없습니다.</string>
-    <string name="button_settings_confirm_to_revoke_title">권한을 철회하시겠습니까?</string>
-    <string name="eu_region_version_first_start_network_msg">이 제품을 사용하시려면, Xiaomi의 검색한 도시 정보 및 개인 정보 보호 정책에 명시된 기타 유형의 데이터를 포함하는 개인 정보의 수집과 처리에 동의하셔야 합지다. 개인 정보 보호 정책을 참고하시면 저희의 정보 수집과 처리에 대해 알아보실 수 있습니다. \"동의\"를 탭하시면 Xiaomi의 %1$s 및 %2$s에 동의하시는 것입니다.</string>
-    <string name="policy_settings">이용 약관</string>
-    <string name="privacy_grant_failed">권한 부여 실패, 1-2분 정도 기다리신 후 다시 시도하십시오.</string>
-    <string name="privacy_grant_or_revoke_settings">권한 부여 &amp; 철회</string>
-    <string name="privacy_grant_success">권한 부여 성공</string>
-    <string name="privacy_revoke_failed">권한 철회 실패, 1-2분 정도 기다리신 후 다시 시도하십시오.</string>
-    <string name="privacy_revoke_success">권한 철회 성공</string>
-    <string name="privacy_settings">개인 정보 보호 정책</string>
 </resources>

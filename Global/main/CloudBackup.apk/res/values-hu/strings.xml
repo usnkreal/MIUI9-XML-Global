@@ -26,7 +26,7 @@
     <string name="cloud_back_up_ok_btn">OK</string>
     <string name="cloud_back_up_frequence_choice_title">Mentés ütemezése</string>
     <string name="cloud_back_up_frequence_long">Minden 7. napon</string>
-    <string name="cloud_back_up_frequence_short">Mindennap</string>
+    <string name="cloud_back_up_frequence_short">Minden nap</string>
     <string name="cloud_back_up_share_activity_title">Mi Fiók frissítése</string>
     <string name="cloud_back_up_share_activity_discription">Nagyobb tárhely igénylése, napi mentések...</string>
     <string name="cloud_back_up_share_activity_confirm">Frissítés</string>
@@ -44,10 +44,11 @@ Megjegyzés: a telepített alkalmazások adatai nem lesznek elmentve a Mi Cloudb
     <string name="cloud_app_no_network">Nem sikerült kapcsolódni a hálózathoz</string>
     <string name="button_delete">Törlés</string>
     <string name="customization"><u>Testreszabás</u></string>
+    <string name="home_hint_global_launcher">Poco Kezdőképernyő</string>
     <string name="self_phone">Ez a telefon</string>
+    <string name="self_phone_home">Ez a telefon: %s</string>
     <string name="process_whole_recovery">\"%s\" visszaállítása</string>
     <string name="device_xiaomi">Xiaomi telefon</string>
-    <string name="device_corrupt">Xiaomi telefon (Sérült adat)</string>
     <string name="size_unknown">Ismeretlen méret</string>
     <string name="recovering">%s visszaállítása</string>
     <string name="start_recover">%s visszaállítása</string>
@@ -69,7 +70,7 @@ Megjegyzés: a telepített alkalmazások adatai nem lesznek elmentve a Mi Cloudb
     <string name="desktop_downloading">Letöltés</string>
     <string name="desktop_installing">Telepítés</string>
     <string name="desktop_wait_wifi">Várakozás</string>
-    <string name="desktop_failed">Meghiúsult</string>
+    <string name="desktop_failed">Hiba</string>
     <string name="recover_from_micloud">Visszaállítás a Mi Cloudból</string>
     <string name="click_try_to_restore_again">Érintse meg az újrapróbálkozáshoz</string>
     <string name="open_wifi">Wi-Fi bekapcsolása</string>
@@ -132,6 +133,8 @@ Megjegyzés: a telepített alkalmazások adatai nem lesznek elmentve a Mi Cloudb
     <string name="no_account">Nincs Mi Fiókba bejelentkezve.</string>
     <string name="no_backup">Nincs mentés a Mi Cloudban.</string>
     <string name="download_meta_failed">Az adatbetöltés sikertelen.</string>
+    <string name="home_restore_error">Kezdőképernyő visszaállítása sikertelen</string>
+    <string name="get_device_id_error">Nem kérhető le a készülékazonosító</string>
     <string name="download_home_data">Kezdőképernyő-elrendezés letöltése…</string>
     <string name="restore_home_failed">Kezdőképernyő visszaállítása sikertelen.</string>
     <string name="arrange_restore_order">Alkalmazások újrarendezése…</string>

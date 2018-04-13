@@ -1106,7 +1106,6 @@ Votre carte SIM sera effacée en cas de nouvel échec."</string>
     <string name="network_unlock">Déverrouiller</string>
     <string name="roaming_notification_title">"Il se peut que l'itinérance soit activée"</string>
     <string name="roaming_notification_content">Vous pouvez ajouter automatiquement les indicatifs pour rendre la composition plus pratique.</string>
-    <string name="livetalk_setting">Recharge de forfait</string>
     <string name="description_image_button_one">un</string>
     <string name="description_image_button_two">deux</string>
     <string name="description_image_button_three">trois</string>
@@ -1201,6 +1200,7 @@ Votre carte SIM sera effacée en cas de nouvel échec."</string>
     <string name="sum_cfu_enabled_indicator_by_sim">Tous les appels de la SIM %s seront transférés</string>
     <string name="preference_dial_pad_touch_tone_off">Désactivé</string>
     <string name="msim_disable_sim_card_summary_telecom_vice_card_inEcm">"Ne pas restreindre votre carte SIM secondaire en mode appel d'urgence."</string>
+    <string name="msim_cmcc_dds_switch_not_support">"Impossible de changer de carte SIM en raison des restrictions de l'opérateur."</string>
     <string name="simFdnContacts_empty">Aucun contact sur la liste numéros autorisés.</string>
     <string name="bad_pin2_old">"L'ancien code PIN2 que vous avez entré est incorrect."</string>
     <string name="dtmf_tone_entries_normal">Normal</string>
@@ -1209,6 +1209,7 @@ Votre carte SIM sera effacée en cas de nouvel échec."</string>
     <string name="network_type_3g_preferred_cmcc">3G/2G</string>
     <string name="change_default_data_card">Carte SIM par défaut pour les données mobile</string>
     <string name="change_default_data_card_summary">Il semble que vous changé de carte SIM. Choisir cette carte comme SIM par défaut pour les données mobile ?</string>
+    <string name="volte_switch_title_ct">VoLTE activé</string>
     <string name="volte_switch_summary2">"Confirmez que votre opérateur prend en charge cette fonctionnalité avant de l'activer. Sinon, les appels réguliers pourraient être affectés."</string>
     <string name="volte_switch_not_support_summary">Les appels VoLTE ne sont pas pris en charge pour la carte SIM de données mobiles.</string>
     <string name="volte_switch_not_support_summary2">"Les appels VoLTE ne sont pas pris en charge par l'opérateur."</string>
@@ -1273,13 +1274,15 @@ Votre carte SIM sera effacée en cas de nouvel échec."</string>
     <string name="cfnry_time_twenty_five_sec">25 sec</string>
     <string name="cfnry_time_thirty_sec">30 sec</string>
     <string name="cfnry_time_setting_title">"Définir la durée d'attente"</string>
-    <string name="prompt_when_turnon_volte_without_lte">"Les réseaux LTE ne sont pas disponibles actuellement. Activer VoLTE peut vous empêcher d'effectuer des appels réguliers."</string>
+    <string name="prompt_when_turnon_volte_without_lte">"Les réseaux VoLTE ne sont pas disponibles actuellement. Activer VoLTE peut vous empêcher d'effectuer des appels réguliers."</string>
     <string name="prompt_when_turnon_volte_on_3g_prefered">"Sélectionnez LTE comme votre type de réseau préféré avant d'activer VoLTE."</string>
     <string name="prompt_to_turnoff_volte_when_failed">Les services VoLTE ne sont pas disponibles. Désactivez VoLTE pour passer un appel.</string>
-    <string name="volte_tips_when_turn_on">Les services VoLTE de China Telecom sont uniquement fournis dans les zones couvertes par le réseau LTE.</string>
+    <string name="volte_tips_when_turn_on">"Les services VoLTE de China Telecom ne sont fournis que dans les zones couvertes par le réseau VoLTE. Les services VoLTE sont fournis par l'opérateur."</string>
     <string name="prompt_to_turnoff_volte_when_supp_service">"Le service n'est pas disponible. Désactivez VoLTE dans les paramètres."</string>
     <string name="prefered_network_type_3g_promp">Vous devez désactiver VoLTE avant de choisir la 3G comme type de réseau préféré. Désactiver maintenant ?</string>
     <string name="close_volte">Désactiver VoLTE</string>
+    <string name="vice_card_data_in_use_alert">Des frais de données supplémentaires peuvent être générés.</string>
+    <string name="switch_dds_to_sub_alert">Définir cette carte comme carte de données par défaut.</string>
     <string name="pick_outgoing_call_phone_type">Passer un appel</string>
     <string name="pick_outgoing_sip_phone">"Utiliser un compte d'appel Internet "</string>
     <string name="remember_my_choice">Toujours utiliser pour passer des appels VOIP</string>
@@ -1428,6 +1431,7 @@ Votre carte SIM sera effacée en cas de nouvel échec."</string>
     <string name="can_not_use">"Impossible d'utiliser"</string>
     <string name="incall_error_no_active_sim">"La carte SIM n'a pas été activée"</string>
     <string name="incall_error_sim_deactive">Carte SIM inactive</string>
+    <string name="livetalk_setting">Recharge de forfait</string>
     <string name="select_one_sim_title">Peut seulement utiliser la SIM %1$d</string>
     <string name="select_sim_hint">"Impossible d'accéder à la SIM %2$d, lorsque la SIM %1$d est en cours d'utilisation."</string>
 </resources>

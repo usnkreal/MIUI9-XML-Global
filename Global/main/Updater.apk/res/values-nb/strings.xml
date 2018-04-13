@@ -40,7 +40,7 @@
     <string name="menu_title_current_version_log">Hva er nytt</string>
     <string name="menu_title_apply_for_alpha">Bli med i Beta-testprogrammet</string>
     <string name="menu_title_feedback">Tilbakemelding</string>
-    <string name="install_file_explorer">Installer File Explorer først</string>
+    <string name="install_file_explorer">Installer filbehandleren først</string>
     <string name="boot_recovery">Restarte til Recovery-modus?</string>
     <string name="cancel_download">Stoppe nedlastingsoppdatering?</string>
     <string name="continue_update_positive_btn">Stopp</string>
@@ -88,8 +88,8 @@
     <string name="cancel">Avbryt</string>
     <string name="enable">Slå på</string>
     <string name="disable">Ikke slå på</string>
-    <string name="mobile_download_title">Update using mobile data?</string>
-    <string name="mobile_download_msg">If you have a plan with unlimited data, you can download updates automatically using mobile data. After you turn this feature on, updates will be downloaded during the set period of time.</string>
+    <string name="mobile_download_title">Oppdatere ved å bruke mobildata?</string>
+    <string name="mobile_download_msg">Hvis du har et abonnement med ubegrenset data, kan du automatisk laste ned oppdateringer ved å bruke mobildata. Etter du skrur på denne funksjonen, vil oppdateringer lastes ned under testperioden.</string>
     <string name="recovery_failed_title">Bruk Mi PC Suite for å oppdatere systemet ditt</string>
     <string name="recovery_power_not_enough_title">Lav batterikapasitet</string>
     <string name="recovery_power_not_enough_msg">Lad enheten din til min 15 % for å oppdatere.</string>
@@ -132,23 +132,27 @@ http://zhushou.xiaomi.com"</string>
     <string name="title_download_full">Nedlasting full ROM</string>
     <string name="current_version">Aktuell versjon</string>
     <string name="title_can_download_update">Tilgjengelige valg</string>
-    <string name="express_entry_not_reserve">"Haven't applied"</string>
+    <string name="express_entry_not_reserve">Har ikke søkt</string>
     <string name="express_entry_reserve">Lagt til</string>
     <string name="express_entry_none">Ingen</string>
     <string name="express_entry_note">Notat:</string>
-    <string name="notification_has_express">You can apply for an update (%s)</string>
-    <string name="notification_has_express_more">You can apply for an update</string>
+    <string name="notification_has_express">Du kan søke om en oppdatering (%s)</string>
+    <string name="notification_has_express_more">Du kan søke om en oppdatering</string>
     <string name="notification_tab_to_view">Trykk for å se</string>
-    <string name="notification_express_available">Your update (%1$s) is ready to download</string>
-    <string name="notification_express_ready">Your update (%1$s) is ready to install</string>
-    <string name="express_update_reserve_content">"You can't update to this version directly now. Apply for an update (%1$s)? We'll notify you when %1$s is available for your device. Until then, you'll keep receiving regular updates."</string>
-    <string name="express_update_reserve_positive">Apply for an update (%s)</string>
-    <string name="express_update_reserve_negative">"Don't apply"</string>
-    <string name="express_update_switch_content_no_erase">"MIUI will be updated to a new version (%s). This update won't erase your data."</string>
-    <string name="express_update_switch_content_erase">MIUI will be updated to a new version (%s). This update may erase your data.</string>
+    <string name="notification_express_available">Oppdateringen din (%1$s) er klar til å lastes ned</string>
+    <string name="notification_express_ready">Oppdateringen din (%1$s) er klar til å installeres</string>
+    <string name="express_update_reserve_content">Du kan ikke oppdatere til denne versjonen nå. Vil du søke om en oppdatering av (%1$s)? Vi vil varsle deg når %1$s er tilgjengelig for enheten din. Imens vil du fortsette å motta vanlige oppdateringer.</string>
+    <string name="express_update_reserve_content2">"Noen ting vil endres etter du oppgraderer til stabilt ROM. Dette endres:
+1. Rottilgangen vil begrenses, selv om du tidligere tillot den.
+2. Ulike funksjoner til Beta ROM vil ikke være tilgjengelig i de stabile versjonene."</string>
+    <string name="express_update_reserve_check_text">Jeg er forstår forskjellen mellom ROM-versjonene</string>
+    <string name="express_update_reserve_positive">Søk om en oppdatering (%s)</string>
+    <string name="express_update_reserve_negative">Ikke søk</string>
+    <string name="express_update_switch_content_no_erase">MIUI vil oppdateres til en ny versjon (%s). Denne oppdateringen vil ikke slette dataene dine.</string>
+    <string name="express_update_switch_content_erase">MIUI vil oppdateres til en ny versjon (%s). Denne oppdateringen kan muligens slette dataene dine.</string>
     <string name="express_update_switch_positive">Oppdater til %s</string>
     <string name="express_update_switch_negative">Nei takk</string>
-    <string name="express_rom_start_install">Update using Recovery ROM</string>
+    <string name="express_rom_start_install">Oppdater ved å bruke Recovery ROM</string>
     <string name="share_update">Del oppdateringsinfo</string>
     <string name="share_update_content_unsign">Jeg har oppdatert MIUI til %1$s! For den detaljerte endringsloggen, gå til %2$s\"</string>
     <string name="share_update_content_sign">Jeg har oppdatert MIUI til %1$s! I var den %2$s personen som oppdaterte. For å se endringsloggen, gå til %3$s\"</string>
@@ -168,12 +172,12 @@ http://zhushou.xiaomi.com"</string>
     <string name="auto_download">Last ned automatisk</string>
     <string name="auto_download_sum">Last ned oppdateringer når enhet er koblet til Wi-Fi</string>
     <string name="mobile_download">Laste ned via mobildata</string>
-    <string name="mobile_download_sum">Download updates automatically during set period of time using mobile data</string>
-    <string name="mobile_download_start_time">Turn on automatic downloads</string>
-    <string name="mobile_download_end_time">Turn off automatic downloads</string>
+    <string name="mobile_download_sum">Last ned oppdateringer automatisk under en valgt tidsperiode ved å bruke mobildata</string>
+    <string name="mobile_download_start_time">Skru på automatiske nedlastinger</string>
+    <string name="mobile_download_end_time">Skru av automatiske nedlastinger</string>
     <string name="update_setting">Oppdateringer</string>
     <string name="auto_update">Installer automatisk</string>
-    <string name="auto_update_global">Reboot device automatically</string>
+    <string name="auto_update_global">Start enheten på nytt automatisk</string>
     <string name="auto_update_sum">MIUI vil velge beste tidspunkt for å installere oppdateringer</string>
     <string name="update_downfull_no_info_title">Kan ikke laste ned oppdatering</string>
     <string name="update_downfull_no_info_sum">Vent et minutt eller to, og prøv igjen.</string>
@@ -199,9 +203,9 @@ http://zhushou.xiaomi.com"</string>
     <string name="confirm_local_package_wipe_title">Slette data?</string>
     <string name="confirm_local_package_wipe_msg">Dine personlige data blir slettet. Sørg for å sikkerhetskopiere alt du vil beholde før du starter prosessen.</string>
     <string name="confirm_local_package_wipe_btn">Slett og oppdater</string>
-    <string name="file_path_error_title">Incorrect path</string>
-    <string name="file_path_error_msg">Make sure the path to the update package contains only letters and numbers.</string>
-    <string name="file_path_error_btn">Got it</string>
+    <string name="file_path_error_title">Feil sti</string>
+    <string name="file_path_error_msg">Sørg for at stien til oppdateringspakken kun inneholder bokstaver og tall.</string>
+    <string name="file_path_error_btn">Skjønner</string>
     <string name="delay_update_text">Oppdater i natt</string>
     <string name="dialog_delay_update_title">Oppdatering er tilgjengelig</string>
     <string name="dialog_delay_update_msg">Oppdateringer blir installert mellom 02.00 og 05.00 dersom batteriet er minst 30% fullt.</string>
@@ -264,7 +268,7 @@ Prøvå logge den in på Mi-kontoen din igjen."</string>
     <string name="vote_error4">Du har allerede gitt din tilbakemelding</string>
     <string name="vote_error5">"Noe gikk galt
 Kunne ikke sende inn tilbakemelding"</string>
-    <string name="miui_BBS">" "<a href="http://bbs.miui.com">Go to MIUI forum</a>" "</string>
+    <string name="miui_BBS">" "<a href="http://bbs.miui.com">Gå til MIUI-forum</a>" "</string>
     <string name="alpha_cancel">Meld deg av Beta-testprogrammet</string>
     <string name="alpha_cancel_ok">OK</string>
     <string name="alpha_cancel_cancel">Avbryt</string>
@@ -318,10 +322,10 @@ Kunne ikke sende inn tilbakemelding"</string>
     <string name="home_delay_cancel">Avbryt</string>
     <string name="accessibility_video">Video</string>
     <string name="accessibility_image">Bilde</string>
-    <string name="accessibility_play">Play</string>
+    <string name="accessibility_play">Spill</string>
     <string name="security_space_title">Viktig oppdatering</string>
     <string name="security_space_msg">MIUI 9 har et nytt filsystem. Hvis du starter enheten på nytt, kan du kanskje ikke bruke Second space. Flytt alle elementer fra Second space til First place før du starter på nytt.</string>
     <string name="security_space_button_pos">Ikke omstart</string>
     <string name="security_space_button_neg">Start på nytt nå</string>
-    <string name="privacy_revoke_msg">Updater allows you to keep MIUI and its features up to date. After you revoke authorization, the app will stop collecting data, and all the related data (including the data about devices which require updates) will be deleted from this device and the servers. Refusing to update your device might bring security risks. Revoke authorization anyway?</string>
+    <string name="privacy_revoke_msg">Oppdatereren gjør at MIUI og de tilhørende funksjonene holdes oppdatert. Etter du tilbakekaller autorisasjonen, vil appen slutte å samle inn data, og alle relaterte data (inkludert data om enheter som krever oppdateringer) vil bli slettet fra både denne enheten og serverne. Å nekte å oppdatere enheten din kan medføre en sikkerhetsrisiko. Tilbakekalle autorisasjonen likevel?</string>
 </resources>

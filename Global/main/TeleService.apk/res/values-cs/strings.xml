@@ -1106,7 +1106,6 @@ Upozorňujeme, že SIM karta bude po dalším chybném zadání vymazána."</str
     <string name="network_unlock">Odblokovat</string>
     <string name="roaming_notification_title">Vypadá to, že roaming je aktivní</string>
     <string name="roaming_notification_content">Pro pohodlnější vytáčení můžete zvolit automatické přidávání kódů zemí.</string>
-    <string name="livetalk_setting">Dodatečný balíček</string>
     <string name="description_image_button_one">jedna</string>
     <string name="description_image_button_two">dvě</string>
     <string name="description_image_button_three">tři</string>
@@ -1201,6 +1200,7 @@ Upozorňujeme, že SIM karta bude po dalším chybném zadání vymazána."</str
     <string name="sum_cfu_enabled_indicator_by_sim">Všechny hovory na SIM %s budou přesměrovány</string>
     <string name="preference_dial_pad_touch_tone_off">Vypnuto</string>
     <string name="msim_disable_sim_card_summary_telecom_vice_card_inEcm">Neomezujte vaši druhou SIM kartu v režimu zpětného tísňového volání.</string>
+    <string name="msim_cmcc_dds_switch_not_support">Přepnutí SIM karet bylo zakázáno operátorem.</string>
     <string name="simFdnContacts_empty">Žádné kontakty pro pevné vytáčení.</string>
     <string name="bad_pin2_old">Zadaný starý PIN 2 není správný.</string>
     <string name="dtmf_tone_entries_normal">Normální</string>
@@ -1209,6 +1209,7 @@ Upozorňujeme, že SIM karta bude po dalším chybném zadání vymazána."</str
     <string name="network_type_3g_preferred_cmcc">3G/2G</string>
     <string name="change_default_data_card">Výchozí SIM karta pro mobilní data</string>
     <string name="change_default_data_card_summary">Vypadá to, že jste změnili SIM karty. Chcete tuto SIM kartu nastavit jako výchozí pro mobilní datové připojení?</string>
+    <string name="volte_switch_title_ct">VoLTE povolena</string>
     <string name="volte_switch_summary2">Před zapnutím se ujistěte, že váš operátor tuto službu podporuje. V opačném případě může zapnutí ovlivnit běžná volání.</string>
     <string name="volte_switch_not_support_summary">VoLTE hovory nejsou podporovány pro mobilní datové SIM karty.</string>
     <string name="volte_switch_not_support_summary2">Operátor nepodporuje VoLTE volání.</string>
@@ -1273,13 +1274,15 @@ Upozorňujeme, že SIM karta bude po dalším chybném zadání vymazána."</str
     <string name="cfnry_time_twenty_five_sec">25 s</string>
     <string name="cfnry_time_thirty_sec">30 s</string>
     <string name="cfnry_time_setting_title">Nastavte čekací dobu</string>
-    <string name="prompt_when_turnon_volte_without_lte">LTE sítě nejsou momentálně dostupné. Zapnutí sítě VoLTE může způsobit, že běžná volání nebudou dostupná.</string>
+    <string name="prompt_when_turnon_volte_without_lte">VoLTE sítě nejsou momentálně dostupné. Zapnutí sítě VoLTE může způsobit, že běžná volání nebudou dostupná.</string>
     <string name="prompt_when_turnon_volte_on_3g_prefered">Před zapnutím VoLTE zvolte LTE jako vaši preferovanou síť.</string>
     <string name="prompt_to_turnoff_volte_when_failed">Služba VoLTE není dostupná. Pro uskutečnění hovoru vypněte VoLTE.</string>
-    <string name="volte_tips_when_turn_on">Služby China Telecom VoLTE jsou poskytovány pouze v oblastech s pokrytím sítě LTE.</string>
+    <string name="volte_tips_when_turn_on">Služby China Telecom VoLTE jsou poskytovány pouze v oblastech s pokrytím sítě VoLTE. Služby VoLTE jsou poskytovány operátorem.</string>
     <string name="prompt_to_turnoff_volte_when_supp_service">Služba není dostupná. Vypněte VoLTE v Nastavení.</string>
     <string name="prefered_network_type_3g_promp">Před zvolením 3G jako vaší preferované sítě je zapotřebí vypnout VoLTE. Vypnout nyní?</string>
     <string name="close_volte">Vypnout VoLTE</string>
+    <string name="vice_card_data_in_use_alert">Mohou vám být účtovány dodatečné poplatky.</string>
+    <string name="switch_dds_to_sub_alert">Nastavte tuto kartu jako výchozí pro datové přenosy.</string>
     <string name="pick_outgoing_call_phone_type">Uskutečnit hovor</string>
     <string name="pick_outgoing_sip_phone">"Používám účet internet. telefonování "</string>
     <string name="remember_my_choice">Vždy používat internetové hovory</string>
@@ -1428,6 +1431,7 @@ Upozorňujeme, že SIM karta bude po dalším chybném zadání vymazána."</str
     <string name="can_not_use">Nelze použít</string>
     <string name="incall_error_no_active_sim">SIM karta nebyla aktivována</string>
     <string name="incall_error_sim_deactive">SIM karta není aktivní</string>
+    <string name="livetalk_setting">Dodatečný balíček</string>
     <string name="select_one_sim_title">Lze použít pouze SIM %1$d</string>
     <string name="select_sim_hint">Nelze použít SIM %2$d, pokud je právě používána SIM %1$d.</string>
 </resources>

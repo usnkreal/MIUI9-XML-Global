@@ -9,7 +9,7 @@
     <string name="reset_device_detail_tip">Umieść swoje urządzenie poprawnie na podstawce ładowania bezprzewodowego, aby zapewnić szybkie ładowanie.</string>
     <string name="wireless_charge_stop">Zatrzymano ładowanie bezprzewodowe</string>
     <string name="change_to_ac_charging">Przełączono na ładowanie bezprzewodowe</string>
-    <string name="wireless_charge_dialog_title">Popraw swoje urządzenia na bezprzewodowej ładowarce</string>
+    <string name="wireless_charge_dialog_title">Popraw swoje urządzenia na ładowarce bezprzewodowej</string>
     <string name="wireless_charge_dialog_cancel">Anuluj</string>
     <string name="wireless_current_charge">Prąd ładowania</string>
     <string name="emergency_call_string">Alarmowe</string>
@@ -19,6 +19,7 @@
     <string name="input_pin_code">Wpisz PIN</string>
     <string name="incorrect_pukcode">Nieprawidłowy kod PUK</string>
     <string name="incorrect_pincode">Nieprawidłowy kod PIN</string>
+    <string name="kg_password_pin_failed">Operacja SIM PIN nieudana!</string>
     <string name="lock_screen_date">EEEE, d MMMM</string>
     <string name="lock_screen_date_12">EEEE, d MMMM</string>
     <string name="phone_locked_string">Urządzenie zablokowane</string>
@@ -65,7 +66,7 @@
     <string name="input_password_after_boot_msg">Aby odblokować urządzenie, wpisz hasło</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">Musisz zalogować się do Pierwszej przestrzeni po ponownym uruchomieniu urządzenia</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Nie można przełączyć się między przestrzeniami w czasie połączenia</string>
-    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Nie można przełączyć między przestrzeniami, gdy aktywna jest kontrola rodzicielska</string>
+    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Nie można przełączyć się między przestrzeniami, gdy włączona jest kontrola rodzicielska</string>
     <string name="input_password_handle_sdcard_fs">Nie można wejść do Drugiej przestrzeni z ekranu blokady. Możesz wejść tylko z Pierwszej przestrzeni.</string>
     <string name="accessibility_enter_lock_wallpaper">Dotknij, aby otworzyć codzienne tapety ekranu blokady</string>
     <string name="wallpaper_global_des_drop_down_notify_text">Puść, aby wyświetlić szczegóły</string>

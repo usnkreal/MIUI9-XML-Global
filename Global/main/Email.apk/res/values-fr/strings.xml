@@ -421,7 +421,7 @@
     <string name="expand_recipient_details">Afficher les détails du destinataire</string>
     <string name="fail_get_email_message">Le téléchargement du message a échoué.</string>
     <string name="failed">"Impossible de charger l'image"</string>
-    <string name="failed_parse_eml_file">N’a pas pu ouvrir le fichier EML, essayez à nouveau.</string>
+    <string name="failed_parse_eml_file">"Impossible d'ouvrir le fichier EML, essayez à nouveau."</string>
     <string name="failed_read_phone_state_permission">"Autoriser l'accès au statut de l'appareil"</string>
     <string name="failed_read_write_calendar_permission">"Autoriser l'accès au calendrier"</string>
     <string name="failed_read_write_contacts_permission">"Autoriser l'accès aux contacts"</string>
@@ -782,7 +782,7 @@ afin de recevoir des rappels concernant les paiements et les voyages"</string>
     <string name="push_wps_confirm_title">Essayer WPS Office</string>
     <string name="push_wps_no_response_app">Aucune application trouvée pour traiter cette action</string>
     <string name="qq_auto_login_failed_cpy_pass_success">Copié avec succès. Revenir à la page de connexion et collez le code dans le formulaire de mot de passe.</string>
-    <string name="qq_auto_login_failed_dialog_message">Copiez le code de vérification, appuyez sur « Entrer nom d’utilisateur et mot de passe pour vous connecter » sur la page de connexion et collez le code dans le formulaire de mot de passe.</string>
+    <string name="qq_auto_login_failed_dialog_message">"Copiez le code de vérification, appuyez sur \"Entrer nom d'utilisateur et mot de passe pour vous connecter\" sur la page de connexion et collez le code dans le formulaire de mot de passe."</string>
     <string name="qq_auto_login_failed_dialog_positive_label">Copier le code</string>
     <string name="qq_bar_open_imap">Aide</string>
     <string name="qq_bar_send_message">Envoyer un SMS</string>
@@ -890,9 +890,10 @@ afin de recevoir des rappels concernant les paiements et les voyages"</string>
          respectées"</string>
     <string name="security_notification_content_update_title">Mise à jour de sécurité requise</string>
     <string name="security_unsupported_ticker_fmt">Le compte \"%s\" ne peut pas être synchronisé en raison des exigences de sécurité.</string>
+    <string name="see_more_content">Voir plus</string>
     <string name="select_attachment_type">Choisir la pièce jointe depuis</string>
     <string name="select_no_file">Aucune pièce jointe sélectionnée</string>
-    <string name="select_path">Sélectionnez le chemin d’accès</string>
+    <string name="select_path">"Sélectionnez le chemin d'accès"</string>
     <string name="send">Envoyer</string>
     <string name="send_failed">"Le message n'a pas été envoyé."</string>
     <string name="send_feed_back">Envoyez votre avis</string>
@@ -1040,7 +1041,7 @@ Appuyer sur \""<b>Synchroniser maintenant</b> pour la première synchronisation 
     <string name="wipe_account_fail_title">Impossible de supprimer les informations personnelles</string>
     <string name="wrong_password">Le mot de passe entré est incorrect</string>
     <string name="yes">Oui</string>
-    <string name="you_are_in_mobile_network">Utiliser les données mobiles pour envoyer les logs?</string>
+    <string name="you_are_in_mobile_network">Utiliser les données mobiles pour envoyer les fichiers journaux ?</string>
     <string name="youfuli">Promotion</string>
     <string name="zip_viewer_no_file">Aucun fichier.</string>
 </resources>

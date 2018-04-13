@@ -40,7 +40,7 @@
     <string name="menu_title_current_version_log">Nouveautés de la mise à jour</string>
     <string name="menu_title_apply_for_alpha">Inscription au programme de test bêta</string>
     <string name="menu_title_feedback">Commentaires</string>
-    <string name="install_file_explorer">"Installer l'Explorateur de fichiers d'abord"</string>
+    <string name="install_file_explorer">"Installer d'abord Gestionnaire de fichiers"</string>
     <string name="boot_recovery">Redémarrer en mode Recovery ?</string>
     <string name="cancel_download">Arrêter le téléchargement de la mise à jour ?</string>
     <string name="continue_update_positive_btn">Annuler</string>
@@ -142,6 +142,10 @@ http://zhushou.xiaomi.com"</string>
     <string name="notification_express_available">Votre mise à jour (%1$s) est prête à être téléchargée</string>
     <string name="notification_express_ready">Votre mise à jour (%1$s) est prête à être installée</string>
     <string name="express_update_reserve_content">Vous ne pouvez pas passer à cette version de façon directe maintenant. Demandez une mise à jour (%1$s) ? Nous vous informerons lorsque %1$s sera disponible pour votre appareil. Jusque-là, vous continuerez de recevoir des mises à régulières.</string>
+    <string name="express_update_reserve_content2">"Certaines choses vont changer après la mise à niveau vers une ROM stable. Ceci comme suit :
+1. L'accès root sera restreint même si vous l'avez autorisé précédemment.
+2. Diverses fonctionnalités de la ROM bêta ne seront pas disponibles dans ses versions stables."</string>
+    <string name="express_update_reserve_check_text">Je comprends la différence entre les versions de ROM</string>
     <string name="express_update_reserve_positive">Demander une mise à jour (%s)</string>
     <string name="express_update_reserve_negative">Ne pas demander</string>
     <string name="express_update_switch_content_no_erase">"MIUI sera mis à jour vers la nouvelle version (%s). Cette mise à jour n'effacera pas vos données."</string>

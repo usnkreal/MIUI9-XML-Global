@@ -28,7 +28,7 @@
         <item>%1$s</item>
     </string-array>
     <string-array name="weather_type">
-        <item>Clear</item>
+        <item>Klart</item>
         <item>Skyet</item>
         <item>Overskyet</item>
         <item>Tåke</item>

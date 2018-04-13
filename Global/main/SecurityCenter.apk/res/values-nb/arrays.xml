@@ -8,8 +8,8 @@
     <string-array name="date_of_traffic">
         <item>I går</item>
         <item>Today</item>
-        <item>"Last month "</item>
-        <item>"This month "</item>
+        <item>"Siste måned "</item>
+        <item>"Denne måneden "</item>
     </string-array>
     <string-array name="date_of_traffic_prefix_cmcc">
         <item>"Denne uken: "</item>
@@ -19,17 +19,17 @@
     <string-array name="date_of_traffic_prefix">
         <item>"I går: "</item>
         <item>"I dag: "</item>
-        <item>"Last month: "</item>
-        <item>"This month: "</item>
+        <item>"Siste måned: "</item>
+        <item>"Denne måneden: "</item>
     </string-array>
     <string-array name="date_of_app_all">
         <item>I går (data)</item>
         <item>I dag (data)</item>
-        <item>Last month (data)</item>
-        <item>This month (data)</item>
+        <item>Siste måned (data)</item>
+        <item>Denne måneden (data)</item>
         <item>I går Wi-Fi</item>
         <item>I dag Wi-Fi</item>
-        <item>Last month Wi-Fi</item>
+        <item>Wi-Fi siste måned</item>
         <item>Denne måneden Wi-Fi</item>
     </string-array>
     <string-array name="traffic_type">

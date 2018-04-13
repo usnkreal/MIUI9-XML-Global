@@ -27,6 +27,9 @@
     <string name="power_usage">Fogyasztás</string>
     <string name="power_mode">Teljesítménybeállítások</string>
     <string name="performance_category">Teljesítmény mód</string>
+    <string name="pref_config_title">Teljesítményoptimalizálás</string>
+    <string name="app_preload_policies_title">AI előtöltés</string>
+    <string name="app_preload_policies_summary">Használja a mesterséges intellingenciát, hogy az megjósolja az Ön számára leginkább használható alkalmazásokat, és előre betöltse az erőforrásokat.</string>
     <string name="scenario_policies_warmcontrol">Hőmérséklet ellenőrző</string>
     <string name="warm_configure">Hőmérséklet ellenőrző beállításai</string>
     <string name="important_warning">Figyelem</string>
@@ -72,11 +75,18 @@ Az akkumulátorkímélő szelektíven kezeli a fontos alkalmazásokat."</string>
     <string name="update_profile_sucess">Sikeresen frissítve a kiszolgálóról</string>
     <string name="update_profile_failture_not_connect_wifi">Nem frissíthető. Csatlakozzon Wi-Fi hálózathoz, majd próbálja újra.</string>
     <string name="sucess">Kész</string>
-    <string name="failure">Meghiúsult</string>
+    <string name="failure">Hiba</string>
     <string name="cloud_addr_info">Felhőinformáció</string>
     <string name="lasttime_feature_cloud">Frissített funkciók:</string>
     <string name="lasttime_applist_cloud">Frissített alkalmazások:</string>
     <string name="base_info">Alapinformáció</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_result_text">Nem található alkalmazás</string>
+    <string name="power_consume_abnormal_night">Éjszaka lemerült az akkumulátor</string>
+    <string name="enable_sleep_mode">Az Alvó mód bekapcsolása az éjszakai akkuhasználat optimalizálására</string>
+    <string name="sleepmode_privacy_title">Alvómód</string>
+    <string name="sleepmode_privacy_content">Ez a szolgáltatás használni fogja telefonjának rendszer- és készülékinformációs adatait. Nem nem tölti fel ezeket a kiszolgálóinkra.</string>
+    <string name="sleepmode_privacy_link">Tudjon meg többet az adatvédelemről és a biztonságról</string>
+    <string name="sleepmode_disclaimer_cancel">Mégse</string>
+    <string name="sleepmode_disclaimer_agree">Elfogadás</string>
 </resources>

@@ -1071,7 +1071,6 @@
     <string name="network_unlock">ביטול נעילה</string>
     <string name="roaming_notification_title">נראה כי נדידת הנתונים מופעלת</string>
     <string name="roaming_notification_content">באפשרותך להוסיף קידומות מדינה באופן אוטומטי ובכך להפוך את החיוג לנוח יותר.</string>
-    <string name="livetalk_setting">חבילת Top-up</string>
     <string name="description_image_button_one">אחת</string>
     <string name="description_image_button_two">שתיים</string>
     <string name="description_image_button_three">שלוש</string>
@@ -1166,6 +1165,7 @@
     <string name="sum_cfu_enabled_indicator_by_sim">כל השיחות ל-SIM %s יופנו</string>
     <string name="preference_dial_pad_touch_tone_off">כבוי</string>
     <string name="msim_disable_sim_card_summary_telecom_vice_card_inEcm">אל תגביל את ה-SIM המשני שלך במצב שיחת חרום חוזרת.</string>
+    <string name="msim_cmcc_dds_switch_not_support">לא ניתן להחליף בין כרטיסי ה-SIM עקב מגבלה של ספק הרשת.</string>
     <string name="simFdnContacts_empty">אין אנשי קשר עם מספרי חיוג קבועים.</string>
     <string name="bad_pin2_old">קוד ה-PIN2 הישן שהזנת שגוי.</string>
     <string name="dtmf_tone_entries_normal">רגיל</string>
@@ -1174,6 +1174,7 @@
     <string name="network_type_3g_preferred_cmcc">3G/2G</string>
     <string name="change_default_data_card">SIM ברירת המחדל עבור נתונים סלולריים</string>
     <string name="change_default_data_card_summary">נראה כי החלפת כרטיס SIM. להגדיר כרטיס זה כ-SIM ברירת המחדל עבור חיבור הנתונים הסלולרי שלך?</string>
+    <string name="volte_switch_title_ct">VoLTE enabled</string>
     <string name="volte_switch_summary2">ודא כי ספק הרשת שלך תומך בתכונה זו לפני הפעלתה. אחרת שיחות רגילות עשויות להיות מושפעות.</string>
     <string name="volte_switch_not_support_summary">שיחות VoLTE אינן נתמכות עבור כרטיס ה-SIM של הנתונים הסלולריים.</string>
     <string name="volte_switch_not_support_summary2">שיחות VoLTE אינן נתמכות על ידי ספק הרשת.</string>
@@ -1238,13 +1239,15 @@
     <string name="cfnry_time_twenty_five_sec">25 שניות</string>
     <string name="cfnry_time_thirty_sec">30 שניות</string>
     <string name="cfnry_time_setting_title">הגדרת זמן המתנה</string>
-    <string name="prompt_when_turnon_volte_without_lte">רשתות LTE אינן זמינות כעת. הפעלת VoLTE עשויה למנוע ממך לבצע שיחות רגילות.</string>
-    <string name="prompt_when_turnon_volte_on_3g_prefered">Select LTE as your preferred network type before turning on VoLTE.</string>
+    <string name="prompt_when_turnon_volte_without_lte">"VoLTE networks aren't available now. Turning on VoLTE may prevent you from making regular calls."</string>
+    <string name="prompt_when_turnon_volte_on_3g_prefered">בחר ב-LTE כסוג הרשת המועדף שלך לפני הפעלת VoLTE.</string>
     <string name="prompt_to_turnoff_volte_when_failed">שירותי VoLTE אינם זמינים. כבה את VoLTE על מנת שתוכל לבצע שיחה.</string>
-    <string name="volte_tips_when_turn_on">שירותי China Telecom VoLTE מסופקים באזורים עם כיסוי רשת LTE בלבד.</string>
+    <string name="volte_tips_when_turn_on">China Telecom VoLTE services are only provided in the areas with VoLTE network coverage. VoLTE services are provided by the carrier.</string>
     <string name="prompt_to_turnoff_volte_when_supp_service">"השירות אינו זמין. כבה את VoLTE ב'הגדרות'."</string>
-    <string name="prefered_network_type_3g_promp">You should turn off VoLTE before seleсting 3G as your preferred network type. Turn off now?</string>
-    <string name="close_volte">Turn off VoLTE</string>
+    <string name="prefered_network_type_3g_promp">עליך לכבות את VoLTE לפני בחירה ב-3G כסוג הרשת המועדף עליך. לכבות כעת?</string>
+    <string name="close_volte">כיבוי VoLTE</string>
+    <string name="vice_card_data_in_use_alert">Additional data fees may be generated.</string>
+    <string name="switch_dds_to_sub_alert">Set this card as your default data card.</string>
     <string name="pick_outgoing_call_phone_type">בצע שיחה</string>
     <string name="pick_outgoing_sip_phone">"השתמש בחשבון לשיחות אינטרנט "</string>
     <string name="remember_my_choice">השתמש תמיד כדי לבצע שיחות אינטרנט</string>
@@ -1393,6 +1396,7 @@
     <string name="can_not_use">לא ניתן לשימוש</string>
     <string name="incall_error_no_active_sim">כרטיס ה-SIM לא הופעל</string>
     <string name="incall_error_sim_deactive">כרטיס ה-SIM אינו פעיל</string>
+    <string name="livetalk_setting">חבילת Top-up</string>
     <string name="select_one_sim_title">ניתן להשתמש ב-SIM %1$d בלבד</string>
     <string name="select_sim_hint">לא ניתן להשתמש ב-SIM %2$d, כאשר SIM %1$d נמצא בשימוש.</string>
 </resources>

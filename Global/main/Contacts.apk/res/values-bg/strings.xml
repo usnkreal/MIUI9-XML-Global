@@ -1004,7 +1004,7 @@
     <string name="search_simple_mode">Показване;информация;снимка;Контакти</string>
     <string name="search_smart_group_title">Контакти;Показване</string>
     <string name="search_wipe_data">Подреждане;Контакти</string>
-    <string name="searching_vcard_message">Търсене на визитки в паметта…</string>
+    <string name="searching_vcard_message">Търсене на визитки в устройството…</string>
     <string name="select_all">Избери всички</string>
     <string name="select_all_exceed">Не избирайте повече от %1$d, не може да изберете всички</string>
     <string name="select_exceed">Не избирайте повече от %1$d</string>

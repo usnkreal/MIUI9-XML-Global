@@ -79,6 +79,8 @@ Přihlaste se na i.mi.com a zkuste odblokovat vaše zařízení odtud"</string>
     <string name="default_lock_msg_words_with_phone">Ahoj! Ztratil jsem telefon. Mohl(a) by jsi mě prosím kontaktovat? Děkuji!</string>
     <string name="default_lock_msg_words">Toto zařízení je spojeno s existujícím Xiaomi účtem. Z bezpečnostních důvodů je nutné zadat heslo pro ověření zařízení.</string>
     <string name="lock_msg_phone">Kontaktní údaje: %s</string>
+    <string name="emergency_call">Tísňové volání</string>
+    <string name="return_to_call">Návrat k hovoru</string>
     <string name="default_debt_msg_words">"Toto zařízení bylo uzamčeno z důvodu prodlení splátky.
 Pro více informací kontaktujte svého prodejce."</string>
     <string name="sys_notification_async_verify_title">Znovu aktivovat Najít zařízení</string>

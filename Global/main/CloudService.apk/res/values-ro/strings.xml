@@ -93,9 +93,8 @@ Această caracteristică criptează și trimite ID-ul dispozitivului la serverel
 Această caracteristică criptează și trimite ID-ul dispozitivului la serverele Mi."</string>
     <string name="user_agreement_p5">"
 "</string>
-    <string name="user_agreement_p6">"Prin utilizarea acestui serviciu, sunteți de acord cu "</string>
-    <string name="user_agreement_p7">Condiții de utilizare Mi Cloud</string>
-    <string name="user_agreement_p8">.</string>
+    <string name="user_agreement_link">Conditii de utilizare Mi Cloud</string>
+    <string name="user_agreement_content">Prin utilizarea acestui serviciu, sunteți de acord cu %s.</string>
     <string name="user_agreement_title">Condiții de utilizare Mi Cloud</string>
     <string name="privacy_policy">Politica De Confidențialitate</string>
     <string name="loading">Doar o secundă…</string>
@@ -173,7 +172,7 @@ Dacă schimbați cartela SIM, un alt SMS va fi trimis automat pentru a reactiva 
     <string name="micloud_user_space_usage">Spațiu de stocare</string>
     <string name="micloud_web_discription_01">Conectați-vă la i.mi.com</string>
     <string name="micloud_web_discription_02">pentru a stoca și accesa fișierele de oriunde</string>
-    <string name="micloud_web_discription_place_holder">Vizită %1$s</string>
+    <string name="micloud_web_discription_place_holder">Vizitați %1$s pe computerul dvs. pentru a gestiona datele dvs.</string>
     <string name="micloud_full_influence_title">Când spațiul tău Mi Cloud este plin…</string>
     <string name="micloud_warn_low_title">Aproape ați ajuns la limita de spațiu</string>
     <string name="micloud_warn_low_sum">Spațiul dvs. de stocare Mi Cloud este 90% plin.</string>
@@ -366,9 +365,6 @@ Aveți nevoie de un card bancar din China continentală pentru a cumpăra spați
     <string name="buy_more_space_c_class">"Această funcție necesită un card bancar din China continentală.
 Pentru a cumpăra mai mult spațiu, vizitați mi.com/micloud."</string>
     <string name="micloud_member_buy_title">Confirmați comanda</string>
-    <string name="micloud_member_buy_content" formatted="false">"Valabil până la %s-%s-%s
-
-%s Credite Mi"</string>
     <string name="micloud_member_net_error_alert_title">Nu se poate conecta la reţea</string>
     <string name="micloud_member_net_error_alert_message">Nu aveți o conexiune la internet.</string>
     <string name="micloud_member_pay_fail_toast">Nu s-a putut finaliza plata</string>

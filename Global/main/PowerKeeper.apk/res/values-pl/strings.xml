@@ -27,6 +27,9 @@
     <string name="power_usage">Zasilanie</string>
     <string name="power_mode">Tryb zasilania</string>
     <string name="performance_category">Wydajność</string>
+    <string name="pref_config_title">Optymalizacja wydajności</string>
+    <string name="app_preload_policies_title">Wstępne ładowanie SI</string>
+    <string name="app_preload_policies_summary">Użyj nauczania maszynkwego, aby przewidzieć ulubione aplikacje, których będziesz używać, w celu przyspieszenia ładowania zasobów.</string>
     <string name="scenario_policies_warmcontrol">Kontrola temperatury</string>
     <string name="warm_configure">Ustawienia kontroli temperatury</string>
     <string name="important_warning">Powiadomienie</string>
@@ -71,11 +74,18 @@
     <string name="update_profile_sucess">Pomyślnie zaktualizowano z serwera</string>
     <string name="update_profile_failture_not_connect_wifi">Nie udało się zaktualizować. Połącz z Wi-Fi i spróbuj ponownie.</string>
     <string name="sucess">Gotowe</string>
-    <string name="failure">Niepowodzenie</string>
+    <string name="failure">Błąd</string>
     <string name="cloud_addr_info">Informacje z Chmury</string>
     <string name="lasttime_feature_cloud">Zaktualizowane funkcje:</string>
     <string name="lasttime_applist_cloud">Zaktualizowane aplikacje:</string>
     <string name="base_info">Podstawowe informacje</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_result_text">Nie udało się znaleźć żadnych aplikacji</string>
+    <string name="power_consume_abnormal_night">Bateria jest drenowana w nocy</string>
+    <string name="enable_sleep_mode">Włącz tryb uśpienia, aby optymalizować użycie baterii w nocy</string>
+    <string name="sleepmode_privacy_title">Tryb uśpienia</string>
+    <string name="sleepmode_privacy_content">Funkcja wykorzysta informacje sytemu i telefonu. Nie zostaną one przesłane na nasze serwery.</string>
+    <string name="sleepmode_privacy_link">Dowiedz się więcej o prywatności i bezpieczeństwie</string>
+    <string name="sleepmode_disclaimer_cancel">Anuluj</string>
+    <string name="sleepmode_disclaimer_agree">Zgadzam się</string>
 </resources>

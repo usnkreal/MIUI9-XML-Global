@@ -67,6 +67,10 @@
     <string name="button_confirm">Súhlasím</string>
     <string name="button_exit">Nesúhlasím</string>
     <string name="button_not_allow">Zrušiť</string>
+    <string name="button_settings_cancel">Zrušiť</string>
+    <string name="button_settings_confirm">Zrušiť</string>
+    <string name="button_settings_confirm_to_revoke_msg">Po zrušení autorizácie nebudete viac môcť používať Počasie.</string>
+    <string name="button_settings_confirm_to_revoke_title">Zrušiť autorizáciu?</string>
     <string name="button_sure_abandon">Zrušiť zmeny?</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Skontrolujte nastavenie siete a skúste to znova</string>
@@ -97,6 +101,7 @@
     <string name="edit_alert_city_title">Spravovať varovania</string>
     <string name="edit_city">Upraviť</string>
     <string name="empty">" "</string>
+    <string name="eu_region_version_first_start_network_msg">Používaním tohto produktu súhlasíte s tým, že Xiaomi môže zbierať, spracovávať a používať vaše osobné údaje, vrátane miest, ktoré ste vyhľadávali a ostatných typov dát špecifikovaných v Zásadách ochrany osobných údajov. Pre viac informácií o tom, akým spôsobom zbierame a používame informácie sa dozviete v našich Zásadách ochrany osobných údajov. Dotykom na \"Súhlasím\" súhlasíte so %1$s a %2$s Xiaomi.</string>
     <string name="feedback_heavy_rain">Silný dážď</string>
     <string name="feedback_heavy_snow">Sneh</string>
     <string name="feedback_light_rain">Jemný dážď</string>
@@ -180,12 +185,19 @@
     <string name="particulate_matter_exceeded">Vysoké</string>
     <string name="particulate_matter_not_exceeded">Normálna</string>
     <string name="particulate_matter_serious_exceeded">Príliš vysoké</string>
+    <string name="policy_settings">Zmluvné podmienky</string>
     <string name="precipitation_degree_five">Veľmi silné</string>
     <string name="precipitation_degree_four">Silné</string>
     <string name="precipitation_degree_one">Žiadne</string>
     <string name="precipitation_degree_three">Stredné</string>
     <string name="precipitation_degree_two">Mierne</string>
     <string name="pressure_connect">%1$s hPa</string>
+    <string name="privacy_grant_failed">Pridelenie autorizácie sa nepodarilo. Chvíľu počkajte a skúste to znova.</string>
+    <string name="privacy_grant_or_revoke_settings">Pridelenie &amp; zrušenie autorizácie</string>
+    <string name="privacy_grant_success">Autorizácia úspešne udelená</string>
+    <string name="privacy_revoke_failed">Zrušenie autorizácie sa nepodarilo. Chvíľu počkajte a skúste to znova.</string>
+    <string name="privacy_revoke_success">Autorizácia úspešne zrušená</string>
+    <string name="privacy_settings">Zásady ochrany osobných údajov</string>
     <string name="pull_fresh_updated">Aktualizované</string>
     <string name="pull_fresh_updating">Aktualizácia</string>
     <string name="radar_cloud_image_title">Radarová mapa</string>
@@ -267,16 +279,4 @@
     <string name="xiaomi_weather_description_title">O Počasí</string>
     <string name="yes_vote_ratio">Za: %1$s%%</string>
     <string name="your_location">Vaša poloha</string>
-    <string name="button_settings_cancel">Zrušiť</string>
-    <string name="button_settings_confirm">Zrušiť</string>
-    <string name="button_settings_confirm_to_revoke_msg">Po zrušení autorizácie nebudete viac môcť používať Počasie.</string>
-    <string name="button_settings_confirm_to_revoke_title">Zrušiť autorizáciu?</string>
-    <string name="eu_region_version_first_start_network_msg">Používaním tohto produktu súhlasíte s tým, že Xiaomi môže zbierať, spracovávať a používať vaše osobné údaje, vrátane miest, ktoré ste vyhľadávali a ostatných typov dát špecifikovaných v Zásadách ochrany osobných údajov. Pre viac informácií o tom, akým spôsobom zbierame a používame informácie sa dozviete v našich Zásadách ochrany osobných údajov. Dotykom na \"Súhlasím\" súhlasíte so %1$s a %2$s Xiaomi.</string>
-    <string name="policy_settings">Zmluvné podmienky</string>
-    <string name="privacy_grant_failed">Pridelenie autorizácie sa nepodarilo. Chvíľu počkajte a skúste to znova.</string>
-    <string name="privacy_grant_or_revoke_settings">Pridelenie &amp; zrušenie autorizácie</string>
-    <string name="privacy_grant_success">Autorizácia úspešne udelená</string>
-    <string name="privacy_revoke_failed">Zrušenie autorizácie sa nepodarilo. Chvíľu počkajte a skúste to znova.</string>
-    <string name="privacy_revoke_success">Autorizácia úspešne zrušená</string>
-    <string name="privacy_settings">Zásady ochrany osobných údajov</string>
 </resources>

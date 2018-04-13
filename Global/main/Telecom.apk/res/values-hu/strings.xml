@@ -47,7 +47,7 @@
     <string name="notification_missedCall_call_back_miui">Hívás</string>
     <string name="notification_AllMissedCallTitle">Összes nem fogadott hívás</string>
     <string name="close">Bezárás</string>
-    <string name="callFailed_simError">SIM kártya hiba</string>
+    <string name="callFailed_simError">SIM-kártya hiba</string>
     <string name="incall_error_supp_service_unknown">Ez a szolgáltatás nem támogatott.</string>
     <string name="incall_error_power_off">Ha telefonálni akar, kapcsolja ki a repülőgép üzemmódot.</string>
     <string name="userCallActivityLabel">Telefon</string>

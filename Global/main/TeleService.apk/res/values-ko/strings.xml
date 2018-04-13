@@ -1106,7 +1106,6 @@
     <string name="network_unlock">잠금 해제</string>
     <string name="roaming_notification_title">로밍이 활성화 상태인 것 같습니다.</string>
     <string name="roaming_notification_content">더 편리하게 전화를 걸기 위해 자동으로 국가 코드를 추가할 수 있습니다.</string>
-    <string name="livetalk_setting">충전 패키지</string>
     <string name="description_image_button_one">하나</string>
     <string name="description_image_button_two">둘</string>
     <string name="description_image_button_three">셋</string>
@@ -1201,6 +1200,7 @@
     <string name="sum_cfu_enabled_indicator_by_sim">SIM %s으로의 모든 전화는 착신전환될 것입니다.</string>
     <string name="preference_dial_pad_touch_tone_off">꺼짐</string>
     <string name="msim_disable_sim_card_summary_telecom_vice_card_inEcm">긴급 응답 모드에서 보조 SIM을 제한하지 마세요.</string>
+    <string name="msim_cmcc_dds_switch_not_support">통신사 제한으로 SIM 카드 전환을 할 수 없습니다.</string>
     <string name="simFdnContacts_empty">설정된 FDN 연락처가 없습니다.</string>
     <string name="bad_pin2_old">입력된 이전 PIN2가 일치하지 않습니다.</string>
     <string name="dtmf_tone_entries_normal">보통</string>
@@ -1209,6 +1209,7 @@
     <string name="network_type_3g_preferred_cmcc">3G/2G</string>
     <string name="change_default_data_card">모바일 데이터 기본 SIM</string>
     <string name="change_default_data_card_summary">SIM 카드가 변경된 것 같습니다. 이 카드를 모바일 데이터 연결 기본 SIM으로 설정하시겠습니까?</string>
+    <string name="volte_switch_title_ct">VoLTE 사용 가능</string>
     <string name="volte_switch_summary2">켜시기 전에 통신사가 이 기능을 지원하는지 확인하십시오. 지원하지 않는 경우 일반 통화에 영향을 줄 수 있습니다.</string>
     <string name="volte_switch_not_support_summary">VoLTE 통화는 모바일 데이터 SIM 카드를 지원하지 않습니다.</string>
     <string name="volte_switch_not_support_summary2">통신사가 VoLTE 통화를 지원하지 않습니다.</string>
@@ -1273,13 +1274,15 @@
     <string name="cfnry_time_twenty_five_sec">25초</string>
     <string name="cfnry_time_thirty_sec">30초</string>
     <string name="cfnry_time_setting_title">대기 시간 설정</string>
-    <string name="prompt_when_turnon_volte_without_lte">현재 LTE 네트워크를 사용할 수 없습니다. VoLTE를 켜시면 일반 통화를 걸지못할 수 있습니다.</string>
+    <string name="prompt_when_turnon_volte_without_lte">현재 VoLTE 네트워크를 사용할 수 없습니다. VoLTE를 켜시면 일반 통화를 걸지못할 수 있습니다.</string>
     <string name="prompt_when_turnon_volte_on_3g_prefered">VoLTE를 켜시기 전, LTE를 우선 네트워크 유형으로 선택하십시오.</string>
     <string name="prompt_to_turnoff_volte_when_failed">VoLTE 서비스를 사용할 수 없습니다. VoLTE를 끄고 통화를 걸어주십시오.</string>
-    <string name="volte_tips_when_turn_on">China Telecom VoLTE 서비스는 지정된 LTE 네트워크 구역에서만 지원됩니다.</string>
+    <string name="volte_tips_when_turn_on">China Telecom VoLTE 서비스는 VoLTE 네트워크 범위 내의 지역에만 제공됩니다. VoLTE 서비스는 통신사에 의해 제공됩니다.</string>
     <string name="prompt_to_turnoff_volte_when_supp_service">서비스를 사용할 수 없습니다. 설정에서 VoLTE를 꺼주십시오.</string>
     <string name="prefered_network_type_3g_promp">3G를 선호 네트워크 유형으로 선택하시려면 먼저 VoLTE를 끄셔야 합니다. 지금 끄시겠습니까?</string>
     <string name="close_volte">VoLTE 끄기</string>
+    <string name="vice_card_data_in_use_alert">추가 비용이 청구될 수 있습니다.</string>
+    <string name="switch_dds_to_sub_alert">이 카드를 기본 데이터 카드로 설정</string>
     <string name="pick_outgoing_call_phone_type">전화걸기</string>
     <string name="pick_outgoing_sip_phone">"인터넷 전화 계정 사용 "</string>
     <string name="remember_my_choice">항상 인터넷 전화걸기 사용</string>
@@ -1428,6 +1431,7 @@
     <string name="can_not_use">사용할 수 없음</string>
     <string name="incall_error_no_active_sim">SIM 카드가 활성화되지 않았습니다.</string>
     <string name="incall_error_sim_deactive">SIM 카드 비활성화</string>
+    <string name="livetalk_setting">충전 패키지</string>
     <string name="select_one_sim_title">SIM %1$d만 사용 가능</string>
     <string name="select_sim_hint">SIM %2$d 사용할 수 없음, SIM %1$d 사용중.</string>
 </resources>

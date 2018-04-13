@@ -137,51 +137,51 @@
         <item quantity="one">минута</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day">
-        <item quantity="other">Ще бъдете таксувани автоматично &lt;price>%1$s на всеки %2$d дни&lt;/price>, считано от &lt;start_time>%3$s&lt;/start_time>, докато не анулирате абонамента си.</item>
-        <item quantity="one">Ще бъдете таксувани автоматично &lt;price>%1$s всеки ден&lt;/price>, считано от &lt;start_time>%3$s&lt;/start_time>, докато не анулирате абонамента си.</item>
+        <item quantity="other">Ще бъдете таксувани автоматично &amp;lt;price>%1$s на всеки %2$d дни&amp;lt;/price>, считано от &amp;lt;start_time>%3$s&amp;lt;/start_time>, докато не анулирате абонамента си.</item>
+        <item quantity="one">Ще бъдете таксувани автоматично &amp;lt;price>%1$s всеки ден&amp;lt;/price>, считано от &amp;lt;start_time>%3$s&amp;lt;/start_time>, докато не анулирате абонамента си.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day_limited">
-        <item quantity="other">Ще бъдете таксувани автоматично &lt;price>%1$s на всеки %2$d дни&lt;/price> за следващите &lt;duration>%3$d дни&lt;/duration>, считано от &lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="one">Ще бъдете таксувани автоматично &lt;price>%1$s всеки ден&lt;/price> за следващите &lt;duration>%3$d дни&lt;/duration>, считано от &lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="other">Ще бъдете таксувани автоматично &amp;lt;price>%1$s на всеки %2$d дни&amp;lt;/price> за следващите &amp;lt;duration>%3$d дни&amp;lt;/duration>, считано от &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="one">Ще бъдете таксувани автоматично &amp;lt;price>%1$s всеки ден&amp;lt;/price> за следващите &amp;lt;duration>%3$d дни&amp;lt;/duration>, считано от &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day_tax">
-        <item quantity="other">Ще бъдете таксувани автоматично &lt;price>%1$s плюс всички приложими данъци на всеки %2$d дни&lt;/price>, считано от &lt;start_time>%3$s&lt;/start_time>, докато не анулирате абонамента си.</item>
-        <item quantity="one">Ще бъдете таксувани автоматично &lt;price>%1$s плюс всички приложими данъци всеки ден&lt;/price>, считано от &lt;start_time>%3$s&lt;/start_time>, докато не анулирате абонамента си.</item>
+        <item quantity="other">Ще бъдете таксувани автоматично &amp;lt;price>%1$s плюс всички приложими данъци на всеки %2$d дни&amp;lt;/price>, считано от &amp;lt;start_time>%3$s&amp;lt;/start_time>, докато не анулирате абонамента си.</item>
+        <item quantity="one">Ще бъдете таксувани автоматично &amp;lt;price>%1$s плюс всички приложими данъци всеки ден&amp;lt;/price>, считано от &amp;lt;start_time>%3$s&amp;lt;/start_time>, докато не анулирате абонамента си.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day_tax_limited">
-        <item quantity="other">Ще бъдете таксувани автоматично &lt;price>%1$s плюс всички приложими данъци на всеки %2$d дни&lt;/price> за следващите&lt;duration>%3$d дни&lt;/duration>, считано от &lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="one">Ще бъдете таксувани автоматично &lt;price>%1$s плюс всички приложими данъци всеки ден&lt;/price> за следващите &lt;duration>%3$d дни&lt;/duration>, считано от &lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="other">Ще бъдете таксувани автоматично &amp;lt;price>%1$s плюс всички приложими данъци на всеки %2$d дни&amp;lt;/price> за следващите&amp;lt;duration>%3$d дни&amp;lt;/duration>, считано от &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="one">Ще бъдете таксувани автоматично &amp;lt;price>%1$s плюс всички приложими данъци всеки ден&amp;lt;/price> за следващите &amp;lt;duration>%3$d дни&amp;lt;/duration>, считано от &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month">
-        <item quantity="other">Ще бъдете таксувани автоматично &lt;price>%1$s на всеки %2$d месеца&lt;/price>, считано от &lt;start_time>%3$s&lt;/start_time>, докато не анулирате абонамента си.</item>
-        <item quantity="one">Ще бъдете таксувани автоматично &lt;price>%1$s всеки месец&lt;/price>, считано от &lt;start_time>%3$s&lt;/start_time>, докато не анулирате абонамента си.</item>
+        <item quantity="other">Ще бъдете таксувани автоматично &amp;lt;price>%1$s на всеки %2$d месеца&amp;lt;/price>, считано от &amp;lt;start_time>%3$s&amp;lt;/start_time>, докато не анулирате абонамента си.</item>
+        <item quantity="one">Ще бъдете таксувани автоматично &amp;lt;price>%1$s всеки месец&amp;lt;/price>, считано от &amp;lt;start_time>%3$s&amp;lt;/start_time>, докато не анулирате абонамента си.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month_limited">
-        <item quantity="other">Ще бъдете таксувани автоматично &lt;price>%1$s на всеки %2$d месеца&lt;/price> за следващите &lt;duration>%3$d месеца&lt;/duration>, считано от &lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="one">Ще бъдете таксувани автоматично &lt;price>%1$s всеки месец&lt;/price> за следващите &lt;duration>%3$d месеца&lt;/duration>, считано от &lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="other">Ще бъдете таксувани автоматично &amp;lt;price>%1$s на всеки %2$d месеца&amp;lt;/price> за следващите &amp;lt;duration>%3$d месеца&amp;lt;/duration>, считано от &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="one">Ще бъдете таксувани автоматично &amp;lt;price>%1$s всеки месец&amp;lt;/price> за следващите &amp;lt;duration>%3$d месеца&amp;lt;/duration>, считано от &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month_tax">
-        <item quantity="other">Ще бъдете таксувани автоматично &lt;price>%1$s плюс всички приложими данъци на всеки %2$d месеца&lt;/price>, считано от &lt;start_time>%3$s&lt;/start_time>, докато не анулирате абонамента си.</item>
-        <item quantity="one">Ще бъдете таксувани автоматично &lt;price>%1$s плюс всички приложими данъци всеки месец&lt;/price>, считано от &lt;start_time>%3$s&lt;/start_time>, докато не анулирате абонамента си.</item>
+        <item quantity="other">Ще бъдете таксувани автоматично &amp;lt;price>%1$s плюс всички приложими данъци на всеки %2$d месеца&amp;lt;/price>, считано от &amp;lt;start_time>%3$s&amp;lt;/start_time>, докато не анулирате абонамента си.</item>
+        <item quantity="one">Ще бъдете таксувани автоматично &amp;lt;price>%1$s плюс всички приложими данъци всеки месец&amp;lt;/price>, считано от &amp;lt;start_time>%3$s&amp;lt;/start_time>, докато не анулирате абонамента си.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month_tax_limited">
-        <item quantity="other">Ще бъдете таксувани автоматично &lt;price>%1$s плюс всички приложими данъци на всеки %2$d месеца&lt;/price> за следващите &lt;duration>%3$d месеца&lt;/duration>, считано от &lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="one">Ще бъдете таксувани автоматично&lt;price>%1$s плюс всички приложими данъци всеки месец&lt;/price> за следващите &lt;duration>%3$d месеца&lt;/duration>, считано от &lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="other">Ще бъдете таксувани автоматично &amp;lt;price>%1$s плюс всички приложими данъци на всеки %2$d месеца&amp;lt;/price> за следващите &amp;lt;duration>%3$d месеца&amp;lt;/duration>, считано от &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="one">Ще бъдете таксувани автоматично&amp;lt;price>%1$s плюс всички приложими данъци всеки месец&amp;lt;/price> за следващите &amp;lt;duration>%3$d месеца&amp;lt;/duration>, считано от &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year">
-        <item quantity="other">Ще бъдете таксувани автоматично &lt;price>%1$s на всеки %2$d години&lt;/price>, считано от &lt;start_time>%3$s&lt;/start_time>, докато не анулирате абонамента си.</item>
-        <item quantity="one">Ще бъдете таксувани автоматично &lt;price>%1$s всяка година&lt;/price>, считано от &lt;start_time>%3$s&lt;/start_time>, докато не анулирате абонамента си.</item>
+        <item quantity="other">Ще бъдете таксувани автоматично &amp;lt;price>%1$s на всеки %2$d години&amp;lt;/price>, считано от &amp;lt;start_time>%3$s&amp;lt;/start_time>, докато не анулирате абонамента си.</item>
+        <item quantity="one">Ще бъдете таксувани автоматично &amp;lt;price>%1$s всяка година&amp;lt;/price>, считано от &amp;lt;start_time>%3$s&amp;lt;/start_time>, докато не анулирате абонамента си.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year_limited">
-        <item quantity="other">Ще бъдете таксувани автоматично &lt;price>%1$s на всеки %2$d години&lt;/price> за следващите &lt;duration>%3$d години&lt;/duration>, считано от &lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="one">Ще бъдете таксувани автоматично &lt;price>%1$s всяка година&lt;/price> за следващите &lt;duration>%3$d години&lt;/duration>, считано от &lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="other">Ще бъдете таксувани автоматично &amp;lt;price>%1$s на всеки %2$d години&amp;lt;/price> за следващите &amp;lt;duration>%3$d години&amp;lt;/duration>, считано от &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="one">Ще бъдете таксувани автоматично &amp;lt;price>%1$s всяка година&amp;lt;/price> за следващите &amp;lt;duration>%3$d години&amp;lt;/duration>, считано от &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year_tax">
-        <item quantity="other">Ще бъдете таксувани автоматично &lt;price>%1$s плюс всички приложими данъци на всеки %2$d години&lt;/price>, считано от &lt;start_time>%3$s&lt;/start_time>, докато не анулирате абонамента си.</item>
-        <item quantity="one">Ще бъдете таксувани автоматично &lt;price>%1$s плюс всички приложими данъци всяка година&lt;/price>, считано от &lt;start_time>%3$s&lt;/start_time>, докато не анулирате абонамента си.</item>
+        <item quantity="other">Ще бъдете таксувани автоматично &amp;lt;price>%1$s плюс всички приложими данъци на всеки %2$d години&amp;lt;/price>, считано от &amp;lt;start_time>%3$s&amp;lt;/start_time>, докато не анулирате абонамента си.</item>
+        <item quantity="one">Ще бъдете таксувани автоматично &amp;lt;price>%1$s плюс всички приложими данъци всяка година&amp;lt;/price>, считано от &amp;lt;start_time>%3$s&amp;lt;/start_time>, докато не анулирате абонамента си.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year_tax_limited">
-        <item quantity="other">Ще бъдете таксувани автоматично &lt;price>%1$s плюс всички приложими данъци на всеки %2$d години&lt;/price> за следващите &lt;duration>%3$d години&lt;/duration>, считано от &lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="one">Ще бъдете таксувани автоматично &lt;price>%1$s плюс всички приложими данъци всяка година&lt;/price> за следващите &lt;duration>%3$d години&lt;/duration>, считано от &lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="other">Ще бъдете таксувани автоматично &amp;lt;price>%1$s плюс всички приложими данъци на всеки %2$d години&amp;lt;/price> за следващите &amp;lt;duration>%3$d години&amp;lt;/duration>, считано от &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="one">Ще бъдете таксувани автоматично &amp;lt;price>%1$s плюс всички приложими данъци всяка година&amp;lt;/price> за следващите &amp;lt;duration>%3$d години&amp;lt;/duration>, считано от &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
     </plurals>
 </resources>

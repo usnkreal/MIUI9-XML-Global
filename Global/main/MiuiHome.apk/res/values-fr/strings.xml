@@ -260,7 +260,7 @@
     <string name="pref_wallpaper_scroll_type_title">"Cadrage du fond d'écran"</string>
     <string name="preferences_general_title">Paramètres supplémentaires</string>
     <string name="preferences_title">Paramètres du lanceur</string>
-    <string name="preferred_app_settings_not_selected">Not selected</string>
+    <string name="preferred_app_settings_not_selected">Non sélectionné</string>
     <string name="recents_config_title">Récents</string>
     <string name="recommend_apk_size_and_desc">%1$d Mo | %2$s</string>
     <string name="recommend_apps_default_title">Vide</string>

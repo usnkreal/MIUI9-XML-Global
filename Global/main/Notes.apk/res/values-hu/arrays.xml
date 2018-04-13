@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="folder_operations">
-        <item>Átnevezés</item>
-        <item>Eltávolítás</item>
-    </string-array>
     <string-array name="attachment_chooser">
         <item>Kamera</item>
         <item>Galéria</item>
-    </string-array>
-    <string-array name="note_sort_way">
-        <item>Létrehozás dátuma szerint</item>
-        <item>Módosítás dátuma szerint</item>
     </string-array>
     <string-array name="contact_entries">
         <item>Név</item>
@@ -25,11 +17,19 @@
         <item>Cím</item>
         <item>Jegyzet</item>
     </string-array>
+    <string-array name="folder_operations">
+        <item>Átnevezés</item>
+        <item>Eltávolítás</item>
+    </string-array>
     <string-array name="font_size_names">
         <item>Kicsi</item>
         <item>Közepes</item>
         <item>Nagy</item>
         <item>Óriási</item>
+    </string-array>
+    <string-array name="note_sort_way">
+        <item>Létrehozás dátuma szerint</item>
+        <item>Módosítás dátuma szerint</item>
     </string-array>
     <string-array name="welcome_notes_content">
         <item>"Üdvözöljük a Jegyzetekben

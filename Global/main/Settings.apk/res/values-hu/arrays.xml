@@ -549,7 +549,7 @@
     <string-array name="usb_connection_mode_entries">
         <item>Minden csatlakozáskor kérdezzen rá</item>
         <item>Csak töltés</item>
-        <item>SD kártya felcsatolása</item>
+        <item>SD-kártya felcsatolása</item>
     </string-array>
     <string-array name="led_freq_entries">
         <item>2 másodperc</item>
@@ -638,7 +638,7 @@
     <string-array name="msd_pc_system_install_finish_summary">
         <item>@string/msd_pc_system_install_finish_summary_xp</item>
         <item>@string/msd_pc_system_install_finish_summary_vista</item>
-        <item>Az USB háttértár automatikusan meg fog nyílni, ha csatlakoztatja a telefont PC-hez.</item>
+        <item>Az USB háttértár automatikusan fog megnyílni, ha csatlakoztatja a telefont PC-hez.</item>
         <item></item>
     </string-array>
     <string-array name="msd_pc_system_retry_xp">
@@ -658,7 +658,7 @@
         <item>Készítsen mappát: mkdir /media/mtp</item>
         <item>Erősítse meg a jogokat az alábbi felhasználói csoporthoz</item>
         <item>Jelentkezzen be újra</item>
-        <item>Adjon hozzáférést a csatolt eszköznek: mtpfs /media/mtp - File Explorerben; mint egy helyi könyvtárnak</item>
+        <item>Fájlkezelőben érheti el a csatolt eszközt: mtpfs /media/mtp, mint egy helyi könyvtárat.</item>
         <item>"Távolítsa el az eszközt: fusermount -u /media/mtp
 Figyelmeztetés: Csak Ubuntu 8.04-en!"</item>
     </string-array>
@@ -697,7 +697,7 @@ Figyelmeztetés: Csak Ubuntu 8.04-en!"</item>
     <string-array name="change_security_lock_picker">
         <item>Arcalapú feloldás</item>
         <item>Minta</item>
-        <item>PIN kód</item>
+        <item>PIN-kód</item>
         <item>Jelszó</item>
     </string-array>
     <string-array name="wifi_connect_type_entries">
@@ -1359,6 +1359,29 @@ Figyelmeztetés: Csak Ubuntu 8.04-en!"</item>
         <item>Fényképek</item>
         <item>Fájlok</item>
         <item>Jegyzetek</item>
+    </string-array>
+    <string-array name="region_support_face">
+        <item>IN</item>
+        <item>ID</item>
+        <item>RU</item>
+        <item>HK</item>
+        <item>TW</item>
+    </string-array>
+    <string-array name="device_support_face">
+        <item>jason</item>
+        <item>polaris</item>
+        <item>sagit</item>
+        <item>chiron</item>
+        <item>whyred</item>
+        <item>nitrogen</item>
+        <item>wayne</item>
+        <item>ysl</item>
+        <item>sakura</item>
+    </string-array>
+    <string-array name="device_global_support_face">
+        <item>whyred</item>
+        <item>polaris</item>
+        <item>ysl</item>
     </string-array>
     <string-array name="install_non_market_app_entries">
         <item>Bekapcsolás (ajánlott)</item>

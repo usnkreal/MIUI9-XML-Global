@@ -557,9 +557,9 @@
         <item>4 secunde</item>
         <item>5 secunde</item>
         <item>6 secunde</item>
-        <item>7secunde</item>
-        <item>8secunde</item>
-        <item>9secunde</item>
+        <item>7 secunde</item>
+        <item>8 secunde</item>
+        <item>9 secunde</item>
     </string-array>
     <string-array name="mi1_led_color_entries">
         <item>Albastru</item>
@@ -592,9 +592,9 @@
         <item>key_none</item>
     </string-array>
     <string-array name="screen_key_long_press_timeout">
-        <item>0,5 secunde</item>
+        <item>0.5 secunde</item>
         <item>1 secundă</item>
-        <item>1,5secunde</item>
+        <item>1.5 secunde</item>
         <item>2 secunde</item>
     </string-array>
     <string-array name="long_press_volume_down_action">
@@ -658,7 +658,7 @@
         <item>Creați un dosar: mkdir /media/mtp</item>
         <item>Confirmați permisiunile grupului de utilizatori din grupul de utilizatori de siguranțe</item>
         <item>Conectați-vă din nou</item>
-        <item>Accesați dispozitivul montat: mtpfs /media/mtp prin intermediul programului de explorare a fișierelor; la fel ca directorul local</item>
+        <item>Accesați dispozitivul montat: mtpfs /media/mtp prin intermediul aplicației Gestionare Fișiere; la fel ca dosarul local.</item>
         <item>"Dezinstalează dispozitiv: fusermount -u /media/mtp
  Notă: Numai pentru Ubuntu 8.04!"</item>
     </string-array>
@@ -703,7 +703,7 @@
     <string-array name="wifi_connect_type_entries">
         <item>Conectare automată</item>
         <item>Conectare manuală</item>
-        <item>Înteabă mereu</item>
+        <item>Întreabă mereu</item>
     </string-array>
     <string-array name="wifi_ssid_type_entries">
         <item>Conectare automată</item>
@@ -779,9 +779,9 @@
         <item>RECE</item>
     </string-array>
     <string-array name="handy_mode_size_text_entries">
-        <item>4,5 inch</item>
-        <item>4,0 inch</item>
-        <item>3,5 inch</item>
+        <item>4.5 inch</item>
+        <item>4.0 inch</item>
+        <item>3.5 inch</item>
     </string-array>
     <string-array name="handy_mode_size_value_entries">
         <item>4.5</item>
@@ -881,8 +881,8 @@
         <item>Ecran de blocare</item>
         <item>Parola de confidențialitate</item>
         <item>Mod copil</item>
-        <item>Fişier Explorer</item>
-        <item>Al doilea spațiu</item>
+        <item>Gestionare Fișiere</item>
+        <item>Blocare aplicație</item>
         <item>Al doilea spațiu</item>
     </string-array>
     <string-array name="city_name">
@@ -1359,6 +1359,29 @@
         <item>Fotografii</item>
         <item>Fişiere</item>
         <item>Note</item>
+    </string-array>
+    <string-array name="region_support_face">
+        <item>IN</item>
+        <item>ID</item>
+        <item>ID</item>
+        <item>HK</item>
+        <item>TW</item>
+    </string-array>
+    <string-array name="device_support_face">
+        <item>jason</item>
+        <item>polaris</item>
+        <item>sagit</item>
+        <item>chiron</item>
+        <item>whyred</item>
+        <item>nitrogen</item>
+        <item>wayne</item>
+        <item>ysl</item>
+        <item>sakura</item>
+    </string-array>
+    <string-array name="device_global_support_face">
+        <item>whyred</item>
+        <item>polaris</item>
+        <item>ysl</item>
     </string-array>
     <string-array name="install_non_market_app_entries">
         <item>Pornește ( recomandat)</item>

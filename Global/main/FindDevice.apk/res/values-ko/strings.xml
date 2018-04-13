@@ -79,6 +79,8 @@ i.mi.com에 로그인하셔서 기기 잠금 해제를 시도하십시오"</stri
     <string name="default_lock_msg_words_with_phone">안녕하십시오! 핸드폰을 분실했습니다. 저에게 연락해주실 수 있으십니까? 감사합니다!</string>
     <string name="default_lock_msg_words">이 기기는 이미 Mi 계정과 연관되어 있습니다. 보안의 이유로 기기 인증이 필요합니다. 비밀번호를 입력해 주십시오.</string>
     <string name="lock_msg_phone">연락처 정보: %s</string>
+    <string name="emergency_call">긴급 전화</string>
+    <string name="return_to_call">통화로 돌아가기</string>
     <string name="default_debt_msg_words">"할부금 미납으로 휴대전화가 잠겼습니다.
 판매자에게 연락하십시오."</string>
     <string name="sys_notification_async_verify_title">기기 찾기 재활성화</string>

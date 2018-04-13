@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="folder_operations">
-        <item>Redenumiți</item>
-        <item>Șterge</item>
-    </string-array>
     <string-array name="attachment_chooser">
         <item>Aparat foto</item>
         <item>Galerie</item>
-    </string-array>
-    <string-array name="note_sort_way">
-        <item>După data creării</item>
-        <item>După data modificării</item>
     </string-array>
     <string-array name="contact_entries">
         <item>Nume</item>
@@ -25,11 +17,19 @@
         <item>Adresa</item>
         <item>Notă</item>
     </string-array>
+    <string-array name="folder_operations">
+        <item>Redenumiți</item>
+        <item>Șterge</item>
+    </string-array>
     <string-array name="font_size_names">
         <item>Mic</item>
         <item>Mediu</item>
         <item>Mare</item>
         <item>Imens</item>
+    </string-array>
+    <string-array name="note_sort_way">
+        <item>După data creării</item>
+        <item>După data modificării</item>
     </string-array>
     <string-array name="welcome_notes_content">
         <item>"Bine ați venit la Note

@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="common_google_play_services_enable_button">사용 설정</string>
+    <string name="common_google_play_services_enable_text">Google Play 서비스를 사용하도록 설정해야 %1$s이(가) 작동합니다.</string>
+    <string name="common_google_play_services_enable_title">Google Play 서비스 사용</string>
+    <string name="common_google_play_services_install_button">설치</string>
+    <string name="common_google_play_services_install_text">기기에 Google Play 서비스가 설치되어 있어야 %1$s이(가) 실행됩니다.</string>
+    <string name="common_google_play_services_install_title">Google Play 서비스 설치</string>
+    <string name="common_google_play_services_notification_ticker">Google Play 서비스 오류</string>
     <string name="common_google_play_services_unknown_issue">%1$s에서 Google Play 서비스를 사용하는 데 문제가 있습니다. 다시 시도하세요.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s은(는) Google Play 서비스 없이는 실행되지 않으나, 기기에서 Google Play 서비스를 지원하지 않습니다.</string>
+    <string name="common_google_play_services_update_button">업데이트</string>
+    <string name="common_google_play_services_update_text">Google Play 서비스를 업데이트해야 %1$s이(가) 실행됩니다.</string>
+    <string name="common_google_play_services_update_title">Google Play 서비스 업데이트</string>
+    <string name="common_google_play_services_updating_text">현재 업데이트 중인 Google Play 서비스가 있어야 %1$s이(가) 실행됩니다.</string>
+    <string name="common_google_play_services_wear_update_text">새 버전의 Google Play 서비스가 필요합니다. 곧 자동으로 업데이트됩니다.</string>
+    <string name="common_open_on_phone">스마트폰에서 열기</string>
+    <string name="common_signin_button_text">로그인</string>
+    <string name="common_signin_button_text_long">Google 계정으로 로그인</string>
+    <string name="s1">이미지 저장</string>
+    <string name="s2">광고에서 사진 갤러리에 이미지를 저장하도록 허용하시겠습니까?</string>
+    <string name="s3">동의</string>
+    <string name="s4">거부</string>
+    <string name="s5">캘린더 일정 만들기</string>
+    <string name="s6">광고에서 캘린더 일정을 만들도록 허용하시겠습니까?</string>
     <string name="abc_action_bar_home_description">시작 페이지로 이동</string>
     <string name="abc_action_bar_up_description">다음 단계로 돌아가기</string>
     <string name="abc_action_menu_overflow_description">더 보기</string>
@@ -51,6 +73,8 @@
     <string name="actionbar_textselection_title">텍스트 선택</string>
     <string name="actionbar_web_search">웹 검색</string>
     <string name="ad_btn_default_text">설치</string>
+    <string name="ad_mark">Ad</string>
+    <string name="ad_sponsored">Sponsored</string>
     <string name="adblock_force_updating_rules_toast">Ad blocker 업데이트 중</string>
     <string name="adblock_rules_not_updated_toast">업데이트 실패</string>
     <string name="adblock_rules_restore">차단 해제</string>
@@ -88,6 +112,7 @@
     <string name="aqi_quality_index_moderate">보통</string>
     <string name="aqi_quality_index_pure">훌륭함</string>
     <string name="aqi_quality_index_unhealthy">해로움</string>
+    <string name="articles_updated">%1$d articles updated for you</string>
     <string name="autoSwithcingSearchEngineTips">자주 사용하는 검색 엔진으로 전환됨</string>
     <string name="autofill_keyboard_accessory_content_description">추천 사용 가능</string>
     <string name="autofill_popup_content_description">자동 입력 팝업 보이기</string>
@@ -111,9 +136,9 @@
     <string name="bookmark_group_lable">그룹</string>
     <string name="bookmark_needs_title">북마크에는 반드시 이름이 필요합니다.</string>
     <string name="bookmark_needs_url">북마크에는 반드시 URL이 있어야 합니다.</string>
-    <string name="bookmark_not_saved">"Couldn't add to bookmarks"</string>
+    <string name="bookmark_not_saved">북마크 추가 실패</string>
     <string name="bookmark_rename_group">그룹 이름 변경</string>
-    <string name="bookmark_saved">Added to bookmarks</string>
+    <string name="bookmark_saved">북마크에 추가됨</string>
     <string name="bookmark_title">북마크 이름</string>
     <string name="bookmark_title_lable">제목</string>
     <string name="bookmark_url">URL http://</string>
@@ -135,11 +160,14 @@
     <string name="cancel">취소</string>
     <string name="cannot_download">\"http\" 또는 \"https\" URL만 다운로드할 수 있습니다.</string>
     <string name="card_setting_close_recommend">추천 항목 수신</string>
+    <string name="channels_edit">Edit</string>
+    <string name="channels_finish">Finish</string>
     <string name="choosertitle_sharevia">공유 경로</string>
     <string name="clear_history">기록 지우기</string>
     <string name="clear_most_visited">최근 기록</string>
     <string name="clear_search_history">기록 지우기</string>
     <string name="clear_video_download">동영상 삭제</string>
+    <string name="click_to_refresh">Stopped here last time, tap to refresh</string>
     <string name="clip_dialog_title">복사한 URL을 여시겠습니까?</string>
     <string name="close_ads_choice_no">허용</string>
     <string name="close_ads_choice_yes">차단</string>
@@ -199,6 +227,7 @@
     <string name="contextmenu_webpage_snapshot">페이지 저장</string>
     <string name="copy_to_clipboard_failure_message">클립보드에 복사할 수 없습니다.</string>
     <string name="copy_url">URL 복사</string>
+    <string name="could_not_load_data">"Couldn't load data, refresh and try again"</string>
     <string name="create_qr_code">QR 코드</string>
     <string name="current_version_pad">패드</string>
     <string name="current_version_pc">데스크탑</string>
@@ -206,6 +235,7 @@
     <string name="custom_head_card_text">어떤 멋진일이 생길거라고 항상 믿고 있습니다.</string>
     <string name="custom_head_card_text_incognito">"귀하는 익명 상태입니다!
 확인하신 페이지가 기록에 나타나지 않습니다."</string>
+    <string name="data_error">Data error</string>
     <string name="data_traffic_prompt_change">모바일 데이터 연결을 사용하여 동영상을 시청하면 데이터 사용량이 증가합니다. 데이터 사용 한도를 초과하면 추가 요금이 부과될 수 있습니다.</string>
     <string name="data_traffic_prompt_message">모바일 데이터 연결을 사용하여 비디오를 시청하면 데이터 사용량이 증가합니다. 데이터 한도를 초과하여 사용할 경우, 통신사에서 추가 요금이 부과될 수 있습니다.</string>
     <string name="data_traffic_prompt_message_short">모바일 데이터를 사용하는 동영상 스트리밍은 데이터 사용 한도를 초과하는 결과를 초래할 수 있습니다.</string>
@@ -336,8 +366,9 @@
     <string name="hint">힌트</string>
     <string name="history">기록</string>
     <string name="home_description">홈</string>
-    <string name="home_page_news_feed">뉴스피드</string>
-    <string name="home_page_top_sites">인기 사이트</string>
+    <string name="home_page_news_feed">News Feed</string>
+    <string name="home_page_news_flow">News Flow</string>
+    <string name="home_page_top_sites">Top Sites</string>
     <string name="homepage_delete_card_menu">삭제</string>
     <string name="homepage_get_location">위치 가져오기</string>
     <string name="homepage_get_location_failed">위치정보를 가져오지 못했습니다, 도시를 선택해 주십시오.</string>
@@ -371,6 +402,7 @@
     <string name="loading_tips">아래로 당겨 새로고침</string>
     <string name="local_bookmarks">Mi</string>
     <string name="login_failed_toast">로그인할 수 없습니다. 새로고침 하신 후 다시 시도해 주십시오.</string>
+    <string name="long_press_edit">Long press to edit</string>
     <string name="low_memory_error">메모리 부족으로 이전 작업을 완료할 수 없습니다.</string>
     <string name="low_memory_toast">메모리 부족으로 인해 브라우저를 사용할 수 없습니다</string>
     <string name="max_tabs_warning">탭을 더 열 수 없습니다</string>
@@ -396,7 +428,7 @@
     <string name="menu_preferences">설정</string>
     <string name="menu_theme_setting">테마 설정</string>
     <string name="menu_title_clear_all">모두 지우기</string>
-    <string name="menu_title_open_file_management">파일 탐색기 열기</string>
+    <string name="menu_title_open_file_management">파일탐색기 열기</string>
     <string name="menu_title_pause_all">전체 일시정지</string>
     <string name="menu_title_resume_all">전체 시작</string>
     <string name="miui_autologin_bar_error">로그인할 수 없습니다.</string>
@@ -511,6 +543,7 @@
     <string name="month_picker_dialog_title">월 설정</string>
     <string name="more_description">메뉴</string>
     <string name="more_option">옵션 더 보기</string>
+    <string name="my_cahnnel">My channels</string>
     <string name="nav_bottom_bar_back">뒤로</string>
     <string name="nav_bottom_bar_close_all">모두 닫기</string>
     <string name="nav_bottom_bar_new_tab">새 탭</string>
@@ -518,16 +551,21 @@
     <string name="nav_screen_container_tab_normal">보통 탭</string>
     <string name="nav_screen_incognito_message">"익명 모드에서는 서핑 및 검색 기록이 저장되지 않을 것입니다.
 하지만 북마크 추가와 다운로드된 파일은 저장될 것입니다."</string>
-    <string name="nav_screen_incognito_title">Incognito mode</string>
-    <string name="navigation_delete_all">Swipe left or right to close all tabs</string>
+    <string name="nav_screen_incognito_title">익명 모드</string>
+    <string name="navigation_delete_all">왼쪽 또는 오른쪽으로 스와이프하여 모든 탭 닫기</string>
     <string name="navigationbar_rightbutton_actiontext_cancle">취소</string>
     <string name="navigationbar_rightbutton_actiontext_go">이동</string>
     <string name="navigationbar_rightbutton_actiontext_search">검색</string>
+    <string name="net_error">Network error</string>
     <string name="network_show_wifi_setting_tip_dialog_description">근처의 Wi-Fi 핫스팟을 찾았습니다. 연결을 시도하시겠습니까?</string>
     <string name="network_show_wifi_setting_tip_dialog_title">Wi-Fi 네트워크 사용 가능</string>
+    <string name="news_load_failed">Click to retry</string>
+    <string name="news_loading">Loading…</string>
     <string name="next_button_label">다음</string>
     <string name="no_app_open_document">이 작업을 실행할 앱을 찾지 못했습니다.</string>
+    <string name="no_items">No more items to show, please try a different category</string>
     <string name="no_matches">일치하는 항목 없음</string>
+    <string name="no_network">Please check your network connection and try again</string>
     <string name="no_space_alert_cancel">나중에</string>
     <string name="no_space_alert_clean">저장공간 확보</string>
     <string name="no_space_alert_text">저장 공간이 충분하지 않습니다.</string>
@@ -542,10 +580,11 @@
     <string name="onews__category_cricket">크리켓</string>
     <string name="onews__category_reddit">레딧</string>
     <string name="open_app_confirm_message">이 페이지가 %s을(를) 열도록 허용하시겠습니까?</string>
-    <string name="open_file_explorer_failed">파일 탐색기를 열 수 없습니다.</string>
+    <string name="open_file_explorer_failed">파일탐색기 열기 실패</string>
     <string name="open_private_folder">놓아서 숨김 폴더 보기</string>
     <string name="open_voice_permission">마이크의 인터넷 연결 허용</string>
     <string name="opening_file_error">선택된 파일 열기 실패</string>
+    <string name="other_channel">Click to add more channels.</string>
     <string name="page_info">페이지 정보</string>
     <string name="page_info_address">주소:</string>
     <string name="page_info_view">페이지 정보 보기</string>
@@ -590,6 +629,7 @@
     <string name="pref_content_night_read_mode">야간 모드</string>
     <string name="pref_content_search_engine">주소창 검색 엔진</string>
     <string name="pref_content_search_engine_summary">검색 엔진 선택</string>
+    <string name="pref_develop_mode">Develop Mode</string>
     <string name="pref_enable_adblock_notification">광고 차단기 알림 보이기</string>
     <string name="pref_enable_news">뉴스</string>
     <string name="pref_enable_novels">도서</string>
@@ -667,6 +707,7 @@
     <string name="profiler_started_toast">프로파일러 시작됨</string>
     <string name="profiler_stopped_toast">프로파일러 완료됨. 결과는 %1$s에 있습니다.</string>
     <string name="progress_dialog_setting_wallpaper">배경화면 설정 중…</string>
+    <string name="pull_to_refresh">Pull down to refresh</string>
     <string name="pull_to_refresh_pull_label">당겨서 새로고침</string>
     <string name="pull_to_refresh_release_label">놓아서 추천 및 새로고침</string>
     <string name="qr_code_title">QR 코드</string>
@@ -697,6 +738,11 @@
     <string name="readmode_recommend_message">이 책을 이미 읽으셨습니다. :)</string>
     <string name="readmode_refresh">새로고침</string>
     <string name="readmodelist_bookmarks_to_show">목록 읽는 중</string>
+    <string name="refresh">Refresh</string>
+    <string name="refresh_fail">Failed to load</string>
+    <string name="refresh_success">Found %1$d articles you might like</string>
+    <string name="refreshing">Refreshing…</string>
+    <string name="release_to_refresh">Release to refresh</string>
     <string name="remember_passwords_confirm_message">이 기능을 끄는 것은 사용량에 영향을 줄 수 있습니다.</string>
     <string name="remove_bookmark">북마크 삭제</string>
     <string name="remove_bookmark_group">그룹 삭제</string>
@@ -817,6 +863,10 @@
     <string name="suggest_access_music">Mi 뮤직</string>
     <string name="suggest_item_delete_text">삭제</string>
     <string name="suggest_open_app_failed">이 앱을 열지 못했습니다.</string>
+    <string name="summary_command_mode">enter command mode or not</string>
+    <string name="summary_force_show_news_flow">force show news flow or not</string>
+    <string name="summary_show_news_feed">show news feed or not</string>
+    <string name="summary_use_sandbox_domain">use sandbox domain or not</string>
     <string name="switchText">네</string>
     <string name="switch_proxy_dialog_msg">네트워크 도용이 감지되었습니다. MIUI의 내장 보안 앱 사용 또는 모바일 사업자에게 신고하십시오.</string>
     <string name="switch_proxy_dialog_title">네트워크 도용</string>
@@ -830,7 +880,12 @@
     <string name="time_picker_dialog_pm">오후</string>
     <string name="time_picker_dialog_second_subsecond_separator">.</string>
     <string name="time_picker_dialog_title">시간 설정</string>
+    <string name="tip_drag">Long press to edit and drag to sort.</string>
     <string name="title_bar_loading">로드 중…</string>
+    <string name="title_command_mode">Command mode</string>
+    <string name="title_force_show_news_flow">Force show news flow</string>
+    <string name="title_show_news_feed">Show News Feed</string>
+    <string name="title_use_sandbox_domain">Use Sandbox domain</string>
     <string name="too_many_windows_dialog_message">브라우저는 다른 탭을 닫기 전까진 새 탭을 열 수 없습니다.</string>
     <string name="too_many_windows_dialog_title">탭을 더 열 수 없습니다.</string>
     <string name="unSwitchText">아니요</string>
@@ -839,7 +894,7 @@
     <string name="unsecurity_url_toast">이 사이트는 안전하지 않습니다.</string>
     <string name="up_to_loading_tips">놓아서 새로고침</string>
     <string name="update_no_network_toast">네크워크에 연결할 수 없습니다.</string>
-    <string name="updating_chrome">Chrome 업데이트 중‧</string>
+    <string name="updating_chrome">Chrome 업데이트 중…</string>
     <string name="uploads_disabled">파일 업로드가 비활성화되었습니다.</string>
     <string name="url_copy_done">URL이 클립보드에 복사됨</string>
     <string name="url_find_on_page_result">브라우저로 보기</string>
@@ -939,4 +994,16 @@
     <string name="webview_find_on_page">페이지 검색</string>
     <string name="webviewchromium_private_browsing_warning">이 Android 버전에서는 지원하지 않는 기능입니다.</string>
     <string name="week_picker_dialog_title">주 설정</string>
+    <string name="could_not_load">"Couldn't load"</string>
+    <string name="done">Done</string>
+    <string name="hold_to_edit">Tap to enter, hold to edit</string>
+    <string name="hour_ago">N hour ago</string>
+    <string name="language">Language</string>
+    <string name="le_ptr_from_bottom_pull_label">@string/pull_to_refresh</string>
+    <string name="le_ptr_from_bottom_refreshing_label">@string/le_ptr_refreshing_label</string>
+    <string name="le_ptr_from_bottom_release_label">@string/le_ptr_release_label</string>
+    <string name="load_more_tip">Load more</string>
+    <string name="min_ago">N min ago</string>
+    <string name="now">Just Now</string>
+    <string name="reached_bottom">"You've reached the bottom of the page"</string>
 </resources>

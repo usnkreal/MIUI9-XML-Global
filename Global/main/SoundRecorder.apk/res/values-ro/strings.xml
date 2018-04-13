@@ -73,7 +73,7 @@
     <string name="pause">Pauză</string>
     <string name="back">Înapoi</string>
     <string name="menu">Meniu</string>
-    <string name="toast_uninstall_fileexplorer">Explorerul aplicației nu este instalat</string>
+    <string name="toast_uninstall_fileexplorer">Gestionare Fișiere nu este instalat</string>
     <string name="record_download">Descarcă de la Mi Cloud</string>
     <string name="record_download_msg">Înregistrările pot fi redate numai după ce au fost descărcate complet.</string>
     <string name="record_download_msg_reload">Această înregistrare nu există.</string>
@@ -151,5 +151,5 @@
     <string name="head_set_tip_dialog_msg">Deconectaţi căștile pentru a fi capabil de a înregistra un sunet cu presetări specifice (de exemplu, Muzică, Voce).</string>
     <string name="head_set_tip_dialog_ok">Am înțeles</string>
     <string name="rename_fail_tip">Nu se poate redenumi. Un fișier cu același nume există deja.</string>
-    <string name="dialog_privacy_revoke_tips">După ce revocați autorizația, aplicația va opri colectarea datelor și toate datele asociate vor fi șterse de pe servere. Acest lucru poate face aplicația practic inutilizabilă. Anulați oricum autorizația?Pentru a vă asigura securitatea contului dvs. conectați-vă la i.mi.com înainte de a revoca autorizația pentru serviciile Mi Cloud.</string>
+    <string name="dialog_privacy_revoke_tips">După ce revocați autorizația, aplicația va opri colectarea datelor și toate datele asociate vor fi șterse de pe servere. Acest lucru poate face aplicația practic inutilizabilă. Anulați oricum autorizația? Pentru a vă asigura securitatea contului dvs. conectați-vă la i.mi.com înainte de a revoca autorizația pentru serviciile Mi Cloud.</string>
 </resources>

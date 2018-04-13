@@ -471,6 +471,7 @@ Pro více informací kontaktujte svého administrátora."</string>
     <string name="notification_group_title_text">%1$s (%2$s)</string>
     <string name="notification_group_overflow_indicator">+%s</string>
     <string name="click_to_return_multi_window">Klepněte pro návrat do Rozdělení obrazovky</string>
+    <string name="click_to_return_multi_window_of_notch">Zpět do Rozdělení obrazovky</string>
     <string name="recent_dock_tip">Klepnutím vyberte aplikace</string>
     <string name="recent_cannot_dock">V Druhém prostoru nelze Rozdělení obrazovky využít</string>
     <string name="dock_keyguard_locked_failed_to_dock_text">Rozdělení obrazovky není podporováno na Zamykací obrazovce.</string>
@@ -496,7 +497,7 @@ Pro více informací kontaktujte svého administrátora."</string>
     <string name="fs_gesture_final_over">Jsem připraven(a)</string>
     <string name="no_sim_card">Žádná SIM karta</string>
     <string name="prompt_detecting">Hledání</string>
-    <string name="prompt_danger">Riziko</string>
+    <string name="prompt_danger">Nebezpečí</string>
     <string name="prompt_failure">Chyba</string>
     <string name="prompt_safe">Bezpečné</string>
     <string name="prompt_unknown">Neznámé</string>

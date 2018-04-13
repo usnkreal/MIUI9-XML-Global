@@ -33,7 +33,7 @@
     <string name="attach_sound">Audio</string>
     <string name="attach_subject">Subiect</string>
     <string name="attach_take_photo">Faceți o fotografie</string>
-    <string name="attach_transaction">Trimite bani</string>
+    <string name="attach_transaction">Transferă bani</string>
     <string name="attach_video">Video</string>
     <string name="audio_download_failed">Nu se poate descărca audio</string>
     <string name="audio_message_expired">Acest mesaj vocal a expirat.</string>

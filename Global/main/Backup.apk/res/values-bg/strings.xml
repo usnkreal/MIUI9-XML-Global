@@ -49,7 +49,7 @@
     <string name="restore_launcher_layout_hit">Възстановяване настройките на Launcher-а</string>
     <string name="settings_summary">Настройки за телефон и съобщения</string>
     <string name="camera_summary">Настройки на камерата (без снимките)</string>
-    <string name="account_summary">Архивиране на профилите в Google, Mi и други данни</string>
+    <string name="account_summary">Архивиране на данните от Google Профил, Mi Профил и др</string>
     <string name="cloud_app_name">Рез. копие в Mi Cloud</string>
     <string name="cloud_home_title">Mi Cloud</string>
     <string name="prompt_reading">Разчитане на данни…</string>

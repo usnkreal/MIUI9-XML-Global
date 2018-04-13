@@ -58,6 +58,8 @@
     <string name="wating">Chwileczkę…</string>
     <string name="Active">Aktywny</string>
     <string name="ok_button">OK</string>
+    <string name="remove_button">Usuń i uruchom ponownie</string>
+    <string name="remove_button_time">Usuń i uruchom ponownie (%ds)</string>
     <string name="cancel_button">Anuluj</string>
     <string name="list_empty_text">Pusta</string>
     <string name="list_empty_text_xspace">Zainstaluj WeChat/QQ/Weibo, utwórz sklonowane aplikacje i spróbuj ponownie.</string>
@@ -65,6 +67,8 @@
     <string name="xspace_setting_label">Ustawienia sklonowanych aplikacji</string>
     <string name="xspace_account">Konta sklonowanych aplikacji</string>
     <string name="declare_dialog_title">O sklonowanych aplikacjach</string>
+    <string name="stop_xspace_alert_title">Usuwanie kont sklonowanych aplikacji</string>
+    <string name="stop_xspace_alert_content">Usunięto wszystkie sklonowane aplikacje. Usunąć także wszystkie konta i dane sklonowanych aplikacji? Po tej operacji, w przypadku, gdy będziesz chciał utworzyć sklonowaną aplikację, będzie trzeba wykonać to od początku.</string>
     <string name="xspace_loading_msg">Wczytywanie aplikacji…</string>
     <string name="xspace_header">Sklonowane aplikacje</string>
     <string name="xspace_introduce">Polecane</string>
@@ -77,6 +81,7 @@ Niektóre sklonowane aplikacje wymagają obsługi Google Services Framework. W t
     <string name="xspace_install_failed">Nie udało się utworzyć</string>
     <string name="xspace_uninstalling">Odinstalowywanie…</string>
     <string name="xspace_install_completed">Ikona dodana do ekranu głównego</string>
+    <string name="xspace_install_completed_global">Ikona dodana do menu</string>
     <string name="xspace_uninstall_completed">Sklonowana aplikacja odinstalowana pomyślnie</string>
     <string name="xspace_uninstall_dialog_title">Odinstaluj sklonowaną aplikację</string>
     <string name="xspace_uninstall_dialog_content">Odinstalowanie sklonowanej aplikacji usunie wszystkie dane aplikacji.</string>
@@ -177,6 +182,10 @@ funkcja ta zostanie automatycznie dodana do Drugiej przestrzeni."</string>
     <string name="notification_from_second_user">Wyświetl powiadomienia z Drugiej przestrzeni</string>
     <string name="radio_button_icon_switch_title">Korzystanie ze skrótu</string>
     <string name="radio_button_password_switch_title">Korzystanie z hasła</string>
+    <string name="reset_password_dialog_title">Nie można ukryć skrótu do Drugiej przestrzeni</string>
+    <string name="reset_password_dialog_message">Korzystasz z różnych typów haseł dla Pierwszej i Drugiej przestrzeni. Druga przestrzeń powinna używać tego samego typu hasło co Pierwsza przestrzeń, aby móc ukryć skrót.</string>
+    <string name="reset_password_dialog_positve_btn_title">Zmień</string>
+    <string name="entrance_reopen_toast_msg">Wyświetlanie skrótu do Drugiej przestrzeni ze względu na różne typy haseł</string>
     <string name="settings_cross_notification_title">Powiadomienia</string>
     <string name="settings_cross_notification_summary">Otrzymuj powiadomienia z innych przestrzeni</string>
     <string name="settings_switch_shortcut_summary">Pokaż skrót do ekranu głównego w Pierwszej przestrzeni</string>
@@ -357,6 +366,13 @@ Jeśli nie wykonasz aktualizacji, sklonowane aplikacje mogą nie działać prawi
     <string name="sdcradfs_dialog_in_sec_message">"Aby zaktualizować, należy usunąć Drugą przestrzeń, i utworzyć ją ponownie. Przenieś dane z Drugiej przestrzeni do Pierwsze i ponownie uruchom urządzenia, aby dokończyć aktualizację.
 Jeśli nie wykonasz aktualizacji, sklonowane aplikacje mogą nie działać prawidłowo."</string>
     <string name="space_created_success">Pomyślnie utworzono Drugą przestrzeń</string>
+    <string name="encrypt_space_delete_dialog_title">Powiadomienie</string>
+    <string name="encrypt_space_delete_dialog_message">Masz zamiar zaktualizować Androida. Po aktualizacji dane Drugiej przestrzeni przestaną być kompatybilne. Aby temu zapobiec przenieś dane do Pierwszej przestrzeni, następnie usuń Drugą przestrzeń i utwórz ją ponownie.</string>
+    <string name="encrypt_space_delete_dialog_click_message">*Jeśli nie chcesz przenosić danych, %s</string>
+    <string name="encrypt_space_delete_dialog_click_message_action">usuń i utwórz teraz Drugą przestrzeń.</string>
+    <string name="encrypt_space_delete_dialog_positive_text">Przenieś dane</string>
+    <string name="encrypt_space_delete_notification_title">Druga przestrzeń</string>
+    <string name="encrypt_space_delete_notification_message">Usuń swoją Drugą przestrzeń i utwórz ją na nowo, aby pomyślnie zaktualizować urządzenie.</string>
     <string name="space_create_guide_title_1">Chroń swoją prywatność</string>
     <string name="space_create_guide_desc_1">Przechowuj aplikacje i zdjęcia bezpieczenie</string>
     <string name="space_create_guide_title_2">Utwórz w każdej chwili</string>

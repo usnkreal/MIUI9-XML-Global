@@ -93,9 +93,8 @@
 이 기능은 기기 ID를 암호화해 Mi 서버에 전송합니다."</string>
     <string name="user_agreement_p5">"
 "</string>
-    <string name="user_agreement_p6">"이 서비스를 사용하시면 동의하는 것으로 간주됩니다. "</string>
-    <string name="user_agreement_p7">Mi 클라우드 서비스 약관</string>
-    <string name="user_agreement_p8">.</string>
+    <string name="user_agreement_link">Mi 클라우드 서비스 약관</string>
+    <string name="user_agreement_content">이 서비스를 사용하시면 %s에 동의하는 것으로 간주됩니다.</string>
     <string name="user_agreement_title">Mi 클라우드 서비스 약관</string>
     <string name="privacy_policy">개인 정보 보호 정책</string>
     <string name="loading">잠시 기다려 주십시오…</string>
@@ -173,7 +172,7 @@
     <string name="micloud_user_space_usage">저장 공간</string>
     <string name="micloud_web_discription_01">I.mi.com에 로그인</string>
     <string name="micloud_web_discription_02">어디서나 파일에 접근하고 저장</string>
-    <string name="micloud_web_discription_place_holder">%1$s 방문</string>
+    <string name="micloud_web_discription_place_holder">컴퓨터로 %1$s에 방문하여 데이터를 관리하십시오.</string>
     <string name="micloud_full_influence_title">Mi 클라우드가 가득찬 경우…</string>
     <string name="micloud_warn_low_title">공간이 거의 다 찼습니다.</string>
     <string name="micloud_warn_low_sum">Mi 클라우드 사용량이 90%입니다.</string>
@@ -366,9 +365,6 @@ Mi 클라우드를 다시 활성화하십시오."</string>
     <string name="buy_more_space_c_class">"이 기능을 사용하려면 중국 은행 카드가 필요합니다.
 더 많은 저장 공간을 얻으려면 mi.com/micloud에 접속하십시오."</string>
     <string name="micloud_member_buy_title">주문 확인</string>
-    <string name="micloud_member_buy_content" formatted="false">"회원 유효기간: %s-%s-%s
-
-금액: %s Mi 크레딧"</string>
     <string name="micloud_member_net_error_alert_title">네크워크에 연결할 수 없습니다.</string>
     <string name="micloud_member_net_error_alert_message">인터넷이 연결되지 않았습니다.</string>
     <string name="micloud_member_pay_fail_toast">지불을 완료하지 못했습니다.</string>

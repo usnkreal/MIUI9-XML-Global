@@ -197,75 +197,75 @@
         <item quantity="many">דקות</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day">
-        <item quantity="other">תחויב באופן אוטומטי בסך של &lt;price>%1$s כל%2$d ימים&lt;/price> החל מ-&lt;start_time>%3$s&lt;/start_time> עד שתבטל את המנוי.</item>
-        <item quantity="one">תחויב באופן אוטומטי בסך של &lt;price>%1$s כל יום&lt;/price> החל מ-&lt;start_time>%3$s&lt;/start_time> עד שתבטל את המנוי.</item>
-        <item quantity="two">תחויב באופן אוטומטי בסך של &lt;price>%1$s כל%2$d יומיים&lt;/price> החל מ-&lt;start_time>%3$s&lt;/start_time> עד שתבטל את המנוי.</item>
-        <item quantity="many">תחויב באופן אוטומטי בסך של &lt;price>%1$s כל%2$d ימים&lt;/price> החל מ-&lt;start_time>%3$s&lt;/start_time> עד שתבטל את המנוי.</item>
+        <item quantity="other">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s כל%2$d ימים&amp;lt;/price> החל מ-&amp;lt;start_time>%3$s&amp;lt;/start_time> עד שתבטל את המנוי.</item>
+        <item quantity="one">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s כל יום&amp;lt;/price> החל מ-&amp;lt;start_time>%3$s&amp;lt;/start_time> עד שתבטל את המנוי.</item>
+        <item quantity="two">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s כל%2$d יומיים&amp;lt;/price> החל מ-&amp;lt;start_time>%3$s&amp;lt;/start_time> עד שתבטל את המנוי.</item>
+        <item quantity="many">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s כל%2$d ימים&amp;lt;/price> החל מ-&amp;lt;start_time>%3$s&amp;lt;/start_time> עד שתבטל את המנוי.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day_limited">
-        <item quantity="other">תחויב באופן אוטומטי בסך של &lt;price>%1$s כל %2$d ימים&lt;/price> למשך &lt;duration>%3$d הימים הבאים&lt;/duration> החל מ-&lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="one">תחויב באופן אוטומטי בסך של &lt;price>%1$s כל יום&lt;/price> למשך &lt;duration>%3$d הימים הבאים&lt;/duration> החל מ-&lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="two">תחויב באופן אוטומטי בסך של &lt;price>%1$s כל %2$d יומיים&lt;/price> למשך &lt;duration>%3$d הימים הבאים&lt;/duration> החל מ-&lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="many">תחויב באופן אוטומטי בסך של &lt;price>%1$s כל %2$d ימים&lt;/price> למשך &lt;duration>%3$d הימים הבאים&lt;/duration> החל מ-&lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="other">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s כל %2$d ימים&amp;lt;/price> למשך &amp;lt;duration>%3$d הימים הבאים&amp;lt;/duration> החל מ-&amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="one">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s כל יום&amp;lt;/price> למשך &amp;lt;duration>%3$d הימים הבאים&amp;lt;/duration> החל מ-&amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="two">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s כל %2$d יומיים&amp;lt;/price> למשך &amp;lt;duration>%3$d הימים הבאים&amp;lt;/duration> החל מ-&amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="many">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s כל %2$d ימים&amp;lt;/price> למשך &amp;lt;duration>%3$d הימים הבאים&amp;lt;/duration> החל מ-&amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day_tax">
-        <item quantity="other">תחויב באופן אוטומטי בסך של &lt;price>%1$s בתוספת מס רלוונטי כל %2$d ימים&lt;/price> החל מ-&lt;start_time>%3$s&lt;/start_time> עד שתבטל את המנוי.</item>
-        <item quantity="one">תחויב באופן אוטומטי בסך של &lt;price>%1$s בתוספת מס רלוונטי כל יום&lt;/price> החל מ-&lt;start_time>%3$s&lt;/start_time> עד שתבטל את המנוי.</item>
-        <item quantity="two">תחויב באופן אוטומטי בסך של &lt;price>%1$s בתוספת מס רלוונטי כל %2$d יומיים&lt;/price> החל מ-&lt;start_time>%3$s&lt;/start_time> עד שתבטל את המנוי.</item>
-        <item quantity="many">תחויב באופן אוטומטי בסך של &lt;price>%1$s בתוספת מס רלוונטי כל %2$d ימים&lt;/price> החל מ-&lt;start_time>%3$s&lt;/start_time> עד שתבטל את המנוי.</item>
+        <item quantity="other">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s בתוספת מס רלוונטי כל %2$d ימים&amp;lt;/price> החל מ-&amp;lt;start_time>%3$s&amp;lt;/start_time> עד שתבטל את המנוי.</item>
+        <item quantity="one">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s בתוספת מס רלוונטי כל יום&amp;lt;/price> החל מ-&amp;lt;start_time>%3$s&amp;lt;/start_time> עד שתבטל את המנוי.</item>
+        <item quantity="two">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s בתוספת מס רלוונטי כל %2$d יומיים&amp;lt;/price> החל מ-&amp;lt;start_time>%3$s&amp;lt;/start_time> עד שתבטל את המנוי.</item>
+        <item quantity="many">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s בתוספת מס רלוונטי כל %2$d ימים&amp;lt;/price> החל מ-&amp;lt;start_time>%3$s&amp;lt;/start_time> עד שתבטל את המנוי.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day_tax_limited">
-        <item quantity="other">תחויב באופן אוטומטי בסך של &lt;price>%1$s בתוספת מס רלוונטי כל %2$d ימים&lt;/price> למשך &lt;duration>%3$d הימים הבאים&lt;/duration> החל מ- &lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="one">תחויב באופן אוטומטי בסך של &lt;price>%1$s בתוספת מס רלוונטי כל יום&lt;/price> למשך &lt;duration>%3$d הימים הבאים&lt;/duration> החל מ- &lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="two">תחויב באופן אוטומטי בסך של &lt;price>%1$s בתוספת מס רלוונטי כל %2$d יומיים&lt;/price> למשך &lt;duration>%3$d הימים הבאים&lt;/duration> החל מ- &lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="many">תחויב באופן אוטומטי בסך של &lt;price>%1$s בתוספת מס רלוונטי כל %2$d ימים&lt;/price> למשך &lt;duration>%3$d הימים הבאים&lt;/duration> החל מ- &lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="other">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s בתוספת מס רלוונטי כל %2$d ימים&amp;lt;/price> למשך &amp;lt;duration>%3$d הימים הבאים&amp;lt;/duration> החל מ- &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="one">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s בתוספת מס רלוונטי כל יום&amp;lt;/price> למשך &amp;lt;duration>%3$d הימים הבאים&amp;lt;/duration> החל מ- &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="two">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s בתוספת מס רלוונטי כל %2$d יומיים&amp;lt;/price> למשך &amp;lt;duration>%3$d הימים הבאים&amp;lt;/duration> החל מ- &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="many">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s בתוספת מס רלוונטי כל %2$d ימים&amp;lt;/price> למשך &amp;lt;duration>%3$d הימים הבאים&amp;lt;/duration> החל מ- &amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month">
-        <item quantity="other">תחויב באופן אוטומטי בסך של &lt;price>%1$s כל %2$d חודשים&lt;/price> החל מ-&lt;start_time>%3$s&lt;/start_time> עד שתבטל את המנוי.</item>
-        <item quantity="one">תחויב באופן אוטומטי בסך של &lt;price>%1$s כל חודש&lt;/price> החל מ-&lt;start_time>%3$s&lt;/start_time> עד שתבטל את המנוי.</item>
-        <item quantity="two">תחויב באופן אוטומטי בסך של &lt;price>%1$s כל %2$d חודשיים&lt;/price> החל מ-&lt;start_time>%3$s&lt;/start_time> עד שתבטל את המנוי.</item>
-        <item quantity="many">תחויב באופן אוטומטי בסך של &lt;price>%1$s כל %2$d חודשים&lt;/price> החל מ-&lt;start_time>%3$s&lt;/start_time> עד שתבטל את המנוי.</item>
+        <item quantity="other">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s כל %2$d חודשים&amp;lt;/price> החל מ-&amp;lt;start_time>%3$s&amp;lt;/start_time> עד שתבטל את המנוי.</item>
+        <item quantity="one">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s כל חודש&amp;lt;/price> החל מ-&amp;lt;start_time>%3$s&amp;lt;/start_time> עד שתבטל את המנוי.</item>
+        <item quantity="two">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s כל %2$d חודשיים&amp;lt;/price> החל מ-&amp;lt;start_time>%3$s&amp;lt;/start_time> עד שתבטל את המנוי.</item>
+        <item quantity="many">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s כל %2$d חודשים&amp;lt;/price> החל מ-&amp;lt;start_time>%3$s&amp;lt;/start_time> עד שתבטל את המנוי.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month_limited">
-        <item quantity="other">תחויב באופן אוטומטי בסך של &lt;price>%1$s כל %2$d חודשים&lt;/price> למשך &lt;duration>%3$d החודשים הבאים&lt;/duration> החל מ-&lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="one">תחויב באופן אוטומטי בסך של &lt;price>%1$s כל חודש&lt;/price> למשך &lt;duration>%3$d החודשים הבאים&lt;/duration> החל מ-&lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="two">תחויב באופן אוטומטי בסך של &lt;price>%1$s כל %2$d חודשיים&lt;/price> למשך &lt;duration>%3$d החודשים הבאים&lt;/duration> החל מ-&lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="many">תחויב באופן אוטומטי בסך של &lt;price>%1$s כל %2$d חודשים&lt;/price> למשך &lt;duration>%3$d החודשים הבאים&lt;/duration> החל מ-&lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="other">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s כל %2$d חודשים&amp;lt;/price> למשך &amp;lt;duration>%3$d החודשים הבאים&amp;lt;/duration> החל מ-&amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="one">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s כל חודש&amp;lt;/price> למשך &amp;lt;duration>%3$d החודשים הבאים&amp;lt;/duration> החל מ-&amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="two">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s כל %2$d חודשיים&amp;lt;/price> למשך &amp;lt;duration>%3$d החודשים הבאים&amp;lt;/duration> החל מ-&amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="many">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s כל %2$d חודשים&amp;lt;/price> למשך &amp;lt;duration>%3$d החודשים הבאים&amp;lt;/duration> החל מ-&amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month_tax">
-        <item quantity="other">תחויב באופן אוטומטי בסך של &lt;price>%1$s בתוספת מס רלוונטי כל %2$d חודשים&lt;/price> החל מ-&lt;start_time>%3$s&lt;/start_time> עד שתבטל את המנוי.</item>
-        <item quantity="one">תחויב באופן אוטומטי בסך של &lt;price>%1$s בתוספת מס רלוונטי כל חודש&lt;/price> החל מ-&lt;start_time>%3$s&lt;/start_time> עד שתבטל את המנוי.</item>
-        <item quantity="two">תחויב באופן אוטומטי בסך של &lt;price>%1$s בתוספת מס רלוונטי כל %2$d חודשיים&lt;/price> החל מ-&lt;start_time>%3$s&lt;/start_time> עד שתבטל את המנוי.</item>
-        <item quantity="many">תחויב באופן אוטומטי בסך של &lt;price>%1$s בתוספת מס רלוונטי כל %2$d חודשים&lt;/price> החל מ-&lt;start_time>%3$s&lt;/start_time> עד שתבטל את המנוי.</item>
+        <item quantity="other">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s בתוספת מס רלוונטי כל %2$d חודשים&amp;lt;/price> החל מ-&amp;lt;start_time>%3$s&amp;lt;/start_time> עד שתבטל את המנוי.</item>
+        <item quantity="one">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s בתוספת מס רלוונטי כל חודש&amp;lt;/price> החל מ-&amp;lt;start_time>%3$s&amp;lt;/start_time> עד שתבטל את המנוי.</item>
+        <item quantity="two">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s בתוספת מס רלוונטי כל %2$d חודשיים&amp;lt;/price> החל מ-&amp;lt;start_time>%3$s&amp;lt;/start_time> עד שתבטל את המנוי.</item>
+        <item quantity="many">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s בתוספת מס רלוונטי כל %2$d חודשים&amp;lt;/price> החל מ-&amp;lt;start_time>%3$s&amp;lt;/start_time> עד שתבטל את המנוי.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month_tax_limited">
-        <item quantity="other">תחויב באופן אוטומטי בסך של &lt;price>%1$s בתוספת מס רלוונטי כל %2$d חודשים&lt;/price> למשך &lt;duration>%3$d החודשים הבאים&lt;/duration> החל מ-&lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="one">תחויב באופן אוטומטי בסך של &lt;price>%1$s בתוספת מס רלוונטי כל חודש &lt;/price> למשך &lt;duration>%3$d החודשים הבאים&lt;/duration> החל מ-&lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="two">תחויב באופן אוטומטי בסך של &lt;price>%1$s בתוספת מס רלוונטי כל %2$d חודשיים&lt;/price> למשך &lt;duration>%3$d החודשים הבאים&lt;/duration> החל מ-&lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="many">תחויב באופן אוטומטי בסך של &lt;price>%1$s בתוספת מס רלוונטי כל %2$d חודשים&lt;/price> למשך &lt;duration>%3$d החודשים הבאים&lt;/duration> החל מ-&lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="other">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s בתוספת מס רלוונטי כל %2$d חודשים&amp;lt;/price> למשך &amp;lt;duration>%3$d החודשים הבאים&amp;lt;/duration> החל מ-&amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="one">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s בתוספת מס רלוונטי כל חודש &amp;lt;/price> למשך &amp;lt;duration>%3$d החודשים הבאים&amp;lt;/duration> החל מ-&amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="two">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s בתוספת מס רלוונטי כל %2$d חודשיים&amp;lt;/price> למשך &amp;lt;duration>%3$d החודשים הבאים&amp;lt;/duration> החל מ-&amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="many">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s בתוספת מס רלוונטי כל %2$d חודשים&amp;lt;/price> למשך &amp;lt;duration>%3$d החודשים הבאים&amp;lt;/duration> החל מ-&amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year">
-        <item quantity="other">תחויב באופן אוטומטי בסך של &lt;price>%1$s כל %2$d שנים&lt;/price> החל מ-&lt;start_time>%3$s&lt;/start_time> עד שתבטל את המנוי.</item>
-        <item quantity="one">תחויב באופן אוטומטי בסך של &lt;price>%1$s כל שנה&lt;/price> החל מ-&lt;start_time>%3$s&lt;/start_time> עד שתבטל את המנוי.</item>
-        <item quantity="two">תחויב באופן אוטומטי בסך של &lt;price>%1$s כל %2$d שנתיים&lt;/price> החל מ-&lt;start_time>%3$s&lt;/start_time> עד שתבטל את המנוי.</item>
-        <item quantity="many">תחויב באופן אוטומטי בסך של &lt;price>%1$s כל %2$d שנים&lt;/price> החל מ-&lt;start_time>%3$s&lt;/start_time> עד שתבטל את המנוי.</item>
+        <item quantity="other">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s כל %2$d שנים&amp;lt;/price> החל מ-&amp;lt;start_time>%3$s&amp;lt;/start_time> עד שתבטל את המנוי.</item>
+        <item quantity="one">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s כל שנה&amp;lt;/price> החל מ-&amp;lt;start_time>%3$s&amp;lt;/start_time> עד שתבטל את המנוי.</item>
+        <item quantity="two">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s כל %2$d שנתיים&amp;lt;/price> החל מ-&amp;lt;start_time>%3$s&amp;lt;/start_time> עד שתבטל את המנוי.</item>
+        <item quantity="many">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s כל %2$d שנים&amp;lt;/price> החל מ-&amp;lt;start_time>%3$s&amp;lt;/start_time> עד שתבטל את המנוי.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year_limited">
-        <item quantity="other">תחויב באופן אוטומטי בסך של &lt;price>%1$s כל %2$d שנים&lt;/price> למשך &lt;duration>%3$d השנים הבאות&lt;/duration> החל מ-&lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="one">תחויב באופן אוטומטי בסך של &lt;price>%1$s כל שנה&lt;/price> למשך &lt;duration>%3$d השנים הבאות&lt;/duration> החל מ-&lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="two">תחויב באופן אוטומטי בסך של &lt;price>%1$s כל %2$d שנתיים&lt;/price> למשך &lt;duration>%3$d השנים הבאות&lt;/duration> החל מ-&lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="many">תחויב באופן אוטומטי בסך של &lt;price>%1$s כל %2$d שנים&lt;/price> למשך &lt;duration>%3$d השנים הבאות&lt;/duration> החל מ-&lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="other">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s כל %2$d שנים&amp;lt;/price> למשך &amp;lt;duration>%3$d השנים הבאות&amp;lt;/duration> החל מ-&amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="one">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s כל שנה&amp;lt;/price> למשך &amp;lt;duration>%3$d השנים הבאות&amp;lt;/duration> החל מ-&amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="two">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s כל %2$d שנתיים&amp;lt;/price> למשך &amp;lt;duration>%3$d השנים הבאות&amp;lt;/duration> החל מ-&amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="many">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s כל %2$d שנים&amp;lt;/price> למשך &amp;lt;duration>%3$d השנים הבאות&amp;lt;/duration> החל מ-&amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year_tax">
-        <item quantity="other">תחויב באופן אוטומטי בסך של &lt;price>%1$s בתוספת מס רלוונטי כל %2$d שנים&lt;/price> החל מ-&lt;start_time>%3$s&lt;/start_time> עד שתבטל את המנוי.</item>
-        <item quantity="one">תחויב באופן אוטומטי בסך של &lt;price>%1$s בתוספת מס רלוונטי כל שנה &lt;/price> החל מ-&lt;start_time>%3$s&lt;/start_time> עד שתבטל את המנוי.</item>
-        <item quantity="two">תחויב באופן אוטומטי בסך של &lt;price>%1$s בתוספת מס רלוונטי כל %2$d שנתיים&lt;/price> החל מ-&lt;start_time>%3$s&lt;/start_time> עד שתבטל את המנוי.</item>
-        <item quantity="many">תחויב באופן אוטומטי בסך של &lt;price>%1$s בתוספת מס רלוונטי כל %2$d שנים&lt;/price> החל מ-&lt;start_time>%3$s&lt;/start_time> עד שתבטל את המנוי.</item>
+        <item quantity="other">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s בתוספת מס רלוונטי כל %2$d שנים&amp;lt;/price> החל מ-&amp;lt;start_time>%3$s&amp;lt;/start_time> עד שתבטל את המנוי.</item>
+        <item quantity="one">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s בתוספת מס רלוונטי כל שנה &amp;lt;/price> החל מ-&amp;lt;start_time>%3$s&amp;lt;/start_time> עד שתבטל את המנוי.</item>
+        <item quantity="two">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s בתוספת מס רלוונטי כל %2$d שנתיים&amp;lt;/price> החל מ-&amp;lt;start_time>%3$s&amp;lt;/start_time> עד שתבטל את המנוי.</item>
+        <item quantity="many">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s בתוספת מס רלוונטי כל %2$d שנים&amp;lt;/price> החל מ-&amp;lt;start_time>%3$s&amp;lt;/start_time> עד שתבטל את המנוי.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year_tax_limited">
-        <item quantity="other">תחויב באופן אוטומטי בסך של &lt;price>%1$s בתוספת מס רלוונטי כל %2$d שנים&lt;/price> למשך &lt;duration>%3$d השנים הבאות&lt;/duration> החל מ-&lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="one">תחויב באופן אוטומטי בסך של &lt;price>%1$s בתוספת מס רלוונטי כל שנה&lt;/price> למשך &lt;duration>%3$d השנים הבאות&lt;/duration> החל מ-&lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="two">תחויב באופן אוטומטי בסך של &lt;price>%1$s בתוספת מס רלוונטי כל %2$d שנתיים&lt;/price> למשך &lt;duration>%3$d השנים הבאות&lt;/duration> החל מ-&lt;start_time>%4$s&lt;/start_time>.</item>
-        <item quantity="many">תחויב באופן אוטומטי בסך של &lt;price>%1$s בתוספת מס רלוונטי כל %2$d שנים&lt;/price> למשך &lt;duration>%3$d השנים הבאות&lt;/duration> החל מ-&lt;start_time>%4$s&lt;/start_time>.</item>
+        <item quantity="other">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s בתוספת מס רלוונטי כל %2$d שנים&amp;lt;/price> למשך &amp;lt;duration>%3$d השנים הבאות&amp;lt;/duration> החל מ-&amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="one">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s בתוספת מס רלוונטי כל שנה&amp;lt;/price> למשך &amp;lt;duration>%3$d השנים הבאות&amp;lt;/duration> החל מ-&amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="two">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s בתוספת מס רלוונטי כל %2$d שנתיים&amp;lt;/price> למשך &amp;lt;duration>%3$d השנים הבאות&amp;lt;/duration> החל מ-&amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
+        <item quantity="many">תחויב באופן אוטומטי בסך של &amp;lt;price>%1$s בתוספת מס רלוונטי כל %2$d שנים&amp;lt;/price> למשך &amp;lt;duration>%3$d השנים הבאות&amp;lt;/duration> החל מ-&amp;lt;start_time>%4$s&amp;lt;/start_time>.</item>
     </plurals>
 </resources>

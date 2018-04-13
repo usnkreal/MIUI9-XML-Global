@@ -658,7 +658,7 @@
         <item>Utwórz katalog: mkdir /media/mtp</item>
         <item>Potwierdź uprawnienia grupowe użytkownika w bieżącej grupie</item>
         <item>Zaloguj się ponownie</item>
-        <item>Dostęp zmontowanego urządzenia: mtpfs /media/mtp za pomocą Eksplorera; tak samo lokalny katalog</item>
+        <item>Dostęp do podmontowanego urządzenia: mtpfs /media/mtp za pomocą Menadżera plików; tak samo jak do lokalnego katalogu.</item>
         <item>"Odinstaluj urządzenie: fusermount -u /media/mtp
 Informacja: Tylko dla Ubuntu 8.04!"</item>
     </string-array>
@@ -881,7 +881,7 @@ Informacja: Tylko dla Ubuntu 8.04!"</item>
         <item>Ekran blokady</item>
         <item>Hasło prywatności</item>
         <item>Tryb dziecięcy</item>
-        <item>Eksplorer</item>
+        <item>Menadżer Plików</item>
         <item>Blokowanie aplikacji</item>
         <item>Druga przestrzeń</item>
     </string-array>
@@ -1359,6 +1359,29 @@ Informacja: Tylko dla Ubuntu 8.04!"</item>
         <item>Zdjęcia</item>
         <item>Pliki</item>
         <item>Notatki</item>
+    </string-array>
+    <string-array name="region_support_face">
+        <item>IN</item>
+        <item>ID</item>
+        <item>RU</item>
+        <item>HK</item>
+        <item>TW</item>
+    </string-array>
+    <string-array name="device_support_face">
+        <item>jason</item>
+        <item>polaris</item>
+        <item>sagit</item>
+        <item>chiron</item>
+        <item>whyred</item>
+        <item>nitrogen</item>
+        <item>wayne</item>
+        <item>ysl</item>
+        <item>sakura</item>
+    </string-array>
+    <string-array name="device_global_support_face">
+        <item>whyred</item>
+        <item>polaris</item>
+        <item>ysl</item>
     </string-array>
     <string-array name="install_non_market_app_entries">
         <item>Włącz (zalecana)</item>

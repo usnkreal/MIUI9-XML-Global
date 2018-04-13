@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="incorrect_pukcode_remaining_attempts">
-        <item quantity="other">Hibás PUK kód, %d próbálkozása maradt</item>
-        <item quantity="one">Hibás PUK kód, %d próbálkozása maradt</item>
+        <item quantity="other">Helytelen PUK-kód, %d próbálkozása maradt</item>
+        <item quantity="one">Helytelen PUK-kód, %d próbálkozása maradt</item>
     </plurals>
     <plurals name="incorrect_pincode_remaining_attempts">
-        <item quantity="other">Hibás PIN kód, %d próbálkozása maradt</item>
-        <item quantity="one">Hibás PIN kód, %d próbálkozása maradt</item>
+        <item quantity="other">Hibás PIN-kód, %d próbálkozása maradt</item>
+        <item quantity="one">Hibás PIN-kód, %d próbálkozása maradt</item>
     </plurals>
     <plurals name="phone_locked_timeout_seconds_string">
         <item quantity="other">Próbálja újra %d másodpercen belül</item>

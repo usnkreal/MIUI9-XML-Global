@@ -33,7 +33,7 @@
     <string name="attach_sound">오디오</string>
     <string name="attach_subject">제목</string>
     <string name="attach_take_photo">사진 촬영</string>
-    <string name="attach_transaction">돈 전송</string>
+    <string name="attach_transaction">송금</string>
     <string name="attach_video">동영상</string>
     <string name="audio_download_failed">오디오를 다운로드하지 못했습니다.</string>
     <string name="audio_message_expired">음성메시지 보관기간이 지났습니다.</string>

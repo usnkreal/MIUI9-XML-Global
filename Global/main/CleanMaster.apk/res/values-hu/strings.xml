@@ -5,9 +5,9 @@
     <string name="menu_install">Alkalmazás telepítése</string>
     <string name="menu_add_to_white_list">Hozzáadás a kivételekhez</string>
     <string name="text_optimizer">Mappanevek feltöltése</string>
-    <string name="summary_optimizer">Ismeretlen alkalmazások neveinek feltöltése és összehasonlítása az online adatbázissal</string>
+    <string name="summary_optimizer">Ez a funkció feltölti a mappák neveit a Cheetah Mobile online adatbázisának frissítése érdekében és a készüléke azonosítóját igényli.</string>
     <string name="button_optimizer">OK</string>
-    <string name="name_optimizer">Adatvédelmi nyilatkozat</string>
+    <string name="name_optimizer">Adatvédelmi irányelvek</string>
     <string name="title_optimizer">Felhasználási feltételek</string>
     <string name="header_optimizer">A szolgáltatás használatával a %s elfogadása.</string>
     <string name="byteShort">B</string>
@@ -350,7 +350,7 @@
     <string name="deepclean_list_item_from_download">Letöltés</string>
     <string name="deepclean_list_item_from_music">Zene</string>
     <string name="deepclean_list_item_from_miui">MIUI</string>
-    <string name="deepclean_list_item_from_sdcard">SD kártya</string>
+    <string name="deepclean_list_item_from_sdcard">SD-kártya</string>
     <string name="deepclean_size_summary_less">A készüléken kevés a szabad tárhely</string>
     <string name="deepclean_size_summary_not_enough">Nincs elég hely</string>
     <string name="deepclean_size_summary_normal">Elérhető tárhely</string>
@@ -387,7 +387,7 @@
     <string name="dialog_msg_stop_scan">Leállítja a keresést most?</string>
     <string name="dialog_title_esc_cleanmaster">Kilépés a Tisztítóból</string>
     <string name="dialog_msg_esc_cleanmaster">Leállítja a keresést és most kilép a Tisztítóból?</string>
-    <string name="pref_category_title_engine_settings">Keresési definíció beállítások</string>
+    <string name="pref_category_title_engine_settings">Keresési definíció beállítása</string>
     <string name="pref_title_choose_engine">Adatbázisok</string>
     <string name="recommend_the_following">Kövesse a következő utasításokat, hogy a legtöbbet hozza ki a készülékéből</string>
     <string name="news_change">Módosítás</string>
@@ -422,7 +422,7 @@
     <string name="wechat_qq_normal_files">Szemét</string>
     <string name="wechat_cache_files">WeChat gyorsítótár</string>
     <string name="qq_cache_files">QQ gyorsítótár</string>
-    <string name="wechat_qq_activity_title">Mélytisztítás</string>
+    <string name="wechat_qq_activity_title">Mély tisztítás</string>
     <string name="wechat_qq_chat_files">Csevegési előzmények</string>
     <string name="analying">Elemzés/u2026</string>
     <string name="open_file_error">Nem található alkalmazás ennek a fájlnak a megnyitásához</string>
@@ -479,7 +479,7 @@
     <string name="wechat_qq_celan_tab_voice">Hangüzenetek</string>
     <string name="wechat_qq_celan_tab_image">Képek</string>
     <string name="wechat_qq_celan_tab_file">Fájlok</string>
-    <string name="wechat_qq_deep_clean_button_text">Mélytisztítás</string>
+    <string name="wechat_qq_deep_clean_button_text">Mély tisztítás</string>
     <string name="wechat_clean_finish_summary">Kiválasztott fájlok sikeresen törölve</string>
     <string name="qq_clean_finish_summary">Kiválasztott fájlok sikeresen törölve</string>
     <string name="wechat_clean_finish_empty_summary">Minden jónak tűnik</string>
@@ -497,4 +497,17 @@
     <string name="auto_clean_time_three_day">3 naponta</string>
     <string name="auto_clean_time_seven_day">7 naponta</string>
     <string name="auto_clean_time_fifteen_day">15 naponta</string>
+    <string name="pref_category_title_auto_clean_config_settings">Automatikus tisztítások</string>
+    <string name="pref_title_auto_clean">Automatikus tisztítás</string>
+    <string name="pref_title_auto_clean_operation">Tisztítás módja</string>
+    <string name="pref_title_auto_clean_trigger">Tárhely tisztítása</string>
+    <string name="auto_clean_operation_dialog_title">Tisztítás módja</string>
+    <string name="auto_clean_operation_clean_and_alert">Emlékeztetés és tisztítás</string>
+    <string name="auto_clean_operation_just_clean">Csak tisztítás</string>
+    <string name="auto_clean_trigger_dialog_title">Tárhely tisztítása</string>
+    <string name="auto_clean_trigger_percent_ninety">Ha 90% foglalt</string>
+    <string name="auto_clean_trigger_percent_eighty">Ha 80% foglalt</string>
+    <string name="auto_clean_trigger_percent_sixty">Ha 60% foglalt</string>
+    <string name="auto_clean_notification_title">Emlékeztessen a tisztításra</string>
+    <string name="auto_clean_notification_content">%s szemét törölve</string>
 </resources>

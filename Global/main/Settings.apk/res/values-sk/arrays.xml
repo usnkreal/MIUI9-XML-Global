@@ -34,12 +34,12 @@
         <item>Všetko</item>
     </string-array>
     <string-array name="screen_timeout_entries">
-        <item>15 sekundách</item>
-        <item>30 sekundách</item>
-        <item>1 minúte</item>
-        <item>2 minútach</item>
-        <item>5 minútach</item>
-        <item>10 minútach</item>
+        <item>15 sekúnd</item>
+        <item>30 sekúnd</item>
+        <item>1 minúta</item>
+        <item>2 minúty</item>
+        <item>5 minút</item>
+        <item>10 minút</item>
         <item>Nikdy</item>
     </string-array>
     <string-array name="dream_timeout_entries">
@@ -544,7 +544,7 @@
     <string-array name="battery_indicator_style_entries">
         <item>Grafická</item>
         <item>Percentá</item>
-        <item>Čiara nad oznamovacou lištou</item>
+        <item>Linka nad oznamovacou lištou</item>
     </string-array>
     <string-array name="usb_connection_mode_entries">
         <item>Pýtať sa pri pripojení</item>
@@ -594,13 +594,13 @@
     <string-array name="screen_key_long_press_timeout">
         <item>0.5 sekundy</item>
         <item>1 sekunda</item>
-        <item>1.5 sekundy</item>
+        <item>1,5 sekundy</item>
         <item>2 sekundy</item>
     </string-array>
     <string-array name="long_press_volume_down_action">
         <item>Žiadne</item>
-        <item>Rýchle zhotovenie fotografie</item>
-        <item>Rýchle zhotovenie videa</item>
+        <item>Režim Rýchle zhotovenie (fotografie)</item>
+        <item>Režim Rýchle zhotovenie (videa)</item>
         <item>Mestská doprava</item>
     </string-array>
     <string-array name="button_light_timeout_entries">
@@ -612,25 +612,25 @@
         <item>Vždy zapnuté</item>
     </string-array>
     <string-array name="wfd_status">
-        <item>Zariadenie pripojené...</item>
-        <item>Session created</item>
-        <item>Session tearing down...</item>
-        <item>Session failed</item>
-        <item>Session creating timeout, retrying...</item>
+        <item>Spúšťa sa relácia…</item>
+        <item>Relácia spustená</item>
+        <item>Vypína sa služba…</item>
+        <item>Reláciu nemožno spustiť</item>
+        <item>Čas vypršal. Opakovanie…</item>
         <item>Zariadenie pripojené</item>
     </string-array>
     <string-array name="power_mode_entries">
         <item>Výkonný režim</item>
-        <item>Vyvážený režim (Predvolené)</item>
+        <item>Vyvážený režim</item>
     </string-array>
     <string-array name="msd_pc_system">
         <item>Windows XP alebo starší</item>
-        <item>Windows Vista,7,8</item>
+        <item>Windows Vista a novší</item>
         <item>OSX</item>
         <item>Linux</item>
     </string-array>
     <string-array name="msd_pc_system_install_summary">
-        <item>\"2. Sprievodca sa zobrazí pri inštalácií, Postupujte podľa pokynov\"</item>
+        <item>2. Postupujte podľa pokynov na obrazovke</item>
         <item></item>
         <item></item>
         <item></item>
@@ -658,7 +658,7 @@
         <item>Vytvorte zložku: mkdir /media/mtp</item>
         <item>Potvrďte skupinové práva</item>
         <item>Znova sa prihláste</item>
-        <item>Prístup k pripojenému zariadeniu: mtpfs /media/mtp cez prieskumníka súborov; rovnaké ako miestny adresár</item>
+        <item>Prístup k pripojenému zariadeniu: mtpfs /media/mtp cez Správcu súborov; rovnaký ako lokálny priečinok.</item>
         <item>"Odinštalovať zariadenie: fusermount -u /media/mtp
 Poznámka: Iba pre Ubuntu 8.04!"</item>
     </string-array>
@@ -701,8 +701,8 @@ Poznámka: Iba pre Ubuntu 8.04!"</item>
         <item>Heslo</item>
     </string-array>
     <string-array name="wifi_connect_type_entries">
-        <item>Connect automatically</item>
-        <item>Connect manually</item>
+        <item>Pripojiť automaticky</item>
+        <item>Pripojiť manuálne</item>
         <item>Vždy sa opýtať</item>
     </string-array>
     <string-array name="wifi_ssid_type_entries">
@@ -718,7 +718,7 @@ Poznámka: Iba pre Ubuntu 8.04!"</item>
         <item>Galéria</item>
         <item>Hudba</item>
         <item>E-mail</item>
-        <item>Video</item>
+        <item>Prehrať video</item>
     </string-array>
     <string-array name="network_speed_slow_summary">
         <item>Sieť je pomalá z dôvodu jej preťaženia</item>
@@ -779,9 +779,9 @@ Poznámka: Iba pre Ubuntu 8.04!"</item>
         <item>Studený</item>
     </string-array>
     <string-array name="handy_mode_size_text_entries">
-        <item>4,5\"</item>
-        <item>4,0\"</item>
-        <item>3,5\"</item>
+        <item>4,5 palca</item>
+        <item>4 palce</item>
+        <item>3,5 palca</item>
     </string-array>
     <string-array name="handy_mode_size_value_entries">
         <item>4.5</item>
@@ -789,11 +789,11 @@ Poznámka: Iba pre Ubuntu 8.04!"</item>
         <item>3.5</item>
     </string-array>
     <string-array name="lock_screen_secure_after_timeout_entries">
-        <item>okamžite</item>
-        <item>30 sekúnd</item>
-        <item>1 minúta</item>
-        <item>2 minútach</item>
-        <item>5 minútach</item>
+        <item>Okamžite</item>
+        <item>Po 30 sekundách</item>
+        <item>Po 1 minúte</item>
+        <item>Po 2 minútach</item>
+        <item>Po 5 minútach</item>
         <item>Nikdy</item>
     </string-array>
     <string-array name="fluency_mode_entries">
@@ -801,12 +801,12 @@ Poznámka: Iba pre Ubuntu 8.04!"</item>
         <item>Povoliť animácie systému</item>
     </string-array>
     <string-array name="fluency_mode_summaries">
-        <item>Pre zrýchlenie vášho zariadenia vypnite animácie systému</item>
-        <item>Zobrazenie animácií systému môže spomaliť vaše zariadenie</item>
+        <item>Zrýchliť výkon zariadenia</item>
+        <item>Môže spomaliť výkon vášho zariadenia</item>
     </string-array>
     <string-array name="fluency_mode_confirms">
-        <item>Reštartovať vaše zariadenie pre aplikovanie týchto zmien?</item>
-        <item>Reštartovať vaše zariadenie pre aplikovanie týchto zmien?</item>
+        <item>Reštartovať vaše zariadenie pre aplikovanie tohto nastavenia?</item>
+        <item>Reštartovať vaše zariadenie pre aplikovanie tohto nastavenia?</item>
     </string-array>
     <string-array name="screen_resolution_entries">
         <item>Ultra vysoké (2K)</item>
@@ -879,10 +879,10 @@ Poznámka: Iba pre Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="common_password_business_names">
         <item>Zámok displeja</item>
-        <item>Ochrana súkromia</item>
+        <item>Heslo ochrany súkromia</item>
         <item>Detský režim</item>
-        <item>Súkromné súbory</item>
-        <item>Druhý priestor</item>
+        <item>Správca súborov</item>
+        <item>Zámok aplikácie</item>
         <item>Druhý priestor</item>
     </string-array>
     <string-array name="city_name">
@@ -1167,14 +1167,14 @@ Poznámka: Iba pre Ubuntu 8.04!"</item>
         <item>Bengalúru</item>
         <item>Brazília</item>
         <item>Kapské Mesto</item>
-        <item>Islamabad</item>
+        <item>Islamabád</item>
         <item>Rio de Janeiro</item>
         <item>Ann Arbor</item>
         <item>Boulder</item>
         <item>Cambridge</item>
         <item>Kirkland</item>
         <item>Madison</item>
-        <item>Guangzhou</item>
+        <item>Kanton</item>
         <item>Hajdarábad</item>
         <item>Reston</item>
         <item>Belo Horizonte</item>
@@ -1359,6 +1359,29 @@ Poznámka: Iba pre Ubuntu 8.04!"</item>
         <item>Fotky</item>
         <item>Súbory</item>
         <item>Poznámky</item>
+    </string-array>
+    <string-array name="region_support_face">
+        <item>IN</item>
+        <item>ID</item>
+        <item>RU</item>
+        <item>HK</item>
+        <item>TW</item>
+    </string-array>
+    <string-array name="device_support_face">
+        <item>jason</item>
+        <item>polaris</item>
+        <item>sagit</item>
+        <item>chiron</item>
+        <item>whyred</item>
+        <item>nitrogen</item>
+        <item>wayne</item>
+        <item>ysl</item>
+        <item>sakura</item>
+    </string-array>
+    <string-array name="device_global_support_face">
+        <item>whyred</item>
+        <item>polaris</item>
+        <item>ysl</item>
     </string-array>
     <string-array name="install_non_market_app_entries">
         <item>Zapnúť (odporúča sa)</item>

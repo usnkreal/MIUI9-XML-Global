@@ -33,7 +33,7 @@
     <string name="attach_sound">Audio</string>
     <string name="attach_subject">Predmet</string>
     <string name="attach_take_photo">Odfotiť</string>
-    <string name="attach_transaction">Odoslať peniaze</string>
+    <string name="attach_transaction">Previesť peniaze</string>
     <string name="attach_video">Videá</string>
     <string name="audio_download_failed">sťahovanie nahrávky zlyhalo</string>
     <string name="audio_message_expired">Táto hlasová správa expirovala.</string>
@@ -152,7 +152,7 @@
     <string name="enter_edit_mode">Upraviť</string>
     <string name="error_code_label">Chyba kódu:</string>
     <string name="error_state">Nekonzistentný stav</string>
-    <string name="error_state_text">Väzby medzi správami a príjemcami sú nekonzistentné. Získajte chybové hlásenie a odošlite ho na android-sms-bugs@google.com.</string>
+    <string name="error_state_text">Väzby medzi správami a príjemcami sú nekonzistentné. Získajte chybové hlásenie a odošlite ho na http://go/droidanizer</string>
     <string name="error_timed_msg">Čas v minulosti sa nedá nastaviť</string>
     <string name="ex_type_guide">Informácie</string>
     <string name="ex_type_mx">Cloud správa</string>

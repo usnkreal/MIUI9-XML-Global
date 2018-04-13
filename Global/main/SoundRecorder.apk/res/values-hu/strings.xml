@@ -73,7 +73,7 @@
     <string name="pause">Szüneteltetés</string>
     <string name="back">Vissza</string>
     <string name="menu">Menü</string>
-    <string name="toast_uninstall_fileexplorer">Nincs telepítve fájlkezelő alkalmazás!</string>
+    <string name="toast_uninstall_fileexplorer">Fájlkezelő nincs telepítve</string>
     <string name="record_download">Letöltés a Mi Cloudból</string>
     <string name="record_download_msg">A felvétel csak a letöltés befejeztével játszható le.</string>
     <string name="record_download_msg_reload">A felvétel nem található</string>
@@ -92,7 +92,7 @@
     <string name="data_connection_title">Tipp</string>
     <string name="data_connection_body">A mobiladat-kapcsolattal történő fájlletöltés növeli az adatforgalmat. Ha túllépi az adatforgalmazási limitet, a szolgáltató további díjakat számolhat fel.</string>
     <string name="data_connection_button_text">OK</string>
-    <string name="error_sdcard_unmounted">Helyezzen be egy SD kártyát</string>
+    <string name="error_sdcard_unmounted">Helyezzen be egy SD-kártyát</string>
     <string name="record_back_pressed_hint">Kattintson újra a felvétel leállításához</string>
     <string name="record_mark_point">%s megjelölése</string>
     <string name="record_quliaty_preference_title">Felvétel minősége</string>
@@ -151,5 +151,5 @@
     <string name="head_set_tip_dialog_msg">Húzza ki a fülhallgatót, hogy fel tudja venni a hangot a megadott beállításokkal (pl., zene, hang).</string>
     <string name="head_set_tip_dialog_ok">Rendben</string>
     <string name="rename_fail_tip">Az átnevezés nem sikerült. Már van ugyanilyen nevű elem.</string>
-    <string name="dialog_privacy_revoke_tips">Miután visszavonja az engedélyt, az alkalmazás nem gyűjt többé adatokat, és az összes kapcsolódó adatot törli a kiszolgálókról. Ez gyakorlatilag használhatatlanná teheti az alkalmazást. Mégis visszavonja az engedélyt? A fiókbiztonság érdekében jelentkezzen be az i.mi.com weboldalra, mielőtt visszavonja a Mi Cloud szolgáltatás engedélyét.</string>
+    <string name="dialog_privacy_revoke_tips">Miután visszavonta az engedélyt, az alkalmazás nem gyűjt többé adatokat, és az összes kapcsolódó adatot törli a kiszolgálókról. Ez gyakorlatilag használhatatlanná teheti az alkalmazást. Mégis visszavonja az engedélyt? A fiókbiztonság érdekében jelentkezzen be az i.mi.com weboldalra, mielőtt visszavonja a Mi Cloud szolgáltatás engedélyét.</string>
 </resources>

@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="firewall_item_summary">
+        <item quantity="other">Begrenser tilkobling for %s apper</item>
+        <item quantity="one">Begrenser tilkobling for %s app</item>
+    </plurals>
+    <plurals name="bg_network_allow_count">
+        <item quantity="other">%d apper kan koble til nettverket</item>
+        <item quantity="one">%d app kan koble til nettverket</item>
+    </plurals>
+    <plurals name="bg_network_restrict_count">
+        <item quantity="other">%d apper kan ikke koble til nettverket</item>
+        <item quantity="one">%d app kan ikke koble til nettverket</item>
+    </plurals>
     <plurals name="status_bar_settings_disabled_header_title">
-        <item quantity="other">"%d apps can't show notifications"</item>
-        <item quantity="one">%d apper kan ikke vise varsler</item>
+        <item quantity="other">%d apper kan ikke vise varsler</item>
+        <item quantity="one">"%d app can't show notifications"</item>
     </plurals>
     <plurals name="status_bar_settings_enabled_header_title">
-        <item quantity="other">%d apps can show notifications</item>
-        <item quantity="one">%d apper kan vise varsler</item>
+        <item quantity="other">%d apper kan vise varsler</item>
+        <item quantity="one">%d app can show notifications</item>
     </plurals>
     <plurals name="settings_toggle_position_divider_page">
         <item quantity="other">%1$d toggles will appear in the Notification shade</item>
@@ -53,20 +65,20 @@
         <item quantity="one">%d app angir betingelser</item>
     </plurals>
     <plurals name="auto_startup_count">
-        <item quantity="other">%d apps are allowed to autostart</item>
-        <item quantity="one">%d apper har tillatelse til å starte automatisk</item>
+        <item quantity="other">%d apper har tillatelse til å starte automatisk</item>
+        <item quantity="one">%d app har tillatelse til å starte automatisk</item>
     </plurals>
     <plurals name="lockpassword_pin_fixed_length">
-        <item quantity="other">PIN must be %d digits</item>
-        <item quantity="one">PIN-koden må være på %d siffer</item>
+        <item quantity="other">PIN-koden må være på %d siffer</item>
+        <item quantity="one">PIN must be %d digit</item>
     </plurals>
     <plurals name="wifi_share_count">
         <item quantity="other">Delte %d nettverk</item>
         <item quantity="one">Delte %d nettverk</item>
     </plurals>
     <plurals name="connected_devices_number">
-        <item quantity="other">%d devices</item>
-        <item quantity="one">%d enheter</item>
+        <item quantity="other">%d enheter</item>
+        <item quantity="one">%d device</item>
     </plurals>
     <plurals name="free_wifi_connected_count">
         <item quantity="other">%1$d personer tilkoblet</item>
@@ -93,12 +105,12 @@
         <item quantity="one">Aldri deaktiver for 1 app</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short">
-        <item quantity="other">PIN must be %d digits long</item>
-        <item quantity="one">PIN-kode må være på %d siffer</item>
+        <item quantity="other">PIN-kode må være på %d siffer</item>
+        <item quantity="one">PIN must be %d digit long</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long">
-        <item quantity="other">PIN can contain up to %d digits</item>
-        <item quantity="one">PIN-koden kan inneholde opptil %d sifre</item>
+        <item quantity="other">PIN-koden kan inneholde opptil %d sifre</item>
+        <item quantity="one">PIN can contain up to %d digit</item>
     </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
         <item quantity="other">Koble minst %d prikker. Prøv igjen.</item>
@@ -109,7 +121,7 @@
         <item quantity="one">For mange feilaktige forsøk. Prøv igjen om %d sekund.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
-        <item quantity="other">Wait for %d seconds and try again.</item>
-        <item quantity="one">Vent i %d sekunder og prøv igjen.</item>
+        <item quantity="other">Vent i %d sekunder og prøv igjen.</item>
+        <item quantity="one">Vent i %d sekund og prøv igjen.</item>
     </plurals>
 </resources>

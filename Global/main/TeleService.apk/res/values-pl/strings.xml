@@ -643,7 +643,7 @@ Pozostało prób: %d."</string>
     <string name="dtmf_tones_summary">Ustaw długość tonów DTMF</string>
     <string name="network_info_message">Komunikat sieciowy</string>
     <string name="network_error_message">Nie można połączyć z siecią</string>
-    <string name="managed_roaming_title">Managed Roaming</string>
+    <string name="managed_roaming_title">Zarządzany roaming</string>
     <string name="managed_roaming_title_sub">Zarządzany roaming (SUB%d)</string>
     <string name="managed_roaming_dialog_content">Wykryto sieć z ograniczoną usługą. Włączyć wyszukiwanie sieci?</string>
     <string name="ota_title_activate">Aktywuj telefon</string>
@@ -1106,7 +1106,6 @@ Karta SIM zostanie wyczyszczona, jeśli następna próba będzie niepomyślna."<
     <string name="network_unlock">Odblokuj</string>
     <string name="roaming_notification_title">Wygląda na to, że roaming jest włączony</string>
     <string name="roaming_notification_content">Możesz dodać kod kraju automatycznie, aby dzwonienie było wygodniejsze.</string>
-    <string name="livetalk_setting">Pakiet doładowania</string>
     <string name="description_image_button_one">jeden</string>
     <string name="description_image_button_two">dwa</string>
     <string name="description_image_button_three">trzy</string>
@@ -1201,6 +1200,7 @@ Karta SIM zostanie wyczyszczona, jeśli następna próba będzie niepomyślna."<
     <string name="sum_cfu_enabled_indicator_by_sim">Wszystkie połączenia na kartę SIM %s będą przekierowane</string>
     <string name="preference_dial_pad_touch_tone_off">Wyłączone</string>
     <string name="msim_disable_sim_card_summary_telecom_vice_card_inEcm">Nie ograniczaj swojej drugiej karty SIM w trybie alarmowym połączenia zwrotnego.</string>
+    <string name="msim_cmcc_dds_switch_not_support">Nie można przełączyć karty SIM ze względu na ograniczenia operatora.</string>
     <string name="simFdnContacts_empty">Brak ustalonych numerów kontaktów.</string>
     <string name="bad_pin2_old">Wprowadzony stary kod PIN2 jest niepoprawny.</string>
     <string name="dtmf_tone_entries_normal">Normalnie</string>
@@ -1209,6 +1209,7 @@ Karta SIM zostanie wyczyszczona, jeśli następna próba będzie niepomyślna."<
     <string name="network_type_3g_preferred_cmcc">3G/2G</string>
     <string name="change_default_data_card">Domyślna karta dla Internetu</string>
     <string name="change_default_data_card_summary">Wykryto zmianę kart SIM. Ustawić tę kartę SIM jako domyślną dla połączeń internetowych?</string>
+    <string name="volte_switch_title_ct">VoLTE włączone</string>
     <string name="volte_switch_summary2">Potwierdź, że twój operator obsługuje taką funkcję, przed jej włączeniem. W innym przypadku jakość zwykłych połączeń może się pogorszyć.</string>
     <string name="volte_switch_not_support_summary">Połączenia VoLTE nie są obsługiwane przez dane mobilne karty SIM.</string>
     <string name="volte_switch_not_support_summary2">Połączenia VoLTE nie są obsługiwane przez operatora.</string>
@@ -1273,13 +1274,15 @@ Karta SIM zostanie wyczyszczona, jeśli następna próba będzie niepomyślna."<
     <string name="cfnry_time_twenty_five_sec">25 sek</string>
     <string name="cfnry_time_thirty_sec">30 sek</string>
     <string name="cfnry_time_setting_title">Ustaw czas oczekiwania</string>
-    <string name="prompt_when_turnon_volte_without_lte">Sieci LTE nie są teraz dostępne. Włączenie VoLTE może uniemożliwić wykonane zwykłych połączeń.</string>
-    <string name="prompt_when_turnon_volte_on_3g_prefered">Wybierz LTE jako preferowany typ sieci, przed łączeniem VoLTE.</string>
+    <string name="prompt_when_turnon_volte_without_lte">Sieci VoLTE nie są teraz dostępne. Włączenie VoLTE może uniemożliwić wykonane zwykłych połączeń.</string>
+    <string name="prompt_when_turnon_volte_on_3g_prefered">Wybierz LTE jako preferowany typ sieci, przed włączeniem VoLTE.</string>
     <string name="prompt_to_turnoff_volte_when_failed">Usługi VoLTE nie są dostępne. Wyłącz VoLTE, aby wykonywać połączenia.</string>
-    <string name="volte_tips_when_turn_on">Usługi VoLTE China Telecom są dostępne tylko na obszarze z pokryciem sieci LTE.</string>
+    <string name="volte_tips_when_turn_on">Usługi VoLTE China Telecom są dostępne tylko na obszarach z pokryciem siecią VoLTE. Usługi VoLTE są dostarczane przez operatora.</string>
     <string name="prompt_to_turnoff_volte_when_supp_service">Usługa nie jest dostępna. Wyłącz VoLTE w Ustawieniach.</string>
     <string name="prefered_network_type_3g_promp">Należy wyłączyć VoLTE przed wybraniem 3G jako preferowanego typu sieci. Wyłączyć teraz?</string>
     <string name="close_volte">Wyłącz VoLTE</string>
+    <string name="vice_card_data_in_use_alert">Mogą zostać naliczone dodatkowe opłaty.</string>
+    <string name="switch_dds_to_sub_alert">Ustaw kartę jako domyślną kartę SIM dla danych.</string>
     <string name="pick_outgoing_call_phone_type">Połącz</string>
     <string name="pick_outgoing_sip_phone">Użyj konta do dzwonienia przez internet:</string>
     <string name="remember_my_choice">Zawsze używaj do połączeń przez internet</string>
@@ -1428,6 +1431,7 @@ Karta SIM zostanie wyczyszczona, jeśli następna próba będzie niepomyślna."<
     <string name="can_not_use">Nie można użyć</string>
     <string name="incall_error_no_active_sim">Brak karty SIM</string>
     <string name="incall_error_sim_deactive">Karta SIM jest nieaktywna</string>
+    <string name="livetalk_setting">Pakiet doładowania</string>
     <string name="select_one_sim_title">Może korzystać tylko z SIM %1$d</string>
     <string name="select_sim_hint">Nie można skorzystać z SIM %2$d podczas gdy SIM %1$d jest w użyciu.</string>
 </resources>

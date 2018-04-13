@@ -40,7 +40,7 @@
     <string name="menu_title_current_version_log">새 소식</string>
     <string name="menu_title_apply_for_alpha">베타 테스트 프로그램 등록</string>
     <string name="menu_title_feedback">피드백</string>
-    <string name="install_file_explorer">먼저 파일 탐색기를 설치하십시오</string>
+    <string name="install_file_explorer">먼저 파일 관리자를 설치하십시오</string>
     <string name="boot_recovery">복구 모드로 재시작하시겠습니까?</string>
     <string name="cancel_download">업데이트 다운로드를 중지하시겠습니까?</string>
     <string name="continue_update_positive_btn">중지</string>
@@ -143,6 +143,10 @@ http://zhushou.xiaomi.com 를 사용하여 시도해 보십시오."</string>
     <string name="notification_express_available">%1$s 다운로드 대기 중</string>
     <string name="notification_express_ready">%1$s 준비됨</string>
     <string name="express_update_reserve_content">현재 버전에서 바로 %1$s 버전으로는 업데이트가 불가합니다. %1$s 버전으로의 업데이트 예약을 하시겠습니까? 예약 완료 후 업데이트가 가능할 때 알려드립니다. 그전에는 현재 버전의 업데이트를 확인하실 수 있습니다.</string>
+    <string name="express_update_reserve_content2">"안정화 ROM으로 업그레이드하신 후 일부 사항이 변경될 것입니다. 변경사항:
+1. 이전에 허용했었던 루트 권한이 제한될 것입니다.
+2. 베타 ROM에서만 사용 가능한 일부 기능을 안정화 버전에서는 사용하실 수 없습니다."</string>
+    <string name="express_update_reserve_check_text">ROM 버전 간의 차이점을 이해했습니다</string>
     <string name="express_update_reserve_positive">%s 예약</string>
     <string name="express_update_reserve_negative">예약 취소</string>
     <string name="express_update_switch_content_no_erase">MIUI가 새 버전 %s으로 업데이트될 것입니다. 이 업데이트로 사용자 데이터가 삭제되지는 않습니다.</string>

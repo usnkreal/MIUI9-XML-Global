@@ -111,10 +111,10 @@ Jeśli ponownie włączysz dane mobilne, twój operator może naliczyć dodatkow
         <item quantity="many">Znaleziono: %d aplikacji</item>
     </plurals>
     <plurals name="network_restrict_count">
-        <item quantity="other">"Dostęp do sieci ograniczony dla &lt;font color='#ff0000'>%d&lt;/font> aplikacji"</item>
-        <item quantity="one">"Dostęp do sieci ograniczony dla &lt;font color='#ff0000'>%d&lt;/font> aplikacji"</item>
-        <item quantity="few">"Dostęp do sieci ograniczony dla &lt;font color='#ff0000'>%d&lt;/font> aplikacji"</item>
-        <item quantity="many">"Dostęp do sieci ograniczony dla &lt;font color='#ff0000'>%d&lt;/font> aplikacji"</item>
+        <item quantity="other">"Dostęp do sieci ograniczony dla &amp;lt;font color='#ff0000'>%d&amp;lt;/font> aplikacji"</item>
+        <item quantity="one">"Dostęp do sieci ograniczony dla &amp;lt;font color='#ff0000'>%d&amp;lt;/font> aplikacji"</item>
+        <item quantity="few">"Dostęp do sieci ograniczony dla &amp;lt;font color='#ff0000'>%d&amp;lt;/font> aplikacji"</item>
+        <item quantity="many">"Dostęp do sieci ograniczony dla &amp;lt;font color='#ff0000'>%d&amp;lt;/font> aplikacji"</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
         <item quantity="other">%d aplikacji nie pracuje poprawnie i zużywa baterię</item>

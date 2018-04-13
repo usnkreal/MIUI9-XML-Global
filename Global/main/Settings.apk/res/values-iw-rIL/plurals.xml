@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="firewall_item_summary">
+        <item quantity="other">החיבור הוגבל עבור %s יישומים</item>
+        <item quantity="one">החיבור הוגבל עבור יישום %s</item>
+        <item quantity="two">החיבור הוגבל עבור %s יישומים</item>
+        <item quantity="many">החיבור הוגבל עבור %s יישומים</item>
+    </plurals>
+    <plurals name="bg_network_allow_count">
+        <item quantity="other">%d יישומים יכולים להתחבר לרשת</item>
+        <item quantity="one">יישום %d יכול להתחבר לרשת</item>
+        <item quantity="two">%d יישומים יכולים להתחבר לרשת</item>
+        <item quantity="many">%d יישומים יכולים להתחבר לרשת</item>
+    </plurals>
+    <plurals name="bg_network_restrict_count">
+        <item quantity="other">%d יישומים לא יכולים להתחבר לרשת</item>
+        <item quantity="one">יישום %d לא יכול להתחבר לרשת</item>
+        <item quantity="two">%d יישומים לא יכולים להתחבר לרשת</item>
+        <item quantity="many">%d יישומים לא יכולים להתחבר לרשת</item>
+    </plurals>
     <plurals name="status_bar_settings_disabled_header_title">
         <item quantity="other">%d יישומים לא יכולים להציג התראות</item>
         <item quantity="one">יישום %d לא יכול להציג התראות</item>

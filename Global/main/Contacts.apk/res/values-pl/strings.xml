@@ -502,7 +502,7 @@ Aby zapobiec częstym zapytaniom, aktualizujemy stan konta raz dziennie."</strin
     <string name="group_detail_label_placeholder"> </string>
     <string name="group_edit_field_hint_text">Nazwa grupy</string>
     <string name="group_member_remove_fail_toast">Nie usunięto z grupy</string>
-    <string name="group_member_remove_success_toast">Usunięty z grupy</string>
+    <string name="group_member_remove_success_toast">Usunięto z grupy</string>
     <string name="group_name">Moje grupy</string>
     <string name="group_name_hint">Nazwa grupy</string>
     <string name="group_read_only">Nie można edytować na tym urządzeniu</string>
@@ -784,7 +784,7 @@ Aby dodać kontakty do ulubionych:
     <string name="option_delete_contact">Usuń</string>
     <string name="option_delete_group">Usuń</string>
     <string name="option_edit_contact">Edytuj</string>
-    <string name="option_not_in_group">Usuń</string>
+    <string name="option_not_in_group">Usuń z grupy</string>
     <string name="option_not_star">Odznacz z ulubionych</string>
     <string name="option_rename_group">Zmień nazwę grupy</string>
     <string name="option_send_to_desktop">Umieść na ekranie głównym</string>
@@ -986,7 +986,7 @@ Aby rozpocząć, dotknij ikony Scalania na dole swojego ekranu."</string>
     <string name="search_contacts_display">Kontakty;Wyświetlanie</string>
     <string name="search_contacts_more">Organizuj;Kontakty</string>
     <string name="search_contacts_recovery">Kontakty</string>
-    <string name="search_contacts_setting">Ustawienia kontaktów;Zdjęcia kontaktów;Powiąż zdjęcie z kontaktem;Import i eksport;Udostępnianie; Wczytaj kontakty z karty SD;Dodaj kontakty z karty SIM;Wczytaj z innego telefonu;Kopiuj z karty SD; Kopiuj z karty SIM;Udostępnij kontakty; Ustawienia wyświetlania;Ukryj niekompletne numery;Pokaż kontakty SIM;Skonfiguruj listę kontaktów;Inteligentne grupy;Organizuj kontakty; Scal zduplikowane kontakty;Usuń wiele;Wyczyść dane;Przebuduj Indeks T9;t9;Karty SIM;Wiadomości na karcie SIM;Wprowadzenie do odzyskiwania kontaktów;Zdjęcia kontaktów</string>
+    <string name="search_contacts_setting">Ustawienia kontaktów;Zdjęcia kontaktów;Powiąż zdjęcie z kontaktem;Import i eksport;Udostępnianie; Wczytaj kontakty z pamięci;Dodaj kontakty z karty SIM;Wczytaj z innego telefonu;Kopiuj do pamięci wewnętrznej; Kopiuj na kartę SIM;Udostępnij kontakty; Ustawienia wyświetlania;Ukryj niekompletne numery;Pokaż kontakty SIM;Skonfiguruj listę kontaktów;Inteligentne grupy;Organizuj kontakty; Scal zduplikowane kontakty;Usuń wiele;Wyczyść dane;Przebuduj Indeks T9;t9;Karty SIM;Wiadomości na karcie SIM;Wprowadzenie do odzyskiwania kontaktów;Zdjęcia kontaktów</string>
     <string name="search_display_only_phones">Kontakty;Wyświetlanie</string>
     <string name="search_display_sim_contacts">Kontakty;Wyświetlanie</string>
     <string name="search_export_to_sdcard">Kontakty;Eksport;Pamięć</string>
@@ -1009,7 +1009,7 @@ Aby rozpocząć, dotknij ikony Scalania na dole swojego ekranu."</string>
     <string name="search_simple_mode">Wyświetlanie;informacje;zdjęcia;Kontakty</string>
     <string name="search_smart_group_title">Kontakty;Wyświetlanie</string>
     <string name="search_wipe_data">Organizuj;Kontakty</string>
-    <string name="searching_vcard_message">Wyszukiwanie danych vCard na karcie SD…</string>
+    <string name="searching_vcard_message">Wyszukiwanie danych vCard w urządzeniu…</string>
     <string name="select_all">Zaznacz wszystko</string>
     <string name="select_all_exceed">Wybierz nie więcej niż %1$d, nie można wybrać wszystkiego</string>
     <string name="select_exceed">Wybierz nie więcej niż %1$d</string>

@@ -27,10 +27,10 @@
     <string name="s7">Zkušební reklama</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="account_and_cloud">Účet</string>
-    <string name="action_item_add">Přidat do playlistu</string>
+    <string name="action_item_add">Přidat do</string>
     <string name="action_item_add_song">Přidat do playlistu</string>
-    <string name="action_item_add_to_current_playlist">Současný playlist</string>
-    <string name="action_item_add_to_favorite_playlist">Oblíbený playlist</string>
+    <string name="action_item_add_to_current_playlist">Do fronty</string>
+    <string name="action_item_add_to_favorite_playlist">Oblíbené</string>
     <string name="action_item_add_to_new_playlist">Nový</string>
     <string name="action_item_delete">Smazat</string>
     <string name="action_item_download">Stáhnout</string>
@@ -39,14 +39,15 @@
     <string name="action_item_hide">Skrýt</string>
     <string name="action_item_hifi">Sluchátka a zvukové efekty</string>
     <string name="action_item_play_all">Přehrát vše</string>
+    <string name="action_item_play_next">Přehrát později</string>
     <string name="action_item_remove">Odebrat</string>
     <string name="action_item_remove_from_favorite">Odstranit z oblíbených</string>
     <string name="action_item_share">Sdílet</string>
     <string name="action_settings">Nastavení</string>
     <string name="ad_close">Zavřít</string>
     <string name="ad_data_exception">Chyba dat reklamy</string>
-    <string name="ad_recommend">Doporučené</string>
-    <string name="ad_setting">Nastavení reklam</string>
+    <string name="ad_recommend">Dostávat doporučení</string>
+    <string name="ad_setting">Další nastavení</string>
     <string name="add_music">Přidat skladby</string>
     <string name="add_to_last_of_playlist">Přidat na konec playlistu</string>
     <string name="add_to_playlist_successful">Úspěšně přidáno</string>
@@ -54,6 +55,8 @@
     <string name="alaka_required">Poslech této skladby je zpoplatněn</string>
     <string name="album_label">Obal alba</string>
     <string name="album_name">Album</string>
+    <string name="all_album_count">Všechna alba (%d)</string>
+    <string name="all_playlist_count">Všechny playlisty (%d)</string>
     <string name="all_tracks">Všechny skladby</string>
     <string name="already_download">Stahování…</string>
     <string name="already_download_btn">Stahování…</string>
@@ -87,7 +90,6 @@
     <string name="audio_recognition_setting_title">Hledat obaly alb a texty písní</string>
     <string name="auto_payment">Automaticky obnovit</string>
     <string name="auto_payment_date">Další platba: %s</string>
-    <string name="auto_upgrade">Aktualizovat automaticky</string>
     <string name="available_playlist_name_format">Nový playlist %d</string>
     <string name="avoid_to_use_traffic_summary">Nevyužívat mobilní datové připojení pro streamování hudby</string>
     <string name="avoid_to_use_traffic_title">Upozornit na přehrávání hudby při využití mobilních dat</string>
@@ -169,12 +171,11 @@ poskytována především firmou Ultimate Inc."</string>
     <string name="dialog_file_already_exists">Nelze stáhnout. Soubor již existuje.</string>
     <string name="dialog_file_missing_body">Stažený soubor nelze najít.</string>
     <string name="dialog_file_missing_title">Soubor nelze otevřít</string>
-    <string name="dialog_insufficient_space_on_cache">Nedostatek místa na vnitřním úložišti</string>
-    <string name="dialog_insufficient_space_on_external">Nedostatek místa na externím úložišti</string>
+    <string name="dialog_insufficient_space_on_cache">"Stahování nelze dokončit. Nedostatek
+        místa ve vnitřním úložišti."</string>
+    <string name="dialog_insufficient_space_on_external">Stahování nelze dokončit. Nedostatek místa na SD kartě.</string>
     <string name="dialog_media_not_found">Nelze stáhnout. SD karta není k dispozici.</string>
     <string name="dialog_queued_body">Tento soubor je ve frontě pro budoucí stažení.</string>
-    <string name="dialog_show_more_backup">Zálohovat místní skladby</string>
-    <string name="dialog_show_more_optimize_all">Optimalizovat informace o skladbách</string>
     <string name="dialog_song_sort_type">Seřadit skladby</string>
     <string name="dialog_song_sort_type_name">Podle názvu</string>
     <string name="dialog_song_sort_type_playing_times">Podle počtu přehrání</string>
@@ -184,7 +185,7 @@ poskytována především firmou Ultimate Inc."</string>
     <string name="dialog_song_view_type_artist">Podle umělce</string>
     <string name="dialog_song_view_type_folder">Podle složky</string>
     <string name="dialog_song_view_type_song">Podle skladby</string>
-    <string name="dialog_title_clearlist_tracks">Vymazat playlist</string>
+    <string name="dialog_title_clearlist_tracks">Odebrat z fronty</string>
     <string name="dialog_title_delete_tracks">Smazat</string>
     <string name="dialog_title_name_playlist">Název playlistu</string>
     <string name="dialog_title_not_available">Stahování se nezdařilo</string>
@@ -266,6 +267,7 @@ poskytována především firmou Ultimate Inc."</string>
     <string name="downloading_apk">Stahování… Průběh zobrazíte v Oznamovací roletce.</string>
     <string name="downloading_empty">Prázdné</string>
     <string name="downloading_pause_apk">Pozastaveno. Stahování můžete obnovit v Oznamovací roletce.</string>
+    <string name="edit_playlist_info">Upravit informace o playlistu</string>
     <string name="empty_page_no_album">Žádná alba</string>
     <string name="empty_page_no_artist">Žádní umělci</string>
     <string name="enable_auto_payment_fail">Nelze zapnout</string>
@@ -297,6 +299,7 @@ poskytována především firmou Ultimate Inc."</string>
     <string name="error_title">Nelze synchronizovat se Xiaomi účtem</string>
     <string name="error_unauthorized">Synchronizace byla vypnuta z důvodu příliš velkého množství pokusů o přihlášení.</string>
     <string name="expired">Předplatné vypršelo</string>
+    <string name="facebook_not_installed">Nejprve nainstalujte Facebook.</string>
     <string name="fail_to_fetch_payment_page_url">Nelze získat informace o platbě</string>
     <string name="fail_to_play">Nelze přehrát</string>
     <string name="fav_login_msg">Pro stažení skladeb se přihlaste ke svému Xiaomi účtu</string>
@@ -407,6 +410,7 @@ poskytována především firmou Ultimate Inc."</string>
     <string name="local_page_custom_title">Pro vás</string>
     <string name="local_page_playlist">Moje playlisty</string>
     <string name="local_page_song_download_history">Stažené</string>
+    <string name="long_press_to_select_lyric">Stiskněte a držte pro výběr souboru s texty</string>
     <string name="lrc_search_failed">Text skladby se nepodařilo najít</string>
     <string name="lrc_searching">Hledání…</string>
     <string name="lyric_is_empty">Text písně není k dispozici</string>
@@ -444,12 +448,13 @@ poskytována především firmou Ultimate Inc."</string>
     <string name="mobile_recommended_title">Využití mobilních dat</string>
     <string name="modify_info_disable_note">Pokud chcete upravit informace manuálně, nejprve vypněte funkci \"Hledat obaly alb a texty písní\".</string>
     <string name="modify_lyric">Upravit text</string>
+    <string name="modify_pic">Změnit obal</string>
     <string name="modify_progress">Změnit rychlost posouvání textu</string>
     <string name="modify_progress_helper">Potažením nahoru nebo dolů synchronizujte text.</string>
     <string name="modify_song_info">Upravit informace o skladbě</string>
     <string name="modify_song_info_success">Informace o skladbě byly aktualizovány</string>
     <string name="more">Více</string>
-    <string name="more_add_song_list">Přidat do aktuálního playlistu</string>
+    <string name="more_add_song_list">Přidat skladby do fronty</string>
     <string name="more_settings">Rozšířená nastavení</string>
     <string name="more_settings_summary">Nastavení stahování, automatického vypnutí, správy mobilních dat, filtrů souborů atd.</string>
     <string name="more_share">Sdílet</string>
@@ -478,12 +483,14 @@ poskytována především firmou Ultimate Inc."</string>
     <string name="no_online_song_selected">Žádné vybrané skladby</string>
     <string name="no_results_return">Nic nenalezeno</string>
     <string name="no_scanned_songs">Prázdné</string>
-    <string name="no_song">Žádné skladby</string>
     <string name="no_song_downloaded">Nelze se připojit k serveru</string>
+    <string name="no_song_subtitle">Ponořte se do hudby</string>
+    <string name="no_song_title">Mi Music</string>
     <string name="no_system_cropper_find">Nástroj pro ořezání obrázků nebyl nalezen.</string>
     <string name="normal_quality">Dobrá</string>
     <string name="not_login">Nepřihlášen</string>
     <string name="not_selected">Vyberte skladbu</string>
+    <string name="nothing_changed_toast">Nyní jste ještě nic nezměnili.</string>
     <string name="notif_title_file_size">Celkem: %1$d</string>
     <string name="notif_title_multiple_downloading">Stahování %1$d skladeb</string>
     <string name="notif_title_single_downloading">Stahování \"%1$s\"</string>
@@ -500,12 +507,10 @@ poskytována především firmou Ultimate Inc."</string>
     <string name="nowplaying_circle_style">Styl tlačítka Přehrát</string>
     <string name="nowplaying_circle_style_rainbow">Duha</string>
     <string name="nowplaying_circle_style_wave">Vlna</string>
-    <string name="nowplaying_dialog_title_delete_tracks">Vymazat aktuální seznam skladeb?</string>
-    <string name="nowplaying_menu_item_delete">Vyčistit</string>
+    <string name="nowplaying_dialog_title_delete_tracks">Chcete tuto skladbu odebrat z fronty?</string>
+    <string name="nowplaying_menu_item_delete">Odebrat z fronty</string>
     <string name="ok">OK</string>
     <string name="online_list_delete_message">Všechny stažené skladby z tohoto playlistu budou odstraněny z vnitřního úložiště.</string>
-    <string name="online_music_enabled_summary">Poslouchejte a stahujte vaše oblíbené skladby. Sledujte top skladby a speciální playlisty odkudkoli!</string>
-    <string name="online_music_enabled_title">Streamování zdarma</string>
     <string name="online_recommend">Playlist</string>
     <string name="online_service_open_tip">Online hudební služby jsou zapnuty</string>
     <string name="online_service_title">Online služby</string>
@@ -525,6 +530,8 @@ poskytována především firmou Ultimate Inc."</string>
     <string name="paused_waiting_for_network">Čekání na připojení</string>
     <string name="paused_waiting_to_retry">Čekání na opakování</string>
     <string name="pay_now">Zaplatit nyní</string>
+    <string name="payment_success_message">Děkujeme! Vaše platba byla úspěšně zpracována. Užijte si PRO služby.</string>
+    <string name="payment_success_title">Gratulujeme!</string>
     <string name="pending_apk">Čekání…</string>
     <string name="permission_declaration_message">Pro správné fungování aplikace Hudba povolte aplikaci přístup k úložišti v Optimalizace > Povolení > Správa povolení > Úložiště > Hudba.</string>
     <string name="permission_declaration_negative_text">Později</string>
@@ -534,12 +541,16 @@ poskytována především firmou Ultimate Inc."</string>
     <string name="pick_local_song">Místní skladby</string>
     <string name="pick_recent_song">Nedávno přehrané</string>
     <string name="play_all_song">Přehrát vše</string>
+    <string name="play_empty_playlist">Nelze přehrát stopy. Playlist je prázdný.</string>
     <string name="play_mode_all_loop">Opakovat vše</string>
     <string name="play_mode_one_loop">Smyčka</string>
     <string name="play_mode_play_all">Přehrát vše</string>
     <string name="play_mode_shuffle_all">Náhodně</string>
     <string name="play_next">Přehrát další</string>
     <string name="playlist_empty">Nenalezen žádný playlist.</string>
+    <string name="playlist_title">Název playlistu</string>
+    <string name="playlist_title_is_empty">Název playlistu nesmí být prázdný</string>
+    <string name="playlist_title_is_invalid">Playlist již existuje</string>
     <string name="playlist_type_album">Alba</string>
     <string name="playlist_type_artist">Interpret</string>
     <string name="playlist_type_billboard">Žebříčky</string>
@@ -559,6 +570,7 @@ poskytována především firmou Ultimate Inc."</string>
     <string name="pulluprefreshrecyclerview_loading_error">Načtení se nezdařilo</string>
     <string name="pulluprefreshrecyclerview_loading_finished">Úspěšně načteno</string>
     <string name="pulluprefreshrecyclerview_loading_running">Načítání…</string>
+    <string name="queue_is_empty">Fronta přehrávání je prázdná.</string>
     <string name="radar">ACRCloud</string>
     <string name="radar_click_to_retry">Klepněte a zkuste to znovu</string>
     <string name="radar_fail">Žádné výsledky</string>
@@ -606,22 +618,19 @@ poskytována především firmou Ultimate Inc."</string>
     <string name="search_hint">Hledat umělce, skladbu, album a doporučené</string>
     <string name="search_history_clear_all">Vyčistit</string>
     <string name="search_instant_online_music">Online</string>
+    <string name="search_songs_count">Stopy: %d</string>
     <string name="search_title">Hledat</string>
     <string name="select_all">Vybrat vše</string>
     <string name="select_device">Vyberte zařízení</string>
     <string name="select_displayed_folders">Zvolte složky k zobrazení</string>
-    <string name="select_local_album">Vyberte obal alba</string>
-    <string name="select_local_lyric">Vyberte text</string>
+    <string name="select_local_cover">Vyberte obal</string>
+    <string name="select_local_lyric_file">Vyberte soubor s texty</string>
     <string name="select_none">Zrušit výběr</string>
     <string name="selected_count">Vybráno %1$d z %2$d</string>
     <string name="send_to_title">Odeslat (%1$s)</string>
     <string name="server_error">Vyskytla se chyba. Počkejte chvíli a zkuste to znovu.</string>
     <string name="service_and_settings">Nástroje a nastavení</string>
     <string name="set_as_ring">Nastavit jako vyzváněcí tón</string>
-    <string name="set_id3_failed">Uložení informací se nezdařilo</string>
-    <string name="set_id3_not_have_read_or_write_permission">Nemáte povolení upravovat tento soubor.</string>
-    <string name="set_id3_not_support_format">Tento formát souboru nelze upravit</string>
-    <string name="set_id3_successful">Informace o skladbě úspěšně uloženy</string>
     <string name="set_ringtones_failed">Nastavení vyzváněcího tónu se nezdařilo</string>
     <string name="set_ringtones_successful">%s nastaveno jako vyzváněcí tón</string>
     <string name="setting_feature_setting">Nastavení funkce</string>
@@ -658,7 +667,7 @@ poskytována především firmou Ultimate Inc."</string>
     <string name="sleep_mode_canceled">Režim spánku vypnut</string>
     <string name="sleep_mode_summary">Zastavit přehrávač po určitém čase</string>
     <string name="sleep_mode_title">Režim spánku</string>
-    <string name="song_exist_in_playlist">Tato skladba je již v playlistu</string>
+    <string name="song_exist_in_playlist">Tato skladba je již ve frontě</string>
     <string name="song_info">Podrobnosti o skladbě</string>
     <string name="song_is_empty">Název skladby nemůže být prázdný.</string>
     <string name="song_name">Skladba</string>
@@ -747,4 +756,11 @@ poskytována především firmou Ultimate Inc."</string>
 Klepněte na %s
  pro zahájení tohoto stahování, jakmile se příště připojíte k síti Wi-Fi."</string>
     <string name="wifi_required_title">Pro stažení tohoto souboru byste se měli připojit k síti Wi-Fi</string>
+    <string name="auto_upgrade">Aktualizovat automaticky</string>
+    <string name="dialog_show_more_backup">Zálohovat místní skladby</string>
+    <string name="dialog_show_more_optimize_all">Optimalizovat informace o skladbách</string>
+    <string name="set_id3_failed">Uložení informací se nezdařilo</string>
+    <string name="set_id3_not_have_read_or_write_permission">Nemáte povolení upravovat tento soubor.</string>
+    <string name="set_id3_not_support_format">Tento formát souboru nelze upravit</string>
+    <string name="set_id3_successful">Informace o skladbě úspěšně uloženy</string>
 </resources>

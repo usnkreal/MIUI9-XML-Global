@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">Ugrás a főoldalra</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Felfelé mozgatás</string>
+    <string name="abc_action_menu_overflow_description">További lehetőségek</string>
+    <string name="abc_action_mode_done">Kész</string>
+    <string name="abc_activity_chooser_view_see_all">Összes megtekintése</string>
+    <string name="abc_activitychooserview_choose_application">Válasszon ki egy alkalmazást</string>
+    <string name="abc_search_hint">Keresés…</string>
+    <string name="abc_searchview_description_clear">Lekérdezés törlése</string>
+    <string name="abc_searchview_description_query">Keresési lekérdezés</string>
+    <string name="abc_searchview_description_search">Keresés</string>
+    <string name="abc_searchview_description_submit">Lekérdezés küldése</string>
+    <string name="abc_searchview_description_voice">Hangalapú keresés</string>
+    <string name="abc_shareactionprovider_share_with">Megosztás a következővel:</string>
+    <string name="abc_shareactionprovider_share_with_application">Megosztás a következővel: %s</string>
+    <string name="abc_toolbar_collapse_description">Összecsukás</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="about_smart_antispam_summary">A szolgáltatásról</string>
     <string name="about_telephone_fraud">A telefonos csalásokról</string>
     <string name="account_address">Címek</string>
@@ -29,7 +47,7 @@
     <string name="app_recommendation_install">Telepítés</string>
     <string name="average_price">Átlag %d RMB</string>
     <string name="back">Vissza</string>
-    <string name="balance_inquiry_send_sms_fail_hint">Az SMS elküldése nem sikerült. Ellenőrizze a SIM kártya állapotát.</string>
+    <string name="balance_inquiry_send_sms_fail_hint">Nincs elég egyenlege</string>
     <string name="balance_inquiry_send_sms_hint">Az egyenleg ellenőrzéséhez egy díjmentes üzenet lett küldve a szolgáltatónak.</string>
     <string name="balance_inquiry_send_sms_summmary">Egyenleg ellenőrzése</string>
     <string name="balance_inquiry_title">Számlaegyenleg</string>
@@ -61,7 +79,7 @@
     <string name="delete">Törlés</string>
     <string name="do_not_remind_me">Ne emlékeztessen</string>
     <string name="dont_enable">Ne engedélyezze</string>
-    <string name="download_completed">A letöltés befejeződött! SD kártya útvonala: %s</string>
+    <string name="download_completed">Letöltve és mentve ide: %s</string>
     <string name="download_failed">A letöltés sikertelen</string>
     <string name="download_failed_blocked">Nem lehet csatlakozni a hálózathoz</string>
     <string name="download_failed_cannot_resume">A letöltés nem sikerült, próbálja később</string>
@@ -70,7 +88,7 @@
     <string name="download_failed_network">Nem lehet csatlakozni a hálózathoz</string>
     <string name="download_failed_server">A letöltés sikertelen</string>
     <string name="download_failed_space">Nincs elég szabad hely</string>
-    <string name="download_failed_storage">A letöltés sikertelen. Ellenőrizze SD kártyáját.</string>
+    <string name="download_failed_storage">A letöltés sikertelen. Ellenőrizze SD-kártyáját.</string>
     <string name="downloading">Letöltés…</string>
     <string name="enable_now">Engedélyezés</string>
     <string name="follow_label">%1$s követése</string>
@@ -115,16 +133,15 @@
     <string name="mark_number_check_dialog_title">Telefonszám megjelölése</string>
     <string name="mark_number_check_most_choice">(Legtöbben választották)</string>
     <string name="mark_number_custom_mark_deleted">Jelentés adatok törölve</string>
-    <string name="mark_number_delete_confirm_message">Jelentés adatok törlése %s?</string>
+    <string name="mark_number_delete_confirm_message">%s megjelölési adatait törli?</string>
     <string name="mark_number_delete_confirm_title">Jelentés adatok törlése</string>
     <string name="mark_number_dialog_maintitle">Jelentse ezt a telefonszámot</string>
     <string name="mark_number_dialog_subtitle">%1$s (jelentette %2$d ember)</string>
     <string name="mark_number_feedback">Jelentés</string>
-    <string name="mark_number_feedback_hint">Visszajelzés küldése</string>
+    <string name="mark_number_feedback_hint">Győződjön meg róla, hogy a beírt adatok helyesek.</string>
     <string name="mark_number_feedback_invalid_hint">Írja le az észrevételét</string>
-    <string name="mark_number_feedback_not_number">Ez nem %s szám</string>
-    <string name="mark_number_feedback_personal_number">Személyes szám</string>
-    <string name="mark_number_feedback_success">Jelentés adatok elküldve</string>
+    <string name="mark_number_feedback_success">Beérkezett az információ a megjelölésről</string>
+    <string name="mark_number_feedback_title_hint">Ez a telefonszám:</string>
     <string name="mark_number_marked_maintitle">Jelentés adatok megváltoztatása</string>
     <string name="mark_number_marked_subtitle">%s (jelentés)</string>
     <string name="mark_number_notification_title">Gyanús számok bejelentése</string>
@@ -180,7 +197,7 @@
     <string name="packages_pay_hint">Szöveges üzenet küldése (ingyenes)</string>
     <string name="packages_pay_success">Az üzenet elküldve</string>
     <string name="packages_select_sim_cards_summmary">Ajánlott adatcsomagok böngészése</string>
-    <string name="packages_select_sim_cards_title">SIM kártya kiválasztása</string>
+    <string name="packages_select_sim_cards_title">Válasszon SIM-kártyát</string>
     <string name="packages_select_to_buy_title">Csomag kiválasztása</string>
     <string name="packages_title">Mobilnet feltöltése</string>
     <string name="packages_wait_for_op_reply">Várakozás a Szolgáltató megerősítő üzenetére</string>
@@ -258,9 +275,10 @@
     <string name="turn_on_smart_antispam_summary">Ismeretlen számok feltöltése és azonosítása a hívásnaplóból és szöveges üzenetekből</string>
     <string name="turn_on_smart_antispam_title">Hívóazonosító</string>
     <string name="turn_on_yellowpage_service_title">Hívóazonosító használata</string>
+    <string name="unicom_yellow_page_operator_provided">Az üzemeltető jóvoltából</string>
     <string name="uploads_disabled">A fájlok feltöltése le van tiltva</string>
-    <string name="user_agreement2">" Végfelhasználói szerződés"</string>
-    <string name="user_agreement4">Adatvédelem</string>
+    <string name="user_agreement2">" Szolgáltatási feltételek"</string>
+    <string name="user_agreement4">Adatvédelmi irányelvek</string>
     <string name="user_notice_identify_summary_format">Az ismeretlen telefonszámok azonosítása egy online szolgáltatás, olvassa el %1$s és %2$s mielőtt használná.</string>
     <string name="user_notice_identify_summary_format_cta">A telefon a MIUI adatbázisát fogja használni a nemkívánatos hívások blokkolására Wi-Fi csatlakozás esetén. A szolgáltatás használatához el kell fogadnia: %1$s és %2$s.</string>
     <string name="user_notice_title">Figyelem</string>

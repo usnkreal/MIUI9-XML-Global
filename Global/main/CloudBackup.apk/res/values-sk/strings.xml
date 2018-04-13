@@ -39,10 +39,11 @@
     <string name="cloud_app_no_network">Nie je možné sa pripojiť k sieti</string>
     <string name="button_delete">Vymazať</string>
     <string name="customization"><u>Upraviť</u></string>
+    <string name="home_hint_global_launcher">Poco Home screen</string>
     <string name="self_phone">Toto zariadenie</string>
+    <string name="self_phone_home">This phone: %s</string>
     <string name="process_whole_recovery">Obnova \"%s\"</string>
     <string name="device_xiaomi">MiPhone</string>
-    <string name="device_corrupt">Mi Telefón (Dáta sú poškodené)</string>
     <string name="size_unknown">Neznáma veľkosť</string>
     <string name="recovering">Obnovenie %s</string>
     <string name="start_recover">Obnoviť %s</string>
@@ -64,7 +65,7 @@
     <string name="desktop_downloading">Sťahuje sa</string>
     <string name="desktop_installing">Inštaluje</string>
     <string name="desktop_wait_wifi">Čaká na Wi-Fi</string>
-    <string name="desktop_failed">Zlyhalo</string>
+    <string name="desktop_failed">Error</string>
     <string name="recover_from_micloud">Obnoviť pomocou MiCloud</string>
     <string name="click_try_to_restore_again">Skúste to znova</string>
     <string name="open_wifi">Povoliť Wi-Fi</string>
@@ -127,6 +128,8 @@
     <string name="no_account">Nie ste prihlásený k Mi účtu.</string>
     <string name="no_backup">Žiadne zálohy na Mi Cloud.</string>
     <string name="download_meta_failed">Nepodarilo sa načítať dáta.</string>
+    <string name="home_restore_error">"Couldn't restore Home screen"</string>
+    <string name="get_device_id_error">"Couldn't get device ID"</string>
     <string name="download_home_data">Sťahovanie rozloženia plochy...</string>
     <string name="restore_home_failed">Nebolo možné obnoviť rozloženie plochy.</string>
     <string name="arrange_restore_order">Zoraďovanie aplikácií...</string>

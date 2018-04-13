@@ -93,9 +93,8 @@ Funkcja szyfruje i przesyła ID urządzenia na serwery Xiaomi."</string>
 Funkcja szyfruje i przesyła ID urządzenia na serwery Xiaomi."</string>
     <string name="user_agreement_p5">"
 "</string>
-    <string name="user_agreement_p6">"Korzystając z tej usługi, zgadzasz się na "</string>
-    <string name="user_agreement_p7">Warunki Użytkowania Chmury Xiaomi</string>
-    <string name="user_agreement_p8">.</string>
+    <string name="user_agreement_link">Warunkami Użytkowania Chmury Xiaomi</string>
+    <string name="user_agreement_content">Korzystając z tej usługi, zgadzasz się z %s.</string>
     <string name="user_agreement_title">Warunki Użytkowania Chmury Xiaomi</string>
     <string name="privacy_policy">Polityka Prywatności</string>
     <string name="loading">Chwileczkę…</string>
@@ -173,7 +172,7 @@ W przypadku zmiany kart SIM zostanie wysłany SMS w celu reaktywacji usługi."</
     <string name="micloud_user_space_usage">Użycie miejsca na dysku</string>
     <string name="micloud_web_discription_01">Zaloguj się na i.mi.com</string>
     <string name="micloud_web_discription_02">by zapisywać i uzyskać dostęp do plików gdziekolwiek jesteś</string>
-    <string name="micloud_web_discription_place_holder">Odwiedź %1$s</string>
+    <string name="micloud_web_discription_place_holder">Odwiedź %1$s na komputerze, aby zarządzać swoimi danymi.</string>
     <string name="micloud_full_influence_title">Gdy zabraknie miejsca na dysku w Chmurze…</string>
     <string name="micloud_warn_low_title">Prawie skończyło się miejsce</string>
     <string name="micloud_warn_low_sum">Przestrzeń na dysku użyta w 90%</string>
@@ -366,9 +365,6 @@ aby aktywować usługę Chmura Xiaomi."</string>
     <string name="buy_more_space_c_class">"Ta opcja wymaga posiadania karty bankowej wydanej w Chinach.
 Aby uzyskać więcej przestrzeni dyskowej odwiedź mi.com/micloud."</string>
     <string name="micloud_member_buy_title">Potwierdź zamówienie</string>
-    <string name="micloud_member_buy_content" formatted="false">"Ważne do %s-%s-%s
-
-%s MiKredytów"</string>
     <string name="micloud_member_net_error_alert_title">Nie można połączyć z siecią</string>
     <string name="micloud_member_net_error_alert_message">Nie masz połączenia z internetem.</string>
     <string name="micloud_member_pay_fail_toast">Nie udało się dokończyć płatności</string>

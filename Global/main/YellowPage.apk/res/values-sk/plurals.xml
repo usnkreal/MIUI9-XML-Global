@@ -3,13 +3,13 @@
     <plurals name="more_coupons_count">
         <item quantity="other">%d kupónov</item>
         <item quantity="one">1 kupón</item>
-        <item quantity="few">%d kupónov</item>
-        <item quantity="many">%d coupons</item>
+        <item quantity="few">%d kupóny</item>
+        <item quantity="many">%d kupónu</item>
     </plurals>
     <plurals name="review_count">
-        <item quantity="other">Ukázať %d komentárov</item>
-        <item quantity="one">Ukázať 1 komentár</item>
-        <item quantity="few">Ukázať %d komentárov</item>
-        <item quantity="many">View %d comments</item>
+        <item quantity="other">Zobraziť %d komentárov</item>
+        <item quantity="one">Zobraziť 1 komentár</item>
+        <item quantity="few">Zobraziť %d komentáre</item>
+        <item quantity="many">Zobraziť %d komentáru</item>
     </plurals>
 </resources>

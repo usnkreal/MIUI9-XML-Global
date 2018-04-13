@@ -27,10 +27,10 @@
     <string name="s7">Anunț de probă</string>
     <string name="status_bar_notification_info_overflow">˃999</string>
     <string name="account_and_cloud">Cont</string>
-    <string name="action_item_add">Adaugă</string>
+    <string name="action_item_add">Adaugă la</string>
     <string name="action_item_add_song">Adaugă la lista de redare</string>
-    <string name="action_item_add_to_current_playlist">Lista de redare curentă</string>
-    <string name="action_item_add_to_favorite_playlist">Lista de redare Favorită</string>
+    <string name="action_item_add_to_current_playlist">Lista de așteptare</string>
+    <string name="action_item_add_to_favorite_playlist">Favorite</string>
     <string name="action_item_add_to_new_playlist">Nou</string>
     <string name="action_item_delete">Şterge</string>
     <string name="action_item_download">Descarcă</string>
@@ -39,14 +39,15 @@
     <string name="action_item_hide">Ascunde</string>
     <string name="action_item_hifi">Căști &amp; efecte audio</string>
     <string name="action_item_play_all">Redă toate</string>
+    <string name="action_item_play_next">Redă mai târziu</string>
     <string name="action_item_remove">Șterge</string>
     <string name="action_item_remove_from_favorite">Șters dintre favorite</string>
     <string name="action_item_share">Partajează</string>
     <string name="action_settings">Setări</string>
     <string name="ad_close">Închide</string>
     <string name="ad_data_exception">Eroare de date de anunțuri</string>
-    <string name="ad_recommend">Recomandări</string>
-    <string name="ad_setting">Adăugaţi setări</string>
+    <string name="ad_recommend">Primește recomandări</string>
+    <string name="ad_setting">Setări suplimentare</string>
     <string name="add_music">Adaugă melodii</string>
     <string name="add_to_last_of_playlist">Adaugă la sfârșitul listei de redare</string>
     <string name="add_to_playlist_successful">Adăugat cu succes</string>
@@ -54,6 +55,8 @@
     <string name="alaka_required">Trebuie să plătiți pentru această melodie pentru a o asculta</string>
     <string name="album_label">Coperte albume</string>
     <string name="album_name">Album</string>
+    <string name="all_album_count">Toate albumurile (%d)</string>
+    <string name="all_playlist_count">Toate listele de redare (%d)</string>
     <string name="all_tracks">Toate melodiile</string>
     <string name="already_download">Descărcarea…</string>
     <string name="already_download_btn">Se descarcă…</string>
@@ -87,7 +90,6 @@
     <string name="audio_recognition_setting_title">Caută coperte pentru albume și versuri</string>
     <string name="auto_payment">Reînnoire automată</string>
     <string name="auto_payment_date">Următoarea plată: %s</string>
-    <string name="auto_upgrade">Actualizează automat</string>
     <string name="available_playlist_name_format">Listă de redare nouă %d</string>
     <string name="avoid_to_use_traffic_summary">Nu utilizați rețeaua internet mobil pentru a reda muzică</string>
     <string name="avoid_to_use_traffic_title">Întrebați când datele mobile sunt folosite pentru a reda melodii</string>
@@ -170,12 +172,11 @@
     <string name="dialog_file_already_exists">Nu se poate descărca. Există deja acest fișier.</string>
     <string name="dialog_file_missing_body">Nu s-a putut găsi fișierul descărcat.</string>
     <string name="dialog_file_missing_title">Fişierul nu poate fi deschis</string>
-    <string name="dialog_insufficient_space_on_cache">Nu este suficient spațiu în stocarea internă</string>
-    <string name="dialog_insufficient_space_on_external">Nu există suficient spațiu în stocarea externă</string>
+    <string name="dialog_insufficient_space_on_cache">Nu se poate finaliza descărcarea, spațiu de stocare intern insuficient.</string>
+    <string name="dialog_insufficient_space_on_external">"Nu se poate finaliza descărcarea. Spațiu
+        insuficient pe cardul SD."</string>
     <string name="dialog_media_not_found">Nu se poate descărca. Cardul SD nu este disponibil.</string>
     <string name="dialog_queued_body">Acest fişier este în listă pentru descărcare viitoare.</string>
-    <string name="dialog_show_more_backup">Creați copie de rezervă la melodiile locale</string>
-    <string name="dialog_show_more_optimize_all">Optimizați informațiile melodiilor</string>
     <string name="dialog_song_sort_type">După melodii</string>
     <string name="dialog_song_sort_type_name">După nume</string>
     <string name="dialog_song_sort_type_playing_times">După numărul de câte ori a fost redat</string>
@@ -185,7 +186,7 @@
     <string name="dialog_song_view_type_artist">După artist</string>
     <string name="dialog_song_view_type_folder">După dosar</string>
     <string name="dialog_song_view_type_song">După melodie</string>
-    <string name="dialog_title_clearlist_tracks">Ștergeți lista de redare</string>
+    <string name="dialog_title_clearlist_tracks">Elimină din lista de așteptare</string>
     <string name="dialog_title_delete_tracks">Şterge</string>
     <string name="dialog_title_name_playlist">Nume listă de redare</string>
     <string name="dialog_title_not_available">Nu se poate descărca</string>
@@ -220,7 +221,7 @@
     <string name="download_confirm_button_text">Instalează</string>
     <string name="download_confirm_text">Mi Muzică va descărca și instala \"%s\"</string>
     <string name="download_done_btn">Descărcat</string>
-    <string name="download_error">Fără succes</string>
+    <string name="download_error">Eșuat</string>
     <string name="download_error_insufficient_space">Spațiu insuficient</string>
     <string name="download_fail_to_fetch_info">Nu s-a putut descărca, încercați din nou</string>
     <string name="download_filesize_unknown">Necunoscut</string>
@@ -229,7 +230,7 @@
     <string name="download_manage">Descărcări</string>
     <string name="download_manage_item_complete">TERMINAT</string>
     <string name="download_method">Descarcă</string>
-    <string name="download_no_application_title">Fişierul nu poate fi deschis</string>
+    <string name="download_no_application_title">Nu se poate deschide fișierul</string>
     <string name="download_paused_in_power_save_mode">Descărcările sunt întrerupe atunci când Economizor baterie este pornit</string>
     <string name="download_percent">%d%%</string>
     <string name="download_processing">Se descarcă…</string>
@@ -267,6 +268,7 @@
     <string name="downloading_apk">Se descarcă… Vedeți progresul în Panoul de notificări.</string>
     <string name="downloading_empty">Gol</string>
     <string name="downloading_pause_apk">Întrerupt. Reluați descărcarea în Panoul de notificări.</string>
+    <string name="edit_playlist_info">Editează informaţiile de la lista de redare</string>
     <string name="empty_page_no_album">Nu sunt albume.</string>
     <string name="empty_page_no_artist">Nu sunt artişi</string>
     <string name="enable_auto_payment_fail">Nu se poate porni</string>
@@ -298,6 +300,7 @@
     <string name="error_title">Nu poate fi sincronizat cu Contul MI</string>
     <string name="error_unauthorized">Sincronizarea a fost oprită din cauza prea multor încercări de conectare.</string>
     <string name="expired">Expirat</string>
+    <string name="facebook_not_installed">Instalați mai întâi Facebook.</string>
     <string name="fail_to_fetch_payment_page_url">Nu s-a putut obține informații de plată</string>
     <string name="fail_to_play">Melodia nu poate fi redată</string>
     <string name="fav_login_msg">Conectați-vă la contul dvs. Mi pentru a descărca melodii</string>
@@ -409,6 +412,7 @@
     <string name="local_page_custom_title">Pentru tine</string>
     <string name="local_page_playlist">Lista mea de redare</string>
     <string name="local_page_song_download_history">Descărcări</string>
+    <string name="long_press_to_select_lyric">Press &amp; hold to select local lyrics file</string>
     <string name="lrc_search_failed">Nu am găsit versuri</string>
     <string name="lrc_searching">Căutare…</string>
     <string name="lyric_is_empty">Nu sunt versuri disponibile</string>
@@ -446,12 +450,13 @@
     <string name="mobile_recommended_title">Utilizarea datelor mobile</string>
     <string name="modify_info_disable_note">Dacă doriți să editați manual informațiile, dezactivați mai întâi \"Caută copertă album și versuri\".</string>
     <string name="modify_lyric">Editează versuri</string>
+    <string name="modify_pic">Schimbă coperta</string>
     <string name="modify_progress">Schimbarea vitezei de defilare a versurilor</string>
     <string name="modify_progress_helper">Treceți în sus sau în jos pentru a regla progresul versurilor .</string>
     <string name="modify_song_info">Editează informaţie melodie</string>
     <string name="modify_song_info_success">Informațiile despre melodie au fost actualizate</string>
     <string name="more">Mai multe</string>
-    <string name="more_add_song_list">Adaugată la lista de redare curentă</string>
+    <string name="more_add_song_list">Adaugă melodii în lista de așteptare</string>
     <string name="more_settings">Setări avansate</string>
     <string name="more_settings_summary">Descarcă setări, cronometru pentru somn, gestionare date mobile, filtre pentru fișiere, etc.</string>
     <string name="more_share">Partajează</string>
@@ -480,12 +485,14 @@
     <string name="no_online_song_selected">Nu sunt melodii selectate</string>
     <string name="no_results_return">Nici un rezultat în urma căutării</string>
     <string name="no_scanned_songs">Gol</string>
-    <string name="no_song">Nu sunt melodii</string>
     <string name="no_song_downloaded">Nu se poate conecta la server</string>
+    <string name="no_song_subtitle">Lasă-te pătruns de muzică</string>
+    <string name="no_song_title">Muzică Mi</string>
     <string name="no_system_cropper_find">Sistemul nu poate decupa imaginile</string>
     <string name="normal_quality">Bun</string>
     <string name="not_login">Nu ai fost conectat</string>
     <string name="not_selected">Alege o melodie</string>
+    <string name="nothing_changed_toast">Încă nu ai schimbat nimic.</string>
     <string name="notif_title_file_size">%1$d total</string>
     <string name="notif_title_multiple_downloading">Se descarcă %1$d fișiere</string>
     <string name="notif_title_single_downloading">Se descarcă %1$s</string>
@@ -502,12 +509,10 @@
     <string name="nowplaying_circle_style">Stilul butonului de redare</string>
     <string name="nowplaying_circle_style_rainbow">Curcubeu</string>
     <string name="nowplaying_circle_style_wave">Undă</string>
-    <string name="nowplaying_dialog_title_delete_tracks">Ștergeți lista de redare curentă?</string>
-    <string name="nowplaying_menu_item_delete">Șterge</string>
+    <string name="nowplaying_dialog_title_delete_tracks">Eliminați această melodie din lista de așteptare?</string>
+    <string name="nowplaying_menu_item_delete">Elimină din lista de așteptare</string>
     <string name="ok">OK</string>
     <string name="online_list_delete_message">Toate melodiile descărcate în această listă de redare vor fi șterse din stocarea internă.</string>
-    <string name="online_music_enabled_summary">Ascultați și descărcați melodiile favorite. Vedeți melodii de top și liste de redare oriunde te duci!</string>
-    <string name="online_music_enabled_title">Transmisia gratuită a sosit</string>
     <string name="online_recommend">Liste de redare</string>
     <string name="online_service_open_tip">Serviciile de muzică online sunt activate</string>
     <string name="online_service_title">Servicii online</string>
@@ -527,6 +532,8 @@
     <string name="paused_waiting_for_network">Se așteaptă conectarea</string>
     <string name="paused_waiting_to_retry">În așteptare pentru a reîncerca</string>
     <string name="pay_now">Serviciu curent</string>
+    <string name="payment_success_message">Thank you! Your payment was processed successfully. Enjoy PRO services.</string>
+    <string name="payment_success_title">Felicitări!</string>
     <string name="pending_apk">În așteptare…</string>
     <string name="permission_declaration_message">Permiteţi acces pentru depozitare în Setări > Permisiuni> Permisiuni > Depozitare > Muzică pentru a fi capabil să folosiţi Muzică normal.</string>
     <string name="permission_declaration_negative_text">Mai târziu</string>
@@ -536,12 +543,16 @@
     <string name="pick_local_song">Melodii locale</string>
     <string name="pick_recent_song">Redate recent</string>
     <string name="play_all_song">Redă toate</string>
+    <string name="play_empty_playlist">Nu se pot reda melodiile. Lista de redare este goală.</string>
     <string name="play_mode_all_loop">Repetă toate</string>
     <string name="play_mode_one_loop">Repetă</string>
     <string name="play_mode_play_all">Redă toate</string>
     <string name="play_mode_shuffle_all">Amestecă</string>
     <string name="play_next">Redă următoarea</string>
     <string name="playlist_empty">Nu există liste de redare găsite.</string>
+    <string name="playlist_title">Nume listă de redare</string>
+    <string name="playlist_title_is_empty">Numele listei de redare nu poate fi gol</string>
+    <string name="playlist_title_is_invalid">Lista de redare există deja</string>
     <string name="playlist_type_album">Albume</string>
     <string name="playlist_type_artist">Artist</string>
     <string name="playlist_type_billboard">Topuri</string>
@@ -561,6 +572,7 @@
     <string name="pulluprefreshrecyclerview_loading_error">Nu se poate încărca</string>
     <string name="pulluprefreshrecyclerview_loading_finished">Încărcat cu succes</string>
     <string name="pulluprefreshrecyclerview_loading_running">Se încarcă…</string>
+    <string name="queue_is_empty">Lista de redare este goală.</string>
     <string name="radar">ACRCloud</string>
     <string name="radar_click_to_retry">Atingeți pentru a încerca din nou</string>
     <string name="radar_fail">Fără rezultate</string>
@@ -608,22 +620,19 @@
     <string name="search_hint">Caută artiști, melodii, albume, și recomandări</string>
     <string name="search_history_clear_all">Şterge</string>
     <string name="search_instant_online_music">Online</string>
+    <string name="search_songs_count">Melodii: %d</string>
     <string name="search_title">Caută</string>
     <string name="select_all">Selectează tot</string>
     <string name="select_device">Selectează dispozitiv</string>
     <string name="select_displayed_folders">Alegeți dosare pentru a afișa</string>
-    <string name="select_local_album">Alege album</string>
-    <string name="select_local_lyric">Alege versuri</string>
+    <string name="select_local_cover">Select local cover</string>
+    <string name="select_local_lyric_file">Select local lyrics file</string>
     <string name="select_none">Deselectați toate</string>
     <string name="selected_count">Selectat %1$d din %2$d</string>
     <string name="send_to_title">Trimite la (%1$s)</string>
     <string name="server_error">A apărut o eroare, așteptați un minut sau două și încercați din nou.</string>
     <string name="service_and_settings">Servicii și setări</string>
     <string name="set_as_ring">Setează ca sunet de apel</string>
-    <string name="set_id3_failed">Informaţia nu poate fi salvată</string>
-    <string name="set_id3_not_have_read_or_write_permission">Nu ai permisiunea de a edita acest fișier</string>
-    <string name="set_id3_not_support_format">Nu se poate edita acest format de fișiere</string>
-    <string name="set_id3_successful">Informaţie melodie salvată</string>
     <string name="set_ringtones_failed">Nu poate fi setat ca sunet de apel</string>
     <string name="set_ringtones_successful">%s setat ca sunet de apel</string>
     <string name="setting_feature_setting">Setări funcții</string>
@@ -660,7 +669,7 @@
     <string name="sleep_mode_canceled">Modul Somn oprit</string>
     <string name="sleep_mode_summary">Oprirea automată a redării după un timp</string>
     <string name="sleep_mode_title">Temporizatorul de oprire</string>
-    <string name="song_exist_in_playlist">Acest cântec este deja în lista de redare</string>
+    <string name="song_exist_in_playlist">Această melodie este deja în lista de așteptare</string>
     <string name="song_info">Detalii melodie</string>
     <string name="song_is_empty">Numele melodiei nu poate fi gol.</string>
     <string name="song_name">Melodie</string>
@@ -746,4 +755,11 @@
 
 Atingeți %s pentru a începe această descărcare data viitoare când sunteți conectat la o rețea Wi-Fi."</string>
     <string name="wifi_required_title">Ar trebui să vă conectați la Wi-Fi pentru a descărca acest fișier</string>
+    <string name="auto_upgrade">Actualizează automat</string>
+    <string name="dialog_show_more_backup">Creați copie de rezervă la melodiile locale</string>
+    <string name="dialog_show_more_optimize_all">Optimizați informațiile melodiilor</string>
+    <string name="set_id3_failed">Informaţia nu poate fi salvată</string>
+    <string name="set_id3_not_have_read_or_write_permission">Nu ai permisiunea de a edita acest fișier</string>
+    <string name="set_id3_not_support_format">Nu se poate edita acest format de fișiere</string>
+    <string name="set_id3_successful">Informaţie melodie salvată</string>
 </resources>

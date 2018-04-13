@@ -55,7 +55,7 @@
     <string name="save_pic">Mentés</string>
     <string name="michat_finish_text">Kész</string>
     <string name="save_pic_success">Kép mentve ide: %s</string>
-    <string name="save_pic_fail">Nem sikerült menteni a képet, ellenőrizze az SD kártyát</string>
+    <string name="save_pic_fail">Nem sikerült menteni a képet, ellenőrizze az SD-kártyát</string>
     <string name="pic_not_exist">A kép nem létezik</string>
     <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Válasszon terméket</string>

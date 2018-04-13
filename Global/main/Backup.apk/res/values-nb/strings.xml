@@ -49,7 +49,7 @@ Delta-oppdateringsstørrelse: %2$s"</string>
     <string name="restore_launcher_layout_hit">Gjenopprett oppstartsinnstillinger</string>
     <string name="settings_summary">Telefon- og meldingsinnstillinger</string>
     <string name="camera_summary">Kamerainnstillinger (inkluderer ikke bilder)</string>
-    <string name="account_summary">Gjenopprett Google Account, Mi Account, og andre brukerdata</string>
+    <string name="account_summary">Sikkerhetskopier Google Account, Mi Account og andre brukerdata</string>
     <string name="cloud_app_name">Mi Cloud sikkerhetskopi</string>
     <string name="cloud_home_title">Mi Cloud</string>
     <string name="prompt_reading">Leser…</string>
@@ -250,7 +250,7 @@ Delta-oppdateringsstørrelse: %2$s"</string>
     <string name="err_filesystem_mount">Får ikke tilgang til ruterlagring</string>
     <string name="err_router_disconnected">Sjekk rutertilkoblingen din og prøv igjen.</string>
     <string name="err_router_files_delete">Kunne ikke slette sikkerhetskopieringsfiler på ruteren</string>
-    <string name="err_not_allow">Not support</string>
+    <string name="err_not_allow">Ikke støttet</string>
     <string name="backup_is_running">Sikkerhetskopierer enhet</string>
     <string name="restore_is_running">Gjenoppretter enhet</string>
     <string name="notif_backup_title">Sikkerhetskopier data</string>
@@ -339,21 +339,21 @@ Tid brukt: %s"</string>
     <string name="trans_device_wait_for_reconnecting">Tilkoblingen ble avbrutt. Koble til igjen for å fortsette.</string>
     <string name="trans_device_auto_reconnecting">Enheten ble koblet fra. Kobler automatisk til på nytt…</string>
     <string name="trans_connecting_toast">Kobler til…</string>
-    <string name="trans_switching_5g">Switching to 5GHz Wi-Fi…</string>
+    <string name="trans_switching_5g">Bytter til 5GHz Wi-Fi…</string>
     <string name="trans_connect_failed_toast">Kunne ikke koble til</string>
     <string name="trans_generate_qr_code_failed">Kunne ikke opprette QR-kode</string>
     <string name="trans_scan_invalid_qrcode">Ugyldig QR-kode</string>
     <string name="trans_scan_qr_code_tips">Skann QR-kode med ny enhet</string>
     <string name="trans_show_qr_code_label">Koble til gammel enhet</string>
     <string name="trans_show_qr_code_tips">Skann QR-kode med gammel enhet</string>
-    <string name="trans_operate_new_phone_tips">"Gå til innstillinger > Flere innstillinger > Mi Mover
+    <string name="trans_operate_new_phone_tips">"Gå til innstillinger > Tilleggsinnstillinger > Mi Mover
 Trykk på [Jeg er en mottaker] og opprett en QR-kode"</string>
     <string name="trans_operate_func_one">Metode A</string>
     <string name="trans_operate_func_two">Metode B</string>
     <string name="trans_operate_old_phone_tips1">"1. Installer Mi Mover-appen på den gamle enheten din
 2. Åpne appen og trykk på Start
 3. Skann QR-koden med den gamle enheten din"</string>
-    <string name="trans_operate_old_phone_tips2">Gå til innstillinger > Flere innstillinger > Mi Mover, Trykk på [Jeg er en sender]</string>
+    <string name="trans_operate_old_phone_tips2">Gå til innstillinger > Tilleggsinnstillinger > Mi Mover, Trykk på [Jeg er en sender]</string>
     <string name="trans_operate_reconnect_new_tips">"Vent til den nye telefonen viser \"Tilkoblingen ble avbrutt\".
 Trykk deretter på \"Koble til igjen\" for å opprette en QR-kode."</string>
     <string name="trans_operate_reconnect_old_tips">"Vent til den gamle telefonen viser \"Tilkoblingen ble avbrutt\".
@@ -378,7 +378,7 @@ Fjern minst %s."</string>
     <string name="size_mega_byte">MB</string>
     <string name="size_giga_byte">GB</string>
     <string name="trans_connect_failed_title">Kunne ikke koble til</string>
-    <string name="trans_connect_failed_message">Kunne ikke koble til. Prøv igjen eller start enheten på nytt. På den andre enheten kan du gå til Innstillinger > Flere innstillinger > Mi Mover, trykk på [Jeg er en sender], eller start Mi Mover på nytt etter omstart.</string>
+    <string name="trans_connect_failed_message">Kunne ikke koble til. Prøv igjen eller start enheten på nytt. På den andre enheten kan du gå til Innstillinger > Tilleggsinnstillinger > Mi Mover, trykk på [Jeg er en sender], eller start Mi Mover på nytt etter omstart.</string>
     <string name="trans_retry">Prøv igjen</string>
     <string name="trans_start_failed_title">Kunne ikke starte overføringen</string>
     <string name="trans_start_failed_message">Kunne ikke starte overføringen. Prøv igjen eller start enheten på nytt.</string>
@@ -517,12 +517,12 @@ Dataene som ikke ble importert må importeres på nytt."</string>
     <string name="error_permissions">Denne appen har ikke tillatelse til å få tilgang til Kalenderen. Gå til Innstillinger og kontroller tillatelsene for å fortsette.</string>
     <string name="succ_description">Suksessfullt</string>
     <string name="failed_description">Mislyktes</string>
-    <string name="notif_miasist_try_to_connect">Mi PC Suite is trying to connect to your device</string>
+    <string name="notif_miasist_try_to_connect">Mi PC Suite prøver å koble seg til enheten din</string>
     <string name="notif_connect_miasist">Koblet til Mi PC Suite</string>
     <string name="notif_disconnect_miasist">Ikke koblet til Mi PC Suite</string>
     <string name="notif_sending_transingsd">Sender %1$s (%2$s)…</string>
     <string name="notif_receiving_transingsd">Mottar %1$s (%2$s)…</string>
-    <string name="notif_calculating_app">Calculating %1$s (%2$s)…</string>
+    <string name="notif_calculating_app">Beregner %1$s (%2$s)…</string>
     <string name="notif_parse_select_descript_error">Kunne ikke synkronisere listen med sikkerhetskopierte elementer.</string>
     <string name="alert_miasist_occupy_backup">Sikkerhetskopierer elementer med Mi PC Suite… Vent til sikkerhetskopieringen er ferdig og prøv igjen.</string>
     <string name="alert_miasist_occupy_restore">Gjenoppretter elementer med Mi PC Suite… Vent til gjenopprettingen er ferdig og prøv igjen.</string>

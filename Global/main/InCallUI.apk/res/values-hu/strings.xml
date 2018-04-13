@@ -147,25 +147,6 @@
     <string name="antispam_provider">%s azonosította</string>
     <string name="antispam_notification_title">Ismeretlen számok azonosítása</string>
     <string name="suspect_info">Legyen óvatos a személyes adataival.</string>
-    <string name="livetalk_dial">Feltöltő csomag használata</string>
-    <string name="areacode_set_default">Alapértelmezett</string>
-    <string name="default_area_code_setting">Alapértelmezett országhívó</string>
-    <string name="not_activate_sim_card_content_title">A telefonszám nincs ellenőrizve</string>
-    <string name="not_activate_sim_card_content">Igazolja telefonszámát a Feltöltő csomag használatához. Továbbra is bonyolíthat rendes hívásokat, a szolgáltatónál lévő előfizetésével.</string>
-    <string name="not_activate_sim_card_content_with_operator">%1$s (%2$s) SIM kártya hitelesítése Feltöltő csomag használatához. Továbbra is bonyolíthat rendes hívásokat, a szolgáltatónál lévő előfizetésével.</string>
-    <string name="dialog_call_ordinary_telephone">Normál hívás</string>
-    <string name="dialog_activate_livetalk">Szám ellenőrzése</string>
-    <string name="not_support_title">Ez a szám nem támogatott</string>
-    <string name="not_support_message">A feltöltőcsomag jelenleg nem támogatja ezeket a számokat. Próbálja meg a normál hívással.</string>
-    <string name="livetalk_hangup">Hívás befejezése</string>
-    <string name="no_call_back_title">Figyelmeztetés</string>
-    <string name="no_call_back_message">Túl sokáig tart csatlakozni. Váltson át rendes hívásra, ami a szolgáltatónál van előfizetve.</string>
-    <string name="keep_wait_call_back">Hívástartás</string>
-    <string name="network_error_title">Instabil hálózat</string>
-    <string name="network_error_message">Próbáljon közönséges hívást indítani. A szolgáltató díjat fog felszámolni.</string>
-    <string name="do_not_ask">Ne kérdezze újra</string>
-    <string name="time_left_livetalk">(%ds)</string>
-    <string name="can_not_call_oneself">Ezt a számot nem tudja hívni</string>
     <string name="card_title_video_call_paused">Videó szünet</string>
     <string name="card_title_incoming_conference_call">Bejövő konferencia hívás</string>
     <string name="onscreen_change_to_voice">Hanghívás</string>
@@ -190,6 +171,9 @@
     <string name="close_camera_failed">Nem lehet kikapcsolni a kamerát…</string>
     <string name="change_to_voice_tips_when_background">A másik fél hanghívásra váltott</string>
     <string name="video_crbt_title">%s videó színes jelzőhangja</string>
+    <string name="crbt_second_hold_prompt">%s tartásban…</string>
+    <string name="crbt_second_hold_prompt_no_name">Az előző hívás tartásban…</string>
+    <string name="crbt_second_hold_prompt_conference">A konferenciahívás tartásban…</string>
     <string name="call_button_tools_text">Jellemzők</string>
     <string name="call_button_dialer_text">Billentyűzet</string>
     <string name="call_button_mute_text">Némítás</string>
@@ -211,8 +195,9 @@
     <string name="dialpad_seven">7</string>
     <string name="dialpad_eight">8</string>
     <string name="dialpad_nine">9</string>
+    <string name="prompt_no_volte_when_failed">A VoLTE szolgáltatás nem elérhető.</string>
     <string name="no_vm_number">Hiányzik a hangposta száma</string>
-    <string name="no_vm_number_msg">Nincs hangpostaszám a SIM kártyára mentve.</string>
+    <string name="no_vm_number_msg">Nincs hangpostaszám a SIM-kártyára mentve.</string>
     <string name="add_vm_number_str">Szám hozzáadása</string>
     <string name="alert_dialog_yes">Igen</string>
     <string name="alert_dialog_no">Nem</string>
@@ -224,6 +209,10 @@
     <string name="dial_with_gsm_phone">Normál hívás</string>
     <string name="livetalk_left_minute">%s perc van hátra</string>
     <string name="miprofile_stranger_card">Idegen kártya</string>
+    <string name="network_error_message">Próbáljon közönséges hívást indítani. A szolgáltató díjat fog felszámolni.</string>
+    <string name="network_error_title">Instabil hálózat</string>
     <string name="no_balance_message">Nincs fedezet a feltöltő csomaghoz. Próbálja egy normál hívást.</string>
+    <string name="not_support_message">A feltöltőcsomag jelenleg nem támogatja ezeket a számokat. Próbálja meg a normál hívással.</string>
+    <string name="not_support_title">Ez a szám nem támogatott</string>
     <string name="purchase_now">Feltöltés</string>
 </resources>

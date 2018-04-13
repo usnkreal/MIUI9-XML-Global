@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="firewall_item_summary">
+        <item quantity="other">Připojení je zakázáno pro %s aplikací</item>
+        <item quantity="one">Připojení je zakázáno pro %s aplikaci</item>
+        <item quantity="few">Připojení je zakázáno pro %s aplikace</item>
+        <item quantity="many">Připojení je zakázáno pro %s aplikace</item>
+    </plurals>
+    <plurals name="bg_network_allow_count">
+        <item quantity="other">%d aplikací se může připojit k síti</item>
+        <item quantity="one">%d aplikace se může připojit k síti</item>
+        <item quantity="few">%d aplikace se mohou připojit k síti</item>
+        <item quantity="many">%d aplikace se může připojit k síti</item>
+    </plurals>
+    <plurals name="bg_network_restrict_count">
+        <item quantity="other">%d aplikací se nemůže připojit k síti</item>
+        <item quantity="one">%d aplikace se nemůže připojit k síti</item>
+        <item quantity="few">%d aplikace se nemohou připojit k síti</item>
+        <item quantity="many">%d aplikace se nemůže připojit k síti</item>
+    </plurals>
     <plurals name="status_bar_settings_disabled_header_title">
         <item quantity="other">%d aplikací nemůže zobrazovat upozornění</item>
         <item quantity="one">%d aplikace nemůže zobrazovat upozornění</item>

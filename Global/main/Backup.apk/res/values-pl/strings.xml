@@ -49,7 +49,7 @@ Rozmiar aktualizacji różnicowej: %2$s"</string>
     <string name="restore_launcher_layout_hit">Przywróć ustawienia menadżera pulpitu</string>
     <string name="settings_summary">Ustawienia telefonu i wiadomości SMS</string>
     <string name="camera_summary">Ustawienia Aparatu (bez zdjęć)</string>
-    <string name="account_summary">Kopia konta Xiaomi, konta Google i innych danych użytkownika</string>
+    <string name="account_summary">Kopia zapasowa konta Google, konta Xiaomi i innych danych użytkownika</string>
     <string name="cloud_app_name">Kopia w Chmurze Xiaomi</string>
     <string name="cloud_home_title">Chmura Xiaomi</string>
     <string name="prompt_reading">Odczytywanie…</string>

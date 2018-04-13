@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Nahrávanie obrazovky</string>
-    <string name="app_notification_info">Nahrávač obrazovky pracuje na pozadí</string>
-    <string name="app_notification_title">Nahrávanie plochy</string>
+    <string name="app_notification_info">Prehrávač obrazovky pracuje na pozadí</string>
+    <string name="app_notification_title">Nahrávanie obrazovky</string>
     <string name="auto_stop_title">Video uložené</string>
     <string name="battery_not_allowed">Nie je možné nahrávať plochu ak je batéria menej ako 3%%, odporúča sa nabiť batériu aspoň na viac ako 20%%.</string>
     <string name="bit_rate">Kvalita videa</string>
@@ -19,7 +19,7 @@
     <string name="date_month">-</string>
     <string name="date_year">-</string>
     <string name="description_content">Nahrávanie obrazovky vám umožňuje nahrávať obraz na úrovni systému. Ak zvolíte pokračovať, už nebudete môcť používať aplikáciu Nahrávanie obrazovky. Potvrďte, ak chcete pokračovať.</string>
-    <string name="description_title">O aplikácii Nahrávanie plochy</string>
+    <string name="description_title">O aplikácii Nahrávanie obrazovky</string>
     <string name="deselect_all">Odznačiť</string>
     <string name="error_open_file_failed_no_app_found">Nebolo možné otvoriť tento súbor</string>
     <string name="frames">Počet snímkov</string>
@@ -47,7 +47,7 @@
     <string name="no_sound">Žiaden zvuk</string>
     <string name="operation_delete">Vymazať</string>
     <string name="operation_send">Odoslať</string>
-    <string name="quit_recording">Ukončené</string>
+    <string name="quit_recording">Ukončiť Nahrávanie obrazovky</string>
     <string name="recording_failure">Posledné nahrávanie zlyhalo, spustite nahrávanie znova</string>
     <string name="recording_max_size">Nahrávanie bolo zastavené a uložené z dôvodu maximálnej veľkosti súboru. Môžete spustiť nahrávanie znova a pokračovať.</string>
     <string name="recording_without_mic">Mikrofón je zaneprázdnený a nemôže nahrávať zvuk.</string>

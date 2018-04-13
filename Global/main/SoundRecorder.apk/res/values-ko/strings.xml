@@ -73,7 +73,7 @@
     <string name="pause">일시정지</string>
     <string name="back">뒤로</string>
     <string name="menu">메뉴</string>
-    <string name="toast_uninstall_fileexplorer">탐색기 앱이 설치되지 않았습니다.</string>
+    <string name="toast_uninstall_fileexplorer">파일 관리자가 설치되어 있지 않습니다</string>
     <string name="record_download">Mi 클라우드에서 다운로드</string>
     <string name="record_download_msg">녹음 파일은 다운로드가 완료된 후에만 재생할 수 있습니다.</string>
     <string name="record_download_msg_reload">이 녹음 파일은 존재하지 않습니다.</string>

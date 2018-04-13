@@ -497,4 +497,17 @@
     <string name="auto_clean_time_three_day">Co 3 dni</string>
     <string name="auto_clean_time_seven_day">Co 7 dni</string>
     <string name="auto_clean_time_fifteen_day">Co 15 dni</string>
+    <string name="pref_category_title_auto_clean_config_settings">Automatyczne oczyszczanie</string>
+    <string name="pref_title_auto_clean">Oczyść automatycznie</string>
+    <string name="pref_title_auto_clean_operation">Metoda oczyszczania</string>
+    <string name="pref_title_auto_clean_trigger">Oczyść nośnik</string>
+    <string name="auto_clean_operation_dialog_title">Metoda oczyszczania</string>
+    <string name="auto_clean_operation_clean_and_alert">Przypomnij i oczyść</string>
+    <string name="auto_clean_operation_just_clean">Tylko oczyść</string>
+    <string name="auto_clean_trigger_dialog_title">Oczyść nośnik</string>
+    <string name="auto_clean_trigger_percent_ninety">Gdy zajęte jest 90%</string>
+    <string name="auto_clean_trigger_percent_eighty">Gdy zajęte jest 80%</string>
+    <string name="auto_clean_trigger_percent_sixty">Gdy zajęte jest 60%</string>
+    <string name="auto_clean_notification_title">Przypomnij o czyszczeniu</string>
+    <string name="auto_clean_notification_content">Oczyszczono z %s śmieci</string>
 </resources>

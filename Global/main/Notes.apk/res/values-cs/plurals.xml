@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="note_terms">
-        <item quantity="other">%1$s poznámek</item>
-        <item quantity="one">%1$s poznámka</item>
-        <item quantity="few">%1$s poznámky</item>
-        <item quantity="many">%1$s poznámky</item>
+    <plurals name="cloud_state_unsynced_count">
+        <item quantity="other">%1$s nebylo synchronizováno</item>
+        <item quantity="one">%1$s nebyla synchronizována</item>
+        <item quantity="few">%1$s nebyly synchronizovány</item>
+        <item quantity="many">%1$s nebylo synchronizováno</item>
     </plurals>
     <plurals name="folder_terms">
         <item quantity="other">%1$s složek</item>
@@ -12,10 +12,10 @@
         <item quantity="few">%1$s složky</item>
         <item quantity="many">%1$s složky</item>
     </plurals>
-    <plurals name="cloud_state_unsynced_count">
-        <item quantity="other">%1$s nebylo synchronizováno</item>
-        <item quantity="one">%1$s nebyla synchronizována</item>
-        <item quantity="few">%1$s nebyly synchronizovány</item>
-        <item quantity="many">%1$s nebylo synchronizováno</item>
+    <plurals name="note_terms">
+        <item quantity="other">%1$s poznámek</item>
+        <item quantity="one">%1$s poznámka</item>
+        <item quantity="few">%1$s poznámky</item>
+        <item quantity="many">%1$s poznámky</item>
     </plurals>
 </resources>

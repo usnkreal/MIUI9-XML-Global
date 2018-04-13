@@ -40,7 +40,7 @@
     <string name="menu_title_current_version_log">Резюме на актуализацията</string>
     <string name="menu_title_apply_for_alpha">Запишете се в програмата за Бета тестери</string>
     <string name="menu_title_feedback">Обратна връзка</string>
-    <string name="install_file_explorer">Моля, инсталирайте файлов мениджър</string>
+    <string name="install_file_explorer">Първо инсталирайте Файлов мениджър</string>
     <string name="boot_recovery">Рестартирай в режим \"Recovery\"</string>
     <string name="cancel_download">Да спре ли изтеглянето на актуализацията?</string>
     <string name="continue_update_positive_btn">Спри</string>
@@ -142,6 +142,10 @@
     <string name="notification_express_available">Вашата актуализация (%1$s) е готова за изтегляне</string>
     <string name="notification_express_ready">Вашата актуализация (%1$s) е готова за инсталиране</string>
     <string name="express_update_reserve_content">Вие не можете да актуализирате до тази версия директно. Да се приложи ли актуализацията (%1$s)? Ние ще ви уведомим, когато %1$s е достъпна за вашето устройство. До тогава Вие ще продължите да получавате редовни актуализации.</string>
+    <string name="express_update_reserve_content2">"Няколко неща ще бъдат променени след като преминете на стабилен ROM. Ето кои:
+1. Роот достъпът ще бъде ограничен, дори и да сте го разрешили по-рано.
+2. Различни функционалности от Седмичния ROM няма да бъдат достъпни в Стабилната версия."</string>
+    <string name="express_update_reserve_check_text">Разбирам различията между двете версии на ROM-овете</string>
     <string name="express_update_reserve_positive">Можете да приложите актуализацията (%s)</string>
     <string name="express_update_reserve_negative">Не прилагай</string>
     <string name="express_update_switch_content_no_erase">MIUI ще се актуализира до нова версия (%s). Вашите данни и информация ще бъдат запазени.</string>

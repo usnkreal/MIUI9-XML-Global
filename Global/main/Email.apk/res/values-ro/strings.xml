@@ -859,6 +859,7 @@ pentru a primi înştiinţări despre plăţi şi excursii"</string>
          îndeplinite"</string>
     <string name="security_notification_content_update_title">Este necesară actualizarea securităţii</string>
     <string name="security_unsupported_ticker_fmt">Contul \"%s\" nu poate fi sincronizat din cauza cerinţelor de securitate.</string>
+    <string name="see_more_content">Vezi mai multe</string>
     <string name="select_attachment_type">Alegeți ataşament din</string>
     <string name="select_no_file">Nu sunt ataşamente selectate</string>
     <string name="select_path">Selectați calea</string>

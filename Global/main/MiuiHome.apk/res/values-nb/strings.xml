@@ -258,7 +258,7 @@
     <string name="pref_render_in_truecolor_title">Høykvalitets grafikk</string>
     <string name="pref_screen_transformation_type_title">Skjermovergangseffekt</string>
     <string name="pref_wallpaper_scroll_type_title">Bakgrunnsjustering</string>
-    <string name="preferences_general_title">Ekstra innstillinger</string>
+    <string name="preferences_general_title">Tilleggsinnstillinger</string>
     <string name="preferences_title">Launcher innstillinger</string>
     <string name="preferred_app_settings_not_selected">Not selected</string>
     <string name="recents_config_title">Nylige</string>

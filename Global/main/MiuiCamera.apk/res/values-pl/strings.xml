@@ -373,11 +373,11 @@ i uwydatnia postać osoby."</string>
     <string name="pref_camera_picturesize_entry_18_9">18:9</string>
     <string name="pref_camera_front_bokeh_entry_on">Włącz</string>
     <string name="pref_camera_front_bokeh_entry_off">Wyłącz</string>
-    <string name="pref_camera_ai_scene_title">SI Aparatu</string>
+    <string name="pref_camera_ai_scene_title">SI aparatu</string>
     <string name="pref_camera_front_ai_scene_entry_on">SI aparatu</string>
     <string name="pref_camera_front_ai_scene_entry_off">SI aparatu jest wyłączona</string>
-    <string name="ai_scene_mode_use_hint_text">"Otwórz scenerię SI Aparatu, identyfikując scenerię obrazu dla ciebie
-i optymalizując obraz na podstawie scenerii"</string>
+    <string name="ai_scene_mode_use_hint_text">"SI kamery wykrywa automatycznie krajobraz
+i optymalizuje twoje zdjęcia, bazując na tej informacji"</string>
     <string name="color_effect_entry_vivid">Żywy</string>
     <string name="color_effect_entry_film">Film</string>
     <string name="color_effect_entry_koizora">Miłość</string>
@@ -406,6 +406,9 @@ i optymalizując obraz na podstawie scenerii"</string>
     <string name="portait_effect_entry_maze">Wymieszane</string>
     <string name="portait_effect_entry_cool">Świeże</string>
     <string name="portait_effect_entry_blackwhite">Czarno-Biały</string>
+    <string name="portait_effect_entry_story">Opowieść</string>
+    <string name="portait_effect_entry_riddle">Zagadka</string>
+    <string name="portait_effect_entry_movie">Film</string>
     <string name="pano_how_to_use_prompt_start">Dotknij strzałki, aby przełączyć kierunek i rozpocznij powolne przesuwanie.</string>
     <string name="accessibility_intent_done_apply">Gotowe</string>
     <string name="accessibility_flash_on">Lampa jest włączona</string>
@@ -444,7 +447,7 @@ i optymalizując obraz na podstawie scenerii"</string>
     <string name="face_age_info">Wiek: %d</string>
     <string name="face_score_info">Punkty: %.1f</string>
     <string name="pref_camera_show_gender_age_config_title">Wiek i płeć</string>
-    <string name="pref_ai_detect">Detekcja AI</string>
+    <string name="pref_ai_detect">Detekcja SI</string>
     <string name="pref_camera_beauty">Upiększanie</string>
     <string name="pref_camera_beauty_deep">Upiększanie Pro</string>
     <string name="bokeh_use_hint">Efekt głębokości</string>

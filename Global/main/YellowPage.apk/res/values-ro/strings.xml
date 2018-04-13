@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">Navigați la ecranul de pornire</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Navigați în sus</string>
+    <string name="abc_action_menu_overflow_description">Mai multe opțiuni</string>
+    <string name="abc_action_mode_done">Terminat</string>
+    <string name="abc_activity_chooser_view_see_all">Afișați-le pe toate</string>
+    <string name="abc_activitychooserview_choose_application">Alegeți o aplicație</string>
+    <string name="abc_search_hint">Căutați…</string>
+    <string name="abc_searchview_description_clear">Ștergeți interogarea</string>
+    <string name="abc_searchview_description_query">Interogare de căutare</string>
+    <string name="abc_searchview_description_search">Căutați</string>
+    <string name="abc_searchview_description_submit">Trimiteți interogarea</string>
+    <string name="abc_searchview_description_voice">Căutare vocală</string>
+    <string name="abc_shareactionprovider_share_with">Trimiteți la</string>
+    <string name="abc_shareactionprovider_share_with_application">Trimiteți la %s</string>
+    <string name="abc_toolbar_collapse_description">Restrângeți</string>
+    <string name="status_bar_notification_info_overflow">˃999</string>
     <string name="about_smart_antispam_summary">Despre această caracteristică</string>
     <string name="about_telephone_fraud">Protejați-vă împotriva fraudei</string>
     <string name="account_address">Adrese</string>
@@ -120,11 +138,10 @@
     <string name="mark_number_dialog_maintitle">Blocați acest număr de telefon</string>
     <string name="mark_number_dialog_subtitle">%1$s (blocat de %2$d oameni)</string>
     <string name="mark_number_feedback">Steag</string>
-    <string name="mark_number_feedback_hint">Introduceți feedback</string>
+    <string name="mark_number_feedback_hint">Asigurați-vă că informațiile introduse sunt corecte.</string>
     <string name="mark_number_feedback_invalid_hint">Scrie părerea ta</string>
-    <string name="mark_number_feedback_not_number">Nu este %s număr</string>
-    <string name="mark_number_feedback_personal_number">Este număr personal</string>
-    <string name="mark_number_feedback_success">Informații blocare trimis cu succes</string>
+    <string name="mark_number_feedback_success">Informațiile de restricționare au fost primite</string>
+    <string name="mark_number_feedback_title_hint">Acest număr:</string>
     <string name="mark_number_marked_maintitle">Schimbă informațiile despre blocare</string>
     <string name="mark_number_marked_subtitle">%s (blocare curentă)</string>
     <string name="mark_number_notification_title">Raportează numerele suspecte</string>
@@ -260,6 +277,7 @@ Total: RMB %3$s"</string>
     <string name="turn_on_smart_antispam_summary">Încărcați și identificaţi numerele necunoscute în istoricul apelurilor și mesajelor text</string>
     <string name="turn_on_smart_antispam_title">ID apelant</string>
     <string name="turn_on_yellowpage_service_title">Utilizează ID apelant</string>
+    <string name="unicom_yellow_page_operator_provided">Furnizat de operator</string>
     <string name="uploads_disabled">Încărcarea fișierelor este dezactivată</string>
     <string name="user_agreement2">" Condiţii de utilizare"</string>
     <string name="user_agreement4">Politica de confidențialitate</string>

@@ -1,138 +1,179 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="Nalbum_total_songs">
-        <item quantity="other">Celkem %d skladeb</item>
-        <item quantity="one">Celkem %d skladba</item>
-        <item quantity="few">Celkem %d skladby</item>
+        <item quantity="other">Celkem %d stop</item>
+        <item quantity="one">Celkem %d stopa</item>
+        <item quantity="few">Celkem %d stopy</item>
+        <item quantity="many">Celkem %d stop</item>
     </plurals>
     <plurals name="Nassociate_songs">
         <item quantity="other">Vyhledávání obalů alb a textů písní (%1$d/%2$d)</item>
         <item quantity="one">Vyhledávání obalů alb a textů písní (%1$d/%2$d)</item>
         <item quantity="few">Vyhledávání obalů alb a textů písní (%1$d/%2$d)</item>
+        <item quantity="many">Vyhledávání obalů alb a textů písní (%1$d/%2$d)</item>
     </plurals>
     <plurals name="Nbackup_songs">
-        <item quantity="other">Zálohování hudby, zbývá %1$d skladeb (%2$.1f MB)</item>
-        <item quantity="one">Zálohování hudby, zbývá %1$d skladba (%2$.1f MB)</item>
-        <item quantity="few">Zálohování hudby, zbývájí %1$d skladby (%2$.1f MB)</item>
+        <item quantity="other">Zálohování stop, zbývají %1$d stop (%2$.1fMB)</item>
+        <item quantity="one">Zálohování stop, zbývá %1$d stopa (%2$.1fMB)</item>
+        <item quantity="few">Zálohování stop, zbývají %1$d stopy (%2$.1fMB)</item>
+        <item quantity="many">Zálohování stop, zbývá %1$d stop (%2$.1fMB)</item>
     </plurals>
     <plurals name="Nquit_warning">
-        <item quantity="other">Přehrávač bude ukončen za %d minut</item>
-        <item quantity="one">Přehrávač bude ukončen za %d minutu</item>
-        <item quantity="few">Přehrávač bude ukončen za %d minuty</item>
+        <item quantity="other">Přehrávač bude zastaven za %d minut</item>
+        <item quantity="one">Přehrávač bude zastaven za %d minutu</item>
+        <item quantity="few">Přehrávač bude zastaven za %d minuty</item>
+        <item quantity="many">Přehrávač bude zastaven za %d minut</item>
     </plurals>
     <plurals name="Nrecognize_switch_off_alert_message">
-        <item quantity="other">Zvolili jste možnost automaticky nevyhledávat obaly alb a texty písní. Odstranit informace o %d skladbách?</item>
-        <item quantity="one">Zvolili jste možnost automaticky nevyhledávat obaly alb a texty písní. Odstranit informace o %d skladbě?</item>
-        <item quantity="few">Zvolili jste možnost automaticky nevyhledávat obaly alb a texty písní. Odstranit informace o %d skladbách?</item>
+        <item quantity="other">Zvolili jste možnost automaticky nevyhledávat obaly alb a texty písní. Smazat informace o %d stopách?</item>
+        <item quantity="one">Zvolili jste možnost automaticky nevyhledávat obaly alb a texty písní. Smazat informace o %d stopě?</item>
+        <item quantity="few">Zvolili jste možnost automaticky nevyhledávat obaly alb a texty písní. Smazat informace o %d stopách?</item>
+        <item quantity="many">Zvolili jste možnost automaticky nevyhledávat obaly alb a texty písní. Smazat informace o %d stopách?</item>
     </plurals>
     <plurals name="Nsong_group_detail_subtitle">
-        <item quantity="other">Vytvořeno na %1$s | celkem %2$d skladeb</item>
-        <item quantity="one">Vytvořeno na %1$s | celkem %2$d skladba</item>
-        <item quantity="few">Vytvořeno na %1$s | celkem %2$d skladby</item>
+        <item quantity="other">"Vytvořeno v %1$s 
+celkem %2$d stop"</item>
+        <item quantity="one">"Vytvořeno v %1$s 
+celkem %2$d stopa"</item>
+        <item quantity="few">"Vytvořeno v %1$s 
+celkem %2$d stopy"</item>
+        <item quantity="many">"Vytvořeno v %1$s 
+celkem %2$d stop"</item>
     </plurals>
     <plurals name="Nstop_backup_songs_message">
-        <item quantity="other">%d skladeb nebylo zálohováno do Mi Cloudu. Chcete zálohování přesto ukončit?</item>
-        <item quantity="one">%d skladba nebyla zálohována do Mi Cloudu. Chcete zálohování přesto ukončit?</item>
-        <item quantity="few">%d skladby nebyly zálohovány do Mi Cloudu. Chcete zálohování přesto ukončit?</item>
+        <item quantity="other">%d stop nebylo zálohováno do Mi Cloudu. Zastavit nyní?</item>
+        <item quantity="one">%d stopa nebyla zálohována do Mi Cloudu. Zastavit nyní?</item>
+        <item quantity="few">%d stopy nebyly zálohovány do Mi Cloudu. Zastavit nyní?</item>
+        <item quantity="many">%d stop nebylo zálohováno do Mi Cloudu. Zastavit nyní?</item>
     </plurals>
     <plurals name="Ntracks_add_to_playlist">
-        <item quantity="other">%d skladeb přidáno do playlistu</item>
-        <item quantity="one">%d skladba přidána do playlistu</item>
-        <item quantity="few">%d skladby přidány do playlistu</item>
+        <item quantity="other">%d stop bylo přidáno do playlistu</item>
+        <item quantity="one">%d stopa byla přidána do playlistu</item>
+        <item quantity="few">%d stopy byly přidány do playlistu</item>
+        <item quantity="many">%d stop bylo přidáno do playlistu</item>
     </plurals>
     <plurals name="Ntracks_count">
-        <item quantity="other">%d skladeb</item>
-        <item quantity="one">%d skladba</item>
-        <item quantity="few">%d skladby</item>
+        <item quantity="other">%d stop</item>
+        <item quantity="one">%d stopa</item>
+        <item quantity="few">%d stopy</item>
+        <item quantity="many">%d stop</item>
     </plurals>
     <plurals name="Ntracks_remove_from_playlist">
-        <item quantity="other">%d skladeb bylo odstraněno z playlistu</item>
-        <item quantity="one">%d skladba byla odstraněna z playlistu</item>
-        <item quantity="few">%d skladby byly odstraněny z playlistu</item>
+        <item quantity="other">%d stop bylo odebráno z playlistu</item>
+        <item quantity="one">%d stopa byla odebrána z playlistu</item>
+        <item quantity="few">%d stopy byly odebrány z playlistu</item>
+        <item quantity="many">%d stop bylo odebráno z playlistu</item>
     </plurals>
     <plurals name="Ntracks_similar_count">
-        <item quantity="other">%d podobných skladeb</item>
-        <item quantity="one">%d podobná skladba</item>
-        <item quantity="few">%d podobné skladby</item>
+        <item quantity="other">%d podobných stop</item>
+        <item quantity="one">%d podobná stopa</item>
+        <item quantity="few">%d podobné stopy</item>
+        <item quantity="many">%d podobných stop</item>
     </plurals>
     <plurals name="Nunbackup_audios">
-        <item quantity="other">%1$d skladeb nebylo zálohováno (%2$.1f MB)</item>
-        <item quantity="one">%1$d skladba nebyla zálohována (%2$.1f MB)</item>
-        <item quantity="few">%1$d skladby nebyly zálohovány (%2$.1f MB)</item>
+        <item quantity="other">%1$d stop nebylo zálohováno (%2$.1fMB)</item>
+        <item quantity="one">%1$d stopa nebyla zálohována (%2$.1fMB)</item>
+        <item quantity="few">%1$d stopy nebyly zálohovány (%2$.1fMB)</item>
+        <item quantity="many">%1$d stop nebylo zálohováno (%2$.1fMB)</item>
     </plurals>
     <plurals name="Nupload_song_button">
-        <item quantity="other">Zálohovat %1$d skladeb (%2$.1f MB)</item>
-        <item quantity="one">Zálohovat %1$d skladbu (%2$.1f MB)</item>
-        <item quantity="few">Zálohovat %1$d skladby (%2$.1f MB)</item>
+        <item quantity="other">Zálohovat %1$d stop (%2$.1fMB)</item>
+        <item quantity="one">Zálohovat %1$d stopu (%2$.1fMB)</item>
+        <item quantity="few">Zálohovat %1$d stopy (%2$.1fMB)</item>
+        <item quantity="many">Zálohovat %1$d stop (%2$.1fMB)</item>
     </plurals>
     <plurals name="comment_count">
         <item quantity="other">%d komentářů</item>
         <item quantity="one">%d komentář</item>
         <item quantity="few">%d komentáře</item>
+        <item quantity="many">%d komentářů</item>
     </plurals>
     <plurals name="dialog_confirm_delete_downloads_message">
         <item quantity="other">Smazat %d položek?</item>
         <item quantity="one">Smazat %d položku?</item>
         <item quantity="few">Smazat %d položky?</item>
+        <item quantity="many">Smazat %d položek?</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_downloads_message_with_file">
+        <item quantity="other">"Smazat %d položek?
+Poznámka: Soubory budou smazány také ze zařízení."</item>
+        <item quantity="one">"Smazat %d položku?
+Poznámka: Soubor bude smazán také ze zařízení."</item>
+        <item quantity="few">"Smazat %d položky?
+Poznámka: Soubory budou smazány také ze zařízení."</item>
+        <item quantity="many">"Smazat %d položek?
+Poznámka: Soubory budou smazány také ze zařízení."</item>
     </plurals>
     <plurals name="dialog_delete_descript">
-        <item quantity="other">Smazat %d skladeb?</item>
-        <item quantity="one">Smazat %d skladbu?</item>
-        <item quantity="few">Smazat %d skladby?</item>
+        <item quantity="other">Smazat %d stop?</item>
+        <item quantity="one">Smazat %d stopu?</item>
+        <item quantity="few">Smazat %d stopy?</item>
+        <item quantity="many">Smazat %d stop?</item>
     </plurals>
     <plurals name="dialog_remove_descript">
-        <item quantity="other">Odebrat %d skladeb?</item>
-        <item quantity="one">Odebrat %d skladbu?</item>
-        <item quantity="few">Odebrat %d skladby?</item>
+        <item quantity="other">Odebrat %d stop?</item>
+        <item quantity="one">Odebrat %d stopu?</item>
+        <item quantity="few">Odebrat %d stopy?</item>
+        <item quantity="many">Odebrat %d stop?</item>
     </plurals>
     <plurals name="dialog_remove_from_cloud_descript">
-        <item quantity="other">Odstranit %d skladeb z Mi Cloudu? Skladby budou také smazány z místního playlistu.</item>
-        <item quantity="one">Odstranit %d skladbu z Mi Cloudu? Skladba bude také smazána z místního playlistu.</item>
-        <item quantity="few">Odstranit %d skladby z Mi Cloudu? Skladby budou také smazány z místního playlistu.</item>
+        <item quantity="other">Smazat %d stop z Mi Cloudu? Stopy budou také smazány z místního playlistu.</item>
+        <item quantity="one">Smazat %d stopu z Mi Cloudu? Stopa bude také smazána z místního playlistu.</item>
+        <item quantity="few">Smazat %d stopy z Mi Cloudu? Stopy budou také smazány z místního playlistu.</item>
+        <item quantity="many">Smazat %d stop z Mi Cloudu? Stopy budou také smazány z místního playlistu.</item>
     </plurals>
     <plurals name="download_finished">
-        <item quantity="other">Staženo &lt;font color=\"red\">%d skladeb&lt;/font></item>
-        <item quantity="one">Stažena &lt;font color==\"red\">%d skladba&lt;/font></item>
-        <item quantity="few">Staženy &lt;font color=\"red\">%d skladby&lt;/font></item>
+        <item quantity="other">Staženo &amp;lt;font color=\"red\">%d skladeb&amp;lt;/font></item>
+        <item quantity="one">Stažena &amp;lt;font color==\"red\">%d skladba&amp;lt;/font></item>
+        <item quantity="few">Staženy &amp;lt;font color=\"red\">%d skladby&amp;lt;/font></item>
+        <item quantity="many">&amp;lt;font color=\"red\">%d songs&amp;lt;/font> downloaded</item>
     </plurals>
     <plurals name="download_info_count_deleted_tasks">
         <item quantity="other">%d stahování bylo odebráno</item>
         <item quantity="one">%d stahování bylo odebráno</item>
         <item quantity="few">%d stahování byla odebrána</item>
+        <item quantity="many">%d stahování bylo odebráno</item>
     </plurals>
     <plurals name="download_running">
-        <item quantity="other">Stahování: &lt;font color=\"red\">%d songs&lt;/font></item>
-        <item quantity="one">Stahování: &lt;font color==\"red\">%d song&lt;/font></item>
-        <item quantity="few">Stahování: &lt;font color=\"red\">%d songs&lt;/font></item>
+        <item quantity="other">Stahování: &amp;lt;font color=\"red\">%d songs&amp;lt;/font></item>
+        <item quantity="one">Stahování: &amp;lt;font color==\"red\">%d song&amp;lt;/font></item>
+        <item quantity="few">Stahování: &amp;lt;font color=\"red\">%d songs&amp;lt;/font></item>
+        <item quantity="many">&amp;lt;font color=\"red\">%d songs&amp;lt;/font> downloading</item>
     </plurals>
     <plurals name="multichoice_title">
-        <item quantity="other">Vybráno %d položek</item>
-        <item quantity="one">Vybrána %d položka</item>
-        <item quantity="few">Vybrány %d položky</item>
+        <item quantity="other">Bylo vybráno %d položek</item>
+        <item quantity="one">Byla vybrána %d položka</item>
+        <item quantity="few">Byly vybrány %d položky</item>
+        <item quantity="many">Bylo vybráno %d položek</item>
     </plurals>
     <plurals name="reader_count">
         <item quantity="other">%d sledujících</item>
         <item quantity="one">%d sledující</item>
         <item quantity="few">%d sledující</item>
+        <item quantity="many">%d sledujících</item>
     </plurals>
     <plurals name="send_songs_toast">
-        <item quantity="other">%d skladeb bude odesláno</item>
-        <item quantity="one">%d skladba bude odeslána</item>
-        <item quantity="few">%d skladby budou odeslány</item>
+        <item quantity="other">Bude odesláno %d stop</item>
+        <item quantity="one">Bude odeslána %d stopa</item>
+        <item quantity="few">Budou odeslány %d stopy</item>
+        <item quantity="many">Bude odesláno %d stop</item>
     </plurals>
     <plurals name="skipped_online_songs_tips">
-        <item quantity="other">Přeskočeno %d skladeb. Pro jejich přehrání zapněte online služby.</item>
-        <item quantity="one">Přeskočena %d skladba. Pro její přehrání zapněte online služby.</item>
-        <item quantity="few">Přeskočeny %d skladby. Pro jejich přehrání zapněte online služby.</item>
+        <item quantity="other">Přeskočeno %d stop. Pro jejich přehrání zapněte online služby.</item>
+        <item quantity="one">Přeskočena %d stopa. Pro její přehrání zapněte online služby.</item>
+        <item quantity="few">Přeskočeny %d stopy. Pro jejich přehrání zapněte online služby.</item>
+        <item quantity="many">Přeskočeno %d stop. Pro jejich přehrání zapněte online služby.</item>
     </plurals>
     <plurals name="song_already_favorite">
-        <item quantity="other">Skladby již byly přidány do oblíbených.</item>
-        <item quantity="one">Skladba již byla přidána do oblíbených.</item>
-        <item quantity="few">Skladby již byly přidány do oblíbených.</item>
+        <item quantity="other">Stopy již byly přidány do oblíbených.</item>
+        <item quantity="one">Stopa již byla přidána do oblíbených.</item>
+        <item quantity="few">Stopy již byly přidány do oblíbených.</item>
+        <item quantity="many">Stopy již byly přidány do oblíbených.</item>
     </plurals>
     <plurals name="songs_count">
         <item quantity="other">%d skladeb</item>
-        <item quantity="one">%d skladba</item>
-        <item quantity="few">%d skladby</item>
+        <item quantity="one">%d stopa</item>
+        <item quantity="few">%d stopy</item>
+        <item quantity="many">%d stop</item>
     </plurals>
 </resources>

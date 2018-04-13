@@ -90,6 +90,16 @@
         <item quantity="two">למחוק %d פריטים?</item>
         <item quantity="many">למחוק %d פריטים?</item>
     </plurals>
+    <plurals name="dialog_confirm_delete_downloads_message_with_file">
+        <item quantity="other">"Delete %d items?
+Note: Files will be deleted from this device as well."</item>
+        <item quantity="one">"Delete %d item?
+Note: File will be deleted from this device as well."</item>
+        <item quantity="two">"Delete %d items?
+Note: Files will be deleted from this device as well."</item>
+        <item quantity="many">"Delete %d items?
+Note: Files will be deleted from this device as well."</item>
+    </plurals>
     <plurals name="dialog_delete_descript">
         <item quantity="other">למחוק %d שירים?</item>
         <item quantity="one">למחוק שיר %d?</item>
@@ -109,10 +119,10 @@
         <item quantity="many">למחוק %d שירים מ-Mi Cloud? הם ימחקו גם מרשימות ההשמעה המקומיות.</item>
     </plurals>
     <plurals name="download_finished">
-        <item quantity="other">&lt;font color=\"red\">%d שירים&lt;/font> ירדו</item>
-        <item quantity="one">&lt;font color==\"red\">שיר %d&lt;/font> ירד</item>
-        <item quantity="two">&lt;font color=\"red\">%d שירים&lt;/font> ירדו</item>
-        <item quantity="many">&lt;font color=\"red\">%d שירים&lt;/font> ירדו</item>
+        <item quantity="other">&amp;lt;font color=\"red\">%d שירים&amp;lt;/font> ירדו</item>
+        <item quantity="one">&amp;lt;font color==\"red\">שיר %d&amp;lt;/font> ירד</item>
+        <item quantity="two">&amp;lt;font color=\"red\">%d שירים&amp;lt;/font> ירדו</item>
+        <item quantity="many">&amp;lt;font color=\"red\">%d שירים&amp;lt;/font> ירדו</item>
     </plurals>
     <plurals name="download_info_count_deleted_tasks">
         <item quantity="other">%d הורדות הוסרו</item>
@@ -121,10 +131,10 @@
         <item quantity="many">%d הורדות הוסרו</item>
     </plurals>
     <plurals name="download_running">
-        <item quantity="other">&lt;font color=\"red\">%d שירים&lt;/font> בתהליך הורדה</item>
-        <item quantity="one">&lt;font color==\"red\">שיר %d&lt;/font> בתהליך הורדה</item>
-        <item quantity="two">&lt;font color=\"red\">%d שירים&lt;/font> בתהליך הורדה</item>
-        <item quantity="many">&lt;font color=\"red\">%d שירים&lt;/font> בתהליך הורדה</item>
+        <item quantity="other">&amp;lt;font color=\"red\">%d שירים&amp;lt;/font> בתהליך הורדה</item>
+        <item quantity="one">&amp;lt;font color==\"red\">שיר %d&amp;lt;/font> בתהליך הורדה</item>
+        <item quantity="two">&amp;lt;font color=\"red\">%d שירים&amp;lt;/font> בתהליך הורדה</item>
+        <item quantity="many">&amp;lt;font color=\"red\">%d שירים&amp;lt;/font> בתהליך הורדה</item>
     </plurals>
     <plurals name="multichoice_title">
         <item quantity="other">%d פריטים נבחרו</item>

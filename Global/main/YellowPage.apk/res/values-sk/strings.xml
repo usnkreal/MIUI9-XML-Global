@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">Prejsť na plochu</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Prejsť hore</string>
+    <string name="abc_action_menu_overflow_description">Ďalšie možnosti</string>
+    <string name="abc_action_mode_done">Hotovo</string>
+    <string name="abc_activity_chooser_view_see_all">Zobraziť všetko</string>
+    <string name="abc_activitychooserview_choose_application">Zvoľte aplikáciu</string>
+    <string name="abc_search_hint">Vyhľadať…</string>
+    <string name="abc_searchview_description_clear">Vymazať dopyt</string>
+    <string name="abc_searchview_description_query">Vyhľadávací dopyt</string>
+    <string name="abc_searchview_description_search">Hľadať</string>
+    <string name="abc_searchview_description_submit">Odoslať dopyt</string>
+    <string name="abc_searchview_description_voice">Hlasové vyhľadávanie</string>
+    <string name="abc_shareactionprovider_share_with">Zdieľať pomocou</string>
+    <string name="abc_shareactionprovider_share_with_application">Zdieľať pomocou %s</string>
+    <string name="abc_toolbar_collapse_description">Zbaliť</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="about_smart_antispam_summary">Rozpoznanie neznámeho čísla</string>
     <string name="about_telephone_fraud">Vyvarujte sa obťažovaniu</string>
     <string name="account_address">Adresa</string>
@@ -115,16 +133,15 @@
     <string name="mark_number_check_dialog_title">Označiť číslo</string>
     <string name="mark_number_check_most_choice">(Voľba väčšiny používateľov)</string>
     <string name="mark_number_custom_mark_deleted">Informácie o označení odstránené</string>
-    <string name="mark_number_delete_confirm_message">Odstrániť informácie o označení %s?</string>
+    <string name="mark_number_delete_confirm_message">Remove flag info %s?</string>
     <string name="mark_number_delete_confirm_title">Odstrániť informácie o označení</string>
     <string name="mark_number_dialog_maintitle">Označiť toto telefónne číslo príznakom</string>
     <string name="mark_number_dialog_subtitle">%1$s (označilo %2$d ľudí)</string>
     <string name="mark_number_feedback">Označenie</string>
-    <string name="mark_number_feedback_hint">Zadajte váš názor</string>
+    <string name="mark_number_feedback_hint">"Make sure the info you've entered is correct."</string>
     <string name="mark_number_feedback_invalid_hint">Zadajte správny údaj</string>
-    <string name="mark_number_feedback_not_number">To nie je číslo %s</string>
-    <string name="mark_number_feedback_personal_number">Je to osobné číslo</string>
-    <string name="mark_number_feedback_success">Informácie o označení úspešne odoslané</string>
+    <string name="mark_number_feedback_success">Obdržané info o zástavke</string>
+    <string name="mark_number_feedback_title_hint">This number:</string>
     <string name="mark_number_marked_maintitle">Zmeniť informácie o označení</string>
     <string name="mark_number_marked_subtitle">%s (súčasné označenie)</string>
     <string name="mark_number_notification_title">Nahlásiť podozrivé číslo</string>
@@ -258,6 +275,7 @@
     <string name="turn_on_smart_antispam_summary">Nahrať a identifikovať neznáme telefónne čísla z histórie hovorov a textových správ</string>
     <string name="turn_on_smart_antispam_title">ID volajúceho</string>
     <string name="turn_on_yellowpage_service_title">Použiť ID volajúceho</string>
+    <string name="unicom_yellow_page_operator_provided">Poskytované operátorom</string>
     <string name="uploads_disabled">Nahrávanie súborov je vypnuté</string>
     <string name="user_agreement2">" Podmienky používania"</string>
     <string name="user_agreement4">Ochrane súkromia</string>

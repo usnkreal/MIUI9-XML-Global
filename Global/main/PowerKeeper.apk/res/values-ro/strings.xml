@@ -27,6 +27,9 @@
     <string name="power_usage">Consumul de energie</string>
     <string name="power_mode">Setări alimentare</string>
     <string name="performance_category">Performanţă</string>
+    <string name="pref_config_title">Optimizarea performanței</string>
+    <string name="app_preload_policies_title">Pre-încărcare IA</string>
+    <string name="app_preload_policies_summary">Utilizați tehnologia de învățare a mașinilor pentru a prezice aplicațiile pe care le utilizați cel mai probabil și încărcați resursele în avans.</string>
     <string name="scenario_policies_warmcontrol">Controlul temperaturii</string>
     <string name="warm_configure">Setările de reglare a temperaturii</string>
     <string name="important_warning">Atenţie</string>
@@ -72,11 +75,18 @@ Economizorul de baterie va trata selectiv aplicațiile importante."</string>
     <string name="update_profile_sucess">Actualizat de la server cu succes</string>
     <string name="update_profile_failture_not_connect_wifi">Nu s-a putut actualiza. Conectați-vă la Wi-fi și încercați din nou.</string>
     <string name="sucess">Efectuat</string>
-    <string name="failure">Eșuat</string>
+    <string name="failure">Eroare</string>
     <string name="cloud_addr_info">Informații Cloud</string>
     <string name="lasttime_feature_cloud">Funcții actualizate:</string>
     <string name="lasttime_applist_cloud">Actualizări aplicații:</string>
     <string name="base_info">Informații de bază</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_result_text">Nu s-a putut găsi aplicaţii</string>
+    <string name="power_consume_abnormal_night">Bateria este descărcată pe timp de noapte</string>
+    <string name="enable_sleep_mode">Activați modul de somn pentru a optimiza utilizarea bateriei pe timp de noapte</string>
+    <string name="sleepmode_privacy_title">Modul de dormire</string>
+    <string name="sleepmode_privacy_content">Această caracteristică va utiliza informațiile despre sistem și informații despre dispozitiv. Nu va fi încărcat pe serverele noastre.</string>
+    <string name="sleepmode_privacy_link">Aflați mai multe despre confidențialitate și securitate</string>
+    <string name="sleepmode_disclaimer_cancel">Anulează</string>
+    <string name="sleepmode_disclaimer_agree">Sunt de acord</string>
 </resources>

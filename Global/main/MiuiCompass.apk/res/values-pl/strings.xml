@@ -30,6 +30,7 @@
     <string name="direction_north_west">PN-Z</string>
     <string name="direction_south_east">PD-W</string>
     <string name="direction_south_west">PD-Z</string>
+    <string name="unit_degree">Stopnie</string>
     <string name="guide_toast">Aby skalibrować, przesuń telefon tak, jak przedstawiono poniżej.</string>
     <string name="mobiledata_alert_dialog_title">Ostrzeżenie o użyciu danych</string>
     <string name="mobiledata_alert_dialog_message">Połączyć się z Internetem, aby skalibrować wysokość?</string>

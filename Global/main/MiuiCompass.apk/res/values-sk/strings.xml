@@ -30,6 +30,7 @@
     <string name="direction_north_west">SZ</string>
     <string name="direction_south_east">JV</string>
     <string name="direction_south_west">JZ</string>
+    <string name="unit_degree">Stupne</string>
     <string name="guide_toast">Pre kalibráciu pohybujte telefónom spôsobom ako vidíte na obrázku.</string>
     <string name="mobiledata_alert_dialog_title">Upozornenie o využívaní dát</string>
     <string name="mobiledata_alert_dialog_message">Pripojiť sa k internetu pre kalibráciu nadmorskej výšky?</string>

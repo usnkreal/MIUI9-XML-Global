@@ -117,14 +117,14 @@
     <plurals name="group_list_num_contacts_in_group">
         <item quantity="other">%1$d ľudí</item>
         <item quantity="one">%1$d človek</item>
-        <item quantity="few">%1$d ľudí</item>
-        <item quantity="many">%1$d people</item>
+        <item quantity="few">%1$d ľudia</item>
+        <item quantity="many">%1$d človeka</item>
     </plurals>
     <plurals name="group_list_num_numbers_in_group">
-        <item quantity="other">%1$d čísel</item>
+        <item quantity="other">%1$d číslic</item>
         <item quantity="one">%1$d číslo</item>
-        <item quantity="few">%1$d čísel</item>
-        <item quantity="many">%1$d numbers</item>
+        <item quantity="few">%1$d číslice</item>
+        <item quantity="many">%1$d číslice</item>
     </plurals>
     <plurals name="hint_account_contacts">
         <item quantity="other">Bolo nájdených %1$d položiek</item>
@@ -154,31 +154,31 @@
         <item quantity="other">%d nájdených</item>
         <item quantity="one">Nájdený 1 kontakt</item>
         <item quantity="few">Nájdené %d kontaktov</item>
-        <item quantity="many">%d found</item>
+        <item quantity="many">Nájdeného %d kontaktu</item>
     </plurals>
     <plurals name="listTotalAllContacts">
         <item quantity="other">%d kontaktov</item>
         <item quantity="one">1 kontakt</item>
         <item quantity="few">%d kontakty</item>
-        <item quantity="many">%d contacts</item>
+        <item quantity="many">%d kontaktu</item>
     </plurals>
     <plurals name="listTotalPhoneContacts">
         <item quantity="other">%d kontaktov s telefónnym číslom</item>
         <item quantity="one">1 kontakt s telefónnym číslom</item>
         <item quantity="few">%d kontakty s telefónnym číslom</item>
-        <item quantity="many">%d contacts with phone numbers</item>
+        <item quantity="many">%d kontaktu s telefónnym číslom</item>
     </plurals>
     <plurals name="merge_info">
         <item quantity="other">zlúčené z %0$d zdrojov</item>
-        <item quantity="one">Nezlúčené</item>
-        <item quantity="few">zlúčených %0$d položiek</item>
-        <item quantity="many">merged from %0$d sources</item>
+        <item quantity="one">nezlúčené</item>
+        <item quantity="few">zlúčené z %0$d položiek</item>
+        <item quantity="many">zlúčené z %0$d položky</item>
     </plurals>
     <plurals name="notification_voicemail_title">
         <item quantity="other">%1$d hlasových správ</item>
         <item quantity="one">Hlasová správa</item>
-        <item quantity="few">%1$d hlasových správ</item>
-        <item quantity="many">%1$d voicemails</item>
+        <item quantity="few">%1$d hlasové správy</item>
+        <item quantity="many">%1$d hlasovej správy</item>
     </plurals>
     <plurals name="numSelectedSimContacts">
         <item quantity="other">%1$d vybratých</item>
@@ -189,14 +189,14 @@
     <plurals name="num_contacts_in_group">
         <item quantity="other">%1$d ľudí z %2$s</item>
         <item quantity="one">%1$d človek z %2$s</item>
-        <item quantity="few">%1$d ľudí z %2$s</item>
-        <item quantity="many">%1$d people from %2$s</item>
+        <item quantity="few">%1$d ľudia z %2$s</item>
+        <item quantity="many">%1$d človeka z %2$s</item>
     </plurals>
     <plurals name="num_groups_in_account">
         <item quantity="other">%0$d skupín</item>
         <item quantity="one">1 skupina</item>
-        <item quantity="few">%0$d skupín</item>
-        <item quantity="many">%0$d groups</item>
+        <item quantity="few">%0$d skupiny</item>
+        <item quantity="many">%0$d skupiny</item>
     </plurals>
     <plurals name="number_of_items_available">
         <item quantity="other">Zostáva %1$d položiek</item>
@@ -238,7 +238,7 @@
         <item quantity="other">%d nájdených</item>
         <item quantity="one">1 kontakt</item>
         <item quantity="few">%d kontaktov</item>
-        <item quantity="many">%d found</item>
+        <item quantity="many">Nájdeného %d kontaktu</item>
     </plurals>
     <plurals name="smart_group_member_count">
         <item quantity="other">%1$d osôb</item>

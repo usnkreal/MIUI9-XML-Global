@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="firewall_item_summary">
+        <item quantity="other">%s alkalmazás kapcsolata korlátozva</item>
+        <item quantity="one">%s alkalmazás kapcsolata korlátozva</item>
+    </plurals>
+    <plurals name="bg_network_allow_count">
+        <item quantity="other">%d alkalmazás kapcsolódhat a hálózatra</item>
+        <item quantity="one">%d alkalmazás kapcsolódhat a hálózatra</item>
+    </plurals>
+    <plurals name="bg_network_restrict_count">
+        <item quantity="other">%d alkalmazás nem kapcsolódhat a hálózatra</item>
+        <item quantity="one">%d alkalmazás nem kapcsolódhat a hálózatra</item>
+    </plurals>
     <plurals name="status_bar_settings_disabled_header_title">
         <item quantity="other">%d alkalmazás nem jeleníthet meg értesítéseket</item>
         <item quantity="one">%d alkalmazás nem jeleníthet meg értesítéseket</item>
@@ -57,8 +69,8 @@
         <item quantity="one">%d automatikus indítás engedélyezve</item>
     </plurals>
     <plurals name="lockpassword_pin_fixed_length">
-        <item quantity="other">A PIN kód %d számjegy kell legyen</item>
-        <item quantity="one">A PIN kód %d számjegy kell legyen</item>
+        <item quantity="other">A PIN-kód %d számjegy kell legyen</item>
+        <item quantity="one">A PIN-kód %d számjegy kell legyen</item>
     </plurals>
     <plurals name="wifi_share_count">
         <item quantity="other">%d hálózat megosztva</item>
@@ -93,12 +105,12 @@
         <item quantity="one">Sosincs tiltva az alábbi alkalmazásban</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short">
-        <item quantity="other">A PIN kód legalább %d számjegy kell legyen</item>
-        <item quantity="one">A PIN kód legalább %d számjegy kell legyen</item>
+        <item quantity="other">A PIN-kód legalább %d számjegy kell legyen</item>
+        <item quantity="one">A PIN-kód legalább %d számjegy kell legyen</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long">
-        <item quantity="other">A PIN kód legfeljebb %d számjegyet tartalmazhat</item>
-        <item quantity="one">A PIN kód legfeljebb %d számjegyet tartalmazhat</item>
+        <item quantity="other">A PIN-kód legfeljebb %d számjegyet tartalmazhat</item>
+        <item quantity="one">A PIN-kód legfeljebb %d számjegyet tartalmazhat</item>
     </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
         <item quantity="other">Kössön össze legalább %d pontot. Próbálja újra.</item>

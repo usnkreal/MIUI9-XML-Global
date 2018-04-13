@@ -658,7 +658,7 @@
         <item>Créez un dossier \"mkdir\" /media/mtp</item>
         <item>"Confirmer les autorisations du groupe d'utilisateur dans le groupe d'utilisateurs actuels"</item>
         <item>Connectez-vous à nouveau</item>
-        <item>"Accès périphérique monté : mtpfs/media/Psg via l'Explorateur de fichiers ; même que le répertoire local"</item>
+        <item>Accéder au périphérique monté : mtpfs/media/mtp via Explorateur de fichiers ; pareil que le dossier local.</item>
         <item>"Désinstaller le périphérique : fusermount -u/media/mtp
 Note : seulement pour Ubuntu 8.04 !"</item>
     </string-array>
@@ -881,7 +881,7 @@ Note : seulement pour Ubuntu 8.04 !"</item>
         <item>Écran de verrouillage</item>
         <item>Mot de passe de protection de la vie privée</item>
         <item>Mode enfant</item>
-        <item>Explorateur</item>
+        <item>Gestionnaire de fichiers</item>
         <item>"Verrouillage d'application"</item>
         <item>Second espace</item>
     </string-array>
@@ -1022,7 +1022,7 @@ Note : seulement pour Ubuntu 8.04 !"</item>
         <item>Jérusalem</item>
         <item>Kaboul</item>
         <item>Karachi</item>
-        <item>Kathmandu</item>
+        <item>Katmandou</item>
         <item>Kuala Lumpur</item>
         <item>Koweït</item>
         <item>Macao</item>
@@ -1359,6 +1359,29 @@ Note : seulement pour Ubuntu 8.04 !"</item>
         <item>Photos</item>
         <item>Fichiers</item>
         <item>Notes</item>
+    </string-array>
+    <string-array name="region_support_face">
+        <item>IN</item>
+        <item>ID</item>
+        <item>RU</item>
+        <item>HK</item>
+        <item>TW</item>
+    </string-array>
+    <string-array name="device_support_face">
+        <item>jason</item>
+        <item>polaris</item>
+        <item>sagit</item>
+        <item>chiron</item>
+        <item>whyred</item>
+        <item>nitrogen</item>
+        <item>wayne</item>
+        <item>ysl</item>
+        <item>sakura</item>
+    </string-array>
+    <string-array name="device_global_support_face">
+        <item>whyred</item>
+        <item>polaris</item>
+        <item>ysl</item>
     </string-array>
     <string-array name="install_non_market_app_entries">
         <item>Activer (recommandé)</item>

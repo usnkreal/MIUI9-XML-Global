@@ -451,7 +451,7 @@ Pentru a activa contul, urmati link-ul
     <string name="mipay_identity">Verificare ID</string>
     <string name="mipay_indentity_done">Verificat</string>
     <string name="mipay_identitiy_no">Nu este verificat</string>
-    <string name="account_token_expired_title">Autentificarea a eșuat</string>
+    <string name="account_token_expired_title">Nu se poate autentifica</string>
     <string name="account_token_expired_msg">"Codul de verificare a expirat, începeți din nou sau deconectați-vă
  Cont ID: %s"</string>
     <string name="bind_safe_phone_msg">Adăugați numărul dvs. de telefon pentru a vă putea conecta la Contul dvs. Mi data viitoare.</string>

@@ -37,10 +37,10 @@
         <item quantity="many">%1$s osoby |</item>
     </plurals>
     <plurals name="total_voted_num_text">
-        <item quantity="other">"&lt;font color='#20a7ff'>%1$s&lt;/font> ľudí hlasovalo"</item>
-        <item quantity="one">"&lt;font color='#20a7ff'>%1$s&lt;/font> osoba hlasovala"</item>
-        <item quantity="few">"&lt;font color='#20a7ff'>%1$s&lt;/font> osoby hlasovali"</item>
-        <item quantity="many">"&lt;font color='#20a7ff'>%1$s&lt;/font> osoby hlasovalo"</item>
+        <item quantity="other">"&amp;lt;font color='#20a7ff'>%1$s&amp;lt;/font> ľudí hlasovalo"</item>
+        <item quantity="one">"&amp;lt;font color='#20a7ff'>%1$s&amp;lt;/font> osoba hlasovala"</item>
+        <item quantity="few">"&amp;lt;font color='#20a7ff'>%1$s&amp;lt;/font> osoby hlasovali"</item>
+        <item quantity="many">"&amp;lt;font color='#20a7ff'>%1$s&amp;lt;/font> osoby hlasovalo"</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Jasno</item>

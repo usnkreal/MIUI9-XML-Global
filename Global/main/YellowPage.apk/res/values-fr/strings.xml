@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">"Revenir à l'accueil"</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Revenir en haut de la page</string>
+    <string name="abc_action_menu_overflow_description">"Plus d'options"</string>
+    <string name="abc_action_mode_done">OK</string>
+    <string name="abc_activity_chooser_view_see_all">Tout afficher</string>
+    <string name="abc_activitychooserview_choose_application">Sélectionner une application</string>
+    <string name="abc_search_hint">Rechercher…</string>
+    <string name="abc_searchview_description_clear">Effacer la requête</string>
+    <string name="abc_searchview_description_query">Requête de recherche</string>
+    <string name="abc_searchview_description_search">Rechercher</string>
+    <string name="abc_searchview_description_submit">Envoyer la requête</string>
+    <string name="abc_searchview_description_voice">Recherche vocale</string>
+    <string name="abc_shareactionprovider_share_with">Partager avec</string>
+    <string name="abc_shareactionprovider_share_with_application">Partager avec %s</string>
+    <string name="abc_toolbar_collapse_description">Réduire</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="about_smart_antispam_summary">À propos de cette fonctionnalité</string>
     <string name="about_telephone_fraud">Protégez-vous contre la fraude</string>
     <string name="account_address">Adresses</string>
@@ -120,11 +138,10 @@
     <string name="mark_number_dialog_maintitle">Signaler ce numéro de téléphone</string>
     <string name="mark_number_dialog_subtitle">%1$s (rapporté par %2$d personnes)</string>
     <string name="mark_number_feedback">Signaler</string>
-    <string name="mark_number_feedback_hint">Saisir un commentaire</string>
+    <string name="mark_number_feedback_hint">Assurez-vous que les infos que vous avez saisies sont correctes.</string>
     <string name="mark_number_feedback_invalid_hint">Entrez votre commentaire</string>
-    <string name="mark_number_feedback_not_number">"Ceci n'est pas le numéro de %s"</string>
-    <string name="mark_number_feedback_personal_number">Son numéro personnel</string>
-    <string name="mark_number_feedback_success">Information de raport envoyée avec succès</string>
+    <string name="mark_number_feedback_success">"Les infos de l'indicateur ont été reçus"</string>
+    <string name="mark_number_feedback_title_hint">Ce numéro :</string>
     <string name="mark_number_marked_maintitle">Changer les informations du rapport</string>
     <string name="mark_number_marked_subtitle">%s (indicateur actuel)</string>
     <string name="mark_number_notification_title">Signaler les numéros suspects</string>
@@ -260,6 +277,7 @@ Total : %3$s RMB"</string>
     <string name="turn_on_smart_antispam_summary">"Envoyez et identifiez des numéros de téléphones inconnus depuis l'historique des appels et des messages textes"</string>
     <string name="turn_on_smart_antispam_title">"Identité de l'appelant"</string>
     <string name="turn_on_yellowpage_service_title">"Utiliser l'ID de l'appelant"</string>
+    <string name="unicom_yellow_page_operator_provided">"Fourni par l'opérateur"</string>
     <string name="uploads_disabled">"L'envoi de fichiers est désactivé"</string>
     <string name="user_agreement2">" Conditions générales d'utilisation"</string>
     <string name="user_agreement4">Politique de confidentialité</string>

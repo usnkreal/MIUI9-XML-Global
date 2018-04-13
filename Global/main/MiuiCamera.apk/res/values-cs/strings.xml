@@ -373,11 +373,11 @@ a zvýrazní osoby v popředí."</string>
     <string name="pref_camera_picturesize_entry_18_9">18:9</string>
     <string name="pref_camera_front_bokeh_entry_on">Zap.</string>
     <string name="pref_camera_front_bokeh_entry_off">Vyp.</string>
-    <string name="pref_camera_ai_scene_title">AI Fotoaparát</string>
+    <string name="pref_camera_ai_scene_title">AI fotoaparát</string>
     <string name="pref_camera_front_ai_scene_entry_on">AI fotoaparát</string>
     <string name="pref_camera_front_ai_scene_entry_off">AI fotoaparát je vypnutý</string>
-    <string name="ai_scene_mode_use_hint_text">"Otevřte Fotoaparát v režimu AI-scény, fotoaparát sám nastaví nejlepší typ scény 
- a na jejím základě optimalizuje obrázek"</string>
+    <string name="ai_scene_mode_use_hint_text">"AI fotoaparát dokáže automaticky rozeznat typ scény
+a podle toho optimalizovat vaše fotografie"</string>
     <string name="color_effect_entry_vivid">Živý</string>
     <string name="color_effect_entry_film">Film</string>
     <string name="color_effect_entry_koizora">Láska</string>
@@ -406,6 +406,9 @@ a zvýrazní osoby v popředí."</string>
     <string name="portait_effect_entry_maze">Bludiště</string>
     <string name="portait_effect_entry_cool">Máta</string>
     <string name="portait_effect_entry_blackwhite">Černobílý</string>
+    <string name="portait_effect_entry_story">Příběh</string>
+    <string name="portait_effect_entry_riddle">Hádanka</string>
+    <string name="portait_effect_entry_movie">Film</string>
     <string name="pano_how_to_use_prompt_start">Klepněte na šipku pro změnu směru a začněte pomalu pohybovat zařízením.</string>
     <string name="accessibility_intent_done_apply">Hotovo</string>
     <string name="accessibility_flash_on">Blesk je zapnutý</string>

@@ -29,28 +29,28 @@
         <item quantity="one">%1$d개가 스팸 및 수신 거부로 보고되었습니다.</item>
     </plurals>
     <plurals name="conversation_muted">
-        <item quantity="other">대화 &lt;b>%1$d&lt;/b>개를 숨김</item>
-        <item quantity="one">대화 &lt;b>%1$d&lt;/b>개를 숨김</item>
+        <item quantity="other">대화 &amp;lt;b>%1$d&amp;lt;/b>개를 숨김</item>
+        <item quantity="one">대화 &amp;lt;b>%1$d&amp;lt;/b>개를 숨김</item>
     </plurals>
     <plurals name="conversation_spammed">
-        <item quantity="other">대화 &lt;b>%1$d&lt;/b>개를 스팸으로 신고함</item>
-        <item quantity="one">대화 &lt;b>%1$d&lt;/b>개를 스팸으로 신고함</item>
+        <item quantity="other">대화 &amp;lt;b>%1$d&amp;lt;/b>개를 스팸으로 신고함</item>
+        <item quantity="one">대화 &amp;lt;b>%1$d&amp;lt;/b>개를 스팸으로 신고함</item>
     </plurals>
     <plurals name="conversation_not_spam">
-        <item quantity="other">대화 &lt;b>%1$d&lt;/b>개의 스팸해제를 요청함</item>
-        <item quantity="one">대화 &lt;b>%1$d&lt;/b>개의 스팸해제를 요청함</item>
+        <item quantity="other">대화 &amp;lt;b>%1$d&amp;lt;/b>개의 스팸해제를 요청함</item>
+        <item quantity="one">대화 &amp;lt;b>%1$d&amp;lt;/b>개의 스팸해제를 요청함</item>
     </plurals>
     <plurals name="conversation_not_important">
-        <item quantity="other">대화 &lt;b>%1$d&lt;/b>개를 중요하지 않음으로 표시함</item>
-        <item quantity="one">대화 &lt;b>%1$d&lt;/b>개를 중요하지 않음으로 표시함</item>
+        <item quantity="other">대화 &amp;lt;b>%1$d&amp;lt;/b>개를 중요하지 않음으로 표시함</item>
+        <item quantity="one">대화 &amp;lt;b>%1$d&amp;lt;/b>개를 중요하지 않음으로 표시함</item>
     </plurals>
     <plurals name="conversation_archived">
-        <item quantity="other">대화 &lt;b>%1$d&lt;/b>개를 보관처리함</item>
-        <item quantity="one">대화 &lt;b>%1$d&lt;/b>개를 보관처리함</item>
+        <item quantity="other">대화 &amp;lt;b>%1$d&amp;lt;/b>개를 보관처리함</item>
+        <item quantity="one">대화 &amp;lt;b>%1$d&amp;lt;/b>개를 보관처리함</item>
     </plurals>
     <plurals name="conversation_deleted">
-        <item quantity="other">대화 &lt;b>%1$d&lt;/b>개를 삭제함</item>
-        <item quantity="one">대화 &lt;b>%1$d&lt;/b>개를 삭제함</item>
+        <item quantity="other">대화 &amp;lt;b>%1$d&amp;lt;/b>개를 삭제함</item>
+        <item quantity="one">대화 &amp;lt;b>%1$d&amp;lt;/b>개를 삭제함</item>
     </plurals>
     <plurals name="conversation_folder_changed">
         <item quantity="other">라벨을 변경했습니다.</item>
@@ -85,7 +85,7 @@
         <item quantity="one">첨부파일 %1$d개</item>
     </plurals>
     <plurals name="dialog_report_spam_unsubscribe_text">
-        <item quantity="other">Gmail에서 이 메일을 스팸으로 표시할 뿐만 아니라 &lt;b>%2$d명의 발신자&lt;/b>(%1$s님)가 보내는 메일을 자동으로 수신 거부할 수 있습니다.</item>
+        <item quantity="other">Gmail에서 이 메일을 스팸으로 표시할 뿐만 아니라 &amp;lt;b>%2$d명의 발신자&amp;lt;/b>(%1$s님)가 보내는 메일을 자동으로 수신 거부할 수 있습니다.</item>
         <item quantity="one">Gmail에서 이 메일을 스팸으로 표시할 뿐만 아니라 %1$s님이 보내는 메일을 자동으로 수신 거부할 수 있습니다.</item>
     </plurals>
     <plurals name="sync_recent">
@@ -109,9 +109,9 @@
         <item quantity="one">참고: 일부 수신자의 경우 여전히 이 파일에 액세스할 수 있는 권한이 없을 수 있습니다. 이 경우 Google 드라이브 내에서 이 파일을 공유해야 할 수 있습니다.</item>
     </plurals>
     <plurals name="fix_permissions_outside_domain_warning">
-        <item quantity="other">"이 파일을 소유하고 있는 Google Apps 조직에 속하지 않은 수신자(&lt;br>&lt;b>%1$s
-&lt;/b>&lt;br>)와 이 파일이 공유됩니다."</item>
-        <item quantity="one">이 파일을 소유하고 있는 Google Apps 조직에 속하지 않은 수신자(&lt;br>&lt;b>%1$s&lt;/b>&lt;br>)와 파일이 공유됩니다.</item>
+        <item quantity="other">"이 파일을 소유하고 있는 Google Apps 조직에 속하지 않은 수신자(&amp;lt;br>&amp;lt;b>%1$s
+&amp;lt;/b>&amp;lt;br>)와 이 파일이 공유됩니다."</item>
+        <item quantity="one">이 파일을 소유하고 있는 Google Apps 조직에 속하지 않은 수신자(&amp;lt;br>&amp;lt;b>%1$s&amp;lt;/b>&amp;lt;br>)와 파일이 공유됩니다.</item>
     </plurals>
     <plurals name="files_not_shared_dialog_body">
         <item quantity="other">내가 드라이브에서 삽입한 파일에 액세스할 수 있는 권한이 수신자에게 없을 수 있습니다. 이 경우 Google 드라이브 내에서 파일을 공유해야 할 수 있습니다.</item>

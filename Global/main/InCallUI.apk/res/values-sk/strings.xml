@@ -147,25 +147,6 @@
     <string name="antispam_provider">Označené %s</string>
     <string name="antispam_notification_title">Neznáme číslo</string>
     <string name="suspect_info">So svojimi osobnými údajmi zaobchádzajte opatrne.</string>
-    <string name="livetalk_dial">Používanie dodatočných balíkov</string>
-    <string name="areacode_set_default">Nastaviť ako predvolené</string>
-    <string name="default_area_code_setting">Predvolený kód oblasti</string>
-    <string name="not_activate_sim_card_content_title">Telefónne číslo nie je overené</string>
-    <string name="not_activate_sim_card_content">Overte svoje telefónne číslo, aby ste mohli začať používať dodatočný balíček. Stále môžete vykonať klasické volania, na ktoré budú účtované účtované dáta operátora.</string>
-    <string name="not_activate_sim_card_content_with_operator">Skontrolujte, či SIM %1$s (%2$s) môže uskutočniť hovor pomocou dodatočného balíčka. Stále môžete vykonať klasický hovor, čo bude účtované operátorom.</string>
-    <string name="dialog_call_ordinary_telephone">Bežný hovor</string>
-    <string name="dialog_activate_livetalk">Overiť číslo</string>
-    <string name="not_support_title">Číslo nie je podporované</string>
-    <string name="not_support_message">"Top-up package currently doesn't support such numbers. You can try to make a regular call instead."</string>
-    <string name="livetalk_hangup">Ukončiť</string>
-    <string name="no_call_back_title">Upozornenie</string>
-    <string name="no_call_back_message">To pripojenie trvá príliš dlho. Prepnite na bežné hovory, pri ktorých by ste mohli byť účtovaný operátorom.</string>
-    <string name="keep_wait_call_back">Čakajte</string>
-    <string name="network_error_title">Chyba siete</string>
-    <string name="network_error_message">Skúste uskutočniť bežný hovor. Bude spoplatnený vaším operátorom.</string>
-    <string name="do_not_ask">Nabudúce neukazuj</string>
-    <string name="time_left_livetalk">(%ds)</string>
-    <string name="can_not_call_oneself">Nie je možné volať na toto číslo</string>
     <string name="card_title_video_call_paused">Video pozastavené</string>
     <string name="card_title_incoming_conference_call">Prichádzajúci konferenčný hovor</string>
     <string name="onscreen_change_to_voice">Hlasový hovor</string>
@@ -190,6 +171,9 @@
     <string name="close_camera_failed">Fotoaparát sa nepodarilo vypnúť…</string>
     <string name="change_to_voice_tips_when_background">Druhá strana prepla na hlasový hovor</string>
     <string name="video_crbt_title">%s VRBT</string>
+    <string name="crbt_second_hold_prompt">Hovor s %s je podržaný…</string>
+    <string name="crbt_second_hold_prompt_no_name">Predchádzajúci hovor je podržaný…</string>
+    <string name="crbt_second_hold_prompt_conference">Konferenčný hovor je podržaný…</string>
     <string name="call_button_tools_text">Funkcie</string>
     <string name="call_button_dialer_text">Klávesnica</string>
     <string name="call_button_mute_text">Stíšiť</string>
@@ -211,6 +195,7 @@
     <string name="dialpad_seven">7</string>
     <string name="dialpad_eight">8</string>
     <string name="dialpad_nine">9</string>
+    <string name="prompt_no_volte_when_failed">Služby VoLTE nie sú dostupné.</string>
     <string name="no_vm_number">Chýba číslo hlasovej schránky</string>
     <string name="no_vm_number_msg">Na SIM karte nie sú uložené žiadne čísla hlasovej schránky.</string>
     <string name="add_vm_number_str">Pridať číslo</string>
@@ -224,6 +209,10 @@
     <string name="dial_with_gsm_phone">Bežný hovor</string>
     <string name="livetalk_left_minute">Ostáva %smin</string>
     <string name="miprofile_stranger_card">Stranger card</string>
+    <string name="network_error_message">Skúste uskutočniť bežný hovor. Bude spoplatnený vaším operátorom.</string>
+    <string name="network_error_title">Chyba siete</string>
     <string name="no_balance_message">Not enough funds remaining in your top-up package. You can try to make a regular call instead.</string>
+    <string name="not_support_message">"Top-up package currently doesn't support such numbers. You can try to make a regular call instead."</string>
+    <string name="not_support_title">Číslo nie je podporované</string>
     <string name="purchase_now">Top up</string>
 </resources>

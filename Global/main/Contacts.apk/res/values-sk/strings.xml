@@ -969,7 +969,7 @@ Pre pridanie kontaktu do obľúbených:
     <string name="search_contacts_display">Kontakty;Zobraziť</string>
     <string name="search_contacts_more">Usporiadať;Kontakty</string>
     <string name="search_contacts_recovery">Kontakty</string>
-    <string name="search_contacts_setting">Contacts setting;Display photos and info;Assign contact photos;Import and export;Share; Import from sdcard;Import from SIM card;Import from other phone;Export from sdcard;Export from SIM card;Share visible contacts; Contacts display;Hide incomplete numbers;Show SIM contacts;Configure contact lists;Smart groups;Organize contacts; Merge duplicate contacts;Delete batch;Clear data;Rebuild index data;t9;SIM cards;SIM card storage;Contacts recovery introduction</string>
+    <string name="search_contacts_setting">Nastavenia kontaktov;Zobraziť fotku a informácie;Priradiť fotky ku kontaktom;Importovať a exportovať;Zdieľať; Importovať z SD karty;Importovať zo SIM karty;Importovať z iného telefónu;Exportovať z SD karty;Exportovať zo SIM karty;Zdieľať kontakty; Zobraziť predvoľby;Skryť neúplné čísla;Zobraziť SIM kontakty;Konfigurovať zoznam kontaktov;Inteligentné skupiny;Organizovať kontakty; Zlúčiť duplicitné kontakty;Odstrániť skupinu;Vymazať údaje;Prepracovať indexové údaje;t9;SIM karty;Úložisko SIM karty;Úvod do obnovy kontaktov;Fotografie kontaktov</string>
     <string name="search_display_only_phones">Kontakty;Zobraziť</string>
     <string name="search_display_sim_contacts">Kontakty;Zobraziť</string>
     <string name="search_export_to_sdcard">Kontakty;Exportovať;úložisko</string>
@@ -992,7 +992,7 @@ Pre pridanie kontaktu do obľúbených:
     <string name="search_simple_mode">Zobraziť;informácie;fotky;Kontakty</string>
     <string name="search_smart_group_title">Kontakty;Zobraziť</string>
     <string name="search_wipe_data">Usporiadať;Kontakty</string>
-    <string name="searching_vcard_message">Vyhľadávanie dát karty vCard na karte SD</string>
+    <string name="searching_vcard_message">Vyhľadávanie vCard dát na zariadení…</string>
     <string name="select_all">Vybrať všetko</string>
     <string name="select_all_exceed">Vyberte maximálne %1$d, nie všetko</string>
     <string name="select_exceed">Vyberte maximálne %1$d</string>

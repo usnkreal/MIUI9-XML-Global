@@ -58,6 +58,8 @@
     <string name="wating">잠시만 기다려주십시오…</string>
     <string name="Active">활성화</string>
     <string name="ok_button">확인</string>
+    <string name="remove_button">제거 및 재부팅</string>
+    <string name="remove_button_time">제거 및 재부팅 (%d초)</string>
     <string name="cancel_button">취소</string>
     <string name="list_empty_text">비어있음</string>
     <string name="list_empty_text_xspace">WeChat/QQ/Weibo을 설치하시고 듀얼 앱 생성 후 다시 시도하십시오.</string>
@@ -65,6 +67,8 @@
     <string name="xspace_setting_label">듀얼 앱 설정</string>
     <string name="xspace_account">듀얼 앱 계정</string>
     <string name="declare_dialog_title">듀얼 앱 정보</string>
+    <string name="stop_xspace_alert_title">듀얼 앱 계정 삭제 중</string>
+    <string name="stop_xspace_alert_content">모든 듀얼 앱을 삭제하셨습니다. 듀얼 앱 계정 및 데이터도 삭제하시겠습니까? 삭제 후 듀얼 앱을 사용하시려면 다시 생성하셔야 합니다.</string>
     <string name="xspace_loading_msg">앱 로드 중…</string>
     <string name="xspace_header">듀얼 앱</string>
     <string name="xspace_introduce">추천됨</string>
@@ -77,6 +81,7 @@
     <string name="xspace_install_failed">생성 실패</string>
     <string name="xspace_uninstalling">설치 제거 중…</string>
     <string name="xspace_install_completed">홈 화면에 아이콘 추가됨</string>
+    <string name="xspace_install_completed_global">아이콘이 서랍에 추가됨</string>
     <string name="xspace_uninstall_completed">듀얼 앱 삭제 성공</string>
     <string name="xspace_uninstall_dialog_title">듀얼 앱 삭제</string>
     <string name="xspace_uninstall_dialog_content">듀얼 앱을 제거하시면 모든 앱 데이터가 제거될 것입니다.</string>
@@ -177,6 +182,10 @@
     <string name="notification_from_second_user">보조 공간의 알림 표시</string>
     <string name="radio_button_icon_switch_title">바로가기 사용</string>
     <string name="radio_button_password_switch_title">비밀번호 사용</string>
+    <string name="reset_password_dialog_title">보조 공간 바로가기 숨기기 실패</string>
+    <string name="reset_password_dialog_message">기본 공간과 보조 공간에 서로 다른 유형의 비밀번호를 사용 중입니다. 바로가기를 숨기시려면 기본 공간과 보조 공간의 비밀번호 유형을 같게 해야 합니다.</string>
+    <string name="reset_password_dialog_positve_btn_title">변경</string>
+    <string name="entrance_reopen_toast_msg">서로 다른 비밀번호 유형으로 인해 보조 공간 바로가기 표시 중</string>
     <string name="settings_cross_notification_title">알림</string>
     <string name="settings_cross_notification_summary">다른 공간에서 알림 수신</string>
     <string name="settings_switch_shortcut_summary">기본 공간에서 홈 화면 바로가기 표시</string>
@@ -358,6 +367,13 @@
     <string name="sdcradfs_dialog_in_sec_message">"업데이트를 하시려면 먼저 기존의 보조 공간을 삭제하시고 다시 생성하셔야 합니다. 보조 공간에서 기본 공간으로의 데이터 이동은 재부팅 후 적용됩니다.
 업데이트를 하지 않으시는 경우, 듀얼 앱이 정상적으로 작동하지 않을 수 있습니다."</string>
     <string name="space_created_success">보조 공간 생성 성공</string>
+    <string name="encrypt_space_delete_dialog_title">주의</string>
+    <string name="encrypt_space_delete_dialog_message">Android 업데이트 후, 보조 공간 데이터가 호환되지 않을 것입니다. 이를 방지하기 위해, 모든 데이터를 기본 공간으로 전송하시고, 보조 공간을 삭제하신 후 다시 생성하십시오.</string>
+    <string name="encrypt_space_delete_dialog_click_message">*데이터를 이동하실 필요가 없으시다면, %s</string>
+    <string name="encrypt_space_delete_dialog_click_message_action">지금 보조 공간을 삭제하고 다시 생성하십시오.</string>
+    <string name="encrypt_space_delete_dialog_positive_text">데이터 이동</string>
+    <string name="encrypt_space_delete_notification_title">보조 공간</string>
+    <string name="encrypt_space_delete_notification_message">업데이트 완료를 위해 기존의 보조 공간을 삭제하시고 새로 생성하십시오.</string>
     <string name="space_create_guide_title_1">개인 정보를 보호하십시오</string>
     <string name="space_create_guide_desc_1">앱과 사진을 안전하게 저장합니다.</string>
     <string name="space_create_guide_title_2">아무때나 생성할 수 있습니다.</string>
@@ -368,14 +384,14 @@
     <string name="second_space_desktop_tips_dialog_title">중요한 업데이트</string>
     <string name="second_space_desktop_tips_dialog_positive_text">알겠습니다</string>
     <string name="second_space_desktop_tips_dialog_message">이 업데이트 후 데이터 이동 및 보조 공간 관리 아이콘이 홈 화면에 표시되지 않을 것입니다. 설정에서 해당 기능에 접근하실 수 있습니다.</string>
-    <string name="green_guard">Parental controls</string>
-    <string name="bind_device">Add devices</string>
-    <string name="green_guard_des1">Add devices to manage them remotely</string>
-    <string name="green_guard_title2">View location info</string>
-    <string name="green_guard_des2">Know where exactly all managed devices are</string>
-    <string name="green_guard_title3">Manage apps</string>
-    <string name="green_guard_des3">Control installed apps and restrict usage</string>
-    <string name="experience_more_features">Add a device to view all features</string>
-    <string name="can_not_switch_when_green_kid_active">Switching to Second space is restricted by parental controls</string>
-    <string name="need_network_when_bind">Connect to the network before Adding devices</string>
+    <string name="green_guard">자녀보호 모드</string>
+    <string name="bind_device">기기 추가</string>
+    <string name="green_guard_des1">원격으로 관리하려면 기기 추가</string>
+    <string name="green_guard_title2">위치 정보 보기</string>
+    <string name="green_guard_des2">관리되고 있는 모든 기기의 위치 파악</string>
+    <string name="green_guard_title3">앱 관리</string>
+    <string name="green_guard_des3">설치된 앱 제어 및 사용량 제한</string>
+    <string name="experience_more_features">모든 기능을 보려면 기기 추가</string>
+    <string name="can_not_switch_when_green_kid_active">자녀보호 모드로 인해 보조 공간 전환이 제한되었습니다.</string>
+    <string name="need_network_when_bind">기기를 추가하시기 전 네트워크에 연결하십시오.</string>
 </resources>

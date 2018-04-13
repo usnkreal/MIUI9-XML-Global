@@ -471,6 +471,7 @@ W celu uzyskania informacji, skontaktuj się z administratorem."</string>
     <string name="notification_group_title_text">%1$s (%2$s)</string>
     <string name="notification_group_overflow_indicator">+%s</string>
     <string name="click_to_return_multi_window">Dotknij aby powrócić do podzielonego ekranu</string>
+    <string name="click_to_return_multi_window_of_notch">Wróć do podzielonego ekranu</string>
     <string name="recent_dock_tip">Dotknij, aby wybrać aplikacje</string>
     <string name="recent_cannot_dock">Nie można skorzystać z Dzielenia ekranu w Drugiej przestrzeni</string>
     <string name="dock_keyguard_locked_failed_to_dock_text">Podzielony ekran nie jest obsługiwany na ekranie blokady.</string>

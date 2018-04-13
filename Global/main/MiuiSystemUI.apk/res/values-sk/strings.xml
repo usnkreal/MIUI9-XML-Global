@@ -469,6 +469,7 @@ Pre viac informácií, kontaktujte administrátora."</string>
     <string name="notification_group_title_text">%1$s (%2$s)</string>
     <string name="notification_group_overflow_indicator">+%s</string>
     <string name="click_to_return_multi_window">Dotykom sa vrátite k režimu Multi-Window</string>
+    <string name="click_to_return_multi_window_of_notch">Back to Split screen</string>
     <string name="recent_dock_tip">Dotykom vyberte aplikáciu</string>
     <string name="recent_cannot_dock">V Druhom priestore nie je možné použiť Rozdelenú obrazovku</string>
     <string name="dock_keyguard_locked_failed_to_dock_text">KeyGuard nepodporuje multi-window režim.</string>
@@ -494,7 +495,7 @@ Pre viac informácií, kontaktujte administrátora."</string>
     <string name="fs_gesture_final_over">Som hotový</string>
     <string name="no_sim_card">Žiadna SIM karta</string>
     <string name="prompt_detecting">Rozpoznávanie</string>
-    <string name="prompt_danger">Riziko</string>
+    <string name="prompt_danger">Danger</string>
     <string name="prompt_failure">Chyba</string>
     <string name="prompt_safe">Bezpečné</string>
     <string name="prompt_unknown">Neznáme</string>

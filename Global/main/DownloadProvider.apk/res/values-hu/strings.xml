@@ -64,7 +64,7 @@
     <string name="permlab_downloadCompletedIntent">Letöltési értesítések küldése.</string>
     <string name="permdesc_downloadCompletedIntent">Megengedi az alkalmazásnak, hogy értesítéseket küldjön az elkészült letöltésekről. A rosszindulatú alkalmazások ezt kihasználhatják más alkalmazások letöltéseinek megzavarására.</string>
     <string name="permlab_seeAllExternal">Az összes letöltés megjelenítése az USB háttértáron</string>
-    <string name="permdesc_seeAllExternal">Megengedi az alkalmazásnak, hogy megjelenítse az összes letöltést az SD kártyán, függetlenül attól, hogy melyik alkalmazás töltötte le.</string>
+    <string name="permdesc_seeAllExternal">Megengedi az alkalmazásnak, hogy megjelenítse az összes letöltést az SD-kártyán, függetlenül attól, hogy melyik alkalmazás töltötte le.</string>
     <string name="permlab_downloadCacheNonPurgeable">Hely fenntartása a letöltési-gyorsítótárban</string>
     <string name="permdesc_downloadCacheNonPurgeable">Engedélyezi az alkalmazásnak, hogy letöltse a fájlokat a letöltési gyorsítótárba, ami nem törlődik automatikusan, ha a letöltéskezelőnek több helyre lenne szüksége.</string>
     <string name="permlab_downloadWithoutNotification">Fájlok letöltése értesítés nélkül</string>

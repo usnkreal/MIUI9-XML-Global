@@ -18,7 +18,7 @@
     <string name="date_day" />
     <string name="date_month">/</string>
     <string name="date_year">/</string>
-    <string name="description_content">"Enregistreur d'écran fournit des capacités d'enregistrement niveau système. Vous ne serez plus en mesure d'utiliser Enregistreur d'écran si vous continuez. Confirmer et continuer."</string>
+    <string name="description_content">"Enregistreur d'écran fournit des capacités d'enregistrement niveau système. Vous ne serez plus en mesure d'utiliser Enregistreur d'écran si vous continuez. Confirmer pour continuer."</string>
     <string name="description_title">"À propos de l'Enregistreur d'écran"</string>
     <string name="deselect_all">Tout déselectionner</string>
     <string name="error_open_file_failed_no_app_found">Impossible de trouver une application pour ouvrir ce fichier</string>

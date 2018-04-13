@@ -24,8 +24,8 @@
     <string name="select_all">Velg alle</string>
     <string name="deselect_all">Avmarker</string>
     <string name="instruction">Instruksjoner</string>
-    <string name="sar">RF Exposure Information</string>
-    <string name="user_experience_program">User Experience Program</string>
+    <string name="sar">RF Exposure-informasjon</string>
+    <string name="user_experience_program">Brukeropplevelsesprogram</string>
     <string name="abc_action_bar_up_description">Naviger opp</string>
     <string name="abc_action_bar_home_description">Naviger hjem</string>
     <string name="time_picker_label_hour">T</string>

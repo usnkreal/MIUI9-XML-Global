@@ -23,13 +23,13 @@
         <item quantity="other">%d개 노래를 Mi 클라우드에 백업하지 못했습니다. 지금 중지하시겠습니까?</item>
     </plurals>
     <plurals name="Ntracks_add_to_playlist">
-        <item quantity="other">재생 목록에 추가된 %d개의 노래</item>
+        <item quantity="other">재생목록에 추가된 %d개의 노래</item>
     </plurals>
     <plurals name="Ntracks_count">
         <item quantity="other">%d곡의 노래</item>
     </plurals>
     <plurals name="Ntracks_remove_from_playlist">
-        <item quantity="other">재생 목록에서 제거된 %d개의 노래</item>
+        <item quantity="other">재생목록에서 제거된 %d개의 노래</item>
     </plurals>
     <plurals name="Ntracks_similar_count">
         <item quantity="other">%d곡의 비슷한 노래</item>
@@ -46,6 +46,10 @@
     <plurals name="dialog_confirm_delete_downloads_message">
         <item quantity="other">%d개 항목을 삭제하시겠습니까?</item>
     </plurals>
+    <plurals name="dialog_confirm_delete_downloads_message_with_file">
+        <item quantity="other">"%d개 항목을 삭제하시겠습니까?
+참고: 파일이 이 기기에서 삭제될 것입니다."</item>
+    </plurals>
     <plurals name="dialog_delete_descript">
         <item quantity="other">%d개의 음악을 삭제하겠습니까?</item>
     </plurals>
@@ -53,16 +57,16 @@
         <item quantity="other">%d개의 음악을 제거하겠습니까?</item>
     </plurals>
     <plurals name="dialog_remove_from_cloud_descript">
-        <item quantity="other">Mi 클라우드의 %d개 노래를 삭제하시겠습니까? 로컬 재생 목록도 삭제될 것입니다.</item>
+        <item quantity="other">Mi 클라우드의 %d개 노래를 삭제하시겠습니까? 로컬 재생목록도 삭제될 것입니다.</item>
     </plurals>
     <plurals name="download_finished">
-        <item quantity="other">&lt;font color=\"red\">%d개 노래&lt;/font> 다운로드됨</item>
+        <item quantity="other">&amp;lt;font color=\"red\">%d개 노래&amp;lt;/font> 다운로드됨</item>
     </plurals>
     <plurals name="download_info_count_deleted_tasks">
         <item quantity="other">%d개 다운로드 제거됨</item>
     </plurals>
     <plurals name="download_running">
-        <item quantity="other">&lt;font color=\"red\">%d개 노래&lt;/font> 다운로드 중</item>
+        <item quantity="other">&amp;lt;font color=\"red\">%d개 노래&amp;lt;/font> 다운로드 중</item>
     </plurals>
     <plurals name="multichoice_title">
         <item quantity="other">%d 개 선택됨</item>

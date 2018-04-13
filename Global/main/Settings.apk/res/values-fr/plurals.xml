@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="firewall_item_summary">
+        <item quantity="other">Connexion restreinte pour %s applis</item>
+        <item quantity="one">Connexion restreinte pour %s appli</item>
+    </plurals>
+    <plurals name="bg_network_allow_count">
+        <item quantity="other">%d applications peuvent se connecter au réseau</item>
+        <item quantity="one">%d application peut se connecter au réseau</item>
+    </plurals>
+    <plurals name="bg_network_restrict_count">
+        <item quantity="other">%d applications ne peuvent pas se connecter au réseau</item>
+        <item quantity="one">%d application ne peut pas se connecter au réseau</item>
+    </plurals>
     <plurals name="status_bar_settings_disabled_header_title">
         <item quantity="other">%d applications ne peuvent pas afficher les notifications</item>
         <item quantity="one">%d application ne peut pas afficher les notifications</item>

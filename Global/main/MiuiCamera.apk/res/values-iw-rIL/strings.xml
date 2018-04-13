@@ -376,8 +376,8 @@
     <string name="pref_camera_ai_scene_title">מצלמת AI</string>
     <string name="pref_camera_front_ai_scene_entry_on">מצלמת AI</string>
     <string name="pref_camera_front_ai_scene_entry_off">מצלמת AI כבויה</string>
-    <string name="ai_scene_mode_use_hint_text">"פותח את מצלמת סצינת ה-AI, מזהה את סצינת התמונה עבורך 
- ומייעל את התמונה על סמך הסצינה"</string>
+    <string name="ai_scene_mode_use_hint_text">"מצלמת ה-AI מזהה סצינות באופן אוטומטי
+ומייעלת את התמונות שלך על סמך מידע זה"</string>
     <string name="color_effect_entry_vivid">ססגוני</string>
     <string name="color_effect_entry_film">סרט</string>
     <string name="color_effect_entry_koizora">רומן</string>
@@ -406,6 +406,9 @@
     <string name="portait_effect_entry_maze">מבוך</string>
     <string name="portait_effect_entry_cool">מנטה</string>
     <string name="portait_effect_entry_blackwhite">שחור&amp;לבן</string>
+    <string name="portait_effect_entry_story">סיפור</string>
+    <string name="portait_effect_entry_riddle">חידה</string>
+    <string name="portait_effect_entry_movie">סרט</string>
     <string name="pano_how_to_use_prompt_start">הקש על החץ על מנת להחליף כיוון והתחל לנוע הצידה בעדינות.</string>
     <string name="accessibility_intent_done_apply">בוצע</string>
     <string name="accessibility_flash_on">ההבזק מופעל</string>
@@ -448,8 +451,8 @@
     <string name="pref_camera_beauty">ייפוי</string>
     <string name="pref_camera_beauty_deep">ייפוי מקצועי</string>
     <string name="bokeh_use_hint">אפקט עומק</string>
-    <string name="pref_camera_zoom_mode_entry_standard">REGULAR</string>
-    <string name="pref_camera_zoom_mode_entry_high_pixel">LOW LIGHT</string>
+    <string name="pref_camera_zoom_mode_entry_standard">רגיל</string>
+    <string name="pref_camera_zoom_mode_entry_high_pixel">תאורה חלשה</string>
     <string name="pref_camera_zoom_value_title">זום</string>
     <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_beautify_entry_auto">כיבוי</string>

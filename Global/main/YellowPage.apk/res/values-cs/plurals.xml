@@ -4,12 +4,12 @@
         <item quantity="other">%d kupónů</item>
         <item quantity="one">1 kupón</item>
         <item quantity="few">%d kupóny</item>
-        <item quantity="many">%d coupons</item>
+        <item quantity="many">%d kupónu</item>
     </plurals>
     <plurals name="review_count">
         <item quantity="other">Zobrazit %d komentářů</item>
         <item quantity="one">Zobrazit 1 komentář</item>
         <item quantity="few">Zobrazit %d komentáře</item>
-        <item quantity="many">View %d comments</item>
+        <item quantity="many">Zobrazit %d komentáře</item>
     </plurals>
 </resources>

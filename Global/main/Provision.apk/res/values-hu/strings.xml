@@ -8,23 +8,23 @@
     <string name="provision_inputmethod_policy_description">"
 A kiválasztott billentyűzet Adatvédelmi Nyilatkozatának megtekintése."</string>
     <string name="provision_inputmethod_policy_description1">Adatvédelmi nyilatkozata</string>
-    <string name="multisim_settings_title">2 SIM kártya található</string>
-    <string name="multisim_settings_category">Elsődleges SIM kártya beállítása</string>
-    <string name="sim_card_detection">Nem található SIM kártya</string>
-    <string name="sim_card_detecting_title">SIM kártya ellenőrzés</string>
-    <string name="sim_card_detection_info">A SIM kártya beszereléséhez olvassa el a telefonnal érkezett utasításokat.</string>
-    <string name="sim_card_detecting">SIM kártya ellenőrzése…</string>
-    <string name="sim_card_detecting_check">Nem található SIM kártya. Győződjön meg róla, hogy a SIM megfelelően lett behelyezve és hogy van-e elég egység az egyenlegén.</string>
+    <string name="multisim_settings_title">2 SIM-kártya található</string>
+    <string name="multisim_settings_category">SIM-kártyák beállításai</string>
+    <string name="sim_card_detection">Helyezzen be SIM-kártyát</string>
+    <string name="sim_card_detecting_title">SIM-kártya ellenőrzése</string>
+    <string name="sim_card_detection_info">A SIM-kártya beszereléséhez olvassa el a telefonnal érkezett utasításokat.</string>
+    <string name="sim_card_detecting">SIM-kártya ellenőrzése…</string>
+    <string name="sim_card_detecting_check">Nem található SIM-kártya. Győződjön meg róla, hogy a SIM megfelelően lett behelyezve és hogy van-e elég egység az egyenlegén.</string>
     <string name="other_settings">További beállítások</string>
     <string name="other_settings_location">Helyszolgáltatások</string>
-    <string name="other_settings_location_summary">Engedje, hogy az alkalmazások hozzáférjenek az Ön pontos helyadatához.</string>
+    <string name="other_settings_location_summary">Engedje, hogy az alkalmazások hozzáférjenek az Ön helyadatához</string>
     <string name="other_settings_user_experience">Felhasználói visszajelzés</string>
-    <string name="other_settings_user_experience_summary">Segítse termékeink és szolgáltatásaink fejlesztését azzal, hogy használati adatait megosztja velünk. Részletek</string>
-    <string name="other_settings_user_experience_summary_index">Részletek</string>
+    <string name="other_settings_user_experience_summary">Segítse termékeink és szolgáltatásaink fejlesztését azzal, hogy használati adatait megosztja velünk. Részletek megtekintése</string>
+    <string name="other_settings_user_experience_summary_index">Részletek megtekintése</string>
     <string name="other_settings_upload_debug_log_title">Diagnosztikai adatok automatikus küldése</string>
     <string name="other_settings_upload_debug_log_summary">Használati adatokat, amelyek segítenek nekünk azonosítani és megoldani a problémákat, amiket az Ön beküldött adatai tartalmazhatnak</string>
-    <string name="other_settings_auto_update">Telepítés automatikusan</string>
-    <string name="other_settings_auto_update_summary">A MIUI kiválasztja a legmegfelelőbb pillanatot a frissítések telepítésére.</string>
+    <string name="other_settings_auto_update">Frissítés automatikusan</string>
+    <string name="other_settings_auto_update_summary">A MIUI kiválasztja a legmegfelelőbb pillanatot a frissítések telepítésére</string>
     <string name="other_settings_ad_enable">Személyre szabott reklámajánlat</string>
     <string name="other_settings_ad_enable_summary">A személyre szabott reklámajánlatok az Ön használati szokásain alapulnak</string>
     <string name="back">Vissza</string>
@@ -39,24 +39,24 @@ A kiválasztott billentyűzet Adatvédelmi Nyilatkozatának megtekintése."</str
     <string name="pref_title_voice_slot">Hívásra használt SIM</string>
     <string name="pref_title_data_slot">Mobilnetre használt SIM</string>
     <string name="summary_not_set">Nincs beállítva</string>
-    <string name="ime_privacy_policy">A kiválasztott billentyűzet adatvédelmi nyilatkozata</string>
-    <string name="ime_privacy_policy_no_network">Nincs internetkapcsolat. A kiválasztott billentyűzet adatvédelmi nyilatkozatának megtekintése %s.</string>
+    <string name="ime_privacy_policy">A kiválasztott billentyűzet adatvédelmi irányelvei</string>
+    <string name="ime_privacy_policy_no_network">Nincs internetkapcsolat. A kiválasztott billentyűzet adatvédelmi irányelveinek megtekintése %s.</string>
     <string name="terms_of_use">Felhasználási feltételek</string>
-    <string name="terms_of_use_label">"A biztonsága nagyon fontos számunkra. Kérjük, olvassa el a Felhasználási feltételeket és az Adatvédelmi nyilatkozatot, hogy megértse, milyen információkat gyűjtünk, hogyan használjuk fel őket és Önnek milyen lehetőségei vannak.
+    <string name="terms_of_use_label">"A biztonsága nagyon fontos számunkra. Kérjük, olvassa el a Szolgáltatási feltételeket és az Adatvédelmi irányelveket, hogy megértse, milyen információkat gyűjtünk, hogyan használjuk fel őket és Önnek milyen lehetőségei vannak.
 
-A MIUI használata előtt el kell fogadnia a Felhasználási feltételeket és az Adatvédelmi nyilatkozatot. Az aktiválás alatt a Mi szolgáltatásokhoz, a SIM aktiváláshoz, a Mi Cloudhoz, a Készülékkereséshez, a Kezdőképernyő modulokhoz, a Játékszolgáltatáshoz, a gyorskártyákhoz, a Direct Service-hez, az MAB, a MiuiDaemon és az MSA rendszerkomponensekhez, MiLinkhez és a Mi Fiók működéséhez internetkapcsolat és helymeghatározás szükséges."</string>
+A MIUI használata előtt el kell fogadnia a Felhasználási feltételeket és az Adatvédelmi nyilatkozatot. Az aktiválás alatt a Mi szolgáltatásokhoz, a Mi SIM aktiválásához, a Mi Cloudhoz, a Készülékkereséshez, a Kezdőképernyő modulokhoz, a Játékszolgáltatáshoz, a gyorskártyákhoz, a Direct Service-hez, az MAB, a MiuiDaemon és az MSA rendszerkomponensekhez, MiLinkhez és a Mi Fiók működéséhez internetkapcsolat és helymeghatározás szükséges."</string>
     <string name="terms_of_use_label_gms">"A biztonsága nagyon fontos számunkra. Kérjük, olvassa el a Felhasználási feltételeket és az Adatvédelmi nyilatkozatot, hogy megértse, milyen információkat gyűjtünk, hogyan használjuk fel őket és Önnek milyen lehetőségei vannak.
 
-A MIUI használata előtt el kell fogadnia a Felhasználási feltételeket és az Adatvédelmi nyilatkozatot. Az aktiválás alatt a Mi szolgáltatásokhoz, a SIM aktiváláshoz, a Mi Cloudhoz, a Készülékkereséshez, a Kezdőképernyő modulokhoz, a Játékszolgáltatáshoz, a gyorskártyákhoz, a Direct Service-hez, az MAB, a MiuiDaemon és az MSA rendszerkomponensekhez, MiLinkhez, Mi Fiók és Google Play Szolgáltatások működéséhez internetkapcsolat és helymeghatározás szükséges."</string>
-    <string name="user_agreement">Felhasználási feltételek</string>
-    <string name="privacy_policy">Adatvédelmi nyilatkozat</string>
+A MIUI használata előtt el kell fogadnia a Felhasználási feltételeket és az Adatvédelmi nyilatkozatot. Az aktiválás alatt a Mi szolgáltatásokhoz, a Mi SIM aktiválásához, a Mi Cloudhoz, a Készülékkereséshez, a Kezdőképernyő modulokhoz, a Játékszolgáltatáshoz, a gyorskártyákhoz, a Direct Service-hez, az MAB, a MiuiDaemon és az MSA rendszerkomponensekhez, MiLinkhez, Mi Fiók és Google Play Szolgáltatások működéséhez internetkapcsolat és helymeghatározás szükséges."</string>
+    <string name="user_agreement">Szolgáltatási feltételek</string>
+    <string name="privacy_policy">Adatvédelmi irányelvek</string>
     <string name="application_permissions">Alkalmazásengedélyek</string>
     <string name="agree">OK</string>
     <string name="disagree">Mégse</string>
     <string name="setting_locale">Régió beállítása…</string>
     <string name="agree_terms">Elolvastam és elfogadom a fentieket.</string>
-    <string name="miui_terms_no_network">Nincs internetkapcsolat. Felhasználási feltételek megtekintése %s</string>
-    <string name="miui_privacy_policy_no_network">Nincs internetkapcsolat. Adatvédelmi nyilatkozat megtekintése %s</string>
+    <string name="miui_terms_no_network">Nincs internetkapcsolat. Szolgáltatási feltételek megtekintése itt: %s.</string>
+    <string name="miui_privacy_policy_no_network">Nincs internetkapcsolat. Adatvédelmi irányelvek megtekintése itt: %s.</string>
     <string name="locale_picker_title">Válasszon régiót</string>
     <string name="install_preinstall_app">Alkalmazások betöltése…</string>
     <string name="title_fingerprint">Állítson be jelszót</string>

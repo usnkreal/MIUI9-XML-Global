@@ -79,6 +79,8 @@ Conectați-vă la i.mi.com și încercați să deblocați dispozitivul de acolo"
     <string name="default_lock_msg_words_with_phone">Salut! Am pierdut telefonul. Poți să mă contactezi te rog? Mulțumesc!</string>
     <string name="default_lock_msg_words">Acest dispozitiv este asociat cu un cont Mi existent. Din motive de securitate, trebuie să introduceți parola pentru a verifica dispozitivul.</string>
     <string name="lock_msg_phone">Informaţii contact: %s</string>
+    <string name="emergency_call">Apel de urgență</string>
+    <string name="return_to_call">Înapoi la apel</string>
     <string name="default_debt_msg_words">"Acest dispozitiv este blocat din cauza unei rate restante de plată.
 Contactează agentul de vânzări pentru detalii."</string>
     <string name="sys_notification_async_verify_title">Reactivați Găsește dispozitiv</string>

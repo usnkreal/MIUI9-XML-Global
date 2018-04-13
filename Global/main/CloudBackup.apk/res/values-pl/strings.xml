@@ -44,10 +44,11 @@
     <string name="cloud_app_no_network">Nie można połączyć z siecią</string>
     <string name="button_delete">Usuń</string>
     <string name="customization"><u>Własne</u></string>
+    <string name="home_hint_global_launcher">Ekran główny Poco</string>
     <string name="self_phone">Ten telefon</string>
+    <string name="self_phone_home">Ten telefon: %s</string>
     <string name="process_whole_recovery">Przywracanie \"%s\"</string>
     <string name="device_xiaomi">Telefon MI</string>
-    <string name="device_corrupt">Telefon Mi (Dane są uszkodzone)</string>
     <string name="size_unknown">Nieznany rozmiar</string>
     <string name="recovering">Przywracanie %s</string>
     <string name="start_recover">Przywróć %s</string>
@@ -69,7 +70,7 @@
     <string name="desktop_downloading">Pobieranie</string>
     <string name="desktop_installing">Instalowanie</string>
     <string name="desktop_wait_wifi">Oczekiwanie</string>
-    <string name="desktop_failed">Nieudane</string>
+    <string name="desktop_failed">Błąd</string>
     <string name="recover_from_micloud">Przywróć z kopii w Chmurze Xiaomi</string>
     <string name="click_try_to_restore_again">Dotknij, aby spróbować ponownie</string>
     <string name="open_wifi">Włącz Wi-Fi</string>
@@ -132,6 +133,8 @@
     <string name="no_account">Nie zalogowano do konta Xiaomi.</string>
     <string name="no_backup">Brak kopii zapasowej w Chmurze Xiaomi.</string>
     <string name="download_meta_failed">Nie udało się załadować danych.</string>
+    <string name="home_restore_error">Nie udało się przywrócić ekranu głównego</string>
+    <string name="get_device_id_error">Nie udało się uzyskać ID urządzenia</string>
     <string name="download_home_data">Pobieranie układu ekranu głównego…</string>
     <string name="restore_home_failed">Nie można przywrócić ekranu głównego.</string>
     <string name="arrange_restore_order">Pozycjonowanie aplikacji…</string>

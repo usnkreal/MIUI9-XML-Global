@@ -418,7 +418,7 @@ Pour activer votre compte, suivez le
     <string name="login_check_find_device">Obtention des informations de sécurité…</string>
     <string name="unlock_help_notice">"Aide :
 1. Si vous avez oublié votre mot de passe, rendez-vous sur id.mi.com pour le réinitialiser.
-2. Si vous ne parvenez pas à déverrouiller votre appareil, rendez-vous sur i.mi.com pour désactiver l'option \"Localiser l'appareil\".
+2. Si vous ne parvenez pas à réinitialiser votre mot de passe ou si quelqu'un a verrouillé votre appareil, rendez-vous sur i.mi.com pour le déverrouiller.
 3. Votre numéro de déverrouillage : %s"</string>
     <string name="login_find_device_bind">"Cet appareil est associé à l'ID d'un Compte Mi existant (%s)."</string>
     <string name="find_device_locked_account_phone" formatted="false">%s, numéro de téléphone associé : %s</string>

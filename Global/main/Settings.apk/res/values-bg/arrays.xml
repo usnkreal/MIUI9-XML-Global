@@ -658,7 +658,7 @@
         <item>Създайте директория: mkdir /media/mtp</item>
         <item>Потвърдете груповите разрешения в текущата fuse потребителска група</item>
         <item>Моля, впишете се отново</item>
-        <item>Достъп до монтирано устройство: mtpfs /media/mtp via file explorer; same as local directory</item>
+        <item>Достъп до монтирано устройство: mtpfs /media/mtp през Файлов мениджър; същото като локална директория.</item>
         <item>"Деинсталиране на устройство: fusermount -u /media/mtp
 Бележка: Само за Ubuntu 8.04!"</item>
     </string-array>
@@ -881,7 +881,7 @@
         <item>Заключен екран</item>
         <item>Парола за защита на личните данни</item>
         <item>Режим за деца</item>
-        <item>Файлове</item>
+        <item>Файлов мениджър</item>
         <item>Заключване на приложения</item>
         <item>Второ работно място</item>
     </string-array>
@@ -1359,6 +1359,29 @@
         <item>Снимки</item>
         <item>Файлове</item>
         <item>Бележки</item>
+    </string-array>
+    <string-array name="region_support_face">
+        <item>IN</item>
+        <item>ID</item>
+        <item>RU</item>
+        <item>HK</item>
+        <item>TW</item>
+    </string-array>
+    <string-array name="device_support_face">
+        <item>джейсън</item>
+        <item>полярен</item>
+        <item>сагит</item>
+        <item>хирон</item>
+        <item>стил</item>
+        <item>нитроген</item>
+        <item>уейн</item>
+        <item>усл</item>
+        <item>сакура</item>
+    </string-array>
+    <string-array name="device_global_support_face">
+        <item>стил</item>
+        <item>полярен</item>
+        <item>усл</item>
     </string-array>
     <string-array name="install_non_market_app_entries">
         <item>Включи (препоръчително)</item>

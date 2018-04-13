@@ -33,7 +33,7 @@
     <string name="attach_sound">Zvuk</string>
     <string name="attach_subject">Předmět</string>
     <string name="attach_take_photo">Vyfotit</string>
-    <string name="attach_transaction">Odeslat peníze</string>
+    <string name="attach_transaction">Převod peněz</string>
     <string name="attach_video">Video</string>
     <string name="audio_download_failed">Stahování audia se nezdařilo</string>
     <string name="audio_message_expired">Platnost hlasové zprávy vypršela.</string>
@@ -152,7 +152,7 @@
     <string name="enter_edit_mode">Upravit</string>
     <string name="error_code_label">"Chyba kódu: "</string>
     <string name="error_state">Nekonzistentní stav</string>
-    <string name="error_state_text">Vazby mezi zprávami a příjemci jsou nekonzistentní. Vytvořte prosím chybové hlášení a odešlete jej přes http://go/droidanizer</string>
+    <string name="error_state_text">Vazby mezi zprávami a příjemci jsou nekonzistentní. Vytvořte chybové hlášení a odešlete jej přes http://go/droidanizer</string>
     <string name="error_timed_msg">Neplatný čas.</string>
     <string name="ex_type_guide">Informace</string>
     <string name="ex_type_mx">Mi Zprávy</string>

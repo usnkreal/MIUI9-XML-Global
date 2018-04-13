@@ -497,4 +497,17 @@
     <string name="auto_clean_time_three_day">Každé 3 dni</string>
     <string name="auto_clean_time_seven_day">Každých 7 dní</string>
     <string name="auto_clean_time_fifteen_day">Každých 15 dní</string>
+    <string name="pref_category_title_auto_clean_config_settings">Automatic cleanups</string>
+    <string name="pref_title_auto_clean">Clean up automatically</string>
+    <string name="pref_title_auto_clean_operation">Clean up method</string>
+    <string name="pref_title_auto_clean_trigger">Clean up storage</string>
+    <string name="auto_clean_operation_dialog_title">Clean up method</string>
+    <string name="auto_clean_operation_clean_and_alert">Remind and clean up</string>
+    <string name="auto_clean_operation_just_clean">Only clean up</string>
+    <string name="auto_clean_trigger_dialog_title">Clean up storage</string>
+    <string name="auto_clean_trigger_percent_ninety">When 90% is occupied</string>
+    <string name="auto_clean_trigger_percent_eighty">When 80% is occupied</string>
+    <string name="auto_clean_trigger_percent_sixty">When 60% is occupied</string>
+    <string name="auto_clean_notification_title">Remind to clean</string>
+    <string name="auto_clean_notification_content">Cleaned up %s of trash</string>
 </resources>

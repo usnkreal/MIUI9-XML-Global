@@ -10,10 +10,10 @@
     <string name="camera_label">Kamera</string>
     <string name="video_camera_label">Videókamera</string>
     <string name="wait">Egy pillanat…</string>
-    <string name="no_storage">Helyezzen be egy SD kártyát</string>
-    <string name="not_enough_space">Nincs elég hely</string>
+    <string name="no_storage">Kamerahasználat előtt helyezzen be egy SD-kártyát</string>
+    <string name="not_enough_space">A belső tárhely megtelt</string>
     <string name="preparing_sd">Belső tárhely ellenőrzése…</string>
-    <string name="access_sd_fail">Nem érhető el a belső tárhely.</string>
+    <string name="access_sd_fail">Nem érhető el az USB háttértár.</string>
     <string name="confirm_restore_title">Alapértelmezett beállítások visszaállítása</string>
     <string name="confirm_restore_message">Visszaállítja a kamera alapértelmezett beállításait?</string>
     <string name="confirm_location_title">Helyszínadatok eltárolása</string>
@@ -139,8 +139,8 @@
     <string name="pref_camera_antibanding_entry_2">60 Hz</string>
     <string name="pref_camera_antibanding_entry_3">Automatikus</string>
     <string name="dialog_ok">OK</string>
-    <string name="spaceIsLow_content_primary_storage_priority">Az USB tárhelyen elfogyott a hely</string>
-    <string name="spaceIsLow_content_external_storage_priority">Az SD kártyán kevés a hely</string>
+    <string name="spaceIsLow_content_primary_storage_priority">Az USB háttértáron hamarosan elfogy a hely</string>
+    <string name="spaceIsLow_content_external_storage_priority">Az SD-kártya hamarosan megtelik</string>
     <string name="video_reach_size_limit">Elérte a mérethatárt.</string>
     <string name="pref_camera_hfr_entry_off">Ki</string>
     <string name="pref_camera_hfr_entry_2x">60</string>
@@ -193,11 +193,11 @@
     <string name="simple_mode_button_text_color_effect">Szűrők kikapcsolása</string>
     <string name="simple_mode_button_text_slow_video">Time-lapse felvétel kikapcsolása</string>
     <string name="simple_mode_button_text_fast_video">Lassított felvétel kikapcsolása</string>
-    <string name="see_qrcode_detals">QR-kód részletek megtekintése</string>
+    <string name="see_qrcode_detals">QR-kód részleteinek megtekintése</string>
     <string name="pref_camera_watermark_title">Időbélyeg hozzáadása fotókhoz</string>
     <string name="pref_dualcamera_watermark_title">Kettős kamera vízjele</string>
     <string name="pref_camera_face_info_watermark_title">Életkor-bélyeg hozzáadása fotókhoz</string>
-    <string name="pref_scan_qrcode_title">QR kód keresés</string>
+    <string name="pref_scan_qrcode_title">QR-kód beolvasása</string>
     <string name="pref_manual_exposure_title">Záridő</string>
     <string name="pref_camera_exposuretime_entry_auto">Autom.</string>
     <string name="pref_camera_exposuretime_entry_32s">32 mp</string>
@@ -242,7 +242,7 @@
     <string name="face_beauty_age_alias_female_60_m">Nő 60+</string>
     <string name="simple_mode_button_text_face_beauty">Szépítés kikapcsolása</string>
     <string name="pref_face_beauty_title">Szépítés</string>
-    <string name="pref_priority_storage_title">Mentés az SD kártyára</string>
+    <string name="pref_priority_storage_title">Mentés az SD-kártyára</string>
     <string name="pref_camera_tilt_shift_entry_circle">Kör</string>
     <string name="pref_camera_tilt_shift_entry_parallel">Párhuzamos</string>
     <string name="pref_video_speed_fast_title">Time-lapse</string>
@@ -262,7 +262,7 @@
     <string name="pref_camera_auto_capture_when_stable_title">Kiválasztott objektumok rögzítése, ha stabil</string>
     <string name="pref_camera_auto_capture_when_stable_summary">Az objektum kiválasztásához érintse meg a két átlós pont körül. Ha a tárgy mozdulatlan, a kamera automatikusan képet készít.</string>
     <string name="simple_mode_button_text_manual">Kézi mód kikapcsolása</string>
-    <string name="pref_qc_focus_position_title">Fókusz</string>
+    <string name="pref_qc_focus_position_title">F</string>
     <string name="pref_front_mirror_entry_auto">Arc felismerésekor</string>
     <string name="pref_front_mirror_label_auto">Automatikus</string>
     <string name="pref_front_mirror_entry_on">Be</string>
@@ -373,11 +373,11 @@
     <string name="pref_camera_picturesize_entry_18_9">18:9</string>
     <string name="pref_camera_front_bokeh_entry_on">Bekapcsolás</string>
     <string name="pref_camera_front_bokeh_entry_off">Kikapcsolás</string>
-    <string name="pref_camera_ai_scene_title">Intelligens kamera</string>
+    <string name="pref_camera_ai_scene_title">Intellingens kamera</string>
     <string name="pref_camera_front_ai_scene_entry_on">Intelligens kamera</string>
     <string name="pref_camera_front_ai_scene_entry_off">Az Intelligens kamera kikapcsolva</string>
-    <string name="ai_scene_mode_use_hint_text">"Indítsa el a képkörnyezet-felismerő Intelligens kamerát, amely érzékeli a fényképkészítés körülményeit
-és optimalizálja a fényképet a képkörnyezethez"</string>
+    <string name="ai_scene_mode_use_hint_text">"Az Intelligens kamera automatikusan észleli a fényképkészítés körülményeit
+és optimalizálja az Ön fényképeit ezen információk alapján"</string>
     <string name="color_effect_entry_vivid">Élénk</string>
     <string name="color_effect_entry_film">Mozi</string>
     <string name="color_effect_entry_koizora">Szerelmes</string>
@@ -406,6 +406,9 @@
     <string name="portait_effect_entry_maze">Meglepett</string>
     <string name="portait_effect_entry_cool">Menta</string>
     <string name="portait_effect_entry_blackwhite">Fekete-fehér</string>
+    <string name="portait_effect_entry_story">Történet</string>
+    <string name="portait_effect_entry_riddle">Rejtvény</string>
+    <string name="portait_effect_entry_movie">Film</string>
     <string name="pano_how_to_use_prompt_start">Érintse meg a mozgásának megfelelő nyilat, majd lassan mozogjon.</string>
     <string name="accessibility_intent_done_apply">Kész</string>
     <string name="accessibility_flash_on">Vaku bekapcsolva</string>
@@ -440,7 +443,7 @@
     <string name="accessibility_camera_shutter_finish">A fénykép sikeresen elkészült</string>
     <string name="camera_facedetection_sub_option_hint">Kísérleti funkció</string>
     <string name="pref_camera_device_watermark_title">Vízjel a fényképen</string>
-    <string name="pref_scan_qrcode_summary">Csak a hátsó kamera tud \"Fénykép\" módban QR kódot beolvasni.</string>
+    <string name="pref_scan_qrcode_summary">Csak a hátsó kamera tud \"Fénykép\" módban QR-kódot beolvasni.</string>
     <string name="face_age_info">%d éves</string>
     <string name="face_score_info">%.1f pont</string>
     <string name="pref_camera_show_gender_age_config_title">Nem és életkor</string>

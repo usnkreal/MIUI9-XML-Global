@@ -211,8 +211,8 @@
     <string name="contact_detail_calllog_call_note_tips">Notater</string>
     <string name="contact_detail_calllog_call_record_tips">Innspilt samtale</string>
     <string name="contact_detail_calllog_empty">Ingen historikk</string>
-    <string name="contact_detail_entry_pay">Pay</string>
-    <string name="contact_detail_entry_pay_dialog_title">Select phone number</string>
+    <string name="contact_detail_entry_pay">Betal</string>
+    <string name="contact_detail_entry_pay_dialog_title">Velg telefonnummer</string>
     <string name="contact_detail_menu_delete_miprofile">Slette kort</string>
     <string name="contact_detail_miprofile_accept">Utveksle kontaktkort</string>
     <string name="contact_detail_miprofile_accept_fail_toast">Kunne ikke utveksle kontaktkort</string>
@@ -813,7 +813,7 @@ For å legge til en kontakt til favorittlisten din kan du:
     <string name="path_key_rebuild_t9_index_title">System-apper/Kontakter/Organiser kontakter/Bygg indeksdata på nytt</string>
     <string name="path_key_sim_manage">System-apper/Kontakter/Organiser kontakter/SIM-kort</string>
     <string name="path_preference_contacts_filter">System-apper/Kontakter/Visningsvalg/Konfigurer kontaktlister</string>
-    <string name="path_quick_dial_setting">System apps/Phone/Advanced settings/Quick dial</string>
+    <string name="path_quick_dial_setting">Systemapper/Telefon/Avanserte innstillinger/Hurtigoppringing</string>
     <string name="path_remove_duplicate">System-apper/Kontakter/Organiser kontakter/Sammenslå duplikatkontakter</string>
     <string name="path_share_visible_contacts">System-apper/Kontakter/Importer/Eksporter kontakter/Del kontakter</string>
     <string name="path_sim_capacity">System-apper/Kontakter/SIM-kortlagring</string>
@@ -874,15 +874,15 @@ For å legge til en kontakt til favorittlisten din kan du:
     <string name="preference_contacts_display">Visningsvalg</string>
     <string name="preference_contacts_filter">Konfigurer kontaktliste</string>
     <string name="preference_contacts_more">Organiser kontakter</string>
-    <string name="preference_contacts_moresetting">More</string>
+    <string name="preference_contacts_moresetting">Mer</string>
     <string name="preference_dial_pad_touch_tone_default">Standard</string>
     <string name="preference_dial_pad_touch_tone_human">Stemme</string>
     <string name="preference_dial_pad_touch_tone_piano">Pianotangenter</string>
     <string name="preference_dial_pad_touch_tone_switch">Numeriske tastaturtoner</string>
     <string name="preference_dial_pad_touch_tone_title">Numeriske tastaturtoner</string>
     <string name="preference_display">Vis</string>
-    <string name="preference_displayOptions">Vis valg</string>
-    <string name="preference_display_contact">Display options</string>
+    <string name="preference_displayOptions">Visningsvalg</string>
+    <string name="preference_display_contact">Visningsvalg</string>
     <string name="preference_export">Eksporter</string>
     <string name="preference_import">Importer</string>
     <string name="preference_import_export">Importer/Eksporter</string>
@@ -987,7 +987,7 @@ For å legge til en kontakt til favorittlisten din kan du:
     <string name="search_contacts_display">Kontakter;Visning</string>
     <string name="search_contacts_more">Organiser;Kontakter</string>
     <string name="search_contacts_recovery">Kontakter</string>
-    <string name="search_contacts_setting">Kontaktinnstillinger;Vis bilder og informasjon;Tildel kontaktbilder;Importer og eksporter;Del; Importer fra SD-kort;Importer fra SIM-kort;Importer fra annen telefon;Eksporter fra SD-kort;Eksporter fra SIM-kort;Del kontakter; Vis valg;Vis ufullstendig numre;Vis SIM-kontakter;Konfigurer kontaktlister;Smart-grupper;Organiser kontakter; Sammenslå duplikatkontakter;Slett samling;Slett data;Bygger indeksdata på nytt;t9;SIM-kort;SIM-kortlagring;Introduksjon for gjenoppretting av kontakter;kontaktbilder</string>
+    <string name="search_contacts_setting">Contact settings;Display photos and info;Assign contact photos;Import and export;Share; Import from storage;Import from SIM card;Import from other phone;Export to storage;Export to SIM card;Share contacts; Display preferences;Hide incomplete numbers;Show SIM contacts;Configure contact lists;Smart groups;Organize contacts; Merge duplicate contacts;Delete batch;Clear data;Rebuild index data;t9;SIM cards;SIM card storage;Contacts recovery introduction;Contact photos</string>
     <string name="search_display_only_phones">Kontakter;Visning</string>
     <string name="search_display_sim_contacts">Kontakter;Visning</string>
     <string name="search_export_to_sdcard">Kontakter;Eksporter;lagring</string>
@@ -1001,7 +1001,7 @@ For å legge til en kontakt til favorittlisten din kan du:
     <string name="search_key_rebuild_t9_index_title">Organiser;Kontakter;t9</string>
     <string name="search_key_sim_manage">Organiser;Kontakter</string>
     <string name="search_preference_contacts_filter">Kontakter;Visning</string>
-    <string name="search_quick_dial_setting">Phone</string>
+    <string name="search_quick_dial_setting">Telefon</string>
     <string name="search_remove_duplicate">Organiser;Kontakter</string>
     <string name="search_results_searching">Søker…</string>
     <string name="search_settings_description">Navn på kontaktene dine</string>
@@ -1010,7 +1010,7 @@ For å legge til en kontakt til favorittlisten din kan du:
     <string name="search_simple_mode">Visning;info;bilder;Kontakter</string>
     <string name="search_smart_group_title">Kontakter;Visning</string>
     <string name="search_wipe_data">Organiser;Kontakter</string>
-    <string name="searching_vcard_message">Leter etter vCard-data på SD-kort…</string>
+    <string name="searching_vcard_message">Searching for vCard data from device…</string>
     <string name="select_all">Velg alle</string>
     <string name="select_all_exceed">Ikke velg mer enn %1$d. Alle kan ikke velges</string>
     <string name="select_exceed">Ikke velg mer enn %1$d</string>

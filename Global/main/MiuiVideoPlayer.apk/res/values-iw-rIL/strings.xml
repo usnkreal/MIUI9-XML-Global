@@ -63,7 +63,7 @@
     <string name="lv_home_localt">מקומי</string>
     <string name="lv_home_recent">לאחרונה</string>
     <string name="lv_input_password">הזן סיסמה</string>
-    <string name="lv_local_folder">קבצים</string>
+    <string name="lv_local_folder">תיקיות</string>
     <string name="lv_local_video">סרטונים</string>
     <string name="lv_media_type_unsported">לא ניתן להפעיל פורמט וידאו מסוג זה.</string>
     <string name="lv_menu_delete">מחיקה</string>
@@ -134,9 +134,11 @@
     <string name="not_show">אל תציג שוב</string>
     <string name="notify_apk_installed">ירד בהצלחה</string>
     <string name="ok">אישור</string>
+    <string name="ovp_alert_dialog_download_install_task">מוריד את הרחבת ה-HD…</string>
     <string name="ovp_buffering_video_netplay_label_v5">טוען…</string>
     <string name="ovp_category">קטגוריות</string>
     <string name="ovp_confirm_delete_favor">להסיר את הפריטים הנבחרים מהמועדפים?</string>
+    <string name="ovp_default_plugin_name">הרחבת HD</string>
     <string name="ovp_detail_collect">הוספה למועדפים</string>
     <string name="ovp_detail_comment">הערה</string>
     <string name="ovp_detail_douban_score">דירוג Douban</string>
@@ -169,6 +171,7 @@
     <string name="ovp_navigation_home">בית</string>
     <string name="ovp_navigation_localvideo">מקומי</string>
     <string name="ovp_navigation_setting">הגדרות</string>
+    <string name="ovp_plugin_install_failure">לא ניתן היה להתקין את ההרחבה</string>
     <string name="ovp_search_key_not_null">הזן מילות מפתח לחיפוש</string>
     <string name="ovp_select_ci">בחר פרק</string>
     <string name="ovp_select_related_video">סרטונים קשורים</string>

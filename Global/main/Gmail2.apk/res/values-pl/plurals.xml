@@ -43,40 +43,40 @@
         <item quantity="many">Zgłoszono jako spam i zrezygnowano z subskrypcji: %1$d</item>
     </plurals>
     <plurals name="conversation_muted">
-        <item quantity="other">Zignorowano &lt;b>%1$d&lt;/b></item>
-        <item quantity="one">Zignorowano &lt;b>%1$d&lt;/b></item>
-        <item quantity="few">Zignorowano &lt;b>%1$d&lt;/b></item>
-        <item quantity="many">Zignorowano &lt;b>%1$d&lt;/b></item>
+        <item quantity="other">Zignorowano &amp;lt;b>%1$d&amp;lt;/b></item>
+        <item quantity="one">Zignorowano &amp;lt;b>%1$d&amp;lt;/b></item>
+        <item quantity="few">Zignorowano &amp;lt;b>%1$d&amp;lt;/b></item>
+        <item quantity="many">Zignorowano &amp;lt;b>%1$d&amp;lt;/b></item>
     </plurals>
     <plurals name="conversation_spammed">
-        <item quantity="other">Zgłoszono &lt;b>%1$d&lt;/b> jako spam</item>
-        <item quantity="one">Zgłoszono &lt;b>%1$d&lt;/b> jako spam</item>
-        <item quantity="few">Zgłoszono &lt;b>%1$d&lt;/b> jako spam</item>
-        <item quantity="many">Zgłoszono &lt;b>%1$d&lt;/b> jako spam</item>
+        <item quantity="other">Zgłoszono &amp;lt;b>%1$d&amp;lt;/b> jako spam</item>
+        <item quantity="one">Zgłoszono &amp;lt;b>%1$d&amp;lt;/b> jako spam</item>
+        <item quantity="few">Zgłoszono &amp;lt;b>%1$d&amp;lt;/b> jako spam</item>
+        <item quantity="many">Zgłoszono &amp;lt;b>%1$d&amp;lt;/b> jako spam</item>
     </plurals>
     <plurals name="conversation_not_spam">
-        <item quantity="other">Zgłoszono &lt;b>%1$d&lt;/b> jako nie spam</item>
-        <item quantity="one">Zgłoszono &lt;b>%1$d&lt;/b> jako nie spam</item>
-        <item quantity="few">Zgłoszono &lt;b>%1$d&lt;/b> jako nie spam</item>
-        <item quantity="many">Zgłoszono &lt;b>%1$d&lt;/b> jako nie spam</item>
+        <item quantity="other">Zgłoszono &amp;lt;b>%1$d&amp;lt;/b> jako nie spam</item>
+        <item quantity="one">Zgłoszono &amp;lt;b>%1$d&amp;lt;/b> jako nie spam</item>
+        <item quantity="few">Zgłoszono &amp;lt;b>%1$d&amp;lt;/b> jako nie spam</item>
+        <item quantity="many">Zgłoszono &amp;lt;b>%1$d&amp;lt;/b> jako nie spam</item>
     </plurals>
     <plurals name="conversation_not_important">
-        <item quantity="other">Oznaczono &lt;b>%1$d&lt;/b> jako mało ważne</item>
-        <item quantity="one">Oznaczono &lt;b>%1$d&lt;/b> jako mało ważny</item>
-        <item quantity="few">Oznaczono &lt;b>%1$d&lt;/b> jako mało ważne</item>
-        <item quantity="many">Oznaczono &lt;b>%1$d&lt;/b> jako mało ważne</item>
+        <item quantity="other">Oznaczono &amp;lt;b>%1$d&amp;lt;/b> jako mało ważne</item>
+        <item quantity="one">Oznaczono &amp;lt;b>%1$d&amp;lt;/b> jako mało ważny</item>
+        <item quantity="few">Oznaczono &amp;lt;b>%1$d&amp;lt;/b> jako mało ważne</item>
+        <item quantity="many">Oznaczono &amp;lt;b>%1$d&amp;lt;/b> jako mało ważne</item>
     </plurals>
     <plurals name="conversation_archived">
-        <item quantity="other">Zarchiwizowano &lt;b>%1$d&lt;/b></item>
-        <item quantity="one">Zarchiwizowano &lt;b>%1$d&lt;/b></item>
-        <item quantity="few">Zarchiwizowano &lt;b>%1$d&lt;/b></item>
-        <item quantity="many">Zarchiwizowano &lt;b>%1$d&lt;/b></item>
+        <item quantity="other">Zarchiwizowano &amp;lt;b>%1$d&amp;lt;/b></item>
+        <item quantity="one">Zarchiwizowano &amp;lt;b>%1$d&amp;lt;/b></item>
+        <item quantity="few">Zarchiwizowano &amp;lt;b>%1$d&amp;lt;/b></item>
+        <item quantity="many">Zarchiwizowano &amp;lt;b>%1$d&amp;lt;/b></item>
     </plurals>
     <plurals name="conversation_deleted">
-        <item quantity="other">Usunięto &lt;b>%1$d&lt;/b></item>
-        <item quantity="one">Usunięto &lt;b>%1$d&lt;/b></item>
-        <item quantity="few">Usunięto &lt;b>%1$d&lt;/b></item>
-        <item quantity="many">Usunięto &lt;b>%1$d&lt;/b></item>
+        <item quantity="other">Usunięto &amp;lt;b>%1$d&amp;lt;/b></item>
+        <item quantity="one">Usunięto &amp;lt;b>%1$d&amp;lt;/b></item>
+        <item quantity="few">Usunięto &amp;lt;b>%1$d&amp;lt;/b></item>
+        <item quantity="many">Usunięto &amp;lt;b>%1$d&amp;lt;/b></item>
     </plurals>
     <plurals name="conversation_folder_changed">
         <item quantity="other">Zmieniono etykiety.</item>
@@ -127,10 +127,10 @@
         <item quantity="many">%1$d załączników</item>
     </plurals>
     <plurals name="dialog_report_spam_unsubscribe_text">
-        <item quantity="other">Oprócz oznaczenia tej wiadomości jako spam Gmail może automatycznie anulować subskrypcję od tych &lt;b>%2$d nadawców&lt;/b>:%1$s</item>
+        <item quantity="other">Oprócz oznaczenia tej wiadomości jako spam Gmail może automatycznie anulować subskrypcję od tych &amp;lt;b>%2$d nadawców&amp;lt;/b>:%1$s</item>
         <item quantity="one">Oprócz oznaczenia tej wiadomości jako spam Gmail może automatycznie anulować subskrypcję od nadawcy %1$s.</item>
-        <item quantity="few">Oprócz oznaczenia tej wiadomości jako spam Gmail może automatycznie anulować subskrypcję od tych &lt;b>%2$d nadawców&lt;/b>:%1$s</item>
-        <item quantity="many">Oprócz oznaczenia tej wiadomości jako spam Gmail może automatycznie anulować subskrypcję od tych &lt;b>%2$d nadawców&lt;/b>:%1$s</item>
+        <item quantity="few">Oprócz oznaczenia tej wiadomości jako spam Gmail może automatycznie anulować subskrypcję od tych &amp;lt;b>%2$d nadawców&amp;lt;/b>:%1$s</item>
+        <item quantity="many">Oprócz oznaczenia tej wiadomości jako spam Gmail może automatycznie anulować subskrypcję od tych &amp;lt;b>%2$d nadawców&amp;lt;/b>:%1$s</item>
     </plurals>
     <plurals name="sync_recent">
         <item quantity="other">Synchronizacja: ostatnich %1$d dnia</item>
@@ -163,13 +163,13 @@
         <item quantity="many">Uwaga: niektórzy odbiorcy mogą nadal nie mieć dostępu do tych plików. Możliwe, że będzie trzeba udostępnić je bezpośrednio na Dysku Google.</item>
     </plurals>
     <plurals name="fix_permissions_outside_domain_warning">
-        <item quantity="other">"Udostępniasz te pliki tym odbiorcom:&lt;br>&lt;b>%1$s
-&lt;/b>&lt;br>Nie należą oni do organizacji w Google Apps, z której pochodzą te pliki."</item>
-        <item quantity="one">Udostępniasz ten plik tym odbiorcom:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>Nie należą oni do organizacji w Google Apps, z której pochodzi ten plik.</item>
-        <item quantity="few">"Udostępniasz te pliki tym odbiorcom:&lt;br>&lt;b>%1$s
-&lt;/b>&lt;br>Nie należą oni do organizacji w Google Apps, z której pochodzą te pliki."</item>
-        <item quantity="many">"Udostępniasz te pliki tym odbiorcom:&lt;br>&lt;b>%1$s
-&lt;/b>&lt;br>Nie należą oni do organizacji w Google Apps, z której pochodzą te pliki."</item>
+        <item quantity="other">"Udostępniasz te pliki tym odbiorcom:&amp;lt;br>&amp;lt;b>%1$s
+&amp;lt;/b>&amp;lt;br>Nie należą oni do organizacji w Google Apps, z której pochodzą te pliki."</item>
+        <item quantity="one">Udostępniasz ten plik tym odbiorcom:&amp;lt;br>&amp;lt;b>%1$s&amp;lt;/b>&amp;lt;br>Nie należą oni do organizacji w Google Apps, z której pochodzi ten plik.</item>
+        <item quantity="few">"Udostępniasz te pliki tym odbiorcom:&amp;lt;br>&amp;lt;b>%1$s
+&amp;lt;/b>&amp;lt;br>Nie należą oni do organizacji w Google Apps, z której pochodzą te pliki."</item>
+        <item quantity="many">"Udostępniasz te pliki tym odbiorcom:&amp;lt;br>&amp;lt;b>%1$s
+&amp;lt;/b>&amp;lt;br>Nie należą oni do organizacji w Google Apps, z której pochodzą te pliki."</item>
     </plurals>
     <plurals name="files_not_shared_dialog_body">
         <item quantity="other">Odbiorcy mogą nie mieć dostępu do plików wstawionych z Dysku. Możliwe, że będzie trzeba udostępnić te pliki bezpośrednio na Dysku Google.</item>

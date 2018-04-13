@@ -10,25 +10,25 @@
         <item>Všetky udalosti</item>
     </string-array>
     <string-array name="ordinal_labels">
-        <item>1.</item>
-        <item>2.</item>
-        <item>3.</item>
-        <item>4.</item>
+        <item>prvý</item>
+        <item>druhý</item>
+        <item>tretí</item>
+        <item>štvrtý</item>
         <item>posledný</item>
     </string-array>
     <string-array name="prefEntries_alerts_vibrateWhen">
         <item>Vždy</item>
-        <item>Len v tichom režime</item>
+        <item>Iba pri stíšení zvonenia</item>
         <item>Nikdy</item>
     </string-array>
     <string-array name="preferences_week_start_day_labels">
-        <item>Prednastavený región</item>
+        <item>Predvolený región</item>
         <item>Sobota</item>
         <item>Nedeľa</item>
         <item>Pondelok</item>
     </string-array>
     <string-array name="response_labels1">
-        <item>Bez odozvy</item>
+        <item>Žiadna odpoveď</item>
         <item>Áno</item>
         <item>Možno</item>
         <item>Nie</item>
@@ -43,12 +43,12 @@
         <item>Arizona</item>
         <item>Chihuahua</item>
         <item>Čas. pásmo Mountain Time</item>
-        <item>Stredná amerika</item>
-        <item>Časové pásmo Central Time</item>
-        <item>Mexiko</item>
+        <item>Centrálna Amerika</item>
+        <item>Centrálny čas</item>
+        <item>Mexico City</item>
         <item>Saskatchewan</item>
         <item>Bogota</item>
-        <item>Časové pásmo Eastern Time</item>
+        <item>Východný čas</item>
         <item>Venezuela</item>
         <item>Atlantický čas (Barbados)</item>
         <item>Atlantický čas (Kanada)</item>
@@ -59,7 +59,7 @@
         <item>Buenos Aires</item>
         <item>Grónsko</item>
         <item>Montevideo</item>
-        <item>Časové pásmo Mid-Atlantic</item>
+        <item>Stredo-Atlantická oblasť</item>
         <item>Azory</item>
         <item>Kapverdy</item>
         <item>Casablanca</item>
@@ -88,8 +88,8 @@
         <item>Jerevan</item>
         <item>Dubaj</item>
         <item>Kábul</item>
-        <item>Islamabad, Karáči</item>
-        <item>Uralsk</item>
+        <item>Islamabád, Karáči</item>
+        <item>Ural</item>
         <item>Jekaterinburg</item>
         <item>Kalkata</item>
         <item>Srí Lanka</item>
@@ -99,7 +99,7 @@
         <item>Krasnojarsk</item>
         <item>Bangkok</item>
         <item>Peking</item>
-        <item>Hongkong</item>
+        <item>Hong Kong</item>
         <item>Irkutsk</item>
         <item>Kuala Lumpur</item>
         <item>Perth</item>
@@ -229,28 +229,28 @@
         <item>Odpočítavanie</item>
     </string-array>
     <string-array name="repeat_choose_month">
-        <item>Jan</item>
-        <item>Feb</item>
-        <item>Mar</item>
-        <item>Apr</item>
-        <item>Mar</item>
-        <item>Jún</item>
-        <item>Júl</item>
-        <item>Aug</item>
-        <item>Sep</item>
-        <item>Okt</item>
-        <item>Nov</item>
-        <item>Dec</item>
+        <item>jan</item>
+        <item>feb</item>
+        <item>mar</item>
+        <item>apr</item>
+        <item>máj</item>
+        <item>jún</item>
+        <item>júl</item>
+        <item>aug</item>
+        <item>sep</item>
+        <item>okt</item>
+        <item>nov</item>
+        <item>dec</item>
     </string-array>
     <string-array name="repeat_choose_week_left">
-        <item>Prvý</item>
-        <item>Druhý</item>
-        <item>Tretí</item>
-        <item>Štvrtý</item>
-        <item>Posledný</item>
+        <item>prvý</item>
+        <item>druhý</item>
+        <item>tretí</item>
+        <item>štvrtý</item>
+        <item>posledný</item>
     </string-array>
     <string-array name="repeat_choose_week_right">
-        <item>Pon - Pia</item>
+        <item>pon - pia</item>
         <item>Víkend</item>
         <item>Celý týždeň</item>
     </string-array>
@@ -259,9 +259,9 @@
         <item>Ut</item>
         <item>St</item>
         <item>Št</item>
-        <item>Pia</item>
-        <item>Sob</item>
-        <item>Ned</item>
+        <item>pia</item>
+        <item>sob</item>
+        <item>ned</item>
     </string-array>
     <string-array name="repeat_countdown">
         <item>Nikdy</item>

@@ -67,6 +67,10 @@
     <string name="button_confirm">Zgadzam się</string>
     <string name="button_exit">Nie zgadzam się</string>
     <string name="button_not_allow">Anuluj</string>
+    <string name="button_settings_cancel">Anuluj</string>
+    <string name="button_settings_confirm">Unieważnij</string>
+    <string name="button_settings_confirm_to_revoke_msg">Nie będziesz mógł korzystać z Pogody po unieważnieniu autoryzacji.</string>
+    <string name="button_settings_confirm_to_revoke_title">Unieważnić autoryzację?</string>
     <string name="button_sure_abandon">Odrzucić zmiany?</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Sprawdź połączenie z internetem i spróbuj ponownie</string>
@@ -98,6 +102,7 @@ Przeciągnij w dół, aby odświeżyć lub sprawdź ustawienia sieci"</string>
     <string name="edit_alert_city_title">Zarządzaj alertami</string>
     <string name="edit_city">Zarządzaj miastami</string>
     <string name="empty">" "</string>
+    <string name="eu_region_version_first_start_network_msg">Poprzez korzystanie z tego produktu zgadzasz się na to, aby Xiaomi zbierało, przetwarzało i wykorzystywało Twoje dane personalne, włącznie z współrzędnymi miast, których szukasz i dane innego typu, wyróżnione w naszej Polityce Prywatności. Zapoznaj się z naszą Polityką Prywatności, aby dowiedzieć się, jak zbieramy i przetwarzamy informacje. Dotykając \"Zgadzam się\" wyrażasz zgodę na %1$s i %2$s Xiaomi.</string>
     <string name="feedback_heavy_rain">Ulewny deszcz</string>
     <string name="feedback_heavy_snow">Śnieg</string>
     <string name="feedback_light_rain">Przelotne opady</string>
@@ -182,12 +187,19 @@ Dotknij ekranu, aby ręcznie dodać lub zmienić miasto"</string>
     <string name="particulate_matter_exceeded">Wysokie</string>
     <string name="particulate_matter_not_exceeded">Normalne</string>
     <string name="particulate_matter_serious_exceeded">Zbyt wysokie</string>
+    <string name="policy_settings">Warunki Użytkowania</string>
     <string name="precipitation_degree_five">Silne</string>
     <string name="precipitation_degree_four">Mocne</string>
     <string name="precipitation_degree_one">Brak</string>
     <string name="precipitation_degree_three">Umiarkowane</string>
     <string name="precipitation_degree_two">Słabe</string>
     <string name="pressure_connect">%1$smb</string>
+    <string name="privacy_grant_failed">Nie udało się udzielić autoryzacji. Poczekaj minutę lub dwie i spróbuj ponownie.</string>
+    <string name="privacy_grant_or_revoke_settings">Udzielanie i unieważnianie autoryzacji</string>
+    <string name="privacy_grant_success">Pomyślnie udzielono autoryzacji</string>
+    <string name="privacy_revoke_failed">Nie udało się unieważnić autoryzacji. Poczekaj minutę lub dwie i spróbuj ponownie.</string>
+    <string name="privacy_revoke_success">Pomyślnie unieważniono autoryzację</string>
+    <string name="privacy_settings">Polityka Prywatności</string>
     <string name="pull_fresh_updated">Pomyślnie zaktualizowano</string>
     <string name="pull_fresh_updating">Aktualizowanie…</string>
     <string name="radar_cloud_image_title">Mapa radarowa</string>
@@ -269,16 +281,4 @@ Dotknij ekranu, aby ręcznie dodać lub zmienić miasto"</string>
     <string name="xiaomi_weather_description_title">O Pogodzie</string>
     <string name="yes_vote_ratio">Za %1$s%%</string>
     <string name="your_location">Twoja lokalizacja</string>
-    <string name="button_settings_cancel">Anuluj</string>
-    <string name="button_settings_confirm">Unieważnij</string>
-    <string name="button_settings_confirm_to_revoke_msg">Nie będziesz mógł korzystać z Pogody po unieważnieniu autoryzacji.</string>
-    <string name="button_settings_confirm_to_revoke_title">Unieważnić autoryzację?</string>
-    <string name="eu_region_version_first_start_network_msg">Poprzez korzystanie z tego produktu zgadzasz się na to, aby Xiaomi zbierało, przetwarzało i wykorzystywało Twoje dane personalne, włącznie z współrzędnymi miast, których szukasz i dane innego typu, wyróżnione w naszej Polityce Prywatności. Zapoznaj się z naszą Polityką Prywatności, aby dowiedzieć się, jak zbieramy i przetwarzamy informacje. Dotykając \"Zgadzam się\" wyrażasz zgodę na %1$s i %2$s Xiaomi.</string>
-    <string name="policy_settings">Warunki Użytkowania</string>
-    <string name="privacy_grant_failed">Nie udało się udzielić autoryzacji. Poczekaj minutę lub dwie i spróbuj ponownie.</string>
-    <string name="privacy_grant_or_revoke_settings">Udzielanie i unieważnianie autoryzacji</string>
-    <string name="privacy_grant_success">Pomyślnie udzielono autoryzacji</string>
-    <string name="privacy_revoke_failed">Nie udało się unieważnić autoryzacji. Poczekaj minutę lub dwie i spróbuj ponownie.</string>
-    <string name="privacy_revoke_success">Pomyślnie unieważniono autoryzację</string>
-    <string name="privacy_settings">Polityka Prywatności</string>
 </resources>

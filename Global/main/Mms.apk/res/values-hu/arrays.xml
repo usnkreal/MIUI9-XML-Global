@@ -33,11 +33,11 @@
     </string-array>
     <string-array name="resent_via_entries_mms">
         <item>üzeneten keresztül</item>
-        <item>Mi Üzenetek</item>
+        <item>Mi Üzenet</item>
     </string-array>
     <string-array name="resent_via_entries_sms">
         <item>üzeneten keresztül</item>
-        <item>Mi Üzenetek</item>
+        <item>Mi Üzenet</item>
     </string-array>
     <string-array name="select_dialog_items">
         <item>1 másodperc</item>

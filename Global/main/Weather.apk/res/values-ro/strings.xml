@@ -67,6 +67,10 @@
     <string name="button_confirm">De acord</string>
     <string name="button_exit">Nu sunt de acord</string>
     <string name="button_not_allow">Anulează</string>
+    <string name="button_settings_cancel">Anulează</string>
+    <string name="button_settings_confirm">Revocă</string>
+    <string name="button_settings_confirm_to_revoke_msg">Nu veți mai putea folosi Meteo după revocarea autorizației.</string>
+    <string name="button_settings_confirm_to_revoke_title">Revocați autorizația?</string>
     <string name="button_sure_abandon">Renunțați la modificări?</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Verificați conexiunea la rețea și încercați din nou</string>
@@ -98,6 +102,7 @@ Trage în jos pentru a actualiza sau a verifica setările de rețea"</string>
     <string name="edit_alert_city_title">Gestionează alertele</string>
     <string name="edit_city">Administrează oraş</string>
     <string name="empty">" "</string>
+    <string name="eu_region_version_first_start_network_msg">Folosind acest produs, sunteți de acord că Xiaomi va colecta, procesa și va folosi informațiile dvs. personale, inclusiv coordonatele orașelor pe care le căutați și alte tipuri de date specificate în Politica de confidențialitate. Consultați Politica de confidențialitate pentu a afla cum colectăm și procesăm informațiile. Prin atingerea \"De acord\", sunteți de acord cu %1$s și %2$s a Xiaomi.</string>
     <string name="feedback_heavy_rain">Ploaie abundentă</string>
     <string name="feedback_heavy_snow">Zăpadă</string>
     <string name="feedback_light_rain">Ploaie ușoară</string>
@@ -182,12 +187,19 @@ Atingeți ecranul pentru a adăuga manual sau repoziționa un oraș"</string>
     <string name="particulate_matter_exceeded">Mare</string>
     <string name="particulate_matter_not_exceeded">Normal</string>
     <string name="particulate_matter_serious_exceeded">Foarte mare</string>
+    <string name="policy_settings">Termeni și condiții</string>
     <string name="precipitation_degree_five">Abundent</string>
     <string name="precipitation_degree_four">Puternic</string>
     <string name="precipitation_degree_one">Niciunul</string>
     <string name="precipitation_degree_three">Moderat</string>
     <string name="precipitation_degree_two">Lejer</string>
     <string name="pressure_connect">%1$s mb</string>
+    <string name="privacy_grant_failed">Nu s-a putut acorda autorizație. Așteptați un minut sau două și încercați din nou.</string>
+    <string name="privacy_grant_or_revoke_settings">Acordare &amp; revocare autorizație</string>
+    <string name="privacy_grant_success">A fost acordată autorizația cu succes</string>
+    <string name="privacy_revoke_failed">Nu s-a putut revoca autorizația. Așteptați un minut sau două și încercați din nou.</string>
+    <string name="privacy_revoke_success">Autorizația a fost revocată cu succes</string>
+    <string name="privacy_settings">Politica de confidențialitate</string>
     <string name="pull_fresh_updated">Actualizat cu succes</string>
     <string name="pull_fresh_updating">Se actualizează…</string>
     <string name="radar_cloud_image_title">Hartă radar</string>
@@ -269,16 +281,4 @@ Atingeți ecranul pentru a adăuga manual sau repoziționa un oraș"</string>
     <string name="xiaomi_weather_description_title">Despre Meteo</string>
     <string name="yes_vote_ratio">Pentru %1$s%%</string>
     <string name="your_location">Locația ta</string>
-    <string name="button_settings_cancel">Anulează</string>
-    <string name="button_settings_confirm">Revocă</string>
-    <string name="button_settings_confirm_to_revoke_msg">Nu veți mai putea folosi Meteo după revocarea autorizației.</string>
-    <string name="button_settings_confirm_to_revoke_title">Revocați autorizația?</string>
-    <string name="eu_region_version_first_start_network_msg">Folosind acest produs, sunteți de acord că Xiaomi va colecta, procesa și va folosi informațiile dvs. personale, inclusiv coordonatele orașelor pe care le căutați și alte tipuri de date specificate în Politica de confidențialitate. Consultați Politica de confidențialitate pentu a afla cum colectăm și procesăm informațiile. Prin atingerea \"De acord\", sunteți de acord cu %1$s și %2$s a Xiaomi.</string>
-    <string name="policy_settings">Termeni și condiții</string>
-    <string name="privacy_grant_failed">Nu s-a putut acorda autorizație. Așteptați un minut sau două și încercați din nou.</string>
-    <string name="privacy_grant_or_revoke_settings">Acordare &amp; revocare autorizație</string>
-    <string name="privacy_grant_success">A fost acordată autorizația cu succes</string>
-    <string name="privacy_revoke_failed">Nu s-a putut revoca autorizația. Așteptați un minut sau două și încercați din nou.</string>
-    <string name="privacy_revoke_success">Autorizația a fost revocată cu succes</string>
-    <string name="privacy_settings">Politica de confidențialitate</string>
 </resources>

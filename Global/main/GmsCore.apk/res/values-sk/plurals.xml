@@ -197,75 +197,75 @@
         <item quantity="many">minúty</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day">
-        <item quantity="other">Kým odber nezrušíte, počnúc dňom &lt;start_time>%3$s sa vám každých %2$d dní&lt;/start_time> automaticky naúčtuje suma &lt;price>%1$s&lt;/price>.</item>
-        <item quantity="one">Kým odber nezrušíte, počnúc dňom &lt;start_time>%3$s sa vám každý deň&lt;/start_time> automaticky naúčtuje suma &lt;price>%1$s&lt;/price>.</item>
-        <item quantity="few">Kým odber nezrušíte, počnúc dňom &lt;start_time>%3$s sa vám každé %2$d dni&lt;/start_time> automaticky naúčtuje suma &lt;price>%1$s&lt;/price>.</item>
-        <item quantity="many">Kým odber nezrušíte, počnúc dňom &lt;start_time>%3$s sa vám každého %2$d dňa&lt;/start_time> automaticky naúčtuje suma &lt;price>%1$s&lt;/price>.</item>
+        <item quantity="other">Kým odber nezrušíte, počnúc dňom &amp;lt;start_time>%3$s sa vám každých %2$d dní&amp;lt;/start_time> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price>.</item>
+        <item quantity="one">Kým odber nezrušíte, počnúc dňom &amp;lt;start_time>%3$s sa vám každý deň&amp;lt;/start_time> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price>.</item>
+        <item quantity="few">Kým odber nezrušíte, počnúc dňom &amp;lt;start_time>%3$s sa vám každé %2$d dni&amp;lt;/start_time> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price>.</item>
+        <item quantity="many">Kým odber nezrušíte, počnúc dňom &amp;lt;start_time>%3$s sa vám každého %2$d dňa&amp;lt;/start_time> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day_limited">
-        <item quantity="other">Počnúc dňom &lt;start_time>%4$s&lt;/start_time> sa vám po dobu &lt;duration>%3$d dní každých %2$d dní&lt;/duration> automaticky naúčtuje suma &lt;price>%1$s&lt;/price>.</item>
-        <item quantity="one">Počnúc dňom &lt;start_time>%4$s&lt;/start_time> sa vám po dobu &lt;duration>%3$d dní každý deň&lt;/duration> automaticky naúčtuje suma &lt;price>%1$s&lt;/price>.</item>
-        <item quantity="few">Počnúc dňom &lt;start_time>%4$s&lt;/start_time> sa vám po dobu &lt;duration>%3$d dní každé %2$d dni&lt;/duration> automaticky naúčtuje suma &lt;price>%1$s&lt;/price>.</item>
-        <item quantity="many">Počnúc dňom &lt;start_time>%4$s&lt;/start_time> sa vám po dobu &lt;duration>%3$d dní každého %2$d dňa&lt;/duration> automaticky naúčtuje suma &lt;price>%1$s&lt;/price>.</item>
+        <item quantity="other">Počnúc dňom &amp;lt;start_time>%4$s&amp;lt;/start_time> sa vám po dobu &amp;lt;duration>%3$d dní každých %2$d dní&amp;lt;/duration> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price>.</item>
+        <item quantity="one">Počnúc dňom &amp;lt;start_time>%4$s&amp;lt;/start_time> sa vám po dobu &amp;lt;duration>%3$d dní každý deň&amp;lt;/duration> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price>.</item>
+        <item quantity="few">Počnúc dňom &amp;lt;start_time>%4$s&amp;lt;/start_time> sa vám po dobu &amp;lt;duration>%3$d dní každé %2$d dni&amp;lt;/duration> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price>.</item>
+        <item quantity="many">Počnúc dňom &amp;lt;start_time>%4$s&amp;lt;/start_time> sa vám po dobu &amp;lt;duration>%3$d dní každého %2$d dňa&amp;lt;/duration> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day_tax">
-        <item quantity="other">Kým odber nezrušíte, počnúc dňom &lt;start_time>%3$s sa vám každých %2$d dní&lt;/start_time> automaticky naúčtuje suma &lt;price>%1$s&lt;/price> a príslušná daň.</item>
-        <item quantity="one">Kým odber nezrušíte, počnúc dňom &lt;start_time>%3$s sa vám každý deň&lt;/start_time> automaticky naúčtuje suma &lt;price>%1$s&lt;/price> a príslušná daň.</item>
-        <item quantity="few">Kým odber nezrušíte, počnúc dňom &lt;start_time>%3$s sa vám každé %2$d dni&lt;/start_time> automaticky naúčtuje suma &lt;price>%1$s&lt;/price> a príslušná daň.</item>
-        <item quantity="many">Kým odber nezrušíte, počnúc dňom &lt;start_time>%3$s sa vám každého %2$d dňa&lt;/start_time> automaticky naúčtuje suma &lt;price>%1$s&lt;/price> a príslušná daň.</item>
+        <item quantity="other">Kým odber nezrušíte, počnúc dňom &amp;lt;start_time>%3$s sa vám každých %2$d dní&amp;lt;/start_time> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price> a príslušná daň.</item>
+        <item quantity="one">Kým odber nezrušíte, počnúc dňom &amp;lt;start_time>%3$s sa vám každý deň&amp;lt;/start_time> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price> a príslušná daň.</item>
+        <item quantity="few">Kým odber nezrušíte, počnúc dňom &amp;lt;start_time>%3$s sa vám každé %2$d dni&amp;lt;/start_time> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price> a príslušná daň.</item>
+        <item quantity="many">Kým odber nezrušíte, počnúc dňom &amp;lt;start_time>%3$s sa vám každého %2$d dňa&amp;lt;/start_time> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price> a príslušná daň.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day_tax_limited">
-        <item quantity="other">Počnúc dňom &lt;start_time>%4$s&lt;/start_time> sa vám po dobu &lt;duration>%3$d dní každých %2$d dní&lt;/duration> automaticky naúčtuje suma &lt;price>%1$s&lt;/price> a príslušná daň.</item>
-        <item quantity="one">Počnúc dňom &lt;start_time>%4$s&lt;/start_time> sa vám po dobu &lt;duration>%3$d dní každý deň &lt;/duration> automaticky naúčtuje suma &lt;price>%1$s&lt;/price> a príslušná daň.</item>
-        <item quantity="few">Počnúc dňom &lt;start_time>%4$s&lt;/start_time> sa vám po dobu &lt;duration>%3$d dní každé %2$d dni&lt;/duration> automaticky naúčtuje suma &lt;price>%1$s&lt;/price> a príslušná daň.</item>
-        <item quantity="many">Počnúc dňom &lt;start_time>%4$s&lt;/start_time> sa vám po dobu &lt;duration>%3$d dní každého %2$d dňa&lt;/duration> automaticky naúčtuje suma &lt;price>%1$s&lt;/price> a príslušná daň.</item>
+        <item quantity="other">Počnúc dňom &amp;lt;start_time>%4$s&amp;lt;/start_time> sa vám po dobu &amp;lt;duration>%3$d dní každých %2$d dní&amp;lt;/duration> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price> a príslušná daň.</item>
+        <item quantity="one">Počnúc dňom &amp;lt;start_time>%4$s&amp;lt;/start_time> sa vám po dobu &amp;lt;duration>%3$d dní každý deň &amp;lt;/duration> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price> a príslušná daň.</item>
+        <item quantity="few">Počnúc dňom &amp;lt;start_time>%4$s&amp;lt;/start_time> sa vám po dobu &amp;lt;duration>%3$d dní každé %2$d dni&amp;lt;/duration> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price> a príslušná daň.</item>
+        <item quantity="many">Počnúc dňom &amp;lt;start_time>%4$s&amp;lt;/start_time> sa vám po dobu &amp;lt;duration>%3$d dní každého %2$d dňa&amp;lt;/duration> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price> a príslušná daň.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month">
-        <item quantity="other">Kým odber nezrušíte, počnúc dňom &lt;start_time>%3$s sa vám každých %2$d mesiacov&lt;/start_time> automaticky naúčtuje suma &lt;price>%1$s&lt;/price>.</item>
-        <item quantity="one">Kým odber nezrušíte, počnúc dňom &lt;start_time>%3$s sa vám každý mesiac&lt;/start_time> automaticky naúčtuje suma &lt;price>%1$s&lt;/price>.</item>
-        <item quantity="few">Kým odber nezrušíte, počnúc dňom &lt;start_time>%3$s sa vám každé %2$d mesiace&lt;/start_time> automaticky naúčtuje suma &lt;price>%1$s&lt;/price>.</item>
-        <item quantity="many">Kým odber nezrušíte, počnúc dňom &lt;start_time>%3$s sa vám každého %2$d mesiaca&lt;/start_time> automaticky naúčtuje suma &lt;price>%1$s&lt;/price>.</item>
+        <item quantity="other">Kým odber nezrušíte, počnúc dňom &amp;lt;start_time>%3$s sa vám každých %2$d mesiacov&amp;lt;/start_time> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price>.</item>
+        <item quantity="one">Kým odber nezrušíte, počnúc dňom &amp;lt;start_time>%3$s sa vám každý mesiac&amp;lt;/start_time> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price>.</item>
+        <item quantity="few">Kým odber nezrušíte, počnúc dňom &amp;lt;start_time>%3$s sa vám každé %2$d mesiace&amp;lt;/start_time> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price>.</item>
+        <item quantity="many">Kým odber nezrušíte, počnúc dňom &amp;lt;start_time>%3$s sa vám každého %2$d mesiaca&amp;lt;/start_time> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month_limited">
-        <item quantity="other">Počnúc dňom &lt;start_time>%4$s&lt;/start_time> sa vám po dobu &lt;duration>%3$d mesiacov každých %2$d mesiacov&lt;/duration> automaticky naúčtuje suma &lt;price>%1$s&lt;/price>.</item>
-        <item quantity="one">Počnúc dňom &lt;start_time>%4$s&lt;/start_time> sa vám po dobu &lt;duration>%3$d mesiacov každý mesiac &lt;/duration> automaticky naúčtuje suma &lt;price>%1$s&lt;/price>.</item>
-        <item quantity="few">Počnúc dňom &lt;start_time>%4$s&lt;/start_time> sa vám po dobu &lt;duration>%3$d mesiacov každé %2$d mesiace&lt;/duration> automaticky naúčtuje suma &lt;price>%1$s&lt;/price>.</item>
-        <item quantity="many">Počnúc dňom &lt;start_time>%4$s&lt;/start_time> sa vám po dobu &lt;duration>%3$d mesiacov každého %2$d mesiaca&lt;/duration> automaticky naúčtuje suma &lt;price>%1$s&lt;/price>.</item>
+        <item quantity="other">Počnúc dňom &amp;lt;start_time>%4$s&amp;lt;/start_time> sa vám po dobu &amp;lt;duration>%3$d mesiacov každých %2$d mesiacov&amp;lt;/duration> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price>.</item>
+        <item quantity="one">Počnúc dňom &amp;lt;start_time>%4$s&amp;lt;/start_time> sa vám po dobu &amp;lt;duration>%3$d mesiacov každý mesiac &amp;lt;/duration> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price>.</item>
+        <item quantity="few">Počnúc dňom &amp;lt;start_time>%4$s&amp;lt;/start_time> sa vám po dobu &amp;lt;duration>%3$d mesiacov každé %2$d mesiace&amp;lt;/duration> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price>.</item>
+        <item quantity="many">Počnúc dňom &amp;lt;start_time>%4$s&amp;lt;/start_time> sa vám po dobu &amp;lt;duration>%3$d mesiacov každého %2$d mesiaca&amp;lt;/duration> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month_tax">
-        <item quantity="other">Kým odber nezrušíte, počnúc dňom &lt;start_time>%3$s sa vám každých %2$d mesiacov&lt;/start_time> automaticky naúčtuje suma &lt;price>%1$s&lt;/price> a príslušná daň.</item>
-        <item quantity="one">Kým odber nezrušíte, počnúc dňom &lt;start_time>%3$s sa vám každý mesiac&lt;/start_time> automaticky naúčtuje suma &lt;price>%1$s&lt;/price> a príslušná daň.</item>
-        <item quantity="few">Kým odber nezrušíte, počnúc dňom &lt;start_time>%3$s sa vám každé %2$d mesiace&lt;/start_time> automaticky naúčtuje suma &lt;price>%1$s&lt;/price> a príslušná daň.</item>
-        <item quantity="many">Kým odber nezrušíte, počnúc dňom &lt;start_time>%3$s sa vám každého %2$d mesiaca&lt;/start_time> automaticky naúčtuje suma &lt;price>%1$s&lt;/price> a príslušná daň.</item>
+        <item quantity="other">Kým odber nezrušíte, počnúc dňom &amp;lt;start_time>%3$s sa vám každých %2$d mesiacov&amp;lt;/start_time> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price> a príslušná daň.</item>
+        <item quantity="one">Kým odber nezrušíte, počnúc dňom &amp;lt;start_time>%3$s sa vám každý mesiac&amp;lt;/start_time> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price> a príslušná daň.</item>
+        <item quantity="few">Kým odber nezrušíte, počnúc dňom &amp;lt;start_time>%3$s sa vám každé %2$d mesiace&amp;lt;/start_time> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price> a príslušná daň.</item>
+        <item quantity="many">Kým odber nezrušíte, počnúc dňom &amp;lt;start_time>%3$s sa vám každého %2$d mesiaca&amp;lt;/start_time> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price> a príslušná daň.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month_tax_limited">
-        <item quantity="other">Počnúc dňom &lt;start_time>%4$s&lt;/start_time> sa vám po dobu &lt;duration>%3$d mesiacov každých %2$d mesiacov&lt;/duration> automaticky naúčtuje suma &lt;price>%1$s&lt;/price> a príslušná daň.</item>
-        <item quantity="one">Počnúc dňom &lt;start_time>%4$s&lt;/start_time> sa vám po dobu &lt;duration>%3$d mesiacov každý mesiac &lt;/duration> automaticky naúčtuje suma &lt;price>%1$s&lt;/price> a príslušná daň.</item>
-        <item quantity="few">Počnúc dňom &lt;start_time>%4$s&lt;/start_time> sa vám po dobu &lt;duration>%3$d mesiacov každé %2$d mesiace&lt;/duration> automaticky naúčtuje suma &lt;price>%1$s&lt;/price> a príslušná daň.</item>
-        <item quantity="many">Počnúc dňom &lt;start_time>%4$s&lt;/start_time> sa vám po dobu &lt;duration>%3$d mesiacov každého %2$d mesiaca&lt;/duration> automaticky naúčtuje suma &lt;price>%1$s&lt;/price> a príslušná daň.</item>
+        <item quantity="other">Počnúc dňom &amp;lt;start_time>%4$s&amp;lt;/start_time> sa vám po dobu &amp;lt;duration>%3$d mesiacov každých %2$d mesiacov&amp;lt;/duration> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price> a príslušná daň.</item>
+        <item quantity="one">Počnúc dňom &amp;lt;start_time>%4$s&amp;lt;/start_time> sa vám po dobu &amp;lt;duration>%3$d mesiacov každý mesiac &amp;lt;/duration> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price> a príslušná daň.</item>
+        <item quantity="few">Počnúc dňom &amp;lt;start_time>%4$s&amp;lt;/start_time> sa vám po dobu &amp;lt;duration>%3$d mesiacov každé %2$d mesiace&amp;lt;/duration> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price> a príslušná daň.</item>
+        <item quantity="many">Počnúc dňom &amp;lt;start_time>%4$s&amp;lt;/start_time> sa vám po dobu &amp;lt;duration>%3$d mesiacov každého %2$d mesiaca&amp;lt;/duration> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price> a príslušná daň.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year">
-        <item quantity="other">Kým odber nezrušíte, počnúc dňom &lt;start_time>%3$s sa vám každých %2$d rokov&lt;/start_time> automaticky naúčtuje suma &lt;price>%1$s&lt;/price>.</item>
-        <item quantity="one">Kým odber nezrušíte, počnúc dňom &lt;start_time>%3$s sa vám každý rok&lt;/start_time> automaticky naúčtuje suma &lt;price>%1$s&lt;/price>.</item>
-        <item quantity="few">Kým odber nezrušíte, počnúc dňom &lt;start_time>%3$s sa vám každé %2$d roky&lt;/start_time> automaticky naúčtuje suma &lt;price>%1$s&lt;/price>.</item>
-        <item quantity="many">Kým odber nezrušíte, počnúc dňom &lt;start_time>%3$s sa vám každého %2$d roka&lt;/start_time> automaticky naúčtuje suma &lt;price>%1$s&lt;/price>.</item>
+        <item quantity="other">Kým odber nezrušíte, počnúc dňom &amp;lt;start_time>%3$s sa vám každých %2$d rokov&amp;lt;/start_time> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price>.</item>
+        <item quantity="one">Kým odber nezrušíte, počnúc dňom &amp;lt;start_time>%3$s sa vám každý rok&amp;lt;/start_time> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price>.</item>
+        <item quantity="few">Kým odber nezrušíte, počnúc dňom &amp;lt;start_time>%3$s sa vám každé %2$d roky&amp;lt;/start_time> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price>.</item>
+        <item quantity="many">Kým odber nezrušíte, počnúc dňom &amp;lt;start_time>%3$s sa vám každého %2$d roka&amp;lt;/start_time> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year_limited">
-        <item quantity="other">Počnúc dňom &lt;start_time>%4$s&lt;/start_time> sa vám po dobu &lt;duration>%3$d rokov každých %2$d rokov&lt;/duration> automaticky naúčtuje suma &lt;price>%1$s&lt;/price>.</item>
-        <item quantity="one">Počnúc dňom &lt;start_time>%4$s&lt;/start_time> sa vám po dobu &lt;duration>%3$d rokov každý rok &lt;/duration> automaticky naúčtuje suma &lt;price>%1$s&lt;/price>.</item>
-        <item quantity="few">Počnúc dňom &lt;start_time>%4$s&lt;/start_time> sa vám po dobu &lt;duration>%3$d rokov každé %2$d roky&lt;/duration> automaticky naúčtuje suma &lt;price>%1$s&lt;/price>.</item>
-        <item quantity="many">Počnúc dňom &lt;start_time>%4$s&lt;/start_time> sa vám po dobu &lt;duration>%3$d rokov každého %2$d roka&lt;/duration> automaticky naúčtuje suma &lt;price>%1$s&lt;/price>.</item>
+        <item quantity="other">Počnúc dňom &amp;lt;start_time>%4$s&amp;lt;/start_time> sa vám po dobu &amp;lt;duration>%3$d rokov každých %2$d rokov&amp;lt;/duration> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price>.</item>
+        <item quantity="one">Počnúc dňom &amp;lt;start_time>%4$s&amp;lt;/start_time> sa vám po dobu &amp;lt;duration>%3$d rokov každý rok &amp;lt;/duration> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price>.</item>
+        <item quantity="few">Počnúc dňom &amp;lt;start_time>%4$s&amp;lt;/start_time> sa vám po dobu &amp;lt;duration>%3$d rokov každé %2$d roky&amp;lt;/duration> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price>.</item>
+        <item quantity="many">Počnúc dňom &amp;lt;start_time>%4$s&amp;lt;/start_time> sa vám po dobu &amp;lt;duration>%3$d rokov každého %2$d roka&amp;lt;/duration> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year_tax">
-        <item quantity="other">Kým odber nezrušíte, počnúc dňom &lt;start_time>%3$s sa vám každých %2$d rokov&lt;/start_time> automaticky naúčtuje suma &lt;price>%1$s&lt;/price> a príslušná daň.</item>
-        <item quantity="one">Kým odber nezrušíte, počnúc dňom &lt;start_time>%3$s sa vám každý rok&lt;/start_time> automaticky naúčtuje suma &lt;price>%1$s&lt;/price> a príslušná daň.</item>
-        <item quantity="few">Kým odber nezrušíte, počnúc dňom &lt;start_time>%3$s sa vám každé %2$d roky&lt;/start_time> automaticky naúčtuje suma &lt;price>%1$s&lt;/price> a príslušná daň.</item>
-        <item quantity="many">Kým odber nezrušíte, počnúc dňom &lt;start_time>%3$s sa vám každého %2$d roka&lt;/start_time> automaticky naúčtuje suma &lt;price>%1$s&lt;/price> a príslušná daň.</item>
+        <item quantity="other">Kým odber nezrušíte, počnúc dňom &amp;lt;start_time>%3$s sa vám každých %2$d rokov&amp;lt;/start_time> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price> a príslušná daň.</item>
+        <item quantity="one">Kým odber nezrušíte, počnúc dňom &amp;lt;start_time>%3$s sa vám každý rok&amp;lt;/start_time> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price> a príslušná daň.</item>
+        <item quantity="few">Kým odber nezrušíte, počnúc dňom &amp;lt;start_time>%3$s sa vám každé %2$d roky&amp;lt;/start_time> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price> a príslušná daň.</item>
+        <item quantity="many">Kým odber nezrušíte, počnúc dňom &amp;lt;start_time>%3$s sa vám každého %2$d roka&amp;lt;/start_time> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price> a príslušná daň.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year_tax_limited">
-        <item quantity="other">Počnúc dňom &lt;start_time>%4$s&lt;/start_time> sa vám po dobu &lt;duration>%3$d rokov každých %2$d rokov&lt;/duration> automaticky naúčtuje suma &lt;price>%1$s&lt;/price> a príslušná daň.</item>
-        <item quantity="one">Počnúc dňom &lt;start_time>%4$s&lt;/start_time> sa vám po dobu &lt;duration>%3$d rokov každý rok &lt;/duration> automaticky naúčtuje suma &lt;price>%1$s&lt;/price> a príslušná daň.</item>
-        <item quantity="few">Počnúc dňom &lt;start_time>%4$s&lt;/start_time> sa vám po dobu &lt;duration>%3$d rokov každé %2$d roky&lt;/duration> automaticky naúčtuje suma &lt;price>%1$s&lt;/price> a príslušná daň.</item>
-        <item quantity="many">Počnúc dňom &lt;start_time>%4$s&lt;/start_time> sa vám po dobu &lt;duration>%3$d rokov každého %2$d roka&lt;/duration> automaticky naúčtuje suma &lt;price>%1$s&lt;/price> a príslušná daň.</item>
+        <item quantity="other">Počnúc dňom &amp;lt;start_time>%4$s&amp;lt;/start_time> sa vám po dobu &amp;lt;duration>%3$d rokov každých %2$d rokov&amp;lt;/duration> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price> a príslušná daň.</item>
+        <item quantity="one">Počnúc dňom &amp;lt;start_time>%4$s&amp;lt;/start_time> sa vám po dobu &amp;lt;duration>%3$d rokov každý rok &amp;lt;/duration> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price> a príslušná daň.</item>
+        <item quantity="few">Počnúc dňom &amp;lt;start_time>%4$s&amp;lt;/start_time> sa vám po dobu &amp;lt;duration>%3$d rokov každé %2$d roky&amp;lt;/duration> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price> a príslušná daň.</item>
+        <item quantity="many">Počnúc dňom &amp;lt;start_time>%4$s&amp;lt;/start_time> sa vám po dobu &amp;lt;duration>%3$d rokov každého %2$d roka&amp;lt;/duration> automaticky naúčtuje suma &amp;lt;price>%1$s&amp;lt;/price> a príslušná daň.</item>
     </plurals>
 </resources>

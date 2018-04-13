@@ -165,7 +165,7 @@
         <item>צור תיקיה: mkdir /media/mtp</item>
         <item>אשר מתן הרשאות משתמש קבוצתיות לקבוצת המשתמשים הנוכחית</item>
         <item>היכנס שוב</item>
-        <item>גישה להתקן נטען: mtpfs /media/mtp via file explorer; same as local directory</item>
+        <item>גישה להתקן נטען: mtpfs /media/mtp via File Manager; same as local folder.</item>
         <item>"הסרת התקנת התקן: fusermount -u /media/mtp
 שים לב: עבור Ubuntu 8.04 בלבד!"</item>
     </string-array>
@@ -388,7 +388,7 @@
         <item>מסך הנעילה</item>
         <item>סיסמת פרטיות</item>
         <item>מצב ילדים</item>
-        <item>סייר הקבצים</item>
+        <item>מנהל הקבצים</item>
         <item>נועל היישומים</item>
         <item>שטח שני</item>
     </string-array>
@@ -866,6 +866,29 @@
         <item>תמונות</item>
         <item>קבצים</item>
         <item>פתקים</item>
+    </string-array>
+    <string-array name="region_support_face">
+        <item>IN</item>
+        <item>ID</item>
+        <item>RU</item>
+        <item>HK</item>
+        <item>TW</item>
+    </string-array>
+    <string-array name="device_support_face">
+        <item>jason</item>
+        <item>polaris</item>
+        <item>sagit</item>
+        <item>chiron</item>
+        <item>whyred</item>
+        <item>nitrogen</item>
+        <item>wayne</item>
+        <item>ysl</item>
+        <item>סאקורה</item>
+    </string-array>
+    <string-array name="device_global_support_face">
+        <item>whyred</item>
+        <item>polaris</item>
+        <item>ysl</item>
     </string-array>
     <string-array name="install_non_market_app_entries">
         <item>הפעלה (מומלץ)</item>

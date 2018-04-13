@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="common_google_play_services_enable_button">Povoliť</string>
+    <string name="common_google_play_services_enable_text">Aplikácia %1$s bude fungovať až po povolení služieb Google Play.</string>
+    <string name="common_google_play_services_enable_title">Povoliť služby Google Play</string>
+    <string name="common_google_play_services_install_button">Inštalovať</string>
+    <string name="common_google_play_services_install_text">Na spustenie aplikácie %1$s sa vyžadujú služby Google Play, ktoré na zariadení nemáte.</string>
+    <string name="common_google_play_services_install_title">Inštalovať služby Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Chyba služieb Google Play</string>
     <string name="common_google_play_services_unknown_issue">Aplikácia %1$s má problémy so službami Google Play. Skúste to znova.</string>
+    <string name="common_google_play_services_unsupported_text">Aplikáciu %1$s nebude možné spustiť bez služieb Google Play, ktoré vaše zariadenie nepodporuje.</string>
+    <string name="common_google_play_services_update_button">Aktualizovať</string>
+    <string name="common_google_play_services_update_text">Aplikáciu %1$s bude možné spustiť až po aktualizácii služieb Google Play.</string>
+    <string name="common_google_play_services_update_title">Aktualizácia služieb Google Play</string>
+    <string name="common_google_play_services_updating_text">Na spustenie aplikácie %1$s sa vyžadujú služby Google Play, ktoré sa momentálne aktualizujú.</string>
+    <string name="common_google_play_services_wear_update_text">Vyžaduje sa nová verzia služieb Google Play. Aktualizujú sa automaticky v najbližšom čase.</string>
+    <string name="common_open_on_phone">Otvoriť v telefóne</string>
+    <string name="common_signin_button_text">Prihlásiť sa</string>
+    <string name="common_signin_button_text_long">Prihlásiť sa do účtu Google</string>
+    <string name="s1">Uloženie obrázka</string>
+    <string name="s2">Povoliť reklame uložiť obrázok do galérie obrázkov?</string>
+    <string name="s3">Prijať</string>
+    <string name="s4">Odmietnuť</string>
+    <string name="s5">Vytvorenie udalosti v kalendári</string>
+    <string name="s6">Povoliť reklame vytvoriť udalosť v kalendári?</string>
     <string name="abc_action_bar_home_description">Prejsť na úvodnú stránku</string>
     <string name="abc_action_bar_up_description">Prejsť hore</string>
     <string name="abc_action_menu_overflow_description">Viac</string>
@@ -51,6 +73,8 @@
     <string name="actionbar_textselection_title">Výber textu</string>
     <string name="actionbar_web_search">Hľadať</string>
     <string name="ad_btn_default_text">Nainštalovať</string>
+    <string name="ad_mark">Ad</string>
+    <string name="ad_sponsored">Sponsored</string>
     <string name="adblock_force_updating_rules_toast">Aktualizácia Ad blockera</string>
     <string name="adblock_rules_not_updated_toast">Aktualizácia zlyhala</string>
     <string name="adblock_rules_restore">Obnoviť</string>
@@ -88,6 +112,7 @@
     <string name="aqi_quality_index_moderate">Priemerné</string>
     <string name="aqi_quality_index_pure">Vynikajúce</string>
     <string name="aqi_quality_index_unhealthy">Nezdravé</string>
+    <string name="articles_updated">%1$d articles updated for you</string>
     <string name="autoSwithcingSearchEngineTips">Zmenil sa poskytovateľ vyhľadávania</string>
     <string name="autofill_keyboard_accessory_content_description">Dostupné návrhy</string>
     <string name="autofill_popup_content_description">Zobraziť okno automatického vyplňovania</string>
@@ -136,11 +161,14 @@ Ak znovu odošlete údaje, každá akcia, ktorú formulár na stránke prináša
     <string name="cancel">Zrušiť</string>
     <string name="cannot_download">Sťahovať možno iba \"http\" alebo \"https\" URL.</string>
     <string name="card_setting_close_recommend">Dostávať upozornenia</string>
+    <string name="channels_edit">Edit</string>
+    <string name="channels_finish">Finish</string>
     <string name="choosertitle_sharevia">Zdieľať cez</string>
     <string name="clear_history">Vymazať históriu</string>
     <string name="clear_most_visited">História</string>
     <string name="clear_search_history">Vymazať históriu</string>
     <string name="clear_video_download">Vymazať videá</string>
+    <string name="click_to_refresh">Stopped here last time, tap to refresh</string>
     <string name="clip_dialog_title">Otvoriť skopírovanú URL adresu?</string>
     <string name="close_ads_choice_no">Povoliť</string>
     <string name="close_ads_choice_yes">Blokovať</string>
@@ -200,6 +228,7 @@ Ak znovu odošlete údaje, každá akcia, ktorú formulár na stránke prináša
     <string name="contextmenu_webpage_snapshot">Uložiť stránku</string>
     <string name="copy_to_clipboard_failure_message">Kopírovanie do schránky zlyhalo.</string>
     <string name="copy_url">kopírovať</string>
+    <string name="could_not_load_data">"Couldn't load data, refresh and try again"</string>
     <string name="create_qr_code">qr kód</string>
     <string name="current_version_pad">Tablet</string>
     <string name="current_version_pc">PC</string>
@@ -207,6 +236,7 @@ Ak znovu odošlete údaje, každá akcia, ktorú formulár na stránke prináša
     <string name="custom_head_card_text">Vždy ver, že sa stane niečo úžasné</string>
     <string name="custom_head_card_text_incognito">"Ste v režime inkognito!
 Stránky, ktoré prezeráte sa nezobrazia v histórii."</string>
+    <string name="data_error">Data error</string>
     <string name="data_traffic_prompt_change">Prezeranie videí cez dátové pripojenie zvýši množstvo prenesených dát. Ak prekročíte plánovaný limit prenesených dát, váš operátor vám môže účtovať dodatočné poplatky.</string>
     <string name="data_traffic_prompt_message">Prehliadanie videí cez dátové pripojenie zvýši množstvo prenesených dát. Ak prekročíte plánovaný limit prenesených dát, váš operátor vám môže účtovať dodatočné poplatky.</string>
     <string name="data_traffic_prompt_message_short">Používanie mobilných dát pre streamovanie videa môže spôsobiť prečerpanie plánovaného limitu dát.</string>
@@ -337,8 +367,9 @@ Stránky, ktoré prezeráte sa nezobrazia v histórii."</string>
     <string name="hint">Poznámka</string>
     <string name="history">História</string>
     <string name="home_description">Domov</string>
-    <string name="home_page_news_feed">Informačný kanál</string>
-    <string name="home_page_top_sites">Top stránky</string>
+    <string name="home_page_news_feed">News Feed</string>
+    <string name="home_page_news_flow">News Flow</string>
+    <string name="home_page_top_sites">Top Sites</string>
     <string name="homepage_delete_card_menu">Vymazať</string>
     <string name="homepage_get_location">Získať polohu</string>
     <string name="homepage_get_location_failed">Nebolo možné načítať vašu polohu, vyberte vaše mesto.</string>
@@ -372,6 +403,7 @@ Chcete opustiť túto web stránku?"</string>
     <string name="loading_tips">Potiahnite pre obnovenie</string>
     <string name="local_bookmarks">Lokálne</string>
     <string name="login_failed_toast">Nepodarilo sa prihlásiť, obnoviť a skúste to znova</string>
+    <string name="long_press_edit">Long press to edit</string>
     <string name="low_memory_error">Z dôvodu nedostatku pamäte nebolo možné dokončiť predchádzajúcu operáciu.</string>
     <string name="low_memory_toast">Prehliadač sa nedá použiť kvôli nedostatku pamäte</string>
     <string name="max_tabs_warning">Ďalšie karty sú nedostupné</string>
@@ -397,7 +429,7 @@ Chcete opustiť túto web stránku?"</string>
     <string name="menu_preferences">Nastavenia</string>
     <string name="menu_theme_setting">Nastavenie vzhľadu</string>
     <string name="menu_title_clear_all">Vymazať všetko</string>
-    <string name="menu_title_open_file_management">Otvoriť aplikáciu Súbory</string>
+    <string name="menu_title_open_file_management">Open File Manager</string>
     <string name="menu_title_pause_all">Pozastaviť</string>
     <string name="menu_title_resume_all">Spustiť</string>
     <string name="miui_autologin_bar_error">Nie je možné sa prihlásiť</string>
@@ -512,6 +544,7 @@ Chcete opustiť túto web stránku?"</string>
     <string name="month_picker_dialog_title">Nastaviť mesiac</string>
     <string name="more_description">Ponuka</string>
     <string name="more_option">Ďalšie nastavenia</string>
+    <string name="my_cahnnel">My channels</string>
     <string name="nav_bottom_bar_back">Naspäť</string>
     <string name="nav_bottom_bar_close_all">Zatvoriť</string>
     <string name="nav_bottom_bar_new_tab">Nová karta</string>
@@ -524,11 +557,16 @@ Pamätajte nato, že súbory, ktoré stiahnete a záložky, ktoré pridáte osta
     <string name="navigationbar_rightbutton_actiontext_cancle">Zrušiť</string>
     <string name="navigationbar_rightbutton_actiontext_go">Povoliť</string>
     <string name="navigationbar_rightbutton_actiontext_search">Hľadať</string>
+    <string name="net_error">Network error</string>
     <string name="network_show_wifi_setting_tip_dialog_description">Je dostupná Wi-Fi sieť. Chcete sa k nej pripojiť?</string>
     <string name="network_show_wifi_setting_tip_dialog_title">Dostupná Wi-Fi sieť</string>
+    <string name="news_load_failed">Click to retry</string>
+    <string name="news_loading">Loading…</string>
     <string name="next_button_label">Ďalej</string>
     <string name="no_app_open_document">Nenašla sa žiadna aplikácia pre túto akciu</string>
+    <string name="no_items">No more items to show, please try a different category</string>
     <string name="no_matches">Nič sa nenašlo</string>
+    <string name="no_network">Please check your network connection and try again</string>
     <string name="no_space_alert_cancel">Neskôr</string>
     <string name="no_space_alert_clean">Uvoľniť miesto</string>
     <string name="no_space_alert_text">Nie je dostatok voľného miesta na úložisku</string>
@@ -543,10 +581,11 @@ Pamätajte nato, že súbory, ktoré stiahnete a záložky, ktoré pridáte osta
     <string name="onews__category_cricket">Kriket</string>
     <string name="onews__category_reddit">Reddit</string>
     <string name="open_app_confirm_message">Povoliť tejto stránke otvoriť %s?</string>
-    <string name="open_file_explorer_failed">Nebolo možné otvoriť aplikáciu Súbory</string>
+    <string name="open_file_explorer_failed">"Can't open File Manager"</string>
     <string name="open_private_folder">Uvoľnením zobrazíte skryté priečinky</string>
     <string name="open_voice_permission">Open voice networking permission</string>
     <string name="opening_file_error">Otváranie vyznačeného súboru zlyhalo.</string>
+    <string name="other_channel">Click to add more channels.</string>
     <string name="page_info">Informácie o stránke</string>
     <string name="page_info_address">Adresa:</string>
     <string name="page_info_view">Zobraz informácie o stránke</string>
@@ -591,6 +630,7 @@ Pamätajte nato, že súbory, ktoré stiahnete a záložky, ktoré pridáte osta
     <string name="pref_content_night_read_mode">Zapnúť Nočný režim</string>
     <string name="pref_content_search_engine">Nastaviť vyhľadávanie</string>
     <string name="pref_content_search_engine_summary">Vybrať vyhľadávaciu službu</string>
+    <string name="pref_develop_mode">Develop Mode</string>
     <string name="pref_enable_adblock_notification">Upozornenie o blokovaní reklám</string>
     <string name="pref_enable_news">News Alerts</string>
     <string name="pref_enable_novels">Novels Alerts</string>
@@ -668,6 +708,7 @@ Pamätajte nato, že súbory, ktoré stiahnete a záložky, ktoré pridáte osta
     <string name="profiler_started_toast">Profilovač spustený</string>
     <string name="profiler_stopped_toast">Profilovač dokončený. Výsledky sú tu: %1$s.</string>
     <string name="progress_dialog_setting_wallpaper">Nastavovanie tapety...</string>
+    <string name="pull_to_refresh">Pull down to refresh</string>
     <string name="pull_to_refresh_pull_label">Potiahnite pre obnovenie...</string>
     <string name="pull_to_refresh_release_label">Pustite pre obnovenie</string>
     <string name="qr_code_title">QR kód</string>
@@ -698,6 +739,11 @@ Pamätajte nato, že súbory, ktoré stiahnete a záložky, ktoré pridáte osta
     <string name="readmode_recommend_message">"You've read all the sections of the book, change another now"</string>
     <string name="readmode_refresh">Obnoviť</string>
     <string name="readmodelist_bookmarks_to_show">Zoznam zaujímavých</string>
+    <string name="refresh">Refresh</string>
+    <string name="refresh_fail">Failed to load</string>
+    <string name="refresh_success">Found %1$d articles you might like</string>
+    <string name="refreshing">Refreshing…</string>
+    <string name="release_to_refresh">Release to refresh</string>
     <string name="remember_passwords_confirm_message">Deaktivovanie tejto funkcie môže ovplyvniť používanie.</string>
     <string name="remove_bookmark">Vymazať záložku</string>
     <string name="remove_bookmark_group">Vymazať skupinu</string>
@@ -818,6 +864,10 @@ Pamätajte nato, že súbory, ktoré stiahnete a záložky, ktoré pridáte osta
     <string name="suggest_access_music">Mi Hudba</string>
     <string name="suggest_item_delete_text">Vymazať</string>
     <string name="suggest_open_app_failed">Nebolo možné otvoriť túto aplikáciu</string>
+    <string name="summary_command_mode">enter command mode or not</string>
+    <string name="summary_force_show_news_flow">force show news flow or not</string>
+    <string name="summary_show_news_feed">show news feed or not</string>
+    <string name="summary_use_sandbox_domain">use sandbox domain or not</string>
     <string name="switchText">ÁNO</string>
     <string name="switch_proxy_dialog_msg">Bolo zistené napadnutie vašej siete. Použite MIUI aplikáciu Optimalizácia alebo to nahláste vášmu operátorovi.</string>
     <string name="switch_proxy_dialog_title">Napadnutie siete</string>
@@ -831,7 +881,12 @@ Pamätajte nato, že súbory, ktoré stiahnete a záložky, ktoré pridáte osta
     <string name="time_picker_dialog_pm">PM</string>
     <string name="time_picker_dialog_second_subsecond_separator">.</string>
     <string name="time_picker_dialog_title">Nastaviť čas</string>
+    <string name="tip_drag">Long press to edit and drag to sort.</string>
     <string name="title_bar_loading">Načítavanie...</string>
+    <string name="title_command_mode">Command mode</string>
+    <string name="title_force_show_news_flow">Force show news flow</string>
+    <string name="title_show_news_feed">Show News Feed</string>
+    <string name="title_use_sandbox_domain">Use Sandbox domain</string>
     <string name="too_many_windows_dialog_message">Nemožno otvoriť novú kartu, kým inú nezavriete.</string>
     <string name="too_many_windows_dialog_title">Limit kariet dosiahnutý</string>
     <string name="unSwitchText">NIE</string>
@@ -840,7 +895,7 @@ Pamätajte nato, že súbory, ktoré stiahnete a záložky, ktoré pridáte osta
     <string name="unsecurity_url_toast">Táto webstránka nie je bezpečná</string>
     <string name="up_to_loading_tips">Pustite pre obnovenie</string>
     <string name="update_no_network_toast">Nie je možné sa pripojiť k sieti</string>
-    <string name="updating_chrome">Aktualizuje sa Chrome‧</string>
+    <string name="updating_chrome">Aktualizuje sa Chrome…</string>
     <string name="uploads_disabled">Nahrávanie súborov je vypnuté.</string>
     <string name="url_copy_done">Adresa je skopírovaná</string>
     <string name="url_find_on_page_result">Zobraziť v prehliadači</string>
@@ -940,4 +995,16 @@ Pamätajte nato, že súbory, ktoré stiahnete a záložky, ktoré pridáte osta
     <string name="webview_find_on_page">Nájsť na stránke</string>
     <string name="webviewchromium_private_browsing_warning">Táto funkcia nie je podporovaná vašou verziou Androidu.</string>
     <string name="week_picker_dialog_title">Nastaviť týždeň</string>
+    <string name="could_not_load">"Couldn't load"</string>
+    <string name="done">Done</string>
+    <string name="hold_to_edit">Tap to enter, hold to edit</string>
+    <string name="hour_ago">N hour ago</string>
+    <string name="language">Language</string>
+    <string name="le_ptr_from_bottom_pull_label">@string/pull_to_refresh</string>
+    <string name="le_ptr_from_bottom_refreshing_label">@string/le_ptr_refreshing_label</string>
+    <string name="le_ptr_from_bottom_release_label">@string/le_ptr_release_label</string>
+    <string name="load_more_tip">Load more</string>
+    <string name="min_ago">N min ago</string>
+    <string name="now">Just Now</string>
+    <string name="reached_bottom">"You've reached the bottom of the page"</string>
 </resources>

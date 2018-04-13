@@ -658,7 +658,7 @@
         <item>Opprett en katalog: mkdir /media/mtp</item>
         <item>Bekreft brukergruppetilatelser i den aktuelle fusjonerte brukergruppen</item>
         <item>Logg inn igjen</item>
-        <item>Få tilgang på montert enhet: mtpfs /media/mtp gjennom filutforsker; samme som lokal katalog</item>
+        <item>Få tilgang til den monterte enheten: mtpfs /media/mtp gjennom filbehandler; samme som lokal mappe.</item>
         <item>"Avinnstaller enhet: fusermount -u /media/mtp
 Note: Kun for Ubuntu 8.04!"</item>
     </string-array>
@@ -881,7 +881,7 @@ Note: Kun for Ubuntu 8.04!"</item>
         <item>Lås skjerm</item>
         <item>Personvernpassord</item>
         <item>Barnemodus</item>
-        <item>Filutforsker</item>
+        <item>Filbehandler</item>
         <item>App-lås</item>
         <item>Andre område</item>
     </string-array>
@@ -1359,6 +1359,29 @@ Note: Kun for Ubuntu 8.04!"</item>
         <item>Bilder</item>
         <item>Filer</item>
         <item>Notater</item>
+    </string-array>
+    <string-array name="region_support_face">
+        <item>IN</item>
+        <item>ID</item>
+        <item>RU</item>
+        <item>HK</item>
+        <item>TW</item>
+    </string-array>
+    <string-array name="device_support_face">
+        <item>jason</item>
+        <item>polaris</item>
+        <item>sagit</item>
+        <item>chiron</item>
+        <item>whyred</item>
+        <item>nitrogen</item>
+        <item>wayne</item>
+        <item>ysl</item>
+        <item>sakura</item>
+    </string-array>
+    <string-array name="device_global_support_face">
+        <item>whyred</item>
+        <item>polaris</item>
+        <item>ysl</item>
     </string-array>
     <string-array name="install_non_market_app_entries">
         <item>Aktiver (anbefalt)</item>

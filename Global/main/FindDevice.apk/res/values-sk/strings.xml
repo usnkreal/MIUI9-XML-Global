@@ -78,6 +78,8 @@ Prihláste sa na i.mi.com a skúste odblokovať vaše zariadenie odtiaľ\""</str
     <string name="default_lock_msg_words_with_phone">Ahoj! Stratil som alebo mi bol ukradnutý tento telefón. Prosím vráťte mi ho. Ďakujem!</string>
     <string name="default_lock_msg_words">Tento prístroj je priradený k Mi účtu. Z bezpečnostných dôvodov musíte zadať heslo pre overenie prístroja.</string>
     <string name="lock_msg_phone">Kontaktné informácie: %s</string>
+    <string name="emergency_call">Tiesňové volanie</string>
+    <string name="return_to_call">Návrat k hovoru</string>
     <string name="default_debt_msg_words">"Toto zariadenie boo uzamknuté z dôvodu nezaplatenia splátky.
 Pre viac informácií kontaktujte svojho predajcu."</string>
     <string name="sys_notification_async_verify_title">Reaktivácia vyhľadávania zariadenia</string>

@@ -40,7 +40,7 @@
     <string name="menu_title_current_version_log">מה חדש</string>
     <string name="menu_title_apply_for_alpha">"הירשם לתכנית 'בדיקות בטא'"</string>
     <string name="menu_title_feedback">משוב</string>
-    <string name="install_file_explorer">"התקן את 'סייר הקבצים' תחילה"</string>
+    <string name="install_file_explorer">"התקן את 'מנהל הקבצים' תחילה"</string>
     <string name="boot_recovery">לאתחל למצב Recovery?</string>
     <string name="cancel_download">להפסיק את הורדת העדכון?</string>
     <string name="continue_update_positive_btn">הפסק</string>
@@ -142,6 +142,10 @@ http://zhushou.xiaomi.com"</string>
     <string name="notification_express_available">העדכון שלך (%1$s) מוכן להורדה</string>
     <string name="notification_express_ready">העדכון שלך (%1$s) מוכן להתקנה</string>
     <string name="express_update_reserve_content">אין באפשרותך לעדכן ישירות לגירסה זו כעת. להגיש בקשה לעדכון (%1$s)? אנו נודיע לך כאשר %1$s זמין עבור מכשירך. עד אז, תמשיך לקבל עדכונים רגילים.</string>
+    <string name="express_update_reserve_content2">"דברים מסויימים ישתנו לאחר שתשדרג ל-ROM יציב:
+1. הרשאות Root יוגבלו גם אם אפשרת אותן בעבר.
+2. מספר תכונות של ROM הבטה לא יהיו זמינות בגרסה היציבה."</string>
+    <string name="express_update_reserve_check_text">אני מבין את ההבדל בין גרסאות ה-ROM השונות</string>
     <string name="express_update_reserve_positive">הגש בקשה לעדכון (%s)</string>
     <string name="express_update_reserve_negative">אל תגיש</string>
     <string name="express_update_switch_content_no_erase">מערכת MIUI תתעדכן לגירסה חדשה (%s). עדכון זה לא ימחק את הנתונים שלך.</string>
@@ -199,9 +203,9 @@ http://zhushou.xiaomi.com"</string>
     <string name="confirm_local_package_wipe_title">למחוק נתונים?</string>
     <string name="confirm_local_package_wipe_msg">נתוניך האישיים ימחקו. ודא גבוי של נתונים שתרצה לשמור לפני שתמשיך.</string>
     <string name="confirm_local_package_wipe_btn">מחיקה ועדכון</string>
-    <string name="file_path_error_title">Incorrect path</string>
-    <string name="file_path_error_msg">Make sure the path to the update package contains only letters and numbers.</string>
-    <string name="file_path_error_btn">Got it</string>
+    <string name="file_path_error_title">נתיב שגוי</string>
+    <string name="file_path_error_msg">ודא כי הנתיב עבור חבילת העדכון מכיל אותיות ומספרים בלבד.</string>
+    <string name="file_path_error_btn">הבנתי</string>
     <string name="delay_update_text">עדכן הלילה</string>
     <string name="dialog_delay_update_title">קיים עדכון זמין</string>
     <string name="dialog_delay_update_msg">העדכונים יותקנו בין 2:00 ל-5:00 לפנות בוקר בתנאי שהסוללה מלאה ב-30% לפחות.</string>
@@ -265,7 +269,7 @@ http://zhushou.xiaomi.com"</string>
     <string name="vote_error4">כבר שלחת משוב</string>
     <string name="vote_error5">"משהו השתבש
 לא ניתן היה לשלוח משוב"</string>
-    <string name="miui_BBS">" "<a href="http://bbs.miui.com">Go to MIUI forum</a>" "</string>
+    <string name="miui_BBS">" "<a href="http://bbs.miui.com">עבור אל פורום MIUI</a>" "</string>
     <string name="alpha_cancel">"בטל הרשמתך מתכנית 'בדיקות בטא'"</string>
     <string name="alpha_cancel_ok">אישור</string>
     <string name="alpha_cancel_cancel">ביטול</string>
@@ -319,7 +323,7 @@ http://zhushou.xiaomi.com"</string>
     <string name="home_delay_cancel">ביטול</string>
     <string name="accessibility_video">סרטון</string>
     <string name="accessibility_image">תמונה</string>
-    <string name="accessibility_play">Play</string>
+    <string name="accessibility_play">הפעלה</string>
     <string name="security_space_title">עדכון חשוב</string>
     <string name="security_space_msg">"למערכת MIUI 9 יש קובץ מערכת חדש. במידה ותאתחל את מכשירך כעת, יתכן ולא תוכל להשתמש ב'שטח שני'. העבר את כל הפריטים מ'שטח שני' אל 'שטח ראשון' לפני ביצוע האתחול."</string>
     <string name="security_space_button_pos">אל תאתחל</string>

@@ -71,7 +71,7 @@
     <string name="permdesc_downloadWithoutNotification">Tillat at appene laster ned filer i Nedlastinger uten at brukeren varsles.</string>
     <string name="permlab_accessAllDownloads">Få tilgang til alle systemnedlastinger</string>
     <string name="permdesc_accessAllDownloads">Tillater appen å vise og endre alle nedlastinger som er startet av en hvilken som helst app.</string>
-    <string name="download_unknown_title">&lt;Untitled></string>
+    <string name="download_unknown_title">&lt;Uten navn></string>
     <string name="notification_need_wifi_for_size">Nedlastingsstørrelse krever Wi-Fi.</string>
     <string name="notification_paused_in_background">Pauset i bakgrunnen.</string>
     <string name="wifi_required_title">Koble til Wi-Fi for å laste ned denne filen</string>

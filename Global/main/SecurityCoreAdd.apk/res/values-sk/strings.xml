@@ -58,6 +58,8 @@
     <string name="wating">Načítavanie...</string>
     <string name="Active">Aktívny</string>
     <string name="ok_button">OK </string>
+    <string name="remove_button">Remove and reboot</string>
+    <string name="remove_button_time">Remove and reboot (%ds)</string>
     <string name="cancel_button">Zrušiť</string>
     <string name="list_empty_text">Prázdne</string>
     <string name="list_empty_text_xspace">Nainštalujte WeChat/QQ/Weibo, vytvorte duálne aplikácie a skúste to znova.</string>
@@ -65,6 +67,8 @@
     <string name="xspace_setting_label">Nastavenia Dual app</string>
     <string name="xspace_account">Účty Dual app</string>
     <string name="declare_dialog_title">Čo sú to klonované aplikácie</string>
+    <string name="stop_xspace_alert_title">Deleting dual app accounts</string>
+    <string name="stop_xspace_alert_content">"You deleted all dual apps. Delete dual app accounts and app data as well? After this, you'll have to create dual apps again when you need them."</string>
     <string name="xspace_loading_msg">Načítavanie apl...</string>
     <string name="xspace_header">Klonované aplikácie</string>
     <string name="xspace_introduce">Odporúčané</string>
@@ -77,6 +81,7 @@ Niektoré dual apps si vyžadujú podporu Google Services Framework. V takomto p
     <string name="xspace_install_failed">Nebolo možné vytvoriť</string>
     <string name="xspace_uninstalling">Odinštalovanie...</string>
     <string name="xspace_install_completed">Ikona pridaná na plochu</string>
+    <string name="xspace_install_completed_global">Icon added to drawer</string>
     <string name="xspace_uninstall_completed">Klonovaná aplikácia odinštalovaná</string>
     <string name="xspace_uninstall_dialog_title">Odinštalovať klonovanú apl.</string>
     <string name="xspace_uninstall_dialog_content">Odinštalovanie klonovanej aplikácie vymaže všetky jej dáta.</string>
@@ -175,6 +180,10 @@ Niektoré dual apps si vyžadujú podporu Google Services Framework. V takomto p
     <string name="notification_from_second_user">Zobrazovať upozornenia z Druhého pristoru</string>
     <string name="radio_button_icon_switch_title">Pomocou odkazu</string>
     <string name="radio_button_password_switch_title">Pomocou hesla</string>
+    <string name="reset_password_dialog_title">"Can't hide Second space shortcut"</string>
+    <string name="reset_password_dialog_message">"You're using different password types for First space and Second space. Second space should use the same password type as First space for the shortcut to be hidden."</string>
+    <string name="reset_password_dialog_positve_btn_title">Change</string>
+    <string name="entrance_reopen_toast_msg">Showing Second space shortcut due to different password types</string>
     <string name="settings_cross_notification_title">Upozornenia</string>
     <string name="settings_cross_notification_summary">Dostávať upozornenia z Druhého profilu</string>
     <string name="settings_switch_shortcut_summary">Zobraziť odkaz Druhého profilu na ploche Primárneho profilu</string>
@@ -349,6 +358,13 @@ V prípade, že zariadenie neaktualizujete, duálna aplikácia nemusí pracovať
     <string name="sdcradfs_dialog_in_sec_message">"Pre aktualizáciu najskôr odstráňte Druhý priestor a potom ho znova vytvorte. Presuňte dáta z Druhého priestoru do Prvého a reštartujte vaše zariadenie pre dokončenie aktualizácie.
 Pokiaľ zariadenie neaktualizujete, duálna aplikácia nemusí pracovať správne."</string>
     <string name="space_created_success">Druhý priestor úspešne vytvorený</string>
+    <string name="encrypt_space_delete_dialog_title">Upozornenie</string>
+    <string name="encrypt_space_delete_dialog_message">Chystáte sa aktualizovať Android. Po aktualizácii budú dáta z Druhého priestoru nekompatibilné. Odporúčame presunúť všetky dáta do Prvého priestoru, vymazať Druhý priestor a vytvoriť ho znova.</string>
+    <string name="encrypt_space_delete_dialog_click_message">*Ak nepotrebujete presunúť dáta, %s</string>
+    <string name="encrypt_space_delete_dialog_click_message_action">vymazať a vytvoriť Druhý priestor teraz.</string>
+    <string name="encrypt_space_delete_dialog_positive_text">Preniesť dáta</string>
+    <string name="encrypt_space_delete_notification_title">Druhý priestor</string>
+    <string name="encrypt_space_delete_notification_message">Pre úspešnú aktualizáciu vymažte váš Druhý priestor a vytvorte nový.</string>
     <string name="space_create_guide_title_1">Chráňte svoje súkromie</string>
     <string name="space_create_guide_desc_1">Ukladajte aplikácie a fotografie bezpečne</string>
     <string name="space_create_guide_title_2">Vytvoriť kedykoľvek</string>
@@ -359,14 +375,14 @@ Pokiaľ zariadenie neaktualizujete, duálna aplikácia nemusí pracovať správn
     <string name="second_space_desktop_tips_dialog_title">Dôležitá aktualizácia</string>
     <string name="second_space_desktop_tips_dialog_positive_text">Rozumiem</string>
     <string name="second_space_desktop_tips_dialog_message">Po tejto aktualizácii, ikony pre presun dát a správu Druhého priestoru viac nebudú zobrazené v Druhom priestore. Tieto funkcie bude možné nájsť v Nastaveniach.</string>
-    <string name="green_guard">Parental controls</string>
-    <string name="bind_device">Add devices</string>
-    <string name="green_guard_des1">Add devices to manage them remotely</string>
-    <string name="green_guard_title2">View location info</string>
-    <string name="green_guard_des2">Know where exactly all managed devices are</string>
-    <string name="green_guard_title3">Manage apps</string>
-    <string name="green_guard_des3">Control installed apps and restrict usage</string>
-    <string name="experience_more_features">Add a device to view all features</string>
-    <string name="can_not_switch_when_green_kid_active">Switching to Second space is restricted by parental controls</string>
-    <string name="need_network_when_bind">Connect to the network before Adding devices</string>
+    <string name="green_guard">Rodičovská kontrola</string>
+    <string name="bind_device">Pridať zariadenia</string>
+    <string name="green_guard_des1">Pridajte zariadenia, aby ste ich mohli spravovať na diaľku</string>
+    <string name="green_guard_title2">Zobraziť údaje o polohe</string>
+    <string name="green_guard_des2">Zistite, kde presne sa všetky spravované zariadenia nachádzajú</string>
+    <string name="green_guard_title3">Spravovať aplikácie</string>
+    <string name="green_guard_des3">Kontrolujte nainštalované aplikácie a obmedzenia používania</string>
+    <string name="experience_more_features">Pre zobrazenie všetkých funkcií pridajte zariadenie</string>
+    <string name="can_not_switch_when_green_kid_active">Prepnutie do Druhého priestoru je obmedzené rodičovskou kontrolou</string>
+    <string name="need_network_when_bind">Pred Pridaním zariadení sa pripojte k sieti</string>
 </resources>

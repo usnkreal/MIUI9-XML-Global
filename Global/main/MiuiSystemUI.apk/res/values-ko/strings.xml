@@ -473,6 +473,7 @@ EEEE"</string>
     <string name="notification_group_title_text">%1$s (%2$s)</string>
     <string name="notification_group_overflow_indicator">+%s</string>
     <string name="click_to_return_multi_window">탭하여 분할 화면으로 돌아오기</string>
+    <string name="click_to_return_multi_window_of_notch">분할 화면으로 돌아가기</string>
     <string name="recent_dock_tip">탭하여 앱 선택</string>
     <string name="recent_cannot_dock">보조 공간에서는 화면 분할을 사용할 수 없음</string>
     <string name="dock_keyguard_locked_failed_to_dock_text">잠금 화면에서는 화면 분할이 지원되지 않습니다.</string>

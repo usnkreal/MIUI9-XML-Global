@@ -373,11 +373,11 @@
     <string name="pref_camera_picturesize_entry_18_9">18:9</string>
     <string name="pref_camera_front_bokeh_entry_on">Вкл</string>
     <string name="pref_camera_front_bokeh_entry_off">Изкл</string>
-    <string name="pref_camera_ai_scene_title">AI Камера</string>
+    <string name="pref_camera_ai_scene_title">AI камера</string>
     <string name="pref_camera_front_ai_scene_entry_on">AI камера</string>
     <string name="pref_camera_front_ai_scene_entry_off">AI камера е изкл</string>
-    <string name="ai_scene_mode_use_hint_text">"Отворете режим Ai камера, определете вида на ефекта за вас 
- и оптимизирайте снимката на база тази сцена"</string>
+    <string name="ai_scene_mode_use_hint_text">"AI камера определя сцените автоматично
+ и оптимизира вашите снимки на базата на тази информация"</string>
     <string name="color_effect_entry_vivid">Живо</string>
     <string name="color_effect_entry_film">Филм</string>
     <string name="color_effect_entry_koizora">Любов</string>
@@ -406,6 +406,9 @@
     <string name="portait_effect_entry_maze">Бъркотия</string>
     <string name="portait_effect_entry_cool">Мента</string>
     <string name="portait_effect_entry_blackwhite">Ч/Б</string>
+    <string name="portait_effect_entry_story">Разказ</string>
+    <string name="portait_effect_entry_riddle">Гатанка</string>
+    <string name="portait_effect_entry_movie">Филм</string>
     <string name="pano_how_to_use_prompt_start">Чукнете стрелката за да превключите посоката на заснемане и започнете панорамата бавно.</string>
     <string name="accessibility_intent_done_apply">Готово</string>
     <string name="accessibility_flash_on">Светкавицата е вкл</string>

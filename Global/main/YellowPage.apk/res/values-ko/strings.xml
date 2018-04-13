@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">홈 탐색</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">위로 탐색</string>
+    <string name="abc_action_menu_overflow_description">옵션 더보기</string>
+    <string name="abc_action_mode_done">완료</string>
+    <string name="abc_activity_chooser_view_see_all">전체 보기</string>
+    <string name="abc_activitychooserview_choose_application">앱 선택</string>
+    <string name="abc_search_hint">검색...</string>
+    <string name="abc_searchview_description_clear">검색어 삭제</string>
+    <string name="abc_searchview_description_query">검색어</string>
+    <string name="abc_searchview_description_search">검색</string>
+    <string name="abc_searchview_description_submit">검색어 보내기</string>
+    <string name="abc_searchview_description_voice">음성 검색</string>
+    <string name="abc_shareactionprovider_share_with">공유 대상</string>
+    <string name="abc_shareactionprovider_share_with_application">%s와(과) 공유</string>
+    <string name="abc_toolbar_collapse_description">접기</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="about_smart_antispam_summary">이 기능에 관하여</string>
     <string name="about_telephone_fraud">전화 사기를 조심하십시오.</string>
     <string name="account_address">주소</string>
@@ -120,11 +138,10 @@
     <string name="mark_number_dialog_maintitle">이 전화번호에 표기</string>
     <string name="mark_number_dialog_subtitle">%1$s (%2$d명에게 표기됨)</string>
     <string name="mark_number_feedback">표기</string>
-    <string name="mark_number_feedback_hint">피드백 입력</string>
+    <string name="mark_number_feedback_hint">입력한 정보가 올바른지 확인하십시오.</string>
     <string name="mark_number_feedback_invalid_hint">피드백 입력</string>
-    <string name="mark_number_feedback_not_number">%s번호가 아닙니다.</string>
-    <string name="mark_number_feedback_personal_number">개인번호 입니다.</string>
-    <string name="mark_number_feedback_success">표기 정보 전송 성공</string>
+    <string name="mark_number_feedback_success">플래그 정보가 수신되었습니다.</string>
+    <string name="mark_number_feedback_title_hint">이 번호:</string>
     <string name="mark_number_marked_maintitle">표기 정보 변경</string>
     <string name="mark_number_marked_subtitle">%s (현재 표기)</string>
     <string name="mark_number_notification_title">의심스러운 번호 신고</string>
@@ -260,6 +277,7 @@
     <string name="turn_on_smart_antispam_summary">통화 목록과 SMS에서의 알 수 없는 번호들을 업로드하고 확인하기</string>
     <string name="turn_on_smart_antispam_title">발신자 ID</string>
     <string name="turn_on_yellowpage_service_title">발신자 ID 사용</string>
+    <string name="unicom_yellow_page_operator_provided">공급자로부터 제공됨</string>
     <string name="uploads_disabled">파일 업로드가 중단되었습니다.</string>
     <string name="user_agreement2">" 이용 약관"</string>
     <string name="user_agreement4">개인정보 보호 정책</string>

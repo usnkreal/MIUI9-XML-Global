@@ -33,7 +33,7 @@
     <string name="attach_sound">Dźwięki</string>
     <string name="attach_subject">Temat</string>
     <string name="attach_take_photo">Zrób zdjęcie</string>
-    <string name="attach_transaction">Wyślij pieniądze</string>
+    <string name="attach_transaction">Przekaz pieniężny</string>
     <string name="attach_video">Wideo</string>
     <string name="audio_download_failed">Pobieranie dźwięku nie powiodło się</string>
     <string name="audio_message_expired">Wiadomość głosowa wygasła.</string>
@@ -152,7 +152,7 @@
     <string name="enter_edit_mode">Edytuj wiadomości</string>
     <string name="error_code_label">Kod błędu:</string>
     <string name="error_state">Niekompletny stan</string>
-    <string name="error_state_text">Stan wątków i odbiorców jest niespójny. Wyślij raport o błędzie za pomocą http://go/droidanizer</string>
+    <string name="error_state_text">Stan wątków i odbiorców jest niepoprawny. Utwórz raport błędu i zgłoś go przez stronę http://go/droidanizer</string>
     <string name="error_timed_msg">Nie można zaplanować czasu wysyłania wcześniej niż teraz</string>
     <string name="ex_type_guide">Informacyjne</string>
     <string name="ex_type_mx">Wiadomości Mi</string>

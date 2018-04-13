@@ -93,9 +93,8 @@
 תכונה זו מצפינה ושולחת את מזהה המכשיר שלך לשרתי Mi."</string>
     <string name="user_agreement_p5">"
 "</string>
-    <string name="user_agreement_p6">"על ידי שימוש בשירות זה אתה מסכים ל "</string>
-    <string name="user_agreement_p7">תנאי השירות של Mi Cloud</string>
-    <string name="user_agreement_p8">.</string>
+    <string name="user_agreement_link">תנאי השירות של Mi Cloud</string>
+    <string name="user_agreement_content">על ידי שימוש בשירות זה הינך מסכים ל%s.</string>
     <string name="user_agreement_title">תנאי השירות של Mi Cloud</string>
     <string name="privacy_policy">מדיניות הפרטיות</string>
     <string name="loading">רק רגע…</string>
@@ -173,7 +172,7 @@
     <string name="micloud_user_space_usage">שטח אחסון</string>
     <string name="micloud_web_discription_01">היכנס ל-i.mi.com</string>
     <string name="micloud_web_discription_02">לאחסן ולגשת לקבצים שלך מכל מקום</string>
-    <string name="micloud_web_discription_place_holder">בקר ב-%1$s</string>
+    <string name="micloud_web_discription_place_holder">בקר ב-%1$s במחשב שלך על מנת לנהל את הנתונים שלך.</string>
     <string name="micloud_full_influence_title">כאשר Mi Cloud שלך מלא…</string>
     <string name="micloud_warn_low_title">כמעט ולא נותר שטח אחסון פנוי</string>
     <string name="micloud_warn_low_sum">Mi Cloud שלך מלא ב90%.</string>
@@ -366,9 +365,6 @@
     <string name="buy_more_space_c_class">"תכונה זו דורשת כרטיס אשראי סיני.
 לקבלת עוד שטח אחסון בקר ב-mi.com/micloud."</string>
     <string name="micloud_member_buy_title">אשר הזמנה</string>
-    <string name="micloud_member_buy_content" formatted="false">"בתוקף עד %s-%s-%s
-
-%s נקודות Mi"</string>
     <string name="micloud_member_net_error_alert_title">לא ניתן להתחבר לרשת</string>
     <string name="micloud_member_net_error_alert_message">אין לך חיבור לאינטרנט.</string>
     <string name="micloud_member_pay_fail_toast">לא ניתן היה לבצע את התשלום</string>

@@ -179,7 +179,7 @@
     <string name="cta_permission_delimiter">,</string>
     <string name="cta_permission_and">és</string>
     <string name="cta_title">Felhasználási feltételek</string>
-    <string name="cta_message_license">A termék használatával elfogadja a Felhasználási feltételeket és az Adatvédelmi nyilatkozatot.</string>
+    <string name="cta_message_license">A termék használatával elfogadja a Szolgáltatási feltételeket és az Adatvédelmi nyilatkozatot.</string>
     <string name="cta_message_permission">Az alkalmazás %2$s engedélyt igényel.</string>
     <string name="cta_check_reminder">Ne mutassa újra</string>
     <string name="cta_button_quit">Kilépés</string>

@@ -27,6 +27,9 @@
     <string name="power_usage">전력 사용량</string>
     <string name="power_mode">전원 설정</string>
     <string name="performance_category">성능</string>
+    <string name="pref_config_title">성능 최적화</string>
+    <string name="app_preload_policies_title">AI 미리 로딩</string>
+    <string name="app_preload_policies_summary">기계 학습 기능을 사용하시면 자주 사용하는 앱의 리소스를 미리 로드하여 성능을 향상시킵니다.</string>
     <string name="scenario_policies_warmcontrol">온도 조절</string>
     <string name="warm_configure">온도 조절 설정</string>
     <string name="important_warning">주의</string>
@@ -72,11 +75,18 @@
     <string name="update_profile_sucess">서버 업데이트 성공</string>
     <string name="update_profile_failture_not_connect_wifi">업데이트 실패, Wi-Fi 연결 후 다시 시도하십시오.</string>
     <string name="sucess">완료</string>
-    <string name="failure">실패</string>
+    <string name="failure">오류</string>
     <string name="cloud_addr_info">클라우드 정보</string>
     <string name="lasttime_feature_cloud">업데이트된 기능:</string>
     <string name="lasttime_applist_cloud">업데이트된 앱:</string>
     <string name="base_info">기본 정보</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_result_text">아무 앱도 찾지 못했습니다.</string>
+    <string name="power_consume_abnormal_night">밤에 배터리 소모됨</string>
+    <string name="enable_sleep_mode">야간의 배터리 사용 최적화를 위해 절전 모드 켜기</string>
+    <string name="sleepmode_privacy_title">절전 모드</string>
+    <string name="sleepmode_privacy_content">이 기능은 휴대전화의 시스템 및 기기 정보를 사용하게 됩니다. 서버로는 업로드하지 않습니다.</string>
+    <string name="sleepmode_privacy_link">개인정보 보호 정책 및 보안 정책 더 알아보기</string>
+    <string name="sleepmode_disclaimer_cancel">취소</string>
+    <string name="sleepmode_disclaimer_agree">동의</string>
 </resources>

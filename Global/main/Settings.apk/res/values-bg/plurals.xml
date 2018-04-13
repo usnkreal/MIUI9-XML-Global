@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="firewall_item_summary">
+        <item quantity="other">Ограничено свързване за %s прил</item>
+        <item quantity="one">Ограничено свързване за %s прил</item>
+    </plurals>
+    <plurals name="bg_network_allow_count">
+        <item quantity="other">%d приложения могат да се свържат с мрежата</item>
+        <item quantity="one">%d приложение може да се свърже с мрежата</item>
+    </plurals>
+    <plurals name="bg_network_restrict_count">
+        <item quantity="other">%d приложения не могат да се свържат с мрежата</item>
+        <item quantity="one">%d приложение не може да се свърже с мрежата</item>
+    </plurals>
     <plurals name="status_bar_settings_disabled_header_title">
         <item quantity="other">%d приложения не могат да показват известия</item>
         <item quantity="one">%d приложение не може да показва известия</item>

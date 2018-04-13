@@ -97,7 +97,7 @@ Hvis du aktiverer dataene på nytt, kan du bli belastes av operatøren din."</st
     <string name="status_bar_safepay_unknown">Kunne ikke kontrollere betalingsomgivelsen</string>
     <string name="loading_desktop">Et øyeblikk…</string>
     <string name="status_bar_date_format">"EEEE
-MMMM d"</string>
+d. MMMM"</string>
     <string name="status_bar_recent_guide_all">"Skyv opp for å lukke
  Skyv ned for å låse"</string>
     <string name="status_bar_recent_guide_top">Skyv opp for å lukke</string>
@@ -107,7 +107,7 @@ MMMM d"</string>
     <string name="description_direction_left">Sveip til venstre for %s.</string>
     <string name="description_target_search">Søk</string>
     <string name="status_bar_date_format_12">"EEEE
-MMMM d"</string>
+d. MMMM"</string>
     <string name="status_bar_clock_date_format">EEEE, d. MMMM</string>
     <string name="status_bar_recent_memory_info1">%1$sB of %2$sB tilgjengelig</string>
     <string name="status_bar_recent_memory_info2" />
@@ -115,8 +115,8 @@ MMMM d"</string>
     <string name="accessibility_recent_task_memory_info">Total RAM: %2$s | Tilgjengelig RAM: %1$s. Dobbeltklikk for å fjerne.</string>
     <string name="accessibility_recent_task_locked">Låst, sveip ned for å låse opp</string>
     <string name="accessibility_recent_task_unlocked">Låst opp</string>
-    <string name="nav_guide_title">Hide screen buttons</string>
-    <string name="nav_guide_message">Use gestures to hide/show screen buttons.</string>
+    <string name="nav_guide_title">Skjul skjermknapper</string>
+    <string name="nav_guide_message">Bruk bevegelser for å skjule/vise skjermknapper.</string>
     <string name="nav_guide_cancel">Ignorer</string>
     <string name="nav_guide_ok">Sett opp</string>
     <string name="usb_mode_notification">USB-lagring</string>
@@ -150,7 +150,7 @@ MMMM d"</string>
     <string name="settings_toggle_position_reset">Tilbakestill skiftknapper</string>
     <string name="list_delimeter">", "</string>
     <string name="camera_key_action_setting_title">Mi-knapp</string>
-    <string name="camera_key_action_category_title">"Use if the Camera app isn't open"</string>
+    <string name="camera_key_action_category_title">Bruk hvis Kamera-appen ikke er åpen</string>
     <string name="camera_key_action_none_title">Ingen handling</string>
     <string name="camera_key_action_shortcut_title">Snarvei</string>
     <string name="camera_key_action_toggle_title">Utløs veksling</string>
@@ -192,7 +192,7 @@ MMMM d"</string>
     <string name="ext_media_nomedia_notification_title">Fjernet USB-lagring</string>
     <string name="ext_media_nomedia_notification_message">USB-lagring fjernet. Sett inn nye medier.</string>
     <string name="ext_media_mountable_notification_title">USB-lagringsenhet tilkoblet</string>
-    <string name="ext_media_mountable_notification_message">Tap to open in File Manager</string>
+    <string name="ext_media_mountable_notification_message">Trykk for å åpne i filbehandler</string>
     <string name="ext_media_safe_remove">Fjerne trygt</string>
     <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">K/s</string>
@@ -247,9 +247,9 @@ MMMM d"</string>
     <string name="notification_low_battery_open_save_mode">Slå på batterisparer</string>
     <string name="notification_low_battery_action_btn">Slå på</string>
     <string name="notification_low_battery_need_charge">Batteriet er lavt. Lad opp enheten din.</string>
-    <string name="low_temperature_warning_title">Low temperature warning</string>
-    <string name="low_temperature_warning_message">The temperature is too low. Your phone may shut down anytime now. Make sure you save all the important changes.</string>
-    <string name="low_temperature_button_ok">Got it</string>
+    <string name="low_temperature_warning_title">Varsel om lav temperatur</string>
+    <string name="low_temperature_warning_message">Temperaturen er for lav. Telefonen din kan når som helst skrus av. Sørg for at du lagrer viktige endringer.</string>
+    <string name="low_temperature_button_ok">Skjønner</string>
     <string name="oldman_airplane_mode_text">Fly</string>
     <string name="oldman_incall_text">Tilbake til anrop</string>
     <string name="demo_mode">Demo-modus</string>
@@ -387,7 +387,7 @@ MMMM d"</string>
     <string name="keyboard_key_dpad_left">Venstre</string>
     <string name="keyboard_key_dpad_right">Høyre</string>
     <string name="keyboard_key_dpad_center">Midt i</string>
-    <string name="keyboard_key_tab">Tab</string>
+    <string name="keyboard_key_tab">Fane</string>
     <string name="keyboard_key_space">Mellomrom</string>
     <string name="keyboard_key_enter">Skriv inn</string>
     <string name="keyboard_key_backspace">Rettetast</string>
@@ -404,13 +404,13 @@ MMMM d"</string>
     <string name="keyboard_key_move_end">Slutt</string>
     <string name="keyboard_key_insert">Sett inn</string>
     <string name="keyboard_key_num_lock">Num Lock</string>
-    <string name="keyboard_key_numpad_template">Numpad %1$s</string>
+    <string name="keyboard_key_numpad_template">Numerisk tastatur %1$s</string>
     <string name="keyboard_shortcut_group_system">System</string>
     <string name="keyboard_shortcut_group_system_home">Hjem</string>
     <string name="keyboard_shortcut_group_system_recents">Nylige</string>
     <string name="keyboard_shortcut_group_system_back">Tilbake</string>
     <string name="keyboard_shortcut_group_system_notifications">Varsler</string>
-    <string name="keyboard_shortcut_group_system_shortcuts_helper">Keyboard shortcuts</string>
+    <string name="keyboard_shortcut_group_system_shortcuts_helper">Snarveistaster</string>
     <string name="keyboard_shortcut_group_system_switch_input">Bytt inntastingsmåte</string>
     <string name="keyboard_shortcut_group_applications">Applikasjoner</string>
     <string name="keyboard_shortcut_group_applications_assist">Assister</string>
@@ -423,7 +423,7 @@ MMMM d"</string>
     <string name="keyboard_shortcut_group_applications_youtube">YouTube</string>
     <string name="keyboard_shortcut_group_applications_calendar">Kalender</string>
     <string name="legacy_vpn_name">VPN</string>
-    <string name="monitoring_button_view_policies">View policies</string>
+    <string name="monitoring_button_view_policies">Se retningslinjer</string>
     <string name="monitoring_description_ca_certificate">Et autorisasjonsbevis er installert på enheten. Trafikken på det sikre nettverket kan overvåkes eller modifiseres.</string>
     <string name="monitoring_description_named_management">"Enheten din administreres av %1$s.
 
@@ -443,7 +443,7 @@ Kontakt administratoren for ytterligere informasjon."</string>
     <string name="monitoring_description_personal_profile_named_vpn">Din personlige profil er knyttet til %1$s, som kan overvåke nettverksaktiviteten din, inkludert e-poster, apper og nettsteder.</string>
     <string name="monitoring_description_two_named_vpns">Du er koblet til %1$s og %2$s, som kan overvåke nettverksaktiviteten din, inkludert e-poster, apper og nettsteder.</string>
     <string name="monitoring_description_vpn_settings_separator">" "</string>
-    <string name="monitoring_description_vpn_settings">Open VPN settings</string>
+    <string name="monitoring_description_vpn_settings">Åpne VPN-innstillinger</string>
     <string name="monitoring_title">Nettverksovervåkning</string>
     <string name="monitoring_subtitle_ca_certificate">CA-bevis</string>
     <string name="monitoring_subtitle_network_logging">Nettverkslogging</string>
@@ -465,17 +465,18 @@ Kontakt administratoren for ytterligere informasjon."</string>
     <string name="quick_settings_disclosure_personal_profile_named_vpn">Personlig profil knyttet til %1$s</string>
     <string name="quick_settings_disclosure_named_vpn">Enhet knyttet til %1$s</string>
     <string name="notch_status_bar_date_format_12">EEEE, MMMM d</string>
-    <string name="accessibility_recent_task_locked_state">Locked</string>
-    <string name="accessibility_recent_task_unlocked_state">Unlocked</string>
-    <string name="accessibility_drag_hint_message">Drag items to top of the screen</string>
+    <string name="accessibility_recent_task_locked_state">Låst</string>
+    <string name="accessibility_recent_task_unlocked_state">Låst opp</string>
+    <string name="accessibility_drag_hint_message">Dra elementer til øverste del av skjermen</string>
     <string name="notification_group_title_text">%1$s (%2$s)</string>
     <string name="notification_group_overflow_indicator">+%s</string>
     <string name="click_to_return_multi_window">Trykk for å gå tilbake til Delt skjermbilde</string>
+    <string name="click_to_return_multi_window_of_notch">Back to Split screen</string>
     <string name="recent_dock_tip">Trykk for å velge apper</string>
-    <string name="recent_cannot_dock">"Can't use Split screen in Second Space"</string>
+    <string name="recent_cannot_dock">Kan ikke bruke delt skjerm i Andre område</string>
     <string name="dock_keyguard_locked_failed_to_dock_text">Delt skjerm støttes ikke på Låseskjermen.</string>
     <string name="click_expand">Trykk for å utvide</string>
-    <string name="please_slide_agian">Slide again</string>
+    <string name="please_slide_agian">Gli på nytt</string>
     <string name="how_to_use_fsg">Du kan utføre disse handlingene ved hjelp av bevegelser:</string>
     <string name="how_to_back_home">Gå til startskjerm</string>
     <string name="how_to_switch_recents">Åpne Nylige</string>
@@ -483,8 +484,8 @@ Kontakt administratoren for ytterligere informasjon."</string>
     <string name="fsg_demo_go_on">Lær</string>
     <string name="fs_gesture_back_home_summary">Trekk raskt fra bunnen</string>
     <string name="fs_gesture_switch_recents_summary">Sveip fra bunnen og stans</string>
-    <string name="how_to_use_drawer">How to open slide menu</string>
-    <string name="how_to_use_drawer_summary">Swipe right in the upper part of the screen</string>
+    <string name="how_to_use_drawer">Hvordan å åpne glidemenyen</string>
+    <string name="how_to_use_drawer_summary">Sveip til høyre i den øvre delen av skjermen</string>
     <string name="fs_gesture_back_ready_title">Gå tilbake</string>
     <string name="fs_gesture_left_back_ready_summary">Sveip til høyre fra kanten</string>
     <string name="fs_gesture_right_back_ready_summary">Sveip til venstre fra kanten</string>
@@ -494,11 +495,11 @@ Kontakt administratoren for ytterligere informasjon."</string>
     <string name="fs_gesture_final_summary">Du kan skifte tilbake til å bruke knapper i Innstillinger > Fullskjermvisning</string>
     <string name="fs_gesture_final_restart">En gang til</string>
     <string name="fs_gesture_final_over">Jeg er ferdig</string>
-    <string name="no_sim_card">No SIM card</string>
-    <string name="prompt_detecting">Detecting</string>
-    <string name="prompt_danger">Risk</string>
-    <string name="prompt_failure">Error</string>
-    <string name="prompt_safe">Safe</string>
-    <string name="prompt_unknown">Unknown</string>
-    <string name="prompt_return_to_split">Split screen</string>
+    <string name="no_sim_card">Ingen SIM-kort</string>
+    <string name="prompt_detecting">Oppdager</string>
+    <string name="prompt_danger">Danger</string>
+    <string name="prompt_failure">Feil</string>
+    <string name="prompt_safe">Trygg</string>
+    <string name="prompt_unknown">Ukjent</string>
+    <string name="prompt_return_to_split">Del skjerm</string>
 </resources>

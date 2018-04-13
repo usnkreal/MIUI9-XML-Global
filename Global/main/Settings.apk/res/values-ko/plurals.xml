@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="firewall_item_summary">
+        <item quantity="other">%s개 앱의 연결 제한됨</item>
+    </plurals>
+    <plurals name="bg_network_allow_count">
+        <item quantity="other">%d개 앱 네트워크 연결 가능</item>
+    </plurals>
+    <plurals name="bg_network_restrict_count">
+        <item quantity="other">%d개 앱 네트워크 연결 불가</item>
+    </plurals>
     <plurals name="status_bar_settings_disabled_header_title">
         <item quantity="other">%d개 앱의 알림을 표시하지 않습니다.</item>
     </plurals>

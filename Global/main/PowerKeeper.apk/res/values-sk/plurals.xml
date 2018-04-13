@@ -4,6 +4,6 @@
         <item quantity="other">Vyhľadať %d aplikácií</item>
         <item quantity="one">Vyhľadať %d aplikáciu</item>
         <item quantity="few">Vyhľadať %d aplikácie</item>
-        <item quantity="many">Search %d apps</item>
+        <item quantity="many">Vyhľadať %d aplikácie</item>
     </plurals>
 </resources>

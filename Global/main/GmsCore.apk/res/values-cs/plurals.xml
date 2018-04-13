@@ -197,75 +197,75 @@
         <item quantity="many">minuty</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day">
-        <item quantity="other">Od &lt;start_time>%3$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s každých %2$d dnů&lt;/price>, dokud odběr nezrušíte.</item>
-        <item quantity="one">Od &lt;start_time>%3$s&lt;/start_time> vám bude vám automaticky účtována částka &lt;price>%1$s denně&lt;/price>, dokud odběr nezrušíte.</item>
-        <item quantity="few">Od &lt;start_time>%3$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s každé %2$d dny&lt;/price>, dokud odběr nezrušíte.</item>
-        <item quantity="many">Od &lt;start_time>%3$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s každých %2$d dne&lt;/price>, dokud odběr nezrušíte.</item>
+        <item quantity="other">Od &amp;lt;start_time>%3$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s každých %2$d dnů&amp;lt;/price>, dokud odběr nezrušíte.</item>
+        <item quantity="one">Od &amp;lt;start_time>%3$s&amp;lt;/start_time> vám bude vám automaticky účtována částka &amp;lt;price>%1$s denně&amp;lt;/price>, dokud odběr nezrušíte.</item>
+        <item quantity="few">Od &amp;lt;start_time>%3$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s každé %2$d dny&amp;lt;/price>, dokud odběr nezrušíte.</item>
+        <item quantity="many">Od &amp;lt;start_time>%3$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s každých %2$d dne&amp;lt;/price>, dokud odběr nezrušíte.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day_limited">
-        <item quantity="other">Od &lt;start_time>%4$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s každých %2$d dnů&lt;/price> po dobu následujících &lt;duration>%3$d dnů&lt;/duration>.</item>
-        <item quantity="one">Od &lt;start_time>%4$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s denně&lt;/price> po dobu následujících &lt;duration>%3$d dnů&lt;/duration>.</item>
-        <item quantity="few">Od &lt;start_time>%4$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s každé %2$d dny&lt;/price> po dobu následujících &lt;duration>%3$d dnů&lt;/duration>.</item>
-        <item quantity="many">Od &lt;start_time>%4$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s každých %2$d dne&lt;/price> po dobu následujících &lt;duration>%3$d dnů&lt;/duration>.</item>
+        <item quantity="other">Od &amp;lt;start_time>%4$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s každých %2$d dnů&amp;lt;/price> po dobu následujících &amp;lt;duration>%3$d dnů&amp;lt;/duration>.</item>
+        <item quantity="one">Od &amp;lt;start_time>%4$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s denně&amp;lt;/price> po dobu následujících &amp;lt;duration>%3$d dnů&amp;lt;/duration>.</item>
+        <item quantity="few">Od &amp;lt;start_time>%4$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s každé %2$d dny&amp;lt;/price> po dobu následujících &amp;lt;duration>%3$d dnů&amp;lt;/duration>.</item>
+        <item quantity="many">Od &amp;lt;start_time>%4$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s každých %2$d dne&amp;lt;/price> po dobu následujících &amp;lt;duration>%3$d dnů&amp;lt;/duration>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day_tax">
-        <item quantity="other">Od &lt;start_time>%3$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s (plus platná daň) každých %2$d dnů&lt;/price>, dokud odběr nezrušíte.</item>
-        <item quantity="one">Od &lt;start_time>%3$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s (plus platná daň) denně&lt;/price>, dokud odběr nezrušíte.</item>
-        <item quantity="few">Od &lt;start_time>%3$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s (plus platná daň) každé %2$d dny&lt;/price>, dokud odběr nezrušíte.</item>
-        <item quantity="many">Od &lt;start_time>%3$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s (plus platná daň) každých %2$d dne&lt;/price>, dokud odběr nezrušíte.</item>
+        <item quantity="other">Od &amp;lt;start_time>%3$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s (plus platná daň) každých %2$d dnů&amp;lt;/price>, dokud odběr nezrušíte.</item>
+        <item quantity="one">Od &amp;lt;start_time>%3$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s (plus platná daň) denně&amp;lt;/price>, dokud odběr nezrušíte.</item>
+        <item quantity="few">Od &amp;lt;start_time>%3$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s (plus platná daň) každé %2$d dny&amp;lt;/price>, dokud odběr nezrušíte.</item>
+        <item quantity="many">Od &amp;lt;start_time>%3$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s (plus platná daň) každých %2$d dne&amp;lt;/price>, dokud odběr nezrušíte.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_day_tax_limited">
-        <item quantity="other">Od &lt;start_time>%4$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s (plus platná daň) každých %2$d dnů&lt;/price> po dobu následujících &lt;duration>%3$d dnů&lt;/duration>.</item>
-        <item quantity="one">Od &lt;start_time>%4$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s (plus platná daň) denně&lt;/price> po dobu následujících &lt;duration>%3$d dnů&lt;/duration>.</item>
-        <item quantity="few">Od &lt;start_time>%4$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s (plus platná daň) každé %2$d dny&lt;/price> po dobu následujících &lt;duration>%3$d dnů&lt;/duration>.</item>
-        <item quantity="many">Od &lt;start_time>%4$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s (plus platná daň) každých %2$d dne&lt;/price> po dobu následujících &lt;duration>%3$d dnů&lt;/duration>.</item>
+        <item quantity="other">Od &amp;lt;start_time>%4$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s (plus platná daň) každých %2$d dnů&amp;lt;/price> po dobu následujících &amp;lt;duration>%3$d dnů&amp;lt;/duration>.</item>
+        <item quantity="one">Od &amp;lt;start_time>%4$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s (plus platná daň) denně&amp;lt;/price> po dobu následujících &amp;lt;duration>%3$d dnů&amp;lt;/duration>.</item>
+        <item quantity="few">Od &amp;lt;start_time>%4$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s (plus platná daň) každé %2$d dny&amp;lt;/price> po dobu následujících &amp;lt;duration>%3$d dnů&amp;lt;/duration>.</item>
+        <item quantity="many">Od &amp;lt;start_time>%4$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s (plus platná daň) každých %2$d dne&amp;lt;/price> po dobu následujících &amp;lt;duration>%3$d dnů&amp;lt;/duration>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month">
-        <item quantity="other">Od &lt;start_time>%3$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s každých %2$d měsíců&lt;/price>, dokud odběr nezrušíte.</item>
-        <item quantity="one">Od &lt;start_time>%3$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s měsíčně&lt;/price>, dokud odběr nezrušíte.</item>
-        <item quantity="few">Od &lt;start_time>%3$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s každé %2$d měsíce&lt;/price>, dokud odběr nezrušíte.</item>
-        <item quantity="many">Od &lt;start_time>%3$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s každých %2$d měsíce&lt;/price>, dokud odběr nezrušíte.</item>
+        <item quantity="other">Od &amp;lt;start_time>%3$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s každých %2$d měsíců&amp;lt;/price>, dokud odběr nezrušíte.</item>
+        <item quantity="one">Od &amp;lt;start_time>%3$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s měsíčně&amp;lt;/price>, dokud odběr nezrušíte.</item>
+        <item quantity="few">Od &amp;lt;start_time>%3$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s každé %2$d měsíce&amp;lt;/price>, dokud odběr nezrušíte.</item>
+        <item quantity="many">Od &amp;lt;start_time>%3$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s každých %2$d měsíce&amp;lt;/price>, dokud odběr nezrušíte.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month_limited">
-        <item quantity="other">Od &lt;start_time>%4$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s každých %2$d měsíců&lt;/price> po dobu následujících &lt;duration>%3$d měsíců&lt;/duration>.</item>
-        <item quantity="one">Od &lt;start_time>%4$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s měsíčně&lt;/price> po dobu následujících &lt;duration>%3$d měsíců&lt;/duration>.</item>
-        <item quantity="few">Od &lt;start_time>%4$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s každé %2$d měsíce&lt;/price> po dobu následujících &lt;duration>%3$d měsíců&lt;/duration>.</item>
-        <item quantity="many">Od &lt;start_time>%4$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s každých %2$d měsíce&lt;/price> po dobu následujících &lt;duration>%3$d měsíců&lt;/duration>.</item>
+        <item quantity="other">Od &amp;lt;start_time>%4$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s každých %2$d měsíců&amp;lt;/price> po dobu následujících &amp;lt;duration>%3$d měsíců&amp;lt;/duration>.</item>
+        <item quantity="one">Od &amp;lt;start_time>%4$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s měsíčně&amp;lt;/price> po dobu následujících &amp;lt;duration>%3$d měsíců&amp;lt;/duration>.</item>
+        <item quantity="few">Od &amp;lt;start_time>%4$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s každé %2$d měsíce&amp;lt;/price> po dobu následujících &amp;lt;duration>%3$d měsíců&amp;lt;/duration>.</item>
+        <item quantity="many">Od &amp;lt;start_time>%4$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s každých %2$d měsíce&amp;lt;/price> po dobu následujících &amp;lt;duration>%3$d měsíců&amp;lt;/duration>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month_tax">
-        <item quantity="other">Od &lt;start_time>%3$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s (plus platná daň) každých %2$d měsíců&lt;/price>, dokud odběr nezrušíte.</item>
-        <item quantity="one">Od &lt;start_time>%3$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s (plus platná daň) měsíčně&lt;/price>, dokud odběr nezrušíte.</item>
-        <item quantity="few">Od &lt;start_time>%3$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s (plus platná daň) každé %2$d měsíce&lt;/price>, dokud odběr nezrušíte.</item>
-        <item quantity="many">Od &lt;start_time>%3$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s (plus platná daň) každých %2$d měsíce&lt;/price>, dokud odběr nezrušíte.</item>
+        <item quantity="other">Od &amp;lt;start_time>%3$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s (plus platná daň) každých %2$d měsíců&amp;lt;/price>, dokud odběr nezrušíte.</item>
+        <item quantity="one">Od &amp;lt;start_time>%3$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s (plus platná daň) měsíčně&amp;lt;/price>, dokud odběr nezrušíte.</item>
+        <item quantity="few">Od &amp;lt;start_time>%3$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s (plus platná daň) každé %2$d měsíce&amp;lt;/price>, dokud odběr nezrušíte.</item>
+        <item quantity="many">Od &amp;lt;start_time>%3$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s (plus platná daň) každých %2$d měsíce&amp;lt;/price>, dokud odběr nezrušíte.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_month_tax_limited">
-        <item quantity="other">Od &lt;start_time>%4$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s (plus platná daň) každých %2$d měsíců&lt;/price> po dobu následujících &lt;duration>%3$d měsíců&lt;/duration>.</item>
-        <item quantity="one">Od &lt;start_time>%4$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s (plus platná daň) měsíčně&lt;/price> po dobu následujících &lt;duration>%3$d měsíců&lt;/duration>.</item>
-        <item quantity="few">Od &lt;start_time>%4$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s (plus platná daň) každé %2$d měsíce&lt;/price> po dobu následujících &lt;duration>%3$d měsíců&lt;/duration>.</item>
-        <item quantity="many">Od &lt;start_time>%4$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s (plus platná daň) každých %2$d měsíce&lt;/price> po dobu následujících &lt;duration>%3$d měsíců&lt;/duration>.</item>
+        <item quantity="other">Od &amp;lt;start_time>%4$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s (plus platná daň) každých %2$d měsíců&amp;lt;/price> po dobu následujících &amp;lt;duration>%3$d měsíců&amp;lt;/duration>.</item>
+        <item quantity="one">Od &amp;lt;start_time>%4$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s (plus platná daň) měsíčně&amp;lt;/price> po dobu následujících &amp;lt;duration>%3$d měsíců&amp;lt;/duration>.</item>
+        <item quantity="few">Od &amp;lt;start_time>%4$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s (plus platná daň) každé %2$d měsíce&amp;lt;/price> po dobu následujících &amp;lt;duration>%3$d měsíců&amp;lt;/duration>.</item>
+        <item quantity="many">Od &amp;lt;start_time>%4$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s (plus platná daň) každých %2$d měsíce&amp;lt;/price> po dobu následujících &amp;lt;duration>%3$d měsíců&amp;lt;/duration>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year">
-        <item quantity="other">Od &lt;start_time>%3$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s každých %2$d let&lt;/price>, dokud odběr nezrušíte.</item>
-        <item quantity="one">Od &lt;start_time>%3$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s ročně&lt;/price>, dokud odběr nezrušíte.</item>
-        <item quantity="few">Od &lt;start_time>%3$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s každé %2$d roky&lt;/price>, dokud odběr nezrušíte.</item>
-        <item quantity="many">Od &lt;start_time>%3$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s každých %2$d roku&lt;/price>, dokud odběr nezrušíte.</item>
+        <item quantity="other">Od &amp;lt;start_time>%3$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s každých %2$d let&amp;lt;/price>, dokud odběr nezrušíte.</item>
+        <item quantity="one">Od &amp;lt;start_time>%3$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s ročně&amp;lt;/price>, dokud odběr nezrušíte.</item>
+        <item quantity="few">Od &amp;lt;start_time>%3$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s každé %2$d roky&amp;lt;/price>, dokud odběr nezrušíte.</item>
+        <item quantity="many">Od &amp;lt;start_time>%3$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s každých %2$d roku&amp;lt;/price>, dokud odběr nezrušíte.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year_limited">
-        <item quantity="other">Od &lt;start_time>%4$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s každých %2$d let&lt;/price> po dobu následujících &lt;duration>%3$d let&lt;/duration>.</item>
-        <item quantity="one">Od &lt;start_time>%4$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s ročně&lt;/price> po dobu následujících &lt;duration>%3$d let&lt;/duration>.</item>
-        <item quantity="few">Od &lt;start_time>%4$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s každé %2$d roky&lt;/price> po dobu následujících &lt;duration>%3$d let&lt;/duration>.</item>
-        <item quantity="many">Od &lt;start_time>%4$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s každých %2$d roku&lt;/price> po dobu následujících &lt;duration>%3$d let&lt;/duration>.</item>
+        <item quantity="other">Od &amp;lt;start_time>%4$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s každých %2$d let&amp;lt;/price> po dobu následujících &amp;lt;duration>%3$d let&amp;lt;/duration>.</item>
+        <item quantity="one">Od &amp;lt;start_time>%4$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s ročně&amp;lt;/price> po dobu následujících &amp;lt;duration>%3$d let&amp;lt;/duration>.</item>
+        <item quantity="few">Od &amp;lt;start_time>%4$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s každé %2$d roky&amp;lt;/price> po dobu následujících &amp;lt;duration>%3$d let&amp;lt;/duration>.</item>
+        <item quantity="many">Od &amp;lt;start_time>%4$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s každých %2$d roku&amp;lt;/price> po dobu následujících &amp;lt;duration>%3$d let&amp;lt;/duration>.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year_tax">
-        <item quantity="other">Od &lt;start_time>%3$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s (plus platná daň) každých %2$d let&lt;/price>, dokud odběr nezrušíte.</item>
-        <item quantity="one">Od &lt;start_time>%3$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s (plus platná daň) ročně&lt;/price>, dokud odběr nezrušíte.</item>
-        <item quantity="few">Od &lt;start_time>%3$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s (plus platná daň) každé %2$d roky&lt;/price>, dokud odběr nezrušíte.</item>
-        <item quantity="many">Od &lt;start_time>%3$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s (plus platná daň) každých %2$d roku&lt;/price>, dokud odběr nezrušíte.</item>
+        <item quantity="other">Od &amp;lt;start_time>%3$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s (plus platná daň) každých %2$d let&amp;lt;/price>, dokud odběr nezrušíte.</item>
+        <item quantity="one">Od &amp;lt;start_time>%3$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s (plus platná daň) ročně&amp;lt;/price>, dokud odběr nezrušíte.</item>
+        <item quantity="few">Od &amp;lt;start_time>%3$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s (plus platná daň) každé %2$d roky&amp;lt;/price>, dokud odběr nezrušíte.</item>
+        <item quantity="many">Od &amp;lt;start_time>%3$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s (plus platná daň) každých %2$d roku&amp;lt;/price>, dokud odběr nezrušíte.</item>
     </plurals>
     <plurals name="wallet_recurrence_info_year_tax_limited">
-        <item quantity="other">Od &lt;start_time>%4$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s (plus platná daň) každých %2$d let&lt;/price> po dobu následujících &lt;duration>%3$d let&lt;/duration>.</item>
-        <item quantity="one">Od &lt;start_time>%4$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s (plus platná daň) ročně&lt;/price> po dobu následujících &lt;duration>%3$d let&lt;/duration>.</item>
-        <item quantity="few">Od &lt;start_time>%4$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s (plus platná daň) každé %2$d roky&lt;/price> po dobu následujících &lt;duration>%3$d let&lt;/duration>.</item>
-        <item quantity="many">Od &lt;start_time>%4$s&lt;/start_time> vám bude automaticky účtována částka &lt;price>%1$s (plus platná daň) každých %2$d roku&lt;/price> po dobu následujících &lt;duration>%3$d let&lt;/duration>.</item>
+        <item quantity="other">Od &amp;lt;start_time>%4$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s (plus platná daň) každých %2$d let&amp;lt;/price> po dobu následujících &amp;lt;duration>%3$d let&amp;lt;/duration>.</item>
+        <item quantity="one">Od &amp;lt;start_time>%4$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s (plus platná daň) ročně&amp;lt;/price> po dobu následujících &amp;lt;duration>%3$d let&amp;lt;/duration>.</item>
+        <item quantity="few">Od &amp;lt;start_time>%4$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s (plus platná daň) každé %2$d roky&amp;lt;/price> po dobu následujících &amp;lt;duration>%3$d let&amp;lt;/duration>.</item>
+        <item quantity="many">Od &amp;lt;start_time>%4$s&amp;lt;/start_time> vám bude automaticky účtována částka &amp;lt;price>%1$s (plus platná daň) každých %2$d roku&amp;lt;/price> po dobu následujících &amp;lt;duration>%3$d let&amp;lt;/duration>.</item>
     </plurals>
 </resources>

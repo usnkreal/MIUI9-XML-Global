@@ -111,10 +111,10 @@
         <item quantity="many">נמצאו %d יישומים</item>
     </plurals>
     <plurals name="network_restrict_count">
-        <item quantity="other">"הגישה לרשת מוגבלת עבור &lt;font color='#ff0000'>%d&lt;/font> יישומים"</item>
-        <item quantity="one">"הגישה לרשת מוגבלת עבור יישום &lt;font color='#ff0000'>%d&lt;/font>"</item>
-        <item quantity="two">"הגישה לרשת מוגבלת עבור &lt;font color='#ff0000'>%d&lt;/font> יישומים"</item>
-        <item quantity="many">"הגישה לרשת מוגבלת עבור &lt;font color='#ff0000'>%d&lt;/font> יישומים"</item>
+        <item quantity="other">"הגישה לרשת מוגבלת עבור &amp;lt;font color='#ff0000'>%d&amp;lt;/font> יישומים"</item>
+        <item quantity="one">"הגישה לרשת מוגבלת עבור יישום &amp;lt;font color='#ff0000'>%d&amp;lt;/font>"</item>
+        <item quantity="two">"הגישה לרשת מוגבלת עבור &amp;lt;font color='#ff0000'>%d&amp;lt;/font> יישומים"</item>
+        <item quantity="many">"הגישה לרשת מוגבלת עבור &amp;lt;font color='#ff0000'>%d&amp;lt;/font> יישומים"</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
         <item quantity="other">%d יישומים אינם עובדים באופן תקין וזוללים את הסוללה</item>
@@ -465,9 +465,9 @@
         <item quantity="many">"נותרו %d ימים לסיום תהליך 'האצת מהירות המערכת'. חדש את התהליך על מנת להימנע מבעיות מהירות של הרשת."</item>
     </plurals>
     <plurals name="gb_signed_days_sum">
-        <item quantity="other">Checked in %d days in a row</item>
-        <item quantity="one">Checked in %d time</item>
-        <item quantity="two">Checked in %d days in a row</item>
-        <item quantity="many">Checked in %d days in a row</item>
+        <item quantity="other">"בוצע צ'ק אין %d ימים ברצף"</item>
+        <item quantity="one">"בוצע צ'ק אין פעם %d"</item>
+        <item quantity="two">"בוצע צ'ק אין %d ימים ברצף"</item>
+        <item quantity="many">"בוצע צ'ק אין %d ימים ברצף"</item>
     </plurals>
 </resources>

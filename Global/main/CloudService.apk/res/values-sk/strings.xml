@@ -93,9 +93,8 @@ Odoslané ID vášho zariadenia na server Mi bude šifrované.\""</string>
     <string name="mx_dspt_provision_privacy_no_sim">Táto funkcia vyžaduje vaše telefónne číslo. Keď vložíte SIM kartu do telefónu, bude odoslaná SMS pre aktiváciu tejto služby.</string>
     <string name="user_agreement_p5">"
 "</string>
-    <string name="user_agreement_p6">"Používaním súhlasíte s "</string>
-    <string name="user_agreement_p7">Podmienkami používania MiCloud</string>
-    <string name="user_agreement_p8">.</string>
+    <string name="user_agreement_link">Podmienky používania MiCloud</string>
+    <string name="user_agreement_content">Používaním tejto služby súhlasíte s %s.</string>
     <string name="user_agreement_title">Podmienky používania MiCloud</string>
     <string name="privacy_policy">Podmienky súkromia</string>
     <string name="loading">Načítavanie...</string>
@@ -172,7 +171,7 @@ Odoslané ID vášho zariadenia na server Mi bude šifrované.\""</string>
     <string name="micloud_user_space_usage">Využité</string>
     <string name="micloud_web_discription_01">Prihláste sa na http://i.mi.com</string>
     <string name="micloud_web_discription_02">pre prístup k vašim súborom</string>
-    <string name="micloud_web_discription_place_holder">Návšteva %1$s</string>
+    <string name="micloud_web_discription_place_holder">Pre správu vašich dát prejdite na %1$s na vašom počítači.</string>
     <string name="micloud_full_influence_title">Ak je MiCloud už plný</string>
     <string name="micloud_warn_low_title">Dochádza voľné miesto v úložisku!</string>
     <string name="micloud_warn_low_sum">Zaplnili ste už 90% úložiska.</string>
@@ -362,9 +361,6 @@ do vášho Xiaomi účtu pre znovu aktivovanie MiCloud.\""</string>
     <string name="buy_more_space_b_class">\"Sign in at mi.com/micloud to get more storage space. You need a Mainland China bank card to purchase additional storage space.\"</string>
     <string name="buy_more_space_c_class">\"This feature requires a Mainland China bank card. To get more storage space, visit mi.com/micloud.\"</string>
     <string name="micloud_member_buy_title">Potvrdiť</string>
-    <string name="micloud_member_buy_content" formatted="false">"\"Platné pre %s-%s-%s
-
-%s MiKreditov na rok\""</string>
     <string name="micloud_member_net_error_alert_title">Nie je možné sa pripojiť k sieti</string>
     <string name="micloud_member_net_error_alert_message">Nemáte pripojenie k internetu.</string>
     <string name="micloud_member_pay_fail_toast">Platba nemohla byť dokončená</string>

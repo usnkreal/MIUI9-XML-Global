@@ -65,8 +65,8 @@
         <item quantity="one">Letilt %1$d telefonszámot?</item>
     </plurals>
     <plurals name="dlg_remove_blacklist">
-        <item quantity="other">Felold %1$d telefonszámot?</item>
-        <item quantity="one">Felold %1$d telefonszámot?</item>
+        <item quantity="other">Töröl %1$d telefonszámot a tiltólistáról?</item>
+        <item quantity="one">Töröl %1$d telefonszámot a tiltólistáról?</item>
     </plurals>
     <plurals name="export_sim_contacts_dialog_message">
         <item quantity="other">A SIM kártya %1$d névjegyet tud tárolni.</item>
@@ -77,11 +77,11 @@
         <item quantity="one">%1$d névjegy hozzáadva</item>
     </plurals>
     <plurals name="group_list_num_contacts_in_group">
-        <item quantity="other">%1$d ember</item>
+        <item quantity="other">%1$d személy</item>
         <item quantity="one">%1$d személy</item>
     </plurals>
     <plurals name="group_list_num_numbers_in_group">
-        <item quantity="other">%1$d számok</item>
+        <item quantity="other">%1$d szám</item>
         <item quantity="one">%1$d szám</item>
     </plurals>
     <plurals name="hint_account_contacts">
@@ -113,8 +113,8 @@
         <item quantity="one">1 névjegy telefonszámmal</item>
     </plurals>
     <plurals name="merge_info">
-        <item quantity="other">%0$d kapcsolat összekapcsolva</item>
-        <item quantity="one">Nincs összekapcsolva</item>
+        <item quantity="other">összekapcsolva %0$d forrásból</item>
+        <item quantity="one">nincs összekapcsolva</item>
     </plurals>
     <plurals name="notification_voicemail_title">
         <item quantity="other">%1$d Hangüzenet</item>

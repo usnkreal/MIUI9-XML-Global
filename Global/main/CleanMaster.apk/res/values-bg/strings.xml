@@ -497,4 +497,17 @@
     <string name="auto_clean_time_three_day">На всеки 3 дни</string>
     <string name="auto_clean_time_seven_day">На всеки 7 дни</string>
     <string name="auto_clean_time_fifteen_day">На всеки 15 дни</string>
+    <string name="pref_category_title_auto_clean_config_settings">Автоматично почистване</string>
+    <string name="pref_title_auto_clean">Почисти автоматично</string>
+    <string name="pref_title_auto_clean_operation">Метод на почистване</string>
+    <string name="pref_title_auto_clean_trigger">Почистване на хранилището</string>
+    <string name="auto_clean_operation_dialog_title">Метод на почистване</string>
+    <string name="auto_clean_operation_clean_and_alert">Напомни и почисти</string>
+    <string name="auto_clean_operation_just_clean">Само почистване</string>
+    <string name="auto_clean_trigger_dialog_title">Почистване на хранилището</string>
+    <string name="auto_clean_trigger_percent_ninety">Когато е пълно на 90%</string>
+    <string name="auto_clean_trigger_percent_eighty">Когато е пълно на 80%</string>
+    <string name="auto_clean_trigger_percent_sixty">Когато е пълно на 60%</string>
+    <string name="auto_clean_notification_title">Напомняне за изчистване</string>
+    <string name="auto_clean_notification_content">Почистихте %s отпадъци</string>
 </resources>

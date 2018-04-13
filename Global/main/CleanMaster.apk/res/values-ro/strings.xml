@@ -497,4 +497,17 @@
     <string name="auto_clean_time_three_day">Fiecare la 3 zile</string>
     <string name="auto_clean_time_seven_day">Fiecare la 7 zile</string>
     <string name="auto_clean_time_fifteen_day">Fiecare la 15 zile</string>
+    <string name="pref_category_title_auto_clean_config_settings">Curățări automate</string>
+    <string name="pref_title_auto_clean">Curățați automat</string>
+    <string name="pref_title_auto_clean_operation">Metoda de curățare</string>
+    <string name="pref_title_auto_clean_trigger">Curățați spațiul de stocare</string>
+    <string name="auto_clean_operation_dialog_title">Metoda de curățare</string>
+    <string name="auto_clean_operation_clean_and_alert">Amintește-și curăță</string>
+    <string name="auto_clean_operation_just_clean">Doar curăță</string>
+    <string name="auto_clean_trigger_dialog_title">Curățați spațiul de stocare</string>
+    <string name="auto_clean_trigger_percent_ninety">Când este ocupat 90%</string>
+    <string name="auto_clean_trigger_percent_eighty">Când este ocupat 80%</string>
+    <string name="auto_clean_trigger_percent_sixty">Când este ocupat 60%</string>
+    <string name="auto_clean_notification_title">Amintește-mi să curăț</string>
+    <string name="auto_clean_notification_content">Curățat %s de gunoi</string>
 </resources>

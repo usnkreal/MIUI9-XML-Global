@@ -147,25 +147,6 @@
     <string name="antispam_provider">Доставчик: %s</string>
     <string name="antispam_notification_title">Неизвестен</string>
     <string name="suspect_info">Бъдете внимателни с личните ви данни.</string>
-    <string name="livetalk_dial">Обаждане от пакет с презареждане</string>
-    <string name="areacode_set_default">Задай по подразбиране.</string>
-    <string name="default_area_code_setting">Селищен код по подразбиране</string>
-    <string name="not_activate_sim_card_content_title">SIM картата не е потвърденa</string>
-    <string name="not_activate_sim_card_content">Потвърдете вашата SIM карта, преди да използвате пакети с презареждане. Можете да направите нормално повикване, което ще се таксува от вашия оператор.</string>
-    <string name="not_activate_sim_card_content_with_operator">Потвърждаване SIM %1$s (%2$s) за да направите повикване от пакет с презареждане. Можете да направите нормално повикване, което ще се таксува от вашия оператор.</string>
-    <string name="dialog_call_ordinary_telephone">Нормално повикване</string>
-    <string name="dialog_activate_livetalk">Подтвърди номер</string>
-    <string name="not_support_title">Не се поддържа.</string>
-    <string name="not_support_message">Не се поддържа този номер за зареждане на баланс. Опитайте нормално обаждане.</string>
-    <string name="livetalk_hangup">Затвори</string>
-    <string name="no_call_back_title">Внимание</string>
-    <string name="no_call_back_message">Времето за изчакване на връзка е прекалено дълго. Превключване на нормално обаждане, което може да бъде таксувано от вашия оператор.</string>
-    <string name="keep_wait_call_back">Задръж на изчакване</string>
-    <string name="network_error_title">Грешка в мрежата</string>
-    <string name="network_error_message">Опитайте да направите нормално обаждане. То ще се таксува от вашия оператор.</string>
-    <string name="do_not_ask">Не показвай отново</string>
-    <string name="time_left_livetalk">(%dс)</string>
-    <string name="can_not_call_oneself">Не може да се извърши повикване.</string>
     <string name="card_title_video_call_paused">Видеообаждането е на пауза.</string>
     <string name="card_title_incoming_conference_call">Входящо конферентно обаждане.</string>
     <string name="onscreen_change_to_voice">Гласово обаждане</string>
@@ -190,6 +171,9 @@
     <string name="close_camera_failed">Не може да се изключи камерата…</string>
     <string name="change_to_voice_tips_when_background">Отсрещният абонат е превключил на гласово повикване</string>
     <string name="video_crbt_title">%s видео тон за звънене</string>
+    <string name="crbt_second_hold_prompt">%s се задържа…</string>
+    <string name="crbt_second_hold_prompt_no_name">Предишното повикване е на задържане. …</string>
+    <string name="crbt_second_hold_prompt_conference">Конферентното обаждане е задържано…</string>
     <string name="call_button_tools_text">Опции</string>
     <string name="call_button_dialer_text">Клавиатура</string>
     <string name="call_button_mute_text">Заглуши</string>
@@ -211,6 +195,7 @@
     <string name="dialpad_seven">7</string>
     <string name="dialpad_eight">8</string>
     <string name="dialpad_nine">9</string>
+    <string name="prompt_no_volte_when_failed">VoLTE услугите не са достъпни.</string>
     <string name="no_vm_number">Липсващ номер на гласова поща</string>
     <string name="no_vm_number_msg">На SIM картата няма съхранен номер за гласова поща.</string>
     <string name="add_vm_number_str">Добави номер</string>
@@ -224,6 +209,10 @@
     <string name="dial_with_gsm_phone">Нормално обаждане</string>
     <string name="livetalk_left_minute">остават %s мин.</string>
     <string name="miprofile_stranger_card">Карта на непознат</string>
+    <string name="network_error_message">Опитайте да направите нормално обаждане. То ще се таксува от вашия оператор.</string>
+    <string name="network_error_title">Грешка в мрежата</string>
     <string name="no_balance_message">Няма достатъчно средства по вашия баланс. Пробвайте да извършите нормално обаждане.</string>
+    <string name="not_support_message">Не се поддържа този номер за зареждане на баланс. Опитайте нормално обаждане.</string>
+    <string name="not_support_title">Не се поддържа.</string>
     <string name="purchase_now">Вземи пакет</string>
 </resources>
