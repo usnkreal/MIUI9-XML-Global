@@ -1,13 +1,17 @@
-8.x
-- Magisk - The Universal Systemless Interface v16
+8.4.x
 -
+-
+
+8.3.29 Only LEO published
+- Magisk - The Universal Systemless Interface v16 (LEO\VIRGO)
+- Universal SafetyNet Fix v2 Beta 5 (LEO\VIRGO)
 
 8.3.9
 - RAM status (translated to another language: GB, MB)
 - Fix crash Wallpaper Carousel
 
 8.3.1
-- Downgrade modem version, add from firmware 6.5.12 (MPSS.DI.4.0-63d722f)
+- Downgrade modem version, add from firmware 6.5.12 (MPSS.DI.4.0-63d722f) Mi Note (Virgo)
 - Fix MiFit
 - Displaying avatars in Email
 - Fix DND mod
